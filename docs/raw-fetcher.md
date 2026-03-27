@@ -106,7 +106,8 @@ python3 scripts/fetch_trials_raw.py \
 - `--query-intr`: intervention query
 - `--query-locn`: location query
 - `--filter-overall-status`: repeatable status filter
-- `--filter-phase`: repeatable phase filter
+- `--filter-phase`: repeatable phase filter, translated into `filter.advanced`
+- `--filter-advanced`: raw ClinicalTrials.gov advanced filter expression
 - `--page-size`: studies per API page
 - `--max-studies`: hard cap for this run
 - `--dry-run`: inspect the request URL only

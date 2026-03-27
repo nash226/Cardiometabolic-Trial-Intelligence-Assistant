@@ -59,4 +59,4 @@ The assistant must answer conservatively, distinguish facts from inference, and 
 
 See [docs/architecture.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/architecture.md) and [docs/schema-and-api.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/schema-and-api.md) for the concrete implementation target.
 
-For the first ingestion step, see [docs/ingestion-field-mapping.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/ingestion-field-mapping.md) and [docs/raw-fetcher.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/raw-fetcher.md).
+For the first ingestion steps, see [docs/ingestion-field-mapping.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/ingestion-field-mapping.md), [docs/raw-fetcher.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/raw-fetcher.md), and [docs/normalizer.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/normalizer.md).

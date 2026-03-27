@@ -1,0 +1,37 @@
+{
+  "api_base_url": "https://clinicaltrials.gov/api/v2/studies",
+  "config": {
+    "delay_seconds": 0.25,
+    "filter_advanced": null,
+    "filter_overall_status": [
+      "RECRUITING"
+    ],
+    "filter_phase": [
+      "PHASE3"
+    ],
+    "include_total_count": true,
+    "max_studies": 3,
+    "page_size": 5,
+    "query_cond": "obesity",
+    "query_intr": null,
+    "query_locn": null,
+    "query_term": null
+  },
+  "nct_ids": [
+    "NCT06893016",
+    "NCT06974851",
+    "NCT07037433"
+  ],
+  "pages": [
+    {
+      "next_page_token": "ZVJj7o2Elu8o3lprBNb8orbumpOQJJxuZ_Sm3vAW",
+      "page_number": 1,
+      "request_url": "https://clinicaltrials.gov/api/v2/studies?format=json&countTotal=true&pageSize=5&query.cond=obesity&filter.overallStatus=RECRUITING&filter.advanced=AREA%5BPhase%5DPHASE3",
+      "returned_study_count": 5,
+      "total_count": 79
+    }
+  ],
+  "run_directory": "data/raw/20260327T175821Z",
+  "run_generated_at": "2026-03-27T17:58:21.963173+00:00",
+  "study_count": 3
+}

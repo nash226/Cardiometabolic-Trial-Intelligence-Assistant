@@ -37,6 +37,7 @@ class FetchConfig:
     query_locn: str | None
     filter_overall_status: list[str]
     filter_phase: list[str]
+    filter_advanced: str | None
     page_size: int
     max_studies: int
     include_total_count: bool
@@ -76,7 +77,18 @@ def parse_args() -> argparse.Namespace:
         "--filter-phase",
         action="append",
         default=[],
-        help="Repeatable phase filter, for example PHASE2, PHASE3, or PHASE4.",
+        help=(
+            "Repeatable phase filter, for example PHASE2, PHASE3, or PHASE4. "
+            "This is translated into filter.advanced because the v2 API does not "
+            "expose a direct filter.phase parameter."
+        ),
+    )
+    parser.add_argument(
+        "--filter-advanced",
+        help=(
+            "Raw ClinicalTrials.gov advanced filter expression, for example "
+            "'AREA[Phase]PHASE3 AND AREA[StudyType]INTERVENTIONAL'."
+        ),
     )
     parser.add_argument(
         "--page-size",
@@ -129,6 +141,7 @@ def build_config(args: argparse.Namespace) -> FetchConfig:
         query_locn=args.query_locn,
         filter_overall_status=args.filter_overall_status,
         filter_phase=args.filter_phase,
+        filter_advanced=args.filter_advanced,
         page_size=args.page_size,
         max_studies=args.max_studies,
         include_total_count=True,
@@ -157,8 +170,16 @@ def build_request_params(config: FetchConfig, page_token: str | None = None) -> 
         params["query.locn"] = config.query_locn
     if config.filter_overall_status:
         params["filter.overallStatus"] = config.filter_overall_status
+    advanced_clauses: list[str] = []
+    if config.filter_advanced:
+        advanced_clauses.append(config.filter_advanced)
     if config.filter_phase:
-        params["filter.phase"] = config.filter_phase
+        phase_clause = " OR ".join(f"AREA[Phase]{phase}" for phase in config.filter_phase)
+        if len(config.filter_phase) > 1:
+            phase_clause = f"({phase_clause})"
+        advanced_clauses.append(phase_clause)
+    if advanced_clauses:
+        params["filter.advanced"] = " AND ".join(advanced_clauses)
     if page_token:
         params["pageToken"] = page_token
     return params
