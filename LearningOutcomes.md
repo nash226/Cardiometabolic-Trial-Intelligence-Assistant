@@ -315,3 +315,164 @@ Questions this should answer:
 - which missing fields should cause rejection?
 
 Going forward, new work should keep updating this file so the implementation and the learning trail stay in sync.
+
+## 10. Why we need parsing
+
+### The core idea
+
+Raw ClinicalTrials.gov records are not the same thing as our application data model.
+
+That means the ingestion pipeline needs a step that can safely read the raw source format and extract the fields we actually care about.
+
+### The three ingestion concepts
+
+We should think about the ingestion pipeline in three separate layers:
+
+#### Fetch
+
+Job:
+
+- download source records unchanged
+
+What it answers:
+
+- how do we get the source data onto disk?
+
+Current project artifact:
+
+- [scripts/fetch_trials_raw.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fetch_trials_raw.py)
+
+#### Parse
+
+Job:
+
+- read the raw record structure and extract usable values from nested source modules
+
+What it answers:
+
+- where is the field in the source record?
+- how do we read it safely if the field is missing, nested, or shaped differently?
+
+Examples:
+
+- reading `protocolSection.statusModule.primaryCompletionDateStruct.date`
+- reading `protocolSection.armsInterventionsModule.interventions[]`
+- reading `protocolSection.contactsLocationsModule.locations[]`
+
+Why parsing is necessary:
+
+- source records are nested
+- fields are optional
+- arrays and objects vary by module
+- some values are semi-structured or inconsistent across studies
+
+Without a parsing layer, every downstream part of the system would need to know the raw source shape, which would make the code repetitive and fragile.
+
+#### Normalize
+
+Job:
+
+- transform parsed source values into the application’s internal schema
+
+What it answers:
+
+- what should this field be called in our system?
+- should this become a scalar field, a child record, or a derived helper field?
+
+Examples:
+
+- `nctId` becomes `nct_id`
+- raw condition strings become `conditions` plus `condition_labels`
+- source dates contribute to `is_2026_relevant`
+
+Current project artifact:
+
+- [scripts/normalize_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/normalize_trial.py)
+
+### Important distinction
+
+Parser and normalizer are closely related, but they are not the same responsibility.
+
+- parser = find and extract data from the source format
+- normalizer = shape that extracted data into our internal model
+
+In small scripts, they can live together in the same file.
+
+But conceptually they should stay separate in our thinking, because that makes the system easier to reason about and debug.
+
+### What I learned
+
+- Source-oriented code and application-oriented code are not the same layer.
+- Parsing protects the rest of the system from raw source complexity.
+- Normalization makes retrieval and filtering stable.
+
+## 11. Who the target user is
+
+### Primary target user
+
+The MVP should be built for:
+
+- research-oriented users who need structured intelligence over cardiometabolic interventional trials
+
+Examples:
+
+- biotech or pharma strategy users
+- clinical research analysts
+- healthcare market intelligence users
+- medically literate product or research users tracking the trial landscape
+
+### Secondary target user
+
+A secondary target user is:
+
+- a student, analyst, founder, or builder who wants to learn the cardiometabolic trial landscape quickly
+
+This is useful because it matches both:
+
+- the product demo story
+- the educational value of the project
+
+### What these users actually need
+
+They do not primarily need:
+
+- a general medical chatbot
+- personal medical advice
+- diagnosis or treatment recommendations
+
+They do need:
+
+- fast trial search
+- reliable filtering
+- structured trial comparison
+- source-grounded summaries
+- visibility into why a trial matched the query
+
+### Typical user questions
+
+- Which obesity trials are recruiting right now?
+- Which phase 3 studies involve GLP-1 or dual agonist therapy?
+- What are the main endpoint patterns across current MASH trials?
+- Which trials include adolescents?
+- Which studies are industry-sponsored?
+
+### Why this matters for system design
+
+The target user definition influences:
+
+- which fields we normalize
+- which filters we prioritize
+- which compare views we support
+- how conservative the answering system should be
+
+Because the user is research-oriented, the product should emphasize:
+
+- structured evidence
+- transparency
+- citations
+- non-hallucinatory summaries
+
+### What I learned
+
+- User definition is an architecture input, not just a product note.
+- Once the user is clear, it becomes much easier to decide what data to preserve and what features matter.
