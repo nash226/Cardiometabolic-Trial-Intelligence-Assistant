@@ -476,3 +476,115 @@ Because the user is research-oriented, the product should emphasize:
 
 - User definition is an architecture input, not just a product note.
 - Once the user is clear, it becomes much easier to decide what data to preserve and what features matter.
+
+## 12. Normalization policy as a contract
+
+### What we decided
+
+Before building validation, we agreed on explicit normalization criteria and recorded them in [docs/normalization-policy.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/normalization-policy.md).
+
+The key principles are:
+
+- preserve source fidelity
+- use stable internal naming
+- keep repeated fields as repeated structures
+- derive only deterministic helper fields
+- never use an LLM during normalization
+- keep missingness explicit
+
+### Why this matters
+
+Validation should not be based on hidden coding assumptions.
+
+It should enforce a documented contract.
+
+That means the right order is:
+
+1. agree on normalization policy
+2. document it
+3. implement validation against it
+
+### What I learned
+
+- A policy document can be useful even in a small project because it separates system rules from code details.
+- This makes later validation decisions easier to defend and easier to change.
+
+## 13. Validation turns normalization into corpus construction
+
+### What we built
+
+We created [scripts/validate_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/validate_trial.py) and documented it in [docs/validation.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/validation.md).
+
+The validator reads one normalized trial record and outputs:
+
+- `accepted`
+- `errors`
+- `rejection_reasons`
+- `warning_reasons`
+- a compact summary block
+
+### Why this matters
+
+Normalization tells us what a source record becomes.
+
+Validation tells us whether that normalized record belongs in the MVP corpus.
+
+That distinction matters because a record can be:
+
+- technically valid JSON
+- successfully normalized
+- but still out of product scope
+
+### Current rules
+
+Current required fields:
+
+- `nct_id`
+- `brief_title`
+- `study_type`
+- `overall_status`
+
+Current rejection rules:
+
+- not `INTERVENTIONAL`
+- missing phase
+- phase outside `PHASE2` to `PHASE4`
+- missing normalized condition labels
+- condition labels outside `obesity`, `type_2_diabetes`, or `mash`
+
+Current warning rules:
+
+- missing `official_title`
+- missing `brief_summary`
+- missing `criteria_text`
+- missing locations
+- missing outcomes
+
+### What I learned
+
+- Validation is where product scope becomes executable logic.
+- This stage is what turns ingestion into corpus construction.
+- Required fields, warnings, and rejection rules should be explicit rather than implicit.
+
+### Real result
+
+We validated a real normalized record:
+
+- `NCT07037433`
+
+The result was accepted with:
+
+- study type: `INTERVENTIONAL`
+- phase: `PHASE3`
+- condition label: `obesity`
+- 2026 relevance: `true`
+
+### Small implementation lesson
+
+The first validator run reported success but did not write the file where expected because the validation output path handling was wrong.
+
+That was fixed by making the output path explicit under:
+
+- [data/normalized/validation](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized/validation)
+
+This was a useful reminder that even simple ETL scripts need end-to-end verification, not just successful console output.
