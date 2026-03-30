@@ -37,6 +37,8 @@ This uses the OpenAI embeddings API when:
 - `OPENAI_API_KEY` is set
 - a model name is provided
 
+The scripts now attempt to load `OPENAI_API_KEY` automatically from a local `.env` file in the project root.
+
 Why this matters:
 
 - it gives us a path to real semantic retrieval without changing the surrounding architecture
@@ -65,6 +67,15 @@ Search it:
 
 ```bash
 python3 scripts/semantic_search.py "incretin obesity therapy"
+```
+
+Build a real OpenAI semantic index:
+
+```bash
+python3 scripts/build_chunk_embeddings.py \
+  data/processed_runs_with_chunks/20260330T021936Z/chunks \
+  --provider openai \
+  --model text-embedding-3-small
 ```
 
 ## Current limitation

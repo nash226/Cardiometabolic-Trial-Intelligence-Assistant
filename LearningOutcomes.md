@@ -1315,3 +1315,161 @@ That means:
   - hybrid lexical results
   - semantic results
   - combined retrieval behavior
+
+## 22. Comparing semantic retrieval to lexical and hybrid retrieval
+
+### What we did
+
+We ran the same types of queries across:
+
+- lexical search
+- structured + lexical hybrid search
+- semantic search using the OpenAI embeddings index
+
+### Query 1: `incretin obesity therapy`
+
+#### Semantic search
+
+Semantic search returned conceptually related chunks including:
+
+- `NCT06715514` GLP-1-related identity and intervention chunks
+- `NCT07314684` GLP1-RA-related identity and summary chunks
+- obesity-related chunks from `NCT06893016`
+
+This is useful because the query did not rely only on exact term overlap.
+
+#### Lexical search
+
+Lexical search found some related material too, but it mixed:
+
+- relevant GLP-1-related chunks
+- obesity chunks that matched mostly on literal keyword overlap
+
+#### Hybrid lexical search
+
+With filters constrained to accepted obesity interventional 2026-relevant trials, hybrid search returned only `NCT06893016` chunks.
+
+That is also useful because it shows:
+
+- structured filters can intentionally narrow the retrieval space
+- but they can also exclude semantically related cross-condition material when the filter is tight
+
+### Query 2: `trial completion date`
+
+#### Semantic search
+
+Semantic search returned mostly `timeline` chunks.
+
+That is a strong sign that:
+
+- the chunk design is sensible
+- the semantic index is finding the right section type for this query
+
+#### Lexical search
+
+Lexical search also returned many `timeline` chunks, but it surfaced at least one less-useful summary chunk because of exact word overlap with `trial`.
+
+#### Hybrid lexical search
+
+Hybrid retrieval restricted results to the accepted in-scope interventional 2026-relevant trials, which produced a cleaner result set:
+
+- `NCT06893016`
+- `NCT07314684`
+
+### What I learned
+
+- Semantic retrieval helps most on concept-heavy queries where wording may vary.
+- Lexical retrieval remains strong for explicit metadata-style phrases.
+- Hybrid lexical retrieval is best when the user intent includes clear structured constraints.
+- Semantic retrieval without structured filtering can surface relevant but out-of-scope trials.
+
+### Practical takeaway
+
+The three retrieval modes are best at different things:
+
+- lexical: exact terms
+- hybrid lexical: exact terms inside the right trial subset
+- semantic: concept similarity across varied wording
+
+That means the next real retrieval improvement should be:
+
+- a combined ranking or fusion layer
+
+instead of replacing one method with another.
+
+## 24. Fused retrieval combines lexical and semantic signals explicitly
+
+### What we built
+
+We created:
+
+- [scripts/fused_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fused_search.py)
+- [docs/fused-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/fused-search.md)
+
+The fused layer:
+
+- applies structured trial filters
+- computes lexical scores
+- computes semantic scores
+- normalizes both score families
+- combines them with configurable weights
+
+### Why this matters
+
+This is the first layer that treats lexical and semantic retrieval as complementary signals instead of separate tools.
+
+It also keeps the system transparent because every result reports:
+
+- lexical raw score
+- semantic raw score
+- lexical normalized score
+- semantic normalized score
+- fused score
+
+### Real result: concept-heavy query
+
+Query:
+
+- `incretin obesity therapy`
+
+With:
+
+- `accepted_only`
+- `study_type=INTERVENTIONAL`
+- `year_2026_only=true`
+- weights `lexical=0.4`, `semantic=0.6`
+
+The top fused results included:
+
+- `NCT07314684` outcomes
+- `NCT07314684` summary
+- `NCT06893016` conditions/interventions
+
+This shows semantic similarity contributing strongly where exact lexical overlap is weaker.
+
+### Real result: metadata-style query
+
+Query:
+
+- `trial completion date`
+
+With:
+
+- `accepted_only`
+- `study_type=INTERVENTIONAL`
+- `year_2026_only=true`
+- weights `lexical=0.6`, `semantic=0.4`
+
+The top fused results were:
+
+- `NCT06893016` timeline
+- `NCT07314684` timeline
+
+This is what we want because date-oriented queries benefit heavily from lexical precision and the timeline chunk structure.
+
+### What I learned
+
+- Fused retrieval lets us tune behavior by query style.
+- Concept-heavy queries benefit more from semantic weight.
+- metadata-style queries benefit more from lexical weight.
+- score transparency makes it much easier to reason about why a result ranked where it did.
