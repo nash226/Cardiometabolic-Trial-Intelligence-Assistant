@@ -9,6 +9,36 @@ Each section should answer:
 - what we learned from it
 - what comes next
 
+## Current Architectural Snapshot
+
+The system currently has three implemented ingestion layers and a documented product frame.
+
+Current flow:
+
+1. `fetch`
+   - [scripts/fetch_trials_raw.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fetch_trials_raw.py)
+   - pulls raw ClinicalTrials.gov study records and saves them unchanged under [data/raw](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw)
+
+2. `normalize`
+   - [scripts/normalize_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/normalize_trial.py)
+   - converts one raw record into the project’s internal trial shape and writes it under [data/normalized](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized)
+
+3. `validate`
+   - [scripts/validate_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/validate_trial.py)
+   - decides whether a normalized record belongs in the MVP corpus and writes the result under [data/normalized/validation](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized/validation)
+
+Current product scope:
+
+- source: ClinicalTrials.gov
+- conditions: obesity, type 2 diabetes, MASH/NAFLD
+- study type: interventional only
+- phase: 2 through 4
+- time focus: 2026-relevant trials
+
+Current architectural principle:
+
+- build the system as a transparent hybrid retrieval pipeline, starting from trustworthy ingestion before UI or LLM-heavy features
+
 ## 1. Narrowing the product scope
 
 ### What we decided
@@ -22,6 +52,12 @@ MVP scope:
 - conditions: obesity, type 2 diabetes, MASH/NAFLD
 - study type: interventional only
 - phase: 2 through 4
+Why keep Phase 2-4?
+
+Phase 2 starts to have meaningful efficacy, dose, and endpoint structure.
+Phase 3 is highly important for competitive and clinical landscape tracking.
+Phase 4 captures post-approval and real-world follow-up studies that still matter strategically.
+
 - time focus: trials relevant to 2026
 - source: ClinicalTrials.gov study records
 
@@ -588,3 +624,65 @@ That was fixed by making the output path explicit under:
 - [data/normalized/validation](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized/validation)
 
 This was a useful reminder that even simple ETL scripts need end-to-end verification, not just successful console output.
+
+## 14. Batch processing is the first real pipeline checkpoint
+
+### What we built
+
+We created [scripts/process_raw_run.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/process_raw_run.py) and documented it in [docs/batch-pipeline.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/batch-pipeline.md).
+
+The batch runner:
+
+- reads one raw fetch run
+- normalizes every study in the run
+- validates every normalized study
+- writes batch outputs into [data/processed_runs](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/processed_runs)
+- produces a `summary.json` report
+
+### Why this matters
+
+Single-record processing proves that the code works in isolation.
+
+Batch processing shows whether the pipeline works as a system.
+
+It also gives us the first corpus-level questions:
+
+- how many records are accepted?
+- how many are rejected?
+- which rejection reasons are common?
+- which warnings are common?
+
+### Real batch result
+
+We processed:
+
+- `data/raw/20260327T175821Z`
+
+Summary:
+
+- total studies: `3`
+- accepted: `3`
+- rejected: `0`
+- warnings: `0`
+
+Accepted NCT IDs:
+
+- `NCT06893016`
+- `NCT06974851`
+- `NCT07037433`
+
+### What I learned
+
+- The end-to-end pipeline now works across a batch, not just individual records.
+- The current sample is very homogeneous because it was fetched with tight obesity + recruiting + phase 3 filters.
+- That means the batch run is useful as a mechanical checkpoint, but not yet a stress test of validation quality.
+
+### Why that matters
+
+A clean batch result does not necessarily mean the rules are complete.
+
+It may just mean:
+
+- the fetch query already pre-filtered most edge cases out
+
+So the next time we want to test validation rigor, we should fetch a broader and messier sample.
