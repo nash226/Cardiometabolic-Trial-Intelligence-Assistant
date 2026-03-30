@@ -9,6 +9,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+from generate_chunks import generate_chunks, write_json as write_chunk_json
 from normalize_trial import load_json as load_raw_json
 from normalize_trial import normalize_trial, write_json as write_normalized_json
 from validate_trial import validate_trial, write_json as write_validation_json
@@ -37,13 +38,15 @@ def collect_study_files(run_dir: Path) -> list[Path]:
     return sorted(studies_dir.glob("*.json"))
 
 
-def build_output_dirs(output_root: Path, run_name: str) -> tuple[Path, Path, Path]:
+def build_output_dirs(output_root: Path, run_name: str) -> tuple[Path, Path, Path, Path]:
     run_output_dir = output_root / run_name
     normalized_dir = run_output_dir / "normalized"
     validation_dir = run_output_dir / "validation"
+    chunks_dir = run_output_dir / "chunks"
     normalized_dir.mkdir(parents=True, exist_ok=True)
     validation_dir.mkdir(parents=True, exist_ok=True)
-    return run_output_dir, normalized_dir, validation_dir
+    chunks_dir.mkdir(parents=True, exist_ok=True)
+    return run_output_dir, normalized_dir, validation_dir, chunks_dir
 
 
 def build_summary(
@@ -69,7 +72,7 @@ def build_summary(
 
 def process_run(run_dir: Path, output_root: Path) -> Path:
     study_files = collect_study_files(run_dir)
-    run_output_dir, normalized_dir, validation_dir = build_output_dirs(output_root, run_dir.name)
+    run_output_dir, normalized_dir, validation_dir, chunks_dir = build_output_dirs(output_root, run_dir.name)
 
     study_results: list[dict[str, Any]] = []
     rejection_counts: Counter[str] = Counter()
@@ -87,6 +90,10 @@ def process_run(run_dir: Path, output_root: Path) -> Path:
         validation_path = validation_dir / f"{nct_id}.json"
         write_validation_json(validation_path, validation_payload)
 
+        chunk_payload = generate_chunks(normalized_payload)
+        chunk_path = chunks_dir / f"{nct_id}.json"
+        write_chunk_json(chunk_path, chunk_payload)
+
         rejection_counts.update(validation_payload.get("rejection_reasons", []))
         warning_counts.update(validation_payload.get("warning_reasons", []))
 
@@ -96,6 +103,7 @@ def process_run(run_dir: Path, output_root: Path) -> Path:
                 "raw_path": str(study_file),
                 "normalized_path": str(normalized_path),
                 "validation_path": str(validation_path),
+                "chunk_path": str(chunk_path),
                 "validation": validation_payload,
             }
         )

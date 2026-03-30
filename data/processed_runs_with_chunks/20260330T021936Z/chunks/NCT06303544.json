@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06303544:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06303544\nBrief title: More Outside Your Door: a Diet/physical Activity Intervention to Decrease Risk of Obesity in Alaska Native Preschoolers\nOfficial title: More Outside Your Door (MOYD): a Multilevel Intervention Promoting Traditional Diet and Physical Activity to Decrease Risk of Obesity in Alaska Native (AN) Preschoolers\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT06303544"
+    },
+    {
+      "chunk_id": "NCT06303544:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Child Obesity\nIntervention labels: Wedge 1\nDrug class labels: \nArms: Wedge 1; Wedge 2; Wedge 3\nKeywords: Head Start, CBPR",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06303544"
+    },
+    {
+      "chunk_id": "NCT06303544:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The preschool age is a crucial period of growth and an optimal time to begin to establish healthy eating and physical activity habits leading to better food and activity choices into adulthood, thereby minimizing risk for obesity-related diseases and decreasing the cardiometabolic disparities in this Indigenous population. More Outside Your Door is a multi-level, randomized, stepped-wedge intervention trial designed to reduce the disparity of childhood obesity in Yup'ik Alaska Native children by increasing the proportion of nutrient-dense traditional and traditional-like foods offered and increasing physical activity, particularly outdoor activities related to traditional Yup'ik subsistence and lifestyle practices. This 5-year intervention trial targeting 3-5 year olds is conducted in partnership with Rural Action Community Action Program Head Start programs in 12 rural Alaskan communities, where each site is assigned annually to a wedge group to receive either a community-altered culturally-tailored 8-month traditional foods and activities curriculum intervention or the standard regional Head Start program intervention.\nDetailed description: The Rural Alaska Community Action Program (RurAL CAP), which administers Head Start schools in rural Alaska, reports that 68% of Alaska Native children ages 3 to 5 years are overweight and 43% are obese. Diet, physical activity, and sleep hygiene are primary risk factors for childhood obesity, a risk factor for cardiometabolic diseases later in life. Notably, subclinical cardiovascular pathology can be detected as early as 3 years of age. Once living off the land and sea, Alaska Native (AN) people have suffered decades of colonization and in-migration, which have interfered with traditional food consumption, signaling a striking change in local food systems. Diet and physical activity are prime targets for early intervention, as taste preferences and exercise habits established in childhood forge lifelong adherence. Thus, investigators have designed More Outside Your Door, a multilevel intervention, which at the individual level builds on prior efforts to promote traditional diet and activities to decrease risk for obesity in Alaska Native preschoolers. At the family level, MOYD provides feedback to parents about their child's health screenings; at the school level, it features traditional foods, outdoor traditional physical activities, and a culturally centered curriculum. At the community level, it offers resources to improve the built environment for safe outdoor play that invites all community members to participate. In partnership, the Alaska Native Tribal Health Consortium, RurAL CAP, and collaborators will refine and test the effectiveness of MOYD at 12 Head Start preschools in the Yukon-Kuskokwim region: (1) investigators will use qualitative methods with Head Start staff, parents, and community Elders to optimally tailor MOYD for southwest Alaska communities; (2) investigators will conduct a stepped-wedge group-randomized trial to test its effect on children's diet, physical activity (PA), body mass index (BMI), and other risk factors for obesity-related chronic disease over three years. Primary outcomes are diet (classroom meals, actigraphy-based physical activity, and body mass index. Secondary outcomes include individual child level measures of hemoglobin levels and educational and developmental progress; parent report of diet, activity, and sleep at home; and measures of traditional foods/sugar-sweetened/processed foods by carbon and nitrogen stable isotope ratios using fingernail clippings. Investigators will also measure outcomes at the school level (classroom meals, outdoor time) and community level (objective data on use of play space). (3) Investigators will conduct a process evaluation using the RE-AIM framework. The Specific Aims are to (1) conduct preschool staff and parent/elder workgroups to refine the MOYD intervention for optimal effectiveness for obesity prevention among AN preschool children; (2) test the effectiveness of MOYD on a) diet, PA, outdoor time, and BMI; and b) improving other clinical and behavioral risk factors for obesity-related chronic disease in preschool children; and (3) Implement the RE-AIM framework to evaluate dissemination and implementation of the MOYD intervention in Head Start programs.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 619,
+      "trial_nct_id": "NCT06303544"
+    },
+    {
+      "chunk_id": "NCT06303544:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 3 Years\nMaximum age: 5 Years\nAge groups: CHILD\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* parent who identifies as Alaska Native (AN)\n* parental consent\n* enrolled in preschool in one of the12 participating Head Start programs\n* present at school for health screenings\n\nExclusion Criteria:\n\n* lack of parental consent\n* does not have a parent who is AN",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 65,
+      "trial_nct_id": "NCT06303544"
+    },
+    {
+      "chunk_id": "NCT06303544:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=BMI | time_frame=3 years | description=Body mass index (kg/m2)\ntype=primary | measure=Physical activity | time_frame=3 years | description=Measured via accelerometers (minutes)\ntype=primary | measure=Outdoor time | time_frame=3 years | description=Time (minutes) spent outdoors by children\ntype=primary | measure=Sleep quality | time_frame=3 years | description=Hours of sleep measured by survey\ntype=primary | measure=Fingernail nitrogen & carbon stable isotope ratios | time_frame=3 years | description=Measurements of traditional food intake and added sugar intake",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 73,
+      "trial_nct_id": "NCT06303544"
+    },
+    {
+      "chunk_id": "NCT06303544:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-09-01\nPrimary completion date: 2027-06-30\nCompletion date: 2028-05-30\nStudy first posted: 2024-03-12\nResults first posted: None\nLast update posted: 2025-01-29\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06303544"
+    },
+    {
+      "chunk_id": "NCT06303544:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Alaska Native Tribal Health Consortium\nLead sponsor class: OTHER\nCollaborators: Washington State University; University of Alaska Anchorage\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT06303544"
+    }
+  ],
+  "trial_nct_id": "NCT06303544"
+}

@@ -13,6 +13,7 @@ Given one raw fetch run directory:
 - reads every study JSON file under `studies/`
 - normalizes each study
 - validates each normalized record
+- generates retrieval chunks for each normalized record
 - writes batch outputs into a processed-run folder
 - produces a `summary.json` report
 
@@ -39,6 +40,7 @@ The batch runner writes:
 
 ```text
 data/processed_runs/20260327T175821Z/
+├── chunks/
 ├── normalized/
 ├── validation/
 └── summary.json

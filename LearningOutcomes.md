@@ -839,6 +839,8 @@ The taxonomy currently uses:
 - explicit mappings for known labels
 - simple contains-rules for broader matching
 
+condition taxonomy = our rulebook for turning many source condition names into a few stable project categories.
+
 Current stable labels:
 
 - `obesity`

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06748963:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06748963\nBrief title: Fasted Exercise Training in Type 1 Diabetes (FED-T1D)\nOfficial title: Exercise Training Before (Fasted) Versus After (Fed) Breakfast in Type 1 Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06748963"
+    },
+    {
+      "chunk_id": "NCT06748963:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Mellitus, Type 1\nIntervention labels: Fasted Exercise; Postprandial Exercise\nDrug class labels: \nArms: Fasted Exercise; Postprandial Exercise\nKeywords: Exercise; Continuous glucose monitoring; total daily insulin dose; Muscle fat; Liver fat",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06748963"
+    },
+    {
+      "chunk_id": "NCT06748963:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study compares aerobic exercise training performed before breakfast (i.e., in the fasted state) to similar training performed after breakfast in people with type 1 diabetes. Training will take place over 12 weeks.\nDetailed description: People with type 1 diabetes (PwT1D) are encouraged to increase their physical activity (PA). Increasing the amount of PA can be difficult, especially for PwT1D who experience barriers to exercise. Therefore, simply recommending that PwT1D preform more exercise may not be the most effective prescription in the long term. Recent short-term studies have s suggest that exercise performed before eating (fasted) causes blood sugars to decrease less or even increase, compared exercise performed after a meal, which usually causes blood sugar to decrease. To date, no long-term study has compared the effects of exercise performed with or without eating beforehand in people with T1D.\n\nThis study will compare the effects of 12 weeks of exercise before breakfast compared to 12 weeks of exercise after breakfast. It is expected that exercise before breakfast (i.e., in the fasted state) will lead to larger reductions in overall insulin dose, without the addition of more exercise.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 189,
+      "trial_nct_id": "NCT06748963"
+    },
+    {
+      "chunk_id": "NCT06748963:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 55 Years\nAge groups: ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Clinical diagnosis of type 1 diabetes for 5 or more years.\n2. Treatment using an insulin pump with no change in treatment modality for \\> 2 continuous months and willing to share CGM data with the research team. Insulin delivery can be managed using either manual open-loop system (non-AID) or a hybrid closed loop (AID) systems.\n3. Using rapid (e.g., Aspart, Lispro or Glulisine) or ultra-rapid (e.g., FiAsp) acting insulin analogs.\n4. HbA1c 7.0-9.9%.\n5. Have BMI of 25 kg/m2 or above\n6. Have waist circumference associated with central obesity/metabolic syndrome as per Diabetes Canada definition\n\n   * 94cm for males of European, Sub-Saharan African, Eastern Mediterranean and Middle Eastern descent\n   * 90cm for males of South Asian, Chinese, Japanese, South and Central American descent\n   * 80cm for females\n7. No history of stroke, myocardial infarction, or coronary artery disease\n8. Not wearing implantable device such as a pacemaker, neurostimulators, aneurysm clips, metal fragments, epicardial electrodes, cochlear implants, magnetic ocular implants, penile implants, magnetic tissue expander, some types of breast implants, magnetic orthopedic implants, magnetic dental implants, hearing Aids, intravascular implants, for example VCI filters, coils, stents, cardiac septum implants, ventricular bypass devices.\n9. Use a CGM in routine diabetes management.\n\nExclusion Criteria:\n\n1. Major complication within the previous 3 months (e.g., severe hypoglycemia requiring assistance, diabetic ketoacidosis, or cardiovascular event).\n2. Restriction in aerobic or resistance exercise due to significant diabetes complications (e.g., severe peripheral neuropathy, active proliferative retinopathy, etc.) or other type of limitations (e.g., orthopedic, severe arthritis, etc.).\n3. Uncontrolled hypertension (e.g., blood pressure \\>160 mmHg systolic or \\>100 mmHg diastolic).\n4. Implanted device, material, or having a condition contraindicated to MRI.\n5. Ongoing pregnancy or breastfeeding.\n6. Inability to give consent.\n7. Use of an injection-based insulin therapy (ex. multiple daily injections or combined pump and injection-based delivery).",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 321,
+      "trial_nct_id": "NCT06748963"
+    },
+    {
+      "chunk_id": "NCT06748963:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Daily insulin dose (units/kg/day) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Total daily insulin dose (including basal and bolus insulin) will be measured over 7 consecutive days.\ntype=secondary | measure=Continuous glucose monitoring | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=24-hour mean glucose (mmol/L) as measured by continuous glucose monitors.\ntype=secondary | measure=Continuous glucose monitoring | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Time in range (%) as measured by continuous glucose monitors.\ntype=secondary | measure=Magnetic resonance imaging (MRI) volumes | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=MRI derived volumes (e.g., muscle fat, hepatic fat, pancreatic fat, subcutaneous fat, visceral fat)\ntype=secondary | measure=Basal and bolus insulin dose (units/kg/day) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Basal insulin dose (units/kg/day), bolus insulin dose (units/kg/day), and basal to bolus ratio\ntype=secondary | measure=Bioelectrical impedance (BIA) in kilograms | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=BIA body composition outcomes (e.g., fat mass, fat free mass, total body water), all measured in kilograms\ntype=secondary | measure=Glycated haemoglobin (%) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Hlycated hemoglobine (also known as HbA1c) expressed as a percentage.\ntype=secondary | measure=Concentrations of Fasting glucose | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Plasma glucose measured after an overnight fast\ntype=secondary | measure=Concentrations of Fasting insulin | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Plasma insulin measured after an overnight fast\ntype=secondary | measure=Concentrations of Fasting lipids | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Plasma total cholesterol, HDL-Cholesterol, LDL-Cholesterol and Triglycerides measured after an overnight fast\ntype=secondary | measure=Aerobic fitness | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Exercise test to determine ventilatory threshold\ntype=secondary | measure=Body weight (kilograms) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Weight will be measured in kilograms\ntype=secondary | measure=Height (centimeters) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Standing height\ntype=secondary | measure=Waist circumference (centimeters) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Waist circumference (between 12 rib and iliac crest) measures in centimeters\ntype=secondary | measure=Hip circumference (centimeters) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Hip circumference (between 12 rib and iliac crest) measures in centimeters\ntype=secondary | measure=Physical Activity in minutes per day | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Accelerometer measured active time (min/day), sedentary time (min/day)\ntype=secondary | measure=Food logs (kilocalories) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Food logs will be completed for three days (two weekday and one weekend) for estimation of macronutrient intake and total energy intake. Each of these will be expressed as kilocalories (i.e., kcal).\ntype=secondary | measure=Feasibility (rates expressed as percentage of the total sample) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Feasibility will include recruitment rate, and dropout rate. Each rate will be reported as the percentage of the total sample.\ntype=secondary | measure=Feasibility (rates expressed as percentage of the total number of sessions) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Feasibility will also include exercise adherence. Adherence will be reported as the percentage of the prescribed exercise sessions that were completed).\ntype=secondary | measure=Feasibility (barriers) | time_frame=From enrolment to the end of the exercise intervention at week 12. | description=Barriers will bve assessed using the \"Barriers to Physical Activity in Type 1 Diabetes\" (BAPAD-1) scale. This is a 11-item scale with 7-point Likert-type questions (i.e., each question has a minimum of 1 and a maximum of 7). The maximum score is therefore 77 and minimum score 11. A higher score indicates greater barriers.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 692,
+      "trial_nct_id": "NCT06748963"
+    },
+    {
+      "chunk_id": "NCT06748963:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-01-01\nPrimary completion date: 2026-04\nCompletion date: 2026-04\nStudy first posted: 2024-12-27\nResults first posted: None\nLast update posted: 2026-03-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06748963"
+    },
+    {
+      "chunk_id": "NCT06748963:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Alberta\nLead sponsor class: OTHER\nCollaborators: Alberta Diabetes Institute\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT06748963"
+    }
+  ],
+  "trial_nct_id": "NCT06748963"
+}

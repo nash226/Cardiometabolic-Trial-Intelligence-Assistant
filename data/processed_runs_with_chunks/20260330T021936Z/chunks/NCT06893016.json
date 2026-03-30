@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06893016:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06893016\nBrief title: Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight\nOfficial title: A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT06893016"
+    },
+    {
+      "chunk_id": "NCT06893016:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: RAY1225; Placebo\nDrug class labels: \nArms: RAY1225 High Dose; RAY1225 Medium Dose; RAY1225 Low Dose; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06893016"
+    },
+    {
+      "chunk_id": "NCT06893016:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The primary objective of this study is to demonstrate that RAY1225 is superior to placebo for percent change in body weight.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06893016"
+    },
+    {
+      "chunk_id": "NCT06893016:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Age \u2265 18 years.\n2. Body mass index \u2265 28 kg/m2 or \u226524kg/m\u00b2 to \\<28 kg/m2 with at least 1 of the following weight-related comorbidities: a) Systolic blood pressure \u2265130 mmHg or diastolic blood pressure \u226585 mmHg, or the use of at least one antihypertensive medication to maintain normal blood pressure;b) Fasting triglycerides (TG) \u22651.70 mmol/L, fasting low-density lipoprotein cholesterol (LDL-C) \u22654.1 mmol/L, fasting high-density lipoprotein cholesterol (HDL-C) \\<1.04 mmol/L, or the need for at least one lipid-lowering treatment to maintain normal lipid levels; c) Obstructive sleep apnea syndrome; d) Fatty liver; e) Cardiovascular disease; e) Polycystic ovary syndrome.\n3. History of at least 1 self-reported unsuccessful attempt at weight loss by diet and exercise.\n\nExclusion Criteria:\n\n1. Obesity known to be caused by monogenic mutations, other diseases, or medications.\n2. Family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2.\n3. A history of moderate to severe depression at any time in the past or a score of \u226515 on the PHQ-9 questionnaire at screening; a history of bipolar disorder, schizophrenia, or other severe psychiatric disorders.\n4. A history of organ transplantation (excluding corneal transplant), or being currently prepared to undergo organ transplantation.\n5. Plans to quit smoking during the study period\n6. Allergic constitution (allergic to multiple medications or foods), or those known to be allergic to RAY1225, GLP-1 receptor agonists, or GLP-1 related drugs.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 253,
+      "trial_nct_id": "NCT06893016"
+    },
+    {
+      "chunk_id": "NCT06893016:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change From Baseline in Body Weight at Week 52 | time_frame=Baseline and Week 52\ntype=primary | measure=Number of Participants who Achieved a \u2265 5% Reduction in Body Weight from Baseline at Week 52 | time_frame=Baseline and Week 52\ntype=secondary | measure=Change From Baseline in Waist Circumference at Week 52 | time_frame=Baseline and Week 52",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 57,
+      "trial_nct_id": "NCT06893016"
+    },
+    {
+      "chunk_id": "NCT06893016:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-15\nPrimary completion date: 2026-06-15\nCompletion date: 2026-09-15\nStudy first posted: 2025-03-25\nResults first posted: None\nLast update posted: 2025-07-17\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06893016"
+    },
+    {
+      "chunk_id": "NCT06893016:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Guangdong Raynovent Biotech Co., Ltd\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06893016"
+    }
+  ],
+  "trial_nct_id": "NCT06893016"
+}
