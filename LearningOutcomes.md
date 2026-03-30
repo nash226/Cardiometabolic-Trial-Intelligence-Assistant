@@ -315,3 +315,276 @@ Questions this should answer:
 - which missing fields should cause rejection?
 
 Going forward, new work should keep updating this file so the implementation and the learning trail stay in sync.
+
+## 10. Why we need parsing
+
+### The core idea
+
+Raw ClinicalTrials.gov records are not the same thing as our application data model.
+
+That means the ingestion pipeline needs a step that can safely read the raw source format and extract the fields we actually care about.
+
+### The three ingestion concepts
+
+We should think about the ingestion pipeline in three separate layers:
+
+#### Fetch
+
+Job:
+
+- download source records unchanged
+
+What it answers:
+
+- how do we get the source data onto disk?
+
+Current project artifact:
+
+- [scripts/fetch_trials_raw.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fetch_trials_raw.py)
+
+#### Parse
+
+Job:
+
+- read the raw record structure and extract usable values from nested source modules
+
+What it answers:
+
+- where is the field in the source record?
+- how do we read it safely if the field is missing, nested, or shaped differently?
+
+Examples:
+
+- reading `protocolSection.statusModule.primaryCompletionDateStruct.date`
+- reading `protocolSection.armsInterventionsModule.interventions[]`
+- reading `protocolSection.contactsLocationsModule.locations[]`
+
+Why parsing is necessary:
+
+- source records are nested
+- fields are optional
+- arrays and objects vary by module
+- some values are semi-structured or inconsistent across studies
+
+Without a parsing layer, every downstream part of the system would need to know the raw source shape, which would make the code repetitive and fragile.
+
+#### Normalize
+
+Job:
+
+- transform parsed source values into the application’s internal schema
+
+What it answers:
+
+- what should this field be called in our system?
+- should this become a scalar field, a child record, or a derived helper field?
+
+Examples:
+
+- `nctId` becomes `nct_id`
+- raw condition strings become `conditions` plus `condition_labels`
+- source dates contribute to `is_2026_relevant`
+
+Current project artifact:
+
+- [scripts/normalize_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/normalize_trial.py)
+
+### Important distinction
+
+Parser and normalizer are closely related, but they are not the same responsibility.
+
+- parser = find and extract data from the source format
+- normalizer = shape that extracted data into our internal model
+
+In small scripts, they can live together in the same file.
+
+But conceptually they should stay separate in our thinking, because that makes the system easier to reason about and debug.
+
+### What I learned
+
+- Source-oriented code and application-oriented code are not the same layer.
+- Parsing protects the rest of the system from raw source complexity.
+- Normalization makes retrieval and filtering stable.
+
+## 11. Who the target user is
+
+### Primary target user
+
+The MVP should be built for:
+
+- research-oriented users who need structured intelligence over cardiometabolic interventional trials
+
+Examples:
+
+- biotech or pharma strategy users
+- clinical research analysts
+- healthcare market intelligence users
+- medically literate product or research users tracking the trial landscape
+
+### Secondary target user
+
+A secondary target user is:
+
+- a student, analyst, founder, or builder who wants to learn the cardiometabolic trial landscape quickly
+
+This is useful because it matches both:
+
+- the product demo story
+- the educational value of the project
+
+### What these users actually need
+
+They do not primarily need:
+
+- a general medical chatbot
+- personal medical advice
+- diagnosis or treatment recommendations
+
+They do need:
+
+- fast trial search
+- reliable filtering
+- structured trial comparison
+- source-grounded summaries
+- visibility into why a trial matched the query
+
+### Typical user questions
+
+- Which obesity trials are recruiting right now?
+- Which phase 3 studies involve GLP-1 or dual agonist therapy?
+- What are the main endpoint patterns across current MASH trials?
+- Which trials include adolescents?
+- Which studies are industry-sponsored?
+
+### Why this matters for system design
+
+The target user definition influences:
+
+- which fields we normalize
+- which filters we prioritize
+- which compare views we support
+- how conservative the answering system should be
+
+Because the user is research-oriented, the product should emphasize:
+
+- structured evidence
+- transparency
+- citations
+- non-hallucinatory summaries
+
+### What I learned
+
+- User definition is an architecture input, not just a product note.
+- Once the user is clear, it becomes much easier to decide what data to preserve and what features matter.
+
+## 12. Normalization policy as a contract
+
+### What we decided
+
+Before building validation, we agreed on explicit normalization criteria and recorded them in [docs/normalization-policy.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/normalization-policy.md).
+
+The key principles are:
+
+- preserve source fidelity
+- use stable internal naming
+- keep repeated fields as repeated structures
+- derive only deterministic helper fields
+- never use an LLM during normalization
+- keep missingness explicit
+
+### Why this matters
+
+Validation should not be based on hidden coding assumptions.
+
+It should enforce a documented contract.
+
+That means the right order is:
+
+1. agree on normalization policy
+2. document it
+3. implement validation against it
+
+### What I learned
+
+- A policy document can be useful even in a small project because it separates system rules from code details.
+- This makes later validation decisions easier to defend and easier to change.
+
+## 13. Validation turns normalization into corpus construction
+
+### What we built
+
+We created [scripts/validate_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/validate_trial.py) and documented it in [docs/validation.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/validation.md).
+
+The validator reads one normalized trial record and outputs:
+
+- `accepted`
+- `errors`
+- `rejection_reasons`
+- `warning_reasons`
+- a compact summary block
+
+### Why this matters
+
+Normalization tells us what a source record becomes.
+
+Validation tells us whether that normalized record belongs in the MVP corpus.
+
+That distinction matters because a record can be:
+
+- technically valid JSON
+- successfully normalized
+- but still out of product scope
+
+### Current rules
+
+Current required fields:
+
+- `nct_id`
+- `brief_title`
+- `study_type`
+- `overall_status`
+
+Current rejection rules:
+
+- not `INTERVENTIONAL`
+- missing phase
+- phase outside `PHASE2` to `PHASE4`
+- missing normalized condition labels
+- condition labels outside `obesity`, `type_2_diabetes`, or `mash`
+
+Current warning rules:
+
+- missing `official_title`
+- missing `brief_summary`
+- missing `criteria_text`
+- missing locations
+- missing outcomes
+
+### What I learned
+
+- Validation is where product scope becomes executable logic.
+- This stage is what turns ingestion into corpus construction.
+- Required fields, warnings, and rejection rules should be explicit rather than implicit.
+
+### Real result
+
+We validated a real normalized record:
+
+- `NCT07037433`
+
+The result was accepted with:
+
+- study type: `INTERVENTIONAL`
+- phase: `PHASE3`
+- condition label: `obesity`
+- 2026 relevance: `true`
+
+### Small implementation lesson
+
+The first validator run reported success but did not write the file where expected because the validation output path handling was wrong.
+
+That was fixed by making the output path explicit under:
+
+- [data/normalized/validation](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized/validation)
+
+This was a useful reminder that even simple ETL scripts need end-to-end verification, not just successful console output.
