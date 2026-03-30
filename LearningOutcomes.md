@@ -686,3 +686,632 @@ It may just mean:
 - the fetch query already pre-filtered most edge cases out
 
 So the next time we want to test validation rigor, we should fetch a broader and messier sample.
+
+## 15. A broader sample is what reveals real rule behavior
+
+### What we did
+
+We fetched a broader recruiting sample using a mixed cardiometabolic query:
+
+- `obesity OR type 2 diabetes OR MASH OR NASH OR MASLD`
+
+Then we processed the new run through the batch pipeline:
+
+- [data/raw/20260330T021936Z](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z)
+- [summary.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/processed_runs/20260330T021936Z/summary.json)
+
+### Why this matters
+
+The earlier obesity-only sample was too clean.
+
+A broader fetch is what actually tests whether:
+
+- condition normalization is good enough
+- validation rules match our intended scope
+- the corpus excludes the noisy records we do not want
+
+### Real result
+
+Summary:
+
+- total studies: `10`
+- accepted: `2`
+- rejected: `8`
+
+Top rejection reasons:
+
+- `phase_out_of_scope`: `5`
+- `missing_normalized_condition`: `3`
+- `missing_phase`: `2`
+- `study_type_not_interventional`: `2`
+
+### What this tells us
+
+The current rules are doing something meaningful now.
+
+They are filtering out:
+
+- observational studies
+- interventional studies with `NA` phase
+- phase 1 studies
+- studies whose condition text our current normalizer does not map into the MVP buckets
+
+### What I learned
+
+- A narrow fetch can make weak rules look stronger than they are.
+- Broader samples are necessary to test scope boundaries honestly.
+- The current bottlenecks are now visible:
+  - phase handling
+  - condition terminology normalization
+
+### Important interpretation
+
+This result does not automatically mean the validator is too strict.
+
+It may mean:
+
+- the broader query is returning many studies outside our intended corpus
+- our current condition-mapping logic is still too shallow for real-world naming variation
+
+Those are different problems and should be evaluated separately.
+
+## 16. Rejected-study review confirmed the current scope
+
+### What we did
+
+We inspected additional rejected studies to answer a specific question:
+
+- are these rejections caused by weak normalization?
+- or are they correct under the current product scope?
+
+Examples reviewed:
+
+- [NCT06303544.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06303544.json)
+- [NCT06642363.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06642363.json)
+- [NCT06715514.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06715514.json)
+- [NCT06894498.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06894498.json)
+
+### What we found
+
+Most rejections are currently happening for good reasons:
+
+- `OBSERVATIONAL` instead of `INTERVENTIONAL`
+- `PHASE1`
+- `NA` phase
+- truly out-of-scope conditions such as type 1 diabetes
+
+The most ambiguous cases were interventional studies with correct condition matching but `NA` phase.
+
+Those were still rejected correctly under the current MVP definition because we intentionally decided to keep:
+
+- phase `2` through `4` only
+
+### Decision
+
+We are keeping the current scope as-is.
+
+That means:
+
+- do not broaden to `NA` phase interventional studies
+- do not loosen phase rules right now
+- do not change the validator based on these reviewed examples
+
+### What I learned
+
+- Reviewing rejected examples is necessary before changing rules.
+- A rejected study can look interesting without actually belonging in the corpus.
+- The current validator appears to be enforcing scope more than it is exposing normalization bugs.
+
+### What comes next
+
+Since scope stays fixed, the next useful ingestion improvement is:
+
+- condition taxonomy
+
+That is a better next step than changing validation, because it improves terminology handling without changing the product boundary.
+
+## 17. Condition taxonomy is now its own ingestion layer
+
+### What we built
+
+We moved condition mapping logic out of the normalizer and into a dedicated taxonomy layer:
+
+- [scripts/lib/condition_taxonomy.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/condition_taxonomy.py)
+- [scripts/lib/condition_taxonomy.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/condition_taxonomy.json)
+- [docs/condition-taxonomy.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/condition-taxonomy.md)
+
+The normalizer now calls the taxonomy module instead of keeping condition rules inline.
+
+### Why this matters
+
+Condition terminology is its own problem.
+
+Separating it from the main normalizer makes it easier to:
+
+- inspect mappings directly
+- update terminology safely
+- keep normalization code focused on structure, not taxonomy policy
+
+### Current taxonomy design
+
+The taxonomy currently uses:
+
+- explicit mappings for known labels
+- simple contains-rules for broader matching
+
+condition taxonomy = our rulebook for turning many source condition names into a few stable project categories.
+
+Current stable labels:
+
+- `obesity`
+- `type_2_diabetes`
+- `mash`
+
+### What I learned
+
+- Pulling taxonomy into its own layer improves clarity even if behavior does not change yet.
+- This is a good example of turning hidden logic into inspectable data.
+
+### Verification result
+
+We reran the broader batch after the taxonomy refactor and got the same acceptance and rejection counts as before.
+
+That is good.
+
+It means:
+
+- the refactor preserved current behavior
+- the system is now cleaner without silently changing corpus membership
+
+## 18. Chunking is the first ingestion layer built for retrieval
+
+### What we built
+
+We created [scripts/generate_chunks.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/generate_chunks.py) and documented it in [docs/chunking.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/chunking.md).
+
+The chunk generator turns one normalized trial record into field-aware retrieval chunks.
+
+Current chunk types:
+
+- `status_identity`
+- `conditions_interventions`
+- `summary_description`
+- `eligibility`
+- `outcomes`
+- `timeline`
+- `sponsor_locations`
+
+### Why this matters
+
+This is the first ingestion layer that directly shapes retrieval quality.
+
+Without chunking, we would have to retrieve:
+
+- either one giant trial blob
+- or arbitrary fixed-size windows
+
+Both are worse than field-aware chunks for this dataset.
+
+### What I learned
+
+- Trial records are semi-structured enough that chunking by section is more sensible than chunking by token count alone.
+- `source_field_paths` are important because they preserve traceability for later citations and debugging.
+- Location data needs to be sampled carefully because some studies have very large site arrays.
+
+### Batch integration
+
+We also updated [scripts/process_raw_run.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/process_raw_run.py) so processed runs now include:
+
+- normalized records
+- validation outputs
+- chunk files
+- a summary report
+
+That means one raw run can now produce retrieval-ready artifacts end to end.
+
+### Chunking strategy details
+
+The chunking strategy we are using is:
+
+- field-aware chunking
+
+This means we do not split trial records into arbitrary 300-token or 500-token windows.
+
+Instead, we create chunks based on meaningful trial sections:
+
+- identity and status
+- conditions and interventions
+- summary and description
+- eligibility
+- outcomes
+- timeline
+- sponsor and locations
+
+Why this strategy fits this dataset:
+
+- ClinicalTrials.gov records are semi-structured
+- users ask section-specific questions
+- citations need to map back to understandable source fields
+
+Examples:
+
+- a question about inclusion criteria should match the `eligibility` chunk
+- a question about endpoints should match the `outcomes` chunk
+- a question about recruiting status or completion dates should match the `status_identity` or `timeline` chunk
+
+### Why we are not using fixed-size chunks
+
+We are avoiding generic fixed-token chunking because it can mix unrelated information such as:
+
+- eligibility text
+- outcome measures
+- sponsor metadata
+- dates
+
+That would weaken:
+
+- retrieval precision
+- explanation quality
+- source-grounded citation
+
+### Important tradeoff
+
+Field-aware chunks are usually better for precision, but some sections can still get large.
+
+Current examples:
+
+- eligibility criteria can be long
+- outcome lists can be long
+- location lists can be very large
+
+Our current handling:
+
+- keep eligibility as one section-level chunk
+- keep outcomes grouped for now
+- sample location content instead of dumping every site into the chunk
+
+This is a practical MVP tradeoff.
+
+If retrieval quality later suffers, we can split large sections more finely without changing the overall section-based strategy.
+
+### What exactly is being chunked
+
+We are chunking:
+
+- the normalized trial record
+
+We are not chunking:
+
+- the raw ClinicalTrials.gov JSON directly
+- arbitrary token windows
+- PDFs
+
+The chunk generator reads normalized sections such as:
+
+- `trial`
+- `conditions`
+- `interventions`
+- `arms`
+- `outcomes`
+- `locations`
+- `eligibility`
+
+Then it groups those into section-level retrieval units.
+
+### Sample chunk examples
+
+From [NCT06893016.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/chunks/NCT06893016.json):
+
+`status_identity`
+
+```text
+NCT ID: NCT06893016
+Brief title: Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight
+Official title: A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight
+Study type: INTERVENTIONAL
+Overall status: RECRUITING
+Phases: PHASE3
+```
+
+`conditions_interventions`
+
+```text
+Condition labels: obesity
+Raw conditions: Obesity
+Intervention labels: RAY1225; Placebo
+Drug class labels:
+Arms: RAY1225 High Dose; RAY1225 Medium Dose; RAY1225 Low Dose; Placebo
+Keywords:
+```
+
+`timeline`
+
+```text
+Start date: 2025-06-15
+Primary completion date: 2026-06-15
+Completion date: 2026-09-15
+Study first posted: 2025-03-25
+Results first posted: None
+Last update posted: 2025-07-17
+2026 relevant: True
+Relevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026
+```
+
+### Metadata that ties chunks back to the trial
+
+Each chunk is not just plain text. It also carries metadata that links it back to the source trial.
+
+Important fields:
+
+- `trial_nct_id`
+- `chunk_id`
+- `source_field_paths`
+
+Example:
+
+- `trial_nct_id: NCT06893016`
+- `chunk_id: NCT06893016:timeline:6`
+
+Why this matters:
+
+- retrieved chunks can always be grouped back under the original trial
+- the system can cite the original study ID in answers
+- we can explain which fields were used to build the chunk
+- later retrieval can surface both chunk-level evidence and trial-level identity
+
+## 19. Lexical search is the first retrieval layer
+
+### What we built
+
+We created:
+
+- [scripts/build_chunk_index.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/build_chunk_index.py)
+- [scripts/search_chunks.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/search_chunks.py)
+- [docs/lexical-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/lexical-search.md)
+
+This is a simple lexical retrieval system over chunk files.
+
+### How it works
+
+The current retrieval flow is:
+
+1. read chunk files
+2. tokenize chunk content
+3. build an inverted index from token to chunk IDs
+4. store chunk metadata alongside postings
+5. run keyword search over the index
+
+Current search output includes:
+
+- `score`
+- `chunk_id`
+- `trial_nct_id`
+- `chunk_type`
+- `title`
+- `snippet`
+- `source_field_paths`
+
+### Why we started with lexical search
+
+Lexical search is the right first retrieval layer because it is:
+
+- transparent
+- easy to debug
+- useful for exact terms such as drug names, phases, endpoint terms, and sponsors
+
+This gives us a real retrieval system before introducing embeddings.
+
+### Real query examples
+
+Query:
+
+- `type 2 diabetes`
+
+Returned chunks from:
+
+- `NCT06715514`
+- `NCT06748963`
+- `NCT06474598`
+
+Query:
+
+- `primary completion`
+
+Returned `timeline` chunks, which is exactly what we want because that phrase belongs to trial date metadata.
+
+Query:
+
+- `GLP-1`
+
+Returned chunks from:
+
+- `NCT06715514` outcomes
+- `NCT06715514` conditions/interventions
+- `NCT06715514` status/identity
+- and one eligibility match from `NCT06893016`
+
+### What I learned
+
+- The chunk design is already helping retrieval because section-specific phrases tend to land in the right chunk types.
+- Exact-term retrieval is a strong first baseline in this domain.
+- Build and search should happen sequentially, not in parallel, because the search script depends on the completed index file.
+
+### Current limitation
+
+The search is still intentionally simple:
+
+- no stemming
+- no synonym expansion
+- no structured filter integration
+- no semantic retrieval yet
+
+That is acceptable because the current goal is a clean lexical baseline.
+
+## 20. Hybrid retrieval means filters first, text search second
+
+### What we built
+
+We created [scripts/hybrid_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/hybrid_search.py) and documented it in [docs/hybrid-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/hybrid-search.md).
+
+This is the first retrieval layer that combines:
+
+- structured trial filters
+- lexical chunk search
+
+### How it works
+
+The current flow is:
+
+1. read a processed-run summary
+2. select eligible trials using metadata filters
+3. run lexical scoring only over chunks from those trials
+4. return chunk-level hits with trial IDs and snippets
+
+Current filters:
+
+- `condition`
+- `phase`
+- `study_type`
+- `accepted_only`
+- `year_2026_only`
+
+### Why this matters
+
+This is closer to the actual product than lexical search alone.
+
+It means the system can answer questions like:
+
+- find chunks about `primary completion` from accepted phase 3 obesity trials
+
+instead of just:
+
+- find any chunk anywhere that contains the words `primary` and `completion`
+
+### Real example
+
+Query:
+
+- `primary completion`
+
+Filters:
+
+- `condition=obesity`
+- `phase=PHASE3`
+- `study_type=INTERVENTIONAL`
+- `accepted_only=true`
+- `year_2026_only=true`
+
+Result:
+
+- exactly one eligible trial
+- `NCT06893016`
+- top hit was its `timeline` chunk
+
+That is the expected behavior.
+
+### Another useful example
+
+Query:
+
+- `GLP-1`
+
+Filters:
+
+- `condition=type_2_diabetes`
+- `study_type=INTERVENTIONAL`
+- `accepted_only=true`
+- `year_2026_only=true`
+
+Result:
+
+- no hits
+
+Why that is useful:
+
+- it shows the structured filters are actually restricting search
+- the system is not pretending to have matching in-scope evidence when the current accepted sample does not contain it
+
+### What I learned
+
+- Hybrid retrieval is not just better ranking; it is better eligibility control.
+- Empty results can be a correct outcome when the filtered corpus truly has no matching chunk.
+- This makes the retrieval system more honest and more aligned with the product scope.
+
+## 21. Semantic retrieval is now wired in, with a development-safe fallback
+
+### What we built
+
+We created:
+
+- [scripts/build_chunk_embeddings.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/build_chunk_embeddings.py)
+- [scripts/semantic_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/semantic_search.py)
+- [scripts/lib/embedding_utils.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/embedding_utils.py)
+- [docs/semantic-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/semantic-search.md)
+
+### Provider strategy
+
+The semantic layer supports two providers:
+
+- `local_debug`
+- `openai`
+
+`local_debug` is a deterministic hashed embedding used for:
+
+- offline development
+- architecture testing
+- plumbing verification
+
+`openai` is the path to real semantic embeddings when:
+
+- network access is available
+- `OPENAI_API_KEY` is set
+- a real embedding model is configured
+
+### Why this matters
+
+This lets us build the semantic retrieval architecture now without blocking on external API availability.
+
+That is useful because we can verify:
+
+- index format
+- embedding storage
+- cosine-similarity search
+- result output shape
+
+before we depend on real hosted embeddings.
+
+### Real results
+
+Query:
+
+- `trial completion date`
+
+Returned mostly `timeline` chunks, which is a good sign because that concept belongs in timeline metadata.
+
+Query:
+
+- `incretin obesity therapy`
+
+Returned obesity and GLP-1-related chunks, but the quality is still limited by the `local_debug` embedding method.
+
+### Important limitation
+
+The current semantic layer is:
+
+- architecture-complete
+- quality-incomplete
+
+That means:
+
+- the pipeline is ready for real embeddings
+- but current semantic quality should not be treated as production-ready
+
+### What I learned
+
+- It is useful to separate retrieval architecture from model quality.
+- A local fallback makes it possible to keep building the system even when external API access is unavailable.
+- The next time we enable real embeddings, we should compare:
+  - lexical results
+  - hybrid lexical results
+  - semantic results
+  - combined retrieval behavior

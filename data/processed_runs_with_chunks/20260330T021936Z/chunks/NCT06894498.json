@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06894498:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06894498\nBrief title: Five PLus Year EffIcacy of Endoscopic Sleeve Gastroplasty (ESG) for Sustained WeigHT Loss\nOfficial title: Five PLus Year EffIcacy of Endoscopic Sleeve Gastroplasty (ESG) for Sustained WeigHT Loss\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT06894498"
+    },
+    {
+      "chunk_id": "NCT06894498:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity and Obesity-related Medical Conditions; Weight Loss\nIntervention labels: No Intervention: Observational Cohort\nDrug class labels: \nArms: \nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT06894498"
+    },
+    {
+      "chunk_id": "NCT06894498:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The objective of this study is to assess the long term weight loss and weight loss journey of patients who received an Endoscopic Sleeve Gastroplasty (ESG) 5 or more years prior to enrollment.\nDetailed description: Includes retrospective data collection and one prospective visit",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT06894498"
+    },
+    {
+      "chunk_id": "NCT06894498:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Subject is \u2265 18 years of age at the time of the ESG procedure\n* Subject with a BMI between 30 kg/m2 and 50 kg/m2, inclusive, at the time of the primary ESG procedure using Overstitch Endoscopic Suturing System\n* Subject completed follow-up 1-year from the ESG procedure for weight loss management\n* Subject completed or is eligible for follow-up 5-years from the ESG procedure for weight loss management (visit can be collected either retrospectively or prospectively)\n* Subject has returned for a minimum of one annual follow-up at the treating site for weight loss management annually between two and four years from the procedure.\n* Subject is willing to complete one prospective visit (5 year or 5+ year, as appropriate)\n* Subject is able to read, understand, and sign a written Informed Consent Form to participate in the study\n\nExclusion Criteria:\n\n* None",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 164,
+      "trial_nct_id": "NCT06894498"
+    },
+    {
+      "chunk_id": "NCT06894498:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Proportion of subjects that maintain clinically significant weightloss at five-year visit | time_frame=TBWL assessed at five-years post ESG | description=Mean % Total Body Weight Loss (TBWL) at 5-year visit.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06894498"
+    },
+    {
+      "chunk_id": "NCT06894498:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-03\nPrimary completion date: 2026-12\nCompletion date: 2026-12\nStudy first posted: 2025-03-25\nResults first posted: None\nLast update posted: 2026-03-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06894498"
+    },
+    {
+      "chunk_id": "NCT06894498:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Boston Scientific Corporation\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06894498"
+    }
+  ],
+  "trial_nct_id": "NCT06894498"
+}

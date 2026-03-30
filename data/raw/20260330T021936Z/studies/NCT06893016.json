@@ -1,0 +1,251 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-27"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive RAY1225 high dose subcutaneously (SC) for 52 weeks.",
+          "interventionNames": [
+            "Drug: RAY1225"
+          ],
+          "label": "RAY1225 High Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive RAY1225 Medium dose subcutaneously (SC) for 52 weeks.",
+          "interventionNames": [
+            "Drug: RAY1225"
+          ],
+          "label": "RAY1225 Medium Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive RAY1225 low dose subcutaneously (SC) for 52 weeks.",
+          "interventionNames": [
+            "Drug: RAY1225"
+          ],
+          "label": "RAY1225 Low Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive placebo SC for 52 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "RAY1225 High Dose",
+            "RAY1225 Low Dose",
+            "RAY1225 Medium Dose"
+          ],
+          "description": "RAY1225 will be administered SC",
+          "name": "RAY1225",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo will be administered SC.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "pkuphiao@163.com",
+          "name": "Ji, Doctor",
+          "phone": "86-10-8831-6815",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "pkuphiao@163.com",
+              "name": "Ji, Doctor",
+              "phone": "86-10-8831-6815",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Peking University People's Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to demonstrate that RAY1225 is superior to placebo for percent change in body weight."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 640,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u2265 18 years.\n2. Body mass index \u2265 28 kg/m2 or \u226524kg/m\u00b2 to \\<28 kg/m2 with at least 1 of the following weight-related comorbidities: a) Systolic blood pressure \u2265130 mmHg or diastolic blood pressure \u226585 mmHg, or the use of at least one antihypertensive medication to maintain normal blood pressure;b) Fasting triglycerides (TG) \u22651.70 mmol/L, fasting low-density lipoprotein cholesterol (LDL-C) \u22654.1 mmol/L, fasting high-density lipoprotein cholesterol (HDL-C) \\<1.04 mmol/L, or the need for at least one lipid-lowering treatment to maintain normal lipid levels; c) Obstructive sleep apnea syndrome; d) Fatty liver; e) Cardiovascular disease; e) Polycystic ovary syndrome.\n3. History of at least 1 self-reported unsuccessful attempt at weight loss by diet and exercise.\n\nExclusion Criteria:\n\n1. Obesity known to be caused by monogenic mutations, other diseases, or medications.\n2. Family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2.\n3. A history of moderate to severe depression at any time in the past or a score of \u226515 on the PHQ-9 questionnaire at screening; a history of bipolar disorder, schizophrenia, or other severe psychiatric disorders.\n4. A history of organ transplantation (excluding corneal transplant), or being currently prepared to undergo organ transplantation.\n5. Plans to quit smoking during the study period\n6. Allergic constitution (allergic to multiple medications or foods), or those known to be allergic to RAY1225, GLP-1 receptor agonists, or GLP-1 related drugs.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight",
+      "nctId": "NCT06893016",
+      "officialTitle": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight",
+      "orgStudyIdInfo": {
+        "id": "RAY1225-24-07"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Guangdong Raynovent Biotech Co., Ltd"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent Change From Baseline in Body Weight at Week 52",
+          "timeFrame": "Baseline and Week 52"
+        },
+        {
+          "measure": "Number of Participants who Achieved a \u2265 5% Reduction in Body Weight from Baseline at Week 52",
+          "timeFrame": "Baseline and Week 52"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change From Baseline in Waist Circumference at Week 52",
+          "timeFrame": "Baseline and Week 52"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Guangdong Raynovent Biotech Co., Ltd"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-09-15",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-15",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-15",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-06-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-18",
+      "studyFirstSubmitQcDate": "2025-03-18"
+    }
+  }
+}

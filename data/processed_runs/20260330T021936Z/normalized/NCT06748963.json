@@ -1,0 +1,252 @@
+{
+  "arms": [
+    {
+      "description": "Exercise training will be performed in the fasted state (i.e., before breakfast).",
+      "intervention_names": [
+        "Behavioral: Fasted Exercise"
+      ],
+      "label": "Fasted Exercise",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Exercise will be performed in the postprandial period (i.e., after breakfast)",
+      "intervention_names": [
+        "Behavioral: Postprandial Exercise"
+      ],
+      "label": "Postprandial Exercise",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Diabetes Mellitus, Type 1",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Clinical diagnosis of type 1 diabetes for 5 or more years.\n2. Treatment using an insulin pump with no change in treatment modality for \\> 2 continuous months and willing to share CGM data with the research team. Insulin delivery can be managed using either manual open-loop system (non-AID) or a hybrid closed loop (AID) systems.\n3. Using rapid (e.g., Aspart, Lispro or Glulisine) or ultra-rapid (e.g., FiAsp) acting insulin analogs.\n4. HbA1c 7.0-9.9%.\n5. Have BMI of 25 kg/m2 or above\n6. Have waist circumference associated with central obesity/metabolic syndrome as per Diabetes Canada definition\n\n   * 94cm for males of European, Sub-Saharan African, Eastern Mediterranean and Middle Eastern descent\n   * 90cm for males of South Asian, Chinese, Japanese, South and Central American descent\n   * 80cm for females\n7. No history of stroke, myocardial infarction, or coronary artery disease\n8. Not wearing implantable device such as a pacemaker, neurostimulators, aneurysm clips, metal fragments, epicardial electrodes, cochlear implants, magnetic ocular implants, penile implants, magnetic tissue expander, some types of breast implants, magnetic orthopedic implants, magnetic dental implants, hearing Aids, intravascular implants, for example VCI filters, coils, stents, cardiac septum implants, ventricular bypass devices.\n9. Use a CGM in routine diabetes management.\n\nExclusion Criteria:\n\n1. Major complication within the previous 3 months (e.g., severe hypoglycemia requiring assistance, diabetic ketoacidosis, or cardiovascular event).\n2. Restriction in aerobic or resistance exercise due to significant diabetes complications (e.g., severe peripheral neuropathy, active proliferative retinopathy, etc.) or other type of limitations (e.g., orthopedic, severe arthritis, etc.).\n3. Uncontrolled hypertension (e.g., blood pressure \\>160 mmHg systolic or \\>100 mmHg diastolic).\n4. Implanted device, material, or having a condition contraindicated to MRI.\n5. Ongoing pregnancy or breastfeeding.\n6. Inability to give consent.\n7. Use of an injection-based insulin therapy (ex. multiple daily injections or combined pump and injection-based delivery).",
+    "healthy_volunteers": false,
+    "maximum_age_text": "55 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Fasted Exercise"
+      ],
+      "description": "Participants will complete three sessions of combined resistance-aerobic exercise per week. Sessions will always start with resistance training followed by aerobic training, and will increase in duration throughout the intervention period, so that by the final three weeks of the intervention, all participants accumulate 150 minutes per week of moderate intensity aerobic exercise and 75 minutes of resistance exercise per week. Participants will complete three distinct resistance exercise sessions per week, which will increase in load, but decrease in repetition range throughout the trial. The aerobic component of the exercise sessions will increase in duration from 35 to 50 minutes per session. Participants will walk on a treadmill at a speed and incline that corresponds to 70-80% of ventilatory threshold.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Fasted Exercise",
+      "normalized_name": "fasted exercise"
+    },
+    {
+      "arm_group_labels": [
+        "Postprandial Exercise"
+      ],
+      "description": "Participants will complete three sessions of combined resistance-aerobic exercise per week. Sessions will always start with resistance training followed by aerobic training, and will increase in duration throughout the intervention period, so that by the final three weeks of the intervention, all participants accumulate 150 minutes per week of moderate intensity aerobic exercise and 75 minutes of resistance exercise per week. Participants will complete three distinct resistance exercise sessions per week, which will increase in load, but decrease in repetition range throughout the trial. The aerobic component of the exercise sessions will increase in duration from 35 to 50 minutes per session. Participants will walk on a treadmill at a speed and incline that corresponds to 70-80% of ventilatory threshold.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Postprandial Exercise",
+      "normalized_name": "postprandial exercise"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Total daily insulin dose (including basal and bolus insulin) will be measured over 7 consecutive days.",
+      "measure": "Daily insulin dose (units/kg/day)",
+      "outcome_type": "primary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "24-hour mean glucose (mmol/L) as measured by continuous glucose monitors.",
+      "measure": "Continuous glucose monitoring",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Time in range (%) as measured by continuous glucose monitors.",
+      "measure": "Continuous glucose monitoring",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "MRI derived volumes (e.g., muscle fat, hepatic fat, pancreatic fat, subcutaneous fat, visceral fat)",
+      "measure": "Magnetic resonance imaging (MRI) volumes",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Basal insulin dose (units/kg/day), bolus insulin dose (units/kg/day), and basal to bolus ratio",
+      "measure": "Basal and bolus insulin dose (units/kg/day)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "BIA body composition outcomes (e.g., fat mass, fat free mass, total body water), all measured in kilograms",
+      "measure": "Bioelectrical impedance (BIA) in kilograms",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Hlycated hemoglobine (also known as HbA1c) expressed as a percentage.",
+      "measure": "Glycated haemoglobin (%)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Plasma glucose measured after an overnight fast",
+      "measure": "Concentrations of Fasting glucose",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Plasma insulin measured after an overnight fast",
+      "measure": "Concentrations of Fasting insulin",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Plasma total cholesterol, HDL-Cholesterol, LDL-Cholesterol and Triglycerides measured after an overnight fast",
+      "measure": "Concentrations of Fasting lipids",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Exercise test to determine ventilatory threshold",
+      "measure": "Aerobic fitness",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Weight will be measured in kilograms",
+      "measure": "Body weight (kilograms)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Standing height",
+      "measure": "Height (centimeters)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Waist circumference (between 12 rib and iliac crest) measures in centimeters",
+      "measure": "Waist circumference (centimeters)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Hip circumference (between 12 rib and iliac crest) measures in centimeters",
+      "measure": "Hip circumference (centimeters)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Accelerometer measured active time (min/day), sedentary time (min/day)",
+      "measure": "Physical Activity in minutes per day",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Food logs will be completed for three days (two weekday and one weekend) for estimation of macronutrient intake and total energy intake. Each of these will be expressed as kilocalories (i.e., kcal).",
+      "measure": "Food logs (kilocalories)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Feasibility will include recruitment rate, and dropout rate. Each rate will be reported as the percentage of the total sample.",
+      "measure": "Feasibility (rates expressed as percentage of the total sample)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Feasibility will also include exercise adherence. Adherence will be reported as the percentage of the prescribed exercise sessions that were completed).",
+      "measure": "Feasibility (rates expressed as percentage of the total number of sessions)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    },
+    {
+      "description": "Barriers will bve assessed using the \"Barriers to Physical Activity in Type 1 Diabetes\" (BAPAD-1) scale. This is a 11-item scale with 7-point Likert-type questions (i.e., each question has a minimum of 1 and a maximum of 7). The maximum score is therefore 77 and minimum score 11. A higher score indicates greater barriers.",
+      "measure": "Feasibility (barriers)",
+      "outcome_type": "secondary",
+      "time_frame": "From enrolment to the end of the exercise intervention at week 12."
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This study compares aerobic exercise training performed before breakfast (i.e., in the fasted state) to similar training performed after breakfast in people with type 1 diabetes. Training will take place over 12 weeks.",
+    "brief_title": "Fasted Exercise Training in Type 1 Diabetes (FED-T1D)",
+    "collaborator_names": [
+      "Alberta Diabetes Institute"
+    ],
+    "completion_date": "2026-04",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Clinical diagnosis of type 1 diabetes for 5 or more years.\n2. Treatment using an insulin pump with no change in treatment modality for \\> 2 continuous months and willing to share CGM data with the research team. Insulin delivery can be managed using either manual open-loop system (non-AID) or a hybrid closed loop (AID) systems.\n3. Using rapid (e.g., Aspart, Lispro or Glulisine) or ultra-rapid (e.g., FiAsp) acting insulin analogs.\n4. HbA1c 7.0-9.9%.\n5. Have BMI of 25 kg/m2 or above\n6. Have waist circumference associated with central obesity/metabolic syndrome as per Diabetes Canada definition\n\n   * 94cm for males of European, Sub-Saharan African, Eastern Mediterranean and Middle Eastern descent\n   * 90cm for males of South Asian, Chinese, Japanese, South and Central American descent\n   * 80cm for females\n7. No history of stroke, myocardial infarction, or coronary artery disease\n8. Not wearing implantable device such as a pacemaker, neurostimulators, aneurysm clips, metal fragments, epicardial electrodes, cochlear implants, magnetic ocular implants, penile implants, magnetic tissue expander, some types of breast implants, magnetic orthopedic implants, magnetic dental implants, hearing Aids, intravascular implants, for example VCI filters, coils, stents, cardiac septum implants, ventricular bypass devices.\n9. Use a CGM in routine diabetes management.\n\nExclusion Criteria:\n\n1. Major complication within the previous 3 months (e.g., severe hypoglycemia requiring assistance, diabetic ketoacidosis, or cardiovascular event).\n2. Restriction in aerobic or resistance exercise due to significant diabetes complications (e.g., severe peripheral neuropathy, active proliferative retinopathy, etc.) or other type of limitations (e.g., orthopedic, severe arthritis, etc.).\n3. Uncontrolled hypertension (e.g., blood pressure \\>160 mmHg systolic or \\>100 mmHg diastolic).\n4. Implanted device, material, or having a condition contraindicated to MRI.\n5. Ongoing pregnancy or breastfeeding.\n6. Inability to give consent.\n7. Use of an injection-based insulin therapy (ex. multiple daily injections or combined pump and injection-based delivery).",
+    "detailed_description": "People with type 1 diabetes (PwT1D) are encouraged to increase their physical activity (PA). Increasing the amount of PA can be difficult, especially for PwT1D who experience barriers to exercise. Therefore, simply recommending that PwT1D preform more exercise may not be the most effective prescription in the long term. Recent short-term studies have s suggest that exercise performed before eating (fasted) causes blood sugars to decrease less or even increase, compared exercise performed after a meal, which usually causes blood sugar to decrease. To date, no long-term study has compared the effects of exercise performed with or without eating beforehand in people with T1D.\n\nThis study will compare the effects of 12 weeks of exercise before breakfast compared to 12 weeks of exercise after breakfast. It is expected that exercise before breakfast (i.e., in the fasted state) will lead to larger reductions in overall insulin dose, without the addition of more exercise.",
+    "drug_class_labels": [],
+    "enrollment_count": 20,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Fasted Exercise",
+      "Postprandial Exercise"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Exercise",
+      "Continuous glucose monitoring",
+      "total daily insulin dose",
+      "Muscle fat",
+      "Liver fat"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-16",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Alberta",
+    "masking": "SINGLE",
+    "maximum_age_text": "55 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06748963",
+    "official_title": "Exercise Training Before (Fasted) Versus After (Fed) Breakfast in Type 1 Diabetes",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-04",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06748963",
+    "start_date": "2025-01-01",
+    "study_first_posted_at": "2024-12-27",
+    "study_type": "INTERVENTIONAL"
+  }
+}

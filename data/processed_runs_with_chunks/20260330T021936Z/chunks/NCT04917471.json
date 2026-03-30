@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04917471:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04917471\nBrief title: Effect of Nitrate on Red Blood Cell Function in Type 2 Diabetes\nOfficial title: The Effect of Dietary Nitrate Supplementation on Red Blood Cell Function in Patients with Type 2 Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT04917471"
+    },
+    {
+      "chunk_id": "NCT04917471:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes\nIntervention labels: Beet root juice; Placebo juice\nDrug class labels: \nArms: Nitrate-rich beet root juice; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT04917471"
+    },
+    {
+      "chunk_id": "NCT04917471:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: To investigate the effect of nitrate supplementation on red blood cell function in patients with type 2 diabetes.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT04917471"
+    },
+    {
+      "chunk_id": "NCT04917471:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\nType 2 diabetes\n\nExclusion Criteria:\n\nAcute coronary syndrome Vegetarian diet Impaired renal function Absolute indication for proton pump inhibitor Ongoing treatment with organic nitrate Heart failure (ejection fraction \\<35%) Any condition that interferes with the possibility to fulfill the study protocol",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 60,
+      "trial_nct_id": "NCT04917471"
+    },
+    {
+      "chunk_id": "NCT04917471:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage recovery of left ventricular function | time_frame=1 week | description=Red blood cells are administered to an isolated rodent heart subjected to 25 min global ischemia and 60 min reperfusion. The percentage recovery during reperfusion is determined.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT04917471"
+    },
+    {
+      "chunk_id": "NCT04917471:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-06-01\nPrimary completion date: 2025-12-30\nCompletion date: 2025-12-31\nStudy first posted: 2021-06-08\nResults first posted: None\nLast update posted: 2024-10-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04917471"
+    },
+    {
+      "chunk_id": "NCT04917471:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Karolinska Institutet\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT04917471"
+    }
+  ],
+  "trial_nct_id": "NCT04917471"
+}

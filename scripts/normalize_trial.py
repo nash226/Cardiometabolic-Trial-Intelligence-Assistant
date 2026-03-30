@@ -10,9 +10,8 @@ import sys
 from pathlib import Path
 from typing import Any
 
+from lib.condition_taxonomy import classify_condition
 
-MASH_TERMS = ("mash", "nash", "nafld", "masld", "steatohepat")
-T2D_TERMS = ("type 2 diabetes", "t2d", "t2dm", "diabetes mellitus type 2")
 OBESITY_TERMS = ("obesity", "overweight", "weight loss", "body weight")
 
 DRUG_CLASS_RULES: list[tuple[str, tuple[str, ...]]] = [
@@ -79,17 +78,6 @@ def extract_date(module: dict[str, Any], key: str) -> str | None:
         return None
     value = date_struct.get("date")
     return value if isinstance(value, str) else None
-
-
-def classify_condition(label: str) -> str | None:
-    normalized = normalize_text(label)
-    if any(term in normalized for term in OBESITY_TERMS):
-        return "obesity"
-    if any(term in normalized for term in T2D_TERMS):
-        return "type_2_diabetes"
-    if any(term in normalized for term in MASH_TERMS):
-        return "mash"
-    return None
 
 
 def classify_drug(name: str) -> str | None:
