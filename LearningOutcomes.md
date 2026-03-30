@@ -1236,3 +1236,82 @@ Why that is useful:
 - Hybrid retrieval is not just better ranking; it is better eligibility control.
 - Empty results can be a correct outcome when the filtered corpus truly has no matching chunk.
 - This makes the retrieval system more honest and more aligned with the product scope.
+
+## 21. Semantic retrieval is now wired in, with a development-safe fallback
+
+### What we built
+
+We created:
+
+- [scripts/build_chunk_embeddings.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/build_chunk_embeddings.py)
+- [scripts/semantic_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/semantic_search.py)
+- [scripts/lib/embedding_utils.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/embedding_utils.py)
+- [docs/semantic-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/semantic-search.md)
+
+### Provider strategy
+
+The semantic layer supports two providers:
+
+- `local_debug`
+- `openai`
+
+`local_debug` is a deterministic hashed embedding used for:
+
+- offline development
+- architecture testing
+- plumbing verification
+
+`openai` is the path to real semantic embeddings when:
+
+- network access is available
+- `OPENAI_API_KEY` is set
+- a real embedding model is configured
+
+### Why this matters
+
+This lets us build the semantic retrieval architecture now without blocking on external API availability.
+
+That is useful because we can verify:
+
+- index format
+- embedding storage
+- cosine-similarity search
+- result output shape
+
+before we depend on real hosted embeddings.
+
+### Real results
+
+Query:
+
+- `trial completion date`
+
+Returned mostly `timeline` chunks, which is a good sign because that concept belongs in timeline metadata.
+
+Query:
+
+- `incretin obesity therapy`
+
+Returned obesity and GLP-1-related chunks, but the quality is still limited by the `local_debug` embedding method.
+
+### Important limitation
+
+The current semantic layer is:
+
+- architecture-complete
+- quality-incomplete
+
+That means:
+
+- the pipeline is ready for real embeddings
+- but current semantic quality should not be treated as production-ready
+
+### What I learned
+
+- It is useful to separate retrieval architecture from model quality.
+- A local fallback makes it possible to keep building the system even when external API access is unavailable.
+- The next time we enable real embeddings, we should compare:
+  - lexical results
+  - hybrid lexical results
+  - semantic results
+  - combined retrieval behavior
