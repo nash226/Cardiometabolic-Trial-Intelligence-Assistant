@@ -9,6 +9,36 @@ Each section should answer:
 - what we learned from it
 - what comes next
 
+## Current Architectural Snapshot
+
+The system currently has three implemented ingestion layers and a documented product frame.
+
+Current flow:
+
+1. `fetch`
+   - [scripts/fetch_trials_raw.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fetch_trials_raw.py)
+   - pulls raw ClinicalTrials.gov study records and saves them unchanged under [data/raw](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw)
+
+2. `normalize`
+   - [scripts/normalize_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/normalize_trial.py)
+   - converts one raw record into the project’s internal trial shape and writes it under [data/normalized](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized)
+
+3. `validate`
+   - [scripts/validate_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/validate_trial.py)
+   - decides whether a normalized record belongs in the MVP corpus and writes the result under [data/normalized/validation](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized/validation)
+
+Current product scope:
+
+- source: ClinicalTrials.gov
+- conditions: obesity, type 2 diabetes, MASH/NAFLD
+- study type: interventional only
+- phase: 2 through 4
+- time focus: 2026-relevant trials
+
+Current architectural principle:
+
+- build the system as a transparent hybrid retrieval pipeline, starting from trustworthy ingestion before UI or LLM-heavy features
+
 ## 1. Narrowing the product scope
 
 ### What we decided
