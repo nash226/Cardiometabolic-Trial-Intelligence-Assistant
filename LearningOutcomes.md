@@ -22,6 +22,12 @@ MVP scope:
 - conditions: obesity, type 2 diabetes, MASH/NAFLD
 - study type: interventional only
 - phase: 2 through 4
+Why keep Phase 2-4?
+
+Phase 2 starts to have meaningful efficacy, dose, and endpoint structure.
+Phase 3 is highly important for competitive and clinical landscape tracking.
+Phase 4 captures post-approval and real-world follow-up studies that still matter strategically.
+
 - time focus: trials relevant to 2026
 - source: ClinicalTrials.gov study records
 
