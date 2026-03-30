@@ -908,3 +908,241 @@ We also updated [scripts/process_raw_run.py](/Users/nazeershaikh/Capstone/ai_wee
 - a summary report
 
 That means one raw run can now produce retrieval-ready artifacts end to end.
+
+### Chunking strategy details
+
+The chunking strategy we are using is:
+
+- field-aware chunking
+
+This means we do not split trial records into arbitrary 300-token or 500-token windows.
+
+Instead, we create chunks based on meaningful trial sections:
+
+- identity and status
+- conditions and interventions
+- summary and description
+- eligibility
+- outcomes
+- timeline
+- sponsor and locations
+
+Why this strategy fits this dataset:
+
+- ClinicalTrials.gov records are semi-structured
+- users ask section-specific questions
+- citations need to map back to understandable source fields
+
+Examples:
+
+- a question about inclusion criteria should match the `eligibility` chunk
+- a question about endpoints should match the `outcomes` chunk
+- a question about recruiting status or completion dates should match the `status_identity` or `timeline` chunk
+
+### Why we are not using fixed-size chunks
+
+We are avoiding generic fixed-token chunking because it can mix unrelated information such as:
+
+- eligibility text
+- outcome measures
+- sponsor metadata
+- dates
+
+That would weaken:
+
+- retrieval precision
+- explanation quality
+- source-grounded citation
+
+### Important tradeoff
+
+Field-aware chunks are usually better for precision, but some sections can still get large.
+
+Current examples:
+
+- eligibility criteria can be long
+- outcome lists can be long
+- location lists can be very large
+
+Our current handling:
+
+- keep eligibility as one section-level chunk
+- keep outcomes grouped for now
+- sample location content instead of dumping every site into the chunk
+
+This is a practical MVP tradeoff.
+
+If retrieval quality later suffers, we can split large sections more finely without changing the overall section-based strategy.
+
+### What exactly is being chunked
+
+We are chunking:
+
+- the normalized trial record
+
+We are not chunking:
+
+- the raw ClinicalTrials.gov JSON directly
+- arbitrary token windows
+- PDFs
+
+The chunk generator reads normalized sections such as:
+
+- `trial`
+- `conditions`
+- `interventions`
+- `arms`
+- `outcomes`
+- `locations`
+- `eligibility`
+
+Then it groups those into section-level retrieval units.
+
+### Sample chunk examples
+
+From [NCT06893016.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/chunks/NCT06893016.json):
+
+`status_identity`
+
+```text
+NCT ID: NCT06893016
+Brief title: Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight
+Official title: A Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Study Evaluating the Safety, Tolerability, and Efficacy of RAY1225 in Participants Who Have Obesity or Are Overweight
+Study type: INTERVENTIONAL
+Overall status: RECRUITING
+Phases: PHASE3
+```
+
+`conditions_interventions`
+
+```text
+Condition labels: obesity
+Raw conditions: Obesity
+Intervention labels: RAY1225; Placebo
+Drug class labels:
+Arms: RAY1225 High Dose; RAY1225 Medium Dose; RAY1225 Low Dose; Placebo
+Keywords:
+```
+
+`timeline`
+
+```text
+Start date: 2025-06-15
+Primary completion date: 2026-06-15
+Completion date: 2026-09-15
+Study first posted: 2025-03-25
+Results first posted: None
+Last update posted: 2025-07-17
+2026 relevant: True
+Relevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026
+```
+
+### Metadata that ties chunks back to the trial
+
+Each chunk is not just plain text. It also carries metadata that links it back to the source trial.
+
+Important fields:
+
+- `trial_nct_id`
+- `chunk_id`
+- `source_field_paths`
+
+Example:
+
+- `trial_nct_id: NCT06893016`
+- `chunk_id: NCT06893016:timeline:6`
+
+Why this matters:
+
+- retrieved chunks can always be grouped back under the original trial
+- the system can cite the original study ID in answers
+- we can explain which fields were used to build the chunk
+- later retrieval can surface both chunk-level evidence and trial-level identity
+
+## 19. Lexical search is the first retrieval layer
+
+### What we built
+
+We created:
+
+- [scripts/build_chunk_index.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/build_chunk_index.py)
+- [scripts/search_chunks.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/search_chunks.py)
+- [docs/lexical-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/lexical-search.md)
+
+This is a simple lexical retrieval system over chunk files.
+
+### How it works
+
+The current retrieval flow is:
+
+1. read chunk files
+2. tokenize chunk content
+3. build an inverted index from token to chunk IDs
+4. store chunk metadata alongside postings
+5. run keyword search over the index
+
+Current search output includes:
+
+- `score`
+- `chunk_id`
+- `trial_nct_id`
+- `chunk_type`
+- `title`
+- `snippet`
+- `source_field_paths`
+
+### Why we started with lexical search
+
+Lexical search is the right first retrieval layer because it is:
+
+- transparent
+- easy to debug
+- useful for exact terms such as drug names, phases, endpoint terms, and sponsors
+
+This gives us a real retrieval system before introducing embeddings.
+
+### Real query examples
+
+Query:
+
+- `type 2 diabetes`
+
+Returned chunks from:
+
+- `NCT06715514`
+- `NCT06748963`
+- `NCT06474598`
+
+Query:
+
+- `primary completion`
+
+Returned `timeline` chunks, which is exactly what we want because that phrase belongs to trial date metadata.
+
+Query:
+
+- `GLP-1`
+
+Returned chunks from:
+
+- `NCT06715514` outcomes
+- `NCT06715514` conditions/interventions
+- `NCT06715514` status/identity
+- and one eligibility match from `NCT06893016`
+
+### What I learned
+
+- The chunk design is already helping retrieval because section-specific phrases tend to land in the right chunk types.
+- Exact-term retrieval is a strong first baseline in this domain.
+- Build and search should happen sequentially, not in parallel, because the search script depends on the completed index file.
+
+### Current limitation
+
+The search is still intentionally simple:
+
+- no stemming
+- no synonym expansion
+- no structured filter integration
+- no semantic retrieval yet
+
+That is acceptable because the current goal is a clean lexical baseline.
