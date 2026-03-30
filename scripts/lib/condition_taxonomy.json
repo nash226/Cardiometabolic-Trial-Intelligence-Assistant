@@ -1,0 +1,35 @@
+{
+  "explicit_mappings": {
+    "Type 2 Diabetes": "type_2_diabetes",
+    "Type 2 Diabetes Mellitus": "type_2_diabetes",
+    "Diabetes Mellitus Type 2": "type_2_diabetes",
+    "Child Obesity": "obesity",
+    "Obesity and Obesity-related Medical Conditions": "obesity",
+    "Weight Loss": "obesity",
+    "MASH": "mash",
+    "NASH": "mash",
+    "NAFLD": "mash",
+    "MASLD": "mash"
+  },
+  "contains_rules": {
+    "obesity": [
+      "obesity",
+      "overweight",
+      "weight loss",
+      "body weight"
+    ],
+    "type_2_diabetes": [
+      "type 2 diabetes",
+      "t2d",
+      "t2dm",
+      "diabetes mellitus type 2"
+    ],
+    "mash": [
+      "mash",
+      "nash",
+      "nafld",
+      "masld",
+      "steatohepat"
+    ]
+  }
+}

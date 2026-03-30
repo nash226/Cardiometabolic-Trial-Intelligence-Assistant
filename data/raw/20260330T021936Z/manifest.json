@@ -1,0 +1,42 @@
+{
+  "api_base_url": "https://clinicaltrials.gov/api/v2/studies",
+  "config": {
+    "delay_seconds": 0.25,
+    "filter_advanced": null,
+    "filter_overall_status": [
+      "RECRUITING"
+    ],
+    "filter_phase": [],
+    "include_total_count": true,
+    "max_studies": 10,
+    "page_size": 10,
+    "query_cond": null,
+    "query_intr": null,
+    "query_locn": null,
+    "query_term": "obesity OR type 2 diabetes OR MASH OR NASH OR MASLD"
+  },
+  "nct_ids": [
+    "NCT06748963",
+    "NCT06715514",
+    "NCT06642363",
+    "NCT06893016",
+    "NCT07314684",
+    "NCT06303544",
+    "NCT04917471",
+    "NCT06894498",
+    "NCT06474598",
+    "NCT04303364"
+  ],
+  "pages": [
+    {
+      "next_page_token": "ZVJj7o2Elu8o3lprBNb8orbumpOQJJxpbPKm0A",
+      "page_number": 1,
+      "request_url": "https://clinicaltrials.gov/api/v2/studies?format=json&countTotal=true&pageSize=10&query.term=obesity+OR+type+2+diabetes+OR+MASH+OR+NASH+OR+MASLD&filter.overallStatus=RECRUITING",
+      "returned_study_count": 10,
+      "total_count": 3599
+    }
+  ],
+  "run_directory": "data/raw/20260330T021936Z",
+  "run_generated_at": "2026-03-30T02:19:37.200653+00:00",
+  "study_count": 10
+}

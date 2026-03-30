@@ -1,0 +1,512 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D011282",
+          "term": "Pregnenediones"
+        },
+        {
+          "id": "D011283",
+          "term": "Pregnenes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D003339",
+          "term": "Corpus Luteum Hormones"
+        },
+        {
+          "id": "D045167",
+          "term": "Progesterone Congeners"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        },
+        {
+          "id": "D020249",
+          "term": "Hormone Replacement Therapy"
+        },
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D011374",
+          "term": "Progesterone"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-27"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Estradot\u00ae: 50 micrograms/24h, transdermal patch E2;\n\nUtrogestan\u00ae\\*: once daily 200mg of micronized progesterone (in women with intact uterus\\*)",
+          "interventionNames": [
+            "Drug: Menopausal Hormone Therapy"
+          ],
+          "label": "Menopausal Hormone Therapy",
+          "type": "OTHER"
+        },
+        {
+          "description": "Wegovy\u00ae: Semaglutide injected once weekly, starting dose 0.25mg, with dose increments every four weeks reaching the maintenance dose of 1mg after eight weeks",
+          "interventionNames": [
+            "Drug: GLP-1 Receptor Agonist"
+          ],
+          "label": "GLP-1 Receptor Agonist",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Wegovy\u00ae: Semaglutide injected once weekly, starting dose 0.25mg, with dose increments every four weeks reaching the maintenance dose of 1mg after eight weeks; Estradot\u00ae: 50 micrograms/24h, transdermal patch E2; Utrogestan\u00ae\\*: once daily 200mg of micronized progesterone (in women with intact uterus)",
+          "interventionNames": [
+            "Drug: GLP-1 Receptor Agonist",
+            "Drug: Menopausal Hormone Therapy"
+          ],
+          "label": "Combined Menopausal Hornome Therapy and GLP-1 Receptor Agonist",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Combined Menopausal Hornome Therapy and GLP-1 Receptor Agonist",
+            "GLP-1 Receptor Agonist"
+          ],
+          "description": "Wegovy\u00ae",
+          "name": "GLP-1 Receptor Agonist",
+          "otherNames": [
+            "Semaglutide"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Combined Menopausal Hornome Therapy and GLP-1 Receptor Agonist",
+            "Menopausal Hormone Therapy"
+          ],
+          "description": "Estradot\u00ae and Utrogestan\u00ae\\* (in women with intact uterus\\*)",
+          "name": "Menopausal Hormone Therapy",
+          "otherNames": [
+            "Estradiol",
+            "Micronized Progesterone"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Menopause",
+        "Type 2 Diabetes"
+      ],
+      "keywords": [
+        "Diabetes",
+        "Menopause",
+        "Menopausal Hormone Therapy",
+        "Womens Health",
+        "Randomized Controlled Trial",
+        "GLP-1 receptor agonist"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "lia.bally@insel.ch",
+          "name": "Prof. Dr. med. et Dr. phil.Lia Bally",
+          "phone": "+41 31 632 36 77",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Bern",
+          "contacts": [
+            {
+              "email": "lia.bally@insel.ch",
+              "name": "Prof. Dr. med. Dr. phil. Lia Bally",
+              "phone": "0041 31 63 2 36 77",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Switzerland",
+          "facility": "University Hospital Bern",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          },
+          "status": "RECRUITING",
+          "zip": "3010"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Department of Diabetes, Endocrinology, Nutritional Medicine and Metabolism, Inselspital",
+          "name": "Prof. Dr. med. et Dr. phil.Lia Bally",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The overall aim is to investigate the hypothesis that restoring E2 levels through MHT improves glucose and energy homeostasis and potentiates the beneficial effects of GLP-1RA in early postmenopausal women with pre- or existing type 2 diabetes.\n\nThe primary objective is to assess the efficacy of combined MHT and GLP-1RA in improving glucose control in early postmenopausal women with pre- or existing type 2 diabetes, compared to GLP-1RA alone. Secondary objectives include efficacy analyses on body weight, other measures of cardiometabolic health, lifestyle behaviour, menopausal symptoms, and the exploration of mechanisms underpinning potential glycaemic and weight control benefits, and biomarkers of haemostasis.",
+      "detailedDescription": "The menopausal-related decline in estradiol (E2) levels challenges glucose and energy homeostasis, exemplified by an increased risk of diabetes development or worsening of glucose in pre-existing diabetes. Conversely, restoration of E2 exposure using menopausal hormonal therapy (MHT) benefits body weight and glucose control. However, underlying mechanisms remain incompletely understood. In this context, we hypothesize an involvement of the GLP-1 gut-pancreas/brain axis, but supporting clinical evidence is currently lacking.\n\nThe overall aim is to investigate the hypothesis that restoring E2 levels through MHT improves glucose and energy homeostasis and potentiates the beneficial effects of GLP-1RA in early postmenopausal women with pre- or existing type 2 diabetes.\n\nThe primary objective is to assess the efficacy of combined MHT and GLP-1RA in improving glucose control in early postmenopausal women with pre- or existing type 2 diabetes, compared to GLP-1RA alone. Secondary objectives include efficacy analyses on body weight, other measures of cardiometabolic health, lifestyle behaviour, menopausal symptoms, and the exploration of mechanisms underpinning potential glycaemic and weight control benefits, and biomarkers of haemostasis."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "All efficacy outcomes will be compared primarily between the combined GLP-1RA + MHT and the GLP-1RA only regimen. The third arm (MHT only) will allow exploring mechanistic effects of MHT-mediated restoration of E2 levels on glucose and energy homeostasis and to assess benefits of combined GLP-1RA + MHT, compared to MHT alone, on haemostatic biomarkers.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 96,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Individuals fulfilling at enrolment all of the following inclusion criteria are eligible for the study:\n\n* Early postmenopausal status (STRAW+10 stage +1b or +1c and FSH\\>25.0mU/L)\n* Presence of menopausal symptoms (total MRS-II score \u22651)\n* BMI \u2265 27.0kg/m2\n* Pre- or existing type 2 diabetes (HbA1c 5.7%-8.5%)\n* No prior or current use of MHT\n\nThe presence of any of the following exclusion criteria will lead to exclusion of the individuals:\n\n* DPP4-inhibitor, SLGT2-inhibitor or sulfonylurea use within 8 weeks prior to study enrolment\n* GLP-1RA use within 6 months prior to study enrolment\n* Insulin therapy within 8 weeks prior to study enrolment\n* History of bariatric surgery\n* More than 2% change in body weight within three months prior to study enrolment (based on documented or reported weights)\n* Contraindications for the use of the study medication as per prescription labelling: Personal or family history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2\n* Known or suspected cancer of breast or other sexual organ, abnormal genital bleeding of unknown cause, hepatic neoplasia\n* Arterial or venous thromboembolic events, porphyria\n* Known allergy or hypersensitivity to Wegovy\u00ae, Estradot\u00ae or Utrogestan\u00ae (pharmaceutical agents or any of the excipients)\n* Systemic hormone therapy or hormonal contraceptives (e.g. estrogens, progestogens, androgens) during the study and within 12 months prior to participation\n* Herbal remedies and complimentary medicines for menopausal symptoms during the study\n* Physical or psychological condition or any medical intervention (including medication not specified above) likely to interfere with the normal conduct of the study and interpretation of the study results as judged by the investigator\n* Participation in another clinical trial that interferes with the interpretation of the study results\n* Inability to read German\n* Unwillingness to follow the study procedures",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "FEMALE",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "DECLARED-CT",
+      "briefTitle": "Menopausal Hormone Therapy, GLP-1 Agonists, and Glucose and Energy Homeostasis in Postmenopausal Women With Diabetes",
+      "nctId": "NCT06715514",
+      "officialTitle": "Effects of Combined Menopausal Hormone Therapy and GLP-1 Receptor Agonist Therapy on Glucose and Energy Homeostasis in Early Postmenopausal Women With or at Risk of Diabetes",
+      "orgStudyIdInfo": {
+        "id": "DECLARED-CT"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Insel Gruppe AG, University Hospital Bern"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "Swiss National Science Foundation",
+          "id": "10000574",
+          "type": "OTHER_GRANT"
+        },
+        {
+          "domain": "BASEC-ID",
+          "id": "2024-01882",
+          "type": "REGISTRY"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Ethics approval, as applicable under Swiss legislation, will need to be obtained by those requesting the data. Additionally, a data transfer and processing agreement must be in place to ensure compliance with data protection regulations.",
+      "description": "Individual participant data (IPD) will be made available upon reasonable request to the principal investigator.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ANALYTIC_CODE"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "IPD will be made availabe starting 12 month after publication of trial results."
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Incretin effect (OGTT-IIGI difference in the insulin secretion AUC). The change in OGTT-IIGI insulin secretion AUC from Visit 1 (Visit 1a and Visit 1b) to Visit 2 (Visit 2a and Visit 2b) will be evaluated (units: percentage points). The direct incretin effect will only be assessed in the MHT only arm.",
+          "measure": "Change in incretin effect",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in gastric emptying from Baseline (Visit 1a) to Visit 2a will be quantified by the half-emptying time (units: min). Gastric emptying will be calculated from the 13CO2 enrichment in breath samples collected during the OGTT.",
+          "measure": "Change in gastric emptying",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in glucose rate of appearance from Baseline (Visit 1a) to Visit 2a will be evaluated (units: percentage points). Glucose rate of appearance will be quantified using the Oral Minimal Model Method on the OGTT data.",
+          "measure": "Change in glucose rate of appearance",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in beta-cell function from Baseline (Visit 1a) to Visit 2a will be evaluated (units: 10e-9/min). Beta-cell function will be quantified using the Oral Minimal Model Method on the OGTT data.",
+          "measure": "Change in beta-cell function",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in beta-cell glucose responsivity from Baseline (Visit 1a) to Visit 2a will be evaluated (units: 10e-9/min). Beta-cell glucose responsivity will be quantified using the Oral Minimal Model Method on the OGTT data.",
+          "measure": "Change in beta-cell glucose responsivity",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in GLP-1 secretion from Baseline (Visit 1a) to Visit 2a will be evaluated (units: pmol/L\\*min\\*10e2). GLP-1 secretion will be quantified using the Oral Minimal Model coupled to an oral model of GLP-1 action on the OGTT data.",
+          "measure": "Change in GLP-1 secretion",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in beta-cell GLP-1 sensitivity from Baseline (Visit 1a) to Visit 2a will be evaluated (units: %/\\[pmol/L\\]). Beta-cell GLP-1 sensitivity will be quantified using the Oral Minimal Model coupled to an oral model of GLP-1 action on the OGTT data.",
+          "measure": "Change in beta-cell GLP-1 sensitivity",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in GLP-1 potentiation of insulin secretion from Baseline (Visit 1a) to Visit 2a will be evaluated (units: (%\\*min\\*10e2). GLP-1 potentiation of insulin secretion will be quantified using the Oral Minimal Model coupled to an oral model of GLP-1 action on the OGTT data.",
+          "measure": "Change in GLP-1 potentiation of insulin secretion",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in production insulin sensitivity from Baseline (Visit 1a) to Visit 2a will be evaluated (units: 10e-5 dL/(kg\\*min) per pmol/L). Production insulin sensitivity will be quantified using the single-tracer Oral Minimal Model method on the OGTT data.",
+          "measure": "Change in production (\"hepatic\") insulin sensitivity",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in disposal insulin sensitivity from Baseline (Visit 1a) to Visit 2a will be evaluated (units: 10e-5 dL/(kg\\*min) per pmol/L). Disposal insulin sensitivity will be quantified using the single-tracer Oral Minimal Model method on the OGTT data.",
+          "measure": "Change in disposal (\"peripheral\") insulin sensitivity",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in energy intake from Baseline (Baseline assessment period) to the Intervention period will be evaluated (units: kJ/day). Energy intake will be derived from an energy balance model based on body weight data collected using the smart scale during the baseline and the intervention periods.",
+          "measure": "Change in energy intake",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in resting energy expenditure from Baseline (Visit 1a) to Visit 2a will be evaluated (units: kJ/day). Resting energy expenditure will be measured by indirect calorimetry.",
+          "measure": "Change in resting energy expenditure",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in total energy expenditure from Baseline (Baseline assessment period) to the Intervention period will be evaluated (units: kJ/day). Total energy expenditure will be obtained from the smartwatch data (using Garmin's proprietary algorithm) during the baseline and the intervention periods.",
+          "measure": "Change in total energy expenditure",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in meal frequency from Baseline (Baseline assessment period) to the Intervention Period will be evaluated (units: meals/day). Meal frequency will be assessed using the automated food analysis app SNAQ.",
+          "measure": "Change in meal frequency",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in diet composition from Baseline (Visit 1a) to Visit 2a will be evaluated (units: Percentage points). Diet composition will be assessed using the Swiss Food Frequency Questionnaire.",
+          "measure": "Change in diet composition",
+          "timeFrame": "12 Weeks"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Change in HbA1C from Baseline (Visit 1a) to Visit 2a (units: percentage points). The primary outcome will be compared between the combined MHT+GLP-1RA arm and the GLP-1RA only arm.",
+          "measure": "Change in HbA1C",
+          "timeFrame": "12 Weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change in postprandial plasma glucose exposure from Baseline (Visit 1a) to Visit 2a. Postprandial glucose exposure will be quantified by the area under the plasma glucose concentration curve from glucose intake (T0) until 240 minutes following glucose intake. The resulting values will be normalized to the duration of the experiment and reported in mmol/L.",
+          "measure": "Change in postprandial plasma glucose exposure during the OGTT (AUC plasma glucose concentration)",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change will be quantified as the difference in average sensor glucose levels from the Baseline assessment period (14 days prior to end of Visit 1a) to the last 14 days of the intervention period (i.e., the 14 days before Visit 2a) (units: mmol/L).",
+          "measure": "Change in average sensor glucose levels",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change, measured in percentage points, will be quantified as the difference in the percentage of time with sensor glucose in the tight target range \\[3.9-7.8 mmol/L\\] from the Baseline assessment period (14 days prior to end of Visit 1a) to the last 14 days of the intervention period (i.e., the 14 days before Visit 2a).",
+          "measure": "Change in time with sensor glucose in tight target range [3.9-7.8 mmol/L]",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change will be quantified as the difference in fasting plasma glucose levels from Baseline (Visit 1a) to Visit 2a (units: mmol/L).",
+          "measure": "Change in fasting plasma glucose levels",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change from Baseline (Visit 1a) to Visit 2a will be evaluated (units: kg).",
+          "measure": "Change in body weight",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in percentage of body fat from Baseline (Visit 1a) to Visit 2a will be evaluated (units: percentage points). The percentage of body fat will be obtained from BIA measurements.",
+          "measure": "Change in body fat percentage",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in non-HDL cholesterol from Baseline (Visit 1a) to Visit 2a will be evaluated (units mmol/L). Non-HDL cholesterol will be quantified as the difference between total cholesterol and HDL cholesterol.",
+          "measure": "Change in non-HDL cholesterol",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in systolic blood pressure from Baseline (Visit 1a) to Visit 2a will be evaluated (units: mmHg).",
+          "measure": "Change in systolic blood pressure",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in the controlled attenuation parameter from Baseline (Visit 1a) to Visit 2a will be evaluated (units: dB/m). Liver fat will be quantified using transient elastography.",
+          "measure": "Change in liver fat (controlled attenuation parameter)",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in whole-body insulin sensitivity from Baseline (Visit 1a) to Visit 2a will be evaluated (units: 10e-5 dL/(kg\\*min) per pmol/L). Whole-body insulin sensitivity will be quantified using the Oral Glucose Minimal Model method on the OGTT data.",
+          "measure": "Change in whole-body insulin sensitivity",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in the quality of life from Baseline (Visit 1a) to Visit 2a will be evaluated (units: arbitrary units). Quality of life will be assessed using the total score of the EQ-5D-5L questionnaire.",
+          "measure": "Change in quality of life",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in the postmenopausal symptoms burden from Baseline (Visit 1a) to Visit 2a will be evaluated (units: arbitrary units). Postmenopausal symptom burden will be assessed using the total score of the Menopausal Rating Scale (MRS-II).",
+          "measure": "Change in postmenopausal symptoms burden",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in the frequency of vasomotor symptoms from Baseline (Visit 1a) to Visit 2a will be evaluated (units: number per day). The frequency of vasomotor symptoms will be assessed using an electronic diary during 24 hours prior to Visit 1a and Visit 2a.",
+          "measure": "Change in frequency of vasomotor symptoms",
+          "timeFrame": "12 Weeks"
+        },
+        {
+          "description": "The change in the intensity of vasomotor symptoms from Baseline (Visit 1a) to Visit 2a will be evaluated (units: intensity per episode).The intensity of vasomotor symptoms will be assessed using the intensity scale for hot flashes in the Menopausal Rating Scale (MRS-II). It will be recorded in an electronic diary during 24 hours prior to Visit 1a and Visit 2a.",
+          "measure": "Change in intensity of vasomotor symptoms",
+          "timeFrame": "12 Weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Lia Bally"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Insel Gruppe AG, University Hospital Bern",
+        "investigatorFullName": "Lia Bally",
+        "investigatorTitle": "Prof. Dr. med. et phil.",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-03",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-02-18",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-11-28",
+      "studyFirstSubmitQcDate": "2024-11-28"
+    }
+  }
+}

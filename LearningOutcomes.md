@@ -686,3 +686,177 @@ It may just mean:
 - the fetch query already pre-filtered most edge cases out
 
 So the next time we want to test validation rigor, we should fetch a broader and messier sample.
+
+## 15. A broader sample is what reveals real rule behavior
+
+### What we did
+
+We fetched a broader recruiting sample using a mixed cardiometabolic query:
+
+- `obesity OR type 2 diabetes OR MASH OR NASH OR MASLD`
+
+Then we processed the new run through the batch pipeline:
+
+- [data/raw/20260330T021936Z](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z)
+- [summary.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/processed_runs/20260330T021936Z/summary.json)
+
+### Why this matters
+
+The earlier obesity-only sample was too clean.
+
+A broader fetch is what actually tests whether:
+
+- condition normalization is good enough
+- validation rules match our intended scope
+- the corpus excludes the noisy records we do not want
+
+### Real result
+
+Summary:
+
+- total studies: `10`
+- accepted: `2`
+- rejected: `8`
+
+Top rejection reasons:
+
+- `phase_out_of_scope`: `5`
+- `missing_normalized_condition`: `3`
+- `missing_phase`: `2`
+- `study_type_not_interventional`: `2`
+
+### What this tells us
+
+The current rules are doing something meaningful now.
+
+They are filtering out:
+
+- observational studies
+- interventional studies with `NA` phase
+- phase 1 studies
+- studies whose condition text our current normalizer does not map into the MVP buckets
+
+### What I learned
+
+- A narrow fetch can make weak rules look stronger than they are.
+- Broader samples are necessary to test scope boundaries honestly.
+- The current bottlenecks are now visible:
+  - phase handling
+  - condition terminology normalization
+
+### Important interpretation
+
+This result does not automatically mean the validator is too strict.
+
+It may mean:
+
+- the broader query is returning many studies outside our intended corpus
+- our current condition-mapping logic is still too shallow for real-world naming variation
+
+Those are different problems and should be evaluated separately.
+
+## 16. Rejected-study review confirmed the current scope
+
+### What we did
+
+We inspected additional rejected studies to answer a specific question:
+
+- are these rejections caused by weak normalization?
+- or are they correct under the current product scope?
+
+Examples reviewed:
+
+- [NCT06303544.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06303544.json)
+- [NCT06642363.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06642363.json)
+- [NCT06715514.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06715514.json)
+- [NCT06894498.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw/20260330T021936Z/studies/NCT06894498.json)
+
+### What we found
+
+Most rejections are currently happening for good reasons:
+
+- `OBSERVATIONAL` instead of `INTERVENTIONAL`
+- `PHASE1`
+- `NA` phase
+- truly out-of-scope conditions such as type 1 diabetes
+
+The most ambiguous cases were interventional studies with correct condition matching but `NA` phase.
+
+Those were still rejected correctly under the current MVP definition because we intentionally decided to keep:
+
+- phase `2` through `4` only
+
+### Decision
+
+We are keeping the current scope as-is.
+
+That means:
+
+- do not broaden to `NA` phase interventional studies
+- do not loosen phase rules right now
+- do not change the validator based on these reviewed examples
+
+### What I learned
+
+- Reviewing rejected examples is necessary before changing rules.
+- A rejected study can look interesting without actually belonging in the corpus.
+- The current validator appears to be enforcing scope more than it is exposing normalization bugs.
+
+### What comes next
+
+Since scope stays fixed, the next useful ingestion improvement is:
+
+- condition taxonomy
+
+That is a better next step than changing validation, because it improves terminology handling without changing the product boundary.
+
+## 17. Condition taxonomy is now its own ingestion layer
+
+### What we built
+
+We moved condition mapping logic out of the normalizer and into a dedicated taxonomy layer:
+
+- [scripts/lib/condition_taxonomy.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/condition_taxonomy.py)
+- [scripts/lib/condition_taxonomy.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/condition_taxonomy.json)
+- [docs/condition-taxonomy.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/condition-taxonomy.md)
+
+The normalizer now calls the taxonomy module instead of keeping condition rules inline.
+
+### Why this matters
+
+Condition terminology is its own problem.
+
+Separating it from the main normalizer makes it easier to:
+
+- inspect mappings directly
+- update terminology safely
+- keep normalization code focused on structure, not taxonomy policy
+
+### Current taxonomy design
+
+The taxonomy currently uses:
+
+- explicit mappings for known labels
+- simple contains-rules for broader matching
+
+Current stable labels:
+
+- `obesity`
+- `type_2_diabetes`
+- `mash`
+
+### What I learned
+
+- Pulling taxonomy into its own layer improves clarity even if behavior does not change yet.
+- This is a good example of turning hidden logic into inspectable data.
+
+### Verification result
+
+We reran the broader batch after the taxonomy refactor and got the same acceptance and rejection counts as before.
+
+That is good.
+
+It means:
+
+- the refactor preserved current behavior
+- the system is now cleaner without silently changing corpus membership

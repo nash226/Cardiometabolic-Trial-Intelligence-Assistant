@@ -1,0 +1,230 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-27"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Nitrate-rich Beet root juice 70 ml bid",
+          "interventionNames": [
+            "Dietary Supplement: Beet root juice"
+          ],
+          "label": "Nitrate-rich beet root juice",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Nitrate-depleted beet root juice 70 ml bid",
+          "interventionNames": [
+            "Dietary Supplement: Placebo juice"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Nitrate-rich beet root juice"
+          ],
+          "description": "70 ml bid",
+          "name": "Beet root juice",
+          "type": "DIETARY_SUPPLEMENT"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "70 ml bid",
+          "name": "Placebo juice",
+          "type": "DIETARY_SUPPLEMENT"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "john.pernow@ki.se",
+          "name": "John Pernow",
+          "phone": "+46704848361",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Stockholm",
+          "contacts": [
+            {
+              "email": "john.pernow@ki.se",
+              "name": "John Pernow, Dr",
+              "phone": "+46851775876",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Sweden",
+          "facility": "Karolinska Institutet, Karolinska University Hospital",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          },
+          "status": "RECRUITING",
+          "zip": "17176"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Karolinska Institutet",
+          "name": "John Pernow",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "To investigate the effect of nitrate supplementation on red blood cell function in patients with type 2 diabetes."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "OTHER"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nType 2 diabetes\n\nExclusion Criteria:\n\nAcute coronary syndrome Vegetarian diet Impaired renal function Absolute indication for proton pump inhibitor Ongoing treatment with organic nitrate Heart failure (ejection fraction \\<35%) Any condition that interferes with the possibility to fulfill the study protocol",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effect of Nitrate on Red Blood Cell Function in Type 2 Diabetes",
+      "nctId": "NCT04917471",
+      "officialTitle": "The Effect of Dietary Nitrate Supplementation on Red Blood Cell Function in Patients with Type 2 Diabetes",
+      "orgStudyIdInfo": {
+        "id": "NOBLE-DM"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Karolinska Institutet"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Red blood cells are administered to an isolated rodent heart subjected to 25 min global ischemia and 60 min reperfusion. The percentage recovery during reperfusion is determined.",
+          "measure": "Percentage recovery of left ventricular function",
+          "timeFrame": "1 week"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Karolinska Institutet"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Karolinska Institutet",
+        "investigatorFullName": "John Pernow",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-07",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-06-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-10",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-05-25",
+      "studyFirstSubmitQcDate": "2021-06-07"
+    }
+  }
+}
