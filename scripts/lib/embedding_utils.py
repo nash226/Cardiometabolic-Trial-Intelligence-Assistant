@@ -12,6 +12,8 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+from lib.env_utils import load_dotenv
+
 
 TOKEN_PATTERN = re.compile(r"[a-z0-9_+-]+")
 LOCAL_DEBUG_DIMENSION = 256
@@ -48,6 +50,7 @@ def local_debug_embedding(text: str, dimension: int = LOCAL_DEBUG_DIMENSION) -> 
 
 
 def openai_embedding(text: str, model: str) -> list[float]:
+    load_dotenv(Path.cwd())
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is required for provider=openai")

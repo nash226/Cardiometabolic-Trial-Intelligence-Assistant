@@ -1315,3 +1315,84 @@ That means:
   - hybrid lexical results
   - semantic results
   - combined retrieval behavior
+
+## 22. Comparing semantic retrieval to lexical and hybrid retrieval
+
+### What we did
+
+We ran the same types of queries across:
+
+- lexical search
+- structured + lexical hybrid search
+- semantic search using the OpenAI embeddings index
+
+### Query 1: `incretin obesity therapy`
+
+#### Semantic search
+
+Semantic search returned conceptually related chunks including:
+
+- `NCT06715514` GLP-1-related identity and intervention chunks
+- `NCT07314684` GLP1-RA-related identity and summary chunks
+- obesity-related chunks from `NCT06893016`
+
+This is useful because the query did not rely only on exact term overlap.
+
+#### Lexical search
+
+Lexical search found some related material too, but it mixed:
+
+- relevant GLP-1-related chunks
+- obesity chunks that matched mostly on literal keyword overlap
+
+#### Hybrid lexical search
+
+With filters constrained to accepted obesity interventional 2026-relevant trials, hybrid search returned only `NCT06893016` chunks.
+
+That is also useful because it shows:
+
+- structured filters can intentionally narrow the retrieval space
+- but they can also exclude semantically related cross-condition material when the filter is tight
+
+### Query 2: `trial completion date`
+
+#### Semantic search
+
+Semantic search returned mostly `timeline` chunks.
+
+That is a strong sign that:
+
+- the chunk design is sensible
+- the semantic index is finding the right section type for this query
+
+#### Lexical search
+
+Lexical search also returned many `timeline` chunks, but it surfaced at least one less-useful summary chunk because of exact word overlap with `trial`.
+
+#### Hybrid lexical search
+
+Hybrid retrieval restricted results to the accepted in-scope interventional 2026-relevant trials, which produced a cleaner result set:
+
+- `NCT06893016`
+- `NCT07314684`
+
+### What I learned
+
+- Semantic retrieval helps most on concept-heavy queries where wording may vary.
+- Lexical retrieval remains strong for explicit metadata-style phrases.
+- Hybrid lexical retrieval is best when the user intent includes clear structured constraints.
+- Semantic retrieval without structured filtering can surface relevant but out-of-scope trials.
+
+### Practical takeaway
+
+The three retrieval modes are best at different things:
+
+- lexical: exact terms
+- hybrid lexical: exact terms inside the right trial subset
+- semantic: concept similarity across varied wording
+
+That means the next real retrieval improvement should be:
+
+- a combined ranking or fusion layer
+
+instead of replacing one method with another.
