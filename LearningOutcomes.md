@@ -1473,3 +1473,53 @@ This is what we want because date-oriented queries benefit heavily from lexical 
 - Concept-heavy queries benefit more from semantic weight.
 - metadata-style queries benefit more from lexical weight.
 - score transparency makes it much easier to reason about why a result ranked where it did.
+
+## 25. The storage layer is now designed for Postgres + pgvector
+
+### What we built
+
+We created:
+
+- [docs/database-design.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/database-design.md)
+- [001_init_trial_corpus.sql](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/db/migrations/001_init_trial_corpus.sql)
+
+This is the first concrete database target for the corpus.
+
+### Why this matters
+
+Until now, the retrieval pipeline has been proven with file-based artifacts.
+
+That was the right choice for learning and debugging.
+
+Now that the corpus shape and retrieval design are stable enough, the storage layer can become persistent without changing the architecture.
+
+### Core storage decision
+
+We are storing:
+
+- trial metadata
+- child records
+- validation state
+- chunk text
+- lexical search vectors
+- semantic vectors
+
+inside Postgres + pgvector.
+
+### Important design choice
+
+We decided to store:
+
+- all processed trials
+
+not just accepted trials.
+
+Why:
+
+- rejected trials are still useful for debugging, evaluation, and future scope changes
+- retrieval can filter on validation state instead of deleting provenance
+
+### What I learned
+
+- Storage should follow the retrieval design, not precede it.
+- By delaying the database until after retrieval logic was proven, we ended up with a cleaner schema and clearer mapping from files to tables.

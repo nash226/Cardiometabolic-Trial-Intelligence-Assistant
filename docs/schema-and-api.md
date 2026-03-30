@@ -137,6 +137,8 @@ Field-aware retrieval units.
 - `embedding`: vector
 - `tsv`: tsvector
 
+See [database-design.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/database-design.md) and [001_init_trial_corpus.sql](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/db/migrations/001_init_trial_corpus.sql) for the concrete Postgres + pgvector storage design.
+
 ## 2026 relevance logic
 
 Mark a trial as relevant if one or more of the following is true:
