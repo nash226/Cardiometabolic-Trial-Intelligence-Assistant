@@ -862,3 +862,49 @@ It means:
 
 - the refactor preserved current behavior
 - the system is now cleaner without silently changing corpus membership
+
+## 18. Chunking is the first ingestion layer built for retrieval
+
+### What we built
+
+We created [scripts/generate_chunks.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/generate_chunks.py) and documented it in [docs/chunking.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/chunking.md).
+
+The chunk generator turns one normalized trial record into field-aware retrieval chunks.
+
+Current chunk types:
+
+- `status_identity`
+- `conditions_interventions`
+- `summary_description`
+- `eligibility`
+- `outcomes`
+- `timeline`
+- `sponsor_locations`
+
+### Why this matters
+
+This is the first ingestion layer that directly shapes retrieval quality.
+
+Without chunking, we would have to retrieve:
+
+- either one giant trial blob
+- or arbitrary fixed-size windows
+
+Both are worse than field-aware chunks for this dataset.
+
+### What I learned
+
+- Trial records are semi-structured enough that chunking by section is more sensible than chunking by token count alone.
+- `source_field_paths` are important because they preserve traceability for later citations and debugging.
+- Location data needs to be sampled carefully because some studies have very large site arrays.
+
+### Batch integration
+
+We also updated [scripts/process_raw_run.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/process_raw_run.py) so processed runs now include:
+
+- normalized records
+- validation outputs
+- chunk files
+- a summary report
+
+That means one raw run can now produce retrieval-ready artifacts end to end.
