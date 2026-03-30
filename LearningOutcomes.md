@@ -1146,3 +1146,93 @@ The search is still intentionally simple:
 - no semantic retrieval yet
 
 That is acceptable because the current goal is a clean lexical baseline.
+
+## 20. Hybrid retrieval means filters first, text search second
+
+### What we built
+
+We created [scripts/hybrid_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/hybrid_search.py) and documented it in [docs/hybrid-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/hybrid-search.md).
+
+This is the first retrieval layer that combines:
+
+- structured trial filters
+- lexical chunk search
+
+### How it works
+
+The current flow is:
+
+1. read a processed-run summary
+2. select eligible trials using metadata filters
+3. run lexical scoring only over chunks from those trials
+4. return chunk-level hits with trial IDs and snippets
+
+Current filters:
+
+- `condition`
+- `phase`
+- `study_type`
+- `accepted_only`
+- `year_2026_only`
+
+### Why this matters
+
+This is closer to the actual product than lexical search alone.
+
+It means the system can answer questions like:
+
+- find chunks about `primary completion` from accepted phase 3 obesity trials
+
+instead of just:
+
+- find any chunk anywhere that contains the words `primary` and `completion`
+
+### Real example
+
+Query:
+
+- `primary completion`
+
+Filters:
+
+- `condition=obesity`
+- `phase=PHASE3`
+- `study_type=INTERVENTIONAL`
+- `accepted_only=true`
+- `year_2026_only=true`
+
+Result:
+
+- exactly one eligible trial
+- `NCT06893016`
+- top hit was its `timeline` chunk
+
+That is the expected behavior.
+
+### Another useful example
+
+Query:
+
+- `GLP-1`
+
+Filters:
+
+- `condition=type_2_diabetes`
+- `study_type=INTERVENTIONAL`
+- `accepted_only=true`
+- `year_2026_only=true`
+
+Result:
+
+- no hits
+
+Why that is useful:
+
+- it shows the structured filters are actually restricting search
+- the system is not pretending to have matching in-scope evidence when the current accepted sample does not contain it
+
+### What I learned
+
+- Hybrid retrieval is not just better ranking; it is better eligibility control.
+- Empty results can be a correct outcome when the filtered corpus truly has no matching chunk.
+- This makes the retrieval system more honest and more aligned with the product scope.
