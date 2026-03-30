@@ -1396,3 +1396,80 @@ That means the next real retrieval improvement should be:
 - a combined ranking or fusion layer
 
 instead of replacing one method with another.
+
+## 24. Fused retrieval combines lexical and semantic signals explicitly
+
+### What we built
+
+We created:
+
+- [scripts/fused_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fused_search.py)
+- [docs/fused-search.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/fused-search.md)
+
+The fused layer:
+
+- applies structured trial filters
+- computes lexical scores
+- computes semantic scores
+- normalizes both score families
+- combines them with configurable weights
+
+### Why this matters
+
+This is the first layer that treats lexical and semantic retrieval as complementary signals instead of separate tools.
+
+It also keeps the system transparent because every result reports:
+
+- lexical raw score
+- semantic raw score
+- lexical normalized score
+- semantic normalized score
+- fused score
+
+### Real result: concept-heavy query
+
+Query:
+
+- `incretin obesity therapy`
+
+With:
+
+- `accepted_only`
+- `study_type=INTERVENTIONAL`
+- `year_2026_only=true`
+- weights `lexical=0.4`, `semantic=0.6`
+
+The top fused results included:
+
+- `NCT07314684` outcomes
+- `NCT07314684` summary
+- `NCT06893016` conditions/interventions
+
+This shows semantic similarity contributing strongly where exact lexical overlap is weaker.
+
+### Real result: metadata-style query
+
+Query:
+
+- `trial completion date`
+
+With:
+
+- `accepted_only`
+- `study_type=INTERVENTIONAL`
+- `year_2026_only=true`
+- weights `lexical=0.6`, `semantic=0.4`
+
+The top fused results were:
+
+- `NCT06893016` timeline
+- `NCT07314684` timeline
+
+This is what we want because date-oriented queries benefit heavily from lexical precision and the timeline chunk structure.
+
+### What I learned
+
+- Fused retrieval lets us tune behavior by query style.
+- Concept-heavy queries benefit more from semantic weight.
+- metadata-style queries benefit more from lexical weight.
+- score transparency makes it much easier to reason about why a result ranked where it did.
