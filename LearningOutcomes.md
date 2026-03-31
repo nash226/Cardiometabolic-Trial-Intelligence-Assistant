@@ -1573,3 +1573,72 @@ That is acceptable for now because the priority is:
 - deterministic behavior
 
 not maximum ingestion throughput.
+
+## 29. DB semantic retrieval follows the same backend pattern
+
+### What we built
+
+We created:
+
+- [scripts/db_semantic_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/db_semantic_search.py)
+
+This script:
+
+- embeds the query
+- applies structured trial filters
+- runs pgvector similarity against `trial_chunks.embedding`
+
+### Why this matters
+
+This is the semantic counterpart to the DB lexical retrieval script.
+
+It means the backend retrieval layer can now support both:
+
+- `content_tsv` lexical search
+- `embedding` vector search
+
+from the stored corpus.
+
+### What I learned
+
+- Once retrieval is DB-backed, lexical and semantic search can share the same storage layer while still using different query operators.
+- Environment consistency matters more here because the Python runtime now needs:
+  - database access
+  - embedding provider access
+
+## 30. The retrieval scripts now have an API boundary
+
+### What we built
+
+We created a minimal FastAPI backend under:
+
+- [apps/api/app/main.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/app/main.py)
+
+Supporting pieces:
+
+- config loading
+- DB connection helper
+- typed search request and response schemas
+- a search service over the stored corpus
+
+### Current endpoint
+
+- `POST /api/v1/search`
+
+### Why this matters
+
+This is the transition from:
+
+- retrieval as local scripts
+
+to:
+
+- retrieval as an application backend service
+
+That matters because the frontend should call a stable API contract, not raw scripts.
+
+### What I learned
+
+- Once retrieval logic is stable, wrapping it in an API gives the project a real backend boundary.
+- API work also introduces another environment contract:
+  - FastAPI and Pydantic now need to be installed in the venv
