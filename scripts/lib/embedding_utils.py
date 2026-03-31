@@ -12,7 +12,12 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-from lib.env_utils import load_dotenv
+try:
+    from .env_utils import load_dotenv
+except ImportError as exc:  # pragma: no cover - script execution fallback
+    if __package__ not in (None, ""):
+        raise
+    from lib.env_utils import load_dotenv
 
 
 TOKEN_PATTERN = re.compile(r"[a-z0-9_+-]+")
