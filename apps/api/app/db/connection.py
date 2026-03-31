@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import psycopg
 
-from app.core.config import get_settings
+from ..core.config import get_settings
 
 
 def get_connection() -> psycopg.Connection:

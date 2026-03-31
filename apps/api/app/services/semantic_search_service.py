@@ -1,11 +1,16 @@
 from __future__ import annotations
 
 from ..db.connection import get_connection
-from ..schemas.search import SearchRequest, SearchResponse, SearchResult
+from ..schemas.semantic_search import (
+    SemanticSearchRequest,
+    SemanticSearchResponse,
+    SemanticSearchResult,
+)
+from scripts.lib.embedding_utils import embed_text
 
 
-def _build_where_clause(request: SearchRequest) -> tuple[str, list[object]]:
-    clauses: list[str] = []
+def _build_where_clause(request: SemanticSearchRequest) -> tuple[str, list[object]]:
+    clauses: list[str] = ["tc.embedding IS NOT NULL"]
     params: list[object] = []
 
     if request.accepted_only:
@@ -22,50 +27,40 @@ def _build_where_clause(request: SearchRequest) -> tuple[str, list[object]]:
         clauses.append("t.study_type = %s")
         params.append(request.study_type)
 
-    if not clauses:
-        return "TRUE", params
     return " AND ".join(clauses), params
 
 
-def search_trials(request: SearchRequest) -> SearchResponse:
+def _vector_literal(values: list[float]) -> str:
+    return "[" + ",".join(str(float(value)) for value in values) + "]"
+
+
+def semantic_search_trials(request: SemanticSearchRequest) -> SemanticSearchResponse:
+    query_embedding = embed_text(request.query, provider=request.provider, model=request.model)
+    query_vector = _vector_literal(query_embedding)
     where_sql, where_params = _build_where_clause(request)
+
     sql = f"""
-        WITH eligible_trials AS (
-            SELECT t.id, t.nct_id
-            FROM trials t
-            JOIN trial_validation tv ON tv.trial_id = t.id
-            WHERE {where_sql}
-        ),
-        ranked_chunks AS (
-            SELECT
-                tc.chunk_id,
-                tc.trial_nct_id,
-                tc.chunk_type,
-                tc.title,
-                tc.content,
-                tc.source_field_paths,
-                ts_rank_cd(tc.content_tsv, websearch_to_tsquery('english', %s)) AS score
-            FROM trial_chunks tc
-            JOIN eligible_trials et ON et.id = tc.trial_id
-            WHERE tc.content_tsv @@ websearch_to_tsquery('english', %s)
-        )
         SELECT
-            chunk_id,
-            trial_nct_id,
-            chunk_type,
-            title,
-            content,
-            source_field_paths,
-            score
-        FROM ranked_chunks
-        ORDER BY score DESC, chunk_id ASC
+            tc.chunk_id,
+            tc.trial_nct_id,
+            tc.chunk_type,
+            tc.title,
+            tc.content,
+            tc.source_field_paths,
+            1 - (tc.embedding <=> %s::vector) AS score
+        FROM trial_chunks tc
+        JOIN trials t ON t.id = tc.trial_id
+        JOIN trial_validation tv ON tv.trial_id = t.id
+        WHERE {where_sql}
+        ORDER BY score DESC, tc.chunk_id ASC
         LIMIT %s
     """
-    params = [*where_params, request.query, request.query, request.limit]
+    params = [query_vector, *where_params, request.limit]
 
     count_sql = f"""
         SELECT COUNT(*)
-        FROM trials t
+        FROM trial_chunks tc
+        JOIN trials t ON t.id = tc.trial_id
         JOIN trial_validation tv ON tv.trial_id = t.id
         WHERE {where_sql}
     """
@@ -75,10 +70,10 @@ def search_trials(request: SearchRequest) -> SearchResponse:
             cur.execute(sql, params)
             rows = cur.fetchall()
             cur.execute(count_sql, where_params)
-            eligible_trial_count = int(cur.fetchone()[0])
+            eligible_chunk_count = int(cur.fetchone()[0])
 
     results = [
-        SearchResult(
+        SemanticSearchResult(
             score=float(score),
             chunk_id=chunk_id,
             trial_nct_id=trial_nct_id,
@@ -90,7 +85,7 @@ def search_trials(request: SearchRequest) -> SearchResponse:
         for chunk_id, trial_nct_id, chunk_type, title, content, source_field_paths, score in rows
     ]
 
-    return SearchResponse(
+    return SemanticSearchResponse(
         query=request.query,
         filters={
             "condition": request.condition,
@@ -99,6 +94,8 @@ def search_trials(request: SearchRequest) -> SearchResponse:
             "accepted_only": request.accepted_only,
             "year_2026_only": request.year_2026_only,
         },
-        eligible_trial_count=eligible_trial_count,
+        provider=request.provider,
+        model=request.model,
+        eligible_chunk_count=eligible_chunk_count,
         results=results,
     )

@@ -1642,3 +1642,31 @@ That matters because the frontend should call a stable API contract, not raw scr
 - Once retrieval logic is stable, wrapping it in an API gives the project a real backend boundary.
 - API work also introduces another environment contract:
   - FastAPI and Pydantic now need to be installed in the venv
+
+## 31. The API now exposes both lexical and semantic retrieval
+
+### What we built
+
+We added a semantic retrieval endpoint:
+
+- `POST /api/v1/search/semantic`
+
+Backed by:
+
+- [apps/api/app/services/semantic_search_service.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/app/services/semantic_search_service.py)
+
+### Why this matters
+
+This gives the product a real semantic retrieval interface, not just a local script.
+
+That means the frontend or any client can now compare:
+
+- lexical endpoint behavior
+- semantic endpoint behavior
+
+through the same backend application.
+
+### What I learned
+
+- It is often cleaner to expose semantic retrieval as a separate endpoint first instead of overloading the lexical endpoint immediately.
+- That keeps comparison easy while the retrieval behavior is still being tuned.

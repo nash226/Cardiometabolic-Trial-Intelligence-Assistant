@@ -10,6 +10,7 @@ This is the first backend service layer over the stored trial corpus.
 
 - `GET /health`
 - `POST /api/v1/search`
+- `POST /api/v1/search/semantic`
 
 ## What `POST /api/v1/search` does
 
@@ -52,3 +53,21 @@ It now has:
 - a backend service boundary
 - typed request/response models
 - a stable endpoint the frontend can call
+
+## Semantic search endpoint
+
+`POST /api/v1/search/semantic` runs DB-backed semantic retrieval over `trial_chunks.embedding`.
+
+Example request:
+
+```json
+{
+  "query": "incretin obesity therapy",
+  "accepted_only": true,
+  "study_type": "INTERVENTIONAL",
+  "year_2026_only": true,
+  "provider": "openai",
+  "model": "text-embedding-3-small",
+  "limit": 5
+}
+```
