@@ -177,3 +177,7 @@ The API app now also serves a minimal no-Node frontend:
 - `GET /trials/{nct_id}`
 
 These pages are server-rendered with Jinja2 and use the existing API endpoints behind the scenes.
+
+The trial detail page now includes a grounded answer panel backed by:
+
+- `POST /api/v1/ask`

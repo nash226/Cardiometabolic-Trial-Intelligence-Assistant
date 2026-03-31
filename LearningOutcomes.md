@@ -1949,3 +1949,36 @@ It gives us:
 The next UI step should be:
 
 - add the grounded answer panel to the trial detail or search experience
+
+## 35. Grounded Answer Panel In The UI
+
+### What we built
+
+We added a grounded answer panel to the trial detail page.
+
+The page now:
+
+- accepts a question in the browser
+- calls `POST /api/v1/ask`
+- renders the returned answer
+- shows the cited evidence snippets
+
+### Why this matters
+
+This is the first fully user-facing version of the core product loop:
+
+- inspect a trial
+- ask a question
+- get a grounded answer with citations
+
+### What I learned
+
+- once the backend contracts are stable, adding product behavior to the UI becomes mostly an integration task
+- the main product value becomes visible as soon as retrieval and answer generation are reachable from a page instead of curl
+
+### What comes next
+
+The next likely step is:
+
+- add the same grounded answer experience to the finder/search page, or
+- build the compare view
