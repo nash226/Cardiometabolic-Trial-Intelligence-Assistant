@@ -161,6 +161,14 @@
       border-radius: 14px;
       padding: 10px 12px;
     }
+    .citation-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .citation-link:hover {
+      text-decoration: underline;
+    }
     @media (max-width: 860px) {
       .grid { grid-template-columns: 1fr; }
     }
@@ -322,8 +330,12 @@
 
       citationList.innerHTML = payload.citations.map((citation) => `
         <div class="item">
-          <h3>${citation.title || citation.chunk_type}</h3>
-          <p class="sub">${citation.trial_nct_id} · ${citation.chunk_id}</p>
+          <h3>
+            <a class="citation-link" href="/trials/${citation.trial_nct_id}">
+              ${citation.trial_nct_id} · ${citation.title || citation.chunk_type}
+            </a>
+          </h3>
+          <p class="sub">${citation.chunk_id}</p>
           <p class="sub">${citation.snippet}</p>
         </div>
       `).join("");

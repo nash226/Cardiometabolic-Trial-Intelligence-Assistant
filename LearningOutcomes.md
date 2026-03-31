@@ -1982,3 +1982,31 @@ The next likely step is:
 
 - add the same grounded answer experience to the finder/search page, or
 - build the compare view
+
+## 36. Clickable UI Citations
+
+### What we built
+
+We updated the trial detail answer panel so citations render as clickable links to the local trial detail page while still showing the underlying chunk ID.
+
+### Why this matters
+
+Chunk IDs are good for traceability, but not ideal as the main user-facing citation format.
+
+Clickable citations are a better MVP behavior because they let a user:
+
+- inspect the cited trial quickly
+- keep the answer grounded
+- understand the source without reading internal retrieval identifiers first
+
+### What I learned
+
+- backend citation formats can stay debug-friendly while the UI translates them into a more usable presentation
+- source-grounded UX improves when citations are navigable, not just technically correct
+
+### What comes next
+
+The next improvement is likely:
+
+- linking citations to specific sections on the detail page, or
+- adding the answer panel to the search page
