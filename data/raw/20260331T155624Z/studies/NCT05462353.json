@@ -1,0 +1,246 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "1 tablet of ASC41 (2 mg) for 52 weeks",
+          "interventionNames": [
+            "Drug: 2mg of ASC41",
+            "Drug: Placebo"
+          ],
+          "label": "Cohort 1 Low Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "2 tablet of ASC41 (4 mg) for 52 weeks",
+          "interventionNames": [
+            "Drug: 4mg of ASC41 (2 tablets of 2 mg ASC41)"
+          ],
+          "label": "Cohort 2 High Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo tablet for 52 weeks",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo tablet",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Cohort 1 Low Dose"
+          ],
+          "description": "ASC41 tablet administered orally once daily.",
+          "name": "2mg of ASC41",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Cohort 2 High Dose"
+          ],
+          "description": "ASC41 tablets administered orally once daily.",
+          "name": "4mg of ASC41 (2 tablets of 2 mg ASC41)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Cohort 1 Low Dose",
+            "Placebo tablet"
+          ],
+          "description": "Placebo tablets administered orally once daily.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-alcoholic Fatty Liver Disease",
+        "Non-alcoholic Steatohepatitis"
+      ],
+      "keywords": [
+        "Non-alcoholic Fatty Liver Disease",
+        "NASH",
+        "ASC41",
+        "Phase II",
+        "THR-\u03b2"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Hangzhou",
+          "country": "China",
+          "facility": "The affiliated Hospital of Hangzhou Normal University",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          },
+          "state": "Zhejiang",
+          "zip": "310000"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 2, Double-Blind, Randomized, Multicenter, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Efficacy of ASC41 in Adults with Nonalcoholic Steatohepatitis (NASH)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 183,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18 and \u2264 80 years old at screening.\n* Presence of \u2265 7.5% steatosis on screening MRI-PDFF read centrally by a radiologist and performed either during the screening period or within 6 months prior to the first visit.\n* HbA1c \u2264 9.5%.\n* Normal or minimally abnormal renal function as defined by estimated glomerular filtration rate (eGFR) \u2265 50 mL/min/1.73 m\\^2\n\nExclusion Criteria:\n\n* Presence or history of cirrhosis or evidence of decompensated liver disease (e.g., ascites, variceal bleeding) or hepatocellular carcinoma.\n* History or presence of other concomitant liver disease as assessed by the investigator or determined by laboratory findings.\n* Uncontrolled Type 2 diabetes mellitus (T2DM) defined as HbA1c of \\> 9.5% within 60 days prior to enrollment.\n* Change in anti-diabetic therapy within 6 months prior to qualifying liver biopsy.",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Study to Evaluate the Safety, Tolerability, and Efficacy of ASC41 Tablets in Adult Patients With NASH",
+      "nctId": "NCT05462353",
+      "officialTitle": "A Phase II, Double-Blind, Randomized, Multicenter, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Efficacy of ASC41 in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+      "orgStudyIdInfo": {
+        "id": "ASC41-202"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Ascletis Pharma Inc"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "A histological change in NAFLD (nonalcoholic fatty liver disease) Activity Score (NAS) \u2265 2 points that results from reduction of necroinflammation (inflammation or ballooning) without worsening fibrosis. (The NAFLD Activity Score including steatosis, inflammation and ballooning. The maximum score of steatosis was 3 and the minimum score was 0, the maximum score of inflammation was 3 and the minimum score was 0, and the maximum score of ballooning was 2 and the minimum score was 0. The higher scores mean a worse outcome. \uff09",
+          "measure": "To evaluate the effect of ASC41 compared with placebo in noncirrhotic subjects with NASH by a histological change.",
+          "timeFrame": "Baseline and Week 52"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The incidence, type and severity of AEs/SAEs were assessed by CTCAE v5.0 to assess the safety and tolerability of ASC41 compared to placebo",
+          "timeFrame": "24 and 52 weeks"
+        },
+        {
+          "measure": "Change from baseline in hepatic fat fraction assessed by MRI-PDFF",
+          "timeFrame": "24 and 52 weeks"
+        },
+        {
+          "measure": "To evaluate the effect of ASC41 compared with placebo on serum lipids (cholesterol, HDL-C, LDL-C, triglycerides, Lp(a), VLDL)",
+          "timeFrame": "12, 24 and 52 weeks"
+        },
+        {
+          "description": "Measured after administration",
+          "measure": "Plasma pharmacokinetics - Peak Plasma Concentration (Cmax)",
+          "timeFrame": "1 and 15 Days"
+        },
+        {
+          "measure": "Plasma pharmacokinetics - Area under the plasma drug concentration versus time curve( AUC0-t_, AUC0-\u221e)",
+          "timeFrame": "1 and 15 Days"
+        },
+        {
+          "measure": "Plasma pharmacokinetics - The amount of time that a drug is present at the maximum concentration in serum(Tmax)",
+          "timeFrame": "1 and 15 Days"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Gannex Pharma Co., Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-06-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-07",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-05-10",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-09-30",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-10",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-07-07",
+      "studyFirstSubmitQcDate": "2022-07-13"
+    }
+  }
+}

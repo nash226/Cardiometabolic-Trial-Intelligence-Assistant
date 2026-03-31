@@ -1,0 +1,2764 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C588408",
+          "term": "resmetirom"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Placebo Daily",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Procedure: Liver Biopsy"
+          ],
+          "label": "Matching Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "80 mg daily",
+          "interventionNames": [
+            "Drug: MGL-3196",
+            "Procedure: Liver Biopsy"
+          ],
+          "label": "80 mg MGL-3196",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "100 mg daily",
+          "interventionNames": [
+            "Drug: MGL-3196",
+            "Procedure: Liver Biopsy"
+          ],
+          "label": "100 mg MGL-3196",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "100 mg MGL-3196",
+            "80 mg MGL-3196"
+          ],
+          "description": "Tablet",
+          "name": "MGL-3196",
+          "otherNames": [
+            "Resmetirom"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Matching Placebo"
+          ],
+          "description": "Matching Tablets",
+          "name": "Placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "100 mg MGL-3196",
+            "80 mg MGL-3196",
+            "Matching Placebo"
+          ],
+          "description": "A procedure in which a needle is inserted into the liver to collect a tissue sample",
+          "name": "Liver Biopsy",
+          "type": "PROCEDURE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NASH - Nonalcoholic Steatohepatitis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Birmingham",
+          "country": "United States",
+          "facility": "University of Alabama at Birmingham",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          },
+          "state": "Alabama",
+          "zip": "35249"
+        },
+        {
+          "city": "Chandler",
+          "country": "United States",
+          "facility": "East Valley Family Physicians",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          },
+          "state": "Arizona",
+          "zip": "85224"
+        },
+        {
+          "city": "Chandler",
+          "country": "United States",
+          "facility": "The Institute for Liver Health - Chandler",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          },
+          "state": "Arizona",
+          "zip": "85224"
+        },
+        {
+          "city": "Glendale",
+          "country": "United States",
+          "facility": "The Institute for Liver Health - Glendale",
+          "geoPoint": {
+            "lat": 33.53865,
+            "lon": -112.18599
+          },
+          "state": "Arizona",
+          "zip": "85306"
+        },
+        {
+          "city": "Mesa",
+          "country": "United States",
+          "facility": "Desert Clinical Research",
+          "geoPoint": {
+            "lat": 33.42227,
+            "lon": -111.82264
+          },
+          "state": "Arizona",
+          "zip": "85213"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "facility": "Adobe Gastroenterology",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "zip": "85712"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "facility": "The Institute for Liver Health - Tucson",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "zip": "85712"
+        },
+        {
+          "city": "North Little Rock",
+          "country": "United States",
+          "facility": "Arkansas Gastroenterology",
+          "geoPoint": {
+            "lat": 34.76954,
+            "lon": -92.26709
+          },
+          "state": "Arkansas",
+          "zip": "72117"
+        },
+        {
+          "city": "Fresno",
+          "country": "United States",
+          "facility": "Fresno Clinical Research Center",
+          "geoPoint": {
+            "lat": 36.74773,
+            "lon": -119.77237
+          },
+          "state": "California",
+          "zip": "93720"
+        },
+        {
+          "city": "Huntington Park",
+          "country": "United States",
+          "facility": "National Research Institute - Huntington Park",
+          "geoPoint": {
+            "lat": 33.98168,
+            "lon": -118.22507
+          },
+          "state": "California",
+          "zip": "90255"
+        },
+        {
+          "city": "La Jolla",
+          "country": "United States",
+          "facility": "University of California San Diego",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          },
+          "state": "California",
+          "zip": "92037"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "Cedars-Sinai Medical Center",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90048"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "National Research Institute - Los Angeles",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90057"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "Ruane Clinical Research",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90057"
+        },
+        {
+          "city": "Palo Alto",
+          "country": "United States",
+          "facility": "Stanford University School of Medicine",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          },
+          "state": "California",
+          "zip": "94304"
+        },
+        {
+          "city": "Panorama City",
+          "country": "United States",
+          "facility": "National Research Institute - Panorama City",
+          "geoPoint": {
+            "lat": 34.22473,
+            "lon": -118.44981
+          },
+          "state": "California",
+          "zip": "91402"
+        },
+        {
+          "city": "Poway",
+          "country": "United States",
+          "facility": "Alliance Clinical Research",
+          "geoPoint": {
+            "lat": 32.96282,
+            "lon": -117.03586
+          },
+          "state": "California",
+          "zip": "92064"
+        },
+        {
+          "city": "Van Nuys",
+          "country": "United States",
+          "facility": "San Fernando Valley Health Institute",
+          "geoPoint": {
+            "lat": 34.18667,
+            "lon": -118.44897
+          },
+          "state": "California",
+          "zip": "91405"
+        },
+        {
+          "city": "Colorado Springs",
+          "country": "United States",
+          "facility": "Colorado Springs Family Practice",
+          "geoPoint": {
+            "lat": 38.83388,
+            "lon": -104.82136
+          },
+          "state": "Colorado",
+          "zip": "80909"
+        },
+        {
+          "city": "Englewood",
+          "country": "United States",
+          "facility": "South Denver Gastroenterology - Swedish Medical Center Office",
+          "geoPoint": {
+            "lat": 39.64777,
+            "lon": -104.98776
+          },
+          "state": "Colorado",
+          "zip": "80113"
+        },
+        {
+          "city": "Boca Raton",
+          "country": "United States",
+          "facility": "Excel Medical Clinical Trials",
+          "geoPoint": {
+            "lat": 26.35869,
+            "lon": -80.0831
+          },
+          "state": "Florida",
+          "zip": "33434"
+        },
+        {
+          "city": "Fort Myers",
+          "country": "United States",
+          "facility": "Covenant Metabolic Specialists - Fort Myers",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          },
+          "state": "Florida",
+          "zip": "33912"
+        },
+        {
+          "city": "Gainesville",
+          "country": "United States",
+          "facility": "University of Florida Hepatology Research at CTRB",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          },
+          "state": "Florida",
+          "zip": "32610"
+        },
+        {
+          "city": "Inverness",
+          "country": "United States",
+          "facility": "Nature Coast Clinical Research",
+          "geoPoint": {
+            "lat": 28.83582,
+            "lon": -82.33037
+          },
+          "state": "Florida",
+          "zip": "34452"
+        },
+        {
+          "city": "Lakewood Rch",
+          "country": "United States",
+          "facility": "Florida Research Institute",
+          "geoPoint": {
+            "lat": 27.3863,
+            "lon": -82.4332
+          },
+          "state": "Florida",
+          "zip": "34211"
+        },
+        {
+          "city": "Miami",
+          "country": "United States",
+          "facility": "University of Miami",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          },
+          "state": "Florida",
+          "zip": "33136"
+        },
+        {
+          "city": "Miami",
+          "country": "United States",
+          "facility": "Miami Dade Medical Research Institute",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          },
+          "state": "Florida",
+          "zip": "33176"
+        },
+        {
+          "city": "Orlando",
+          "country": "United States",
+          "facility": "Bioclinica Research - Orlando",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          },
+          "state": "Florida",
+          "zip": "32806"
+        },
+        {
+          "city": "Port Orange",
+          "country": "United States",
+          "facility": "Progressive Medical Research",
+          "geoPoint": {
+            "lat": 29.13832,
+            "lon": -80.99561
+          },
+          "state": "Florida",
+          "zip": "32127"
+        },
+        {
+          "city": "Sarasota",
+          "country": "United States",
+          "facility": "Covenant Research",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          },
+          "state": "Florida",
+          "zip": "34240"
+        },
+        {
+          "city": "The Villages",
+          "country": "United States",
+          "facility": "Bioclinica Research - The Villages",
+          "geoPoint": {
+            "lat": 28.93408,
+            "lon": -81.95994
+          },
+          "state": "Florida",
+          "zip": "32162"
+        },
+        {
+          "city": "Marietta",
+          "country": "United States",
+          "facility": "GI Specialists of Georgia",
+          "geoPoint": {
+            "lat": 33.9526,
+            "lon": -84.54993
+          },
+          "state": "Georgia",
+          "zip": "30060"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "Clinical Research - Chicago",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "zip": "60602"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "Northwestern Medical Faculty Foundation",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "zip": "60611"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "The University of Chicago Medicine",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "zip": "60637"
+        },
+        {
+          "city": "Fairway",
+          "country": "United States",
+          "facility": "University of Kansas Medical Center Research Institute",
+          "geoPoint": {
+            "lat": 39.02223,
+            "lon": -94.6319
+          },
+          "state": "Kansas",
+          "zip": "66205"
+        },
+        {
+          "city": "Topeka",
+          "country": "United States",
+          "facility": "Kansas Medical Clinic - Gastroenterology",
+          "geoPoint": {
+            "lat": 39.04833,
+            "lon": -95.67804
+          },
+          "state": "Kansas",
+          "zip": "66606"
+        },
+        {
+          "city": "Baton Rouge",
+          "country": "United States",
+          "facility": "Texas Digestive Disease Consultants - Gastroenterology Associates - Baton Rouge",
+          "geoPoint": {
+            "lat": 30.44332,
+            "lon": -91.18747
+          },
+          "state": "Louisiana",
+          "zip": "70809"
+        },
+        {
+          "city": "Marrero",
+          "country": "United States",
+          "facility": "Tandem Clinical Research",
+          "geoPoint": {
+            "lat": 29.89937,
+            "lon": -90.10035
+          },
+          "state": "Louisiana",
+          "zip": "70072"
+        },
+        {
+          "city": "New Orleans",
+          "country": "United States",
+          "facility": "Tulane University School of Medicine",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          },
+          "state": "Louisiana",
+          "zip": "70112"
+        },
+        {
+          "city": "New Orleans",
+          "country": "United States",
+          "facility": "Ochsner Medical Center",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          },
+          "state": "Louisiana",
+          "zip": "70121"
+        },
+        {
+          "city": "West Monroe",
+          "country": "United States",
+          "facility": "Clinical Trials of America",
+          "geoPoint": {
+            "lat": 32.51848,
+            "lon": -92.14764
+          },
+          "state": "Louisiana",
+          "zip": "71291"
+        },
+        {
+          "city": "Bethesda",
+          "country": "United States",
+          "facility": "Walter Reed National Military Medical Center",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          },
+          "state": "Maryland",
+          "zip": "20889"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "facility": "Beth Israel Deaconess Medical Center",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "zip": "02215"
+        },
+        {
+          "city": "Flowood",
+          "country": "United States",
+          "facility": "Gastrointestinal Associates and Endoscopy Center - Madison",
+          "geoPoint": {
+            "lat": 32.30959,
+            "lon": -90.13898
+          },
+          "state": "Mississippi",
+          "zip": "39232"
+        },
+        {
+          "city": "Jackson",
+          "country": "United States",
+          "facility": "Southern Therapy and Advanced Research",
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          },
+          "state": "Mississippi",
+          "zip": "39216"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "facility": "Saint Luke's Hospital of Kansas City",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          },
+          "state": "Missouri",
+          "zip": "64111"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "facility": "Kansas City Research Institute",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          },
+          "state": "Missouri",
+          "zip": "64131"
+        },
+        {
+          "city": "St Louis",
+          "country": "United States",
+          "facility": "Saint Louis University",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          },
+          "state": "Missouri",
+          "zip": "63104"
+        },
+        {
+          "city": "Henderson",
+          "country": "United States",
+          "facility": "Clinical Research US - Henderson",
+          "geoPoint": {
+            "lat": 36.0397,
+            "lon": -114.98194
+          },
+          "state": "Nevada",
+          "zip": "89052"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "facility": "Mt. Sinai Medical Center",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "zip": "10029"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "facility": "New York Presbyterian Hospital",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "zip": "10065"
+        },
+        {
+          "city": "Charlotte",
+          "country": "United States",
+          "facility": "University of North Carolina Medical Center - Chapel Hill",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          },
+          "state": "North Carolina",
+          "zip": "27599"
+        },
+        {
+          "city": "Durham",
+          "country": "United States",
+          "facility": "Duke University Medical Center",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          },
+          "state": "North Carolina",
+          "zip": "27705"
+        },
+        {
+          "city": "Fayetteville",
+          "country": "United States",
+          "facility": "Cumberland Research Associates",
+          "geoPoint": {
+            "lat": 35.05266,
+            "lon": -78.87836
+          },
+          "state": "North Carolina",
+          "zip": "28304"
+        },
+        {
+          "city": "Morehead City",
+          "country": "United States",
+          "facility": "Lucas Research",
+          "geoPoint": {
+            "lat": 34.72294,
+            "lon": -76.72604
+          },
+          "state": "North Carolina",
+          "zip": "28557"
+        },
+        {
+          "city": "Cincinnati",
+          "country": "United States",
+          "facility": "Consultants for Clinical Research",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          },
+          "state": "Ohio",
+          "zip": "45249"
+        },
+        {
+          "city": "Columbus",
+          "country": "United States",
+          "facility": "Aventiv Research - Columbus",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          },
+          "state": "Ohio",
+          "zip": "43213"
+        },
+        {
+          "city": "Marion",
+          "country": "United States",
+          "facility": "Awasty Research Network",
+          "geoPoint": {
+            "lat": 40.58867,
+            "lon": -83.12852
+          },
+          "state": "Ohio",
+          "zip": "43302"
+        },
+        {
+          "city": "Clarksville",
+          "country": "United States",
+          "facility": "Premier Medical Group - Clarksville",
+          "geoPoint": {
+            "lat": 36.52977,
+            "lon": -87.35945
+          },
+          "state": "Tennessee",
+          "zip": "37040"
+        },
+        {
+          "city": "Germantown",
+          "country": "United States",
+          "facility": "Gastro One - Germantown - Centre Oak Way",
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          },
+          "state": "Tennessee",
+          "zip": "38138"
+        },
+        {
+          "city": "Hermitage",
+          "country": "United States",
+          "facility": "Associates in Gastroenterology",
+          "geoPoint": {
+            "lat": 36.19617,
+            "lon": -86.6225
+          },
+          "state": "Tennessee",
+          "zip": "37076"
+        },
+        {
+          "city": "Knoxville",
+          "country": "United States",
+          "facility": "Gastrointestinal Associates - Knoxville",
+          "geoPoint": {
+            "lat": 35.96064,
+            "lon": -83.92074
+          },
+          "state": "Tennessee",
+          "zip": "37909"
+        },
+        {
+          "city": "Brownsville",
+          "country": "United States",
+          "facility": "South Texas Research Institute - Brownsville",
+          "geoPoint": {
+            "lat": 25.90175,
+            "lon": -97.49748
+          },
+          "state": "Texas",
+          "zip": "78520"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "Dallas Research Center",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75234"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "Liver Center of Texas",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75234"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "Texas Digestive Disease Consultants - Dallas",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75234"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "The Liver Institute at Methodist Dallas Medical Center",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75234"
+        },
+        {
+          "city": "Edinburg",
+          "country": "United States",
+          "facility": "South Texas Research Institute",
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          },
+          "state": "Texas",
+          "zip": "78539"
+        },
+        {
+          "city": "Fort Sam Houston",
+          "country": "United States",
+          "facility": "Brooke Army Medical Center",
+          "geoPoint": {
+            "lat": 29.45303,
+            "lon": -98.4417
+          },
+          "state": "Texas",
+          "zip": "78234"
+        },
+        {
+          "city": "Fort Worth",
+          "country": "United States",
+          "facility": "Texas Digestive Disease Consultants - Fort Worth",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          },
+          "state": "Texas",
+          "zip": "76104"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Liver Associates of Texas",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "zip": "77030"
+        },
+        {
+          "city": "McAllen",
+          "country": "United States",
+          "facility": "Doctor's Hospital at Renaissance",
+          "geoPoint": {
+            "lat": 26.20341,
+            "lon": -98.23001
+          },
+          "state": "Texas",
+          "zip": "78504"
+        },
+        {
+          "city": "Plano",
+          "country": "United States",
+          "facility": "Plano Research Center",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          },
+          "state": "Texas",
+          "zip": "75093"
+        },
+        {
+          "city": "Rollingwood",
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research - Austin",
+          "geoPoint": {
+            "lat": 30.27687,
+            "lon": -97.79112
+          },
+          "state": "Texas",
+          "zip": "78746"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "zip": "78229"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "San Antonio Research Center",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "zip": "78229"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "The Texas Liver Institute",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "zip": "78229"
+        },
+        {
+          "city": "San Marcos",
+          "country": "United States",
+          "facility": "Texas Digestive Disease Consultants - San Marcos",
+          "geoPoint": {
+            "lat": 29.88327,
+            "lon": -97.94139
+          },
+          "state": "Texas",
+          "zip": "78666"
+        },
+        {
+          "city": "Waco",
+          "country": "United States",
+          "facility": "Impact Research Institute",
+          "geoPoint": {
+            "lat": 31.54933,
+            "lon": -97.14667
+          },
+          "state": "Texas",
+          "zip": "76710"
+        },
+        {
+          "city": "Webster",
+          "country": "United States",
+          "facility": "Texas Digestive Disease Consultants - Bay Area Gastroenterology",
+          "geoPoint": {
+            "lat": 29.53773,
+            "lon": -95.11826
+          },
+          "state": "Texas",
+          "zip": "77598"
+        },
+        {
+          "city": "Layton",
+          "country": "United States",
+          "facility": "Wasatch Peak Family Practice",
+          "geoPoint": {
+            "lat": 41.06022,
+            "lon": -111.97105
+          },
+          "state": "Utah",
+          "zip": "84041"
+        },
+        {
+          "city": "Murray",
+          "country": "United States",
+          "facility": "Salt Lake City Research Center",
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          },
+          "state": "Utah",
+          "zip": "84123"
+        },
+        {
+          "city": "Salt Lake City",
+          "country": "United States",
+          "facility": "University of Utah Hospital",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          },
+          "state": "Utah",
+          "zip": "84132"
+        },
+        {
+          "city": "Charlottesville",
+          "country": "United States",
+          "facility": "University of Virginia Health System",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          },
+          "state": "Virginia",
+          "zip": "22903"
+        },
+        {
+          "city": "Richmond",
+          "country": "United States",
+          "facility": "Bon Secours St. Mary's Hospital of Richmond",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "zip": "23226"
+        },
+        {
+          "city": "Richmond",
+          "country": "United States",
+          "facility": "Hunter Holmes McGuire Veterans Administration Medical Center",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "zip": "23249"
+        },
+        {
+          "city": "Richmond",
+          "country": "United States",
+          "facility": "Virginia Commonwealth University",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "zip": "23249"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "facility": "Liver Institute Northwest",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          },
+          "state": "Washington",
+          "zip": "98105"
+        },
+        {
+          "city": "Camperdown",
+          "country": "Australia",
+          "facility": "Royal Prince Alfred Hospital",
+          "geoPoint": {
+            "lat": -33.88965,
+            "lon": 151.17642
+          },
+          "state": "New South Wales",
+          "zip": "2050"
+        },
+        {
+          "city": "Darlinghurst",
+          "country": "Australia",
+          "facility": "Saint Vincent's Hospital Sydney",
+          "geoPoint": {
+            "lat": -33.87939,
+            "lon": 151.21925
+          },
+          "state": "New South Wales",
+          "zip": "2010"
+        },
+        {
+          "city": "Kingswood",
+          "country": "Australia",
+          "facility": "Nepean Hospital",
+          "geoPoint": {
+            "lat": -33.75614,
+            "lon": 150.72346
+          },
+          "state": "New South Wales",
+          "zip": "2747"
+        },
+        {
+          "city": "New Lambton",
+          "country": "Australia",
+          "facility": "John Hunter Hospital",
+          "geoPoint": {
+            "lat": -32.92838,
+            "lon": 151.7085
+          },
+          "state": "New South Wales",
+          "zip": "2305"
+        },
+        {
+          "city": "Westmead",
+          "country": "Australia",
+          "facility": "Westmead Hospital",
+          "geoPoint": {
+            "lat": -33.80383,
+            "lon": 150.98768
+          },
+          "state": "New South Wales",
+          "zip": "2145"
+        },
+        {
+          "city": "Herston",
+          "country": "Australia",
+          "facility": "Royal Brisbane and Women's Hospital",
+          "geoPoint": {
+            "lat": -27.44453,
+            "lon": 153.01852
+          },
+          "state": "Queensland",
+          "zip": "4029"
+        },
+        {
+          "city": "South Brisbane",
+          "country": "Australia",
+          "facility": "Mater Misericordiae",
+          "geoPoint": {
+            "lat": -27.48034,
+            "lon": 153.02049
+          },
+          "state": "Queensland",
+          "zip": "4101"
+        },
+        {
+          "city": "Adelaide",
+          "country": "Australia",
+          "facility": "Royal Adelaide Hospital",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          },
+          "state": "South Australia",
+          "zip": "5000"
+        },
+        {
+          "city": "Clayton",
+          "country": "Australia",
+          "facility": "Monash Medical Centre",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          },
+          "state": "Victoria",
+          "zip": "3168"
+        },
+        {
+          "city": "Heidelberg",
+          "country": "Australia",
+          "facility": "Austin Health",
+          "geoPoint": {
+            "lat": -37.75,
+            "lon": 145.06667
+          },
+          "state": "Victoria",
+          "zip": "3084"
+        },
+        {
+          "city": "Melbourne",
+          "country": "Australia",
+          "facility": "The Alfred Hospital",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          },
+          "state": "Victoria",
+          "zip": "3004"
+        },
+        {
+          "city": "Parkville",
+          "country": "Australia",
+          "facility": "The Royal Melbourne Hospital",
+          "geoPoint": {
+            "lat": -37.78333,
+            "lon": 144.95
+          },
+          "state": "Victoria",
+          "zip": "3050"
+        },
+        {
+          "city": "Nedlands",
+          "country": "Australia",
+          "facility": "Sir Charles Gairdner Hospital",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          },
+          "state": "Western Australia",
+          "zip": "6009"
+        },
+        {
+          "city": "Perth",
+          "country": "Australia",
+          "facility": "Royal Perth Hospital",
+          "geoPoint": {
+            "lat": -31.95224,
+            "lon": 115.8614
+          },
+          "state": "Western Australia",
+          "zip": "6000"
+        },
+        {
+          "city": "Klagenfurt",
+          "country": "Austria",
+          "facility": "Klinikum Klagenfurt Am W\u00f6rthersee",
+          "geoPoint": {
+            "lat": 46.62472,
+            "lon": 14.30528
+          },
+          "state": "Carinthia"
+        },
+        {
+          "city": "Linz",
+          "country": "Austria",
+          "facility": "Ordensklinikum Linz GmbH Barmherzige Schwestern",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          },
+          "state": "Upper Austria"
+        },
+        {
+          "city": "Vienna",
+          "country": "Austria",
+          "facility": "Krankenanstalt Rudolfstiftung",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          },
+          "state": "Vienna"
+        },
+        {
+          "city": "Salzburg",
+          "country": "Austria",
+          "facility": "Landesklinik St. Veit",
+          "geoPoint": {
+            "lat": 47.79941,
+            "lon": 13.04399
+          }
+        },
+        {
+          "city": "Sankt P\u00f6lten",
+          "country": "Austria",
+          "facility": "Universit\u00e4tsklinikum St. P\u00f6lten",
+          "geoPoint": {
+            "lat": 48.20762,
+            "lon": 15.63725
+          },
+          "zip": "3100"
+        },
+        {
+          "city": "Vienna",
+          "country": "Austria",
+          "facility": "Medizinische Universit\u00e4t Wien",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "city": "Wels",
+          "country": "Austria",
+          "facility": "Klinikum Wels-Grieskirchen",
+          "geoPoint": {
+            "lat": 48.16667,
+            "lon": 14.03333
+          }
+        },
+        {
+          "city": "Edegem",
+          "country": "Belgium",
+          "facility": "Universitair Ziekenhuis Antwerpen",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          },
+          "state": "Antwerpen"
+        },
+        {
+          "city": "Brussels",
+          "country": "Belgium",
+          "facility": "H\u00f4pital Erasme",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          },
+          "state": "Brussels Capital"
+        },
+        {
+          "city": "Leuven",
+          "country": "Belgium",
+          "facility": "Universitair Ziekenhuis Leuven",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          },
+          "state": "Flemish Brabant"
+        },
+        {
+          "city": "Genk",
+          "country": "Belgium",
+          "facility": "Ziekenhuis Oost-Limburg'",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          },
+          "state": "Limburg"
+        },
+        {
+          "city": "Ghent",
+          "country": "Belgium",
+          "facility": "Algemeen Ziekenhuis Maria Middelares",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          },
+          "state": "Oost-Vlaanderen"
+        },
+        {
+          "city": "Ghent",
+          "country": "Belgium",
+          "facility": "Universitair Ziekenhuis Gent",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          },
+          "state": "Oost-Vlaanderen"
+        },
+        {
+          "city": "Roeselare",
+          "country": "Belgium",
+          "facility": "AZ Delta Campus Wilgenstraat",
+          "geoPoint": {
+            "lat": 50.94653,
+            "lon": 3.12269
+          },
+          "state": "West-Vlaanderen"
+        },
+        {
+          "city": "Brussels",
+          "country": "Belgium",
+          "facility": "Universitair Ziekenhuis Brussel",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          },
+          "zip": "1090"
+        },
+        {
+          "city": "Brussels",
+          "country": "Belgium",
+          "facility": "Cliniques Universitaires Saint-Luc",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "city": "Laken",
+          "country": "Belgium",
+          "facility": "Centre Hospitalier Universitaire Brugmann",
+          "geoPoint": {
+            "lat": 50.87585,
+            "lon": 4.34844
+          }
+        },
+        {
+          "city": "Leuven",
+          "country": "Belgium",
+          "facility": "Universitair Ziekenhuis Leuven",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "city": "Calgary",
+          "country": "Canada",
+          "facility": "University of Calgary Liver Unit",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          },
+          "state": "Alberta"
+        },
+        {
+          "city": "Edmonton",
+          "country": "Canada",
+          "facility": "University of Alberta",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          },
+          "state": "Alberta"
+        },
+        {
+          "city": "Bridgewater",
+          "country": "Canada",
+          "facility": "South Shore Medical Arts",
+          "geoPoint": {
+            "lat": 44.37856,
+            "lon": -64.51882
+          },
+          "state": "Nova Scotia"
+        },
+        {
+          "city": "Brampton",
+          "country": "Canada",
+          "facility": "LMC/ Manna Research - Brampton",
+          "geoPoint": {
+            "lat": 43.68341,
+            "lon": -79.76633
+          },
+          "state": "Ontario"
+        },
+        {
+          "city": "Brampton",
+          "country": "Canada",
+          "facility": "William Osler Health System",
+          "geoPoint": {
+            "lat": 43.68341,
+            "lon": -79.76633
+          },
+          "state": "Ontario"
+        },
+        {
+          "city": "Hamilton",
+          "country": "Canada",
+          "facility": "McMaster University",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          },
+          "state": "Ontario"
+        },
+        {
+          "city": "Toronto",
+          "country": "Canada",
+          "facility": "Toronto General Hospital - Clinical Trials Pharmacy",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          },
+          "state": "Ontario"
+        },
+        {
+          "city": "Toronto",
+          "country": "Canada",
+          "facility": "Toronto Liver Center",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          },
+          "state": "Ontario"
+        },
+        {
+          "city": "Vancouver",
+          "country": "Canada",
+          "facility": "Lair Centre",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          },
+          "zip": "V5Z 1J4"
+        },
+        {
+          "city": "Vancouver",
+          "country": "Canada",
+          "facility": "GI Research Institute",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "city": "Strasbourg",
+          "country": "France",
+          "facility": "Les H\u00f4pitaux Universitaires de Strasbourg - H\u00f4pital Hautepierre",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          },
+          "state": "Alsace"
+        },
+        {
+          "city": "Strasbourg",
+          "country": "France",
+          "facility": "Nouvel H\u00f4pital Civil",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          },
+          "state": "Alsace"
+        },
+        {
+          "city": "Lyon",
+          "country": "France",
+          "facility": "H\u00f4pital de la Croix Rousse",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          },
+          "state": "Auvergne-Rh\u00f4ne-Alpes"
+        },
+        {
+          "city": "Clermont-Ferrand",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire Estaing",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          },
+          "state": "Auvergne"
+        },
+        {
+          "city": "Rennes",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire de Rennes",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          },
+          "state": "Brittany Region"
+        },
+        {
+          "city": "Besan\u00e7on",
+          "country": "France",
+          "facility": "H\u00f4pital Jean-Minjoz",
+          "geoPoint": {
+            "lat": 47.24878,
+            "lon": 6.01815
+          },
+          "state": "Franche-Comte"
+        },
+        {
+          "city": "Lille",
+          "country": "France",
+          "facility": "Centre Hospitalier R\u00e9gional Universitaire de Lille",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          },
+          "state": "Hauts-de-France"
+        },
+        {
+          "city": "Montpellier",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire de Montpellier",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          },
+          "state": "Languedoc-Roussillon"
+        },
+        {
+          "city": "Limoges",
+          "country": "France",
+          "facility": "H\u00f4pital Dupuytren",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          },
+          "state": "Limousin"
+        },
+        {
+          "city": "Toulouse",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire de Toulouse - H\u00f4pital Rangueil",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          },
+          "state": "Midi-Pyrenees"
+        },
+        {
+          "city": "Angers",
+          "country": "France",
+          "facility": "Center Hospitalier Universitaire d'Angers",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          },
+          "state": "Pays de la Loire Region"
+        },
+        {
+          "city": "Nice",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire de Nice H\u00f4pital l'Archet",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          },
+          "state": "Provence-Alpes-C\u00f4te d'Azur Region"
+        },
+        {
+          "city": "Amiens",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire Amiens-Picardie",
+          "geoPoint": {
+            "lat": 49.9,
+            "lon": 2.3
+          }
+        },
+        {
+          "city": "Clichy",
+          "country": "France",
+          "facility": "H\u00f4pital Beaujon",
+          "geoPoint": {
+            "lat": 48.90018,
+            "lon": 2.30952
+          }
+        },
+        {
+          "city": "Paris",
+          "country": "France",
+          "facility": "H\u00f4pital Universitaire Piti\u00e9 Salp\u00eatri\u00e8re",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "city": "Vand\u0153uvre-l\u00e8s-Nancy",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire de Nancy - H\u00f4pital de Brabois",
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        },
+        {
+          "city": "Bobigny",
+          "country": "France",
+          "facility": "H\u00f4pital Avicenne",
+          "geoPoint": {
+            "lat": 48.90982,
+            "lon": 2.45012
+          },
+          "state": "\u00cele-de-France Region"
+        },
+        {
+          "city": "Cr\u00e9teil",
+          "country": "France",
+          "facility": "Centre Hospitalier Universitaire Henri Mondor",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          },
+          "state": "\u00cele-de-France Region"
+        },
+        {
+          "city": "Paris",
+          "country": "France",
+          "facility": "Assistance Publique-H\u00f4pitaux de Paris H\u00f4pital Cochin",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          },
+          "state": "\u00cele-de-France Region"
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "Berlin Clinical Research Center",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "Charit\u00e9 Universit\u00e4tsmedizin Berlin - Campus Mitte",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "Charit\u00e9 Universit\u00e4tsmedizin Berlin",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "EPIMED",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "Zentrum f\u00fcr Infektiologie Berlin Prenzlauer Berg",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "Germany",
+          "facility": "Frankfurt Clinical Research Center",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "Germany",
+          "facility": "Universit\u00e4tsklinikum Frankfurt",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "city": "Homburg",
+          "country": "Germany",
+          "facility": "Universit\u00e4tsklinikum des Saarlandes",
+          "geoPoint": {
+            "lat": 49.32637,
+            "lon": 7.33867
+          }
+        },
+        {
+          "city": "Leipzig",
+          "country": "Germany",
+          "facility": "EUGASTRO",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "city": "Leipzig",
+          "country": "Germany",
+          "facility": "Leipzig Research Center",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "city": "Leipzig",
+          "country": "Germany",
+          "facility": "SIBAmed Studienzentrum",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "city": "Mainz",
+          "country": "Germany",
+          "facility": "Universit\u00e4tsmedizin der Johannes Gutenberg Universit\u00e4t Mainz",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          },
+          "zip": "55131"
+        },
+        {
+          "city": "W\u00fcrzburg",
+          "country": "Germany",
+          "facility": "Universit\u00e4tsklinikum W\u00fcrzburg",
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          }
+        },
+        {
+          "city": "B\u00e9k\u00e9scsaba",
+          "country": "Hungary",
+          "facility": "B\u00e9k\u00e9s Megyei K\u00f6zponti K\u00f3rh\u00e1z Dr. R\u00e9thy P\u00e1l Tagk\u00f3rh\u00e1z",
+          "geoPoint": {
+            "lat": 46.68333,
+            "lon": 21.1
+          },
+          "state": "Bekes County"
+        },
+        {
+          "city": "Gyula",
+          "country": "Hungary",
+          "facility": "Magyarorsz\u00e1g Eg\u00e9szs\u00e9g\u00fcgyi Szolg\u00e1ltat\u00f3 - Gyula",
+          "geoPoint": {
+            "lat": 46.65,
+            "lon": 21.28333
+          },
+          "state": "Bekes County"
+        },
+        {
+          "city": "Debrecen",
+          "country": "Hungary",
+          "facility": "Debreceni Egyetem Ken\u00e9zy Gyula Egyetemi K\u00f3rh\u00e1z",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          },
+          "state": "Hajd\u00fa-Bihar"
+        },
+        {
+          "city": "Debrecen",
+          "country": "Hungary",
+          "facility": "Magyarorsz\u00e1g Research Center",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          },
+          "state": "Hajd\u00fa-Bihar"
+        },
+        {
+          "city": "Ny\u00edregyh\u00e1za",
+          "country": "Hungary",
+          "facility": "Szabolcs-Szatm\u00e1r-Bereg Megyei K\u00f3rh\u00e1zak \u00e9s Egyetemi Oktat\u00f3k\u00f3rh\u00e1z",
+          "geoPoint": {
+            "lat": 47.95539,
+            "lon": 21.71671
+          },
+          "state": "Szabolcs-Szatm\u00e1r-Bereg"
+        },
+        {
+          "city": "Budapest",
+          "country": "Hungary",
+          "facility": "D\u00e9l-pesti Centrumk\u00f3rh\u00e1z - Orsz\u00e1gos Hematol\u00f3giai \u00e9s Infektol\u00f3giai Int\u00e9zet",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "city": "Budapest",
+          "country": "Hungary",
+          "facility": "Magyarorsz\u00e1g Research Center",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "city": "Ramat Gan",
+          "country": "Israel",
+          "facility": "The Chaim Sheba Medical Center",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          },
+          "state": "Tel Aviv"
+        },
+        {
+          "city": "Afula",
+          "country": "Israel",
+          "facility": "Emek Medical Center",
+          "geoPoint": {
+            "lat": 32.60907,
+            "lon": 35.2892
+          }
+        },
+        {
+          "city": "Beersheba",
+          "country": "Israel",
+          "facility": "Soroka University Medical Center",
+          "geoPoint": {
+            "lat": 31.25181,
+            "lon": 34.7913
+          }
+        },
+        {
+          "city": "Haifa",
+          "country": "Israel",
+          "facility": "Rambam Health Care Campus - Rambam Medical Center",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "city": "Haifa",
+          "country": "Israel",
+          "facility": "The Lady Davis Carmel Medical Center",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          }
+        },
+        {
+          "city": "Jerusalem",
+          "country": "Israel",
+          "facility": "Hadassah University Hospital Ein Kerem",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "city": "Jerusalem",
+          "country": "Israel",
+          "facility": "Shaare Zedek Medical Center",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "city": "Nahariya",
+          "country": "Israel",
+          "facility": "Western Galilee Hospital-Nahariya",
+          "geoPoint": {
+            "lat": 33.00892,
+            "lon": 35.09814
+          }
+        },
+        {
+          "city": "Nazareth",
+          "country": "Israel",
+          "facility": "Holy Family Hospital",
+          "geoPoint": {
+            "lat": 32.70087,
+            "lon": 35.29719
+          }
+        },
+        {
+          "city": "Petah Tikva",
+          "country": "Israel",
+          "facility": "Rabin Medical Center",
+          "geoPoint": {
+            "lat": 32.08707,
+            "lon": 34.88747
+          }
+        },
+        {
+          "city": "Tel Aviv",
+          "country": "Israel",
+          "facility": "Tel Aviv Sourasky Medical Center",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "city": "Bergamo",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Papa Giovanni XXIII",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "city": "Florence",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliero - Universitaria Careggi",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "city": "Messina",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Universitaria Policlinico Gaetano Martino",
+          "geoPoint": {
+            "lat": 38.19394,
+            "lon": 15.55256
+          }
+        },
+        {
+          "city": "Milan",
+          "country": "Italy",
+          "facility": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "city": "Milan",
+          "country": "Italy",
+          "facility": "Polo Universitario - L'Azienda Ospedaliera Luigi Sacco",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "city": "Novara",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Universitaria-Maggiore della Carit\u00e0 di Novara",
+          "geoPoint": {
+            "lat": 45.44694,
+            "lon": 8.62118
+          }
+        },
+        {
+          "city": "Palermo",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliero Universitaria Policlinico Paolo Giaccone",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "city": "Palermo",
+          "country": "Italy",
+          "facility": "Istituto Mediterraneo per i Trapianti e Terapie ad Alta Specializzazione (ISMETT)",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "city": "Pisa",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliero-Universitaria Pisana Ospedale Cisanello",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          },
+          "zip": "56124"
+        },
+        {
+          "city": "Roma",
+          "country": "Italy",
+          "facility": "Fondazione Policlinico Universitario Agostino Gemelli",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "city": "Roma",
+          "country": "Italy",
+          "facility": "Universita degli Studi di Roma La Sapienza - Umberto I Policlinico di Roma",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "city": "San Giovanni Rotondo",
+          "country": "Italy",
+          "facility": "Ospedale Casa Sollievo della Sofferenza",
+          "geoPoint": {
+            "lat": 41.70643,
+            "lon": 15.7277
+          }
+        },
+        {
+          "city": "Guadalajara",
+          "country": "Mexico",
+          "facility": "Centro Integral en Reumatolog\u00eda",
+          "geoPoint": {
+            "lat": 20.67738,
+            "lon": -103.34749
+          },
+          "state": "Jalisco",
+          "zip": "44160"
+        },
+        {
+          "city": "Mexico City",
+          "country": "Mexico",
+          "facility": "Centro Mexicano de Desarrollo de Estudios Cl\u00ednicos",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          },
+          "state": "Mexico City",
+          "zip": "06100"
+        },
+        {
+          "city": "Mexico City",
+          "country": "Mexico",
+          "facility": "Centro de Investigacion y Gastroenterologia",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          },
+          "state": "Mexico City",
+          "zip": "06700"
+        },
+        {
+          "city": "Cuernavaca",
+          "country": "Mexico",
+          "facility": "JM Research",
+          "geoPoint": {
+            "lat": 18.9261,
+            "lon": -99.23075
+          },
+          "state": "Morelos",
+          "zip": "62290"
+        },
+        {
+          "city": "Monterrey",
+          "country": "Mexico",
+          "facility": "Investigaciones M\u00e9dicas Cisneros",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          },
+          "state": "Nuevo Le\u00f3n",
+          "zip": "64000"
+        },
+        {
+          "city": "Cz\u0119stochowa",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w Cz\u0119stochowie",
+          "geoPoint": {
+            "lat": 50.79646,
+            "lon": 19.12409
+          }
+        },
+        {
+          "city": "Gdansk",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w Gdansk",
+          "geoPoint": {
+            "lat": 54.35227,
+            "lon": 18.64912
+          }
+        },
+        {
+          "city": "Gdynia",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w Gdyni",
+          "geoPoint": {
+            "lat": 54.51889,
+            "lon": 18.53188
+          }
+        },
+        {
+          "city": "Katowice",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w Katowicach",
+          "geoPoint": {
+            "lat": 50.2597,
+            "lon": 19.02173
+          }
+        },
+        {
+          "city": "Lodz",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w \u0141odz",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "city": "Poznan",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w Poznaniu",
+          "geoPoint": {
+            "lat": 52.40692,
+            "lon": 16.92993
+          }
+        },
+        {
+          "city": "Sk\u00f3rzewo",
+          "country": "Poland",
+          "facility": "Centrum Medyczne Pratia Poznan",
+          "geoPoint": {
+            "lat": 53.03629,
+            "lon": 17.81889
+          },
+          "zip": "60-185"
+        },
+        {
+          "city": "Warsaw",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w Warszawie",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "city": "Wroclaw",
+          "country": "Poland",
+          "facility": "Polska Oddzia\u0142 w Wroc\u0142aw",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "city": "San Juan",
+          "country": "Puerto Rico",
+          "facility": "Fundaci\u00f3n De Investigaci\u00f3n De Diego",
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          }
+        },
+        {
+          "city": "Majadahonda",
+          "country": "Spain",
+          "facility": "Hospital Universitario Puerta de Hierro - Majadahonda",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          },
+          "state": "Madrid"
+        },
+        {
+          "city": "Almer\u00eda",
+          "country": "Spain",
+          "facility": "Complejo Hospitalario Torrec\u00e1rdenas",
+          "geoPoint": {
+            "lat": 36.83814,
+            "lon": -2.45974
+          }
+        },
+        {
+          "city": "Barcelona",
+          "country": "Spain",
+          "facility": "Hospital de la Santa Creu i de Sant Pau",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "city": "Barcelona",
+          "country": "Spain",
+          "facility": "Hospital del Mar - Parc de Salut Mar",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "city": "Barcelona",
+          "country": "Spain",
+          "facility": "Hospital Universitari Vall d'Hebr\u00f3n",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "city": "Madrid",
+          "country": "Spain",
+          "facility": "Hospital General Universitario Gregorio Mara\u00f1\u00f3n",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "city": "Madrid",
+          "country": "Spain",
+          "facility": "Hospital Universitario Ram\u00f3n Y Cajal",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "city": "Pontevedra",
+          "country": "Spain",
+          "facility": "Complejo Hospitalario de Pontevedra",
+          "geoPoint": {
+            "lat": 42.431,
+            "lon": -8.64435
+          }
+        },
+        {
+          "city": "Santander",
+          "country": "Spain",
+          "facility": "Hospital Universitario Marqu\u00e9s de Valdecilla",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "city": "Seville",
+          "country": "Spain",
+          "facility": "Hospital Universitario Virgen del Rocio",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "city": "Valencia",
+          "country": "Spain",
+          "facility": "Consorci Hospital General Universitari de Val\u00e8ncia",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "city": "Valencia",
+          "country": "Spain",
+          "facility": "Hospital Universitari i Politecnic La Fe de Valencia",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "city": "Bern",
+          "country": "Switzerland",
+          "facility": "Universitatsspital Bern",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        },
+        {
+          "city": "Lugano",
+          "country": "Switzerland",
+          "facility": "Fondazione Epatocentro Ticino",
+          "geoPoint": {
+            "lat": 46.01008,
+            "lon": 8.96004
+          }
+        },
+        {
+          "city": "Zurich",
+          "country": "Switzerland",
+          "facility": "Universitatsspital Zurich",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        },
+        {
+          "city": "Birmingham",
+          "country": "United Kingdom",
+          "facility": "Midlands Clinical Research Centre",
+          "geoPoint": {
+            "lat": 52.48142,
+            "lon": -1.89983
+          },
+          "state": "England"
+        },
+        {
+          "city": "Birmingham",
+          "country": "United Kingdom",
+          "facility": "University Hospitals Birmingham NHS Foundation Trust",
+          "geoPoint": {
+            "lat": 52.48142,
+            "lon": -1.89983
+          },
+          "state": "England"
+        },
+        {
+          "city": "Cambridge",
+          "country": "United Kingdom",
+          "facility": "Cambridge University Hospitals NHS Foundation Trust",
+          "geoPoint": {
+            "lat": 52.2,
+            "lon": 0.11667
+          },
+          "state": "England"
+        },
+        {
+          "city": "Chorley",
+          "country": "United Kingdom",
+          "facility": "Lancashire Clinical Research Centre",
+          "geoPoint": {
+            "lat": 53.65,
+            "lon": -2.61667
+          },
+          "state": "England"
+        },
+        {
+          "city": "Hardwick",
+          "country": "United Kingdom",
+          "facility": "North Teesside Clinical Research Centre",
+          "geoPoint": {
+            "lat": 52.46032,
+            "lon": 1.26746
+          },
+          "state": "England"
+        },
+        {
+          "city": "Liverpool",
+          "country": "United Kingdom",
+          "facility": "Merseyside Clinical Research Centre",
+          "geoPoint": {
+            "lat": 53.41058,
+            "lon": -2.97794
+          },
+          "state": "England"
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "facility": "Barts Health NHS Trust",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          },
+          "state": "England"
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "facility": "Chelsea and Westminster Hospital NHS Foundation Trust",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          },
+          "state": "England"
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "facility": "Imperial College Healthcare NHS Trust",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          },
+          "state": "England"
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "facility": "Royal Free London NHS Foundation Trust",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          },
+          "state": "England"
+        },
+        {
+          "city": "Manchester",
+          "country": "United Kingdom",
+          "facility": "Manchester Clinical Research Centre",
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          },
+          "state": "England"
+        },
+        {
+          "city": "Newcastle upon Tyne",
+          "country": "United Kingdom",
+          "facility": "The Newcastle Upon Tyne Hospitals NHS Foundation Trust",
+          "geoPoint": {
+            "lat": 54.97328,
+            "lon": -1.61396
+          },
+          "state": "England"
+        },
+        {
+          "city": "Norwich",
+          "country": "United Kingdom",
+          "facility": "Norfolk and Norwich University Hospital",
+          "geoPoint": {
+            "lat": 52.62783,
+            "lon": 1.29834
+          },
+          "state": "England"
+        },
+        {
+          "city": "Nottingham",
+          "country": "United Kingdom",
+          "facility": "Nottingham University Hospitals NHS Trust",
+          "geoPoint": {
+            "lat": 52.9536,
+            "lon": -1.15047
+          },
+          "state": "England"
+        },
+        {
+          "city": "Reading",
+          "country": "United Kingdom",
+          "facility": "Thames Valley Dedicated Research Centre",
+          "geoPoint": {
+            "lat": 51.45625,
+            "lon": -0.97113
+          },
+          "state": "England"
+        },
+        {
+          "city": "Belfast",
+          "country": "United Kingdom",
+          "facility": "Belfast Health and Social Care Trust",
+          "geoPoint": {
+            "lat": 54.59682,
+            "lon": -5.92541
+          },
+          "state": "Northern Ireland"
+        },
+        {
+          "city": "Hexham",
+          "country": "United Kingdom",
+          "facility": "The Hexham Clinic",
+          "geoPoint": {
+            "lat": 54.96986,
+            "lon": -2.104
+          },
+          "state": "Northumberland, England"
+        },
+        {
+          "city": "Cardiff",
+          "country": "United Kingdom",
+          "facility": "The Wales Clinic",
+          "geoPoint": {
+            "lat": 51.48,
+            "lon": -3.18
+          },
+          "state": "Wales"
+        },
+        {
+          "city": "Swansea",
+          "country": "United Kingdom",
+          "facility": "Abertawe Bro Morgannwg University Health Board",
+          "geoPoint": {
+            "lat": 51.62079,
+            "lon": -3.94323
+          },
+          "state": "Wales"
+        },
+        {
+          "city": "Liverpool",
+          "country": "United Kingdom",
+          "facility": "Aintree University Hospitals NHS Foundation Trust",
+          "geoPoint": {
+            "lat": 53.41058,
+            "lon": -2.97794
+          }
+        },
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "facility": "Saint George's University Hospitals NHS Foundation Trust",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "city": "Plymouth",
+          "country": "United Kingdom",
+          "facility": "Plymouth Hospitals NHS Trust",
+          "geoPoint": {
+            "lat": 50.37153,
+            "lon": -4.14305
+          }
+        },
+        {
+          "city": "Portsmouth",
+          "country": "United Kingdom",
+          "facility": "Portsmouth Hospitals NHS Trust",
+          "geoPoint": {
+            "lat": 50.79899,
+            "lon": -1.09125
+          }
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Madrigal Pharmaceuticals, Inc.",
+          "name": "Rebecca Taub, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A double-blind placebo controlled randomized Phase 3 study to determine if 80 or 100 mg of MGL-3196 as compared with placebo resolves NASH and/or reduces fibrosis on liver biopsy and prevents progression to cirrhosis and/or advanced liver disease",
+      "detailedDescription": "Primary and secondary endpoint population at Week 52 will be at least 900 patients, more than half fibrosis score 3 (F3), the remainder fibrosis score 2 (F2) and \\<10% fibrosis score F1B (F1B) based on final liver biopsy baseline fibrosis score."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 1759,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Must be willing to participate in the study and provide written informed consent.\n2. Male and female adults \u2265 18 years of age.\n3. Suspected or confirmed diagnosis of NASH fibrosis suggested by the historical data. Meet one of the following criteria that is consistent with NASH liver fibrosis:\n\n   1. Historical biochemical test for fibrosis: PRO-C3 \\>14 ng/mL or ELF \u22659\n   2. FibroScan with transient elastography \u22658.5 kPa and controlled attenuation parameter \u2265280 dB.m-1\n   3. Historical liver biopsy obtained \\<2 years before expected randomization showing Stage 1B, 2 or 3 fibrosis with NASH based on existing pathology review, with no significant change in body weight \\>5% or medication that might affect NAS or fibrosis stage.\n4. MRI-PDFF fat fraction \u22658% obtained during the screening period\n5. Biopsy-proven NASH (baseline liver biopsy) based on a liver biopsy obtained \u22646 months before anticipated date of randomization (if the biopsy is deemed acceptable for interpretation by the central reader) with fibrosis stage 1A/1C, 1B, 2, or 3 on liver biopsy and NAS of \u22654 with a score of at least 1 in each of the following NAS components:\n\n   1. Steatosis (scored 0 to 3)\n   2. Ballooning degeneration (scored 0 to 2)\n   3. Lobular inflammation (scored 0 to 3)\n\nExclusion Criteria:\n\n1. History of significant alcohol consumption for a period of more than 3 consecutive months within 1 year prior to Screening.\n2. Regular use of drugs historically associated with NAFLD\n3. Thyroid diseases:\n\n   1. Active hyperthyroidism.\n   2. Untreated clinical hypothyroidism defined by thyroid stimulating hormone (TSH) \\>7 IU/L with symptoms of hypothyroidism or \\>10 IU/L without symptoms.\n   3. Patients who have had a thyroidectomy and are on replacement thyroxine doses \\>75 \u00b5g per day are allowed.\n4. History of bariatric surgery or intestinal bypass surgery within the 5 years prior to randomization or planned during the conduct of the study.\n5. Recent significant weight gain or loss\n6. HbA1c \u2265 9.0%.\n7. Glucagon-like peptide 1 \\[GLP-1\\] agonist, high dose Vitamin E (\\> 400 IU/day), or pioglitazone therapy unless stable dose for 24 weeks prior to biopsy.\n8. Presence of cirrhosis on liver biopsy defined as stage 4 fibrosis.\n9. Diagnosis of hepatocellular carcinoma (HCC).\n10. MELD score \u226512, as determined at Screening, unless due to therapeutic anti coagulation.\n11. Hepatic decompensation\n12. Chronic liver diseases other than NASH\n13. Active autoimmune disease\n14. Serum ALT \\> 250 U/L.\n15. Active, serious medical disease with a likely life expectancy \\< 2 years.\n16. Participation in an investigational new drug trial in the 60 days or 5 half-lives, whichever is longer.\n17. Any other condition which, in the opinion of the Investigator, would impede compliance, hinder completion of the study, compromise the well-being of the patient, or interfere with the study outcomes.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "MAESTRO-NASH",
+      "briefTitle": "A Phase 3 Study to Evaluate the Efficacy and Safety of MGL-3196 (Resmetirom) in Patients With NASH and Fibrosis",
+      "nctId": "NCT03900429",
+      "officialTitle": "A Phase 3, Multinational, Double-Blind, Randomized, Placebo-Controlled Study of MGL-3196 (Resmetirom) in Patients With Non-Alcoholic Steatohepatitis (NASH) and Fibrosis to Resolve NASH and Reduce Progression to Cirrhosis and/or Hepatic Decompensation",
+      "orgStudyIdInfo": {
+        "id": "MGL-3196-11"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Madrigal Pharmaceuticals, Inc."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "1. Proportion with resolution of NASH (ballooning 0, inflammation 0,1) associated with at least 2-point reduction in NAFLD Activity Score (NAS) without worsening of fibrosis stage OR\n2. Proportion with at least a 1-point improvement in fibrosis stage with no worsening of NAS",
+          "measure": "Week 52 Dual Primary Objectives: To determine the effect of 80 or 100 mg MGL-3196 vs matching placebo on liver biopsy (NASH CRN score) at Week 52 compared with Baseline",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "description": "The Composite Clinical Outcome is composed of all-cause mortality, liver transplant, and significant hepatic events (including hepatic decompensation events \\[ascites, encephalopathy, or gastroesophageal variceal hemorrhage\\], histological progression to cirrhosis, and a confirmed increase of MELD score from \\<12 to \u226515).",
+          "measure": "Month 54 Primary Objective: Time to experiencing an adjudicated Composite Clinical Outcome event (Final Primary Endpoint, at 54 months)",
+          "timeFrame": "up to 54 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Assess the effect of MGL-3196 80 mg or 100 mg compared to placebo on LDL-C measured by percent change from Baseline at 24 weeks.",
+          "measure": "Week 52 Key Secondary Objective: To determine the effect of once-daily, oral administration of MGL-3196 80 or 100 mg versus matching placebo on the percent change from Baseline at 24 weeks in directly measured low-density lipoprotein cholesterol (LDL-C)",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Schattenberg JM, Bedossa P, Guy CD, Taub R, Labriola D, Zhang H, Hennan J, Camacho RC, Chng E, Ren Y, Tai D, Harrison SA. Quantitative regression of qFibrosis with resmetirom: Exploratory histologic endpoints from the MAESTRO-NASH phase III clinical trial. J Hepatol. 2026 Mar 25:S0168-8278(26)00147-9. doi: 10.1016/j.jhep.2026.03.021. Online ahead of print.",
+          "pmid": "41895606",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Noureddin M, Rinella M, Taub R, Labriola D, Camacho RC, Alkhouri N, Loomba R, Bansal MB. Effects of Resmetirom on Metabolic-Dysfunction Associated Steatohepatitis in Patients With Weight Loss and/or Diabetes Taking Glucagon-Like Peptide-1 Receptor Agonists and Other Diabetes Therapies: A Secondary Analysis of the MAESTRO-NASH Trial. Aliment Pharmacol Ther. 2025 Dec;62(11-12):1089-1099. doi: 10.1111/apt.70382. Epub 2025 Oct 23.",
+          "pmid": "41127972",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Harrison SA, Bedossa P, Guy CD, Schattenberg JM, Loomba R, Taub R, Labriola D, Moussa SE, Neff GW, Rinella ME, Anstee QM, Abdelmalek MF, Younossi Z, Baum SJ, Francque S, Charlton MR, Newsome PN, Lanthier N, Schiefke I, Mangia A, Pericas JM, Patil R, Sanyal AJ, Noureddin M, Bansal MB, Alkhouri N, Castera L, Rudraraju M, Ratziu V; MAESTRO-NASH Investigators. A Phase 3, Randomized, Controlled Trial of Resmetirom in NASH with Liver Fibrosis. N Engl J Med. 2024 Feb 8;390(6):497-509. doi: 10.1056/NEJMoa2309000.",
+          "pmid": "38324483",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Harrison SA, Ratziu V, Anstee QM, Noureddin M, Sanyal AJ, Schattenberg JM, Bedossa P, Bashir MR, Schneider D, Taub R, Bansal M, Kowdley KV, Younossi ZM, Loomba R. Design of the phase 3 MAESTRO clinical program to evaluate resmetirom for the treatment of nonalcoholic steatohepatitis. Aliment Pharmacol Ther. 2024 Jan;59(1):51-63. doi: 10.1111/apt.17734. Epub 2023 Oct 2.",
+          "pmid": "37786277",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Harrison SA, Bashir M, Moussa SE, McCarty K, Pablo Frias J, Taub R, Alkhouri N. Effects of Resmetirom on Noninvasive Endpoints in a 36-Week Phase 2 Active Treatment Extension Study in Patients With NASH. Hepatol Commun. 2021 Jan 4;5(4):573-588. doi: 10.1002/hep4.1657. eCollection 2021 Apr.",
+          "pmid": "33860116",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Madrigal Pharmaceuticals, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-01",
+        "type": "ESTIMATED"
+      },
+      "dispFirstPostDateStruct": {
+        "date": "2024-02-20",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2023-11-30",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-15",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2019-03-28",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-02",
+      "studyFirstPostDateStruct": {
+        "date": "2019-04-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-03-26",
+      "studyFirstSubmitQcDate": "2019-03-30"
+    }
+  }
+}

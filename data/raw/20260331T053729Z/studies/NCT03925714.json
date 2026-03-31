@@ -1,0 +1,268 @@
+{
+  "derivedSection": {
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "life style control only",
+          "interventionNames": [
+            "Other: life style"
+          ],
+          "label": "life style",
+          "type": "OTHER"
+        },
+        {
+          "description": "Metformin 500 mg twice daily",
+          "interventionNames": [
+            "Drug: Metformin"
+          ],
+          "label": "Metformin",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "NS 450 mg twice daily",
+          "interventionNames": [
+            "Drug: Nigetella salivata"
+          ],
+          "label": "Nigetella salivata",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "life style"
+          ],
+          "description": "life sryle control only",
+          "name": "life style",
+          "otherNames": [
+            "life style management"
+          ],
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Metformin"
+          ],
+          "description": "metformin twice daily",
+          "name": "Metformin",
+          "otherNames": [
+            "cidophage"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Nigetella salivata"
+          ],
+          "description": "NS twice daily",
+          "name": "Nigetella salivata",
+          "otherNames": [
+            "NS"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "DM"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "sheriefabdelsalam@yahoo.com",
+          "name": "Sherief Abd-Elsalam, ass. prof.",
+          "phone": "00201147773440",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Cairo",
+          "contacts": [
+            {
+              "email": "Sherif_tropical@yahoo.com",
+              "name": "Sherief Abd-elsalam, lecturer",
+              "phone": "00201000040794",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Egypt",
+          "facility": "Sherief Abd-Elsalam",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Tanta University - Faculty of Pharmacy",
+          "name": "Eman SA Sawan, Msc",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Tanta University - Faculty of Pharmacy",
+          "name": "Sahar Hegazy, Prof",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Tanta University - Faculty of Pharmacy",
+          "name": "Tarek Mostafa, ass. Prof.",
+          "role": "STUDY_DIRECTOR"
+        },
+        {
+          "affiliation": "Tanta University-Faculty of pharmacy",
+          "name": "Sherin El-Nidany, MD",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Investigating the impact of p53 and SIRT1 in the development of type 2 DM",
+      "detailedDescription": "Investigating the impact of p53 and SIRT1 in the development of type 2 DM through the treatment of prediabetic individuals by either nigetella salivata or Metformin"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Prediabetic subjects.\n\nExclusion Criteria:\n\n* Confirmed diabetes.\n* Hepatic or renal impairment.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Impact of P53 and SIRT1 in Type 2 Diabetes",
+      "nctId": "NCT03925714",
+      "officialTitle": "Investigating the Impact of p53 and SIRT1 in the Development of Type 2 DM Through the Treatment of Prediabetic Individuals by Either Nigetella Salivata or Metformin",
+      "orgStudyIdInfo": {
+        "id": "dm 2"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Tanta University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Number of patients showing improved insulin resistance",
+          "measure": "Number of patients with improved insulin resistance",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Mostafa TM, Hegazy SK, Elnaidany SS, Shehabeldin WA, Sawan ES. Nigella sativa as a promising intervention for metabolic and inflammatory disorders in obese prediabetic subjects: A comparative study of Nigella sativa versus both lifestyle modification and metformin. J Diabetes Complications. 2021 Jul;35(7):107947. doi: 10.1016/j.jdiacomp.2021.107947. Epub 2021 May 8.",
+          "pmid": "34006388",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Sherief Abd-Elsalam"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Tanta University",
+        "investigatorFullName": "Sherief Abd-Elsalam",
+        "investigatorTitle": "Ass. Prof. Tropical Medicine",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2019-04-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2019-04-22",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2019-04-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2019-04",
+      "studyFirstPostDateStruct": {
+        "date": "2019-04-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-04-22",
+      "studyFirstSubmitQcDate": "2019-04-22"
+    }
+  }
+}

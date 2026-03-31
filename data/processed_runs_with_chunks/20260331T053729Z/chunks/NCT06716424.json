@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06716424:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06716424\nBrief title: A Study to Investigate Safety and Efficacy of iGlarLixi in Adult Patients With Type 2 Diabetes Mellitus\nOfficial title: Multicentre Phase IV Single Arm Clinical Trial to Evaluate the Safety and Efficacy of a Fixed Ratio Combination of Insulin Glargine and Lixisenatide in Adult Patients With Type 2 Diabetes Who Are Sub Optimally Controlled on Oral Anti-hyperglycemic Drugs and/or Basal Insulin/GLP-1 RA\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 75,
+      "trial_nct_id": "NCT06716424"
+    },
+    {
+      "chunk_id": "NCT06716424:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes\nIntervention labels: iGlarLixi (insulin glargine/lixisenatide)\nDrug class labels: \nArms: iGlarLixi\nKeywords: Type 2 diabetes mellitus; Soliqua; iGlarLixi",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06716424"
+    },
+    {
+      "chunk_id": "NCT06716424:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is an intervention, phase IV, single-arm study to assess the safety and efficacy of iGlarLixi in adult patients with Type 2 diabetes.\nDetailed description: The study duration will be up to 27 weeks, with a treatment duration approximately 24 weeks.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT06716424"
+    },
+    {
+      "chunk_id": "NCT06716424:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Participants must be \u226518 years of age, at the time of signing the informed consent\n* Participants with Type 2 Diabetes diagnosed for at least 1 year at the time of screening on treatment with Metformin +/- OADs or basal insulin/GLP-1RA for a minimum period of 6 months prior to screening\n* HbA1c between \u2265 7.5% and \u226410.5% inclusive, during screening\n* Participant with BMI \\>= 25 kg/m2 (as per Endocrine Society of India, Ref 12)\n* Female participants: A female participant is eligible to participate if she is not pregnant, not breastfeeding, and at least 1 of the following conditions applies: Not a woman of childbearing potential (WOCBP) OR a WOCBP who agrees to follow the contraceptive guidance during the intervention period and for at least 1 week after the last dose of study intervention (i.e., until Week 27)\n* Signed informed consent\n\nExclusion Criteria:\n\nParticipants are excluded from the study if any of the following criteria apply:\n\n* Type 1 Diabetes mellitus or any diabetes other than T2DM\n* Prior use of any combination of Basal Insulin + GLP-1 RA Fixed Ratio or Free Combination, Premix Insulin, Basal bolus therapy\n* Basal insulin dose \\>50 U at screening\n* Any clinically-significant abnormality identified either in medical history or during screening evaluation (e.g., physical examination, laboratory tests, electrocardiogram, vital signs) or any AEs during screening period, which in judgment of the Investigator would preclude safe completion of the study or constrains efficacy assessment\n* Known presence of factors that interfere with the HbA1c measurement (e.g., specific hemoglobin variants, hemolytic anemia) compromising the reliability of HbA1c assessment or medical conditions that affect interpretation of HbA1c results (e.g., blood transfusion or severe blood loss in the last 3 months prior to baseline, any condition that shortens erythrocyte survival)\n* History of severe hypoglycemia requiring emergency room admission or hospitalization within 3 months prior to screening visit\n* Proliferative retinopathy or maculopathy requiring treatment according to the Investigator\n* Use of weight loss drugs (including over-the-counter and herbal medications) within 12 Weeks prior to the screening visit\n* Use of systemic glucocorticoids (excluding topical application or inhaled forms) for 2 weeks or more within 8 weeks prior to screening visit\n* Likelihood to require treatment prohibited by the protocol during the study.\n* Exposure to any investigational drugs in the last 4 weeks or 5 half-lives, whichever is longer, prior to screening visit or concomitant enrollment in any other clinical study involving an investigational study treatment\n* Any specific situation during study implementation/course that may raise ethics considerations\n* History of hypoglycemia unawareness\n* Patients with known hypersensitivity to lixisenatide, insulin glargine or to any of the inactive ingredients in the formulation\n* History of drug or alcohol abuse within 6 months prior to screening visit\n\nThe above information is not intended to contain all considerations relevant to a participant's potential participation in a clinical trial.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 504,
+      "trial_nct_id": "NCT06716424"
+    },
+    {
+      "chunk_id": "NCT06716424:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage of participants with treatment emergent adverse events (TEAEs) including serious adverse events (SAEs) | time_frame=From Day 1 to Week 25\ntype=secondary | measure=Mean change in hemoglobin A1c (HbA1c) | time_frame=From baseline to the end of 6 months\ntype=secondary | measure=Mean change in fasting plasma glucose (FPG) | time_frame=From baseline to the end of 3 months and 6 months\ntype=secondary | measure=Mean change in 2 hours postprandial plasma glucose (PPG) | time_frame=From baseline to the end of 3 months and 6 months\ntype=secondary | measure=Mean change in fasting Self-Monitoring Plasma Glucose (SMPG) | time_frame=From baseline to the end of 3 months and 6 months\ntype=secondary | measure=Change in mean dose of iGlarLixi | time_frame=From baseline to the end of 6 months\ntype=secondary | measure=Effect of iGlarLixi on 7-point Self-Monitoring Plasma Glucose (SMPG) profile | time_frame=From baseline to the end of 3 months and 6 months\ntype=secondary | measure=Mean change in bodyweight | time_frame=From baseline to the end of 6 months\ntype=secondary | measure=Percentage of participants with at least one hypoglycaemic episode | time_frame=From Day 1 to Week 25 | description=Hypoglycaemic episodes: American Diabetes Association (ADA) level 1, 2 or 3",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 192,
+      "trial_nct_id": "NCT06716424"
+    },
+    {
+      "chunk_id": "NCT06716424:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-01-06\nPrimary completion date: 2026-06-26\nCompletion date: 2026-06-26\nStudy first posted: 2024-12-04\nResults first posted: None\nLast update posted: 2026-01-21\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06716424"
+    },
+    {
+      "chunk_id": "NCT06716424:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Sanofi\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 15,
+      "trial_nct_id": "NCT06716424"
+    }
+  ],
+  "trial_nct_id": "NCT06716424"
+}

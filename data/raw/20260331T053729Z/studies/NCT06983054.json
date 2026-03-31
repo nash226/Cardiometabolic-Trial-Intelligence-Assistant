@@ -1,0 +1,336 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004039",
+          "term": "Diet, Sodium-Restricted"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "10 days of SGLT2i treatment during 20 days of low salt diet",
+          "interventionNames": [
+            "Drug: ertugliflozine",
+            "Behavioral: low salt diet"
+          ],
+          "label": "Low salt diet with SGLT2i",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "10 days of placebo during 20 days of low salt diet",
+          "interventionNames": [
+            "Behavioral: low salt diet",
+            "Drug: placebo"
+          ],
+          "label": "Low salt diet with placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "10 days of SGTL2i during 20 days of high salt diet.",
+          "interventionNames": [
+            "Drug: ertugliflozine",
+            "Behavioral: high salt diet"
+          ],
+          "label": "High salt diet with SGLT2i",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "10 days of placebo during 20 days of high salt diet.",
+          "interventionNames": [
+            "Drug: placebo",
+            "Behavioral: high salt diet"
+          ],
+          "label": "High salt diet with placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "High salt diet with SGLT2i",
+            "Low salt diet with SGLT2i"
+          ],
+          "description": "SGLT2i versus placebo",
+          "name": "ertugliflozine",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Low salt diet with SGLT2i",
+            "Low salt diet with placebo"
+          ],
+          "description": "comparing low salt versus high salt diet",
+          "name": "low salt diet",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "High salt diet with placebo",
+            "Low salt diet with placebo"
+          ],
+          "description": "placebo tablet",
+          "name": "placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "High salt diet with SGLT2i",
+            "High salt diet with placebo"
+          ],
+          "description": "high salt diet",
+          "name": "high salt diet",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Denver",
+          "contacts": [
+            {
+              "email": "Jessica.Kendrick@cuanschutz.edu",
+              "name": "Jessica Kendrick, Prof.",
+              "phone": "303-724-4837",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Childrens hospital colorado",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          },
+          "state": "Colorado",
+          "status": "RECRUITING",
+          "zip": "80045"
+        },
+        {
+          "city": "Amsterdam",
+          "contacts": [
+            {
+              "email": "d.vanraalte@amsterdamumc.nl",
+              "name": "Daniel H van Raalte, Prof. Dr.",
+              "phone": "+31-20-4440534",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "Amsterdam UMC",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          },
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "SGLT2 inhibitors have demonstrated to mitigate cardiorenal risk in people with type 2 diabetes and are likely to play an increasingly large role in the treatment of patients with diabetes, chronic kidney disease and hypertension. Yet the underlying mechanisms of its protective effects are incompletely understood and the salutary effect may be altered by dietary factors such as sodium intake. Therefore, carefully designed mechanistic trials are needed to better understand the interplay between ertugliflozin and salt intake and to potentially modify salt intake to maximize treatment response. In addition, the study could contribute to hypotheses concerning the effects of SGLT2 inhibitors in combination with other drugs that affect sodium homeostasis and could help to explain the differences in kidney outcomes observed in (outcome) trials, which include different ethnicities with potential differences in dietary habits."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 34,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAdults with previously diagnosed T2DM according to American Diabetes Association (ADA) criteria\n\n* HbA1c 6.5-10%\n* Age 18 - 85 years of age\n* Overweight or obese with BMI: \\>25 kg/m2\n* We will make every effort to enrol participants of all races/ethnicities.\"\n* Both sexes (females must be post-menopausal; no menses \\>1 year; in case of doubt, Follicle-Stimulating Hormone (FSH) will be determined with cut-off defined as \\>31 U/L)\n* Ability to provide signed and dated, written informed consent prior to any study procedures\n* Estimated GFR 60-90 ml/min/1.73m2 by CKD-EPI matching the eGFR range of most participants in VERTIS-CV\n* Sodium intake at baseline \\< 200 mmol/day\n* UACR \\< 30 mg/mmol\n* All participants need to be on a stable dose of diabetes medication, including Metformin, SU, DPP4-inhibitors, or insulin.\n* Participants suffering from hypertension need to be on a stable dose of RAS inhibitors. In case RAS inhibition is not tolerated, the participant should to be on a stable dose of other antihypertensive treatment.\n\nExclusion Criteria:\n\n* History of unstable or rapidly progressing renal disease NL80772.029.22 / DC2022ERTU DESIGN Protocol DESIGN, Study NO. 2022.0737 Version 5.0dd22-02-2024 14 of 45\n\n  * Estimated GFR \\<60 mL/min/1.73m2 or eGFR \\> 90 mL/min/1.73m2 determined by CKD-EPI\n  * UACR \\> 30 mg/mmol\n  * Current/chronic use of the following medication: SGLT2 inhibitors, TZD, GLP-1RA, glucocorticoids, immune suppressants, antimicrobial agents, chemotherapeutics Participants should be on a stable dose of antipsychotics, tricyclic antidepressants (TCAs) and monoamine oxidase inhibitors (MAOIs). Subjects on diuretics will only be excluded when these drugs cannot be stopped for the duration of the study.\n  * Chronic use of non-steroidal anti-inflammatory drugs (NSAIDs) will not be allowed, unless used as incidental medication (1-2 tablets) for non-chronic indications (i.e.\n\nsports injury, headache or back ache). However, no such drug can be taken within a timeframe of 2 weeks prior to renal testing\n\n* History of diabetic ketoacidosis (DKA) requiring medical intervention (e.g. emergency room visit and/or hospitalization) within 1 month prior to the Screening visit.\n* Current urinary tract infection and active nephritis\n* Recent (\\<6 months) history of cardiovascular disease, including:\n\n  * Acute coronary syndrome\n  * Chronic heart failure (New York Heart Association grade II-IV)\n  * Stroke or transient ischemic neurologic disorder\n* Severe hepatic insufficiency and/or significant abnormal liver function defined as aspartate aminotransferase (AST) \\>3x upper limit of normal (ULN) and/or alanine aminotransferase (ALT) \\>3x ULN\n* Active malignancy. History of malignancy is allowed unless the participant still has active treatment other than hormonal therapy.\u2022 History of or actual severe mental disease\n* Substance abuse (alcohol: defined as \\>4 units/day)\n* Allergy to any of the agents used in the study\n* Individuals who are investigator site personnel, directly affiliated with the study, or are immediate (spouse, parent, child, or sibling, whether biological or legally adopted) family of investigator site personnel directly affiliated with the study\n* Inability to understand the study protocol or give informed consent",
+      "healthyVolunteers": false,
+      "maximumAge": "85 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "DESIGN",
+      "briefTitle": "DiEtary Sodium Intake Effects on Ertugliflozin-induced Changes in GFR, reNal Oxygenation and Systemic Hemodynamics: the DESIGN Study, a Randomized, Placebo-controlled, Cross-over Study With Ertugliflozin in People With Type 2 Diabetes",
+      "nctId": "NCT06983054",
+      "officialTitle": "DiEtary Sodium Intake Effects on Ertugliflozin-induced Changes in GFR, reNal Oxygenation and Systemic Hemodynamics: the DESIGN Study, a Randomized, Placebo-controlled, Cross-over Study With Ertugliflozin in People With Type 2 Diabetes",
+      "orgStudyIdInfo": {
+        "id": "NL80772.029.22"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Amsterdam UMC, location VUmc"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-510257-42-01",
+          "type": "CTIS"
+        },
+        {
+          "id": "2021-005474-25",
+          "type": "EUDRACT_NUMBER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "To investigate the modifying effects of WHO-recommended sodium intake (90 mmol per day) vs. high sodium intake (targeted at 250 mmol per day) on the effect of ertugliflozin 15 mg daily, versus placebo, on 24-hour blood pressure in overweight/obese adults with type 2 diabetes.",
+          "measure": "Blood pressure",
+          "timeFrame": "7 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "To investigate the efficacy of ertugliflozin 15 mg daily, versus placebo, in overweight/obese adults with type 2 diabetes to reduce the hypertensive effects of a high-sodium diet (250 mmol per day) versus 24-hour blood pressure measurement during participant's normal diet (170 mmol/per day) obtained at screening visit",
+          "measure": "Blood pressure",
+          "timeFrame": "7 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Children's Hospital Colorado"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Amsterdam UMC, location VUmc"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Amsterdam UMC, location VUmc",
+        "investigatorFullName": "Daniel van Raalte",
+        "investigatorTitle": "Prof. Dr.",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-13",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-07-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-05-13",
+      "studyFirstSubmitQcDate": "2025-05-13"
+    }
+  }
+}

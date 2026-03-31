@@ -1,0 +1,911 @@
+{
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "450 mg Once Daily (QD)",
+          "interventionNames": [
+            "Drug: HU6"
+          ],
+          "label": "HU6 450 mg",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "300 mg Twice Daily (BID)",
+          "interventionNames": [
+            "Drug: HU6"
+          ],
+          "label": "HU6 300 mg",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo Once Daily (QD)",
+          "interventionNames": [
+            "Other: Placebo"
+          ],
+          "label": "Placebo Once Daily",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Placebo Twice Daily (BID)",
+          "interventionNames": [
+            "Other: Placebo"
+          ],
+          "label": "Placebo Twice Daily",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "HU6 300 mg",
+            "HU6 450 mg"
+          ],
+          "description": "HU6 is being evaluated for efficacy in MASH",
+          "name": "HU6",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo Once Daily",
+            "Placebo Twice Daily"
+          ],
+          "description": "Placebo comparator",
+          "name": "Placebo",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "MASH - Metabolic Dysfunction-Associated Steatohepatitis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "jsoto@rivuspharma.com",
+          "name": "Clinical Operations Lead",
+          "phone": "6173887757",
+          "role": "CONTACT"
+        },
+        {
+          "email": "jdurden@rivuspharma.com",
+          "name": "VP, Clinical Operations",
+          "phone": "8435683621",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Chandler",
+          "contacts": [
+            {
+              "email": "etopete@azclinicaltrials.com",
+              "name": "Enrique Topete",
+              "phone": "480-470-4000",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Arizona Liver Health - Chandler",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          },
+          "state": "Arizona",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "85224"
+        },
+        {
+          "city": "Peoria",
+          "contacts": [
+            {
+              "email": "amoore@azliver.com",
+              "name": "Ann Moore",
+              "phone": "480-470-4000",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Arizona Liver Health - Peoria",
+          "geoPoint": {
+            "lat": 33.5806,
+            "lon": -112.23738
+          },
+          "state": "Arizona",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "85381"
+        },
+        {
+          "city": "Tucson",
+          "contacts": [
+            {
+              "email": "vmartinez@azliver.com",
+              "name": "Vivian Martinez",
+              "phone": "520-485-4000",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Arizona Liver Health - Tucson",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "85712"
+        },
+        {
+          "city": "Little Rock",
+          "contacts": [
+            {
+              "email": "kmwillis@bhccr.com",
+              "name": "Karen Willis",
+              "phone": "501-224-1348",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Baptist Health Center for Clinical Research",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          },
+          "state": "Arkansas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "72205"
+        },
+        {
+          "city": "Fountain Valley",
+          "contacts": [
+            {
+              "email": "smoran@arkclinicalresearch.com",
+              "name": "Samira Moran",
+              "phone": "714-988-2021",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Ark Clinical Research - Fountain Valley",
+          "geoPoint": {
+            "lat": 33.70918,
+            "lon": -117.95367
+          },
+          "state": "California",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "92708"
+        },
+        {
+          "city": "Garden Grove",
+          "contacts": [
+            {
+              "email": "rdudley@nicresearch.com",
+              "name": "Ryan Dudley",
+              "phone": "323-725-0657",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Michael Dao, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "National Institute of Clinical Research",
+          "geoPoint": {
+            "lat": 33.77391,
+            "lon": -117.94145
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92844"
+        },
+        {
+          "city": "Long Beach",
+          "contacts": [
+            {
+              "email": "smoran@arkclinicalresearch.com",
+              "name": "Samira Moran",
+              "phone": "562-997-1000",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Ark Clinical Research - Long Beach",
+          "geoPoint": {
+            "lat": 33.76696,
+            "lon": -118.18923
+          },
+          "state": "California",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "90815"
+        },
+        {
+          "city": "Montclair",
+          "contacts": [
+            {
+              "email": "michael.gallardo@elixiahealth.com",
+              "name": "Michael Gallardo",
+              "phone": "909-590-8409",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rizwana Mohseni, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Catalina Research Institute",
+          "geoPoint": {
+            "lat": 34.07751,
+            "lon": -117.68978
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "91763"
+        },
+        {
+          "city": "Orange",
+          "contacts": [
+            {
+              "email": "abrowning@krcorange.com",
+              "name": "Aleesha Browning",
+              "phone": "657-247-0087",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alaa Abousaif, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Knowledge Research Center",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92868"
+        },
+        {
+          "city": "Orlando",
+          "contacts": [
+            {
+              "email": "valeria.robles@charterresearch.com",
+              "name": "Valeria Robles",
+              "phone": "407-337-3000",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Charter Research LLC - Orlando",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          },
+          "state": "Florida",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "32803"
+        },
+        {
+          "city": "Chicago",
+          "contacts": [
+            {
+              "email": "Teresa.Kalowsky@charterresearch.com",
+              "name": "Teresa Kalowsky",
+              "phone": "773-997-1000",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Charter Research LLC - Chicago",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "60618"
+        },
+        {
+          "city": "Bastrop",
+          "contacts": [
+            {
+              "email": "casey.petrus@roviaclinical.com",
+              "name": "Casey Petrus",
+              "phone": "904-854-1354",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Delta Research Partners of Bastrop, LLC",
+          "geoPoint": {
+            "lat": 32.77828,
+            "lon": -91.91144
+          },
+          "state": "Louisiana",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "71220"
+        },
+        {
+          "city": "West Monroe",
+          "contacts": [
+            {
+              "email": "jennifer.davidson@roviaclinical.com",
+              "name": "Jennifer Davidson",
+              "phone": "904-854-1354",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Delta Research Partners of West Monroe, LLC",
+          "geoPoint": {
+            "lat": 32.51848,
+            "lon": -92.14764
+          },
+          "state": "Louisiana",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "71291"
+        },
+        {
+          "city": "Clinton Township",
+          "contacts": [
+            {
+              "email": "ksimons@researchmi.com",
+              "name": "Karie Simmons",
+              "phone": "586-598-3329",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ronald Fogel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Clinical Research Institute of Michigan",
+          "geoPoint": {
+            "lat": 42.58698,
+            "lon": -82.91992
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48038"
+        },
+        {
+          "city": "Saint Paul",
+          "contacts": [
+            {
+              "email": "k.tilley@nucleusnetwork.com",
+              "name": "Kate Tilley",
+              "phone": "651-641-2900",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Trish Shamp, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Nucleus Network Minneapolis",
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          },
+          "state": "Minnesota",
+          "status": "RECRUITING",
+          "zip": "55114"
+        },
+        {
+          "city": "Kansas City",
+          "contacts": [
+            {
+              "email": "tbrown@kcri.health",
+              "name": "Taleah Brown",
+              "phone": "816-759-5274",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Kansas City Research Institute",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          },
+          "state": "Missouri",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "64131"
+        },
+        {
+          "city": "St Louis",
+          "contacts": [
+            {
+              "email": "kwriston@kadclinicalresearch.com",
+              "name": "Kristina Wriston",
+              "phone": "314-254-3168",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "KAD Clinical Research",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          },
+          "state": "Missouri",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "63123"
+        },
+        {
+          "city": "Las Vegas",
+          "contacts": [
+            {
+              "email": "jgass@jcr-lv.com",
+              "name": "Julie Gass",
+              "phone": "702-631-5000",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Jubilee Clinical Research, LLC.",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          },
+          "state": "Nevada",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "89106"
+        },
+        {
+          "city": "Fayetteville",
+          "contacts": [
+            {
+              "email": "jmaples@coastalresearchnc.com",
+              "name": "Jessica Maples",
+              "phone": "910-500-3146",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Coastal Research Institute",
+          "geoPoint": {
+            "lat": 35.05266,
+            "lon": -78.87836
+          },
+          "state": "North Carolina",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "28304"
+        },
+        {
+          "city": "Westlake",
+          "country": "United States",
+          "facility": "Clinical Research Institute of Ohio, LLC (CRIOH)",
+          "geoPoint": {
+            "lat": 41.45532,
+            "lon": -81.91792
+          },
+          "state": "Ohio",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "zip": "44145"
+        },
+        {
+          "city": "Yukon",
+          "contacts": [
+            {
+              "email": "lfumero@evotrials.com",
+              "name": "Laura Fumero",
+              "phone": "855-380-2822",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Tekton Research - Yukon",
+          "geoPoint": {
+            "lat": 35.50672,
+            "lon": -97.76254
+          },
+          "state": "Oklahoma",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "73099"
+        },
+        {
+          "city": "Clarksville",
+          "contacts": [
+            {
+              "email": "mkosinski@ICRresearch.com",
+              "name": "Mary Kosinski",
+              "phone": "847-469-6971",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Innovative Clinical Research, LLC",
+          "geoPoint": {
+            "lat": 36.52977,
+            "lon": -87.35945
+          },
+          "state": "Tennessee",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "37040"
+        },
+        {
+          "city": "Austin",
+          "contacts": [
+            {
+              "email": "kate.banks@imaresearch.com",
+              "name": "Kate Banks",
+              "phone": "512-649-0082",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "IMA Clinical Research (Austin)",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "78745"
+        },
+        {
+          "city": "Austin",
+          "contacts": [
+            {
+              "email": "mmacias@pinnacleresearch.com",
+              "name": "Maria Macias",
+              "phone": "512-384-1560",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research - Austin",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "78757"
+        },
+        {
+          "city": "Bellaire",
+          "contacts": [
+            {
+              "email": "lhaidar@pinnacleresearch.com",
+              "name": "Layla Haider",
+              "phone": "844-399-0449",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Bellaire Clinical Research, LLC",
+          "geoPoint": {
+            "lat": 29.70579,
+            "lon": -95.45883
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77401"
+        },
+        {
+          "city": "Corpus Christi",
+          "contacts": [
+            {
+              "email": "agiron@pinnacleresearch.com",
+              "name": "Ashley Giron",
+              "phone": "361-400-5352",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research - Corpus Christi",
+          "geoPoint": {
+            "lat": 27.80058,
+            "lon": -97.39638
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "78404"
+        },
+        {
+          "city": "Georgetown",
+          "contacts": [
+            {
+              "email": "njerome@pinnacleresearch.com",
+              "name": "Nirupama Jerome",
+              "phone": "737-444-8408",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research - Georgetown",
+          "geoPoint": {
+            "lat": 30.63269,
+            "lon": -97.67723
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "78626"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "cpettigrew@houstonresearchinstitute.com",
+              "name": "Callie Pettigrew",
+              "phone": "713-794-0700",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "HRI - Medical Center, LLC",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77030"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "egonzalez1@pinnacleresearch.com",
+              "name": "Evelyn Gonzalez",
+              "phone": "281-809-3234",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Houston Research Institute",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77079"
+        },
+        {
+          "city": "Pasadena",
+          "contacts": [
+            {
+              "email": "lhaidar@pinnacleresearch.com",
+              "name": "Layla Haidar",
+              "phone": "281-809-3234",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "HRI - Pasadena, LLC",
+          "geoPoint": {
+            "lat": 29.69106,
+            "lon": -95.2091
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77505"
+        },
+        {
+          "city": "San Antonio",
+          "contacts": [
+            {
+              "email": "c.lopez@qualityresearch.com",
+              "name": "Chelsie Lopez",
+              "phone": "210-864-8844",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Robert Morin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Quality Research",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78209"
+        },
+        {
+          "city": "San Antonio",
+          "contacts": [
+            {
+              "email": "mhernandez@pinnacleresearch.com",
+              "name": "Mary Lou Hernandez",
+              "phone": "210-982-0320",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research - San Antonio",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "78229"
+        },
+        {
+          "city": "Sugar Land",
+          "contacts": [
+            {
+              "email": "tderas@houstonresearchinstitute.com",
+              "name": "Tania Deras",
+              "phone": "281-809-3234",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "HRI - Sugarland, LLC",
+          "geoPoint": {
+            "lat": 29.61968,
+            "lon": -95.63495
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77478"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Rivus Pharmaceuticals, Inc.",
+          "name": "Stefanie Mason, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Rivus Pharmaceuticals. Inc. is sponsoring this research study to assess the safety and tolerability of HU6 as a possible treatment for patients diagnosed with metabolic dysfunction-associated steatohepatitis (MASH). The study will also assess safety, pharmacokinetics (PK) and changes in liver fat content related to patients diagnosed with MASH.",
+      "detailedDescription": "This is a 2-part randomized, double-blind, placebo-controlled, multicenter trial with an open label extension (OLE) to evaluate the safety and exposure of HU6 as well as the effect of HU6 on liver fat and other symptoms associated with MASH.\n\nThe 2-part trial design consists of a blinded intervention period and, for participants who completed the blinded intervention period, an option to continue in an OLE intervention period. The blinded trial design consists of a screening period, a blinded intervention period, an end of treatment (EOT)/early termination (ET) visit, a safety follow-up visit, and two long-term follow up visits."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female \u226530 years of age at time of signing the informed consent.\n* Diagnosed with metabolic dysfunction-associated steatohepatitis (MASH)\n* Women of childbearing potential must not be pregnant or breastfeeding and must use and agree to continue to use a highly effective contraceptive method throughout time on study.\n* Body Mass Index (BMI) \u226527.0 kg/m2 to \u226444 kg/m2\n\nExclusion Criteria:\n\n* Have acute or chronic hepatitis, signs, and symptoms of any other liver disease (eg, Wilson's disease) other than MASH\n* Cholecystectomy or any other surgical or medical condition or history that may potentially alter the absorption, metabolism, or excretion of study treatment.\n* History (including any family history) of malignant hyperthermia.\n* History of malignancy within 5 years (except cutaneous basal or squamous cell carcinoma, carcinoma-in-situ, or low-grade prostate cancer).\n* History of the following cardiovascular conditions within 3 months prior to randomization: acute myocardial infarction, cerebrovascular accident (stroke), unstable angina, hospitalization due to congestive heart failure (CHF), or acute CHF.\n* Significant and unstable lung disease (chronic obstructive pulmonary disease \\[COPD\\], emphysema, pulmonary fibrosis, or asthma) requiring oxygen or chronic daily medication. Note that mild, stable COPD and asthma on inhalers are allowed.\n* Monogenetic diabetes or type 1 diabetes.\n* History of ketoacidosis or hyperosmolar state requiring hospitalization in the 6 months prior to Screening.\n* History of agranulocytosis.\n* History of or active evidence of ophthalmological conditions\n* Untreated, uncontrolled, or unstable hypertension\n* Use of any of the following medications/therapies: Vitamin E: use of ursodiol or high-dose vitamin E (\\>400 IU/day) for a duration of \\>1 month within 6 months or started high dose vitamin E for any duration within 3 months prior to screening\n* Within 3 months prior to screening or plan to use prior to coming off study drug: resmetirom (Rezdiffra\u00ae), GLP 1 agonists and gastric inhibitory polypeptide (GIP)/GLP-1 agonists, Weight loss medications/therapies including: herbal preparation, over the counter (OTC) drug, mail order or prescription drug, Oral antidiabetic medications/therapies including: insulin, meglitinides, thiazolidinediones. Prescription or OTC stimulants. Recent or current use of obeticholic acid (Ocaliva\u00ae), systemic corticosteroids, methotrexate, tamoxifen, amiodarone, or long-term use of tetracyclines. Warfarin, heparin, factor Xa inhibitors due to risk of bleeding, Medications with high risk of idiosyncratic drug-induced neutropenia (IDIN) or agranulocytosis.\n* History of hepatitis or human immunodeficiency virus (HIV1 \\& HIV2)\n* Intolerance to MRI or with conditions contraindicated for MRI procedures\n* Participation in another clinical trial at the time of screening or exposure to any investigational product, including topical agents, within 28 days prior to starting study treatment\n* Additional inclusion/exclusion criteria could apply",
+      "healthyVolunteers": false,
+      "minimumAge": "30 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "AMPLIFY",
+      "briefTitle": "A Trial to Investigate Safety, Exposure, and Efficacy of HU6 Compared With Placebo in Adult Participants With Metabolic Dysfunction-associated Steatohepatitis (MASH)",
+      "nctId": "NCT07491458",
+      "officialTitle": "A Parallel Treatment Group, Phase 2a, Double-blind, 4-arm Trial to Evaluate the Safety, Exposure, and Efficacy of HU6 Compared With Placebo in Male and Female Participants Aged 30 Years or Older With Metabolic Dysfunction-associated Steatohepatitis (MASH)",
+      "orgStudyIdInfo": {
+        "id": "RIV-HU6-2204"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Rivus Pharmaceuticals, Inc."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number and Percentage of Adverse Events (AEs)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Percent change from baseline to Week 26 In Liver Fat Assessed by MRI-PDFF",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Percentage of participants with Liver Fat reduction by \u226530% Assessed by MRI-PDFF",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Area Under the Plasma Concentration-Time Curve (AUC)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Trough Plasma Concentration (Ctrough)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Maximum Observed Plasma Concentration (Cmax)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Time to Maximum Plasma Concentration (Tmax)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Plasma Clearance of drug after extravascular administration (CL/F)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Volume of distribution after extravascular administration (V/F)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Drug elimination half-life (t\u00bd)",
+          "timeFrame": "26 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Rivus Pharmaceuticals, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-02",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-19",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-02",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-02-13",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-03-02",
+      "studyFirstSubmitQcDate": "2026-03-19"
+    }
+  }
+}

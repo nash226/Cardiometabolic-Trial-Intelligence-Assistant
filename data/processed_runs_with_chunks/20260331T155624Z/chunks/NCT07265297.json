@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07265297:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07265297\nBrief title: Using Hydroxychloroquine (HCQ) to Treat Steatohepatitis\nOfficial title: A Randomized Controlled Trial of Using Hydroxychloroquine (HCQ) to Treat Steatohepatitis\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07265297"
+    },
+    {
+      "chunk_id": "NCT07265297:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: Steatohepatitis, Nonalcoholic\nIntervention labels: Hydrochloroquine; Placebo\nDrug class labels: \nArms: HCQ 400mg; HCQ 200mg; Placebo\nKeywords: steatohepatitis; fatty liver; Hydroxychloroquine; Drug repurposing",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT07265297"
+    },
+    {
+      "chunk_id": "NCT07265297:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to learn if drug hydroxychloroquine works to treat steatohepatitis in adults. It will also learn about the safety of drug hydroxychloroquine. The main questions it aims to answer are:\n\nDoes drug hydroxychloroquine improve steatohepatitis? What medical problems do participants have when taking drug hydroxychloroquine? Researchers will compare drug hydroxychloroquine to a placebo (a look-alike substance that contains no drug) to see if drug hydroxychloroquine works to treat steatohepatitis.\n\nParticipants will:\n\nTake drug hydroxychloroquine 400mg or hydroxychloroquine 200mg or placebo every day for 12 months Visit the clinic once every 3 months for checkups and tests\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 107,
+      "trial_nct_id": "NCT07265297"
+    },
+    {
+      "chunk_id": "NCT07265297:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Participants must be at least 18 years old.\n2. Participants must be able to return for scheduled follow-up visits during specific time points within the 12-month study period.\n3. Diagnosis of fatty liver confirmed by abdominal ultrasound or magnetic resonance imaging (MRI).\n4. Evidence of hepatic inflammation for more than three months, indicated by alanine aminotransferase (ALT) \\> 41 IU/L.\n\nExclusion Criteria:\n\n1. Participants younger than 18 years old.\n2. Pregnant or breastfeeding women.\n3. Active viral hepatitis, determined by serum HBV or HCV viral load.\n4. Currently taking hydroxychloroquine (HCQ) for other medical conditions or indications.\n5. Known history of hypersensitivity or severe adverse drug reaction to HCQ.\n6. Presence of retinal maculopathy.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 134,
+      "trial_nct_id": "NCT07265297"
+    },
+    {
+      "chunk_id": "NCT07265297:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=serum ALT | time_frame=Every 3 months, for 1 year",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 11,
+      "trial_nct_id": "NCT07265297"
+    },
+    {
+      "chunk_id": "NCT07265297:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-08-12\nPrimary completion date: 2030-12-31\nCompletion date: 2030-12-31\nStudy first posted: 2025-12-04\nResults first posted: None\nLast update posted: 2025-12-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07265297"
+    },
+    {
+      "chunk_id": "NCT07265297:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: National Taiwan University Hospital\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT07265297"
+    }
+  ],
+  "trial_nct_id": "NCT07265297"
+}

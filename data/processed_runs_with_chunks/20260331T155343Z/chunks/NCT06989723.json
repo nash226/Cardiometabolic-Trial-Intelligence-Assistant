@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06989723:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06989723\nBrief title: Pioglitazone and Empagliflozin for Fatty Liver Disease in Type 2 Diabetes\nOfficial title: Evaluation of Pioglitazone and Empagliflozin Combination Therapy in Type 2 Diabetes Patients With Metabolic Dysfunction-Associated Fatty Liver Disease\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT06989723"
+    },
+    {
+      "chunk_id": "NCT06989723:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes; Fatty Liver\nIntervention labels: Pioglitazone 15 MG [Actos]; Empagliflozin 10 MG [Jardiance]; Empagliflozin 10 MG [Jardiance] + Pioglitazone 15 MG [Actos]\nDrug class labels: \nArms: Pioglitazone; Empagliflozin; Pioglitazone & Empagliflozin\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT06989723"
+    },
+    {
+      "chunk_id": "NCT06989723:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This exploratory study will assess the efficacy of combined pioglitazone and empagliflozin therapy in improving hepatic and metabolic outcomes in patients with type 2 diabetes mellitus and metabolic dysfunction-associated fatty liver disease (MAFLD). Although each agent has shown beneficial effects individually, evidence on their combined impact on liver health is scarce. This study seeks to determine whether the combination therapy yields additive improvements in hepatic steatosis, inflammation, and fibrosis, potentially offering a new therapeutic strategy for diabetic patients with fatty liver disease.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 87,
+      "trial_nct_id": "NCT06989723"
+    },
+    {
+      "chunk_id": "NCT06989723:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 20 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Adults aged 20 years or older.\n2. Patients with inadequately controlled type 2 diabetes mellitus, defined as HbA1c between 7% and 10%, who are currently treated with either:\n\n   * Combination therapy of metformin and a sulfonylurea, or\n   * Combination therapy of metformin and a DPP-4 inhibitor, or\n   * Metformin monotherapy, or\n   * Triple therapy (including metformin) provided that sulfonylurea will be discontinued upon study enrollment.\n3. Evidence of hepatic steatosis within the past 3 months, confirmed by Fibroscan with a controlled attenuation parameter (CAP) \u2265 268 dB/m (consistent with S2 or greater \\[\u226510% hepatocyte steatosis\\] according to the 2024 EASL-EASD-EASO guidelines).\n4. Presence of at least one of the following metabolic abnormalities:\n\n   * Waist circumference \u226590 cm for men or \u226585 cm for women.\n   * Blood pressure \u2265130 mmHg systolic or \u226585 mmHg diastolic, or use of antihypertensive medication.\n   * Serum triglycerides \u2265150 mg/dL or current use of lipid-lowering agents.\n   * HDL-cholesterol \u226445 mg/dL for men or \u226450 mg/dL for women.\n   * HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) \u22652.5.\n   * Serum C-reactive protein (CRP) \u22652 mg/L.\n5. No changes in anti-diabetic or metabolic medications within the past 3 months, unless the changes are deemed by the investigator not to affect study outcomes.\n\nExclusion Criteria:\n\n1. Patients receiving insulin therapy or diagnosed with type 1 diabetes mellitus.\n2. Use of the following medications within the past 3 months: GLP-1 receptor agonists, SGLT2 inhibitors, rosiglitazone (TZD), vitamin E, or ursodeoxycholic acid (UDCA).\n3. Presence of secondary causes of hepatic steatosis unrelated to metabolic dysfunction, such as hepatitis B, hepatitis C, or alcoholic fatty liver disease.\n4. Use of medications known to induce hepatic steatosis, including valproic acid, estrogen, tamoxifen, amiodarone, or chloroquine.\n5. Severe organ failure, defined as:\n\n   * Liver failure: AST or ALT \\> 5 times the upper normal limit (UNL), serum albumin \\< 3.2 g/dL, platelet count \\< 60,000/\u00b5L, or Child-Pugh-Turcotte stage B or C.\n   * Renal failure: Serum creatinine \u2265 2.0 mg/dL, estimated glomerular filtration rate (eGFR) \\< 30 mL/min/1.73 m\u00b2 (CKD-EPI formula), or patients with end-stage renal disease or on dialysis.\n6. Presence of hepatocellular carcinoma, active malignancy, or metastatic cancer.\n7. History of or active bladder cancer.\n8. History of heart failure or current diagnosis of heart failure.\n9. Presence of terminal illnesses.\n10. History of gallstone disease, chronic pancreatitis, or acute pancreatitis.\n11. Underweight patients (body mass index \\[BMI\\] \\< 18.5 kg/m\u00b2).\n12. Pregnant women or women planning to become pregnant.\n13. Known hypersensitivity to the active ingredients or excipients of the study medications.\n14. History of diabetic ketoacidosis.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 444,
+      "trial_nct_id": "NCT06989723"
+    },
+    {
+      "chunk_id": "NCT06989723:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Proportion of Participants Achieving HbA1c Treatment Targets | time_frame=24 weeks | description=Percentage of participants who achieve the predefined HbA1c treatment goal at 24 weeks.\ntype=primary | measure=Change in Fibroscan Controlled Attenuation Parameter (CAP) Score | time_frame=24 weeks | description=Assessment of changes in hepatic steatosis as measured by the controlled attenuation parameter (CAP) score using Fibroscan technology over a 24-week period.\ntype=secondary | measure=Change in HbA1c Levels | time_frame=24 weeks | description=Change in glycated hemoglobin (HbA1c) from baseline after 24 weeks of treatment.\ntype=secondary | measure=Change in Liver Stiffness Measurement | time_frame=24 weeks | description=Change in liver stiffness measurement (LSM) assessed using Fibroscan\ntype=secondary | measure=Change in Non-Invasive Blood-Based Fibrosis Markers | time_frame=12 weeks, 24 weeks | description=Change in NAFLD score, Fibrosis-4 (FIB-4) index, and AST to Platelet Ratio Index (APRI) over 12 and 24 weeks.\ntype=secondary | measure=Change in Anthropometric Measures | time_frame=12 weeks, 24 weeks | description=Changes in metabolic parameters including body weight, body mass index (BMI), waist circumference\ntype=secondary | measure=Change in Lipid Parameters | time_frame=12 weeks, 24 weeks | description=Changes in blood lipid profile (total cholesterol, LDL-c, HDL-c, triglycerides)\ntype=secondary | measure=Change in Liver Function Tests | time_frame=12 weeks, 24 weeks | description=Change in liver function markers including AST, ALT, gamma-glutamyl transferase (gamma-GT), albumin, bilirubin, and prothrombin time\ntype=secondary | measure=Change in Fibrosis Biomarker | time_frame=12 weeks, 24 weeks | description=Change in serum type IV collagen levels\ntype=secondary | measure=Change in Inflammatory Biomarker | time_frame=12 weeks, 24 weeks | description=Change in high-sensitivity C-reactive protein (hs-CRP) levels\ntype=other | measure=Change in Other Blood Biomarkers | time_frame=24 weeks | description=Change in ketone body levels\ntype=other | measure=Change in Proteinuria | time_frame=24 weeks | description=Change in urinary albumin-to-creatinine ratio, protein-to-creatinine ratio",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 283,
+      "trial_nct_id": "NCT06989723"
+    },
+    {
+      "chunk_id": "NCT06989723:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-01-01\nPrimary completion date: 2026-12-31\nCompletion date: 2027-06-30\nStudy first posted: 2025-05-25\nResults first posted: None\nLast update posted: 2025-05-25\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06989723"
+    },
+    {
+      "chunk_id": "NCT06989723:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Seoul National University Bundang Hospital\nLead sponsor class: OTHER\nCollaborators: Celltrion\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT06989723"
+    }
+  ],
+  "trial_nct_id": "NCT06989723"
+}

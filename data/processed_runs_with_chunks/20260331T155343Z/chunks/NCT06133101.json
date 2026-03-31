@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06133101:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06133101\nBrief title: Impact of Soymilk on Liver Disease Severity of Children With Non-alcoholic Fatty Liver Disease (NAFLD)\nOfficial title: Impact of Soymilk on Liver Disease Severity of Children With Non-alcoholic Fatty Liver Disease (NAFLD)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT06133101"
+    },
+    {
+      "chunk_id": "NCT06133101:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Non-Alcoholic Fatty Liver Disease\nIntervention labels: Standard Soy Milk; 2% Fat Cow's Milk\nDrug class labels: \nArms: 2% Fat Cows Milk; Standard Soy Milk\nKeywords: NAFLD",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06133101"
+    },
+    {
+      "chunk_id": "NCT06133101:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A randomized, controlled study of standard soy milk consumption compared to 2% fat cow's milk consumption in children with Non-alcoholic Fatty Liver Disease (NAFLD). The investigators hypothesize that the daily consumption of soy isoflavones found in the soy milk will be beneficial in reducing NAFLD and other obesity-related comorbidities. The investigators do not expect any adverse endocrine or metabolomic effects from the consumption of soy isoflavones.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 71,
+      "trial_nct_id": "NCT06133101"
+    },
+    {
+      "chunk_id": "NCT06133101:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 5 Years\nMaximum age: 12 Years\nAge groups: CHILD\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Children with overweight/obesity\n* Non-alcoholic fatty liver disease (NAFLD) and an MRI PDFF \\>10%\n* Known NAFLD or elevated ALT for sex (\\>22 for females and \\>26 for males)\n\nExclusion Criteria:\n\n* MRI-PDFF \\<10%\n* Baseline habitual (\\>3 days per week) consumption of soy foods\n* Allergy to soy or cow's milk protein\n* Inability to undergo MRI\n* Recent (past 8 weeks) antibiotic exposure\n* Treatment for existing endocrine disorders",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT06133101"
+    },
+    {
+      "chunk_id": "NCT06133101:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in liver disease severity | time_frame=12 weeks | description=Change in liver disease severity, measured using magnetic resonance imaging-proton density fat fraction (MRI-PDFF). A relative PDFF change of 30% correlates with histologic improvement in patients with NAFLD and is commonly used in clinical trials.\ntype=secondary | measure=Change in serum aminotransferase levels (ALT, aspartate aminotransferase [AST], GGT, alkaline phosphatase [ALP]) | time_frame=12 weeks\ntype=secondary | measure=Change in gamma glutamyl-transferase levels (GGT) | time_frame=12 weeks\ntype=secondary | measure=Change in alkaline phosphatase (ALP) | time_frame=12 weeks\ntype=secondary | measure=Change in fasting triglycerides | time_frame=12 weeks\ntype=secondary | measure=Change in total cholesterol (TC) | time_frame=12 weeks\ntype=secondary | measure=Change in high- and low-density lipoprotein (HDL-C, LCL-C) levels | time_frame=12 weeks\ntype=secondary | measure=Change in glucose | time_frame=12 weeks\ntype=secondary | measure=Change in insulin | time_frame=12 weeks\ntype=secondary | measure=Change in glycated hemoglobin (HbA1c) | time_frame=12 weeks\ntype=secondary | measure=Change in testosterone, estrogen and sex hormone binding globulin (SHBG) levels | time_frame=12 weeks\ntype=secondary | measure=Change in thyroid function (TSH and Free T4) | time_frame=12 weeks\ntype=secondary | measure=Change in estradiol | time_frame=12 weeks\ntype=secondary | measure=Change in serum metabolome and lipidome | time_frame=12 weeks\ntype=secondary | measure=Change in systolic and diastolic blood pressure | time_frame=12 weeks\ntype=secondary | measure=Change in equol production status | time_frame=12 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 214,
+      "trial_nct_id": "NCT06133101"
+    },
+    {
+      "chunk_id": "NCT06133101:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-01-15\nPrimary completion date: 2026-03\nCompletion date: 2026-06\nStudy first posted: 2023-11-15\nResults first posted: None\nLast update posted: 2024-08-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06133101"
+    },
+    {
+      "chunk_id": "NCT06133101:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Marialena Mouzaki\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06133101"
+    }
+  ],
+  "trial_nct_id": "NCT06133101"
+}

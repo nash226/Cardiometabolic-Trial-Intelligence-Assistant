@@ -1,0 +1,224 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C511292",
+          "term": "Ortho Evra"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Estradiol in the form of a transdermal patch 100 mcg daily (Vivelle-Dot generic).\n\nWomen with an intact uterus will also receive progesterone (100 mg) in the form of a vaginal tablet (Endometrin, Ferring Pharmaceuticals, Inc.) inserted daily for endometrial protection",
+          "interventionNames": [
+            "Drug: Estradiol patch"
+          ],
+          "label": "Estradiol",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Placebo patch (containing no estradiol) Women with an intact uterus will also receive vaginal placebo capsules (containing no progesterone)",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Estradiol"
+          ],
+          "description": "The patch will provide 100mcg of estradiol daily.",
+          "name": "Estradiol patch",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo patch will contain no estradiol.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NASH - Nonalcoholic Steatohepatitis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "cdobbie@mgb.org",
+          "name": "Caitlin Dobbie, NP",
+          "phone": "617-643-8635",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Boston",
+          "country": "United States",
+          "facility": "Massachusetts General Hospital",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "status": "RECRUITING",
+          "zip": "02114"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Massachsuetts General Hospital",
+          "name": "Karen K. Miller, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Non-alcoholic fatty liver disease (NAFLD) is a growing epidemic in the United States. Despite this, the treatment options remain limited. Preclinical and preliminary clinical data suggest that estrogen deficiency plays an important role in the pathology of steatosis, inflammation and fibrosis in non-alcoholic steatohepatitis (NASH), the progressive form of NAFLD. Post-menopausal women are a growing population with particularly high risk of NASH due to their lack of estrogen. This study will examine the effect of estradiol on hepatic fibrosis and fat in post-menopausal women with NASH."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Postmenopausal women 45-70 years old\n* NASH by biopsy or NAFLD by imaging within 6 months of screen\n* Hepatitis C antibody and hepatitis B surface antigen negative\n* Negative mammogram within 1 year\n\nExclusion criteria:\n\n* Heavy alcohol use\n* Use of NASH pharmacotherapies within 12 months of study entry\n* Known cirrhosis, stage 4 fibrosis on biopsy, or clinical evidence of cirrhosis or portal hypertension on imaging or exam\n* Participation in NASH clinical trial within 6 months of study entry\n* Chronic use of corticosteroids, methotrexate, amiodarone, or tamoxifen within 6 months of entry\n* Known diagnosis of chronic liver disease other than NAFLD or found on biopsy\n* Contraindication to liver biopsy including INR \\> 1.5, platelets \\< 50,000/mL, ascites, chronic anticoagulation (other than aspirin), biliary obstruction, peritonitis, inability to lie supine for 30 minutes\n* Hgb \\< 10.0 g/dL or glomerular filtration rate \\< 60 mL/min\n* Contraindications to estrogen therapy\n* Any vaginal bleeding, including spotting, within the last year\n* Active malignancy\n* Severe chronic illness\n* Use of estrogen or progesterone within a year of baseline visit\n* Routine MRI exclusion criteria such as the presence of a pacemaker or cerebral aneurysm clip",
+      "healthyVolunteers": false,
+      "maximumAge": "70 Years",
+      "minimumAge": "45 Years",
+      "sex": "FEMALE",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Estrogen Administration for the Treatment of NASH in Postmenopausal Women",
+      "nctId": "NCT04833140",
+      "officialTitle": "Estrogen Administration for the Treatment of NASH in Postmenopausal Women",
+      "orgStudyIdInfo": {
+        "id": "2021P001506"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Massachusetts General Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Reduction in amount of fat in the liver",
+          "measure": "Liver fat",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Massachusetts General Hospital"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Massachusetts General Hospital",
+        "investigatorFullName": "Karen Klahr Miller, MD",
+        "investigatorTitle": "Chief, Neuroendocrine Unit, Massachusetts General Hospital",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-05-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-01",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-05-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-12-02",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2021-04-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-04-03",
+      "studyFirstSubmitQcDate": "2021-04-03"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07249788:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07249788\nBrief title: Resmiterom Efficacy & Safety in Patients With MASH\nOfficial title: Clinical Evaluation of Safety and Efficacy of Resmiterom in Patients With MASH (Metabolic Dysfunction-Associated Steato-Hepatitis) A Prospective, Open-label, Interventional Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07249788"
+    },
+    {
+      "chunk_id": "NCT07249788:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: MASH - Metabolic Dysfunction-Associated Steatohepatitis\nIntervention labels: Resmetirom\nDrug class labels: thyroid_hormone_receptor_beta_agonist\nArms: MASH targeted therapy\nKeywords: Resmetirom; MASH; Safety; Efficacy",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT07249788"
+    },
+    {
+      "chunk_id": "NCT07249788:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Phase 4 clinical trial study aims to further evaluate the safety and therapeutic efficacy of Resmetirom in Pakistani patients with fibroscan proven MASH.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07249788"
+    },
+    {
+      "chunk_id": "NCT07249788:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* \u2022 At least one metabolic comorbidity (e.g., T2DM, obesity, dyslipidemia and hypertension)\n\n  * Clinical diagnosis of MASH using:\n\n    * LSM \u2265 8.5kpa And/or\n    * FAST score \u22650.67 And/or\n    * FibroScan CAP \u2265 275 dB/m And/or\n    * FIB-4 \\> 1.3\n\nExclusion Criteria:\n\n* \u2022 History of drug addiction and alcoholism\n\n  * Cirrhosis or decompensated liver disease\n  * Chronic viral hepatitis HBV, HCV)\n  * MACE including MI, Stroke, PE etc.\n  * Pregnant/lactating women\n  * Concurrent use of other investigational drugs\n  * History of other liver diseases (viral, autoimmune, drug-induced, alcohol)\n  * Previous use of resmetirom in last 6 months\n  * Significant renal impairment (eGFR \\<30)",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 124,
+      "trial_nct_id": "NCT07249788"
+    },
+    {
+      "chunk_id": "NCT07249788:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=FIB-4 and CAP score/LSM on fibroscan | time_frame=6 months | description=Changes in liver fibrosis using non invasive markers\ntype=primary | measure=Changes in thyroid profile | time_frame=6 months | description=thyroid profile of each patient at baseline and at primary end point",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT07249788"
+    },
+    {
+      "chunk_id": "NCT07249788:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-10-17\nPrimary completion date: 2026-10-16\nCompletion date: 2026-12-31\nStudy first posted: 2025-11-25\nResults first posted: None\nLast update posted: 2025-12-03\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07249788"
+    },
+    {
+      "chunk_id": "NCT07249788:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Nabiqasim Industries (Pvt) Ltd\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT07249788"
+    }
+  ],
+  "trial_nct_id": "NCT07249788"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07288138:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07288138\nBrief title: A Study of a Thyroid Hormone Receptor Beta Isoform (THR\u03b2) Agonist and an Semicarbazide Sensitive Amine Oxidase (SSAO) Inhibitor, Alone and in Combination, in Adults With Presumed Metabolic Dysfunction-associated Steatohepatitis (MASH)\nOfficial title: A Phase 2a, Randomized, Double-blind, Placebo-controlled, Multicenter Study to Assess the Efficacy and Safety of a THR\u03b2 Agonist (ECC4703), an SSAO Inhibitor (ECC0509), and Their Combination in Adults With Presumed MASH\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 77,
+      "trial_nct_id": "NCT07288138"
+    },
+    {
+      "chunk_id": "NCT07288138:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: Metabolic Dysfunction-associated Steatohepatitis\nIntervention labels: Placebo; ECC4703; ECC0509\nDrug class labels: \nArms: Placebo; ECC4703 Low Dose; ECC4703 High Dose; ECC4703 High Dose + ECC0509 High Dose; ECC0509 Low Dose; ECC0509 High Dose\nKeywords: Liver Disease; Nonalcoholic Steatohepatitis; ECC0509; ECC4703",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT07288138"
+    },
+    {
+      "chunk_id": "NCT07288138:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The primary objective of this trial is to evaluate the dose-dependent and comparative effects of ECC4703 (low and high dose), ECC0509 (low and high dose), and their combination on hepatic fat reduction as assessed by change in magnetic resonance imaging proton density fat fraction (MRI-PDFF) at Week 12.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT07288138"
+    },
+    {
+      "chunk_id": "NCT07288138:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Adults \u226518 years of age who can provide written informed consent and comply with study procedures.\n2. Presumed MASH based on recent liver biopsy (NAFLD activity score \\[NAS\\] \u22654, fibrosis F1-F3) or non-invasive criteria consistent with liver fibrosis (metabolic syndrome plus FibroScan\u00ae liver stiffness 7-14 kPa).\n3. Evidence of hepatic steatosis confirmed by FibroScan\u00ae CAP \\>280 dB/m and MRI-PDFF \\>8% at screening.\n4. BMI \\>25 kg/m\\^2 to \\<50 kg/m\\^2 (non-Asian); BMI \u226523.0 to \\<50.0 kg/m\\^2 (Asian).\n5. ALT \\>1.5\u00d7upper limit of normal (ULN).\n6. Estimated glomerular filtration rate (eGFR) \u226560 mL/min/1.73m\\^2 (Chronic Kidney Disease Epidemiology Collaboration, \\[CKD-EPI\\]).\n7. Stable body weight (no \\>5% change) for at least 6 months prior to screening.\n8. Willing to comply with contraception requirements (as applicable to males and females of childbearing potential).\n9. In the opinion of the investigator, able to participate safely and complete required MRI/biomarker assessments.\n\nExclusion Criteria:\n\nLiver-related:\n\n1. Chronic liver disease other than metabolic dysfunction-associated steatotic liver disease (MASLD)/MASH, including alcoholic liver disease, autoimmune hepatitis, cholestatic disease, genetic liver diseases, or drug-induced liver injury.\n2. Evidence of cirrhosis or hepatic decompensation, including prior ascites, varices, encephalopathy, or laboratory/imaging findings consistent with cirrhosis.\n3. ALT or AST \\>5\u00d7ULN or ALP \\>2\u00d7ULN at screening.\n4. Clinically significant thyroid or adrenal dysfunction, including uncontrolled hypothyroidism, hyperthyroidism, or adrenal disorders.\n5. Type 1 diabetes, HbA1c \\>9.5%, or unstable type 2 diabetes requiring medication changes within 3 months.\n6. Use of medications that affect liver fat or fibrosis (e.g., Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) not on a stable dose, pioglitazone, obeticholic acid, high-dose vitamin E, hepatotoxic drugs) within protocol-specified washout periods.\n7. Significant alcohol use within 1 year prior to screening.\n8. Recent cardiovascular events, including myocardial infraction (MI), stroke, unstable angina, heart failure (New York heart association \\[NYHA III-IV\\]), or uncontrolled arrhythmia.\n9. Current or recent serious psychiatric illness, including psychosis, active suicidal ideation, or suicide attempt within 5 years.\n10. Pregnancy, breastfeeding, or conditions that increase risk or interfere with study procedures, including MRI contraindications or other investigator-determined safety concerns.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 358,
+      "trial_nct_id": "NCT07288138"
+    },
+    {
+      "chunk_id": "NCT07288138:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Relative Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC4703 Monotherapy Versus Placebo | time_frame=Baseline and Week 12\ntype=secondary | measure=Absolute Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC4703 Monotherapy Versus Placebo | time_frame=Baseline and Week 12\ntype=secondary | measure=Relative Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Absolute Change From Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Percentage of Participants With \u226530%, \u226550%, and \u226570% Relative Reduction and Normalization (<5%) in Liver Fat Content by MRI-PDFF, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change From Baseline in Alanine Aminotransferase (ALT), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Percentage of Participants Achieving \u226517-unit Reduction in ALT, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Week 12\ntype=secondary | measure=Percentage of Participants With 30% Reduction in MRI-PDFF, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Week 12\ntype=secondary | measure=Change from Baseline in Aspartate Aminotransferase (AST), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in Alkaline Phosphatase (ALP), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in Gamma-glutamyl Transferase (GGT), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in Fibrosis-4 Index (FIB-4), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in AST to Platelet Ratio Index (APRI), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in FibroScan AST Score (FAST), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in Non-alcoholic Fatty Liver Disease (NAFLD) Fibrosis Score (NFS), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in Enhanced Liver Fibrosis (ELF) Score, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in MASH Resolution Index, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in FibroScan Liver Stiffness Measurement (LSM), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in FibroScan Controlled Attenuation Parameter (CAP), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in LSM as Measure by Magnetic Resonance Elastography (MRE), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in Total Cholesterol (TC), Triglycerides (TG), High-density Lipoprotein (HDL), Low-density Lipoprotein (LDL) and Apoprotein B (ApoB) | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Lipoprotein(a) (Lp[a]) Profiles | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Hemoglobin A1c (HbA1c) | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Fasting Plasma Glucose (FPG) | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Fasting Insulin | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Homeostatic Model Assessment of Insulin Resistance (HOMA-IR) Profiles | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Body Weight | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline Body Mass Index (BMI) | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Plasma Methylamine | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in Cytokeratin-18 (CK-18) | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in C-telopeptide of Type III Collagen (CTX-III) | time_frame=Baseline to Week 12\ntype=secondary | measure=Change from Baseline in N-terminal Pro-peptide of Type III Collagen (Pro-C3) | time_frame=Baseline to Week 12\ntype=secondary | measure=Change in Ratio of Pro-C3 | time_frame=Week 12\ntype=secondary | measure=Change in Ratio of CTX-III | time_frame=Week 12\ntype=secondary | measure=Change from Baseline in Chronic Liver Disease Questionnaire (CLDQ) | time_frame=Baseline and Week 12\ntype=secondary | measure=Change from Baseline in Short-form Liver Disease Quality of Life (SF-LDQOL) | time_frame=Baseline to Week 12\ntype=secondary | measure=Plasma Concentration of ECC4703 and ECC0509 | time_frame=Day 1, Weeks 2, 4, 6, 8, and 12",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 895,
+      "trial_nct_id": "NCT07288138"
+    },
+    {
+      "chunk_id": "NCT07288138:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-15\nPrimary completion date: 2026-10-16\nCompletion date: 2026-10-30\nStudy first posted: 2025-12-17\nResults first posted: None\nLast update posted: 2026-03-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07288138"
+    },
+    {
+      "chunk_id": "NCT07288138:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eccogene\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07288138"
+    }
+  ],
+  "trial_nct_id": "NCT07288138"
+}

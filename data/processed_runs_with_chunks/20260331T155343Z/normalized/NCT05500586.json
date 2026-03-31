@@ -1,0 +1,155 @@
+{
+  "arms": [
+    {
+      "description": "We will study 20 subjects on one occasion using a hyperglycemic clamp with 2 doses of glucagon.",
+      "intervention_names": [
+        "Drug: Glucagon response study"
+      ],
+      "label": "Healthy Adults",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "We will study 20 subjects on one occasion using a hyperglycemic clamp with 2 doses of glucagon.",
+      "intervention_names": [
+        "Drug: Glucagon response study"
+      ],
+      "label": "Obese Adults",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "We will study 20 subjects on one occasion using a hyperglycemic clamp with 2 doses of glucagon.",
+      "intervention_names": [
+        "Drug: Glucagon response study"
+      ],
+      "label": "Adults with Type 2 Diabetes",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Type2diabetes",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "NAFLD",
+      "normalized_name": "mash"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Willing to participate\n* Able to give consent\n\nExclusion Criteria:\n\n* History of prior upper abdominal surgery e.g. gastric banding, pyloroplasty, vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.\n* Contraindications to MRI (e.g. metal implants, claustrophobia).\n* Hematocrit \\< 35%\n* TSH \\< 0.4 or \\> 5.5.\n* Consumption of \\> 2 alcohol drinks per day or \\> 14 per week or a positive AUDIT questionnaire",
+    "healthy_volunteers": true,
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "25 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Adults with Type 2 Diabetes",
+        "Healthy Adults",
+        "Obese Adults"
+      ],
+      "description": "Please see information in group descriptions",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Glucagon response study",
+      "normalized_name": "glucagon response study"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Tracer-dependent measurement of amino-acid clearance",
+      "measure": "Rate of Amino acid catabolism in the presence / absence of glucagon",
+      "outcome_type": "primary",
+      "time_frame": "240 minutes of study"
+    },
+    {
+      "description": "Tracer-dependent measurement of amino-acid clearance",
+      "measure": "Effect of Diabetes on amino-acid catabolism",
+      "outcome_type": "secondary",
+      "time_frame": "240 minutes of study"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "NON_RANDOMIZED",
+    "brief_summary": "Whether impaired postprandial glucagon suppression in prediabetes and T2DM is an attempt to overcome resistance to glucagon's actions on hepatic AA catabolism, a defect in \u03b1-cell function, or a combination of both are important, unanswered questions. NAFLD is associated with T2DM risk and impaired insulin action. Unfortunately, it is unclear if glucagon resistance is caused by obesity, hepatic steatosis or both. The experiments outlined will determine if glucagon's actions on hepatic amino acid catabolism and EGP interact with hepatic lipid metabolism in lean and obese subjects with and without T2DM (and with varying degrees of hepatic steatosis).",
+    "brief_title": "The Effects of Glucagon on Hepatic Metabolism",
+    "collaborator_names": [],
+    "completion_date": "2026-03-31",
+    "condition_labels": [
+      "obesity",
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Willing to participate\n* Able to give consent\n\nExclusion Criteria:\n\n* History of prior upper abdominal surgery e.g. gastric banding, pyloroplasty, vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.\n* Contraindications to MRI (e.g. metal implants, claustrophobia).\n* Hematocrit \\< 35%\n* TSH \\< 0.4 or \\> 5.5.\n* Consumption of \\> 2 alcohol drinks per day or \\> 14 per week or a positive AUDIT questionnaire",
+    "detailed_description": "T2DM and prediabetes are characterized by abnormal post-prandial suppression of glucagon, which contributes to postprandial hyperglycemia by increasing EGP. Although these effects are magnified by decreased and delayed insulin secretion, they are also apparent when insulin secretion is intact. In rodents, altered glucagon signaling changes \u03b1-cell function and mass - an effect mediated by changes in circulating AA concentrations. Are the elevated concentrations of branched-chain AA and other AA metabolites in T2DM a cause or an effect of global \u03b1-cell dysfunction? Could altered glucagon signaling precipitate a vicious cycle resulting in T2DM?",
+    "drug_class_labels": [],
+    "enrollment_count": 21,
+    "enrollment_type": "ACTUAL",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Glucagon response study"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "glucagon",
+      "insulin resistance",
+      "hepatic steatosis",
+      "amino acid metabolism"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-05",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Adrian Vella",
+    "masking": "NONE",
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "25 Years",
+    "nct_id": "NCT05500586",
+    "official_title": "The Effects of Glucagon on Hepatic Metabolism",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "primary_completion_date": "2025-09-30",
+    "primary_purpose": "BASIC_SCIENCE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05500586",
+    "start_date": "2022-10-20",
+    "study_first_posted_at": "2022-08-15",
+    "study_type": "INTERVENTIONAL"
+  }
+}

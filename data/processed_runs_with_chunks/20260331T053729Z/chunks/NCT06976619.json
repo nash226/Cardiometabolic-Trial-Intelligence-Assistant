@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06976619:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06976619\nBrief title: The Effect of Glycemic Control and of GLP-1 Receptor Agonism on Islet GLP-1 in People With Type 1 and Type 2 Diabetes\nOfficial title: The Effect of Glycemic Control and of GLP-1 Receptor Agonism on Islet GLP-1 in People\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT06976619"
+    },
+    {
+      "chunk_id": "NCT06976619:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 1 Diabetes; Type 2 Diabetes\nIntervention labels: Liraglutide Pen Injector; Saline Injections\nDrug class labels: glp1_receptor_agonist\nArms: Type 1 diabetes - Placebo arm; Type 1 diabetes - Liraglutide arm; Type 2 diabetes - Placebo arm; Type 2 diabetes - Liraglutide arm\nKeywords: Islet Function; Glucose Toxicity",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT06976619"
+    },
+    {
+      "chunk_id": "NCT06976619:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The investigators recently demonstrated that blockade of Glucagon-Like Peptide-1's (GLP-1) receptor (GLP1R) results in changes in islet function without changes in circulating GLP-1. These effects are more pronounced in people with early type 2 diabetes (T2DM) in keeping with increased expression of PC-1/3 and GLP-1 that is observed in diabetic islets. However, its regulation is at present unknown. There is evidence that \u03b1-cell proglucagon processing is subject to paracrine regulation by the \u03b2-cell3. It is unclear if the effects of GLP1R agonism on islet GLP-1 differ in Type 1 diabetes (T1DM) compared to T2DM. This experiment will examine the effect of glycemic control \u00b1 a GLP1R agonist on islet GLP-1 in people with (T2DM) and without (T1DM) \u03b2-cells.\nDetailed description: The investigators recently demonstrated that blockade of Glucagon-Like Peptide-1's (GLP-1) receptor (GLP1R) results in changes in islet function without changes in circulating GLP-1. This supports other evidence (rodents and humans) that through the (inducible) expression of a prohormone convertase (PC-1/3), the \u03b1-cell can process proglucagon to intact GLP-15,6. 'Islet' or 'pancreatic' GLP-1 acts in a paracrine fashion to regulate insulin (basal and 1st phase) and glucagon secretion. These effects are more pronounced in people with early type 2 diabetes (T2DM) in keeping with increased expression of PC-1/3 and GLP-1 that is observed in diabetic islets.\n\nThere is evidence that \u03b1-cell proglucagon processing is subject to paracrine regulation by the \u03b2-cell. \u03b2-cell secretion of the signaling peptide 14-3-3-Zeta is decreased by GLP1R agonism (Fig.1), stimulating \u03b1-cell production of GLP-1. This is a testable hypothesis in humans; people with type 1 diabetes (T1DM) have dysregulated glucagon secretion and evidence of islet GLP-1. It is unclear if the effects of GLP1R agonism on islet GLP-1 differ compared to T2DM. This experiment will examine the effect of glycemic control \u00b1 a GLP1R agonist on islet GLP-1 in people with (T2DM) and without (T1DM) \u03b2-cells.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 312,
+      "trial_nct_id": "NCT06976619"
+    },
+    {
+      "chunk_id": "NCT06976619:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 25 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Type 1 or type 2 diabetes treated with insulin\n\nExclusion Criteria:\n\n1. Age \\< 25 or \\> 70 years.\n2. HbA1c \\> 10.0%\n3. For female subjects: positive pregnancy test at the time of enrollment or study\n4. History of prior upper abdominal surgery such as adjustable gastric banding, pyloroplasty and vagotomy.\n5. Prior use of GLP-1 receptor agonists in the previous year.\n6. Active systemic illness or malignancy.\n7. Symptomatic macrovascular or microvascular disease.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 96,
+      "trial_nct_id": "NCT06976619"
+    },
+    {
+      "chunk_id": "NCT06976619:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Effect of exendin 9-39 on fasting glucagon secretion rate before and after liraglutide treatment | time_frame=The change in fasting glucagon secretion rate (saline vs. exendin 9-39) in the baseline study will be compared with the change in fasting glucagon secretion rate (saline vs. exendin 9-39) after 30 days of treatment with liraglutide (post-liraglutide) | description=Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during fasting (-30 to 0 min) of each study day.\ntype=primary | measure=Effect of exendin 9-39 on glucagon secretion rate during hyperglycemia before and after liraglutide | time_frame=The change in glucagon secretion rate during hyperglycemia (saline vs. exendin 9-39) in the baseline study will be compared with the change (saline vs. exendin 9-39) after 30 days of treatment with liraglutide (post-liraglutide) | description=Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during hyperglycemia (150 to 180 min) of each study day.\ntype=secondary | measure=Effect of exendin 9-39 on fasting glucagon secretion rate in people with type 1 diabetes vs type 2 diabetes | time_frame=The change in fasting glucagon secretion (saline vs. exendin 9-39) in the baseline studies will be compared in people with type 1 diabetes vs type 2 diabetes | description=Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during fasting (-30 to 0 minutes) during the baseline studies\ntype=secondary | measure=Effect of exendin 9-39 on glucagon secretion rate during hyperglycemia in people with type 1 diabetes vs type 2 diabetes | time_frame=The change in glucagon secretion during hyperglycemia (saline vs. exendin 9-39) in the baseline studies will be compared in people with type 1 diabetes vs type 2 diabetes | description=Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during hyperglycemia (150 to 180 minutes) during the baseline studies",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 294,
+      "trial_nct_id": "NCT06976619"
+    },
+    {
+      "chunk_id": "NCT06976619:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-10-03\nPrimary completion date: 2028-10-30\nCompletion date: 2029-03-31\nStudy first posted: 2025-05-16\nResults first posted: None\nLast update posted: 2025-10-14\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06976619"
+    },
+    {
+      "chunk_id": "NCT06976619:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Mayo Clinic\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06976619"
+    }
+  ],
+  "trial_nct_id": "NCT06976619"
+}

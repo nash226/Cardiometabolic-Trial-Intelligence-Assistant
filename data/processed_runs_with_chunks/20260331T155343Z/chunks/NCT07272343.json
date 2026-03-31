@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07272343:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07272343\nBrief title: The Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes\nOfficial title: A Study on the Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes Combined With Metabolic-associated Fatty Liver Disease and Its Molecular Mechanisms\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT07272343"
+    },
+    {
+      "chunk_id": "NCT07272343:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes Mellitus (T2DM); Semaglutide; Caloric Restriction\nIntervention labels: semaglutide; caloric restriction\nDrug class labels: glp1_receptor_agonist\nArms: semaglutide group; caloric restriction group\nKeywords: Type 2 Diabetes Mellitus; semaglutide; Caloric Restriction",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT07272343"
+    },
+    {
+      "chunk_id": "NCT07272343:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: To evaluate the effects of subcutaneous injection of semaglutide for 12 weeks on patients with type 2 diabetes mellitus (T2DM), compared with concurrent energy-restricted management, on glycemic control, weight loss, inflammatory markers, liver fat content, and other parameters. The study also observed the subcutaneous and visceral fat of the participants and explored the molecular mechanisms of action, providing high-quality evidence-based support for the timing and targets of intervention in this population.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 76,
+      "trial_nct_id": "NCT07272343"
+    },
+    {
+      "chunk_id": "NCT07272343:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Age 18-75 years;\n2. BMI\u226525 kg/m\u00b2;\n3. Diagnosed as type 2 diabetes mellitus patients according to the \"Guidelines for the Prevention and Treatment of Type 2 Diabetes in China (2020 Edition)\";\n4. HbA1c\u22648.5%;\n5. Duration of diabetes \u22643 months, and no use of antihyperglycemic drugs;\n6. Willing to participate in this study, and after full informed consent, agrees to strictly follow the treatment plan and promises to attend follow-up visits on time, and signs the informed consent form.\n\nExclusion Criteria:\n\n1. BMI \\< 25 kg/m\u00b2;\n2. Age \\< 18 years, or \\> 75 years;\n3. History of type 1 diabetes, acute pancreatitis, or diabetes secondary to pancreatectomy;\n4. History of bariatric surgery or planned bariatric surgery, or currently attempting weight loss within the past 3 months, or use of weight-loss medications within the past 3 months;\n5. Use of GLP-1 receptor agonists, sodium-glucose cotransporter 2 inhibitors, dipeptidyl peptidase-4 inhibitors, thiazolidinediones, or other related drugs within the past 3 months;\n6. Pregnant or breastfeeding women, or those planning to conceive during the study period;\n7. Patients with severe diseases of important organ systems, such as severe cardiovascular and cerebrovascular diseases, respiratory diseases, gastrointestinal diseases, renal insufficiency, hematologic diseases, neurological diseases, or malignancies;\n8. Personal or family history of medullary thyroid carcinoma;\n9. Patients with severe mental disorders or communication barriers that prevent accurate understanding of the study content and compliance with the trial procedures.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 254,
+      "trial_nct_id": "NCT07272343"
+    },
+    {
+      "chunk_id": "NCT07272343:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=HbA1c | time_frame=From enrollment to the end of treatment at 12 weeks | description=glycated hemoglobin\ntype=primary | measure=FPG | time_frame=From enrollment to the end of treatment at 12 weeks | description=fasting plasma glucose\ntype=primary | measure=2hPG | time_frame=From enrollment to the end of treatment at 12 weeks | description=2-hour postprandial glucose\ntype=secondary | measure=HOMA-IR | time_frame=From enrollment to the end of treatment at 12 weeks | description=homeostasis model assessment of insulin resistance\ntype=secondary | measure=TC | time_frame=From enrollment to the end of treatment at 12 weeks | description=total cholesterol\ntype=secondary | measure=TG | time_frame=From enrollment to the end of treatment at 12 weeks | description=triglycerides\ntype=secondary | measure=LDL-C | time_frame=From enrollment to the end of treatment at 12 weeks | description=low-density lipoprotein\ntype=secondary | measure=HDL-C | time_frame=From enrollment to the end of treatment at 12 weeks | description=high-density lipoprotein",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 141,
+      "trial_nct_id": "NCT07272343"
+    },
+    {
+      "chunk_id": "NCT07272343:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-02-10\nPrimary completion date: 2026-01-31\nCompletion date: 2026-06-01\nStudy first posted: 2025-12-09\nResults first posted: None\nLast update posted: 2025-12-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07272343"
+    },
+    {
+      "chunk_id": "NCT07272343:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Second Affiliated Hospital of Nanchang University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT07272343"
+    }
+  ],
+  "trial_nct_id": "NCT07272343"
+}

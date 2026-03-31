@@ -1,0 +1,762 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008103",
+          "term": "Liver Cirrhosis"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo group",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: BI 3802876"
+          ],
+          "label": "Dose group 1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: BI 3802876"
+          ],
+          "label": "Dose group 2",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: BI 3802876"
+          ],
+          "label": "Dose group 3",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Dose group 1",
+            "Dose group 2",
+            "Dose group 3"
+          ],
+          "description": "BI 3802876",
+          "name": "BI 3802876",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo group"
+          ],
+          "description": "Placebo",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Liver Cirrhosis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "clintriage.rdg@boehringer-ingelheim.com",
+          "name": "Boehringer Ingelheim",
+          "phone": "1-800-243-0127",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Birmingham",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Alabama at Birmingham",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          },
+          "state": "Alabama",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "35233"
+        },
+        {
+          "city": "Coronado",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Southern California Research Center",
+          "geoPoint": {
+            "lat": 32.68589,
+            "lon": -117.18309
+          },
+          "state": "California",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "92118"
+        },
+        {
+          "city": "Lake Forest",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Orange County Research Center",
+          "geoPoint": {
+            "lat": 33.64697,
+            "lon": -117.68922
+          },
+          "state": "California",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "92630"
+        },
+        {
+          "city": "Los Angeles",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Pfleger Liver Institute",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "90095"
+        },
+        {
+          "city": "Montclair",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Catalina Research Institute, LLC",
+          "geoPoint": {
+            "lat": 34.07751,
+            "lon": -117.68978
+          },
+          "state": "California",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "91763"
+        },
+        {
+          "city": "San Diego",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Velocity Clinical Research, San Diego",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          },
+          "state": "California",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "91942"
+        },
+        {
+          "city": "Colorado Springs",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Peak Gastroenterology Associates",
+          "geoPoint": {
+            "lat": 38.83388,
+            "lon": -104.82136
+          },
+          "state": "Colorado",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "80907"
+        },
+        {
+          "city": "Miami",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Miami",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          },
+          "state": "Florida",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "33136"
+        },
+        {
+          "city": "Miami Lakes",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Panax Clinical Research",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          },
+          "state": "Florida",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "33014"
+        },
+        {
+          "city": "Atlanta",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Piedmont Healthcare-Atlanta",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          },
+          "state": "Georgia",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "30309"
+        },
+        {
+          "city": "Columbus",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Centricity Research Columbus Georgia Multispecialty",
+          "geoPoint": {
+            "lat": 32.46098,
+            "lon": -84.98771
+          },
+          "state": "Georgia",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "31904"
+        },
+        {
+          "city": "Iowa City",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Iowa Hospitals and Clinics",
+          "geoPoint": {
+            "lat": 41.66113,
+            "lon": -91.53017
+          },
+          "state": "Iowa",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "52242"
+        },
+        {
+          "city": "Detroit",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Henry Ford Health System",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          },
+          "state": "Michigan",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "48202"
+        },
+        {
+          "city": "Rochester",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Mayo Clinic, Rochester",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          },
+          "state": "Minnesota",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "55905"
+        },
+        {
+          "city": "St Louis",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Washington University School of Medicine",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          },
+          "state": "Missouri",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "63110"
+        },
+        {
+          "city": "New York",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Columbia University Medical Center",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "10032"
+        },
+        {
+          "city": "Morehead City",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Centricity Research - Morehead City",
+          "geoPoint": {
+            "lat": 34.72294,
+            "lon": -76.72604
+          },
+          "state": "North Carolina",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "28557"
+        },
+        {
+          "city": "Charleston",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Medical University of South Carolina",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          },
+          "state": "South Carolina",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "29425"
+        },
+        {
+          "city": "Nashville",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Nashville General Hospital",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "37208"
+        },
+        {
+          "city": "Arlington",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Texas Clinical Research Institute, LLC",
+          "geoPoint": {
+            "lat": 32.73569,
+            "lon": -97.10807
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "76012"
+        },
+        {
+          "city": "Carrollton",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Epic Medical Research - Carrollton",
+          "geoPoint": {
+            "lat": 32.95373,
+            "lon": -96.89028
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "75006"
+        },
+        {
+          "city": "Dallas",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "The Liver Institute at Methodist Dallas",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "75203"
+        },
+        {
+          "city": "Fort Worth",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Epic Medical Research - Fort Worth",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "76120"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Houston Methodist Hospital",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77030"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Pioneer Research Solutions, Inc.",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77099"
+        },
+        {
+          "city": "San Antonio",
+          "contacts": [
+            {
+              "email": "unitedstates@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "833-602-2368",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "American Research Corporation at the Texas Liver Institute",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78215"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is open to adults with a type of confirmed liver condition called compensated cirrhosis due to Metabolic Dysfunction-Associated Steatohepatitis (MASH). The purpose of this study is to find out how well a study medicine called BI 3802876 is tolerated in people with this condition. The study looks at how different doses of BI 3802876 are handled by the body. BI 3802876 is being developed to improve liver health in people living with this liver condition.\n\nParticipants are put in 3 different dose groups randomly, which means by chance. Participants within a group get BI 3802876 or placebo. Placebo looks like BI 3802876 but does not contain any medicine. Participants have more than twice the chance of receiving BI 3802876 than placebo. The study medicine is given as an infusion into a vein.\n\nParticipants are in the study for about half a year. During this time, they visit the study site 12 times. At 2 visits, participants get the study medicine. Doctors collect information on any health problems and take blood samples to check how BI 3802876 is handled by the body. They compare results between the groups."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria :\n\n* Male or female adults \u226518 to \u226475 years of age at the time of screening, and at least the legal age of consent in countries where it is \\> 18 years\n* Patients meeting criteria for Child-Pugh category A without history of previous decompensation event\n* Compensated Metabolic Dysfunction-Associated Steatohepatitis (MASH) cirrhosis diagnosed by 1 of the following:\n\n  * Biopsy (collected during screening or \u2264 5 years\\* prior to screening) showing cirrhosis (fibrosis stage 4) with steatosis or steatohepatitis.\n  * Biopsy (collected during screening or \u2264 5 years\\* prior to screening) showing cryptogenic cirrhosis.\n  * Biopsy showing steatosis or steatohepatitis prior to screening without confirmation of fibrosis stage 4, or current or previous imaging showing steatosis with no liver histology available must meet either one of the following inclusion criteria at screening:\n\n    1. Vibration-controlled transient elastography (VCTE) \u2265 15 kilopascals (kPa) plus 1 of the following, Magnetic Resonance Enterography (MRE) \u22654.2 kPa, platelet count \\<150,000/\u03bcL or imaging techniques (computed tomography (CT) scan and/or Magnetic Resonance Imaging (MRI) and/or Ultrasound) suggestive of cirrhosis.\n    2. VCTE measurement \u2265 20 kPa\n    3. Enhanced Liver Fibrosis (ELF) score \u2265 10.2 \\*If biopsy was collected \\> 365 days prior to screening either criteria a, b or c must be met Further inclusion criteria apply.\n\nExclusion Criteria :\n\n* Patients with clinically significant portal hypertension defined by any of the following:\n\n  * VCTE \u226525 kPa if the platelets are \u2265150,000/\u03bcL\n  * VCTE \u226520 kPa if platelets are \\<150,000/\u03bcL\n  * History of esophageal or gastric varices (Grade \u22651) on endoscopy\n  * ELF score \u226511.3\n  * Hepatic venous pressure gradient (HVPG) \u226510 mmHg\n* Other causes of liver disease based on medical history and/or centralized review of liver histology, including but not limited to alcoholic liver disease, autoimmune disorders (e.g., primary biliary cholangitis \\[PBC\\], primary sclerosing cholangitis \\[PSC\\], autoimmune hepatitis), drug-induced hepatotoxicity, Wilson disease, clinically significant iron overload, or alpha-1- antitryspin deficiency\n* Chronic viral hepatitis parameters that would be considered exclusionary for the participation in this trial are (hepatitis B and C testing will be done at screening visit):\n\n  * Hepatitis B virus (HBV): Past or present hepatitis B infection, including a positive hepatitis B surface antigen (HBsAg) and/or detectable HBV Deoxyribonucleic Acid (DNA).\n  * Hepatitis C virus (HCV): Past or present hepatitis C infection, including positive hepatitis C antibodies and/or detectable HCV ribonucleic acid (RNA).\n* History of liver transplantation or patients listed for liver transplantation\n* Suspicion, confirmed diagnosis, or history of Hepatocellular Carcinoma (HCC)\n* Present or past evidence of decompensating events of liver cirrhosis\n* Model for End-Stage Liver Disease (MELD) score \\> 12, unless due to therapeutic anti-coagulation\n* History of significant alcohol consumption (defined as intake of \\> 210 g/week in males and \\> 140 g/week in females on average over a consecutive period of more than 3 months) within 1 year prior to screening\n* International Normalized Ratio (INR) \\>1.3 unless due to therapeutic anticoagulants or laboratory error Further exclusion criteria apply.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study to Test Whether BI 3802876 is Tolerated in People With Compensated Liver Cirrhosis Due to Metabolic Dysfunction- Associated Steatohepatitis (MASH)",
+      "nctId": "NCT07325526",
+      "officialTitle": "A Phase IIa Double-blind, Placebo-controlled Study Evaluating the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of BI 3802876 in Participants With Compensated Cirrhosis Due to Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+      "orgStudyIdInfo": {
+        "id": "1517-0002"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Boehringer Ingelheim"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "WHO Registry Identifier",
+          "id": "1111-1313-8064",
+          "type": "REGISTRY"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "description": "Clinical studies sponsored by Boehringer Ingelheim, phases I to IV, interventional and non-interventional, are in scope for sharing of the raw clinical study data and clinical study documents. Exceptions might apply, e.g. studies in products where Boehringer Ingelheim is not the license holder; studies regarding pharmaceutical formulations and associated analytical methods, and studies pertinent to pharmacokinetics using human biomaterials; studies conducted in a single center or targeting rare diseases(in case of low number of patients and therefore limitations with anonymization).\n\nFor more details refer to:\n\nhttps://www.clinicalstudies.boehringer-ingelheim.com/msw/datasharing",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Occurrence of any Adverse Events (AEs)",
+          "timeFrame": "up to 134 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Area under the concentration-time curve of the analyte in serum over the time interval from 0 extrapolated to infinity (AUC0-\u221e)",
+          "timeFrame": "up to 134 days"
+        },
+        {
+          "measure": "Maximum measured concentration of the analyte in serum (Cmax)",
+          "timeFrame": "up to 134 days"
+        },
+        {
+          "measure": "Relative change from baseline in N-terminal type III collagen propeptide (PRO-C3) at week 7",
+          "timeFrame": "at baseline, at week 7"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "https://www.clinicalstudies.boehringer-ingelheim.com/msw/datatransparency"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Boehringer Ingelheim"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-03-29",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-05",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-03-29",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-02-27",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-07",
+      "studyFirstSubmitQcDate": "2026-01-07"
+    }
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C116580",
+          "term": "fructooligosaccharide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "LFMT-capsules. 3 times bulk, and further continuous administration. This arm is also treated pre- and probiotics.",
+          "interventionNames": [
+            "Combination Product: Lyophilized fecal microbiota transplantation capsules",
+            "Dietary Supplement: A. soehngenii",
+            "Dietary Supplement: Pasteurized A. muciniphila",
+            "Dietary Supplement: B. animalis subsp. lactis",
+            "Dietary Supplement: Fructo-oligosaccharides"
+          ],
+          "label": "LFMT-capsules",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo-capsules. 3 times bulk, and further continuous administration. This arm is also treated pre- and probiotics.",
+          "interventionNames": [
+            "Combination Product: Placebo capsules",
+            "Dietary Supplement: A. soehngenii",
+            "Dietary Supplement: Pasteurized A. muciniphila",
+            "Dietary Supplement: B. animalis subsp. lactis",
+            "Dietary Supplement: Fructo-oligosaccharides"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "LFMT-capsules"
+          ],
+          "description": "Oral administration (capsule)",
+          "name": "Lyophilized fecal microbiota transplantation capsules",
+          "type": "COMBINATION_PRODUCT"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Oral administration (capsule)",
+          "name": "Placebo capsules",
+          "type": "COMBINATION_PRODUCT"
+        },
+        {
+          "armGroupLabels": [
+            "LFMT-capsules",
+            "Placebo"
+          ],
+          "description": "Oral administration (capsule)",
+          "name": "A. soehngenii",
+          "type": "DIETARY_SUPPLEMENT"
+        },
+        {
+          "armGroupLabels": [
+            "LFMT-capsules",
+            "Placebo"
+          ],
+          "description": "Oral administration (capsule)",
+          "name": "Pasteurized A. muciniphila",
+          "type": "DIETARY_SUPPLEMENT"
+        },
+        {
+          "armGroupLabels": [
+            "LFMT-capsules",
+            "Placebo"
+          ],
+          "description": "Oral administration (capsule)",
+          "name": "B. animalis subsp. lactis",
+          "type": "DIETARY_SUPPLEMENT"
+        },
+        {
+          "armGroupLabels": [
+            "LFMT-capsules",
+            "Placebo"
+          ],
+          "description": "Oral administration (dissolved in water)",
+          "name": "Fructo-oligosaccharides",
+          "type": "DIETARY_SUPPLEMENT"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non Alcoholic Steatohepatitis",
+        "Non-Alcoholic Fatty Liver Disease",
+        "Fecal Microbiota Transplantation",
+        "FMT",
+        "Prebiotics",
+        "Probiotics",
+        "Microbiome",
+        "Intestinal Microbiome",
+        "Gut Microbiome"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "q.j.augustijn@amsterdamumc.nl",
+          "name": "Quinten Augustijn, MD",
+          "phone": "+31205661267",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Amsterdam",
+          "contacts": [
+            {
+              "email": "q.j.augustijn@amsterdamumc.nl",
+              "name": "Q.J.J. Augustijn, MD",
+              "phone": "+315661267",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "Amsterdam UMC",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          },
+          "state": "North Holland",
+          "status": "RECRUITING",
+          "zip": "1105AZ"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Amsterdam UMC",
+          "name": "A.G. Holleboom, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to investigate the therapeutic potential of A. soehngenii and pasteurized A. muciniphila combined with B. animalis subsp. lactis and fructo-oligosaccharides with and without conditioned vegan lyophilized fecal microbiota transplantation capsules to reduce NASH in patients with fibrotic NASH. The main questions to answer are:\n\n1. Can NASH be treated by altering the gut microbiota using LFMT capsules?\n2. Can NASH be treated using a syntrophic cocktail of synbiotics and will these strains strengthen the effect of FMT?\n3. What are the underlying mechanism by which the aforementioned treatments attenuate NASH?\n\nParticipants will be treated with FMT-capsules or placebo, and all participants will receive a cocktail of 3 strains of probiotics and one type of prebiotic.",
+      "detailedDescription": "Main objective To investigate the therapeutic potential of A. soehngenii and pasteurized A. muciniphila combined with B. animalis subsp. lactis and fructo-oligosaccharides with and without conditioned vegan lyophilized fecal microbiota transplantation (LFMT) capsules to reduce NASH in patients with NASH and NASH-fibrosis.\n\nSecondary objective To investigate the mechanisms of A. soehngenii and pasteurized A. muciniphila combined with B. animalis subsp. lactis and FOS with and without conditioned vegan LFMT capsules in reducing NASH in patients with NASH and NASH-fibrosis.\n\nStudy design:\n\nDouble-blind randomized placebo-controlled intervention study.\n\nStudy population:\n\nPatients between age 18-75 years with biopsy-proven NASH obtained up to 32 weeks before screening based on tandem reading of two expert liver pathologists: SAF Steatosis score \u22651, Activity \u22652, Fibrosis \\<4; 50% of participants should at least have NASH fibrosis stage 1, 2 or 3 according to the NASH CRN fibrosis staging system.\n\nIntervention:\n\nRecipient participants From day -3 before the first FMT until completion of the study, all recipient participants will receive an oral daily single dose of 5 g FOS. Subsequently, participants will be randomized to lean donor FMT capsules (donors conditioned with WholeFiber) or placebo (blinded design)1.\n\nAt baseline (day 0) and at week 8 (day 56) and week 16 (day 112) participants will ingest 21 LFMT or placebo capsules. The study visits will be 8 weeks apart, although a margin of -3 days to +3 days is implemented to take participants schedule and availability into account. In addition, participants will daily take 2 capsules of LFMT or placebo during the whole study period (24 weeks).\n\nThe investigators have previously observed that gut microbiota composition in the recipient is affected up to 8-12 weeks after donor FMT1, so this time window ensures a stable donor gut microbiota composition during the study.\n\nDuring the 24-week intervention period, all participants will take daily doses of 109 A. soehngenii CH-106 cells (dosage based on previous studies including toxicology study)2,3, 1010 B. animalis subsp. lactis BLC1 (a well-studied strain marketed as a probiotic by Sacco SRL) and 3x1010 pasteurized A. muciniphila ATCC BAA-835T cells (dosage based on EFSA approval and obtained from A-Mansia Biotech).\n\nPercutaneous liver biopsies will be performed as a part of screening when participants are theoretically eligible for participation, unless a liver biopsy has been performed in the previous 36 weeks. A tandem-read by two liver pathologists blinded to any other result will determine if patients will be included in the study. At 24 weeks, another liver biopsy will be performed to examine the effect of the FMT, which will also be reviewed by two liver pathologists (again blinded to any other result). The NASH-CRN classification will be assessed on H\\&E slides, for steatosis, inflammation and ballooning, and with a Sirius red-stained slide for evaluation of fibrosis. RNA for RNA-sequencing will be isolated.\n\nDifferential gene expression will be assessed over time (baseline and 24 weeks) and by treatment allocation (vegan donor FMT versus placebo).\n\nFeces will be collected at baseline, and after week 2, 8, 10, 16, 18, and 24, in order to investigate the changes in gut microbiome. Also, markers of gut barrier function will be assessed.\n\nBlood will be collected at baseline and at 8, 16 and 24 weeks to investigate common liver enzymes, indicators of glycemic control, lipids, and general and more NASH-specific inflammation parameters.\n\nA multiparametric MRI of liver (MRI-PDFF, MR elastography, corrected T1) and of visceral and subcutaneous fat will be performed at baseline and after 24 weeks to estimate visceral and subcutaneous adipose tissue depot volume, hepatic fat content as well as hepatic fibrosis and inflammation.\n\nContinuous glucose measurements will be performed at home using portable devices, during a consecutive period of 1 week (7 days) in the week before baseline, week 1, 9, 17 and 25."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized placebo-controlled trial",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Doubleblind",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* biopsy-proven NASH obtained up to 32 weeks before screening: SAF Steatosis score \u22651, Activity \u22652, Fibrosis \\<4; 50% of participants should at least have NASH fibrosis stage 1, 2 or 3 according to the NASH CRN fibrosis staging system based on tandem reading of two expert liver pathologists\n* fluency in Dutch or English\n* participants should be able to understand the information and give informed consent\n\nExclusion Criteria:\n\n* Current or history of significant alcohol consumption for a period of more than 3 consecutive months within 1 year before screening (significant alcohol consumption is defined as more than 2 international units/day for females and more than 3 international units/day for males, on average; 1 international unit contains \u00b114 grams of alcohol)\n* liver cirrhosis or hepatocellular carcinoma\n* hepatitis B and/or C\n* auto-immune hepatitis\n* Wilson's disease\n* primary sclerosing cholangitis\n* primary biliary cholangitis\n* alpha-1-antitripsine deficiency and hemochromatosis\n* history of liver transplant, current placement on a liver transplant list\n* use of pre-, pro- or synbiotics\n* use of systemic antibiotics 3 month prior to randomization\n* use of tamoxifen, methotrexate or amiodarone\n* prior or planned bariatric surgery\n* active GLP-1 receptor agonist treated diabetes mellitus\n* bleeding disorder\n* International normalized ratio (INR) of prothrombin time \\>1.4 or platelet count \\<100 109/L at screening\n* anti-platelet/coagulant therapy use which cannot be temporarily discontinued\n* any major cardiovascular event within 6 months prior to screening (e.g. myocardial infarction, cerebrovascular accident)\n* prolonged compromised immunity (e.g. recent cytotoxic chemotherapy, HIV-infection with a CD4 count \\< 240)\n* active or prior history of invasive malignancy (except for curatively treated in situ carcinomas \\[e.g., cervix\\] or non-melanoma skin cancer) unless a complete remission was achieved\n* surgery scheduled for the trial duration period, except for minor surgical procedures, in the opinion of the investigator\n* pregnant or nursing women\n* any condition which, in the investigator's opinion, might jeopardize participants' safety or compliance with the protocol\n* participation in another concomitant clinical trial.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "SYNCH",
+      "briefTitle": "Synbiotics and Fecal Microbiota Transplantation to Treat Non-Alcoholic Steatohepatitis",
+      "nctId": "NCT05821010",
+      "officialTitle": "Synbiotics and Fecal Microbiota Transplantation to Treat Non-Alcoholic Steatohepatitis",
+      "orgStudyIdInfo": {
+        "id": "NL81001.018.22"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Alteration of liver histology in subjects with NASH and fibrosis stage 0-3, with an alteration defined as change of steatohepatitis by \u22651 SAF-A point, or a change in \u2265 1 stage liver fibrosis.",
+          "measure": "Liver histology",
+          "timeFrame": "baseline and after 24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "MRI-PDFF, MR elastography, corrected T1",
+          "measure": "MRI",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "CAP and LSM",
+          "measure": "Fibroscan",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "alanine amino transferase (ALT), aspartate amino transferase (AST), gamma glutamyl transferase (GGT), alkaline phosphatase (ALP))",
+          "measure": "Liver enzymes (blood)",
+          "timeFrame": "baseline and after 24 weeks; 8 and 16 weeks for safety."
+        },
+        {
+          "description": "leukocytes, monocytes, CRP, Il-1(\u03b2), Il-6, Il-11, Il-17, Il-32, TNF-\u03b1, IFN-\u03b3, other inflammatory markers),",
+          "measure": "Immunological data",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "plasma lipids (LDL, HDL, triglycerides, total cholesterol),",
+          "measure": "Plasma lipids",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "short chain fatty acids (i.e. propionate, butyrate, acetate), lactate, ethanol,",
+          "measure": "Gut metabolites (in blood)",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "Continuous glucose monitoring (4x 7 consecutive days), HOMA-IR",
+          "measure": "Glycemic control",
+          "timeFrame": "5 weeks during study period"
+        },
+        {
+          "description": "albumin, kreatinine, hemoglobin (blood)",
+          "measure": "albumin, kreatinine, hemoglobin (blood)",
+          "timeFrame": "baseline, 8, 16 and 24 weeks"
+        },
+        {
+          "description": "FGF-21, adiponectin, leptin, lipopolysaccharides, estrogen, vitamin B12, folate acid, zonulin, and other metabolomic and lipidomic outcomes.",
+          "measure": "NAFLD NASH related endocrinological and metabolic outcome parameters",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "description": "microbiome read outs (composition, engraftment, strain tracking) and metabolites, fecal SCFA-composition, and fecal albumine.",
+          "measure": "Microbiome readouts",
+          "timeFrame": "baseline and after 24 weeks, and 5 times in between."
+        },
+        {
+          "description": "Body weight measured without shoes, in kilograms",
+          "measure": "Body weight",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "Height measured without shoes, in cm",
+          "measure": "Height",
+          "timeFrame": "baseline"
+        },
+        {
+          "description": "Body mass index, calculated from height and weight kg/m\\^2 (kg per meters squared)",
+          "measure": "BMI",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "Measured just cranial of the spina iliaca anterior superior, in cm",
+          "measure": "Waist circumference",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "Measured with a biometric device, as a percentage.",
+          "measure": "Percentage body fat",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "Sex, age, ethnicity, height, weight, comorbidities (e.g. diabetes), smoking, alcohol intake, medication use, polypharmacy (defined as chronic use of \u2265 5 different medications)",
+          "measure": "Demographics and (medical) history",
+          "timeFrame": "baseline and 24 weeks"
+        },
+        {
+          "description": "quality of life with NAFLD/NASH-specific (CDLQ-NAFLD)) questionnaire.",
+          "measure": "Quality of life with CDLQ-NASH",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "quality of life (general (SF36) questionnaire.",
+          "measure": "Quality of life with SF36 questionnaire.",
+          "timeFrame": "baseline and after 24 weeks"
+        },
+        {
+          "description": "5x 10 days, daily caloric intake, daily fat and sugar consumption",
+          "measure": "Food diary",
+          "timeFrame": "around the visits 0, 8, 16, 24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Augustijn QJJ, Grefhorst A, de Groen P, Wortelboer K, Seegers JFM, Gul IS, Suenaert P, Verheij J, de Vos WM, Herrema H, Nieuwdorp M, Holleboom AG. Randomised double-blind placebo-controlled trial protocol to evaluate the therapeutic efficacy of lyophilised faecal microbiota capsules amended with next-generation beneficial bacteria in individuals with metabolic dysfunction-associated steatohepatitis. BMJ Open. 2025 Jan 9;15(1):e088290. doi: 10.1136/bmjopen-2024-088290.",
+          "pmid": "39788762",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+        "investigatorFullName": "Onno Holleboom, MD, PhD",
+        "investigatorTitle": "Principal Investigator",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-20",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-26",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-20",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-03-17",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-08",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-03-08",
+      "studyFirstSubmitQcDate": "2023-04-06"
+    }
+  }
+}

@@ -2109,6 +2109,30 @@ The next likely step is:
 - add a small admin UI for job creation and status, or
 - use the queue to expand the corpus substantially before more product features
 
+## 41. SimpleWorker For Local macOS Queue Stability
+
+### What we built
+
+We changed the local RQ worker entrypoint to use `SimpleWorker` instead of the default fork-based worker.
+
+### Why this matters
+
+On macOS, the default fork-based RQ work-horse can crash with Objective-C fork safety errors during ingestion jobs.
+
+Using `SimpleWorker` avoids that for local development by running jobs in-process instead of forking a child work-horse.
+
+### What I learned
+
+- queue infrastructure that works in principle can still fail because of operating-system runtime behavior
+- local development sometimes needs a safer worker mode than the production-default process model
+
+### What comes next
+
+The next step is:
+
+- restart the worker with `SimpleWorker`
+- requeue the failed job
+
 ## 40. Architecture Diagram Refresh
 
 ### What we built
@@ -2141,3 +2165,28 @@ The next diagram update should likely happen when:
 
 - compare view is added, or
 - an ingestion admin UI is added
+
+## 42. Multi-Status Fetch Filters Needed Advanced Syntax
+
+### What we built
+
+We fixed the ClinicalTrials.gov fetch builder for queued ingestion jobs so multiple overall statuses are encoded through `filter.advanced` instead of repeated `filter.overallStatus` query parameters.
+
+### Why this matters
+
+Single-status fetches were working, but the queued corpus-expansion jobs exposed a broader API edge case:
+
+- repeated `filter.overallStatus` parameters caused HTTP 400 responses
+
+Encoding status filters as one advanced clause is more reliable for multi-value requests.
+
+### What I learned
+
+- queueing a broader workflow surfaces API-shape bugs that may not appear in small manual tests
+- ClinicalTrials.gov filtering is safest when multi-value scope rules are expressed through `filter.advanced`
+
+### What comes next
+
+The next step is:
+
+- requeue the failed diabetes job with the updated fetch builder

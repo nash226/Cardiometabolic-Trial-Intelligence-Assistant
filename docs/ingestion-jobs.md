@@ -60,6 +60,8 @@ In a separate terminal with the venv activated:
 python3 -m apps.api.app.worker
 ```
 
+For local macOS development, this worker uses `SimpleWorker` instead of the default fork-based worker. That avoids the Objective-C fork safety crash that can happen with Python jobs calling networked libraries.
+
 ## Create a job
 
 ```bash

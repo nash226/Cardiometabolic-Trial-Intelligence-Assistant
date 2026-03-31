@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07392190:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07392190\nBrief title: A Study of Eloralintide (LY3841136) in Participants With Persistent Obesity Who Are Treated With a Weekly Incretin\nOfficial title: A Phase 3 Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Once Weekly Eloralintide in Adult Participants With Persistent Obesity or Overweight Treated With a Weekly Incretin, With and Without Type 2 Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 68,
+      "trial_nct_id": "NCT07392190"
+    },
+    {
+      "chunk_id": "NCT07392190:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Overweight; Obesity\nIntervention labels: Eloralintide; Placebo\nDrug class labels: \nArms: Eloralintide Dose 1; Eloralintide Dose 2; Eloralintide Dose 3; Eloralintide Dose 4; Placebo\nKeywords: Amylin receptor agonist",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07392190"
+    },
+    {
+      "chunk_id": "NCT07392190:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The main purpose of this study is to evaluate the efficacy and safety of eloralintide compared with placebo in participants with persistent obesity or overweight, with or without type 2 diabetes, and on stable incretin background therapy.\n\nParticipation in the study will last about 80 weeks.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT07392190"
+    },
+    {
+      "chunk_id": "NCT07392190:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Are on stable incretin therapy at screening\n* With persistent obesity or overweight defined as:\n\n  * \u226530 kg/m2 OR\n  * \u226527 kg/m2 with at least one existing obesity related complication at screening:\n\n    * hypertension\n    * dyslipidemia\n    * obstructive sleep apnea\n    * cardiovascular disease (for example, ischemic cardiovascular disease, New York Heart Association Functional Class I-III heart failure), or\n    * type 2 diabetes\n* Have a stable body weight (\\<5% body weight change) at screening\n\nExclusion Criteria:\n\n* Have a prior or planned surgical treatment for obesity (liposuction, cryolipolysis, or abdominoplasty allowed if performed \\>1 year before screening)\n* Have a prior or planned endoscopic procedure and/or device-based therapy for obesity (prior device-based therapy acceptable if device removal was more than 6 months prior to screening)\n* Have type 1 diabetes\n* Have taken any of the following antihyperglycemic medications within 90 days before screening:\n\n  * dipeptidyl peptidase-4 (DPP-4) inhibitors\n  * amylin analogs\n  * insulin\n* Have had within 90 days prior to screening:\n\n  * heart attack\n  * stroke\n  * coronary artery revascularization\n  * unstable angina, or\n  * hospitalization due to congestive heart failure\n* Have a history or diagnosis of New York Heart Association Functional Classification Class IV congestive heart failure",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 221,
+      "trial_nct_id": "NCT07392190"
+    },
+    {
+      "chunk_id": "NCT07392190:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change from Baseline in Body Weight | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in Waist Circumference | time_frame=Baseline, Week 64\ntype=secondary | measure=Percent Change in Baseline in Triglycerides | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in Systolic Blood Pressure | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in Body Mass Index (BMI) | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in Fasting Glucose in Participants with Type 2 Diabetes at Baseline | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in Short Form-36 (SF-36 v2) Score | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in EQ-5D-5L Score | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in Control of Eating Questionnaire (CoEQ) Score | time_frame=Baseline, Week 64\ntype=secondary | measure=Achievement of Improved Categorical Shift in Patient Global Impression of Severity (PGIS) Physical Function Weight | time_frame=Baseline, Week 64\ntype=secondary | measure=Percent Change from Baseline in Fasting Insulin | time_frame=Baseline, Week 64\ntype=secondary | measure=Percent Change from Baseline in High Sensitivity C-Reactive Protein (hsCRP) | time_frame=Baseline, Week 64\ntype=secondary | measure=Change from Baseline in Estimated Glomerular Filtration Rate (eGFR) | time_frame=Baseline, Week 64\ntype=secondary | measure=Change in Medication Use | time_frame=Baseline through Week 64\ntype=secondary | measure=Pharmacokinetics (PK): Maximum Concentration at Steady State (Cmax,ss) | time_frame=Baseline through Week 64\ntype=secondary | measure=PK: Area Under the Concentration Versus Time Curve for One Dosing Interval at Steady State (AUC(0-\u1d1b)ss) | time_frame=Baseline through Week 64",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 241,
+      "trial_nct_id": "NCT07392190"
+    },
+    {
+      "chunk_id": "NCT07392190:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-02-10\nPrimary completion date: 2028-06\nCompletion date: 2028-07\nStudy first posted: 2026-02-06\nResults first posted: None\nLast update posted: 2026-03-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07392190"
+    },
+    {
+      "chunk_id": "NCT07392190:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eli Lilly and Company\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07392190"
+    }
+  ],
+  "trial_nct_id": "NCT07392190"
+}

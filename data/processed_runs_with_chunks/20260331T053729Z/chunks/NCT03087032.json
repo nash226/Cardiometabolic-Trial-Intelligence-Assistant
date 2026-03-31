@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT03087032:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT03087032\nBrief title: Liraglutide-bolus vs Glargine-bolus Therapy in Overweight/Obese Type 2 Diabetes Patients (LiraGooD)\nOfficial title: Efficacy and Safety of Liraglutide-bolus (Liraglutide Plus Prandial Insulin) Versus Glargine-bolus Therapy in Overweight / Obese Patients With Uncontrolled Type 2 Diabetes (LiraGooD)--A Multicenter Randomized Controlled Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT03087032"
+    },
+    {
+      "chunk_id": "NCT03087032:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes; obesity\nRaw conditions: Type 2 Diabetes Patients; Overweight and Obesity; Hyperglycaemia (Diabetic)\nIntervention labels: Liraglutide; insulin glargine\nDrug class labels: glp1_receptor_agonist\nArms: Liraglutide-bolus; Basal-bolus\nKeywords: Liraglutide; Insulin Glargine; Prandial Insulin",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT03087032"
+    },
+    {
+      "chunk_id": "NCT03087032:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The present 24-week, prospective, open-label, randomized, multicenter, parallel group trial is carried to investigate and evaluate the efficacy and safety of Liraglutide in combination with prandial insulin therapy vs insulin glargine in combination with prandial insulin therapy in overweight / obese patients with uncontrolled type 2 diabetes.\nDetailed description: An increasing number of patients with type 2 diabetes are treated with insulin. Patients with diabetes receiving intensive insulin therapy with various combinations of basal and prandial insulin can be caught in a vicious but common cycle, whereby insulin requirements increase over time, and this in turn contributes to weight gain and hypoglycemia and further increases in insulin dosing. At this stage, clinicians observe a practical limit to the efficacy of insulin titration alone on glucose-lowering and often add or continue metformin to reduce insulin resistance. Injectable glucagon-like peptide-1 receptor agonists (GLP-1 RAs), such as liraglutide, are a relatively new addition to our treatment armamentarium. These drugs improve glucose control and insulin sensitivity and contribute to weight loss. Treatment with basal insulin plus GLP-1RAs is well-established in diabetes guidelines and may be as effective as adding prandial insulin therapy. When GLP-1 RAs are started, a preemptive reduction in insulin dosage by 25% to 30% in patients with HbA1c \\< 9% may reduce the risk for hypoglycemia. In overweight/obese patients with uncontrolled type 2 diabetes treated with more than three oral antidiabetic drugs (OADs) or high doses of premix insulin, Is basal-prandial insulin therapy the option treatment algorithm? Such an intensification strategy carries risk of increased hypoglycaemia and weight gain, both of which are associated with worse long-term outcomes. There have no randomized, controlled trials to evaluate the efficacy and safety of GLP-1 RAs vs insulin glargine added to prandial insulin in overweight/obese patients with uncontrolled type 2 diabetes. So, the current 24-week, prospective, open-label, randomized, multicenter, parallel group trial will be preformed to assess whether Liraglutide plus prandial insulin therapy was superior to glargine plus prandial insulin therapy in overweight/obese patients with uncontrolled type 2 diabetes.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 337,
+      "trial_nct_id": "NCT03087032"
+    },
+    {
+      "chunk_id": "NCT03087032:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age: 18 - 75 years old.\n* BMI must be greater than 24 and less than 45 kg/m2\n* Patients with type 2 diabetes who met the World Health Organization (who) diagnostic criteria (1999).\n* Newly diagnosed type 2 diabetic patients with HbA1c \u2265 9.0%\uff1bor patients with uncontrolled type 2 diabetes (HbA1c \u2265 7.5% ) who have received at least two types of oral hypoglycemic drugs (the dose of each drug needs to reach the second largest dose or more), or only insulin (excluding basal-bolus insulin therapy), or insulin with oral hypoglycemic drugs.\n* Signed informed consent.\n\nExclusion Criteria:\n\n* History of pancreatic disease,\n* History of medullary thyroid carcinoma\n* Lipase level \\> 3 times above normal,\n* Creatinine clearance \u2264 30 mL/min/1.73m2,\n* Evidence in the last 6 months of significant heart disease or stroke, including myocardial infarction, unstable angina, coronary bypass and/or percutaneous transluminal coronary angioplasty, congestive heart failure (New York Heart Association Functional Classification III-IV), or severe ischemic heart disease.\n* Preparation for pregnancy or having been in pregnancy\n* Researchers believe that there are any factors that affect assessing subjects' participation in trial.\n* Patients unable to cooperate in clinical trials",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 217,
+      "trial_nct_id": "NCT03087032"
+    },
+    {
+      "chunk_id": "NCT03087032:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=the proportion of patients with HbA1c < 7.0% without experiencing hypoglycemia and without weight gain,with a superiority margin of 3% | time_frame=24 weeks | description=the net difference in the proportion of patients with HbA1c \\< 7.0% without experiencing hypoglycemia and without weight gain is more than 3%\ntype=secondary | measure=the proportion of patients with hypoglycemia | time_frame=24 weeks | description=the proportion of patients with hypoglycemia\ntype=secondary | measure=changes in HbA1c | time_frame=24 weeks | description=changes in HbA1c\ntype=secondary | measure=changes from baseline in FPG(mmol/L) | time_frame=24 weeks | description=changes from baseline in FPG(mmol/L)\ntype=secondary | measure=changes in body weight ( kilograms) | time_frame=24 weeks | description=changes in body weight( kilograms)\ntype=secondary | measure=changes in prandial insulin dosage \uff08per kilogram\uff09 | time_frame=24 weeks | description=changes in prandial insulin dosage \uff08per kilogram\uff09\ntype=secondary | measure=changes in visceral as assessed by dual x-ray absorptiometry (DXA) | time_frame=24 weeks | description=changes in visceral as assessed by dual x-ray absorptiometry (DXA)\ntype=secondary | measure=number of participants with abnormal laboratory values and/or adverse events that are related to treatment | time_frame=24 weeks | description=number of participants with abnormal laboratory values and/or adverse events\ntype=secondary | measure=changes in serum c-peptide level | time_frame=24 weeks | description=changes in serum c-peptide level\ntype=secondary | measure=changes in systolic pressure | time_frame=24 weeks | description=changes in systolic pressure\ntype=secondary | measure=changes in diastolic pressure | time_frame=24 weeks | description=changes in diastolic pressure\ntype=secondary | measure=changes in serum lipid profile | time_frame=24 weeks | description=changes in serum lipid profile",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 249,
+      "trial_nct_id": "NCT03087032"
+    },
+    {
+      "chunk_id": "NCT03087032:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2019-01-10\nPrimary completion date: 2025-01-15\nCompletion date: 2025-02-10\nStudy first posted: 2017-03-22\nResults first posted: None\nLast update posted: 2025-01-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT03087032"
+    },
+    {
+      "chunk_id": "NCT03087032:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The First Affiliated Hospital of Xiamen University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT03087032"
+    }
+  ],
+  "trial_nct_id": "NCT03087032"
+}

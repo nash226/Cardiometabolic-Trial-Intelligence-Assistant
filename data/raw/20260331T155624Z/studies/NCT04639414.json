@@ -1,0 +1,589 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        },
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Combined treatment with Empagliflozin, film-coated tablet, 10mg once daily and Semaglutide, colourless solution in pre-filled pen, 1mg once weekly",
+          "interventionNames": [
+            "Drug: Empagliflozin 10mg oral tablet / Semaglutide 1mg pen injector"
+          ],
+          "label": "Combined treatment with Empagliflozin and Semaglutide",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Empagliflozin, film-coated tablet, 10mg once daily and Placebo matching Semaglutide (colourless solution in pre-filled pen, once weekly)",
+          "interventionNames": [
+            "Drug: Empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide"
+          ],
+          "label": "Empagliflozin monotherapy",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo matching Empagliflozin (film-coated tablet, once daily) and Placebo matching Semaglutide (colourless solution in pre-filled pen, once weekly)",
+          "interventionNames": [
+            "Drug: Placebo matching empagliflozin and placebo pen injector matching semaglutide"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Combined treatment with Empagliflozin and Semaglutide"
+          ],
+          "description": "Measurement of the effect of the combined treatment with semaglutide 1mg/week and empagliflozin 10 mg/d compared to matching placebo after 48-week treatment.",
+          "name": "Empagliflozin 10mg oral tablet / Semaglutide 1mg pen injector",
+          "otherNames": [
+            "Jardiance(R), Ozempic(R)"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Empagliflozin monotherapy"
+          ],
+          "description": "Measurement of the effect of empagliflozin monotherapy 10mg/d compared to matching placebo after 48-week treatment.",
+          "name": "Empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide",
+          "otherNames": [
+            "Jardiance(R)"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Measurement of the effect of the combined treatment with semaglutide 1mg/week and empagliflozin 10 mg/d OR empagliflozin monotherapy 10mg/d compared to matching placebo after 48-week treatment.",
+          "name": "Placebo matching empagliflozin and placebo pen injector matching semaglutide",
+          "otherNames": [
+            "Control / Placebo"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes",
+        "Non-alcoholic Steatohepatitis (NASH)",
+        "Non-alcoholic Fatty Liver Disease (NAFLD)"
+      ],
+      "keywords": [
+        "Type 2 Diabetes",
+        "Non-alcoholic Steatohepatitis (NASH)",
+        "Non-alcoholic Fatty Liver Disease (NAFLD)",
+        "Fatty liver",
+        "Diabetes mellitus",
+        "Empagliflozin",
+        "Semaglutide"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Graz",
+          "country": "Austria",
+          "facility": "Medizinische Universit\u00e4t Graz",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          },
+          "zip": "8010"
+        },
+        {
+          "city": "Innsbruck",
+          "country": "Austria",
+          "facility": "Medizinische Universit\u00e4t Innsbruck",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "city": "Vienna",
+          "country": "Austria",
+          "facility": "Wiener Gesundheitsverbund, Klinik Landstra\u00dfe",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          },
+          "zip": "1030"
+        },
+        {
+          "city": "Vienna",
+          "country": "Austria",
+          "facility": "Medizinische Universit\u00e4t Wien",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "city": "Vienna",
+          "country": "Austria",
+          "facility": "Wiener Gesundheitsverbund, Klinik Hietzing",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "city": "D\u00fcsseldorf",
+          "country": "Germany",
+          "facility": "German Diabetes Center",
+          "geoPoint": {
+            "lat": 51.22172,
+            "lon": 6.77616
+          },
+          "state": "North Rhine-Westphalia",
+          "zip": "40225"
+        },
+        {
+          "city": "Bad Oeynhausen",
+          "country": "Germany",
+          "facility": "Herz- und Diabeteszentrum NRW",
+          "geoPoint": {
+            "lat": 52.20699,
+            "lon": 8.80365
+          },
+          "zip": "32545"
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "Franziskus-Krankenhaus Berlin",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          },
+          "zip": "10787"
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "Leber- und Studienzentrum Checkpoint",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          },
+          "zip": "10961"
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "University Clinics Berlin Charit\u00e9",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          },
+          "zip": "12200"
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "University Clinics Berlin Charit\u00e9",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          },
+          "zip": "13353"
+        },
+        {
+          "city": "Bochum",
+          "country": "Germany",
+          "facility": "University Clinics Bochum",
+          "geoPoint": {
+            "lat": 51.48165,
+            "lon": 7.21648
+          },
+          "zip": "44892"
+        },
+        {
+          "city": "Brandenburg",
+          "country": "Germany",
+          "facility": "St\u00e4dtisches Klinikum Brandenburg GmbH",
+          "geoPoint": {
+            "lat": 52.41667,
+            "lon": 12.55
+          },
+          "zip": "14770"
+        },
+        {
+          "city": "Braunschweig",
+          "country": "Germany",
+          "facility": "St\u00e4dtisches Klinikum Braunschweig gGmbH",
+          "geoPoint": {
+            "lat": 52.26594,
+            "lon": 10.52673
+          },
+          "zip": "38126"
+        },
+        {
+          "city": "Dresden",
+          "country": "Germany",
+          "facility": "University Clinics Carl Gustav Carus Dresden",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          },
+          "zip": "01307"
+        },
+        {
+          "city": "D\u00fcsseldorf",
+          "country": "Germany",
+          "facility": "Universit\u00e4tsklinikum D\u00fcsseldorf",
+          "geoPoint": {
+            "lat": 51.22172,
+            "lon": 6.77616
+          },
+          "zip": "40225"
+        },
+        {
+          "city": "Essen",
+          "country": "Germany",
+          "facility": "University Clinics Essen",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          },
+          "zip": "45147"
+        },
+        {
+          "city": "Frankfurt",
+          "country": "Germany",
+          "facility": "University Clinics Frankfurt",
+          "geoPoint": {
+            "lat": 49.68333,
+            "lon": 10.53333
+          },
+          "zip": "60590"
+        },
+        {
+          "city": "Freiburg im Breisgau",
+          "country": "Germany",
+          "facility": "University Clinics Freiburg",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          },
+          "zip": "79106"
+        },
+        {
+          "city": "Heidelberg",
+          "country": "Germany",
+          "facility": "University Clinics Heidelberg",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          },
+          "zip": "69120"
+        },
+        {
+          "city": "Leipzig",
+          "country": "Germany",
+          "facility": "Eugastro GmbH",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          },
+          "zip": "04103"
+        },
+        {
+          "city": "Mainz",
+          "country": "Germany",
+          "facility": "University Clinics Johannes-Gutenberg Mainz",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          },
+          "zip": "55131"
+        },
+        {
+          "city": "M\u00fcnchen",
+          "country": "Germany",
+          "facility": "TUM",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          },
+          "zip": "81675"
+        },
+        {
+          "city": "T\u00fcbingen",
+          "country": "Germany",
+          "facility": "University Clinics T\u00fcbingen",
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          },
+          "zip": "72076"
+        },
+        {
+          "city": "Ulm",
+          "country": "Germany",
+          "facility": "Universit\u00e4tsklinikum Ulm",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          },
+          "zip": "89081"
+        },
+        {
+          "city": "W\u00fcrzburg",
+          "country": "Germany",
+          "facility": "University Clinics W\u00fcrzburg",
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          },
+          "zip": "97080"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "German Diabetes Center",
+          "name": "Michael Roden, Prof., MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this multicentre, prospective, placebo-controlled, double-blind, randomized, 3-arm parallel group, interventional study is to assess for the first time the effects of either a combined therapy with the antihyperglycemic drugs semaglutide and empagliflozin or empagliflozin monotherapy compared to placebo as potential treatments for non-alcoholic steatohepatitis (NASH) in patients with type 2 diabetes.",
+      "detailedDescription": "Obesity and type 2 diabetes (T2D) are tightly associated with non-alcoholic fatty liver disease (NAFLD), which in turn predicts the development of T2D and cardiovascular disease.\n\nUp to 80% of NAFLD patients with T2D have NASH and the presence of T2D is an independent risk factor for more-advanced fibrosis, higher rate of fibrosis progression, and increased mortality. Liver-related mortality is increased 10-fold in NASH patients compared with the general population. In addition, people with NASH are at an excessive risk of cardiovascular morbidity and mortality.\n\nCurrently, there are no established pharmacotherapies for NASH patients with T2D.\n\nThe aim of this trial is to evaluate efficacy of a combined treatment with semaglutide 1 mg/week (GLP1RA) and empagliflozin 10 mg/d (SGLT2I) or ii) empagliflozin 10 mg/d monotherapy by means of histological resolution of NASH in T2D patients without progression of fibrosis after 48 weeks treatment.\n\nTo confirm a histological diagnosis of NASH and proof efficacy of treatment, a liver biopsy will be performed prior to screening as well as at the end of treatment phase."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "double-blind placebo-controlled",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 192,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of T2D and NASH with fibrosis stage F1-F3\n* Age between 25 and 75 years\n* HbA1c \u2264 9.5%\n* obtained written informed consent\n\nExclusion Criteria:\n\n* Contraindications on liver biopsy\n* Evidence of cirrhosis on liver biopsy\n* Liver disease of other etiology including chronic viral hepatitis (B or C), alcohol abuse, hemochromatosis, alpha-1 antitrypsin deficiency, autoimmune hepatitis, Wilson's disease, primary sclerosing cholangitis or primary biliary cirrhosis, or liver cirrhosis of any etiology\n* History of ketoacidosis\n* Alcohol consumption \\>30 g/d for males and \\>20 g/d for females\n* Past (\u22655 years) or current history of alcohol or drug abuse and/or psychiatric disease including severe depression necessitating pharmacological treatment\n* Medications that may induce steatosis:tamoxifen, raloxifene, oral glucocorticoids or chloroquine\n* Planned pregnancy, pregnant or lactating women, positive pregnancy test, and woman of childbearing potential not using two adequate methods of contraception, including a barrier method and a highly efficacious non-barrier method",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "25 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "COMBAT_T2_NASH",
+      "briefTitle": "Combined Active Treatment in Type 2 Diabetes with NASH",
+      "nctId": "NCT04639414",
+      "officialTitle": "Combined Active Treatment in Type 2 Diabetes with NASH",
+      "orgStudyIdInfo": {
+        "id": "Combat_T2_NASH_002"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "German Diabetes Center"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-001987-31",
+          "type": "EUDRACT_NUMBER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "NAFLD status will be assessed by histologic evaluation of liver biopsy samples based on NAFLD activity score. NASH resolution is defined by disappearance of ballooning (score 0), together with either disappearance of lobular inflammation or the persistence of mild lobular inflammation only (score 0 or 1) and resulting in an overall pathologic diagnosis of either steatosis alone or steatosis with mild inflammation; with no worsening of fibrosis. Worsening of fibrosis is defined by an increase of at least one stage of the Kleiner fibrosis classification.",
+          "measure": "Histological resolution of NASH without worsening of fibrosis",
+          "timeFrame": "from baseline to 48 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Sum of a) steatosis (0-3 points), b) lobular inflammation (scored 0-3 points), c) hepatocellular ballooning (scored 0-2 points) assessed by liver histology",
+          "measure": "Overall NAFLD activity score (NAS)",
+          "timeFrame": "from baseline to 48 weeks"
+        },
+        {
+          "description": "Assessed by liver histology according to the Kleiner Fibrosis Classification (stages 0-4)",
+          "measure": "Stage of fibrosis according to the Kleiner Fibrosis Classification",
+          "timeFrame": "from baseline to 48 weeks"
+        },
+        {
+          "description": "Sum of lobular inflammation (scored 0-3 points)and hepatocellular ballooning (scored 0-2 points) assessed by liver histology",
+          "measure": "Activity component of NASH according to the steatosis-activity-fibrosis (SAF) score",
+          "timeFrame": "from baseline to 48 weeks"
+        },
+        {
+          "description": "steatosis grade (0-3) assessed by liver histology",
+          "measure": "Hepatic steatosis grade",
+          "timeFrame": "from baseline to 48 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Boehringer Ingelheim"
+        },
+        {
+          "class": "OTHER",
+          "name": "German Center for Diabetes Research"
+        },
+        {
+          "class": "OTHER_GOV",
+          "name": "Federal Ministry of Health, Germany"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Ministry of Innovation, Science and Research in North Rhine-Westphalia"
+        },
+        {
+          "class": "INDUSTRY",
+          "name": "Novo Nordisk A/S"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "German Diabetes Center"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-08",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-03-26",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-10",
+      "studyFirstPostDateStruct": {
+        "date": "2020-11-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-04-05",
+      "studyFirstSubmitQcDate": "2020-11-17"
+    }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C588408",
+          "term": "resmetirom"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Resmetirom"
+          ],
+          "label": "Arm 1: Resmetirom 80 or 100 mg daily - Cohort 1",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: Resmetirom"
+          ],
+          "label": "Arm 2: Resmetirom 80 or 100 mg daily - Cohort 2",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Arm 3: Placebo - Cohort 1",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Arm 4: Placebo - Cohort 2",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Arm 1: Resmetirom 80 or 100 mg daily - Cohort 1",
+            "Arm 2: Resmetirom 80 or 100 mg daily - Cohort 2"
+          ],
+          "description": "Randomized 80 or 100 mg",
+          "name": "Resmetirom",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Arm 3: Placebo - Cohort 1",
+            "Arm 4: Placebo - Cohort 2"
+          ],
+          "description": "Placebo",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "MASH - Metabolic Dysfunction-Associated Steatohepatitis"
+      ],
+      "keywords": [
+        "Post-Liver Transplant",
+        "Cirrhosis",
+        "Metabolic dysfunction-associated steatohepatitis (MASH)",
+        "MASLD",
+        "MASH",
+        "Liver"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "La Jolla",
+          "country": "United States",
+          "facility": "University of California San Diego",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          },
+          "state": "California",
+          "zip": "92037"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "University of California Los Angeles Medical Center",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90095"
+        },
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "facility": "University of California, San Francisco",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          },
+          "state": "California",
+          "zip": "94143"
+        },
+        {
+          "city": "Aurora",
+          "country": "United States",
+          "facility": "University of Colorado",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          },
+          "state": "Colorado",
+          "zip": "80045"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "Northwestern University",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "zip": "60208"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "The University of Chicago Medicine",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "zip": "60637"
+        },
+        {
+          "city": "Rochester",
+          "country": "United States",
+          "facility": "Mayo Clinic",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          },
+          "state": "Minnesota",
+          "zip": "55905"
+        },
+        {
+          "city": "Manhasset",
+          "country": "United States",
+          "facility": "Northwell Health Inc, Center for Liver Disease and Transplantation",
+          "geoPoint": {
+            "lat": 40.79788,
+            "lon": -73.69957
+          },
+          "state": "New York",
+          "zip": "11030"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "facility": "New York Presbyterian Hospital",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "zip": "10065"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "facility": "Vanderbilt University Medical Center (VUMC)",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "zip": "37212"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "Dallas Methodist",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75203"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Houston Methodist Hospital",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "zip": "77030"
+        },
+        {
+          "city": "Murray",
+          "country": "United States",
+          "facility": "Intermountain Medical Center",
+          "geoPoint": {
+            "lat": 40.66689,
+            "lon": -111.88799
+          },
+          "state": "Utah",
+          "zip": "84107"
+        },
+        {
+          "city": "Charlottesville",
+          "country": "United States",
+          "facility": "University of Virginia Health System",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          },
+          "state": "Virginia",
+          "zip": "22903"
+        },
+        {
+          "city": "Toronto",
+          "country": "Canada",
+          "facility": "University Health Network - Toronto General Hospital (TGH)",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          },
+          "state": "Ontario",
+          "zip": "M5G 2C4"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Madrigal Pharmaceuticals, Inc.",
+          "name": "Tom Hare, MS",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A Phase 2 double-blind, randomized, placebo-controlled study to evaluate resmetirom in 2 cohorts of subjects with moderate to advanced fibrosis, consistent with stage F2 and F3 fibrosis, who have undergone liver transplant. Cohort 1 will consist of patients who have undergone liver transplant for MASH cirrhosis who developed recurrent MASH. Cohort 2 will consist of subjects who have undergone liver transplant for indications other than MASH cirrhosis who developed de novo MASH."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized matching placebo",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. At least 12 months post-liver transplant at screening and meeting one of the following:\n\n   * Cohort 1: Liver transplant for MASH cirrhosis with recurrent hepatic steatosis \u22658% by MRI-PDFF\n   * Cohort 2: Liver transplant for non-MASH etiology with de novo hepatic steatosis \u22658% by MRI-PDFF\n2. Presence of at least one metabolic risk factor, including overweight/obesity, dysglycemia or type 2 diabetes, hypertension or antihypertensive treatment, hypertriglyceridemia or low HDL cholesterol, or lipid-lowering therapy.\n3. MASH with moderate to advanced liver fibrosis (F2-F3), confirmed by noninvasive fibrosis assessment (FibroScan and/or MRE) and a liver biopsy consistent with Stage F2/F3 MASH and no evidence of other liver pathology or graft rejection.\n4. Stable renal function with estimated glomerular filtration rate (eGFR) \u226530 mL/min/1.73 m\u00b2 prior to and during screening.\n5. Stable liver enzymes at screening, without clinically significant worsening compared with recent historical values.\n6. Stable immunosuppressive regimen for at least 4 weeks prior to screening.\n7. Females of childbearing potential must have a negative pregnancy test, not be breastfeeding, and agree to use effective contraception during the study and for 30 days after the last dose; females not of childbearing potential are eligible.\n8. Sexually active males with partners of childbearing potential must agree to use effective contraception during the study and for 30 days after the last dose and not donate sperm during this period.\n\nExclusion Criteria:\n\n1. Participation in another interventional clinical trial with investigational drug exposure within 30 days (or 5 half-lives, whichever is longer) prior to screening.\n2. Phosphatidylethanol (PEth) value of \u226520 ng/mL measured at screening or clinically significant alcohol use within 1 year prior to screening.\n3. FibroScan VCTE \\>20 kPa, a baseline biopsy demonstrating fibrosis consistent with F4, or MRE \\> 5 kPa.\n4. Uncontrolled or clinically significant thyroid disease, including active hyperthyroidism or untreated hypothyroidism.\n5. Evidence of active liver disease other than MASH.\n6. History of liver transplantation for an inborn error of metabolism.\n7. Evidence of hepatic impairment or decompensation at screening.\n8. Steroid resistant rejection of the transplanted liver or kidney, or a history of a rejection treated with high dose steroid within 3 months of screening.\n9. Chronic rejection or chronic plasma-cell hepatitis.\n10. Significant post-transplant vascular or biliary complications.\n11. Significant cardiovascular or cerebrovascular disease within 6 months prior to randomization.\n12. Uncontrolled hypertension at screening or randomization.\n13. Current hepatocellular carcinoma.\n14. Known human immunodeficiency virus (HIV) infection or other clinically significant immunocompromised state.\n15. Any serious medical condition with a life expectancy of less than 5 years.\n16. Current substance abuse or drug addiction.\n17. Significant psychiatric, cognitive, or social conditions that would interfere with study participation or compliance, in the Investigator's judgment.\n18. Known hypersensitivity to study drug or any of its excipients.\n19. Use of prohibited concomitant medications that may affect liver function, steatosis, thyroid function, or study outcomes, or unstable doses of allowed metabolic therapies prior to randomization.\n20. Use of statins above protocol-allowed doses or unstable lipid-lowering therapy prior to randomization.\n21. Contraindications to MRI, including implanted devices incompatible with MRI, severe claustrophobia, or inability to undergo MRI procedures.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Study to Evaluate Resmetirom in Post-Liver Transplant Patients With MASH",
+      "nctId": "NCT07335601",
+      "officialTitle": "Phase 2, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate MGL-3196 (Resmetirom) in Patients With MASH Who Have Undergone Liver Transplant for MASH Cirrhosis or Other Etiologies",
+      "orgStudyIdInfo": {
+        "id": "MGL-3196-27"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Madrigal Pharmaceuticals, Inc."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "To determine the effect of MGL-3196/Resmetirom versus matching placebo on percent change from Baseline to Week 28 in hepatic fat fraction by magnetic resonance imaging proton density fat fraction (MRI-PDFF) in patients with baseline MRI-PDFF \u22658%.",
+          "measure": "Percent change from baseline in liver fat content (LFC) as assessed by MRI-PDFF at Week 28",
+          "timeFrame": "28 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To evaluate the safety and tolerability of once-daily, oral administration of MGL-3196/resmetirom versus matching placebo in patients who have undergone a liver transplant",
+          "timeFrame": "52 weeks"
+        },
+        {
+          "description": "Absolute change and percent change from Baseline to Week 28 and Week 52 on FibroScan VCTE",
+          "measure": "1.To determine the effect of MGL-3196/resmetirom versus matching placebo on liver stiffness as measured by FibroScan vibration controlled transient elastography (VCTE; kPa)",
+          "timeFrame": "28 and 52 Weeks"
+        },
+        {
+          "description": "Absolute and percent change from Baseline to Week 28 and Week 52 in LDL-C, lipoprotein A \\[Lp(a)\\] in patients with baseline Lp(a) \\>10 nmol/L and triglycerides (TGs) in patients with baseline TGs \\>150 mg/dL",
+          "measure": "2. To determine the effect of MGL-3196/resmetirom versus matching placebo on serum lipid parameters",
+          "timeFrame": "28 and 52 Weeks"
+        },
+        {
+          "description": "Absolute and percent change from baseline in serum alanine aminotransferase (ALT), aspartate aminotransferase (AST), alkaline phosphatase (ALP), and gamma glutamyl transferase (GGT), at Week 28 and Week 52",
+          "measure": "3. To determine the effect of MGL-3196/resmetirom versus matching placebo on liver biochemistries",
+          "timeFrame": "28 and 52 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Madrigal Pharmaceuticals, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-09",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-29",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-07",
+      "studyFirstSubmitQcDate": "2026-01-09"
+    }
+  }
+}

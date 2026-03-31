@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06939816:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06939816\nBrief title: Vonafexor in Patients With Impaired Renal Function and Suspected MASH (Metabolic Dysfunction-associated Steatohepatitis)\nOfficial title: A Study to Assess the Effect of Vonafexor on Kidney Function in Subjects With Impaired Renal Function and Suspected MASH\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 48,
+      "trial_nct_id": "NCT06939816"
+    },
+    {
+      "chunk_id": "NCT06939816:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: Chronic Kidney Disease Stage 2; Chronic Kidney Disease Stage 3; Metabolic Dysfunction-Associated Steatohepatitis\nIntervention labels: Vonafexor low dose; Vonafexor high dose\nDrug class labels: \nArms: Vonafexor low dose; Vonafexor high dose\nKeywords: CKD; Chronic Kidney Disease; MASH; Metabolic Dysfunction-Associated Steatohepatitis; Kidney function; eGFR; estimated Glomerular function rate; mGFR; measured Glomerular function rate",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 57,
+      "trial_nct_id": "NCT06939816"
+    },
+    {
+      "chunk_id": "NCT06939816:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is designed to establish the effect of 2 doses of vonafexor on the kidney. This will be investigated in subjects with mild or moderate reduced estimated glomerular filtration rate (eGFR) and suspected MASH. In addition, the non-invasive multiparametric magnetic resonance imaging assessment of functional and structural changes in the kidney and in the liver will be investigated.\nDetailed description: This is a phase 2, open-label, two-dose, randomized, parallel arms, single center study where subjects are participating for up to 32 weeks:\n\n* Screening: 4 weeks\n* Treatment: 16 weeks\n* Follow-up: 12 weeks",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 97,
+      "trial_nct_id": "NCT06939816"
+    },
+    {
+      "chunk_id": "NCT06939816:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Signed and dated informed consent obtained before any trial-related activities\n* Male or female subject.\n* Age between 18 and 75 years, both inclusive.\n* Overweight or obesity (body mass index BMI \u2265 25.0 kg/m2 and \u2264 45.0 kg/m2) with or without type 2 diabetes mellitus (T2DM with an HbA1c \u2264 9.5%).\n* eGFR \u2265 30 and \\< 90 (mL/min/1.73 m\u00b2).\n* Presumed mild to higher liver fibrosis as shown by a FIBROTEST score \u2265 0.28 and/or FIB-4 score \u2265 1.3.\n\nExclusion Criteria:\n\n* Known or suspected hypersensitivity to IMP or any of the excipients or to any component of the IMP formulation.\n* Previous participation in this trial. Participation is defined as randomised.\n* Receipt of any medicinal product in clinical development within 30 days or at least 5 half-lives of the related substances and their metabolites (whichever is longer) before randomisation in this trial.\n* History of multiple and/or severe allergies to drugs including contrast media or foods or a history of severe anaphylactic reaction.\n* Known non-MASH liver disease.\n* History or presence of cirrhosis (evidenced on imaging or by histology, or liver decompensation, including ascites, hepatic encephalopathy, or presence of esophageal varices).\n* Total body weight loss of \\>5% within 6 months prior to screening.\n* If female, pregnancy or breast-feeding.\n* Women of childbearing potential who are not using a highly effective contraceptive method and whose male partner is not using a highly effective contraceptive method for the entire study duration and for at least 6 weeks after last dosing",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 276,
+      "trial_nct_id": "NCT06939816"
+    },
+    {
+      "chunk_id": "NCT06939816:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change from baseline of mGFRiohexol at week 16 | time_frame=16 weeks\ntype=primary | measure=Change from baseline of eGFRcreatinine at week 16 | time_frame=16 weeks\ntype=secondary | measure=Vonafexor plasma concentrations | time_frame=16 weeks | description=Plasma concentrations pre-dose and post-dose which will be modelled against the MASH PopPK expected values\ntype=secondary | measure=Change from baseline mGFRiohexol off treatment at week 24 | time_frame=24 weeks\ntype=secondary | measure=Change from baseline of eGFRcreatinine on treatment at weeks 4, 8, 12 and off treatment at weeks 20, 24 and 28 | time_frame=28 weeks\ntype=secondary | measure=Correlation of mGFRiohexol with eGFRcreatinine at baseline, on treatment at week 16 and off treatment at week 24 | time_frame=24 weeks\ntype=secondary | measure=Levels and change in proteinuria in morning urine samples at baseline, on treatment at weeks 4, 8, 12, 16 with off treatment at weeks 20, 24 and 28 | time_frame=28 weeks\ntype=secondary | measure=Treatment-emergent adverse events and serious adverse events | time_frame=28 weeks\ntype=other | measure=MRI kidney biomarkers time course from baseline, to on treatment at week 16 and to off treatment at week 24 | time_frame=24 weeks\ntype=other | measure=MRI liver biomarkers time course from baseline, to on treatment at week 16 and to off treatment at week 24 | time_frame=24 weeks\ntype=other | measure=Liver biomarker FIB-4 changes from baseline at on treatment week 8, 16 and off treatment at week 24 | time_frame=24 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 231,
+      "trial_nct_id": "NCT06939816"
+    },
+    {
+      "chunk_id": "NCT06939816:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-07-01\nPrimary completion date: 2026-04-01\nCompletion date: 2026-11-01\nStudy first posted: 2025-04-23\nResults first posted: None\nLast update posted: 2025-07-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06939816"
+    },
+    {
+      "chunk_id": "NCT06939816:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Enyo Pharma\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06939816"
+    }
+  ],
+  "trial_nct_id": "NCT06939816"
+}

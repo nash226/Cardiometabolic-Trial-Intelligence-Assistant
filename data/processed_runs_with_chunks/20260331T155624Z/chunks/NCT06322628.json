@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06322628:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06322628\nBrief title: A Phase 2 Clinical Trial to Evaluate the Efficacy and Safety of VSA006 in Chinese NASH Patients\nOfficial title: A Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase II Clinical Trial to Evaluate the Efficacy and Safety of VSA006 Injection in Chinese Adult Patients With Nonalcoholic Steatohepatitis (NASH)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 58,
+      "trial_nct_id": "NCT06322628"
+    },
+    {
+      "chunk_id": "NCT06322628:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: Nash\nIntervention labels: VSA006; Placebo\nDrug class labels: \nArms: VSA006 low dose; VSA006 low dose comparator; VSA006 high dose; VSA006 high dose comparator\nKeywords: efficacy; safety; HSD17\u03b213",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT06322628"
+    },
+    {
+      "chunk_id": "NCT06322628:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Human genetic studies have shown that loss of function (LOF) mutations in HSD17\u03b213 gene have a protective effect on the progression of alcohol-related and non-alcohol-related liver diseases, such as NASH, without significant adverse phenotypes.\n\nVSA006 is a siRNA drug targeting HSD17\u03b213 mRNA in the liver and reduce the protein level of HSD17\u03b213. Based on phase 1 study results in healthy volunteers and NASH/suspected NASH patients, this phase 2 study is designed to evaluate the efficacy, safety, PK profiles and immunogenicity of VSA006 in Chinese NASH patients.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT06322628"
+    },
+    {
+      "chunk_id": "NCT06322628:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* body mass index (BMI) of 24-35 kg/m2 ;\n* NASH patients confirmed by liver histopathology: NAS score is \u2265 4 and CRN fibrosis is F2 or F3 ;\n* At screening, ALT is \\> ULN;\n* At screening, the liver fat content measured by MRI-PDFF is \u2265 8%;\n* Weight change \\< 5% at least 3 months prior to screening;\n* For patient with T2DM, the hypoglycemic agents and HbA1c is stable\n\nExclusion Criteria:\n\n* Pregnant or lactating women;\n* Previous diagnosis of alcoholic liver disease or hepatitis/liver disease due to other causes;\n* Previous or current diagnosis of cirrhosis or decompensated cirrhosis;\n* Previous or current diagnosis of hyperthyroidism, hypothyroidism, or other diseases that can lead to fatty degeneration of liver;\n* Participants diagnosed with type 1 diabetes, or with unstable type 2 diabetes\n* Participants who cannot receive an MRI examination;",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 164,
+      "trial_nct_id": "NCT06322628"
+    },
+    {
+      "chunk_id": "NCT06322628:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage of Participants Achieving \u2265 1 Stage Improvement in Histological Fibrosis with no Worsening of NASH | time_frame=At week 52 | description=No Worsening of NASH is defined as no increase in inflammation, ballooning, or steatosis scores in the NAS score.\ntype=primary | measure=Percentage of Participants Achieving NASH Improvement with no Worsening of Fibrosis | time_frame=At week 52 | description=NASH Improvement indicates a reduction by at least 2 points in the NAS score, with at least one-point reduction in ballooning without increase in steatosis score.\ntype=secondary | measure=Compared with placebo, the percentage change in serum alanine aminotransferase (ALT) | time_frame=At week 24, week 52 and week 82\ntype=secondary | measure=Compared with placebo, the change in liver fat fraction from baseline and liver fat percentage change from baseline | time_frame=At week 24 and week 52 | description=measured by magnetic resonance imaging-proton density fat fraction (MRI-PDFF)\ntype=secondary | measure=Compared with placebo, the percentage of participants with a > 30% decrease in liver fat fraction from baseline | time_frame=At week 24 and week 52 | description=measured by magnetic resonance imaging-proton density fat fraction (MRI-PDFF)\ntype=secondary | measure=Compared with placebo, the change and percentage change in noninvasive markers of fibrosis from baseline: FIB-4, NAFLD fibrosis score, and AST/PLT ratio index (APRI) | time_frame=At week 24, week 52 and week 82\ntype=secondary | measure=Percentage of Participants Achieving NASH Resolution with no Worsening of Fibrosis | time_frame=At week 52 | description=NASH resolution was defined as a NAS score of 0-1 for inflammation, 0 for ballooning, and no increase in steatosis score\ntype=secondary | measure=Incidence and severity of adverse events (AEs) and serious adverse events (SAEs), and their correlation with VSA006 | time_frame=Up to week 82\ntype=secondary | measure=Maximum observed concentration (Cmax) of VSA006 | time_frame=Pre-dose, 0.5, 1, 2, 4, 8, 12 and 24 hours post dose\ntype=secondary | measure=Time of maximum concentration of VSA006 (Tmax) | time_frame=Pre-dose, 0.5, 1, 2, 4, 8, 12 and 24 hours post dose\ntype=secondary | measure=Area under the concentration-time curve from time zero (pre-dose) to the last quantifiable concentration (AUC0-t) of VSA006 | time_frame=Pre-dose, 0.5, 1, 2, 4, 8, 12 and 24 hours post dose\ntype=secondary | measure=anti-drug antibodies (ADAs) of VSA006 | time_frame=up to week 82",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 367,
+      "trial_nct_id": "NCT06322628"
+    },
+    {
+      "chunk_id": "NCT06322628:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-04-22\nPrimary completion date: 2026-07\nCompletion date: 2027-01\nStudy first posted: 2024-03-21\nResults first posted: None\nLast update posted: 2026-03-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06322628"
+    },
+    {
+      "chunk_id": "NCT06322628:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Visirna Therapeutics HK Limited\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06322628"
+    }
+  ],
+  "trial_nct_id": "NCT06322628"
+}

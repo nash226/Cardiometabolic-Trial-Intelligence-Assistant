@@ -1,0 +1,440 @@
+{
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedEvents": [
+          {
+            "date": "2025-12-17",
+            "type": "RELEASE"
+          },
+          {
+            "date": "2026-01-08",
+            "type": "RESET"
+          }
+        ],
+        "unpostedResponsibleParty": "Anders Fink-Jensen, MD, DMSci, Professor, DMSci, Psychiatric Centre Rigshospitalet"
+      }
+    }
+  },
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D019967",
+          "term": "Schizophrenia Spectrum and Other Psychotic Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012559",
+          "term": "Schizophrenia"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2025-12-17",
+        "submissionInfos": [
+          {
+            "releaseDate": "2025-12-17",
+            "resetDate": "2026-01-08"
+          }
+        ]
+      },
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2024-09-18",
+          "filename": "SAP_000.pdf",
+          "hasIcf": false,
+          "hasProtocol": false,
+          "hasSap": true,
+          "label": "Statistical Analysis Plan",
+          "size": 544964,
+          "typeAbbrev": "SAP",
+          "uploadDate": "2024-09-23T23:40"
+        }
+      ]
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Semaglutide, 1.34 mg/mL"
+          ],
+          "label": "Semaglutide injection once-weekly",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: Semaglutide-placebo"
+          ],
+          "label": "Semaglutide-Placebo injection once-weekly",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Semaglutide injection once-weekly"
+          ],
+          "description": "Semaglutide 1.34 mg/ml, 1.5 ml pre-filled pen-injector is supplied in pens for injection containing 2.0 mg of the GLP-1RA semaglutide in 1.5 ml sterile water with disodiumphosphate and propylenglycol, and phenol for conservation (pH 8.15). Direction for use will be given together with trial products.The possible doses of semaglutide are 0.25 mg, 0.50 mg and 1.0 mg. The initial weekly dose will be 0.25 mg for four weeks, then 0.5 mg for four weeks and then 1.0 mg for the remaining treatment period. Patients who, due to adverse events, do not tolerate up-titration to 1.0 mg semaglutide will remain on 0.5 mg once-weekly. The injection is administered subcutaneously once-weekly.",
+          "name": "Semaglutide, 1.34 mg/mL",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Semaglutide-Placebo injection once-weekly"
+          ],
+          "description": "The semaglutide placebo pens contain \"XX-vehicle\" (no active drug) and are administered in the same way and volume as semaglutide. The semaglutide placebo is specially packed for this study and will be used in the study only. The initial weekly dose will be 0.25 mg for four weeks, then 0.5 mg for four weeks and then 1.0 mg for the remaining treatment period. Patients who, due to adverse events, do not tolerate up-titration to 1.0 mg semaglutide placebo will remain on 0.5 mg once-weekly. The injection is administered once-weekly. If the lowest tolerated dose is less than 0.5 mg of semaglutide placebo once-weekly, the patient will be excluded from the study.",
+          "name": "Semaglutide-placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metabolic Disturbance",
+        "Schizophrenia",
+        "Type 2 Diabetes",
+        "Clozapine",
+        "GLP-1",
+        "Olanzapine"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Aarhus",
+          "country": "Denmark",
+          "facility": "Psychosis Research Unit, Aarhus University Hospital, Psychiatry,",
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          },
+          "zip": "8200"
+        },
+        {
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "facility": "Psychiatric Centre Copenhagen, Rigshospitalet",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          },
+          "zip": "2100"
+        },
+        {
+          "city": "Hiller\u00f8d",
+          "country": "Denmark",
+          "facility": "Psychiatric Centre Nordsjaelland, Hiller\u00f8d",
+          "geoPoint": {
+            "lat": 55.92791,
+            "lon": 12.30081
+          },
+          "zip": "3400"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Psychiatric Centre Copenhagen",
+          "name": "Anders Fink-Jensen, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Background and objective:\n\nClozapine and olanzapine are some of the most effective antipsychotic drugs, but unfortunately, both drugs induce weight gain and conveys a high degree of metabolic disturbances. The antipsychotic-induced side-effects cause a major clinical problem among patients diagnosed with schizophrenia receiving antipsychotic treatment. Limited effects have been demonstrated for counteracting the side-effects by the switch of antipsychotic therapy, non-pharmacological/behavioural interventions or adjunct pharmacological treatments. Semaglutide, a glucagon-like peptide-1 receptor agonist (GLP-1RA,) is approved for the treatment of type 2 diabetes worldwide. The objective of the study is to investigate effects of semaglutide once-weekly vs. semaglutide placebo once-weekly on the metabolic state in prediabetic or diabetic patients with schizophrenia, who have initiated treatment with clozapine or olanzapine.\n\nMethods and analysis:\n\nTrial design, intervention and participants: The study is a 26-week, double-blinded, randomized, parallel-group, placebo-controlled, good clinical practice (GCP)-monitored, clinical trial. 104 prediabetic or diabetic patients diagnosed with a schizophrenia, age 18 years and 65 years, who have initiated of clozapine- or olanzapine-treatment within 5 years will be included in the study. The patients will be randomized to receive blinded treatment in one of the two study arms; semaglutide once-weekly vs. semaglutide placebo. All participants who complete the 26 weeks of intervention, will be invited for a follow up visit 1.5 yeras after study completion.\n\nThe primary endpoint is the change from baseline in glycated haemoglobin A1c (HbA1c). Secondary endpoints include change in body weight, hip and waist circumference, vitals, and plasma levels of insulin, glucose, C-peptid, insulin sensitivity, beta cell function, glucagon, liver function, lipid profile, incretin hormones, lipid profile, bone makers, body composition, bone density and proteomic analyses. Additional endpoints include alcohol, tobacco and drug use, food preferences, psychopathology, activity and quality of life."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomised, Double-blinded, Parallel, Placebo-controlled, clinical trial",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 104,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Informed oral and written consent\n2. Diagnosed with schizophrenia according to the criteria of ICD-10 (International Classification of Diseases, World Health Organization (WHO)) or the DSM-V (Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, the American Psychiatric Association)\n3. Initiating current treatment with clozapine or olanzapine within 60 months (not PRN ordinations)\n4. Age 18 years to 65 years (both included)\n5. Body mass index (BMI) \u226525 kg/m2\n6. Diagnosed with prediabetes or type 2 diabetes, after initiation of current treatment with clozapine- or olanzapine, with the following plasma levels: Prediabetes: HbA1c 35-47 mmol/mol or fasting plasma glucose (FPG) 5.6-6.9 mM or 2-h during 75 mg OGGT 7.8-11.0 mM. The test result has to be confirmed on a different day. Type 2 diabetes: HbA1c 48-57 mmol/mol or fasting plasma glucose (FPG) 6.9-9.9 mM or 2h OGTT \\> 11 mM (although FPG and HbA1c might still be under the diagnostic range). The test result has to be confirmed on a different day.\n\nExclusion Criteria:\n\n1. Acute worsening of psychosis based on a clinical evaluation (score of 6 or 7 on the CGI-S scale)\n2. Coercive measures\n3. Females of child-bearing potential who are pregnant, breast-feeding or have intention of becoming pregnant.\n4. Women who are not willing to use adequate contraceptive during the full length of the study\n5. Patients treated with corticosteroids or other hormone therapy (except oestrogens)\n6. Any active substance abuse or dependence for the past six months (except for nicotine)\n7. Impaired hepatic function (plasma liver transaminases \\>3 times upper normal limit)\n8. Impaired renal function (serum creatinine \\>150 \u03bcmol/l and/or macroalbuminuria)\n9. Impaired pancreatic function (acute or chronic pancreatitis and/or plasma amylase \\>2 times upper normal limit)\n10. Cardiac problems defined as decompensated heart failure (NYHA class III/IV), unstable angina pectoris and/or myocardial infarction within the last 12 months\n11. Hypertension with systolic blood pressure \\>180 mmHg or diastolic blood pressure \\>100 mmHg\n12. Any condition that the investigator feels would interfere with trial participation\n13. Receiving any experimental or pre-marketing drug within the last 3 months\n14. Use of weight-lowering pharmacotherapy within the preceding 3 month\n15. Known type 1 diabetes\n16. Suicidal behavior as judged by the investigator and based on clinical evaluation. At all contact with patient attendance possible suicidality will be evaluated according to the guidelines. If the patient is evaluated as suicidal, the person will be excluded from the study and evaluated by a senior consultant in psychiatry, who will take further action.\n17. Plasma HbA1c \\> 57 mmol/mol (tested twice) in which case the patient will be excluded from the study and transferred to general practitioner or hospital for diabetic treatment. No diabetic medication is allowed except for the trial medicin.\n18. Any known contraindication towards the treatment with semaglutide.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Does GLP-1RA Prevent Deterioration of Metabolic State in Prediabetic and Diabetic Patients Treated With Antipsychotic Medication?",
+      "nctId": "NCT04892199",
+      "officialTitle": "Does the Glucagon-like Peptide-1 Receptor Agonist Semaglutide Prevent Deterioration of Metabolic State in Prediabetic or Diabetic Patients With Schizophrenia Treated With the Antipsychotic Compounds Clozapine or Olanzapine?",
+      "orgStudyIdInfo": {
+        "id": "SemaPsychiatry"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Psychiatric Centre Rigshospitalet"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Researchers who provide a methodologically sound proposal",
+      "description": "All of the individual participant data collected during the trial, after deidentification.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "Immediately following publication. No end date."
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The primary endpoint is the change from baseline in glycated haemoglobin A1c (HbA1c).",
+          "timeFrame": "26 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Body weight (Kg)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Hip and Waist circumference (Cm)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "GLP-1, GLP-2 and GIP",
+          "measure": "Incretin hormones (Blood sampling)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Calcitonin, Vit-D, Ca, Phosphate, Mg, PTH, PINP, CTX, OC",
+          "measure": "Bone Markers (Blood sampling)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "LDL, HDL, triglycerider, total kolesterol,",
+          "measure": "Lipid Profile (Blood sampling)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Insulin, glucagon and C-peptide",
+          "measure": "Hormones (blood sampling)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "DXA scanning",
+          "measure": "Visceral fat",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "DXA scanning",
+          "measure": "Android to Gynoid fat ratio",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "DXA scanning",
+          "measure": "Total body fat",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "DXA scanning",
+          "measure": "Bone density",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "PANSS-6 interview",
+          "measure": "Psychopathology",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Activity measurements (approximate for sleep, inactivity, energy expenditure and steps taken by the patient) will be collected continuously by the use of a wearable activity device worn by the patient for 1 week from inclusion day and 1 week at the end of the study",
+          "measure": "Registration of body movements/level of activity with a sensor",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Clicker test",
+          "measure": "Reward value of sweet and fatty candy",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Questionnaires: AUDIT",
+          "measure": "Alcohol use",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Questionnaires: FNTD",
+          "measure": "Tobacco use",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Questionnaires: DUDIT",
+          "measure": "Drug use",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Questionnaire: SQLS",
+          "measure": "Schizophrenia quality of life scale",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Rating GAPD",
+          "measure": "Psychosocial disability",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "ALT, ALP, AST, trombocytes and bilirubin",
+          "measure": "Liver function (blood sampling)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Inflammatory biomarkers and cytokines: IFN-\u03b3, TNF-\u03b1, IL-1\u03b2, IL-2, IL-4, IL-6, IL-8, IL-10, IL-12p70, IL-13, MDA, plasma antioxidants uric acid and, vitaminC",
+          "measure": "Proteomic analyses (Blood sampling)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "biomarkers for measurement of systemic oxidative stress on DNA and RNA: 8-oxo-7,8-dihydro2\u00b4-deoxyguanosine (8-oxodG) and 8-oxo-7,8-dihydroguanosine (8-oxoGuo",
+          "measure": "Proteomic analyses (Urine sampling)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "A non-invasive scoring system for Liver Fibrosis is a non-invasive scoring system based on several laboratory tests (ALT, AST, trombocytes) and age",
+          "measure": "FIB-4 score",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "Blood pressure and pulse",
+          "measure": "Vitals",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "evaluated by homeostatic model assessment",
+          "measure": "Insulin sensitivity and beta cell function",
+          "timeFrame": "26 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Sass MR, Klausen MK, Schwarz CR, Rasmussen L, Giver MEB, Hviid M, Schilling C, Zamorski A, Jensen A, Gefke M, Storgaard H, Oturai PS, Kjaer A, Hartmann B, Holst JJ, Ekstrom CT, Vinberg M, Correll CU, Vilsboll T, Fink-Jensen A. Semaglutide and Early-Stage Metabolic Abnormalities in Individuals With Schizophrenia Spectrum Disorders: A Randomized Clinical Trial. JAMA Psychiatry. 2026 Feb 1;83(2):128-138. doi: 10.1001/jamapsychiatry.2025.3639.",
+          "pmid": "41335431",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Sass MR, Danielsen AA, Kohler-Forsberg O, Storgaard H, Knop FK, Nielsen MO, Sjodin AM, Mors O, Correll CU, Ekstrom C, Vinberg M, Nielsen J, Vilsboll T, Fink-Jensen A. Effect of the GLP-1 receptor agonist semaglutide on metabolic disturbances in clozapine-treated or olanzapine-treated patients with a schizophrenia spectrum disorder: study protocol of a placebo-controlled, randomised clinical trial (SemaPsychiatry). BMJ Open. 2023 Jan 31;13(1):e068652. doi: 10.1136/bmjopen-2022-068652.",
+          "pmid": "36720576",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Anders Fink-Jensen, MD, DMSci"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Psychiatric Centre Rigshospitalet",
+        "investigatorFullName": "Anders Fink-Jensen, MD, DMSci",
+        "investigatorTitle": "Professor, DMSci",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-09-23",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-09-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-09",
+      "studyFirstPostDateStruct": {
+        "date": "2021-05-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-03-01",
+      "studyFirstSubmitQcDate": "2021-05-13"
+    }
+  }
+}

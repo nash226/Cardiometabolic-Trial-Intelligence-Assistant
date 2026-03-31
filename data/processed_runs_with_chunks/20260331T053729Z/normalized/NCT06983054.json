@@ -1,0 +1,193 @@
+{
+  "arms": [
+    {
+      "description": "10 days of SGLT2i treatment during 20 days of low salt diet",
+      "intervention_names": [
+        "Drug: ertugliflozine",
+        "Behavioral: low salt diet"
+      ],
+      "label": "Low salt diet with SGLT2i",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "10 days of placebo during 20 days of low salt diet",
+      "intervention_names": [
+        "Behavioral: low salt diet",
+        "Drug: placebo"
+      ],
+      "label": "Low salt diet with placebo",
+      "type": "PLACEBO_COMPARATOR"
+    },
+    {
+      "description": "10 days of SGTL2i during 20 days of high salt diet.",
+      "intervention_names": [
+        "Drug: ertugliflozine",
+        "Behavioral: high salt diet"
+      ],
+      "label": "High salt diet with SGLT2i",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "10 days of placebo during 20 days of high salt diet.",
+      "intervention_names": [
+        "Drug: placebo",
+        "Behavioral: high salt diet"
+      ],
+      "label": "High salt diet with placebo",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Type 2 Diabetes",
+      "normalized_name": "type_2_diabetes"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\nAdults with previously diagnosed T2DM according to American Diabetes Association (ADA) criteria\n\n* HbA1c 6.5-10%\n* Age 18 - 85 years of age\n* Overweight or obese with BMI: \\>25 kg/m2\n* We will make every effort to enrol participants of all races/ethnicities.\"\n* Both sexes (females must be post-menopausal; no menses \\>1 year; in case of doubt, Follicle-Stimulating Hormone (FSH) will be determined with cut-off defined as \\>31 U/L)\n* Ability to provide signed and dated, written informed consent prior to any study procedures\n* Estimated GFR 60-90 ml/min/1.73m2 by CKD-EPI matching the eGFR range of most participants in VERTIS-CV\n* Sodium intake at baseline \\< 200 mmol/day\n* UACR \\< 30 mg/mmol\n* All participants need to be on a stable dose of diabetes medication, including Metformin, SU, DPP4-inhibitors, or insulin.\n* Participants suffering from hypertension need to be on a stable dose of RAS inhibitors. In case RAS inhibition is not tolerated, the participant should to be on a stable dose of other antihypertensive treatment.\n\nExclusion Criteria:\n\n* History of unstable or rapidly progressing renal disease NL80772.029.22 / DC2022ERTU DESIGN Protocol DESIGN, Study NO. 2022.0737 Version 5.0dd22-02-2024 14 of 45\n\n  * Estimated GFR \\<60 mL/min/1.73m2 or eGFR \\> 90 mL/min/1.73m2 determined by CKD-EPI\n  * UACR \\> 30 mg/mmol\n  * Current/chronic use of the following medication: SGLT2 inhibitors, TZD, GLP-1RA, glucocorticoids, immune suppressants, antimicrobial agents, chemotherapeutics Participants should be on a stable dose of antipsychotics, tricyclic antidepressants (TCAs) and monoamine oxidase inhibitors (MAOIs). Subjects on diuretics will only be excluded when these drugs cannot be stopped for the duration of the study.\n  * Chronic use of non-steroidal anti-inflammatory drugs (NSAIDs) will not be allowed, unless used as incidental medication (1-2 tablets) for non-chronic indications (i.e.\n\nsports injury, headache or back ache). However, no such drug can be taken within a timeframe of 2 weeks prior to renal testing\n\n* History of diabetic ketoacidosis (DKA) requiring medical intervention (e.g. emergency room visit and/or hospitalization) within 1 month prior to the Screening visit.\n* Current urinary tract infection and active nephritis\n* Recent (\\<6 months) history of cardiovascular disease, including:\n\n  * Acute coronary syndrome\n  * Chronic heart failure (New York Heart Association grade II-IV)\n  * Stroke or transient ischemic neurologic disorder\n* Severe hepatic insufficiency and/or significant abnormal liver function defined as aspartate aminotransferase (AST) \\>3x upper limit of normal (ULN) and/or alanine aminotransferase (ALT) \\>3x ULN\n* Active malignancy. History of malignancy is allowed unless the participant still has active treatment other than hormonal therapy.\u2022 History of or actual severe mental disease\n* Substance abuse (alcohol: defined as \\>4 units/day)\n* Allergy to any of the agents used in the study\n* Individuals who are investigator site personnel, directly affiliated with the study, or are immediate (spouse, parent, child, or sibling, whether biological or legally adopted) family of investigator site personnel directly affiliated with the study\n* Inability to understand the study protocol or give informed consent",
+    "healthy_volunteers": false,
+    "maximum_age_text": "85 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "High salt diet with SGLT2i",
+        "Low salt diet with SGLT2i"
+      ],
+      "description": "SGLT2i versus placebo",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "ertugliflozine",
+      "normalized_name": "ertugliflozine"
+    },
+    {
+      "arm_group_labels": [
+        "Low salt diet with SGLT2i",
+        "Low salt diet with placebo"
+      ],
+      "description": "comparing low salt versus high salt diet",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "low salt diet",
+      "normalized_name": "low salt diet"
+    },
+    {
+      "arm_group_labels": [
+        "High salt diet with placebo",
+        "Low salt diet with placebo"
+      ],
+      "description": "placebo tablet",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "placebo",
+      "normalized_name": "placebo"
+    },
+    {
+      "arm_group_labels": [
+        "High salt diet with SGLT2i",
+        "High salt diet with placebo"
+      ],
+      "description": "high salt diet",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "high salt diet",
+      "normalized_name": "high salt diet"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "To investigate the modifying effects of WHO-recommended sodium intake (90 mmol per day) vs. high sodium intake (targeted at 250 mmol per day) on the effect of ertugliflozin 15 mg daily, versus placebo, on 24-hour blood pressure in overweight/obese adults with type 2 diabetes.",
+      "measure": "Blood pressure",
+      "outcome_type": "primary",
+      "time_frame": "7 months"
+    },
+    {
+      "description": "To investigate the efficacy of ertugliflozin 15 mg daily, versus placebo, in overweight/obese adults with type 2 diabetes to reduce the hypertensive effects of a high-sodium diet (250 mmol per day) versus 24-hour blood pressure measurement during participant's normal diet (170 mmol/per day) obtained at screening visit",
+      "measure": "Blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "7 months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "SGLT2 inhibitors have demonstrated to mitigate cardiorenal risk in people with type 2 diabetes and are likely to play an increasingly large role in the treatment of patients with diabetes, chronic kidney disease and hypertension. Yet the underlying mechanisms of its protective effects are incompletely understood and the salutary effect may be altered by dietary factors such as sodium intake. Therefore, carefully designed mechanistic trials are needed to better understand the interplay between ertugliflozin and salt intake and to potentially modify salt intake to maximize treatment response. In addition, the study could contribute to hypotheses concerning the effects of SGLT2 inhibitors in combination with other drugs that affect sodium homeostasis and could help to explain the differences in kidney outcomes observed in (outcome) trials, which include different ethnicities with potential differences in dietary habits.",
+    "brief_title": "DiEtary Sodium Intake Effects on Ertugliflozin-induced Changes in GFR, reNal Oxygenation and Systemic Hemodynamics: the DESIGN Study, a Randomized, Placebo-controlled, Cross-over Study With Ertugliflozin in People With Type 2 Diabetes",
+    "collaborator_names": [
+      "Children's Hospital Colorado"
+    ],
+    "completion_date": "2025-12",
+    "condition_labels": [
+      "type_2_diabetes"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\nAdults with previously diagnosed T2DM according to American Diabetes Association (ADA) criteria\n\n* HbA1c 6.5-10%\n* Age 18 - 85 years of age\n* Overweight or obese with BMI: \\>25 kg/m2\n* We will make every effort to enrol participants of all races/ethnicities.\"\n* Both sexes (females must be post-menopausal; no menses \\>1 year; in case of doubt, Follicle-Stimulating Hormone (FSH) will be determined with cut-off defined as \\>31 U/L)\n* Ability to provide signed and dated, written informed consent prior to any study procedures\n* Estimated GFR 60-90 ml/min/1.73m2 by CKD-EPI matching the eGFR range of most participants in VERTIS-CV\n* Sodium intake at baseline \\< 200 mmol/day\n* UACR \\< 30 mg/mmol\n* All participants need to be on a stable dose of diabetes medication, including Metformin, SU, DPP4-inhibitors, or insulin.\n* Participants suffering from hypertension need to be on a stable dose of RAS inhibitors. In case RAS inhibition is not tolerated, the participant should to be on a stable dose of other antihypertensive treatment.\n\nExclusion Criteria:\n\n* History of unstable or rapidly progressing renal disease NL80772.029.22 / DC2022ERTU DESIGN Protocol DESIGN, Study NO. 2022.0737 Version 5.0dd22-02-2024 14 of 45\n\n  * Estimated GFR \\<60 mL/min/1.73m2 or eGFR \\> 90 mL/min/1.73m2 determined by CKD-EPI\n  * UACR \\> 30 mg/mmol\n  * Current/chronic use of the following medication: SGLT2 inhibitors, TZD, GLP-1RA, glucocorticoids, immune suppressants, antimicrobial agents, chemotherapeutics Participants should be on a stable dose of antipsychotics, tricyclic antidepressants (TCAs) and monoamine oxidase inhibitors (MAOIs). Subjects on diuretics will only be excluded when these drugs cannot be stopped for the duration of the study.\n  * Chronic use of non-steroidal anti-inflammatory drugs (NSAIDs) will not be allowed, unless used as incidental medication (1-2 tablets) for non-chronic indications (i.e.\n\nsports injury, headache or back ache). However, no such drug can be taken within a timeframe of 2 weeks prior to renal testing\n\n* History of diabetic ketoacidosis (DKA) requiring medical intervention (e.g. emergency room visit and/or hospitalization) within 1 month prior to the Screening visit.\n* Current urinary tract infection and active nephritis\n* Recent (\\<6 months) history of cardiovascular disease, including:\n\n  * Acute coronary syndrome\n  * Chronic heart failure (New York Heart Association grade II-IV)\n  * Stroke or transient ischemic neurologic disorder\n* Severe hepatic insufficiency and/or significant abnormal liver function defined as aspartate aminotransferase (AST) \\>3x upper limit of normal (ULN) and/or alanine aminotransferase (ALT) \\>3x ULN\n* Active malignancy. History of malignancy is allowed unless the participant still has active treatment other than hormonal therapy.\u2022 History of or actual severe mental disease\n* Substance abuse (alcohol: defined as \\>4 units/day)\n* Allergy to any of the agents used in the study\n* Individuals who are investigator site personnel, directly affiliated with the study, or are immediate (spouse, parent, child, or sibling, whether biological or legally adopted) family of investigator site personnel directly affiliated with the study\n* Inability to understand the study protocol or give informed consent",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 34,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "ertugliflozine",
+      "low salt diet",
+      "placebo",
+      "high salt diet"
+    ],
+    "intervention_model": "CROSSOVER",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-05-21",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Amsterdam UMC, location VUmc",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": "85 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06983054",
+    "official_title": "DiEtary Sodium Intake Effects on Ertugliflozin-induced Changes in GFR, reNal Oxygenation and Systemic Hemodynamics: the DESIGN Study, a Randomized, Placebo-controlled, Cross-over Study With Ertugliflozin in People With Type 2 Diabetes",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2025-12",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06983054",
+    "start_date": "2023-07-25",
+    "study_first_posted_at": "2025-05-21",
+    "study_type": "INTERVENTIONAL"
+  }
+}

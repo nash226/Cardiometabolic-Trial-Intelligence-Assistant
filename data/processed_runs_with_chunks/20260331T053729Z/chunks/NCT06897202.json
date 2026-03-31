@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06897202:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06897202\nBrief title: A Study to Evaluate the Efficacy and Safety of Once-Weekly MET097 in Adults With Obesity or Overweight and T2DM\nOfficial title: A Phase 2b, Multi-Center, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Once-Weekly MET097 in Adults With Obesity or Overweight, and Type 2 Diabetes Mellitus (VESPER-2)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 63,
+      "trial_nct_id": "NCT06897202"
+    },
+    {
+      "chunk_id": "NCT06897202:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity; type_2_diabetes\nRaw conditions: Obesity in Diabetes; Type 2 Diabetes Mellitus (T2DM)\nIntervention labels: MET097 Injection; Placebo\nDrug class labels: \nArms: MET097 Active with titration; Placebo; MET097 Active without titration\nKeywords: GLP-1; Metsera; T2DM; Obesity; Overweight; Weight Loss",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT06897202"
+    },
+    {
+      "chunk_id": "NCT06897202:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is designed to test how well once-weekly MET097 (an ultra-long-acting GLP-1 receptor agonist) works to treat adults with obesity or overweight and type 2 diabetes mellitus (T2DM) compared to placebo. MET097 or placebo will be administered to individuals via subcutaneous injection once weekly for 28 weeks. If an individual is randomly assigned to MET097 they will receive one of four different dose regimens.\nDetailed description: This is a 28-week, multi-center, randomized, double-blind, placebo-controlled, parallel-group study to investigate the efficacy, safety, and tolerability of four different once-weekly MET097 dosing regimens vs. placebo for body weight loss in adults (18-75 years of age) with obesity or overweight (body mass index \\[BMI\\] \u226527 to \u226450 kg/m2) and T2DM . After completing 28 weeks of study treatment, all participants will be followed for approximately 11 weeks after administration of the last dose of study treatment.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 145,
+      "trial_nct_id": "NCT06897202"
+    },
+    {
+      "chunk_id": "NCT06897202:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* BMI \u226527.0 kg/m2 to \u226450.0 kg/m2 at screening\n* Type 2 diabetes mellitus (\\*T2DM) for at least 3 months before screening\n* Glycated hemoglobin (HbA1c) value between \u22657.0% (53.0 mmol/mol) and \u226410.5% (91.3 mmol/mol) at Screening and treated with stable therapy for at least 30 days prior to Screening/Visit 1 (diet and exercise alone or in combination with metformin monotherapy and/or SGLT-2)\n* Stable body weight (increase or decrease \u22645 kg) within 3 months prior to screening\n\nExclusion Criteria:\n\n* Female who is lactating or who is pregnant\n* Estimated glomerular filtration rate (eGFR) \\<60 mL/min/1.73 m2\n* Fasting triglycerides \u2265 5.6 mmol/L (\u2265500 mg/dL)\n* Poorly controlled hypertension\n* History of stroke\n* Significant cardiovascular disease including but not limited to unstable angina or valvular heart disease or has a history of myocardial infarction, coronary artery bypass graft, percutaneous coronary artery re-vascularization, or congestive heart failure\n* Diagnosis of Type 1 diabetes (history of ketoacidosis, hyperosmolar state/coma, or any other types of diabetes except T2DM)\n* History of acute or chronic pancreatitis\n* Family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\n* History of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years\n* Relevant surgical history including all bariatric or weight loss surgeries\n* SGLT2 inhibitors and/or metformin\n* Had 1 or more episodes of hypoglycemia",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 257,
+      "trial_nct_id": "NCT06897202"
+    },
+    {
+      "chunk_id": "NCT06897202:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent change from baseline in body weight at Week 28 (Day 197) | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Weight reduction (weight loss) from baseline that is \u2265 5% | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Weight reduction (weight loss) from baseline that is \u2265 10% | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Weight reduction (weight loss) from baseline that is \u2265 15% | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Change in glycated hemoglobin A1c (HbA1c) | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Change from baseline in fasting plasma glucose (FPG) | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Change from baseline in fasting serum insulin | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Change from baseline in C-peptide | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Occurrence of HbA1c <7.0% (53.0 mmol/mol) | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Occurrence of HbA1c \u22646.5% (47.5 mmol/mol) | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Occurrence of HbA1c <5.7% (38.8 mmol/mol) | time_frame=Baseline (Week 0) through Week 28 (Day 197)\ntype=secondary | measure=Occurrence of treatment-emergent adverse events (TEAEs) | time_frame=Baseline (Week 0) through Week 39 (Day 274) | description=Treatment emergent adverse events include adverse events of clinical interest as well as abnormal clinical significant physical exams, laboratory findings, and 12-lead ECG measurements that meet the definition for an AE.\ntype=secondary | measure=Occurrence of hypoglycemia according to American Diabetes Association classifications [ADA 2024] | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Occurrence of anti-drug antibodies | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Change from baseline in serum albumin | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Change from baseline in transthyretin [pre-albumin] | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Change from baseline in high-sensitivity C-reactive Protein [hsCRP] | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Characterize the minimum observed concentration (Cmin) | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Characterize the maximum observed concentration (Cmax) | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Characterize the area under the concentration versus time curve (AUC) | time_frame=Baseline (Week 0) through Week 39 (Day 274)\ntype=secondary | measure=Characterize the time to maximum concentration (Tmax) | time_frame=Baseline (Week 0) through Week 39 (Day 274)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 419,
+      "trial_nct_id": "NCT06897202"
+    },
+    {
+      "chunk_id": "NCT06897202:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-03-14\nPrimary completion date: 2026-01-02\nCompletion date: 2026-03\nStudy first posted: 2025-03-26\nResults first posted: None\nLast update posted: 2026-02-17\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06897202"
+    },
+    {
+      "chunk_id": "NCT06897202:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Metsera, a wholly owned subsidiary of Pfizer\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT06897202"
+    }
+  ],
+  "trial_nct_id": "NCT06897202"
+}

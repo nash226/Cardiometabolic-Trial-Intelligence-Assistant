@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT03925714:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT03925714\nBrief title: Impact of P53 and SIRT1 in Type 2 Diabetes\nOfficial title: Investigating the Impact of p53 and SIRT1 in the Development of Type 2 DM Through the Treatment of Prediabetic Individuals by Either Nigetella Salivata or Metformin\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT03925714"
+    },
+    {
+      "chunk_id": "NCT03925714:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: DM\nIntervention labels: life style; Metformin; Nigetella salivata\nDrug class labels: \nArms: life style; Metformin; Nigetella salivata\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT03925714"
+    },
+    {
+      "chunk_id": "NCT03925714:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Investigating the impact of p53 and SIRT1 in the development of type 2 DM\nDetailed description: Investigating the impact of p53 and SIRT1 in the development of type 2 DM through the treatment of prediabetic individuals by either nigetella salivata or Metformin",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT03925714"
+    },
+    {
+      "chunk_id": "NCT03925714:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Prediabetic subjects.\n\nExclusion Criteria:\n\n* Confirmed diabetes.\n* Hepatic or renal impairment.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT03925714"
+    },
+    {
+      "chunk_id": "NCT03925714:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of patients with improved insulin resistance | time_frame=6 months | description=Number of patients showing improved insulin resistance",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT03925714"
+    },
+    {
+      "chunk_id": "NCT03925714:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2019-04-01\nPrimary completion date: 2028-12\nCompletion date: 2028-12\nStudy first posted: 2019-04-24\nResults first posted: None\nLast update posted: 2019-04-24\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT03925714"
+    },
+    {
+      "chunk_id": "NCT03925714:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Sherief Abd-Elsalam\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT03925714"
+    }
+  ],
+  "trial_nct_id": "NCT03925714"
+}

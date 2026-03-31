@@ -1,0 +1,291 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000719829",
+          "term": "mazdutide"
+        },
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: semaglutide"
+          ],
+          "label": "Semaglutide",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: IBI362"
+          ],
+          "label": "IBI362",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "IBI362"
+          ],
+          "description": "Once-weekly injections of gradually increased doses of IBI362, subcutaneously (SC): starting dose is 2.0 mg, after 4 weeks of administration, increase to 4.0 mg; After another 4 weeks, increase to 6mg; After another 4 weeks, increase to the maximum dose 9mg for 36 weeks",
+          "name": "IBI362",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Semaglutide"
+          ],
+          "description": "Once-weekly injections of gradually increased doses, subcutaneously (SC): starting dose is 0.25 mg, after 4 weeks of administration, increase to 0.5 mg; After another 4 weeks, increase to 1mg; After another 4 weeks, increase to 1.7mg; After another 4 weeks, increase to the maximum 2.5mg for 32 weeks",
+          "name": "semaglutide",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Overweight",
+        "Metabolic Dysfunction-associated Fatty Liver Disease (MAFLD)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "glx1218@163.com",
+          "name": "lixin guo",
+          "phone": "13901317569",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "glx1218@163.com",
+              "name": "lixin guo",
+              "phone": "13901317569",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Beijing Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "RECRUITING",
+          "zip": "100730"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Beijing Hospital",
+          "name": "Lixin Guo, M.D",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multicenter, randomized, open-label Phase 3 clinical study comparing the efficacy and safety of IBI362 9 mg QW versus Semaglutide 2.4 mg QW in overweight or obese (BMI\u226527kg/m2) MAFLD subjects. Subjects will be randomly assigned to IBI362 9 mg and Semaglutide 2.4 mg groups. All study treatment will be administered once-weekly and subcutaneously. The entire trial cycle includes a 4-week screening period, a 48-week open-label treatment period, and a 12-week drug withdrawal safety follow-up period."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 470,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female, age 18 years or older at the time of signing informed consent\n2. diagnosed as MAFLD according to the Chinese Guideline for the prevention and treatment of metabolic dysfunction-associated (non-alcoholic) fatty liver disease (Version 2024)\n3. liver fat content \u22658% measured by MRI-PDFF\n4. BMI\u226527 kg/m2\n5. Weight change \u22645% within 3 months before screening\n6. HbA1c\u226410%\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. Used drugs or alternative therapies with weight loss effects within 3 months before screening, including but not limited to: GLP-1 receptor agonists, orlistat, phenylpropanolamine, chlorpheniramine, phentermine etc.\n3. Received chronic (\\>2 weeks) systemic glucocorticoid treatment within 3 months before screening (excluding topical, intraocular, intranasal, and inhaled administration)\n4. Previous diagnosis of type 1 diabetes (including adult latent autoimmune diabetes)\n5. Active or untreated malignant tumors within 5 years before screening, or patients are in remission of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery)\n6. Mental illness existed in the past or at the time of screening, and the researcher thinks it is not suitable to participate in this study\n7. Pregnant or lactating women, or men or women who are fertile and unwilling to use contraception throughout the study period",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study Comparing IBI362 vs Semaglutide in Chinese Overweight or Obese Adults With Metabolic Dysfunction-associated Fatty Liver Disease \uff08MAFLD\uff09",
+      "nctId": "NCT06884293",
+      "officialTitle": "A Multicenter, Randomized, Open-label Phase III Study to Compare the Efficacy and Safety of IBI362 and Semaglutide in Chinese Overweight or Obese Subjects With Metabolic Dysfunction-associated Fatty Liver Disease (GLORY-3)",
+      "orgStudyIdInfo": {
+        "id": "CIBI362B303"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Innovent Biologics (Suzhou) Co. Ltd."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "percentage change in body weight from baseline",
+          "timeFrame": "at Week 48"
+        },
+        {
+          "measure": "percentage change in liver fat content from baseline measured by Magnetic Resonance Imaging-Proton Density Fat Fraction (MRI-PDFF)",
+          "timeFrame": "at Week 48"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "percentage change in liver fat content from baseline measured by MRI-PDFF",
+          "timeFrame": "at Week 8, 16, and 24"
+        },
+        {
+          "measure": "Absolute value change in liver fat content from baseline measured by MRI-PDFF",
+          "timeFrame": "at Week 8, 16, 24, and 48"
+        },
+        {
+          "measure": "Proportion of subjects with weight loss >10% from baseline and liver fat content <5%",
+          "timeFrame": "at week 48"
+        },
+        {
+          "measure": "percentage change in body weight from baseline",
+          "timeFrame": "at week 24"
+        },
+        {
+          "measure": "Changes in systolic blood pressure and diastolic blood pressure from baseline",
+          "timeFrame": "at week 48"
+        },
+        {
+          "measure": "percentage changes in total cholesterol,triglyceride (TG), non-High Density Lipoprotein Cholesterol (non-HDL-C), Low Density Lipoprotein Cholesterol (LDL-C), HDL-C (High Density Lipoprotein Cholesterol) from baseline",
+          "timeFrame": "at week 48"
+        },
+        {
+          "measure": "Changes in serum uric acid from baseline",
+          "timeFrame": "at week 48"
+        },
+        {
+          "measure": "Changes in hemoglobin A1c (HbA1c) from baseline",
+          "timeFrame": "at week 48"
+        },
+        {
+          "measure": "Changes in Homeostasis Model Assessment 2-B (HOMA2-B) from baseline",
+          "timeFrame": "at week 48"
+        },
+        {
+          "measure": "Changes in Homeostasis Model Assessment 2-IR (HOMA2-IR) from baseline",
+          "timeFrame": "at week 48"
+        },
+        {
+          "description": "Using norm-based scoring (NBS)\uff0ceach subscale has a different maximum and minimum score, with higher scores reflecting better levels of functioning",
+          "measure": "Changes of scores in 36-item Short-Form Health Survey version 2(SF-36v2) questionnaire from baseline",
+          "timeFrame": "at week 48"
+        },
+        {
+          "description": "Total score ranging from 0 to 100, with higher scores reflecting better levels of functioning",
+          "measure": "Changes of scores in The Impact of Weight on Quality of Life-Lite Clinical Trials Version(IWQoL-Lite-CT) questionnaire from baseline",
+          "timeFrame": "at week 48"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Innovent Biologics (Suzhou) Co. Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-13",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-05-09",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-11",
+      "studyFirstSubmitQcDate": "2025-03-17"
+    }
+  }
+}

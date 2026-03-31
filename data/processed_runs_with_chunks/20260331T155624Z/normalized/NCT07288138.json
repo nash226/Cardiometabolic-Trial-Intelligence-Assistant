@@ -1,0 +1,678 @@
+{
+  "arms": [
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: Placebo"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    },
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: ECC4703"
+      ],
+      "label": "ECC4703 Low Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: ECC4703"
+      ],
+      "label": "ECC4703 High Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: ECC0509",
+        "Drug: ECC4703"
+      ],
+      "label": "ECC4703 High Dose + ECC0509 High Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: ECC0509"
+      ],
+      "label": "ECC0509 Low Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: ECC0509"
+      ],
+      "label": "ECC0509 High Dose",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Metabolic Dysfunction-associated Steatohepatitis",
+      "normalized_name": "mash"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Adults \u226518 years of age who can provide written informed consent and comply with study procedures.\n2. Presumed MASH based on recent liver biopsy (NAFLD activity score \\[NAS\\] \u22654, fibrosis F1-F3) or non-invasive criteria consistent with liver fibrosis (metabolic syndrome plus FibroScan\u00ae liver stiffness 7-14 kPa).\n3. Evidence of hepatic steatosis confirmed by FibroScan\u00ae CAP \\>280 dB/m and MRI-PDFF \\>8% at screening.\n4. BMI \\>25 kg/m\\^2 to \\<50 kg/m\\^2 (non-Asian); BMI \u226523.0 to \\<50.0 kg/m\\^2 (Asian).\n5. ALT \\>1.5\u00d7upper limit of normal (ULN).\n6. Estimated glomerular filtration rate (eGFR) \u226560 mL/min/1.73m\\^2 (Chronic Kidney Disease Epidemiology Collaboration, \\[CKD-EPI\\]).\n7. Stable body weight (no \\>5% change) for at least 6 months prior to screening.\n8. Willing to comply with contraception requirements (as applicable to males and females of childbearing potential).\n9. In the opinion of the investigator, able to participate safely and complete required MRI/biomarker assessments.\n\nExclusion Criteria:\n\nLiver-related:\n\n1. Chronic liver disease other than metabolic dysfunction-associated steatotic liver disease (MASLD)/MASH, including alcoholic liver disease, autoimmune hepatitis, cholestatic disease, genetic liver diseases, or drug-induced liver injury.\n2. Evidence of cirrhosis or hepatic decompensation, including prior ascites, varices, encephalopathy, or laboratory/imaging findings consistent with cirrhosis.\n3. ALT or AST \\>5\u00d7ULN or ALP \\>2\u00d7ULN at screening.\n4. Clinically significant thyroid or adrenal dysfunction, including uncontrolled hypothyroidism, hyperthyroidism, or adrenal disorders.\n5. Type 1 diabetes, HbA1c \\>9.5%, or unstable type 2 diabetes requiring medication changes within 3 months.\n6. Use of medications that affect liver fat or fibrosis (e.g., Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) not on a stable dose, pioglitazone, obeticholic acid, high-dose vitamin E, hepatotoxic drugs) within protocol-specified washout periods.\n7. Significant alcohol use within 1 year prior to screening.\n8. Recent cardiovascular events, including myocardial infraction (MI), stroke, unstable angina, heart failure (New York heart association \\[NYHA III-IV\\]), or uncontrolled arrhythmia.\n9. Current or recent serious psychiatric illness, including psychosis, active suicidal ideation, or suicide attempt within 5 years.\n10. Pregnancy, breastfeeding, or conditions that increase risk or interfere with study procedures, including MRI contraindications or other investigator-determined safety concerns.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Placebo"
+      ],
+      "description": "Placebo will be administered as matching oral capsules.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    },
+    {
+      "arm_group_labels": [
+        "ECC4703 Low Dose"
+      ],
+      "description": "ECC4703 will be administered as oral capsules.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "ECC4703",
+      "normalized_name": "ecc4703"
+    },
+    {
+      "arm_group_labels": [
+        "ECC0509 High Dose",
+        "ECC0509 Low Dose",
+        "ECC4703 High Dose + ECC0509 High Dose"
+      ],
+      "description": "ECC0509 will be administered as oral capsules.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "ECC0509",
+      "normalized_name": "ecc0509"
+    },
+    {
+      "arm_group_labels": [
+        "ECC4703 High Dose",
+        "ECC4703 High Dose + ECC0509 High Dose"
+      ],
+      "description": "ECC4703 will be administered as oral capsules.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "ECC4703",
+      "normalized_name": "ecc4703"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "Relative Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC4703 Monotherapy Versus Placebo",
+      "outcome_type": "primary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Absolute Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC4703 Monotherapy Versus Placebo",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Relative Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Absolute Change From Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants With \u226530%, \u226550%, and \u226570% Relative Reduction and Normalization (<5%) in Liver Fat Content by MRI-PDFF, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change From Baseline in Alanine Aminotransferase (ALT), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants Achieving \u226517-unit Reduction in ALT, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants With 30% Reduction in MRI-PDFF, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Aspartate Aminotransferase (AST), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Alkaline Phosphatase (ALP), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Gamma-glutamyl Transferase (GGT), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Fibrosis-4 Index (FIB-4), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in AST to Platelet Ratio Index (APRI), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in FibroScan AST Score (FAST), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Non-alcoholic Fatty Liver Disease (NAFLD) Fibrosis Score (NFS), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Enhanced Liver Fibrosis (ELF) Score, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in MASH Resolution Index, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in FibroScan Liver Stiffness Measurement (LSM), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in FibroScan Controlled Attenuation Parameter (CAP), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in LSM as Measure by Magnetic Resonance Elastography (MRE), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Total Cholesterol (TC), Triglycerides (TG), High-density Lipoprotein (HDL), Low-density Lipoprotein (LDL) and Apoprotein B (ApoB)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Lipoprotein(a) (Lp[a]) Profiles",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Hemoglobin A1c (HbA1c)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Fasting Plasma Glucose (FPG)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Fasting Insulin",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Homeostatic Model Assessment of Insulin Resistance (HOMA-IR) Profiles",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Body Weight",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline Body Mass Index (BMI)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Plasma Methylamine",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Cytokeratin-18 (CK-18)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in C-telopeptide of Type III Collagen (CTX-III)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in N-terminal Pro-peptide of Type III Collagen (Pro-C3)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change in Ratio of Pro-C3",
+      "outcome_type": "secondary",
+      "time_frame": "Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change in Ratio of CTX-III",
+      "outcome_type": "secondary",
+      "time_frame": "Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Chronic Liver Disease Questionnaire (CLDQ)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Short-form Liver Disease Quality of Life (SF-LDQOL)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": null,
+      "measure": "Plasma Concentration of ECC4703 and ECC0509",
+      "outcome_type": "secondary",
+      "time_frame": "Day 1, Weeks 2, 4, 6, 8, and 12"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The primary objective of this trial is to evaluate the dose-dependent and comparative effects of ECC4703 (low and high dose), ECC0509 (low and high dose), and their combination on hepatic fat reduction as assessed by change in magnetic resonance imaging proton density fat fraction (MRI-PDFF) at Week 12.",
+    "brief_title": "A Study of a Thyroid Hormone Receptor Beta Isoform (THR\u03b2) Agonist and an Semicarbazide Sensitive Amine Oxidase (SSAO) Inhibitor, Alone and in Combination, in Adults With Presumed Metabolic Dysfunction-associated Steatohepatitis (MASH)",
+    "collaborator_names": [],
+    "completion_date": "2026-10-30",
+    "condition_labels": [
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Adults \u226518 years of age who can provide written informed consent and comply with study procedures.\n2. Presumed MASH based on recent liver biopsy (NAFLD activity score \\[NAS\\] \u22654, fibrosis F1-F3) or non-invasive criteria consistent with liver fibrosis (metabolic syndrome plus FibroScan\u00ae liver stiffness 7-14 kPa).\n3. Evidence of hepatic steatosis confirmed by FibroScan\u00ae CAP \\>280 dB/m and MRI-PDFF \\>8% at screening.\n4. BMI \\>25 kg/m\\^2 to \\<50 kg/m\\^2 (non-Asian); BMI \u226523.0 to \\<50.0 kg/m\\^2 (Asian).\n5. ALT \\>1.5\u00d7upper limit of normal (ULN).\n6. Estimated glomerular filtration rate (eGFR) \u226560 mL/min/1.73m\\^2 (Chronic Kidney Disease Epidemiology Collaboration, \\[CKD-EPI\\]).\n7. Stable body weight (no \\>5% change) for at least 6 months prior to screening.\n8. Willing to comply with contraception requirements (as applicable to males and females of childbearing potential).\n9. In the opinion of the investigator, able to participate safely and complete required MRI/biomarker assessments.\n\nExclusion Criteria:\n\nLiver-related:\n\n1. Chronic liver disease other than metabolic dysfunction-associated steatotic liver disease (MASLD)/MASH, including alcoholic liver disease, autoimmune hepatitis, cholestatic disease, genetic liver diseases, or drug-induced liver injury.\n2. Evidence of cirrhosis or hepatic decompensation, including prior ascites, varices, encephalopathy, or laboratory/imaging findings consistent with cirrhosis.\n3. ALT or AST \\>5\u00d7ULN or ALP \\>2\u00d7ULN at screening.\n4. Clinically significant thyroid or adrenal dysfunction, including uncontrolled hypothyroidism, hyperthyroidism, or adrenal disorders.\n5. Type 1 diabetes, HbA1c \\>9.5%, or unstable type 2 diabetes requiring medication changes within 3 months.\n6. Use of medications that affect liver fat or fibrosis (e.g., Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) not on a stable dose, pioglitazone, obeticholic acid, high-dose vitamin E, hepatotoxic drugs) within protocol-specified washout periods.\n7. Significant alcohol use within 1 year prior to screening.\n8. Recent cardiovascular events, including myocardial infraction (MI), stroke, unstable angina, heart failure (New York heart association \\[NYHA III-IV\\]), or uncontrolled arrhythmia.\n9. Current or recent serious psychiatric illness, including psychosis, active suicidal ideation, or suicide attempt within 5 years.\n10. Pregnancy, breastfeeding, or conditions that increase risk or interfere with study procedures, including MRI contraindications or other investigator-determined safety concerns.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 160,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Placebo",
+      "ECC4703",
+      "ECC0509"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Liver Disease",
+      "Nonalcoholic Steatohepatitis",
+      "ECC0509",
+      "ECC4703"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-16",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "Eccogene",
+    "masking": "DOUBLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07288138",
+    "official_title": "A Phase 2a, Randomized, Double-blind, Placebo-controlled, Multicenter Study to Assess the Efficacy and Safety of a THR\u03b2 Agonist (ECC4703), an SSAO Inhibitor (ECC0509), and Their Combination in Adults With Presumed MASH",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2026-10-16",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07288138",
+    "start_date": "2025-12-15",
+    "study_first_posted_at": "2025-12-17",
+    "study_type": "INTERVENTIONAL"
+  }
+}

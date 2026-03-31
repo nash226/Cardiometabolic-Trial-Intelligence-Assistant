@@ -1,0 +1,219 @@
+{
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive study treatment according to the assigned intervention.",
+          "interventionNames": [
+            "Drug: TGM-312-SC01"
+          ],
+          "label": "TGM-312-SC01",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive study treatment according to the assigned intervention.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "TGM-312-SC01"
+          ],
+          "description": "TGM-312-SC01 is an investigational medicinal product administered by subcutaneous injection according to a protocol-defined regimen.",
+          "name": "TGM-312-SC01",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo administered by subcutaneous injection according to a protocol-defined regimen.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Healthy Participants",
+        "MASH - Metabolic Dysfunction-Associated Steatohepatitis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "clinicaltrials@tangramtx.com",
+          "name": "Sponsor Clinical Trials Office",
+          "phone": "+44 20 4558 3826",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "London",
+          "contacts": [
+            {
+              "email": "clinicaltrials@tangramtx.com",
+              "name": "Study Director",
+              "phone": "+44 20 4558 3826",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United Kingdom",
+          "facility": "Clinical Site 1",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Tangram Therapeutics",
+          "name": "Sponsor Medical Representative",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamic (PD) effects of single ascending doses of TGM-312-SC01 in healthy adults and multiple ascending doses in patients with metabolic dysfunction-associated steatohepatitis (MASH).",
+      "detailedDescription": "This is a Phase 1/2, randomised, masked, placebo-controlled study evaluating the safety, tolerability, pharmacokinetics, and pharmacodynamic effects of TGM-312-SC01 administered by subcutaneous injection. The study includes a single ascending dose component in healthy participants and a multiple ascending dose component in adults with metabolic dysfunction-associated steatohepatitis, with an optional expansion phase."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 99,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged 18 to 70 years who are able to provide written informed consent.\n* Medically suitable for study participation based on protocol-defined assessments.\n* For the disease cohort, participants with clinical features consistent with metabolic dysfunction-associated steatohepatitis, as defined in the protocol.\n\nExclusion Criteria:\n\n* Clinically significant medical conditions, laboratory abnormalities, or other findings that, in the opinion of the investigator, could increase risk, interfere with study participation, or confound interpretation of study results.\n* Recent participation in another investigational study.\n* Use of medications that are prohibited by the protocol.\n* Any other condition that would make the individual unsuitable for study participation as determined by the investigator.",
+      "healthyVolunteers": true,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Study of TGM-312-SC01 in Healthy Participants and Adults With MASH",
+      "nctId": "NCT07427680",
+      "officialTitle": "RESTORE-MASH: A Phase 1/2 Randomized, Placebo-Controlled Study to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics of Single and Multiple Doses of TGM-312-SC01 in Healthy Participants and Adults With MASH",
+      "orgStudyIdInfo": {
+        "id": "TGM-312-001"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Tangram Therapeutics Plc"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Study results will be disseminated through publication",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence and severity of treatment-emergent adverse events [Safety and tolerability]",
+          "timeFrame": "From start of study drug administration through 16 weeks after the last study drug administration."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Maximum observed plasma concentration derived from plasma concentration-time data.",
+          "measure": "Maximum observed plasma concentration (Cmax) of TGM-312-SC01 (ng/mL)",
+          "timeFrame": "From start of study drug administration through 48 hours after the last study drug administration."
+        },
+        {
+          "description": "Area under the plasma concentration-time curve derived from plasma concentration-time data.",
+          "measure": "Area under the plasma concentration-time curve (AUC) of TGM-312-SC01 (ng\u00b7h/mL)",
+          "timeFrame": "From start of study drug administration through 48 hours after the last study drug administration."
+        },
+        {
+          "description": "Change from baseline in mRNA expression levels of the target gene in homogenised tissue samples following administration of TGM-312-SC01, expressed as relative change from baseline.",
+          "measure": "Change from baseline in target gene mRNA expression levels in tissue homogenate",
+          "timeFrame": "From start of study drug administration through 16 weeks after the last study drug administration."
+        },
+        {
+          "description": "Change from baseline in protein levels of the target gene product in homogenised tissue samples following administration of TGM-312-SC01, expressed as concentration or relative change from baseline.",
+          "measure": "Change from baseline in target protein levels in tissue homogenate",
+          "timeFrame": "From start of study drug administration through 16 weeks after the last study drug administration."
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Tangram Therapeutics Plc"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-23",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-30",
+      "studyFirstSubmitQcDate": "2026-02-16"
+    }
+  }
+}

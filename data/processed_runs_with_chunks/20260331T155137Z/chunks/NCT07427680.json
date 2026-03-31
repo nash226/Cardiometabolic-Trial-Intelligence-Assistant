@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07427680:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07427680\nBrief title: Study of TGM-312-SC01 in Healthy Participants and Adults With MASH\nOfficial title: RESTORE-MASH: A Phase 1/2 Randomized, Placebo-Controlled Study to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics of Single and Multiple Doses of TGM-312-SC01 in Healthy Participants and Adults With MASH\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 54,
+      "trial_nct_id": "NCT07427680"
+    },
+    {
+      "chunk_id": "NCT07427680:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: Healthy Participants; MASH - Metabolic Dysfunction-Associated Steatohepatitis\nIntervention labels: TGM-312-SC01; Placebo\nDrug class labels: \nArms: TGM-312-SC01; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT07427680"
+    },
+    {
+      "chunk_id": "NCT07427680:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamic (PD) effects of single ascending doses of TGM-312-SC01 in healthy adults and multiple ascending doses in patients with metabolic dysfunction-associated steatohepatitis (MASH).\nDetailed description: This is a Phase 1/2, randomised, masked, placebo-controlled study evaluating the safety, tolerability, pharmacokinetics, and pharmacodynamic effects of TGM-312-SC01 administered by subcutaneous injection. The study includes a single ascending dose component in healthy participants and a multiple ascending dose component in adults with metabolic dysfunction-associated steatohepatitis, with an optional expansion phase.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 92,
+      "trial_nct_id": "NCT07427680"
+    },
+    {
+      "chunk_id": "NCT07427680:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Adults aged 18 to 70 years who are able to provide written informed consent.\n* Medically suitable for study participation based on protocol-defined assessments.\n* For the disease cohort, participants with clinical features consistent with metabolic dysfunction-associated steatohepatitis, as defined in the protocol.\n\nExclusion Criteria:\n\n* Clinically significant medical conditions, laboratory abnormalities, or other findings that, in the opinion of the investigator, could increase risk, interfere with study participation, or confound interpretation of study results.\n* Recent participation in another investigational study.\n* Use of medications that are prohibited by the protocol.\n* Any other condition that would make the individual unsuitable for study participation as determined by the investigator.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 131,
+      "trial_nct_id": "NCT07427680"
+    },
+    {
+      "chunk_id": "NCT07427680:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Incidence and severity of treatment-emergent adverse events [Safety and tolerability] | time_frame=From start of study drug administration through 16 weeks after the last study drug administration.\ntype=secondary | measure=Maximum observed plasma concentration (Cmax) of TGM-312-SC01 (ng/mL) | time_frame=From start of study drug administration through 48 hours after the last study drug administration. | description=Maximum observed plasma concentration derived from plasma concentration-time data.\ntype=secondary | measure=Area under the plasma concentration-time curve (AUC) of TGM-312-SC01 (ng\u00b7h/mL) | time_frame=From start of study drug administration through 48 hours after the last study drug administration. | description=Area under the plasma concentration-time curve derived from plasma concentration-time data.\ntype=secondary | measure=Change from baseline in target gene mRNA expression levels in tissue homogenate | time_frame=From start of study drug administration through 16 weeks after the last study drug administration. | description=Change from baseline in mRNA expression levels of the target gene in homogenised tissue samples following administration of TGM-312-SC01, expressed as relative change from baseline.\ntype=secondary | measure=Change from baseline in target protein levels in tissue homogenate | time_frame=From start of study drug administration through 16 weeks after the last study drug administration. | description=Change from baseline in protein levels of the target gene product in homogenised tissue samples following administration of TGM-312-SC01, expressed as concentration or relative change from baseline.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 216,
+      "trial_nct_id": "NCT07427680"
+    },
+    {
+      "chunk_id": "NCT07427680:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-02\nPrimary completion date: 2028-03\nCompletion date: 2028-06\nStudy first posted: 2026-02-23\nResults first posted: None\nLast update posted: 2026-03-27\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07427680"
+    },
+    {
+      "chunk_id": "NCT07427680:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Tangram Therapeutics Plc\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07427680"
+    }
+  ],
+  "trial_nct_id": "NCT07427680"
+}

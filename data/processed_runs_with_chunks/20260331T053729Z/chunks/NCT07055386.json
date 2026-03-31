@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07055386:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07055386\nBrief title: A Study to Compare the Efficacy and Safety of GZR102 Injection and GZR18 Injection in Type 2 Diabetes Mellitus\nOfficial title: A Phase II Clinical Study to Compare the Efficacy and Safety of Once-Weekly GZR102 Injection and Bi-weekly GZR18 Injection in Type 2 Diabetes Mellitus With Inadequate Glycemic Control on GLP-1 Receptor Agonists, With or Without Oral Antidiabetic Drugs\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 72,
+      "trial_nct_id": "NCT07055386"
+    },
+    {
+      "chunk_id": "NCT07055386:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes Mellitus (T2DM)\nIntervention labels: GZR102; GZR18\nDrug class labels: \nArms: GZR102; GZR18\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT07055386"
+    },
+    {
+      "chunk_id": "NCT07055386:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a multicenter, randomized, open-label, positive controlled efficacy exploration study. To compare the efficacy and safety of once-weekly GZR102 Injection and Bi-Weekly GZR18 Injection in Chinese adult subjects with type 2 diabetes mellitus (T2DM) and inadequate glycemic control on GLP-1 receptor agonists (GLP-1RAs), with or without oral antidiabetic drugs (OADs).\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT07055386"
+    },
+    {
+      "chunk_id": "NCT07055386:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* 1\\. Subjects sign the Informed Consent Form (ICF) before the study, fully understand the contents, process and possible adverse reactions of the study, and be able to follow the contraindications and restrictions specified in this protocol.\n\n  2\\. Males or females aged \u2265 18 years at the time of signing the Informed Consent Form (ICF).\n\n  3\\. No birth plan from the signing of ICF to 8 weeks after the last dose, willingness to use effective methods of contraception, and no plan for sperm donation. Females of childbearing potential must not be lactating and must have negative results of blood pregnancy tests at screening and predose.\n\n  4\\. According to the diagnostic criteria and classification of diabetes mellitus issued by the World Health Organization (WHO) in 1999, and the supplementary diagnostic criteria recommended by WHO for diagnosis with Hemoglobin A1c (HbA1c) (2011), the time to diagnose T2DM is \u2265 180 days at screening.\n\n  5\\. No Insulin treatment within one year before the screening. 6. Subjects who have been on a stable dose of GLP-1RA therapy for diabetes mellitus as per the package insert for \u2265 90 days before screening, with or without antidiabetic drugs.\n\nExclusion Criteria:\n\n* 1\\. Subjects with a history of drug abuse before screening or a history of alcohol abuse within 6 months before screening.\n\n  2\\. Subjects with a history of allergy to \u2265 2 drugs, or known or suspected hypersensitivity or intolerance to the IMP or similar products and their excipients.\n\n  3\\. Subjects who have taken any concomitant medication, that is known to affect weight or glucose metabolism for more than 14 consecutive days within the 90 days before screening, or who require long-term use during the study.\n\n  4\\. Participation in a clinical study of another IMP, surgery, or device within 90 days before screening.\n\n  5\\. Severe chronic complications of diabetes at the time of screening. 6. Diabetic ketoacidosis, diabetic lactic acidosis, or hyperosmolar non-ketotic diabetic coma in the 90 days prior to screening.\n\n  7\\. Grade 3 hypoglycemic events within 1 year prior to screening. 8. Subjects with significant hematological disorders in screening; or subjects who have donated bloods (\\> 400 mL), experienced significant blood loss (\\> 400 mL) or received a transfusion within 90 days before screening.\n\n  9\\. Subjects with a history of (acute or chronic) pancreatitis in or before screening.\n\n  10\\. Subjects with a history of malignant tumors within 5 years before screening or the presence of potential malignant tumors in screening.\n\n  11\\. Subjects with a personal history or first-degree family history of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma.\n\n  12\\. Subjects with SBP \u2265 160 mmHg or DBP \u2265 100 mmHg during screening. 13. History of renal transplant or current renal replacement therapy. 14. Expect significant changes in diet, exercise, working circadian rhythm and other lifestyles during the study that may affect glycemia control, or unwilling to comply with relevant lifestyle restrictions during the study.\n\n  15\\. Subjects who are unable to comply with the requirements of this protocol as judged by the investigator, or have any other conditions that the investigator considers inappropriate to participate in this study",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 534,
+      "trial_nct_id": "NCT07055386"
+    },
+    {
+      "chunk_id": "NCT07055386:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=efficiency endpoint | time_frame=Week 24 | description=Change from baseline in Hemoglobin A1c (HbA1c)%\ntype=secondary | measure=efficiency endpoint | time_frame=Week 24 | description=Change fom baseline in fasting plasma glucose (FPG)\ntype=secondary | measure=hypoglycemic events. | time_frame=Week 24 | description=Percent change (%) from baseline in weight\ntype=secondary | measure=hypoglycemic events. | time_frame=Week 24 | description=Treatment-emergent adverse events (TEAEs)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 58,
+      "trial_nct_id": "NCT07055386"
+    },
+    {
+      "chunk_id": "NCT07055386:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-08-07\nPrimary completion date: 2026-06-28\nCompletion date: 2027-01\nStudy first posted: 2025-07-08\nResults first posted: None\nLast update posted: 2025-11-21\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07055386"
+    },
+    {
+      "chunk_id": "NCT07055386:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Gan & Lee Pharmaceuticals.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07055386"
+    }
+  ],
+  "trial_nct_id": "NCT07055386"
+}

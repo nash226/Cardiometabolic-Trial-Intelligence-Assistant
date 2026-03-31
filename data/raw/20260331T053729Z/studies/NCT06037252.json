@@ -1,0 +1,810 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000067757",
+          "term": "Glucagon-Like Peptide-1 Receptor"
+        },
+        {
+          "id": "D000067756",
+          "term": "Glucagon-Like Peptide Receptors"
+        },
+        {
+          "id": "D043562",
+          "term": "Receptors, G-Protein-Coupled"
+        },
+        {
+          "id": "D011956",
+          "term": "Receptors, Cell Surface"
+        },
+        {
+          "id": "D008565",
+          "term": "Membrane Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011964",
+          "term": "Receptors, Gastrointestinal Hormone"
+        },
+        {
+          "id": "D018000",
+          "term": "Receptors, Peptide"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000098860",
+          "term": "Tirzepatide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "removedCountries": [
+        "Czechia",
+        "Israel",
+        "Slovakia",
+        "United Kingdom"
+      ],
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive tirzepatide subcutaneously (SC).",
+          "interventionNames": [
+            "Drug: Tirzepatide"
+          ],
+          "label": "Tirzepatide High Dose 1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive tirzepatide SC.",
+          "interventionNames": [
+            "Drug: Tirzepatide"
+          ],
+          "label": "Tirzepatide High Dose 2",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive tirzepatide SC.",
+          "interventionNames": [
+            "Drug: Tirzepatide"
+          ],
+          "label": "Tirzepatide",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Participants will receive placebo.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Tirzepatide",
+            "Tirzepatide High Dose 1",
+            "Tirzepatide High Dose 2"
+          ],
+          "description": "Administered SC",
+          "name": "Tirzepatide",
+          "otherNames": [
+            "LY3298176"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Administered SC",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes",
+        "Obesity"
+      ],
+      "keywords": [
+        "Diabetes Mellitus",
+        "Glucose Metabolism Disorders",
+        "Metabolic Disease",
+        "Endocrine System Diseases",
+        "Overnutrition",
+        "Nutrition Disorders",
+        "Body Weight",
+        "Tirzepatide",
+        "Incretins"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Phoenix",
+          "country": "United States",
+          "facility": "Medical Advancement Centers of Arizona",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          },
+          "state": "Arizona",
+          "zip": "85044"
+        },
+        {
+          "city": "Concord",
+          "country": "United States",
+          "facility": "John Muir Physician Network Research Center",
+          "geoPoint": {
+            "lat": 37.97798,
+            "lon": -122.03107
+          },
+          "state": "California",
+          "zip": "94520"
+        },
+        {
+          "city": "Sacramento",
+          "country": "United States",
+          "facility": "Care Access - Sacramento",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          },
+          "state": "California",
+          "zip": "95831"
+        },
+        {
+          "city": "Aurora",
+          "country": "United States",
+          "facility": "Care Access - Aurora",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          },
+          "state": "Colorado",
+          "zip": "80012"
+        },
+        {
+          "city": "Waterbury",
+          "country": "United States",
+          "facility": "Chase Medical Research, LLC",
+          "geoPoint": {
+            "lat": 41.55815,
+            "lon": -73.0515
+          },
+          "state": "Connecticut",
+          "zip": "06708"
+        },
+        {
+          "city": "Miami",
+          "country": "United States",
+          "facility": "Retreat Medical Research",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          },
+          "state": "Florida",
+          "zip": "33135"
+        },
+        {
+          "city": "Pembroke Pines",
+          "country": "United States",
+          "facility": "American Research Centers of Florida",
+          "geoPoint": {
+            "lat": 26.00315,
+            "lon": -80.22394
+          },
+          "state": "Florida",
+          "zip": "33027"
+        },
+        {
+          "city": "Norcross",
+          "country": "United States",
+          "facility": "Alta Pharmaceutical Research Center",
+          "geoPoint": {
+            "lat": 33.94121,
+            "lon": -84.21353
+          },
+          "state": "Georgia",
+          "zip": "30092"
+        },
+        {
+          "city": "Sandy Springs",
+          "country": "United States",
+          "facility": "AGILE Clinical Research Trials, LLC",
+          "geoPoint": {
+            "lat": 33.92427,
+            "lon": -84.37854
+          },
+          "state": "Georgia",
+          "zip": "30328"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "Northwestern University",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "zip": "60611"
+        },
+        {
+          "city": "Evansville",
+          "country": "United States",
+          "facility": "Qualmedica Research, LLC",
+          "geoPoint": {
+            "lat": 37.97476,
+            "lon": -87.55585
+          },
+          "state": "Indiana",
+          "zip": "47715"
+        },
+        {
+          "city": "West Des Moines",
+          "country": "United States",
+          "facility": "Integrated Clinical Trial Services, Inc.",
+          "geoPoint": {
+            "lat": 41.57721,
+            "lon": -93.71133
+          },
+          "state": "Iowa",
+          "zip": "50265"
+        },
+        {
+          "city": "Wilmington",
+          "country": "United States",
+          "facility": "Accellacare - Wilmington - 1917 Tradd Court",
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          },
+          "state": "North Carolina",
+          "zip": "28401"
+        },
+        {
+          "city": "Cincinnati",
+          "country": "United States",
+          "facility": "Velocity Clinical Research, Mt. Auburn",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          },
+          "state": "Ohio",
+          "zip": "45219"
+        },
+        {
+          "city": "Portland",
+          "country": "United States",
+          "facility": "Summit Headlands",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          },
+          "state": "Oregon",
+          "zip": "97210"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "facility": "Clinical Research Associates Inc",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "zip": "37203"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Juno Research",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "zip": "77040"
+        },
+        {
+          "city": "Mesquite",
+          "country": "United States",
+          "facility": "Southern Endocrinology Associates",
+          "geoPoint": {
+            "lat": 32.7668,
+            "lon": -96.59916
+          },
+          "state": "Texas",
+          "zip": "75149"
+        },
+        {
+          "city": "Charlottesville",
+          "country": "United States",
+          "facility": "Charlottesville Medical Research",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          },
+          "state": "Virginia",
+          "zip": "22911"
+        },
+        {
+          "city": "Bellevue",
+          "country": "United States",
+          "facility": "Northwest Clinical Research Center",
+          "geoPoint": {
+            "lat": 47.61038,
+            "lon": -122.20068
+          },
+          "state": "Washington",
+          "zip": "98007"
+        },
+        {
+          "city": "CABA",
+          "country": "Argentina",
+          "facility": "CEDIC",
+          "state": "Buenos Aires",
+          "zip": "C1060ABN"
+        },
+        {
+          "city": "Ciudad Autonoma de Buenos Aires",
+          "country": "Argentina",
+          "facility": "Consultorio de Investigaci\u00f3n Cl\u00ednica EMO SRL",
+          "state": "Buenos Aires",
+          "zip": "1405"
+        },
+        {
+          "city": "Buenos Aires",
+          "country": "Argentina",
+          "facility": "Centro M\u00e9dico Viamonte",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          },
+          "state": "Buenos Aires F.D.",
+          "zip": "C1120AAC"
+        },
+        {
+          "city": "Buenos Aires",
+          "country": "Argentina",
+          "facility": "Centro Medico Dra. Laura Maffei- Investigacion Clinica Aplicada",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          },
+          "state": "Buenos Aires F.D.",
+          "zip": "C1425AGC"
+        },
+        {
+          "city": "Buenos Aires",
+          "country": "Argentina",
+          "facility": "Centro de Investigaciones Metab\u00f3licas (CINME)",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          },
+          "zip": "C1056ABI"
+        },
+        {
+          "city": "Tijuana",
+          "country": "Mexico",
+          "facility": "Centro de Investigacion Cardiovascular y Metab\u00f3lica",
+          "geoPoint": {
+            "lat": 32.5027,
+            "lon": -117.00371
+          },
+          "state": "Estado de Baja California",
+          "zip": "22500"
+        },
+        {
+          "city": "Guadalajara",
+          "country": "Mexico",
+          "facility": "Virgen Cardiovascular Research SC",
+          "geoPoint": {
+            "lat": 20.67738,
+            "lon": -103.34749
+          },
+          "state": "Jalisco",
+          "zip": "44670"
+        },
+        {
+          "city": "Cuauht\u00e9moc, Ciudad de M\u00e9xico",
+          "country": "Mexico",
+          "facility": "Cryptex Investigaci\u00f3n Cl\u00ednica S.A. de C.V.",
+          "state": "Mexico City",
+          "zip": "06100"
+        },
+        {
+          "city": "Mexico City",
+          "country": "Mexico",
+          "facility": "Centro Especializado En Diabetes, Obesidad Y Prevencion De Enfermedades Cardiovasculares",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          },
+          "state": "Mexico City",
+          "zip": "11650"
+        },
+        {
+          "city": "Monterrey",
+          "country": "Mexico",
+          "facility": "Hospital Universitario \"Dr. Jose Eleuterio Gonzalez\"",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          },
+          "state": "Nuevo Le\u00f3n",
+          "zip": "66460"
+        },
+        {
+          "city": "Ciudad Madero",
+          "country": "Mexico",
+          "facility": "Centro de Estudios de Investigacion Metabolicos y Cardiovasculares",
+          "geoPoint": {
+            "lat": 22.2475,
+            "lon": -97.83665
+          },
+          "state": "Tamaulipas",
+          "zip": "89440"
+        },
+        {
+          "city": "Kad\u0131k\u00f6y",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "TC Saglik Bakanligi Goztepe Prof. Dr. Suleyman Yalcin Sehir Hastanesi",
+          "geoPoint": {
+            "lat": 40.97882,
+            "lon": 29.08268
+          },
+          "state": "Istanbul",
+          "zip": "34722"
+        },
+        {
+          "city": "Adana",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Baskent Universitesi Adana Dr. Turgut Noyan Uygulama ve Arastirma Merkezi",
+          "geoPoint": {
+            "lat": 36.98615,
+            "lon": 35.32531
+          },
+          "zip": "01250"
+        },
+        {
+          "city": "Antalya",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Akdeniz Universitesi Hastanesi",
+          "geoPoint": {
+            "lat": 36.90812,
+            "lon": 30.69556
+          },
+          "zip": "07070"
+        },
+        {
+          "city": "Bursa",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Uludag Universitesi",
+          "geoPoint": {
+            "lat": 40.19559,
+            "lon": 29.06013
+          },
+          "zip": "16059"
+        },
+        {
+          "city": "Diyarbak\u0131r",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Dicle \u00dcniversitesi",
+          "geoPoint": {
+            "lat": 37.91363,
+            "lon": 40.21721
+          },
+          "zip": "21100"
+        },
+        {
+          "city": "Gaziantep",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Gaziantep Universitesi Sahinbey Arastirma ve Uygulama Hastanesi",
+          "geoPoint": {
+            "lat": 37.05944,
+            "lon": 37.3825
+          },
+          "zip": "27310"
+        },
+        {
+          "city": "Istanbul",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Acibadem Universitesi Atakent Hastanesi",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          },
+          "zip": "34303"
+        },
+        {
+          "city": "Istanbul",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Marmara Universitesi Pendik Egitim Arastirma Hastanesi",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          },
+          "zip": "34899"
+        },
+        {
+          "city": "Samsun",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Ondokuz May\u0131s Universitesi",
+          "geoPoint": {
+            "lat": 41.27976,
+            "lon": 36.3361
+          },
+          "zip": "55139"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Eli Lilly and Company",
+          "name": "Call 1-877-CTLILLY (1-877-285-4559) or 1-317-615-4559 Mon - Fri 9 AM - 5 PM Eastern time (UTC/GMT - 5 hours, EST)",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The main purpose of this study is to learn more about the safety and efficacy of investigational tirzepatide doses in participants with Type 2 diabetes and obesity that are already taking metformin. The study will last for about 89 weeks.",
+      "detailedDescription": "The study will include a screening period of up to 5 weeks. The primary endpoint will be at Week 44 with a tirzepatide extension until week 80. A safety follow up will be performed approximately 4 weeks after end of treatment."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 414,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Have a Body Mass Index (BMI) \u226535 kilogram/square meter (kg/m\u00b2) at screening.\n* Have had stable body weight (\u00b15%) during the 90 days preceding screening.\n* Have been diagnosed with Type 2 Diabetes (T2D).\n* Have been on a stable treatment of metformin only at least 90 days preceding screening and between screening and randomization with the minimum effective dose of \u22651500 milligram (mg)/day.\n\nExclusion Criteria:\n\n* Have Type 1 Diabetes (T1D), history of ketoacidosis or hyperosmolar state/coma, or any other types of diabetes except T2D.\n* Have had 1 or more episode of severe hypoglycemia and/or 1 or more episode of hypoglycemia unawareness within 6 months prior to screening.\n* Are currently receiving or planning to receive treatment for diabetic retinopathy and/or macular edema.\n* Have a prior or planned surgical treatment for obesity.\n* Use products intended for weight loss including prescription drugs, over the counter (OTC) drugs, and herbal preparations, within 3 months prior to screening.\n* Have renal impairment measured as estimated glomerular filtration rate (eGFR) \\<45 milliliter/min (mL/min)/1.73 m\u00b2.\n* Have any of the following cardiovascular (CV) conditions within 2 months prior to screening.\n\n  * acute myocardial infarction.\n  * cerebrovascular accident (stroke).\n  * unstable angina .\n  * hospitalization due to congestive heart failure, or\n  * coronary artery revascularization.\n* Have a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia (MEN) syndrome Type 2.\n* Have a history of chronic or acute pancreatitis.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of Investigational Tirzepatide (LY3298176) Doses in Participants With Type 2 Diabetes and Obesity",
+      "nctId": "NCT06037252",
+      "officialTitle": "A Phase 2, Randomized, Double-blind, Placebo-Controlled Study to Assess the Efficacy and Safety of Investigational Tirzepatide Doses in Participants With Type 2 Diabetes and Obesity",
+      "orgStudyIdInfo": {
+        "id": "18739"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Eli Lilly and Company"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "Eli Lilly and Company",
+          "id": "I8F-MC-GPIT",
+          "type": "OTHER"
+        },
+        {
+          "domain": "EU Trial Number",
+          "id": "2023-504561-24-00",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "A research proposal must be approved by an independent review panel and researchers must sign a data sharing agreement.",
+      "description": "Anonymized individual patient level data will be provided in a secure access environment upon approval of a research proposal and a signed data sharing agreement.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "ata are available 6 months after the primary publication and approval of the indication studied in the US and European Union (EU), whichever is later. Data will be indefinitely available for requesting.",
+      "url": "http://vivli.org/"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent Change From Baseline in Body Weight",
+          "timeFrame": "Baseline (Week 0), Week 44"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change from Baseline in HbA1c",
+          "timeFrame": "Baseline (Week 0), Week 44"
+        },
+        {
+          "measure": "Change from Baseline in HbA1c",
+          "timeFrame": "Baseline (Week 24), Week 80"
+        },
+        {
+          "measure": "Percent Change from Baseline in Body Weight",
+          "timeFrame": "Baseline (Week 24), Week 80"
+        },
+        {
+          "measure": "Absolute Change from Baseline in Body Weight",
+          "timeFrame": "Baseline (Week 0), Week 44"
+        },
+        {
+          "measure": "Absolute Change from Baseline in Body Weight",
+          "timeFrame": "Baseline (Week 24), Week 80"
+        },
+        {
+          "measure": "Change from Baseline in Body Mass Index (BMI)",
+          "timeFrame": "Baseline (Week 0), Week 44"
+        },
+        {
+          "measure": "Change from Baseline in BMI",
+          "timeFrame": "Baseline (Week 24), Week 80"
+        },
+        {
+          "measure": "Change from Baseline in Waist Circumference",
+          "timeFrame": "Baseline (Week 0), Week 44"
+        },
+        {
+          "measure": "Change from Baseline in Waist Circumference",
+          "timeFrame": "Baseline (Week 24), Week 80"
+        },
+        {
+          "measure": "Percentage of Participants Achieving \u226515% Body Weight Reduction",
+          "timeFrame": "Baseline (Week 0), Week 44"
+        },
+        {
+          "measure": "Percentage of Participants Achieving \u226515% Body Weight Reduction",
+          "timeFrame": "Baseline (Week 0), Week 80"
+        },
+        {
+          "description": "Steady State Area Under the Concentration Time Curve (AUC) presented as a single average measure of AUC across the time frame.",
+          "measure": "Pharmacokinetics (PK): Steady State Area Under the Concentration Time Curve (AUC)",
+          "timeFrame": "Baseline through Week 44"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "A Study of Investigational Tirzepatide (LY3298176) Doses in Participants With Type 2 Diabetes and Obesity",
+          "url": "https://trials.lilly.com/en-US/trial/422915"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Eli Lilly and Company"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-19",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-08",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2023-09-21",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-14",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-09-08",
+      "studyFirstSubmitQcDate": "2023-09-08"
+    }
+  }
+}

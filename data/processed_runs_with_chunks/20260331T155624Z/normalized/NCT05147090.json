@@ -1,0 +1,273 @@
+{
+  "arms": [
+    {
+      "description": "Empagliflozin 10mg daily for 156 weeks",
+      "intervention_names": [
+        "Drug: Empagliflozin 10 MG"
+      ],
+      "label": "Empagliflozin group",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Placebo pills (identical in appearance to empagliflozin 10mg) daily for 156 weeks",
+      "intervention_names": [
+        "Drug: Placebo pills"
+      ],
+      "label": "Placebo group",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Chronic Hepatitis b",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "NAFLD",
+      "normalized_name": "mash"
+    },
+    {
+      "is_primary": true,
+      "name": "Cirrhosis",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Fibrosis, Liver",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Empagliflozin",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "SGLT2 Inhibitors",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Patients will be recruited if they have significant/advanced fibrosis or cirrhosis confirmed by MRE\n\nExclusion Criteria:\n\n1. decompensated cirrhosis (variceal bleeding, ascites, hepatic hydrothorax, hepatic encephalopathy),\n2. portal vein thrombosis,\n3. alcohol intake \\>20g within last 2 years,\n4. concurrent chronic liver disease (chronic hepatitis C infection, autoimmune hepatitis, Wilson's disease, hemochromatosis, primary biliary cholangitis, drug-induced),\n5. history of malignancy including hepatocellular carcinoma (HCC),\n6. pregnancy,\n7. contraindications to empagliflozin (estimated glomerular filtration rate (eGFR) \\<45mL/min/1.73m2, recurrent genitourinary tract infections, gangrene, allergy),\n8. contraindications to MRI (e.g., claustrophobia, implanted devices with ferromagnetic properties).",
+    "healthy_volunteers": false,
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Empagliflozin group"
+      ],
+      "description": "Empagliflozin 10mg daily",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Empagliflozin 10 MG",
+      "normalized_name": "empagliflozin 10 mg"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo group"
+      ],
+      "description": "Identical in appearance to empagliflozin 10mg daily",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo pills",
+      "normalized_name": "placebo pills"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "difference in change to liver stiffness from baseline between the two groups at the end of year 3 as measured by MRE",
+      "measure": "Change in liver stiffness (measured by MRE)",
+      "outcome_type": "primary",
+      "time_frame": "week 156"
+    },
+    {
+      "description": "Remission of advanced fibrosis and cirrhosis (defined as a decrease in 1 fibrosis stage using MRE) at the end of year 3",
+      "measure": "Remission of significant/advanced fibrosis and cirrhosis",
+      "outcome_type": "secondary",
+      "time_frame": "week 156"
+    },
+    {
+      "description": "Progression of significant/advanced fibrosis to cirrhosis (as defined by MRE) at the end of year 3",
+      "measure": "Progression of significant/advanced fibrosis to cirrhosis (measured by MRE)",
+      "outcome_type": "secondary",
+      "time_frame": "week 156"
+    },
+    {
+      "description": "Progression to decompensated cirrhosis (ascites, variceal bleeding and/or hepatic encephalopathy) at the end of year 3",
+      "measure": "Progression to decompensated cirrhosis",
+      "outcome_type": "secondary",
+      "time_frame": "week 156"
+    },
+    {
+      "description": "Difference in serial changes to liver stiffness from baseline between the two groups (LSM measured by transient elastography)",
+      "measure": "Change in liver stiffness (measured by transient elastography)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Difference in serial changes to liver fat content from baseline between the two groups (CAP measured by transient elastography)",
+      "measure": "Change in fat content (measured by transient elastography)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of ALT at week 26, 52, 104 and 156",
+      "measure": "Changes of alanine aminotransferase (ALT)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of AST at week 26, 52, 104 and 156",
+      "measure": "Changes of aspartate aminotransferase (AST)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of ALP at week 26, 52, 104 and 156",
+      "measure": "Changes of alkaline phosphatase (ALP)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of GGT at week 26, 52, 104 and 156",
+      "measure": "Changes of gamma glutamyl transferase (GGT)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of fasting glucose at week 26, 52, 104 and 156",
+      "measure": "Changes of fasting glucose",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of HbA1c at week 26, 52, 104 and 156",
+      "measure": "Changes of haemoglobin A1c (HbA1c)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of total cholesterol at week 26, 52, 104 and 156",
+      "measure": "Changes of total cholesterol",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of LDL at week 26, 52, 104 and 156",
+      "measure": "Changes of low density lipoprotein (LDL)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of HDL at week 26, 52, 104 and 156",
+      "measure": "Changes of high density lipoprotein (HDL)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of body weight at week 26, 52, 104 and 156",
+      "measure": "Changes of body weight",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of BMI at week 26, 52, 104 and 156",
+      "measure": "Changes of body mass index (BMI)",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of waist circumference at week 26, 52, 104 and 156",
+      "measure": "Changes of waist circumference",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of systolic blood pressure at week 26, 52, 104 and 156",
+      "measure": "Changes of systolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    },
+    {
+      "description": "Changes of diastolic blood pressure at week 26, 52, 104 and 156",
+      "measure": "Changes of diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "week 26, 52, 104 and 156"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Chronic hepatitis B (CHB) affects 257million individuals worldwide. In 2017, it caused around 39.7 million cases of cirrhosis and 0.4 million cirrhosis-related deaths in 2017. However, there is no specific treatment for liver fibrosis/cirrhosis. Although nucleos(t)ide analogues (NAs) profoundly suppress viral replication, fibrosis/cirrhosis progression can still occur in NA-treated patients.\n\nSodium-glucose cotransporter type-2 (SGLT2) inhibitors are antidiabetic drugs that may prevent fibrosis/cirrhosis progression by reducing hepatic steatosis/inflammation, dampening renin-angiotensin aldosterone system (RAAS) activation, and reducing fluid retention, effects of which are independent of glycemic control. Clinical studies in diabetic patients show SGLT2 inhibitors reduce hepatis steatosis/inflammation, regress ascites (a cirrhotic complication), and improve liver function parameters and survival prognosis in terms of model for end-stage liver disease (MELD) score. There are currently no randomized controlled trials (RCTs) on role of SGLT2 inhibitors in preventing fibrosis/cirrhosis progression in CHB patients. Magnetic resonance elastography (MRE) and transient elastography (TE) are non-invasive techniques for liver stiffness measurement (LSM), although MRE is more accurate than TE.\n\nThe investigators propose a double-blind, randomized, placebo-controlled trial to compare effect of empagliflozin (an SGLT2 inhibitor) with placebo (1:1 ratio) in preventing fibrosis progression in both diabetic and non-diabetic NA-treated CHB patients with significant/advanced fibrosis or compensated cirrhosis. 108 patients will be randomly sampled from our pre-existing TE database. Empagliflozin 10mg daily will be given to treatment arm. Placebo pills will be manufactured identical in appearance to empagliflozin. Subjects will receive active or placebo pills for three years, and undergo clinical, anthropometric and laboratory assessments (at baseline, weeks 8, 16, and every 4 months thereafter). They will undergo LSM by TE at baseline, end of first, second and third year, and by MRE at baseline and end of third year. Primary outcome is difference in change to liver stiffness (measured by MRE) from baseline between the two groups at the end of third year.\n\nThe study results will determine whether SGLT2 inhibitors can prevent hepatic fibrosis/cirrhosis progression in NA-treated CHB patients.",
+    "brief_title": "Effects of Empagliflozin on Fibrosis and Cirrhosis in Chronic Hepatitis B Patients",
+    "collaborator_names": [
+      "Research Grant Council"
+    ],
+    "completion_date": "2027-12-31",
+    "condition_labels": [
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Patients will be recruited if they have significant/advanced fibrosis or cirrhosis confirmed by MRE\n\nExclusion Criteria:\n\n1. decompensated cirrhosis (variceal bleeding, ascites, hepatic hydrothorax, hepatic encephalopathy),\n2. portal vein thrombosis,\n3. alcohol intake \\>20g within last 2 years,\n4. concurrent chronic liver disease (chronic hepatitis C infection, autoimmune hepatitis, Wilson's disease, hemochromatosis, primary biliary cholangitis, drug-induced),\n5. history of malignancy including hepatocellular carcinoma (HCC),\n6. pregnancy,\n7. contraindications to empagliflozin (estimated glomerular filtration rate (eGFR) \\<45mL/min/1.73m2, recurrent genitourinary tract infections, gangrene, allergy),\n8. contraindications to MRI (e.g., claustrophobia, implanted devices with ferromagnetic properties).",
+    "detailed_description": "Chronic hepatitis B (CHB) affects 257million individuals worldwide. In 2017, it caused around 39.7 million cases of cirrhosis and 0.4 million cirrhosis-related deaths in 2017. However, there is no specific treatment for liver fibrosis/cirrhosis. Although nucleos(t)ide analogues (NAs) profoundly suppress viral replication, fibrosis/cirrhosis progression can still occur in NA-treated patients.\n\nSodium-glucose cotransporter type-2 (SGLT2) inhibitors are antidiabetic drugs that may prevent fibrosis/cirrhosis progression by reducing hepatic steatosis/inflammation, dampening renin-angiotensin aldosterone system (RAAS) activation, and reducing fluid retention, effects of which are independent of glycemic control. Clinical studies in diabetic patients show SGLT2 inhibitors reduce hepatis steatosis/inflammation, regress ascites (a cirrhotic complication), and improve liver function parameters and survival prognosis in terms of model for end-stage liver disease (MELD) score. Our preliminary data from a territory-wide electronic healthcare database shows SGLT2 inhibitors were associated with 58% reduction in risk of cirrhosis development over three years among CHB patients with diabetes (n=9,502). There are currently no randomized controlled trials (RCTs) on role of SGLT2 inhibitors in preventing fibrosis/cirrhosis progression in CHB patients. Magnetic resonance elastography (MRE) and transient elastography (TE) are non-invasive techniques for liver stiffness measurement (LSM), although MRE is more accurate than TE.\n\nThe novelty of utilizing \"drug repositioning\" by changing role of SGLT2 inhibitors in treating diabetes mellitus (DM) to preventing fibrosis/cirrhosis progression in CHB deserves exploration. We propose a double-blind, randomized, placebo-controlled trial to compare effect of empagliflozin (an SLGT2 inhibitor) with placebo (1:1 ratio) in reducing liver stiffness in both diabetic and non-diabetic NA-treated CHB patients with significant/advanced fibrosis or compensated cirrhosis. 108 patients will be randomly sampled from our pre-existing TE database. Empagliflozin 10mg daily will be given to treatment arm. Placebo pills will be manufactured identical in appearance to empagliflozin. Subjects will receive active or placebo pills for three years, and undergo clinical, anthropometric and laboratory assessments (at baseline, weeks 8, 16, and every 4 months thereafter). They will undergo LSM by TE at baseline, end of first, second and third year, and by MRE at baseline and end of third year. Primary outcome is difference in change to liver stiffness (measured by MRE) from baseline between the two groups at the end of third year. Secondary outcomes are remission of advanced fibrosis/cirrhosis, progression of advanced fibrosis to cirrhosis, improvement of laboratory results (liver transaminases, ferritin, glucose, lipid profiles) and anthropometric measurements.\n\nThe study results will determine whether SGLT2 inhibitors can prevent hepatic fibrosis/cirrhosis progression in NA-treated CHB patients.",
+    "drug_class_labels": [],
+    "enrollment_count": 106,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Empagliflozin 10 MG",
+      "Placebo pills"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-30",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "The University of Hong Kong",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05147090",
+    "official_title": "Effects of Empagliflozin on Preventing Fibrosis and Cirrhosis Progression in Nucleos(t)Ide Analogue-treated Chronic Hepatitis B Patients With F2-F4 Fibrosis: a Randomized, Double-blind Placebo-controlled Trial",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2027-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05147090",
+    "start_date": "2022-01-02",
+    "study_first_posted_at": "2021-12-07",
+    "study_type": "INTERVENTIONAL"
+  }
+}

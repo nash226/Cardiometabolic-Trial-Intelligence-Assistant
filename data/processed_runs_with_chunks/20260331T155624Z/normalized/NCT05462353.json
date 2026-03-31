@@ -1,0 +1,200 @@
+{
+  "arms": [
+    {
+      "description": "1 tablet of ASC41 (2 mg) for 52 weeks",
+      "intervention_names": [
+        "Drug: 2mg of ASC41",
+        "Drug: Placebo"
+      ],
+      "label": "Cohort 1 Low Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "2 tablet of ASC41 (4 mg) for 52 weeks",
+      "intervention_names": [
+        "Drug: 4mg of ASC41 (2 tablets of 2 mg ASC41)"
+      ],
+      "label": "Cohort 2 High Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Placebo tablet for 52 weeks",
+      "intervention_names": [
+        "Drug: Placebo"
+      ],
+      "label": "Placebo tablet",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Non-alcoholic Fatty Liver Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Non-alcoholic Steatohepatitis",
+      "normalized_name": "mash"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Age \u2265 18 and \u2264 80 years old at screening.\n* Presence of \u2265 7.5% steatosis on screening MRI-PDFF read centrally by a radiologist and performed either during the screening period or within 6 months prior to the first visit.\n* HbA1c \u2264 9.5%.\n* Normal or minimally abnormal renal function as defined by estimated glomerular filtration rate (eGFR) \u2265 50 mL/min/1.73 m\\^2\n\nExclusion Criteria:\n\n* Presence or history of cirrhosis or evidence of decompensated liver disease (e.g., ascites, variceal bleeding) or hepatocellular carcinoma.\n* History or presence of other concomitant liver disease as assessed by the investigator or determined by laboratory findings.\n* Uncontrolled Type 2 diabetes mellitus (T2DM) defined as HbA1c of \\> 9.5% within 60 days prior to enrollment.\n* Change in anti-diabetic therapy within 6 months prior to qualifying liver biopsy.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Cohort 1 Low Dose"
+      ],
+      "description": "ASC41 tablet administered orally once daily.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "2mg of ASC41",
+      "normalized_name": "2mg of asc41"
+    },
+    {
+      "arm_group_labels": [
+        "Cohort 2 High Dose"
+      ],
+      "description": "ASC41 tablets administered orally once daily.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "4mg of ASC41 (2 tablets of 2 mg ASC41)",
+      "normalized_name": "4mg of asc41 (2 tablets of 2 mg asc41)"
+    },
+    {
+      "arm_group_labels": [
+        "Cohort 1 Low Dose",
+        "Placebo tablet"
+      ],
+      "description": "Placebo tablets administered orally once daily.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "A histological change in NAFLD (nonalcoholic fatty liver disease) Activity Score (NAS) \u2265 2 points that results from reduction of necroinflammation (inflammation or ballooning) without worsening fibrosis. (The NAFLD Activity Score including steatosis, inflammation and ballooning. The maximum score of steatosis was 3 and the minimum score was 0, the maximum score of inflammation was 3 and the minimum score was 0, and the maximum score of ballooning was 2 and the minimum score was 0. The higher scores mean a worse outcome. \uff09",
+      "measure": "To evaluate the effect of ASC41 compared with placebo in noncirrhotic subjects with NASH by a histological change.",
+      "outcome_type": "primary",
+      "time_frame": "Baseline and Week 52"
+    },
+    {
+      "description": null,
+      "measure": "The incidence, type and severity of AEs/SAEs were assessed by CTCAE v5.0 to assess the safety and tolerability of ASC41 compared to placebo",
+      "outcome_type": "secondary",
+      "time_frame": "24 and 52 weeks"
+    },
+    {
+      "description": null,
+      "measure": "Change from baseline in hepatic fat fraction assessed by MRI-PDFF",
+      "outcome_type": "secondary",
+      "time_frame": "24 and 52 weeks"
+    },
+    {
+      "description": null,
+      "measure": "To evaluate the effect of ASC41 compared with placebo on serum lipids (cholesterol, HDL-C, LDL-C, triglycerides, Lp(a), VLDL)",
+      "outcome_type": "secondary",
+      "time_frame": "12, 24 and 52 weeks"
+    },
+    {
+      "description": "Measured after administration",
+      "measure": "Plasma pharmacokinetics - Peak Plasma Concentration (Cmax)",
+      "outcome_type": "secondary",
+      "time_frame": "1 and 15 Days"
+    },
+    {
+      "description": null,
+      "measure": "Plasma pharmacokinetics - Area under the plasma drug concentration versus time curve( AUC0-t_, AUC0-\u221e)",
+      "outcome_type": "secondary",
+      "time_frame": "1 and 15 Days"
+    },
+    {
+      "description": null,
+      "measure": "Plasma pharmacokinetics - The amount of time that a drug is present at the maximum concentration in serum(Tmax)",
+      "outcome_type": "secondary",
+      "time_frame": "1 and 15 Days"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This is a Phase 2, Double-Blind, Randomized, Multicenter, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Efficacy of ASC41 in Adults with Nonalcoholic Steatohepatitis (NASH).",
+    "brief_title": "Study to Evaluate the Safety, Tolerability, and Efficacy of ASC41 Tablets in Adult Patients With NASH",
+    "collaborator_names": [],
+    "completion_date": "2025-06-10",
+    "condition_labels": [
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Age \u2265 18 and \u2264 80 years old at screening.\n* Presence of \u2265 7.5% steatosis on screening MRI-PDFF read centrally by a radiologist and performed either during the screening period or within 6 months prior to the first visit.\n* HbA1c \u2264 9.5%.\n* Normal or minimally abnormal renal function as defined by estimated glomerular filtration rate (eGFR) \u2265 50 mL/min/1.73 m\\^2\n\nExclusion Criteria:\n\n* Presence or history of cirrhosis or evidence of decompensated liver disease (e.g., ascites, variceal bleeding) or hepatocellular carcinoma.\n* History or presence of other concomitant liver disease as assessed by the investigator or determined by laboratory findings.\n* Uncontrolled Type 2 diabetes mellitus (T2DM) defined as HbA1c of \\> 9.5% within 60 days prior to enrollment.\n* Change in anti-diabetic therapy within 6 months prior to qualifying liver biopsy.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 183,
+    "enrollment_type": "ACTUAL",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "2mg of ASC41",
+      "4mg of ASC41 (2 tablets of 2 mg ASC41)",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Non-alcoholic Fatty Liver Disease",
+      "NASH",
+      "ASC41",
+      "Phase II",
+      "THR-\u03b2"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-01-08",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "Gannex Pharma Co., Ltd.",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05462353",
+    "official_title": "A Phase II, Double-Blind, Randomized, Multicenter, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Efficacy of ASC41 in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2025-05-10",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05462353",
+    "start_date": "2022-09-30",
+    "study_first_posted_at": "2022-07-18",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -168,11 +168,16 @@ def build_request_params(config: FetchConfig, page_token: str | None = None) -> 
         params["query.intr"] = config.query_intr
     if config.query_locn:
         params["query.locn"] = config.query_locn
-    if config.filter_overall_status:
-        params["filter.overallStatus"] = config.filter_overall_status
     advanced_clauses: list[str] = []
     if config.filter_advanced:
         advanced_clauses.append(config.filter_advanced)
+    if config.filter_overall_status:
+        status_clause = " OR ".join(
+            f"AREA[OverallStatus]{status}" for status in config.filter_overall_status
+        )
+        if len(config.filter_overall_status) > 1:
+            status_clause = f"({status_clause})"
+        advanced_clauses.append(status_clause)
     if config.filter_phase:
         phase_clause = " OR ".join(f"AREA[Phase]{phase}" for phase in config.filter_phase)
         if len(config.filter_phase) > 1:

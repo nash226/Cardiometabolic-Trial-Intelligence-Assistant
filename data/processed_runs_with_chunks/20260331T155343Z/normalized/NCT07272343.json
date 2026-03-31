@@ -1,0 +1,192 @@
+{
+  "arms": [
+    {
+      "description": "The semaglutide group received weekly subcutaneous semaglutide (0.25 mg for weeks 1-2, 0.5 mg for weeks 3-4, and 1.0 mg for weeks 5-12).",
+      "intervention_names": [
+        "Drug: semaglutide"
+      ],
+      "label": "semaglutide group",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "The caloric restriction group followed a gender-specific daily caloric restriction (1,500-1,800 kcal for males; 1,200-1,500 kcal for females).",
+      "intervention_names": [
+        "Behavioral: caloric restriction"
+      ],
+      "label": "caloric restriction group",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Type 2 Diabetes Mellitus (T2DM)",
+      "normalized_name": "type_2_diabetes"
+    },
+    {
+      "is_primary": true,
+      "name": "Semaglutide",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Caloric Restriction",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Age 18-75 years;\n2. BMI\u226525 kg/m\u00b2;\n3. Diagnosed as type 2 diabetes mellitus patients according to the \"Guidelines for the Prevention and Treatment of Type 2 Diabetes in China (2020 Edition)\";\n4. HbA1c\u22648.5%;\n5. Duration of diabetes \u22643 months, and no use of antihyperglycemic drugs;\n6. Willing to participate in this study, and after full informed consent, agrees to strictly follow the treatment plan and promises to attend follow-up visits on time, and signs the informed consent form.\n\nExclusion Criteria:\n\n1. BMI \\< 25 kg/m\u00b2;\n2. Age \\< 18 years, or \\> 75 years;\n3. History of type 1 diabetes, acute pancreatitis, or diabetes secondary to pancreatectomy;\n4. History of bariatric surgery or planned bariatric surgery, or currently attempting weight loss within the past 3 months, or use of weight-loss medications within the past 3 months;\n5. Use of GLP-1 receptor agonists, sodium-glucose cotransporter 2 inhibitors, dipeptidyl peptidase-4 inhibitors, thiazolidinediones, or other related drugs within the past 3 months;\n6. Pregnant or breastfeeding women, or those planning to conceive during the study period;\n7. Patients with severe diseases of important organ systems, such as severe cardiovascular and cerebrovascular diseases, respiratory diseases, gastrointestinal diseases, renal insufficiency, hematologic diseases, neurological diseases, or malignancies;\n8. Personal or family history of medullary thyroid carcinoma;\n9. Patients with severe mental disorders or communication barriers that prevent accurate understanding of the study content and compliance with the trial procedures.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "semaglutide group"
+      ],
+      "description": "The semaglutide group received weekly subcutaneous semaglutide (0.25 mg for weeks 1-2, 0.5 mg for weeks 3-4, and 1.0 mg for weeks 5-12).",
+      "drug_class": "glp1_receptor_agonist",
+      "intervention_type": "DRUG",
+      "name": "semaglutide",
+      "normalized_name": "semaglutide"
+    },
+    {
+      "arm_group_labels": [
+        "caloric restriction group"
+      ],
+      "description": "The caloric restriction group followed a gender-specific daily caloric restriction (1,500-1,800 kcal for males; 1,200-1,500 kcal for females).",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "caloric restriction",
+      "normalized_name": "caloric restriction"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "glycated hemoglobin",
+      "measure": "HbA1c",
+      "outcome_type": "primary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    },
+    {
+      "description": "fasting plasma glucose",
+      "measure": "FPG",
+      "outcome_type": "primary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    },
+    {
+      "description": "2-hour postprandial glucose",
+      "measure": "2hPG",
+      "outcome_type": "primary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    },
+    {
+      "description": "homeostasis model assessment of insulin resistance",
+      "measure": "HOMA-IR",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    },
+    {
+      "description": "total cholesterol",
+      "measure": "TC",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    },
+    {
+      "description": "triglycerides",
+      "measure": "TG",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    },
+    {
+      "description": "low-density lipoprotein",
+      "measure": "LDL-C",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    },
+    {
+      "description": "high-density lipoprotein",
+      "measure": "HDL-C",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to the end of treatment at 12 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "To evaluate the effects of subcutaneous injection of semaglutide for 12 weeks on patients with type 2 diabetes mellitus (T2DM), compared with concurrent energy-restricted management, on glycemic control, weight loss, inflammatory markers, liver fat content, and other parameters. The study also observed the subcutaneous and visceral fat of the participants and explored the molecular mechanisms of action, providing high-quality evidence-based support for the timing and targets of intervention in this population.",
+    "brief_title": "The Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes",
+    "collaborator_names": [],
+    "completion_date": "2026-06-01",
+    "condition_labels": [
+      "type_2_diabetes"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Age 18-75 years;\n2. BMI\u226525 kg/m\u00b2;\n3. Diagnosed as type 2 diabetes mellitus patients according to the \"Guidelines for the Prevention and Treatment of Type 2 Diabetes in China (2020 Edition)\";\n4. HbA1c\u22648.5%;\n5. Duration of diabetes \u22643 months, and no use of antihyperglycemic drugs;\n6. Willing to participate in this study, and after full informed consent, agrees to strictly follow the treatment plan and promises to attend follow-up visits on time, and signs the informed consent form.\n\nExclusion Criteria:\n\n1. BMI \\< 25 kg/m\u00b2;\n2. Age \\< 18 years, or \\> 75 years;\n3. History of type 1 diabetes, acute pancreatitis, or diabetes secondary to pancreatectomy;\n4. History of bariatric surgery or planned bariatric surgery, or currently attempting weight loss within the past 3 months, or use of weight-loss medications within the past 3 months;\n5. Use of GLP-1 receptor agonists, sodium-glucose cotransporter 2 inhibitors, dipeptidyl peptidase-4 inhibitors, thiazolidinediones, or other related drugs within the past 3 months;\n6. Pregnant or breastfeeding women, or those planning to conceive during the study period;\n7. Patients with severe diseases of important organ systems, such as severe cardiovascular and cerebrovascular diseases, respiratory diseases, gastrointestinal diseases, renal insufficiency, hematologic diseases, neurological diseases, or malignancies;\n8. Personal or family history of medullary thyroid carcinoma;\n9. Patients with severe mental disorders or communication barriers that prevent accurate understanding of the study content and compliance with the trial procedures.",
+    "detailed_description": null,
+    "drug_class_labels": [
+      "glp1_receptor_agonist"
+    ],
+    "enrollment_count": 100,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "semaglutide",
+      "caloric restriction"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Type 2 Diabetes Mellitus",
+      "semaglutide",
+      "Caloric Restriction"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-12-09",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Second Affiliated Hospital of Nanchang University",
+    "masking": "NONE",
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07272343",
+    "official_title": "A Study on the Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes Combined With Metabolic-associated Fatty Liver Disease and Its Molecular Mechanisms",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-01-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07272343",
+    "start_date": "2023-02-10",
+    "study_first_posted_at": "2025-12-09",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D007004",
+          "term": "Hypoglycemic Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D005960",
+          "term": "Glucosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D052216",
+          "term": "Glucagon-Like Peptide 1"
+        },
+        {
+          "id": "D004763",
+          "term": "Glucagon-Like Peptides"
+        },
+        {
+          "id": "D052336",
+          "term": "Proglucagon"
+        },
+        {
+          "id": "D005768",
+          "term": "Gastrointestinal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000077203",
+          "term": "Sodium-Glucose Transporter 2 Inhibitors"
+        },
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        },
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        },
+        {
+          "id": "D000068896",
+          "term": "Canagliflozin"
+        },
+        {
+          "id": "C000705992",
+          "term": "bexagliflozin"
+        },
+        {
+          "id": "D000069450",
+          "term": "Liraglutide"
+        },
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        },
+        {
+          "id": "C555680",
+          "term": "dulaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "We will examine the effect of GLP-1 RA on pancreatic beta cell function as measured by insulin, C-peptide and glucose serum concentrations during OGTT.",
+          "interventionNames": [
+            "Drug: GLP1-RA"
+          ],
+          "label": "GLP1-RA",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "We will examine the effect of SGLT-2i on pancreatic beta cell function as measured by insulin, C-peptide and glucose serum concentrations during OGTT",
+          "interventionNames": [
+            "Drug: SGLT-2 inhibitor"
+          ],
+          "label": "SGLT-2i",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "SGLT-2i"
+          ],
+          "description": "SGLT-2 inhibitors block the SGLT-2 receptor",
+          "name": "SGLT-2 inhibitor",
+          "otherNames": [
+            "empagliflozin (Jardiance\u00ae)",
+            "dapagliflozin (Farxiga\u00ae)",
+            "canagliflozin (Invokana\u00ae)",
+            "bexagliflozin (Brenzavvy\u00ae)"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "GLP1-RA"
+          ],
+          "description": "GLP-1 RAs stimulate the GLP-1 Receptor",
+          "name": "GLP1-RA",
+          "otherNames": [
+            "liraglutide (Victoza)",
+            "semaglutide (Ozempic)",
+            "dulaglutide (Trulicity)"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes (T2DM)"
+      ],
+      "keywords": [
+        "Beta Cell Function",
+        "Type 2 diabetes",
+        "Black African American",
+        "Diabetes metabolism",
+        "GLP-1 receptor Agonist",
+        "SGLT-2 inhibitor",
+        "medication effects in Type 2 Diabetes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Brooklyn",
+          "country": "United States",
+          "facility": "SUNY Downstate Health Sciences University",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          },
+          "state": "New York",
+          "zip": "11203"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "SUNY DOwnstate Health Sciences Center, Brooklyn, New York 11203",
+          "name": "Mary Ann Banerji, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Minorities have higher rates of diabetes, poorer glucose control, and higher complications and mortality rates than white people. Several recently approved diabetes medicines improve cardiovascular and renal outcomes through two different mechanisms. This study will explore key determinants of blood glucose levels namely beta cell function after short-term randomized, parallel group treatment with FDA approved Glucagon-Like Peptide-1 Receptor Agonists\u00ac (GLP-1 RA), or FDA approved Sodium-Glucose co-Transporter-2 Inhibitor (SGLT-2i). Because diabetes in black people shows a unique ability to recover pancreatic insulin secretion, it is important to determine whether the effects of these drug classes differentially improve pancreatic beta cell function.",
+      "detailedDescription": "Approximately 200 black people with DM2 will be screened, then stabilized on diet and exercise alone, metformin alone or metformin plus a sulfonylurea. Following stabilization, those meeting study entry criteria will be offered the treatment study with 60 randomized to 4 months of treatment with GLP-1 RA or a SGLT-2i administered according to FDA approved guidelines. After an overnight fast, an oral glucose tolerance test (OGTT) will be completed prior to randomization and after 4 months, or at earlier study termination.\n\nScreening Visit Screening consent, medical history and physical exam (including height and weight) will be obtained, as well as baseline blood work (complete blood count, fasting glucose, A1c, lipid profile, BUN, creatinine and thyroid panel), electrocardiogram (EKG) and pregnancy test (if capable of conception).\n\nPost-screening Visits These will occur monthly with additional visits as needed and may be by telephone or in-person, as determined by patient and staff. Adverse events, report of finger stick glucose determinations will be obtained. If in-person, weight and blood glucose (optional) will be obtained.\n\nFinal Screening Visit (In-person) Once stabilized, participants will be evaluated for whether they meet all study Inclusion Criteria and none of the study Exclusion Criteria. Weight, finger stick report, and adverse events will be obtained. Laboratory specimens (as above), EKG and pregnancy test will also be obtained.\n\nAfter explanation of the study, including its voluntary nature, those meeting study entry criteria will be asked to read and sign the study consent form and scheduled for their Randomization Visit and baseline OGTT.\n\nRandomization Visit After an over-night fast, the study's Inclusion and Exclusion Criteria will be reassessed to confirm eligibility. The 60 eligible participants will have a standard 75 mg oral glucose tolerance test (OGTT). A catheter is inserted in the forearm for the 2-3 hours with blood withdrawn through the catheter at -10 and 0 and +10, + 20, +30, +45, +60, +90 and +120 minutes. Samples will be analyzed for glucose, insulin, and C-peptide; extra blood will be stored for possible later analyses of other blood elements, such as other hormones and metabalolomics.\n\nMonth 1, 2 and 3 Visits Logs of finger sticks and weight will be obtained, as well as specific queries about possible adverse events.\n\nFinal Study Visit (Month 4 or earlier for premature ending of study) Finger stick log, weight, adverse events and end-study OGTT will be obtained, as at the Randomization Visit."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants will be randomized to marketed SGLT-2 inhibitors including empafliflozin or dapagliflozin versus GLP-1 receptor agonists (semaglutide, liraglutide or dulaglutide). The specific member of the class will determined by insurance copberage, pharmacy availablility or patient preference.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Agrees to participate (signs and dates the informed consent) and agrees to all study procedures and conditions of the protocol.\n2. Black (self-identified) patients with relatively recent onset (\\< 15 years) DM2\n3. aged \\>= 24 years of age (adults \\< age 24 years old need additional resources to consistently participate, and may have different metabolism)\n4. HbA1c between 6.9% and 10%, inclusive\n5. BMI \\> 23 and \\< 45 kg/m2, and stable body weight over 2 months\n6. In good general health, as evidenced by medical history and physical examination. And not having any of the specific items of the exclusion criteria.\n7. Currently taking no diabetes medication or on stable doses (2 months) of metformin or metformin plus sulfonylureas without additional diabetes medication(s).\n8. Ability to take and agree to taking oral medication and to self-inject\n9. For persons of reproductive potential: negative pregnancy test, use of effective contraception for at least 1 month prior to screening, and agreement to use such a method during study participation, and for an additional 4 weeks after completing the use of the study drug. They will be counseled that if they wish to become pregnant, they should follow the standard practice of optimizing their blood glucose in preparation for pregnancy. Use of these study drugs are not considered standard of care for diabetes during pregnancy. Effective contraception includes tubal ligation, hysterectomy, oral, implanted or injected contraceptives, mechanical (IUD) and barriers (diaphragm, condoms, spermicides) methods.\n10. Agreement to adhere to Lifestyle Considerations (see section 5.3) throughout the study, including following a diabetic diet and maintaining a physical activity program\n\nExclusion Criteria:\n\n1. Poor general health, low kidney function (eGFR \\< 45), abnormal liver blood tests (AST and ALT \\> 3 times the ULN, Bilirubin 2 x ULN), serious cardiovascular, liver or renal disease, known proliferative retinopathy, type 1 diabetes, pancreatitis or pancreas cancer, medullary thyroid cancer, MEN2 (or family history of MEN2), current low hematocrit (\\< 35% for men and 33% for women, frailty, at risk for falls, current (past six months) alcohol or substance use disorder, history of a non-traumatic bone fracture, amputation, organ transplant, HIV or COVID, or if the patient cannot complete study activities.\n2. Current regular use of DDP-4 inhibitors, insulin or GLP-1 RA or SGLT2-inhibitors\n3. Currently pregnant, planned pregnancy in the next 7 months or nursing/lactating.\n4. Known allergic reactions to either the study medication\n5. Treatment with another investigational drug or other intervention within 4 months, or plan to enroll in another interventional study during their participation in this study\n6. Planned major surgery\n7. Recent (within 6 months): MI, Stroke, Cerebrovascular accident or unstable angina or revascularization procedures, grade 3 or 4 heart failure\n8. Use of weight loss medication, weight loss surgery.\n9. Use of glucocorticoids for chronic illness within 8 weeks prior to screening or likely to begin glucocorticoids during study period\n10. Study doctor considers subject a poor study candidate\n11. Cancer - History of active or untreated malignancy or in remission from a clinically significant malignancy for \\< 5 years; exception: basal cell carcinoma of the skin.",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "24 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "Beta",
+      "briefTitle": "Beta Cell Function in Type 2 Diabetes: Differential Effects of SGLT2 Inhibitors and GLIP-Receptor Agonists",
+      "nctId": "NCT07325435",
+      "officialTitle": "Beta Cell Function in Type 2 Diabetes in Black Patients: Differential Effects of SGLT2 Inhibitors and GLIP-Receptor Agonists",
+      "orgStudyIdInfo": {
+        "id": "1876088 SUNY Downstate Medical"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "State University of New York - Downstate Medical Center"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "New York Community Trust",
+          "id": "New York Community Trust",
+          "type": "OTHER_GRANT"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "description": "IRB approval is not for data sharing.",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Primary Outcome Measure: The stimulated c-peptide index a primary outcome measure and is measured at baseline and 16 weeks. Change in the stimulated c-peptide index is the 16 week value minus the baseline.\n\nHigher numbers of the c-peptide index indicate better beta cell function while lower numbers indicated worse beta cell function.\n\nThe stimulated c-peptide index is a calculated ratio of the c-peptide (ng/ml) to glucose levels (mg/dl) used to assess pancreatic beta cell function. It is calculated as the incremental area under the curve (AUC) of plasma C-peptide divided by the incremental AUC of plasma glucose (\u2206C-peptide 0-120/\u2206 Glucose 0-120). The outcome measure of plasma c-peptide (ng/ml) and plasma glucose (mg/dl), during the OGTT (after an overnight fast) at -15, 0, 10, 30, 45, 60, 90 and 120 minutes are combined into one primary outcome variable.",
+          "measure": "Change in Stimulated C-peptide Index during an Oral Glucose Tolerance Test is a measure of Beta Cell Function and will be measuresd at baseline and at 16 weeks after treatment with GLP-1 Receptor Agonist or SGLT2-Inhibitor",
+          "timeFrame": "Baseline, 16 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Description: The outcome measure for glycemic control is hemoglobin A1c (%) measured at baseline and at 16 weeks. Change in hemoglobin A1c is the 16 week value minus the baseline.\n\nA negative change in hemoglobin A1c is an improvement in glucose control while a positive change suggests worsening outcomes.",
+          "measure": "1 . Title: Change in Glycemic Control Measured at Baseline and 16 Weeks of Treatment with GLP-1 receptor Agonist or SGLT-2 Inhibitors",
+          "timeFrame": "Baseline, 16 weeks"
+        },
+        {
+          "description": "The outcome measure of body weight in Kg will be measured at baseline and 16 weeks. Change in body weight is the value at 16 weeks minus the baseline. A negative change in body weight is an improvement in weight while a positive change may suggest worsening body weight",
+          "measure": "Change in Body Weight from Baseline and 16 Weeks of Treatment with GLP-1 receptor Agonist or SGLT-2 inhibitors",
+          "timeFrame": "Baseline, 16 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "McGill JB, Subramanian S. Safety of Sodium-Glucose Co-Transporter 2 Inhibitors. Am J Cardiol. 2019 Dec 15;124 Suppl 1:S45-S52. doi: 10.1016/j.amjcard.2019.10.029.",
+          "pmid": "31741440",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ali AM, Mari A, Martinez R, Al-Jobori H, Adams J, Triplitt C, DeFronzo R, Cersosimo E, Abdul-Ghani M. Improved Beta Cell Glucose Sensitivity Plays Predominant Role in the Decrease in HbA1c with Cana and Lira in T2DM. J Clin Endocrinol Metab. 2020 Oct 1;105(10):dgaa494. doi: 10.1210/clinem/dgaa494.",
+          "pmid": "32745202",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Mari A, Nielsen LL, Nanayakkara N, DeFronzo RA, Ferrannini E, Halseth A. Mathematical modeling shows exenatide improved beta-cell function in patients with type 2 diabetes treated with metformin or metformin and a sulfonylurea. Horm Metab Res. 2006 Dec;38(12):838-44. doi: 10.1055/s-2006-956505.",
+          "pmid": "17163361",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Mari A, Schmitz O, Gastaldelli A, Oestergaard T, Nyholm B, Ferrannini E. Meal and oral glucose tests for assessment of beta -cell function: modeling analysis in normal subjects. Am J Physiol Endocrinol Metab. 2002 Dec;283(6):E1159-66. doi: 10.1152/ajpendo.00093.2002. Epub 2002 Aug 6.",
+          "pmid": "12388151",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Mari A, Tura A, Gastaldelli A, Ferrannini E. Assessing insulin secretion by modeling in multiple-meal tests: role of potentiation. Diabetes. 2002 Feb;51 Suppl 1:S221-6. doi: 10.2337/diabetes.51.2007.s221.",
+          "pmid": "11815483",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Rasouli N, Younes N, Utzschneider KM, Inzucchi SE, Balasubramanyam A, Cherrington AL, Ismail-Beigi F, Cohen RM, Olson DE, DeFronzo RA, Herman WH, Lachin JM, Kahn SE; GRADE Research Group. Association of Baseline Characteristics With Insulin Sensitivity and beta-Cell Function in the Glycemia Reduction Approaches in Diabetes: A Comparative Effectiveness (GRADE) Study Cohort. Diabetes Care. 2021 Feb;44(2):340-349. doi: 10.2337/dc20-1787. Epub 2020 Dec 17.",
+          "pmid": "33334808",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Defronzo RA. Banting Lecture. From the triumvirate to the ominous octet: a new paradigm for the treatment of type 2 diabetes mellitus. Diabetes. 2009 Apr;58(4):773-95. doi: 10.2337/db09-9028. No abstract available.",
+          "pmid": "19336687",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Banerji MA, Chaiken RL, Huey H, Tuomi T, Norin AJ, Mackay IR, Rowley MJ, Zimmet PZ, Lebovitz HE. GAD antibody negative NIDDM in adult black subjects with diabetic ketoacidosis and increased frequency of human leukocyte antigen DR3 and DR4. Flatbush diabetes. Diabetes. 1994 Jun;43(6):741-5. doi: 10.2337/diab.43.6.741.",
+          "pmid": "8194658",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Banerji MA, Chaiken RL, Lebovitz HE. Long-term normoglycemic remission in black newly diagnosed NIDDM subjects. Diabetes. 1996 Mar;45(3):337-41. doi: 10.2337/diab.45.3.337.",
+          "pmid": "8593939",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Hakim O, Bonadonna RC, Mohandas C, Billoo Z, Sunderland A, Boselli L, Alberti KGMM, Peacock JL, Umpleby AM, Charles-Edwards G, Amiel SA, Goff LM. Associations Between Pancreatic Lipids and beta-Cell Function in Black African and White European Men With Type 2 Diabetes. J Clin Endocrinol Metab. 2019 Apr 1;104(4):1201-1210. doi: 10.1210/jc.2018-01809.",
+          "pmid": "30407535",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Banerji MA, Chaiken RL, Gordon D, Kral JG, Lebovitz HE. Does intra-abdominal adipose tissue in black men determine whether NIDDM is insulin-resistant or insulin-sensitive? Diabetes. 1995 Feb;44(2):141-6. doi: 10.2337/diab.44.2.141.",
+          "pmid": "7859931",
+          "type": "BACKGROUND"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "accessdataFDA.gov ( PDRs) of the medicine Empagliflozin",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/204629s008lbl.pdf"
+        },
+        {
+          "label": "accessdataFDA.gov ( PDRs) of the medicine liraglutide.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/022341s027lbl.pdf"
+        },
+        {
+          "label": "accessdataFDA.gov ( PDRs) of the medicine semaglutide.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/022341s027lbl.pdf"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "The New York Community Trust"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "MaryAnn Banerji"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "State University of New York - Downstate Medical Center",
+        "investigatorFullName": "MaryAnn Banerji",
+        "investigatorTitle": "Professor of Medicine, Endocrinologist",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-06",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-12-21",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-08",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-18",
+      "studyFirstSubmitQcDate": "2026-01-06"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT03900429:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT03900429\nBrief title: A Phase 3 Study to Evaluate the Efficacy and Safety of MGL-3196 (Resmetirom) in Patients With NASH and Fibrosis\nOfficial title: A Phase 3, Multinational, Double-Blind, Randomized, Placebo-Controlled Study of MGL-3196 (Resmetirom) in Patients With Non-Alcoholic Steatohepatitis (NASH) and Fibrosis to Resolve NASH and Reduce Progression to Cirrhosis and/or Hepatic Decompensation\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 64,
+      "trial_nct_id": "NCT03900429"
+    },
+    {
+      "chunk_id": "NCT03900429:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: NASH - Nonalcoholic Steatohepatitis\nIntervention labels: MGL-3196; Placebo; Liver Biopsy\nDrug class labels: \nArms: Matching Placebo; 80 mg MGL-3196; 100 mg MGL-3196\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT03900429"
+    },
+    {
+      "chunk_id": "NCT03900429:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A double-blind placebo controlled randomized Phase 3 study to determine if 80 or 100 mg of MGL-3196 as compared with placebo resolves NASH and/or reduces fibrosis on liver biopsy and prevents progression to cirrhosis and/or advanced liver disease\nDetailed description: Primary and secondary endpoint population at Week 52 will be at least 900 patients, more than half fibrosis score 3 (F3), the remainder fibrosis score 2 (F2) and \\<10% fibrosis score F1B (F1B) based on final liver biopsy baseline fibrosis score.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 83,
+      "trial_nct_id": "NCT03900429"
+    },
+    {
+      "chunk_id": "NCT03900429:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Must be willing to participate in the study and provide written informed consent.\n2. Male and female adults \u2265 18 years of age.\n3. Suspected or confirmed diagnosis of NASH fibrosis suggested by the historical data. Meet one of the following criteria that is consistent with NASH liver fibrosis:\n\n   1. Historical biochemical test for fibrosis: PRO-C3 \\>14 ng/mL or ELF \u22659\n   2. FibroScan with transient elastography \u22658.5 kPa and controlled attenuation parameter \u2265280 dB.m-1\n   3. Historical liver biopsy obtained \\<2 years before expected randomization showing Stage 1B, 2 or 3 fibrosis with NASH based on existing pathology review, with no significant change in body weight \\>5% or medication that might affect NAS or fibrosis stage.\n4. MRI-PDFF fat fraction \u22658% obtained during the screening period\n5. Biopsy-proven NASH (baseline liver biopsy) based on a liver biopsy obtained \u22646 months before anticipated date of randomization (if the biopsy is deemed acceptable for interpretation by the central reader) with fibrosis stage 1A/1C, 1B, 2, or 3 on liver biopsy and NAS of \u22654 with a score of at least 1 in each of the following NAS components:\n\n   1. Steatosis (scored 0 to 3)\n   2. Ballooning degeneration (scored 0 to 2)\n   3. Lobular inflammation (scored 0 to 3)\n\nExclusion Criteria:\n\n1. History of significant alcohol consumption for a period of more than 3 consecutive months within 1 year prior to Screening.\n2. Regular use of drugs historically associated with NAFLD\n3. Thyroid diseases:\n\n   1. Active hyperthyroidism.\n   2. Untreated clinical hypothyroidism defined by thyroid stimulating hormone (TSH) \\>7 IU/L with symptoms of hypothyroidism or \\>10 IU/L without symptoms.\n   3. Patients who have had a thyroidectomy and are on replacement thyroxine doses \\>75 \u00b5g per day are allowed.\n4. History of bariatric surgery or intestinal bypass surgery within the 5 years prior to randomization or planned during the conduct of the study.\n5. Recent significant weight gain or loss\n6. HbA1c \u2265 9.0%.\n7. Glucagon-like peptide 1 \\[GLP-1\\] agonist, high dose Vitamin E (\\> 400 IU/day), or pioglitazone therapy unless stable dose for 24 weeks prior to biopsy.\n8. Presence of cirrhosis on liver biopsy defined as stage 4 fibrosis.\n9. Diagnosis of hepatocellular carcinoma (HCC).\n10. MELD score \u226512, as determined at Screening, unless due to therapeutic anti coagulation.\n11. Hepatic decompensation\n12. Chronic liver diseases other than NASH\n13. Active autoimmune disease\n14. Serum ALT \\> 250 U/L.\n15. Active, serious medical disease with a likely life expectancy \\< 2 years.\n16. Participation in an investigational new drug trial in the 60 days or 5 half-lives, whichever is longer.\n17. Any other condition which, in the opinion of the Investigator, would impede compliance, hinder completion of the study, compromise the well-being of the patient, or interfere with the study outcomes.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 477,
+      "trial_nct_id": "NCT03900429"
+    },
+    {
+      "chunk_id": "NCT03900429:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Week 52 Dual Primary Objectives: To determine the effect of 80 or 100 mg MGL-3196 vs matching placebo on liver biopsy (NASH CRN score) at Week 52 compared with Baseline | time_frame=52 weeks | description=1. Proportion with resolution of NASH (ballooning 0, inflammation 0,1) associated with at least 2-point reduction in NAFLD Activity Score (NAS) without worsening of fibrosis stage OR\n2. Proportion with at least a 1-point improvement in fibrosis stage with no worsening of NAS\ntype=primary | measure=Month 54 Primary Objective: Time to experiencing an adjudicated Composite Clinical Outcome event (Final Primary Endpoint, at 54 months) | time_frame=up to 54 months | description=The Composite Clinical Outcome is composed of all-cause mortality, liver transplant, and significant hepatic events (including hepatic decompensation events \\[ascites, encephalopathy, or gastroesophageal variceal hemorrhage\\], histological progression to cirrhosis, and a confirmed increase of MELD score from \\<12 to \u226515).\ntype=secondary | measure=Week 52 Key Secondary Objective: To determine the effect of once-daily, oral administration of MGL-3196 80 or 100 mg versus matching placebo on the percent change from Baseline at 24 weeks in directly measured low-density lipoprotein cholesterol (LDL-C) | time_frame=24 weeks | description=Assess the effect of MGL-3196 80 mg or 100 mg compared to placebo on LDL-C measured by percent change from Baseline at 24 weeks.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 214,
+      "trial_nct_id": "NCT03900429"
+    },
+    {
+      "chunk_id": "NCT03900429:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2019-03-28\nPrimary completion date: 2028-01\nCompletion date: 2028-01\nStudy first posted: 2019-04-03\nResults first posted: None\nLast update posted: 2024-02-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT03900429"
+    },
+    {
+      "chunk_id": "NCT03900429:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Madrigal Pharmaceuticals, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT03900429"
+    }
+  ],
+  "trial_nct_id": "NCT03900429"
+}

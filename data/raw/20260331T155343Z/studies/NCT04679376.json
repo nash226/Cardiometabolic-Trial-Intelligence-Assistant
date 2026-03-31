@@ -1,0 +1,322 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2025-07-22",
+          "filename": "ICF_000.pdf",
+          "hasIcf": true,
+          "hasProtocol": false,
+          "hasSap": false,
+          "label": "Informed Consent Form",
+          "size": 652788,
+          "typeAbbrev": "ICF",
+          "uploadDate": "2026-01-06T17:03"
+        }
+      ]
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Subjects who have a histology-proved NASH with fibrosis stage 2 or higher will receive atorvastatin for 96 weeks",
+          "interventionNames": [
+            "Drug: Atorvastatin"
+          ],
+          "label": "Group 1: Atorvastatin Treatment",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Subjects who have a histology-proved NASH with fibrosis stage 2 or higher will receive a placebo for 96 weeks",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Group 2: Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Group 1: Atorvastatin Treatment"
+          ],
+          "description": "40 mg daily administered orally in tablet or capsule form",
+          "name": "Atorvastatin",
+          "otherNames": [
+            "Lipitor"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Group 2: Placebo"
+          ],
+          "description": "Administered daily orally in tablet or capsule form, contains no active medicine",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NASH - Nonalcoholic Steatohepatitis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Rochester",
+          "country": "United States",
+          "facility": "Mayo Clinic Minnesota",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          },
+          "state": "Minnesota",
+          "zip": "55905"
+        },
+        {
+          "city": "Durham",
+          "country": "United States",
+          "facility": "Duke University Medical Center",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          },
+          "state": "North Carolina",
+          "zip": "27710"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Mayo Clinic",
+          "name": "Manal Abdelmalek, MD, MPH",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to determine whether the study drug, atorvastatin (Lipitor\u00ae), is safe and effective in improving the features of NASH."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Definite NASH on a liver biopsy obtained \u2264 90 days prior to randomization with a NAFLD activity score (NAS) of \u2265 4 with at least 1 in each component of the NAS according to NASH CRN grading52\n* Fibrosis stage \u2265 2 as assessed by liver biopsy\n* Not currently on statin therapy\n* Provision of written informed consent\n* Agree to use of effective contraceptive measures if female of child bearing potential.\n\nExclusion Criteria:\n\n* The presence of any of the following will exclude a subject from study enrollment: Any chronic liver disease other than NASH (i.e., drug-induced, viral hepatitis, autoimmune hepatitis, primary biliary cirrhosis, primary sclerosing cholangitis, hemochromatosis, A1AT deficiency, Wilsons disease)\n* Cirrhosis, as assessed clinically or histologically\n* Presence of vascular liver disease\n* BMI \u2264 25 kg/m2\n* Excessive alcohol use (\\> 20 g/day) within the past 2 years\n* AST or ALT \\> 250 U/L.\n* Type 1 diabetes mellitus\n* Bariatric surgery in the past 5 years.\n* Weight gain of \\> 5% in past 6 months or \\> 10% change in past 12 months.\n* Inadequate venous access\n* HIV antibody positive, hepatitis B surface antigen positive (HBsAg), or HCV RNA positive.\n* Receiving an elemental diet or parenteral nutrition\n* Chronic pancreatitis or pancreatic insufficiency\n* Any history of complications of cirrhosis (i.e. ascites, hepatic encephalopathy, or portal hypertensive bleeding), even if absent or optimized with medical management at time of screening\n* Concurrent conditions: a) Inflammatory bowel disease, b) Unstable angina, myocardial infarction, transient ischemic events, or stroke within 24 weeks of screening, c) Ongoing infectious, immune mediated disease within previously 1 years, d) Any malignant disease (other than basal cell carcinoma of the skin) within previous 5 years, e) Prior solid organ transplant, f) Any other concurrent condition which, in the opinion of the investigator, could impact adversely on the subject participating or the interpretation of the study data.\n* Concurrent medications including: a) Anti-NASH therapy(s) initiated after the liver biopsy diagnosing NASH. Anti-NASH therapies include S-adenosyl methionine (SAMe), milk thistle, and vitamin E at dose of \u2265 400 IU/day; b) Antidiabetic mediation which may impact NASH histology started in the past 12 months including thiazolidinediones (glitazones), dipeptidyl peptidase 4 inhibitors (gliptins) or glucagon-like peptide 1 analogs; c) Immune modulatory agents including systemic steroids, methotrexate, anti-TNF-\u03b1 therapies (infliximab, adalimumab, etanercept) or anti-integrin therapy (namixilab).\n* Self-reported or known marijuana or illicit drug use 30 days before the screening\n* The following laboratory abnormalities within 90 days of screening: a) HbA1C \\> 9.0%, b) Neutrophil count \\< 1.0 x 109/L, c) Platelets \\< 100 109/L, d) Hemoglobin \\< 10 g/dl, e) Albumin \\< 3.5 g, f) Prolonged international normalized ratio (INR), g) Any elevation of bilirubin above normal (unless Gilbert's syndrome or extrahepatic source as denoted by increased indirect bilirubin fraction), h) Serum creatinine \\> 1.5 mg/dl, i) Creatinine clearance \u2264 50 ml/minute calculated by Crockroft-Gault or creatinine \\> 1.5x upper limit of normal\n* Pregnancy or breastfeeding.\n* Women, of childbearing age, who are not willing to practice effective contraception (i.e., barrier, oral contraceptives, or past medical history of hysterectomy) for the 48-week duration of the trial and for 1 month after the first administration of the drug.\n* Participation in an investigational drug study within past 3 months.",
+      "healthyVolunteers": false,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "STAT NASH",
+      "briefTitle": "Statins for the Treatment of NASH",
+      "nctId": "NCT04679376",
+      "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Phase 2 Clinical Trial to Evaluate the Safety and Efficacy of Statins in Adult Patients With Non-Alcoholic Steatohepatitis (NASH)",
+      "orgStudyIdInfo": {
+        "id": "22-007824"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Mayo Clinic"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "One overall score of NASH improvement will be derived from improvement in NAS score OR no worsening in fibrosis.",
+          "measure": "Change in NASH as measured by improvement in NAS score Improvement in NAS score (\u2265 2 points) with no worsening in fibrosis stage (\u22651 point) OR improvement in fibrosis with no worsening of NASH (change in the NAS score of \u2264 0 points).",
+          "timeFrame": "Baseline, 96 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Histological change from NASH to No NASH",
+          "measure": "NASH resolution as measured by (diagnosis by pathologist) (from definite- to not- NASH).....",
+          "timeFrame": "Baseline, 96 weeks"
+        },
+        {
+          "description": "Ordinal variable",
+          "measure": "Change in fibrosis stage as measured by change in stage",
+          "timeFrame": "Baseline, 96 weeks"
+        },
+        {
+          "description": "Existing features may improve in severity or disappear as an indication of improvement of NASH.",
+          "measure": "Change in each component of NASH histologic features as measured by presence or ab presence or absence of features or their severity.",
+          "timeFrame": "Baseline, 96 weeks"
+        },
+        {
+          "measure": "Change in serum aminotransferase (ALT) and aspartate aminotransferase (AST) levels as measured by plasma concentrations",
+          "timeFrame": "Baseline, 96 weeks"
+        },
+        {
+          "measure": "Change in makers of hepatic fibrosis markers as measured by (FIB-4,51 liver stiffness by Fibroscan\u00ae)",
+          "timeFrame": "Baseline, 96 weeks"
+        },
+        {
+          "measure": "Change in capture attention parameter (CAP) score (with Fibroscan\u00ae)",
+          "timeFrame": "Baseline, 96 weeks"
+        },
+        {
+          "measure": "Serum creatine phosphokinase (CPK) as measured by serum concentration",
+          "timeFrame": "Baseline, 96 weeks"
+        },
+        {
+          "measure": "Change in serum lipids as measured by serum concentration",
+          "timeFrame": "Baseline, 96 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Mayo Clinic Clinical Trials",
+          "url": "https://www.mayo.edu/research/clinical-trials"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Mayo Clinic"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Mayo Clinic",
+        "investigatorFullName": "Manal F. Abdelmalek",
+        "investigatorTitle": "Principal Investigator",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-16",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-01-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2020-12-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-12-17",
+      "studyFirstSubmitQcDate": "2020-12-17"
+    }
+  }
+}

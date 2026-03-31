@@ -1,0 +1,243 @@
+{
+  "arms": [
+    {
+      "description": "In the control group, no other intervention was used except the basic drugs for diabetes treatment",
+      "intervention_names": [],
+      "label": "control",
+      "type": "NO_INTERVENTION"
+    },
+    {
+      "description": "Subcutaneous injection of semaglutide 0.5-1mg \uff08dosage depends on individual body weight\uff09once a week (not off-label use)\uff0clasting 12 weeks",
+      "intervention_names": [
+        "Drug: Glucagon-like peptide-1 receptor agonist\uff1aSemaglutide"
+      ],
+      "label": "GLP-1RA intervention group",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Type 2 Diabetes",
+      "normalized_name": "type_2_diabetes"
+    },
+    {
+      "is_primary": true,
+      "name": "Diabetes With Diabetic Autonomic Neuropathy (Diagnosis)",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Patients aged 18-70 years\n2. Patients with T2DM who meet the diagnostic guidelines\n3. The patient signed the relevant informed consent form\n4. Being overweight or obese\n\nExclusion Criteria:\n\n1. \\<18 years old\n2. Pregnant or lactating women\n3. Acute and chronic pancreatitis\n4. Recent acute complications of diabetes\n5. Arrhythmia or taking drugs that affect heart rate\n6. Thyroid disease\n7. Severe organ dysfunction\n8. Denial of informed consen",
+    "healthy_volunteers": false,
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "GLP-1RA intervention group"
+      ],
+      "description": "The GLP-1RA intervention group was given subcutaneous injection of GLP-1RA for 3 months, while the control group was not given GLP-1RA intervention",
+      "drug_class": "glp1_receptor_agonist",
+      "intervention_type": "DRUG",
+      "name": "Glucagon-like peptide-1 receptor agonist\uff1aSemaglutide",
+      "normalized_name": "glucagon-like peptide-1 receptor agonist\uff1asemaglutide"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "All participants were given ambulatory electrocardiogram.The time domain analysis and frequency domain analysis of heart rate variability are included in the holter ECG report.",
+      "measure": "heart rate variability\uff08HRV\uff09",
+      "outcome_type": "primary",
+      "time_frame": "baseline and 12 weeks later"
+    },
+    {
+      "description": "Take an average of 6 deep breaths per minute, record the difference between the maximum heart rate and the minimum heart rate during deep breathing",
+      "measure": "E/I difference",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "The heart rate in lying position was measured, and the R-R interval in more than 30 beats was measured after standing, and the ratio between the longest R-R interval in the 25-35 beats and the shortest R-R interval in the 10-15 beats after standing was calculated",
+      "measure": "30/15 ratio",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "After deep inhalation, hold your breath as much as possible, and then blow air into the modified sphygmomanometer to keep the pressure of the sphygmomanometer at 40mmHg, continue for 10-15s, and then relax for 1 minute, a total of 3 minutes. At the same time, ECG was recorded to record the ratio of maximum heart rate to minimum heart rate",
+      "measure": "Valsalva action",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "Blood pressure was measured in the supine position. The patient was asked to stand immediately, and blood pressure was measured at the first and fifth minutes",
+      "measure": "the difference between lying and Orthostatic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "First, the basic blood pressure and the maximum grip strength were measured, and the blood pressure was measured after 5 minutes of continuous hard clenching with the grip apparatus (the force used was 30% of the maximum grip strength measured), and the blood pressure difference was calculated",
+      "measure": "grip strength tests",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "It is calculated by dividing a person's weight in kg by their height in meters squared",
+      "measure": "BMI",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "Fasting glucose",
+      "measure": "FBG",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "Fasting insulin",
+      "measure": "Fins",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "Fasting c-peptide",
+      "measure": "Fc-peptide",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "calculated by HOMA Calculator v2.2.3",
+      "measure": "HOMA-IR",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "Reflect the average blood sugar of 3 months",
+      "measure": "HbA1c",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "one of serum biochemical index",
+      "measure": "Total cholesterol",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "one of serum biochemical index",
+      "measure": "triglyceride",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "high-density lipoprotein\uff0cone of serum biochemical index",
+      "measure": "HDL",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "low density lipoprotein\uff0cone of serum biochemical index",
+      "measure": "LDL",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "Uric Acid\uff0cone of serum biochemical index",
+      "measure": "UA",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "one of serum biochemical index",
+      "measure": "creatinine",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "Estimated glomerular filtration rate\uff0cone of serum biochemical index",
+      "measure": "eGFR",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    },
+    {
+      "description": "urine protein test urine protein urine protein test",
+      "measure": "Urinary trace albumin/urinary creatinine",
+      "outcome_type": "secondary",
+      "time_frame": "basline and 12 weeks later"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Diabetic cardiac autonomic neuropathy (DCAN) is a common chronic complication that reduces survival in patients with diabetes. Epidemiological surveys have shown that the prevalence of DCAN is 25-75% in people with type 2 diabetes. The onset of DCAN is insidious and easy to be ignored in the early stage. With the progression of the disease, the following clinical symptoms gradually appear, including reduced heart rate variability, exercise intolerance, resting tachycardia, orthostatic hypotension, painless myocardial infarction and even sudden death, which seriously endanger the life and health of type 2 diabetes patients. Existing literature has shown that glucagon-like peptide-1 receptor agonist (GLP-1RA) can improve diabetic peripheral neuropathy and diabetic cognitive dysfunction, but there are few studies on improving diabetic autonomic neuropathy. Insulin resistance is an important risk factor for DCAN. Patients with type 2 diabetes are characterized by insulin resistance, and GLP-1RA is recognized as a drug to improve insulin resistance and control blood sugar in patients with diabetes. In this study, GLP-1RA was used to intervene patients with type 2 diabetes, and the changes in blood sugar control and insulin resistance status of patients were followed up. Special attention was paid to the improvement of autonomic neuropathy in diabetic patients.",
+    "brief_title": "The Ameliorative Effects of GLP-1RA on Diabetic Cardiac Autonomatic Neuropathy",
+    "collaborator_names": [],
+    "completion_date": "2027-12-31",
+    "condition_labels": [
+      "type_2_diabetes"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Patients aged 18-70 years\n2. Patients with T2DM who meet the diagnostic guidelines\n3. The patient signed the relevant informed consent form\n4. Being overweight or obese\n\nExclusion Criteria:\n\n1. \\<18 years old\n2. Pregnant or lactating women\n3. Acute and chronic pancreatitis\n4. Recent acute complications of diabetes\n5. Arrhythmia or taking drugs that affect heart rate\n6. Thyroid disease\n7. Severe organ dysfunction\n8. Denial of informed consen",
+    "detailed_description": null,
+    "drug_class_labels": [
+      "glp1_receptor_agonist"
+    ],
+    "enrollment_count": 50,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Glucagon-like peptide-1 receptor agonist\uff1aSemaglutide"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "T2DM\uff0cDCAN\uff0cHRV, CART\uff0cinsulin resistance"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-06-21",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "The First Affiliated Hospital with Nanjing Medical University",
+    "masking": "SINGLE",
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06461377",
+    "official_title": "The Ameliorative Effects of GLP-1RA on Diabetic Cardiac Autonomatic Neuropathy",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06461377",
+    "start_date": "2024-06-13",
+    "study_first_posted_at": "2024-06-17",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "14mg daily (option to reduce to 7mg daily)",
+          "interventionNames": [
+            "Drug: Semaglutide Oral Tablet"
+          ],
+          "label": "Oral semaglutide",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo oral tablet"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Oral semaglutide"
+          ],
+          "description": "Oral semaglutide 14mg daily (option to reduce to 7mg daily)",
+          "name": "Semaglutide Oral Tablet",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo oral semaglutide",
+          "name": "Placebo oral tablet",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ascend-plus@ndph.ox.ac.uk",
+          "name": "Ryonfa Lee",
+          "phone": "01865 743743",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Oxford",
+          "contacts": [
+            {
+              "name": "David Preiss",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United Kingdom",
+          "facility": "Clinical Trial Service Unit and Epidemiological Studies Unit",
+          "geoPoint": {
+            "lat": 51.75222,
+            "lon": -1.25596
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Oxford",
+          "name": "David Preiss",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "University of Oxford",
+          "name": "Marion Mafham",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "ASCEND PLUS is testing whether, for people with type 2 diabetes who have not previously had a heart attack or stroke, regularly taking a tablet called semaglutide can safely help to reduce heart attacks, strokes, mini-strokes, the need for any procedures to unblock or bypass an artery to their heart, and the chance of dying because of vascular problems.",
+      "detailedDescription": "ASCEND PLUS aims to assess the effects of the GLP1 receptor agonist, oral semaglutide, on major adverse cardiovascular events in people with type 2 diabetes who have not previously suffered a heart attack or stroke. The study will be conducted using novel, streamlined methodology. Participants will be identified from centrally held routinely collected NHS healthcare datasets and invited to join the trial. There will be no physical sites, and all interactions with participants will be conducted directly using innovative patient-centred web-based technology, supplemented by telephone, video call contact and mailed letters.\n\nStudy treatment will be mailed to participants. Information regarding serious adverse events and study outcomes relevant to patients with type 2 diabetes mellitus will be collected by regular linkage to UK National Health Service health records both during the scheduled treatment period and for the subsequent 20 years' long term follow-up after the scheduled treatment period.\n\nThe trial design includes an active run-in phase, prior to randomisation, during which participants will be asked to take 4-weeks of active 3mg oral semaglutide followed by 4 to 8-weeks of active 7mg oral semaglutide daily.\n\nParticipants who are randomised will be allocated to receive either 14mg oral semaglutide or matching placebo daily during the scheduled treatment period. There will be the opportunity to reduce the dose to 7mg or matching placebo if required.\n\nThe scheduled treatment period, during which participants are requested to take the study treatment and complete follow-up assessments, is anticipated to continue until the required number of participants has experienced a primary outcome following randomisation. This is expected to occur at a median of approximately 5 years after randomisation."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomised double-blind placebo-controlled trial",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Randomised double-blind placebo-controlled trial",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 20000,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged at least 55 years at the time of the Screening assessment\n* Type 2 Diabetes Mellitus (based on self-reported medical history)\n\nExclusion criteria:\n\n* Myocardial Infarction\n* Stroke\n* Current or planned treatment with a GLP-1 RA\n* Previous hypersensitivity to or intolerance of GLP-1 RA therapy\n* Severe hypoglycaemia within the last six months or during run-in\n* Symptomatic hypoglycaemia within the last month\n* Currently under consideration to commence insulin\n* Severe heart failure (NYHA class 4)\n* Current or planned renal replacement therapy\n* Unwilling to complete regular follow-up assessments\n* Ongoing treatment for cancer or diagnosis with cancer (excluding non-melanoma skin cancer) in the last 2 years\n* Type 1 or other type of diabetes (e.g. MODY)\n* History of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma\n* Currently breastfeeding or pregnant, or planning a pregnancy\n* Any serious illness which is likely to limit survival or active participation for at least 5 years\n* Current participation in a clinical trial with an unlicensed investigational medicinal product used to treat diabetes\n* For participants taking thyroxine, lack of agreement to arrange a thyroid function test in the next 3 months and agree to regular testing throughout the trial\n* Non-adherence to run-in treatment (i.e. reports taking the run-in tablets 'Never' or 'Only occasionally')\n* Their doctor does not wish them to be randomised",
+      "healthyVolunteers": false,
+      "minimumAge": "55 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ASCEND PLUS",
+      "briefTitle": "A Study of Cardiovascular Events iN Diabetes Plus",
+      "nctId": "NCT05441267",
+      "officialTitle": "A Study of Cardiovascular Events iN Diabetes Plus",
+      "orgStudyIdInfo": {
+        "id": "CTSU_ASCEND-PLUS"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Oxford"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Procedures for accessing the data for this study are available on: https://www.ndph.ox.ac.uk/data-access",
+      "description": "Proposals for substudies must be approved by the Steering Committee.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "After publication of results",
+      "url": "https://www.ndph.ox.ac.uk/data-access"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "MACE+ is an expanded composite, defined as:\n\n* Death from cardiovascular disease\n* Non-fatal myocardial infarction\n* Non-fatal stroke\n* Transient ischaemic attack\n* Coronary revascularisation",
+          "measure": "Time to the first occurrence of a Major Adverse Cardiovascular Events (MACE+)",
+          "timeFrame": "Scheduled treatment period (anticipated median follow-up period of 5-years)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "MACE is a composite, defined as:\n\n* Death from cardiovascular disease\n* Non-fatal myocardial infarction\n* Non-fatal stroke",
+          "measure": "Time to the first occurrence of a Major Adverse Cardiovascular Events (MACE)",
+          "timeFrame": "Scheduled treatment period (anticipated median follow-up period of 5-years)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Novo Nordisk A/S"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Oxford"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2048-08-17",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-07",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-08-17",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-03-13",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-05",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-27",
+      "studyFirstSubmitQcDate": "2022-06-27"
+    }
+  }
+}

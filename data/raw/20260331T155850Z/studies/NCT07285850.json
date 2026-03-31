@@ -1,0 +1,272 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000230",
+          "term": "Adenocarcinoma"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008113",
+          "term": "Liver Neoplasms"
+        },
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006528",
+          "term": "Carcinoma, Hepatocellular"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000594389",
+          "term": "atezolizumab"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Sequential treatment of bevacizumab combined with atezolizumab (sequential group)",
+          "interventionNames": [
+            "Drug: Sequential treatment of bevacizumab combined with atezolizumab (sequential group)"
+          ],
+          "label": "Sequential treatment of bevacizumab combined with atezolizumab (sequential group)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)",
+          "interventionNames": [
+            "Drug: Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)"
+          ],
+          "label": "Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Sequential treatment of bevacizumab combined with atezolizumab (sequential group)"
+          ],
+          "description": "The first cycle (3 weeks) receives bevacizumab monotherapy, and from the second cycle onwards, it is combined with atezolizumab until disease progression or intolerable toxicity.",
+          "name": "Sequential treatment of bevacizumab combined with atezolizumab (sequential group)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)"
+          ],
+          "description": "Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)",
+          "name": "Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HCC - Hepatocellular Carcinoma"
+      ],
+      "keywords": [
+        "MASH",
+        "HCC",
+        "immunotherapy"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "shenhaochina@163.com",
+          "name": "Hao Shen, M.D.",
+          "phone": "18952681068",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Shanghai",
+          "contacts": [
+            {
+              "email": "shenhaochina@163.com",
+              "name": "Hao Shen, Dr",
+              "phone": "+8616628552926",
+              "role": "CONTACT"
+            },
+            {
+              "email": "shenhaochina@163.com",
+              "name": "Hao",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Eastern Hepatobiliary Surgery Hospital",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "state": "Shanghai Municipality",
+          "status": "RECRUITING",
+          "zip": "201805"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This research plan involves a treatment approach for advanced hepatocellular carcinoma (HCC) in the context of metabolic-associated steatotic liver disease (MASLD). The study aims to compare the efficacy differences between sequential therapy and concurrent therapy using bevacizumab and atezolizumab for advanced HCC in MASLD. The research will focus on evaluating objective response rates, progression-free survival, disease control rates, and overall survival, while utilizing biomarker analysis to elucidate treatment mechanisms. Additionally, the study will examine treatment safety, including the incidence and severity of adverse events.",
+      "detailedDescription": "The study will recruit 20 patients, randomly dividing them into sequential and concurrent groups for up to 6 months of treatment and follow-up. In addition to routine efficacy assessments, the study will analyze changes in the microenvironment before and after treatment, including T-cell calcium levels, VEGFA expression, and immune-related factor alterations. Furthermore, it will explore the relationship between T-cell calcium signaling genes and treatment response, evaluating the impact of baseline metabolic characteristics (such as blood lipids and insulin resistance) on therapeutic outcomes.\n\nIn terms of safety, the study will monitor all adverse events (AEs) and serious adverse events (SAEs), and classify them according to the CTCAE 5.0 criteria. During the treatment period, patients will undergo regular liver biopsy to assess changes in the tumor microenvironment. The ultimate goal of the study is to provide evidence-based precision treatment strategies for MASLD-HCC patients."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Although this study investigates the role of sequential therapy, the experimental design involves two parallel groups. One group receives atezolizumab combined with bevacizumab, while the other group is treated first with bevacizumab followed by sequential administration of atezolizumab. Both groups receive the same drugs, differing only in the sequence of administration.",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Eligibility Criteria Inclusion Criteria\n\n* Age \u2265 18 years old (gender not limited)\n* ECOG performance status of 0-1\n* Preoperative imaging diagnosis of advanced hepatocellular carcinoma (BCLC stage C or D, unsuitable for surgery)\n* Ultrasound or MRI indicating moderate to severe fatty liver (Fibroscan CAP \\> 268 dB/m or MR fat score \\> 10%)\n* Willing to use contraceptive measures during the trial period\n* Expected survival time \u2265 3 months\n* At least one measurable lesion (per RECIST 1.1) that has not been irradiated\n* Organ function levels (within 7 days before first study medication) must meet the following:\n* Hematopoietic function: ANC \u2265 1.5\u00d710\u2079/L, PLT \u2265 100\u00d710\u2079/L, Hb \u2265 90 g/L, no transfusion within 14 days\n* Liver function: TBIL \u2264 1.5\u00d7ULN, AST/ALT/ALP \u2264 2.5\u00d7ULN, serum creatinine \u2264 1.5\u00d7ULN, CrCl \u2265 50 mL/min, ALB \u2265 30 g/L, Child-Pugh A\n* Coagulation function: INR and APTT \u2264 1.5\u00d7ULN or within therapeutic range if on anticoagulants\n* Renal function: urinary protein \u2264 1+ (or \u22641 g/24h if \\>1+)\n* Cardiac function: ECG normal or clinically insignificant, LVEF \\> 50%\n* Women of childbearing potential must have a negative serum pregnancy test within 7 days prior to first dosing\n* Men and women of reproductive potential must use effective contraception during and for 12 months after treatment\n* Participants must voluntarily provide informed consent and have good compliance\n\nExclusion Criteria\n\n* Excessive alcohol consumption (weekly ethanol intake: males \\< 210 g, females \\< 140 g)\n* Tumor lesions previously treated with targeted therapy, immunotherapy, TACE, or radiotherapy\n* Pregnant or breastfeeding women, or positive pregnancy test at baseline\n* Central nervous system metastases diagnosed by CT, MRI, or PET-CT\n* Participation in another clinical drug or therapy trial within 4 weeks before first study dose\n* Major surgery within 4 weeks prior to first study dose, or incomplete recovery from surgery\n* Radiotherapy within 2 weeks before first study dose\n* History or presence of primary immunodeficiency or active autoimmune disease\n* History of organ transplantation or hematopoietic stem cell transplantation\n* Current use of immunosuppressants or corticosteroids (\\>10 mg/day prednisone or equivalent) within 2 weeks\n* Positive for HIV antibody or Treponema pallidum antibody, or active hepatitis B/C infection\n* Allergy to recombinant humanized PD-1 monoclonal antibody, VEGF monoclonal antibody, or components\n* Symptomatic pleural effusion, pericardial effusion, or ascites requiring clinical intervention\n* Severe cardiovascular disease within 12 months (e.g., CAD, CHF \u2265 II, arrhythmias, MI)\n* Events within 6 months before first dose (e.g., DVT, PE, MI, PCI, ACS, CABG, stroke, TIA, embolism)\n* History of GI surgery, obstruction, bleeding, dysfunction, or malabsorption affecting drug absorption\n* Severe uncontrolled infection or comorbidity, or moderate/severe renal impairment\n* Active pulmonary disease (interstitial pneumonia, COPD, asthma, tuberculosis history)\n* Abnormal coagulation (INR \\> 2.0, PT \\> 16 s), bleeding tendency, or thrombolytic/anticoagulant therapy (except prophylaxis)\n* Significant bleeding within 3 months (e.g., hemoptysis \u2265 2.5 mL, GI bleeding, varices, ulcers, vasculitis)\n* Known hereditary/acquired bleeding or thrombotic disorders (e.g., hemophilia, thrombocytopenia)\n* History of substance abuse or mental disorders affecting compliance\n* Use of warfarin or coumarin derivatives within 14 days before or during treatment\n* Other severe acute/chronic conditions increasing risk or confounding results\n* Poor compliance or other conditions deemed unsuitable for trial participation",
+      "healthyVolunteers": true,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ABATE-MASLD",
+      "briefTitle": "The Efficacy of Sequential Treatment With Bevacizumab Combined With Atezolizumab in Advanced Liver Cancer With MASLD",
+      "nctId": "NCT07285850",
+      "officialTitle": "The Efficacy of Sequential Treatment With Bevacizumab Combined With Atezolizumab in Advanced Liver Cancer With MASLD Background: a Dual Arm, Multicenter, Randomized Controlled Study",
+      "orgStudyIdInfo": {
+        "id": "EHBHKY2024-K023-P011"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Eastern Hepatobiliary Surgery Hospital"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "National Natural Science Foundation",
+          "id": "82403243",
+          "type": "OTHER_GRANT"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Compare the objective response rate (ORR) of sequential treatment with bevacizumab combined with atezolizumab (sequential group) and concurrent treatment (concurrent group) in advanced HCC under MASLD background, according to RECIST 1.1 criteria.",
+          "measure": "objective response rate (ORR)",
+          "timeFrame": "6 Months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Eastern Hepatobiliary Surgery Hospital"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Eastern Hepatobiliary Surgery Hospital",
+        "investigatorFullName": "Shen Feng",
+        "investigatorTitle": "Director of Clinical Research Institute",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-10",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-08-17",
+      "studyFirstSubmitQcDate": "2025-12-10"
+    }
+  }
+}

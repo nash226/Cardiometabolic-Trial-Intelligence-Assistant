@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07247084:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07247084\nBrief title: A Study of Tirzepatide (LY3298176) Compared With Standard of Care in Adult Participants With Obesity and Without Diabetes (SURMOUNT-REAL UK)\nOfficial title: A Phase 4 Multicenter, Randomized, Open-Label, Interventional Study With Pragmatic Elements Investigating the Effectiveness of Tirzepatide Once Weekly Compared With Standard of Care in Adult Participants With Obesity and Without Diabetes in a Real-World Setting\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 70,
+      "trial_nct_id": "NCT07247084"
+    },
+    {
+      "chunk_id": "NCT07247084:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: Tirzepatide; Standard of Care\nDrug class labels: dual_gip_glp1_agonist\nArms: Tirzepatide + Standard of Care; Standard of Care\nKeywords: Overweight; Electronic health records; Primary care; Type 2 diabetes incidence; Obesity related complications; Pragmatic trial; Randomized trial",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07247084"
+    },
+    {
+      "chunk_id": "NCT07247084:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to evaluate tirzepatide within a real-world setting to assess body weight loss and incidence of type 2 diabetes in adults without diabetes who have obesity and at least one weight-related comorbid condition. Participation in the study will last about 260 weeks.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT07247084"
+    },
+    {
+      "chunk_id": "NCT07247084:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Have a body mass index \u226530 and \u226434.9 kilogram per square meter (kg/m2)\n* Have an increased waist to height ratio (defined by \\>0.5)\n* Have at least one weight related comorbid condition\n* Have had at least one attempt to lose weight with lifestyle intervention (diet and physical activity)\n\nExclusion Criteria:\n\n* Have type 1 diabetes, type 2 diabetes, or any other types of diabetes\n* Have had a change in body weight of greater than 5 kilograms (11 pounds) within 90 days prior to screening",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 107,
+      "trial_nct_id": "NCT07247084"
+    },
+    {
+      "chunk_id": "NCT07247084:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change from Baseline in Body Weight | time_frame=Baseline, 24 months\ntype=secondary | measure=Time from Baseline to Onset of Type 2 Diabetes | time_frame=Baseline through 60 months\ntype=secondary | measure=Percentage of Participants Converting from Prediabetes to Normoglycemia | time_frame=60 months\ntype=secondary | measure=Percentage of Participants with Normoglycemia at Baseline who Develop Prediabetes | time_frame=60 months\ntype=secondary | measure=Change from Baseline in Hemoglobin A1c (HbA1c) | time_frame=Baseline, 60 months\ntype=secondary | measure=Percentage of Participants who Develop a New Obesity-Related Complication | time_frame=60 months\ntype=secondary | measure=Change from Baseline in Waist Circumference | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Waist-to-Height Ratio | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Total Cholesterol | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Systolic Blood Pressure | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Diastolic Blood Pressure | time_frame=Baseline, 60 months\ntype=secondary | measure=Percent Change from Baseline Urinary Albumin-to-Creatinine Ratio (UACR) | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in EQ-5D-5L | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Impact of Weight on Quality of Life-Lite-Clinical Trials (IWQOL-lite-CT) | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Healthcare Resource Utilization (HCRU) | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Alanine Aminotransferase (ALT) | time_frame=Baseline, 60 months\ntype=secondary | measure=Change from Baseline in Aspartate Aminotransferase (AST) | time_frame=Baseline, 60 months",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 230,
+      "trial_nct_id": "NCT07247084"
+    },
+    {
+      "chunk_id": "NCT07247084:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-11-24\nPrimary completion date: 2029-07\nCompletion date: 2032-07\nStudy first posted: 2025-11-25\nResults first posted: None\nLast update posted: 2026-03-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07247084"
+    },
+    {
+      "chunk_id": "NCT07247084:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eli Lilly and Company\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07247084"
+    }
+  ],
+  "trial_nct_id": "NCT07247084"
+}

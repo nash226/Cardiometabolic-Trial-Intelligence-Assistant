@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05441267:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05441267\nBrief title: A Study of Cardiovascular Events iN Diabetes Plus\nOfficial title: A Study of Cardiovascular Events iN Diabetes Plus\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT05441267"
+    },
+    {
+      "chunk_id": "NCT05441267:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Mellitus, Type 2\nIntervention labels: Semaglutide Oral Tablet; Placebo oral tablet\nDrug class labels: glp1_receptor_agonist\nArms: Oral semaglutide; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT05441267"
+    },
+    {
+      "chunk_id": "NCT05441267:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: ASCEND PLUS is testing whether, for people with type 2 diabetes who have not previously had a heart attack or stroke, regularly taking a tablet called semaglutide can safely help to reduce heart attacks, strokes, mini-strokes, the need for any procedures to unblock or bypass an artery to their heart, and the chance of dying because of vascular problems.\nDetailed description: ASCEND PLUS aims to assess the effects of the GLP1 receptor agonist, oral semaglutide, on major adverse cardiovascular events in people with type 2 diabetes who have not previously suffered a heart attack or stroke. The study will be conducted using novel, streamlined methodology. Participants will be identified from centrally held routinely collected NHS healthcare datasets and invited to join the trial. There will be no physical sites, and all interactions with participants will be conducted directly using innovative patient-centred web-based technology, supplemented by telephone, video call contact and mailed letters.\n\nStudy treatment will be mailed to participants. Information regarding serious adverse events and study outcomes relevant to patients with type 2 diabetes mellitus will be collected by regular linkage to UK National Health Service health records both during the scheduled treatment period and for the subsequent 20 years' long term follow-up after the scheduled treatment period.\n\nThe trial design includes an active run-in phase, prior to randomisation, during which participants will be asked to take 4-weeks of active 3mg oral semaglutide followed by 4 to 8-weeks of active 7mg oral semaglutide daily.\n\nParticipants who are randomised will be allocated to receive either 14mg oral semaglutide or matching placebo daily during the scheduled treatment period. There will be the opportunity to reduce the dose to 7mg or matching placebo if required.\n\nThe scheduled treatment period, during which participants are requested to take the study treatment and complete follow-up assessments, is anticipated to continue until the required number of participants has experienced a primary outcome following randomisation. This is expected to occur at a median of approximately 5 years after randomisation.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 333,
+      "trial_nct_id": "NCT05441267"
+    },
+    {
+      "chunk_id": "NCT05441267:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 55 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Adults aged at least 55 years at the time of the Screening assessment\n* Type 2 Diabetes Mellitus (based on self-reported medical history)\n\nExclusion criteria:\n\n* Myocardial Infarction\n* Stroke\n* Current or planned treatment with a GLP-1 RA\n* Previous hypersensitivity to or intolerance of GLP-1 RA therapy\n* Severe hypoglycaemia within the last six months or during run-in\n* Symptomatic hypoglycaemia within the last month\n* Currently under consideration to commence insulin\n* Severe heart failure (NYHA class 4)\n* Current or planned renal replacement therapy\n* Unwilling to complete regular follow-up assessments\n* Ongoing treatment for cancer or diagnosis with cancer (excluding non-melanoma skin cancer) in the last 2 years\n* Type 1 or other type of diabetes (e.g. MODY)\n* History of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma\n* Currently breastfeeding or pregnant, or planning a pregnancy\n* Any serious illness which is likely to limit survival or active participation for at least 5 years\n* Current participation in a clinical trial with an unlicensed investigational medicinal product used to treat diabetes\n* For participants taking thyroxine, lack of agreement to arrange a thyroid function test in the next 3 months and agree to regular testing throughout the trial\n* Non-adherence to run-in treatment (i.e. reports taking the run-in tablets 'Never' or 'Only occasionally')\n* Their doctor does not wish them to be randomised",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 251,
+      "trial_nct_id": "NCT05441267"
+    },
+    {
+      "chunk_id": "NCT05441267:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to the first occurrence of a Major Adverse Cardiovascular Events (MACE+) | time_frame=Scheduled treatment period (anticipated median follow-up period of 5-years) | description=MACE+ is an expanded composite, defined as:\n\n* Death from cardiovascular disease\n* Non-fatal myocardial infarction\n* Non-fatal stroke\n* Transient ischaemic attack\n* Coronary revascularisation\ntype=secondary | measure=Time to the first occurrence of a Major Adverse Cardiovascular Events (MACE) | time_frame=Scheduled treatment period (anticipated median follow-up period of 5-years) | description=MACE is a composite, defined as:\n\n* Death from cardiovascular disease\n* Non-fatal myocardial infarction\n* Non-fatal stroke",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 94,
+      "trial_nct_id": "NCT05441267"
+    },
+    {
+      "chunk_id": "NCT05441267:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-03-13\nPrimary completion date: 2028-08-17\nCompletion date: 2048-08-17\nStudy first posted: 2022-07-01\nResults first posted: None\nLast update posted: 2024-05-08\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05441267"
+    },
+    {
+      "chunk_id": "NCT05441267:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Oxford\nLead sponsor class: OTHER\nCollaborators: Novo Nordisk A/S\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT05441267"
+    }
+  ],
+  "trial_nct_id": "NCT05441267"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06884293:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06884293\nBrief title: A Study Comparing IBI362 vs Semaglutide in Chinese Overweight or Obese Adults With Metabolic Dysfunction-associated Fatty Liver Disease \uff08MAFLD\uff09\nOfficial title: A Multicenter, Randomized, Open-label Phase III Study to Compare the Efficacy and Safety of IBI362 and Semaglutide in Chinese Overweight or Obese Subjects With Metabolic Dysfunction-associated Fatty Liver Disease (GLORY-3)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 64,
+      "trial_nct_id": "NCT06884293"
+    },
+    {
+      "chunk_id": "NCT06884293:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Overweight; Metabolic Dysfunction-associated Fatty Liver Disease (MAFLD)\nIntervention labels: IBI362; semaglutide\nDrug class labels: glp1_receptor_agonist\nArms: Semaglutide; IBI362\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT06884293"
+    },
+    {
+      "chunk_id": "NCT06884293:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a multicenter, randomized, open-label Phase 3 clinical study comparing the efficacy and safety of IBI362 9 mg QW versus Semaglutide 2.4 mg QW in overweight or obese (BMI\u226527kg/m2) MAFLD subjects. Subjects will be randomly assigned to IBI362 9 mg and Semaglutide 2.4 mg groups. All study treatment will be administered once-weekly and subcutaneously. The entire trial cycle includes a 4-week screening period, a 48-week open-label treatment period, and a 12-week drug withdrawal safety follow-up period.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 82,
+      "trial_nct_id": "NCT06884293"
+    },
+    {
+      "chunk_id": "NCT06884293:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Male or female, age 18 years or older at the time of signing informed consent\n2. diagnosed as MAFLD according to the Chinese Guideline for the prevention and treatment of metabolic dysfunction-associated (non-alcoholic) fatty liver disease (Version 2024)\n3. liver fat content \u22658% measured by MRI-PDFF\n4. BMI\u226527 kg/m2\n5. Weight change \u22645% within 3 months before screening\n6. HbA1c\u226410%\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. Used drugs or alternative therapies with weight loss effects within 3 months before screening, including but not limited to: GLP-1 receptor agonists, orlistat, phenylpropanolamine, chlorpheniramine, phentermine etc.\n3. Received chronic (\\>2 weeks) systemic glucocorticoid treatment within 3 months before screening (excluding topical, intraocular, intranasal, and inhaled administration)\n4. Previous diagnosis of type 1 diabetes (including adult latent autoimmune diabetes)\n5. Active or untreated malignant tumors within 5 years before screening, or patients are in remission of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery)\n6. Mental illness existed in the past or at the time of screening, and the researcher thinks it is not suitable to participate in this study\n7. Pregnant or lactating women, or men or women who are fertile and unwilling to use contraception throughout the study period",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 257,
+      "trial_nct_id": "NCT06884293"
+    },
+    {
+      "chunk_id": "NCT06884293:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=percentage change in body weight from baseline | time_frame=at Week 48\ntype=primary | measure=percentage change in liver fat content from baseline measured by Magnetic Resonance Imaging-Proton Density Fat Fraction (MRI-PDFF) | time_frame=at Week 48\ntype=secondary | measure=percentage change in liver fat content from baseline measured by MRI-PDFF | time_frame=at Week 8, 16, and 24\ntype=secondary | measure=Absolute value change in liver fat content from baseline measured by MRI-PDFF | time_frame=at Week 8, 16, 24, and 48\ntype=secondary | measure=Proportion of subjects with weight loss >10% from baseline and liver fat content <5% | time_frame=at week 48\ntype=secondary | measure=percentage change in body weight from baseline | time_frame=at week 24\ntype=secondary | measure=Changes in systolic blood pressure and diastolic blood pressure from baseline | time_frame=at week 48\ntype=secondary | measure=percentage changes in total cholesterol,triglyceride (TG), non-High Density Lipoprotein Cholesterol (non-HDL-C), Low Density Lipoprotein Cholesterol (LDL-C), HDL-C (High Density Lipoprotein Cholesterol) from baseline | time_frame=at week 48\ntype=secondary | measure=Changes in serum uric acid from baseline | time_frame=at week 48\ntype=secondary | measure=Changes in hemoglobin A1c (HbA1c) from baseline | time_frame=at week 48\ntype=secondary | measure=Changes in Homeostasis Model Assessment 2-B (HOMA2-B) from baseline | time_frame=at week 48\ntype=secondary | measure=Changes in Homeostasis Model Assessment 2-IR (HOMA2-IR) from baseline | time_frame=at week 48\ntype=secondary | measure=Changes of scores in 36-item Short-Form Health Survey version 2(SF-36v2) questionnaire from baseline | time_frame=at week 48 | description=Using norm-based scoring (NBS)\uff0ceach subscale has a different maximum and minimum score, with higher scores reflecting better levels of functioning\ntype=secondary | measure=Changes of scores in The Impact of Weight on Quality of Life-Lite Clinical Trials Version(IWQoL-Lite-CT) questionnaire from baseline | time_frame=at week 48 | description=Total score ranging from 0 to 100, with higher scores reflecting better levels of functioning",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 293,
+      "trial_nct_id": "NCT06884293"
+    },
+    {
+      "chunk_id": "NCT06884293:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-05-09\nPrimary completion date: 2026-12-31\nCompletion date: 2027-06-30\nStudy first posted: 2025-03-19\nResults first posted: None\nLast update posted: 2025-05-14\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06884293"
+    },
+    {
+      "chunk_id": "NCT06884293:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Innovent Biologics (Suzhou) Co. Ltd.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06884293"
+    }
+  ],
+  "trial_nct_id": "NCT06884293"
+}

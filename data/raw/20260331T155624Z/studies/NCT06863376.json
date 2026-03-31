@@ -1,0 +1,274 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003545",
+          "term": "Cysteine"
+        },
+        {
+          "id": "D000603",
+          "term": "Amino Acids, Sulfur"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000600",
+          "term": "Amino Acids, Dicarboxylic"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        },
+        {
+          "id": "D008124",
+          "term": "Locomotion"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D002233",
+          "term": "Carbocysteine"
+        },
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        },
+        {
+          "id": "D016138",
+          "term": "Walking"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients will receive the standard conventional therapy in addition to placebo for 3 months.",
+          "interventionNames": [
+            "Other: Physical activity, walking, and calorie restriction"
+          ],
+          "label": "Control group",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients will be given the standard conventional therapy plus carbocistiene 375 mg two times daily.",
+          "interventionNames": [
+            "Drug: Carbocysteine 375 MG",
+            "Other: Physical activity, walking, and calorie restriction"
+          ],
+          "label": "Carbocistiene group",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Carbocistiene group"
+          ],
+          "description": "Carbocysteine is a muco-active drug with free radical scavenging and anti-inflammatory properties. It is actually approved for clinical use as adjunctive therapy of respiratory tract disorders",
+          "name": "Carbocysteine 375 MG",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Carbocistiene group",
+            "Control group"
+          ],
+          "description": "\u2022 The standard conventional therapy in both groups included regular exercise in the form of any physical activity as walking, cycling, etc. for 30-45 minutes minimum 5 days per week in addition to calorie restriction in overweight and obese patients",
+          "name": "Physical activity, walking, and calorie restriction",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-Alcoholic Fatty Liver Disease"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Tanta",
+          "contacts": [
+            {
+              "email": "mbahaa@horus.edu.eg",
+              "name": "Mostafa M I Bahaa, PhD",
+              "phone": "0201025538337",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mostafa M Bahaa, PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "Egypt",
+          "facility": "Tanta Unuversity",
+          "geoPoint": {
+            "lat": 30.78847,
+            "lon": 31.00192
+          },
+          "status": "RECRUITING",
+          "zip": "31527"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Nonalcoholic fatty liver disease (NAFLD) is a global public health concern, and the leading cause of chronic liver disease, especially in developed countries. NAFLD is characterized by lipid accumulation in the liver not attributed to other causes. Lifestyle interventions, including dietary modification and exercise, remain the cornerstone of NAFLD treatment. Pharmacological treatments aimed primarily at improving liver disease should generally be limited to those with biopsy-proven NASH and fibrosis."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "double blinded",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 46,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Either male or female adult patients (\\>18 years) with fatty liver diagnosis by using upper abdominal ultrasound echography\n\nExclusion Criteria:\n\n* Pregnant and/or lactating women\n* Excessive alcohol use (defined as an average alcohol intake \\> 30 g per day in men and \\> 20 g per day in women)\n* Other etiology of chronic liver diseases such as viral hepatitis, drug-induced hepatitis, autoimmune hepatitis.\n* patients suffering from chronic kidney disease, and hyper/hypoparathyroidism\n* Hypersensitivity to carbocistiene.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Evaluating the Safety and Efficacy of Carbocisteine in the Treatment of Nonalcoholic Fatty Liver Disease Patients",
+      "nctId": "NCT06863376",
+      "officialTitle": "Evaluating the Safety and Efficacy of Carbocisteine in the Treatment of Nonalcoholic Fatty Liver Disease Patients",
+      "orgStudyIdInfo": {
+        "id": "1478"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Tanta University"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The change in the degree of steatosis in the Ultra Sound",
+          "measure": "The change in the degree of steatosis in the Ultra Sound",
+          "timeFrame": "3 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Tanta University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Tanta University",
+        "investigatorFullName": "Mostafa Bahaa",
+        "investigatorTitle": "Lecturer",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-04-20",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-16",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-20",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-03-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-01",
+      "studyFirstSubmitQcDate": "2025-03-05"
+    }
+  }
+}

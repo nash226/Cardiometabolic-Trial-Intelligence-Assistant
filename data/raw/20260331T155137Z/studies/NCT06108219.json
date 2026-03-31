@@ -1,0 +1,1139 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000606526",
+          "term": "CORT118335"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients who meet the entry criteria for study CORT118335-862 (Cohort A) will be enrolled to receive 100 mg of miricorilant, twice a week for 48 weeks.",
+          "interventionNames": [
+            "Drug: Miricorilant (Cohort A)"
+          ],
+          "label": "Experimental (Cohort A)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients who meet the entry criteria for study CORT118335-862 (Cohort A) will be enrolled to receive a matching placebo twice a week for 48 weeks.",
+          "interventionNames": [
+            "Drug: Placebo (Cohort A)"
+          ],
+          "label": "Placebo (Cohort A)",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Patients who meet the entry criteria for study CORT118335-862 (Cohort B) will be enrolled to receive a matching placebo twice a week for 24 weeks.",
+          "interventionNames": [
+            "Drug: Placebo (Cohort B)"
+          ],
+          "label": "Placebo (Cohort B)",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Patients who meet the entry criteria for study CORT118335-862 (Cohort B) will be enrolled to receive 100 mg of miricorilant, twice a week for 6 weeks. Dose will be escalated to 200 mg of miricorilant, twice a week for 18 weeks.",
+          "interventionNames": [
+            "Drug: Miricorilant (Cohort B)"
+          ],
+          "label": "Experimental (Cohort B)",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Experimental (Cohort A)"
+          ],
+          "description": "Miricorilant 100 mg for oral dosing",
+          "name": "Miricorilant (Cohort A)",
+          "otherNames": [
+            "CORT118335"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo (Cohort A)"
+          ],
+          "description": "Matching placebo for oral dosing for 48 Weeks",
+          "name": "Placebo (Cohort A)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Experimental (Cohort B)"
+          ],
+          "description": "Miricorilant 100 mg for oral dosing Miricorilant 200 mg for oral dosing",
+          "name": "Miricorilant (Cohort B)",
+          "otherNames": [
+            "CORT118335"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo (Cohort B)"
+          ],
+          "description": "Matching placebo for oral dosing for 24 Weeks",
+          "name": "Placebo (Cohort B)",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Nonalcoholic Steatohepatitis (NASH)",
+        "Metabolic Dysfunction-associated Steatohepatitis (MASH)"
+      ],
+      "keywords": [
+        "Nonalcoholic Steatohepatitis (NASH)",
+        "Nonalcoholic Fatty Liver Disease (NAFLD)",
+        "Metabolic dysfunction-Associated Steatohepatitis (MASH)",
+        "Metabolic dysfunction-Associated Steatosis Liver Disease (MASLD)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Chandler",
+          "country": "United States",
+          "facility": "Site #207",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          },
+          "state": "Arizona",
+          "zip": "85224"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "facility": "Site #209",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "zip": "85712"
+        },
+        {
+          "city": "Huntington Park",
+          "country": "United States",
+          "facility": "Site #378",
+          "geoPoint": {
+            "lat": 33.98168,
+            "lon": -118.22507
+          },
+          "state": "California",
+          "zip": "90255"
+        },
+        {
+          "city": "Lancaster",
+          "country": "United States",
+          "facility": "Site #439",
+          "geoPoint": {
+            "lat": 34.69804,
+            "lon": -118.13674
+          },
+          "state": "California",
+          "zip": "93534"
+        },
+        {
+          "city": "Long Beach",
+          "country": "United States",
+          "facility": "Site #469",
+          "geoPoint": {
+            "lat": 33.76696,
+            "lon": -118.18923
+          },
+          "state": "California",
+          "zip": "90815"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "Site #373",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90056"
+        },
+        {
+          "city": "Panorama City",
+          "country": "United States",
+          "facility": "Site #214",
+          "geoPoint": {
+            "lat": 34.22473,
+            "lon": -118.44981
+          },
+          "state": "California",
+          "zip": "91402"
+        },
+        {
+          "city": "Santa Ana",
+          "country": "United States",
+          "facility": "Site #233",
+          "geoPoint": {
+            "lat": 33.74557,
+            "lon": -117.86783
+          },
+          "state": "California",
+          "zip": "92704"
+        },
+        {
+          "city": "Boca Raton",
+          "country": "United States",
+          "facility": "Site #452",
+          "geoPoint": {
+            "lat": 26.35869,
+            "lon": -80.0831
+          },
+          "state": "Florida",
+          "zip": "33434"
+        },
+        {
+          "city": "Gainesville",
+          "country": "United States",
+          "facility": "Site # 101",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          },
+          "state": "Florida",
+          "zip": "32610"
+        },
+        {
+          "city": "Hallandale",
+          "country": "United States",
+          "facility": "Site #465",
+          "geoPoint": {
+            "lat": 25.9812,
+            "lon": -80.14838
+          },
+          "state": "Florida",
+          "zip": "33009"
+        },
+        {
+          "city": "Hialeah Gardens",
+          "country": "United States",
+          "facility": "Site #430",
+          "geoPoint": {
+            "lat": 25.8651,
+            "lon": -80.3245
+          },
+          "state": "Florida",
+          "zip": "33016"
+        },
+        {
+          "city": "Lakewood Rch",
+          "country": "United States",
+          "facility": "Site #458",
+          "geoPoint": {
+            "lat": 27.3863,
+            "lon": -82.4332
+          },
+          "state": "Florida",
+          "zip": "38018"
+        },
+        {
+          "city": "Largo",
+          "country": "United States",
+          "facility": "Site #475",
+          "geoPoint": {
+            "lat": 27.90979,
+            "lon": -82.78842
+          },
+          "state": "Florida",
+          "zip": "33777"
+        },
+        {
+          "city": "Miami Lakes",
+          "country": "United States",
+          "facility": "Site #438",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          },
+          "state": "Florida",
+          "zip": "33016"
+        },
+        {
+          "city": "Viera",
+          "country": "United States",
+          "facility": "Site #460",
+          "geoPoint": {
+            "lat": 28.24696,
+            "lon": -80.737
+          },
+          "state": "Florida",
+          "zip": "32940"
+        },
+        {
+          "city": "Houma",
+          "country": "United States",
+          "facility": "Site #453",
+          "geoPoint": {
+            "lat": 29.59577,
+            "lon": -90.71953
+          },
+          "state": "Louisiana",
+          "zip": "70363"
+        },
+        {
+          "city": "Marrero",
+          "country": "United States",
+          "facility": "Site #451",
+          "geoPoint": {
+            "lat": 29.89937,
+            "lon": -90.10035
+          },
+          "state": "Louisiana",
+          "zip": "70072"
+        },
+        {
+          "city": "Metairie",
+          "country": "United States",
+          "facility": "Site #061",
+          "geoPoint": {
+            "lat": 29.98409,
+            "lon": -90.15285
+          },
+          "state": "Louisiana",
+          "zip": "70006"
+        },
+        {
+          "city": "Rockville",
+          "country": "United States",
+          "facility": "Site #440",
+          "geoPoint": {
+            "lat": 39.084,
+            "lon": -77.15276
+          },
+          "state": "Maryland",
+          "zip": "20854"
+        },
+        {
+          "city": "Saint Paul",
+          "country": "United States",
+          "facility": "Site #442",
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          },
+          "state": "Minnesota",
+          "zip": "55114"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "facility": "Site #228",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          },
+          "state": "Missouri",
+          "zip": "64131"
+        },
+        {
+          "city": "Jackson",
+          "country": "United States",
+          "facility": "Site #455",
+          "geoPoint": {
+            "lat": 39.7765,
+            "lon": -74.86238
+          },
+          "state": "New Jersey",
+          "zip": "08724"
+        },
+        {
+          "city": "East Syracuse",
+          "country": "United States",
+          "facility": "Site #445",
+          "geoPoint": {
+            "lat": 43.06534,
+            "lon": -76.07853
+          },
+          "state": "New York",
+          "zip": "13057"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "facility": "Site #454",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "zip": "10033"
+        },
+        {
+          "city": "Morehead City",
+          "country": "United States",
+          "facility": "Site #464",
+          "geoPoint": {
+            "lat": 34.72294,
+            "lon": -76.72604
+          },
+          "state": "North Carolina",
+          "zip": "29557"
+        },
+        {
+          "city": "Beavercreek",
+          "country": "United States",
+          "facility": "Site #447",
+          "geoPoint": {
+            "lat": 39.70923,
+            "lon": -84.06327
+          },
+          "state": "Ohio",
+          "zip": "45440"
+        },
+        {
+          "city": "Columbus",
+          "country": "United States",
+          "facility": "Site #470",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          },
+          "state": "Ohio",
+          "zip": "43234"
+        },
+        {
+          "city": "Dayton",
+          "country": "United States",
+          "facility": "Site #448",
+          "geoPoint": {
+            "lat": 39.75895,
+            "lon": -84.19161
+          },
+          "state": "Ohio",
+          "zip": "45145"
+        },
+        {
+          "city": "Westlake",
+          "country": "United States",
+          "facility": "Site #437",
+          "geoPoint": {
+            "lat": 41.45532,
+            "lon": -81.91792
+          },
+          "state": "Ohio",
+          "zip": "44145"
+        },
+        {
+          "city": "Cordova",
+          "country": "United States",
+          "facility": "Site #461",
+          "geoPoint": {
+            "lat": 35.15565,
+            "lon": -89.7762
+          },
+          "state": "Tennessee",
+          "zip": "38018"
+        },
+        {
+          "city": "Arlington",
+          "country": "United States",
+          "facility": "Site # 546",
+          "geoPoint": {
+            "lat": 32.73569,
+            "lon": -97.10807
+          },
+          "state": "Texas",
+          "zip": "76012"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "facility": "Site #545",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          },
+          "state": "Texas",
+          "zip": "78756"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "facility": "Site #211",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          },
+          "state": "Texas",
+          "zip": "78757"
+        },
+        {
+          "city": "Brownsville",
+          "country": "United States",
+          "facility": "Site #432",
+          "geoPoint": {
+            "lat": 25.90175,
+            "lon": -97.49748
+          },
+          "state": "Texas",
+          "zip": "78520"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "Site #370",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75230"
+        },
+        {
+          "city": "Edinburg",
+          "country": "United States",
+          "facility": "Site #213",
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          },
+          "state": "Texas",
+          "zip": "78539"
+        },
+        {
+          "city": "Edinburg",
+          "country": "United States",
+          "facility": "Site #215",
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          },
+          "state": "Texas",
+          "zip": "78539"
+        },
+        {
+          "city": "Georgetown",
+          "country": "United States",
+          "facility": "Site #431",
+          "geoPoint": {
+            "lat": 30.63269,
+            "lon": -97.67723
+          },
+          "state": "Texas",
+          "zip": "78626"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Site # 066",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "zip": "77030"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Site #305",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "zip": "77079"
+        },
+        {
+          "city": "Katy",
+          "country": "United States",
+          "facility": "Site #459",
+          "geoPoint": {
+            "lat": 29.78579,
+            "lon": -95.8244
+          },
+          "state": "Texas",
+          "zip": "77494"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Site #433",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "zip": "78125"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Site #212",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "zip": "78229"
+        },
+        {
+          "city": "Waco",
+          "country": "United States",
+          "facility": "Site #434",
+          "geoPoint": {
+            "lat": 31.54933,
+            "lon": -97.14667
+          },
+          "state": "Texas",
+          "zip": "78125"
+        },
+        {
+          "city": "West Jordan",
+          "country": "United States",
+          "facility": "Site #441",
+          "geoPoint": {
+            "lat": 40.60967,
+            "lon": -111.9391
+          },
+          "state": "Utah",
+          "zip": "84088"
+        },
+        {
+          "city": "Manassas",
+          "country": "United States",
+          "facility": "Site #463",
+          "geoPoint": {
+            "lat": 38.75095,
+            "lon": -77.47527
+          },
+          "state": "Virginia",
+          "zip": "20110"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "facility": "Site #226",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          },
+          "state": "Washington",
+          "zip": "98105"
+        },
+        {
+          "city": "Guwahati",
+          "country": "India",
+          "facility": "Site #506",
+          "geoPoint": {
+            "lat": 26.1844,
+            "lon": 91.7458
+          },
+          "state": "Assam",
+          "zip": "781032"
+        },
+        {
+          "city": "Ahmedabad",
+          "country": "India",
+          "facility": "Site #492",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          },
+          "state": "Gujarat",
+          "zip": "380053"
+        },
+        {
+          "city": "Rajkot",
+          "country": "India",
+          "facility": "Site #513",
+          "geoPoint": {
+            "lat": 22.29161,
+            "lon": 70.79322
+          },
+          "state": "Gujarat",
+          "zip": "360001"
+        },
+        {
+          "city": "Surat",
+          "country": "India",
+          "facility": "Site #490",
+          "geoPoint": {
+            "lat": 21.19594,
+            "lon": 72.83023
+          },
+          "state": "Gujarat",
+          "zip": "395009"
+        },
+        {
+          "city": "Surat",
+          "country": "India",
+          "facility": "Site #514",
+          "geoPoint": {
+            "lat": 21.19594,
+            "lon": 72.83023
+          },
+          "state": "Gujarat",
+          "zip": "395009"
+        },
+        {
+          "city": "Vadodara",
+          "country": "India",
+          "facility": "Site #502",
+          "geoPoint": {
+            "lat": 22.29941,
+            "lon": 73.20812
+          },
+          "state": "Gujarat",
+          "zip": "390007"
+        },
+        {
+          "city": "Rohtak",
+          "country": "India",
+          "facility": "Site # 494",
+          "geoPoint": {
+            "lat": 28.89447,
+            "lon": 76.58917
+          },
+          "state": "Haryana",
+          "zip": "124001"
+        },
+        {
+          "city": "Mysore",
+          "country": "India",
+          "facility": "Site #511",
+          "geoPoint": {
+            "lat": 12.29791,
+            "lon": 76.63925
+          },
+          "state": "Karnataka",
+          "zip": "570015"
+        },
+        {
+          "city": "Thiruvananthapuram",
+          "country": "India",
+          "facility": "Site #507",
+          "geoPoint": {
+            "lat": 8.4855,
+            "lon": 76.94924
+          },
+          "state": "Kerala",
+          "zip": "695011"
+        },
+        {
+          "city": "Mumbai",
+          "country": "India",
+          "facility": "Site #512",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          },
+          "state": "Maharashtra",
+          "zip": "400008"
+        },
+        {
+          "city": "Mumbai",
+          "country": "India",
+          "facility": "Site #509",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          },
+          "state": "Maharashtra",
+          "zip": "400062"
+        },
+        {
+          "city": "Nagpur",
+          "country": "India",
+          "facility": "Site #500",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          },
+          "state": "Maharashtra",
+          "zip": "440009"
+        },
+        {
+          "city": "Pune",
+          "country": "India",
+          "facility": "Site #496",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          },
+          "state": "Maharashtra",
+          "zip": "412201"
+        },
+        {
+          "city": "Ludhiana",
+          "country": "India",
+          "facility": "Site #495",
+          "geoPoint": {
+            "lat": 30.91204,
+            "lon": 75.85379
+          },
+          "state": "Punjab",
+          "zip": "141002"
+        },
+        {
+          "city": "Jaipur",
+          "country": "India",
+          "facility": "Site #489",
+          "geoPoint": {
+            "lat": 26.91962,
+            "lon": 75.78781
+          },
+          "state": "Rajasthan",
+          "zip": "302001"
+        },
+        {
+          "city": "Jaipur",
+          "country": "India",
+          "facility": "Site # 485",
+          "geoPoint": {
+            "lat": 26.91962,
+            "lon": 75.78781
+          },
+          "state": "Rajasthan",
+          "zip": "302004"
+        },
+        {
+          "city": "Madurai",
+          "country": "India",
+          "facility": "Site #508",
+          "geoPoint": {
+            "lat": 9.919,
+            "lon": 78.11953
+          },
+          "state": "Tamil Nadu",
+          "zip": "625020"
+        },
+        {
+          "city": "Hyderabad",
+          "country": "India",
+          "facility": "Site #486",
+          "geoPoint": {
+            "lat": 17.38405,
+            "lon": 78.45636
+          },
+          "state": "Telangana",
+          "zip": "500003"
+        },
+        {
+          "city": "Lucknow",
+          "country": "India",
+          "facility": "Site #549",
+          "geoPoint": {
+            "lat": 26.83928,
+            "lon": 80.92313
+          },
+          "state": "Uttar Pradesh",
+          "zip": "226003"
+        },
+        {
+          "city": "Varanasi",
+          "country": "India",
+          "facility": "Site #488",
+          "geoPoint": {
+            "lat": 25.31668,
+            "lon": 83.01041
+          },
+          "state": "Uttar Pradesh",
+          "zip": "221005"
+        },
+        {
+          "city": "Varanasi",
+          "country": "India",
+          "facility": "Site #503",
+          "geoPoint": {
+            "lat": 25.31668,
+            "lon": 83.01041
+          },
+          "state": "Uttar Pradesh",
+          "zip": "221005"
+        },
+        {
+          "city": "Dehradun",
+          "country": "India",
+          "facility": "Site #504",
+          "geoPoint": {
+            "lat": 30.32443,
+            "lon": 78.03392
+          },
+          "state": "Uttarakhand",
+          "zip": "248001"
+        },
+        {
+          "city": "Kolkata",
+          "country": "India",
+          "facility": "Site #487",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          },
+          "state": "West Bengal",
+          "zip": "700020"
+        },
+        {
+          "city": "Kolkata",
+          "country": "India",
+          "facility": "Site #493",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          },
+          "state": "West Bengal",
+          "zip": "700073"
+        },
+        {
+          "city": "Kolkata",
+          "country": "India",
+          "facility": "Site #491",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          },
+          "state": "West Bengal",
+          "zip": "700150"
+        },
+        {
+          "city": "New Delhi",
+          "country": "India",
+          "facility": "Site #482",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          },
+          "zip": "110029"
+        },
+        {
+          "city": "New Delhi",
+          "country": "India",
+          "facility": "Site #510",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          },
+          "zip": "110060"
+        },
+        {
+          "city": "New Delhi",
+          "country": "India",
+          "facility": "Site #501",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          },
+          "zip": "110070"
+        },
+        {
+          "city": "San Juan",
+          "country": "Puerto Rico",
+          "facility": "Site #457",
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          },
+          "zip": "00927-4807"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Corcept Therapeutics",
+          "name": "Kavita Juneja, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A Phase 2b, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Efficacy and Safety of Miricorilant in Adult Patients with Nonalcoholic Steatohepatitis (MONARCH)",
+      "detailedDescription": "Approximately 75 patients who are eligible for participation in the study will be randomized on Day 1 in a 2:1 ratio to 100 mg miricorilant or placebo twice weekly, for 48 weeks of treatment (Cohort A).\n\nApproximately 90 patients who are eligible for participation in the study will be randomized on Day 1 in a 2:1 ratio to 100 mg miricorilant twice a week for 6 weeks of treatment, followed by a dose escalation to 200 mg miricorilant or placebo twice weekly for an additional 18 weeks which resulting in a total treatment duration of 24 weeks, or to placebo for 24 weeks. (Cohort B)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Double Blinded",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 175,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Cohort A: Histological diagnosis of NASH/MASH with NAS \u2265 4 (\u2265 1 point in each subcomponent of steatosis, inflammation, and ballooning) and NASH-CRN fibrosis score of 2 or 3 based on the consensus method of histological assessment. A historical liver biopsy within 6 months of Screening with reading confirmed during the Screening period by a consensus panel is acceptable.\n* Cohort B: Have a liver biopsy result that does not meet with the criteria for inclusion in Cohort A and is consistent with one of the following based on the consensus method of histological assessment:\n\n  * NAS \u2265 3 with \u22651 point in each subcomponent of steatosis, inflammation, and ballooning, and a NASH-CRN fibrosis score of F1 or\n  * NAS \u2265 2 with \u22651 point in subcomponent of steatosis and \u2265 1 point in subcomponent of ballooning or inflammation and a NASH-CRN fibrosis score of F2 or 3\n* AST \\> 17 U/L for women and AST \\> 20 U/L for men.\n* FibroScan\u00ae liver stiffness measurement \u2265 8 kPa and CAP \u2265 280 dB/m.\n* MRI-PDFF with \u2265 8% steatosis\n* Presence of at least 1 of the following metabolic syndromes that increase the risk of NASH/MASH:\n\n  1. Diagnosis of type 2 diabetes OR\n  2. Presence of 2 or more components of metabolic syndrome:\n\n  i. Fasting blood glucose \u2265 100 mg/dL (5.6 mmol/L) or treatment for elevated blood glucose ii. Systolic blood pressure \u2265 130mmHg, diastolic blood pressure \u2265 85mmHg, or treatment for hypertension iii. Serum triglycerides \u2265 150 mg/dL (1.7 mmol/L) or drug treatment for elevated triglycerides iv. Serum high-density lipoprotein (HDL) cholesterol \\< 40 mg/dL (1 mmol/L) in men and \\< 50 mg/dL (1.3 mmol/L) in women or drug treatment for low HDL v. Overweight or obese (body mass index \\[BMI\\] \u2265 25 kg/m2 \\[BMI \u2265 23 kg/m2 in Asians\\]), or increased waist circumference \u2265 102 cm (40 in) in men and \u2265 88 cm (35 in) in women (male \u2265 90 cm \\[35.4 in\\]; women \u2265 80 cm \\[31.5 in\\] in\n* Other inclusion criteria may apply\n\nExclusion Criteria:\n\n* Have participated in another clinical trial within the last 3 months of Screening where the patient received active treatment for NASH/MASH.\n* Have participated in a clinical trial for any other indication within the last 3 months or 5 half-lives of the treatment, whichever is longer.\n* Are pregnant or lactating women\n* Have a BMI \\< 18 kg/m2 or \\> 45 kg/m2.\u2022 Have had liver transplantation or plan to have liver transplantation during the study\n* Have type 1 diabetes or poorly controlled type 2 diabetes.\n* Are pregnant or lactating women\n* Have a BMI \\< 18 kg/m2 or \\> 45 kg/m2\n* Have had successful weight-loss surgery within 2 years prior to Screening or are planning weight-loss surgery during the study.\n* Have a \\>5% weight change within 3 months prior to Screening.\n* Have significant alcohol consumption of more than 20 g per day for women and 30 g per day for men within 1 year prior to screening or score of \u22658 on AUDIT questionnaire\n* Have any other chronic liver disease\n* History of cirrhosis or evidence of cirrhosis by clinical, imaging, or liver biopsy evaluation\n* Have hepatic decompensation\n* Other exclusion criteria may apply",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Phase 2b, Study Evaluating Miricorilant in Adult Patients With Nonalcoholic Steatohepatitis/Metabolic Dysfunction-Associated Steatohepatitis (MONARCH)",
+      "nctId": "NCT06108219",
+      "officialTitle": "A Phase 2b, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Efficacy and Safety of Miricorilant in Adult Patients With Nonalcoholic Steatohepatitis/Metabolic Dysfunction-Associated Steatohepatitis (MONARCH)",
+      "orgStudyIdInfo": {
+        "id": "CORT118335-862"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Corcept Therapeutics"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent relative change from Baseline in liver-fat content assessed by MRI-PDFF (Cohort A and Cohort B)",
+          "timeFrame": "Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in liver stiffness and Controlled Attenuation Parameter (CAP) by FibroScan. (Cohort A and Cohort B at Week 24, Cohort A at Week 48)",
+          "timeFrame": "Week 24 and 48"
+        },
+        {
+          "measure": "Change in absolute body weight (Cohort A and B at Week 24, Cohort A at Week 48)",
+          "timeFrame": "Week 24 and 48"
+        },
+        {
+          "measure": "Change in lipids - total cholesterol, HDL, LDL, VLDL, TG, serum free fatty acids, apolipoproteins (Cohort A and Cohort B at Week 24, Cohort A at Week 48)",
+          "timeFrame": "Week 24 and 48"
+        },
+        {
+          "measure": "Change in Aspartate aminotransferase (AST) and Alanine aminotransferase (ALT) (Cohort A and Cohort B at Week 6 and 24, Cohort A at Week 48)",
+          "timeFrame": "Week 6, 24 and 48"
+        },
+        {
+          "measure": "Change in ELF, Pro-C3 and other markers of liver fibrosis (Cohort A and B at Week 24, Cohort A at Week 48)",
+          "timeFrame": "Week 24 and 48"
+        },
+        {
+          "measure": "Change in HbA1c (Cohort A and B at Week 24, Cohort A at Week 48)",
+          "timeFrame": "Week 24 and 48"
+        },
+        {
+          "measure": "Change in HOMA-IR (Cohort A and B at Week 24, Cohort A at Week 48)",
+          "timeFrame": "Week 24 and 48"
+        },
+        {
+          "measure": "Change in plasma glucose (Cohort A and B at Week 24, Cohort A at Week 48)",
+          "timeFrame": "Week 24 and 48"
+        },
+        {
+          "measure": "Percent relative change from Baseline in liver-fat content by MRI-PDFF (Cohort A and B at Week 6 and 24, Cohort A at Week 48)",
+          "timeFrame": "Week 6 and 24, Week 48"
+        },
+        {
+          "measure": "Absolute change from Baseline in liver-fat content by MRI-PDFF (Cohort A and B at Week 6 and 24, Cohort A at Week 48)",
+          "timeFrame": "Week 6, 24, Week 48"
+        },
+        {
+          "measure": "Resolution of steatohepatitis (defined as a ballooning grade of 0 and a lobular inflammation grade of \u2264 1) and no worsening of liver fibrosis at Week 48 assessed by biopsy (Cohort A).",
+          "timeFrame": "Week 48"
+        },
+        {
+          "measure": "Proportion of patients with at least 2 points reduction from Baseline in the NAS (NAFLD activity score) without worsening of liver fibrosis at Week 48 assessed by biopsy, with at least a 1-point reduction in ballooning or inflammation (Cohort A).",
+          "timeFrame": "Week 48"
+        },
+        {
+          "measure": "Improvement in liver fibrosis stage by at least 1-point (NASH CRN fibrosis score) from Baseline and no worsening of steatohepatitis at Week 48 assessed by biopsy (Cohort A).",
+          "timeFrame": "Week 48"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Corcept Therapeutics"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-09",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-24",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-09",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-10-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-11",
+      "studyFirstPostDateStruct": {
+        "date": "2023-10-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-10-23",
+      "studyFirstSubmitQcDate": "2023-10-27"
+    }
+  }
+}

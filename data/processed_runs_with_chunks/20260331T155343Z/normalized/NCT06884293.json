@@ -1,0 +1,218 @@
+{
+  "arms": [
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: semaglutide"
+      ],
+      "label": "Semaglutide",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: IBI362"
+      ],
+      "label": "IBI362",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Overweight",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Metabolic Dysfunction-associated Fatty Liver Disease (MAFLD)",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Male or female, age 18 years or older at the time of signing informed consent\n2. diagnosed as MAFLD according to the Chinese Guideline for the prevention and treatment of metabolic dysfunction-associated (non-alcoholic) fatty liver disease (Version 2024)\n3. liver fat content \u22658% measured by MRI-PDFF\n4. BMI\u226527 kg/m2\n5. Weight change \u22645% within 3 months before screening\n6. HbA1c\u226410%\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. Used drugs or alternative therapies with weight loss effects within 3 months before screening, including but not limited to: GLP-1 receptor agonists, orlistat, phenylpropanolamine, chlorpheniramine, phentermine etc.\n3. Received chronic (\\>2 weeks) systemic glucocorticoid treatment within 3 months before screening (excluding topical, intraocular, intranasal, and inhaled administration)\n4. Previous diagnosis of type 1 diabetes (including adult latent autoimmune diabetes)\n5. Active or untreated malignant tumors within 5 years before screening, or patients are in remission of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery)\n6. Mental illness existed in the past or at the time of screening, and the researcher thinks it is not suitable to participate in this study\n7. Pregnant or lactating women, or men or women who are fertile and unwilling to use contraception throughout the study period",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "IBI362"
+      ],
+      "description": "Once-weekly injections of gradually increased doses of IBI362, subcutaneously (SC): starting dose is 2.0 mg, after 4 weeks of administration, increase to 4.0 mg; After another 4 weeks, increase to 6mg; After another 4 weeks, increase to the maximum dose 9mg for 36 weeks",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "IBI362",
+      "normalized_name": "ibi362"
+    },
+    {
+      "arm_group_labels": [
+        "Semaglutide"
+      ],
+      "description": "Once-weekly injections of gradually increased doses, subcutaneously (SC): starting dose is 0.25 mg, after 4 weeks of administration, increase to 0.5 mg; After another 4 weeks, increase to 1mg; After another 4 weeks, increase to 1.7mg; After another 4 weeks, increase to the maximum 2.5mg for 32 weeks",
+      "drug_class": "glp1_receptor_agonist",
+      "intervention_type": "DRUG",
+      "name": "semaglutide",
+      "normalized_name": "semaglutide"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "percentage change in body weight from baseline",
+      "outcome_type": "primary",
+      "time_frame": "at Week 48"
+    },
+    {
+      "description": null,
+      "measure": "percentage change in liver fat content from baseline measured by Magnetic Resonance Imaging-Proton Density Fat Fraction (MRI-PDFF)",
+      "outcome_type": "primary",
+      "time_frame": "at Week 48"
+    },
+    {
+      "description": null,
+      "measure": "percentage change in liver fat content from baseline measured by MRI-PDFF",
+      "outcome_type": "secondary",
+      "time_frame": "at Week 8, 16, and 24"
+    },
+    {
+      "description": null,
+      "measure": "Absolute value change in liver fat content from baseline measured by MRI-PDFF",
+      "outcome_type": "secondary",
+      "time_frame": "at Week 8, 16, 24, and 48"
+    },
+    {
+      "description": null,
+      "measure": "Proportion of subjects with weight loss >10% from baseline and liver fat content <5%",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": null,
+      "measure": "percentage change in body weight from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 24"
+    },
+    {
+      "description": null,
+      "measure": "Changes in systolic blood pressure and diastolic blood pressure from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": null,
+      "measure": "percentage changes in total cholesterol,triglyceride (TG), non-High Density Lipoprotein Cholesterol (non-HDL-C), Low Density Lipoprotein Cholesterol (LDL-C), HDL-C (High Density Lipoprotein Cholesterol) from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": null,
+      "measure": "Changes in serum uric acid from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": null,
+      "measure": "Changes in hemoglobin A1c (HbA1c) from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": null,
+      "measure": "Changes in Homeostasis Model Assessment 2-B (HOMA2-B) from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": null,
+      "measure": "Changes in Homeostasis Model Assessment 2-IR (HOMA2-IR) from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": "Using norm-based scoring (NBS)\uff0ceach subscale has a different maximum and minimum score, with higher scores reflecting better levels of functioning",
+      "measure": "Changes of scores in 36-item Short-Form Health Survey version 2(SF-36v2) questionnaire from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    },
+    {
+      "description": "Total score ranging from 0 to 100, with higher scores reflecting better levels of functioning",
+      "measure": "Changes of scores in The Impact of Weight on Quality of Life-Lite Clinical Trials Version(IWQoL-Lite-CT) questionnaire from baseline",
+      "outcome_type": "secondary",
+      "time_frame": "at week 48"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This is a multicenter, randomized, open-label Phase 3 clinical study comparing the efficacy and safety of IBI362 9 mg QW versus Semaglutide 2.4 mg QW in overweight or obese (BMI\u226527kg/m2) MAFLD subjects. Subjects will be randomly assigned to IBI362 9 mg and Semaglutide 2.4 mg groups. All study treatment will be administered once-weekly and subcutaneously. The entire trial cycle includes a 4-week screening period, a 48-week open-label treatment period, and a 12-week drug withdrawal safety follow-up period.",
+    "brief_title": "A Study Comparing IBI362 vs Semaglutide in Chinese Overweight or Obese Adults With Metabolic Dysfunction-associated Fatty Liver Disease \uff08MAFLD\uff09",
+    "collaborator_names": [],
+    "completion_date": "2027-06-30",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Male or female, age 18 years or older at the time of signing informed consent\n2. diagnosed as MAFLD according to the Chinese Guideline for the prevention and treatment of metabolic dysfunction-associated (non-alcoholic) fatty liver disease (Version 2024)\n3. liver fat content \u22658% measured by MRI-PDFF\n4. BMI\u226527 kg/m2\n5. Weight change \u22645% within 3 months before screening\n6. HbA1c\u226410%\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. Used drugs or alternative therapies with weight loss effects within 3 months before screening, including but not limited to: GLP-1 receptor agonists, orlistat, phenylpropanolamine, chlorpheniramine, phentermine etc.\n3. Received chronic (\\>2 weeks) systemic glucocorticoid treatment within 3 months before screening (excluding topical, intraocular, intranasal, and inhaled administration)\n4. Previous diagnosis of type 1 diabetes (including adult latent autoimmune diabetes)\n5. Active or untreated malignant tumors within 5 years before screening, or patients are in remission of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery)\n6. Mental illness existed in the past or at the time of screening, and the researcher thinks it is not suitable to participate in this study\n7. Pregnant or lactating women, or men or women who are fertile and unwilling to use contraception throughout the study period",
+    "detailed_description": null,
+    "drug_class_labels": [
+      "glp1_receptor_agonist"
+    ],
+    "enrollment_count": 470,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "IBI362",
+      "semaglutide"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-05-14",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "Innovent Biologics (Suzhou) Co. Ltd.",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06884293",
+    "official_title": "A Multicenter, Randomized, Open-label Phase III Study to Compare the Efficacy and Safety of IBI362 and Semaglutide in Chinese Overweight or Obese Subjects With Metabolic Dysfunction-associated Fatty Liver Disease (GLORY-3)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE3"
+    ],
+    "primary_completion_date": "2026-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06884293",
+    "start_date": "2025-05-09",
+    "study_first_posted_at": "2025-03-19",
+    "study_type": "INTERVENTIONAL"
+  }
+}

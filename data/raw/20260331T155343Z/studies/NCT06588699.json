@@ -1,0 +1,442 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        },
+        {
+          "id": "D008103",
+          "term": "Liver Cirrhosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004071",
+          "term": "Digitalis Glycosides"
+        },
+        {
+          "id": "D002298",
+          "term": "Cardenolides"
+        },
+        {
+          "id": "D002301",
+          "term": "Cardiac Glycosides"
+        },
+        {
+          "id": "D002297",
+          "term": "Cardanolides"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004077",
+          "term": "Digoxin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Digoxin (titration-based) taken orally once daily. In this arm, the intervention will be administered dosed by weight and renal function using a well-studied digoxin nomogram.",
+          "interventionNames": [
+            "Drug: Digoxin"
+          ],
+          "label": "Digoxin (titration-based)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Digoxin (weight-based) taken orally once daily. In the weight-based digoxin arm, the intervention will be oral digoxin 0.15mcg/kg/day.",
+          "interventionNames": [
+            "Drug: Digoxin"
+          ],
+          "label": "Digoxin (weight-based)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo, taken orally once daily",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Digoxin (titration-based)",
+            "Digoxin (weight-based)"
+          ],
+          "description": "Taken orally once daily",
+          "name": "Digoxin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Matched Placebo taken orally once daily",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NASH",
+        "NAFLD",
+        "MASH - Metabolic Dysfunction-Associated Steatohepatitis",
+        "Mash",
+        "MASH With Fibrosis",
+        "MASLD",
+        "Fatty Liver Disease",
+        "Fatty Liver Disease, Nonalcoholic"
+      ],
+      "keywords": [
+        "NASH",
+        "MASH",
+        "Metabolic dysfunction associated steatohepatitis",
+        "Digoxin",
+        "Drug repurposing",
+        "Liver fibrosis",
+        "Fatty liver disease",
+        "NAFLD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "bubu.banini@yale.edu",
+          "name": "Bubu Banini, MD, PhD",
+          "phone": "203-737-6063 or 203-215-7749",
+          "role": "CONTACT"
+        },
+        {
+          "email": "tara.mcpartland@yale.edu",
+          "name": "Tara McPartland",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "New Haven",
+          "contacts": [
+            {
+              "email": "bubu.banini@yale.edu",
+              "name": "Bubu Banini, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "aida.rodriguezmurillo@yale.edu",
+              "name": "Aida Rodriguez Murillo",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bubu Banini, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Yale New Haven Health",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          },
+          "state": "Connecticut",
+          "status": "RECRUITING",
+          "zip": "06510"
+        },
+        {
+          "city": "New Haven",
+          "contacts": [
+            {
+              "email": "bubu.banini@yale.edu",
+              "name": "Bubu Banini, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "aida.rodriguezmurillo@yale.edu",
+              "name": "Aida Rodriguez Murillo",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bubu Banini, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Yale New Haven Hospital",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          },
+          "state": "Connecticut",
+          "status": "RECRUITING",
+          "zip": "06510"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Yale University",
+          "name": "Bubu A Banini, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Nonalcoholic steatohepatitis (NASH) is a severe subtype of nonalcoholic fatty liver disease (NAFLD) which affects 1 in 3 Americans. The mainstay of treatment for NASH, which was recently renamed metabolic associated steatohepatitis (MASH), involves lifestyle interventions to promote weight loss and to treat comorbidities such as hypertension, hyperlipidemia, and diabetes mellitus. There is thus, a substantial unmet need for pharmacological therapies that are effective for treatment of NASH, especially in those with fibrosis which is the main predictor of disease progression and mortality among NASH patients. The repurposing of presently available drugs would help expedite the search for agents effective in treating NASH. The cardiac glycoside digoxin is currently used in the management of heart failure and supraventricular tachyarrhythmias. The investigators and other groups have demonstrated that digoxin protects the liver from various forms of acute and chronic liver injury. The investigators preliminary data in healthy human subject indicate an immunomodulatory effect of low dose oral digoxin with no adverse side effects. This study proposes to demonstrate the clinical benefits of digoxin on NASH and on liver fibrosis, thus supporting the repurposing of digoxin as treatment for NASH.",
+      "detailedDescription": "Prospective, randomized, double-blind, placebo-controlled, single center trial of digoxin in patients with nonalcoholic steatohepatitis (NASH).\n\nPrimary objective:\n\nTo compare the effect of digoxin oral, administered once daily (QD) either as titration-based or weight-based dose, versus placebo on histologic resolution of NASH\n\nKey secondary objectives:\n\nTo investigate the effect of digoxin oral, administered once daily (QD) either as titration-based or weight-based dose, compared to placebo on histologic, imaging, and biochemical markers of NASH, and to assess the safety and tolerability of digoxin compared to placebo"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A centrally administered randomization strategy will be used to randomize patients.",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The trial is a double-blind placebo controlled trial to assess the effect of digoxin oral, versus placebo, on histologic improvement of NASH. Study team members will be blinded except for the unblinded pharmacist and the individual monitoring digoxin level.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 144,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Stable body weight (\u2264 5% self-reported change in body weight) in the 30 days prior to screening\n* Biopsy-confirmed non-alcoholic steatohepatitis (NASH) as defined by the NASH clinical research network (NASH CRN) histological scoring system, with non-alcoholic fatty liver disease score (NAS) \u22654 and with a score \u22651 for each of the three components (steatosis, hepatocellular ballooning, and lobular inflammation) on a liver biopsy performed within 6 months of screening\n* Histological fibrosis stage 2 or 3 based on pathologist evaluation of a liver biopsy performed up to 6 months before screening\n* Agrees to have a liver biopsy performed to assess baseline histology if one has not been performed up to 6 months before screening, and at 24 weeks after randomization Exclusion Criteria\n\nLiver-related:\n\n* Documented causes of chronic liver disease other than NASH\n* History or clinical evidence of cirrhosis or portal hypertension\n* History of positive HBsAg, positive anti-HIV, positive HCV-RNA\n* AST or ALT \\> 5 times upper limit of normal (ULN) at screening\n* Total bilirubin \\> 1.5 mg/dL at screening unless conjugated bilirubin is \\< 1.5 \u00d7 ULN\n* International normalized ratio (INR) \\> 1.3 at screening\n* Known or suspected alcohol use \\> 20 g/day for women or \\> 30 g/day for men\n* Treatment initiation or dose adjustment of vitamin E, pioglitazone, GLP-1RA, or SGLT-2 inhibitors within 30 days of signing the informed consent or 30 days prior to liver biopsy\n* Treatment initiation or anticipated treatment (\\>14 consecutive days) with medications known to affect steatosis (e.g., systemic corticosteroids, tamoxifen, valproic acid, methotrexate, tetracycline or amiodarone) within 30 days of signing the informed consent or 30 days prior to liver biopsy\n\nCardiac related:\n\n* Heart rate less than 60 bpm at screening (visit 1) or at baseline (visit 2)\n* Current diagnosis of severe aortic valve disease\n* History of Accessory arterio-ventricular pathway (e.g., Wolf-Parkinson-White syndrome)\n* History of complete heart block or second degree arterio-ventricular block without pacemaker or implantable cardiac device\n* Current diagnosis of permanent atrial fibrillation\n* Any of the following within the previous 6 months of signing informed consent: myocardial infarction, percutaneous intervention, pacemaker/implantable cardiac device implantation, cardiac surgery, or stroke\n* Current use of the following medications: inotropic drugs such as (dopamine, dobutamine, noradrenaline, milrinone), anti-arrhythmics (amiodarone, dofetilide, sotalol, dronedarone, digoxin), parathyroid hormone analog (teriparatide), sympathomimetics (epinephrine, norepinephrine, dopamine), neuromuscular blocking agents (succinylcholine), calcium supplement, nondihydropyridine calcium channel blockers, ivabradine, and disulfiram.\n\nObesity related:\n\n* Treatment initiation (in the 30 days prior to signing the informed consent or 30 days prior to liver biopsy) with orlistat, zonisamide, topiramate, phentermine, bupropion, and naltrexone alone or in combination or any other medication that could promote weight loss in the opinion of the investigator\n* Participation (in the 30 days prior to signing the informed consent or 30 days prior to liver biopsy) in an organized diet-based weight reduction program (e.g., WeightWatchers, Optifast)\n* Recent surgical treatment (\\<6 months of signing informed consent) for obesity\n\nGeneral safety related:\n\n* Presence or history of malignant neoplasms (in the past 5 years prior to screening), except basal and squamous cell skin cancer and any carcinoma in-situ\n* Surgery scheduled or anticipated during the trial period, except for minor surgical procedures, in the opinion of the investigator\n* Language barrier, mental incapacity, unwillingness, or inability to adequately understand or comply with study procedures\n* Known or suspected hypersensitivity to the trial product or related products including allergy to milk, egg, soy, peanuts, and sulfites\n* Recent participation (within 90 days prior to signing the informed consent) in any clinical trial of an approved or non-approved investigational medicinal product\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of childbearing potential and not using an adequate contraceptive method\n* Renal impairment measured as estimated Glomerular Filtration Rate (eGFR) value of eGFR \\< 30 ml/min/1.73 m2\n* TSH \\> 6 mIU/L or \\< 0.4 mIU/L at screening\n* Current use of the following medications: calcium supplementation, parathyroid hormone analog (teriparatide), neuromuscular blocking agents (succinylcholine) and disulfiram.\n* Claustrophobia to an extent that would prevent tolerance of MRI\n* Metallic implant that would prevent MRI examination including, metallic foreign body, aneurysm clips, vascular grafts or cardiac implants, neural stimulator, cochlear implant, metallic contraceptive device, body piercing that cannot be removed, cochlear implant, or any other contraindication to MRI",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "CODIN",
+      "briefTitle": "Digoxin In NASH (CODIN)",
+      "nctId": "NCT06588699",
+      "officialTitle": "Clinical Trial of Oral Digoxin In NASH (CODIN)",
+      "orgStudyIdInfo": {
+        "id": "2000038275"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Yale University"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01DK134624-01A1",
+          "link": "https://reporter.nih.gov/quickSearch/1R01DK134624-01A1",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Data from this study may be requested from researchers by contacting banini.research@yale.edu.",
+      "description": "This study will comply with the NIH Data Sharing Policy and Policy on the Dissemination of NIH-Funded Clinical Trial Information and the Clinical Trials Registration and Results Information Submission rule. As such, this trial will be registered at ClinicalTrials.gov, and results information from this trial will be submitted to ClinicalTrials.gov. In addition, every attempt will be made to publish results in peer-reviewed journals.",
+      "ipdSharing": "YES",
+      "timeFrame": "Data from this study may be requested from researchers 2 years after the completion of the primary endpoint by contacting banini.research@yale.edu."
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Proportion of participants who achieve resolution of NASH (defined by the NASH Clinical research network \\[CRN\\] as a score of 0-1 for inflammation, 0 for hepatocyte ballooning, and any value for steatosis) with no worsening of fibrosis (yes/no).",
+          "measure": "Resolution of nonalcoholic steatohepatitis (NASH) without worsening of fibrosis",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Proportion of participants with improvement in liver fibrosis by \u2265 1 stage with no worsening of NASH (yes/no). Worsening of NASH is defined as \u2265 1 increase in lobular inflammation or hepatocyte ballooning according to criteria by the NASH clinical research network (NASH CRN)",
+          "measure": "Improvement in liver fibrosis without worsening of NASH",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Proportion of participants with improvement in nonalcoholic fatty liver disease (NAFLD) activity score (NAS) of \u2265 2 with no worsening of fibrosis after 24 weeks (yes/no)",
+          "measure": "Improvement in NAS without worsening of fibrosis",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Change in Enhanced Liver Fibrosis (ELF) score.",
+          "measure": "Change in enhanced liver fibrosis (ELF) score",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Change in serum alanine aminotransferase (ALT) concentration (pg/ml)",
+          "measure": "Change in alanine aminotransferase (ALT)",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Change in serum aspartate aminotransferase (AST) concentration (pg/ml)",
+          "measure": "Change in aspartate aminotransferase (AST)",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Change in serum gamma glutamyl transferase (GGT) concentration (pg/ml)",
+          "measure": "Change in gamma glutamyl transferase (GGT)",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Change in liver stiffness measure (LSM) and controlled attenuation parameter (CAP) from baseline as measured by transient elastography.",
+          "measure": "Change in liver stiffness measure (LSM) and controlled attenuation parameter (CAP)",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Change in magnetic resonance imaging proton density fat fraction (MRI-PDFF)",
+          "measure": "Change in magnetic resonance imaging proton density fat fraction (MRI-PDFF)",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "Change from baseline in magnetic resonance elastography (MRE)",
+          "measure": "Change in Magnetic resonance elastography (MRE)",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Jamshed F, Dashti F, Ouyang X, Mehal WZ, Banini BA. New uses for an old remedy: Digoxin as a potential treatment for steatohepatitis and other disorders. World J Gastroenterol. 2023 Mar 28;29(12):1824-1837. doi: 10.3748/wjg.v29.i12.1824.",
+          "pmid": "37032732",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Dashti F, Jamshed F, Ouyang X, Mehal WZ, Banini BA. Digoxin as an emerging therapy in noncardiac diseases. Trends Pharmacol Sci. 2023 Apr;44(4):199-203. doi: 10.1016/j.tips.2022.10.002. Epub 2022 Nov 14.",
+          "pmid": "36396496",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Agyapong G, Dashti F, Banini BA. Nonalcoholic liver disease: Epidemiology, risk factors, natural history, and management strategies. Ann N Y Acad Sci. 2023 Aug;1526(1):16-29. doi: 10.1111/nyas.15012. Epub 2023 Jul 3.",
+          "pmid": "37400359",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ilagan-Ying YC, Banini BA, Do A, Lam R, Lim JK. Screening, Diagnosis, and Staging of Non-Alcoholic Fatty Liver Disease (NAFLD): Application of Society Guidelines to Clinical Practice. Curr Gastroenterol Rep. 2023 Oct;25(10):213-224. doi: 10.1007/s11894-023-00883-8. Epub 2023 Sep 28.",
+          "pmid": "37768417",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Yale University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Yale University",
+        "investigatorFullName": "Bubu Banini, MD, PhD",
+        "investigatorTitle": "Assistant Professor of Medicine",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-29",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2029-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-06-05",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-10",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-09-06",
+      "studyFirstSubmitQcDate": "2024-09-06"
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "arms": [
+    {
+      "description": "Subjects will take 2 placebo capsules following AM meal, 2 placebo capsules following PM capsules",
+      "intervention_names": [
+        "Other: Placebo"
+      ],
+      "label": "Placebo Vehicle",
+      "type": "PLACEBO_COMPARATOR"
+    },
+    {
+      "description": "Subjects will take (2) 200 mg TCT capsules following AM meal, (2) 200 mg TCT following PM meal",
+      "intervention_names": [
+        "Drug: Tocotrienol (TCT)"
+      ],
+      "label": "Tocotrienol supplement",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "End Stage Liver Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "NASH - Nonalcoholic Steatohepatitis",
+      "normalized_name": "mash"
+    },
+    {
+      "is_primary": true,
+      "name": "NAFLD - Nonalcoholic Fatty Liver Disease",
+      "normalized_name": "mash"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Age 18 years of above, male or female\n* ESLD patients with clinically- diagnosed NAFLD or NASH\n* Absence of any other possible cause for liver dysfunction\n* Stable MELD score of at least 8, but no greater than 17 with \\<25% change in MELD over the past 60 days prior to enrollment (\\*Total number of patients with MELD of 8-9 or MELD of 16-17 cannot exceed 40% of cohort)\n* Able to speak and understand English\n* Willing and able to provide informed consent\n* Willing and able to return for regularly scheduled research study visits \\& comply with study requirements\n\nExclusion Criteria:\n\n1. Rapid deterioration of liver function, as defined by an increase in MELD score \u226525% over the past 60 days prior to enrollment\n2. Hepatocellular carcinoma\n3. Positive HIV/AIDS, or other chronic immunodeficiency\n4. Concurrent hepatitis B or C infection\n5. Current drug and/or alcohol abuse (per treating physician)\n6. Bacterial infection at time of enrollment\n7. Daily use of dedicated vitamin E supplementation (greater than 100 IU per day) within the 3 months prior to study participation\n8. Platelets \\<35,000 cells/\u00b5L, neutrophils \\<1000 cells/\u00b5L, hemoglobin \\<10g/dL, total bilirubin \\>3mg/dL, serum creatinine \\>2.0mg/dL\n9. Women who are pregnant, breastfeeding, or plan to become pregnant during course of study participation (36 months)\n10. Other significant comorbidities which limit the subject's life expectancy to less than 36 months\n11. Concurrent enrollment in another interventional clinical trial\n12. ALT \\>250 U/L\n13. AST \\> 250 U/L\n14. Hemoglobin A1C \u2265 9.5 %\n15. History of liver transplantation\n16. Current or history of HCC\n17. Any weight reduction surgery in the preceding 2 years prior to screening or planned surgery during the study\n18. Malignancy within 5 years of screening with the exception of a Adequately treated carcinoma in situ of the cervix b. Adequately treated basal or squamous cell cancer or other localized non-melanoma skin cancer",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Tocotrienol supplement"
+      ],
+      "description": "TCT is a natural vitamin E supplement with a long history of safe dietary consumption in humans. The objective of the current trial is to validate the outcome observed in an earlier trial that oral TCT attenuates the rise in MELD score over time in patients with end stage liver disease/cirrhosis.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Tocotrienol (TCT)",
+      "normalized_name": "tocotrienol (tct)"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo Vehicle"
+      ],
+      "description": "Control study capsule that includes no study product (Vitamin E - Tocotrienol)",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Lab tests to calculate MELD score will be taken at baseline study visit and the last study visit ( Study visit 17 - 3 years) to see if Oral TCT will significantly attenuate the rise in MELD score over time in patients with End Stage Liver Disease / Cirrhosis",
+      "measure": "Effect of Oral tocotrienols (TCT) on Model for End-Stage Liver Disease (MELD) score.",
+      "outcome_type": "primary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Composite clinical endpoint defined as any event of all-cause mortality, liver transplant, new onset ascites, hepatic encephalopathy, gastroesophageal variceal hemorrhage, and confirmed increase of MELD score by 3 points due to liver disease.",
+      "measure": "Key Secondary Outcome",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "change in Child-Pugh Score",
+      "measure": "Change in Child-Pugh Score",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Change in ALT (Alanine transaminase)",
+      "measure": "Change in ALT Alanine transaminase",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Events of hepatic decompensation",
+      "measure": "Events of hepatic decompensation",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "New onset ascites requiring treatment with or without paracentesis",
+      "measure": "New onset ascites requiring treatment with or without paracentesis",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "GI bleed attributed to variceal bleeding, requires evaluation by an endoscopy",
+      "measure": "GI bleed attributed to variceal bleeding",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "Hepatic encephalopathy requiring treatment, Grade 2 or above according to West Haven Criteria",
+      "measure": "Hepatic encephalopathy requiring treatment",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "Need for liver transplant",
+      "measure": "Need for Liver transplant",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "did death occur",
+      "measure": "Death",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "Liver fibrosis as measured by change in LSM by vibration-controlled transient elastography",
+      "measure": "Liver fibrosis",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    },
+    {
+      "description": "Did any AEs occur",
+      "measure": "Adverse events",
+      "outcome_type": "secondary",
+      "time_frame": "3 yrs"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The purpose of this Phase 2 trial is to validate the outcome observed in a previous trial that oral Tocotrienol (TCT) attenuates the rise in MELD score over time in patients with end stage liver disease / cirrhosis. The study is double blind and participants will be randomized to take 2 capsules of TCT (200mg) or placebo twice a day for 3 years.",
+    "brief_title": "Tocotrienol Against the Progression of End Stage Liver Disease",
+    "collaborator_names": [
+      "Malaysia Palm Oil Board",
+      "Indiana University"
+    ],
+    "completion_date": "2028-12-31",
+    "condition_labels": [
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Age 18 years of above, male or female\n* ESLD patients with clinically- diagnosed NAFLD or NASH\n* Absence of any other possible cause for liver dysfunction\n* Stable MELD score of at least 8, but no greater than 17 with \\<25% change in MELD over the past 60 days prior to enrollment (\\*Total number of patients with MELD of 8-9 or MELD of 16-17 cannot exceed 40% of cohort)\n* Able to speak and understand English\n* Willing and able to provide informed consent\n* Willing and able to return for regularly scheduled research study visits \\& comply with study requirements\n\nExclusion Criteria:\n\n1. Rapid deterioration of liver function, as defined by an increase in MELD score \u226525% over the past 60 days prior to enrollment\n2. Hepatocellular carcinoma\n3. Positive HIV/AIDS, or other chronic immunodeficiency\n4. Concurrent hepatitis B or C infection\n5. Current drug and/or alcohol abuse (per treating physician)\n6. Bacterial infection at time of enrollment\n7. Daily use of dedicated vitamin E supplementation (greater than 100 IU per day) within the 3 months prior to study participation\n8. Platelets \\<35,000 cells/\u00b5L, neutrophils \\<1000 cells/\u00b5L, hemoglobin \\<10g/dL, total bilirubin \\>3mg/dL, serum creatinine \\>2.0mg/dL\n9. Women who are pregnant, breastfeeding, or plan to become pregnant during course of study participation (36 months)\n10. Other significant comorbidities which limit the subject's life expectancy to less than 36 months\n11. Concurrent enrollment in another interventional clinical trial\n12. ALT \\>250 U/L\n13. AST \\> 250 U/L\n14. Hemoglobin A1C \u2265 9.5 %\n15. History of liver transplantation\n16. Current or history of HCC\n17. Any weight reduction surgery in the preceding 2 years prior to screening or planned surgery during the study\n18. Malignancy within 5 years of screening with the exception of a Adequately treated carcinoma in situ of the cervix b. Adequately treated basal or squamous cell cancer or other localized non-melanoma skin cancer",
+    "detailed_description": "Tocotrienol (TCT) is a natural vitamin E supplement with a long history of safe dietary consumption. Prior studies with Vitamin E have shown beneficial effects in patients with non-alcoholic fatty liver disease and cirrhosis. The primary purpose of this Phase 2 trial is to validate the outcome observed in an earlier trial that oral TCT attenuates the rise in MELD (Model For End-Stage Liver Disease) score over time in patients with cirrhosis. Outcomes of this trail will direct the design of a future larger multi-center trial.\n\nStudy participation will last 3 years. Subjects will be seen for an initial visit, at which consent will be obtained and baseline labs drawn, followed by a Randomization visit 2-14 days later after MELD criteria have been confirmed. If the acceptable labs have not been drawn per standard of care to calculate a MELD score within 90 days before the initial visit, the subject will complete the initial visit as planned, but will then return for a repeat lab draw 60 days later to confirm MELD criteria for eligibility before continuing to the randomization visit.\n\nEnrollment occurs when a subject meets all criteria and is randomized into one of the treatment groups. Subjects will then be seen in the research office by research personnel at 1 week, 2 weeks, 3 weeks, 1 month, 2 months, 3 months, 6 months, 1 year, 18 months, 2 years, and 3 years. Subject compliance with supplements will be closely followed, as compliance is critical for accurate data. Given the small sample size, subjects who are less than 75% compliant at two consecutive study visits will be discontinued from the study. Subjects will be discontinued if their MELD score increases by more than 25% between 2 consecutive visits or if they receive an organ transplant. Subjects will be declared lost to follow-up (LTFU) if a study visit is unable to be scheduled and completed after 4 documented attempts to contact a subject with no response. In this circumstance, a certified letter will be mailed to the subject's last known address; if no response is received, the subject is LTFU. All subjects discontinued or LTFU before the end of 1 year of study participation will be replaced (see protocol to review study visit activities that will occur). At the Randomization Visit, enrolled subjects will be randomized into one of two treatment groups in a 1:1 manner. Group 1: Placebo vehicle; (2) placebo capsules following AM meal, (2) placebo capsules following PM meal Group 2: 800mg TCT; (2) 200mg TCT capsules following AM meal, (2) 200mg TCT capsules following PM meal.",
+    "drug_class_labels": [],
+    "enrollment_count": 70,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Tocotrienol (TCT)",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Tocotrienol",
+      "Vitamin E"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-02-09",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Chandan Sen",
+    "masking": "DOUBLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT02581085",
+    "official_title": "Tocotrienol Against the Progression of End Stage Liver Disease",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2026-12-16",
+    "primary_purpose": "OTHER",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT02581085",
+    "start_date": "2019-11-01",
+    "study_first_posted_at": "2015-10-20",
+    "study_type": "INTERVENTIONAL"
+  }
+}

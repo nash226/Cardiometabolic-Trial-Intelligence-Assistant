@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06534411:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06534411\nBrief title: A Research Study to See How Much CagriSema Lowers Blood Sugar and Body Weight Compared to Tirzepatide in People With Type 2 Diabetes Treated With Metformin, SGLT2 Inhibitor or Both\nOfficial title: Efficacy and Safety of Co-administered Cagrilintide and Semaglutide (CagriSema) 1.0 mg/1.0 mg s.c. Once Weekly Versus Tirzepatide 5 mg s.c. Once Weekly in Participants With Type 2 Diabetes Inadequately Controlled on Metformin, SGLT2 Inhibitor or Both\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 81,
+      "trial_nct_id": "NCT06534411"
+    },
+    {
+      "chunk_id": "NCT06534411:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Mellitus, Type 2\nIntervention labels: Cagrilintide; Semaglutide; Tirzepatide\nDrug class labels: glp1_receptor_agonist; dual_gip_glp1_agonist\nArms: CagriSema; Tirzepatide\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT06534411"
+    },
+    {
+      "chunk_id": "NCT06534411:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study will look at how much CagriSema lowers blood sugar and body weight in people with type 2 diabetes. CagriSema is a new investigational medicine. Doctors cannot yet prescribe CagriSema. CagriSema will be compared to a medicine called tirzepatide. Doctors can prescribe tirzepatide in some countries. Participants will either receive CagriSema or tirzepatide. Which treatment the participant will receive is decided by chance. For each participant, the study will last for up to 1 year and 4 months.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 84,
+      "trial_nct_id": "NCT06534411"
+    },
+    {
+      "chunk_id": "NCT06534411:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Male or female (sex at birth).\n* Age 18 years or above at the time of signing the informed consent.\n* Diagnosed with type 2 diabetes mellitus greater than or equal to (\\>=) 180 days before screening.\n* Stable daily dose(s) \\>= 90 days before screening of any of the following antidiabetic drug(s) or combination regimen(s) at effective or maximum tolerated dose as judged by the investigator:\n* Metformin\n* sodium-glucose co-transporter 2 inhibitor (SGLT2i)\n* Glycated haemoglobin (HbA1c) 7.0-10.5 percent (53-91 millimoles per mol \\[mmol/mol\\]) (both inclusive) as determined by central laboratory at screening.\n* Body mass index (BMI) \\>= 30 kilogram per square meter (kg/m\\^2) at screening. BMI will be calculated in the electronic case report form (eCRF) based on height and body weight at screening.\n\nExclusion Criteria:\n\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of childbearing potential and not using a highly effective contraceptive method.\n* Renal impairment with estimated Glomerular Filtration Rate less than \\< 30 milliliter per minute per 1.73 square meter (mL/min/1.73 m\\^2) as determined by central laboratory at screening.\n* Treatment with any anti-diabetic or anti-obesity medication (irrespective of indication) other than stated in the inclusion criteria within 90 days before screening. However, short term insulin treatment for a maximum of 14 consecutive days is allowed.\n* Uncontrolled and potentially unstable diabetic retinopathy or maculopathy. Verified by an eye examination performed within 90 days before screening or in the period between screening and randomisation. Pharmacological pupil-dilation is a requirement unless using a digital fundus photography camera specified for non-dilated examination.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 283,
+      "trial_nct_id": "NCT06534411"
+    },
+    {
+      "chunk_id": "NCT06534411:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in Glycated Haemoglobin (HbA1c) | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured in percentage points.\ntype=primary | measure=Relative Change in Body Weight | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured in percentage (%).\ntype=secondary | measure=Change in HbA1c | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured in percentage points.\ntype=secondary | measure=Change in Fasting Plasma Glucose (FPG) | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as millimole per liter (mmol/L).\ntype=secondary | measure=Number of Participants Who Achieve HbA1c Target Values of Less Than (<) 7.0 (Percent [%]) (< 53 millimole per mole [mmol/mol]) | time_frame=At end of treatment (week 60) | description=Measured as count of participants.\ntype=secondary | measure=Number of Participants Who Achieve HbA1c Target Values of Less Than or Equal to (<=) 6.5% (<= 48 mmol/mol) | time_frame=At end of treatment (week 60) | description=Measured as count of participants.\ntype=secondary | measure=Number of Participants Who Achieve Greater Than or Equal to (>=) 5% Weight Reduction | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as count of participants.\ntype=secondary | measure=Number of Participants Who Achieve >= 10% Weight Reduction | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as count of participants.\ntype=secondary | measure=Number of Participants Who Achieve >= 15% Weight Reduction | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as count of participants.\ntype=secondary | measure=Number of Participants Who Achieve >= 20% Weight Reduction | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as count of participants.\ntype=secondary | measure=Change in Systolic Blood Pressure (SBP) | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured in millimeter of mercury (mmHg).\ntype=secondary | measure=Change in Diastolic Blood Pressure (DBP) | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured in mmHg.\ntype=secondary | measure=Change in Waist Circumference | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured in centimeter (cm).\ntype=secondary | measure=Ratio to Baseline in Lipids: Total Cholesterol | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as ratio.\ntype=secondary | measure=Ratio to Baseline in Lipids: High Density Lipoprotein (HDL) Cholesterol | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as ratio.\ntype=secondary | measure=Ratio to Baseline in Lipids: Low Density Lipoprotein (LDL) Cholesterol | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as ratio.\ntype=secondary | measure=Ratio to Baseline in Lipids: Very Low Density Lipoprotein (VLDL) Cholesterol | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as ratio.\ntype=secondary | measure=Ratio to Baseline in Lipids: Triglycerides | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as ratio.\ntype=secondary | measure=Ratio to Baseline in Lipids: Non-HDL cholesterol | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as ratio.\ntype=secondary | measure=Change in Short Form (SF) -36v2 Score: Physical Component Summary Score | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as score points. SF-36v2 Acute measures Health-Related Quality of Life (HRQOL). The measure consists of 36 items yielding 8 health domain scores and 2 component summary scores. SF-36v2. Acute scores are norm-based scores, i.e. transformed to a scale where the 2009 US general population has a mean of 50 and a standard deviation of 10. Physical component summary scores ranges from 6.1 to 79.7 with higher scores indicating better functional health and well-being.\ntype=secondary | measure=Change in SF-36v2 Score: Mental Component Summary Score | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as score points. SF-36v2 Acute measures Health-Related Quality of Life (HRQOL). The measure consists of 36 items yielding 8 health domain scores and 2 component summary scores. SF-36v2. Acute scores are norm-based scores, i.e. transformed to a scale where the 2009 US general population has a mean of 50 and a standard deviation of 10. Mental component summary scores ranges from -3.8 to 78.7 with higher scores indicating better functional health and well-being.\ntype=secondary | measure=Change in SF-36v2 Score: Vitality Subscale | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as score points. SF-36v2 Acute measures Health-Related Quality of Life (HRQOL). The measure consists of 36 items yielding 8 health domain scores and 2 component summary scores. SF-36v2. Acute scores are norm-based scores, i.e. transformed to a scale where the 2009 US general population has a mean of 50 and a standard deviation of 10. Vitality score ranges from 25.6 to 69.1 with higher scores indicating better functional health and well-being.\ntype=secondary | measure=Change in Impact of Weight on Quality of Life Lite for Clinical Trials Version (IWQOL-Lite-CT) : Physical Function score | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as score points. IWQOL-Lite-CT measures weight-related physical and psychosocial functioning. The measure consists of 20 items yielding 3 composite scores, and 1 total score. Higher scores indicate better levels of functioning. Physical functioning score ranges from 0 to 100, with higher scores reflecting better levels of functioning.\ntype=secondary | measure=Change in IWQOL-Lite-CT: Total score | time_frame=From baseline (week 0) to end of treatment (week 60) | description=Measured as score points. IWQOL-Lite-CT measures weight-related physical and psychosocial functioning. The measure consists of 20 items yielding 3 composite scores, and 1 total score. Higher scores indicate better levels of functioning. Total score ranges from 0 to 100, with higher scores reflecting better levels of functioning.\ntype=secondary | measure=Number of Treatment Emergent Adverse Events (TEAEs) | time_frame=From baseline (week 0) to end of study (week 66) | description=Measured as count of events.\ntype=secondary | measure=Number of Clinically Significant Hypoglycaemic Episodes (Level 2) (<3.0 mmol/L (<54 Milligram per Deciliter [mg/dL]), Confirmed by Blood Glucose (BG) Meter | time_frame=From baseline (week 0) to end of study (week 66) | description=Measured as count of episodes.\ntype=secondary | measure=Number of Severe Hypoglycaemic Episodes (Level 3): Hypoglycaemia Associated With Severe Cognitive Impairment Requiring External Assistance for Recovery, With no Specific Glucose Threshold | time_frame=From baseline (week 0) to end of study (week 66) | description=Measured as count of episodes.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 1046,
+      "trial_nct_id": "NCT06534411"
+    },
+    {
+      "chunk_id": "NCT06534411:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-11-05\nPrimary completion date: 2026-06-02\nCompletion date: 2026-07-14\nStudy first posted: 2024-08-02\nResults first posted: None\nLast update posted: 2025-12-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06534411"
+    },
+    {
+      "chunk_id": "NCT06534411:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novo Nordisk A/S\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06534411"
+    }
+  ],
+  "trial_nct_id": "NCT06534411"
+}

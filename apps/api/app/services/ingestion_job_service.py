@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+from psycopg.types.json import Jsonb
 from scripts.build_chunk_embeddings import build_semantic_index, write_json as write_semantic_index
 from scripts.fetch_trials_raw import FetchConfig, save_run
 from scripts.load_processed_run_to_db import load_processed_run
@@ -65,7 +66,7 @@ def _insert_job(request: IngestionJobCreateRequest) -> str:
                 VALUES (%s, %s::jsonb)
                 RETURNING id
                 """,
-                ("queued", request.model_dump(mode="json")),
+                ("queued", Jsonb(request.model_dump(mode="json"))),
             )
             return str(cur.fetchone()[0])
 

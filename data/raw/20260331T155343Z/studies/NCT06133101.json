@@ -1,0 +1,279 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants randomized to this arm will consume 2% fat cow's milk twice daily for 12 weeks.",
+          "interventionNames": [
+            "Drug: 2% Fat Cow's Milk"
+          ],
+          "label": "2% Fat Cows Milk",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Participants randomized to this arm will consume standard soy milk twice daily for 12 weeks.",
+          "interventionNames": [
+            "Drug: Standard Soy Milk"
+          ],
+          "label": "Standard Soy Milk",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Standard Soy Milk"
+          ],
+          "description": "Consumption of commercially available soy milk",
+          "name": "Standard Soy Milk",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "2% Fat Cows Milk"
+          ],
+          "description": "Consumption of commercially available 2% cow's milk",
+          "name": "2% Fat Cow's Milk",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-Alcoholic Fatty Liver Disease"
+      ],
+      "keywords": [
+        "NAFLD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Ann.Popelar@cchmc.org",
+          "name": "Ann Popelar",
+          "phone": "(513) 636-8867",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Cincinnati",
+          "contacts": [
+            {
+              "email": "Ann.Popelar@cchmc.org",
+              "name": "Ann Popelar",
+              "phone": "513-636-8867",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marialena Mouzaki, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Cincinnati Children's Hospital Medical Center",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          },
+          "state": "Ohio",
+          "status": "RECRUITING",
+          "zip": "45229"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A randomized, controlled study of standard soy milk consumption compared to 2% fat cow's milk consumption in children with Non-alcoholic Fatty Liver Disease (NAFLD). The investigators hypothesize that the daily consumption of soy isoflavones found in the soy milk will be beneficial in reducing NAFLD and other obesity-related comorbidities. The investigators do not expect any adverse endocrine or metabolomic effects from the consumption of soy isoflavones."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective parallel arm randomized controlled study",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 44,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Children with overweight/obesity\n* Non-alcoholic fatty liver disease (NAFLD) and an MRI PDFF \\>10%\n* Known NAFLD or elevated ALT for sex (\\>22 for females and \\>26 for males)\n\nExclusion Criteria:\n\n* MRI-PDFF \\<10%\n* Baseline habitual (\\>3 days per week) consumption of soy foods\n* Allergy to soy or cow's milk protein\n* Inability to undergo MRI\n* Recent (past 8 weeks) antibiotic exposure\n* Treatment for existing endocrine disorders",
+      "healthyVolunteers": false,
+      "maximumAge": "12 Years",
+      "minimumAge": "5 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Impact of Soymilk on Liver Disease Severity of Children With Non-alcoholic Fatty Liver Disease (NAFLD)",
+      "nctId": "NCT06133101",
+      "officialTitle": "Impact of Soymilk on Liver Disease Severity of Children With Non-alcoholic Fatty Liver Disease (NAFLD)",
+      "orgStudyIdInfo": {
+        "id": "2023-0416"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Children's Hospital Medical Center, Cincinnati"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Change in liver disease severity, measured using magnetic resonance imaging-proton density fat fraction (MRI-PDFF). A relative PDFF change of 30% correlates with histologic improvement in patients with NAFLD and is commonly used in clinical trials.",
+          "measure": "Change in liver disease severity",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in serum aminotransferase levels (ALT, aspartate aminotransferase [AST], GGT, alkaline phosphatase [ALP])",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in gamma glutamyl-transferase levels (GGT)",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in alkaline phosphatase (ALP)",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in fasting triglycerides",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in total cholesterol (TC)",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in high- and low-density lipoprotein (HDL-C, LCL-C) levels",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in glucose",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in insulin",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in glycated hemoglobin (HbA1c)",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in testosterone, estrogen and sex hormone binding globulin (SHBG) levels",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in thyroid function (TSH and Free T4)",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in estradiol",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in serum metabolome and lipidome",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in systolic and diastolic blood pressure",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in equol production status",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Marialena Mouzaki"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Children's Hospital Medical Center, Cincinnati",
+        "investigatorFullName": "Marialena Mouzaki",
+        "investigatorTitle": "Professor, Division of Gastroenterology, Hepatology and Nutrition",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-19",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-01-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-08",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-10-13",
+      "studyFirstSubmitQcDate": "2023-11-09"
+    }
+  }
+}

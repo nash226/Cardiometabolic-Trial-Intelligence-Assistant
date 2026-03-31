@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05935826:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05935826\nBrief title: Effect of Amino Acids on Hepatic Fat Content in Adolescents (AMINOS Study)\nOfficial title: Effect of Amino Acids on Hepatic Fat Content in Adolescents (AMINOS Study)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT05935826"
+    },
+    {
+      "chunk_id": "NCT05935826:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash; obesity\nRaw conditions: Hepatic Steatosis; NAFLD; Adolescent Obesity\nIntervention labels: Essential Amino Acid Supplement by Amino Co; Placebo\nDrug class labels: \nArms: Amino Acid Supplement; Placebo\nKeywords: Amino Acid Supplement",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT05935826"
+    },
+    {
+      "chunk_id": "NCT05935826:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Participants 13-18 years of age with extra fat stored in the liver will be randomly assigned to a protein supplement or placebo \"fake supplement\" for 2 months to see if the participants who get the protein supplement have less fat in the liver compared to participants who were in the placebo group. After the 2 month intervention, all participants can continue the study and will all receive the protein supplement for an additional 10-months.\nDetailed description: The goal of this study is to test if taking a protein supplement can help reduce fat that is stored in the liver in children 13-18 years of age with extra fat stored in the liver. The main question it aims to answer is if participants who take the protein supplement for 2 months twice daily have less fat in the liver, when compared to participants who take a placebo or \"fake supplement\". Participants will be randomly assigned to the protein supplement or placebo and neither study team nor participants will know which group they are assigned to and will have tests done They will have an MRI to measure fat in the liver, a body x-ray to measure body composition and a blood draw when they start and finish their assigned supplement.\n\nAfter the 2 month intervention, all participants can continue the study and will all receive the protein supplement for an additional 10-months.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 233,
+      "trial_nct_id": "NCT05935826"
+    },
+    {
+      "chunk_id": "NCT05935826:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 13 Years\nMaximum age: 18 Years\nAge groups: CHILD; ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria\n\n* Ages 13-18, Tanner stage 4-5\n* Suspected or diagnosed with NAFLD per fibroscan or liver biopsy within 6 months prior to enrollment as long as participants have not lost more than 5% of total body weight. Their MRI liver fat \\>5.5%\n* Diagnosis of non-alcoholic fatty liver disease (NAFLD) per hepatologist\n* Sedentary- less than 3 hours of moderate (jogging, swimming, etc.) exercise a week\n* BMI equal or greater than the 85th percentile for age and gender, this is overweight and obese categories\n\nExclusion Criteria\n\n* Use of medications known to affect insulin sensitivity: metformin, oral glucocorticoids within 10 days, atypical antipsychotics, immunosuppressant agents, HIV medications.\n* Currently pregnant or breastfeeding women. Development of pregnancy during the study period will necessitate withdrawal from the study\n* Severe illness requiring hospitalization within 60 days\n* Diabetes, defined as Hemoglobin A1C \\> 6.4%\n* BMI percentile less than the 85th percentile for age and sex. Waist circumference \\>200 cm\n* Anemia, defined as Hemoglobin \\< 11 mg/dL\n* Diagnosed major psychiatric or developmental disorder limiting informed consent\n* Implanted metal devices that are not compatible with MRI\n* Use of blood pressure medications\n* Known liver disease other than NAFLD or AST or ALT \\>150 IU/L",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 226,
+      "trial_nct_id": "NCT05935826"
+    },
+    {
+      "chunk_id": "NCT05935826:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in Hepatic Fat Fraction | time_frame=Baseline and 8 weeks | description=Change from baseline in presence/severity of hepatic fat fraction will be measured with MRI, and calculated via the Dixon method as the proton density hepatic fat fraction, which ranges from 0-75%.\ntype=secondary | measure=Change in Homeostatic Model Assessment for Insulin Resistance (HOMA-IR) | time_frame=Baseline and 8 weeks | description=An approximate measure of insulin sensitivity. Less than 1.0 means you are insulin-sensitive which is optimal. Above 1.9 indicates early insulin resistance. Above 2.9 indicates significant insulin resistance.\ntype=secondary | measure=Change in alanine aminotransferase (ALT) | time_frame=Baseline and 8 weeks | description=Target ALT levels in children are between 10-30 (U/L). Higher values may indicate liver inflammation.\ntype=secondary | measure=Change in aspartate aminotransferase (AST) | time_frame=Baseline and 8 weeks | description=Target AST levels in children are between 10-35 (U/L). Higher values may indicate liver inflammation.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 145,
+      "trial_nct_id": "NCT05935826"
+    },
+    {
+      "chunk_id": "NCT05935826:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-06-18\nPrimary completion date: 2026-08-31\nCompletion date: 2026-08-31\nStudy first posted: 2023-07-07\nResults first posted: None\nLast update posted: 2025-08-28\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05935826"
+    },
+    {
+      "chunk_id": "NCT05935826:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Colorado, Denver\nLead sponsor class: OTHER\nCollaborators: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05935826"
+    }
+  ],
+  "trial_nct_id": "NCT05935826"
+}
