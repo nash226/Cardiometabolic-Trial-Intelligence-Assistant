@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06861868:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06861868\nBrief title: Brain and Behavior Influences on Obesity Development From Infancy Through Childhood\nOfficial title: Early Brain Development and Child Nutrition and Obesity\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06861868"
+    },
+    {
+      "chunk_id": "NCT06861868:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity and Overweight\nIntervention labels: \nDrug class labels: \nArms: \nKeywords: obesity; overweight; pediatric; eating behavior; appetite; neuroimaging; magnetic resonance imaging; brain development",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT06861868"
+    },
+    {
+      "chunk_id": "NCT06861868:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The investigators project, RESONATE, aims to investigate why some children develop obesity. To do this it uses data on eating and eating-related behaviors, genetic and environmental factors, and brain structure and function. This data is collected in a sub-sample of RESONANCE, a large study of families of children from infancy through childhood. The results will lay foundations for the development of early interventions to prevent or treat obesity.\nDetailed description: Obesity risk shows individual variation such that some children are more likely than others to gain excess weight. One potential reason is that, due to genetic and environmental factors, individuals vary in appetitive behaviors that drive food intake and weight. However, the neurodevelopmental mechanisms underpinning variation in appetite and weight, and effects of risk and protective factors on those outcomes, are not understood. Preliminary data from RESONANCE, the investigators large MRI cohort, suggests obesity risk factors such as maternal pre-pregnancy obesity and obesity-associated genetic variants are associated with not just heightened parent-reported child appetite and adiposity, but with altered patterns of brain structure development from infancy through early childhood. However the relevance of these findings to appetitive behaviors and development of obesity in middle childhood is unknown. This is important because obesity rates and metabolic complications increase through development, adiposity and eating habits measured in later childhood track into adulthood, and obesity is harder to treat later in development, making middle childhood a key stage for capturing outcomes with relevance for lifetime metabolic health. Further, although functional magnetic resonance imaging (MRI) studies have identified altered patterns of activation in brain appetite circuits in association with pediatric obesity and early risk factors for obesity, the predictors of altered functioning of brain appetite circuits in middle childhood are unknown. Identifying the patterns of brain development that predict obesity-promoting behaviors and brain functioning in middle childhood is essential to understand the neural mechanisms by which early obesity risk factors drive excess intake and obesity, and may help pinpoint neurobehavioral targets for early obesity prevention. Finally, although preclinical research and MRI studies of children under 9 years of age support that hypothalamic gliosis, a cellular inflammatory response, plays a role in obesity pathogenesis, it is unclear whether it occurs or impacts appetite in earlier life. For the proposed study, RESONATE, the investigators will address the above research gaps by extending the RESONANCE study to administer meal tests, behavioral and functional magnetic resonance imaging (fMRI) tasks assessing food and non-food reward and cognitive control, and weight/ adiposity measures in middle childhood, and examining hypothalamic gliosis, in a sub-sample of RESONANCE children. By combining this data with extant MRI data and extant or newly-collected data on obesity risk and protective factors, the investigators will test a multi-faceted hypothesis that prenatal, genetic and postnatal factors lead to differential early development of brain appetite circuits, which in turn gives rise to variation in appetitive behaviors and behaviors involving reward processing and cognitive control as well as altered function of brain appetite circuits, that act to influence the development of obesity into middle childhood. The investigator's long-term goal is to lay foundations for developmentally-appropriate, neurobehaviorally-informed interventions to address child obesity.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 523,
+      "trial_nct_id": "NCT06861868"
+    },
+    {
+      "chunk_id": "NCT06861868:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 7 Years\nMaximum age: 12 Years\nAge groups: CHILD\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Participants from the RESONANCE cohort are eligible if the participant will reach 7-12 years of age during the proposed project period and have no food allergies.\n\nExclusion Criteria:\n\n* Exclusion criteria for RESONANCE include:\n\n  1. In utero exposure to alcohol, cigarette, or illicit substances;\n  2. First trimester fetal US abnormalities;\n  3. Complicated pregnancy (e.g., pre-eclampsia);\n  4. Complicated delivery, including APGAR scores less than 8 and/or neonatal intensive care unit (NICU) admission;\n  5. History of neurological (e.g., epilepsy), psychiatric (e.g., anxiety or depression requiring treatment with medication) or developmental disorder (e.g., autism spectrum disorder (ASD), dyslexia);\n  6. Contraindications for MRI including metal in the body, claustrophobia.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 125,
+      "trial_nct_id": "NCT06861868"
+    },
+    {
+      "chunk_id": "NCT06861868:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Meal test intake as assessed by total kilocalories consumed | time_frame=Day 1 | description=Total kilocalories consumed. Once at the first study visit (lab visit)\ntype=primary | measure=Weight/adiposity as assessed by BMI | time_frame=Day 1 | description=Body Mass Index z-score. Once at the first study visit (lab visit)\ntype=primary | measure=Food-related reward as assessed by food-related delay discounting task | time_frame=Day 1 | description=Number of trials the child passes. Once, at the first study visit (lab visit)\ntype=primary | measure=Food-related cognitive control as assessed by food-related go/no-go task | time_frame=Day 1 | description=Commission error rate. Once, at the first study visit (lab visit)\ntype=primary | measure=Functioning in brain appetite circuits as assessed by cue reactivity task | time_frame=During MRI procedure | description=Activation of striatal reward regions and fronto-cingulate control circuits during task assessing food-related reward (cue reactivity). Once, at the second study visit (MRI visit).\ntype=primary | measure=Functioning in brain appetite circuits as assessed by cognitive control task | time_frame=During MRI procedure | description=Activation of striatal reward regions and fronto-cingulate control circuits during task assessing food-related cognitive control (go/no go). Once, at the second study visit (MRI visit).",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 189,
+      "trial_nct_id": "NCT06861868"
+    },
+    {
+      "chunk_id": "NCT06861868:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-12-02\nPrimary completion date: 2029-03-31\nCompletion date: 2029-03-31\nStudy first posted: 2025-03-06\nResults first posted: None\nLast update posted: 2025-03-06\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06861868"
+    },
+    {
+      "chunk_id": "NCT06861868:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Johns Hopkins University\nLead sponsor class: OTHER\nCollaborators: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK); Rhode Island Hospital; Hugo W. Moser Research Institute at Kennedy Krieger, Inc.; University of Washington\nCountries: \nHas US sites: False\nLocation sample: ACTIVE_NOT_RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 46,
+      "trial_nct_id": "NCT06861868"
+    }
+  ],
+  "trial_nct_id": "NCT06861868"
+}

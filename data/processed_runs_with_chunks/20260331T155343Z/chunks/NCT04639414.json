@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04639414:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04639414\nBrief title: Combined Active Treatment in Type 2 Diabetes with NASH\nOfficial title: Combined Active Treatment in Type 2 Diabetes with NASH\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT04639414"
+    },
+    {
+      "chunk_id": "NCT04639414:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes; mash\nRaw conditions: Type 2 Diabetes; Non-alcoholic Steatohepatitis (NASH); Non-alcoholic Fatty Liver Disease (NAFLD)\nIntervention labels: Empagliflozin 10mg oral tablet / Semaglutide 1mg pen injector; Empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide; Placebo matching empagliflozin and placebo pen injector matching semaglutide\nDrug class labels: glp1_receptor_agonist\nArms: Combined treatment with Empagliflozin and Semaglutide; Empagliflozin monotherapy; Placebo\nKeywords: Type 2 Diabetes; Non-alcoholic Steatohepatitis (NASH); Non-alcoholic Fatty Liver Disease (NAFLD); Fatty liver; Diabetes mellitus; Empagliflozin; Semaglutide",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 79,
+      "trial_nct_id": "NCT04639414"
+    },
+    {
+      "chunk_id": "NCT04639414:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of this multicentre, prospective, placebo-controlled, double-blind, randomized, 3-arm parallel group, interventional study is to assess for the first time the effects of either a combined therapy with the antihyperglycemic drugs semaglutide and empagliflozin or empagliflozin monotherapy compared to placebo as potential treatments for non-alcoholic steatohepatitis (NASH) in patients with type 2 diabetes.\nDetailed description: Obesity and type 2 diabetes (T2D) are tightly associated with non-alcoholic fatty liver disease (NAFLD), which in turn predicts the development of T2D and cardiovascular disease.\n\nUp to 80% of NAFLD patients with T2D have NASH and the presence of T2D is an independent risk factor for more-advanced fibrosis, higher rate of fibrosis progression, and increased mortality. Liver-related mortality is increased 10-fold in NASH patients compared with the general population. In addition, people with NASH are at an excessive risk of cardiovascular morbidity and mortality.\n\nCurrently, there are no established pharmacotherapies for NASH patients with T2D.\n\nThe aim of this trial is to evaluate efficacy of a combined treatment with semaglutide 1 mg/week (GLP1RA) and empagliflozin 10 mg/d (SGLT2I) or ii) empagliflozin 10 mg/d monotherapy by means of histological resolution of NASH in T2D patients without progression of fibrosis after 48 weeks treatment.\n\nTo confirm a histological diagnosis of NASH and proof efficacy of treatment, a liver biopsy will be performed prior to screening as well as at the end of treatment phase.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 231,
+      "trial_nct_id": "NCT04639414"
+    },
+    {
+      "chunk_id": "NCT04639414:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 25 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Diagnosis of T2D and NASH with fibrosis stage F1-F3\n* Age between 25 and 75 years\n* HbA1c \u2264 9.5%\n* obtained written informed consent\n\nExclusion Criteria:\n\n* Contraindications on liver biopsy\n* Evidence of cirrhosis on liver biopsy\n* Liver disease of other etiology including chronic viral hepatitis (B or C), alcohol abuse, hemochromatosis, alpha-1 antitrypsin deficiency, autoimmune hepatitis, Wilson's disease, primary sclerosing cholangitis or primary biliary cirrhosis, or liver cirrhosis of any etiology\n* History of ketoacidosis\n* Alcohol consumption \\>30 g/d for males and \\>20 g/d for females\n* Past (\u22655 years) or current history of alcohol or drug abuse and/or psychiatric disease including severe depression necessitating pharmacological treatment\n* Medications that may induce steatosis:tamoxifen, raloxifene, oral glucocorticoids or chloroquine\n* Planned pregnancy, pregnant or lactating women, positive pregnancy test, and woman of childbearing potential not using two adequate methods of contraception, including a barrier method and a highly efficacious non-barrier method",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 176,
+      "trial_nct_id": "NCT04639414"
+    },
+    {
+      "chunk_id": "NCT04639414:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Histological resolution of NASH without worsening of fibrosis | time_frame=from baseline to 48 weeks | description=NAFLD status will be assessed by histologic evaluation of liver biopsy samples based on NAFLD activity score. NASH resolution is defined by disappearance of ballooning (score 0), together with either disappearance of lobular inflammation or the persistence of mild lobular inflammation only (score 0 or 1) and resulting in an overall pathologic diagnosis of either steatosis alone or steatosis with mild inflammation; with no worsening of fibrosis. Worsening of fibrosis is defined by an increase of at least one stage of the Kleiner fibrosis classification.\ntype=secondary | measure=Overall NAFLD activity score (NAS) | time_frame=from baseline to 48 weeks | description=Sum of a) steatosis (0-3 points), b) lobular inflammation (scored 0-3 points), c) hepatocellular ballooning (scored 0-2 points) assessed by liver histology\ntype=secondary | measure=Stage of fibrosis according to the Kleiner Fibrosis Classification | time_frame=from baseline to 48 weeks | description=Assessed by liver histology according to the Kleiner Fibrosis Classification (stages 0-4)\ntype=secondary | measure=Activity component of NASH according to the steatosis-activity-fibrosis (SAF) score | time_frame=from baseline to 48 weeks | description=Sum of lobular inflammation (scored 0-3 points)and hepatocellular ballooning (scored 0-2 points) assessed by liver histology\ntype=secondary | measure=Hepatic steatosis grade | time_frame=from baseline to 48 weeks | description=steatosis grade (0-3) assessed by liver histology",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 222,
+      "trial_nct_id": "NCT04639414"
+    },
+    {
+      "chunk_id": "NCT04639414:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-03-26\nPrimary completion date: 2025-01-31\nCompletion date: 2025-12\nStudy first posted: 2020-11-20\nResults first posted: None\nLast update posted: 2024-10-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04639414"
+    },
+    {
+      "chunk_id": "NCT04639414:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: German Diabetes Center\nLead sponsor class: OTHER\nCollaborators: Boehringer Ingelheim; German Center for Diabetes Research; Federal Ministry of Health, Germany; Ministry of Innovation, Science and Research in North Rhine-Westphalia; Novo Nordisk A/S\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT04639414"
+    }
+  ],
+  "trial_nct_id": "NCT04639414"
+}

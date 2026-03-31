@@ -1,0 +1,342 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008173",
+          "term": "Lung Diseases, Obstructive"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D029424",
+          "term": "Pulmonary Disease, Chronic Obstructive"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D026441",
+          "term": "Mind-Body Therapies"
+        },
+        {
+          "id": "D000529",
+          "term": "Complementary Therapies"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D011613",
+          "term": "Psychotherapy"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        },
+        {
+          "id": "D012121",
+          "term": "Respiration, Artificial"
+        },
+        {
+          "id": "D058109",
+          "term": "Airway Management"
+        },
+        {
+          "id": "D012138",
+          "term": "Respiratory Therapy"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006990",
+          "term": "Hypnosis"
+        },
+        {
+          "id": "D063087",
+          "term": "Noninvasive Ventilation"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "For the hypnosis group, hypnotic support is set up by a doctor/IDE previously trained and dedicated during the implementation of the NIV. The dedicated doctor/IDE will be presented before the start of the NIV setup procedure and will start the hypnosis session a few minutes before the mask is put on. The procedure for setting up the NAV may begin after agreement from the dedicated doctor/IDE.",
+          "interventionNames": [
+            "Other: Hypnosis + NIV"
+          ],
+          "label": "Hypnosis group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "In the control group, in order to preserve the knowledge of the evaluator, the doctor/IDE dedicated to hypnosis is present in the service but does not intervene in the care so as not to be tempted to involuntarily put hypnosis in place. The assessor will be chosen from the two other teams present in the other two modules (each module is a seven-bed unit and has no physical communication with the other two) after the start of the procedure for setting up the NIV, with or without hypnosis, in order to be certain that he had no visual contact with the patient and the caregivers present before the evaluation. The implementation of the NAV will take place as usually carried out in the service.",
+          "interventionNames": [
+            "Other: NIV"
+          ],
+          "label": "Control group",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Hypnosis group"
+          ],
+          "description": "For the hypnosis group, hypnotic support is set up by a doctor/IDE previously trained and dedicated during the implementation of the NIV. The dedicated doctor/IDE will be presented before the start of the NIV setup procedure and will start the hypnosis session a few minutes before the mask is put on. The procedure for setting up the NAV may begin after agreement from the dedicated doctor/IDE.",
+          "name": "Hypnosis + NIV",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Control group"
+          ],
+          "description": "In the control group, in order to preserve the knowledge of the evaluator, the doctor/IDE dedicated to hypnosis is present in the service but does not intervene in the care so as not to be tempted to involuntarily put hypnosis in place. The assessor will be chosen from the two other teams present in the other two modules (each module is a seven-bed unit and has no physical communication with the other two) after the start of the procedure for setting up the NIV, with or without hypnosis, in order to be certain that he had no visual contact with the patient and the caregivers present before the evaluation. The implementation of the NAV will take place as usually carried out in the service.",
+          "name": "NIV",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Obesity With a BMI Greater Than 30",
+        "Acute Respiratory Distress in Adult Intensive Care"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Rennes",
+          "contacts": [
+            {
+              "email": "claude.faleur@chu-rennes.fr",
+              "name": "Claude Faleur, nurse",
+              "phone": "0299284321",
+              "role": "CONTACT"
+            },
+            {
+              "email": "violaine.benoit@club-internet.fr",
+              "name": "Violaine BENOIT, project leader",
+              "phone": "0299289741",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Claude Faleur, nurse",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "France",
+          "facility": "Rennes University Hospital",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          },
+          "state": "Brittany Region",
+          "status": "RECRUITING",
+          "zip": "35033"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Discomfort during respiratory decompensation of a patient with chronic obstructive pulmonary disease (COPD) and/or obesity with a BMI greater than 30, in intensive care and the establishment of non-invasive ventilation (NIV) is frequent and a source of failure. this therapy. Pharmacological treatments may be impossible due to the pathology, the risk of it worsening and adverse effects. In this context, hypnosis appears to be a tool that would promote comfort and thus increase tolerance of NIV."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective monocentric, controlled, randomized, superiority, open study with a blind assessor, on two parallel groups.",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Patient randomization will be done online.\n\nSETTING UP AND MAINTAINING THE INSU People having knowledge of the randomization group\n\n* Doctor in charge of the patient\n* Doctor/IDE dedicated to hypnosis (present throughout the procedure, regardless of the randomization group)\n* Patient People not having knowledge of the randomization group\n* assessor = other IDE or doctor not directly taking care of the patient assessor present at 4 times: inclusion, H0, H2 and H24 but absent during the procedure 1 single assessor for the 4 times of the same patient",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "SUPPORTIVE_CARE"
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Pre-inclusion criteria\n\n* Man or woman, aged 18 or over, admitted to medical intensive care\n* Glasgow score = 15\n* Patient with acute respiratory failure decompensating COPD and/or having obesity with a body mass index (BMI) greater than 30\n* Patient having given free, informed and written consent\n* Patient affiliated to a health insurance system\n\nInclusion Criteria:\n\n* Glasgow score = 15\n* Need during use of non-invasive ventilation\n\nExclusion Criteria:\n\n* Procedure to be carried out in extreme urgency (PaCO2 too high and leading to an immediate vital risk, and / or PaO2 too low) on medical decision\n* Confusional state making hypnosis impossible\n* Decompensated psychiatric illness\n* Patient entering with an NIV in place already installed in another department. The subject becomes included again at the end of the treatment with NIV if however he needs it again.\n* Patient already included in the study during previous non-invasive ventilation\n* Patient participating in research involving an interventional human person (category 1) on an analgesic / sedative medication\n* A person of full age subject to legal protection (safeguard of justice, curators, guardianship) or deprived of liberty",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "HYVIR",
+      "briefTitle": "Interest of Hypnosis When Setting up Non-invasive Ventilation in a Conscious Patient With COPD and/or Obesity With a BMI Greater Than 30, Suffering Fromacute Respiratory Distress in Adult Intensive Care",
+      "nctId": "NCT04220463",
+      "officialTitle": "HYVIR : Interest of Hypnosis During the Implementation of Non-invasive Ventilation in a Patient With COPD and/or Obesity With a BMI Greater Than 30, Conscious With Acute Respiratory Distress in the Adult Intensive Care Unit",
+      "orgStudyIdInfo": {
+        "id": "35RC19_9747_HYVIR"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Rennes University Hospital"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "ID RCB",
+          "id": "2019-A02238-49",
+          "type": "OTHER"
+        },
+        {
+          "domain": "CNRIPH",
+          "id": "19/08/14/42258",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Quantification of comfort by a Digital Verbal Comfort Scale 2 hours after initiation of NIV (from 0 to 10, 0 being the minimum comfort felt and 10 the maximum comfort felt by the patient)",
+          "measure": "Comfort",
+          "timeFrame": "2 hours after initiation of NIV"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Assessment of anxiety (Numerical Verbal Scale from 0 to 10) at inclusion, 30 minutes, 2 hours and 24 hours after the implementation of the NIV",
+          "measure": "Anxiety",
+          "timeFrame": "Before and 30 minuts, 2 hours and 24 hours after the implementation of the NIV"
+        },
+        {
+          "description": "Calculation of the number of hours of the first NIV session",
+          "measure": "First NIV session duration",
+          "timeFrame": "At the end of the first NIV session"
+        },
+        {
+          "description": "Comfort assessment at inclusion, 30 minutes and 24 hours after the implementation of the NIV (Digital Verbal Scale from 0 to 10)",
+          "measure": "Comfort",
+          "timeFrame": "Before and 30 minuts and 24 hours after the implementation of the NIV"
+        },
+        {
+          "description": "Decrease in PaCO2: Installation of a transcutaneous sensor and measurement of TcpCO2 at inclusion, 30 minutes, 2 hours and 24 hours after the establishment of the NIV",
+          "measure": "TcpCO2",
+          "timeFrame": "Before and 30 minuts, 2 hours and 24 hours after the implementation of the NIV"
+        },
+        {
+          "description": "Calculation of the number of hours of NIV in the first 24 hours of treatment",
+          "measure": "NIV duration",
+          "timeFrame": "after the first 24 hours of treatment"
+        },
+        {
+          "description": "Assessment of the dyspnea felt by the patient 2 hours after the setting up of the NIV: +2: significant improvement; +1 slight improvement; 0 No change; -1 slight deterioration; -2 significant deterioration.",
+          "measure": "dyspnea",
+          "timeFrame": "2 hours after the setting up of the NIV"
+        },
+        {
+          "description": "Number of intubations: calculation of the number of patients intubated during the ICU stay.",
+          "measure": "Intubation",
+          "timeFrame": "Day 28"
+        },
+        {
+          "description": "Duration of stay in intensive care",
+          "measure": "Stay duration",
+          "timeFrame": "Day 28"
+        },
+        {
+          "description": "Record of the number of patients who had to have a prescription for anxiolytics during hospitalization in intensive care.",
+          "measure": "anxiolytic treatment prescription",
+          "timeFrame": "Day 28"
+        },
+        {
+          "description": "Evaluation of the stress of the healthcare team by a numerical verbal scale from 0 to 10 (0 being no stress and 10 the greatest possible stress felt) at inclusion, 30 minutes and 2 hours after NIV initiation",
+          "measure": "stress",
+          "timeFrame": "Before and 30 minuts and 2 hours after the implementation of the NIV"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Rennes University Hospital"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-11-20",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-20",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-11-20",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-11-20",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-06",
+      "studyFirstPostDateStruct": {
+        "date": "2020-01-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-12-20",
+      "studyFirstSubmitQcDate": "2020-01-06"
+    }
+  }
+}

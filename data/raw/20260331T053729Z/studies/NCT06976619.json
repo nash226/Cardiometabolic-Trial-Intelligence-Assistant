@@ -1,0 +1,326 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003922",
+          "term": "Diabetes Mellitus, Type 1"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D052216",
+          "term": "Glucagon-Like Peptide 1"
+        },
+        {
+          "id": "D004763",
+          "term": "Glucagon-Like Peptides"
+        },
+        {
+          "id": "D052336",
+          "term": "Proglucagon"
+        },
+        {
+          "id": "D005768",
+          "term": "Gastrointestinal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000069450",
+          "term": "Liraglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Subjects will receive syringes loaded with saline to self-administer daily during the intervention phase",
+          "interventionNames": [
+            "Other: Saline Injections"
+          ],
+          "label": "Type 1 diabetes - Placebo arm",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Subjects will receive 0.6mg Liraglutide syringes to self-administer daily during the intervention phase",
+          "interventionNames": [
+            "Drug: Liraglutide Pen Injector"
+          ],
+          "label": "Type 1 diabetes - Liraglutide arm",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Subjects will receive syringes loaded with saline to self-administer daily during the intervention phase",
+          "interventionNames": [
+            "Other: Saline Injections"
+          ],
+          "label": "Type 2 diabetes - Placebo arm",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Subjects will receive 0.6mg Liraglutide syringes to self-administer daily during the intervention phase",
+          "interventionNames": [
+            "Drug: Liraglutide Pen Injector"
+          ],
+          "label": "Type 2 diabetes - Liraglutide arm",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Type 1 diabetes - Liraglutide arm",
+            "Type 2 diabetes - Liraglutide arm"
+          ],
+          "description": "Liraglutide 0.6mg",
+          "name": "Liraglutide Pen Injector",
+          "otherNames": [
+            "Liraglutide"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Type 1 diabetes - Placebo arm",
+            "Type 2 diabetes - Placebo arm"
+          ],
+          "description": "Saline in syringes to serve as placebo for single blind study",
+          "name": "Saline Injections",
+          "otherNames": [
+            "Placebo"
+          ],
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 1 Diabetes",
+        "Type 2 Diabetes"
+      ],
+      "keywords": [
+        "Islet Function",
+        "Glucose Toxicity"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "vella.adrian@mayo.edu",
+          "name": "Adrian Vella, MD",
+          "phone": "507-255-6515",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Rochester",
+          "contacts": [
+            {
+              "email": "OByrne.Amy14@mayo.edu",
+              "name": "Amy O'Byrne",
+              "phone": "507-255-8547",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Adrian Vella",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Mayo Clinic in Rochester",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          },
+          "state": "Minnesota",
+          "status": "RECRUITING",
+          "zip": "55905"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Mayo Clinic",
+          "name": "Adrian Vella, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators recently demonstrated that blockade of Glucagon-Like Peptide-1's (GLP-1) receptor (GLP1R) results in changes in islet function without changes in circulating GLP-1. These effects are more pronounced in people with early type 2 diabetes (T2DM) in keeping with increased expression of PC-1/3 and GLP-1 that is observed in diabetic islets. However, its regulation is at present unknown. There is evidence that \u03b1-cell proglucagon processing is subject to paracrine regulation by the \u03b2-cell3. It is unclear if the effects of GLP1R agonism on islet GLP-1 differ in Type 1 diabetes (T1DM) compared to T2DM. This experiment will examine the effect of glycemic control \u00b1 a GLP1R agonist on islet GLP-1 in people with (T2DM) and without (T1DM) \u03b2-cells.",
+      "detailedDescription": "The investigators recently demonstrated that blockade of Glucagon-Like Peptide-1's (GLP-1) receptor (GLP1R) results in changes in islet function without changes in circulating GLP-1. This supports other evidence (rodents and humans) that through the (inducible) expression of a prohormone convertase (PC-1/3), the \u03b1-cell can process proglucagon to intact GLP-15,6. 'Islet' or 'pancreatic' GLP-1 acts in a paracrine fashion to regulate insulin (basal and 1st phase) and glucagon secretion. These effects are more pronounced in people with early type 2 diabetes (T2DM) in keeping with increased expression of PC-1/3 and GLP-1 that is observed in diabetic islets.\n\nThere is evidence that \u03b1-cell proglucagon processing is subject to paracrine regulation by the \u03b2-cell. \u03b2-cell secretion of the signaling peptide 14-3-3-Zeta is decreased by GLP1R agonism (Fig.1), stimulating \u03b1-cell production of GLP-1. This is a testable hypothesis in humans; people with type 1 diabetes (T1DM) have dysregulated glucagon secretion and evidence of islet GLP-1. It is unclear if the effects of GLP1R agonism on islet GLP-1 differ compared to T2DM. This experiment will examine the effect of glycemic control \u00b1 a GLP1R agonist on islet GLP-1 in people with (T2DM) and without (T1DM) \u03b2-cells."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Intervention will be assigned in single-blind fashion (Placebo pens for liraglutide are unavailable). A placebo syringe created by Research Pharmacy in addition to 'masked' liraglutide pens will be used over 4-weeks",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Type 1 or type 2 diabetes treated with insulin\n\nExclusion Criteria:\n\n1. Age \\< 25 or \\> 70 years.\n2. HbA1c \\> 10.0%\n3. For female subjects: positive pregnancy test at the time of enrollment or study\n4. History of prior upper abdominal surgery such as adjustable gastric banding, pyloroplasty and vagotomy.\n5. Prior use of GLP-1 receptor agonists in the previous year.\n6. Active systemic illness or malignancy.\n7. Symptomatic macrovascular or microvascular disease.",
+      "healthyVolunteers": false,
+      "maximumAge": "70 Years",
+      "minimumAge": "25 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The Effect of Glycemic Control and of GLP-1 Receptor Agonism on Islet GLP-1 in People With Type 1 and Type 2 Diabetes",
+      "nctId": "NCT06976619",
+      "officialTitle": "The Effect of Glycemic Control and of GLP-1 Receptor Agonism on Islet GLP-1 in People",
+      "orgStudyIdInfo": {
+        "id": "24-007682"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Mayo Clinic"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during fasting (-30 to 0 min) of each study day.",
+          "measure": "Effect of exendin 9-39 on fasting glucagon secretion rate before and after liraglutide treatment",
+          "timeFrame": "The change in fasting glucagon secretion rate (saline vs. exendin 9-39) in the baseline study will be compared with the change in fasting glucagon secretion rate (saline vs. exendin 9-39) after 30 days of treatment with liraglutide (post-liraglutide)"
+        },
+        {
+          "description": "Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during hyperglycemia (150 to 180 min) of each study day.",
+          "measure": "Effect of exendin 9-39 on glucagon secretion rate during hyperglycemia before and after liraglutide",
+          "timeFrame": "The change in glucagon secretion rate during hyperglycemia (saline vs. exendin 9-39) in the baseline study will be compared with the change (saline vs. exendin 9-39) after 30 days of treatment with liraglutide (post-liraglutide)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during fasting (-30 to 0 minutes) during the baseline studies",
+          "measure": "Effect of exendin 9-39 on fasting glucagon secretion rate in people with type 1 diabetes vs type 2 diabetes",
+          "timeFrame": "The change in fasting glucagon secretion (saline vs. exendin 9-39) in the baseline studies will be compared in people with type 1 diabetes vs type 2 diabetes"
+        },
+        {
+          "description": "Glucagon secretion rate will be estimated by deconvolution from glucagon concentrations during hyperglycemia (150 to 180 minutes) during the baseline studies",
+          "measure": "Effect of exendin 9-39 on glucagon secretion rate during hyperglycemia in people with type 1 diabetes vs type 2 diabetes",
+          "timeFrame": "The change in glucagon secretion during hyperglycemia (saline vs. exendin 9-39) in the baseline studies will be compared in people with type 1 diabetes vs type 2 diabetes"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Mayo Clinic"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Mayo Clinic",
+        "investigatorFullName": "Adrian Vella",
+        "investigatorTitle": "Professor of Medicine",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-03-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-10",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-10-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-10-03",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-10",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-05-05",
+      "studyFirstSubmitQcDate": "2025-05-13"
+    }
+  }
+}

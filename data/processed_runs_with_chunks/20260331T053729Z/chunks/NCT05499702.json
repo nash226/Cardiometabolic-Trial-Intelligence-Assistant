@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05499702:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05499702\nBrief title: The Effects of Glucagon on Hepatic Metabolism in People With Type 2 Diabetes After Caloric Restriction\nOfficial title: The Effects of Glucagon on Hepatic Metabolism in People With Type 2 Diabetes After Caloric Restriction\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT05499702"
+    },
+    {
+      "chunk_id": "NCT05499702:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Type2diabetes\nIntervention labels: Caloric Restriction; Hyperglycemic clamp\nDrug class labels: \nArms: Adults with type 2 diabetes\nKeywords: glucagon; insulin resistance; caloric restriction; hepatic steatosis; amino acid metabolism",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT05499702"
+    },
+    {
+      "chunk_id": "NCT05499702:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Caloric restriction (and RYGB) improves insulin action and lowers fasting glucose, glucagon and EGP, without changes in postprandial EGP and glucagon concentrations. Caloric restriction also improves hepatic steatosis and lowers fasting AA. These changes may represent restoration of glucagon's hepatic actions. This experiment will determine whether caloric restriction improves glucagon's actions on hepatic amino acid, carbohydrate and lipid metabolism in T2DM in comparison to a baseline experiment performed separately in people with T2DM.\nDetailed description: T2DM and prediabetes are characterized by abnormal post-prandial suppression of glucagon, which contributes to postprandial hyperglycemia by increasing EGP. Although these effects are magnified by decreased and delayed insulin secretion, they are also apparent when insulin secretion is intact5. In rodents, altered glucagon signaling changes \u03b1-cell function and mass - an effect mediated by changes in circulating AA concentrations. Are the elevated concentrations of branched-chain AA and other AA metabolites in T2DM a cause or an effect of global \u03b1-cell dysfunction? Could altered glucagon signaling precipitate a vicious cycle resulting in T2DM?\n\nThis study will determine how caloric restriction alters hepatic glucagon action. Elevated fasting AA concentrations are associated with T2DM risk. In addition, hepatic steatosis has been associated with an impaired ability of glucagon to stimulate hepatic clearance of AAs. Prior studies have shown that caloric restriction lowers fasting glucose, EGP and glucagon. However, the effects on these parameters in the postprandial period are unclear. This experiment will examine to what degree the improvements produced by caloric restriction can be explained by improved hepatic glucagon action. Because caloric restriction decreases hepatic fat content the experiment will also determine if a reduction in hepatic fat content is associated with changes in glucagon's effects on hepatic AA, glucose, and lipid metabolism.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 287,
+      "trial_nct_id": "NCT05499702"
+    },
+    {
+      "chunk_id": "NCT05499702:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 25 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* We will recruit up to 20 weight-stable, subjects with type 2 diabetes\n* BMI \u2265 28 Kg/M2\n* Diabetes is managed by diet alone or a combination of oral agents\n\nExclusion Criteria:\n\n* History of prior upper abdominal surgery e.g. gastric banding, pyloroplasty, vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.\n* Contraindications to MRI (e.g. metal implants, claustrophobia).\n* Hematocrit \\< 35%\n* TSH \\< 0.4 or \\> 5.5.\n* Consumption of \\> 2 alcohol drinks per day or \\> 14 per week or a positive AUDIT questionnaire.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 115,
+      "trial_nct_id": "NCT05499702"
+    },
+    {
+      "chunk_id": "NCT05499702:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Rate of leucine oxidation in response to rising glucagon concentrations | time_frame=240 minutes of study | description=tracer-determined amino acid catabolism",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT05499702"
+    },
+    {
+      "chunk_id": "NCT05499702:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-12-15\nPrimary completion date: 2026-06-30\nCompletion date: 2026-12-31\nStudy first posted: 2022-08-12\nResults first posted: None\nLast update posted: 2025-06-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05499702"
+    },
+    {
+      "chunk_id": "NCT05499702:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Adrian Vella\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT05499702"
+    }
+  ],
+  "trial_nct_id": "NCT05499702"
+}

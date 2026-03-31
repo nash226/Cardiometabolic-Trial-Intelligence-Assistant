@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07374328:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07374328\nBrief title: Triple Hypoglycemic Regimens In Patients With Newly Diagnosed Type 2 Diabetes Mellitus\nOfficial title: Comparison Of Two Triple Hypoglycemic Regimens In Achieving Glycemic Control And Diabetes Remission In Hospitalized Patients With Newly Diagnosed Type 2 Diabetes Mellitus: A Multicenter, Randomized, Clinical Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT07374328"
+    },
+    {
+      "chunk_id": "NCT07374328:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes\nIntervention labels: Semaglutide (1 Mg Dose); Sitagliptin (DPP4 inhibitor)\nDrug class labels: glp1_receptor_agonist\nArms: Semaglutide group: patients receive semaglutide treatment.; Oral medication group: patients receive triple hypoglycemic oral medications.\nKeywords: triple regimen; diabetes; remission",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT07374328"
+    },
+    {
+      "chunk_id": "NCT07374328:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is a multicenter, randomized, controlled study. A sample size of 240 cases is proposed to be included. The inclusion criteria are: (1) patients with newly diagnosed type 2 diabetes; (2) age between 18 and 65 years old; (3) HbA1c \u2265 9.0%. The exclusion criteria include: (1) type 1 diabetes; (2) elevated creatinine or urinary albumin/creatinine; (3) combined with coronary heart disease, tumor or pregnancy; (4) receiving glucocorticoids. The selected participants are randomly divided into two groups: one group is the semaglutide group, and the other isthe oral medication group. The treatment plan is as follows. Semaglutide group: 0.25 mg per week in the first month, 0.5 mg per week in the second month, and 1.0mg per week from the 3rd to the 8th month of semaglutide. Oral medication group: Sitagliptin 0.1g per day. Both groups were simultaneously treated with metformin (1.0g daily, divided into two doses) and empagliflozin (10mg daily). The first phase of the study was as follows: Semaglutide group: Treatment was initiated until 6 months after the titration dose of 1mg was reached; Oral medication group: Initiate treatment until 6 months after reaching a fixed dose. At the end of the first stage of the study, for the selected participants with HbA1c\\<6.5%, the hypoglycemic drugs were discontinued and they entered the second stage of the study. The study was concluded after a 3-month follow-up. The evaluation indicators include: effectiveness indicators (HbA1c, diabetes remission rate, continuous glucose monitoring), safety indicators (hypoglycemia, adverse reactions, etc.).\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 252,
+      "trial_nct_id": "NCT07374328"
+    },
+    {
+      "chunk_id": "NCT07374328:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients with newly diagnosed type 2 diabetes.\n* Age between 18 and 65 years old.\n* HbA1c \u2265 9.0%.\n\nExclusion Criteria:\n\n* Type 1 diabetes.\n* Elevated creatinine or urinary albumin/creatinine.\n* Combined with coronary heart disease, tumor or pregnancy.\n* Receiving glucocorticoids.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 64,
+      "trial_nct_id": "NCT07374328"
+    },
+    {
+      "chunk_id": "NCT07374328:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Diabetes remission rate | time_frame=From enrollment to the end of follow-up at 11 months\ntype=secondary | measure=HbA1c | time_frame=From enrollment to the end of follow-up at 11 months\ntype=secondary | measure=Hypoglycemia rate | time_frame=From enrollment to the end of follow-up at 11 months\ntype=secondary | measure=Adverse reactions | time_frame=From enrollment to the end of follow-up at 11 months",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 60,
+      "trial_nct_id": "NCT07374328"
+    },
+    {
+      "chunk_id": "NCT07374328:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-01\nPrimary completion date: 2026-05-31\nCompletion date: 2026-08-31\nStudy first posted: 2026-01-28\nResults first posted: None\nLast update posted: 2026-01-28\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07374328"
+    },
+    {
+      "chunk_id": "NCT07374328:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Second Affiliated Hospital of Guangzhou Medical University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT07374328"
+    }
+  ],
+  "trial_nct_id": "NCT07374328"
+}

@@ -1,0 +1,292 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000072001",
+          "term": "Diet, Healthy"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants assigned to the TRE group will have to consume all their daily meals and snacks during a 9-hour window for 12 weeks.",
+          "interventionNames": [
+            "Behavioral: Time restricted eating",
+            "Behavioral: Healthy diet"
+          ],
+          "label": "TRE group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants assigned to the control group will have to consume all their daily meals and snacks during a 14-hour window for 12 weeks.",
+          "interventionNames": [
+            "Behavioral: Extended eating window",
+            "Behavioral: Healthy diet"
+          ],
+          "label": "Control group",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "TRE group"
+          ],
+          "description": "Participants assigned to the TRE group will have to consume all their daily meals and snacks during a 9-hour window for 12 weeks.",
+          "name": "Time restricted eating",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Control group"
+          ],
+          "description": "Participants assigned to the control group will have to consume all their daily meals and snacks during a 14-hour window for 12 weeks.",
+          "name": "Extended eating window",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Control group",
+            "TRE group"
+          ],
+          "description": "Participants will be provided nutrition education and counselling to follow a diet consistent with the existing guidelines for chronic disease prevention.",
+          "name": "Healthy diet",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "PreDiabetes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mc2425@medschl.cam.ac.uk",
+          "name": "Maria Chondronikola",
+          "phone": "01223746784",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Cambridge",
+          "contacts": [
+            {
+              "email": "tdw30@medschl.cam.ac.uk",
+              "name": "Krishna Chatterjee",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United Kingdom",
+          "facility": "Cambridge Clinical Research Center",
+          "geoPoint": {
+            "lat": 52.2,
+            "lon": 0.11667
+          },
+          "status": "RECRUITING",
+          "zip": "CB2 0QQ"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Time-restricted eating (TRE) is a dietary manipulation that involves restricting food intake to 6-12 h/day with no energy intake the rest of the day. In rodents, TRE improves metabolic function without caloric restriction, potentially by activating nutrient sensing mechanisms and effects on circadian oscillations. However, an understanding of the effect of TRE on cardiometabolic health in people is not clear and few studies have evaluated this issue. Accordingly, the investigators propose to conduct a randomized controlled trial in people with obesity and prediabetes to determine the effect of 9 h TRE for 12 weeks, without a change in body weight, on key metabolic outcomes that are risk factors for cardiovascular disease (CVD): 1) multi-organ insulin sensitivity; 2) 24 h metabolic homeostasis and diurnal rhythm; and 3) adipose tissue and skeletal muscle biology. The proposed studies will elucidate the cardiometabolic implications of TRE in people with obesity and prediabetes."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* must be able to grant voluntary informed consent and comply with the study instructions\n* aged 25-75 years\n* men and women\n* body mass index 27-45 kg/m2\n* fasting plasma glucose 5.6-6.9 mmol/L, or 2h oral glucose tolerance test plasma glucose 7.8-11.1 mmol/L or haemoglobin A1C 39-46 mmol/mol or homeostasis model assessment-insulin resistance (HOMA-IR) score \u22652.73\n* self-reported habitual eating period \u2265 13 h per day\n\nExclusion Criteria:\n\n* shift worker\n* fasting \\>12 h/day more than once a week\n* vegan\n* \\> once a week no food intake after \\~1800 h\n* habitually waking up before \\~0400 h and sleeping before \\~2100 h\n* unstable weight (\\>5% change the last 2 months)\n* Clinical diagnosis of type 1 or 2 diabetes\n* Clinical diagnosis of sleep disorder\n* Clinical diagnosis of eating disorder\n* Clinical diagnosis of cancer in last 5 years\n* conditions that render subject unable to complete all testing procedures (including individuals with known allergies or contraindications to the medications used in this study)\n* use of medications that affect the study outcome measures or increase the risk of study procedures and that cannot be temporarily discontinued (e.g., steroids, alpha- or beta-adrenergic blockers or agonists, etc.)\n* smoking and illegal drug use\n* pregnant or lactating\n* gastrointestinal or bariatric surgery (except cholecystectomy and appendectomy)\n* individuals with electromedical devises\n* prisoners\n* alcohol abuse",
+      "healthyVolunteers": true,
+      "maximumAge": "75 Years",
+      "minimumAge": "25 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "TRE",
+      "briefTitle": "The Effect of Time-Restricted Eating in Cardiometabolic Health",
+      "nctId": "NCT05866406",
+      "officialTitle": "The Effect of Time-Restricted Eating in Cardiometabolic Health",
+      "orgStudyIdInfo": {
+        "id": "322459"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Cambridge University Hospitals NHS Foundation Trust"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Insulin sensitivity will be assessed by using a hyperinsulinemic euglycemic clamp procedure in conjunction with infusion of stable isotope tracers.",
+          "measure": "Insulin sensitivity",
+          "timeFrame": "3 months (pre-post intervention)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Changes in plasma glucose concentration will be assessed during a 24 h feeding study.",
+          "measure": "24 h glycemic control",
+          "timeFrame": "3 months (pre-post intervention)"
+        },
+        {
+          "description": "Changes in the expression of genes involved in energy metabolism will be assessed by using quantitative polymerase chain reaction (qPCR).",
+          "measure": "Adipose tissue gene expression",
+          "timeFrame": "3 months (pre-post intervention)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Cambridge University Hospitals NHS Foundation Trust"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Cambridge University Hospitals NHS Foundation Trust",
+        "investigatorFullName": "Maria Chondronikola",
+        "investigatorTitle": "Principal Investigator",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-08-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-19",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-11-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-01",
+      "studyFirstPostDateStruct": {
+        "date": "2023-05-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-05-10",
+      "studyFirstSubmitQcDate": "2023-05-10"
+    }
+  }
+}

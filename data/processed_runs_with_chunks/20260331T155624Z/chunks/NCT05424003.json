@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05424003:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05424003\nBrief title: Randomized Double Blinded Placebo-Controlled w/Semaglutide to Prevent Weight Gain After Liver Transplant\nOfficial title: A Randomized Double Blinded Placebo-Controlled Trial of Semaglutide to Prevent Weight Gain Following Liver Transplantation\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT05424003"
+    },
+    {
+      "chunk_id": "NCT05424003:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: NAFLD\nIntervention labels: Semaglutide Pen Injector; Placebo\nDrug class labels: glp1_receptor_agonist\nArms: Semaglutide; Placebo\nKeywords: Liver Transplant",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT05424003"
+    },
+    {
+      "chunk_id": "NCT05424003:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: In this study, semaglutide will be compared to placebo (a look-alike inactive substance, a \"sugar pill\") to determine if its use will prevent weight gain after liver transplantation (LT). In addition, researchers will be testing to determine if semaglutide prevents the development of Non-Alcoholic Fatty Liver Disease (NAFLD) after transplant through Magnetic Resonance Imaging (MRI) and laboratory results.\nDetailed description: Weight gain following LT is common and a risk for cardiovascular disease and development of NAFLD. Developing NAFLD following LT can lead to patients developing scar tissue in the graft (transplanted liver), and graft-cirrhosis. These events can limit the benefit of the transplanted liver graft and reduce the benefit of LT as a therapy. Current weight management strategies have not been successful at the prevention of these events in most patients. This highlights a substantial unmet need for effective treatment to prevent or reduce post-LT weight gain and highlight the importance of new treatment strategies for reducing illness, death, and healthcare cost associated with post-LT weight gain.\n\nThe purpose of this research study is to test the safety, tolerability, and effectiveness of semaglutide when used to prevent weight gain after liver transplant. Semaglutide is a drug that has been approved by the U. S. Food and Drug Administration (FDA) for treatment of obesity and Type 2 Diabetes.\n\nSemaglutide, has shown to be effective for not only weight loss but also long-term weight maintenance. Semaglutide has also shown to be helpful in treatment of nonalcoholic steatohepatitis (NASH) in the non-transplant population. This medication also is used to control blood sugar and prevent cardiovascular disease, which contributes to poor outcomes in LT recipients. Thus, the purpose of the present study is to determine if use of semaglutide early after LT can (1) reduce weight gain and (2) prevent development of NAFLD following LT.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 303,
+      "trial_nct_id": "NCT05424003"
+    },
+    {
+      "chunk_id": "NCT05424003:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Male or female age 18-75 years who received LT for any indication (i.e. NASH, hepatitis C, alcohol-induced cirrhosis, autoimmune hepatitis, etc.)\n* Liver transplant surgery within 8-24 weeks prior to randomization\n* Fasting glucose \\> 125 mg/dL or presence of diabetes (HbA1c\u22656.5% or use of diabetes medications) or pre-diabetes (HbA1c \\>5.7%)\n* Ability to provide informed consent\n* Discharged from the hospital following LT surgery\n* Tolerating diet\n* Normal graft function\\* (determined by treating hepatologist/surgeon based on clinical status and hepatic panel)\n* Stable immunosuppression according the VCU (Virginia Commonwealth University) post-LT protocols \\*\\* (i.e. calcineurin inhibitors + mycophenolate)\n* Eligible female patients will be (1) non-pregnant, evidenced by a negative urine pregnancy test, (2) non-lactating, (3)surgically sterile or post-menopausal, or they will agree to continue to use an accepted method of birth control during the study\n\nExclusion Criteria:\n\n* BMI\u2264 27kg/m2\n* GFR (Glomerular Filtration Rate) \u2264 25 ml/min/1.73m2\n* Type 1 autoimmune diabetes (by anti-GAD (glutamic acid decarboxylase) or history of ketoacidosis)\n* History of gastroparesis\n* Familial or personal history of medullary thyroid cancer or MEN (Multiple Endocrine Neoplasia) 2\n* History of pancreatitis\n* History of active malignancy post- LT with the exception of non-melanoma skin cancers\n* History of uncontrolled or unstable diabetic retinopathy or maculopathy\n* Acute cellular rejection\n* Hepatic artery thrombosis\n* Medical non-compliance\n* Active treatment with GLP (glucagon-like peptide)-1RA (receptor agonist) or SGLT (sodium-glucose cotransporter)-2 inhibitors at time of screening\n* History of hypersensitivity to semaglutide or its excipients\n* Women who are nursing, pregnant, or planning to become pregnant during the study, or are not using adequate contraceptive measures",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 292,
+      "trial_nct_id": "NCT05424003"
+    },
+    {
+      "chunk_id": "NCT05424003:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in weight | time_frame=Baseline to week 72 | description=Weight measured in kilograms\ntype=secondary | measure=Development of NAFLD | time_frame=Week 72 | description=Number of participant who develop NAFLD by the end of treatment will be measured via MRI-PDFF (MRI-Proton Density Fat Fraction). A value of \\>5.2% will be considered the threshold for development of NAFLD following LT.\ntype=secondary | measure=Change in adiposity | time_frame=Baseline to week 72 | description=Fat distribution of the body body (body composition) will be assessed via MRI (i.e. visceral adipose tissue, abdominal subcutaneous tissue, fat free muscle volume, and muscle fat infiltration, epicardial fat). Means of delta body composition measures after 72 weeks will be compared between the two arms.\ntype=secondary | measure=Change in insulin resistance | time_frame=Baseline to week 72 | description=Frequently Sampled IV Glucose Tolerance Test (FSIVGTT) will be used to measure insulin resistance\ntype=secondary | measure=Change in inflammation - C-reactive protein (CRP) | time_frame=Baseline to week 72 | description=Level of CRP will be assessed using a standard blood test.\ntype=secondary | measure=Change in inflammation - adiponectin | time_frame=Baseline to week 72 | description=Level of adiponectin will be assessed using a standard blood test.\ntype=secondary | measure=Change in liver fibrosis markers | time_frame=Baseline to week 72 | description=Fibrosis-4 (FIB-4) Index for Liver Fibrosis and NAFLD Fibrosis Score (NFS) will be assessed using a standard blood test.\ntype=secondary | measure=Change in serum lipid profile | time_frame=Baseline to week 72 | description=Cardiovascular risk factors will be assessed using a standard lipid panel blood test.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 250,
+      "trial_nct_id": "NCT05424003"
+    },
+    {
+      "chunk_id": "NCT05424003:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-22\nPrimary completion date: 2026-02\nCompletion date: 2026-02\nStudy first posted: 2022-06-21\nResults first posted: None\nLast update posted: 2025-07-03\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05424003"
+    },
+    {
+      "chunk_id": "NCT05424003:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Virginia Commonwealth University\nLead sponsor class: OTHER\nCollaborators: Novo Nordisk A/S\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT05424003"
+    }
+  ],
+  "trial_nct_id": "NCT05424003"
+}

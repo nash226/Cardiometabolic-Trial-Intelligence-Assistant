@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06935513:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06935513\nBrief title: Wearable Devices Empowering Active Health Initiatives for High-Risk Stroke Populations\nOfficial title: Wearable Devices Empowering Active Health Initiatives for High-Risk Stroke Populations\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06935513"
+    },
+    {
+      "chunk_id": "NCT06935513:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Hypertension; Diabetes; Atrial Fibrillation; Dyslipidemia; Smoking; Physical Inactivity; Obesity and Overweight\nIntervention labels: Wearable Devices\nDrug class labels: \nArms: With Wearable Devices; Without Wearable Devices\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06935513"
+    },
+    {
+      "chunk_id": "NCT06935513:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to evaluate the control effect of smart wearable devices on key risk factors in the high-risk populations for stroke\nDetailed description: A randomized controlled study was conducted on the application of smart wearable devices in the intervention of high-risk populations for stroke, with a focus on whether the functions of smart wearable devices such as medication reminders, heart rate monitoring, and exercise reminders can effectively benefit the improvement of key risk factors for stroke, especially blood pressure, blood glucose, and blood lipids.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 90,
+      "trial_nct_id": "NCT06935513"
+    },
+    {
+      "chunk_id": "NCT06935513:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 30 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Diagnosed with hypertension;\n2. Diagnosed with diabetes;\n3. Diagnosed with atrial fibrillation;\n4. Smoking subjects;\n5. Physical inactive subjects\uff1b\n6. Obesity and overweight subjects;\n7. Must be able to use smart wearable devices.\n\nExclusion Criteria:\n\n1. Diagnosed with malignancies;\n2. Diagnosed with psychiatric disorders;\n3. Diagnosed with cognitive impairment;\n4. Unable to operate smart wearable devices.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 76,
+      "trial_nct_id": "NCT06935513"
+    },
+    {
+      "chunk_id": "NCT06935513:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=medication adherence and risk factor control rates | time_frame=6 months | description=1.The medication rates and control rates for hypertension; 2.The medication rates and control rates for hyperglycemia; 3. The medication rates and control rates for hyperlipidemia; 4.The medication rates and control rates for obesity.\ntype=secondary | measure=incident vascular events, including stroke, coronary heart disease (CHD), peripheral vascular disease (PVD), and other related cardiovascular events | time_frame=6 months | description=Stroke is a sudden interruption of blood flow to the brain, caused by either a blockage (ischemic stroke) or rupture of a blood vessel (hemorrhagic stroke). Coronary heart disease is a cardiovascular condition characterized by the narrowing or blockage of the coronary arteries, the blood vessels that supply oxygen-rich blood to the heart muscle. Peripheral vascular diseases are circulatory disorders characterized by narrowing, blockage, or spasms in blood vessels outside the heart and brain, most commonly affecting arteries supplying the legs, arms, kidneys, or stomach.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 155,
+      "trial_nct_id": "NCT06935513"
+    },
+    {
+      "chunk_id": "NCT06935513:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-04-20\nPrimary completion date: 2025-10-20\nCompletion date: 2026-04-20\nStudy first posted: 2025-04-20\nResults first posted: None\nLast update posted: 2025-04-30\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06935513"
+    },
+    {
+      "chunk_id": "NCT06935513:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Affiliated Hospital of Nantong University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06935513"
+    }
+  ],
+  "trial_nct_id": "NCT06935513"
+}

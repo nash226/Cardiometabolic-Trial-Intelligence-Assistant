@@ -1,0 +1,200 @@
+{
+  "arms": [
+    {
+      "description": "healthy volunteers who will get omeprazol daily 2dd40 mg for 4 weeks",
+      "intervention_names": [
+        "Drug: Omeprazole 40 MG"
+      ],
+      "label": "Healthy volunteer",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Patients with MASLD who will get omeprazol daily 2dd40 mg for 4 weeks",
+      "intervention_names": [
+        "Drug: Omeprazole 40 MG"
+      ],
+      "label": "Sujbects with MASLD",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "MASLD",
+      "normalized_name": "mash"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\nIn case of the healthy subject group:\n\n* Adult individuals, age \\> 18 \\<65 years\n* Male or postmenopauzal females\n* BMI \\<25\n* Ability to give informed consent In case of the MASLD/MASH group\n* Adult individuals, age \\> 18 \\<65 years\n* Male or postmenopauzal females\n* BMI \\> 25\n* Biopsy proven MASLD/MASH\n* Ability to give informed consent\n\nExclusion Criteria:\n\n* History of sustained excess alcohol ingestion: daily consumption \\>30g/day (3 drinks per day) for males and \\>20 g/day (2 drinks per day) for females\n* Patients with diabetes\n* Bariatric surgery\n* Other forms of liver disease (e.g. Hepatitis B,C, Wilson disease, hemochromatosis)\n* Proton-pump inhibitor usage one year prior to study participation\n* GLP1, SGLT2i or insulin use\n* Antibiotic use for the past 3 months\n* Probiotic or symbiotic usage\n* Pregnant women\n* Chronic illness (including a known history of heart failure, renal failure (eGFR \\<30 ml/min), pulmonary disease, gastrointestinal disorders, or hematologic diseases), or other inflammatory diseases\n* Active infection\n* Use of ascal, clopidogrel or other platelet inhibition\n* Smoking\n* Blood thinners\n* Heart failure",
+    "healthy_volunteers": true,
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Healthy volunteer",
+        "Sujbects with MASLD"
+      ],
+      "description": "Proton pump inhibitor twice a day for 4 weeks",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Omeprazole 40 MG",
+      "normalized_name": "omeprazole 40 mg"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "mM (serum, intestinal fluid, urine and feces)",
+      "measure": "Changes in ethanol concentrations before and after omeprazol usage",
+      "outcome_type": "primary",
+      "time_frame": "four weeks"
+    },
+    {
+      "description": "Area under the curve of fructose in peripheral blood upon ingestion of 1 gram / kg unlabeled fructose in combination with 1000mg of D-fructose-13C6 measured during fructose challange test",
+      "measure": "Changes in fructose concentrations in peripheral blood before and after omeprazol usage",
+      "outcome_type": "primary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Area under the curve of various metabolites (e.g. ethanol) will be measured in breath samples upon ingestion of 1 gram / kg unlabeled fructose in combination with 1000mg of D-fructose-13C6 measured during fructose challange test",
+      "measure": "Changes in fructose metabolites in breath before and after omeprazol usage",
+      "outcome_type": "primary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Using 24h feces, the investigators will measure fecal concentrations of fructose metabolites such as ethanol, as well as short chain fatty acids (SCFAs) and bile acids.",
+      "measure": "Fructose metabolites in feces before and after omeprazol usage",
+      "outcome_type": "primary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Using 24h urine, the investigators will measure fecal concentrations of fructose metabolites such as ethanol, as well as SCFAs and bile acids.",
+      "measure": "Fructose metabolites in urine",
+      "outcome_type": "primary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "mmol/l measured during fructose challange test",
+      "measure": "Changes in serum glucose concentrations before and after omeprazol",
+      "outcome_type": "primary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "changes in relative abundance (%) of bacterial phyla, genera and species between groups and after intervention with omeprazol measured by 16sRNA sequencing and shotgun metagenome analysis",
+      "measure": "Changes in microbiota composition in luminal samples",
+      "outcome_type": "secondary",
+      "time_frame": "four weeks"
+    },
+    {
+      "description": "Participants are asked to fill out an online dietary questionnaire for the 3 days prior to study visits",
+      "measure": "Changes in dietary intake",
+      "outcome_type": "secondary",
+      "time_frame": "four weeks"
+    },
+    {
+      "description": "Using specific anaerobic culturing, ethanol production of fecal samples will be assessed of bacterial strains.",
+      "measure": "Bioreactor analyses",
+      "outcome_type": "secondary",
+      "time_frame": "four weeks"
+    },
+    {
+      "description": "changes in relative abundance (%) of bacterial phyla, genera and species between groups and after intervention with omeprazol measured by 16sRNA sequencing.",
+      "measure": "Changes in Oral microbiota composition",
+      "outcome_type": "secondary",
+      "time_frame": "four weeks"
+    },
+    {
+      "description": "measured by RNA sequencing",
+      "measure": "Differences in gene expression in small intestinal biopsies",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "changes in relative abundance (%) of bacterial phyla, genera and species between groups and after intervention with omeprazol measured by 16sRNA sequencing and shotgun metagenome analysis",
+      "measure": "Changes in Fecal microbiota composition",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Postprandial plasma samples will be prepared for the analysis of mainly: organic acids, amino acids, fatty acids, uric acid, glucose and fructose before and after intervention with omeprazol",
+      "measure": "Changes in abundance of post prandial plasma metabolites",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "NON_RANDOMIZED",
+    "brief_summary": "In this study the investigators aim is to explore the dynamics of (small) intestinal fructose catabolism in humans and ethanol production in relation to small intestinal signalling pathways and changes in pH, using 13C fructose isotope tracing techniques complemented with direct luminal sampling via small intestinal catheter in biopsy proven MASLD/MASH patients vs healthy (BMI\\<25) subjects. Additionally the investigators will repeat the experiment after four weeks of administering omeprazole at a dose of 40 mg twice daily. Omeprazole is a proton pump inhibitor, known to elevate pH from 2-6.",
+    "brief_title": "Luminal Fructose Kinetics (MARTINI Study)",
+    "collaborator_names": [],
+    "completion_date": "2026-04",
+    "condition_labels": [
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\nIn case of the healthy subject group:\n\n* Adult individuals, age \\> 18 \\<65 years\n* Male or postmenopauzal females\n* BMI \\<25\n* Ability to give informed consent In case of the MASLD/MASH group\n* Adult individuals, age \\> 18 \\<65 years\n* Male or postmenopauzal females\n* BMI \\> 25\n* Biopsy proven MASLD/MASH\n* Ability to give informed consent\n\nExclusion Criteria:\n\n* History of sustained excess alcohol ingestion: daily consumption \\>30g/day (3 drinks per day) for males and \\>20 g/day (2 drinks per day) for females\n* Patients with diabetes\n* Bariatric surgery\n* Other forms of liver disease (e.g. Hepatitis B,C, Wilson disease, hemochromatosis)\n* Proton-pump inhibitor usage one year prior to study participation\n* GLP1, SGLT2i or insulin use\n* Antibiotic use for the past 3 months\n* Probiotic or symbiotic usage\n* Pregnant women\n* Chronic illness (including a known history of heart failure, renal failure (eGFR \\<30 ml/min), pulmonary disease, gastrointestinal disorders, or hematologic diseases), or other inflammatory diseases\n* Active infection\n* Use of ascal, clopidogrel or other platelet inhibition\n* Smoking\n* Blood thinners\n* Heart failure",
+    "detailed_description": "The investigators will perform a non blinded single centre intervention study in 2x 11 participants\n\nParticipants will be either healthy volunteers with a BMI \\< 25 and Age 18-65 or patients with MASLD with a BMI \\>25, Age 18-65\n\nThe objective of the investigators is to study the fructose host/microbial kinetics in humans and to establish the role of (small) intestinal pH on fructose fermentation and endogenous ethanol production in a MASLD/MASH population versus healthy subjects\n\nSubjects will be given omeprazole orally given twice a day 40mg for four weeks\n\nAt baseline and after four weeks of omeprazole, a fructose challenge test with labelled fructose and fomepizole and a gastroscopy will be performed, during which a nasal-intestinal catheter will be placed to allow for luminal sampling during the fructose challenge test.",
+    "drug_class_labels": [],
+    "enrollment_count": 22,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Omeprazole 40 MG"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Fructose",
+      "MASLD",
+      "Ethanol"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-08-06",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+    "masking": "NONE",
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06539494",
+    "official_title": "Luminal Fructose Kinetics (MARTINI) (2024)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2026-01",
+    "primary_purpose": "BASIC_SCIENCE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06539494",
+    "start_date": "2024-07-01",
+    "study_first_posted_at": "2024-08-06",
+    "study_type": "INTERVENTIONAL"
+  }
+}

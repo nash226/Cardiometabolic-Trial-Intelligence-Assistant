@@ -1,0 +1,265 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D005247",
+          "term": "Feeding Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D005518",
+          "term": "Food Preferences"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "In this group, no nudge interventions were implemented, only data were collected.",
+          "label": "Control",
+          "type": "NO_INTERVENTION"
+        },
+        {
+          "description": "Students are exposed to information about the sugar content of cola on the Questionnaire Star platform to \"nudge\" students towards healthier choices",
+          "interventionNames": [
+            "Behavioral: choice architecture"
+          ],
+          "label": "choice architecture (Sugar Content Information)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Students are exposed to information about the harms of cola on the Questionnaire Star platform to \"nudge\" students towards healthier choices",
+          "interventionNames": [
+            "Behavioral: choice architecture"
+          ],
+          "label": "choice architecture (Sugar Harm Information)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Students are exposed to information about the most peers choose mineral water on the Questionnaire Star platform to \"nudge\" students towards healthier choices",
+          "interventionNames": [
+            "Behavioral: choice architecture"
+          ],
+          "label": "choice architecture (Social Norm Information)",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "choice architecture (Sugar Content Information)"
+          ],
+          "description": "Display the sugar content of the drink on the platform.",
+          "name": "choice architecture",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "choice architecture (Sugar Harm Information)"
+          ],
+          "description": "Showing the various harms that can come from long-term excessive consumption of sugary beverages on the platform.",
+          "name": "choice architecture",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "choice architecture (Social Norm Information)"
+          ],
+          "description": "The platform shows the information that the majority of their peers have chosen mineral water.",
+          "name": "choice architecture",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Food Selection"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "heyuan@njmu.edu.cn",
+          "name": "Yuan He, PHD",
+          "phone": "18651625286",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Nanjing",
+          "contacts": [
+            {
+              "email": "heyuan@njmu.edu.cn",
+              "name": "Yuan He",
+              "phone": "18651625286",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Nanjing Medical University",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          },
+          "state": "Jiangsu",
+          "status": "RECRUITING",
+          "zip": "210000"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to investigate whether three nudging interventions would affect the beverage selection and consumption behaviors of Chinese university students. These interventions encompass providing information on the sugar content of sugar-sweetened beverages (SSBs), disseminating harmful information about SSBs, and showcasing the social norm that the majority of students opt for mineral water. Through a single-factor between-subjects experiment, we aim to examine the impact of these nudge interventions on the proportion of students choosing sugary drinks versus mineral water, thereby assessing their effectiveness in guiding healthier beverage choices.",
+      "detailedDescription": "As the prevalence of overweight, obesity, and chronic diseases continues to escalate, excessive consumption of sugar-sweetened beverages (SSBs) has emerged as a growing public health concern globally. One approach to reducing beverage intake while conserving resources is the utilization of nudge strategies. Nudge strategies, characterized by their low cost and ease of implementation, facilitate individuals in making more accurate and beneficial choices in a predictable manner, through subtle interventions that do not prohibit any options or significantly alter incentives. This nudge experiment will be conducted in a classroom setting, where participants will be randomly assigned to four groups for beverage selection: No Nudge Intervention Group, Sugar Content Information Nudge Group, Sugar Harmful information Nudge Group and Social Norm Nudge Group. Participants will access the nudge content specific to their respective groups via the professional survey platform of Questionnaire Star and make a choice between cola and mineral water."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "This experiment will invite university students under the pretext of conducting other surveys. The content of this nudge intervention experiment will appear at the end of the Questionnaire Star platform, framed as a token of appreciation for participants' time and effort, offering a gift choice between cola and mineral water. This approach aims to prevent participants from guessing the true purpose of the experiment, which could potentially bias the experimental results.",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* college students\n* 18 years or above of age\n* willing to participate\n\nExclusion Criteria:\n\n* None",
+      "healthyVolunteers": true,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Using Nudge Strategies to Promote Healthier Beverage Intake Among College Students",
+      "nctId": "NCT06596564",
+      "officialTitle": "A Study on Nudge Interventions to Promote Changes in Sugar-Sweetened Beverage Consumption Behaviors Among College Students",
+      "orgStudyIdInfo": {
+        "id": "2023-SR-052"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Nanjing Medical University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Investigators will collect online records of beverage choices submitted by students on the Questionnaire Star platform. If the participant chooses a bottle of mineral water, the participant will receive a value of one. Otherwise, the participant will receive a value of zero. Investigators will use this binary measure to estimate the proportion of students who choose mineral water.",
+          "measure": "Percentage of students who chose cola",
+          "timeFrame": "1 day"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Nanjing Medical University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Nanjing Medical University",
+        "investigatorFullName": "Yuan He",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-07-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-25",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-10-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-09-11",
+      "studyFirstSubmitQcDate": "2024-09-14"
+    }
+  }
+}

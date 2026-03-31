@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04833140:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04833140\nBrief title: Estrogen Administration for the Treatment of NASH in Postmenopausal Women\nOfficial title: Estrogen Administration for the Treatment of NASH in Postmenopausal Women\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT04833140"
+    },
+    {
+      "chunk_id": "NCT04833140:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: NASH - Nonalcoholic Steatohepatitis\nIntervention labels: Estradiol patch; Placebo\nDrug class labels: \nArms: Estradiol; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT04833140"
+    },
+    {
+      "chunk_id": "NCT04833140:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Non-alcoholic fatty liver disease (NAFLD) is a growing epidemic in the United States. Despite this, the treatment options remain limited. Preclinical and preliminary clinical data suggest that estrogen deficiency plays an important role in the pathology of steatosis, inflammation and fibrosis in non-alcoholic steatohepatitis (NASH), the progressive form of NAFLD. Post-menopausal women are a growing population with particularly high risk of NASH due to their lack of estrogen. This study will examine the effect of estradiol on hepatic fibrosis and fat in post-menopausal women with NASH.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT04833140"
+    },
+    {
+      "chunk_id": "NCT04833140:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 45 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion criteria:\n\n* Postmenopausal women 45-70 years old\n* NASH by biopsy or NAFLD by imaging within 6 months of screen\n* Hepatitis C antibody and hepatitis B surface antigen negative\n* Negative mammogram within 1 year\n\nExclusion criteria:\n\n* Heavy alcohol use\n* Use of NASH pharmacotherapies within 12 months of study entry\n* Known cirrhosis, stage 4 fibrosis on biopsy, or clinical evidence of cirrhosis or portal hypertension on imaging or exam\n* Participation in NASH clinical trial within 6 months of study entry\n* Chronic use of corticosteroids, methotrexate, amiodarone, or tamoxifen within 6 months of entry\n* Known diagnosis of chronic liver disease other than NAFLD or found on biopsy\n* Contraindication to liver biopsy including INR \\> 1.5, platelets \\< 50,000/mL, ascites, chronic anticoagulation (other than aspirin), biliary obstruction, peritonitis, inability to lie supine for 30 minutes\n* Hgb \\< 10.0 g/dL or glomerular filtration rate \\< 60 mL/min\n* Contraindications to estrogen therapy\n* Any vaginal bleeding, including spotting, within the last year\n* Active malignancy\n* Severe chronic illness\n* Use of estrogen or progesterone within a year of baseline visit\n* Routine MRI exclusion criteria such as the presence of a pacemaker or cerebral aneurysm clip",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 222,
+      "trial_nct_id": "NCT04833140"
+    },
+    {
+      "chunk_id": "NCT04833140:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Liver fat | time_frame=12 months | description=Reduction in amount of fat in the liver",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT04833140"
+    },
+    {
+      "chunk_id": "NCT04833140:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-12-02\nPrimary completion date: 2027-05-31\nCompletion date: 2027-05-31\nStudy first posted: 2021-04-06\nResults first posted: None\nLast update posted: 2025-08-03\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04833140"
+    },
+    {
+      "chunk_id": "NCT04833140:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Massachusetts General Hospital\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT04833140"
+    }
+  ],
+  "trial_nct_id": "NCT04833140"
+}

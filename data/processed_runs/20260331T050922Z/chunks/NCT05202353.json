@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05202353:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05202353\nBrief title: A Study in People With Obesity to Test the Effects of BI 456906 Compared With Semaglutide on Glucagon Receptor Activity in the Liver\nOfficial title: Open-label, Randomised, 4 Parallel-group, Phase I Clinical Trial to Investigate BI 456906 Occupancy of Glucagon Receptors in Liver and Glucagon-like Peptide 1 Receptors in Pancreas in Comparison With Semaglutide After Administration of Radiolabeled Tracer in Male and Female Subjects With Obesity Using PET and MRI\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 83,
+      "trial_nct_id": "NCT05202353"
+    },
+    {
+      "chunk_id": "NCT05202353:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: BI 456906; Semaglutide\nDrug class labels: glp1_receptor_agonist\nArms: Group 1: BI 456906; Group 2: Semaglutide; Group 3: BI 456906; Group 4: Semaglutide\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT05202353"
+    },
+    {
+      "chunk_id": "NCT05202353:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is open to adults with obesity. People with a body mass index (BMI) in the range from 30 to 40 kg/m2 and a body weight of 70 to 150 kg can participate in the study. The purpose of this study is to find out whether treatment with a medicine called BI 456906 changes the occupancy of receptors in the liver and in the pancreas. These receptors are involved in appetite and weight regulation. To measure the occupancy of these receptors, doctors use injectable tracers. Doctors visualise the binding of the tracers to these receptors with imaging methods.\n\nParticipants are put into 4 groups randomly, which means by chance. 2 groups get BI 456906 and 2 groups get semaglutide. Semaglutide is an approved medicine for body weight reduction. For 17 weeks, participants get injections under the skin. They either get BI 456906 twice a week or semaglutide once a week. The injected doses increase in small steps. Before and after 17 weeks of treatment, the receptor occupancy is determined.\n\nParticipants are in the study for up to 6 months. At the beginning and at the end of the treatment participants stay at the study site with an overnight stay. At the beginning, the study staff trains participants how to inject the study treatment at home. Participants who get BI 456906 visit the study site 18 times and have 19 visits at home. Participants who get semaglutide visit the study site 15 times and have 6 home visits. The doctors also regularly check participants' health and take note of any unwanted effects.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 267,
+      "trial_nct_id": "NCT05202353"
+    },
+    {
+      "chunk_id": "NCT05202353:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Healthy male or female subjects according to the assessment of the investigator, as based on a complete medical history including a physical examination, vital signs (blood pressure (BP), pulse rate (PR)), 12-lead electrocardiogram (ECG), and clinical laboratory tests\n* Age of 18 to 65 years (inclusive)\n* Body mass index (BMI) of \u2265 30 and \u2264 40 kg/m2 and body weight \u226570 kg and \u2264150 kg\n* Signed and dated written informed consent prior to admission to the study, in accordance with Good Clinical Practice (GCP) and local legislation\n* Women of childbearing potential (WOCBP) must be willing and able to use two forms of effective contraception where at least one form is a highly effective method of birth control per International Council for Harmonisation (ICH) M3 (R2) that result in a low failure rate of less than 1% per year when used consistently and correctly\n\nExclusion Criteria:\n\n* Any finding in the medical examination (including BP, PR or ECG) deviating from normal and assessed as clinically relevant by the investigator\n* Resting heart rate \\> 100 beats per minute (bpm) and/or systolic blood pressure \u2265 160 millimetre of mercury (mmHg) and/or diastolic blood pressure \u226595 mmHg at screening.\n* Any laboratory value outside the reference range that the investigator considers to be of clinical relevance. Subjects with the following abnormal values are not eligible for the trial participation:\n\n  * Low-density lipoprotein (LDL) \\> 160 mg/dL (4.15 mmol/L)\n  * total cholesterol \\>240 mg/dL (6.22 mmol/L)\n  * triglyceride \\>200 mg/dL (2.26 mmol/L)\n  * blood glucose \\> 126 mg/dl (\\>7 mmol/L) fasting and/or glycated haemoglobin (HbA1c) \\>6.5% (\\>48 mmol/mol)\n* Any evidence of a concomitant disease assessed as clinically relevant by the investigator. Subjects with type 1 and type 2 diabetes mellitus are not eligible for the trial\n* Gastrointestinal, hepatic, renal, respiratory, cardiovascular, metabolic, immunological or hormonal disorders assessed as clinically relevant by the investigator\n* Diseases of the central nervous system (including but not limited to any kind of seizures), and other relevant neurological or psychiatric disorders\n* History of relevant orthostatic hypotension, fainting spells, or blackouts\n* Personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2, manifest hypo- or hyperthyroidism at Visit 1\n\nFurther criteria apply",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 394,
+      "trial_nct_id": "NCT05202353"
+    },
+    {
+      "chunk_id": "NCT05202353:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage of glucagon (GCG) receptors occupancy in the liver using Positron emission tomography (PET) imaging at End of Treatment (EOT) visit | time_frame=up to Week 17\ntype=secondary | measure=Percentage of glucagon-like Peptide 1 (GLP-1) receptors occupancy in the pancreas using PET imaging at EOT visit | time_frame=up to Week 17",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT05202353"
+    },
+    {
+      "chunk_id": "NCT05202353:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-10-01\nPrimary completion date: 2026-10-07\nCompletion date: 2026-11-02\nStudy first posted: 2022-01-21\nResults first posted: None\nLast update posted: 2026-01-30\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05202353"
+    },
+    {
+      "chunk_id": "NCT05202353:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Boehringer Ingelheim\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT05202353"
+    }
+  ],
+  "trial_nct_id": "NCT05202353"
+}

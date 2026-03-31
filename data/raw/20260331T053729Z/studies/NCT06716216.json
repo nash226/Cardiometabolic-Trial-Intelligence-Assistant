@@ -1,0 +1,270 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Drug: BGM0504 Administered SC",
+          "interventionNames": [
+            "Drug: Drug: 5 mg BGM0504 Administered SC"
+          ],
+          "label": "Experimental: 5 mg BGM0504 5 milligrams (mg) BGM0504 administered subcutaneously (SC) once a week.",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Drug: BGM0504 Administered SC",
+          "interventionNames": [
+            "Drug: Drug:10 mg BGM0504 Administered SC"
+          ],
+          "label": "Experimental: 10 mg BGM0504 10 mg BGM0504 administered SC once a week.",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Drug: Semaglutide Administered SC",
+          "interventionNames": [
+            "Drug: Drug: Semaglutide Administered SC"
+          ],
+          "label": "Active Comparator: 1 mg Semaglutide 1 mg semaglutide administered SC once a week",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Experimental: 5 mg BGM0504 5 milligrams (mg) BGM0504 administered subcutaneously (SC) once a week."
+          ],
+          "description": "Experimental: 5 mg BGM0504 5 milligrams (mg) BGM0504 administered subcutaneously (SC) once a week.",
+          "name": "Drug: 5 mg BGM0504 Administered SC",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Experimental: 10 mg BGM0504 10 mg BGM0504 administered SC once a week."
+          ],
+          "description": "Experimental: 10 mg BGM0504 10 mg BGM0504 administered SC once a week.",
+          "name": "Drug:10 mg BGM0504 Administered SC",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Active Comparator: 1 mg Semaglutide 1 mg semaglutide administered SC once a week"
+          ],
+          "description": "Active Comparator: 1 mg Semaglutide\n\n1 mg semaglutide administered SC once a week",
+          "name": "Drug: Semaglutide Administered SC",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus (T2DM)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "jiln@bjmu.edu.cn",
+          "name": "Linong Ji,MD, chief physician, Peking University People's Hospital",
+          "phone": "+86 13910978815",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "jiln@bjmu.edu.cn",
+              "name": "Linong Ji",
+              "phone": "+8613910978815",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Peking University People's Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "RECRUITING",
+          "zip": "100044"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial is conducted in China. The aim of the trial is to evaluate the efficacy and safety of BGM0504 versus semaglutide as add-on to metformin and/or sulfonylureas in patients with type 2 diabetes"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 537,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* \u25a0 Have been diagnosed with type 2 diabetes mellitus (T2DM);\n\n  * Metformin is used in screening : 1) After used stable-dose metformin (\u22651500 mg/day) or maximum tolerated (\\< 1500mg but\u22651000mg daily) for 8 weeks before screening\uff1b 2)Metformin treatment dose \\<1500mg/day at Screening and have not reached the maximum tolerated dose \uff1b3) Metformin combined with daily fixed-dose sulfonylureas (minimum therapeutic dose on the drug label) had been stable for \u22658 weeks when entering the induction period.\n  * Have a BMI \u226523 kilograms per meter squared (kg/m\u00b2) at screening;\n  * Be of stable weight (\u00b1 5%) for at least 3 months before screening;\n  * Have HbA1c between \u22657.5% and \u226411.0%\uff1b\n\nExclusion Criteria:\n\n* \u25a0 Previous diagnosis of type 1 diabetes, special type diabetes;\n\n  * There are malignant tumors within 5 years before screening, or patients are in latent of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery).\n  * Have had chronic or acute pancreatitis any time prior to study entry;\n  * Known allergic constitution (allergy to 3 or more kinds of food or drugs), or allergy to GLP-1 receptor agonists, or severe allergic diseases (asthma, urticaria, eczematous dermatitis, etc.) at screening;\n  * Mentally incapacitated or speech-impaired;\n  * Suspected or confirmed history of alcohol or drug abuse;\n  * Pregnant or lactating woman;\n  * The investigator considers that there are any other conditions that make it inappropriate to participate in this study.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of BGM0504 in Participants with Type 2 Diabetes",
+      "nctId": "NCT06716216",
+      "officialTitle": "A Phase 3, Randomized, Open-Label Trial Comparing Efficacy and Safety of BGM0504 Versus Semaglutide Once Weekly As Add-on Therapy to Metformin And/or Sulfonylureas in Patients with Type 2 Diabetes",
+      "orgStudyIdInfo": {
+        "id": "BGM0504-\u2162 -T2DM-02"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "BrightGene Bio-Medical Technology Co., Ltd."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Change from baseline in HbA1c after 32 weeks of treatment.",
+          "measure": "Change From Baseline in Hemoglobin A1c (HbA1c)",
+          "timeFrame": "Week 0 to Week 32"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change from baseline in body weight after 52 weeks of treatment.",
+          "measure": "Change From Baseline in Body Weight",
+          "timeFrame": "Week 0 to Week 52"
+        },
+        {
+          "description": "Change from baseline in HbA1c after 52weeks of treatment.",
+          "measure": "Change From Baseline in Hemoglobin A1c (HbA1c)",
+          "timeFrame": "Week 0 to Week 52"
+        },
+        {
+          "description": "Percentage of Participants With HbA1c Target Value of \\<7% after 52weeks of treatment.",
+          "measure": "Percentage of Participants With HbA1c Target Value of <7%",
+          "timeFrame": "Week 0 to Week 52"
+        },
+        {
+          "description": "Percentage of Participants With HbA1c Target Value of \\<5.7%after 52weeks of treatment.",
+          "measure": "Percentage of Participants With HbA1c Target Value of <5.7%",
+          "timeFrame": "Week 0 to Week 52"
+        },
+        {
+          "description": "Change from baseline in FPG after 52 weeks of treatment.",
+          "measure": "Change From Baseline in Fasting Serum Glucose",
+          "timeFrame": "Week 0 to Week 52"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "BrightGene New Bio-Medical Technology(Wuxi) Co.Ltd."
+        }
+      ],
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "BrightGene Bio-Medical Technology Co., Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-11-14",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-06",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-20",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-11-29",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-10",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-11-29",
+      "studyFirstSubmitQcDate": "2024-11-29"
+    }
+  }
+}

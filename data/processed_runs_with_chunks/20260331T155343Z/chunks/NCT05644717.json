@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05644717:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05644717\nBrief title: Effect of Erugliflozin On Liver Fat, Liver Fibrosis and Glycemic Control in Type II DM Patients With NASH/NAFLD\nOfficial title: Effects of Ertugliflozin on Liver Fat, Liver Fibrosis & Glycemic Control in Subjects With Type 2 Diabetes Mellitus (T2DM) & Non-Alcoholic Fatty Liver Disease /Non-Alcoholic Steatohepatitis\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 59,
+      "trial_nct_id": "NCT05644717"
+    },
+    {
+      "chunk_id": "NCT05644717:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Liver Fat; Liver Fibrosis; Glycemic Control; Body Weight Changes; Waist Circumference; Tolerance\nIntervention labels: Ertugliflozin 5 mg, 15mg\nDrug class labels: \nArms: Ertugliflozin\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05644717"
+    },
+    {
+      "chunk_id": "NCT05644717:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Open-label, prospective, single-arm, multicenter study to determine effects of Ertugliflozin on liver fat, liver fibrosis \\& glycemic control in subjects with Type 2 Diabetes Mellitus (T2DM) with Non-Alcoholic Fatty Liver Disease (NAFLD)/Non-Alcoholic Steatohepatitis (NASH)\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT05644717"
+    },
+    {
+      "chunk_id": "NCT05644717:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patient able to provide written informed consent\n* Adult males \\& females between 18 to 65 years\n* SGLT2i and insulin na\u00efve patients\n* BMI \\>23 Kg/m2\n* HbA1C % \u2265 6.5 to 10\n* Documented hepatic steatosis or fatty liver disease on Ultrasound\n* Patient with Type II Diabetes Mellitus\n\nExclusion Criteria:\n\n* History of use of SGLT 2 inhibitors or Glucagon-like peptide (GLP) 1 agonist or insulin; 3 months prior to enrollment in the study.\n* Pioglitazone use in the past 6 months\n* History of vitamin E use (400mg twice daily) 3 months prior to enrollment in the study.\n* History of anti-obesity medication or weight loss procedure (bariatric surgery) use within 3 months prior to enrollment in the study.\n* History of uncontrolled Endocrine disorder (for example uncontrolled hypothyroidism, or that requires frequent dose adjustment, or Cushing's syndrome)\n* History of liver disease including viral hepatitis, auto-immune hepatitis, liver cirrhosis, hepatocellular carcinoma and/or HIV\n* History of recurrent UTIs and mycotic infection.\n* Severely ill patients (who have high grade fever, sepsis or acute infection)\n* Pregnant woman, lactating woman or planning pregnancy during study duration\n* History of Drug-induced liver disease (e.g. amiodarone, valproate, tamoxifen, methotrexate, steroids (including homeopathic medicines).\n* History of active substance abuse (cannabinoid-derived substances like heroin, cocaine, amphetamines) based on history and/or laboratory tests\n* Alcohol intake 10 - 30 g/day (three drinks per day) within the previous year\n* Active substance abuse such as acetaminophen over-use, hashish, tobacco products, heroin, cocaine or amphetamines.\n* Severe hepatic impairment ( AST \\& ALT levels \\> 3 times upper limit normal",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 289,
+      "trial_nct_id": "NCT05644717"
+    },
+    {
+      "chunk_id": "NCT05644717:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Radiologic liver parameters | time_frame=up to 24 weeks | description=Number of participants reported change in liver fat content from baseline, as quantified by fibroscan\ntype=secondary | measure=HbA1c% levels compare with baseline in 6 months | time_frame=up to 24 weeks | description=Efficacy\ntype=secondary | measure=Change in body weight compare with baseline in 6 months | time_frame=up to 24 weeks | description=Body Weight\ntype=secondary | measure=Change in waist circumference compare with baseline in 6 months | time_frame=up to 24 weeks | description=Waist Circumference\ntype=secondary | measure=Fibrosis 4 score levels compare with baseline in 6 months | time_frame=up to 24 weeks | description=Fibrosis Scoring \\< 1.45 indicates Fibrosis Stage 0-2, 1.45 to 3.25 is deemed indeterminate fibrosis stage, \\> 3.25 indicates Fibrosis stage 3-4\ntype=secondary | measure=Non-Alchoholic Fatty Liver Disease Fibrosis Score levels compare with baseline in 6 months | time_frame=up to 24 weeks | description=Non-Alchoholic Fatty Liver Disease Fibrosis Scoring, \\< -1.455 indicates Fibrosis Stage 0-2,\n\n-1.455 to 0.676 is considered indeterminate fibrosis stage, \\> 0.676 indicates Fibrosis Stage 3-4\ntype=secondary | measure=Frequency of adverse events in 6 months | time_frame=up to 24 weeks | description=Safety",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 186,
+      "trial_nct_id": "NCT05644717"
+    },
+    {
+      "chunk_id": "NCT05644717:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-03-01\nPrimary completion date: 2025-11-01\nCompletion date: 2025-12-01\nStudy first posted: 2022-12-09\nResults first posted: None\nLast update posted: 2025-03-21\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05644717"
+    },
+    {
+      "chunk_id": "NCT05644717:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Getz Pharma\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT05644717"
+    }
+  ],
+  "trial_nct_id": "NCT05644717"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07137585:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07137585\nBrief title: A Study to Evaluate the Effect of RO7204239 on Insulin Sensitivity and Muscle Composition in Participants With Type 2 Diabetes Mellitus (T2DM) and Overweight or Obesity\nOfficial title: Effects of RO7204239 on Insulin Sensitivity, Muscle Composition and Function in Participants Living With Type 2 Diabetes Mellitus and Overweight or Obesity: A Double-blind, Randomized, Placebo-controlled Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 68,
+      "trial_nct_id": "NCT07137585"
+    },
+    {
+      "chunk_id": "NCT07137585:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes; obesity\nRaw conditions: Type 2 Diabetes Mellitus; Obesity; Overweight\nIntervention labels: Placebo; RO7204239\nDrug class labels: \nArms: Placebo; RO7204239\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT07137585"
+    },
+    {
+      "chunk_id": "NCT07137585:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The main purpose of this study is to assess the effect of RO7204239 on insulin sensitivity versus placebo in participants with T2DM and obesity or overweight.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT07137585"
+    },
+    {
+      "chunk_id": "NCT07137585:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Participants with T2DM for at least 6 months, treated with diet, exercise and/or metformin alone or in combination with either dipeptidyl peptidase 4 (DPP-4) inhibitor or sodium-glucose co-transporter 2 (SGLT2) at stable dose for the last 3 months prior to study entry and with a HbA1c between \u2264 6.5% and \u2264 10%\n* Body mass index (BMI) within the range of 27.0 to 45.0 kilogram per meter square (kg/m2)\n* Stable body weight for the 3 months prior to screening\n* Participants on lipid-lowering or antihypertensive drugs must be on stable doses for at least 3 months\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus (DM), known latent autoimmune diabetes in adults, or people with an episode of ketoacidosis or hyperosmolar state requiring hospitalisation in 6 months prior to screening\n* Active proliferative diabetic retinopathy, diabetic maculopathy, or severe non-proliferative diabetic retinopathy requiring acute treatment\n* Uncontrolled comorbid conditions commonly associated with diabetes (for example, hypertension, hyperlipidaemia)\n* Severe hypoglycaemia within 6 months prior to screening visit\n* Current autonomic neuropathy as evidenced by neuropathic urinary retention, resting tachycardia, orthostatic hypotension, or diabetic diarrhea\n* Have evidence of a significant, uncontrolled endocrine abnormality (e.g., thyrotoxicosis and adrenal crises)\n* Are currently taking a central nervous system stimulant (e.g., Ritalin-SR), with the exception of caffeinated beverage\n* Have a known allergy, hypersensitivity, or intolerance to any component of the study treatment (i.e., RO7204239 / placebo) formulation\n* Blood donation of more than 500 milliliters (mL) within the past 3 months or blood transfusion or severe blood loss within 3 months prior to screening",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 281,
+      "trial_nct_id": "NCT07137585"
+    },
+    {
+      "chunk_id": "NCT07137585:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change From Baseline in M-value in a Hyperinsulinemic Euglycemic Glucose Clamp (HEC) at Week 24 | time_frame=Baseline, Week 24\ntype=secondary | measure=Change From Baseline in Glycated Hemoglobin (HbA1c) at Week 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Glucose Metabolism Assessed Using Fasting Glucose Test at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Glucose Metabolism Assessed Using Insulin Test at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Glucose Metabolism Assessed Using C-peptide Test at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Blood Lipid Profiles at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Body Weight at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Waist Circumference at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Waist to Height Ratio at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Total Lean Tissue Volume and Total Adipose Tissue Volume From Abdominal Magnetic Resonance Imaging (MRI) at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Muscle Volume From Thigh Muscle MRI at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Change From Baseline in Muscle Fat Infiltration From Thigh Muscle MRI at Weeks 12 and 24 | time_frame=Baseline, Week 12, Week 24\ntype=secondary | measure=Number of Participants With Adverse Events (AEs) | time_frame=Up to Week 48\ntype=secondary | measure=Number of Participants With Local and Systemic Injection Reactions | time_frame=Up to Week 48",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 299,
+      "trial_nct_id": "NCT07137585"
+    },
+    {
+      "chunk_id": "NCT07137585:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-09-30\nPrimary completion date: 2026-09-13\nCompletion date: 2027-02-28\nStudy first posted: 2025-08-22\nResults first posted: None\nLast update posted: 2026-03-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07137585"
+    },
+    {
+      "chunk_id": "NCT07137585:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Hoffmann-La Roche\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT07137585"
+    }
+  ],
+  "trial_nct_id": "NCT07137585"
+}

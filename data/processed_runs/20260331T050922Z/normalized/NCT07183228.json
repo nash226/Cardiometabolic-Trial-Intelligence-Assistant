@@ -1,0 +1,144 @@
+{
+  "arms": [
+    {
+      "description": "Digital dietitian-led lifestyle Intervention for Obesity.",
+      "intervention_names": [
+        "Behavioral: Lifestyle Intervention for Obesity"
+      ],
+      "label": "Eatit's Obesity Intervention",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Overweight and Obese Adults",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Obese Patients (BMI \u2265 30 kg/m\u00b2)",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Age 18 years or older\n* Body mass index (BMI) \u2265 30\n* BMI 27-30 in combination with at least one of the following:\n\n  1. Has received a diagnosis of obesity from another healthcare provider.\n  2. Has a comorbidity (according to the defined diagnosis list under the heading Comorbidities below).\n  3. Has central obesity, defined as waist circumference \\> 80 cm for women or \\> 94 cm for men.\n  4. Kostindex score of 4 or lower - eligible for treatment due to increased risk of rapid future weight gain. Dietitian-led intervention may significantly impact weight development in this group.\n* Ability to read and understand Swedish\n* Does not currently use, and does not plan to initiate the use of, appetite-suppressing medication\n* Not pregnant\n* Patients with BMI \\> 40, As long as there is no contraindication for treatment, treatment is offered. A dietitian may deny the patient the Eatit program if the dietitian assesses that the need for care is too great, and that Eatit's treatment cannot meet the patient's needs.\n\nComorbidities:\n\n* Cardiovascular disease This is a large group of diagnoses, e.g. previous myocardial infarction or stroke, angina pectoris, heart failure, etc.\n* Hypertension\n* Elevated blood pressure, above 130/85 mmHg or ongoing treatment for previously diagnosed hypertension\n* Hyperlipidemia\n* Triglyceride levels \u2265 1.7 mmol/L or on treatment for elevated triglycerides, or LDL \\> 3.0 mmol/L at low risk, or on treatment for high cholesterol, or reduced HDL-C \\<40 mg/dL for men, \\<50 mg/dL for women, or on treatment for HDL-C\n* Obstructive sleep apnea\n* Type 1 diabetes\n* Type 2 diabetes\n* Prediabetes (fasting glucose \u2265 6.1 or HbA1c \\> 42 without a diabetes diagnosis)\n* Fatty liver\n* Polycystic ovary syndrome, PCOS\n* Osteoarthritis in the lower body (e.g. hip, knee, or foot)\n\nExclusion Criteria:\n\n* BMI: Patients with BMI \\< 27 are excluded from treatment.\n* Medical conditions: Patients with conditions where weight loss or weight gain may worsen the disease are excluded. For example: cancer or chronic obstructive pulmonary disease, COPD.\n* Multimorbidity: Individuals with extensive comorbidities may have complex healthcare needs requiring more comprehensive medical support than Eatit can provide.\n* Untreated depression may hinder participation in the program and should be managed with medical or psychological support.\n* Untreated or ongoing eating disorder (bulimia nervosa, binge eating disorder, anorexia, atypical anorexia, ARFID) should be treated in a specialized eating disorder unit.\n* Severe psychiatric illness (such as psychosis or schizophrenia) without ongoing support.\n* Ongoing substance abuse (alcohol, narcotics, or medication) is a contraindication for participation and requires specialized addiction care.\n* Suicidal behavior or self-harm in the past six months. Acute mental illness requires immediate and specialized interventions.\n* Requires individual assessment. Certain conditions require individual evaluation as they may negatively affect treatment outcomes. This means that the treating dietitians should ask follow-up questions to ensure that participation in the program is feasible.\n* Symptoms of binge eating not meeting criteria for binge eating disorder: Ensure that the person is willing to work with the program, not skip meals, and will inform you if the binge eating worsens.\n* Depression under psychiatric care: Ask follow-up questions about what support the person is receiving and his or her current mental state.\n* Bipolar disorder: Ask follow-up questions about what support the person is receiving and his or her current mental state.\n* Exhaustion syndrome/stress: Ask follow-up questions to determine whether treatment is feasible at this time or if the patient needs to manage the stress in other ways first.\n* Neuropsychiatric disorders: To benefit from the program, sufficient concentration ability and capacity for structure/planning in daily life are required. In case of a neuropsychiatric diagnosis, follow-up questions should be asked about whether the person believes that he or she can manage texts and tasks that take approximately 2-3 hours per week.\n* High degree of psychiatric comorbidity has in some studies been shown to be a complicating factor, and this should also be considered at the start of treatment. Ask follow-up questions about what support the person is receiving and his or her current mental state.\n* Severe sleep problems: Sleep deprivation may lead to increased appetite and reduced cognitive capacity, making it difficult to engage with treatment. Ask follow-up questions about possible undiagnosed sleep apnea or potential need for other care to address the sleep problems.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Eatit's Obesity Intervention"
+      ],
+      "description": "A multimodal obesity lifestyle program delivered via the Eatit app. The dietitian-led intervention consists of 11 structured modules with weekly dietitian support (video consultations and messaging) during the first 11 weeks, followed by monthly video consultations up to six months. The program integrates behavior change techniques with individualized nutrition counseling provided by licensed dietitians.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Lifestyle Intervention for Obesity",
+      "normalized_name": "lifestyle intervention for obesity"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Body weight measured in kilograms by participant self-weighing at home. Participants weigh themselves weekly according to standardized instructions (in the morning, after voiding bowels, without clothes, before breakfast) and enter values in the Eatit app.",
+      "measure": "Change in body weight (kg)",
+      "outcome_type": "primary",
+      "time_frame": "Change from baseline weight to six months."
+    },
+    {
+      "description": "Waist circumference measured in centimeters by participant through self-assessment at home. Participants measure weekly using standardized instructions (measured in the morning after voiding bowels, standing upright, without clothes, tape placed horizontally between the lower rib margin and iliac crest, after exhalation without tightening the tape). Values are entered in the Eatit app.",
+      "measure": "Change in waist circumference (cm)",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline waist circumference to six months."
+    },
+    {
+      "description": "Self-reported eating habits assessed with Kostindex (Diet Index, developed by the Swedish National Board of Health and Welfare). Kostindex is a screening tool used to estimate eating habits. Scores range from 0 to 12, with higher scores indicating healthier eating habits. Scoring is divided as follows:\n\n0-4 points: Unhealthy eating habits\n\n5-8 points: Less healthy eating habits\n\n9-12 points: Healthy eating habits\n\nThe questionnaire is self-administered digitally via the Eatit app.",
+      "measure": "Change in self-reported eating habits",
+      "outcome_type": "secondary",
+      "time_frame": "Change in Kostindex score from baseline to six months."
+    },
+    {
+      "description": "Change in self-reported health and disability, assessed with the World Health Organization Disability Assessment Schedule 12-item version self-administered (WHODAS 12). Each of the 12 items is scored from 0 to 4 (0 = No difficulty, 4 = Extreme difficulty/cannot do), yielding a raw total score ranging from 0 to 48.\n\nRaw scores are transformed into a value between 0 and 100, expressed as a percentage to indicate degree of disability. Higher scores represent greater disability (worse outcome), with 0% = no disability and 100% = complete disability.\n\nThe questionnaire is self-administered digitally via the Eatit app.",
+      "measure": "Change in self-reported health and disability",
+      "outcome_type": "secondary",
+      "time_frame": "Change in WHODAS 2.0 score from baseline to six months."
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "NA",
+    "brief_summary": "Obesity is a growing public health problem in Sweden, but access to care varies depending on geographical location. Eatit\u00b4s multimodal digitally dietitian-supported lifestyle intervention offers an accessible treatment alternative, but its clinical effects in practice need to be documented.\n\nThe aim of this pilot study is to evaluate the effect of Eatit\u00b4s multimodal digitally dietitian-supported lifestyle intervention for weight loss in adults with obesity.\n\nThe main question is:\n\n\\- Does body weight change after six months of using the program?\n\nSecondary questions are:\n\n* Does waist size change after six months of using the program?\n* Do self-rated eating habits improve after six months of using the program?\n* Does self-rated health improve after six months of using the program?\n\nParticipants will use the Eatit program for six months and answer questions about their weight, waist size, eating habits and health. The program integrates behavior change techniques with individualized nutrition counseling provided by licensed dietitians.\n\n* During the first three months, participants use Eatit's core program through the app, with weekly support by a dietitian via video calls and text messages.\n* The core program consists of a weekly reading section combined with a related homework assignment.\n* After completing the core program, participants continue with monthly video sessions with a dietitian, focusing on the skills that were most helpful during the initial phase or on areas such as receiving support to initiate physical activity.\n* Weight and waist size are recorded in the app every week.\n* Questionnaires on eating habits and health are completed at baseline, after three months, and after six months.",
+    "brief_title": "Eatit's Obesity Intervention: Effects on Weight, Eating Habits and Health",
+    "collaborator_names": [
+      "Sahlgrenska University Hospital",
+      "Karolinska University"
+    ],
+    "completion_date": "2026-08-01",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Age 18 years or older\n* Body mass index (BMI) \u2265 30\n* BMI 27-30 in combination with at least one of the following:\n\n  1. Has received a diagnosis of obesity from another healthcare provider.\n  2. Has a comorbidity (according to the defined diagnosis list under the heading Comorbidities below).\n  3. Has central obesity, defined as waist circumference \\> 80 cm for women or \\> 94 cm for men.\n  4. Kostindex score of 4 or lower - eligible for treatment due to increased risk of rapid future weight gain. Dietitian-led intervention may significantly impact weight development in this group.\n* Ability to read and understand Swedish\n* Does not currently use, and does not plan to initiate the use of, appetite-suppressing medication\n* Not pregnant\n* Patients with BMI \\> 40, As long as there is no contraindication for treatment, treatment is offered. A dietitian may deny the patient the Eatit program if the dietitian assesses that the need for care is too great, and that Eatit's treatment cannot meet the patient's needs.\n\nComorbidities:\n\n* Cardiovascular disease This is a large group of diagnoses, e.g. previous myocardial infarction or stroke, angina pectoris, heart failure, etc.\n* Hypertension\n* Elevated blood pressure, above 130/85 mmHg or ongoing treatment for previously diagnosed hypertension\n* Hyperlipidemia\n* Triglyceride levels \u2265 1.7 mmol/L or on treatment for elevated triglycerides, or LDL \\> 3.0 mmol/L at low risk, or on treatment for high cholesterol, or reduced HDL-C \\<40 mg/dL for men, \\<50 mg/dL for women, or on treatment for HDL-C\n* Obstructive sleep apnea\n* Type 1 diabetes\n* Type 2 diabetes\n* Prediabetes (fasting glucose \u2265 6.1 or HbA1c \\> 42 without a diabetes diagnosis)\n* Fatty liver\n* Polycystic ovary syndrome, PCOS\n* Osteoarthritis in the lower body (e.g. hip, knee, or foot)\n\nExclusion Criteria:\n\n* BMI: Patients with BMI \\< 27 are excluded from treatment.\n* Medical conditions: Patients with conditions where weight loss or weight gain may worsen the disease are excluded. For example: cancer or chronic obstructive pulmonary disease, COPD.\n* Multimorbidity: Individuals with extensive comorbidities may have complex healthcare needs requiring more comprehensive medical support than Eatit can provide.\n* Untreated depression may hinder participation in the program and should be managed with medical or psychological support.\n* Untreated or ongoing eating disorder (bulimia nervosa, binge eating disorder, anorexia, atypical anorexia, ARFID) should be treated in a specialized eating disorder unit.\n* Severe psychiatric illness (such as psychosis or schizophrenia) without ongoing support.\n* Ongoing substance abuse (alcohol, narcotics, or medication) is a contraindication for participation and requires specialized addiction care.\n* Suicidal behavior or self-harm in the past six months. Acute mental illness requires immediate and specialized interventions.\n* Requires individual assessment. Certain conditions require individual evaluation as they may negatively affect treatment outcomes. This means that the treating dietitians should ask follow-up questions to ensure that participation in the program is feasible.\n* Symptoms of binge eating not meeting criteria for binge eating disorder: Ensure that the person is willing to work with the program, not skip meals, and will inform you if the binge eating worsens.\n* Depression under psychiatric care: Ask follow-up questions about what support the person is receiving and his or her current mental state.\n* Bipolar disorder: Ask follow-up questions about what support the person is receiving and his or her current mental state.\n* Exhaustion syndrome/stress: Ask follow-up questions to determine whether treatment is feasible at this time or if the patient needs to manage the stress in other ways first.\n* Neuropsychiatric disorders: To benefit from the program, sufficient concentration ability and capacity for structure/planning in daily life are required. In case of a neuropsychiatric diagnosis, follow-up questions should be asked about whether the person believes that he or she can manage texts and tasks that take approximately 2-3 hours per week.\n* High degree of psychiatric comorbidity has in some studies been shown to be a complicating factor, and this should also be considered at the start of treatment. Ask follow-up questions about what support the person is receiving and his or her current mental state.\n* Severe sleep problems: Sleep deprivation may lead to increased appetite and reduced cognitive capacity, making it difficult to engage with treatment. Ask follow-up questions about possible undiagnosed sleep apnea or potential need for other care to address the sleep problems.",
+    "detailed_description": "Study design:\n\n\\- Open-label interventional study conducted within Eatit's routine patient flow, where each participant serves as their own control.\n\nData sources:\n\n\\- Data collection to address the research questions regarding treatment effects will be obtained from Eatit's database.\n\nData to be collected:\n\n-Sex, age, weight, waist circumference, number of completed modules in the digital treatment program, number of completed dietitian visits, as well as results from the self-administered questionnaires Kostindex (Diet Index, developed by the Swedish National Board of Health and Welfare) and World Health Organization Disability Assessment Schedule 2.0, 12-item self-administered version (WHODAS 2.0 12-item).\n\nRecruitment and study participants:\n\n-Five study dietitians will recruit 93 participants through Eatit's routine patient flow. The study population will consist of all eligible individuals who schedule an appointment with a study dietitian, as the aim is to evaluate the treatment effect within Eatit's normal patient population.\n\nInformed consent process:\n\n-The request for study participation is made during Assessment Visit 1, which is conducted by video. If the potential participant expresses interest, the dietitian provides written study information. Inclusion in the study occurs during Assessment Visit 2, after the participant has received both written and verbal information. Participants will be enrolled in the study according to the inclusion criteria, provided that no exclusion criteria are met (see Eligibility). If the participant agrees to take part, informed consent will be obtained digitally.\n\nIntervention:\n\n\\- Standard care with Eatit's multimodal digital lifestyle intervention program according to routine practice, delivered over six months with dietitian support via chat and video.\n\nAnalysis and statistics:\n\n\\- Descriptive statistics will be used to characterize the study population. Treatment effects will be evaluated using appropriate regression and correlation analyses. Subgroup and dropout analyses are planned. Both intention-to-treat (ITT) and per-protocol (PP) approaches will be applied.",
+    "drug_class_labels": [],
+    "enrollment_count": 93,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Lifestyle Intervention for Obesity"
+    ],
+    "intervention_model": "SINGLE_GROUP",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Obesity",
+      "Weight Reduction Programs"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-09-19",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "Eatit AB",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07183228",
+    "official_title": "Eatit's Multimodal Digital Lifestyle Intervention for Obesity: A Clinical Pilot Study on Effects on Weight, Self-Rated Eating Habits and Self-Rated Health",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-08-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07183228",
+    "start_date": "2025-09-03",
+    "study_first_posted_at": "2025-09-19",
+    "study_type": "INTERVENTIONAL"
+  }
+}

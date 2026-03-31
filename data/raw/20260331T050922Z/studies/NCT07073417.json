@@ -1,0 +1,268 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "once weekly",
+          "interventionNames": [
+            "Drug: XW003 injection"
+          ],
+          "label": "XW003",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "once weekly",
+          "interventionNames": [
+            "Drug: semaglutide injection"
+          ],
+          "label": "semaglutide",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "XW003"
+          ],
+          "description": "Subcutaneous injection",
+          "name": "XW003 injection",
+          "otherNames": [
+            "ecnoglutide"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "semaglutide"
+          ],
+          "description": "Subcutaneous injection",
+          "name": "semaglutide injection",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Weight Management"
+      ],
+      "keywords": [
+        "Weight management",
+        "obesity",
+        "XW003",
+        "glucagon-like peptide-1 (GLP-1)",
+        "ecnoglutide",
+        "semaglutide"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "yao.li@sciwindbio.com",
+          "name": "Yao Li",
+          "phone": "(86) 010-87120826",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "jiln@bjmu.edu.cn",
+              "name": "Linong Ji, Dr",
+              "phone": "(86)010-88324516",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Peking University People's Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Peking University People's Hospital",
+          "name": "Linong Ji, Dr",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of the study is to compare the efficacy and safety of XW003 injection versus semaglutide injection in Chinese adults with obesity",
+      "detailedDescription": "In this Phase II study, eligible participants will be randomized into one of the two cohorts in a 1:1 ratio to receive once-weekly subcutaneous XW003 injection or semaglutide injection, including a dose-escalation period, a core treatment period and a treatment extension period, for up to 60 weeks."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 160,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI\u226530 kg/m2 at screening, waist circumference \u226590 cm for men and \u226585 cm for women.\n* Weight change of less than 5% within 3 months prior to screening (self-reported).\n\nExclusion Criteria:\n\n* Diagnosis of obesity due to endocrine disorders or a single gene mutation, including but not limited to hypothalamic obesity, pituitary obesity, Cushing's syndrome, hypothyroidic obesity (except for those with normal thyroid function at screening and expected to remain unchanged throughout the trial period after at least 3 months of thyroid hormone replacement therapy), insulinoma, acromegaly.\n* History of bariatric surgery or planning to undergo bariatric surgery or use other weight-loss drugs or devices during the trial (except acupuncture for weight loss, liposuction, or abdominal fat removal for more than one year before screening; Except the removal or expulsion of the airbag in the stomach for more than 1 year before screening.\n* Diagnosis with any type of diabetes (except gestational diabetes).\n* Have used any weight-loss drugs, hypoglycemic drugs, or drugs that may cause significant weight gain within 3 months prior to screening.\n* History of acute or chronic pancreatitis or pancreatic injury, history of symptomatic gallbladder disease (except cholecystectomy).\n* History of clinically significant gastric emptying abnormalities, such as gastroparesis or gastric outlet obstruction.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study to Compare XW003 Injection and Semaglutide Injection in Chinese Adults With Obesity (SLIMMER-UP-SWITCH)",
+      "nctId": "NCT07073417",
+      "officialTitle": "A Multicenter, Randomized, Open-label, Treatment Switching Phase II Study to Evaluate the Efficacy and Safety of XW003 Injection and Semaglutide Injection in Chinese Adults With Obesity",
+      "orgStudyIdInfo": {
+        "id": "SCW0502-1122"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Hangzhou Sciwind Biosciences Co., Ltd."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage change in body weight relative to baseline",
+          "timeFrame": "week 48"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportions of participants with weight loss \u22655% from baseline",
+          "timeFrame": "week 48"
+        },
+        {
+          "measure": "Proportions of participants with weight loss \u226510% from baseline",
+          "timeFrame": "week 48"
+        },
+        {
+          "measure": "Proportions of participants with weight loss \u226515% from baseline",
+          "timeFrame": "week 48"
+        },
+        {
+          "measure": "The change in waist circumference relative to the baseline",
+          "timeFrame": "week 48"
+        },
+        {
+          "measure": "Changes in body mass index (BMI) relative to baseline",
+          "timeFrame": "week 48"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Hangzhou Sciwind Biosciences Co., Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-08-23",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-19",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-27",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-07-28",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-07-09",
+      "studyFirstSubmitQcDate": "2025-07-09"
+    }
+  }
+}

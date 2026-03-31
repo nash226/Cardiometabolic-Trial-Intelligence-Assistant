@@ -1,0 +1,231 @@
+{
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "the adjustable headrest group: placing an adjustable pillows on the patient's head to align the patient's external auditory canal horizontally with the sternum",
+          "interventionNames": [
+            "Other: the adjustable headrest group"
+          ],
+          "label": "the adjustable headrest group: placing an adjustable pillows on the head",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "the supine head-lateral position group: during the perioperative period, keep the patient's head tilted to the left or right",
+          "interventionNames": [
+            "Other: the supine head-lateral position group"
+          ],
+          "label": "the supine head-lateral position group",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "the supine head-straight position group: during the perioperative period, keep the patient's head upright",
+          "interventionNames": [
+            "Other: the supine head-straight position group"
+          ],
+          "label": "the supine head-straight position group",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "the supine head-lateral position group"
+          ],
+          "description": "the supine head-lateral position group: during the perioperative period, keep the patient's head tilted to the left or right",
+          "name": "the supine head-lateral position group",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "the adjustable headrest group: placing an adjustable pillows on the head"
+          ],
+          "description": "the adjustable headrest group: placing an adjustable pillows on the patient's head to align the patient's external auditory canal horizontally with the sternum",
+          "name": "the adjustable headrest group",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "the supine head-straight position group"
+          ],
+          "description": "the supine head-straight position group: during the perioperative period, keep the patient's head upright",
+          "name": "the supine head-straight position group",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Adjustable Headrests",
+        "Ventilation Function",
+        "Obese Patients"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "lina@hbfy.com",
+          "name": "NaLi, MD",
+          "phone": "+862763490107",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Wuhan",
+          "contacts": [
+            {
+              "email": "lina@hbfy.com",
+              "name": "Na Li, MD",
+              "phone": "+862763490107",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Maternal and Child Health Hospital of Hubei Province",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          },
+          "state": "Hubei",
+          "status": "RECRUITING",
+          "zip": "430000"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Maternal and Child Health Hospital of Hubei Province",
+          "name": "Na Li NaLi, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to observe the effect of adjustable headrests on ventilation function in overweight and obese patients through clinical experiments, and to explore the impact on the incidence of hypoxemia during painless curettage in overweight and obese patients.\n\nParticipants will be randomly allocated to three groups: the supine head-straight position group(Group A), the supine head-lateral position group(Group B), and the adjustable headrest group(Group C). These three groups of patients underwent painless curettage surgery in the daytime operating room and the occurrence of hypoxemia will be observed."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patients who choose to have painless surgical abortion\n* Body mass index greater than 24\n* the American Society of Anesthesiologists (ASA) physical status ranked I-II\n* competent to provide informed consent\n\nExclusion Criteria:\n\n* Abnormal lung function or respiratory system diseases\n* Airway obstruction or respiratory malformation\n* cervical spondylosis\n* psychiatric disorders",
+      "genderBased": false,
+      "healthyVolunteers": true,
+      "maximumAge": "50 Years",
+      "minimumAge": "20 Years",
+      "sex": "FEMALE",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study on Application of Adjustable Headrest in Painless Curettage Surgery for Overweight and Obese Patients",
+      "nctId": "NCT06929000",
+      "officialTitle": "A Study on Application of Adjustable Headrest in Painless Curettage Surgery for Overweight and Obese Patients: a Randomized Controlled Trial",
+      "orgStudyIdInfo": {
+        "id": "MCHH_010"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Maternal and Child Health Hospital of Hubei Province"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Incidence of hypoxemia will be recorded after anesthesia induction",
+          "measure": "Incidence of hypoxemia",
+          "timeFrame": "1,2 and 3 minutes after anesthesia induction"
+        },
+        {
+          "description": "Respiratory rate and oxygen saturation will be recorded at 4 time points, including the time of entering the daytime operating room(Time 0), 1 minute after anesthesia induction(Time 1), 2 minute after anesthesia induction(Time 2), 3 minute after anesthesia induction(Time 3), 1 minute after the patient wakes up(Time 4)",
+          "measure": "Respiratory rate and oxygen saturation",
+          "timeFrame": "The time of entering the daytime operating room, intraoperative period., 1 minute after the patient wakes up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "heart rate and blood pressure will be recorded at 4 time points, including the time of entering the daytime operating room(Time 0), 1 minute after anesthesia induction(Time 1), 2 minute after anesthesia induction(Time 2), 3 minute after anesthesia induction(Time 3), 1 minute after the patient wakes up(Time 4)",
+          "measure": "Heart rate and blood pressure",
+          "timeFrame": "The time of entering the daytime operating room, intraoperative period, 1 minute after the patient wakes up"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Maternal and Child Health Hospital of Hubei Province"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Maternal and Child Health Hospital of Hubei Province",
+        "investigatorFullName": "Li Na",
+        "investigatorTitle": "Deputy Chief Physician",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-09-22",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-02-22",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-02-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-04",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-27",
+      "studyFirstSubmitQcDate": "2025-04-08"
+    }
+  }
+}

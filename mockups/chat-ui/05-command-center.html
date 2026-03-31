@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup 05 - Command Center</title>
+  <style>
+    :root {
+      --bg: #f1f5f4;
+      --ink: #162226;
+      --muted: #607177;
+      --panel: #ffffff;
+      --line: #d9e2df;
+      --accent: #185d8a;
+      --accent-soft: #e4f0f8;
+      --success: #1d7f61;
+      --shadow: 0 16px 38px rgba(30, 52, 57, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(24, 93, 138, 0.08), transparent 20%),
+        linear-gradient(180deg, #f7fbfa 0%, var(--bg) 100%);
+    }
+    .shell {
+      max-width: 1420px;
+      margin: 0 auto;
+      padding: 24px;
+      display: grid;
+      gap: 18px;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: end;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 5vw, 4.6rem);
+      letter-spacing: -0.04em;
+    }
+    .sub {
+      color: var(--muted);
+      max-width: 52ch;
+      line-height: 1.6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+    }
+    .panel {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+    }
+    .panel h2 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      padding: 14px;
+      font: inherit;
+      line-height: 1.5;
+      background: #fbfdfd;
+    }
+    .action-row,
+    .tag-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 11px 14px;
+      font: inherit;
+      cursor: pointer;
+    }
+    .primary {
+      background: var(--accent);
+      color: white;
+    }
+    .secondary {
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--accent);
+    }
+    .tag {
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.84rem;
+    }
+    .response {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      background: #fbfefe;
+      line-height: 1.65;
+    }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 12px;
+      background: white;
+    }
+    .metric small {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 6px;
+      font-size: 1.1rem;
+    }
+    .study {
+      padding: 12px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: white;
+      display: grid;
+      gap: 7px;
+    }
+    .study small {
+      color: var(--success);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .muted {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .metric-grid { grid-template-columns: 1fr; }
+      .topbar { display: grid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div>
+        <h1>Command Center</h1>
+        <div class="sub">A more operational interface where the answer sits beside compact retrieval metrics and ranked trial outputs.</div>
+      </div>
+      <div class="tag-row">
+        <span class="tag">mockup 05</span>
+        <span class="tag">compact</span>
+        <span class="tag">operator view</span>
+      </div>
+    </div>
+
+    <div class="grid">
+      <section class="panel">
+        <h2>Question</h2>
+        <textarea>Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
+        <div class="action-row">
+          <button class="secondary">Refresh</button>
+          <button class="primary">Ask</button>
+        </div>
+        <div class="response">
+          The strongest obesity-specific match is NCT06893016, but explicit incretin classification is still absent from the stored intervention metadata. NCT07314684 provides the strongest GLP-1 evidence in the corpus, though it is diabetes-labeled.
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Retrieval Snapshot</h2>
+        <div class="metric-grid">
+          <div class="metric">
+            <small>matched trials</small>
+            <strong>2</strong>
+          </div>
+          <div class="metric">
+            <small>top method</small>
+            <strong>semantic</strong>
+          </div>
+          <div class="metric">
+            <small>active tags</small>
+            <strong>4</strong>
+          </div>
+        </div>
+        <div class="tag-row">
+          <span class="tag">obesity</span>
+          <span class="tag">PHASE3</span>
+          <span class="tag">2026 relevant</span>
+          <span class="tag">GLP-1 intent</span>
+        </div>
+        <div class="study">
+          <small>NCT06893016</small>
+          <strong>Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight</strong>
+          <p class="muted">Phase 3. Recruiting. Primary completion date in 2026.</p>
+        </div>
+        <div class="study">
+          <small>NCT07314684</small>
+          <strong>GLP1-RAs Effects on Inflammatory and Endothelial Biomarkers in T2DM</strong>
+          <p class="muted">Strong GLP-1 lexical and semantic signal, but not obesity-labeled.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

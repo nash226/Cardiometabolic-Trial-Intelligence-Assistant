@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06785324:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06785324\nBrief title: Study of Nutrition and Exercise in Adults Hospitalized for Treatment of Acute Lymphoblastic Leukemia (ALL)\nOfficial title: Nutrition and Exercise to Optimize Muscle and Adiposity in Adults With ALL: NEOMA ALL Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT06785324"
+    },
+    {
+      "chunk_id": "NCT06785324:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Philadelphia Chromosome Negative; B Cell Acute Lymphoblastic Leukemia (B-ALL); B-ALL\nIntervention labels: Nutrition Intervention; Exercise intervention\nDrug class labels: \nArms: Nutrition and Exercise interventions\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06785324"
+    },
+    {
+      "chunk_id": "NCT06785324:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This clinical trial aims to assess the effect of nutrition and exercise on muscle and adiposity in adults with Philadelphia Chromosome (Ph) Negative B-ALL undergoing inpatient induction therapy.\n\nParticipants will take part in 2 different interventions:\n\n* Nutrition Intervention\n* Physical Exercise Intervention\n\nAll subjects will be provided with a wearable electronic activity monitor (FitBit\u00ae) to assist in recording activity levels in minutes of activity.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 70,
+      "trial_nct_id": "NCT06785324"
+    },
+    {
+      "chunk_id": "NCT06785324:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 50 Years\nAge groups: ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* New Diagnosis of Philadelphia Chromosome Negative B-ALL\n* Receiving intensive pediatric-inspired induction chemotherapy\n\nExclusion Criteria:\n\n* BMI \u226418.5 kg/m2 at time of diagnosis\n* Unable to comply with both the recommended diet and exercise regimen as deemed by the research or treatment team\n* Pregnant",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 65,
+      "trial_nct_id": "NCT06785324"
+    },
+    {
+      "chunk_id": "NCT06785324:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Feasibility of nutrition and exercise intervention | time_frame=End of study recruitment (approximately 1 year) | description=Percentage of eligible patients that consent to trial.\ntype=secondary | measure=Adherence to dietary intervention | time_frame=22 days | description=Percentage of participants that are \"adherent\", defined as \\>75% of the patient's dietary assessments consistent with the prescribed diet.\ntype=secondary | measure=Adherence to exercise intervention | time_frame=22 days | description=Percentage of participants able to meet the exercise goal in 2 out of 3 weeks of induction therapy or 66% of their weeks of inpatient admission if admitted for more than 3 weeks.\ntype=secondary | measure=Usability of interventions | time_frame=22 days | description=To assess intervention usability, a 10-item questionnaire, the System Usability Scale Questionnaire, will be administered to each patient postintervention. This instrument rates responses from \"strongly agree\" to \"strongly disagree\". A score \\>68 is considered of acceptable usability.\ntype=secondary | measure=Body composition changes - Visceral Adiposity | time_frame=22 days | description=Percent change in Visceral Adiposity from baseline to day 22 on study will be described. CT measurements of height-adjusted lumber adiposity area (VAT) are calculated from routine contrast and non-contrast CT scans of chest and abdomen\ntype=secondary | measure=Body composition changes - Sarcopenia (SMI) | time_frame=22 days | description=Percent change in sarcopenia score from baseline to day 22 on study will be described. Sarcopenia is loss of skeletal muscle mass and function associated with aging and will be calculated as mg/m2 measurements of skeletal muscle cross-sectional area, index, and radiation attenuation utilizing clinical computed tomography (CT) scans. The lower the value the worse the outcome.\ntype=secondary | measure=Impact on minimal residual disease (MRD) | time_frame=22 days | description=Number of participants that are MRD positive at end of induction therapy\ntype=secondary | measure=Impact on Treatment toxicities | time_frame=22 days | description=Number of participants that experience experience grade 3-4 hyperglycemia and hepatoxicity during induction. Adverse Events will be graded using Common Terminology Criteria for Adverse Events (CTCAE) v5 criteria.\ntype=secondary | measure=Changes to the Host Metabolome | time_frame=22 days | description=Assessment of changes to the host metabolome throughout the intervention on daily serum samples (excluding weekends and holidays) will be assess descriptively",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 355,
+      "trial_nct_id": "NCT06785324"
+    },
+    {
+      "chunk_id": "NCT06785324:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-05-12\nPrimary completion date: 2027-11-06\nCompletion date: 2027-11-06\nStudy first posted: 2025-01-21\nResults first posted: None\nLast update posted: 2025-06-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06785324"
+    },
+    {
+      "chunk_id": "NCT06785324:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Chicago\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06785324"
+    }
+  ],
+  "trial_nct_id": "NCT06785324"
+}

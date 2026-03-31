@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup 01 - Editorial Chat</title>
+  <style>
+    :root {
+      --bg: #f6f1e8;
+      --paper: #fffaf2;
+      --card: #fffdf8;
+      --ink: #1f2d2f;
+      --muted: #667376;
+      --line: #ddceb6;
+      --accent: #0f766e;
+      --accent-soft: #dff3ee;
+      --shadow: 0 20px 60px rgba(64, 42, 10, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(255, 244, 210, 0.9), transparent 24%),
+        linear-gradient(180deg, #f8f4ec 0%, var(--bg) 55%, #efe6d9 100%);
+    }
+    .shell {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+      display: grid;
+      gap: 20px;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: end;
+    }
+    .eyebrow {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(3rem, 7vw, 5.8rem);
+      line-height: 0.92;
+      letter-spacing: -0.05em;
+      max-width: 10ch;
+    }
+    .lead {
+      max-width: 42ch;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 20px;
+    }
+    .panel {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+    }
+    .chat-panel {
+      padding: 18px;
+      display: grid;
+      gap: 18px;
+    }
+    .composer {
+      display: grid;
+      gap: 12px;
+      padding: 18px;
+      border-radius: 22px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.84), rgba(255,247,235,0.94));
+      border: 1px solid var(--line);
+    }
+    textarea {
+      width: 100%;
+      min-height: 116px;
+      resize: vertical;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      padding: 14px 16px;
+      font: inherit;
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    .prompt-row,
+    .pill-row,
+    .action-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .prompt,
+    .pill {
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--ink);
+      font-size: 0.88rem;
+    }
+    .pill {
+      background: var(--accent-soft);
+      color: #0b5b54;
+    }
+    button {
+      border: 0;
+      border-radius: 14px;
+      padding: 12px 16px;
+      font: inherit;
+      cursor: pointer;
+    }
+    .primary {
+      background: var(--accent);
+      color: white;
+    }
+    .secondary {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--line);
+    }
+    .thread {
+      display: grid;
+      gap: 14px;
+    }
+    .bubble {
+      border-radius: 24px;
+      padding: 16px;
+      border: 1px solid var(--line);
+    }
+    .bubble.user {
+      margin-left: 44px;
+      background: #0f766e;
+      color: white;
+      border-color: #0f766e;
+    }
+    .bubble.assistant {
+      margin-right: 26px;
+      background: var(--card);
+    }
+    .bubble small {
+      display: block;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      opacity: 0.7;
+    }
+    .side {
+      display: grid;
+      gap: 16px;
+    }
+    .section {
+      padding: 18px;
+      display: grid;
+      gap: 12px;
+    }
+    .section h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .trial,
+    .evidence {
+      border: 1px solid var(--line);
+      background: white;
+      border-radius: 20px;
+      padding: 14px;
+      display: grid;
+      gap: 8px;
+    }
+    .meta {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+    .muted {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    @media (max-width: 960px) {
+      .layout { grid-template-columns: 1fr; }
+      .hero { display: grid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Mockup 01</div>
+        <h1>Editorial Chat Workspace</h1>
+      </div>
+      <p class="lead">A warm, editorial interface where the answer reads like the primary object and the supporting trials live in an adjacent column.</p>
+    </section>
+
+    <section class="layout">
+      <section class="panel chat-panel">
+        <div class="composer">
+          <textarea>Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
+          <div class="prompt-row">
+            <span class="prompt">2026 obesity trials</span>
+            <span class="prompt">Semaglutide in T2D</span>
+            <span class="prompt">Recruiting phase 3 studies</span>
+          </div>
+          <div class="action-row">
+            <button class="secondary">Refresh retrieval</button>
+            <button class="primary">Ask</button>
+          </div>
+        </div>
+
+        <div class="thread">
+          <article class="bubble user">
+            <small>User</small>
+            Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?
+          </article>
+
+          <article class="bubble assistant">
+            <small>Assistant</small>
+            Two studies stand out in this corpus slice. NCT06893016 is a phase 3 obesity trial active in 2026, but the currently retrieved evidence does not explicitly classify RAY1225 as incretin-based. NCT07314684 is more explicit on GLP-1 signaling, though its primary condition label is type 2 diabetes rather than obesity.
+            <div class="pill-row" style="margin-top:12px;">
+              <span class="pill">obesity</span>
+              <span class="pill">PHASE3</span>
+              <span class="pill">2026 relevant</span>
+              <span class="pill">GLP-1 intent</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="side">
+        <section class="panel section">
+          <h2>Matched Trials</h2>
+          <article class="trial">
+            <div class="meta">NCT06893016</div>
+            <strong>Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight</strong>
+            <p class="muted">Phase 3, recruiting, obesity-focused. Evidence suggests weight-loss efficacy but not explicit incretin labeling.</p>
+          </article>
+          <article class="trial">
+            <div class="meta">NCT07314684</div>
+            <strong>GLP1-RAs Effects on Inflammatory and Endothelial Biomarkers in T2DM</strong>
+            <p class="muted">GLP-1 explicit, 2026-relevant, but diabetes-centered rather than obesity-centered.</p>
+          </article>
+        </section>
+
+        <section class="panel section">
+          <h2>Evidence</h2>
+          <article class="evidence">
+            <div class="meta">Conditions and Interventions</div>
+            <p class="muted">Intervention labels: RAY1225; Placebo. Drug class labels are currently empty.</p>
+          </article>
+          <article class="evidence">
+            <div class="meta">Status and Identity</div>
+            <p class="muted">NCT07314684 explicitly references GLP1-RAs in the trial title.</p>
+          </article>
+        </section>
+      </aside>
+    </section>
+  </div>
+</body>
+</html>

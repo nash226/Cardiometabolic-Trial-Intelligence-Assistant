@@ -1,0 +1,311 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D002149",
+          "term": "Energy Intake"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        },
+        {
+          "id": "D031204",
+          "term": "Caloric Restriction"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "The semaglutide group received weekly subcutaneous semaglutide (0.25 mg for weeks 1-2, 0.5 mg for weeks 3-4, and 1.0 mg for weeks 5-12).",
+          "interventionNames": [
+            "Drug: semaglutide"
+          ],
+          "label": "semaglutide group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The caloric restriction group followed a gender-specific daily caloric restriction (1,500-1,800 kcal for males; 1,200-1,500 kcal for females).",
+          "interventionNames": [
+            "Behavioral: caloric restriction"
+          ],
+          "label": "caloric restriction group",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "semaglutide group"
+          ],
+          "description": "The semaglutide group received weekly subcutaneous semaglutide (0.25 mg for weeks 1-2, 0.5 mg for weeks 3-4, and 1.0 mg for weeks 5-12).",
+          "name": "semaglutide",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "caloric restriction group"
+          ],
+          "description": "The caloric restriction group followed a gender-specific daily caloric restriction (1,500-1,800 kcal for males; 1,200-1,500 kcal for females).",
+          "name": "caloric restriction",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus (T2DM)",
+        "Semaglutide",
+        "Caloric Restriction"
+      ],
+      "keywords": [
+        "Type 2 Diabetes Mellitus",
+        "semaglutide",
+        "Caloric Restriction"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ndefy14105@ncu.edu.cn",
+          "name": "Jianping Liu",
+          "phone": "+8679186274551",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Jiangxi",
+          "contacts": [
+            {
+              "email": "ndefy14105@ncu.edu.cn",
+              "name": "Jianping Liu",
+              "phone": "+8679186274551",
+              "role": "CONTACT"
+            },
+            {
+              "email": "ndefy14105@ncu.edu.cn",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Minde road No.1",
+          "geoPoint": {
+            "lat": 33.99934,
+            "lon": 105.19994
+          },
+          "state": "Nanchang",
+          "status": "RECRUITING",
+          "zip": "330000"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "To evaluate the effects of subcutaneous injection of semaglutide for 12 weeks on patients with type 2 diabetes mellitus (T2DM), compared with concurrent energy-restricted management, on glycemic control, weight loss, inflammatory markers, liver fat content, and other parameters. The study also observed the subcutaneous and visceral fat of the participants and explored the molecular mechanisms of action, providing high-quality evidence-based support for the timing and targets of intervention in this population."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-75 years;\n2. BMI\u226525 kg/m\u00b2;\n3. Diagnosed as type 2 diabetes mellitus patients according to the \"Guidelines for the Prevention and Treatment of Type 2 Diabetes in China (2020 Edition)\";\n4. HbA1c\u22648.5%;\n5. Duration of diabetes \u22643 months, and no use of antihyperglycemic drugs;\n6. Willing to participate in this study, and after full informed consent, agrees to strictly follow the treatment plan and promises to attend follow-up visits on time, and signs the informed consent form.\n\nExclusion Criteria:\n\n1. BMI \\< 25 kg/m\u00b2;\n2. Age \\< 18 years, or \\> 75 years;\n3. History of type 1 diabetes, acute pancreatitis, or diabetes secondary to pancreatectomy;\n4. History of bariatric surgery or planned bariatric surgery, or currently attempting weight loss within the past 3 months, or use of weight-loss medications within the past 3 months;\n5. Use of GLP-1 receptor agonists, sodium-glucose cotransporter 2 inhibitors, dipeptidyl peptidase-4 inhibitors, thiazolidinediones, or other related drugs within the past 3 months;\n6. Pregnant or breastfeeding women, or those planning to conceive during the study period;\n7. Patients with severe diseases of important organ systems, such as severe cardiovascular and cerebrovascular diseases, respiratory diseases, gastrointestinal diseases, renal insufficiency, hematologic diseases, neurological diseases, or malignancies;\n8. Personal or family history of medullary thyroid carcinoma;\n9. Patients with severe mental disorders or communication barriers that prevent accurate understanding of the study content and compliance with the trial procedures.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes",
+      "nctId": "NCT07272343",
+      "officialTitle": "A Study on the Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes Combined With Metabolic-associated Fatty Liver Disease and Its Molecular Mechanisms",
+      "orgStudyIdInfo": {
+        "id": "2022efyA04"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Second Affiliated Hospital of Nanchang University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Some of the data involves patient privacy. If there is a need to share the data, please contact the relevant researchers of this project.",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "glycated hemoglobin",
+          "measure": "HbA1c",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        },
+        {
+          "description": "fasting plasma glucose",
+          "measure": "FPG",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        },
+        {
+          "description": "2-hour postprandial glucose",
+          "measure": "2hPG",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "homeostasis model assessment of insulin resistance",
+          "measure": "HOMA-IR",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        },
+        {
+          "description": "total cholesterol",
+          "measure": "TC",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        },
+        {
+          "description": "triglycerides",
+          "measure": "TG",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        },
+        {
+          "description": "low-density lipoprotein",
+          "measure": "LDL-C",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        },
+        {
+          "description": "high-density lipoprotein",
+          "measure": "HDL-C",
+          "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Second Affiliated Hospital of Nanchang University"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-06-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-07",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-02-10",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-11-16",
+      "studyFirstSubmitQcDate": "2025-12-07"
+    }
+  }
+}

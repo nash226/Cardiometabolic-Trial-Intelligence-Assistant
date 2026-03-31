@@ -1,0 +1,360 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006946",
+          "term": "Hyperinsulinism"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009135",
+          "term": "Muscular Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D020879",
+          "term": "Neuromuscular Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D001836",
+          "term": "Body Weight Changes"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D007333",
+          "term": "Insulin Resistance"
+        },
+        {
+          "id": "D018908",
+          "term": "Muscle Weakness"
+        },
+        {
+          "id": "D015431",
+          "term": "Weight Loss"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004038",
+          "term": "Diet, Reducing"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Low calorie meal replacement shakes",
+          "interventionNames": [
+            "Behavioral: Diet Weight Loss"
+          ],
+          "label": "Diet Weight Loss",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Normal feeding",
+          "label": "Delayed Intervention",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Diet Weight Loss"
+          ],
+          "description": "Low calorie diet of meal replacement shakes",
+          "name": "Diet Weight Loss",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Insulin Sensitivity",
+        "Muscle Weakness",
+        "Adiposity",
+        "Insulin Resistance"
+      ],
+      "keywords": [
+        "IMAT",
+        "Intermuscular Adipose Tissue",
+        "Weight Loss",
+        "Diet"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "bryan.bergman@cuanschutz.edu",
+          "name": "Bryan Bergman, PhD",
+          "phone": "3037243919",
+          "role": "CONTACT"
+        },
+        {
+          "email": "sophia.bowen@cuanschutz.edu",
+          "name": "Sophia Bowen",
+          "phone": "3037240487",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Aurora",
+          "contacts": [
+            {
+              "name": "Bryan Bergman, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bryan Bergman, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Colorado Anschutz",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          },
+          "state": "Colorado",
+          "status": "RECRUITING",
+          "zip": "80045"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this intervention study is to learn about how weight loss impacts molecular signaling of intermuscular adipose tissue (IMAT) in individuals with obesity. The main question it aims to answer is how inflammatory molecules secreted by IMAT promote muscle insulin resistance and inflammation, and how these same molecules are diminished after weight loss. Following screening visits involving body composition measures, blood testing, strength testing, and a thigh muscle biopsy, participants will go through a 12-week dietary intervention for weight loss. After 12 weeks, this will be followed by the same testing and biopsies that were completed before the intervention. Researchers will then compare outcomes of individuals who lost weight to individuals who did not lose weight."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Generally healthy men and women aged 18-70\n* BMI between 30-40\n* Less than 1 hour of exercise per week\n* Women:\n\n  1. may be pre or post menopausal\n\nExclusion Criteria:\n\n* Type 1 or Type 2 diabetes\n* Thyroid disease\n* History of lung disease\n* Active use of nicotine\n* Severe plasma lipid disorders\n* Taking hormone replacement drugs, blood thinners, or thiazoladinediones\n* Women:\n\n  1. Currently going through menopause or peri-menopause\n  2. Pregnant or breastfeeding\n  3. History of Polycystic Ovary Syndrome",
+      "healthyVolunteers": true,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effect of Weight Loss on Intermuscular Adipose Tissue (IMAT) Signaling",
+      "nctId": "NCT06129110",
+      "officialTitle": "Effect of Weight Loss on Intermuscular Adipose Tissue (IMAT) Signaling",
+      "orgStudyIdInfo": {
+        "id": "23-0545"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Colorado, Denver"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01DK134706-01A1",
+          "link": "https://reporter.nih.gov/quickSearch/1R01DK134706-01A1",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Participants will undergo a standard 3-hour hyperinsulinemic/euglycemic clamp with insulin infused at 80 mU/m2/min, and glucose clamped at 90 mg/dl with a variable dextrose infusion.",
+          "measure": "Insulin Sensitivity",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Participant weight will be measured using BodyTrace scales during the 12 week intervention.",
+          "measure": "Body Weight",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "A multi-slice MRI will be used to quantify IMAT and muscle content in both legs with acquisition of \\~20 axial images (10 mm thickness) with 10 mm spacing between images starting superior to the patella. IMAT content will be quantified using the well-validated Sirlin 6-echo method and normalized to muscle volume.",
+          "measure": "IMAT Content",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "A multi-slice MRI will be used to quantify IMAT and muscle content in both legs with acquisition of \\~20 axial images (10 mm thickness) with 10 mm spacing between images starting superior to the patella. Muscle volume will be quantified using standard methods with anatomical cross-sectional area evaluated in each T1 weighted, high resolution, gradient echo profile scan, and multiplied by the length of the muscle.",
+          "measure": "Muscle Mass",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Participants will perform quadriceps muscle strength testing using an isokinetic dynamometer.",
+          "measure": "Muscle Strength",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institutes of Health (NIH)"
+        },
+        {
+          "class": "NIH",
+          "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Colorado, Denver"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-12-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-22",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-01-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-04",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-11-08",
+      "studyFirstSubmitQcDate": "2023-11-10"
+    }
+  }
+}

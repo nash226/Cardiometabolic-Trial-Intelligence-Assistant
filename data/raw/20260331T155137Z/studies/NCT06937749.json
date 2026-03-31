@@ -1,0 +1,311 @@
+{
+  "derivedSection": {
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000719829",
+          "term": "mazdutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Dose level 1,SC,once a week for 4 weeks; Dose level 2,SC,once a week for 4 weeks; Dose level 3,SC,once a week for 52 weeks",
+          "interventionNames": [
+            "Drug: IBI362"
+          ],
+          "label": "IBI362 Low Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Dose level 1,SC,once a week for 4 weeks; Dose level 2,SC,once a week for 4 weeks; Dose level 3,SC,once a week for for 4 weeks; Dose level 4,SC,once a week for 48 weeks",
+          "interventionNames": [
+            "Drug: IBI362"
+          ],
+          "label": "IBI362 High Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo,SC,once a week for 60 weeks",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo administered subcutaneously (SC) once a week.",
+          "name": "Placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "IBI362 High Dose",
+            "IBI362 Low Dose"
+          ],
+          "description": "IBI362 administered subcutaneously (SC) once a week.",
+          "name": "IBI362",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metabolic Dysfunction-associated Steatohepatitis (MASH)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "jie.wei@innoventbio.com",
+          "name": "Jie Wei",
+          "phone": "0512-69566088",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "weelai@163.com",
+              "name": "Lai Wei",
+              "phone": "010-51668930",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Beijing Tsinghua Changgung Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "RECRUITING",
+          "zip": "100044"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multicenter, randomized, double-blind, placebo-controlled Phase 2 clinical study evaluating the efficacy and safety of IBI362 in MASH subjects. Subjects will be randomly assigned to IBI362 low-dose, high-dose and placebo groups. The entire trial cycle includes a 8-week screening period, a 60-week double-blind treatment period, and a 4-week follow-up period."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 165,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be willing to participate in the study and provide written informed consent.\n* Male or female, age 18 years or older at the time of signing informed consent\n* Body mass Index (BMI) \u226525 kg/m\u00b2\n* Diagnosis of Metabolic dysfunction-associated steatohepatitis (MASH) (Non-alcoholic Fatty Liver Disease (NAFLD) Activity Score (NAS) \u2265 4, with at least 1 point in steatosis, inflammation and ballooning each) and fibrosis stage F2 or F3 proven by a biopsy conducted during the screening period or by a historical biopsy conducted within the last 3 months prior to screening\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. HbA1c\\>10%\n3. History or current other forms of chronic liver disease other than MASH\n4. Patients with positive Hepatitis B surface antigen (HBsAg). Patients with positive HBcAb will be eligible only when HBV DNA test negative at screening\n5. patients with HCV antibody positive.\n6. Patients with HIV antibody positive or syphilis specific antibodies positive (patients with non-specific antibody turned negative will be eligible)\n7. Model for End-stage Liver Disease(MELD) \\>12 or Child-Turcotte-Pugh(CTP) \\>6",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of IBI362 in Participants With Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+      "nctId": "NCT06937749",
+      "officialTitle": "A Randomized, Double-blind, Placebo-controlled Phase 2 Study Evaluating the Efficacy and Safety of IBI362 in Participants With Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+      "orgStudyIdInfo": {
+        "id": "CIBI362C201"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Innovent Biologics (Suzhou) Co. Ltd."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With MASH resolution With no Worsening of Fibrosis on Liver Histology",
+          "timeFrame": "Baseline, Week 60"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With \u22651 Point Decrease in Fibrosis Stage With No Worsening of MASH on Liver Histology",
+          "timeFrame": "Baseline, Week 60"
+        },
+        {
+          "measure": "Percentage of Participants With MASH improvement With no Worsening of Fibrosis on Liver Histology",
+          "timeFrame": "Baseline, Week 60"
+        },
+        {
+          "measure": "Percentage of Participants With MASH improvement With \u22651 Point Decrease in Fibrosis Stage on Liver Histology",
+          "timeFrame": "Baseline, Week 60"
+        },
+        {
+          "measure": "Percentage of Participants With MASH resolution With \u22651 Point Decrease in Fibrosis Stage on Liver Histology",
+          "timeFrame": "Baseline, Week 60"
+        },
+        {
+          "measure": "Percentage of Participants With \u22651 Point Decrease in Fibrosis Stage on Liver Histology",
+          "timeFrame": "Baseline, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage Change From Baseline in Liver Fat Content by Magnetic Resonance Imaging - Proton Density Fat Fraction (MRI-PDFF)",
+          "timeFrame": "Baseline, Week 4, Week 12, Week 36, Week 60"
+        },
+        {
+          "measure": "Percentage of participants with at least 30%, 50% and 70% relative reduction in Liver Fat Content by Magnetic Resonance Imaging - Proton Density Fat Fraction (MRI-PDFF) From Baseline",
+          "timeFrame": "Baseline, Week 4, Week 12, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage change From Baseline in aspartate aminotransferase[U/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage change From Baseline in alanine aminotransferase[U/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage change From Baseline in a \u03b3-Glutamyl transferase[U/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage change From Baseline in triglyceride [mmol/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage change From Baseline in total cholesterol[mmol/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage change From Baseline in low-density lipoprotein cholesterol[mmol/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percentage change From Baseline in high-density lipoprotein cholesterol[mmol/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change and Percent Change from Baseline in Body Weight [kg]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Percentage of Participants who Achieve \u22655%, \u226510% and \u226515% Body Weight Reduction",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change from Baseline in BMI [kg/m2]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change from Baseline in Waist Circumference [cm]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change from Baseline in Fasting Plasma Glucose (FPG )[mmol/L",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change from Baseline in Fasting Blood Insulin[mlU/L]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Mean Absolute Change from Baseline in glycated hemoglobin A1c (HbA1c)[%]",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "Change from Baseline in Homeostasis Model Assessment IR",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "description": "The SF-36 is a 36 item questionnaire that measures eight multi-item dimensions of health. For each dimension item scores are coded, summed, and transformed on to a scale from 0 (worst possible health state measured by the questionnaire) to 100 (best possible health state)",
+          "measure": "Changes from baseline in scores in 36-item Short-Form Health Survey version 2(SF-36v2)",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "description": "NASH-CHECK scores range from 0 to 10, with higher scores indicating worse symptoms/HRQOL",
+          "measure": "Change from baseline in scores in NASH-CHECK (patient-reported outcome measure for non-alcoholic steatohepatitis)",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "description": "6-point Patient Global Impression of Severity of NASH symptoms (PGIS; 7-day recall period; responses ranging from \"no symptoms\" to \"very severe\").",
+          "measure": "Change from baseline in scores in PGI-SPatient Global Impression of Severity\uff08PGI-S\uff09",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        },
+        {
+          "measure": "The proportion of subjects with at least a 25% improvement in liver stiffness measurement (LSM) relative to baseline based on FibroScan and FibroTouch measurements, and the proportion of subjects with at least a 30% improvement in controlled attenuation",
+          "timeFrame": "Baseline, Week 36, Week 60"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Innovent Biologics (Suzhou) Co. Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-07-22",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-17",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-07-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-04-07",
+      "studyFirstSubmitQcDate": "2025-04-17"
+    }
+  }
+}

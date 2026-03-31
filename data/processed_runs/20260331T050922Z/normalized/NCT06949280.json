@@ -1,0 +1,307 @@
+{
+  "arms": [
+    {
+      "description": "Peanut products",
+      "intervention_names": [
+        "Dietary Supplement: Peanut Snack Experimental"
+      ],
+      "label": "Peanut",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Grain snack (nut-free)",
+      "intervention_names": [
+        "Dietary Supplement: Nut-free Snack"
+      ],
+      "label": "Nut-free snack",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Weight Loss",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Bone Density",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Obesity and Overweight",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Men and postmenopausal women (\\>2 years since last menses), ages 50-75 years\n* Body mass index (25-42 kg/m2) or evidence of pre-clinical obesity.\n* Agree to be randomly assigned to consume a daily peanut snack or nut-free snack for 24 weeks\n* Must attend on-site visits (about 10) in New Brunswick, NJ, USA (transportation/reimbursement for travel not included)\n\nExclusion Criteria:\n\n* Peanut allergies or intolerances\n* Participants with \\>5% weight loss in the past 6 months or extreme dietary/physical activity habits\n* An inability to follow the experimental intervention or to perform the required specimen collections.\n* Individuals with significant psychiatric or food disorders.\n* Current diagnosis, or history of cancer in past 3 years.\n* Current diagnosis or history of bone diseases, type I or II diabetes, gastrointestinal disease, hyperparathyroidism, untreated thyroid disease, significant immune, hepatic, cardiac, or renal disease.\n* Uncontrolled hypertension or hyperlipidemia in abnormal ranges.\n* History of surgery in the past 6 months or surgical procedure for weight loss in the past 3 years.\n* Regular use of medications that affect bone metabolism, including bisphosphonates or hormone replacement.\n* Regular use of medications for that affect the gastrointestinal tract including incretin mimetics, cholecystitis, urinary tract infection, severe organic diseases including coronary heart disease, myocardial infarction, infectious diseases including pulmonary tuberculosis and AIDS.\n* Antibiotic use in the past month\n* Alcohol or illicit drug abuse\n* Any other condition deemed by the Research Physician that would prevent participation in the study, e.g. participation in another clinical research project that may interfere with the results of this study.\n* Participation in another clinical interventional research trial",
+    "healthy_volunteers": true,
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "50 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Peanut"
+      ],
+      "description": "Subjects will receive a daily peanut snack and nutrition education-behavior modification instructions for weight loss",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Peanut Snack Experimental",
+      "normalized_name": "peanut snack experimental"
+    },
+    {
+      "arm_group_labels": [
+        "Nut-free snack"
+      ],
+      "description": "Subjects will receive a daily peanut snack and nutrition education-behavior modification instructions for weight loss",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Nut-free Snack",
+      "normalized_name": "nut-free snack"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "dual energy x-ray absorptiometry; g/cm2",
+      "measure": "Bone Mineral Density (BMD - hip)",
+      "outcome_type": "primary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "dual energy x-ray absorptiometry (kg)",
+      "measure": "Soft tissue (lean and fat mass)",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Serum levels (ng/mL) of carboxyterminal crosslinking telopeptide of type I collagen (CTX), procollagen type-I aminoterminal propeptide (PINP), and osteocalcin",
+      "measure": "Serum bone turnover",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Dual energy x-ray absorptiometry: lumbar spine, femoral neck, radius, total body, g/cm2",
+      "measure": "Areal BMD",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Body weight in kg",
+      "measure": "Weight loss",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "peripheral quantified computed tomography, g/cm3",
+      "measure": "Trabecular BMD",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "peripheral quantitative computed tomography, mm",
+      "measure": "Trabecular separation",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "peripheral quantitative computed tomography, BV/TV (%)",
+      "measure": "Trabecular bone volume / tissue volume",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "peripheral quantitative computed tomography, g/cm3",
+      "measure": "Cortical and total (volumetric BMD)",
+      "outcome_type": "secondary",
+      "time_frame": "change from baseline to 24 weeks"
+    },
+    {
+      "description": "peripheral quantitative computed tomography, mm",
+      "measure": "Cortical (thickness)",
+      "outcome_type": "secondary",
+      "time_frame": "change from baseline to 24 weeks"
+    },
+    {
+      "description": "peripheral quantitative computed tomography, %",
+      "measure": "Cortical (porosity)",
+      "outcome_type": "secondary",
+      "time_frame": "change from baseline to 24 weeks"
+    },
+    {
+      "description": "Serum levels of high-sensitivity C-reactive protein (hsCRP), interleukin-6 (IL-6), tumor necrosis factor-alpha (TNF-\u03b1)",
+      "measure": "Inflammatory Markers",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "serum LDL, HDL, triglycerides (mg/dL)",
+      "measure": "Lipid panel",
+      "outcome_type": "secondary",
+      "time_frame": "Change in baseline and 24 weeks"
+    },
+    {
+      "description": "Neuropsychological Test Automated Battery (CANTAB)",
+      "measure": "Cognition",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Pittsburgh Sleep Quality Index scores (0-21; higher global score is worse)",
+      "measure": "Quality of Sleep",
+      "outcome_type": "secondary",
+      "time_frame": "Change from baseline and 24 weeks"
+    },
+    {
+      "description": "Modified SPPB includes chair stand, balance test on1 leg and walk test (0-12; higher score is better)",
+      "measure": "Short Physical Performance Battery (SPPB)",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Dumbbell weight (More arm curls are better. Score interpretation is age and sex dependent)",
+      "measure": "Arm Curl",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Dynamometer (kilograms, higher is better)",
+      "measure": "Hand Grip",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "tape measure (waist and hip)",
+      "measure": "Circumferences",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Serum (mg/dL)",
+      "measure": "Glucose and insulin",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline and 24 weeks"
+    },
+    {
+      "description": "serum (pg/mL)",
+      "measure": "Parathyroid hormone",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Serum (ng/mL)",
+      "measure": "25-hydroxyvitamin D (25OHD)",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "serum (pg/mL)",
+      "measure": "Estradiol",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "Weight lifestyle efficacy questionnaire short-form (0-80; higher score is better)",
+      "measure": "Eating self-efficacy",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "nutrient analysis software (Healthy Eating Index 0-100; higher score is better)",
+      "measure": "Diet Quality Score",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    },
+    {
+      "description": "stool",
+      "measure": "Microbiota",
+      "outcome_type": "other",
+      "time_frame": "Baseline and 24 weeks"
+    },
+    {
+      "description": "sphygmomanometer (mmHg)",
+      "measure": "Blood pressure (systolic and diastolic)",
+      "outcome_type": "other",
+      "time_frame": "Change from baseline to 24 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The aging population is rapidly increasing, and it is important to identify dietary factors that can prevent disease and promote health in this group. Legumes, such as peanuts, are a plant-based food high in protein and unsaturated fat making this a healthy choice but are not consumed frequently enough in older adults. Studies have shown that regular nut consumption is associated with lower adiposity and reduced weight gain, and several dietary pattern studies indicate that nuts and legumes are associated with better bone health. In addition, our preliminary translational data indicates that a higher monounsaturated fatty acid (MUFA) intake is associated with improved bone mineral density (BMD) and quality. Given these findings, the proposed study aims to examine the impact of consuming peanut products on bone health, metabolic health (e.g., serum glucose, insulin, lipids and inflammation), markers of brain and sleep health, and physical function in overweight and obese older adults before and after a six-month weight loss intervention using a randomized controlled design. The results of this study have the potential to provide valuable insights into the role of peanuts as a sources of fatty acids in promoting health and preventing disease in at-risk adults.",
+    "brief_title": "Metabolic Health, Bones and Nuts During Weight Loss in Adults",
+    "collaborator_names": [],
+    "completion_date": "2027-12-31",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Men and postmenopausal women (\\>2 years since last menses), ages 50-75 years\n* Body mass index (25-42 kg/m2) or evidence of pre-clinical obesity.\n* Agree to be randomly assigned to consume a daily peanut snack or nut-free snack for 24 weeks\n* Must attend on-site visits (about 10) in New Brunswick, NJ, USA (transportation/reimbursement for travel not included)\n\nExclusion Criteria:\n\n* Peanut allergies or intolerances\n* Participants with \\>5% weight loss in the past 6 months or extreme dietary/physical activity habits\n* An inability to follow the experimental intervention or to perform the required specimen collections.\n* Individuals with significant psychiatric or food disorders.\n* Current diagnosis, or history of cancer in past 3 years.\n* Current diagnosis or history of bone diseases, type I or II diabetes, gastrointestinal disease, hyperparathyroidism, untreated thyroid disease, significant immune, hepatic, cardiac, or renal disease.\n* Uncontrolled hypertension or hyperlipidemia in abnormal ranges.\n* History of surgery in the past 6 months or surgical procedure for weight loss in the past 3 years.\n* Regular use of medications that affect bone metabolism, including bisphosphonates or hormone replacement.\n* Regular use of medications for that affect the gastrointestinal tract including incretin mimetics, cholecystitis, urinary tract infection, severe organic diseases including coronary heart disease, myocardial infarction, infectious diseases including pulmonary tuberculosis and AIDS.\n* Antibiotic use in the past month\n* Alcohol or illicit drug abuse\n* Any other condition deemed by the Research Physician that would prevent participation in the study, e.g. participation in another clinical research project that may interfere with the results of this study.\n* Participation in another clinical interventional research trial",
+    "detailed_description": "The aging population is rapidly increasing, and it is important to identify dietary factors that can prevent disease and promote health in this group. Legumes, such as peanuts, are a plant-based food high in protein and unsaturated fat making this a healthy choice but are not consumed frequently enough in older adults. Studies have shown that regular nut consumption is associated with lower adiposity and reduced weight gain, and several dietary pattern studies indicate that nuts and legumes are associated with better bone health. In addition, our preliminary translational data indicates that a higher monounsaturated fatty acid (MUFA) intake is associated with improved bone mineral density (BMD) and quality. Given these findings, the proposed study aims to examine the impact of consuming peanut products on bone health, metabolic health (e.g., serum glucose, insulin, lipids and inflammation), markers of brain and sleep health, and physical function in overweight and obese older adults before and after a six-month weight loss intervention using a randomized controlled design. The results of this study have the potential to provide valuable insights into the role of peanuts as a sources of fatty acids in promoting health and preventing disease in at-risk adults.\n\nSpecific Aims\n\n1. To determine whether consuming peanuts daily compared to a control group (no nuts) during lifestyle intervention has a differential effect on bone mineral density in older adults who are overweight or obese.\n2. To determine the temporal change in bone turnover biomarkers and bone regulating hormones during weight loss in the diet in older adults with overweight or obesity. Exploratory outcomes will examine metabolic biomarkers (serum glucose, insulin, lipid levels), and other markers of brain and sleep health and physical function.",
+    "drug_class_labels": [],
+    "enrollment_count": 44,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Peanut Snack Experimental",
+      "Nut-free Snack"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "weight loss",
+      "adults",
+      "bone",
+      "cognition",
+      "metabolic health",
+      "sleep",
+      "peanut",
+      "Monounsaturated fatty acid"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-04-29",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Rutgers, The State University of New Jersey",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "50 Years",
+    "nct_id": "NCT06949280",
+    "official_title": "Metabolic Health, Bones and Nuts Sources of Fatty Acids During Weight Loss in Adults",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2027-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06949280",
+    "start_date": "2025-05-01",
+    "study_first_posted_at": "2025-04-29",
+    "study_type": "INTERVENTIONAL"
+  }
+}

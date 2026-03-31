@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup 03 - Card Assistant</title>
+  <style>
+    :root {
+      --bg: #eef3f1;
+      --ink: #142326;
+      --muted: #607074;
+      --card: #ffffff;
+      --line: #d1dfda;
+      --accent: #d96d36;
+      --accent-soft: #ffe7d8;
+      --green: #1d7d63;
+      --shadow: 0 18px 44px rgba(44, 71, 62, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, #f5faf8 0%, var(--bg) 58%, #e8efec 100%);
+    }
+    .shell {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+      display: grid;
+      gap: 20px;
+    }
+    .hero {
+      display: grid;
+      gap: 8px;
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(2.7rem, 6vw, 5rem);
+      letter-spacing: -0.05em;
+      max-width: 10ch;
+    }
+    .hero p {
+      margin: 0;
+      max-width: 50ch;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .top {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 18px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 116px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+      font: inherit;
+      line-height: 1.5;
+    }
+    .row,
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .chip {
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #9b4a20;
+      font-size: 0.86rem;
+    }
+    button {
+      border: 0;
+      border-radius: 14px;
+      padding: 12px 16px;
+      font: inherit;
+      cursor: pointer;
+    }
+    .primary {
+      background: var(--accent);
+      color: white;
+    }
+    .ghost {
+      background: #f7faf9;
+      border: 1px solid var(--line);
+      color: var(--green);
+    }
+    .assistant-card {
+      background: linear-gradient(180deg, #fff5ed 0%, #fff 100%);
+    }
+    .assistant-card h2,
+    .list-card h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+    }
+    .answer {
+      line-height: 1.7;
+      color: #223336;
+    }
+    .bottom {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .trial {
+      display: grid;
+      gap: 8px;
+      padding: 14px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: #fbfdfc;
+    }
+    .trial small {
+      color: var(--green);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .muted {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    @media (max-width: 1020px) {
+      .top,
+      .bottom { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <h1>Card-Based Assistant</h1>
+      <p>A friendlier product direction where the answer, trials, and evidence are all presented as highly scannable cards.</p>
+    </section>
+
+    <section class="top">
+      <div class="card">
+        <textarea>Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
+        <div class="row" style="margin-top:12px;">
+          <button class="ghost">Use suggested prompt</button>
+          <button class="primary">Ask assistant</button>
+        </div>
+      </div>
+      <div class="card assistant-card">
+        <h2>Answer</h2>
+        <p class="answer">NCT06893016 is the strongest obesity-specific candidate in this slice, but the evidence currently stops short of explicitly naming RAY1225 as incretin-based. NCT07314684 is clearer on GLP-1 signaling, though it is diabetes-centered rather than obesity-centered.</p>
+        <div class="chips">
+          <span class="chip">obesity</span>
+          <span class="chip">PHASE3</span>
+          <span class="chip">2026 relevant</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div class="card list-card">
+        <h2>Matched Trials</h2>
+        <div class="trial">
+          <small>NCT06893016</small>
+          <strong>Evaluation of RAY1225 in Adult Participants Who Have Obesity or Are Overweight</strong>
+          <p class="muted">Phase 3 obesity study. Recruiting. Primary completion in 2026.</p>
+        </div>
+      </div>
+
+      <div class="card list-card">
+        <h2>Evidence</h2>
+        <div class="trial">
+          <small>Conditions and Interventions</small>
+          <strong>RAY1225; Placebo</strong>
+          <p class="muted">Intervention signal is present, but drug class labels remain empty.</p>
+        </div>
+      </div>
+
+      <div class="card list-card">
+        <h2>Why This Matched</h2>
+        <div class="trial">
+          <small>retrieval summary</small>
+          <strong>Semantic score dominated</strong>
+          <p class="muted">The language around GLP-1 and incretin aligned semantically even when exact lexical overlap was sparse.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

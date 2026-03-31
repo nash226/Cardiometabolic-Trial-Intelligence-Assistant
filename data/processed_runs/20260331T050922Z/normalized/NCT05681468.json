@@ -1,0 +1,271 @@
+{
+  "arms": [
+    {
+      "description": "KETO diet supplemented with Canola oil (high in MUFA and omega-3 FA).",
+      "intervention_names": [
+        "Other: Keto-CAN"
+      ],
+      "label": "KETO-Can",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "KETO diet supplemented with butter and coconut oil (high in SFA).",
+      "intervention_names": [
+        "Other: Keto-SAT"
+      ],
+      "label": "KETO-Sat",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Low fat diet supplemented with whole grain foods (pasta or brown rice) and oatmeal.",
+      "intervention_names": [
+        "Other: LFD"
+      ],
+      "label": "Low fat diet (LFD)",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "PreDiabetes",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Diabetes Mellitus, Type 2",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Overweight and Obesity",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Having overweight or obesity and HbA1C \u2265 5.7% at screening\n\nExclusion Criteria:\n\n* Individuals with specific nutritional habits preventing them from adhering to nutritional recommendations\n* Pregnant women\n* People on dialysis or recommended to follow a low-protein diet (base on glomerular filtration rate)\n* Familial hypercholesterolemia or hypertriglyceridemia\n* Transitioning trans-gender\n* For safety purposes, other individuals would be excluded if are under unstable health conditions.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "KETO-Sat"
+      ],
+      "description": "Nutrition counselling focused on Keto diet (saturated fat).\n\n10% TE as carbohydrate (mainly from vegetables and whole grain products), protein between 20-30% TE and fat between 60-70%.",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Keto-SAT",
+      "normalized_name": "keto-sat"
+    },
+    {
+      "arm_group_labels": [
+        "KETO-Can"
+      ],
+      "description": "Nutrition counselling focused on Keto diet (unsaturated fat).\n\n10% TE as carbohydrate (mainly from vegetables and whole grain products), protein between 20-30% TE and fat between 60-70%.",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Keto-CAN",
+      "normalized_name": "keto-can"
+    },
+    {
+      "arm_group_labels": [
+        "Low fat diet (LFD)"
+      ],
+      "description": "Nutrition counselling focused on low-fat diet.\n\n30% total energy (TE) as fat, 50% TE as carbohydrates (primarily whole grains) and 17-20% TE protein (mainly lean sources).",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "LFD",
+      "normalized_name": "lfd"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Assess triglycerides levels collecting blood samples in a fasting state. Triglycerides will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on plasma triglycerides levels by comparing groups at 3 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 3 months).",
+      "outcome_type": "primary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Assess triglycerides levels collecting blood samples in a fasting state. Triglycerides will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on plasma triglycerides levels by comparing groups at 6 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 6 months).",
+      "outcome_type": "primary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Assess LDL-cholesterol levels collecting blood samples in a fasting state. LDL-Cholesterol levels will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on LDL-cholesterol levels by comparing groups at 3 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 3 months).",
+      "outcome_type": "primary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Assess LDL-cholesterol levels collecting blood samples in a fasting state. LDL-Cholesterol levels will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on LDL-cholesterol levels by comparing groups at 6 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 6 months).",
+      "outcome_type": "primary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Assess blood glucose levels collecting blood samples in a fasting state. Blood glucose levels will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on blood glucose levels by comparing groups at 3 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 3 months).",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Assess blood glucose levels collecting blood samples in a fasting state. Blood glucose levels will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on blood glucose levels by comparing groups at 6 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 6 months).",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Assess insulin levels collecting blood samples in a fasting state. Insulin levels will be determined using commercially available equipment at a local laboratory (Roche Cobas e801). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on insulin levels by comparing groups at 3 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 3 months).",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Assess insulin levels collecting blood samples in a fasting state. Insulin levels will be determined using commercially available equipment at a local laboratory (Roche Cobas e801). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on insulin levels by comparing groups at 6 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 6 months).",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Assess HbA1c collecting blood samples in a fasting state. HbA1c levels will be determined using commercially available equipment at a local laboratory (COBAS c513) and reported in percentage. Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on hemoglobin A1C (HbA1c) levels by comparing groups at 3 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 3 months).",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Assess HbA1c collecting blood samples in a fasting state. HbA1c levels will be determined using commercially available equipment at a local laboratory (COBAS c513) and reported in percentage. Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on hemoglobin A1C (HbA1c) levels by comparing groups at 6 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 6 months).",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Assess ApoB100 collecting blood samples in a fasting state. ApoB100 levels will be determined using commercially available equipment at a local laboratory (Siemens BNII Nephelometer). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on ApoB100 levels by comparing groups at 3 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 3 months).",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Assess ApoB100 collecting blood samples in a fasting state. ApoB100 levels will be determined using commercially available equipment at a local laboratory (Siemens BNII Nephelometer). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on ApoB100 levels by comparing groups at 6 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 6 months).",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "In the fasting state, immune cell subset and activation states will be determined by flow cytometry using whole blood to quantify various immune cell phenotypes. Immune cells will be stained for T cell (CD3, CD4+, CD8+, CD45RA+, CD45RO+), Treg (FOXP3+), B cell (CD20), macrophage (CD14), NK cell (CD56+) and activation markers (CD11b+, CD25+, CD28+, CD86+). The quantification of cytokine secretion by immune cells stimulated with mitogens (phytohemagglutinin (PHA, a T cell mitogen) and lipopolysaccharide (LPS, an antigen-presenting cell stimulant)) is used to evaluate their effector function. Cytokines assessed in the supernatant include IL-1\u03b2 (only for LPS), IL-2 (only for PHA), IL-6, IL-10, IFN-\u03b3, and TNF-\u03b1 for both mitogen.",
+      "measure": "Effect of diets on immune function and Inflammation measured by blood Immune Markers by comparing groups at 3 months of intervention and changes over time within each group compared to baseline.",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "In the fasting state, immune cell subset and activation states will be determined by flow cytometry using whole blood to quantify various immune cell phenotypes. Immune cells will be stained for T cell (CD3, CD4+, CD8+, CD45RA+, CD45RO+), Treg (FOXP3+), B cell (CD20), macrophage (CD14), NK cell (CD56+) and activation markers (CD11b+, CD25+, CD28+, CD86+). The quantification of cytokine secretion by immune cells stimulated with mitogens (phytohemagglutinin (PHA, a T cell mitogen) and lipopolysaccharide (LPS, an antigen-presenting cell stimulant)) is used to evaluate their effector function. Cytokines assessed in the supernatant include IL-1\u03b2 (only for LPS), IL-2 (only for PHA), IL-6, IL-10, IFN-\u03b3, and TNF-\u03b1 for both mitogen.",
+      "measure": "Effect of diets on immune function and Inflammation measured by blood Immune Markers by comparing groups at 6 months of intervention and changes over time within each group compared to baseline.",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Assess levels of acute phase protein (CRP) collecting blood samples in a fasting state. CRP will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on inflammatory markers (C-reactive protein (CRP)) by comparing groups at 3 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 3 months).",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Assess levels of acute phase protein (CRP) collecting blood samples in a fasting state. CRP will be determined using commercially available equipment at a local laboratory (Roche Cobas c503). Measurements will be performed for between group comparison and within groups comparison to understand the effect of diets.",
+      "measure": "Effect of diets on inflammatory markers (C-reactive protein (CRP)) by comparing groups at 6 months of intervention (i.e. control low fat diet and the 2 keto groups) and changes over time within each group (i.e. baseline vs. 6 months).",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "A validated online 24-recall questionnaire (ASA24) will be administered to participants to assess adherence to diets every month.",
+      "measure": "Adherence to diet interventions using 24-hour dietary assessment tool",
+      "outcome_type": "other",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Total lipids in plasma, RBCs and PBMCs membranes will be extracted using Folch ratio 4:1 (chloroform:methanol (2:1): KCl). Extracted lipids are then methylated to create fatty acid methyl esters which will be measured by automated gas chromatography using an agilent 7890/8890 GC with a 100m CP-Sil 88 fused capillary column for long chain fatty acids. Total phospholipids and lipid classes in PBMCs membrane will be quantified using thin-layer chromatography and identified using internal standards.",
+      "measure": "Change in fatty acid composition to confirm adherence to the diets at 3 months",
+      "outcome_type": "other",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "Total lipids in plasma, RBCs and PBMCs membranes will be extracted using Folch ratio 4:1 (chloroform:methanol (2:1): KCl). Extracted lipids are then methylated to create fatty acid methyl esters which will be measured by automated gas chromatography using an agilent 7890/8890 GC with a 100m CP-Sil 88 fused capillary column for long chain fatty acids. Total phospholipids and lipid classes in PBMCs membrane will be quantified using thin-layer chromatography and identified using internal standards.",
+      "measure": "Change in fatty acid composition to confirm adherence to the diets at 6 months",
+      "outcome_type": "other",
+      "time_frame": "6 months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The goal of this clinical trial is to compare a healthy KETO diet supplemented with canola oil (KETO-Can) compared to a traditional KETO diet high in saturated fat (KETO-Sat) and low-fat diet (LFD) in adults at high risk of or diagnosed with type 2 diabetes. The main question\\[s\\] it aims to answer are:\n\n* Effects on CVD risk factors (plasma cholesterol, TG, ApoB100, glucose, insulin and HbA1C).\n* Effects on systemic inflammation and immune function.\n* Adherence to interventions.\n\nParticipants will be randomized into 1 of the dietary treatments during which they will follow a Keto or a low-fat diet.\n\nComparisons among groups at 3 and 6 months of intervention will be conducted.",
+    "brief_title": "Metabolic and Inflammatory Outcomes of the Ketogenic Diet Comparing Saturated and Unsaturated Fat Sources",
+    "collaborator_names": [],
+    "completion_date": "2026-05-31",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Having overweight or obesity and HbA1C \u2265 5.7% at screening\n\nExclusion Criteria:\n\n* Individuals with specific nutritional habits preventing them from adhering to nutritional recommendations\n* Pregnant women\n* People on dialysis or recommended to follow a low-protein diet (base on glomerular filtration rate)\n* Familial hypercholesterolemia or hypertriglyceridemia\n* Transitioning trans-gender\n* For safety purposes, other individuals would be excluded if are under unstable health conditions.",
+    "detailed_description": "The ketogenic diet (KETO) is popular for weight loss and is gaining interest as a treatment for type 2 diabetes (T2D) because it is believed to help manage blood glucose and weight. However, KETO is often high in saturated fats (SFA), which may increase cholesterol and other cardiovascular (CVD) risk factors, such as inflammatory profile. Substituting a heart-healthy oil for SFA may improve these outcomes.\n\nThe purpose of our study is to investigate the health beneficial effects of a healthy KETO diet supplemented with Canola oil, compared to a traditional Keto Diet and low-fat diet in adults at high risk of type 2 diabetes. Participants will be randomized to one of these three diets and will receive nutrition counselling during 6 months.\n\nEach month, participants will receive a 1-month supply of canola oil in the KETO-Can group, butter and coconut oil in the KETO-Sat group and whole grain foods (pasta or brown rice) and oatmeal in the LFD group to ensure compliance to key nutrients.\n\nFasting blood samples will be taken at baseline, 3 and 6 months. Anthropometric measurements (weight (BW), waist circumference (WC), BMI), blood pressure (BP), systemic inflammation (CRP, IL-6, TNF-\u03b1, IL-18), immune function, cardiometabolic risk factors (TG, cholesterol, glucose, insulin and HbA1C) will be determined at each time point.\n\nA total of three 24h-recall questionnaires (2 weekdays and 1 weekend day) will be completed at each time point (baseline, 3 months, 6 months). Once a month (in between study visits) a 24h-recall will be completed before meeting the nutrition expert in order to personalize recommendations according to participants' respective diet groups.\n\nAs in any nutritional study, adherence for nutrition study is a key factor and will be measured differently during the intervention. Menu examples will be provided for each group to facilitate adherence. Adherence to the study protocol will be assessed by (1) evaluation of 24-h recall data (14 in total). Participants with 11 out of 14 recalls being within meeting dietary objectives will be considered highly compliant, 6 or less would be low compliance; (2) Ketosis state will be measured at each study visit using ketone strips to assess adherence to both KETO diets; (3) Participants will be asked to report the food consumed each month to determine the level of consumption. Finally, fatty acid composition in plasma (short-term) and red blood cells (RBCs; reflect the past 3 months) will be assessed to confirm adherence between the two keto diets.",
+    "drug_class_labels": [],
+    "enrollment_count": 175,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Keto-SAT",
+      "Keto-CAN",
+      "LFD"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-08",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Alberta",
+    "masking": "NONE",
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05681468",
+    "official_title": "Metabolic and Inflammatory Outcomes of the Ketogenic Diet Comparing Saturated and Unsaturated Fat Sources",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-05-31",
+    "primary_purpose": "OTHER",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05681468",
+    "start_date": "2023-09-18",
+    "study_first_posted_at": "2023-01-12",
+    "study_type": "INTERVENTIONAL"
+  }
+}

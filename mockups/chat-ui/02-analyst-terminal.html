@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup 02 - Analyst Terminal</title>
+  <style>
+    :root {
+      --bg: #081516;
+      --panel: #0d1d1f;
+      --card: #102529;
+      --line: #1f4448;
+      --ink: #ddf8f2;
+      --muted: #8ab2ab;
+      --accent: #27d3b0;
+      --warn: #f2bf5b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top right, rgba(39, 211, 176, 0.14), transparent 20%),
+        linear-gradient(180deg, #061011 0%, var(--bg) 100%);
+    }
+    .shell {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 24px;
+      display: grid;
+      gap: 18px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      letter-spacing: -0.04em;
+    }
+    .sub {
+      color: var(--muted);
+      max-width: 48ch;
+      line-height: 1.6;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+    }
+    .panel {
+      border: 1px solid var(--line);
+      background: rgba(13, 29, 31, 0.92);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .bar {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.02);
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .content {
+      padding: 16px;
+      display: grid;
+      gap: 14px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #081516;
+      color: var(--ink);
+      padding: 14px;
+      font: inherit;
+      line-height: 1.5;
+    }
+    .cmd-row,
+    .tag-row,
+    .action-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--accent);
+      background: rgba(39, 211, 176, 0.08);
+      font-size: 0.82rem;
+    }
+    button {
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--ink);
+      padding: 10px 12px;
+      border-radius: 12px;
+      font: inherit;
+    }
+    .primary {
+      background: var(--accent);
+      color: #08211d;
+      border-color: var(--accent);
+      font-weight: 700;
+    }
+    .log {
+      display: grid;
+      gap: 12px;
+    }
+    .entry {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #091718;
+      line-height: 1.6;
+    }
+    .entry.user { border-left: 4px solid var(--accent); }
+    .entry.assistant { border-left: 4px solid #6da8ff; }
+    .grid {
+      display: grid;
+      gap: 12px;
+    }
+    .item {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+      background: #091718;
+    }
+    .item small {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .warn {
+      color: var(--warn);
+    }
+    @media (max-width: 960px) {
+      .layout { grid-template-columns: 1fr; }
+      .header { display: grid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="header">
+      <div>
+        <h1>Analyst Terminal</h1>
+        <div class="sub">A sharper, research-desk style interface with the answer, retrieval state, and supporting studies rendered like an analyst console.</div>
+      </div>
+      <div class="tag-row">
+        <span class="tag">mockup 02</span>
+        <span class="tag">chat first</span>
+        <span class="tag">high signal</span>
+      </div>
+    </div>
+
+    <div class="layout">
+      <section class="panel">
+        <div class="bar">conversation</div>
+        <div class="content">
+          <textarea>Which accepted trials in the corpus appear to involve incretin-related therapy and are still relevant in 2026?</textarea>
+          <div class="cmd-row">
+            <span class="tag">accepted corpus</span>
+            <span class="tag">2026 relevant</span>
+            <span class="tag">incretin intent</span>
+          </div>
+          <div class="action-row">
+            <button>Refresh retrieval</button>
+            <button class="primary">Run answer</button>
+          </div>
+
+          <div class="log">
+            <div class="entry user">
+              <small>user query</small><br>
+              Which accepted trials in the corpus appear to involve incretin-related therapy and are still relevant in 2026?
+            </div>
+            <div class="entry assistant">
+              <small>assistant response</small><br>
+              NCT07314684 is the clearest incretin-linked study because the title explicitly references GLP1-RAs. NCT06893016 remains obesity-relevant and active in 2026, but the current evidence does not explicitly classify RAY1225 as incretin-based.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="bar">retrieval state</div>
+        <div class="content grid">
+          <div class="item">
+            <small>matched trials</small>
+            <p>NCT07314684<br>NCT06893016</p>
+          </div>
+          <div class="item">
+            <small>top evidence</small>
+            <p>Status and Identity<br>Conditions and Interventions<br>Summary and Description</p>
+          </div>
+          <div class="item">
+            <small>notes</small>
+            <p class="warn">Drug class labeling is still sparse. Retrieval is stronger than taxonomy for intervention mechanism questions.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06465186:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06465186\nBrief title: A Clinical Study of Efinopegdutide in People With Compensated Cirrhosis Due to Steatohepatitis (MK-6024-017)\nOfficial title: Phase 2a Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Efinopegdutide (MK-6024) in Adults With Compensated Cirrhosis Secondary to Metabolic Dysfunction-Associated Steatohepatitis\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 54,
+      "trial_nct_id": "NCT06465186"
+    },
+    {
+      "chunk_id": "NCT06465186:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: Non-alcoholic Fatty Liver Disease; Nonalcoholic Steatohepatitis; NAFLD; Metabolic Dysfunction-associated Steatotic Liver Disease; Metabolic Dysfunction-associated Steatohepatitis\nIntervention labels: Efinopegdutide; Placebo\nDrug class labels: \nArms: Efinopegdutide; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06465186"
+    },
+    {
+      "chunk_id": "NCT06465186:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Researchers are looking for ways to treat a type of liver disease caused by elevated liver fat, called metabolic dysfunction-associated steatohepatitis (MASH). MASH was formerly called non-alcoholic steatohepatitis (NASH). Researchers want to learn if a study medicine called efinopegdutide can treat MASH.The goals of this study are to learn:\n\n* If efinopegdutide can lower the amount of fat, inflammation, and scarring (fibrosis) in the liver\n* About the safety of efinopegdutide and how well people tolerate it\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 82,
+      "trial_nct_id": "NCT06465186"
+    },
+    {
+      "chunk_id": "NCT06465186:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\nThe main inclusion criteria include but are not limited to the following:\n\n* Has compensated cirrhosis caused by metabolic dysfunction-associated steatohepatitis (MASH)\n* Has either type 2 diabetes that is controlled by diet or medication, or does not have type 2 diabetes\n\nExclusion Criteria:\n\nThe main exclusion criteria include but are not limited to the following:\n\n* Has history of a liver disease other than MASH, for example, Hepatitis B or C, drug-induced liver disease, or autoimmune liver disease\n* Has history of type 1 diabetes\n* Had a bariatric surgical procedure less than 5 years before entry into the study\n* History of pancreatitis\n* Major illnesses like recent (within 6 months of study entry) episodes of heart problems, such as congestive heart failure, unstable angina, heart attack, stroke, or mini-stroke",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 152,
+      "trial_nct_id": "NCT06465186"
+    },
+    {
+      "chunk_id": "NCT06465186:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change from Baseline in Liver Fat Content (LFC) at Week 28 | time_frame=Baseline and 28 weeks | description=Researchers will measure the change in the amount of fat in the liver using magnetic resonance imaging (MRI) after about 7 months of treatment.\n\nThe change in MRI-Estimated proton density fat fraction (PDFF) will be measured from baseline to 28 weeks.\ntype=primary | measure=Percentage of Participants Who Experienced an Adverse Event (AE) | time_frame=Up to approximately 36 weeks | description=An AE is a health problem that happens or worsens during the study\ntype=primary | measure=Percentage of Participants Discontinuing Study Medication Due to an AE | time_frame=Up to approximately 28 weeks | description=An AE is a health problem that happens or worsens during a study. The percentage of participants who stop study treatment due to an AE will be reported.\ntype=secondary | measure=Change from Baseline in Iron-corrected T1 (cT1) at Week 28 | time_frame=Baseline and up to 28 Weeks | description=Researchers will measure the change in liver inflammation and scarring (fibrosis) after about 7 months of treatment.\n\nMRI measurement of cT1 mapping will be used to indicate the amount of liver inflammation and fibrosis. The change in cT1 mapping from baseline to 28 weeks will be presented.\ntype=secondary | measure=Change from Baseline in Enhanced Liver Fibrosis (ELF) score at Week 28 | time_frame=Baseline and up to 28 weeks | description=Researchers will measure the change in liver scarring using biomarkers. Biomarkers are substances measured in blood that show normal or abnormal activity taking place in the liver.\n\nELF is calculated using 3 markers of hepatic extracellular matrix turnover to generate a unitless numerical score. The change from baseline in ELF up to 28 weeks will be reported.\ntype=secondary | measure=Change from Baseline in Propeptide of Type III Collagen (Pro-C3) at Week 28 | time_frame=Baseline and up to 28 weeks | description=Researchers will measure the change in liver scarring using biomarkers.\n\nPro-C3 is measured in serum; Increasing levels indicate worsening of fibrosis activity. The change in Pro-C3 from baseline to 28 weeks will be reported.\ntype=secondary | measure=Change from Baseline in Fibrosis-4 index (FIB-4) at Week 28 | time_frame=Baseline and up to 28 weeks | description=Researchers will measure the change in liver scarring using biomarkers.\n\nFIB-4 index is calculated using the participant's age and 3 serum markers (alanine aminotransferase \\[ALT\\], aspartate aminotransferase \\[AST\\], and platelet count). The change from baseline in FIB-4 after 28 weeks will be reported.\ntype=secondary | measure=Change from Baseline in Liver Stiffness Measurement (LSM) Assessed by Vibration-controlled Transient Elastography (VCTE) at week 28 | time_frame=Baseline and up to 28 weeks | description=Researchers will measure the change in liver scarring using ultrasound.\n\nLSM is measured using VCTE. The change from baseline in LSM after 28 weeks will be reported.\ntype=secondary | measure=Percent Change from Baseline in Body Weight at Week 28 | time_frame=Baseline and up to approximately 28 weeks | description=Body weight will be measured using a standardized, digital scale. The percent change from baseline in body weight after 28 weeks will be reported",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 503,
+      "trial_nct_id": "NCT06465186"
+    },
+    {
+      "chunk_id": "NCT06465186:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-07-12\nPrimary completion date: 2026-08-06\nCompletion date: 2026-08-06\nStudy first posted: 2024-06-18\nResults first posted: None\nLast update posted: 2026-03-02\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06465186"
+    },
+    {
+      "chunk_id": "NCT06465186:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Merck Sharp & Dohme LLC\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06465186"
+    }
+  ],
+  "trial_nct_id": "NCT06465186"
+}

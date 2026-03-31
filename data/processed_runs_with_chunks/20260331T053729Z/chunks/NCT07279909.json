@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07279909:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07279909\nBrief title: Phase-III Clinical Studies on Poly Herbal Anti-Diabetic Formulation\nOfficial title: Pre-Clinical & Clinical Studies on Poly Herbal Anti-Diabetic Formulation\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07279909"
+    },
+    {
+      "chunk_id": "NCT07279909:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Type 2; Diabetes Mellitus, Experimental; HbA1c; Urinary Glucose; Ability of Experimental Drug to Lower HbA1c Compare to Metformin\nIntervention labels: DIAB-PHC1; Metformin\nDrug class labels: \nArms: Metformin - control are of the study; DIAB-PHC1 - Treatment arm of the study\nKeywords: Polyherbal formulation; GCMS; Syzygium cumini; Momordica charantia; Wrightia tinctoria,; Gymnema sylvestre,",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 57,
+      "trial_nct_id": "NCT07279909"
+    },
+    {
+      "chunk_id": "NCT07279909:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial to learn the clinical efficacy and safety of standardized polyherbal capsule weighing around 500 mg, containing Syzygium cumini, Momordica charantia, Wrightia tinctoria, and Gymnema sylvestre in equal proportions for controlling Diabetic hyperglycemia towards a normal glycemic control. The main question that aims to search is\n\n1. Does the herbal combination formula effective to lower the high blood glucose levels in Type2 diabetics\n2. Is the herbal combination therapy is safe for human use\n3. Does this treatment plan reduces the blood sugar level comparative to Metformin 500 mg TID The trial is also comparing its efficacy in comparison to a standard anti diabetic drug Metformin In the study wing, the volunteer diabetic patients will take the herbal capsule 500mg TID and in the control group the volunteer patients will take Metformin 500 mg TID.\n\n   * The recruited patients will continue the assigned therapy for at least six months\n   * They visit the clinical trial OPDs fortnightly\n   * They will record their fasting blood glucose with the glucometer at least two to three times a week and get the basal tests done in three-month time\nDetailed description: Preclinical evaluation studies including stability, dissolution and anti-microbial testing were performed. The formulation was also subjected to gas chromatography-mass spectrometry (GCMS). The powdered formulation was analyzed for LD-50 followed by two-center, unblinded, non-randomized controlled clinical trial with convenient sampling was conducted over 24 weeks in 500 adults with T2DM (HbA1c 7.5-10%). Participants were assigned to receive either polyherbal capsules (\\~500 mg three times daily, n = 250) or metformin (500 mg three times daily, n = 250). Primary outcome was HbA1c reduction; secondary outcomes included fasting/postprandial glucose, urinary protein, urinary glucose, lipid profile, body weight, and safety. Statistical analyses were performed using two-way ANOVA and unpaired t-tests.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 301,
+      "trial_nct_id": "NCT07279909"
+    },
+    {
+      "chunk_id": "NCT07279909:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 30 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients having Type II Diabetes Mellitus.\n* Patients agree willingly to use study medicine throughout the study\n* Patients having raised FBS above 120 mg/dl and HbA1C level 6.7 or above.\n* Patients over 30 years of age.\n* Patients of both genders will be included in the study.\n\nExclusion Criteria:\n\n* Patients who do not agree willingly to participate in research.\n\n  * Patients having history of any chronic organ failure.\n  * Patients having history of any amputation.\n  * Patients having history of treated or diagnosed cancer of any organ.\n  * Pregnant and lactating mothers.\n  * Patients who are having brittle Diabetes\n  * Known under treatment cases of psychiatric disorders",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 130,
+      "trial_nct_id": "NCT07279909"
+    },
+    {
+      "chunk_id": "NCT07279909:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=glycated hemoglobin (HbA1c) | time_frame=From two weeks to six months time period | description=The primary objective is to assess improvements in glycated hemoglobin (HbA1c) and fasting/ post-prandial plasma glucose.\ntype=secondary | measure=Urinary Proteins | time_frame=At least Six months | description=The secondary objectives are to evaluate reduction in the amount of proteins in urine\ntype=secondary | measure=Urinary Glucose | time_frame=6 months | description=regular check for the urinary glucose levels as a parameter for improved glycemic control",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 77,
+      "trial_nct_id": "NCT07279909"
+    },
+    {
+      "chunk_id": "NCT07279909:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-03-09\nPrimary completion date: 2025-08-01\nCompletion date: 2026-05-20\nStudy first posted: 2025-12-12\nResults first posted: None\nLast update posted: 2025-12-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07279909"
+    },
+    {
+      "chunk_id": "NCT07279909:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Hamdard University\nLead sponsor class: OTHER\nCollaborators: Jinnah Postgraduate Medical Centre\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT07279909"
+    }
+  ],
+  "trial_nct_id": "NCT07279909"
+}

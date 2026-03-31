@@ -20,6 +20,7 @@
       font-family: Georgia, "Times New Roman", serif;
       background: linear-gradient(180deg, #f3eadc 0%, var(--bg) 100%);
       color: var(--ink);
+      scroll-behavior: smooth;
     }
     .shell {
       max-width: 1120px;
@@ -96,6 +97,36 @@
       display: grid;
       gap: 12px;
     }
+    .ask-form {
+      display: grid;
+      gap: 12px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 130px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--ink);
+      font: inherit;
+      resize: vertical;
+    }
+    button {
+      width: fit-content;
+      border: 0;
+      border-radius: 14px;
+      background: var(--accent);
+      color: white;
+      padding: 12px 16px;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:disabled {
+      opacity: 0.6;
+      cursor: wait;
+    }
     .item {
       border: 1px solid rgba(216, 204, 184, 0.9);
       border-radius: 16px;
@@ -111,6 +142,33 @@
       margin: 0;
       font: inherit;
       line-height: 1.5;
+    }
+    .answer-box {
+      display: grid;
+      gap: 14px;
+    }
+    .answer-text {
+      padding: 14px;
+      border-radius: 16px;
+      background: white;
+      border: 1px solid rgba(216, 204, 184, 0.9);
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+    .warning {
+      color: #8a4b12;
+      background: #fff1dd;
+      border: 1px solid #efcf9a;
+      border-radius: 14px;
+      padding: 10px 12px;
+    }
+    .citation-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .citation-link:hover {
+      text-decoration: underline;
     }
     @media (max-width: 860px) {
       .grid { grid-template-columns: 1fr; }
@@ -138,7 +196,26 @@
     </section>
 
     <section class="grid">
-      <div class="section">
+      <div class="section" id="ask-panel">
+        <h2>Ask About This Trial</h2>
+        <form class="ask-form" id="ask-form">
+          <textarea id="question" name="question" placeholder="Ask a grounded question about this trial...">Does this trial appear to involve incretin-related therapy?</textarea>
+          <button type="submit" id="ask-button">Ask with citations</button>
+        </form>
+        <div class="answer-box" id="answer-box" style="display:none;">
+          <div class="item">
+            <h3>Answer</h3>
+            <div class="answer-text" id="answer-text"></div>
+          </div>
+          <div id="warning-box"></div>
+          <div class="item">
+            <h3>Citations</h3>
+            <div class="list" id="citation-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="trial-snapshot">
         <h2>Trial Snapshot</h2>
         <div class="kv">
           <div><span class="k">Source</span><span class="v"><a href="{{ trial.source_url }}">{{ trial.source_url }}</a></span></div>
@@ -150,7 +227,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" id="timeline">
         <h2>Timeline</h2>
         <div class="kv">
           <div><span class="k">Start date</span><span class="v">{{ trial.start_date_text or "Unknown" }}</span></div>
@@ -164,11 +241,11 @@
     </section>
 
     <section class="grid">
-      <div class="section">
+      <div class="section" id="summary-description">
         <h2>Summary</h2>
         <pre>{{ trial.brief_summary or "No summary available." }}</pre>
       </div>
-      <div class="section">
+      <div class="section" id="eligibility">
         <h2>Eligibility</h2>
         {% if trial.eligibility %}
           <pre>{{ trial.eligibility.criteria_text or "No criteria text available." }}</pre>
@@ -178,7 +255,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="interventions">
       <h2>Interventions</h2>
       <div class="list">
         {% for intervention in trial.interventions %}
@@ -195,7 +272,7 @@
     </section>
 
     <section class="grid">
-      <div class="section">
+      <div class="section" id="outcomes">
         <h2>Outcomes</h2>
         <div class="list">
           {% for outcome in trial.outcomes %}
@@ -206,7 +283,7 @@
           {% endfor %}
         </div>
       </div>
-      <div class="section">
+      <div class="section" id="chunk-previews">
         <h2>Chunk Previews</h2>
         <div class="list">
           {% for chunk in trial.chunks %}
@@ -219,5 +296,116 @@
       </div>
     </section>
   </div>
+  <script>
+    const askForm = document.getElementById("ask-form");
+    const askButton = document.getElementById("ask-button");
+    const answerBox = document.getElementById("answer-box");
+    const answerText = document.getElementById("answer-text");
+    const warningBox = document.getElementById("warning-box");
+    const citationList = document.getElementById("citation-list");
+    const trialMeta = {{ {
+      "nct_id": trial.nct_id,
+      "condition_labels": trial.condition_labels,
+      "phases": trial.phases,
+      "study_type": trial.study_type,
+      "accepted": trial.validation.accepted if trial.validation else True,
+      "is_2026_relevant": trial.is_2026_relevant
+    } | tojson }};
+
+    const chunkSectionMap = {
+      status_identity: "trial-snapshot",
+      conditions_interventions: "interventions",
+      summary_description: "summary-description",
+      eligibility: "eligibility",
+      outcomes: "outcomes",
+      timeline: "timeline",
+      sponsor_locations: "trial-snapshot"
+    };
+
+    function citationHref(citation) {
+      const sectionId = chunkSectionMap[citation.chunk_type] || "chunk-previews";
+      if (citation.trial_nct_id === trialMeta.nct_id) {
+        return `#${sectionId}`;
+      }
+      return `/trials/${citation.trial_nct_id}#${sectionId}`;
+    }
+
+    function renderAnswer(payload) {
+      answerBox.style.display = "grid";
+      answerText.textContent = payload.answer;
+
+      if (payload.warnings && payload.warnings.length) {
+        warningBox.innerHTML = payload.warnings
+          .map((warning) => `<div class="warning">${warning}</div>`)
+          .join("");
+      } else {
+        warningBox.innerHTML = "";
+      }
+
+      if (!payload.citations || !payload.citations.length) {
+        citationList.innerHTML = '<div class="item"><p class="sub">No citations returned.</p></div>';
+        return;
+      }
+
+      citationList.innerHTML = payload.citations.map((citation) => `
+        <div class="item">
+          <h3>
+            <a class="citation-link" href="${citationHref(citation)}">
+              ${citation.trial_nct_id} · ${citation.title || citation.chunk_type}
+            </a>
+          </h3>
+          <p class="sub">${citation.chunk_id}</p>
+          <p class="sub">${citation.snippet}</p>
+        </div>
+      `).join("");
+    }
+
+    async function askTrial(event) {
+      event.preventDefault();
+      askButton.disabled = true;
+      askButton.textContent = "Generating...";
+      answerBox.style.display = "grid";
+      answerText.textContent = "Running grounded retrieval and answer generation...";
+      warningBox.innerHTML = "";
+      citationList.innerHTML = "";
+
+      const payload = {
+        question: document.getElementById("question").value,
+        condition: trialMeta.condition_labels[0] || null,
+        phase: trialMeta.phases[0] || null,
+        study_type: trialMeta.study_type || null,
+        accepted_only: !!trialMeta.accepted,
+        year_2026_only: !!trialMeta.is_2026_relevant,
+        provider: "openai",
+        embedding_model: "text-embedding-3-small",
+        answer_model: "gpt-4o-mini",
+        lexical_weight: 0.4,
+        semantic_weight: 0.6,
+        retrieval_limit: 5
+      };
+
+      try {
+        const response = await fetch("/api/v1/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(errorText || "Ask request failed");
+        }
+        const data = await response.json();
+        renderAnswer(data);
+      } catch (error) {
+        answerText.textContent = "The ask request failed.";
+        warningBox.innerHTML = `<div class="warning">${error.message}</div>`;
+      } finally {
+        askButton.disabled = false;
+        askButton.textContent = "Ask with citations";
+      }
+    }
+
+    askForm.addEventListener("submit", askTrial);
+  </script>
 </body>
 </html>

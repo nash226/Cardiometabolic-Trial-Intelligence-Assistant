@@ -1,0 +1,823 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2025-12-12",
+        "submissionInfos": [
+          {
+            "mcpReleaseN": 14,
+            "releaseDate": "2025-12-12",
+            "resetDate": "2026-01-02"
+          }
+        ]
+      },
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: EFX"
+          ],
+          "label": "EFX 28 mg (Main Study)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: EFX"
+          ],
+          "label": "EFX 50 mg (Main Study)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo (Main Study)",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: EFX"
+          ],
+          "label": "EFX 50 mg (Cohort D)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo (Cohort D)",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "EFX 28 mg (Main Study)",
+            "EFX 50 mg (Cohort D)",
+            "EFX 50 mg (Main Study)"
+          ],
+          "description": "Investigational drug, Efruxifermin",
+          "name": "EFX",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo (Cohort D)",
+            "Placebo (Main Study)"
+          ],
+          "description": "Placebo",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NASH - Nonalcoholic Steatohepatitis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Chandler",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          },
+          "state": "Arizona",
+          "zip": "85224"
+        },
+        {
+          "city": "Glendale",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 33.53865,
+            "lon": -112.18599
+          },
+          "state": "Arizona",
+          "zip": "85306"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "zip": "85711"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "zip": "85712"
+        },
+        {
+          "city": "North Little Rock",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 34.76954,
+            "lon": -92.26709
+          },
+          "state": "Arkansas",
+          "zip": "72117"
+        },
+        {
+          "city": "Fresno",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 36.74773,
+            "lon": -119.77237
+          },
+          "state": "California",
+          "zip": "93720"
+        },
+        {
+          "city": "Long Beach",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 33.76696,
+            "lon": -118.18923
+          },
+          "state": "California",
+          "zip": "90808"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90036"
+        },
+        {
+          "city": "Pasadena",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 34.14778,
+            "lon": -118.14452
+          },
+          "state": "California",
+          "zip": "91105"
+        },
+        {
+          "city": "Englewood",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 39.64777,
+            "lon": -104.98776
+          },
+          "state": "Colorado",
+          "zip": "80113"
+        },
+        {
+          "city": "Clearwater",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          },
+          "state": "Florida",
+          "zip": "33761"
+        },
+        {
+          "city": "Fort Myers",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          },
+          "state": "Florida",
+          "zip": "33907"
+        },
+        {
+          "city": "Fort Myers",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          },
+          "state": "Florida",
+          "zip": "33912"
+        },
+        {
+          "city": "Hialeah Gardens",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 25.8651,
+            "lon": -80.3245
+          },
+          "state": "Florida",
+          "zip": "33016"
+        },
+        {
+          "city": "Lakewood Rch",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 27.3863,
+            "lon": -82.4332
+          },
+          "state": "Florida",
+          "zip": "34211"
+        },
+        {
+          "city": "Miami Lakes",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          },
+          "state": "Florida",
+          "zip": "33016"
+        },
+        {
+          "city": "Ocala",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          },
+          "state": "Florida",
+          "zip": "34471"
+        },
+        {
+          "city": "Sarasota",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 27.33643,
+            "lon": -82.53065
+          },
+          "state": "Florida",
+          "zip": "34240"
+        },
+        {
+          "city": "South Bend",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 41.68338,
+            "lon": -86.25001
+          },
+          "state": "Indiana",
+          "zip": "46635"
+        },
+        {
+          "city": "Topeka",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 39.04833,
+            "lon": -95.67804
+          },
+          "state": "Kansas",
+          "zip": "66606"
+        },
+        {
+          "city": "Bastrop",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 32.77828,
+            "lon": -91.91144
+          },
+          "state": "Louisiana",
+          "zip": "71220"
+        },
+        {
+          "city": "Marrero",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 29.89937,
+            "lon": -90.10035
+          },
+          "state": "Louisiana",
+          "zip": "70072"
+        },
+        {
+          "city": "Las Vegas",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          },
+          "state": "Nevada",
+          "zip": "89109"
+        },
+        {
+          "city": "Concord",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 35.40888,
+            "lon": -80.58158
+          },
+          "state": "North Carolina",
+          "zip": "28027"
+        },
+        {
+          "city": "Fayetteville",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 35.05266,
+            "lon": -78.87836
+          },
+          "state": "North Carolina",
+          "zip": "28304"
+        },
+        {
+          "city": "Morehead City",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 34.72294,
+            "lon": -76.72604
+          },
+          "state": "North Carolina",
+          "zip": "28557"
+        },
+        {
+          "city": "Springboro",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 39.55228,
+            "lon": -84.23327
+          },
+          "state": "Ohio",
+          "zip": "45066"
+        },
+        {
+          "city": "Westlake",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 41.45532,
+            "lon": -81.91792
+          },
+          "state": "Ohio",
+          "zip": "44145"
+        },
+        {
+          "city": "Greenville",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          },
+          "state": "South Carolina",
+          "zip": "29605"
+        },
+        {
+          "city": "Greenwood",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 34.1954,
+            "lon": -82.16179
+          },
+          "state": "South Carolina",
+          "zip": "29646"
+        },
+        {
+          "city": "Summerville",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 33.0185,
+            "lon": -80.17565
+          },
+          "state": "South Carolina",
+          "zip": "29485"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "zip": "37211"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          },
+          "state": "Texas",
+          "zip": "78746"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75246"
+        },
+        {
+          "city": "Edinburg",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          },
+          "state": "Texas",
+          "zip": "78504"
+        },
+        {
+          "city": "Edinburg",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          },
+          "state": "Texas",
+          "zip": "78539"
+        },
+        {
+          "city": "Fort Worth",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          },
+          "state": "Texas",
+          "zip": "75044"
+        },
+        {
+          "city": "Fort Worth",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          },
+          "state": "Texas",
+          "zip": "76104"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "zip": "77030"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "zip": "77079"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "zip": "78215"
+        },
+        {
+          "city": "Waco",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 31.54933,
+            "lon": -97.14667
+          },
+          "state": "Texas",
+          "zip": "76710"
+        },
+        {
+          "city": "Webster",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 29.53773,
+            "lon": -95.11826
+          },
+          "state": "Texas",
+          "zip": "77598"
+        },
+        {
+          "city": "Wichita Falls",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 33.91371,
+            "lon": -98.49339
+          },
+          "state": "Texas",
+          "zip": "76301"
+        },
+        {
+          "city": "Ogden",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 41.223,
+            "lon": -111.97383
+          },
+          "state": "Utah",
+          "zip": "84405"
+        },
+        {
+          "city": "Richmond",
+          "country": "United States",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "zip": "23298"
+        },
+        {
+          "city": "Mexico City",
+          "country": "Mexico",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "city": "Monterrey",
+          "country": "Mexico",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          }
+        },
+        {
+          "city": "San Juan",
+          "country": "Puerto Rico",
+          "facility": "Akero Clinical Study Site",
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          },
+          "zip": "00927"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multi-center evaluation of efruxifermin (EFX) in a randomized, double-blind, placebo-controlled study in cirrhotic subjects with biopsy-proven F4 compensated NASH."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 182,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Males and non-pregnant, non-lactating females between 18-75 years of age inclusive, based on the date of signing informed consent.\n* Main Study Only: Previous history or presence of Type 2 diabetes or 2 out of 4 components of metabolic syndrome (obesity, dyslipidemia, elevated blood pressure, elevated fasting glucose).\n* Main Study Only: Biopsy-proven compensated cirrhosis due to NASH.\n* Cohort D Only: Diagnosis of type 2 diabetes\n* Cohort D Only: Use of GLP-1R agonist for at least 90 days\n* Cohort D Only: Biopsy-proven liver fibrosis stages 1, 2, or 3\n\nExclusion Criteria:\n\n* Main Study Only: Weight loss \\> 10% in the 90 days prior to screening until randomization or from the time of collection of the liver biopsy used to assess subject eligibility until randomization, whichever is longer.\n* Type 1 diabetes or uncontrolled Type 2 diabetes\n* Cohort D Only: Weight loss \\> 5% in the 90 days prior to screening\n* Cohort D Only: Presence of cirrhosis on liver biopsy\n\nOther inclusion and exclusion criteria may apply",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of Efruxifermin in Subjects With Compensated Cirrhosis Due to Nonalcoholic Steatohepatitis (NASH) (Symmetry)",
+      "nctId": "NCT05039450",
+      "officialTitle": "A Phase 2b, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Efruxifermin in Subjects With Compensated Cirrhosis Due to Nonalcoholic Steatohepatitis (NASH)",
+      "orgStudyIdInfo": {
+        "id": "AK-US-001-0103"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Akero Therapeutics, Inc"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Proportion of subjects who achieve \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) and no worsening of steatohepatitis at Week 36.",
+          "measure": "Main: Change from baseline in fibrosis with no worsening steatohepatitis assessed by NASH CRN system",
+          "timeFrame": "Week 36"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Proportion of subjects who achieve NASH resolution (defined as a NAS of 0-1 for inflammation and 0 for ballooning) as determined by the NASH CRN criteria at Week 36 and Week 96",
+          "measure": "Main: Resolution of NASH assessed by the NASH CRN system",
+          "timeFrame": "Week 36, Week 96"
+        },
+        {
+          "description": "Proportion of subjects who achieve NASH resolution (defined as a NAS of 0-1 for inflammation and 0 for ballooning) and \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) at Week 36 and Week 96",
+          "measure": "Main: Fibrosis improvement with no worsening of NASH assessed by the NASH CRN system",
+          "timeFrame": "Week 36, Week 96"
+        },
+        {
+          "description": "Proportion of subjects who achieve \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) and no worsening of steatohepatitis at Week 96",
+          "measure": "Main: Change from baseline in fibrosis in subjects with no worsening of steatohepatitis assessed by the NASH CRN system",
+          "timeFrame": "Week 96"
+        },
+        {
+          "description": "Proportion of subjects who achieve \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) at Week 36 and Week 96",
+          "measure": "Main: Change from baseline in fibrosis in subjects with no worsening of steatohepatitis assessed by the NASH CRN system",
+          "timeFrame": "Week 36, Week 96"
+        },
+        {
+          "description": "Change from baseline in ELF score, Pro-C3 (ug/L),and liver stiffness assessed by liver elastography (kPa, CAP)",
+          "measure": "Main: Change from baseline in non-invasive markers of fibrosis",
+          "timeFrame": "Week 36, Week 48, Week 72, Week 96"
+        },
+        {
+          "description": "Change from baseline in Triglycerides (mg/dL), total cholesterol (mg/dL), HDL-C (mg/dL), non-HDL-C (mg/dL), and LDL-C (mg/dL)",
+          "measure": "Main: Change from baseline in lipoproteins",
+          "timeFrame": "Week 36, Week 48, Week 72, Week 96"
+        },
+        {
+          "description": "Change from baseline in HbA1c (%), C-peptide (ug/L), adiponectin (mg/L), insulin (mIU/L), and HOMA-IR",
+          "measure": "Main: Change from baseline of markers in insulin sensitivity and glycemic control",
+          "timeFrame": "Week 36, Week 48, Week 72, Week 96"
+        },
+        {
+          "description": "Change from baseline in body weight (kg)",
+          "measure": "Main: Change from baseline in body weight",
+          "timeFrame": "Week 36, Week 48, Week 96"
+        },
+        {
+          "description": "Detect and measure ADA, including NAb, against EFX",
+          "measure": "Main: To assess the immunogenicity of EFX",
+          "timeFrame": "Through Week 96"
+        },
+        {
+          "description": "Safety and tolerability will be assessed through the reporting of AEs, clinical laboratory tests, ECGs, ultrasounds, vital sign assessments, and concomitant medication usage",
+          "measure": "Main: To assess the safety and tolerability of EFX",
+          "timeFrame": "Through Week 96"
+        },
+        {
+          "description": "Safety and tolerability will be assessed through the reporting of AEs, clinical laboratory assessments, ECGs, ultrasounds, vital sign assessments, and concomitant medication usage",
+          "measure": "Cohort D: To assess the safety and tolerability of EFX compared to placebo when added to an existing GLP-1R agonist in subjects with type 2 diabetes and liver fibrosis due to NASH",
+          "timeFrame": "Through Week 12"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Noureddin M, Rinella ME, Chalasani NP, Neff GW, Lucas KJ, Rodriguez ME, Rudraraju M, Patil R, Behling C, Burch M, Chan DC, Tillman EJ, Zari A, de Temple B, Shringarpure R, Jain M, Rolph T, Cheng A, Yale K. Efruxifermin in Compensated Liver Cirrhosis Caused by MASH. N Engl J Med. 2025 Jun 26;392(24):2413-2424. doi: 10.1056/NEJMoa2502242. Epub 2025 May 9.",
+          "pmid": "40341827",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Harrison SA, Frias JP, Lucas KJ, Reiss G, Neff G, Bollepalli S, Su Y, Chan D, Tillman EJ, Moulton A, de Temple B, Zari A, Shringarpure R, Rolph T, Cheng A, Yale K. Safety and Efficacy of Efruxifermin in Combination With a GLP-1 Receptor Agonist in Patients With NASH/MASH and Type 2 Diabetes in a Randomized Phase 2 Study. Clin Gastroenterol Hepatol. 2025 Jan;23(1):103-113. doi: 10.1016/j.cgh.2024.02.022. Epub 2024 Mar 4.",
+          "pmid": "38447814",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Akero Therapeutics, Inc"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-05",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-07",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2023-08-25",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2021-07-30",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-04",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-07-29",
+      "studyFirstSubmitQcDate": "2021-09-02"
+    }
+  }
+}

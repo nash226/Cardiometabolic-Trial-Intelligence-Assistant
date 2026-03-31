@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05945355:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05945355\nBrief title: Mechanistic Study of Inspiratory Training in Childhood Asthma (MICA)\nOfficial title: Mechanistic Study of Inspiratory Training in Childhood Asthma (MICA)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT05945355"
+    },
+    {
+      "chunk_id": "NCT05945355:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Asthma in Children; Obesity; Pediatric Obesity; Pediatric Asthma\nIntervention labels: Pro2 - Low Dose - 40% of participant's MIP; Pro2 - High Dose - 75% of participant's MIP; Pro2 - SHAM - 15% of participant's MIP\nDrug class labels: \nArms: Active Low Dose inspiratory muscle rehabilitation (IMR) group; Active High Dose inspiratory muscle rehabilitation (IMR) group; SHAM\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 63,
+      "trial_nct_id": "NCT05945355"
+    },
+    {
+      "chunk_id": "NCT05945355:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is single-center cross-sectional mechanistic study in lean and obese children with moderate-severe asthma, followed by a randomized, SHAM-controlled trial of Inspiratory Training (IT). The primary outcome is to describe the contributions of inspiratory muscle dysfunction (IMD) and Small Airway Dysfunction (SAD) to obesity-related versus non-obesity-related asthma. The study will involve training (IT) for 8 weeks at three intensity levels (SHAM, low and high). Target dose: 150 inspirations three times weekly. The population includes 6 to 17-year-old children with moderate to severe asthma and with a body mass index qualifying as normal habitus (BMI 5th to 84th CDC percentile) or obese habitus (\u226595th percentile BMI and less than 170% of the 95th CDC percentile). Participants will be involved for 10 weeks. The investigators will use analysis of covariance (ANCOVA) to estimate and test the difference in mean values of baseline measures between obese and non-obese cohorts. Covariates will include age, sex (male/female), race/ethnicity, baseline asthma severity (NAEPP step 2 vs \u22653), and atopy status\nDetailed description: Cross-sectional analytic study of pulmonary mechanics comparing lean and obese children with asthma followed by a randomized, SHAM-controlled 3-arm intervention trial of inspiratory training on small airway dysfunction and inspiratory muscle function.\n\nThe central objective of the MICA (Mechanistic Study of Inspiratory Training in Childhood Asthma) study is to assess key respiratory mechanisms in 6-17 year olds with symptomatic asthma (with and without obesity) in response to IT. Our central hypothesis is that obesity promotes dyspnea and worse asthma control via inspiratory muscle fatigue/dysfunction (IMD) and small airway dysfunction (SAD), and that IT will improve inspiratory muscle function and small airway measures.\n\nThe sample size calculations and main analyses for the IT trial are designed as a traditional parallel arm intervention trial (any dose IT vs. SHAM control) with visits 1-2 serving as the baseline evaluation and the main IT endpoints being collected at the 8-week visit.\n\nIn depth phenotyping involving measures of respiratory mechanics and muscle functioning and a RCT involving inspiratory training will address these objectives.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 336,
+      "trial_nct_id": "NCT05945355"
+    },
+    {
+      "chunk_id": "NCT05945355:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 6 Years\nMaximum age: 17 Years\nAge groups: CHILD\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* 6-17 years of age\n* Documented clinician-diagnosed asthma\n* Currently requiring 2 or more controller prescriptions to treat disease (i.e. moderate to severe persistent disease)\n* Either obese (\u226595th percentile BMI and less than 170% of the 95th CDC percentile) or have a normal BMI (BMI 5th to 84th CDC percentile)\n\nExclusion Criteria:\n\n* ACT (asthma control test) score \\<17\n* Ever intubated for asthma\n* FEV1 \\< 50% of predicted at enrollment\n* Currently pregnant\n* Legal guardian unable to consent in English or Spanish\n* Any major chronic illness that, in the opinion of the PI, would interfere with participation\n* Younger than 6 years of age",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 129,
+      "trial_nct_id": "NCT05945355"
+    },
+    {
+      "chunk_id": "NCT05945355:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of participants with inspiratory muscle dysfunction in obesity-related versus non-obesity-related asthma | time_frame=10 weeks\ntype=primary | measure=Number of participants with small airway dysfunction in obesity-related versus non-obesity-related asthma | time_frame=10 weeks\ntype=secondary | measure=Inspiratory muscle endurance (sustained maximal inspiratory pressure) | time_frame=10 weeks\ntype=other | measure=Small airway dysfunction as measured by impulse oscillometry | time_frame=10 weeks\ntype=other | measure=Small airway dysfunction as measured by residual volume | time_frame=10 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 72,
+      "trial_nct_id": "NCT05945355"
+    },
+    {
+      "chunk_id": "NCT05945355:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-08-01\nPrimary completion date: 2027-10-30\nCompletion date: 2027-10-30\nStudy first posted: 2023-07-14\nResults first posted: None\nLast update posted: 2025-08-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05945355"
+    },
+    {
+      "chunk_id": "NCT05945355:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Duke University\nLead sponsor class: OTHER\nCollaborators: National Institutes of Health (NIH)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT05945355"
+    }
+  ],
+  "trial_nct_id": "NCT05945355"
+}

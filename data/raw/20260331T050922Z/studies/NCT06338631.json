@@ -1,0 +1,260 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004032",
+          "term": "Diet"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Other: Diet"
+          ],
+          "label": "Adults with weight excess"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Adults with weight excess"
+          ],
+          "description": "Pesonalized diet plan, devoloped according to Guidelines for dietary treatment of obesity, to be followed for a duration of 12 months",
+          "name": "Diet",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity"
+      ],
+      "keywords": [
+        "Metabolic phenotype",
+        "Renal function"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "a.battezzati@auxologico.it",
+          "name": "Alberto Battezzati, Prof",
+          "phone": "+390261911",
+          "role": "CONTACT"
+        },
+        {
+          "email": "luca.grappiolo@auxologico.it",
+          "name": "Luca Grappiolo",
+          "phone": "+390261911",
+          "phoneExt": "2894",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Milan",
+          "contacts": [
+            {
+              "email": "a.battezzati@auxologico.it",
+              "name": "Alberto Battezzati, Prof",
+              "phone": "+390261911",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Istituto Auxologico Italiano, Citt\u00e0 Studi ICANS",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          },
+          "status": "RECRUITING",
+          "zip": "20100"
+        },
+        {
+          "city": "Naples",
+          "contacts": [
+            {
+              "name": "Bruna Guida, Prof.",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Programma Infradipartimentale di Dietoterapia nel Trapianto e nell' Insufficienza Renale Cronica, DAI di Medicina Interna ad Indirizzo Specialistico, del Policlinico Federico II di Napoli",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          },
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Overweight and obesity are increasingly prevalent worldwide. Weight excess increases the risk of in developing the metabolic syndrome, which is composed by a set of cardiometabolic risk factors such as abdominal adiposity, dyslipidemia, high blood pressure and elevated fasting glucose levels. Obesity and the metabolic syndrome are known to be risk factors for the development of chronic kidney disease. It is not clear however, whether they can be considered independent risk factors for impaired renal function and renal damage. Whereas obesity may represent an independent risk factor for renal damage, it is not clear yet if the contemporaneous presence of obesity and metabolic alterations is associated with an additional increase in the risk.\n\nIt may be important to understand the relationship between obesity, metabolic syndrome and renal health, as treatment strategies may be different for the two metabolic phenotypes of obesity, i.e., metabolically healthy obese (MHO) and metabolically unhealthy obese (MUO) patients.\n\nThe primary objective of this multicentre observational prospective study is to assess the relationship between metabolic phenotype and reduced renal function (glomerular filtration rate \\<90 ml/min/1.73m2 or microalbuminuria 30-300 mg/24h) in a population of 1000 patients with overweight or obesity.\n\nThe secondary aim is to study the association between diet quality, consumption of ultra-processed foods and indicators of reduced renal function and renal damage."
+    },
+    "designModule": {
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      },
+      "patientRegistry": false,
+      "studyType": "OBSERVATIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age between 18 and 60 years\n* BMI at least 25 kg/m2\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding\n* Diabetes mellitus\n* Renal disease\n* Systemic autoimmune diseases with possible renal involvement\n* Agonistic physical activity\n* Heart failure\n* Pharmacologcal treatment with RAAS-inhibitors, sartans, thiazide diuretics, loop diuretics\n* Urinary tract infection",
+      "maximumAge": "60 Years",
+      "minimumAge": "18 Years",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": "1000 patients with weight excess or overweight (BMI \\> 25 kg/m2)"
+    },
+    "identificationModule": {
+      "acronym": "OB-KID",
+      "briefTitle": "Early Detection of Renal Abnormalities in Metabolically Healthy and Unhealthy Weight Excess\"",
+      "nctId": "NCT06338631",
+      "officialTitle": "Early Detection of Renal Abnormalities in Metabolically Healthy and Unhealthy Weight Excess\"",
+      "orgStudyIdInfo": {
+        "id": "43C301"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Istituto Auxologico Italiano"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Change in glomerular filtration after dietary intervention of 12 months",
+          "measure": "Glomerular filtration rate",
+          "timeFrame": "At baseline and after 12 months of dietary intervention programme"
+        },
+        {
+          "description": "Change in microalbuminuria after dietary intervention of 12 months",
+          "measure": "Microalbuminuria",
+          "timeFrame": "At baseline and after 12 months of dietary intervention programme"
+        },
+        {
+          "description": "Change in glycemia after dietary intervention of 12 months",
+          "measure": "Glycemia",
+          "timeFrame": "At baseline and after 12 months of dietary intervention programme"
+        },
+        {
+          "description": "Change in body mass index after dietary intervention of 12 months",
+          "measure": "Body mass index",
+          "timeFrame": "At baseline and after 12 months of dietary intervention programme"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Istituto Auxologico Italiano"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-01",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-08-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-24",
+      "studyFirstSubmitQcDate": "2024-03-24"
+    }
+  }
+}

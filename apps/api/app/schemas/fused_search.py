@@ -20,6 +20,7 @@ class FusedSearchRequest(BaseModel):
 class FusedSearchResult(BaseModel):
     chunk_id: str
     trial_nct_id: str
+    trial_title: str | None = None
     chunk_type: str
     title: str | None = None
     snippet: str

@@ -3,125 +3,112 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trial Intelligence Finder</title>
+  <title>Trial Intelligence Assistant</title>
   <style>
     :root {
-      --bg: #f4efe5;
-      --paper: #fffaf0;
-      --ink: #182126;
-      --muted: #59646a;
-      --line: #d7c9ae;
-      --accent: #0f766e;
-      --accent-soft: #daf2ee;
+      --bg: #f3ecdf;
+      --paper: #fff8ee;
       --card: #fffdf7;
+      --ink: #1c2428;
+      --muted: #607076;
+      --line: #d7cab4;
+      --accent: #0f766e;
+      --accent-soft: #d9f0ec;
+      --accent-deep: #0a5953;
+      --warm: #f7ecd6;
+      --shadow: 0 12px 40px rgba(99, 73, 20, 0.08);
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
+      color: var(--ink);
       font-family: Georgia, "Times New Roman", serif;
       background:
-        radial-gradient(circle at top left, #fdf3d6 0, transparent 28%),
-        linear-gradient(180deg, #f1e8d8 0%, var(--bg) 45%, #efe7da 100%);
-      color: var(--ink);
+        radial-gradient(circle at top left, #fff4d8 0, transparent 26%),
+        radial-gradient(circle at top right, #e6f6f1 0, transparent 20%),
+        linear-gradient(180deg, #f6efe4 0%, var(--bg) 50%, #efe7d9 100%);
     }
     .shell {
-      max-width: 1180px;
+      max-width: 1260px;
       margin: 0 auto;
-      padding: 32px 20px 48px;
+      padding: 28px 20px 40px;
     }
     .hero {
       display: grid;
-      gap: 16px;
-      margin-bottom: 28px;
+      gap: 14px;
+      margin-bottom: 22px;
     }
     .eyebrow {
-      display: inline-block;
       width: fit-content;
       padding: 6px 10px;
-      border: 1px solid var(--line);
       border-radius: 999px;
-      background: rgba(255, 250, 240, 0.7);
+      border: 1px solid var(--line);
+      background: rgba(255, 250, 240, 0.75);
       color: var(--muted);
-      font-size: 12px;
-      letter-spacing: 0.08em;
+      font-size: 20px;
       text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
     h1 {
       margin: 0;
-      font-size: clamp(2.5rem, 5vw, 4.6rem);
-      line-height: 0.95;
-      max-width: 10ch;
-      letter-spacing: -0.04em;
+      max-width: 11ch;
+      font-size: clamp(2.8rem, 6vw, 5.2rem);
+      line-height: 0.92;
+      letter-spacing: -0.05em;
     }
     .lead {
-      max-width: 58ch;
       margin: 0;
+      max-width: 64ch;
       color: var(--muted);
-      font-size: 1.05rem;
-      line-height: 1.55;
+      font-size: 1.04rem;
+      line-height: 1.6;
     }
     .layout {
       display: grid;
-      grid-template-columns: 300px minmax(0, 1fr);
+      grid-template-columns: 1fr;
       gap: 18px;
     }
-    .panel, .results {
-      background: rgba(255, 250, 240, 0.9);
+    .panel,
+    .workspace,
+    .column-card {
+      background: rgba(255, 249, 239, 0.92);
       border: 1px solid var(--line);
-      border-radius: 22px;
-      box-shadow: 0 10px 40px rgba(85, 66, 27, 0.06);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
     }
-    .panel {
-      padding: 20px;
-      position: sticky;
-      top: 18px;
-      height: fit-content;
+    .panel h2,
+    .column-card h2 {
+      margin: 0;
+      font-size: 1.08rem;
     }
-    .results {
-      padding: 20px;
-      min-height: 420px;
-    }
-    .panel h2, .results h2 {
-      margin: 0 0 14px;
-      font-size: 1.15rem;
-    }
-    .field {
-      display: grid;
-      gap: 6px;
-      margin-bottom: 14px;
-    }
-    label {
-      font-size: 0.92rem;
+    .panel-note {
+      margin: 0;
       color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.55;
     }
-    input, select {
+    select,
+    input,
+    textarea {
       width: 100%;
       padding: 11px 12px;
-      border-radius: 12px;
+      border-radius: 14px;
       border: 1px solid var(--line);
       background: var(--paper);
       color: var(--ink);
       font: inherit;
     }
-    .check {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 12px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-    .check input {
-      width: auto;
-      accent-color: var(--accent);
+    textarea {
+      min-height: 118px;
+      resize: vertical;
+      line-height: 1.5;
     }
     button {
-      width: 100%;
       border: 0;
       border-radius: 14px;
       background: var(--accent);
       color: white;
-      padding: 12px 14px;
+      padding: 12px 16px;
       font: inherit;
       font-weight: 600;
       cursor: pointer;
@@ -130,53 +117,136 @@
       opacity: 0.6;
       cursor: wait;
     }
-    .summary {
+    .ghost {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--line);
+    }
+    .workspace {
+      padding: 18px;
+      display: grid;
+      gap: 18px;
+    }
+    .chat-head {
       display: flex;
       justify-content: space-between;
       gap: 16px;
       align-items: end;
-      margin-bottom: 16px;
-      border-bottom: 1px solid var(--line);
       padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
     }
-    .summary p {
-      margin: 0;
+    .chat-head p {
+      margin: 6px 0 0;
       color: var(--muted);
     }
-    .result-list {
+    .status {
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-deep);
+      font-size: 0.83rem;
+    }
+    .chat-composer {
+      display: grid;
+      gap: 12px;
+      padding: 16px;
+      border: 1px solid rgba(215, 202, 180, 0.95);
+      border-radius: 20px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.75), rgba(255,249,239,0.9));
+    }
+    .composer-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+    .quick-prompts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .quick-prompt {
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.9);
+      color: var(--ink);
+      cursor: pointer;
+    }
+    .chat-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+    .column-card {
+      padding: 18px;
       display: grid;
       gap: 14px;
+      min-height: 480px;
+      align-content: start;
     }
-    .card {
+    .context-stack {
+      display: grid;
+      gap: 18px;
+      padding-top: 6px;
+      border-top: 1px solid rgba(215, 202, 180, 0.85);
+    }
+    .column-sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .thread {
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+    .bubble {
       padding: 16px;
-      border-radius: 18px;
-      border: 1px solid rgba(215, 201, 174, 0.9);
-      background: var(--card);
+      border-radius: 22px;
+      background: white;
+      border: 1px solid rgba(215, 202, 180, 0.95);
       display: grid;
       gap: 10px;
     }
-    .card-top {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      align-items: baseline;
+    .bubble.user {
+      background: var(--accent);
+      color: white;
+      margin-left: 48px;
     }
-    .nct {
-      font-size: 0.82rem;
-      color: var(--accent);
-      letter-spacing: 0.08em;
+    .bubble.assistant {
+      background: var(--card);
+      margin-right: 28px;
+    }
+    .bubble small {
+      color: inherit;
+      opacity: 0.72;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
     }
-    .score {
-      font-size: 0.84rem;
+    .bubble.assistant small {
       color: var(--muted);
+      opacity: 1;
     }
-    .title {
-      margin: 0;
-      font-size: 1.15rem;
-      line-height: 1.2;
+    .bubble-text {
+      white-space: pre-wrap;
+      line-height: 1.62;
     }
-    .meta {
+    .bubble-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .warning {
+      color: #8a4b12;
+      background: #fff1dd;
+      border: 1px solid #efcf9a;
+      border-radius: 14px;
+      padding: 10px 12px;
+      line-height: 1.45;
+    }
+    .tag-row {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
@@ -185,38 +255,76 @@
       padding: 6px 10px;
       border-radius: 999px;
       background: var(--accent-soft);
-      color: #11554f;
+      color: var(--accent-deep);
       font-size: 0.82rem;
     }
-    .snippet {
+    .card-list {
+      display: grid;
+      gap: 12px;
+    }
+    .context-section {
+      display: grid;
+      gap: 10px;
+    }
+    .trial-card,
+    .citation-card {
+      padding: 14px;
+      border-radius: 18px;
+      border: 1px solid rgba(215, 202, 180, 0.95);
+      background: white;
+      display: grid;
+      gap: 8px;
+    }
+    .card-top {
+      display: flex;
+      gap: 12px;
+      align-items: baseline;
+    }
+    .nct {
+      font-size: 0.82rem;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .title {
+      margin: 0;
+      font-size: 1.06rem;
+      line-height: 1.22;
+    }
+    .snippet,
+    .meta-text {
       margin: 0;
       color: var(--muted);
-      line-height: 1.45;
+      line-height: 1.5;
     }
-    .card a {
+    .trial-card a,
+    .citation-card a {
       width: fit-content;
       text-decoration: none;
       color: var(--accent);
       font-weight: 600;
     }
-    .empty {
-      padding: 28px;
-      border: 1px dashed var(--line);
-      border-radius: 18px;
-      color: var(--muted);
-      text-align: center;
-      background: rgba(255,255,255,0.45);
+    .trial-card a:hover,
+    .citation-card a:hover {
+      text-decoration: underline;
     }
-    @media (max-width: 900px) {
-      .layout {
+    .empty {
+      padding: 22px;
+      border-radius: 18px;
+      border: 1px dashed var(--line);
+      color: var(--muted);
+      background: rgba(255,255,255,0.45);
+      text-align: center;
+      line-height: 1.55;
+    }
+    @media (max-width: 1080px) {
+      .chat-grid {
         grid-template-columns: 1fr;
       }
-      .panel {
-        position: static;
-      }
-      .summary {
-        align-items: start;
-        flex-direction: column;
+    }
+    @media (max-width: 920px) {
+      h1 {
+        max-width: none;
       }
     }
   </style>
@@ -224,89 +332,178 @@
 <body>
   <div class="shell">
     <section class="hero">
-      <span class="eyebrow">Cardiometabolic trial intelligence</span>
-      <h1>Search the 2026 trial corpus.</h1>
+      <span class="eyebrow">Cardiometabolic trial intelligence assistant</span>
       <p class="lead">
-        This is the minimal MVP frontend: a safe no-Node finder over the stored trial corpus.
-        It uses the FastAPI backend directly for structured and source-grounded search.
       </p>
     </section>
 
     <section class="layout">
-      <form class="panel" id="search-form">
-        <h2>Finder</h2>
-        <div class="field">
-          <label for="query">Query</label>
-          <input id="query" name="query" placeholder="primary completion, GLP-1, obesity..." required value="primary completion">
-        </div>
-        <div class="field">
-          <label for="condition">Condition</label>
-          <select id="condition" name="condition">
-            <option value="">All in corpus</option>
-            <option value="obesity" selected>Obesity</option>
-            <option value="type_2_diabetes">Type 2 Diabetes</option>
-            <option value="mash">MASH</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="phase">Phase</label>
-          <select id="phase" name="phase">
-            <option value="">Any in scope</option>
-            <option value="PHASE2">Phase 2</option>
-            <option value="PHASE3" selected>Phase 3</option>
-            <option value="PHASE4">Phase 4</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="study_type">Study Type</label>
-          <select id="study_type" name="study_type">
-            <option value="">Any</option>
-            <option value="INTERVENTIONAL" selected>Interventional</option>
-          </select>
-        </div>
-        <label class="check"><input type="checkbox" id="accepted_only" checked> Accepted corpus only</label>
-        <label class="check"><input type="checkbox" id="year_2026_only" checked> 2026 relevant only</label>
-        <button type="submit" id="search-button">Run search</button>
-      </form>
-
-      <div class="results">
-        <div class="summary">
+      <main class="workspace">
+        <section class="chat-head">
           <div>
-            <h2>Results</h2>
-            <p id="result-meta">Run a search to inspect the stored trial corpus.</p>
+            <h2 style="margin:0;">Chat</h2>
           </div>
-        </div>
-        <div class="result-list" id="result-list">
-          <div class="empty">No search executed yet.</div>
-        </div>
-      </div>
+          <span class="status" id="workspace-status">Ready</span>
+        </section>
+
+        <section class="chat-composer">
+          <label for="chat-question">Question</label>
+          <textarea id="chat-question" placeholder="Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?">Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
+          <div class="quick-prompts" id="quick-prompts">
+            <button class="quick-prompt" type="button" data-prompt="Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?">GLP-1 obesity trials</button>
+            <button class="quick-prompt" type="button" data-prompt="Which accepted type 2 diabetes trials are active in 2026 and mention semaglutide?">Semaglutide in T2D</button>
+            <button class="quick-prompt" type="button" data-prompt="Which accepted trials in this corpus slice are recruiting and completing in 2026?">2026 recruiting trials</button>
+          </div>
+          <div class="composer-actions">
+            <button class="ghost" type="button" id="search-only-button">Refresh matched trials</button>
+            <button type="button" id="chat-submit">Ask the assistant</button>
+          </div>
+        </section>
+
+        <section class="chat-grid">
+          <section class="column-card">
+            <div>
+              <h2>Chat</h2>
+              <p class="column-sub">Grounded responses.</p>
+            </div>
+            <div class="thread" id="thread">
+              <div class="empty">No question submitted yet. Start with a natural-language query.</div>
+            </div>
+            <div class="context-stack">
+              <div class="context-section">
+                <h2 style="font-size:0.98rem; margin-bottom:10px;">Filters</h2>
+                <div class="tag-row" id="filter-tags">
+                  <div class="empty" style="padding:14px;">No query run yet.</div>
+                </div>
+              </div>
+
+              <div class="context-section">
+                <h2 style="font-size:0.98rem; margin-bottom:10px;">Trials</h2>
+                <div class="card-list" id="matched-trials">
+                  <div class="empty">No matched trials yet.</div>
+                </div>
+              </div>
+
+              <div class="context-section">
+                <h2 style="font-size:0.98rem; margin-bottom:10px;">Evidence</h2>
+                <div class="card-list" id="evidence-list">
+                  <div class="empty">No evidence snippets yet.</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
     </section>
   </div>
 
   <script>
-    const form = document.getElementById("search-form");
-    const button = document.getElementById("search-button");
-    const resultMeta = document.getElementById("result-meta");
-    const resultList = document.getElementById("result-list");
+    const questionInput = document.getElementById("chat-question");
+    const chatSubmit = document.getElementById("chat-submit");
+    const searchOnlyButton = document.getElementById("search-only-button");
+    const thread = document.getElementById("thread");
+    const filterTags = document.getElementById("filter-tags");
+    const matchedTrials = document.getElementById("matched-trials");
+    const evidenceList = document.getElementById("evidence-list");
+    const workspaceStatus = document.getElementById("workspace-status");
+    const quickPrompts = document.getElementById("quick-prompts");
+    const conversation = [];
 
-    function renderResults(payload) {
-      const results = payload.results || [];
-      resultMeta.textContent = `${results.length} result(s) from ${payload.eligible_trial_count} eligible trial(s).`;
+    function currentFilters() {
+      return {
+        condition: null,
+        phase: null,
+        study_type: null,
+        accepted_only: false,
+        year_2026_only: false
+      };
+    }
 
-      if (!results.length) {
-        resultList.innerHTML = '<div class="empty">No results matched the current query and filters.</div>';
+    function inferFilterTags(question, filters) {
+      const tags = [];
+      const normalized = question.toLowerCase();
+
+      if (filters.condition) tags.push(filters.condition);
+      if (filters.phase) tags.push(filters.phase);
+      if (filters.study_type) tags.push(filters.study_type);
+      if (filters.year_2026_only) tags.push("2026 relevant");
+      if (filters.accepted_only) tags.push("accepted corpus");
+
+      if (!filters.condition) {
+        if (normalized.includes("obesity")) tags.push("obesity");
+        if (normalized.includes("type 2 diabetes") || normalized.includes("t2d")) tags.push("type_2_diabetes");
+        if (normalized.includes("mash")) tags.push("mash");
+      }
+      if (!filters.phase) {
+        if (normalized.includes("phase 2")) tags.push("PHASE2");
+        if (normalized.includes("phase 3")) tags.push("PHASE3");
+        if (normalized.includes("phase 4")) tags.push("PHASE4");
+      }
+      if (normalized.includes("glp-1") || normalized.includes("glp1")) tags.push("GLP-1 intent");
+      if (normalized.includes("incretin")) tags.push("incretin intent");
+
+      return [...new Set(tags)];
+    }
+
+    function setFilterTags(question, filters) {
+      const tags = inferFilterTags(question, filters);
+      if (!tags.length) {
+        filterTags.innerHTML = '<div class="empty" style="padding:14px;">No inferred filters.</div>';
+        return;
+      }
+      filterTags.innerHTML = tags.map((tag) => `<span class="pill">${tag}</span>`).join("");
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+
+    function renderThread() {
+      if (!conversation.length) {
+        thread.innerHTML = '<div class="empty">No question submitted yet. Start with a natural-language query.</div>';
         return;
       }
 
-      resultList.innerHTML = results.map((result) => `
-        <article class="card">
+      thread.innerHTML = conversation.map((turn) => {
+        const warnings = (turn.warnings || [])
+          .map((warning) => `<div class="warning">${escapeHtml(warning)}</div>`)
+          .join("");
+        const filterPills = (turn.tags || [])
+          .map((tag) => `<span class="pill">${escapeHtml(tag)}</span>`)
+          .join("");
+
+        return `
+          <article class="bubble user">
+            <small>User</small>
+            <div class="bubble-text">${escapeHtml(turn.question)}</div>
+          </article>
+          <article class="bubble assistant">
+            <small>Assistant</small>
+            <div class="bubble-text">${escapeHtml(turn.answer)}</div>
+            ${filterPills ? `<div class="bubble-meta">${filterPills}</div>` : ""}
+            ${warnings}
+          </article>
+        `;
+      }).join("");
+    }
+
+    function renderMatchedTrials(searchPayload) {
+      const results = searchPayload.results || [];
+      if (!results.length) {
+        matchedTrials.innerHTML = '<div class="empty">No matched trials for the current question and filters.</div>';
+        return;
+      }
+
+      matchedTrials.innerHTML = results.map((result) => `
+        <article class="trial-card">
           <div class="card-top">
             <span class="nct">${result.trial_nct_id}</span>
-            <span class="score">score ${Number(result.score).toFixed(3)}</span>
-          </div>
-          <h3 class="title">${result.title || result.chunk_type}</h3>
-          <div class="meta">
-            <span class="pill">${result.chunk_type}</span>
+            <h3 class="title">${result.trial_title || result.title || result.chunk_type}</h3>
           </div>
           <p class="snippet">${result.snippet}</p>
           <a href="/trials/${result.trial_nct_id}">Open trial detail</a>
@@ -314,47 +511,171 @@
       `).join("");
     }
 
-    async function runSearch(event) {
-      event.preventDefault();
-      button.disabled = true;
-      button.textContent = "Searching...";
-      resultMeta.textContent = "Searching the stored corpus...";
+    function renderEvidence(answerPayload) {
+      const citations = answerPayload.citations || [];
+      if (!citations.length) {
+        evidenceList.innerHTML = '<div class="empty">No evidence snippets returned.</div>';
+        return;
+      }
 
-      const payload = {
-        query: form.query.value,
-        condition: form.condition.value || null,
-        phase: form.phase.value || null,
-        study_type: form.study_type.value || null,
-        accepted_only: document.getElementById("accepted_only").checked,
-        year_2026_only: document.getElementById("year_2026_only").checked,
-        limit: 10
+      evidenceList.innerHTML = citations.map((citation) => `
+        <article class="citation-card">
+          <div class="card-top">
+            <span class="nct">${citation.trial_nct_id}</span>
+            <span class="score">${citation.chunk_id}</span>
+          </div>
+          <h3 class="title">
+            <a href="/trials/${citation.trial_nct_id}">
+              ${citation.title || citation.chunk_type}
+            </a>
+          </h3>
+          <p class="meta-text">${citation.snippet}</p>
+        </article>
+      `).join("");
+    }
+
+    async function askAssistant() {
+      const question = questionInput.value.trim();
+      if (!question) return;
+
+      const filters = currentFilters();
+      const tags = inferFilterTags(question, filters);
+      workspaceStatus.textContent = "Thinking";
+      chatSubmit.disabled = true;
+      searchOnlyButton.disabled = true;
+      renderThread();
+      matchedTrials.innerHTML = '<div class="empty">Refreshing matched trials...</div>';
+      evidenceList.innerHTML = '<div class="empty">Collecting evidence snippets...</div>';
+      setFilterTags(question, filters);
+
+      const askPayload = {
+        question,
+        ...filters,
+        provider: "openai",
+        embedding_model: "text-embedding-3-small",
+        answer_model: "gpt-4o-mini",
+        lexical_weight: 0.4,
+        semantic_weight: 0.6,
+        retrieval_limit: 5
+      };
+      const fusedPayload = {
+        query: question,
+        ...filters,
+        provider: "openai",
+        model: "text-embedding-3-small",
+        lexical_weight: 0.4,
+        semantic_weight: 0.6,
+        limit: 6
       };
 
       try {
-        const response = await fetch("/api/v1/search", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload)
-        });
+        const [askResponse, fusedResponse] = await Promise.all([
+          fetch("/api/v1/ask", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(askPayload)
+          }),
+          fetch("/api/v1/search/fused", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(fusedPayload)
+          })
+        ]);
 
-        if (!response.ok) {
-          const errorText = await response.text();
-          throw new Error(errorText || "Search failed");
+        if (!askResponse.ok) {
+          const errorText = await askResponse.text();
+          throw new Error(errorText || "Ask request failed");
+        }
+        if (!fusedResponse.ok) {
+          const errorText = await fusedResponse.text();
+          throw new Error(errorText || "Fused retrieval request failed");
         }
 
-        const data = await response.json();
-        renderResults(data);
+        const askData = await askResponse.json();
+        const fusedData = await fusedResponse.json();
+        conversation.push({
+          question,
+          answer: askData.answer,
+          warnings: askData.warnings || [],
+          method: askData.method,
+          tags
+        });
+        renderThread();
+        renderMatchedTrials(fusedData);
+        renderEvidence(askData);
+        workspaceStatus.textContent = "Answer ready";
       } catch (error) {
-        resultMeta.textContent = "Search failed.";
-        resultList.innerHTML = `<div class="empty">${error.message}</div>`;
+        thread.innerHTML = `
+          <article class="bubble assistant">
+            <small>Assistant · failed</small>
+            <div class="warning">${error.message}</div>
+          </article>
+        `;
+        matchedTrials.innerHTML = '<div class="empty">No matched trials available.</div>';
+        evidenceList.innerHTML = '<div class="empty">No evidence snippets available.</div>';
+        workspaceStatus.textContent = "Error";
       } finally {
-        button.disabled = false;
-        button.textContent = "Run search";
+        chatSubmit.disabled = false;
+        searchOnlyButton.disabled = false;
       }
     }
 
-    form.addEventListener("submit", runSearch);
-    form.dispatchEvent(new Event("submit", { cancelable: true }));
+    async function refreshMatchedTrialsOnly() {
+      const question = questionInput.value.trim();
+      if (!question) return;
+
+      const filters = currentFilters();
+      workspaceStatus.textContent = "Refreshing matches";
+      searchOnlyButton.disabled = true;
+      matchedTrials.innerHTML = '<div class="empty">Refreshing matched trials...</div>';
+      setFilterTags(question, filters);
+
+      const fusedPayload = {
+        query: question,
+        ...filters,
+        provider: "openai",
+        model: "text-embedding-3-small",
+        lexical_weight: 0.4,
+        semantic_weight: 0.6,
+        limit: 6
+      };
+
+      try {
+        const response = await fetch("/api/v1/search/fused", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(fusedPayload)
+        });
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(errorText || "Fused retrieval request failed");
+        }
+        const data = await response.json();
+        renderMatchedTrials(data);
+        workspaceStatus.textContent = "Matches refreshed";
+      } catch (error) {
+        matchedTrials.innerHTML = `<div class="warning">${error.message}</div>`;
+        workspaceStatus.textContent = "Error";
+      } finally {
+        searchOnlyButton.disabled = false;
+      }
+    }
+
+    chatSubmit.addEventListener("click", askAssistant);
+    searchOnlyButton.addEventListener("click", refreshMatchedTrialsOnly);
+    questionInput.addEventListener("keydown", (event) => {
+      if ((event.metaKey || event.ctrlKey) && event.key === "Enter") {
+        askAssistant();
+      }
+    });
+    quickPrompts.addEventListener("click", (event) => {
+      const promptButton = event.target.closest("[data-prompt]");
+      if (!promptButton) return;
+      questionInput.value = promptButton.dataset.prompt;
+      questionInput.focus();
+      setFilterTags(questionInput.value, currentFilters());
+    });
+    setFilterTags(questionInput.value, currentFilters());
   </script>
 </body>
 </html>

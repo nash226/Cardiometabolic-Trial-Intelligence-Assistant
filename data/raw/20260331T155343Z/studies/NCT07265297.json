@@ -1,0 +1,224 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Hydrochloroquine"
+          ],
+          "label": "HCQ 400mg",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Hydrochloroquine"
+          ],
+          "label": "HCQ 200mg",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "HCQ 200mg",
+            "HCQ 400mg"
+          ],
+          "description": "Recruit 210 subjects and randomly allocate them in 1:1:1 manners to three groups: HCQ 400 mg/d, HCQ 200mg/d and placebo. All subjects will receive HCQ and / or placebo for one year.",
+          "name": "Hydrochloroquine",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Recruit 210 subjects and randomly allocate them in 1:1:1 manners to three groups: HCQ 400 mg/d, HCQ 200mg/d and placebo. All subjects will receive HCQ and / or placebo for one year.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Steatohepatitis, Nonalcoholic"
+      ],
+      "keywords": [
+        "steatohepatitis",
+        "fatty liver",
+        "Hydroxychloroquine",
+        "Drug repurposing"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "fengchiaotsai@ntu.edu.tw",
+          "name": "Tsai, Doctor",
+          "phone": "88623123456",
+          "phoneExt": "288320",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Taipei",
+          "contacts": [
+            {
+              "email": "fengchiaotsai@ntu.edu.tw",
+              "name": "Feng-Chiao Tsai",
+              "phone": "88623123456",
+              "phoneExt": "288320",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Taiwan",
+          "facility": "National Taiwan University Hospital",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          },
+          "state": "Taiwan",
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn if drug hydroxychloroquine works to treat steatohepatitis in adults. It will also learn about the safety of drug hydroxychloroquine. The main questions it aims to answer are:\n\nDoes drug hydroxychloroquine improve steatohepatitis? What medical problems do participants have when taking drug hydroxychloroquine? Researchers will compare drug hydroxychloroquine to a placebo (a look-alike substance that contains no drug) to see if drug hydroxychloroquine works to treat steatohepatitis.\n\nParticipants will:\n\nTake drug hydroxychloroquine 400mg or hydroxychloroquine 200mg or placebo every day for 12 months Visit the clinic once every 3 months for checkups and tests"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 210,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participants must be at least 18 years old.\n2. Participants must be able to return for scheduled follow-up visits during specific time points within the 12-month study period.\n3. Diagnosis of fatty liver confirmed by abdominal ultrasound or magnetic resonance imaging (MRI).\n4. Evidence of hepatic inflammation for more than three months, indicated by alanine aminotransferase (ALT) \\> 41 IU/L.\n\nExclusion Criteria:\n\n1. Participants younger than 18 years old.\n2. Pregnant or breastfeeding women.\n3. Active viral hepatitis, determined by serum HBV or HCV viral load.\n4. Currently taking hydroxychloroquine (HCQ) for other medical conditions or indications.\n5. Known history of hypersensitivity or severe adverse drug reaction to HCQ.\n6. Presence of retinal maculopathy.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Using Hydroxychloroquine (HCQ) to Treat Steatohepatitis",
+      "nctId": "NCT07265297",
+      "officialTitle": "A Randomized Controlled Trial of Using Hydroxychloroquine (HCQ) to Treat Steatohepatitis",
+      "orgStudyIdInfo": {
+        "id": "202407082MINE"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "National Taiwan University Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "serum ALT",
+          "timeFrame": "Every 3 months, for 1 year"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "National Taiwan University Hospital"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2030-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-01",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2030-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-08-12",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-08",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-11-16",
+      "studyFirstSubmitQcDate": "2025-12-01"
+    }
+  }
+}

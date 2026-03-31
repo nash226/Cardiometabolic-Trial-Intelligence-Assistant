@@ -1,0 +1,167 @@
+{
+  "arms": [
+    {
+      "description": "Participants are blindly randomized and for this arm, participants will take the Essential Amino Acid Supplement for 2-months, followed by an open label extension period of 10-months of Essential Amino Acid for all participants",
+      "intervention_names": [
+        "Drug: Essential Amino Acid Supplement by Amino Co"
+      ],
+      "label": "Amino Acid Supplement",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Participants are blindly randomized and for this arm, participants will take the Placebo for 2-months, followed by an open label extension period of 10-months of Essential Amino Acid for all participants",
+      "intervention_names": [
+        "Other: Placebo"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Hepatic Steatosis",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "NAFLD",
+      "normalized_name": "mash"
+    },
+    {
+      "is_primary": true,
+      "name": "Adolescent Obesity",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "CHILD",
+      "ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria\n\n* Ages 13-18, Tanner stage 4-5\n* Suspected or diagnosed with NAFLD per fibroscan or liver biopsy within 6 months prior to enrollment as long as participants have not lost more than 5% of total body weight. Their MRI liver fat \\>5.5%\n* Diagnosis of non-alcoholic fatty liver disease (NAFLD) per hepatologist\n* Sedentary- less than 3 hours of moderate (jogging, swimming, etc.) exercise a week\n* BMI equal or greater than the 85th percentile for age and gender, this is overweight and obese categories\n\nExclusion Criteria\n\n* Use of medications known to affect insulin sensitivity: metformin, oral glucocorticoids within 10 days, atypical antipsychotics, immunosuppressant agents, HIV medications.\n* Currently pregnant or breastfeeding women. Development of pregnancy during the study period will necessitate withdrawal from the study\n* Severe illness requiring hospitalization within 60 days\n* Diabetes, defined as Hemoglobin A1C \\> 6.4%\n* BMI percentile less than the 85th percentile for age and sex. Waist circumference \\>200 cm\n* Anemia, defined as Hemoglobin \\< 11 mg/dL\n* Diagnosed major psychiatric or developmental disorder limiting informed consent\n* Implanted metal devices that are not compatible with MRI\n* Use of blood pressure medications\n* Known liver disease other than NAFLD or AST or ALT \\>150 IU/L",
+    "healthy_volunteers": false,
+    "maximum_age_text": "18 Years",
+    "minimum_age_text": "13 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Amino Acid Supplement"
+      ],
+      "description": "2 months of twice daily consumption of Purity (EAA), followed by 10 months open label extension of EAA",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Essential Amino Acid Supplement by Amino Co",
+      "normalized_name": "essential amino acid supplement by amino co"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo"
+      ],
+      "description": "2 months of twice daily consumption of Placebo, followed by 10 months open label extension of EAA",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Change from baseline in presence/severity of hepatic fat fraction will be measured with MRI, and calculated via the Dixon method as the proton density hepatic fat fraction, which ranges from 0-75%.",
+      "measure": "Change in Hepatic Fat Fraction",
+      "outcome_type": "primary",
+      "time_frame": "Baseline and 8 weeks"
+    },
+    {
+      "description": "An approximate measure of insulin sensitivity. Less than 1.0 means you are insulin-sensitive which is optimal. Above 1.9 indicates early insulin resistance. Above 2.9 indicates significant insulin resistance.",
+      "measure": "Change in Homeostatic Model Assessment for Insulin Resistance (HOMA-IR)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and 8 weeks"
+    },
+    {
+      "description": "Target ALT levels in children are between 10-30 (U/L). Higher values may indicate liver inflammation.",
+      "measure": "Change in alanine aminotransferase (ALT)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and 8 weeks"
+    },
+    {
+      "description": "Target AST levels in children are between 10-35 (U/L). Higher values may indicate liver inflammation.",
+      "measure": "Change in aspartate aminotransferase (AST)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and 8 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "CHILD",
+      "ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Participants 13-18 years of age with extra fat stored in the liver will be randomly assigned to a protein supplement or placebo \"fake supplement\" for 2 months to see if the participants who get the protein supplement have less fat in the liver compared to participants who were in the placebo group. After the 2 month intervention, all participants can continue the study and will all receive the protein supplement for an additional 10-months.",
+    "brief_title": "Effect of Amino Acids on Hepatic Fat Content in Adolescents (AMINOS Study)",
+    "collaborator_names": [
+      "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+    ],
+    "completion_date": "2026-08-31",
+    "condition_labels": [
+      "mash",
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria\n\n* Ages 13-18, Tanner stage 4-5\n* Suspected or diagnosed with NAFLD per fibroscan or liver biopsy within 6 months prior to enrollment as long as participants have not lost more than 5% of total body weight. Their MRI liver fat \\>5.5%\n* Diagnosis of non-alcoholic fatty liver disease (NAFLD) per hepatologist\n* Sedentary- less than 3 hours of moderate (jogging, swimming, etc.) exercise a week\n* BMI equal or greater than the 85th percentile for age and gender, this is overweight and obese categories\n\nExclusion Criteria\n\n* Use of medications known to affect insulin sensitivity: metformin, oral glucocorticoids within 10 days, atypical antipsychotics, immunosuppressant agents, HIV medications.\n* Currently pregnant or breastfeeding women. Development of pregnancy during the study period will necessitate withdrawal from the study\n* Severe illness requiring hospitalization within 60 days\n* Diabetes, defined as Hemoglobin A1C \\> 6.4%\n* BMI percentile less than the 85th percentile for age and sex. Waist circumference \\>200 cm\n* Anemia, defined as Hemoglobin \\< 11 mg/dL\n* Diagnosed major psychiatric or developmental disorder limiting informed consent\n* Implanted metal devices that are not compatible with MRI\n* Use of blood pressure medications\n* Known liver disease other than NAFLD or AST or ALT \\>150 IU/L",
+    "detailed_description": "The goal of this study is to test if taking a protein supplement can help reduce fat that is stored in the liver in children 13-18 years of age with extra fat stored in the liver. The main question it aims to answer is if participants who take the protein supplement for 2 months twice daily have less fat in the liver, when compared to participants who take a placebo or \"fake supplement\". Participants will be randomly assigned to the protein supplement or placebo and neither study team nor participants will know which group they are assigned to and will have tests done They will have an MRI to measure fat in the liver, a body x-ray to measure body composition and a blood draw when they start and finish their assigned supplement.\n\nAfter the 2 month intervention, all participants can continue the study and will all receive the protein supplement for an additional 10-months.",
+    "drug_class_labels": [],
+    "enrollment_count": 55,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Essential Amino Acid Supplement by Amino Co",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Amino Acid Supplement"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-08-28",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Colorado, Denver",
+    "masking": "TRIPLE",
+    "maximum_age_text": "18 Years",
+    "minimum_age_text": "13 Years",
+    "nct_id": "NCT05935826",
+    "official_title": "Effect of Amino Acids on Hepatic Fat Content in Adolescents (AMINOS Study)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE3"
+    ],
+    "primary_completion_date": "2026-08-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05935826",
+    "start_date": "2024-06-18",
+    "study_first_posted_at": "2023-07-07",
+    "study_type": "INTERVENTIONAL"
+  }
+}

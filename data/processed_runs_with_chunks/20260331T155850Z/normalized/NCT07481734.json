@@ -1,0 +1,211 @@
+{
+  "arms": [
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: Tesamorelin",
+        "Drug: Placebo",
+        "Behavioral: Standardized lifestyle counseling"
+      ],
+      "label": "Experimental: Tesamorelin 2 mg subcutaneous once daily (with dose-reduction algorithm for elevated I",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: Tesamorelin",
+        "Drug: Placebo",
+        "Behavioral: Standardized lifestyle counseling"
+      ],
+      "label": "Placebo Comparator: Matching placebo subcutaneous once daily",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Metabolic Associated Steatotic Liver Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Nonalcoholic Steatohepatitis",
+      "normalized_name": "mash"
+    },
+    {
+      "is_primary": true,
+      "name": "Hepatic Steatosis",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Adults age 18 to 75 years, able to provide informed consent.\n* Evidence of hepatic steatosis consistent with MASLD/NAFLD, defined as MRI-PDFF \\>=10% at screening (or equivalent imaging documentation if MRI-PDFF was performed within the prior 8 weeks).\n* Fibrosis risk compatible with non-cirrhotic disease (e.g., FibroScan liver stiffness below a prespecified threshold and no clinical evidence of portal hypertension).\n* Stable body weight (+/-5%) for at least 3 months prior to screening.\n* If on diabetes, lipid-lowering, antihypertensive, or weight-loss medications, regimen is stable for at least 3 months prior to screening and expected to remain stable through week 52.\n* Willingness and ability to self-administer daily subcutaneous injections (or have a trained caregiver).\n* For participants of childbearing potential: agreement to use reliable contraception during treatment and for 30 days after the last dose; negative pregnancy test at screening and baseline.\n\nExclusion Criteria:\n\n* Significant alcohol consumption consistent with alcohol-associated liver disease (e.g., \\>20 g/day for women or \\>30 g/day for men for sustained periods).\n* Other chronic liver diseases (e.g., chronic hepatitis B, chronic hepatitis C with viremia, autoimmune hepatitis, Wilson disease, hemochromatosis, alpha-1 antitrypsin deficiency).\n* Known cirrhosis or decompensated liver disease; or biopsy-proven stage 4 fibrosis if baseline biopsy is performed.\n* Poorly controlled diabetes or conditions increasing ocular risk (e.g., HbA1c at or above a protocol threshold; active/untreated diabetic retinopathy).\n* Use of exogenous growth hormone or GHRH analogs within the past 12 months.\n* Chronic systemic corticosteroids or chronic use of medications known to induce or worsen steatosis or liver injury (e.g., amiodarone, tamoxifen, methotrexate).\n* Active malignancy or high risk for recurrence judged unsafe by investigators.\n* Contraindications to MRI (e.g., certain implanted devices) if MRI-PDFF is required.\n* Pregnancy or breastfeeding.\n* Known hypersensitivity to tesamorelin or formulation excipients (e.g., mannitol).\n* Bariatric surgery within the last 12 months, or planned bariatric surgery during the study period.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Experimental: Tesamorelin 2 mg subcutaneous once daily (with dose-reduction algorithm for elevated I",
+        "Placebo Comparator: Matching placebo subcutaneous once daily"
+      ],
+      "description": "for injection, 2 mg SC once daily; participant self-administration after training.\n\nDose may be reduced to 1 mg daily if IGF-1 z-score meets protocol threshold.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Tesamorelin",
+      "normalized_name": "tesamorelin"
+    },
+    {
+      "arm_group_labels": [
+        "Experimental: Tesamorelin 2 mg subcutaneous once daily (with dose-reduction algorithm for elevated I",
+        "Placebo Comparator: Matching placebo subcutaneous once daily"
+      ],
+      "description": "for injection (mannitol-based, identical appearance), SC once daily.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    },
+    {
+      "arm_group_labels": [
+        "Experimental: Tesamorelin 2 mg subcutaneous once daily (with dose-reduction algorithm for elevated I",
+        "Placebo Comparator: Matching placebo subcutaneous once daily"
+      ],
+      "description": "dietary guidance and physical activity recommendations,delivered at baseline and reinforced at each visit.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Standardized lifestyle counseling",
+      "normalized_name": "standardized lifestyle counseling"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "MRI-PDFF performed at baseline and week 52; central blinded read.",
+      "measure": "Change from baseline in hepatic fat fraction by MRI-PDFF (percentage points)",
+      "outcome_type": "primary",
+      "time_frame": "52 weeks"
+    },
+    {
+      "description": "Responder analysis using MRI-PDFF values (baseline vs week 52).",
+      "measure": "MRI-PDFF responder rate (>=30% relative decline from baseline)",
+      "outcome_type": "secondary",
+      "time_frame": "52 weeks"
+    },
+    {
+      "description": "Clinical chemistry panel at baseline and scheduled visits.",
+      "measure": "Change in ALT",
+      "outcome_type": "secondary",
+      "time_frame": "52 weeks"
+    },
+    {
+      "description": "FibroScan liver stiffness measurement; performed per site SOP.",
+      "measure": "Change in liver stiffness by transient elastography",
+      "outcome_type": "secondary",
+      "time_frame": "52 weeks"
+    },
+    {
+      "description": "FibroScan CAP measurement",
+      "measure": "Change in controlled attenuation parameter (CAP) by transient elastography",
+      "outcome_type": "secondary",
+      "time_frame": "52 weeks"
+    },
+    {
+      "description": null,
+      "measure": "Change in fasting glucose",
+      "outcome_type": "secondary",
+      "time_frame": "52 weeks"
+    },
+    {
+      "description": null,
+      "measure": "Change in fasting lipids",
+      "outcome_type": "secondary",
+      "time_frame": "52 weeks"
+    },
+    {
+      "description": null,
+      "measure": "Change in visceral adipose tissue (VAT) volume",
+      "outcome_type": "secondary",
+      "time_frame": "52 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This randomized, double-blind, placebo-controlled Phase II study evaluates whether daily subcutaneous tesamorelin (a growth hormone-releasing hormone analog) reduces liver fat in adults with fatty liver disease. Participants receive tesamorelin or matching placebo for 52 weeks, with standardized lifestyle counseling in both groups. Liver fat is quantified by MRI-proton density fat fraction (MRI-PDFF). Key safety monitoring includes glucose metrics and IGF-1.",
+    "brief_title": "Tesamorelin for Reduction of Liver Fat in Adults With Fatty Liver Disease (Mock Study)",
+    "collaborator_names": [],
+    "completion_date": "2028-02-17",
+    "condition_labels": [
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Adults age 18 to 75 years, able to provide informed consent.\n* Evidence of hepatic steatosis consistent with MASLD/NAFLD, defined as MRI-PDFF \\>=10% at screening (or equivalent imaging documentation if MRI-PDFF was performed within the prior 8 weeks).\n* Fibrosis risk compatible with non-cirrhotic disease (e.g., FibroScan liver stiffness below a prespecified threshold and no clinical evidence of portal hypertension).\n* Stable body weight (+/-5%) for at least 3 months prior to screening.\n* If on diabetes, lipid-lowering, antihypertensive, or weight-loss medications, regimen is stable for at least 3 months prior to screening and expected to remain stable through week 52.\n* Willingness and ability to self-administer daily subcutaneous injections (or have a trained caregiver).\n* For participants of childbearing potential: agreement to use reliable contraception during treatment and for 30 days after the last dose; negative pregnancy test at screening and baseline.\n\nExclusion Criteria:\n\n* Significant alcohol consumption consistent with alcohol-associated liver disease (e.g., \\>20 g/day for women or \\>30 g/day for men for sustained periods).\n* Other chronic liver diseases (e.g., chronic hepatitis B, chronic hepatitis C with viremia, autoimmune hepatitis, Wilson disease, hemochromatosis, alpha-1 antitrypsin deficiency).\n* Known cirrhosis or decompensated liver disease; or biopsy-proven stage 4 fibrosis if baseline biopsy is performed.\n* Poorly controlled diabetes or conditions increasing ocular risk (e.g., HbA1c at or above a protocol threshold; active/untreated diabetic retinopathy).\n* Use of exogenous growth hormone or GHRH analogs within the past 12 months.\n* Chronic systemic corticosteroids or chronic use of medications known to induce or worsen steatosis or liver injury (e.g., amiodarone, tamoxifen, methotrexate).\n* Active malignancy or high risk for recurrence judged unsafe by investigators.\n* Contraindications to MRI (e.g., certain implanted devices) if MRI-PDFF is required.\n* Pregnancy or breastfeeding.\n* Known hypersensitivity to tesamorelin or formulation excipients (e.g., mannitol).\n* Bariatric surgery within the last 12 months, or planned bariatric surgery during the study period.",
+    "detailed_description": "Fatty liver disease (MASLD/NAFLD) is common and may progress to steatohepatitis and fibrosis. There are limited pharmacologic options that directly and durably reduce hepatic steatosis while also improving metabolic risk. Tesamorelin is a synthetic analog of growth hormone-releasing hormone (GHRH) that increases endogenous pulsatile growth hormone secretion and can influence lipid metabolism. Prior randomized studies of tesamorelin have shown reductions in hepatic fat fraction in populations with NAFLD, using magnetic-resonance-based quantification and paired histology in subsets. The primary efficacy endpoint is change in liver fat (MRI-PDFF) from baseline to week 52. Secondary endpoints include MRI-PDFF responder rate (\\>=30% relative decline), changes in liver enzymes and noninvasive fibrosis measures, metabolic outcomes (glucose, HbA1c, HOMA-IR, lipids), and safety/tolerability outcomes. In this mock protocol, eligible adults with elevated liver fat on MRI-PDFF are randomized 1:1 to tesamorelin or placebo. Study medication is self-administered once daily by subcutaneous injection.\n\nDose reduction rules are included for elevated IGF-1 while preserving the blind.\n\nParticipants complete study visits at baseline and at weeks 4, 12, 24, 36, and 52 (end of treatment), plus a safety follow-up at week 56. MRI-PDFF is performed at baseline, week 24, and week 52. Transient elastography (FibroScan) and standard laboratory panels are collected at prespecified visits. A voluntary liver-biopsy sub-study is offered to evaluate histologic activity and fibrosis.",
+    "drug_class_labels": [],
+    "enrollment_count": 120,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Tesamorelin",
+      "Placebo",
+      "Standardized lifestyle counseling"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Tesamorelin",
+      "GHRH analog",
+      "growth hormone axis",
+      "hepatic fat fraction",
+      "MRI-PDFF",
+      "transient elastography",
+      "teatohepatitis",
+      "fibrosis"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-19",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "Hudson Biotech",
+    "masking": "SINGLE",
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07481734",
+    "official_title": "A Randomized, Double-Blind, Placebo-Controlled Phase II Study of Tesamorelin (GHRH Analog) for Reducing Hepatic Steatosis in Adults With Metabolic Associated Steatotic Liver Disease (MASLD)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2027-02-14",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07481734",
+    "start_date": "2026-02-02",
+    "study_first_posted_at": "2026-03-19",
+    "study_type": "INTERVENTIONAL"
+  }
+}

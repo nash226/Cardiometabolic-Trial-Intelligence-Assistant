@@ -1,0 +1,270 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D015228",
+          "term": "Hypertriglyceridemia"
+        },
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C526359",
+          "term": "4-(6-acetyl-3-(3-(4-acetyl-3-hydroxy-2-propylphenylthio)propoxy)-2-propylphenoxy)butyric acid"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: MN-001"
+          ],
+          "label": "MN-001",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The placebo comparator is a tablet identical in appearance to MN-001.",
+          "interventionNames": [
+            "Drug: MN-001 placebo"
+          ],
+          "label": "MN-001 Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "MN-001"
+          ],
+          "description": "MN-001 is a novel, orally bioavailable small molecule compound",
+          "name": "MN-001",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "MN-001 Placebo"
+          ],
+          "description": "The placebo tablet is identical in appearance to the MN-001 tablet, and contains excipients of MN-001.",
+          "name": "MN-001 placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Hypertriglyceridemia",
+        "Non-Alcoholic Fatty Liver Disease"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Las Vegas",
+          "country": "United States",
+          "facility": "Jubilee Clinical Research, Inc.",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          },
+          "state": "Nevada",
+          "zip": "89106"
+        },
+        {
+          "city": "Edinburg",
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research at South Texas Research Institute",
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          },
+          "state": "Texas",
+          "zip": "78539"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The design of the Phase 2 clinical trial includes the following elements:\n\n* Multi-center, two-arm, randomized, double-blind, placebo-controlled trial to evaluate MN-001 (tipelukast) vs. placebo in approximately 40 patients in the U.S.\n* Patients will be randomized 1:1 to receive either 500 mg/day of MN-001 (tipelukast) or placebo for 24 weeks.\n* The co-primary endpoints are (1) change from baseline in liver fat content measured by controlled attenuation parameter (CAP) score at Week 24, and (2) change from baseline in fasting serum triglycerides at Week 24. FibroScan\u00ae is a non-invasive, quantitative, and accurate measure of liver fat content commonly used in early phase trials to measure treatment response.\n* Secondary endpoints include safety and tolerability and changes in lipid profile (HDL-C, LDL-C, and total cholesterol)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* FibroScan\u00ae CAP score \u2265 248 dB/m within 8 weeks of randomization.\n* Diagnosis or history of Type 2 Diabetes mellitus with hemoglobin A1c (HbA1c) \\>6.5 and \u226410% at Screening.\n* Fasting serum triglycerides (TG) at Screening \\>150 mg/dL\n* On a stable dose of oral antidiabetic therapy for a minimum of 3 months prior to Screening.\n\nExclusion Criteria:\n\n* Other causes of chronic liver disease (autoimmune, primary biliary cholangitis, HBV, HCV, Wilson's, \u03b1-1-antitrypsin deficiency, hemochromatosis, biopsy-proven cirrhosis, hepatocellular carcinoma);\n* Documented history of advanced liver fibrosis\n* Evidence of cirrhosis, hepatic decompensation, portal hypertension including splenomegaly, ascites, encephalopathy and/or esophageal varices;\n* Diagnosis or history of Diabetes mellitus type 1;\n* Weight change \\>5% within last 3 months of Screening visit;\n* Active gastrointestinal disease or history of gastric bypass surgery which could interfere with the absorption of oral medication;\n* History of clinically significant acute cardiac event within 6 months of Screening;",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "21 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "MN-001 in Non-alcoholic Fatty Liver Disease, Type 2 Diabetes Mellitus, and Hypertriglyceridemia",
+      "nctId": "NCT05464784",
+      "officialTitle": "A Phase 2, Double-Blind, Randomized, Placebo-Controlled Study to Evaluate the Safety, Tolerability and Efficacy of MN-001 in Patients Diagnosed With Non-alcoholic Fatty Liver Disease, Type 2 Diabetes Mellitus, and Hypertriglyceridemia",
+      "orgStudyIdInfo": {
+        "id": "MN-001-NATG-202"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "MediciNova"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Mean change in controlled attenuation parameter (CAP) score by sound-based elastography at Week 24",
+          "timeFrame": "Week 24"
+        },
+        {
+          "measure": "Mean change from baseline in fasting serum triglyceride levels at Week 24",
+          "timeFrame": "Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Incidence of adverse events, abnormal clinical laboratory results",
+          "measure": "Safety and tolerability of MN-001",
+          "timeFrame": "Baseline to Week 24"
+        },
+        {
+          "description": "Changes in lipids (HDL-C, LDL-C, total cholesterol) after MN-001 treatment for 24 weeks",
+          "measure": "Mean change from baseline in lipids",
+          "timeFrame": "Baseline to Week 24"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "MediciNova"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-03",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-08-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-02",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-28",
+      "studyFirstSubmitQcDate": "2022-07-15"
+    }
+  }
+}

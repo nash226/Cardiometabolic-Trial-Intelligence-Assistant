@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06382480:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06382480\nBrief title: PROTeIn-rich Meals to Control Glucose\nOfficial title: Meal Timing-based Strategies to Improve Glucose Metabolism in Prediabetes and Type 2 Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06382480"
+    },
+    {
+      "chunk_id": "NCT06382480:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity; type_2_diabetes\nRaw conditions: Overweight; Obesity; Prediabetes; Type 2 Diabetes\nIntervention labels: Diet with specific macronutrient composition.\nDrug class labels: \nArms: HP/HC - HC/HP; HC/HP - HP/HC\nKeywords: Glucose; Overweight; Obesity; Prediabetes; Type 2 Diabetes; Metabolism; Chrononutrition; Macronutrient composition; High-protein; High-carb; Isocaloric diet; Prevention and treatment of type 2 diabetes",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT06382480"
+    },
+    {
+      "chunk_id": "NCT06382480:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The overall aim is to identify the dietary pattern for prevention and treatment of type 2 diabetes. The specific aim of this pilot project is to compare effects of two diets with different diurnal distribution of carbohydrates and protein on the glucose metabolism in subjects with prediabetes and type 2 diabetes and its effects on inflammatory status.\nDetailed description: Overweight individual with prediabetes and non-insulin treated type 2 diabetes will be recruited for the study. The trial will have a cross-over design and compare metabolic effects of two isocaloric 4-week interventions with opposite timely distribution of macronutrient intake - a high-protein (HP) breakfast and a high-carb (HC) dinner (HP/HC intervention) vs. a HC breakfast and a HP dinner (HC/HP intervention) - divided by a 4-week wash-out phase. A HP low-carb meal (breakfast or dinner) will contain 35%E protein, 35%E carbs, and 30%E fat, and a HC meal (breakfast or dinner) will contain 10E%protein, 60%E carbs, and 30%E fat.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 160,
+      "trial_nct_id": "NCT06382480"
+    },
+    {
+      "chunk_id": "NCT06382480:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Prediabetes (fasting blood sugar 100-125 mg/dl)\n* Diabetes type 2 (fasting blood sugar \\&gt;126 mg/dl)\n* Overweight and obesity (BMI 25-50 kg/m2)\n\nExclusion Criteria:\n\n* Other diabetes types\n* Insulin treatment\n* Shift work\n* Weight changes \\&gt;5% within past 3 months\n* Systemic glucocorticoid therapy\n* Systemic infections\n* Severe anemia\n* High blood pressure (\\&gt;180/110 mmHg)\n* Endocrinologic, liver and heart disorders\n* Immune diseases\n* Thyroid dysfunction\n* Heart attack or stroke\n* Cancer in the last 2 years\n* Eating disorders, food intolerance/allergy, addiction disorders, digestive disorders intestinal, liver, cardiovascular diseases\n* Hereditary or acquired coagulation disorders\n* Non-interruptible intake of blood thinners (anticoagulants)\n* Specific diets, intermittent fasting\n* Pregnancy or breastfeeding\n* Severe internal or psychiatric disorders or other conditions and drugs therapy that might influence the outcome of the study",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 158,
+      "trial_nct_id": "NCT06382480"
+    },
+    {
+      "chunk_id": "NCT06382480:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Mean 24-hour glucose | time_frame=4 weeks | description=Mean 24-hour glucose assessed by continuous glucose monitoring (CGM)\ntype=secondary | measure=Measurement of height | time_frame=4 weeks | description=Height measured by stadiometer\ntype=secondary | measure=Measurement of body weight | time_frame=4 weeks | description=Body weight measured by body scale\ntype=secondary | measure=Waist and hip circumference / waist to hip ratio | time_frame=4 weeks | description=Waist and hip circumference measured by tape measure\ntype=secondary | measure=Systolic and diastolic blood pressure | time_frame=4 weeks | description=Systolic and diastolic blood pressure changes measurement by manometer\ntype=secondary | measure=Body fat and lean mass | time_frame=4 weeks | description=Body fat and lean mass assessed by bioelectrical impendance analysis (BIA)\ntype=secondary | measure=Energy expenditure and substrate oxidation rates | time_frame=4 weeks | description=Energy expenditure and substrate oxidation rates assessed by indirect calorimetry\ntype=secondary | measure=Hepatic values (gamma-glutamyl transferase (GGT), aspartate aminotransferase (AST), alanine aminotransferase (ALT)) | time_frame=4 weeks | description=GGT, AST, ALT etermined in fasting blood samples\ntype=secondary | measure=Renal values (creatinine, urea, uric acid) | time_frame=4 weeks | description=Renal values determined in fasting blood samples\ntype=secondary | measure=Intra- und inter-day glycemic variability | time_frame=4 weeks | description=Indices of intra- and inter-day glycemic variability assessed by continuous glucose monitoring (CGM)\ntype=secondary | measure=Glucose levels in meal tolerance test (MTT) | time_frame=4 weeks | description=Glucose levels in blood samples collected in MTT\ntype=secondary | measure=Metabolic hormones (insulin, C-peptide, glucagon, glucagon-like peptite 1(GLP-1), gastric inhibitory polypeptide (GIP), peptide YY (PYY), ghrelin, adiponectin, leptin) | time_frame=4 weeks | description=Blood levels of metabolic hormones assessed in fasting state and during the MTT\ntype=secondary | measure=Inflammatory markers and T cell populations analyses | time_frame=4 weeks | description=Level of the inflammatory markers IL-6, TNFa, MCP-1 and T cell populations in circulation and adipose tissue are assessed through blood analysis and fat biopsy\ntype=secondary | measure=Satiety and hunger scores | time_frame=4 weeks | description=Satiety and hunger scores assessed using Visual Analog Scale (VAS with a scale of 1-100, where higher values correspond to stronger satiety/hunger)\ntype=secondary | measure=Sleep/wake timing and sleep quality | time_frame=4 weeks | description=Sleep/wake timing and sleep quality assessed by the Pittsburgh Sleep Quality Index (PSQI score, which ranges from 0-21, where higher values correspond to worse sleep quality) and also monitored by an ActiGraph device\ntype=secondary | measure=Physical activity | time_frame=4 weeks | description=24-h physical activity will be monitored by an ActiGraph device\ntype=secondary | measure=Adipose tissue transcriptome | time_frame=4 weeks | description=RNA-Seq analysis of subcutaneous adipose tissue sample\ntype=secondary | measure=Gene expression in peripheral blood mononuclear cells (PBMC) | time_frame=4 weeks | description=Expression of metabolic genes assessed by qPCR\ntype=secondary | measure=Gut microbiota and microbiome-derived metabolites | time_frame=4 weeks | description=Determined in stool samples and blood plasma\ntype=secondary | measure=Determination of decision behavior | time_frame=4 weeks | description=Impulsiveness assessed by decision making tasks on computer",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 465,
+      "trial_nct_id": "NCT06382480"
+    },
+    {
+      "chunk_id": "NCT06382480:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-04-12\nPrimary completion date: 2026-12-31\nCompletion date: 2027-02-28\nStudy first posted: 2024-04-24\nResults first posted: None\nLast update posted: 2025-08-26\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06382480"
+    },
+    {
+      "chunk_id": "NCT06382480:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: German Institute of Human Nutrition\nLead sponsor class: OTHER\nCollaborators: Charite University, Berlin, Germany; Helmholtz Center Munich; Hasso Plattner Institute, Potsdam, Germany\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT06382480"
+    }
+  ],
+  "trial_nct_id": "NCT06382480"
+}

@@ -1,0 +1,307 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients who had undergone Roux-en-Y gastric bypass surgery",
+          "interventionNames": [
+            "Other: Gastro-intestinal aspiration",
+            "Device: Telemetric"
+          ],
+          "label": "Roux-en-Y gastric bypass"
+        },
+        {
+          "description": "Patients who had undergone sleeve gastrectomy surgery",
+          "interventionNames": [
+            "Other: Gastro-intestinal aspiration",
+            "Device: Telemetric"
+          ],
+          "label": "Sleeve gastrectomy"
+        },
+        {
+          "description": "Patients without previous bariatric surgery",
+          "interventionNames": [
+            "Other: Gastro-intestinal aspiration",
+            "Device: Telemetric"
+          ],
+          "label": "Patients living with obesity"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Patients living with obesity",
+            "Roux-en-Y gastric bypass",
+            "Sleeve gastrectomy"
+          ],
+          "description": "Aspiration of fluids from the stomach and small intestine using a naso-intestinal catheter.",
+          "name": "Gastro-intestinal aspiration",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Patients living with obesity",
+            "Roux-en-Y gastric bypass",
+            "Sleeve gastrectomy"
+          ],
+          "description": "Telemetric ingestible capsule",
+          "name": "Telemetric",
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Bariatric Surgery",
+        "Roux-en Y Gastric Bypass",
+        "Sleeve Gastrectomy",
+        "Obesity & Overweight"
+      ],
+      "keywords": [
+        "Gastro-intestinal aspiration",
+        "ingestible telemetric capsule"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "maaike.dekreek@kuleuven.be",
+          "name": "Maaike De Kreek, MSc",
+          "phone": "+32 16 34 72 89",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Bart Van der Schueren, Prof. Dr.",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Leuven",
+          "contacts": [
+            {
+              "email": "maaike.dekreek@kuleuven.be",
+              "name": "Maaike De Kreek, MSc",
+              "phone": "+32 16 34 72 89",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "Universitaire Ziekenhuizen KU Leuven",
+          "geoPoint": {
+            "lat": 51.84417,
+            "lon": 5.09444
+          },
+          "status": "RECRUITING",
+          "zip": "3000"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to characterize gastrointestinal digestion and physiology in patients after bariatric surgery, or people living with obesity. The main question it aims to answer is: what is the status of gastrointestinal digestion and physiology after bariatric surgery? Participants will have two study visits: 1) participants will undergo collection of gastrointestinal samples and 2) participants will ingest an ingestible capsule that measures multiple physiological parameters along the gastrointestinal tract.",
+      "detailedDescription": "This clinical trial aims to characterize gastric and pancreatic enzyme activity in adults aged 18 to 65 who have previously (at least 1 year ago) undergone Roux-en-Y gastric bypass (RYGB) or sleeve gastrectomy (SG), as well as in individuals with obesity. In addition, the study seeks to quantify bile acid concentrations and pH at various locations within the gastrointestinal tract and to assess gastrointestinal transit time. During the study, aspirates will be collected from multiple regions of the gastrointestinal tract using a naso-intestinal catheter (study visit 1). An ingestible capsule will also be used to obtain continuous in vivo measurements of physiological conditions along the entire gastrointestinal tract (study visit 2)."
+    },
+    "designModule": {
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "CROSS_SECTIONAL"
+      },
+      "enrollmentInfo": {
+        "count": 51,
+        "type": "ESTIMATED"
+      },
+      "patientRegistry": false,
+      "studyType": "OBSERVATIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nParticipants eligible for inclusion in this Investigation have to meet all of the following criteria:\n\n1. Voluntary written informed consent of the participant has been obtained prior to any screening procedures\n2. Age: 18-65 years\n\n   Specific inclusion criteria for the different patient populations:\n\n   Patients with obesity:\n3. Body Mass Index: \\> 30 kg/m2\n\n   Patients after bariatric surgery:\n4. Surgery: at least one year after Roux-en-Y gastric bypass or sleeve gastrectomy\n\nExclusion Criteria:\n\nParticipants eligible for this Investigation must not meet any of the following criteria:\n\n1. Patient has history of more than one bariatric surgery\n2. Patient has a waist circumference \\> 125.6 cm\n3. Patient had gastrointestinal surgery in the past three months\n4. Patient has a pacemaker, defibrillator, infusion pump, or other portable or implanted electromedical device\n5. Patient had frequent exposure to X-rays in the past year\n6. Patient has swallowing disorders, among others: dysphagia for food or pills, any oropharyngeal or oesophageal stricture, anxiety or functional abnormality\n7. Patient has Crohn's disease or Diverticulitis\n8. Patient has gastrointestinal strictures, fistulas or physiological/mechanical obstructions\n9. Patient has gastric bezoar\n10. Patient has a history of complex bowel resection or known abdominal adhesions\n11. Patient has short bowel syndrome or ostomy\n12. Patient has currently ongoing infections\n13. Patient is planned to undergo usage of rectal foam/enema or treatment with adjuvant chemotherapy or radiotherapy\n14. Patient is currently on parenteral diet\n15. Patient is planned to undergo MRI procedure during usage of the wireless capsule\n16. Patient is working in a professional healthcare facility (e.g. hospital, dental office, emergency room), military area (e.g. submarine, near radar installation), or heavy industrial area (e.g. power plants, automotive, mining, refineries) during the duration of the clinical investigation\n17. Patient is pregnant, breastfeeding, actively trying to get pregnant or had recent childbirth in last 6 months\n18. Patient cannot discontinue medication that affects gastrointestinal transit time and/or pH for at least 3 days before and during the study (and 4 weeks for weekly/long-acting GLP-1 analogues such as Saxenda, Ozempic, Wegovy, Mounjaro). This includes opioids (e.g., morphine, codeine), proton pump inhibitors (e.g., omeprazole, esomeprazole, pantoprazole), H2-receptor antagonists (e.g., cimetidine, famotidine), antacids, sucralfate, prokinetics (e.g., domperidone, metoclopramide), antidiarrheal agents (e.g., loperamide), antibiotics, probiotics and prebiotics.\n19. Any disorder, which in the investigator's opinion might jeopardise participant's safety or compliance with the CIP.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients who have previously undergone a RYGB surgery, SG surgery, or people with obesity."
+    },
+    "identificationModule": {
+      "acronym": "GIBa",
+      "briefTitle": "Gastro-Intestinal Digestion and Physiology After Bariatric Surgery",
+      "nctId": "NCT07286968",
+      "officialTitle": "Gastro-Intestinal Digestion and Physiology After Bariatric Surgery",
+      "orgStudyIdInfo": {
+        "id": "S70844"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Universitaire Ziekenhuizen KU Leuven"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "AFMPS - FAGG",
+          "id": "CIV-25-08-054154",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Gastric pouch and sleeve samples will be analysed for gastric lipase activity (described in U)",
+          "measure": "Activity of gastric lipase",
+          "timeFrame": "2 hours"
+        },
+        {
+          "description": "Gastric pouch and sleeve samples will be analysed for pepsin activity (described in U)",
+          "measure": "Activity of pepsin",
+          "timeFrame": "2 hours"
+        },
+        {
+          "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for trypsin activity (described in U).",
+          "measure": "Activity of trypsin",
+          "timeFrame": "2 hours"
+        },
+        {
+          "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for chymotrypsin activity (described in U).",
+          "measure": "Activity of chymotrypsin",
+          "timeFrame": "2 hours"
+        },
+        {
+          "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for \u03b1-amylase activity (described in U).",
+          "measure": "Activity of \u03b1-amylase",
+          "timeFrame": "2 hours"
+        },
+        {
+          "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for pancreatic lipase activity (described in U).",
+          "measure": "Activity of pancreatic lipase",
+          "timeFrame": "2 hours"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The total bile acid concentrations will be measured in all samples",
+          "measure": "Concentration of total bile acids",
+          "timeFrame": "2 hours"
+        },
+        {
+          "description": "pH will be measured in all gastro-intestinal samples",
+          "measure": "pH",
+          "timeFrame": "2 hours"
+        },
+        {
+          "description": "Total transit time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+          "measure": "Total transit time",
+          "timeFrame": "48 hours"
+        },
+        {
+          "description": "Gastric emptying time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+          "measure": "Gastric emptying time",
+          "timeFrame": "48 hours"
+        },
+        {
+          "description": "Small intestinal transit time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+          "measure": "Small intestinal transit time",
+          "timeFrame": "48 hours"
+        },
+        {
+          "description": "Large intestinal transit time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+          "measure": "Large intestinal transit time",
+          "timeFrame": "48 hours"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Universitaire Ziekenhuizen KU Leuven"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-07-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-15",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-07-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-01-10",
+        "type": "ESTIMATED"
+      },
+      "statusVerifiedDate": "2025-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-03",
+      "studyFirstSubmitQcDate": "2025-12-03"
+    }
+  }
+}

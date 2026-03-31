@@ -1,0 +1,276 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "BWLI-College is a multicomponent behavioral weight loss intervention to reduce weight through diet, physical activity, and behavioral modifications designed to be responsive to emerging adult preferences. It will be delivered in a hybrid format with in-person and remotely-delivered synchronous sessions. As presently designed, the intervention will last 10 weeks.",
+          "interventionNames": [
+            "Behavioral: BWLI-College"
+          ],
+          "label": "BWLI-College",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The Control intervention consists of 1 in-person psychoeducational group session on general weight loss information and myths. Public web-resources about healthy eating and physical activity will be provided. Newsletters with similar content will be sent to promote retention.",
+          "interventionNames": [
+            "Behavioral: Control"
+          ],
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "BWLI-College"
+          ],
+          "description": "Behavioral modifications are based on empirically-supported principles for weight loss. Diet recommendations follow a small change approach in which participants will make a series of small, self-selected dietary changes each day (\\~100-200 calories) that they build on over the course of the intervention. Physical activity recommendations are to achieve 150-250 weekly minutes of moderate-to-vigorous physical activity with specific goals and rate of progression that are individualized to each participant.",
+          "name": "BWLI-College",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Control"
+          ],
+          "description": "Psychoeducation around dieting myths, healthy eating, and physical activity",
+          "name": "Control",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity and Overweight"
+      ],
+      "keywords": [
+        "obesity",
+        "college students",
+        "behavioral weight loss intervention",
+        "small changes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "jhayes3@brownhealth.org",
+          "name": "Jacqueline F Hayes, PhD",
+          "phone": "401-793-8917",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Providence",
+          "contacts": [
+            {
+              "email": "jhayes3@brownhealth.org",
+              "name": "Jacqueline F Hayes, PhD",
+              "phone": "401-793-8917",
+              "role": "CONTACT"
+            },
+            {
+              "email": "jacqueline_hayes@brown.edu",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jacqueline F Hayes, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "The Miriam Hospital",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          },
+          "state": "Rhode Island",
+          "status": "RECRUITING",
+          "zip": "02903"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Brown University",
+          "name": "Jacqueline F Hayes, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This pilot randomized controlled trial will examine a behavioral weight loss intervention that uses a \"small change\" approach fro emerging adult college students with overweight/obesity. The primary aim is to assess student acceptability and clinically-meaningful weight changes.",
+      "detailedDescription": "Forty percent of emerging adults (age 18-25) have overweight or obesity, which is unlikely to remit and has significant health consequences. However, emerging adults are underrepresented in traditional weight loss programs, drop-out at high rates, and have blunted weight loss outcomes. One potential way to improve participation is to offer BWLIs in college health service centers to reduce barriers to participation. Approximately 40% of emerging adults are enrolled in a postsecondary institution and college health centers are used widely by students. Moreover, delivering an intervention with design features that are responsive to emerging adult preferences and lifestyles may also improve intervention effectiveness and attractiveness. The \"small change\" (SC) approach to weight loss addresses emerging adult barriers to engagement by focusing on reducing calories through a few self-selected, specific changes to current obesogenic behaviors, requiring less time and effort than traditional behavioral weight loss interventions (BWLI) and promoting autonomy and self-efficacy. The SC approach has been used effectively for weight loss in other populations. This randomized controlled pilot study is part of a larger study that aims to develop and refine a novel and effective BWLI based on a SC approach that is designed for emerging adults and for implementation in college health centers, an accessible care setting. The primary aim of this substudy is to assess acceptability and feasibility of the intervention and to get a preliminary understanding of potential clinical benefit for participants."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A 2-arm parallel randomized controlled trial",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI of 25 or greater\n* Enrolled at college/university where study will take place\n* English-speaking\n\nExclusion Criteria:\n\n* History or current diagnosis of anorexia nervosa, bulimia nervosa, or alcohol use disorder (current symptoms also assessed at screening using validated screening questionnaires)\n* Participation in another formal weight loss program or current utilization of obesity medications\n* Current or recent pregnancy\n* Psychiatric hospitalization in the past 12 months\n* Recent weight loss of 5% body weight or more\n* History of bariatric surgery\n* Severe food or physical activity restrictions that would interfere with treatment recommendations",
+      "healthyVolunteers": false,
+      "maximumAge": "29 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Weight Management Intervention in College: A Pilot",
+      "nctId": "NCT06994923",
+      "officialTitle": "Testing a Behavioral Weight Loss Intervention for Emerging Adults Implemented Within College Health Service Centers",
+      "orgStudyIdInfo": {
+        "id": "17937323"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "The Miriam Hospital"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "K23DK128561",
+          "link": "https://reporter.nih.gov/quickSearch/K23DK128561",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Refers to the satisfactory nature of a treatment and will be assessed via the 4-item Acceptability of Intervention Measure. Benchmarks are to reach mean scores of at least 4 out of 5.",
+          "measure": "Acceptability",
+          "timeFrame": "10 weeks"
+        },
+        {
+          "description": "Rate of retention of 70% or more (benchmark)",
+          "measure": "Retention",
+          "timeFrame": "10 weeks"
+        },
+        {
+          "description": "Average attendance of 75% or more (benchmark)",
+          "measure": "Adherence",
+          "timeFrame": "10 weeks"
+        },
+        {
+          "description": "Average weight loss of at least 3%",
+          "measure": "Weight Loss",
+          "timeFrame": "10 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "The Miriam Hospital"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-04-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-26",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-03-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-01-20",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-05-20",
+      "studyFirstSubmitQcDate": "2025-05-20"
+    }
+  }
+}

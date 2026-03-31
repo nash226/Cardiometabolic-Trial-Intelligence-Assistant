@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05500586:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05500586\nBrief title: The Effects of Glucagon on Hepatic Metabolism\nOfficial title: The Effects of Glucagon on Hepatic Metabolism\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05500586"
+    },
+    {
+      "chunk_id": "NCT05500586:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity; mash\nRaw conditions: Obesity; Type2diabetes; NAFLD\nIntervention labels: Glucagon response study\nDrug class labels: \nArms: Healthy Adults; Obese Adults; Adults with Type 2 Diabetes\nKeywords: glucagon; insulin resistance; hepatic steatosis; amino acid metabolism",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT05500586"
+    },
+    {
+      "chunk_id": "NCT05500586:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Whether impaired postprandial glucagon suppression in prediabetes and T2DM is an attempt to overcome resistance to glucagon's actions on hepatic AA catabolism, a defect in \u03b1-cell function, or a combination of both are important, unanswered questions. NAFLD is associated with T2DM risk and impaired insulin action. Unfortunately, it is unclear if glucagon resistance is caused by obesity, hepatic steatosis or both. The experiments outlined will determine if glucagon's actions on hepatic amino acid catabolism and EGP interact with hepatic lipid metabolism in lean and obese subjects with and without T2DM (and with varying degrees of hepatic steatosis).\nDetailed description: T2DM and prediabetes are characterized by abnormal post-prandial suppression of glucagon, which contributes to postprandial hyperglycemia by increasing EGP. Although these effects are magnified by decreased and delayed insulin secretion, they are also apparent when insulin secretion is intact. In rodents, altered glucagon signaling changes \u03b1-cell function and mass - an effect mediated by changes in circulating AA concentrations. Are the elevated concentrations of branched-chain AA and other AA metabolites in T2DM a cause or an effect of global \u03b1-cell dysfunction? Could altered glucagon signaling precipitate a vicious cycle resulting in T2DM?",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 193,
+      "trial_nct_id": "NCT05500586"
+    },
+    {
+      "chunk_id": "NCT05500586:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 25 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Willing to participate\n* Able to give consent\n\nExclusion Criteria:\n\n* History of prior upper abdominal surgery e.g. gastric banding, pyloroplasty, vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.\n* Contraindications to MRI (e.g. metal implants, claustrophobia).\n* Hematocrit \\< 35%\n* TSH \\< 0.4 or \\> 5.5.\n* Consumption of \\> 2 alcohol drinks per day or \\> 14 per week or a positive AUDIT questionnaire",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 93,
+      "trial_nct_id": "NCT05500586"
+    },
+    {
+      "chunk_id": "NCT05500586:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Rate of Amino acid catabolism in the presence / absence of glucagon | time_frame=240 minutes of study | description=Tracer-dependent measurement of amino-acid clearance\ntype=secondary | measure=Effect of Diabetes on amino-acid catabolism | time_frame=240 minutes of study | description=Tracer-dependent measurement of amino-acid clearance",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT05500586"
+    },
+    {
+      "chunk_id": "NCT05500586:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-10-20\nPrimary completion date: 2025-09-30\nCompletion date: 2026-03-31\nStudy first posted: 2022-08-15\nResults first posted: None\nLast update posted: 2026-03-05\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05500586"
+    },
+    {
+      "chunk_id": "NCT05500586:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Adrian Vella\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT05500586"
+    }
+  ],
+  "trial_nct_id": "NCT05500586"
+}

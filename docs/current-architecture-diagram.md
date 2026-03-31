@@ -3,13 +3,21 @@
 This diagram reflects the system as it exists today:
 
 - ingestion is implemented
+- queued corpus expansion with `RQ + Redis` is implemented
 - Postgres + pgvector storage is implemented
 - lexical, semantic, and fused retrieval APIs are implemented
-- grounded answer generation is the next layer, not yet built
+- grounded answer generation is implemented
+- a minimal FastAPI-served UI is implemented
 
 ```mermaid
 flowchart LR
     source["ClinicalTrials.gov API<br/>study records"]
+
+    subgraph jobs["Queued Ingestion"]
+        job_api["FastAPI ingestion job API<br/>/api/v1/ingestion/jobs"]
+        redis["Redis + RQ queue"]
+        worker["RQ worker<br/>apps/api/app/worker.py"]
+    end
 
     subgraph preprocessing["Preprocessing / Corpus Construction"]
         fetch["Fetch raw studies<br/>scripts/fetch_trials_raw.py"]
@@ -31,18 +39,28 @@ flowchart LR
         lexical["Lexical retrieval<br/>Postgres full-text search"]
         semantic["Semantic retrieval<br/>pgvector similarity"]
         fused["Fused ranking<br/>weighted lexical + semantic"]
+        ask["Grounded answer generation<br/>/api/v1/ask"]
+    end
+
+    subgraph runtime["Query Pipeline"]
+        chat["Chat question<br/>homepage or trial detail"]
+        infer["Infer / apply scope from question<br/>plus any explicit filters"]
+        retrieve["Run fused retrieval<br/>top chunk evidence"]
+        answer["Generate grounded answer<br/>OpenAI responses API"]
+        render["Render answer + matched trials<br/>+ evidence snippets + citations"]
     end
 
     subgraph client["Client / Consumer"]
         user["User / frontend client"]
-        endpoints["API endpoints<br/>/api/v1/search<br/>/api/v1/search/semantic<br/>/api/v1/search/fused"]
+        ui["FastAPI-served chat-first UI<br/>finder, detail, ask, citations"]
+        endpoints["API endpoints<br/>search, semantic, fused, ask,<br/>trial detail, ingestion jobs"]
     end
 
-    subgraph nextlayer["Next Layer"]
-        answer["Grounded answer generation<br/>retrieve chunks -> synthesize -> cite fields"]
-    end
+    job_api --> redis
+    redis --> worker
 
     source --> fetch
+    worker --> fetch
     fetch --> files
     fetch --> normalize
     normalize --> validate
@@ -54,26 +72,40 @@ flowchart LR
     chunk --> db
     embed --> db
 
+    user --> ui
     user --> endpoints
+    ui --> api
     endpoints --> api
+    ui --> chat
+    chat --> infer
+    infer --> api
     api --> filters
     filters --> db
     db --> lexical
     db --> semantic
     lexical --> fused
     semantic --> fused
+    fused --> retrieve
+    retrieve --> answer
+    fused --> ask
+    ask --> answer
+    answer --> render
+    retrieve --> render
+    render --> ui
+    ask --> endpoints
     fused --> endpoints
-    endpoints --> answer
 ```
 
 ## How to read it
 
-1. Source records are fetched from ClinicalTrials.gov.
-2. They are normalized, validated, taxonomy-labeled, chunked, and embedded.
+1. Source records are fetched from ClinicalTrials.gov either manually or through queued ingestion jobs.
+2. The worker runs fetch, normalize, validate, chunk, embed, and load steps.
 3. The processed corpus is stored in Postgres + pgvector.
-4. The FastAPI backend applies structured filters first, then lexical and semantic retrieval.
-5. The fused layer combines those signals into one ranked result set.
-6. The next unbuilt layer is answer generation over retrieved chunks.
+4. The query pipeline starts from a chat question in the UI, then infers or applies scope before hitting the API.
+5. The FastAPI backend applies structured filters first, then lexical and semantic retrieval.
+6. The fused layer combines those signals into one ranked result set and returns top chunk evidence.
+7. The ask layer synthesizes grounded answers from retrieved evidence.
+8. The UI renders the answer together with matched trials, evidence snippets, and citations.
 
 ## Key design point
 
@@ -85,3 +117,12 @@ The retrieval stack is the core:
 - lexical retrieval handles exact term matching
 - semantic retrieval handles conceptual matching
 - fused ranking combines both transparently
+
+Queued ingestion sits beside that retrieval core so the corpus can grow without manual pipeline execution.
+
+The product surface is now chat-first, but the runtime behavior is still retrieval-first underneath:
+
+- the question drives scope and retrieval
+- retrieval produces ranked chunk evidence
+- the answer is generated from that evidence
+- the UI shows the answer and the supporting studies together

@@ -1,0 +1,453 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004322",
+          "term": "Drainage"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will be instructed to use the resources provided and follow the G4LP for the duration of the study period. Participants will also take one capsule of Release three times a day, to be taken at the beginning of or during each meal, starting on Day 1. If a dose is missed before or during a meal, participants are instructed to take the dose as soon as they remember after the meal. Participants will be advised not to exceed three capsules daily.",
+          "interventionNames": [
+            "Dietary Supplement: Release"
+          ],
+          "label": "GOLO for Life\u00ae Plan (G4LP) and Release Supplement",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "GOLO for Life\u00ae Plan (G4LP) and Release Supplement"
+          ],
+          "description": "One capsule of Release will be taken three times per day for 180 days in combination with the G4LP.",
+          "name": "Release",
+          "type": "DIETARY_SUPPLEMENT"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes",
+        "Obese",
+        "Overweight",
+        "Prediabetes"
+      ],
+      "keywords": [
+        "Type 2 Diabetes",
+        "obese",
+        "overweight",
+        "glycemic control",
+        "Prediabetes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mmoulin@kgkscience.com",
+          "name": "Marc Moulin, PhD",
+          "phone": "1-226-781-9094",
+          "phoneExt": "300",
+          "role": "CONTACT"
+        },
+        {
+          "email": "participate@kgkscience.com",
+          "name": "KGK Science Inc.",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "LaSalle",
+          "contacts": [
+            {
+              "name": "Marc Moulin, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "David Crowley, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Canada",
+          "facility": "One Retreat Wellness",
+          "geoPoint": {
+            "lat": 42.24481,
+            "lon": -83.06095
+          },
+          "state": "Ontario",
+          "status": "RECRUITING",
+          "zip": "N9H 1S4"
+        },
+        {
+          "city": "London",
+          "contacts": [
+            {
+              "email": "mmoulin@kgkscience.com",
+              "name": "Marc Moulin",
+              "phone": "1-226-781-9094",
+              "phoneExt": "300",
+              "role": "CONTACT"
+            },
+            {
+              "name": "David Crowley, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Canada",
+          "facility": "KGK Science Inc.",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          },
+          "state": "Ontario",
+          "status": "RECRUITING",
+          "zip": "N6B 3L1"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "KGK Science Inc.",
+          "name": "David Crowley, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study is to investigate the efficacy and safety of the GOLO for Life\u00ae Plan (G4LP) and Release supplementation on glycemic control and weight in overweight and obese adults with Prediabetes or Type 2 Diabetes. The change in glycemic control from baseline at Days 90 and 180 following the G4LP and supplementation with Release will be assessed. Additionally, the safety and tolerability of the G4LP and Release supplementation will be measured by the occurrence of and/or changes in pre-emergent and post-emergent adverse events (AEs)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Males and females between the age of 18-75 years, inclusive, at screening\n2. BMI \u226525 kg/m2\n3. Females not of child-bearing potential, defined as those who have undergone a sterilization procedure (e.g. hysterectomy, bilateral oophorectomy, bilateral tubal ligation, complete endometrial ablation) or have been post-menopausal for at least 1 year prior to screening\n\n   Or,\n\n   Individuals of child-bearing potential must have a negative baseline urine pregnancy test and agree to use a medically approved method of birth control for the duration of the study. All hormonal birth control must have been in use for a minimum of three months prior to enrollment. Acceptable methods of birth control include:\n   * Hormonal contraceptives including oral contraceptives, hormone birth control patch (Ortho Evra), vaginal contraceptive ring (NuvaRing), injectable contraceptives (Depo-Provera, Lunelle), or hormone implant (Norplant System)\n   * Double-barrier method\n   * Intrauterine devices\n   * Non-heterosexual lifestyle or agrees to use contraception if planning on changing to heterosexual partner(s)\n   * Vasectomy of partner at least 6 months prior to screening\n   * Abstinence and agrees to use contraception if planning on becoming sexually active\n4. Prediabetes or Type 2 Diabetes with HbA1c \u22656.0% to \\<9% with stability of disease and no change in diabetic medication in the past three months, if applicable.\n5. Self-reported stable body weight in the three months prior to baseline, as assessed by the QI\n6. Motivated and ability to comply with G4LP guidelines as assessed by a Self-Motivation Questionnaire at screening (see Appendix 16.3)\n7. Agrees to maintain current lifestyle habits as much as possible throughout the study depending on ability to maintain the following: medications, supplements (unless excluded), and sleep\n8. Willingness and ability to complete questionnaires, records, and diaries associated with the study, adhere to dietary and exercise guidelines, and to complete all clinic visits\n9. Provided voluntary, written, informed consent to participate in the study\n\nExclusion Criteria:\n\n1. Individuals who are pregnant, breast feeding, or planning to become pregnant during the study\n2. Allergy, sensitivity, or intolerance to the investigational product ingredients\n3. Type 1 diabetes\n4. Type 2 diabetes if on insulin treatment\n5. Gastric bypass surgery or other surgeries to induce weight loss\n6. Current participation or participation within the last three months in any weight loss or diet programs\n7. Current or history of eating disorders, as assessed by the QI\n8. Obesity-induced by metabolic or endocrinologic disorders (ex. acromegaly, hypothalamic obesity), as assessed by the QI\n9. Current or history of significant diseases of the gastrointestinal tract, as assessed by the QI\n10. Chronic inflammatory diseases, as assessed by the QI\n11. History of gout and have had a flare up within 12 months, as assessed by the QI\n12. Current unstable diagnosis with kidney and/or liver diseases as assessed by the QI on a case-by-case basis, with the exception of history of kidney stones in participants who are symptom free for 6 months\n13. Self-reported confirmation of current or pre-existing thyroid condition. Treatment on a stable dose of medication for at least 3 months will be considered by the QI\n14. Major surgery in the past 3 months or individuals who have planned surgery during the course of the study. Participants with minor surgery will be considered on a case-by-case basis by the QI\n15. Cancer, except skin basal cell carcinoma completely excised with no chemotherapy or radiation with a follow up that is negative. Volunteers with cancer in full remission for more than five years after diagnosis are acceptable\n16. Current use of any prescribed or over-the counter medications and/or supplements that may affect glycemic control, body weight, or metabolism, as assessed by the QI\n17. Regular use of tobacco products within 6 months of baseline and during the study period, as assessed by the QI\n18. Chronic inhalation and edible use of cannabinoid products (\\>1 time/month). Occasional users must agree to wash out and abstain during the study period\n19. Alcohol intake average of \\>2 standard drinks per day\n20. Alcohol or drug abuse within the last 12 months\n21. Clinically significant abnormal laboratory results at screening, as assessed by the QI\n22. Blood donation 30 days prior to baseline, during the study, or a planned donation within 30 days of the last study visit\n23. Participation in other clinical research studies 30 days prior to baseline, as assessed by the QI\n24. Individuals who are unable to give informed consent\n25. Any other condition or lifestyle factor, that, in the opinion of the QI, may adversely affect the participant's ability to complete the study or its measures or pose significant risk to the participant",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The Effects of the GOLO for Life\u00ae Plan With Release Supplement on Glycemic Control and Weight in Overweight and Obese Adults With Prediabetes or Type 2 Diabetes",
+      "nctId": "NCT05844644",
+      "officialTitle": "An Open Label Study Evaluating the Effects of the GOLO for Life\u00ae Plan With Release Supplement on Glycemic Control and Weight in Overweight and Obese Adults With Prediabetes or Type 2 Diabetes",
+      "orgStudyIdInfo": {
+        "id": "22GLCFG02"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Golo"
+      }
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "measure": "The incidence of pre-emergent and post-emergent adverse events (AE).",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in heart rate (HR) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in aspartate aminotransferase (AST) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in alanine aminotransferase (ALT) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in alkaline phosphatase (ALP) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in total bilirubin after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in creatinine after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "description": "Electrolytes to be measured include sodium, potassium, and chloride.",
+          "measure": "Clinically relevant changes in electrolytes after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in estimated glomerular filtration rate (eGFR) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "description": "White blood cells to be measured include neutrophils, lymphocytes, monocytes, eosinophils, basophils.",
+          "measure": "Clinically relevant changes in white blood cell (WBC) count with differential after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in red blood cell (RBC) count after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in hemoglobin after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in hematocrit after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in platelet count after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in immature granulocytes after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in nucleated red blood cells (RBC) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in mean corpuscular volume (MCV) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in mean corpuscular hemoglobin (MCH) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in mean corpuscular hemoglobin concentration (MCHC) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        },
+        {
+          "measure": "Clinically relevant changes in red cell distribution width (RDW) after 180 days.",
+          "timeFrame": "baseline to day 180"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "The change in glycemic control as measured by serum glucose levels from baseline at Days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in glycemic control as measured by HbA1c from baseline at Days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in glycemic control as measured by insulin from baseline at Days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in glycemic control as measured by HOMA-IR from baseline at Days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in glycemic control as measured by change in weight (kilograms) from baseline at Days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in glycemic control as measured by change in weight (percentage of total weight) from baseline at Days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The change in body mass index (BMI) from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in sagittal abdominal diameter (SAD) from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in waist circumference from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in hip circumference from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in arm circumference from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in thigh circumference from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in waist-to-hip ratio from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "description": "Measures of lipid levels to be assessed include triglycerides (TG), total cholesterol (TC), high-density lipoprotein cholesterol (HDL-C), non-HDL-C, low-density lipoprotein cholesterol (LDL-C), TC:HDL-C, TG:HDL-C, and LDL-C:HDL-C ratios.",
+          "measure": "The change in lipid levels from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "measure": "The change in blood pressure from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "description": "Inflammatory markers to be measured include high sensitivity C-reactive protein (hsCRP), erythrocyte sedimentation rate (ESR), interleukin 6 (IL-6), and tumor necrosis factor alpha (TNF-\u03b1).",
+          "measure": "The change in inflammatory markers from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        },
+        {
+          "description": "Quality of life will be assessed by the RAND Corporation Short Form (SF)-36 questionnaire.",
+          "measure": "The change in quality of life from baseline at days 90 and 180 following the G4LP and supplementation with Release.",
+          "timeFrame": "baseline, day 90, day 180"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "KGK Science Inc."
+        }
+      ],
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Golo"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-07-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-25",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-11",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-04-20",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-07",
+      "studyFirstPostDateStruct": {
+        "date": "2023-05-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-04-13",
+      "studyFirstSubmitQcDate": "2023-04-25"
+    }
+  }
+}

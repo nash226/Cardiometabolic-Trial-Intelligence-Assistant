@@ -1,0 +1,314 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005502",
+          "term": "Food"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        },
+        {
+          "id": "D019602",
+          "term": "Food and Beverages"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000092965",
+          "term": "Food, Processed"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2024-12-19",
+          "filename": "Prot_SAP_001.pdf",
+          "hasIcf": false,
+          "hasProtocol": true,
+          "hasSap": true,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "size": 929063,
+          "typeAbbrev": "Prot_SAP",
+          "uploadDate": "2025-02-27T17:39"
+        }
+      ]
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will be provided with shopping lists and menus for the two arms of the diet intervention.",
+          "interventionNames": [
+            "Behavioral: Diet containing 80% ultra processed foods"
+          ],
+          "label": "80% Ultra processed",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will be provided with shopping lists and menus for the two arms of the diet intervention.",
+          "interventionNames": [
+            "Behavioral: Diet containing 20% ultra processed foods"
+          ],
+          "label": "20% Ultra processed",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "80% Ultra processed"
+          ],
+          "description": "Very high ultra-processed food diet where 80% of calories are coming from ultra processed food",
+          "name": "Diet containing 80% ultra processed foods",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "20% Ultra processed"
+          ],
+          "description": "Low ultra processed food diet where 20% of the calories are coming from ultra processed food",
+          "name": "Diet containing 20% ultra processed foods",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity and Overweight"
+      ],
+      "keywords": [
+        "Obesity",
+        "Ultra processed Food",
+        "Energy balance"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "fmz2105@cumc.columbia.edu",
+          "name": "Faris M Zuraikat, PhD",
+          "phone": "212 305 9379",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "New York",
+          "contacts": [
+            {
+              "name": "Faris M Zuraikat, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Faris M Zuraikat, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Columbia University Irving Medical Center",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "status": "RECRUITING",
+          "zip": "10032"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Columbia University",
+          "name": "Faris M Zuraikat, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Ultra processed food is everywhere in modern society and may contain multiple ingredients that affect the way participants' bodies store energy. Some studies have shown that eating a diet high in ultra processed foods leads to weight gain, but these foods have not been studied enough to understand why. Recently, the gut microbiome has become a potential way to measure energy balance in the human body; this is done by measuring how many calories are in the stool. The investigators propose to test a very high ultra-processed food diet where 80% of calories are coming from ultra processed food and a low ultra processed food diet where 20% of the calories are coming from ultra processed food. This study will compare stool sample energy content of the two diets.",
+      "detailedDescription": "This study will recruit people with obesity who are otherwise healthy to participate in this study. Each person will go through baseline testing before starting any of the diets. This consists of one blood draw, one metabolic test which requires each person to remain awake in a small, enclosed room that measures oxygen and carbon dioxide consumption, and one body composition test. Participants will also meet with a study dietitian to review their diet, how to track their diet, and how to collect and ship the stool samples. Each person will be assigned to either 80% or 20% level of ultra processed food in the diet to start and will continue this diet for two weeks. After the first diet phase, each participant will enter a washout period where they will return to eating however they wish and will not need to participate in any research activities. After the two weeks, each participant will return to begin another series of tests and begin the second two-week diet phase. The whole study will take approximately 9 weeks to complete."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI 30-40kg/m2\n* weight stable\n* able to download app and willing to use it for duration of study\n* does own grocery shopping\n* otherwise healthy\n\nExclusion Criteria:\n\n* pregnancy\n* history of or planned bariatric surgery\n* history of anti obesity medications",
+      "healthyVolunteers": false,
+      "minimumAge": "25 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "UPFEH",
+      "briefTitle": "Effects of Ultra Processed Food on Intestinal Energy Harvest",
+      "nctId": "NCT06853288",
+      "officialTitle": "Effects of Ultra Processed Food on Intestinal Energy Harvest",
+      "orgStudyIdInfo": {
+        "id": "AAAV3549"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Columbia University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Stool samples",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "March 8, 2025 - March 8, 2026"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Bloods drawn at each timepoint will be assayed for overlapping metabolic markers",
+          "measure": "Insulin, glucose, serum lipid and lipoproteins (mg/dl)",
+          "timeFrame": "2 weeks"
+        },
+        {
+          "description": "Bloods drawn at each timepoint will be assayed for overlapping metabolic markers",
+          "measure": "C-peptide (ng/ml)",
+          "timeFrame": "2 weeks"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Amount of calories absorbed from diet will be the difference from energy intake - calories in stool",
+          "measure": "Fecal energy loss",
+          "timeFrame": "2 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change in types of microbial taxa from baseline to end of diet period",
+          "measure": "Microbial taxa",
+          "timeFrame": "2 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "UNKNOWN",
+          "name": "UNC Gillings School of Global Public Health"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Columbia University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Columbia University",
+        "investigatorFullName": "Faris M Zuraikat, PhD",
+        "investigatorTitle": "Assistant Professor of Nutritional Medicine",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-30",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-03-30",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-09",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-02-25",
+      "studyFirstSubmitQcDate": "2025-02-25"
+    }
+  }
+}

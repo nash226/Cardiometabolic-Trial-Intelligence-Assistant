@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07073417:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07073417\nBrief title: A Study to Compare XW003 Injection and Semaglutide Injection in Chinese Adults With Obesity (SLIMMER-UP-SWITCH)\nOfficial title: A Multicenter, Randomized, Open-label, Treatment Switching Phase II Study to Evaluate the Efficacy and Safety of XW003 Injection and Semaglutide Injection in Chinese Adults With Obesity\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT07073417"
+    },
+    {
+      "chunk_id": "NCT07073417:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity; Weight Management\nIntervention labels: XW003 injection; semaglutide injection\nDrug class labels: glp1_receptor_agonist\nArms: XW003; semaglutide\nKeywords: Weight management; obesity; XW003; glucagon-like peptide-1 (GLP-1); ecnoglutide; semaglutide",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT07073417"
+    },
+    {
+      "chunk_id": "NCT07073417:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of the study is to compare the efficacy and safety of XW003 injection versus semaglutide injection in Chinese adults with obesity\nDetailed description: In this Phase II study, eligible participants will be randomized into one of the two cohorts in a 1:1 ratio to receive once-weekly subcutaneous XW003 injection or semaglutide injection, including a dose-escalation period, a core treatment period and a treatment extension period, for up to 60 weeks.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 74,
+      "trial_nct_id": "NCT07073417"
+    },
+    {
+      "chunk_id": "NCT07073417:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* BMI\u226530 kg/m2 at screening, waist circumference \u226590 cm for men and \u226585 cm for women.\n* Weight change of less than 5% within 3 months prior to screening (self-reported).\n\nExclusion Criteria:\n\n* Diagnosis of obesity due to endocrine disorders or a single gene mutation, including but not limited to hypothalamic obesity, pituitary obesity, Cushing's syndrome, hypothyroidic obesity (except for those with normal thyroid function at screening and expected to remain unchanged throughout the trial period after at least 3 months of thyroid hormone replacement therapy), insulinoma, acromegaly.\n* History of bariatric surgery or planning to undergo bariatric surgery or use other weight-loss drugs or devices during the trial (except acupuncture for weight loss, liposuction, or abdominal fat removal for more than one year before screening; Except the removal or expulsion of the airbag in the stomach for more than 1 year before screening.\n* Diagnosis with any type of diabetes (except gestational diabetes).\n* Have used any weight-loss drugs, hypoglycemic drugs, or drugs that may cause significant weight gain within 3 months prior to screening.\n* History of acute or chronic pancreatitis or pancreatic injury, history of symptomatic gallbladder disease (except cholecystectomy).\n* History of clinically significant gastric emptying abnormalities, such as gastroparesis or gastric outlet obstruction.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 228,
+      "trial_nct_id": "NCT07073417"
+    },
+    {
+      "chunk_id": "NCT07073417:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage change in body weight relative to baseline | time_frame=week 48\ntype=secondary | measure=Proportions of participants with weight loss \u22655% from baseline | time_frame=week 48\ntype=secondary | measure=Proportions of participants with weight loss \u226510% from baseline | time_frame=week 48\ntype=secondary | measure=Proportions of participants with weight loss \u226515% from baseline | time_frame=week 48\ntype=secondary | measure=The change in waist circumference relative to the baseline | time_frame=week 48\ntype=secondary | measure=Changes in body mass index (BMI) relative to baseline | time_frame=week 48",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 83,
+      "trial_nct_id": "NCT07073417"
+    },
+    {
+      "chunk_id": "NCT07073417:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-07-28\nPrimary completion date: 2027-02-27\nCompletion date: 2027-08-23\nStudy first posted: 2025-07-18\nResults first posted: None\nLast update posted: 2025-08-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07073417"
+    },
+    {
+      "chunk_id": "NCT07073417:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Hangzhou Sciwind Biosciences Co., Ltd.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT07073417"
+    }
+  ],
+  "trial_nct_id": "NCT07073417"
+}

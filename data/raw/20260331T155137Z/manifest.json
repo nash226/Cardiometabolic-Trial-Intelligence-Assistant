@@ -1,0 +1,74 @@
+{
+  "api_base_url": "https://clinicaltrials.gov/api/v2/studies",
+  "config": {
+    "delay_seconds": 0.25,
+    "filter_advanced": null,
+    "filter_overall_status": [
+      "RECRUITING",
+      "ACTIVE_NOT_RECRUITING"
+    ],
+    "filter_phase": [
+      "PHASE2",
+      "PHASE3",
+      "PHASE4"
+    ],
+    "include_total_count": true,
+    "max_studies": 50,
+    "page_size": 25,
+    "query_cond": "MASH",
+    "query_intr": null,
+    "query_locn": null,
+    "query_term": null
+  },
+  "nct_ids": [
+    "NCT06523530",
+    "NCT06528314",
+    "NCT06632457",
+    "NCT06318169",
+    "NCT06937749",
+    "NCT07221188",
+    "NCT06410924",
+    "NCT06108219",
+    "NCT06588699",
+    "NCT07491458",
+    "NCT07325526",
+    "NCT06939816",
+    "NCT06419374",
+    "NCT06161571",
+    "NCT07249788",
+    "NCT07285850",
+    "NCT06374875",
+    "NCT07335601",
+    "NCT07308548",
+    "NCT07221227",
+    "NCT06632444",
+    "NCT07288138",
+    "NCT07058155",
+    "NCT04876638",
+    "NCT06215716",
+    "NCT07427680",
+    "NCT06920043",
+    "NCT07024212",
+    "NCT05519475",
+    "NCT07145151"
+  ],
+  "pages": [
+    {
+      "next_page_token": "ZVJj7o2Elu8o3lprWd2x5unumpOQJJxtY_Ot1P0ekA",
+      "page_number": 1,
+      "request_url": "https://clinicaltrials.gov/api/v2/studies?format=json&countTotal=true&pageSize=25&query.cond=MASH&filter.advanced=%28AREA%5BOverallStatus%5DRECRUITING+OR+AREA%5BOverallStatus%5DACTIVE_NOT_RECRUITING%29+AND+%28AREA%5BPhase%5DPHASE2+OR+AREA%5BPhase%5DPHASE3+OR+AREA%5BPhase%5DPHASE4%29",
+      "returned_study_count": 25,
+      "total_count": 30
+    },
+    {
+      "next_page_token": null,
+      "page_number": 2,
+      "request_url": "https://clinicaltrials.gov/api/v2/studies?format=json&countTotal=true&pageSize=25&query.cond=MASH&filter.advanced=%28AREA%5BOverallStatus%5DRECRUITING+OR+AREA%5BOverallStatus%5DACTIVE_NOT_RECRUITING%29+AND+%28AREA%5BPhase%5DPHASE2+OR+AREA%5BPhase%5DPHASE3+OR+AREA%5BPhase%5DPHASE4%29&pageToken=ZVJj7o2Elu8o3lprWd2x5unumpOQJJxtY_Ot1P0ekA",
+      "returned_study_count": 5,
+      "total_count": null
+    }
+  ],
+  "run_directory": "data/raw/20260331T155137Z",
+  "run_generated_at": "2026-03-31T15:51:39.294278+00:00",
+  "study_count": 30
+}

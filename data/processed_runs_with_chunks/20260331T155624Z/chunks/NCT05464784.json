@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05464784:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05464784\nBrief title: MN-001 in Non-alcoholic Fatty Liver Disease, Type 2 Diabetes Mellitus, and Hypertriglyceridemia\nOfficial title: A Phase 2, Double-Blind, Randomized, Placebo-Controlled Study to Evaluate the Safety, Tolerability and Efficacy of MN-001 in Patients Diagnosed With Non-alcoholic Fatty Liver Disease, Type 2 Diabetes Mellitus, and Hypertriglyceridemia\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 57,
+      "trial_nct_id": "NCT05464784"
+    },
+    {
+      "chunk_id": "NCT05464784:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Mellitus, Type 2; Hypertriglyceridemia; Non-Alcoholic Fatty Liver Disease\nIntervention labels: MN-001; MN-001 placebo\nDrug class labels: \nArms: MN-001; MN-001 Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT05464784"
+    },
+    {
+      "chunk_id": "NCT05464784:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The design of the Phase 2 clinical trial includes the following elements:\n\n* Multi-center, two-arm, randomized, double-blind, placebo-controlled trial to evaluate MN-001 (tipelukast) vs. placebo in approximately 40 patients in the U.S.\n* Patients will be randomized 1:1 to receive either 500 mg/day of MN-001 (tipelukast) or placebo for 24 weeks.\n* The co-primary endpoints are (1) change from baseline in liver fat content measured by controlled attenuation parameter (CAP) score at Week 24, and (2) change from baseline in fasting serum triglycerides at Week 24. FibroScan\u00ae is a non-invasive, quantitative, and accurate measure of liver fat content commonly used in early phase trials to measure treatment response.\n* Secondary endpoints include safety and tolerability and changes in lipid profile (HDL-C, LDL-C, and total cholesterol).\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 130,
+      "trial_nct_id": "NCT05464784"
+    },
+    {
+      "chunk_id": "NCT05464784:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 21 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* FibroScan\u00ae CAP score \u2265 248 dB/m within 8 weeks of randomization.\n* Diagnosis or history of Type 2 Diabetes mellitus with hemoglobin A1c (HbA1c) \\>6.5 and \u226410% at Screening.\n* Fasting serum triglycerides (TG) at Screening \\>150 mg/dL\n* On a stable dose of oral antidiabetic therapy for a minimum of 3 months prior to Screening.\n\nExclusion Criteria:\n\n* Other causes of chronic liver disease (autoimmune, primary biliary cholangitis, HBV, HCV, Wilson's, \u03b1-1-antitrypsin deficiency, hemochromatosis, biopsy-proven cirrhosis, hepatocellular carcinoma);\n* Documented history of advanced liver fibrosis\n* Evidence of cirrhosis, hepatic decompensation, portal hypertension including splenomegaly, ascites, encephalopathy and/or esophageal varices;\n* Diagnosis or history of Diabetes mellitus type 1;\n* Weight change \\>5% within last 3 months of Screening visit;\n* Active gastrointestinal disease or history of gastric bypass surgery which could interfere with the absorption of oral medication;\n* History of clinically significant acute cardiac event within 6 months of Screening;",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 174,
+      "trial_nct_id": "NCT05464784"
+    },
+    {
+      "chunk_id": "NCT05464784:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Mean change in controlled attenuation parameter (CAP) score by sound-based elastography at Week 24 | time_frame=Week 24\ntype=primary | measure=Mean change from baseline in fasting serum triglyceride levels at Week 24 | time_frame=Week 24\ntype=secondary | measure=Safety and tolerability of MN-001 | time_frame=Baseline to Week 24 | description=Incidence of adverse events, abnormal clinical laboratory results\ntype=secondary | measure=Mean change from baseline in lipids | time_frame=Baseline to Week 24 | description=Changes in lipids (HDL-C, LDL-C, total cholesterol) after MN-001 treatment for 24 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 84,
+      "trial_nct_id": "NCT05464784"
+    },
+    {
+      "chunk_id": "NCT05464784:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-08-22\nPrimary completion date: 2026-12-31\nCompletion date: 2026-12-31\nStudy first posted: 2022-07-19\nResults first posted: None\nLast update posted: 2026-02-05\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05464784"
+    },
+    {
+      "chunk_id": "NCT05464784:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: MediciNova\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 15,
+      "trial_nct_id": "NCT05464784"
+    }
+  ],
+  "trial_nct_id": "NCT05464784"
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup 04 - Notebook Flow</title>
+  <style>
+    :root {
+      --bg: #f5f0e7;
+      --ink: #222728;
+      --muted: #6c6f72;
+      --paper: #fffefb;
+      --line: #d8d0c1;
+      --accent: #2d6f9f;
+      --accent-soft: #e3f0fa;
+      --shadow: 0 18px 50px rgba(70, 55, 30, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Palatino Linotype", "Book Antiqua", serif;
+      color: var(--ink);
+      background:
+        repeating-linear-gradient(180deg, #f7f2e9 0, #f7f2e9 34px, #f2ebdf 34px, #f2ebdf 35px);
+    }
+    .shell {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 30px 18px 46px;
+      display: grid;
+      gap: 18px;
+    }
+    .header {
+      display: grid;
+      gap: 8px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: clamp(2.6rem, 6vw, 4.8rem);
+      letter-spacing: -0.05em;
+    }
+    .header p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 54ch;
+      line-height: 1.6;
+    }
+    .sheet {
+      background: rgba(255, 254, 251, 0.95);
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      box-shadow: var(--shadow);
+      padding: 22px;
+      display: grid;
+      gap: 20px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: white;
+      padding: 14px;
+      font: inherit;
+      line-height: 1.5;
+    }
+    .row,
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .filter {
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #285778;
+      font-size: 0.86rem;
+    }
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 11px 15px;
+      font: inherit;
+      cursor: pointer;
+      background: var(--accent);
+      color: white;
+    }
+    .entry {
+      border-left: 3px solid var(--accent);
+      padding-left: 16px;
+      display: grid;
+      gap: 8px;
+    }
+    .entry small {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .block {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      background: white;
+      display: grid;
+      gap: 10px;
+    }
+    .block h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .muted {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    @media (max-width: 860px) {
+      .columns { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="header">
+      <h1>Notebook Flow</h1>
+      <p>A research notebook style where the conversation, inferred filters, and cited evidence read like one continuous analysis page.</p>
+    </section>
+
+    <section class="sheet">
+      <textarea>Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
+      <div class="row">
+        <button>Run analysis</button>
+      </div>
+
+      <div class="entry">
+        <small>question</small>
+        <div>Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</div>
+      </div>
+
+      <div class="entry">
+        <small>answer</small>
+        <div>NCT06893016 is the closest obesity-specific match, but explicit incretin labeling is missing in the current evidence. NCT07314684 supplies the clearest GLP-1 signal, though it is primarily a type 2 diabetes study.</div>
+      </div>
+
+      <div class="filters">
+        <span class="filter">obesity</span>
+        <span class="filter">PHASE3</span>
+        <span class="filter">2026 relevant</span>
+        <span class="filter">GLP-1 intent</span>
+      </div>
+
+      <div class="columns">
+        <div class="block">
+          <h2>Studies</h2>
+          <strong>NCT06893016</strong>
+          <p class="muted">Phase 3 obesity trial with 2026 completion milestones.</p>
+          <strong>NCT07314684</strong>
+          <p class="muted">GLP1-RA signal is explicit in the trial title and summary.</p>
+        </div>
+        <div class="block">
+          <h2>Evidence</h2>
+          <p class="muted">Conditions and Interventions: RAY1225; Placebo</p>
+          <p class="muted">Status and Identity: GLP1-RAs Effects on Inflammatory and Endothelial Biomarkers in T2DM</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06539494:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06539494\nBrief title: Luminal Fructose Kinetics (MARTINI Study)\nOfficial title: Luminal Fructose Kinetics (MARTINI) (2024)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06539494"
+    },
+    {
+      "chunk_id": "NCT06539494:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: MASLD\nIntervention labels: Omeprazole 40 MG\nDrug class labels: \nArms: Healthy volunteer; Sujbects with MASLD\nKeywords: Fructose; MASLD; Ethanol",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT06539494"
+    },
+    {
+      "chunk_id": "NCT06539494:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: In this study the investigators aim is to explore the dynamics of (small) intestinal fructose catabolism in humans and ethanol production in relation to small intestinal signalling pathways and changes in pH, using 13C fructose isotope tracing techniques complemented with direct luminal sampling via small intestinal catheter in biopsy proven MASLD/MASH patients vs healthy (BMI\\<25) subjects. Additionally the investigators will repeat the experiment after four weeks of administering omeprazole at a dose of 40 mg twice daily. Omeprazole is a proton pump inhibitor, known to elevate pH from 2-6.\nDetailed description: The investigators will perform a non blinded single centre intervention study in 2x 11 participants\n\nParticipants will be either healthy volunteers with a BMI \\< 25 and Age 18-65 or patients with MASLD with a BMI \\>25, Age 18-65\n\nThe objective of the investigators is to study the fructose host/microbial kinetics in humans and to establish the role of (small) intestinal pH on fructose fermentation and endogenous ethanol production in a MASLD/MASH population versus healthy subjects\n\nSubjects will be given omeprazole orally given twice a day 40mg for four weeks\n\nAt baseline and after four weeks of omeprazole, a fructose challenge test with labelled fructose and fomepizole and a gastroscopy will be performed, during which a nasal-intestinal catheter will be placed to allow for luminal sampling during the fructose challenge test.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 224,
+      "trial_nct_id": "NCT06539494"
+    },
+    {
+      "chunk_id": "NCT06539494:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\nIn case of the healthy subject group:\n\n* Adult individuals, age \\> 18 \\<65 years\n* Male or postmenopauzal females\n* BMI \\<25\n* Ability to give informed consent In case of the MASLD/MASH group\n* Adult individuals, age \\> 18 \\<65 years\n* Male or postmenopauzal females\n* BMI \\> 25\n* Biopsy proven MASLD/MASH\n* Ability to give informed consent\n\nExclusion Criteria:\n\n* History of sustained excess alcohol ingestion: daily consumption \\>30g/day (3 drinks per day) for males and \\>20 g/day (2 drinks per day) for females\n* Patients with diabetes\n* Bariatric surgery\n* Other forms of liver disease (e.g. Hepatitis B,C, Wilson disease, hemochromatosis)\n* Proton-pump inhibitor usage one year prior to study participation\n* GLP1, SGLT2i or insulin use\n* Antibiotic use for the past 3 months\n* Probiotic or symbiotic usage\n* Pregnant women\n* Chronic illness (including a known history of heart failure, renal failure (eGFR \\<30 ml/min), pulmonary disease, gastrointestinal disorders, or hematologic diseases), or other inflammatory diseases\n* Active infection\n* Use of ascal, clopidogrel or other platelet inhibition\n* Smoking\n* Blood thinners\n* Heart failure",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 206,
+      "trial_nct_id": "NCT06539494"
+    },
+    {
+      "chunk_id": "NCT06539494:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Changes in ethanol concentrations before and after omeprazol usage | time_frame=four weeks | description=mM (serum, intestinal fluid, urine and feces)\ntype=primary | measure=Changes in fructose concentrations in peripheral blood before and after omeprazol usage | time_frame=4 weeks | description=Area under the curve of fructose in peripheral blood upon ingestion of 1 gram / kg unlabeled fructose in combination with 1000mg of D-fructose-13C6 measured during fructose challange test\ntype=primary | measure=Changes in fructose metabolites in breath before and after omeprazol usage | time_frame=4 weeks | description=Area under the curve of various metabolites (e.g. ethanol) will be measured in breath samples upon ingestion of 1 gram / kg unlabeled fructose in combination with 1000mg of D-fructose-13C6 measured during fructose challange test\ntype=primary | measure=Fructose metabolites in feces before and after omeprazol usage | time_frame=4 weeks | description=Using 24h feces, the investigators will measure fecal concentrations of fructose metabolites such as ethanol, as well as short chain fatty acids (SCFAs) and bile acids.\ntype=primary | measure=Fructose metabolites in urine | time_frame=4 weeks | description=Using 24h urine, the investigators will measure fecal concentrations of fructose metabolites such as ethanol, as well as SCFAs and bile acids.\ntype=primary | measure=Changes in serum glucose concentrations before and after omeprazol | time_frame=4 weeks | description=mmol/l measured during fructose challange test\ntype=secondary | measure=Changes in microbiota composition in luminal samples | time_frame=four weeks | description=changes in relative abundance (%) of bacterial phyla, genera and species between groups and after intervention with omeprazol measured by 16sRNA sequencing and shotgun metagenome analysis\ntype=secondary | measure=Changes in dietary intake | time_frame=four weeks | description=Participants are asked to fill out an online dietary questionnaire for the 3 days prior to study visits\ntype=secondary | measure=Bioreactor analyses | time_frame=four weeks | description=Using specific anaerobic culturing, ethanol production of fecal samples will be assessed of bacterial strains.\ntype=secondary | measure=Changes in Oral microbiota composition | time_frame=four weeks | description=changes in relative abundance (%) of bacterial phyla, genera and species between groups and after intervention with omeprazol measured by 16sRNA sequencing.\ntype=secondary | measure=Differences in gene expression in small intestinal biopsies | time_frame=4 weeks | description=measured by RNA sequencing\ntype=secondary | measure=Changes in Fecal microbiota composition | time_frame=4 weeks | description=changes in relative abundance (%) of bacterial phyla, genera and species between groups and after intervention with omeprazol measured by 16sRNA sequencing and shotgun metagenome analysis\ntype=secondary | measure=Changes in abundance of post prandial plasma metabolites | time_frame=4 weeks | description=Postprandial plasma samples will be prepared for the analysis of mainly: organic acids, amino acids, fatty acids, uric acid, glucose and fructose before and after intervention with omeprazol",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 435,
+      "trial_nct_id": "NCT06539494"
+    },
+    {
+      "chunk_id": "NCT06539494:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-07-01\nPrimary completion date: 2026-01\nCompletion date: 2026-04\nStudy first posted: 2024-08-06\nResults first posted: None\nLast update posted: 2024-08-06\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06539494"
+    },
+    {
+      "chunk_id": "NCT06539494:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT06539494"
+    }
+  ],
+  "trial_nct_id": "NCT06539494"
+}

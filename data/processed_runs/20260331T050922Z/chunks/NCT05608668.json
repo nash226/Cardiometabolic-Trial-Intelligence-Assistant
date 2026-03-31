@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05608668:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05608668\nBrief title: Inspiratory Pulmonary Rehabilitation for Children With Obesity and Asthma\nOfficial title: Inspiratory Pulmonary Rehabilitation for Children With Obesity and Asthma\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT05608668"
+    },
+    {
+      "chunk_id": "NCT05608668:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Pediatric Obesity; Pediatric Asthma\nIntervention labels: Pro2 - 60% of participant's MIP; Pro2 - 15% of participant's MIP\nDrug class labels: \nArms: Active inspiratory muscle rehabilitation (IMR) group; SHAM\nKeywords: Asthma; Obesity; Pediatric",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT05608668"
+    },
+    {
+      "chunk_id": "NCT05608668:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a single-center, randomized, SHAM-controlled, parallel assignment, double-masked,8-week interventional study among children aged 8-17 years (not yet 18 years old) of age with obesity and asthma. (n=60), recruited from Duke Health Center Creekstone, to test the effectiveness of inspiratory muscle rehabilitation (IMR) as an acceptable add-on intervention to reduce dyspnea (feeling short-of-breath or breathless) and to promote greater activity in children with obesity and asthma.\n\nClinic to test the effectiveness of inspiratory muscle rehabilitation (IMR) as an acceptable add-on intervention to reduce dyspnea (feeling short-of-breath or breathless) and to promote greater activity in children with obesity\nDetailed description: Asthma is a chronic respiratory disease affecting roughly 8% of US children, and is characterized by intermittent symptoms of breathlessness/dyspnea, chest tightness, wheeze, and cough. Although asthma is currently the most common chronic disease in childhood, there are no cures and the underlying etiologies of the various asthma phenotypes still remain unclear. More than half of the 7-8 million pediatric asthma patients in the US have one or more exacerbations each year. A sizable component of asthma's impact on children stems from the recurrent mild-moderate symptoms that cause impaired quality-of-life, activity limitation and exercise avoidance. Uncontrolled asthma frequently disrupts quality of life and is the #1 reason that children miss school and avoid physical activity. Among children with asthma, obesity is a major risk factor for disruptive asthma symptoms. Asthma is conventionally thought to stem from inflammation in the lower airways. However, despite the widespread availability of anti-inflammatory inhaled corticosteroid (ICS) drugs, uncontrolled asthma remains extremely common and appears to be less effective in obese patients.\n\nPediatric obesity is a risk factor for both new-onset asthma and asthma that has more frequent and refractory symptoms. We found that pediatric obesity increases the risk for spirometry-confirmed asthma by nearly 30%. The mechanistic link between obesity and uncontrolled asthma remains unknown. In general, asthmatic children who are obese experience a reduced response to daily preventative ICS. Pediatric obesity has repeatedly been associated with more frequent and severe asthma symptoms, greater airflow obstruction, need for more frequent albuterol use, and more frequent and severe exacerbations. A consistent finding across most studies of children with both obesity and asthma has been an obesity-related increase in the frequency of chronic asthma symptoms (specifically dyspnea) and asthma-related activity limitation. We found that the greater asthma symptoms seen in obese versus non-obese children were primarily attributable to excess symptoms of dyspnea. Obese adolescents with asthma most commonly report that dyspnea is their most problematic asthma symptom. We hypothesize that the increased asthma symptom reporting in obese asthma, stems not from airway inflammation but rather obesity-related impaired breathing mechanics (i.e. chest restriction). Because of the reduced response to conventional asthma drugs and the resulting excess symptoms, there is a critical need for new treatment approaches for obese children with asthma that is guided by improved mechanistic understanding of this difficult phenotype.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 484,
+      "trial_nct_id": "NCT05608668"
+    },
+    {
+      "chunk_id": "NCT05608668:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 8 Years\nMaximum age: 17 Years\nAge groups: CHILD\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Documented informed consent from legal guardian and assent from participant as appropriate.\n* Children 8 to 17 years of age with obesity (BMI \u2265 95th percentile for age and sex) and mild asthma.\n* Participants (or parent/guardian) must have access to the internet and an approved smart device/computer.\n* Child must have a designated caregiver who expresses a commitment to encourage the participant to complete the study procedures.\n* Participant and legal guardian must speak and read English.\n* Child is currently taking prescription medicine for asthma (Any type of albuterol or inhaled steroid)\n\nExclusion Criteria:\n\n* Prior intubation for asthma\n* Current self-reported pregnancy or planning to become pregnant.\n* Have an FEV1 \\< 50% of predicted at screening\n* History of lung surgery in the past two years,\n* History of pulmonary embolism in the past two years,\n* Any history of recurrent spontaneous pneumothorax, or pneumothorax in the past 12 months\n* Current undiagnosed chest pain,\n* History of inner ear surgery in the past 12 months,\n* Undiagnosed syncopal episodes in the past two years,\n* Progressive neurological or neuromuscular disorders or need for chronic O2 therapy.\n* Inability to complete baseline measurements satisfactorily according to the research coordinator's or PI's judgment.\n* Any condition in the opinion of the PI that would not allow safe conduct of study procedures (including IMR, MIP testing or step-test), such as a physical disability, recent musculoskeletal injury or illness, current and ongoing evaluation for undiagnosed cardiopulmonary or neurologic symptoms",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 270,
+      "trial_nct_id": "NCT05608668"
+    },
+    {
+      "chunk_id": "NCT05608668:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Adherence to active IMR Adherence to active IMR | time_frame=approximately 2 months | description=Prevalence of IMR completion (actual / planned reps over intervention period) in active IMR group\ntype=primary | measure=Participant satisfaction among active IMR participants | time_frame=approximately 2 months | description=Prevalence of agree or strongly agree to question of satisfaction with active IMR\ntype=primary | measure=Prevalence of completer status | time_frame=approximately 2 months | description=Completion of study Visit 3\ntype=secondary | measure=Demonstrate changes in inspiratory muscle function with IMR. | time_frame=approximately 2 months | description=Change in maximum inspiratory pressure (MIP) over intervention period\ntype=secondary | measure=Demonstrate changes in respiratory symptoms following IMR. | time_frame=approximately 2 months | description=Participants are asked every week during the follow up calls if there are any health improvements\ntype=other | measure=Demonstrate the safety of IMR | time_frame=approximately 2 months | description=Participants are asked every week during the follow up calls if there are any adverse events",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 154,
+      "trial_nct_id": "NCT05608668"
+    },
+    {
+      "chunk_id": "NCT05608668:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-07-27\nPrimary completion date: 2026-06\nCompletion date: 2026-06\nStudy first posted: 2022-11-08\nResults first posted: None\nLast update posted: 2025-08-22\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05608668"
+    },
+    {
+      "chunk_id": "NCT05608668:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Duke University\nLead sponsor class: OTHER\nCollaborators: American Lung Association\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT05608668"
+    }
+  ],
+  "trial_nct_id": "NCT05608668"
+}

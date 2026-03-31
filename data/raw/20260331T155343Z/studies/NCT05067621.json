@@ -1,0 +1,494 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006943",
+          "term": "Hyperglycemia"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D018149",
+          "term": "Glucose Intolerance"
+        },
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        },
+        {
+          "id": "D063766",
+          "term": "Pediatric Obesity"
+        },
+        {
+          "id": "D011236",
+          "term": "Prediabetic State"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Semaglutide (Wegovy) pen is a subcutaneous injection",
+          "interventionNames": [
+            "Drug: Semaglutide Pen Injector"
+          ],
+          "label": "Receive treatment",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The placebo pen is almost exactly the same as the Wegovy subcutaneous injection except it does not contain the active ingredient, Semaglutide.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Receive treatment"
+          ],
+          "description": "Semaglutide (Wegovy) pen is a subcutaneous injection that contains 2.4mg/0.75mL of active ingredient. The injection pen can deliver doses of 0.24mg, 0.5mg, 1.0mg, 1.7mg, and 2.4mg.",
+          "name": "Semaglutide Pen Injector",
+          "otherNames": [
+            "Wegovy"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Injection pen contains excipients.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Impaired Glucose Tolerance",
+        "Non-Alcoholic Fatty Liver Disease",
+        "Obesity, Childhood"
+      ],
+      "keywords": [
+        "Prediabetes",
+        "NAFLD",
+        "Impaired Glucose Tolerance",
+        "Semaglutide"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "julie.holub@yale.edu",
+          "name": "Julie Holub",
+          "phone": "203-785-5692",
+          "role": "CONTACT"
+        },
+        {
+          "email": "theresa.goddard@yale.edu",
+          "name": "Theresa Goddard",
+          "phone": "203-785-5692",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "New Haven",
+          "contacts": [
+            {
+              "email": "sonia.caprio@yale.edu",
+              "name": "Sonia Caprio, MD",
+              "phone": "2037855692",
+              "role": "CONTACT"
+            },
+            {
+              "email": "alfonso.galderisi@yale.edu",
+              "name": "Alfonso Galderisi, MD",
+              "phone": "2037855692",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Pediatric Diabetes Center",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          },
+          "state": "Connecticut",
+          "status": "RECRUITING",
+          "zip": "06511"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Yale University",
+          "name": "Sonia Caprio, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to understand the role of GLP-1 in the pathogenesis of T2D in youth and explore their potential salutary effects and ability to delay the progressive loss of \u00df-cell function and reduce hepatic steatosis in youth with prediabetes/new onset T2D and NAFLD.",
+      "detailedDescription": "In a recent publication by the TODAY Group Study, it was reported that \"diabetes-related complications appear early in youth-onset T2D and accumulate rapidly at a mean age of 26.4 years,\" and 60.1% of participants developed at least one microvascular complication. The same has been reported in RISE Studies and was suggested that the rapid decline in \u03b2-cell function and its insensitivity to two of the most frequently used treatments for T2D in pediatrics is further aggravated by the rising prevalence in NAFLD. These alarming results indicate a pressing need for effective and innovative approaches at preserving \u03b2-cell function and reducing hepatic steatosis in obese youth in order to prevent disease progression and associated complications.\n\nThis study will provide mechanistic insights in support of a GLP-1 analog, Semaglutide, 2.4 mg weekly, therapy for prediabetes, new onset T2D and NAFLD in youth. The study design is a randomized, double-blind, placebo-controlled, clinical trial (RCT) using Semaglutie (Wegovy up to 2.4mg) for 6 months followed by a wash-out period of 3 months."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants will undergo baseline tests at the beginning of the study and will be randomized to receive experimental drug or placebo. Dose escalation will be achieved within 16 weeks to reach up to 2.4mg of Semaglutide, weekly, which they will be on for 6 months. All tests will be repeated after 6 months of treatment followed by a wash-out period of 3 months, after which the same tests will be repeated.",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Yale Investigational Drug Services Pharmacy will handle the masking of drug and placebo pens.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Subjects diagnosed with Pre-impaired glucose tolerance (pre-IGT) (2h glucose \u2265 130 mg/dl to \u2264 200 mg/dl post-OGTT) OR impaired glucose tolerance (2h glucose \u2265140 to \\<200 mg/dl post-OGTT OR HbA1c \u22655.7% to \\<6.5%), OR new-onset T2D (\u226424 months duration, 2h glucose \\>200 and HbA1c \\>6.5% to10%) treated with stable metformin dose (stable metformin dose is defined as at least 1000 mg daily or the maximum tolerated dose for 12 months or less)\n* PDFF of \u2265 8%\n* Male or female, aged 10 to \\<21 years at the day of randomization, in puberty (pubertal stage will be assessed by pediatric Endocrinologists Dr. Samuels and Dr. Hu) (girls and boys: Tanner stage II-IV); girls who begin menstruating must have a negative pregnancy test during the study\n* Weight \u2265 54kg\n* BMI \u2265 85% but \u2264 40 kg/m2\n* Good general health (normal kidney function, amylase, and lipase levels)\n* Informed consent from a legally acceptable representative (LAR) and child assent from the subject obtained before any trial-related activities (trial-related activities are any procedures that are carried out as part of the trial, including activities to determine suitability for the trial)\n* Ability and willingness to adhere to the protocol including self-measurement of plasma glucose according to the protocol.\n\nExclusion Criteria\n\n* Known or suspected hypersensitivity to trial product(s) or related products.\n* Receipt of any investigational medicinal product within 30 days before screening.\n* Prepubertal participants (Tanner stage 1)\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of childbearing potential and not using highly effective contraceptive methods.\n* Having a diagnosis of:\n\n  * Type 1 diabetes o Maturity onset diabetes of the young (MODY) o History or presence of Pancreatitis (acute or chronic) o Presence of endocrinopathies (e.g., Cushing syndrome) o Cardiac, renal or pulmonary or other chronic illness o Known history of heart disease (including history of clinically significant arrhythmias or conduction delays on ECG, or new clinically significant arrhythmias or conduction delays on ECG identified at visit 1) o Family or personal history of MEN type 2 or medullary thyroid carcinoma (family is defined as a first-degree relative)o Any other disorder which, in the opinion of the investigator, might jeopardize subject's safety or compliance with the protocol\n* Any laboratory safety parameter at screening outside the below extended laboratory ranges: o Baseline creatinine \\>1.0mg o Hypertriglyceridemia)(\\>500 mg/dl)\n\n  * Calcitonin equal or above 50 ng/L at screening o Body Mass Index (BMI) \u2264 25.0 at the screening visit o ALT \u22655 times the upper normal limit (UNL) o Creatinine \\>UNL for age in children unless renal function is proven normal by further assessments at the discretion of the investigator\n* Known hypoglycemic unawareness.\n* Recurrent severe hypoglycemic episodes within the last year as judged by the investigator.\n* Uncontrolled hypertension treated or untreated \\>99th percentile for age and gender in children and adolescents.\n* Treatment with any medication for the indication of diabetes other than stated in the inclusion criteria in a period of 90 days before screening.\n* Taking medication, based on the investigator's judgement, that may cause significant weight gain or loss (e.g., antipsychotic, steroid, anti-obesity medication).\n* Presence or history of malignant neoplasm within 5 years prior to the day of screening.Basal and squamous cell skin cancer and any carcinoma in-situ is allowed.\n* Positive insulinoma associated-protein 2 (IA-2) antibodies or anti-glutamic acid decarboxylase (anti-GAD) antibodies.\n\nMental health:\n\n* History of major depressive disorder within 2 years before screening\n* Diagnosis of other severe psychiatric disorders (e.g., schizophrenia, bipolar disorder)\n* A Patient Health Questionnaire-9 (PHQ-9) score of \u226515 at screening\n* A lifetime history of suicidal attempt\n* Suicidal behavior within 30 days before screening\n* Suicidal ideation corresponding to type 4 or 5 based on the Columbia-Suicide Severity\n* Rating Scale (C-SSRS) within the past 30 days before screening\n* Participants with confirmed diagnosis of bulimia nervosa disorder",
+      "healthyVolunteers": false,
+      "maximumAge": "21 Years",
+      "minimumAge": "10 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Semaglutide Effects in Obese Youth With Prediabetes/New Onset Type 2 Diabetes and Non-Alcoholic Fatty Liver Disease",
+      "nctId": "NCT05067621",
+      "officialTitle": "Semaglutide, 2.4mg, Once Weekly: Effects on Beta-cell Preservation and Reduction of Intrahepatic Triglyceride Content in Obese Youth With Prediabetes (IGT)/Early Type 2 Diabetes (T2D) and Non-Alcoholic Fatty Liver Disease (NAFLD)",
+      "orgStudyIdInfo": {
+        "id": "2000031181"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Yale University"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2R01DK111038-06A1",
+          "link": "https://reporter.nih.gov/quickSearch/2R01DK111038-06A1",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Changes in fibrosis of the liver as measured by the difference between MRE Stiffness during baseline and 6M.",
+          "measure": "Changes in liver fibrosis",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Changes in fibrosis of the liver as measured by the difference between MRE Stiffness during baseline and 9M.",
+          "measure": "Changes in liver fibrosis",
+          "timeFrame": "9 months"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "The oDI value is the product of total responsivity index and insulin sensitivity. The change in oDI from baseline to 6M on treatment is calculated as the difference between 6M oDI value and baseline oDI value. The oDI measures the ability of beta-cell to respond to a glucose stimulus.",
+          "measure": "Change in Oral Disposition Index (oDI)",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "description": "The change in PDFF from baseline to 6M on treatment is calculated as the difference between 6M PDFF value and Baseline PDFF. It provides an accurate, non-invasive, reproducible, quantitative, and precise estimation of liver fat content. The expected changes in MRI-PDFF from baseline to 6M is \u2265 5.8% reduction compared to the placebo group.",
+          "measure": "Change in Protein Density Fat Fraction (PDFF)",
+          "timeFrame": "Baseline and 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change in oDI from baseline to 9M after the wash-out period, calculated as the difference between 9M oDI value and baseline oDI value. This is similar to Outcome 1 except measured at 9M.",
+          "measure": "Change in Oral glucose tolerance test (OGTT) derived biomarkers: oDI",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "description": "Change in fasting insulin calculated as 1/Fasting Insulin \\[1/IF\\] from baseline to 6M.",
+          "measure": "Change in OGTT derived biomarkers: fasting insulin",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "description": "Change in fasting insulin calculated as 1/Fasting Insulin \\[1/IF\\] from baseline to 9M.",
+          "measure": "Change in OGTT derived biomarkers: fasting insulin",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "description": "Change in c-peptide from baseline to 6M calculated as \\[change in C-peptide from 0-30min\\]\n\n/\\[change in glucose from 0-30 min\\]. This computes for early c-peptide response to oral glucose.",
+          "measure": "Change in OGTT derived biomarkers: c-peptide",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "description": "Change in c-peptide from baseline to 9M calculated as \\[change in C-peptide from 0-30min\\]\n\n/\\[change in glucose from 0-30 min\\]. This computes for early c-peptide response to oral glucose.",
+          "measure": "Change in OGTT derived biomarkers: c-peptide",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "description": "Change in fasting c-peptide from baseline to 6M calculated as Fasting C-peptide/Fasting Insulin.",
+          "measure": "Change in OGTT derived biomarkers: fasting c-peptide",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "description": "Change in fasting c-peptide from baseline to 9M calculated as Fasting C-peptide/Fasting Insulin.",
+          "measure": "Change in OGTT derived biomarkers: fasting c-peptide",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "description": "Identification of time to glucose peak during OGTT at baseline.",
+          "measure": "Time to glucose peak",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Identification of time to glucose peak during OGTT at 6M.",
+          "measure": "Time to glucose peak",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Identification of time to glucose peak during OGTT at 9M.",
+          "measure": "Time to glucose peak",
+          "timeFrame": "9 months"
+        },
+        {
+          "description": "Identification of glucagon levels during OGTT at baseline.",
+          "measure": "Glucagon levels",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Identification of glucagon levels during OGTT at 6M.",
+          "measure": "Glucagon levels",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Identification of glucagon levels during OGTT at 9M.",
+          "measure": "Glucagon levels",
+          "timeFrame": "9 months"
+        },
+        {
+          "description": "Estimated as the ratio between total insulin responses during OGTT and IVGTT at the end of treatment and expressed as percentage. It is computed by: \\[100% \u00d7 (AUCins OGTT - AUCins IVGTT)/AUCins OGTT\\].",
+          "measure": "Incretin effect",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Estimated as the ratio between total insulin responses during OGTT and IVGTT at the end of the wash-out period and expressed as percentage. It is computed by: \\[100% \u00d7 (AUCins OGTT - AUCins IVGTT)/AUCins OGTT\\].",
+          "measure": "Incretin effect",
+          "timeFrame": "9 months"
+        },
+        {
+          "description": "The change in PDFF from baseline to 9M after the wash-out period is calculated as the difference between 9M PDFF value and Baseline PDFF. It provides an accurate, non-invasive, reproducible, quantitative, and precise estimation of liver fat content. The expected changes in MRI-PDFF from baseline to 9M is \u2265 5.8% reduction compared to the placebo group.",
+          "measure": "Change in Protein Density Fat Fraction (PDFF)",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "description": "It is the measure of contribution of hepatic DNL and plasma free fatty acid reesterification to plasma triglyceride secretion at baseline. It is calculated by F = plasma palmitate enrichment/(22 X plasma deuterium enrichment). F is the fraction of palmitate synthesized during the time between the loading dose of the deuterium-labeled water and the collection time.",
+          "measure": "Fractional rates of de Novo Lipogenesis (DNL)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "It is the measure of contribution of hepatic DNL and plasma free fatty acid reesterification to plasma triglyceride secretion at 6M. It is calculated by F = plasma palmitate enrichment/(22 X plasma deuterium enrichment). F is the fraction of palmitate synthesized during the time between the loading dose of the deuterium-labeled water and the collection time.",
+          "measure": "Fractional rates of de Novo Lipogenesis (DNL)",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "It is the measure of contribution of hepatic DNL and plasma free fatty acid reesterification to plasma triglyceride secretion at 9M. It is calculated by F = plasma palmitate enrichment/(22 X plasma deuterium enrichment). F is the fraction of palmitate synthesized during the time between the loading dose of the deuterium-labeled water and the collection time.",
+          "measure": "Fractional rates of de Novo Lipogenesis (DNL)",
+          "timeFrame": "9 months"
+        },
+        {
+          "description": "Measure of total cholesterol in plasma taken at 6M.",
+          "measure": "Total cholesterol",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Measure of total cholesterol in plasma taken at 9M.",
+          "measure": "Total cholesterol",
+          "timeFrame": "9 months"
+        },
+        {
+          "description": "Measure of LDL cholesterol in plasma taken at 6M.",
+          "measure": "LDL cholesterol",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Measure of LDL cholesterol in plasma taken at 9M.",
+          "measure": "LDL cholesterol",
+          "timeFrame": "9 months"
+        },
+        {
+          "description": "Measure of HDL cholesterol in plasma taken at 6M.",
+          "measure": "HDL cholesterol",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Measure of LDL cholesterol in plasma taken at 9M.",
+          "measure": "HDL cholesterol",
+          "timeFrame": "9 months"
+        },
+        {
+          "description": "Measures of triglycerides in plasma taken at 6M.",
+          "measure": "Triglycerides",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Measures of triglycerides in plasma taken at 9M.",
+          "measure": "Triglycerides",
+          "timeFrame": "9 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Yale University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Yale University",
+        "investigatorFullName": "Sonia Caprio",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-15",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-07-17",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-21",
+      "studyFirstSubmitQcDate": "2021-09-23"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05039450:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05039450\nBrief title: A Study of Efruxifermin in Subjects With Compensated Cirrhosis Due to Nonalcoholic Steatohepatitis (NASH) (Symmetry)\nOfficial title: A Phase 2b, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Efruxifermin in Subjects With Compensated Cirrhosis Due to Nonalcoholic Steatohepatitis (NASH)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 54,
+      "trial_nct_id": "NCT05039450"
+    },
+    {
+      "chunk_id": "NCT05039450:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: NASH - Nonalcoholic Steatohepatitis\nIntervention labels: EFX; Placebo\nDrug class labels: \nArms: EFX 28 mg (Main Study); EFX 50 mg (Main Study); Placebo (Main Study); EFX 50 mg (Cohort D); Placebo (Cohort D)\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT05039450"
+    },
+    {
+      "chunk_id": "NCT05039450:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a multi-center evaluation of efruxifermin (EFX) in a randomized, double-blind, placebo-controlled study in cirrhotic subjects with biopsy-proven F4 compensated NASH.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT05039450"
+    },
+    {
+      "chunk_id": "NCT05039450:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Males and non-pregnant, non-lactating females between 18-75 years of age inclusive, based on the date of signing informed consent.\n* Main Study Only: Previous history or presence of Type 2 diabetes or 2 out of 4 components of metabolic syndrome (obesity, dyslipidemia, elevated blood pressure, elevated fasting glucose).\n* Main Study Only: Biopsy-proven compensated cirrhosis due to NASH.\n* Cohort D Only: Diagnosis of type 2 diabetes\n* Cohort D Only: Use of GLP-1R agonist for at least 90 days\n* Cohort D Only: Biopsy-proven liver fibrosis stages 1, 2, or 3\n\nExclusion Criteria:\n\n* Main Study Only: Weight loss \\> 10% in the 90 days prior to screening until randomization or from the time of collection of the liver biopsy used to assess subject eligibility until randomization, whichever is longer.\n* Type 1 diabetes or uncontrolled Type 2 diabetes\n* Cohort D Only: Weight loss \\> 5% in the 90 days prior to screening\n* Cohort D Only: Presence of cirrhosis on liver biopsy\n\nOther inclusion and exclusion criteria may apply",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 193,
+      "trial_nct_id": "NCT05039450"
+    },
+    {
+      "chunk_id": "NCT05039450:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Main: Change from baseline in fibrosis with no worsening steatohepatitis assessed by NASH CRN system | time_frame=Week 36 | description=Proportion of subjects who achieve \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) and no worsening of steatohepatitis at Week 36.\ntype=secondary | measure=Main: Resolution of NASH assessed by the NASH CRN system | time_frame=Week 36, Week 96 | description=Proportion of subjects who achieve NASH resolution (defined as a NAS of 0-1 for inflammation and 0 for ballooning) as determined by the NASH CRN criteria at Week 36 and Week 96\ntype=secondary | measure=Main: Fibrosis improvement with no worsening of NASH assessed by the NASH CRN system | time_frame=Week 36, Week 96 | description=Proportion of subjects who achieve NASH resolution (defined as a NAS of 0-1 for inflammation and 0 for ballooning) and \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) at Week 36 and Week 96\ntype=secondary | measure=Main: Change from baseline in fibrosis in subjects with no worsening of steatohepatitis assessed by the NASH CRN system | time_frame=Week 96 | description=Proportion of subjects who achieve \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) and no worsening of steatohepatitis at Week 96\ntype=secondary | measure=Main: Change from baseline in fibrosis in subjects with no worsening of steatohepatitis assessed by the NASH CRN system | time_frame=Week 36, Week 96 | description=Proportion of subjects who achieve \u2265 1 stage improvement in fibrosis (based on NASH CRN fibrosis score) at Week 36 and Week 96\ntype=secondary | measure=Main: Change from baseline in non-invasive markers of fibrosis | time_frame=Week 36, Week 48, Week 72, Week 96 | description=Change from baseline in ELF score, Pro-C3 (ug/L),and liver stiffness assessed by liver elastography (kPa, CAP)\ntype=secondary | measure=Main: Change from baseline in lipoproteins | time_frame=Week 36, Week 48, Week 72, Week 96 | description=Change from baseline in Triglycerides (mg/dL), total cholesterol (mg/dL), HDL-C (mg/dL), non-HDL-C (mg/dL), and LDL-C (mg/dL)\ntype=secondary | measure=Main: Change from baseline of markers in insulin sensitivity and glycemic control | time_frame=Week 36, Week 48, Week 72, Week 96 | description=Change from baseline in HbA1c (%), C-peptide (ug/L), adiponectin (mg/L), insulin (mIU/L), and HOMA-IR\ntype=secondary | measure=Main: Change from baseline in body weight | time_frame=Week 36, Week 48, Week 96 | description=Change from baseline in body weight (kg)\ntype=secondary | measure=Main: To assess the immunogenicity of EFX | time_frame=Through Week 96 | description=Detect and measure ADA, including NAb, against EFX\ntype=secondary | measure=Main: To assess the safety and tolerability of EFX | time_frame=Through Week 96 | description=Safety and tolerability will be assessed through the reporting of AEs, clinical laboratory tests, ECGs, ultrasounds, vital sign assessments, and concomitant medication usage\ntype=secondary | measure=Cohort D: To assess the safety and tolerability of EFX compared to placebo when added to an existing GLP-1R agonist in subjects with type 2 diabetes and liver fibrosis due to NASH | time_frame=Through Week 12 | description=Safety and tolerability will be assessed through the reporting of AEs, clinical laboratory assessments, ECGs, ultrasounds, vital sign assessments, and concomitant medication usage",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 512,
+      "trial_nct_id": "NCT05039450"
+    },
+    {
+      "chunk_id": "NCT05039450:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-07-30\nPrimary completion date: 2023-08-25\nCompletion date: 2025-05\nStudy first posted: 2021-09-09\nResults first posted: None\nLast update posted: 2025-04-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05039450"
+    },
+    {
+      "chunk_id": "NCT05039450:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Akero Therapeutics, Inc\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT05039450"
+    }
+  ],
+  "trial_nct_id": "NCT05039450"
+}

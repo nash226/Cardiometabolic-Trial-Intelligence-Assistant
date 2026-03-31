@@ -1,0 +1,590 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003922",
+          "term": "Diabetes Mellitus, Type 1"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C000634427",
+          "term": "abrocitinib"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Abrocitinib will be self-administered as 200-milligram (mg) tablet daily for 52 weeks (12 months). The final prepared product is to be labeled to protect the blind.",
+          "interventionNames": [
+            "Drug: Abrocitinib 200 MG Oral Tablet"
+          ],
+          "label": "Abrocitinib",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Ritlecitnib will be self-administered via oral administration as a 100-mg capsule daily for 52 weeks (12 months). The final prepared product is to be labeled to protect the blind.",
+          "interventionNames": [
+            "Drug: Ritlecitinib"
+          ],
+          "label": "Ritlecitinib",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "200 mg tablet or 100 mg capsule matching either abrocitinib or ritlecitinib will be self-administered via oral administration daily for 52 weeks (12 months). The final product is to be labeled to protect the blind.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Abrocitinib"
+          ],
+          "description": "Abrocitinib",
+          "name": "Abrocitinib 200 MG Oral Tablet",
+          "otherNames": [
+            "CIBINQO"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Ritlecitinib"
+          ],
+          "description": "Ritlecitinib",
+          "name": "Ritlecitinib",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo for Abrocitinib or Ritlecitinib",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 1"
+      ],
+      "keywords": [
+        "TrialNet",
+        "T1D"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Orange",
+          "country": "United States",
+          "facility": "Children's Hospital Orange County",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          },
+          "state": "California",
+          "zip": "92868"
+        },
+        {
+          "city": "Palo Alto",
+          "country": "United States",
+          "facility": "Stanford University",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          },
+          "state": "California",
+          "zip": "94304"
+        },
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "facility": "University of California- San Francisco",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          },
+          "state": "California",
+          "zip": "94143"
+        },
+        {
+          "city": "Aurora",
+          "country": "United States",
+          "facility": "Barbara Davis Center at University of Colorado Anschutz Medical Campus",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          },
+          "state": "Colorado",
+          "zip": "80045"
+        },
+        {
+          "city": "New Haven",
+          "country": "United States",
+          "facility": "Yale University School of Medicine",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          },
+          "state": "Connecticut",
+          "zip": "06511"
+        },
+        {
+          "city": "Gainesville",
+          "country": "United States",
+          "facility": "University of Florida",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          },
+          "state": "Florida",
+          "zip": "32610"
+        },
+        {
+          "city": "Miami",
+          "country": "United States",
+          "facility": "University of Miami",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          },
+          "state": "Florida",
+          "zip": "33136"
+        },
+        {
+          "city": "Tampa",
+          "country": "United States",
+          "facility": "University of South Florida Diabetes Center",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          },
+          "state": "Florida",
+          "zip": "33612"
+        },
+        {
+          "city": "Atlanta",
+          "country": "United States",
+          "facility": "Emory Children's Center",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          },
+          "state": "Georgia",
+          "zip": "30322"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "University of Chicago",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "zip": "60637"
+        },
+        {
+          "city": "Indianapolis",
+          "country": "United States",
+          "facility": "Indiana University",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          },
+          "state": "Indiana",
+          "zip": "46202"
+        },
+        {
+          "city": "Louisville",
+          "country": "United States",
+          "facility": "University of Louisville Pediatric Endocrinology",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          },
+          "state": "Kentucky",
+          "zip": "40202"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "facility": "Joslin Diabetes Center",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "zip": "02215"
+        },
+        {
+          "city": "Minneapolis",
+          "country": "United States",
+          "facility": "University of Minnesota",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          },
+          "state": "Minnesota",
+          "zip": "55455"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "facility": "The Children's Mercy Hospital",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          },
+          "state": "Missouri",
+          "zip": "64111"
+        },
+        {
+          "city": "Buffalo",
+          "country": "United States",
+          "facility": "UBMD Pediatrics",
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          },
+          "state": "New York",
+          "zip": "14203"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "facility": "Columbia University-Naomi Berrie Diabetes Center",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "zip": "10032"
+        },
+        {
+          "city": "Syracuse",
+          "country": "United States",
+          "facility": "Joslin Center at SUNY Upsate",
+          "geoPoint": {
+            "lat": 43.04812,
+            "lon": -76.14742
+          },
+          "state": "New York",
+          "zip": "13210"
+        },
+        {
+          "city": "Pittsburgh",
+          "country": "United States",
+          "facility": "University of Pittsburgh",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          },
+          "state": "Pennsylvania",
+          "zip": "15224"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "facility": "Vanderbilt University Medical Center",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "zip": "37232"
+        },
+        {
+          "city": "Dallas",
+          "country": "United States",
+          "facility": "University of Texas Southwestern",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "zip": "75390"
+        },
+        {
+          "city": "Salt Lake City",
+          "country": "United States",
+          "facility": "University of Utah",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          },
+          "state": "Utah",
+          "zip": "84112"
+        },
+        {
+          "city": "Seattle",
+          "country": "United States",
+          "facility": "Benaroya Research Institute",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          },
+          "state": "Washington",
+          "zip": "98101"
+        },
+        {
+          "city": "Saint Leonards",
+          "country": "Australia",
+          "facility": "Royal North Shore Hospital",
+          "state": "New South Wales",
+          "zip": "2065"
+        },
+        {
+          "city": "South Brisbane",
+          "country": "Australia",
+          "facility": "Queensland Children's Hospital",
+          "geoPoint": {
+            "lat": -27.48034,
+            "lon": 153.02049
+          },
+          "state": "Queensland",
+          "zip": "4101"
+        },
+        {
+          "city": "Adelaide",
+          "country": "Australia",
+          "facility": "Women and Children's Hospital-Adelaide",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          },
+          "state": "South Australia",
+          "zip": "5006"
+        },
+        {
+          "city": "Melbourne",
+          "country": "Australia",
+          "facility": "The Royal Children's Hospital - Melbourne",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          },
+          "state": "Victoria",
+          "zip": "3052"
+        },
+        {
+          "city": "Parkville",
+          "country": "Australia",
+          "facility": "3. Royal Melbourne Hospital",
+          "geoPoint": {
+            "lat": -37.78333,
+            "lon": 144.95
+          },
+          "state": "Victoria",
+          "zip": "3050"
+        },
+        {
+          "city": "Nedlands",
+          "country": "Australia",
+          "facility": "Perth Children's Hospital",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          },
+          "state": "Western Australia",
+          "zip": "6009"
+        },
+        {
+          "city": "Toronto",
+          "country": "Canada",
+          "facility": "Hospital for Sick Children",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          },
+          "state": "Ontario",
+          "zip": "M5G1X8"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A multi-center, placebo-controlled, double blind, 1:1:1 randomized control clinical trial testing two different JAK Inhibitors abrocitnib, ritlecitinib, and placebo in subjects with recent onset Stage 3 Type 1 Diabetes within 100 days of diagnosis.",
+      "detailedDescription": "This study has a total sample size of 78 participants. Of that 78, 52 participants will receive active treatment, and a total of 26 participants will receive placebo. Participants will receive 12 months of active treatment with abrocitinib, ritlecitinib, or placebo with up to 12 months of additional follow-up. During the study, participants will undergo frequent assessments of their insulin production, immunologic status, overall health and well-being and diabetes care."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants aged 12-35 years will be randomized 1:1:1 to receive abrocitinib, ritlecitinib, and placebo. The planned design is to enroll 26 participants in each of the 3 arms: the abrocitinib arm, the ritlecitinib arm, and the shared placebo arm. Within the shared placebo arm, participants will be randomized 1:1 to receive placebo matched to abrocitinib or placebo matched to ritlecitinib. Randomization will be stratified by the following two age categories: 12-17 years old, and 18 years or above. Within each stratum, participants will be randomized to either the abrocitinib arm, ritlecitinib arm, or the shared placebo arm using random block sizes. The total number of enrolled participants from the older age stratum (18 years or above) will be limited to 33 to replicate the age distribution in previous new-onset trials. Participants will receive 12 months of active treatment with abrocitinib, ritlecitinib, or placebo then enter a follow-up period of up to 12 months.",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "The randomization method will be stratified by TrialNet study site. The participants will not be informed regarding the intervention assignment until the end of the study. The investigator and clinic personnel will also be masked as to study assignment. Laboratories performing assays for this protocol will be masked as to the identity of biological material to be studied.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 78,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provide informed consent or assent as appropriate and, if \\< 18 years of age have a parent or legal guardian provide informed consent\n2. Age 12-35 years (both inclusive) at the time of signing informed consent and assent\n3. Diagnosis of T1D within 100 days of the baseline visit (V0).\n4. Positive for at least one islet cell autoantibody; Glutamate decarboxylase (GAD)65A, mIAA (if obtained within 10 days of the onset of insulin therapy), IA-2A, ICA, or ZnT8A\n5. Stimulated C-peptide of \u22650.2 pmol/mL measured during mixed-meal tolerance test (MMTT) conducted at least 21 days from diagnosis of diabetes\n6. HbA1c \u2264 10 %\n7. Body weight \u2265 35kg at screening\n8. Willing to comply with intensive diabetes management and wear a Continuous Glucose Monitoring Device (CGM)\n9. Participants who are Cytomegalovirus (CMV) and/or Epstein-Barr virus (EBV) seronegative at screening must be CMV and/or EBV Polymerase chain reaction (PCR) negative within 37 days of randomization and may not have had signs or symptoms of a CMV and/or EBV-compatible illness lasting longer than 7 days within 37 days of the baseline visit (V0).\n10. Participants who are CMV and/or EBV seropositive at screening must be CMV PCR negative and/or EBV PCR \\<2,000 IU/mL and must have no signs or symptoms of acute infection at the time of the baseline visit (V0).\n11. Be up to date on recommended vaccinations based on age of participants\\*\n12. Participants are required to receive killed influenza vaccination at least 2 weeks prior to the baseline visit (V0) when vaccine for the current or upcoming flu season is available.\n\n    Enrollment must be delayed at least 4 weeks from administration of a killed vaccine other than influenza and COVID-19 and 6 weeks from a live vaccination. Live vaccinations and non-live vaccinations (other than influzena and COVID-19) should not be given while on study drug and be postponed at least 3 months after the last dose of study drug.\n13. If participant is female with reproductive potential, she must have a negative pregnancy test at screening and be willing to avoid pregnancy using a highly-effective contraceptive method for the duration of the study\n14. Males of reproductive age must use a highly-effective contraceptive method during the treatment phase and for 3 months following last dose of study drug\n\n    * For COVID-19 vaccination, all participants will be strongly encouraged to be up-to-date with COVID-19 vaccine (s) as indicated by country-specific guidelines at least 2 weeks prior to the baseline visit (V0). HPV vaccine initiation and/or completion of series may be delayed until after completion of study drug in both adult and pediatric participants.\n\nExclusion Criteria:\n\n1. Current or ongoing use of non-insulin pharmaceuticals or medication that affect glycemic control or glucose homeostasis within 7 days prior to screening or any prohibited concomitant medication listed in section 4.8\n2. Untreated hypothyroidism or active Graves' disease\n3. Concurrent treatment with other immunosuppressive agents (including biologics or steroids), other than inhaled or topical glucocorticoids\n4. Active acute or chronic infection requiring treatment with oral antibiotics, antivirals, antiparasitics, antiprotozoals, or antifungals within 1 month prior to Day 0 or superficial skin infection within 1 week prior to Day 0\n5. Active acute or chronic infection requiring treatment with intravenous therapy (IV) within a minimum 1 month prior to Day 0\n\n   a. Specific cases should be reviewed by Infectious Disease Committee prior to enrollment\n6. Have active signs or symptoms of acute infection at the time of the baseline visit (V0).\n7. Significant trauma or major surgery within 1 month of signing informed consent.\n8. Considered in imminent need for surgery or with elective surgery scheduled to occur during the study\n9. History of disseminated herpes zoster or disseminated herpes simplex or a recurrent (more than one episode of) localized, dermatomal herpes zoster\n10. Have evidence of prior or current tuberculosis infection as assessed by Purified Protein Derivative (PPD), interferon gamma release assay (IGRA) or by history\n11. Have evidence of current or past HIV or Hepatitis B infection\n12. Have evidence of active Hepatitis C infection\n13. Have current, confirmed COVID-19 infection\n14. Current or history of Deep vein thrombosis (DVT), Pulmonary embolism (PE), or other thromboembolic events or history of inherited coagulopathies\n15. First degree relative with a history of unprovoked venous thromboembolism (i.e. without known underlying cause such as trauma, surgery, immobilization, prolonged travel, pregnancy, hormone use, or plaster cast), which suggests that a participant may be at increased risk of inherited coagulation disorder\n16. Any present malignancies or history of malignancy, other than a successfully treated nonmelanoma skin cancer\n17. History of any lymphoproliferative disorder such as EBV-related lymphoproliferative disorder, history of lymphoma, history of leukemia, or signs and symptoms suggestive of current lymphatic or lymphoid disease\n18. Known or suspected polymorphism in the Cytochrome P450 2C19 (CYP2C19 gene, resulting in classification as a poor CYP2C19 metabolizer).\n19. Have renal impairment (eGFR\\< 60 mL/min)\n20. Currently on anti-platelet therapies, excluding low dose aspirin\n21. One or more screening laboratory values as stated\n\n    1. Neutrophils \\< 1,500 /\u03bcL\n    2. Lymphocytes \\< 800 /\u03bcL\n    3. Platelets \\< 150,000 / \u03bcL\n    4. Hemoglobin \\< 6.2 mmol/L (10.0 g/dL)\n    5. Potassium \\> 5.5 mmol/L or \\<3.0 mmol/L\n    6. Sodium \\> 150mmol/L or \\< 130mmol/L\n    7. AST or ALT \u2265 2.5 times the upper limit of normal\n    8. Bilirubin \u2265 1.5 times upper limit of normal unless diagnosed with Gilbert's syndrome\n    9. LDL \\>160 mg/dL\n22. Vaccination with a live virus within the last 6 weeks and killed vaccine within 4 weeks (except 2 weeks for flu vaccine and COVID vaccine)\n23. Be currently pregnant or lactating or anticipate becoming pregnant during the study\n24. Male participants able to father children and female participants of childbearing potential who are unwilling or unable to use 2 effective methods (at least 1 highly effective method) of contraception, including abstinence, as outlined in this protocol for the duration of the study and for at least 3 months after the last dose of investigational product\n25. Be currently participating in another T1D treatment study\n26. Have had previous clinical use of Tzield (Teplizumab) not part of a T1D treatment study.\n27. Have hearing loss with progression over the previous 5 years, or sudden hearing loss, or middle or inner ear disease such as otitis media, cholesteatoma, Meniere's disease, labyrinthitis, or other auditory condition that is considered acute, fluctuating, or progressive\n\n    a. Participants with hearing aids will be allowed to enter the study provided their hearing impairment is considered controlled/clinically stable.\n28. Acute coronary syndrome (e.g., myocardial infarction, unstable angina pectoris) and any history of cerebrovascular disease within 24 weeks before screening; Heart failure NYHA (New York Heart Association) III, NYHA IV\n29. ANY of the following conditions at screening:\n\n    a. Screening 12-lead electrocardiogram (ECG) that demonstrates: i. Clinically significant abnormalities requiring treatment (eg, acute myocardial infarction, serious tachy- or brady-arrhythmias) or indicating serious underlying heart disease (eg, cardiomyopathy, Wolff-Parkinson- White syndrome); ii. Confirmed QT corrected using Fridericia's correction factor (QTcF) prolongation (\\>450 milliseconds).\n\n    b. Long QT Syndrome, a family history of Long QT Syndrome, or a history of Torsades de Pointes (TdP).\n30. History of chronic alcohol abuse or intravenous drug abuse or other illicit drug abuse within 2 years prior to screening\n31. Current or past use of tobacco or nicotine containing products more than the equivalent of 5 cigarettes per day\n32. Participant is the investigator or any sub-investigator, research assistant, pharmacist, study coordinator, other staff or relative thereof directly involved in the conduct of the trial\n33. Have any complicating medical issues or abnormal clinical laboratory results that may interfere with study conduct, or cause increased risk\n34. Any condition that in the investigator's opinion may adversely affect study participation or may compromise the study results",
+      "healthyVolunteers": false,
+      "maximumAge": "35 Years",
+      "minimumAge": "12 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Janus Kinase (JAK) Inhibitors to Preserve C-Peptide Production in New Onset Type 1 Diabetes (T1D)",
+      "nctId": "NCT05743244",
+      "officialTitle": "A Phase 2 Multi-Center, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety and Efficacy of Subtype-Selective JAK Inhibitors for Preservation of Pancreatic \u03b2 Cell Function in Newly Diagnosed Type 1 Diabetes Mellitus",
+      "orgStudyIdInfo": {
+        "id": "TN31 JAK Inhibitors"
+      },
+      "organization": {
+        "class": "NIH",
+        "fullName": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Data will be available at the NIDDK Central Repository",
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The primary outcome of interest is the area under the stimulated C-peptide curve over the 2-hour mixed meal glucose tolerance test conducted at the 12-month visit (Y\\_AUC) over the 2-hour mixed meal glucose tolerance test conducted at the 12-month visit.",
+          "measure": "The area under the stimulated C-peptide curve (Y_AUC)",
+          "timeFrame": "12 Months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "TrialNet",
+          "url": "http://www.diabetestrialnet.org"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Pfizer"
+        }
+      ],
+      "leadSponsor": {
+        "class": "NIH",
+        "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-26",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-10-19",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-09",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-02-03",
+      "studyFirstSubmitQcDate": "2023-02-21"
+    }
+  }
+}

@@ -14,6 +14,9 @@ This is the first backend service layer over the stored trial corpus.
 - `POST /api/v1/search/fused`
 - `POST /api/v1/ask`
 - `GET /api/v1/trials/{nct_id}`
+- `POST /api/v1/ingestion/jobs`
+- `GET /api/v1/ingestion/jobs`
+- `GET /api/v1/ingestion/jobs/{job_id}`
 
 ## What `POST /api/v1/search` does
 
@@ -177,3 +180,23 @@ The API app now also serves a minimal no-Node frontend:
 - `GET /trials/{nct_id}`
 
 These pages are server-rendered with Jinja2 and use the existing API endpoints behind the scenes.
+
+The trial detail page now includes a grounded answer panel backed by:
+
+- `POST /api/v1/ask`
+
+The finder page now also includes a corpus-level ask panel that reuses the active finder filters and calls:
+
+- `POST /api/v1/ask`
+
+## Ingestion job endpoints
+
+The API now also supports queued corpus expansion with `RQ + Redis`.
+
+Endpoints:
+
+- `POST /api/v1/ingestion/jobs`
+- `GET /api/v1/ingestion/jobs`
+- `GET /api/v1/ingestion/jobs/{job_id}`
+
+See [ingestion-jobs.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/ingestion-jobs.md) for setup and usage.

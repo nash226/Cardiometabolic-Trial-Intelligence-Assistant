@@ -1,0 +1,302 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011719",
+          "term": "Pyrazines"
+        },
+        {
+          "id": "D011480",
+          "term": "Protease Inhibitors"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D007004",
+          "term": "Hypoglycemic Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        },
+        {
+          "id": "D000068900",
+          "term": "Sitagliptin Phosphate"
+        },
+        {
+          "id": "D054873",
+          "term": "Dipeptidyl-Peptidase IV Inhibitors"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients receive 0.25 mg per week in the first month, 0.5 mg per week in the second month, and 1.0mg of semaglutide per week from the 3rd to the 8th month.",
+          "interventionNames": [
+            "Drug: Semaglutide (1 Mg Dose)"
+          ],
+          "label": "Semaglutide group: patients receive semaglutide treatment.",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients in oral medication group received sitagliptin 0.1g per day. Both groups were simultaneously treated with metformin (1.0g daily, divided into two doses) and empagliflozin (10mg daily).",
+          "interventionNames": [
+            "Drug: Sitagliptin (DPP4 inhibitor)"
+          ],
+          "label": "Oral medication group: patients receive triple hypoglycemic oral medications.",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Semaglutide group: patients receive semaglutide treatment."
+          ],
+          "description": "0.25 mg per week in the first month, 0.5 mg per week in the second month, and 1.0mg of semaglutide per week from the 3rd to the 8th month.",
+          "name": "Semaglutide (1 Mg Dose)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Oral medication group: patients receive triple hypoglycemic oral medications."
+          ],
+          "description": "Sitagliptin 0.1g per day.",
+          "name": "Sitagliptin (DPP4 inhibitor)",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ],
+      "keywords": [
+        "triple regimen",
+        "diabetes",
+        "remission"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "liwg660@126.com",
+          "name": "Wangen Li, Dr",
+          "phone": "86-20-34152032",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Guangzhou",
+          "contacts": [
+            {
+              "email": "liwg660@126.com",
+              "name": "Wangen Li, Dr",
+              "phone": "86-20-34152032",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "The Second Affiliated Hospital, Guangzhou Medical University",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          },
+          "state": "Guangdong",
+          "status": "RECRUITING",
+          "zip": "510260"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a multicenter, randomized, controlled study. A sample size of 240 cases is proposed to be included. The inclusion criteria are: (1) patients with newly diagnosed type 2 diabetes; (2) age between 18 and 65 years old; (3) HbA1c \u2265 9.0%. The exclusion criteria include: (1) type 1 diabetes; (2) elevated creatinine or urinary albumin/creatinine; (3) combined with coronary heart disease, tumor or pregnancy; (4) receiving glucocorticoids. The selected participants are randomly divided into two groups: one group is the semaglutide group, and the other isthe oral medication group. The treatment plan is as follows. Semaglutide group: 0.25 mg per week in the first month, 0.5 mg per week in the second month, and 1.0mg per week from the 3rd to the 8th month of semaglutide. Oral medication group: Sitagliptin 0.1g per day. Both groups were simultaneously treated with metformin (1.0g daily, divided into two doses) and empagliflozin (10mg daily). The first phase of the study was as follows: Semaglutide group: Treatment was initiated until 6 months after the titration dose of 1mg was reached; Oral medication group: Initiate treatment until 6 months after reaching a fixed dose. At the end of the first stage of the study, for the selected participants with HbA1c\\<6.5%, the hypoglycemic drugs were discontinued and they entered the second stage of the study. The study was concluded after a 3-month follow-up. The evaluation indicators include: effectiveness indicators (HbA1c, diabetes remission rate, continuous glucose monitoring), safety indicators (hypoglycemia, adverse reactions, etc.)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 240,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with newly diagnosed type 2 diabetes.\n* Age between 18 and 65 years old.\n* HbA1c \u2265 9.0%.\n\nExclusion Criteria:\n\n* Type 1 diabetes.\n* Elevated creatinine or urinary albumin/creatinine.\n* Combined with coronary heart disease, tumor or pregnancy.\n* Receiving glucocorticoids.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "TRED",
+      "briefTitle": "Triple Hypoglycemic Regimens In Patients With Newly Diagnosed Type 2 Diabetes Mellitus",
+      "nctId": "NCT07374328",
+      "officialTitle": "Comparison Of Two Triple Hypoglycemic Regimens In Achieving Glycemic Control And Diabetes Remission In Hospitalized Patients With Newly Diagnosed Type 2 Diabetes Mellitus: A Multicenter, Randomized, Clinical Study",
+      "orgStudyIdInfo": {
+        "id": "TRED"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Second Affiliated Hospital of Guangzhou Medical University"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diabetes remission rate",
+          "timeFrame": "From enrollment to the end of follow-up at 11 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "HbA1c",
+          "timeFrame": "From enrollment to the end of follow-up at 11 months"
+        },
+        {
+          "measure": "Hypoglycemia rate",
+          "timeFrame": "From enrollment to the end of follow-up at 11 months"
+        },
+        {
+          "measure": "Adverse reactions",
+          "timeFrame": "From enrollment to the end of follow-up at 11 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Second Affiliated Hospital of Guangzhou Medical University"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-25",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-05-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-06-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-11",
+      "studyFirstSubmitQcDate": "2026-01-25"
+    }
+  }
+}

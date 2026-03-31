@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05692492:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05692492\nBrief title: A Randomized, Double-blind, Placebo-controlled Study of ZSP1601 in Adult Subjects With Nonalcoholic Steatohepatitis (NASH)\nOfficial title: A Randomized, Double-blind, Placebo-controlled Phase 2b Study of ZSP1601 in Adult Subjects With Nonalcoholic Steatohepatitis (NASH)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT05692492"
+    },
+    {
+      "chunk_id": "NCT05692492:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: Nonalcoholic Steatohepatitis (NASH)\nIntervention labels: ZSP1601; Placebo\nDrug class labels: \nArms: ZSP1601 50mg BID; ZSP1601 100 mg BID; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT05692492"
+    },
+    {
+      "chunk_id": "NCT05692492:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this research is to evaluate the efficacy and the safety of two doses of ZSP1601 for 48 weeks versus placebo in adult NASH patients.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT05692492"
+    },
+    {
+      "chunk_id": "NCT05692492:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. NASH histological diagnosis on a liver biopsy performed \u2264 24 weeks before randomization, and NAS\u22654 (at least 1 point each in inflammation and ballooning), and fibrosis score F2 or F3, and no other chronic liver disease\n2. Subjects having given her/his written informed consent\n3. Good compliance with the protocol and agree to have liver biopsy performed\n4. Subjects (including their partners) agreed to use effective contraception throughout the study period and up to 24 weeks after discontinuation\n\nExclusion Criteria:\n\n1. History of cirrhosis or liver biopsy suggestive of cirrhosis\n2. Metabolic surgery or new technology treatment for weight loss within 5 years prior to randomization or planned during the study period\n3. Type 1 diabetes\n4. HIV infection\n5. Patients with severe or uncontrollable underlying diseases, unsuitable for treatment with ZSP1601, unable to complete study follow-up, or likely to affect the evaluation of trial results judged by investigator\n6. Previous malignancy within 5 years\n7. Treatment with hepatoprotective drugs\n8. Excessive alcohol consumption for 12 or more consecutive weeks within 1 year prior to screening\n9. Pregnant and lactating women or those with a positive serum pregnancy test.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 210,
+      "trial_nct_id": "NCT05692492"
+    },
+    {
+      "chunk_id": "NCT05692492:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent of patients with improvement of steatohepatitis and no worsening of liver fibrosis or improvement in liver fibrosis greater than or equal to one stage and no worsening of the steatohepatitis | time_frame=48 weeks | description=Percent of patients with improvement of steatohepatitis on overall histopathological reading and no worsening of liver fibrosis on NASH-CRN Fibrosis Score or improvement in liver fibrosis greater than or equal to one stage and no worsening of the steatohepatitis\ntype=secondary | measure=Percent of patients with resolution of steatohepatitis and no worsening of fibrosis or improvement of fibrosis by at least 1 stage and no worsening of steatohepatitis | time_frame=48 weeks\ntype=secondary | measure=Percent of patients with steatohepatitis improvement and improvement of fibrosis by at least 1 stage | time_frame=48 weeks\ntype=secondary | measure=Percent of patients with steatohepatitis resolution and improvement of fibrosis by at least 1 stage | time_frame=48 weeks\ntype=secondary | measure=Percent of patients with steatohepatitis resolution and no worsening of fibrosis | time_frame=48 weeks\ntype=secondary | measure=Percent of patients with steatohepatitis improvement and no worsening of fibrosis | time_frame=48 weeks\ntype=secondary | measure=Change from baseline in liver fat content (LFC) as measured by MRI-PDFF | time_frame=48 weeks\ntype=secondary | measure=Change from baseline in liver chemistry\uff08ALT,AST,GGT\uff09 | time_frame=48 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 207,
+      "trial_nct_id": "NCT05692492"
+    },
+    {
+      "chunk_id": "NCT05692492:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-06-03\nPrimary completion date: 2026-06-16\nCompletion date: 2026-12-16\nStudy first posted: 2023-01-20\nResults first posted: None\nLast update posted: 2025-03-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05692492"
+    },
+    {
+      "chunk_id": "NCT05692492:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Guangdong Raynovent Biotech Co., Ltd\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT05692492"
+    }
+  ],
+  "trial_nct_id": "NCT05692492"
+}

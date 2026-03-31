@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06244888:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06244888\nBrief title: Control Systems Engineering for Weight Loss Maintenance\nOfficial title: Control Systems Engineering to Address the Problem of Weight Loss Maintenance: A System Identification Experiment to Model Behavioral & Psychosocial Factors Measured by Ecological Momentary Assessment\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 48,
+      "trial_nct_id": "NCT06244888"
+    },
+    {
+      "chunk_id": "NCT06244888:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Overweight and Obesity\nIntervention labels: Intervention Targeting Stress and Emotion Regulation; Intervention Targeting Motivation and Self-efficacy for Weight Management; Intervention for Normalization of Eating; Intervention Targeting Physical Activity and Sleep\nDrug class labels: \nArms: System Identification\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT06244888"
+    },
+    {
+      "chunk_id": "NCT06244888:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This project capitalizes on principles of control systems engineering to build a dynamical model that predicts weight change during weight loss maintenance using behavioral, psychosocial, and environmental indicators evaluated in a system identification experiment. A 6-month behavioral obesity treatment will be administered to produce weight loss. Participants losing at least 3% of initial body weight will be followed for an additional 12 months via daily smartphone surveys that incorporates passive sensing to objectively monitor key behaviors. Survey data pertaining to behavioral, psychosocial, and environmental indicators will be used to develop a controller algorithm that can predict when an individual is entering a heightened period of risk for regain and why risk is elevated. Interventions targeting key risk indicators will be randomly administered during the system ID experiment. Survey and passive sensing data documenting the effects of the interventions will likewise drive development of the controller algorithm, allowing it to determine which interventions are most likely to counter risk of regain.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 165,
+      "trial_nct_id": "NCT06244888"
+    },
+    {
+      "chunk_id": "NCT06244888:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* English language fluent and literate at the 6th grade level\n* Body mass index (BMI) between 25 and 50 kg/m-squared\n* Able to walk 2 city blocks without stopping\n* Owns a smartphone\n\nExclusion Criteria:\n\n* Report of a heart condition, chest pain during periods of activity or rest, or loss of consciousness in the 12 months prior to enrolling.\n* Currently participating in another weight loss program\n* Currently taking weight loss medication\n* Has lost \u22655% of body weight in the 6 months prior to enrolling\n* Has been pregnant within the 6 months prior to enrolling\n* Plans to become pregnant within 18 months of enrolling\n* Any medical condition that would affect the safety of participating in unsupervised physical activity\n* Any condition that would result in inability to follow the study protocol, including terminal illness and untreated major psychiatric illness",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 166,
+      "trial_nct_id": "NCT06244888"
+    },
+    {
+      "chunk_id": "NCT06244888:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Weight change | time_frame=Every day during the 52-week system identification experiment | description=This will be measured throughout the system identification experiment using a consumer scale with internet connectivity.\ntype=secondary | measure=Intervention engagement | time_frame=Every day during the 52-week system identification experiment | description=Intervention engagement will be measured by the smartphone application that delivers intervention. Engagement is defined as the count of clicks to open intervention resources.\ntype=secondary | measure=Weight Locus of Control | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the Multidimensional Health Locus of Control scale for smartphone administration.\ntype=secondary | measure=Perceived Benefit of Weight Control | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the Beliefs about Dietary Compliance Scale and the Exercise Benefits/Barriers scale for smartphone administration.\ntype=secondary | measure=Weight Control Strategies Intentions and Implementation | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the Weight Control Strategies scale for smartphone administration.\ntype=secondary | measure=Hunger and Cravings | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the Three Factor Eating Questionnaire for smartphone administration.\ntype=secondary | measure=Affect | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the Profile of Mood States and Positive and Negative Affect States for smartphone administration.\ntype=secondary | measure=Stress | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from Cohen's Stress Scale for smartphone administration.\ntype=secondary | measure=Self-efficacy | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the short-form Weight Efficacy Lifestyle Questionnaire for smartphone administration.\ntype=secondary | measure=Sleep | time_frame=Every day during the 52-week system identification experiment | description=Wrist-worn accelerometer-measured sleep timing, duration \\& quality.\ntype=secondary | measure=Social Support | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the short-form Multidimensional Scale of Perceived Social Support for smartphone administration.\ntype=secondary | measure=Physical Activity | time_frame=Every day during the 52-week system identification experiment | description=Wrist-worn accelerometer-measured minutes per day of physical activity.\ntype=secondary | measure=Dysregulated Eating | time_frame=Every day during the 52-week system identification experiment | description=Mean scale score of questionnaire items adapted from the Three Factor Eating Questionnaire for smartphone administration.\ntype=secondary | measure=Dietary Lapse | time_frame=Every day during the 52-week system identification experiment | description=Count of self-reported instances of unintended eating, eating larger portions than one intended, and eating foods that one intended to avoid",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 438,
+      "trial_nct_id": "NCT06244888"
+    },
+    {
+      "chunk_id": "NCT06244888:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-26\nPrimary completion date: 2027-12-31\nCompletion date: 2027-12-31\nStudy first posted: 2024-02-06\nResults first posted: None\nLast update posted: 2024-04-02\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06244888"
+    },
+    {
+      "chunk_id": "NCT06244888:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The Miriam Hospital\nLead sponsor class: OTHER\nCollaborators: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06244888"
+    }
+  ],
+  "trial_nct_id": "NCT06244888"
+}

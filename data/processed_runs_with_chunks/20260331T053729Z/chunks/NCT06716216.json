@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06716216:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06716216\nBrief title: A Study of BGM0504 in Participants with Type 2 Diabetes\nOfficial title: A Phase 3, Randomized, Open-Label Trial Comparing Efficacy and Safety of BGM0504 Versus Semaglutide Once Weekly As Add-on Therapy to Metformin And/or Sulfonylureas in Patients with Type 2 Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 54,
+      "trial_nct_id": "NCT06716216"
+    },
+    {
+      "chunk_id": "NCT06716216:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes Mellitus (T2DM)\nIntervention labels: Drug: 5 mg BGM0504 Administered SC; Drug:10 mg BGM0504 Administered SC; Drug: Semaglutide Administered SC\nDrug class labels: glp1_receptor_agonist\nArms: Experimental: 5 mg BGM0504 5 milligrams (mg) BGM0504 administered subcutaneously (SC) once a week.; Experimental: 10 mg BGM0504 10 mg BGM0504 administered SC once a week.; Active Comparator: 1 mg Semaglutide 1 mg semaglutide administered SC once a week\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 72,
+      "trial_nct_id": "NCT06716216"
+    },
+    {
+      "chunk_id": "NCT06716216:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This trial is conducted in China. The aim of the trial is to evaluate the efficacy and safety of BGM0504 versus semaglutide as add-on to metformin and/or sulfonylureas in patients with type 2 diabetes\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT06716216"
+    },
+    {
+      "chunk_id": "NCT06716216:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* \u25a0 Have been diagnosed with type 2 diabetes mellitus (T2DM);\n\n  * Metformin is used in screening : 1) After used stable-dose metformin (\u22651500 mg/day) or maximum tolerated (\\< 1500mg but\u22651000mg daily) for 8 weeks before screening\uff1b 2)Metformin treatment dose \\<1500mg/day at Screening and have not reached the maximum tolerated dose \uff1b3) Metformin combined with daily fixed-dose sulfonylureas (minimum therapeutic dose on the drug label) had been stable for \u22658 weeks when entering the induction period.\n  * Have a BMI \u226523 kilograms per meter squared (kg/m\u00b2) at screening;\n  * Be of stable weight (\u00b1 5%) for at least 3 months before screening;\n  * Have HbA1c between \u22657.5% and \u226411.0%\uff1b\n\nExclusion Criteria:\n\n* \u25a0 Previous diagnosis of type 1 diabetes, special type diabetes;\n\n  * There are malignant tumors within 5 years before screening, or patients are in latent of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery).\n  * Have had chronic or acute pancreatitis any time prior to study entry;\n  * Known allergic constitution (allergy to 3 or more kinds of food or drugs), or allergy to GLP-1 receptor agonists, or severe allergic diseases (asthma, urticaria, eczematous dermatitis, etc.) at screening;\n  * Mentally incapacitated or speech-impaired;\n  * Suspected or confirmed history of alcohol or drug abuse;\n  * Pregnant or lactating woman;\n  * The investigator considers that there are any other conditions that make it inappropriate to participate in this study.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 273,
+      "trial_nct_id": "NCT06716216"
+    },
+    {
+      "chunk_id": "NCT06716216:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change From Baseline in Hemoglobin A1c (HbA1c) | time_frame=Week 0 to Week 32 | description=Change from baseline in HbA1c after 32 weeks of treatment.\ntype=secondary | measure=Change From Baseline in Body Weight | time_frame=Week 0 to Week 52 | description=Change from baseline in body weight after 52 weeks of treatment.\ntype=secondary | measure=Change From Baseline in Hemoglobin A1c (HbA1c) | time_frame=Week 0 to Week 52 | description=Change from baseline in HbA1c after 52weeks of treatment.\ntype=secondary | measure=Percentage of Participants With HbA1c Target Value of <7% | time_frame=Week 0 to Week 52 | description=Percentage of Participants With HbA1c Target Value of \\<7% after 52weeks of treatment.\ntype=secondary | measure=Percentage of Participants With HbA1c Target Value of <5.7% | time_frame=Week 0 to Week 52 | description=Percentage of Participants With HbA1c Target Value of \\<5.7%after 52weeks of treatment.\ntype=secondary | measure=Change From Baseline in Fasting Serum Glucose | time_frame=Week 0 to Week 52 | description=Change from baseline in FPG after 52 weeks of treatment.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 164,
+      "trial_nct_id": "NCT06716216"
+    },
+    {
+      "chunk_id": "NCT06716216:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-11-29\nPrimary completion date: 2026-03-20\nCompletion date: 2026-11-14\nStudy first posted: 2024-12-04\nResults first posted: None\nLast update posted: 2025-02-07\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06716216"
+    },
+    {
+      "chunk_id": "NCT06716216:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: BrightGene Bio-Medical Technology Co., Ltd.\nLead sponsor class: INDUSTRY\nCollaborators: BrightGene New Bio-Medical Technology(Wuxi) Co.Ltd.\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06716216"
+    }
+  ],
+  "trial_nct_id": "NCT06716216"
+}

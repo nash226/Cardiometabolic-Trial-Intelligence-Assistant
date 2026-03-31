@@ -1,0 +1,257 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D000308",
+          "term": "Adrenocortical Hyperfunction"
+        },
+        {
+          "id": "D000307",
+          "term": "Adrenal Gland Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009767",
+          "term": "Obesity, Morbid"
+        },
+        {
+          "id": "D003480",
+          "term": "Cushing Syndrome"
+        },
+        {
+          "id": "D007006",
+          "term": "Hypogonadism"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "conditionsModule": {
+      "conditions": [
+        "Obesity, Morbid"
+      ],
+      "keywords": [
+        "hypercortisolism",
+        "hypogonadism"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "b.cangiano@auxologico.it",
+          "name": "Biagio Cangiano, MD",
+          "phone": "3343177491",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Oggebbio",
+          "contacts": [
+            {
+              "email": "b.cangiano@auxologico.it",
+              "name": "Biagio Cangiano, MD",
+              "phone": "3343177491",
+              "role": "CONTACT"
+            },
+            {
+              "email": "massimo.scacchi@unimi.it",
+              "name": "Massimo Scacchi, Professor",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Istituto Auxlogico Italiano, Hospital San Giuseppe, Piancavallo",
+          "geoPoint": {
+            "lat": 45.99088,
+            "lon": 8.64663
+          },
+          "state": "Verbania",
+          "status": "RECRUITING",
+          "zip": "28824"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this observational study is to evaluate the actual secretion of cortisol and testosterone in obese male subjects, together with the receptor sensitivity to these hormones in order to understand whether the hormonal milieu deriving from these parameters is associated with alterations in bone metabolism, lipoprotein concentration and function, and/or the severity and complications of obesity.\n\nIt will be also investigated if this hormonal milieu is a predictive factor for cardiovascular disease in obese patients.\n\nEligible subjects are male patients (age 18-80 years) with severe obesity and no other known causes of hypercortisolism or hypogonadism.\n\nQuestionnaires for the evaluation of mood and symptoms will be collected upon enrollment, patient's anamnestic and clinical data relating to disease complications, BMI, previous blood tests, cortisol suppression with dexamethasone 1 mg will be collected, and blood sample will be sent to and analyzed at a centralized laboratory for the study of Steroid hormones, bone metabolism, lipoprotein function, genetics and receptor analysis."
+    },
+    "designModule": {
+      "bioSpec": {
+        "description": "blood samples for DNA analysis to study polymorphisms of glucocorticoid and androgen receptors, and NGS to look for rare variants in genes associated with hypogonadotropic hypogonadism and hypercortisolism.",
+        "retention": "SAMPLES_WITH_DNA"
+      },
+      "designInfo": {
+        "observationalModel": "ECOLOGIC_OR_COMMUNITY",
+        "timePerspective": "CROSS_SECTIONAL"
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ESTIMATED"
+      },
+      "patientRegistry": false,
+      "studyType": "OBSERVATIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* morbid obesity\n\nExclusion Criteria:\n\n* patients suffering from severe systemic pathologies, fever, chronic inflammatory states known to cause PCR \\>10 mg/dL\n* use of corticosteroids at the time of enrollment\n* the patient's poor understanding of spoken and written Italian\n* patients suffering from primary pathologies of the testicle, known at enrollment\n* patients suffering from hypothalamic-pituitary or adrenal pathologies already known at the time of enrollment",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE",
+      "sex": "MALE",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients affected with severe obesity"
+    },
+    "identificationModule": {
+      "acronym": "MiSterO",
+      "briefTitle": "Study of the Steroid Hormone Milieu in Obese Patients",
+      "nctId": "NCT06341699",
+      "officialTitle": "Studio Del Milieu Steroideo in Pazienti Obesi",
+      "orgStudyIdInfo": {
+        "id": "05C308"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Istituto Auxologico Italiano"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Evaluate the association of hypogonadism and/or androgen receptor polymorphisms that reduce sensitivity to androgens with: patients' BMI; comorbidities of obesity, and bone metabolism",
+          "measure": "Association of androgen milieu with the severity of obesity",
+          "timeFrame": "2024"
+        },
+        {
+          "description": "Evaluate the association of hypercortisolism and/or glucocorticoid receptor polymorphisms that increase sensitivity to cortisol with: patients' BMI; comorbidities of obesity, and bone metabolism",
+          "measure": "Association of cortisol milieu with the severity of obesity",
+          "timeFrame": "2024"
+        },
+        {
+          "description": "Use of artificial intelligence methods to hypothesize an algorithm including steroid milieu that can identify obese patients at greater cardiovascular risk",
+          "measure": "Algorithm fo CV risk in obesity",
+          "timeFrame": "2024"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "To evaluate the prevalence of hypogonadism in patients with severe obesity using EMAS criteria",
+          "measure": "Prevalence of hypogonadism in morbid obesity",
+          "timeFrame": "2024"
+        },
+        {
+          "description": "To evaluate the prevalence of patients with severe obesity positive to Nugent testing",
+          "measure": "Prevalence of patients with morbid obesity unresponsive to overnight suppression test",
+          "timeFrame": "2024"
+        },
+        {
+          "description": "Compare the enrichment in rare variants for HH-associated genes in obese patients with hypogonadotropic hypogonadism, compared to the general population",
+          "measure": "Enrichment in rare HH variants in obese patients with central hypogonadism",
+          "timeFrame": "2025"
+        },
+        {
+          "description": "Compare the enrichment in rare variants in genes associated with hypercortisolism in obese patients unresponsive to Nugent testing, compared to the general population",
+          "measure": "Enrichment in rare variants associated with hypercortisolism in obese patients unresponsive to Nugent testing",
+          "timeFrame": "2025"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER_GOV",
+          "name": "Ministry of Health, Italy"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Istituto Auxologico Italiano"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-05-16",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-16",
+      "studyFirstSubmitQcDate": "2024-03-25"
+    }
+  }
+}

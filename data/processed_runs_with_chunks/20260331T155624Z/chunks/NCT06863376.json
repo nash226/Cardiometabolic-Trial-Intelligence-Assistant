@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06863376:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06863376\nBrief title: Evaluating the Safety and Efficacy of Carbocisteine in the Treatment of Nonalcoholic Fatty Liver Disease Patients\nOfficial title: Evaluating the Safety and Efficacy of Carbocisteine in the Treatment of Nonalcoholic Fatty Liver Disease Patients\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06863376"
+    },
+    {
+      "chunk_id": "NCT06863376:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Non-Alcoholic Fatty Liver Disease\nIntervention labels: Carbocysteine 375 MG; Physical activity, walking, and calorie restriction\nDrug class labels: \nArms: Control group; Carbocistiene group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06863376"
+    },
+    {
+      "chunk_id": "NCT06863376:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Nonalcoholic fatty liver disease (NAFLD) is a global public health concern, and the leading cause of chronic liver disease, especially in developed countries. NAFLD is characterized by lipid accumulation in the liver not attributed to other causes. Lifestyle interventions, including dietary modification and exercise, remain the cornerstone of NAFLD treatment. Pharmacological treatments aimed primarily at improving liver disease should generally be limited to those with biopsy-proven NASH and fibrosis.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 74,
+      "trial_nct_id": "NCT06863376"
+    },
+    {
+      "chunk_id": "NCT06863376:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Either male or female adult patients (\\>18 years) with fatty liver diagnosis by using upper abdominal ultrasound echography\n\nExclusion Criteria:\n\n* Pregnant and/or lactating women\n* Excessive alcohol use (defined as an average alcohol intake \\> 30 g per day in men and \\> 20 g per day in women)\n* Other etiology of chronic liver diseases such as viral hepatitis, drug-induced hepatitis, autoimmune hepatitis.\n* patients suffering from chronic kidney disease, and hyper/hypoparathyroidism\n* Hypersensitivity to carbocistiene.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 99,
+      "trial_nct_id": "NCT06863376"
+    },
+    {
+      "chunk_id": "NCT06863376:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The change in the degree of steatosis in the Ultra Sound | time_frame=3 months | description=The change in the degree of steatosis in the Ultra Sound",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06863376"
+    },
+    {
+      "chunk_id": "NCT06863376:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-03-01\nPrimary completion date: 2026-03-20\nCompletion date: 2026-04-20\nStudy first posted: 2025-03-07\nResults first posted: None\nLast update posted: 2025-03-18\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06863376"
+    },
+    {
+      "chunk_id": "NCT06863376:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Tanta University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06863376"
+    }
+  ],
+  "trial_nct_id": "NCT06863376"
+}

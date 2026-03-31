@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07285850:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07285850\nBrief title: The Efficacy of Sequential Treatment With Bevacizumab Combined With Atezolizumab in Advanced Liver Cancer With MASLD\nOfficial title: The Efficacy of Sequential Treatment With Bevacizumab Combined With Atezolizumab in Advanced Liver Cancer With MASLD Background: a Dual Arm, Multicenter, Randomized Controlled Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT07285850"
+    },
+    {
+      "chunk_id": "NCT07285850:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: HCC - Hepatocellular Carcinoma\nIntervention labels: Sequential treatment of bevacizumab combined with atezolizumab (sequential group); Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)\nDrug class labels: \nArms: Sequential treatment of bevacizumab combined with atezolizumab (sequential group); Simultaneous treatment of bevacizumab combined with atezolizumab (same period group)\nKeywords: MASH; HCC; immunotherapy",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT07285850"
+    },
+    {
+      "chunk_id": "NCT07285850:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This research plan involves a treatment approach for advanced hepatocellular carcinoma (HCC) in the context of metabolic-associated steatotic liver disease (MASLD). The study aims to compare the efficacy differences between sequential therapy and concurrent therapy using bevacizumab and atezolizumab for advanced HCC in MASLD. The research will focus on evaluating objective response rates, progression-free survival, disease control rates, and overall survival, while utilizing biomarker analysis to elucidate treatment mechanisms. Additionally, the study will examine treatment safety, including the incidence and severity of adverse events.\nDetailed description: The study will recruit 20 patients, randomly dividing them into sequential and concurrent groups for up to 6 months of treatment and follow-up. In addition to routine efficacy assessments, the study will analyze changes in the microenvironment before and after treatment, including T-cell calcium levels, VEGFA expression, and immune-related factor alterations. Furthermore, it will explore the relationship between T-cell calcium signaling genes and treatment response, evaluating the impact of baseline metabolic characteristics (such as blood lipids and insulin resistance) on therapeutic outcomes.\n\nIn terms of safety, the study will monitor all adverse events (AEs) and serious adverse events (SAEs), and classify them according to the CTCAE 5.0 criteria. During the treatment period, patients will undergo regular liver biopsy to assess changes in the tumor microenvironment. The ultimate goal of the study is to provide evidence-based precision treatment strategies for MASLD-HCC patients.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 229,
+      "trial_nct_id": "NCT07285850"
+    },
+    {
+      "chunk_id": "NCT07285850:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Eligibility Criteria Inclusion Criteria\n\n* Age \u2265 18 years old (gender not limited)\n* ECOG performance status of 0-1\n* Preoperative imaging diagnosis of advanced hepatocellular carcinoma (BCLC stage C or D, unsuitable for surgery)\n* Ultrasound or MRI indicating moderate to severe fatty liver (Fibroscan CAP \\> 268 dB/m or MR fat score \\> 10%)\n* Willing to use contraceptive measures during the trial period\n* Expected survival time \u2265 3 months\n* At least one measurable lesion (per RECIST 1.1) that has not been irradiated\n* Organ function levels (within 7 days before first study medication) must meet the following:\n* Hematopoietic function: ANC \u2265 1.5\u00d710\u2079/L, PLT \u2265 100\u00d710\u2079/L, Hb \u2265 90 g/L, no transfusion within 14 days\n* Liver function: TBIL \u2264 1.5\u00d7ULN, AST/ALT/ALP \u2264 2.5\u00d7ULN, serum creatinine \u2264 1.5\u00d7ULN, CrCl \u2265 50 mL/min, ALB \u2265 30 g/L, Child-Pugh A\n* Coagulation function: INR and APTT \u2264 1.5\u00d7ULN or within therapeutic range if on anticoagulants\n* Renal function: urinary protein \u2264 1+ (or \u22641 g/24h if \\>1+)\n* Cardiac function: ECG normal or clinically insignificant, LVEF \\> 50%\n* Women of childbearing potential must have a negative serum pregnancy test within 7 days prior to first dosing\n* Men and women of reproductive potential must use effective contraception during and for 12 months after treatment\n* Participants must voluntarily provide informed consent and have good compliance\n\nExclusion Criteria\n\n* Excessive alcohol consumption (weekly ethanol intake: males \\< 210 g, females \\< 140 g)\n* Tumor lesions previously treated with targeted therapy, immunotherapy, TACE, or radiotherapy\n* Pregnant or breastfeeding women, or positive pregnancy test at baseline\n* Central nervous system metastases diagnosed by CT, MRI, or PET-CT\n* Participation in another clinical drug or therapy trial within 4 weeks before first study dose\n* Major surgery within 4 weeks prior to first study dose, or incomplete recovery from surgery\n* Radiotherapy within 2 weeks before first study dose\n* History or presence of primary immunodeficiency or active autoimmune disease\n* History of organ transplantation or hematopoietic stem cell transplantation\n* Current use of immunosuppressants or corticosteroids (\\>10 mg/day prednisone or equivalent) within 2 weeks\n* Positive for HIV antibody or Treponema pallidum antibody, or active hepatitis B/C infection\n* Allergy to recombinant humanized PD-1 monoclonal antibody, VEGF monoclonal antibody, or components\n* Symptomatic pleural effusion, pericardial effusion, or ascites requiring clinical intervention\n* Severe cardiovascular disease within 12 months (e.g., CAD, CHF \u2265 II, arrhythmias, MI)\n* Events within 6 months before first dose (e.g., DVT, PE, MI, PCI, ACS, CABG, stroke, TIA, embolism)\n* History of GI surgery, obstruction, bleeding, dysfunction, or malabsorption affecting drug absorption\n* Severe uncontrolled infection or comorbidity, or moderate/severe renal impairment\n* Active pulmonary disease (interstitial pneumonia, COPD, asthma, tuberculosis history)\n* Abnormal coagulation (INR \\> 2.0, PT \\> 16 s), bleeding tendency, or thrombolytic/anticoagulant therapy (except prophylaxis)\n* Significant bleeding within 3 months (e.g., hemoptysis \u2265 2.5 mL, GI bleeding, varices, ulcers, vasculitis)\n* Known hereditary/acquired bleeding or thrombotic disorders (e.g., hemophilia, thrombocytopenia)\n* History of substance abuse or mental disorders affecting compliance\n* Use of warfarin or coumarin derivatives within 14 days before or during treatment\n* Other severe acute/chronic conditions increasing risk or confounding results\n* Poor compliance or other conditions deemed unsuitable for trial participation",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 565,
+      "trial_nct_id": "NCT07285850"
+    },
+    {
+      "chunk_id": "NCT07285850:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=objective response rate (ORR) | time_frame=6 Months | description=Compare the objective response rate (ORR) of sequential treatment with bevacizumab combined with atezolizumab (sequential group) and concurrent treatment (concurrent group) in advanced HCC under MASLD background, according to RECIST 1.1 criteria.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT07285850"
+    },
+    {
+      "chunk_id": "NCT07285850:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-10-20\nPrimary completion date: 2026-08-30\nCompletion date: 2026-08-30\nStudy first posted: 2025-12-16\nResults first posted: None\nLast update posted: 2025-12-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07285850"
+    },
+    {
+      "chunk_id": "NCT07285850:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eastern Hepatobiliary Surgery Hospital\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT07285850"
+    }
+  ],
+  "trial_nct_id": "NCT07285850"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04505436:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04505436\nBrief title: Study to Evaluate Efficacy, Safety and Tolerability of HM15211(Efocipegtrutide) in Subjects\nOfficial title: A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Parallel Group Study to Evaluate Efficacy, Safety and Tolerability of HM15211(Efocipegtrutide) Treatment for 12 Months in Subjects With Biopsy Confirmed NASH\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT04505436"
+    },
+    {
+      "chunk_id": "NCT04505436:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: NASH - Nonalcoholic Steatohepatitis\nIntervention labels: HM15211; Placebo of HM15211\nDrug class labels: \nArms: HM15211; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT04505436"
+    },
+    {
+      "chunk_id": "NCT04505436:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is a phase 2 study to Evaluate Efficacy, Safety and Tolerability of HM15211 Treatment for 12 Months in Subjects with Biopsy Confirmed NASH\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT04505436"
+    },
+    {
+      "chunk_id": "NCT04505436:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* United States Sites: Adults \u2265 18 to \u2264 70 years.\n* Korean Sites: Adults \u2265 19 to \u2264 70 years.\n* BMI \u2265 18 kg/m2, with stable body weight (defined as change \\< 5%) by history for 3 months prior to screening or since baseline liver biopsy, whichever is earlier.\n* Subjects have a diagnosis of non-cirrhotic NASH with liver fibrosis (Fibrosis stage F1-F3) confirmed by liver biopsy within 6 months of Day -7.\n* MRI-PDFF performed at screening with \u2265 8% steatosis.\n\nExclusion Criteria:\n\n* Subjects with a history of active or chronic liver disease, including alcoholic liver disease, viral hepatitis, primary biliary cirrhosis, primary sclerosing cholangitis, autoimmune hepatitis, Wilson's disease, hemochromatosis, alpha-1 antitrypsin deficiency, human immunodeficiency virus (HIV).\n* Any history of clinically significant chronic liver disease including esophageal varices, ascites, hepatic encephalopathy, splenomegaly, or any hospitalization for treatment of chronic liver disease; or Model for End Stage Liver Disease \\>12.\n* Recent (within 3 months of baseline biopsy) use of therapies associated with development of NAFLD (e.g., systemic corticosteroids, methotrexate, tamoxifen, aromatase inhibitors, amiodarone, or long-term use of tetracyclines).\n* Type 1 diabetes subjects, or T2DM subjects on GLP-1 receptor agonist therapy, or other therapies not allowed for this study",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 224,
+      "trial_nct_id": "NCT04505436"
+    },
+    {
+      "chunk_id": "NCT04505436:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=pharmacodynamic (PD) effect of HM15211 | time_frame=12 months | description=Proportion of subjects who achieve resolution of steatohepatitis on overall histopathological reading and no worsening of liver fibrosis",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT04505436"
+    },
+    {
+      "chunk_id": "NCT04505436:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2020-07-31\nPrimary completion date: 2026-06-27\nCompletion date: 2026-07-27\nStudy first posted: 2020-08-10\nResults first posted: None\nLast update posted: 2025-11-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT04505436"
+    },
+    {
+      "chunk_id": "NCT04505436:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Hanmi Pharmaceutical Company Limited\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT04505436"
+    }
+  ],
+  "trial_nct_id": "NCT04505436"
+}

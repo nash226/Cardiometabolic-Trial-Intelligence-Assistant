@@ -1,0 +1,298 @@
+{
+  "arms": [
+    {
+      "description": "Dose level 1,SC,once a week for 4 weeks; Dose level 2,SC,once a week for 4 weeks; Dose level 3,SC,once a week for 52 weeks",
+      "intervention_names": [
+        "Drug: IBI362"
+      ],
+      "label": "IBI362 Low Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Dose level 1,SC,once a week for 4 weeks; Dose level 2,SC,once a week for 4 weeks; Dose level 3,SC,once a week for for 4 weeks; Dose level 4,SC,once a week for 48 weeks",
+      "intervention_names": [
+        "Drug: IBI362"
+      ],
+      "label": "IBI362 High Dose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Placebo,SC,once a week for 60 weeks",
+      "intervention_names": [
+        "Drug: Placebo"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Metabolic Dysfunction-associated Steatohepatitis (MASH)",
+      "normalized_name": "mash"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Must be willing to participate in the study and provide written informed consent.\n* Male or female, age 18 years or older at the time of signing informed consent\n* Body mass Index (BMI) \u226525 kg/m\u00b2\n* Diagnosis of Metabolic dysfunction-associated steatohepatitis (MASH) (Non-alcoholic Fatty Liver Disease (NAFLD) Activity Score (NAS) \u2265 4, with at least 1 point in steatosis, inflammation and ballooning each) and fibrosis stage F2 or F3 proven by a biopsy conducted during the screening period or by a historical biopsy conducted within the last 3 months prior to screening\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. HbA1c\\>10%\n3. History or current other forms of chronic liver disease other than MASH\n4. Patients with positive Hepatitis B surface antigen (HBsAg). Patients with positive HBcAb will be eligible only when HBV DNA test negative at screening\n5. patients with HCV antibody positive.\n6. Patients with HIV antibody positive or syphilis specific antibodies positive (patients with non-specific antibody turned negative will be eligible)\n7. Model for End-stage Liver Disease(MELD) \\>12 or Child-Turcotte-Pugh(CTP) \\>6",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Placebo"
+      ],
+      "description": "Placebo administered subcutaneously (SC) once a week.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    },
+    {
+      "arm_group_labels": [
+        "IBI362 High Dose",
+        "IBI362 Low Dose"
+      ],
+      "description": "IBI362 administered subcutaneously (SC) once a week.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "IBI362",
+      "normalized_name": "ibi362"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "Percentage of Participants With MASH resolution With no Worsening of Fibrosis on Liver Histology",
+      "outcome_type": "primary",
+      "time_frame": "Baseline, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants With \u22651 Point Decrease in Fibrosis Stage With No Worsening of MASH on Liver Histology",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants With MASH improvement With no Worsening of Fibrosis on Liver Histology",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants With MASH improvement With \u22651 Point Decrease in Fibrosis Stage on Liver Histology",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants With MASH resolution With \u22651 Point Decrease in Fibrosis Stage on Liver Histology",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants With \u22651 Point Decrease in Fibrosis Stage on Liver Histology",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage Change From Baseline in Liver Fat Content by Magnetic Resonance Imaging - Proton Density Fat Fraction (MRI-PDFF)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 4, Week 12, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of participants with at least 30%, 50% and 70% relative reduction in Liver Fat Content by Magnetic Resonance Imaging - Proton Density Fat Fraction (MRI-PDFF) From Baseline",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 4, Week 12, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage change From Baseline in aspartate aminotransferase[U/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage change From Baseline in alanine aminotransferase[U/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage change From Baseline in a \u03b3-Glutamyl transferase[U/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage change From Baseline in triglyceride [mmol/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage change From Baseline in total cholesterol[mmol/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage change From Baseline in low-density lipoprotein cholesterol[mmol/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percentage change From Baseline in high-density lipoprotein cholesterol[mmol/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change and Percent Change from Baseline in Body Weight [kg]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of Participants who Achieve \u22655%, \u226510% and \u226515% Body Weight Reduction",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change from Baseline in BMI [kg/m2]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change from Baseline in Waist Circumference [cm]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change from Baseline in Fasting Plasma Glucose (FPG )[mmol/L",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change from Baseline in Fasting Blood Insulin[mlU/L]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Mean Absolute Change from Baseline in glycated hemoglobin A1c (HbA1c)[%]",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "Change from Baseline in Homeostasis Model Assessment IR",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": "The SF-36 is a 36 item questionnaire that measures eight multi-item dimensions of health. For each dimension item scores are coded, summed, and transformed on to a scale from 0 (worst possible health state measured by the questionnaire) to 100 (best possible health state)",
+      "measure": "Changes from baseline in scores in 36-item Short-Form Health Survey version 2(SF-36v2)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": "NASH-CHECK scores range from 0 to 10, with higher scores indicating worse symptoms/HRQOL",
+      "measure": "Change from baseline in scores in NASH-CHECK (patient-reported outcome measure for non-alcoholic steatohepatitis)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": "6-point Patient Global Impression of Severity of NASH symptoms (PGIS; 7-day recall period; responses ranging from \"no symptoms\" to \"very severe\").",
+      "measure": "Change from baseline in scores in PGI-SPatient Global Impression of Severity\uff08PGI-S\uff09",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    },
+    {
+      "description": null,
+      "measure": "The proportion of subjects with at least a 25% improvement in liver stiffness measurement (LSM) relative to baseline based on FibroScan and FibroTouch measurements, and the proportion of subjects with at least a 30% improvement in controlled attenuation",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, Week 36, Week 60"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This is a multicenter, randomized, double-blind, placebo-controlled Phase 2 clinical study evaluating the efficacy and safety of IBI362 in MASH subjects. Subjects will be randomly assigned to IBI362 low-dose, high-dose and placebo groups. The entire trial cycle includes a 8-week screening period, a 60-week double-blind treatment period, and a 4-week follow-up period.",
+    "brief_title": "A Study of IBI362 in Participants With Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+    "collaborator_names": [],
+    "completion_date": "2027-07-22",
+    "condition_labels": [
+      "mash"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Must be willing to participate in the study and provide written informed consent.\n* Male or female, age 18 years or older at the time of signing informed consent\n* Body mass Index (BMI) \u226525 kg/m\u00b2\n* Diagnosis of Metabolic dysfunction-associated steatohepatitis (MASH) (Non-alcoholic Fatty Liver Disease (NAFLD) Activity Score (NAS) \u2265 4, with at least 1 point in steatosis, inflammation and ballooning each) and fibrosis stage F2 or F3 proven by a biopsy conducted during the screening period or by a historical biopsy conducted within the last 3 months prior to screening\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. HbA1c\\>10%\n3. History or current other forms of chronic liver disease other than MASH\n4. Patients with positive Hepatitis B surface antigen (HBsAg). Patients with positive HBcAb will be eligible only when HBV DNA test negative at screening\n5. patients with HCV antibody positive.\n6. Patients with HIV antibody positive or syphilis specific antibodies positive (patients with non-specific antibody turned negative will be eligible)\n7. Model for End-stage Liver Disease(MELD) \\>12 or Child-Turcotte-Pugh(CTP) \\>6",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 165,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Placebo",
+      "IBI362"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-11-20",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "Innovent Biologics (Suzhou) Co. Ltd.",
+    "masking": "TRIPLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06937749",
+    "official_title": "A Randomized, Double-blind, Placebo-controlled Phase 2 Study Evaluating the Efficacy and Safety of IBI362 in Participants With Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2026-04-30",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06937749",
+    "start_date": "2025-07-01",
+    "study_first_posted_at": "2025-04-22",
+    "study_type": "INTERVENTIONAL"
+  }
+}

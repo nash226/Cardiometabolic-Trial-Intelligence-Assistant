@@ -1949,3 +1949,529 @@ It gives us:
 The next UI step should be:
 
 - add the grounded answer panel to the trial detail or search experience
+
+## 35. Grounded Answer Panel In The UI
+
+### What we built
+
+We added a grounded answer panel to the trial detail page.
+
+The page now:
+
+- accepts a question in the browser
+- calls `POST /api/v1/ask`
+- renders the returned answer
+- shows the cited evidence snippets
+
+### Why this matters
+
+This is the first fully user-facing version of the core product loop:
+
+- inspect a trial
+- ask a question
+- get a grounded answer with citations
+
+### What I learned
+
+- once the backend contracts are stable, adding product behavior to the UI becomes mostly an integration task
+- the main product value becomes visible as soon as retrieval and answer generation are reachable from a page instead of curl
+
+### What comes next
+
+The next likely step is:
+
+- add the same grounded answer experience to the finder/search page, or
+- build the compare view
+
+## 36. Clickable UI Citations
+
+### What we built
+
+We updated the trial detail answer panel so citations render as clickable links to the local trial detail page while still showing the underlying chunk ID.
+
+### Why this matters
+
+Chunk IDs are good for traceability, but not ideal as the main user-facing citation format.
+
+Clickable citations are a better MVP behavior because they let a user:
+
+- inspect the cited trial quickly
+- keep the answer grounded
+- understand the source without reading internal retrieval identifiers first
+
+### What I learned
+
+- backend citation formats can stay debug-friendly while the UI translates them into a more usable presentation
+- source-grounded UX improves when citations are navigable, not just technically correct
+
+### What comes next
+
+The next improvement is likely:
+
+- linking citations to specific sections on the detail page, or
+- adding the answer panel to the search page
+
+## 37. Section-Directed Citation Links
+
+### What we built
+
+We updated UI citations so they now point to relevant sections on the trial detail page instead of only linking back to the top of the record.
+
+Chunk types now map to section anchors such as:
+
+- `summary_description` -> summary
+- `eligibility` -> eligibility
+- `conditions_interventions` -> interventions
+- `outcomes` -> outcomes
+- `timeline` -> timeline
+
+### Why this matters
+
+Clickable citations are much more useful when they land near the evidence the answer is citing.
+
+That reduces friction for the user and makes grounded answers easier to inspect.
+
+### What I learned
+
+- citation UX is not just about linking to the right record
+- good grounded UX should route the user to the right part of the record whenever possible
+
+### What comes next
+
+The next improvement is likely:
+
+- preserving ask state across cross-trial navigation, or
+- adding the answer panel to the finder/search page
+
+## 38. Global Corpus Ask On The Finder Page
+
+### What we built
+
+We added a global ask panel to the finder page.
+
+It:
+
+- reuses the current search filters
+- sends the question to `POST /api/v1/ask`
+- renders the grounded answer directly on the search page
+- shows cited trials beneath the answer
+
+### Why this matters
+
+This is the first corpus-level assistant workflow in the UI.
+
+It lets the user ask questions over the filtered search space without having to drill into one trial first.
+
+### What I learned
+
+- the same answer endpoint can support both trial-specific and corpus-slice workflows when the filter contract is stable
+- adding global ask to the finder page makes the product feel much closer to the intended trial intelligence assistant
+
+### What comes next
+
+The next likely step is:
+
+- preserving context and question state when the user navigates into a cited trial, or
+- building the compare view
+
+## 39. RQ + Redis Ingestion Jobs
+
+### What we built
+
+We added queued corpus expansion with `RQ + Redis`.
+
+This includes:
+
+- an `ingestion_jobs` table
+- job create/list/detail API endpoints
+- an RQ worker entrypoint
+- a queued ingestion flow that fetches, processes, embeds, and loads runs into Postgres
+
+### Why this matters
+
+The corpus no longer has to be expanded manually step by step from the terminal.
+
+That makes it much easier to:
+
+- grow the stored trial universe
+- repeat ingestion runs
+- inspect job status and failures
+
+### What I learned
+
+- once the ingestion pipeline is stable, the right next abstraction is orchestration, not more transformation logic
+- using the existing ingestion functions inside the queue worker keeps the manual and queued paths aligned
+
+### What comes next
+
+The next likely step is:
+
+- add a small admin UI for job creation and status, or
+- use the queue to expand the corpus substantially before more product features
+
+## 41. SimpleWorker For Local macOS Queue Stability
+
+### What we built
+
+We changed the local RQ worker entrypoint to use `SimpleWorker` instead of the default fork-based worker.
+
+### Why this matters
+
+On macOS, the default fork-based RQ work-horse can crash with Objective-C fork safety errors during ingestion jobs.
+
+Using `SimpleWorker` avoids that for local development by running jobs in-process instead of forking a child work-horse.
+
+### What I learned
+
+- queue infrastructure that works in principle can still fail because of operating-system runtime behavior
+- local development sometimes needs a safer worker mode than the production-default process model
+
+### What comes next
+
+The next step is:
+
+- restart the worker with `SimpleWorker`
+- requeue the failed job
+
+## 40. Architecture Diagram Refresh
+
+### What we built
+
+We updated the current architecture diagram to include:
+
+- `RQ + Redis` ingestion jobs
+- the worker-based corpus expansion path
+- grounded answer generation
+- the current FastAPI-served UI layer
+
+### Why this matters
+
+The old diagram no longer matched the real system closely enough.
+
+Once queueing, answer generation, and UI were added, the architecture picture needed to reflect:
+
+- both ingestion modes
+- retrieval plus answer generation
+- backend plus current client surface
+
+### What I learned
+
+- architecture diagrams go stale quickly once a project starts adding orchestration and UI layers
+- keeping the diagram aligned with the implemented system is more useful than keeping an older simpler picture
+
+### What comes next
+
+The next diagram update should likely happen when:
+
+- compare view is added, or
+- an ingestion admin UI is added
+
+## 42. Multi-Status Fetch Filters Needed Advanced Syntax
+
+### What we built
+
+We fixed the ClinicalTrials.gov fetch builder for queued ingestion jobs so multiple overall statuses are encoded through `filter.advanced` instead of repeated `filter.overallStatus` query parameters.
+
+### Why this matters
+
+Single-status fetches were working, but the queued corpus-expansion jobs exposed a broader API edge case:
+
+- repeated `filter.overallStatus` parameters caused HTTP 400 responses
+
+Encoding status filters as one advanced clause is more reliable for multi-value requests.
+
+### What I learned
+
+- queueing a broader workflow surfaces API-shape bugs that may not appear in small manual tests
+- ClinicalTrials.gov filtering is safest when multi-value scope rules are expressed through `filter.advanced`
+
+### What comes next
+
+The next step is:
+
+- requeue the failed diabetes job with the updated fetch builder
+
+## 43. Chat-First Finder Refactor
+
+### What we built
+
+We refactored the main finder UI into a clearer chat-first workspace.
+
+The homepage now leads with:
+
+- one primary question composer
+- starter prompts
+- a visible conversation thread
+- a separate retrieval context panel for filters, matched trials, and evidence
+
+### Why this matters
+
+The product direction changed from a search-first interface with an ask box into a trial intelligence assistant whose primary entry point is conversation.
+
+That required the UI to make the chat flow feel primary while still preserving retrieval transparency.
+
+### What I learned
+
+- changing the interaction model is not just a styling change; the page structure has to express which action is primary
+- a chat-first product still needs visible retrieval context or it quickly starts to feel like an opaque chatbot
+- preserving a small local thread on the page makes the app feel much more like an assistant than a single-turn form
+
+### What comes next
+
+The next UI iteration should likely improve:
+
+- richer per-turn evidence grouping
+- chat-linked trial cards
+- inferred filter controls that can be adjusted directly from the conversation
+
+## 44. Minimal UI Copy Pass
+
+### What we built
+
+We tightened the finder UI headers and subheaders so the page reads more minimally.
+
+This pass shortened:
+
+- the hero headline and lead
+- the sidebar helper copy
+- the workspace section labels
+- the retrieval panel headings
+
+### Why this matters
+
+The app is moving toward a chat-first experience, and overly explanatory headers were making the interface feel heavier than the product interaction actually is.
+
+Minimal copy makes the UI feel more direct while keeping the retrieval structure visible.
+
+### What I learned
+
+- once a page structure is doing the explanatory work, long subheaders start adding noise instead of clarity
+- a chat-first interface benefits from shorter labels because the conversation itself becomes the main source of context
+
+### What comes next
+
+The next UI pass should likely focus on:
+
+- spacing and hierarchy refinement
+- reducing visual repetition between the chat and context columns
+
+## 45. Single-Card Chat Layout
+
+### What we built
+
+We removed the separate homepage context card and folded its contents into the main chat card.
+
+The finder page now uses:
+
+- one primary chat surface
+- retrieval details stacked underneath the conversation
+- no separate right-side context container
+
+### Why this matters
+
+The extra context card was making the page feel split between two competing primary areas.
+
+Collapsing the layout into one card makes the chat interaction clearer while still keeping filters, matched trials, and evidence available on the same screen.
+
+### What I learned
+
+- a chat-first interface becomes easier to read when secondary retrieval details are visually subordinate to the conversation
+- removing layout competition often simplifies the product more effectively than adding more copy or styling
+
+### What comes next
+
+The next refinement should likely focus on:
+
+- cleaning up spacing within the single-card layout
+- deciding whether filters should remain visible by default or be collapsible
+
+## 46. Open-Ended Corpus Chat Default
+
+### What we built
+
+We removed the homepage scope controls and changed the main chat surface to default to the widest available corpus slice.
+
+The finder page now:
+
+- has no visible filter sidebar
+- sends open-ended retrieval requests by default
+- lets the user express scope through the question itself
+
+### Why this matters
+
+The product direction is now explicitly chat-first.
+
+Pre-constraining the experience with visible filters was making the interface feel more like a search dashboard than an assistant. Removing those controls makes the conversation the primary driver of retrieval.
+
+### What I learned
+
+- if chat is truly the front door, visible scope controls can undermine that by shifting the user back into form-filling behavior
+- broad defaults are useful as long as grounded retrieval and citations remain visible
+
+### What comes next
+
+The next step should likely be:
+
+- improving inferred filter presentation from the question itself
+- optionally reintroducing advanced filters later as a secondary or expandable tool
+
+## 47. UI Direction Mockups
+
+### What we built
+
+We created five standalone HTML mockups for the chat-first product direction so the interface can be chosen intentionally before implementation.
+
+The mockups explore different visual and interaction models:
+
+- editorial answer-led layout
+- analyst terminal layout
+- card-based assistant
+- notebook-style research flow
+- compact command center
+
+### Why this matters
+
+The product is shifting from a search-first interface into a chat-first assistant.
+
+That kind of change is easier to evaluate through multiple concrete UI directions than through incremental tweaks to one live template.
+
+### What I learned
+
+- once the backend and retrieval model are stable enough, design exploration becomes much more productive because the product constraints are clear
+- building several sharply different mockups is a better decision tool than polishing one medium-quality layout too early
+
+### What comes next
+
+The next step is:
+
+- choose one mockup direction
+- port its layout and interaction ideas into the real homepage template
+
+## 48. Trial Card Metadata Simplification
+
+### What we built
+
+We simplified the matched trial cards in the chat UI.
+
+The cards now:
+
+- remove the fused score from the top right
+- place the NCT ID inline with the title
+- remove the chunk type and weight pills
+
+### Why this matters
+
+The previous card layout exposed retrieval internals too aggressively for the primary product view.
+
+Those details are useful for debugging, but they were competing with the information the user is more likely to care about first: which study this is and why it matters.
+
+### What I learned
+
+- retrieval transparency does not require every scoring artifact to be visible in the primary UI
+- simplifying result cards can make the product feel more intentional without losing the underlying grounded behavior
+
+### What comes next
+
+The next card refinement should likely focus on:
+
+- making trial titles more human-readable than chunk section names
+- deciding which metadata deserves a secondary detail line
+
+## 49. Trial Cards Should Lead With Study Identity
+
+### What we built
+
+We updated fused retrieval results and the homepage trial cards so matched studies display the trial brief title instead of the chunk section title.
+
+The API now returns:
+
+- `trial_title`
+
+And the UI now renders:
+
+- `NCT ID + study title`
+
+instead of:
+
+- `NCT ID + chunk title`
+
+### Why this matters
+
+The user is trying to understand which study matched, not which retrieval chunk happened to surface first.
+
+Showing the study title makes the result cards read like study objects rather than retrieval internals.
+
+### What I learned
+
+- when retrieval is chunk-based, the UI still needs to present study-level identity first
+- chunk titles are useful as supporting context, but they are not the right primary label for search results
+
+### What comes next
+
+The next refinement should likely decide whether the secondary line under each card should show:
+
+- chunk context
+- sponsor and phase
+- or timeline relevance
+
+## 50. Hide Internal Answer Method Labels In The UI
+
+### What we built
+
+We removed the visible `grounded_llm` method label from the homepage chat thread.
+
+The backend still returns the answer method internally, but the UI now just shows:
+
+- `Assistant`
+
+instead of:
+
+- `Assistant · grounded_llm`
+
+### Why this matters
+
+`grounded_llm` is an implementation detail, not user-facing language.
+
+Exposing it in the primary chat surface made the product feel more like a debug interface than an assistant experience.
+
+### What I learned
+
+- users usually benefit from seeing evidence and matched studies, not internal method names
+- a grounded product can stay transparent without showing raw system labels in the conversation UI
+
+### What comes next
+
+The next cleanup pass should likely identify other backend-facing labels that still leak into the UI and simplify them.
+
+## 51. Architecture Diagram Needed The Runtime Query Path
+
+### What we built
+
+We updated the Mermaid system architecture diagram to explicitly show the query pipeline.
+
+The diagram now includes:
+
+- chat question entry
+- inferred or applied scope
+- fused retrieval over the stored corpus
+- grounded answer generation
+- UI rendering of the answer, matched trials, evidence snippets, and citations
+
+### Why this matters
+
+The product has shifted into a chat-first experience, so the old diagram was no longer enough.
+
+It showed ingestion and retrieval components, but it did not show how a user question actually flows through the running system.
+
+### What I learned
+
+- once the product interaction becomes conversational, the architecture diagram needs to represent runtime query flow, not just system modules
+- showing both ingestion and query-time behavior makes the system easier to explain to future builders and stakeholders
+
+### What comes next
+
+The next diagram update should likely happen when:
+
+- query understanding becomes more explicit
+- compare workflows are added
+- or multi-turn conversation state becomes a first-class backend feature

@@ -1,0 +1,242 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D010003",
+          "term": "Osteoarthritis"
+        },
+        {
+          "id": "D001168",
+          "term": "Arthritis"
+        },
+        {
+          "id": "D007592",
+          "term": "Joint Diseases"
+        },
+        {
+          "id": "D009140",
+          "term": "Musculoskeletal Diseases"
+        },
+        {
+          "id": "D012216",
+          "term": "Rheumatic Diseases"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D020370",
+          "term": "Osteoarthritis, Knee"
+        },
+        {
+          "id": "D009767",
+          "term": "Obesity, Morbid"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "sleeve gastrectomy + dietary and lifestyle counseling prior to total knee replacement",
+          "interventionNames": [
+            "Procedure: bariatric surgery followed by total knee replacement"
+          ],
+          "label": "Surgical weight loss",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "dietary and lifestyle counseling prior to total knee replacement",
+          "label": "Standard of Care",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Surgical weight loss"
+          ],
+          "description": "The only intervention is the randomization of the priority of the 2 procedures.",
+          "name": "bariatric surgery followed by total knee replacement",
+          "type": "PROCEDURE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Knee Osteoarthritis",
+        "Morbid Obesity"
+      ],
+      "keywords": [
+        "Arthroplasty, Replacement, Knee",
+        "Bariatric Surgery"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Halifax",
+          "contacts": [
+            {
+              "email": "JELLSMER@DAL.CA",
+              "name": "James Ellsmere, MD",
+              "phone": "902-473-1886",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Canada",
+          "facility": "Nova Scotia Health",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          },
+          "state": "Nova Scotia",
+          "status": "RECRUITING",
+          "zip": "B4E 0H4"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Does weight loss surgery in patients with morbid obesity prior to knee replacement surgery improve outcomes from knee replacement surgery",
+      "detailedDescription": "RCT involving patients who have severe knee osteoarthritis and have a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 45 to 60 and are randomly assigned to receive dietary and lifestyle counseling for 9 to 13 months followed by total knee replacement (control arm) or sleeve gastrectomy with dietary and lifestyle counseling for 9 to 13 months followed by total knee replacement (treatment arm)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nsevere knee osteoarthritis body-mass index of 45 to 60\n\nExclusion Criteria:\n\nprevious total replacement of the same knee, a need for bilateral total knee replacement, and knee pain during the previous week that the patient rated at higher than 60 mm on a 100-mm visual-analogue scale. Also,prior bariatric or complex foregut surgery, significant cardiovascular, pulmonary, renal, liver, gastrointestinal, psychiatric disorders, pregnancy, malignancy within last 5 years, anemia, coagulopathy requiring anti-coagulation therapy.",
+      "healthyVolunteers": true,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "OMEOSKO",
+      "briefTitle": "Optimal Management of Extreme Obesity and Severe Knee Osteoarthritis Feasibility Trial",
+      "nctId": "NCT05120492",
+      "officialTitle": "Optimal Management of Extreme Obesity and Severe Knee Osteoarthritis Feasibility Trial",
+      "orgStudyIdInfo": {
+        "id": "41155"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Nova Scotia Health Authority"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Knee Injury and Osteoarthritis Outcome Score (KOOS4)",
+          "measure": "Pain, mobility and quality of Life",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "assessing quality of life.",
+          "measure": "EuroQol Group 5-Dimension Self Report Questionnaire (EQ-5D)",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Nova Scotia Health Authority"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-19",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-04-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-08",
+      "studyFirstPostDateStruct": {
+        "date": "2021-11-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-11-03",
+      "studyFirstSubmitQcDate": "2021-11-03"
+    }
+  }
+}

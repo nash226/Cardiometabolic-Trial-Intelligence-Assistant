@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04679376:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04679376\nBrief title: Statins for the Treatment of NASH\nOfficial title: A Randomized, Double-Blind, Placebo-Controlled, Phase 2 Clinical Trial to Evaluate the Safety and Efficacy of Statins in Adult Patients With Non-Alcoholic Steatohepatitis (NASH)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT04679376"
+    },
+    {
+      "chunk_id": "NCT04679376:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: NASH - Nonalcoholic Steatohepatitis\nIntervention labels: Atorvastatin; Placebo\nDrug class labels: \nArms: Group 1: Atorvastatin Treatment; Group 2: Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT04679376"
+    },
+    {
+      "chunk_id": "NCT04679376:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this research study is to determine whether the study drug, atorvastatin (Lipitor\u00ae), is safe and effective in improving the features of NASH.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT04679376"
+    },
+    {
+      "chunk_id": "NCT04679376:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Definite NASH on a liver biopsy obtained \u2264 90 days prior to randomization with a NAFLD activity score (NAS) of \u2265 4 with at least 1 in each component of the NAS according to NASH CRN grading52\n* Fibrosis stage \u2265 2 as assessed by liver biopsy\n* Not currently on statin therapy\n* Provision of written informed consent\n* Agree to use of effective contraceptive measures if female of child bearing potential.\n\nExclusion Criteria:\n\n* The presence of any of the following will exclude a subject from study enrollment: Any chronic liver disease other than NASH (i.e., drug-induced, viral hepatitis, autoimmune hepatitis, primary biliary cirrhosis, primary sclerosing cholangitis, hemochromatosis, A1AT deficiency, Wilsons disease)\n* Cirrhosis, as assessed clinically or histologically\n* Presence of vascular liver disease\n* BMI \u2264 25 kg/m2\n* Excessive alcohol use (\\> 20 g/day) within the past 2 years\n* AST or ALT \\> 250 U/L.\n* Type 1 diabetes mellitus\n* Bariatric surgery in the past 5 years.\n* Weight gain of \\> 5% in past 6 months or \\> 10% change in past 12 months.\n* Inadequate venous access\n* HIV antibody positive, hepatitis B surface antigen positive (HBsAg), or HCV RNA positive.\n* Receiving an elemental diet or parenteral nutrition\n* Chronic pancreatitis or pancreatic insufficiency\n* Any history of complications of cirrhosis (i.e. ascites, hepatic encephalopathy, or portal hypertensive bleeding), even if absent or optimized with medical management at time of screening\n* Concurrent conditions: a) Inflammatory bowel disease, b) Unstable angina, myocardial infarction, transient ischemic events, or stroke within 24 weeks of screening, c) Ongoing infectious, immune mediated disease within previously 1 years, d) Any malignant disease (other than basal cell carcinoma of the skin) within previous 5 years, e) Prior solid organ transplant, f) Any other concurrent condition which, in the opinion of the investigator, could impact adversely on the subject participating or the interpretation of the study data.\n* Concurrent medications including: a) Anti-NASH therapy(s) initiated after the liver biopsy diagnosing NASH. Anti-NASH therapies include S-adenosyl methionine (SAMe), milk thistle, and vitamin E at dose of \u2265 400 IU/day; b) Antidiabetic mediation which may impact NASH histology started in the past 12 months including thiazolidinediones (glitazones), dipeptidyl peptidase 4 inhibitors (gliptins) or glucagon-like peptide 1 analogs; c) Immune modulatory agents including systemic steroids, methotrexate, anti-TNF-\u03b1 therapies (infliximab, adalimumab, etanercept) or anti-integrin therapy (namixilab).\n* Self-reported or known marijuana or illicit drug use 30 days before the screening\n* The following laboratory abnormalities within 90 days of screening: a) HbA1C \\> 9.0%, b) Neutrophil count \\< 1.0 x 109/L, c) Platelets \\< 100 109/L, d) Hemoglobin \\< 10 g/dl, e) Albumin \\< 3.5 g, f) Prolonged international normalized ratio (INR), g) Any elevation of bilirubin above normal (unless Gilbert's syndrome or extrahepatic source as denoted by increased indirect bilirubin fraction), h) Serum creatinine \\> 1.5 mg/dl, i) Creatinine clearance \u2264 50 ml/minute calculated by Crockroft-Gault or creatinine \\> 1.5x upper limit of normal\n* Pregnancy or breastfeeding.\n* Women, of childbearing age, who are not willing to practice effective contraception (i.e., barrier, oral contraceptives, or past medical history of hysterectomy) for the 48-week duration of the trial and for 1 month after the first administration of the drug.\n* Participation in an investigational drug study within past 3 months.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 571,
+      "trial_nct_id": "NCT04679376"
+    },
+    {
+      "chunk_id": "NCT04679376:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in NASH as measured by improvement in NAS score Improvement in NAS score (\u2265 2 points) with no worsening in fibrosis stage (\u22651 point) OR improvement in fibrosis with no worsening of NASH (change in the NAS score of \u2264 0 points). | time_frame=Baseline, 96 weeks | description=One overall score of NASH improvement will be derived from improvement in NAS score OR no worsening in fibrosis.\ntype=secondary | measure=NASH resolution as measured by (diagnosis by pathologist) (from definite- to not- NASH)..... | time_frame=Baseline, 96 weeks | description=Histological change from NASH to No NASH\ntype=secondary | measure=Change in fibrosis stage as measured by change in stage | time_frame=Baseline, 96 weeks | description=Ordinal variable\ntype=secondary | measure=Change in each component of NASH histologic features as measured by presence or ab presence or absence of features or their severity. | time_frame=Baseline, 96 weeks | description=Existing features may improve in severity or disappear as an indication of improvement of NASH.\ntype=secondary | measure=Change in serum aminotransferase (ALT) and aspartate aminotransferase (AST) levels as measured by plasma concentrations | time_frame=Baseline, 96 weeks\ntype=secondary | measure=Change in makers of hepatic fibrosis markers as measured by (FIB-4,51 liver stiffness by Fibroscan\u00ae) | time_frame=Baseline, 96 weeks\ntype=secondary | measure=Change in capture attention parameter (CAP) score (with Fibroscan\u00ae) | time_frame=Baseline, 96 weeks\ntype=secondary | measure=Serum creatine phosphokinase (CPK) as measured by serum concentration | time_frame=Baseline, 96 weeks\ntype=secondary | measure=Change in serum lipids as measured by serum concentration | time_frame=Baseline, 96 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 246,
+      "trial_nct_id": "NCT04679376"
+    },
+    {
+      "chunk_id": "NCT04679376:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-01-25\nPrimary completion date: 2026-12\nCompletion date: 2026-12\nStudy first posted: 2020-12-22\nResults first posted: None\nLast update posted: 2026-01-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT04679376"
+    },
+    {
+      "chunk_id": "NCT04679376:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Mayo Clinic\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT04679376"
+    }
+  ],
+  "trial_nct_id": "NCT04679376"
+}

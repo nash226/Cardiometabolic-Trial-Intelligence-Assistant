@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06423729:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06423729\nBrief title: Effect of Nicorandil in Type 2 Diabetic Obese Patients\nOfficial title: Clinical Study Evaluating the Effect of Nicorandil in Type 2 Diabetic Obese Patients Treated With Sulfonylurea\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT06423729"
+    },
+    {
+      "chunk_id": "NCT06423729:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Mellitus, Type 2\nIntervention labels: Nicorandil 10 MG\nDrug class labels: \nArms: Control Arm; Nicorandil Arm\nKeywords: Type 2 DM, Nicorandil, Obesity",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT06423729"
+    },
+    {
+      "chunk_id": "NCT06423729:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: 1. Evaluating the effect of nicorandil on glycemic control of diabetic obese patients treated with sulfonylureas.\n2. Investigating the effect of nicorandil on body weight of diabetic obese patients treated with sulfonylureas.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT06423729"
+    },
+    {
+      "chunk_id": "NCT06423729:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 60 Years\nAge groups: ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Diabetes duration ranged from 1 to 10 years.\n* Body mass index (BMI) \\>30 Kg/m2.\n* The selected patients are treated with sulfonylureas alone.\n* The age of selected patient ranged from 18 and 60 years.\n\nExclusion Criteria:\n\n* Pregnant and lactating females.\n* Patients with hypersensitivity to nicorandil.\n* Uncontrolled hypertension and its antihypertensive medications\n* Severe renal or hepatic disease.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 82,
+      "trial_nct_id": "NCT06423729"
+    },
+    {
+      "chunk_id": "NCT06423729:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in HbA1c level | time_frame=The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months. | description=Change in HbA1c (From baseline to 12 weeks)\ntype=primary | measure=Change in body weight. | time_frame=The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months. | description=Change in body weight (From baseline to 12 weeks).\ntype=primary | measure=Change in Body mass index (BMI) | time_frame=The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months. | description=Change in Body mass index (BMI) (From baseline to 12 weeks).\ntype=primary | measure=Change in Visceral adiposity index (VAI). | time_frame=The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months. | description=Change in Visceral adiposity index (VAI) (From baseline to 12 weeks).\ntype=secondary | measure=Change in Adiponenctin, Interleukin-6 (IL-6) and Nitric oxide (NO) serum levels. | time_frame=The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months. | description=Assessment of Adiponenctin, Interleukin-6 (IL-6) and Nitric oxide levels by ELISA Kits according to manufacturer's instructions.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 211,
+      "trial_nct_id": "NCT06423729"
+    },
+    {
+      "chunk_id": "NCT06423729:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-06-01\nPrimary completion date: 2024-12\nCompletion date: 2025-01\nStudy first posted: 2024-05-21\nResults first posted: None\nLast update posted: 2024-05-23\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06423729"
+    },
+    {
+      "chunk_id": "NCT06423729:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Tanta University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06423729"
+    }
+  ],
+  "trial_nct_id": "NCT06423729"
+}

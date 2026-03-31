@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06215716:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06215716\nBrief title: A Study Evaluating Efruxifermin in Subjects With Non-Cirrhotic Nonalcoholic Steatohepatitis (NASH)/Metabolic Dysfunction-Associated Steatohepatitis (MASH) and Fibrosis\nOfficial title: A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Efruxifermin in Subjects With Non-Cirrhotic Nonalcoholic Steatohepatitis (NASH)/Metabolic Dysfunction-Associated Steatohepatitis (MASH) and Fibrosis\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 57,
+      "trial_nct_id": "NCT06215716"
+    },
+    {
+      "chunk_id": "NCT06215716:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: mash\nRaw conditions: NASH With Fibrosis; MASH With Fibrosis\nIntervention labels: Efruxifermin; Placebo\nDrug class labels: fgf21_analog\nArms: EFX 28 mg; EFX 50 mg; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06215716"
+    },
+    {
+      "chunk_id": "NCT06215716:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a multi-center evaluation of efruxifermin (EFX) in a randomized, double-blind, placebo-controlled study in subjects with non-cirrhotic NASH/MASH and fibrosis stage 2 or 3 (F2 or F3).\n\nThe study will enroll subjects in two cohorts for a total samples size of 1650 subjects.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT06215716"
+    },
+    {
+      "chunk_id": "NCT06215716:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Males and non-pregnant, non-lactating females between 18 - 80 years of age inclusive, based on the date of the screening visit.\n* Previous history or presence of 2 out of 4 components of metabolic syndrome (obesity, dyslipidemia, elevated blood pressure, elevated fasting glucose) or type 2 diabetes.\n* Cohort 1: Biopsy-proven NASH/MASH. Must have had a liver biopsy obtained \u2264 180 days prior to screening with fibrosis stage 2 or 3 and a non-alcoholic fatty liver disease (NAFLD) activity score (NAS) of \u2265 4 with at least a score of 1 in each of the following NAS components:\n\n  * Steatosis (scored 0 to 3),\n  * Ballooning degeneration (scored 0 to 2), and\n  * Lobular inflammation (scored 0 to 3).\n\nExclusion Criteria:\n\n* Other causes of liver disease based on medical history and/or liver histology and/or central laboratory results.\n* Presence of cirrhosis on liver biopsy (fibrosis stage 4).\n* Type 1 or uncontrolled Type 2 diabetes.\n\nOther inclusion and exclusion criteria may apply.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 184,
+      "trial_nct_id": "NCT06215716"
+    },
+    {
+      "chunk_id": "NCT06215716:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Cohort 1 Only: Resolution of NASH/MASH and a \u2265 1 stage improvement in fibrosis | time_frame=52 Weeks | description=Based on NAS (scored by 0-1 for steatosis, 0-3 for inflammation, and 0-2 for ballooning) and NASH CRN fibrosis score (scored by a fibrosis score of 0-4, where 0 = no fibrosis, 1 = centrilobular pericellular fibrosis, 2 = centrilobular and periportal fibrosis, 3 = bridging fibrosis, 4 = cirrhosis)\ntype=primary | measure=Event-free survival | time_frame=240 Weeks | description=Based on time from randomization to the first clinical event including evidence of disease progression, liver decompensation events, liver transplantation or eligibility for liver transplantation, and all-cause mortality.\ntype=secondary | measure=Cohort 1 Only: Resolution of NASH/MASH and no worsening of fibrosis | time_frame=52 Weeks | description=Based on NAS (scored by 0-1 for steatosis, 0-3 for inflammation, and 0-2 for ballooning) and NASH CRN fibrosis score (scored by a fibrosis score of 0-4, where 0 = no fibrosis, 1 = centrilobular pericellular fibrosis, 2 = centrilobular and periportal fibrosis, 3 = bridging fibrosis, 4 = cirrhosis)\ntype=secondary | measure=Cohort 1 Only: \u2265 1 stage improvement in fibrosis and no worsening of steatohepatitis | time_frame=52 Weeks | description=Based on NAS (scored by 0-1 for steatosis, 0-3 for inflammation, and 0-2 for ballooning) and NASH CRN fibrosis score (scored by a fibrosis score of 0-4, where 0 = no fibrosis, 1 = centrilobular pericellular fibrosis, 2 = centrilobular and periportal fibrosis, 3 = bridging fibrosis, 4 = cirrhosis)\ntype=secondary | measure=Change from baseline of non-invasive markers of liver fibrosis | time_frame=52 Weeks, 240 Weeks | description=ELF (scale of 6.7 to 9.8 when higher scores indicative of increased fibrosis)\ntype=secondary | measure=Change from baseline of non-invasive markers of liver fibrosis | time_frame=52 Weeks, 240 Weeks | description=Pro-C3 (ug/L)\ntype=secondary | measure=Change from baseline of non-invasive markers of liver fibrosis | time_frame=52 Weeks, 240 Weeks | description=Liver stiffness assessed by transient elastography (FibroScan\u00ae) (kPa, CAP)\ntype=secondary | measure=Change from baseline of markers of liver injury | time_frame=52 Weeks, 240 Weeks | description=ALT (U/L), AST (U/L), GGT (U/L)\ntype=secondary | measure=Change from baseline of markers of liver injury | time_frame=52 Weeks, 240 Weeks | description=Uric acid (mg/dL)\ntype=secondary | measure=Change from baseline of lipoproteins | time_frame=52 Weeks, 240 Weeks | description=Total cholesterol (mg/dL), TG (mg/dL), Non-HDL-C (mg/dL), HDL-C (mg/dL), and LDL-C (mg/dL)\ntype=secondary | measure=Change from baseline of markers of insulin sensitivity and glycemic control | time_frame=52 Weeks, 240 Weeks | description=HbA1c (%)\ntype=secondary | measure=Change from baseline of markers of insulin sensitivity and glycemic control | time_frame=52 Weeks, 240 Weeks | description=Adiponectin (mg/L)\ntype=secondary | measure=Change from baseline of body weight (kg) | time_frame=52 Weeks, 240 Weeks\ntype=secondary | measure=To assess the safety and tolerability of EFX through the reporting of extent of exposure (weeks) | time_frame=52 Weeks, 240 Weeks\ntype=secondary | measure=To assess the safety and tolerability of EFX through the reporting of adverse events (severity of events) | time_frame=52 Weeks, 240 Weeks\ntype=secondary | measure=To assess the safety and tolerability of EFX through the reporting of adverse events (frequency of events) | time_frame=52 Weeks, 240 Weeks\ntype=secondary | measure=To assess the safety and tolerability of EFX through the reporting of abnormal clinical laboratory tests, ECGs, ultrasounds, vital sign assessments (number of patients) | time_frame=52 Weeks, 240 Weeks\ntype=secondary | measure=To assess the immunogenicity of EFX through the reporting of antidrug antibodies (number of patients) | time_frame=52 Weeks, 240 Weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 564,
+      "trial_nct_id": "NCT06215716"
+    },
+    {
+      "chunk_id": "NCT06215716:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-12-01\nPrimary completion date: 2032-11\nCompletion date: 2032-11\nStudy first posted: 2024-01-22\nResults first posted: None\nLast update posted: 2026-03-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06215716"
+    },
+    {
+      "chunk_id": "NCT06215716:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Akero Therapeutics, Inc\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT06215716"
+    }
+  ],
+  "trial_nct_id": "NCT06215716"
+}

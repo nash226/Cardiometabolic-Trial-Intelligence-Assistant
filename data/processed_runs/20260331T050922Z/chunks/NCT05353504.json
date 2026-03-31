@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05353504:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05353504\nBrief title: Impact of Microbiome-changing Interventions on Food Decision-making\nOfficial title: \"SFB 1052/3 - Mechanismen Der Adipositas, Projekt A1: Ver\u00e4nderung Der Neurobiologischen Grundlagen Von Ess-Entscheidungen Bei Adipositas\" Engl. \"CRC 1052/3 - Obesity Mechanisms, Project A1: Targeting Neurobehavioral Determinants of Obesity\"\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT05353504"
+    },
+    {
+      "chunk_id": "NCT05353504:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Overweight and Obesity\nIntervention labels: Inulin; Lifestyle intervention; Placebo\nDrug class labels: \nArms: prebiotic dietary supplement; behavioural lifestyle intervention; placebo dietary supplement\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05353504"
+    },
+    {
+      "chunk_id": "NCT05353504:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The investigators aim to test the hypothesis that a microbiome-changing dietary intervention improves food decision-making and to determine the underlying microbiotal and metabolic mechanisms. To this end, 90 overweight/obese adults will be enrolled in a randomized controlled trial to test the effects of a pre-biotic dietary intervention (supplementary intake of soluble fibre) or a behavioural lifestyle intervention (weekly educational program) vs. control condititon (supplementary intake of isocaloric starch) over a period of 26 weeks. Before and after the intervention/control period, participants will undergo task-based functional and structural MRI and cognitive testing. The gut microbiota will be assessed using 16S rDNA next-generation sequencing (V3/V4 region) in stool samples. Diet, anthropometry and lifestyle will be monitored with questionnaires and metabolomics will be assayed in peripheral blood and stool (e.g. SCFA). Using a modulation of gut-brain communication through a prebiotic diet and lifestyle intervention, respectively, the investigators will be able to discover microbiota communities that play a key role for eating behaviour. Related mechanistic insights could help to develop novel preventive and therapeutic options to combat unhealthy weight gain in our obesogenic society.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 185,
+      "trial_nct_id": "NCT05353504"
+    },
+    {
+      "chunk_id": "NCT05353504:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 60 Years\nAge groups: ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* BMI \\>= 25 kg/m2 or WHR \\>= 0.9/0.85 (m/d, f)\n* no MRI contra-indication\n* written informed consent\n\nExclusion Criteria:\n\n* athletes\n* occurrence of a clinically relevant psychiatric disease in the last 12 months, e.g. depression, substance abuse, eating disorders, schizophrenia\n* any chronic inflammatory or malignant disease\n* type 1 diabetes\n* previous bariatric/gastric surgery\n* pregnancy or breastfeeding woman",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 82,
+      "trial_nct_id": "NCT05353504"
+    },
+    {
+      "chunk_id": "NCT05353504:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=blood-oxygenation-level-dependent (BOLD) activity during food wanting | time_frame=6 months | description=BOLD-acitvity will be measured using event-related echo-planar T2\\*-weighted magnetic resonance imaging (MRI) during food wanting task according to previously described procedures (details of preprocessing at: https://osf.io/ynkxw). Onsets of food and art stimuli presentation will be modelled as separate regressors convolving delta functions with a canonical hemodynamic response function. Wanting rating scores (on an 8-point likert scale) per stimulus will be added as covariates. In a parallel model, kcal of food stimuli will be added multiplied with wanting scores to model high caloric food wanting interaction. At the group level, we will assess the contrasts food \\> art and wanting modulation.\ntype=secondary | measure=microbial alpha and beta diversity | time_frame=6 months | description=Changes in alpha and beta diversity assessed using 16S rRNA sequencing of stool samples\ntype=secondary | measure=fMRI BOLD activity memory performance | time_frame=6 months | description=BOLD-acitvity will be measured using event-related echo-planar T2\\*-weighted magnetic resonance imaging (MRI) during food wanting and food memory recognition tasks according to previously described procedures (details of preprocessing at: https://osf.io/ynkxw). Onsets of food and art stimuli presentation in encoding and recognition will be modelled as separate regressors convolving delta functions with a canonical hemodynamic response function. Correctly remembered and correctly rejected, as well as misses and false alarms will be modeled separately. In parallel models, similar and new items als well as wanting rating scores (on an 8-point likert scale) per stimulus and kcal of food stimuli multiplied with wanting scores will be added as covariates. At the group level, we will assess the contrasts correct \\> false and wanting modulation.\ntype=secondary | measure=satiety | time_frame=6 months | description=self-reported hunger feeling on a 8-point score from minimum 0 (not at all) to maximum 8 (very much).\ntype=secondary | measure=ghrelin | time_frame=6 months | description=ghrelin pg/ml in blood\ntype=secondary | measure=leptin | time_frame=6 months | description=leptin ng/ml in blood\ntype=secondary | measure=GLP-1 | time_frame=6 months | description=Glucagon-like peptide-1 (GLP-1) pg/ml in blood\ntype=secondary | measure=PYY | time_frame=6 months | description=peptide YY pg/ml in blood\ntype=secondary | measure=insulin | time_frame=6 months | description=insulin in blood uU/ml\ntype=secondary | measure=HbA1c | time_frame=6 months | description=hemoglycated globulin A1c in blood %\ntype=secondary | measure=inflammatory markers | time_frame=6 months | description=high sensitive C-reactive protein mg/l (and optionally tumor necrosis factor alpha and interleukin 6 in blood, pg/ml)\ntype=secondary | measure=microbial metabolic markers in blood | time_frame=6 months | description=short-chain fatty acids (SCFA), bile acids\ntype=secondary | measure=body mass index | time_frame=6 months | description=weight kg/height in m squared\ntype=secondary | measure=waist hip ratio | time_frame=6 months | description=waist (cm) to hip (cm) circumeference ratio\ntype=secondary | measure=body fat | time_frame=6 months | description=body fat % according to bioelectrical impedance analysis\ntype=secondary | measure=food craving | time_frame=6 months | description=assessed with the food craving questionnaire (Meule et al., 2012, German version).\ntype=secondary | measure=executive attention performance | time_frame=6 months | description=measured using the attention network task (ANT)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 489,
+      "trial_nct_id": "NCT05353504"
+    },
+    {
+      "chunk_id": "NCT05353504:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-03-08\nPrimary completion date: 2024-12\nCompletion date: 2026-12\nStudy first posted: 2022-04-29\nResults first posted: None\nLast update posted: 2022-04-29\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05353504"
+    },
+    {
+      "chunk_id": "NCT05353504:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Max Planck Institute for Human Cognitive and Brain Sciences\nLead sponsor class: OTHER\nCollaborators: Universit\u00e4tsklinikum Leipzig; DFG - Deutsche Forschungs Gemeinschaft (German Research Foundation); Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT05353504"
+    }
+  ],
+  "trial_nct_id": "NCT05353504"
+}

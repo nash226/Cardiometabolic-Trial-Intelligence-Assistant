@@ -1,0 +1,375 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D004701",
+          "term": "Endocrine Gland Neoplasms"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D010182",
+          "term": "Pancreatic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004812",
+          "term": "Epidemiologic Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D017531",
+          "term": "Health Care Evaluation Mechanisms"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        },
+        {
+          "id": "D011634",
+          "term": "Public Health"
+        },
+        {
+          "id": "D004778",
+          "term": "Environment and Public Health"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003625",
+          "term": "Data Collection"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Retrospective chart review and sample analysis of both pathologically confirmed Pancreatic Ductal Adenocarcinoma (PDAC) cases and non-Cancer control cases.",
+          "label": "Retrospective Cohort"
+        },
+        {
+          "description": "Blood samples, tissue samples and data will be collected from all participants as applicable.",
+          "interventionNames": [
+            "Other: Blood Sample Collection",
+            "Other: Tissue Sample Collection",
+            "Other: Data Collection",
+            "Other: Medical Image Collection"
+          ],
+          "label": "Prospective Cohort"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Prospective Cohort"
+          ],
+          "description": "Participants will have 40 mL of blood drawn at baseline/pre-treatment. The study team will aim to have this blood collected at the time of standard of care blood draw if possible.",
+          "name": "Blood Sample Collection",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Prospective Cohort"
+          ],
+          "description": "At the time of tissue biopsy or surgical resection (if applicable) pancreatic tumor tissue, fat, tissue from site of metastasis, and cyst fluid (if applicable) will be collected.",
+          "name": "Tissue Sample Collection",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Prospective Cohort"
+          ],
+          "description": "Participants will complete a study questionnaire at baseline that includes medical history, lifestyle, and family history information.",
+          "name": "Data Collection",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Prospective Cohort"
+          ],
+          "description": "Medical images that are obtained during routine care such as computed tomography (CT) scans, magnetic resonance imaging (MRIs) and ultrasounds will be reviewed by the study team throughout the participant's medical care.",
+          "name": "Medical Image Collection",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pancreatic Cancer"
+      ],
+      "keywords": [
+        "pancreas",
+        "biomarkers",
+        "health disparities"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Tampa",
+          "contacts": [
+            {
+              "email": "Toni.Basinski@moffitt.org",
+              "name": "Toni Basinski, MS",
+              "phone": "813-745-6360",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jennifer Permuth, PhD, MS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Mokenge Malafa, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Dung-Tsa Chen, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Daniel Jeong, MD, MS",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "John Koomen, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Paul Stewart, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Jamie Teer, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Ghulam Rasool, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Marilyn Bui, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Kun Jiang, MD, PhD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Moffitt Cancer Center",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33612"
+        },
+        {
+          "city": "Jackson",
+          "contacts": [
+            {
+              "email": "MDMartin@umc.edu",
+              "name": "Magdeline D Martin",
+              "phone": "352-672-0548",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Shannon Orr, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Mississippi Medical Center",
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          },
+          "state": "Mississippi",
+          "status": "RECRUITING",
+          "zip": "39216"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Moffitt Cancer Center",
+          "name": "Jennifer Permuth, PhD, MS",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Moffitt Cancer Center",
+          "name": "Mokenge Malafa, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate obesity-mediated mechanisms of pancreatic carcinogenesis in minority populations.",
+      "detailedDescription": "This observational study will evaluate obesity-mediated mechanisms of pancreatic carcinogenesis in minority populations consisting of adult males or females, 18 years of age or older, who self-report as African American (AA) or Non-Hispanic White (NHW), and present to the gastrointestinal (GI) clinic, surgery, or endoscopy at a participating Florida Pancreas Collaborative (FPC) site or University of Mississippi Medical Center (UMMC) with a clinical suspicion or diagnosis of a pancreatic tumor. This study will also include patients who have been previously recruited as part of the FPC study. Our central hypothesis is that adipose tissue (AT) dysfunction contributes to malignant transformation, therapeutic resistance, and poor survival among obese AA pancreatic ductal adenocarcinoma (PDAC) cases and such dysfunction will be characterized by unique biology. The primary objective of this multi-institutional and multidisciplinary translational study is to identify a molecular and imaging profile unique to paired PDAC tumors and AT from AA and harness biological observations to predict therapeutic response and target novel obesity-mediated mechanisms of PDAC development and progression using in vitro, ex vivo, and in vivo techniques and new combinations of drug agents."
+    },
+    "designModule": {
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 125,
+        "type": "ESTIMATED"
+      },
+      "patientRegistry": false,
+      "studyType": "OBSERVATIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults 18 years of age or older at time of signing informed consent\n* Patients who self-report as African American, Non-Hispanic White\n* Patients who present to the gastrointestinal (GI) clinic, surgery, or endoscopy at a participating Florida Pancreas Collaborative (FPC) site or the University of Mississippi Medical Center (UMMC) with a clinical suspicion or diagnosis of a pancreatic tumor.\n\nExclusion Criteria:\n\n* Patient under 18 years of age\n* Has no suspicion or diagnosis of a pancreatic cancer or tumor\n* Self-reported race/ethnicity other than African American or Non-Hispanic White.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients at a Florida Pancreas Collaborative site who identify as African American or Non-Hispanic White."
+    },
+    "identificationModule": {
+      "briefTitle": "Evaluating Obesity-Mediated Mechanisms of Pancreatic Carcinogenesis in Minority Populations",
+      "nctId": "NCT05687188",
+      "officialTitle": "Evaluating Obesity-Mediated Mechanisms of Pancreatic Carcinogenesis in Minority Populations",
+      "orgStudyIdInfo": {
+        "id": "MCC-21962"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "H. Lee Moffitt Cancer Center and Research Institute"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "DOD",
+          "id": "PA210192, W81XWH2211021",
+          "type": "OTHER_GRANT"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Investigators will compare gene prevalence, type and expression of genetic mutations and radiomic features in African American participants vs Non-Hispanic White participants",
+          "measure": "Assess molecular and radiological landscape of traditional PDAC tumors in the context of Race/Ethnicity",
+          "timeFrame": "at 36 months"
+        },
+        {
+          "description": "Investigators will compare biological properties of Adipose Tissue dysfunction between African American vs Non-Hispanic White participants.",
+          "measure": "Compare biological properties of Adipose Tissue dysfunction",
+          "timeFrame": "at 36 months"
+        },
+        {
+          "description": "Investigators will compare the biological interactions of Adipose Tissue and PDAC tumor growth between African American vs. Non-Hispanic White participants to develop new and/or targeted drug combinations.",
+          "measure": "Examine the role of Adipose Tissue and PDAC tumor interactions in influencing tumor growth, metastasis, and therapeutic response",
+          "timeFrame": "at 36 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Moffitt Cancer Center Clinical Trials website",
+          "url": "https://www.moffitt.org/clinical-trials-research/clinical-trials/"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "FED",
+          "name": "United States Department of Defense"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "H. Lee Moffitt Cancer Center and Research Institute"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-05",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-02-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-02",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-01-06",
+      "studyFirstSubmitQcDate": "2023-01-06"
+    }
+  }
+}

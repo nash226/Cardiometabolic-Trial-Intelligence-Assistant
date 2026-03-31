@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07400588:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07400588\nBrief title: Aleniglipron Phase 2 in Type 2 Diabetes Mellitus\nOfficial title: A Phase 2, Randomized, Double-blind, Placebo-controlled, Study of the Safety and Tolerability of Aleniglipron in Adult Participants With Type 2 Diabetes Mellitus Living With Obesity or Overweight\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT07400588"
+    },
+    {
+      "chunk_id": "NCT07400588:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obese; Obesity; Obesity Type 2 Diabetes Mellitus; Weight Loss\nIntervention labels: Aleniglipron; Placebo\nDrug class labels: \nArms: Arm 1: Participants will receive aleniglipron administered orally; Arm 2: Participants will receive a placebo administered orally\nKeywords: Obese; obesity; Obesity Type 2 Diabetes; Weight Loss",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 48,
+      "trial_nct_id": "NCT07400588"
+    },
+    {
+      "chunk_id": "NCT07400588:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to assess the safety and tolerability of aleniglipron at doses up to 240 mg once daily (QD) in participants with T2DM who are living with obesity (body mass index \\[BMI\\] \u2265 30 kg/m2) or overweight (BMI \u2265 27 kg/m2).\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT07400588"
+    },
+    {
+      "chunk_id": "NCT07400588:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 79 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Signed Informed Consent\n* A diagnosis of T2DM of \u22656 months,\n* Hemoglobin A1c (HbA1c) \u22656.5% to \u226410% at Screening\n* Have a BMI \u226527.0 kg/m2\n\nExclusion Criteria:\n\n* Are currently receiving or planning to receive treatment for diabetic retinopathy and/or macular edema. All participants must have a photo fundoscopy, optical coherence tomography, or slit lamp assessment prior to randomization and within the last 12 months to confirm the absence or stable status of diabetic retinopathy and/or macular edema.\n* Present or planned use of any drug that could interfere with glucose levels\n* Self-reported change in body weight \\>5 kg (11 pounds) within 3 months before screening\n* Have prior or planned surgical treatment for obesity (excluding liposuction or abdominoplasty, if performed \\>1 year prior to Screening)\n* Have or plan to have endoscopic and/or device-based therapy for obesity or have had device removal within the last 6 months prior to Screening, including, but not limited to, mucosal ablation, gastric artery embolization, intragastric balloon, and duodenal-jejunal endoluminal liner",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 190,
+      "trial_nct_id": "NCT07400588"
+    },
+    {
+      "chunk_id": "NCT07400588:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Incidence, severity and relationship of AEs/SAEs | time_frame=Baseline to week 38\ntype=primary | measure=Assessment of vital signs | time_frame=Baseline to week 38 | description=Number of Participants with Clinically Significant Change from Baseline in Vital Signs: including Systolic and Diastolic Blood Pressure, Heart Rate, and temperature.\ntype=primary | measure=Assessment of laboratory measures | time_frame=Baseline to week 38 | description=Number of Participants with Clinically Significant Change from Baseline in Laboratory Parameters: including hematology, serum chemistry, coagulation\ntype=primary | measure=Assessment of Electrocardiograms (ECG) | time_frame=Baseline to week 38 | description=Number of Participants with Clinically Significant Change from Baseline in Electrocardiogram (ECG) Parameters: Common ECG-related variables will be assessed, including but not limited to: ventricular heart rate, PR interval, QRS duration, QT interval, and QTcF\ntype=secondary | measure=Absolute change in body weight from Baseline | time_frame=Baseline to week 39\ntype=secondary | measure=Percent change in body weight from Baseline | time_frame=Baseline to week 39\ntype=secondary | measure=Change in HbA1c from Baseline | time_frame=Baseline to week 39\ntype=secondary | measure=Change in fasting plasma glucose from Baseline | time_frame=Baseline to week 39\ntype=secondary | measure=PK parameters including but not limited to AUC | time_frame=Baseline to week 39\ntype=secondary | measure=PK parameters including but not limited to Cmax | time_frame=Baseline to week 39\ntype=secondary | measure=TPK parameters including but not limited to Tmax | time_frame=Baseline to week 39\ntype=secondary | measure=PK parameters including but not limited to Ctrough | time_frame=Baseline to week 39",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 237,
+      "trial_nct_id": "NCT07400588"
+    },
+    {
+      "chunk_id": "NCT07400588:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-01\nPrimary completion date: 2026-10\nCompletion date: 2026-11\nStudy first posted: 2026-02-10\nResults first posted: None\nLast update posted: 2026-02-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07400588"
+    },
+    {
+      "chunk_id": "NCT07400588:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; NOT_YET_RECRUITING; ACTIVE_NOT_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT07400588"
+    }
+  ],
+  "trial_nct_id": "NCT07400588"
+}

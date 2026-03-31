@@ -1,0 +1,550 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001836",
+          "term": "Body Weight Changes"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D015431",
+          "term": "Weight Loss"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: MET097 Injection"
+          ],
+          "label": "MET097 Active with titration",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: MET097 Injection"
+          ],
+          "label": "MET097 Active without titration",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "MET097 Active with titration",
+            "MET097 Active without titration"
+          ],
+          "description": "MET097 is an ultra-long-acting, fully-biased analog of human GLP-1.",
+          "name": "MET097 Injection",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Sterile 0.9% (w/v) saline will be used as placebo treatment during the study.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity in Diabetes",
+        "Type 2 Diabetes Mellitus (T2DM)"
+      ],
+      "keywords": [
+        "GLP-1",
+        "Metsera",
+        "T2DM",
+        "Obesity",
+        "Overweight",
+        "Weight Loss"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Chula Vista",
+          "country": "United States",
+          "facility": "Research Site US-97202-001012",
+          "geoPoint": {
+            "lat": 32.64005,
+            "lon": -117.0842
+          },
+          "state": "California",
+          "zip": "91911"
+        },
+        {
+          "city": "Los Alamitos",
+          "country": "United States",
+          "facility": "Research Site US-97202-001019",
+          "geoPoint": {
+            "lat": 33.80307,
+            "lon": -118.07256
+          },
+          "state": "California",
+          "zip": "90720"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "Research Site US-97202-001021",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90017"
+        },
+        {
+          "city": "Riverside",
+          "country": "United States",
+          "facility": "Research Site US-97202-001007",
+          "geoPoint": {
+            "lat": 33.95335,
+            "lon": -117.39616
+          },
+          "state": "California",
+          "zip": "92506"
+        },
+        {
+          "city": "Bradenton",
+          "country": "United States",
+          "facility": "Research Site US-97202-001024",
+          "geoPoint": {
+            "lat": 27.49893,
+            "lon": -82.57482
+          },
+          "state": "Florida",
+          "zip": "34209"
+        },
+        {
+          "city": "Hollywood",
+          "country": "United States",
+          "facility": "Research Site 097202-001001",
+          "geoPoint": {
+            "lat": 26.0112,
+            "lon": -80.14949
+          },
+          "state": "Florida",
+          "zip": "33024"
+        },
+        {
+          "city": "Tampa",
+          "country": "United States",
+          "facility": "Research Site 097202-001003",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          },
+          "state": "Florida",
+          "zip": "33613"
+        },
+        {
+          "city": "Decatur",
+          "country": "United States",
+          "facility": "Research Site 097202-001002",
+          "geoPoint": {
+            "lat": 33.77483,
+            "lon": -84.29631
+          },
+          "state": "Georgia",
+          "zip": "30030"
+        },
+        {
+          "city": "Riverdale",
+          "country": "United States",
+          "facility": "Research Site US-97202-001009",
+          "geoPoint": {
+            "lat": 33.57261,
+            "lon": -84.41326
+          },
+          "state": "Georgia",
+          "zip": "30274"
+        },
+        {
+          "city": "Savannah",
+          "country": "United States",
+          "facility": "Research Site 097202-001005",
+          "geoPoint": {
+            "lat": 32.08354,
+            "lon": -81.09983
+          },
+          "state": "Georgia",
+          "zip": "31405"
+        },
+        {
+          "city": "Morton",
+          "country": "United States",
+          "facility": "Research Site US-97202-001017",
+          "geoPoint": {
+            "lat": 40.61282,
+            "lon": -89.45926
+          },
+          "state": "Illinois",
+          "zip": "61550"
+        },
+        {
+          "city": "Naperville",
+          "country": "United States",
+          "facility": "Research Site US-97202-001022",
+          "geoPoint": {
+            "lat": 41.78586,
+            "lon": -88.14729
+          },
+          "state": "Illinois",
+          "zip": "60540"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "facility": "Research Site US-97202-001008",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          },
+          "state": "Kansas",
+          "zip": "66112"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "facility": "Research Site US-97202-001015",
+          "geoPoint": {
+            "lat": 39.24038,
+            "lon": -76.83942
+          },
+          "state": "Maryland",
+          "zip": "21045"
+        },
+        {
+          "city": "Gaithersburg",
+          "country": "United States",
+          "facility": "Research Site US-97202-001006",
+          "geoPoint": {
+            "lat": 39.14344,
+            "lon": -77.20137
+          },
+          "state": "Maryland",
+          "zip": "20877"
+        },
+        {
+          "city": "Marlton",
+          "country": "United States",
+          "facility": "Research Site US-97202-001004",
+          "geoPoint": {
+            "lat": 39.89122,
+            "lon": -74.92183
+          },
+          "state": "New Jersey",
+          "zip": "08053"
+        },
+        {
+          "city": "Charlotte",
+          "country": "United States",
+          "facility": "Research Site US-97202-001016",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          },
+          "state": "North Carolina",
+          "zip": "28277"
+        },
+        {
+          "city": "Cincinnati",
+          "country": "United States",
+          "facility": "Research Site 097202-001010",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          },
+          "state": "Ohio",
+          "zip": "75234"
+        },
+        {
+          "city": "Plano",
+          "country": "United States",
+          "facility": "Research Site US-97202-001023",
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          },
+          "state": "Texas",
+          "zip": "75093"
+        },
+        {
+          "city": "Sherman",
+          "country": "United States",
+          "facility": "Research Site US-97202-001013",
+          "geoPoint": {
+            "lat": 33.63566,
+            "lon": -96.60888
+          },
+          "state": "Texas",
+          "zip": "75092"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Pfizer",
+          "name": "Pfizer CT.gov Call Center",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is designed to test how well once-weekly MET097 (an ultra-long-acting GLP-1 receptor agonist) works to treat adults with obesity or overweight and type 2 diabetes mellitus (T2DM) compared to placebo. MET097 or placebo will be administered to individuals via subcutaneous injection once weekly for 28 weeks. If an individual is randomly assigned to MET097 they will receive one of four different dose regimens.",
+      "detailedDescription": "This is a 28-week, multi-center, randomized, double-blind, placebo-controlled, parallel-group study to investigate the efficacy, safety, and tolerability of four different once-weekly MET097 dosing regimens vs. placebo for body weight loss in adults (18-75 years of age) with obesity or overweight (body mass index \\[BMI\\] \u226527 to \u226450 kg/m2) and T2DM . After completing 28 weeks of study treatment, all participants will be followed for approximately 11 weeks after administration of the last dose of study treatment."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 133,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI \u226527.0 kg/m2 to \u226450.0 kg/m2 at screening\n* Type 2 diabetes mellitus (\\*T2DM) for at least 3 months before screening\n* Glycated hemoglobin (HbA1c) value between \u22657.0% (53.0 mmol/mol) and \u226410.5% (91.3 mmol/mol) at Screening and treated with stable therapy for at least 30 days prior to Screening/Visit 1 (diet and exercise alone or in combination with metformin monotherapy and/or SGLT-2)\n* Stable body weight (increase or decrease \u22645 kg) within 3 months prior to screening\n\nExclusion Criteria:\n\n* Female who is lactating or who is pregnant\n* Estimated glomerular filtration rate (eGFR) \\<60 mL/min/1.73 m2\n* Fasting triglycerides \u2265 5.6 mmol/L (\u2265500 mg/dL)\n* Poorly controlled hypertension\n* History of stroke\n* Significant cardiovascular disease including but not limited to unstable angina or valvular heart disease or has a history of myocardial infarction, coronary artery bypass graft, percutaneous coronary artery re-vascularization, or congestive heart failure\n* Diagnosis of Type 1 diabetes (history of ketoacidosis, hyperosmolar state/coma, or any other types of diabetes except T2DM)\n* History of acute or chronic pancreatitis\n* Family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\n* History of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years\n* Relevant surgical history including all bariatric or weight loss surgeries\n* SGLT2 inhibitors and/or metformin\n* Had 1 or more episodes of hypoglycemia",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "VESPER-2",
+      "briefTitle": "A Study to Evaluate the Efficacy and Safety of Once-Weekly MET097 in Adults With Obesity or Overweight and T2DM",
+      "nctId": "NCT06897202",
+      "officialTitle": "A Phase 2b, Multi-Center, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Once-Weekly MET097 in Adults With Obesity or Overweight, and Type 2 Diabetes Mellitus (VESPER-2)",
+      "orgStudyIdInfo": {
+        "id": "VESPER-2 (MET097-24-202)"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Pfizer"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent change from baseline in body weight at Week 28 (Day 197)",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Weight reduction (weight loss) from baseline that is \u2265 5%",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Weight reduction (weight loss) from baseline that is \u2265 10%",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Weight reduction (weight loss) from baseline that is \u2265 15%",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Change in glycated hemoglobin A1c (HbA1c)",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Change from baseline in fasting plasma glucose (FPG)",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Change from baseline in fasting serum insulin",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Change from baseline in C-peptide",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Occurrence of HbA1c <7.0% (53.0 mmol/mol)",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Occurrence of HbA1c \u22646.5% (47.5 mmol/mol)",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "measure": "Occurrence of HbA1c <5.7% (38.8 mmol/mol)",
+          "timeFrame": "Baseline (Week 0) through Week 28 (Day 197)"
+        },
+        {
+          "description": "Treatment emergent adverse events include adverse events of clinical interest as well as abnormal clinical significant physical exams, laboratory findings, and 12-lead ECG measurements that meet the definition for an AE.",
+          "measure": "Occurrence of treatment-emergent adverse events (TEAEs)",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Occurrence of hypoglycemia according to American Diabetes Association classifications [ADA 2024]",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Occurrence of anti-drug antibodies",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Change from baseline in serum albumin",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Change from baseline in transthyretin [pre-albumin]",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Change from baseline in high-sensitivity C-reactive Protein [hsCRP]",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Characterize the minimum observed concentration (Cmin)",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Characterize the maximum observed concentration (Cmax)",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Characterize the area under the concentration versus time curve (AUC)",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        },
+        {
+          "measure": "Characterize the time to maximum concentration (Tmax)",
+          "timeFrame": "Baseline (Week 0) through Week 39 (Day 274)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Metsera, a wholly owned subsidiary of Pfizer"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-13",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-02",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2025-03-14",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-13",
+      "studyFirstSubmitQcDate": "2025-03-20"
+    }
+  }
+}

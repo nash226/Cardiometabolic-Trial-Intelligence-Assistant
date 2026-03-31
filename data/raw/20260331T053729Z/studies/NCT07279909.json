@@ -1,0 +1,291 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D003921",
+          "term": "Diabetes Mellitus, Experimental"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Metformin is standardized hypoglycemic agent with global accepted efficacy \\& safety",
+          "interventionNames": [
+            "Drug: Metformin"
+          ],
+          "label": "Metformin - control are of the study",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "The investigational formulation consisted of Syzygium cumini, Momordica charantia, Wrightia tinctoria and Gymnema sylvestre. Raw plant materials were procured from local herbal markets and authenticated shade dried and powdered. The powder was capsulated with avverage weight of 500 mg /capsule. Capsules were given TID with meals to the patients",
+          "interventionNames": [
+            "Drug: DIAB-PHC1"
+          ],
+          "label": "DIAB-PHC1 - Treatment arm of the study",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "DIAB-PHC1 - Treatment arm of the study"
+          ],
+          "description": "a novel poly-herbal hard gelatin capsule formulation comprising Syzygium cumini, Momordica charantia, Wrightia tinctoria, and Gymnema sylvestre in a scientifically optimized ratio. Although each of these herbs is traditionally recognized for its individual anti-diabetic activity, their combination in a standardized dosage form has not previously been reported.\n\nThe study further strengthens its novelty by conducting comprehensive pre-clinical safety evaluations, confirming the absence of toxicity before proceeding to controlled clinical investigations.",
+          "name": "DIAB-PHC1",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Metformin - control are of the study"
+          ],
+          "description": "Standard oral hypoglycemic comparator",
+          "name": "Metformin",
+          "otherNames": [
+            "Glucophage"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Type 2",
+        "Diabetes Mellitus, Experimental",
+        "HbA1c",
+        "Urinary Glucose",
+        "Ability of Experimental Drug to Lower HbA1c Compare to Metformin"
+      ],
+      "keywords": [
+        "Polyherbal formulation",
+        "GCMS",
+        "Syzygium cumini",
+        "Momordica charantia",
+        "Wrightia tinctoria,",
+        "Gymnema sylvestre,"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Karachi",
+          "country": "Pakistan",
+          "facility": "Mehboob Faryal Diagnostic Center",
+          "geoPoint": {
+            "lat": 24.8608,
+            "lon": 67.0104
+          },
+          "state": "Sindh",
+          "zip": "74700"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Department of Pharmacology, Institute of Basic Medical Sciences, JPMC",
+          "name": "Mehboob Alam, PhD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial to learn the clinical efficacy and safety of standardized polyherbal capsule weighing around 500 mg, containing Syzygium cumini, Momordica charantia, Wrightia tinctoria, and Gymnema sylvestre in equal proportions for controlling Diabetic hyperglycemia towards a normal glycemic control. The main question that aims to search is\n\n1. Does the herbal combination formula effective to lower the high blood glucose levels in Type2 diabetics\n2. Is the herbal combination therapy is safe for human use\n3. Does this treatment plan reduces the blood sugar level comparative to Metformin 500 mg TID The trial is also comparing its efficacy in comparison to a standard anti diabetic drug Metformin In the study wing, the volunteer diabetic patients will take the herbal capsule 500mg TID and in the control group the volunteer patients will take Metformin 500 mg TID.\n\n   * The recruited patients will continue the assigned therapy for at least six months\n   * They visit the clinical trial OPDs fortnightly\n   * They will record their fasting blood glucose with the glucometer at least two to three times a week and get the basal tests done in three-month time",
+      "detailedDescription": "Preclinical evaluation studies including stability, dissolution and anti-microbial testing were performed. The formulation was also subjected to gas chromatography-mass spectrometry (GCMS). The powdered formulation was analyzed for LD-50 followed by two-center, unblinded, non-randomized controlled clinical trial with convenient sampling was conducted over 24 weeks in 500 adults with T2DM (HbA1c 7.5-10%). Participants were assigned to receive either polyherbal capsules (\\~500 mg three times daily, n = 250) or metformin (500 mg three times daily, n = 250). Primary outcome was HbA1c reduction; secondary outcomes included fasting/postprandial glucose, urinary protein, urinary glucose, lipid profile, body weight, and safety. Statistical analyses were performed using two-way ANOVA and unpaired t-tests."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Non-randomized control trial. Two study arms. Test drug (polyherbal drug) and control group.\n\nTreatment in the both arms for 6 months at-least. Follow-up every 15 days. Revise clinical investigations of HbA1c, Urinary proteins and glucose",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients having Type II Diabetes Mellitus.\n* Patients agree willingly to use study medicine throughout the study\n* Patients having raised FBS above 120 mg/dl and HbA1C level 6.7 or above.\n* Patients over 30 years of age.\n* Patients of both genders will be included in the study.\n\nExclusion Criteria:\n\n* Patients who do not agree willingly to participate in research.\n\n  * Patients having history of any chronic organ failure.\n  * Patients having history of any amputation.\n  * Patients having history of treated or diagnosed cancer of any organ.\n  * Pregnant and lactating mothers.\n  * Patients who are having brittle Diabetes\n  * Known under treatment cases of psychiatric disorders",
+      "genderBased": true,
+      "genderDescription": "this is not a very much common situation in Pakistan",
+      "healthyVolunteers": false,
+      "minimumAge": "30 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Phase-III Clinical Studies on Poly Herbal Anti-Diabetic Formulation",
+      "nctId": "NCT07279909",
+      "officialTitle": "Pre-Clinical & Clinical Studies on Poly Herbal Anti-Diabetic Formulation",
+      "orgStudyIdInfo": {
+        "id": "DIAB-PHC1"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Hamdard University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "to keep the privacy \\& anonymity of the individual participant of the study, as committed at the time of induction",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The primary objective is to assess improvements in glycated hemoglobin (HbA1c) and fasting/ post-prandial plasma glucose.",
+          "measure": "glycated hemoglobin (HbA1c)",
+          "timeFrame": "From two weeks to six months time period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The secondary objectives are to evaluate reduction in the amount of proteins in urine",
+          "measure": "Urinary Proteins",
+          "timeFrame": "At least Six months"
+        },
+        {
+          "description": "regular check for the urinary glucose levels as a parameter for improved glycemic control",
+          "measure": "Urinary Glucose",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "availIpds": [
+        {
+          "comment": "it is the main reference used to identify definitions of the Diabetes \\& its complications",
+          "type": "Main reference",
+          "url": "https://diabetes.org/"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "https://diabetes.org/"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER_GOV",
+          "name": "Jinnah Postgraduate Medical Centre"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Hamdard University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Hamdard University",
+        "investigatorFullName": "Abdul Bari",
+        "investigatorTitle": "Head of Clinical Trials",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-05-20",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-01",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2024-03-09",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-01",
+      "studyFirstSubmitQcDate": "2025-12-01"
+    }
+  }
+}

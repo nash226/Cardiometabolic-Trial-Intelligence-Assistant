@@ -10,7 +10,10 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from lib.condition_taxonomy import classify_condition
+try:
+    from .lib.condition_taxonomy import classify_condition
+except ImportError:  # pragma: no cover - script execution fallback
+    from lib.condition_taxonomy import classify_condition
 
 OBESITY_TERMS = ("obesity", "overweight", "weight loss", "body weight")
 

@@ -1,0 +1,225 @@
+{
+  "arms": [
+    {
+      "description": "Pioglitazone 15mg",
+      "intervention_names": [
+        "Drug: Empagliflozin 10 MG [Jardiance]"
+      ],
+      "label": "Pioglitazone",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Empagliflozin 10mg",
+      "intervention_names": [
+        "Drug: Pioglitazone 15 MG [Actos]"
+      ],
+      "label": "Empagliflozin",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Pioglitazone 15mg + Empagliflozin 10mg",
+      "intervention_names": [
+        "Drug: Empagliflozin 10 MG [Jardiance] + Pioglitazone 15 MG [Actos]"
+      ],
+      "label": "Pioglitazone & Empagliflozin",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Type 2 Diabetes",
+      "normalized_name": "type_2_diabetes"
+    },
+    {
+      "is_primary": true,
+      "name": "Fatty Liver",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Adults aged 20 years or older.\n2. Patients with inadequately controlled type 2 diabetes mellitus, defined as HbA1c between 7% and 10%, who are currently treated with either:\n\n   * Combination therapy of metformin and a sulfonylurea, or\n   * Combination therapy of metformin and a DPP-4 inhibitor, or\n   * Metformin monotherapy, or\n   * Triple therapy (including metformin) provided that sulfonylurea will be discontinued upon study enrollment.\n3. Evidence of hepatic steatosis within the past 3 months, confirmed by Fibroscan with a controlled attenuation parameter (CAP) \u2265 268 dB/m (consistent with S2 or greater \\[\u226510% hepatocyte steatosis\\] according to the 2024 EASL-EASD-EASO guidelines).\n4. Presence of at least one of the following metabolic abnormalities:\n\n   * Waist circumference \u226590 cm for men or \u226585 cm for women.\n   * Blood pressure \u2265130 mmHg systolic or \u226585 mmHg diastolic, or use of antihypertensive medication.\n   * Serum triglycerides \u2265150 mg/dL or current use of lipid-lowering agents.\n   * HDL-cholesterol \u226445 mg/dL for men or \u226450 mg/dL for women.\n   * HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) \u22652.5.\n   * Serum C-reactive protein (CRP) \u22652 mg/L.\n5. No changes in anti-diabetic or metabolic medications within the past 3 months, unless the changes are deemed by the investigator not to affect study outcomes.\n\nExclusion Criteria:\n\n1. Patients receiving insulin therapy or diagnosed with type 1 diabetes mellitus.\n2. Use of the following medications within the past 3 months: GLP-1 receptor agonists, SGLT2 inhibitors, rosiglitazone (TZD), vitamin E, or ursodeoxycholic acid (UDCA).\n3. Presence of secondary causes of hepatic steatosis unrelated to metabolic dysfunction, such as hepatitis B, hepatitis C, or alcoholic fatty liver disease.\n4. Use of medications known to induce hepatic steatosis, including valproic acid, estrogen, tamoxifen, amiodarone, or chloroquine.\n5. Severe organ failure, defined as:\n\n   * Liver failure: AST or ALT \\> 5 times the upper normal limit (UNL), serum albumin \\< 3.2 g/dL, platelet count \\< 60,000/\u00b5L, or Child-Pugh-Turcotte stage B or C.\n   * Renal failure: Serum creatinine \u2265 2.0 mg/dL, estimated glomerular filtration rate (eGFR) \\< 30 mL/min/1.73 m\u00b2 (CKD-EPI formula), or patients with end-stage renal disease or on dialysis.\n6. Presence of hepatocellular carcinoma, active malignancy, or metastatic cancer.\n7. History of or active bladder cancer.\n8. History of heart failure or current diagnosis of heart failure.\n9. Presence of terminal illnesses.\n10. History of gallstone disease, chronic pancreatitis, or acute pancreatitis.\n11. Underweight patients (body mass index \\[BMI\\] \\< 18.5 kg/m\u00b2).\n12. Pregnant women or women planning to become pregnant.\n13. Known hypersensitivity to the active ingredients or excipients of the study medications.\n14. History of diabetic ketoacidosis.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "20 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Empagliflozin"
+      ],
+      "description": "Participants will receive pioglitazone 15 mg, administered orally once daily. The tablet may be taken with or without food.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Pioglitazone 15 MG [Actos]",
+      "normalized_name": "pioglitazone 15 mg [actos]"
+    },
+    {
+      "arm_group_labels": [
+        "Pioglitazone"
+      ],
+      "description": "Participants will receive empagliflozin 10 mg, administered orally once daily. The tablet may be taken with or without food.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Empagliflozin 10 MG [Jardiance]",
+      "normalized_name": "empagliflozin 10 mg [jardiance]"
+    },
+    {
+      "arm_group_labels": [
+        "Pioglitazone & Empagliflozin"
+      ],
+      "description": "Participants will receive one tablet of pioglitazone 15 mg and one tablet of empagliflozin 10 mg, administered orally once daily. Both tablets may be taken with or without food.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Empagliflozin 10 MG [Jardiance] + Pioglitazone 15 MG [Actos]",
+      "normalized_name": "empagliflozin 10 mg [jardiance] + pioglitazone 15 mg [actos]"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Percentage of participants who achieve the predefined HbA1c treatment goal at 24 weeks.",
+      "measure": "Proportion of Participants Achieving HbA1c Treatment Targets",
+      "outcome_type": "primary",
+      "time_frame": "24 weeks"
+    },
+    {
+      "description": "Assessment of changes in hepatic steatosis as measured by the controlled attenuation parameter (CAP) score using Fibroscan technology over a 24-week period.",
+      "measure": "Change in Fibroscan Controlled Attenuation Parameter (CAP) Score",
+      "outcome_type": "primary",
+      "time_frame": "24 weeks"
+    },
+    {
+      "description": "Change in glycated hemoglobin (HbA1c) from baseline after 24 weeks of treatment.",
+      "measure": "Change in HbA1c Levels",
+      "outcome_type": "secondary",
+      "time_frame": "24 weeks"
+    },
+    {
+      "description": "Change in liver stiffness measurement (LSM) assessed using Fibroscan",
+      "measure": "Change in Liver Stiffness Measurement",
+      "outcome_type": "secondary",
+      "time_frame": "24 weeks"
+    },
+    {
+      "description": "Change in NAFLD score, Fibrosis-4 (FIB-4) index, and AST to Platelet Ratio Index (APRI) over 12 and 24 weeks.",
+      "measure": "Change in Non-Invasive Blood-Based Fibrosis Markers",
+      "outcome_type": "secondary",
+      "time_frame": "12 weeks, 24 weeks"
+    },
+    {
+      "description": "Changes in metabolic parameters including body weight, body mass index (BMI), waist circumference",
+      "measure": "Change in Anthropometric Measures",
+      "outcome_type": "secondary",
+      "time_frame": "12 weeks, 24 weeks"
+    },
+    {
+      "description": "Changes in blood lipid profile (total cholesterol, LDL-c, HDL-c, triglycerides)",
+      "measure": "Change in Lipid Parameters",
+      "outcome_type": "secondary",
+      "time_frame": "12 weeks, 24 weeks"
+    },
+    {
+      "description": "Change in liver function markers including AST, ALT, gamma-glutamyl transferase (gamma-GT), albumin, bilirubin, and prothrombin time",
+      "measure": "Change in Liver Function Tests",
+      "outcome_type": "secondary",
+      "time_frame": "12 weeks, 24 weeks"
+    },
+    {
+      "description": "Change in serum type IV collagen levels",
+      "measure": "Change in Fibrosis Biomarker",
+      "outcome_type": "secondary",
+      "time_frame": "12 weeks, 24 weeks"
+    },
+    {
+      "description": "Change in high-sensitivity C-reactive protein (hs-CRP) levels",
+      "measure": "Change in Inflammatory Biomarker",
+      "outcome_type": "secondary",
+      "time_frame": "12 weeks, 24 weeks"
+    },
+    {
+      "description": "Change in ketone body levels",
+      "measure": "Change in Other Blood Biomarkers",
+      "outcome_type": "other",
+      "time_frame": "24 weeks"
+    },
+    {
+      "description": "Change in urinary albumin-to-creatinine ratio, protein-to-creatinine ratio",
+      "measure": "Change in Proteinuria",
+      "outcome_type": "other",
+      "time_frame": "24 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This exploratory study will assess the efficacy of combined pioglitazone and empagliflozin therapy in improving hepatic and metabolic outcomes in patients with type 2 diabetes mellitus and metabolic dysfunction-associated fatty liver disease (MAFLD). Although each agent has shown beneficial effects individually, evidence on their combined impact on liver health is scarce. This study seeks to determine whether the combination therapy yields additive improvements in hepatic steatosis, inflammation, and fibrosis, potentially offering a new therapeutic strategy for diabetic patients with fatty liver disease.",
+    "brief_title": "Pioglitazone and Empagliflozin for Fatty Liver Disease in Type 2 Diabetes",
+    "collaborator_names": [
+      "Celltrion"
+    ],
+    "completion_date": "2027-06-30",
+    "condition_labels": [
+      "type_2_diabetes"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Adults aged 20 years or older.\n2. Patients with inadequately controlled type 2 diabetes mellitus, defined as HbA1c between 7% and 10%, who are currently treated with either:\n\n   * Combination therapy of metformin and a sulfonylurea, or\n   * Combination therapy of metformin and a DPP-4 inhibitor, or\n   * Metformin monotherapy, or\n   * Triple therapy (including metformin) provided that sulfonylurea will be discontinued upon study enrollment.\n3. Evidence of hepatic steatosis within the past 3 months, confirmed by Fibroscan with a controlled attenuation parameter (CAP) \u2265 268 dB/m (consistent with S2 or greater \\[\u226510% hepatocyte steatosis\\] according to the 2024 EASL-EASD-EASO guidelines).\n4. Presence of at least one of the following metabolic abnormalities:\n\n   * Waist circumference \u226590 cm for men or \u226585 cm for women.\n   * Blood pressure \u2265130 mmHg systolic or \u226585 mmHg diastolic, or use of antihypertensive medication.\n   * Serum triglycerides \u2265150 mg/dL or current use of lipid-lowering agents.\n   * HDL-cholesterol \u226445 mg/dL for men or \u226450 mg/dL for women.\n   * HOMA-IR (Homeostatic Model Assessment of Insulin Resistance) \u22652.5.\n   * Serum C-reactive protein (CRP) \u22652 mg/L.\n5. No changes in anti-diabetic or metabolic medications within the past 3 months, unless the changes are deemed by the investigator not to affect study outcomes.\n\nExclusion Criteria:\n\n1. Patients receiving insulin therapy or diagnosed with type 1 diabetes mellitus.\n2. Use of the following medications within the past 3 months: GLP-1 receptor agonists, SGLT2 inhibitors, rosiglitazone (TZD), vitamin E, or ursodeoxycholic acid (UDCA).\n3. Presence of secondary causes of hepatic steatosis unrelated to metabolic dysfunction, such as hepatitis B, hepatitis C, or alcoholic fatty liver disease.\n4. Use of medications known to induce hepatic steatosis, including valproic acid, estrogen, tamoxifen, amiodarone, or chloroquine.\n5. Severe organ failure, defined as:\n\n   * Liver failure: AST or ALT \\> 5 times the upper normal limit (UNL), serum albumin \\< 3.2 g/dL, platelet count \\< 60,000/\u00b5L, or Child-Pugh-Turcotte stage B or C.\n   * Renal failure: Serum creatinine \u2265 2.0 mg/dL, estimated glomerular filtration rate (eGFR) \\< 30 mL/min/1.73 m\u00b2 (CKD-EPI formula), or patients with end-stage renal disease or on dialysis.\n6. Presence of hepatocellular carcinoma, active malignancy, or metastatic cancer.\n7. History of or active bladder cancer.\n8. History of heart failure or current diagnosis of heart failure.\n9. Presence of terminal illnesses.\n10. History of gallstone disease, chronic pancreatitis, or acute pancreatitis.\n11. Underweight patients (body mass index \\[BMI\\] \\< 18.5 kg/m\u00b2).\n12. Pregnant women or women planning to become pregnant.\n13. Known hypersensitivity to the active ingredients or excipients of the study medications.\n14. History of diabetic ketoacidosis.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 120,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Pioglitazone 15 MG [Actos]",
+      "Empagliflozin 10 MG [Jardiance]",
+      "Empagliflozin 10 MG [Jardiance] + Pioglitazone 15 MG [Actos]"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-05-25",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Seoul National University Bundang Hospital",
+    "masking": "DOUBLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "20 Years",
+    "nct_id": "NCT06989723",
+    "official_title": "Evaluation of Pioglitazone and Empagliflozin Combination Therapy in Type 2 Diabetes Patients With Metabolic Dysfunction-Associated Fatty Liver Disease",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06989723",
+    "start_date": "2025-01-01",
+    "study_first_posted_at": "2025-05-25",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Fasted-Fed Group",
+          "interventionNames": [
+            "Drug: CX11 (VCT220)"
+          ],
+          "label": "Fasted-Fed Arm",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Fed-Fasted Group",
+          "interventionNames": [
+            "Drug: CX11 (VCT220)"
+          ],
+          "label": "Fed-Fasted Arm",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Fasted-Fed Arm",
+            "Fed-Fasted Arm"
+          ],
+          "description": "CX11 (VCT220) administered orally to participants who are in fasted/fed state in the first 6 consecutive days, and in fed/fasted state on the 7th day",
+          "name": "CX11 (VCT220)",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity & Overweight",
+        "Type 2 Diabetes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Yinghua.wang@corxelbio.com",
+          "name": "Wang",
+          "phone": "+86-13918150895",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Shanghai",
+          "contacts": [
+            {
+              "email": "hjqian@shxh-centerlab.com",
+              "name": "Qian",
+              "phone": "+86-21-36682213",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Shanghai Xuhui Central Hospital",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "state": "Shanghai Municipality",
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is to evaluate the food effect (FE) on the PK of 200 mg CX11 in healthy participants"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 32,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Fully understand the objective, nature, methods, and possible adverse reactions of the study; be able to communicate well with the investigator; voluntarily take part in the study and be willing to comply with the requirements of this study; and sign the informed consent form before all study procedures are started\n2. Weight \u2265 50.0 kg for men and \u2265 45.0 kg for women, and body mass index (BMI) is \u2265 20.0 kg/m2 and \\< 28 kg/m2 at the screening visit and on Day 21.\n\nExclusion Criteria:\n\n1. Participants with allergic constitution or known previous history of allergy to CX11 or similar compounds and related excipients, or history of atopic allergic diseases\n2. Participants who have experienced clinically significant acute diseases during the pre-study screening period or within 2 weeks prior to the first dose of the investigational product\n3. Participants who have pre-existing condition interfering with normal gastrointestinal anatomy or motility, hepatic and/or renal function that could affect drug absorption, distribution, metabolism, and/or excretion as judged by the investigator, or plan to receive any surgery during the study\n4. Participants suffering from any clinically significant chronic diseases, including but not limited to disorders of the respiratory system, cardiovascular system, urinary system, blood system, endocrine system, and immune system, as well as the digestive system (e.g., history of or current fatty liver disease, including metabolic dysfunction-associated steatohepatitis\n5. History of thyroid dysfunction requiring medication or with a thyroid stimulating hormone (TSH) level exceeding the normal reference range at screening or on Day 21\n6. Participants who have been vaccinated within 30 days before the screening or plan to be vaccinated during the study\n7. Participated in any other clinical study and received an investigational intervention within 90 days or 5 elimination half-lives (whichever is longer) of the investigational intervention, prior to screening",
+      "healthyVolunteers": true,
+      "maximumAge": "45 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Food-Effect Study of CX11 in Healthy Participants",
+      "nctId": "NCT07349381",
+      "officialTitle": "An Open-label, Randomized, Multiple-dose, Two-cycle, Two-way Crossover Phase 1 Study to Evaluate the Effect of Food on the Pharmacokinetics of CX11 Tablets in Healthy Participants",
+      "orgStudyIdInfo": {
+        "id": "CX11101"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Vincentage Pharma Co., Ltd"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "AUC0-24 of of CX11 (VCT220)",
+          "measure": "Area Under the Concentration-time curve from 0 to 24 hour (AUC0-24) of CX11 (VCT220)",
+          "timeFrame": "Predose at Day1 up to 35 days postdose"
+        },
+        {
+          "description": "Cmax of CX11 (VCT220)",
+          "measure": "Maximum Observed Concentration (Cmax) of CX11 (VCT220)",
+          "timeFrame": "Predose at Day1 up to 35 days postdose"
+        },
+        {
+          "description": "Tmax of CX11 (VCT220)",
+          "measure": "Time to Maximum Observed Concentration (Tmax) of CX11 (VCT220)",
+          "timeFrame": "Predose at Day 1 up to 35 days postdose"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Corxel Pharmaceuticals"
+        }
+      ],
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Vincentage Pharma Co., Ltd"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-09-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-25",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-03-04",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-08",
+      "studyFirstSubmitQcDate": "2026-01-08"
+    }
+  }
+}

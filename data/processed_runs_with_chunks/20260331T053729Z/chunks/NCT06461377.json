@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06461377:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06461377\nBrief title: The Ameliorative Effects of GLP-1RA on Diabetic Cardiac Autonomatic Neuropathy\nOfficial title: The Ameliorative Effects of GLP-1RA on Diabetic Cardiac Autonomatic Neuropathy\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06461377"
+    },
+    {
+      "chunk_id": "NCT06461377:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes; Diabetes With Diabetic Autonomic Neuropathy (Diagnosis)\nIntervention labels: Glucagon-like peptide-1 receptor agonist\uff1aSemaglutide\nDrug class labels: glp1_receptor_agonist\nArms: control; GLP-1RA intervention group\nKeywords: T2DM\uff0cDCAN\uff0cHRV, CART\uff0cinsulin resistance",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06461377"
+    },
+    {
+      "chunk_id": "NCT06461377:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Diabetic cardiac autonomic neuropathy (DCAN) is a common chronic complication that reduces survival in patients with diabetes. Epidemiological surveys have shown that the prevalence of DCAN is 25-75% in people with type 2 diabetes. The onset of DCAN is insidious and easy to be ignored in the early stage. With the progression of the disease, the following clinical symptoms gradually appear, including reduced heart rate variability, exercise intolerance, resting tachycardia, orthostatic hypotension, painless myocardial infarction and even sudden death, which seriously endanger the life and health of type 2 diabetes patients. Existing literature has shown that glucagon-like peptide-1 receptor agonist (GLP-1RA) can improve diabetic peripheral neuropathy and diabetic cognitive dysfunction, but there are few studies on improving diabetic autonomic neuropathy. Insulin resistance is an important risk factor for DCAN. Patients with type 2 diabetes are characterized by insulin resistance, and GLP-1RA is recognized as a drug to improve insulin resistance and control blood sugar in patients with diabetes. In this study, GLP-1RA was used to intervene patients with type 2 diabetes, and the changes in blood sugar control and insulin resistance status of patients were followed up. Special attention was paid to the improvement of autonomic neuropathy in diabetic patients.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 205,
+      "trial_nct_id": "NCT06461377"
+    },
+    {
+      "chunk_id": "NCT06461377:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Patients aged 18-70 years\n2. Patients with T2DM who meet the diagnostic guidelines\n3. The patient signed the relevant informed consent form\n4. Being overweight or obese\n\nExclusion Criteria:\n\n1. \\<18 years old\n2. Pregnant or lactating women\n3. Acute and chronic pancreatitis\n4. Recent acute complications of diabetes\n5. Arrhythmia or taking drugs that affect heart rate\n6. Thyroid disease\n7. Severe organ dysfunction\n8. Denial of informed consen",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT06461377"
+    },
+    {
+      "chunk_id": "NCT06461377:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=heart rate variability\uff08HRV\uff09 | time_frame=baseline and 12 weeks later | description=All participants were given ambulatory electrocardiogram.The time domain analysis and frequency domain analysis of heart rate variability are included in the holter ECG report.\ntype=secondary | measure=E/I difference | time_frame=basline and 12 weeks later | description=Take an average of 6 deep breaths per minute, record the difference between the maximum heart rate and the minimum heart rate during deep breathing\ntype=secondary | measure=30/15 ratio | time_frame=basline and 12 weeks later | description=The heart rate in lying position was measured, and the R-R interval in more than 30 beats was measured after standing, and the ratio between the longest R-R interval in the 25-35 beats and the shortest R-R interval in the 10-15 beats after standing was calculated\ntype=secondary | measure=Valsalva action | time_frame=basline and 12 weeks later | description=After deep inhalation, hold your breath as much as possible, and then blow air into the modified sphygmomanometer to keep the pressure of the sphygmomanometer at 40mmHg, continue for 10-15s, and then relax for 1 minute, a total of 3 minutes. At the same time, ECG was recorded to record the ratio of maximum heart rate to minimum heart rate\ntype=secondary | measure=the difference between lying and Orthostatic blood pressure | time_frame=basline and 12 weeks later | description=Blood pressure was measured in the supine position. The patient was asked to stand immediately, and blood pressure was measured at the first and fifth minutes\ntype=secondary | measure=grip strength tests | time_frame=basline and 12 weeks later | description=First, the basic blood pressure and the maximum grip strength were measured, and the blood pressure was measured after 5 minutes of continuous hard clenching with the grip apparatus (the force used was 30% of the maximum grip strength measured), and the blood pressure difference was calculated\ntype=secondary | measure=BMI | time_frame=basline and 12 weeks later | description=It is calculated by dividing a person's weight in kg by their height in meters squared\ntype=secondary | measure=FBG | time_frame=basline and 12 weeks later | description=Fasting glucose\ntype=secondary | measure=Fins | time_frame=basline and 12 weeks later | description=Fasting insulin\ntype=secondary | measure=Fc-peptide | time_frame=basline and 12 weeks later | description=Fasting c-peptide\ntype=secondary | measure=HOMA-IR | time_frame=basline and 12 weeks later | description=calculated by HOMA Calculator v2.2.3\ntype=secondary | measure=HbA1c | time_frame=basline and 12 weeks later | description=Reflect the average blood sugar of 3 months\ntype=secondary | measure=Total cholesterol | time_frame=basline and 12 weeks later | description=one of serum biochemical index\ntype=secondary | measure=triglyceride | time_frame=basline and 12 weeks later | description=one of serum biochemical index\ntype=secondary | measure=HDL | time_frame=basline and 12 weeks later | description=high-density lipoprotein\uff0cone of serum biochemical index\ntype=secondary | measure=LDL | time_frame=basline and 12 weeks later | description=low density lipoprotein\uff0cone of serum biochemical index\ntype=secondary | measure=UA | time_frame=basline and 12 weeks later | description=Uric Acid\uff0cone of serum biochemical index\ntype=secondary | measure=creatinine | time_frame=basline and 12 weeks later | description=one of serum biochemical index\ntype=secondary | measure=eGFR | time_frame=basline and 12 weeks later | description=Estimated glomerular filtration rate\uff0cone of serum biochemical index\ntype=secondary | measure=Urinary trace albumin/urinary creatinine | time_frame=basline and 12 weeks later | description=urine protein test urine protein urine protein test",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 531,
+      "trial_nct_id": "NCT06461377"
+    },
+    {
+      "chunk_id": "NCT06461377:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-06-13\nPrimary completion date: 2026-12-31\nCompletion date: 2027-12-31\nStudy first posted: 2024-06-17\nResults first posted: None\nLast update posted: 2024-06-21\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06461377"
+    },
+    {
+      "chunk_id": "NCT06461377:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The First Affiliated Hospital with Nanjing Medical University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT06461377"
+    }
+  ],
+  "trial_nct_id": "NCT06461377"
+}

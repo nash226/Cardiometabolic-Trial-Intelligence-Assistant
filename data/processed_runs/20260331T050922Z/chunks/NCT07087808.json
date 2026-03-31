@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07087808:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07087808\nBrief title: Digital Wellness Nurse - FIT Families: Virtual Family Intervention for Adolescent Obesity\nOfficial title: Digital Wellness Nurse - FIT Families: Virtual Family Intervention for Adolescent Obesity\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT07087808"
+    },
+    {
+      "chunk_id": "NCT07087808:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Obese Children and Adolescents\nIntervention labels: Digital Wellness Nurse - FIT Families\nDrug class labels: \nArms: Social Support; Control\nKeywords: obesity; digital health; nutrition; Cognitive Behavioral Skills Testing",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07087808"
+    },
+    {
+      "chunk_id": "NCT07087808:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of the research is to evaluate the digital wellness nurse (DWN) app to find out if it is helpful in delivering the FIT Families intervention. The study is sponsored by the National Institutes of Health (NIH).\nDetailed description: The focus of the DWN for this study, in collaboration with the Medical University of South Carolina (MUSC), is to evaluate its feasibility in delivering key components of FIT Families (HL155793), a multicomponent behavioral intervention designed to treat 12-to-17-year-old African American (AA) adolescents with obesity (AAAO).\n\nThe study aims to expand the FIT Families intervention through a digital adaptation that utilizes mobile technology and automation to increase access and adherence. Specifically, the DWN platform will assist AAAOs and their primary caregivers (participants) in understanding, tracking, and completing intervention components; delivering educational content when needed; and collecting information from external sources such as wearables. An analysis of their progression will provide the participants' incentives for adhering to intervention components, for example increasing their participation in self-monitoring (SM) and physical activity (PA). The DWN enables social support (SS) by allowing additional family members or friends to offer messages of encouragement to the participants throughout the treatment. Using our web-based dashboard, community health workers (CHWs) will monitor the progress of their families, meeting with them weekly via video conference within the DWN mobile application.\n\nDWN-FIT will evaluate the feasibility of a digital intervention to expand access and facilitate adherence to family-oriented, evidence-based treatment for AAAOs and their caregivers. Additionally, the realization of DWN-FIT will enable future research and development of evidence-based digital interventions targeting AAAOs. Successful outcomes of the proposed work will provide the evidence needed to support a larger, more comprehensive randomized clinical trial and commercialization of DWN (Phase II).",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 290,
+      "trial_nct_id": "NCT07087808"
+    },
+    {
+      "chunk_id": "NCT07087808:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 12 Years\nMaximum age: 17 Years\nAge groups: CHILD\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Adolescents (ages 12-17)\n2. Adolescent BMI \u2265 90th percentile for age and gender\n3. Primary caregiver either overweight (BMI 25.0 to 29.9) or obese (BMI \u2265 30) and willing to participate in treatment\n4. Adolescent residing primarily with the primary caregiver in a rural community (RUCA Codes 4-10)\n5. Both caregiver and adolescent must have (separate) Android or Apple (iOS) smartphone with mobile internet connection\n6. Adolescent and caregiver are English proficient\n7. Supporters must be 18 years of age or older\n\nExclusion Criteria:\n\n* Exclusion criteria for youth only:\n\n  1. Obesity secondary to medication use for another medical condition (e.g., steroids, antipsychotics)\n  2. Obesity secondary to a chronic condition (e.g., Down syndrome, Prader-Willi syndrome, Cushing's syndrome)\n\nExclusion criteria that apply to both adolescents and caregivers:\n\n1. Pregnancy (e.g., caregivers and youth will be asked each week if they expect if they are pregnant)\n2. Mental/emotional disorder (e.g., schizophrenia or other psychosis), suicidal, or homicidal\n3. Serious cognitive impairment (e.g., inability to complete questionnaires)\n4. Medical condition where weight loss is contraindicated\n5. Receiving or planned to receive other obesity treatments (e.g., pharmacologic treatment, bariatric surgery) within the next 6 months",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 211,
+      "trial_nct_id": "NCT07087808"
+    },
+    {
+      "chunk_id": "NCT07087808:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Engagement | time_frame=The PHE survey will be taken via the DWN app at each time point, T0-T3 (wks 0,6, and 12) | description=We will measure engagement through the delivery of the 9-item Patient Health Engagement (PHE, Graffigna, et al., 2015) survey. The PHE is used to determine the degree to which patients are engaged in their own health and describes the patient's ability to manage their own health. PHE has been validated in other work, but a sample size large enough to meet this threshold is outside the scope of this study. The PHE outcomes gathered here will be used as preliminary data for future studies.\ntype=primary | measure=Usability | time_frame=The SUS will be delivered in week 6 of the intervention. | description=We will deliver a usability assessment via the System Usability Scale (SUS, Brooke, 1996) assessment focusing on the efficiency and effectiveness of accessing, delivering, and providing support during the intervention. The SUS includes topics such as readability, technology literacy, and interface design. These elements are combined into a semi-quantitative score for system usability.\ntype=secondary | measure=Body Fat Loss | time_frame=3 months | description=We will ask participants to weigh themselves at least once each week using a provided smart scale (Etekcity) that records body fat percentage. This scale syncs with the DWN app automatically. The content, physical activity, and other program elements are designed to enhance behavior change toward body fat loss. This secondary outcome will determine the degree to which participants lose body fat over the 3-month treatment and will be measured in units of percent body fat.\ntype=secondary | measure=Body Weight Loss | time_frame=3 months | description=We will ask participants to weigh themselves at least once each week using a provided smart scale (Etekcity) that records body weight. This scale syncs with the DWN app automatically. The content, physical activity, and other program elements are designed to enhance behavior change toward overall weight loss. This secondary outcome will determine the degree to which participants lose body weight over the 3-month treatment and will be measured in units of pounds.\ntype=secondary | measure=Engagement - Time on Task | time_frame=3 months | description=We will determine the degree to which participants actively participate and engage in the digital wellness nurse activities, including video chats, reading content, completing assessments, and completing physical activity goals. This determination will be based on a daily activity report which will be generated from the application back-end. The first component of this report is participant engagement as measured by \"time on task\". Time on task will measure how much time, and in which parts of the app, the participants spent time. A weekly time on task cumulative measure will be calculated from adding the total time spent each day viewing learning content, answering assessment questions, and watching physical activity videos. The unit of measure for Time on Task is minutes.\ntype=secondary | measure=Engagement - Physical Activity | time_frame=3 months | description=The second engagement measure will measure progress toward completion of physical activity goals. These goals include a weekly step count, exercise intensity, average daily heart rate, and exercise duration. Each of these goals comprises 25% of the physical activity engagement measure. The specific number of steps, exercise intensity, average daily heart rate, and exercise duration will be discussed and agreed upon by the participant and their provided health coach, therefore these specific goals will vary by participant. But physical activity engagement will be measured by percent completion of these goals. For example, in a given week, if a participant meets the step count and average daily heart rate goal, but misses the goals for exercise intensity and duration, the physical activity engagement measure would be 50%. Physical activity data is collected via Fitbit Charge 2 smart watch. The DWN app syncs physical activity data from the watch to the daily activity report.\ntype=secondary | measure=Adherence - Content Completion | time_frame=3 months | description=The adherence measure will record progress toward completion of content goals. Each week the participant will be assigned a set of learning modules, each with an associated assessment. The percentage of the completed learning modules (denoted by completion of the associated assessment, at least 80% correct) will be used as a measure of content completion adherence. For example, if four learning modules are assigned for a given week, but only two are completed with assessment scores of at least 80%, then the content completion adherence measure would be 50%. Participants can retake assessments as many times as they desire, in order to reach the 80% benchmark.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 754,
+      "trial_nct_id": "NCT07087808"
+    },
+    {
+      "chunk_id": "NCT07087808:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-20\nPrimary completion date: 2025-11-14\nCompletion date: 2025-12-31\nStudy first posted: 2025-07-28\nResults first posted: None\nLast update posted: 2025-07-28\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07087808"
+    },
+    {
+      "chunk_id": "NCT07087808:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Machine and Human Interaction\nLead sponsor class: INDUSTRY\nCollaborators: National Institute on Minority Health and Health Disparities (NIMHD)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07087808"
+    }
+  ],
+  "trial_nct_id": "NCT07087808"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07215559:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07215559\nBrief title: A Study of Macupatide (LY3532226) and Eloralintide (LY3841136), Alone or in Combination, in Adults With Obesity or Overweight and With Type 2 Diabetes\nOfficial title: A Phase 2, Parallel-Group, Double-Blind, Placebo-Controlled Study to Investigate Weight Reduction With Macupatide and Eloralintide, Alone or in Combination, in Adult Participants With Obesity or Overweight and With Type 2 Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 69,
+      "trial_nct_id": "NCT07215559"
+    },
+    {
+      "chunk_id": "NCT07215559:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity; Overweight; Diabetes Mellitus, Type 2\nIntervention labels: Macupatide; Eloralintide; Macupatide Placebo; Eloralintide Placebo\nDrug class labels: \nArms: Macupatide (Macupatide + Eloralintide Placebo); Eloralintide (Elorlintide + Macupatide Placebo); Macupatide + Eloralintide; Placebo (Macupatide Placebo + Elorlintide Placebo)\nKeywords: GIP; Amylin",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT07215559"
+    },
+    {
+      "chunk_id": "NCT07215559:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to investigate weight reduction with macupatide and eloralintide, alone or in combination, in adult participants with obesity or overweight and with type 2 diabetes. Participation in the study will last about 48 weeks.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT07215559"
+    },
+    {
+      "chunk_id": "NCT07215559:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Have type 2 diabetes\n* Have an HbA1c \u22657.5% to \u226410.5% at screening\n* Have been treated with any of the following, alone or in combination, for at least 3 months prior to screening\n\n  * Diet and exercise\n  * Stable dose of metformin\n  * Sodium-glucose cotransporter-2 (SGLT2) inhibitor\n* Have had a stable body weight (\\<5% body weight gain and/or loss) for the 3 months prior to screening\n* Have a BMI of 27 or greater at screening\n\nExclusion Criteria:\n\n* Have any form of diabetes other than type 2 diabetes\n* Have a prior or planned surgical treatment for obesity, except prior liposuction or abdominoplasty, if performed \\>1 year prior to screening\n* Have any of the following cardiovascular conditions within 3 months prior to screening:\n\n  * acute myocardial infarction\n  * cerebrovascular accident (stroke)\n  * unstable angina, or\n  * hospitalization due to congestive heart failure\n* Have a history of an active or untreated malignancy or are in remission from a clinically significant malignancy for less than 5 years, exceptions include\n\n  * basal or squamous cell skin cancer\n  * in situ carcinomas of the cervix, or\n  * in situ prostate cancer\n* Have been prescribed any of the following receptor agonists (RA) or their combination for any indication within the last 6 months:\n\n  * amylin RA\n  * dual amylin and calcitonin RA\n  * glucagon-like peptide-1 receptor (GLP-1) RA\n  * glucose-dependent insulinotropic peptide (GIP)/GLP-1 RA\n  * GLP-1/glucagon (GCG) RAs, or\n  * GIP/GLP-1/GCG RAs\n* Have used excluded antihyperglycemic medications within 3 months prior to screening (including, but not limited to, sulfonylureas, dipeptidyl peptidase-4 inhibitors, alpha-glucosidase inhibitors, thiazolidinediones, and meglitinides\n* Have used insulin for diabetic control within the prior year (short term use in certain situations allowed",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 308,
+      "trial_nct_id": "NCT07215559"
+    },
+    {
+      "chunk_id": "NCT07215559:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change from Baseline in Body Weight | time_frame=Baseline, Week 32\ntype=secondary | measure=Change from Baseline in Hemoglobin A1c (HbA1c) | time_frame=Baseline, Week 32\ntype=secondary | measure=Change from Baseline in Body Mass Index (BMI) | time_frame=Baseline, Week 32\ntype=secondary | measure=Change from Baseline in Fasting Glucose | time_frame=Baseline, Week 32",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT07215559"
+    },
+    {
+      "chunk_id": "NCT07215559:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-10-16\nPrimary completion date: 2027-03\nCompletion date: 2027-05\nStudy first posted: 2025-10-10\nResults first posted: None\nLast update posted: 2026-03-02\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07215559"
+    },
+    {
+      "chunk_id": "NCT07215559:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eli Lilly and Company\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07215559"
+    }
+  ],
+  "trial_nct_id": "NCT07215559"
+}

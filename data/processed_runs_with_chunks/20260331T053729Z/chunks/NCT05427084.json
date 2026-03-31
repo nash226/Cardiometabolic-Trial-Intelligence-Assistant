@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05427084:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05427084\nBrief title: Canagliflozin Targeting Vascular Inflammation\nOfficial title: Canagliflozin Targeting Vascular Inflammation: an Ottawa Imaging Study - a Pilot Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT05427084"
+    },
+    {
+      "chunk_id": "NCT05427084:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Type 2; Coronary Artery Disease\nIntervention labels: Canagliflozin; Placebo\nDrug class labels: \nArms: Active; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT05427084"
+    },
+    {
+      "chunk_id": "NCT05427084:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: CANTOR SING is a pilot single center double blinded randomized study. The investigators will compare the effect of canagliflozin (300 mg daily - intervention arm) vs. placebo (control group) on the FDG aortic uptake in patients with stable CAD (over 60 days post-myocardial infarction) after a 6-month period of treatment. The investigators plan to enroll 8 patients in each arm (total sample size: 16 patients). Primary endpoint is the change in FDG aortic uptake between baseline and 6 months in each arm.\nDetailed description: CANTOR SING is a pilot single center double blinded randomized study to determine the effect of targeted anti-inflammation therapy using canagliflozin, on aortic inflammation using imaging, i.e. ascending aortic FDG uptake. The current proposal uses a randomized design to evaluate the effect of canagliflozin vs. placebo on aortic inflammation activity over 6 months measured using FDG PET.\n\nAt the University of Ottawa Heart Institute (UOHI) patients with diabetes and stable CAD (defined as patients over 60 days post-myocardial infarction) will be recruited.\n\nPatients who meet inclusion/exclusion criteria will undergo clinical evaluation, FDG PET imaging with contrast-CT, and blood sample collection. HbA1C, Fasting Blood Sugar (FBS), lipids, C-reactive protein (CRP), creatinine (CR), glomerular filtration rate (GFR), complete blood count (CBC), hemoglobin, liver function tests - AST, ALT, creatine kinase (CK) will be collected from the patient's clinical data or if not available may be collected as part of the study.\n\nPatients recruited into the CANTOR SING study will be randomized to receive either an oral canagliflozin 300 mg capsule or placebo capsule administered once daily for 6 months. Patients will take the medication for 6 months. The study will be conducted in a double-blinded fashion.\n\nPatients will be followed up every 3 months for the 6-month evaluation period. Clinical evaluation and blood collection for labs (CBC, electrolytes, CPK, ALT, AST, creatinine) will performed at baseline and will be repeated every 3 months for a a total of 6 months of follow-up. FDG PET imaging with contrast-CT will be repeated at 6 months. Finally, blood will be collected at baseline and 6 months.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 347,
+      "trial_nct_id": "NCT05427084"
+    },
+    {
+      "chunk_id": "NCT05427084:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* 1\\) Stable CAD (over 60 days post-myocardial infarction).\n* 2\\) Diabetes\n* 3\\) given informed consent.\n\nExclusion Criteria:\n\n1. severe LV dysfunction (EF\\<50%);\n2. decompensated heart failure;\n3. active infection (e.g. pneumonia, active skin infections, and on antibiotics);\n4. active inflammatory conditions (e.g. rheumatoid arthritis, chronic inflammatory bowel disease, SLE, systemic anti-inflammatory therapy (e.g. prednisone, methotrexate));\n5. pregnancy (all women of child bearing potential will have a negative BHCG test;\n6. breastfeeding;\n7. Women of childbearing potential who refuse to use two forms of contraception (this includes at least one form of highly effective and one effective method of contraception) throughout the study OR men capable of fathering a child who refuse to use contraception.\n8. glomerular filtration rate (GFR) \\<50 ml/min/1.72m2;\n9. Use of p-glycoprotein inhibitor (e.g. cyclosporine, verapamil, or quinidine) or a strong CYP3A4 inhibitor (e.g. ritonavir, clarithromycin, or ketoconazole);\n10. Hemoglobin \\< 105(women) \\<110 (men) g/L; WBC \\< 3.0x 10(9)/L, platelet count\\< 110x 10(9)/L;\n11. Patient with a history of cirrhosis, chronic active hepatitis or severe hepatic disease or with alanine aminotransferase (ALT) levels greater than 3 times the upper limit of normal.\n12. unable to give informed consent;",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 212,
+      "trial_nct_id": "NCT05427084"
+    },
+    {
+      "chunk_id": "NCT05427084:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=TBR (Tissue-to-blood ratio) of the most-diseased segment (MDS) of the ascending aorta | time_frame=6 months | description=TBR (Tissue-to-blood ratio) is a marker of arterial plaque inflammation. It will be measured in the maximum disease segment (MDS)(the segment with the highest FDG uptake at baseline) in the aorta\ntype=secondary | measure=Change in inflammatory biomarkers | time_frame=6 months | description=The investigators will measure inflammatory biomarkers (hsCRP, IL-6, IL-7, IL-8, MCP) at baseline and on study completion (pg/mL)\ntype=secondary | measure=Change in monocyte marker expression | time_frame=6 months | description=Change in monocyte marker expression (% positive cells) of CD14++CD16-, CD14++CD16+, CD14+CD16+, CD14+CD16-, CD127, and CCR2 from baseline to follow-up",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 108,
+      "trial_nct_id": "NCT05427084"
+    },
+    {
+      "chunk_id": "NCT05427084:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-11-15\nPrimary completion date: 2025-12\nCompletion date: 2026-12\nStudy first posted: 2022-06-22\nResults first posted: None\nLast update posted: 2024-12-11\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05427084"
+    },
+    {
+      "chunk_id": "NCT05427084:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Ottawa Heart Institute Research Corporation\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT05427084"
+    }
+  ],
+  "trial_nct_id": "NCT05427084"
+}

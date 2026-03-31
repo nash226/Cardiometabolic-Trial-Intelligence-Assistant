@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05120492:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05120492\nBrief title: Optimal Management of Extreme Obesity and Severe Knee Osteoarthritis Feasibility Trial\nOfficial title: Optimal Management of Extreme Obesity and Severe Knee Osteoarthritis Feasibility Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT05120492"
+    },
+    {
+      "chunk_id": "NCT05120492:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Knee Osteoarthritis; Morbid Obesity\nIntervention labels: bariatric surgery followed by total knee replacement\nDrug class labels: \nArms: Surgical weight loss; Standard of Care\nKeywords: Arthroplasty, Replacement, Knee; Bariatric Surgery",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT05120492"
+    },
+    {
+      "chunk_id": "NCT05120492:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Does weight loss surgery in patients with morbid obesity prior to knee replacement surgery improve outcomes from knee replacement surgery\nDetailed description: RCT involving patients who have severe knee osteoarthritis and have a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 45 to 60 and are randomly assigned to receive dietary and lifestyle counseling for 9 to 13 months followed by total knee replacement (control arm) or sleeve gastrectomy with dietary and lifestyle counseling for 9 to 13 months followed by total knee replacement (treatment arm).",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 97,
+      "trial_nct_id": "NCT05120492"
+    },
+    {
+      "chunk_id": "NCT05120492:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\nsevere knee osteoarthritis body-mass index of 45 to 60\n\nExclusion Criteria:\n\nprevious total replacement of the same knee, a need for bilateral total knee replacement, and knee pain during the previous week that the patient rated at higher than 60 mm on a 100-mm visual-analogue scale. Also,prior bariatric or complex foregut surgery, significant cardiovascular, pulmonary, renal, liver, gastrointestinal, psychiatric disorders, pregnancy, malignancy within last 5 years, anemia, coagulopathy requiring anti-coagulation therapy.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT05120492"
+    },
+    {
+      "chunk_id": "NCT05120492:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Pain, mobility and quality of Life | time_frame=1 year | description=Knee Injury and Osteoarthritis Outcome Score (KOOS4)\ntype=secondary | measure=EuroQol Group 5-Dimension Self Report Questionnaire (EQ-5D) | time_frame=1 year | description=assessing quality of life.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT05120492"
+    },
+    {
+      "chunk_id": "NCT05120492:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-04-22\nPrimary completion date: 2027-07\nCompletion date: 2027-07\nStudy first posted: 2021-11-15\nResults first posted: None\nLast update posted: 2024-08-21\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05120492"
+    },
+    {
+      "chunk_id": "NCT05120492:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Nova Scotia Health Authority\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT05120492"
+    }
+  ],
+  "trial_nct_id": "NCT05120492"
+}

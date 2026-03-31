@@ -1,0 +1,270 @@
+{
+  "arms": [
+    {
+      "description": "Isocaloric 4-week HP/HC intervention followed by a 4-week HC/HP intervention.",
+      "intervention_names": [
+        "Other: Diet with specific macronutrient composition."
+      ],
+      "label": "HP/HC - HC/HP",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Isocaloric 4-week HC/HP intervention followed by a 4-week HP/HC intervention.",
+      "intervention_names": [
+        "Other: Diet with specific macronutrient composition."
+      ],
+      "label": "HC/HP - HP/HC",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Overweight",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Prediabetes",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Type 2 Diabetes",
+      "normalized_name": "type_2_diabetes"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Prediabetes (fasting blood sugar 100-125 mg/dl)\n* Diabetes type 2 (fasting blood sugar \\&gt;126 mg/dl)\n* Overweight and obesity (BMI 25-50 kg/m2)\n\nExclusion Criteria:\n\n* Other diabetes types\n* Insulin treatment\n* Shift work\n* Weight changes \\&gt;5% within past 3 months\n* Systemic glucocorticoid therapy\n* Systemic infections\n* Severe anemia\n* High blood pressure (\\&gt;180/110 mmHg)\n* Endocrinologic, liver and heart disorders\n* Immune diseases\n* Thyroid dysfunction\n* Heart attack or stroke\n* Cancer in the last 2 years\n* Eating disorders, food intolerance/allergy, addiction disorders, digestive disorders intestinal, liver, cardiovascular diseases\n* Hereditary or acquired coagulation disorders\n* Non-interruptible intake of blood thinners (anticoagulants)\n* Specific diets, intermittent fasting\n* Pregnancy or breastfeeding\n* Severe internal or psychiatric disorders or other conditions and drugs therapy that might influence the outcome of the study",
+    "healthy_volunteers": false,
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "HC/HP - HP/HC",
+        "HP/HC - HC/HP"
+      ],
+      "description": "The intervention is about an isocaloric diet that differs in terms of distribution of carbohydrates and protein throughout the day. The interventions include a HP-breakfast and a HC-dinner vs. a HC-breakfast and a HP-dinner. A HP low-carb meal (breakfast or dinner) will contain 35%E protein, 35%E carbs, and 30%E fat, and a HC meal (breakfast or dinner) will contain 10%E protein, 60%E carbs, and 30%E fat.",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Diet with specific macronutrient composition.",
+      "normalized_name": "diet with specific macronutrient composition."
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Mean 24-hour glucose assessed by continuous glucose monitoring (CGM)",
+      "measure": "Mean 24-hour glucose",
+      "outcome_type": "primary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Height measured by stadiometer",
+      "measure": "Measurement of height",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Body weight measured by body scale",
+      "measure": "Measurement of body weight",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Waist and hip circumference measured by tape measure",
+      "measure": "Waist and hip circumference / waist to hip ratio",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Systolic and diastolic blood pressure changes measurement by manometer",
+      "measure": "Systolic and diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Body fat and lean mass assessed by bioelectrical impendance analysis (BIA)",
+      "measure": "Body fat and lean mass",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Energy expenditure and substrate oxidation rates assessed by indirect calorimetry",
+      "measure": "Energy expenditure and substrate oxidation rates",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "GGT, AST, ALT etermined in fasting blood samples",
+      "measure": "Hepatic values (gamma-glutamyl transferase (GGT), aspartate aminotransferase (AST), alanine aminotransferase (ALT))",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Renal values determined in fasting blood samples",
+      "measure": "Renal values (creatinine, urea, uric acid)",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Indices of intra- and inter-day glycemic variability assessed by continuous glucose monitoring (CGM)",
+      "measure": "Intra- und inter-day glycemic variability",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Glucose levels in blood samples collected in MTT",
+      "measure": "Glucose levels in meal tolerance test (MTT)",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Blood levels of metabolic hormones assessed in fasting state and during the MTT",
+      "measure": "Metabolic hormones (insulin, C-peptide, glucagon, glucagon-like peptite 1(GLP-1), gastric inhibitory polypeptide (GIP), peptide YY (PYY), ghrelin, adiponectin, leptin)",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Level of the inflammatory markers IL-6, TNFa, MCP-1 and T cell populations in circulation and adipose tissue are assessed through blood analysis and fat biopsy",
+      "measure": "Inflammatory markers and T cell populations analyses",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Satiety and hunger scores assessed using Visual Analog Scale (VAS with a scale of 1-100, where higher values correspond to stronger satiety/hunger)",
+      "measure": "Satiety and hunger scores",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Sleep/wake timing and sleep quality assessed by the Pittsburgh Sleep Quality Index (PSQI score, which ranges from 0-21, where higher values correspond to worse sleep quality) and also monitored by an ActiGraph device",
+      "measure": "Sleep/wake timing and sleep quality",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "24-h physical activity will be monitored by an ActiGraph device",
+      "measure": "Physical activity",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "RNA-Seq analysis of subcutaneous adipose tissue sample",
+      "measure": "Adipose tissue transcriptome",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Expression of metabolic genes assessed by qPCR",
+      "measure": "Gene expression in peripheral blood mononuclear cells (PBMC)",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Determined in stool samples and blood plasma",
+      "measure": "Gut microbiota and microbiome-derived metabolites",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "Impulsiveness assessed by decision making tasks on computer",
+      "measure": "Determination of decision behavior",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The overall aim is to identify the dietary pattern for prevention and treatment of type 2 diabetes. The specific aim of this pilot project is to compare effects of two diets with different diurnal distribution of carbohydrates and protein on the glucose metabolism in subjects with prediabetes and type 2 diabetes and its effects on inflammatory status.",
+    "brief_title": "PROTeIn-rich Meals to Control Glucose",
+    "collaborator_names": [
+      "Charite University, Berlin, Germany",
+      "Helmholtz Center Munich",
+      "Hasso Plattner Institute, Potsdam, Germany"
+    ],
+    "completion_date": "2027-02-28",
+    "condition_labels": [
+      "obesity",
+      "type_2_diabetes"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Prediabetes (fasting blood sugar 100-125 mg/dl)\n* Diabetes type 2 (fasting blood sugar \\&gt;126 mg/dl)\n* Overweight and obesity (BMI 25-50 kg/m2)\n\nExclusion Criteria:\n\n* Other diabetes types\n* Insulin treatment\n* Shift work\n* Weight changes \\&gt;5% within past 3 months\n* Systemic glucocorticoid therapy\n* Systemic infections\n* Severe anemia\n* High blood pressure (\\&gt;180/110 mmHg)\n* Endocrinologic, liver and heart disorders\n* Immune diseases\n* Thyroid dysfunction\n* Heart attack or stroke\n* Cancer in the last 2 years\n* Eating disorders, food intolerance/allergy, addiction disorders, digestive disorders intestinal, liver, cardiovascular diseases\n* Hereditary or acquired coagulation disorders\n* Non-interruptible intake of blood thinners (anticoagulants)\n* Specific diets, intermittent fasting\n* Pregnancy or breastfeeding\n* Severe internal or psychiatric disorders or other conditions and drugs therapy that might influence the outcome of the study",
+    "detailed_description": "Overweight individual with prediabetes and non-insulin treated type 2 diabetes will be recruited for the study. The trial will have a cross-over design and compare metabolic effects of two isocaloric 4-week interventions with opposite timely distribution of macronutrient intake - a high-protein (HP) breakfast and a high-carb (HC) dinner (HP/HC intervention) vs. a HC breakfast and a HP dinner (HC/HP intervention) - divided by a 4-week wash-out phase. A HP low-carb meal (breakfast or dinner) will contain 35%E protein, 35%E carbs, and 30%E fat, and a HC meal (breakfast or dinner) will contain 10E%protein, 60%E carbs, and 30%E fat.",
+    "drug_class_labels": [],
+    "enrollment_count": 30,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Diet with specific macronutrient composition."
+    ],
+    "intervention_model": "CROSSOVER",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Glucose",
+      "Overweight",
+      "Obesity",
+      "Prediabetes",
+      "Type 2 Diabetes",
+      "Metabolism",
+      "Chrononutrition",
+      "Macronutrient composition",
+      "High-protein",
+      "High-carb",
+      "Isocaloric diet",
+      "Prevention and treatment of type 2 diabetes"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-08-26",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "German Institute of Human Nutrition",
+    "masking": "NONE",
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06382480",
+    "official_title": "Meal Timing-based Strategies to Improve Glucose Metabolism in Prediabetes and Type 2 Diabetes",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-12-31",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06382480",
+    "start_date": "2024-04-12",
+    "study_first_posted_at": "2024-04-24",
+    "study_type": "INTERVENTIONAL"
+  }
+}

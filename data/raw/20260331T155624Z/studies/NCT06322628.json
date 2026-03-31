@@ -1,0 +1,264 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: VSA006"
+          ],
+          "label": "VSA006 low dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "VSA006 low dose comparator",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: VSA006"
+          ],
+          "label": "VSA006 high dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "VSA006 high dose comparator",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "VSA006 high dose",
+            "VSA006 low dose"
+          ],
+          "description": "every 12 weeks, subcutaneous injections",
+          "name": "VSA006",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "VSA006 high dose comparator",
+            "VSA006 low dose comparator"
+          ],
+          "description": "every 12 weeks, subcutaneous injections",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Nash"
+      ],
+      "keywords": [
+        "efficacy",
+        "safety",
+        "HSD17\u03b213"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Beijing",
+          "country": "China",
+          "facility": "Beijing Tsinghua Changgeng Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Human genetic studies have shown that loss of function (LOF) mutations in HSD17\u03b213 gene have a protective effect on the progression of alcohol-related and non-alcohol-related liver diseases, such as NASH, without significant adverse phenotypes.\n\nVSA006 is a siRNA drug targeting HSD17\u03b213 mRNA in the liver and reduce the protein level of HSD17\u03b213. Based on phase 1 study results in healthy volunteers and NASH/suspected NASH patients, this phase 2 study is designed to evaluate the efficacy, safety, PK profiles and immunogenicity of VSA006 in Chinese NASH patients."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* body mass index (BMI) of 24-35 kg/m2 ;\n* NASH patients confirmed by liver histopathology: NAS score is \u2265 4 and CRN fibrosis is F2 or F3 ;\n* At screening, ALT is \\> ULN;\n* At screening, the liver fat content measured by MRI-PDFF is \u2265 8%;\n* Weight change \\< 5% at least 3 months prior to screening;\n* For patient with T2DM, the hypoglycemic agents and HbA1c is stable\n\nExclusion Criteria:\n\n* Pregnant or lactating women;\n* Previous diagnosis of alcoholic liver disease or hepatitis/liver disease due to other causes;\n* Previous or current diagnosis of cirrhosis or decompensated cirrhosis;\n* Previous or current diagnosis of hyperthyroidism, hypothyroidism, or other diseases that can lead to fatty degeneration of liver;\n* Participants diagnosed with type 1 diabetes, or with unstable type 2 diabetes\n* Participants who cannot receive an MRI examination;",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Phase 2 Clinical Trial to Evaluate the Efficacy and Safety of VSA006 in Chinese NASH Patients",
+      "nctId": "NCT06322628",
+      "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase II Clinical Trial to Evaluate the Efficacy and Safety of VSA006 Injection in Chinese Adult Patients With Nonalcoholic Steatohepatitis (NASH)",
+      "orgStudyIdInfo": {
+        "id": "VSA006-2001"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Visirna Therapeutics HK Limited"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "No Worsening of NASH is defined as no increase in inflammation, ballooning, or steatosis scores in the NAS score.",
+          "measure": "Percentage of Participants Achieving \u2265 1 Stage Improvement in Histological Fibrosis with no Worsening of NASH",
+          "timeFrame": "At week 52"
+        },
+        {
+          "description": "NASH Improvement indicates a reduction by at least 2 points in the NAS score, with at least one-point reduction in ballooning without increase in steatosis score.",
+          "measure": "Percentage of Participants Achieving NASH Improvement with no Worsening of Fibrosis",
+          "timeFrame": "At week 52"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Compared with placebo, the percentage change in serum alanine aminotransferase (ALT)",
+          "timeFrame": "At week 24, week 52 and week 82"
+        },
+        {
+          "description": "measured by magnetic resonance imaging-proton density fat fraction (MRI-PDFF)",
+          "measure": "Compared with placebo, the change in liver fat fraction from baseline and liver fat percentage change from baseline",
+          "timeFrame": "At week 24 and week 52"
+        },
+        {
+          "description": "measured by magnetic resonance imaging-proton density fat fraction (MRI-PDFF)",
+          "measure": "Compared with placebo, the percentage of participants with a > 30% decrease in liver fat fraction from baseline",
+          "timeFrame": "At week 24 and week 52"
+        },
+        {
+          "measure": "Compared with placebo, the change and percentage change in noninvasive markers of fibrosis from baseline: FIB-4, NAFLD fibrosis score, and AST/PLT ratio index (APRI)",
+          "timeFrame": "At week 24, week 52 and week 82"
+        },
+        {
+          "description": "NASH resolution was defined as a NAS score of 0-1 for inflammation, 0 for ballooning, and no increase in steatosis score",
+          "measure": "Percentage of Participants Achieving NASH Resolution with no Worsening of Fibrosis",
+          "timeFrame": "At week 52"
+        },
+        {
+          "measure": "Incidence and severity of adverse events (AEs) and serious adverse events (SAEs), and their correlation with VSA006",
+          "timeFrame": "Up to week 82"
+        },
+        {
+          "measure": "Maximum observed concentration (Cmax) of VSA006",
+          "timeFrame": "Pre-dose, 0.5, 1, 2, 4, 8, 12 and 24 hours post dose"
+        },
+        {
+          "measure": "Time of maximum concentration of VSA006 (Tmax)",
+          "timeFrame": "Pre-dose, 0.5, 1, 2, 4, 8, 12 and 24 hours post dose"
+        },
+        {
+          "measure": "Area under the concentration-time curve from time zero (pre-dose) to the last quantifiable concentration (AUC0-t) of VSA006",
+          "timeFrame": "Pre-dose, 0.5, 1, 2, 4, 8, 12 and 24 hours post dose"
+        },
+        {
+          "measure": "anti-drug antibodies (ADAs) of VSA006",
+          "timeFrame": "up to week 82"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Visirna Therapeutics HK Limited"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-09",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-04-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-12-22",
+      "studyFirstSubmitQcDate": "2024-03-13"
+    }
+  }
+}

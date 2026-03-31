@@ -1,0 +1,474 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "The drug is administered once weekly, starting with a titration dose of 1 mg. The dose is up-titrated every 2 weeks in the sequence of 1 mg \u2192 5 mg \u2192 10 mg \u2192 20 mg, reaching the target dose of 20 mg, the total treatment last for 22weeks.",
+          "interventionNames": [
+            "Drug: Efsubaglutide Alfa 20 mg QW",
+            "Other: Placebo"
+          ],
+          "label": "Efsubaglutide 20 mg Quaque Week (QW\uff09",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The drug is administered once weekly, starting with a titration dose of 1 mg. The dose is up-titrated every 2 weeks in the sequence of 1 mg \u2192 5 mg \u2192 10 mg \u2192 20 \u2192 40mg, reaching the target dose of 40 mg, the total treatment last for 22weeks.",
+          "interventionNames": [
+            "Drug: Efsubaglutide Alfa 40 mg QW",
+            "Other: Placebo"
+          ],
+          "label": "Efsubaglutide 40 mg QW",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The drug is administered once weekly, starting with a titration dose of 1 mg. The dose is up-titrated every 2 weeks in the sequence of 1 mg \u2192 5 mg \u2192 10 mg \u2192 20 \u2192 40mg,when reaching to target dose of 40 mg, administered the drug every 2weeks. the total treatment last for 22weeks.",
+          "interventionNames": [
+            "Drug: Efsubaglutide Alfa 40 mg Q2W",
+            "Other: Placebo"
+          ],
+          "label": "Efsubaglutide Alfa 40 mg Q2W",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The drug is administered once weekly, starting with a titration dose of 1 mg. The dose is up-titrated every 2 weeks in the sequence of 1 mg \u2192 5 mg \u2192 10 mg \u2192 20 \u2192 40mg\u2192 80mg, reaching the target dose of 80 mg, the total treatment last for 22weeks.",
+          "interventionNames": [
+            "Drug: Efsubaglutide Alfa 80 mg QW",
+            "Other: Placebo"
+          ],
+          "label": "Efsubaglutide Alfa 80 mg QW",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The drug is administered once weekly, starting with a titration dose of 1 mg. The dose is up-titrated every 2 weeks in the sequence of 1 mg \u2192 5 mg \u2192 10 mg \u2192 20 \u2192 40mg\u2192 80mg,when reaching to target dose of 80 mg, administered the drug every 4weeks. the total treatment last for 22weeks.",
+          "interventionNames": [
+            "Drug: Efsubaglutide Alfa 80 mg Q4W",
+            "Other: Placebo"
+          ],
+          "label": "Efsubaglutide Alfa 80 mg Q4W",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Efsubaglutide 20 mg Quaque Week (QW\uff09"
+          ],
+          "description": "Efsubaglutide Alfa 20 mg QW",
+          "name": "Efsubaglutide Alfa 20 mg QW",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Efsubaglutide 40 mg QW"
+          ],
+          "description": "Efsubaglutide Alfa 40 mg QW",
+          "name": "Efsubaglutide Alfa 40 mg QW",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Efsubaglutide Alfa 40 mg Q2W"
+          ],
+          "description": "Efsubaglutide Alfa 40 mg Q2W",
+          "name": "Efsubaglutide Alfa 40 mg Q2W",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Efsubaglutide Alfa 80 mg QW"
+          ],
+          "description": "Efsubaglutide Alfa 80 mg QW",
+          "name": "Efsubaglutide Alfa 80 mg QW",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Efsubaglutide Alfa 80 mg Q4W"
+          ],
+          "description": "Efsubaglutide Alfa 80 mg Q4W",
+          "name": "Efsubaglutide Alfa 80 mg Q4W",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Efsubaglutide 20 mg Quaque Week (QW\uff09",
+            "Efsubaglutide 40 mg QW",
+            "Efsubaglutide Alfa 40 mg Q2W",
+            "Efsubaglutide Alfa 80 mg Q4W",
+            "Efsubaglutide Alfa 80 mg QW"
+          ],
+          "description": "Placebo",
+          "name": "Placebo",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity and Overweight"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "dr.qwang@innogenpharm.com",
+          "name": "QINGHUA WANG",
+          "phone": "862168788225",
+          "role": "CONTACT"
+        },
+        {
+          "email": "kkaluhin@canopycrcom.au",
+          "name": "Karen Kaluhin",
+          "phone": "02 8357 5242",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Brookvale",
+          "contacts": [
+            {
+              "name": "Deon Smith",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Australia",
+          "facility": "Canopy Clinical Northern Beaches",
+          "geoPoint": {
+            "lat": -33.76108,
+            "lon": 151.27446
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Miranda",
+          "contacts": [
+            {
+              "name": "Kaluhin Karen",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Australia",
+          "facility": "Canopy Clinical Sutherland Shire",
+          "geoPoint": {
+            "lat": -34.03857,
+            "lon": 151.10005
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "North Altona",
+          "contacts": [
+            {
+              "name": "Oscar Walsh",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Australia",
+          "facility": "Canopy Clinical Altona North",
+          "geoPoint": {
+            "lat": -37.83487,
+            "lon": 144.84735
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Norwood",
+          "contacts": [
+            {
+              "name": "Tom Poleasek",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Australia",
+          "facility": "Fusion Clinical Research",
+          "geoPoint": {
+            "lat": -34.9273,
+            "lon": 138.62849
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Wollongong",
+          "contacts": [
+            {
+              "name": "Tess Tonkin",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Australia",
+          "facility": "Canopy Clinical Wollongong",
+          "geoPoint": {
+            "lat": -34.424,
+            "lon": 150.89345
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Canopy Clinical Sutherland Shire",
+          "name": "Karen Kaluhin",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multicenter, double-blind, randomized, placebo-controlled phase \u2161 study to evaluate the efficacy, safety, pharmacokinetics, and immunogenicity of YN-011 in subjects with overweight (27 kg/m2 \u2264 BMI \\< 30 kg/m2, with at least one comorbidity) or obesity (BMI \u2265 30 kg/m2, with or without comorbidities). The entire study period will consist of a 2-week screening period, a 22-week double-blind treatment period, and a 4-week off-treatment follow-up period"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Willing to comply with protocol required visit schedule and visit requirements and provide written informed consent form (ICF);\n2. Male or female subjects, aged 18 to 75 years (both inclusive) at the time of signing the ICF;\n3. Obese: BMI \u2265 30.0 kg/m2, with or without comorbidities; Or overweight: 27.0 kg/m2 \u2264 BMI \\< 30.0 kg/m2, with at least one of the following weight-related comorbidities: pre-diabetes, hypertension, dyslipidemia, fatty liver, osteoarthritis, or obesity-induced obstructive sleep apnea syndrome (If the subject has only fatty liver as a comorbidity, imaging results within the 3 months prior to screening are required for fatty liver);\n4. A self-reported change in body weight less than 5.0% controlled with diet and exercise within 3 months before screening;\n5. Women of childbearing potential (WOCBP) and fertile males with WOCBP partners must use highly effective contraception methods throughout the study (from the signing of ICF to 3 months after the last dose of investigational medicinal products).\n\nExclusion Criteria:\n\n1. Obesity caused by endocrine disease or monogenic mutation, including but not limited to hypothalamic obesity, pituitary obesity, hypothyroidism-related obesity, Cushing's syndrome, insulinoma, acromegaly or hypogonadism;\n2. Known or suspected allergy to the investigational medicinal product, its components or drugs of the same class;\n3. Previously diagnosed diabetes mellitus (including type 1 diabetes mellitus, type 2 diabetes mellitus, diabetes mellitus due to pancreatic damage, or other types of diabetes mellitus \\[except gestational diabetes mellitus\\]);\n4. History of severe gastrointestinal disease (e.g., active ulcers), or gastrointestinal surgery (except for appendectomy, cholecystectomy, or other gastrointestinal endoscopic surgeries deemed by the investigator to have no significant impact on gastrointestinal motility), or clinically significant gastric emptying abnormalities (e.g., pyloric obstruction, gastroparesis), or long-term use of drugs with direct effects on gastrointestinal motility within 6 months before screening, or those who were not suitable for participating in this study at the investigator's discretion;\n5. History of significant cardiovascular or cerebrovascular disease within 6 months before screening, including but not limited to:1) Myocardial infarction, coronary angioplasty or bypass grafting, heart valve disease or heart valve repair, clinically significant arrhythmias requiring treatment, angina, transient ischemic attack, cerebrovascular accident or others; 2)Congestive heart failure classified as Grade III or IV by the New York Heart Association (NYHA) (refer to Appendix 3);\n6. History of acute or chronic pancreatitis, symptomatic gallbladder disease (subjects who have undergone cholecystectomy and have stable condition post-surgery are excluded), or pancreatic injury and other factors that may lead to high risk of pancreatitis;\n7. Presence of hyperthyroidism; or hypothyroidism that has not been controlled with a stable medication dose (defined as a stable dose for 3 months or longer);\n8. Personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia type 2 (MEN2);\n9. Subjects who have experienced two or more hypoglycemic events within 6 months prior to screening, defined as blood glucose \\< 2.8 mmol/L (50.4 mg/dl) or blood glucose not reaching \\< 2.8 mmol/L (50.4 mg/dl) but with significant hypoglycemia symptoms (manifested by sympathetic arousal \\[e.g., palpitations, anxiety, sweating, dizziness, shaking of the hands, feeling of hunger, etc.\\] and CNS symptoms \\[e.g., altered mentation, cognitive disturbances, seizures and coma\\]);\n10. History of an active or untreated malignancy or are in remission from a clinically significant malignancy (other than basal- or squamous-cell skin cancer, in situ carcinomas of the cervix, or in situ prostate cancer) for less than 5 years; or there is a potential malignancy during screening;\n11. History of severe infection or severe trauma within 3 months prior to screening, or undergoing major surgery or not fully recovering from surgery, and the investigator determines that the participant is unsuitable for this study;\n12. History of significant active or unstable major depressive disorder or other severe psychiatric disorder (for example, schizophrenia, bipolar disorder, or other serious mood or anxiety disorder) within 2 years prior to screening;\n13. Previous suicidal tendency or suicidal behavior;\n14. Suicidal ideation corresponding to type 4 or 5 on the C-SSRS at screening;\n15. PHQ-9 questionnaire \u2265 15 points at screening;\n16. Known active infections, e.g., bacterial, fungal and viral infections, including: 1)Human immunodeficiency virus (HIV) infection: defined as HIV antibody positive; 2)Syphilis infection: defined as treponema pallidum antibody (TP-Ab) positive; 3)Active hepatitis B virus (HBV): defined as hepatitis B surface antigen (HBsAg) positive and HBV-deoxyribonucleic acid (DNA) \u2265 lab-specific upper limit of normal (ULN) (for those with positive result on HBsAg, HBV DNA test will be performed and those with positive HBV DNA results will be excluded); 4)Active hepatitis C virus (HCV): defined as HCV antibody (HCV-Ab) positive and HCV-ribonucleic acid (RNA) positive, if HCV-Ab positive and HCV RNA negative can be considered as eligible at the discretion of the Investigator;\n17. Any of the laboratory test results at screening meet the following criteria (if there is a clear reason for re-test, the re-test can be performed once during the screening period, and the investigator should record the reason for re-test): 1)HbA1c \u2265 6.5% or fasting blood glucose \u2265 7.0 mmol/L (126 mg/dL) (fasting blood glucose will be tested at the local laboratory at the time of screening, plasma or serum glucose is acceptable); 2)Thyroid stimulating hormone (TSH) \\> 6.0 mIU/L or \\< 0.4 mIU/L; 3)ALT or AST \u2265 3.0\u00d7ULN or total bilirubin (TBIL) \u2265 2\u00d7 ULN; 4)Fasting TG \\> 5.65 mmol/L (500 mg/dl); 5)Blood amylase or lipase \\> 2.0\u00d7ULN; 6)Calcitonin \u2265 50 ng/L(pg/mL); 7)Estimated glomerular filtration rate (eGFR) \u2264 30 mL/min/1.73m2, calculated by the CKD-EPI formula (refer to Appendix 4); 8)International normalized ratio (INR) \\> ULN;\n18. Abnormal 12-lead ECG: second- or third-degree atrioventricular block, long QT syndrome or QTcF \\> 450 ms (males) or \\> 470 ms (females) (refer to Appendix 5), left bundle branch block, Wolff-Parkinson-White syndrome, or other clinically significant abnormalities that require treatment;\n19. Uncontrolled hypertension, defined as systolic blood pressure \u2265 160 mmHg and/or diastolic blood pressure \u2265 100 mmHg;\n20. Use of any of the following medications or treatments within 3 months prior to screening: 1)Weight loss drugs, such as semaglutide, sibutramine hydrochloride, orlistat, phentermine, phenylpropanolamine, chlorpheniramine, phentermine, bupropion, lorcaserin, phentermine/topiramate mixture, naltrexone/bupropion mixture, etc.; 2)Chinese herbal medicine, health products, meal replacements affecting body weight; 3)Glucose-lowering drugs, such as metformin, SGLT2 inhibitors, GLP-1R agonists, thiazolidinediones (TZDs), etc; 4)Drugs that may affect body weight, including systemic steroids (Consecutively for 7 or more days), tricyclic antidepressants, psychiatric drugs or sedative drugs (such as imipramine, amitriptyline, mirtazapine, paroxetine, phenelzine, chlorpromazine, thioridazine, clozapine, olanzapine, valproic acid, valproic acid derivatives, lithium salts);\n21. Previous bariatric surgery; acupuncture/cupping for weight loss, liposuction, and abdominal liposuction within 1 year prior to screening; or plan to undergo corresponding treatment during the study period;\n22. Subjects who have participated in other clinical studies and received investigational drug therapy, vaccines or medical device intervention within 3 months before screening;\n23. Blood donation or blood loss \u2265 400 mL within 3 months before screening, or those who have received blood transfusion;\n24. Inability to be venipunctured and/or tolerate venous access;\n25. Alcohol consumption of \\> 21 units per week for males and \\> 14 units per week for females within the 6 months before screening (1 unit=360 mL of beer or 45 mL of spirits with an alcohol content of \u2265 40% or 150 mL of wine);\n26. Have a history or suspected abuse of drug, and the investigator determines that the subject is unsuitable for this study;\n27. Have history of use of marijuana within 3 months before screening and unwillingness to abstain from marijuana use during the study;\n28. Pregnant or lactating women;\n29. Other conditions deemed unsuitable for participation in this study according to the judgment of the investigator..",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The Efficacy and Safety of Efsubaglutide Alfa in Overweight/Obesity\uff08SPARKLE\uff09",
+      "nctId": "NCT07114419",
+      "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Phase II Study to Evaluate the Efficacy, Safety and Pharmacokinetics of Efsubaglutide Alfa Injection in Subjects With Overweight or Obesity",
+      "orgStudyIdInfo": {
+        "id": "YN012-II-W204-AU"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Shanghai Yinnuo Pharmaceutical Technology Co., Ltd."
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "Innogen Holdings PTY LTD",
+          "id": "YN012-II-W204-AU",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage change (%) of body weight from baseline after subcutaneous administration of YN-011 for 22 weeks",
+          "timeFrame": "22 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of subjects with body weight loss \u2265 5%, \u2265 10%, and \u2265 15% from baseline after subcutaneous",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Absolute change from baseline in body weight (Kg) after subcutaneous administration for 22 weeks",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in BMI after subcutaneous administration for 22 weeks",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "description": "waist circumference, hip circumference,",
+          "measure": "Changes from baseline in waist to hip circumference ratio after subcutaneous administration for 22 weeks",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in waist to height ratio after subcutaneous administration of YN-011 for 22 weeks",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in systolic and diastolic blood pressure after subcutaneous administration for 22 weeks",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in blood lipids (including TC, TG, LDL-C, and high-density lipoprotein cholesterol [HDL-C]) after subcutaneous administration for 22 weeks, percentage change from baseline, and ratio to baseline",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in glycated hemoglobin (HbA1c) after administration subcutaneous for 22 weeks",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in fasting plasma glucose(FPG) after subcutaneous administration of YN-011 for 22 weeks;",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "description": "insulin resistance by HOMA-IR, \u03b2-cell function by HOMA-\u03b2,",
+          "measure": "Changes from baseline in fasting insulin after subcutaneous administration of YN-011 for 22 weeks;",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in blood uric acid after subcutaneous administration for 22 weeks, percentage change from baseline, and ratio to baseline",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Safety assessment will be conducted throught the study by Incidence of adverse events (AEs) and serious adverse events (SAEs);",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Safety assessment will be conducted throught the study by Mental health status via Patient Health Questionnaire-9 (PHQ-9)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Safety assessment will be conducted throught the study by Mental health status via Columbia Suicide Severity Rating Scale (C-SSRS)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Maximum plasma concentration (Cmax) of YN-011 via subcutaneous administration through the study",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Timepoint of maximum plasma concentration (Tmax) of YN-011 via subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Area under the concentration-time curve from the time zero to last measurable concentration (AUC0-t) of YN-011 via subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Elimination half-life (t1/2) of YN-011 via subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Apparent clearance (CL/F) of YN-011 via subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Apparent volume of distribution (Vz/F) of YN-011 via subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Trough concentration (Ctrough) of YN-011 via subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Incidence of anti-drug antibody (ADA) against YN-011 in serum before and after subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "description": "NAb will be tested when ADA result is positive",
+          "measure": "Incidence of neutralizing antibody (NAb) against YN-011 in serum before and after subcutaneous administration",
+          "timeFrame": "22 weeks"
+        },
+        {
+          "measure": "Changes from baseline in Dual Energy X-ray Absorptiometry [DEXA] data report (DEXA data inculding total fat mass, muscle mass, regional visceral fat mass and total lean body mass) after subcutaneous administration of YN-011",
+          "timeFrame": "22 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Shanghai Yinnuo Pharmaceutical Technology Co., Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-24",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-08-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-07-06",
+      "studyFirstSubmitQcDate": "2025-08-03"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07349381:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07349381\nBrief title: A Food-Effect Study of CX11 in Healthy Participants\nOfficial title: An Open-label, Randomized, Multiple-dose, Two-cycle, Two-way Crossover Phase 1 Study to Evaluate the Effect of Food on the Pharmacokinetics of CX11 Tablets in Healthy Participants\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 48,
+      "trial_nct_id": "NCT07349381"
+    },
+    {
+      "chunk_id": "NCT07349381:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity; type_2_diabetes\nRaw conditions: Obesity & Overweight; Type 2 Diabetes\nIntervention labels: CX11 (VCT220)\nDrug class labels: \nArms: Fasted-Fed Arm; Fed-Fasted Arm\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT07349381"
+    },
+    {
+      "chunk_id": "NCT07349381:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is to evaluate the food effect (FE) on the PK of 200 mg CX11 in healthy participants\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT07349381"
+    },
+    {
+      "chunk_id": "NCT07349381:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 45 Years\nAge groups: ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n1. Fully understand the objective, nature, methods, and possible adverse reactions of the study; be able to communicate well with the investigator; voluntarily take part in the study and be willing to comply with the requirements of this study; and sign the informed consent form before all study procedures are started\n2. Weight \u2265 50.0 kg for men and \u2265 45.0 kg for women, and body mass index (BMI) is \u2265 20.0 kg/m2 and \\< 28 kg/m2 at the screening visit and on Day 21.\n\nExclusion Criteria:\n\n1. Participants with allergic constitution or known previous history of allergy to CX11 or similar compounds and related excipients, or history of atopic allergic diseases\n2. Participants who have experienced clinically significant acute diseases during the pre-study screening period or within 2 weeks prior to the first dose of the investigational product\n3. Participants who have pre-existing condition interfering with normal gastrointestinal anatomy or motility, hepatic and/or renal function that could affect drug absorption, distribution, metabolism, and/or excretion as judged by the investigator, or plan to receive any surgery during the study\n4. Participants suffering from any clinically significant chronic diseases, including but not limited to disorders of the respiratory system, cardiovascular system, urinary system, blood system, endocrine system, and immune system, as well as the digestive system (e.g., history of or current fatty liver disease, including metabolic dysfunction-associated steatohepatitis\n5. History of thyroid dysfunction requiring medication or with a thyroid stimulating hormone (TSH) level exceeding the normal reference range at screening or on Day 21\n6. Participants who have been vaccinated within 30 days before the screening or plan to be vaccinated during the study\n7. Participated in any other clinical study and received an investigational intervention within 90 days or 5 elimination half-lives (whichever is longer) of the investigational intervention, prior to screening",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 321,
+      "trial_nct_id": "NCT07349381"
+    },
+    {
+      "chunk_id": "NCT07349381:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Area Under the Concentration-time curve from 0 to 24 hour (AUC0-24) of CX11 (VCT220) | time_frame=Predose at Day1 up to 35 days postdose | description=AUC0-24 of of CX11 (VCT220)\ntype=primary | measure=Maximum Observed Concentration (Cmax) of CX11 (VCT220) | time_frame=Predose at Day1 up to 35 days postdose | description=Cmax of CX11 (VCT220)\ntype=primary | measure=Time to Maximum Observed Concentration (Tmax) of CX11 (VCT220) | time_frame=Predose at Day 1 up to 35 days postdose | description=Tmax of CX11 (VCT220)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 80,
+      "trial_nct_id": "NCT07349381"
+    },
+    {
+      "chunk_id": "NCT07349381:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-03-04\nPrimary completion date: 2026-06-30\nCompletion date: 2026-09-30\nStudy first posted: 2026-01-16\nResults first posted: None\nLast update posted: 2026-03-27\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07349381"
+    },
+    {
+      "chunk_id": "NCT07349381:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Vincentage Pharma Co., Ltd\nLead sponsor class: INDUSTRY\nCollaborators: Corxel Pharmaceuticals\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT07349381"
+    }
+  ],
+  "trial_nct_id": "NCT07349381"
+}

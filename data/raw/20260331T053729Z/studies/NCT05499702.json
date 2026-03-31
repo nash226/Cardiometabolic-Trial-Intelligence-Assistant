@@ -1,0 +1,269 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006946",
+          "term": "Hyperinsulinism"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D007333",
+          "term": "Insulin Resistance"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D002149",
+          "term": "Energy Intake"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D031204",
+          "term": "Caloric Restriction"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "20 subjects will be studied on one occasion, following 6 weeks of caloric restriction. They will be instructed to consume a diet of 900 kcal daily using meals derived from \"Nutritional Guidelines after Bariatric Surgery\". Compliance will be monitored by weekly meetings with the dietician using an electronic record of food intake. After this subjects will undergo a hyperglycemic clamp with 2 doses of glucagon infused.",
+          "interventionNames": [
+            "Behavioral: Caloric Restriction",
+            "Drug: Hyperglycemic clamp"
+          ],
+          "label": "Adults with type 2 diabetes",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Adults with type 2 diabetes"
+          ],
+          "description": "Subjects will be instructed to consume a diet of 900 kcal daily using meals derived from \"Nutritional Guidelines after Bariatric Surgery\". Compliance will be monitored by weekly meetings with the dietician using an electronic record of food intake",
+          "name": "Caloric Restriction",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Adults with type 2 diabetes"
+          ],
+          "description": "Hyperglycemic clamp to measure the effect of glucagon on hepatic metabolism",
+          "name": "Hyperglycemic clamp",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type2diabetes"
+      ],
+      "keywords": [
+        "glucagon",
+        "insulin resistance",
+        "caloric restriction",
+        "hepatic steatosis",
+        "amino acid metabolism"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Laugen.Jeanette@mayo.edu",
+          "name": "Jeanette Laugen",
+          "phone": "5072558110",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Rochester",
+          "country": "United States",
+          "facility": "Mayo Clinic in Rochester",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          },
+          "state": "Minnesota",
+          "status": "RECRUITING",
+          "zip": "55905"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Mayo Clinic",
+          "name": "Adrian Vella",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Caloric restriction (and RYGB) improves insulin action and lowers fasting glucose, glucagon and EGP, without changes in postprandial EGP and glucagon concentrations. Caloric restriction also improves hepatic steatosis and lowers fasting AA. These changes may represent restoration of glucagon's hepatic actions. This experiment will determine whether caloric restriction improves glucagon's actions on hepatic amino acid, carbohydrate and lipid metabolism in T2DM in comparison to a baseline experiment performed separately in people with T2DM.",
+      "detailedDescription": "T2DM and prediabetes are characterized by abnormal post-prandial suppression of glucagon, which contributes to postprandial hyperglycemia by increasing EGP. Although these effects are magnified by decreased and delayed insulin secretion, they are also apparent when insulin secretion is intact5. In rodents, altered glucagon signaling changes \u03b1-cell function and mass - an effect mediated by changes in circulating AA concentrations. Are the elevated concentrations of branched-chain AA and other AA metabolites in T2DM a cause or an effect of global \u03b1-cell dysfunction? Could altered glucagon signaling precipitate a vicious cycle resulting in T2DM?\n\nThis study will determine how caloric restriction alters hepatic glucagon action. Elevated fasting AA concentrations are associated with T2DM risk. In addition, hepatic steatosis has been associated with an impaired ability of glucagon to stimulate hepatic clearance of AAs. Prior studies have shown that caloric restriction lowers fasting glucose, EGP and glucagon. However, the effects on these parameters in the postprandial period are unclear. This experiment will examine to what degree the improvements produced by caloric restriction can be explained by improved hepatic glucagon action. Because caloric restriction decreases hepatic fat content the experiment will also determine if a reduction in hepatic fat content is associated with changes in glucagon's effects on hepatic AA, glucose, and lipid metabolism."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "caloric restriction for six weeks",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* We will recruit up to 20 weight-stable, subjects with type 2 diabetes\n* BMI \u2265 28 Kg/M2\n* Diabetes is managed by diet alone or a combination of oral agents\n\nExclusion Criteria:\n\n* History of prior upper abdominal surgery e.g. gastric banding, pyloroplasty, vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.\n* Contraindications to MRI (e.g. metal implants, claustrophobia).\n* Hematocrit \\< 35%\n* TSH \\< 0.4 or \\> 5.5.\n* Consumption of \\> 2 alcohol drinks per day or \\> 14 per week or a positive AUDIT questionnaire.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "25 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The Effects of Glucagon on Hepatic Metabolism in People With Type 2 Diabetes After Caloric Restriction",
+      "nctId": "NCT05499702",
+      "officialTitle": "The Effects of Glucagon on Hepatic Metabolism in People With Type 2 Diabetes After Caloric Restriction",
+      "orgStudyIdInfo": {
+        "id": "22-000233"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Mayo Clinic"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "tracer-determined amino acid catabolism",
+          "measure": "Rate of leucine oxidation in response to rising glucagon concentrations",
+          "timeFrame": "240 minutes of study"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Adrian Vella"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Mayo Clinic",
+        "investigatorFullName": "Adrian Vella",
+        "investigatorTitle": "Principal Investigator",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-30",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-12-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2022-08-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-08-10",
+      "studyFirstSubmitQcDate": "2022-08-11"
+    }
+  }
+}

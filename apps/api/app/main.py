@@ -5,11 +5,21 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 from .schemas.ask import AskRequest, AskResponse
+from .schemas.ingestion_job import (
+    IngestionJobCreateRequest,
+    IngestionJobListResponse,
+    IngestionJobResponse,
+)
 from .schemas.fused_search import FusedSearchRequest, FusedSearchResponse
 from .schemas.search import SearchRequest, SearchResponse
 from .schemas.semantic_search import SemanticSearchRequest, SemanticSearchResponse
 from .schemas.trial_detail import TrialDetail
 from .services.ask_service import answer_question
+from .services.ingestion_job_service import (
+    enqueue_ingestion_job,
+    get_ingestion_job,
+    list_ingestion_jobs,
+)
 from .services.fused_search_service import fused_search_trials
 from .services.search_service import search_trials
 from .services.semantic_search_service import semantic_search_trials
@@ -71,6 +81,32 @@ def trial_detail_endpoint(nct_id: str) -> TrialDetail:
     if trial is None:
         raise HTTPException(status_code=404, detail=f"Trial {nct_id} not found")
     return trial
+
+
+@app.post("/api/v1/ingestion/jobs", response_model=IngestionJobResponse)
+def create_ingestion_job(request: IngestionJobCreateRequest) -> IngestionJobResponse:
+    try:
+        return enqueue_ingestion_job(request)
+    except RuntimeError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@app.get("/api/v1/ingestion/jobs", response_model=IngestionJobListResponse)
+def list_ingestion_jobs_endpoint() -> IngestionJobListResponse:
+    try:
+        return IngestionJobListResponse(jobs=list_ingestion_jobs())
+    except RuntimeError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@app.get("/api/v1/ingestion/jobs/{job_id}", response_model=IngestionJobResponse)
+def get_ingestion_job_endpoint(job_id: str) -> IngestionJobResponse:
+    try:
+        return get_ingestion_job(job_id)
+    except RuntimeError as exc:
+        if "not found" in str(exc):
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
 
 
 @app.get("/trials/{nct_id}", response_class=HTMLResponse)

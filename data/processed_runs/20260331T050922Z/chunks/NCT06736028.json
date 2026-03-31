@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06736028:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06736028\nBrief title: Ketogenic Diets for Weight Loss Maintenance: Impact on Energy Expenditure and Appetite in Individuals With Obesity\nOfficial title: Ketogenic Diets for Weight Loss Maintenance: Impact on Energy Expenditure and Appetite in Individuals With Obesity\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06736028"
+    },
+    {
+      "chunk_id": "NCT06736028:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: Diet Therapy; Calorie Restriction; Behavioral Support\nDrug class labels: \nArms: Ketogenic Diet; Low-Fat Diet\nKeywords: Ketogenic Diet; Weight loss; Weight loss maintenance; Appetite; Energy expenditure",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06736028"
+    },
+    {
+      "chunk_id": "NCT06736028:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to investigate whether a Ketogenic Diet (KD) can increase Total Energy Expenditure (TEE), while benefiting appetite, during weight loss maintenance in reduced-obese individuals.\nDetailed description: The total duration of the intervention will be 10 weeks. Participants will first undergo 4 weeks of a low-energy diet (LED), aiming to induce a minimum of 5% weight loss (weight loss phase). Those who achieve at least a 5% weight loss will then be randomized (1:1) to a 6-week weight loss maintenance (WLM) diet, either a KD or an isocaloric low-fat diet, with the first 2 weeks being a gradual refeeding.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 106,
+      "trial_nct_id": "NCT06736028"
+    },
+    {
+      "chunk_id": "NCT06736028:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* BMI 30-45 kg/m2\n* Both men and women\n* Age between 18-65 years\n* Sedentary to moderately active (\\<2 h/wk of moderate, structured, intentional, exercise)\n\nExclusion Criteria:\n\n* Pregnancy or lactation\n* Daily use of tobacco (\\>1 pk/wk)\n* Change in weight greater than 5 lb in the previous 3 months\n* Cognitive impairment\n* Previous bariatric surgery\n* History of eating disorder\n* Presence of any condition (e.g. DM2, PCOS, inflammatory disease, untreated thyroid disease, fluid overload states such as chronic kidney disease, congestive heart failure, or cirrhosis)\n* Use of any medication (e.g., glucocorticoid, GLP-1 analogues, hormone replacement therapy) deemed to interfere with study outcomes.\n* Pre-menopausal women will need to have a regular menstrual cycle (28+/-2 days) or be on hormonal contraceptives\n* Fasting glucose plasma concentration \\>125 mg/dl and/or HbA1c \\> 6.4%",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 157,
+      "trial_nct_id": "NCT06736028"
+    },
+    {
+      "chunk_id": "NCT06736028:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change from baseline total energy expenditure | time_frame=Baseline, week 6, week 10 | description=Total Energy Expenditure (TEE) refers to the total amount of energy (calories) your body uses in a day. Twenty-four-hour EE and RQ will be measured inside the whole room indirect calorimeter (chamber) following standard procedures\ntype=secondary | measure=Change in appetite ratings | time_frame=Baseline, week 6, week 10 | description=Subjective appetite ratings are personal feelings or perceptions about hunger, fullness, desire to eat (DTE), and prospective food consumption (PFC) usually measured using self-reported scales ranging from \"not at all\" to \"extremely\". Subjective appetite ratings (hunger, fullness, DTE and PFC) will be measured using a validated 10cm visual analog scale which will be given to the participants inside the chamber before meals.\ntype=secondary | measure=Change in total body composition | time_frame=Baseline, week 4, week 6, week 10 | description=Bioimpedance analysis (BIA) will be used to measure fat mass, fat-free mass, total, extra, and intra-cellular water.\ntype=secondary | measure=Change in total body composition | time_frame=Baseline, week 4, week 6, week10 | description=FM, bone mass, and lean body mass will be determined by dual-energy X-ray absorptiometry (iDXA instrument, GE Healthcare Lunar, Madison, WI) with the use of software version 1.5g (Lunar Corp).\ntype=secondary | measure=Change in fasting insulin | time_frame=Baseline, week 6, week 10 | description=Circulating (serum) fasting insulin will be measured using validated methods\ntype=secondary | measure=Change in fasting cholecystokinin | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) fasting cholecystokinin will be measured by RIA.\ntype=secondary | measure=Change in fasting ghrelin | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) fasting ghrelin concentrations will be measured by ELISA\ntype=secondary | measure=Change in fasting glucagon-like peptide-1 | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) fasting total GLP-1 will be measured by ELISA\ntype=secondary | measure=Change in fasting peptide YY (PYY) | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) fasting PYY3-36 concentrations will be measured by ELISA\ntype=secondary | measure=Change in total body weight | time_frame=Baseline, week 4, week 6, week 10 | description=Body weight is the total amount a person weighs when measured on a scale.\ntype=secondary | measure=Change in mechanical efficiency | time_frame=Baseline, week 6, week 10 | description=Walking economy will be assessed using a submaximal treadmill test, performed 90 minutes after breakfast. Following a familiarization period, participant will walk on the treadmill at 2 miles/hour for 15 minutes, followed by another 15 minutes at 2.5 miles/hour.\ntype=secondary | measure=Change in resting energy expenditure | time_frame=Baseline, week 6, week 10 | description=Resting Energy Expenditure (REE) is the amount of energy (calories) your body needs to keep working while you're at rest. Participants will enter the chamber in the morning in the fasting state. REE will be measured while the participant is in the metabolic chamber.\ntype=secondary | measure=Change in postprandial insulin | time_frame=Baseline, week 6, week 10 | description=Circulating (serum) insulin measured before and 30, 60, 90, and 120 minutes after intake of breakfast with validated methods\ntype=secondary | measure=Change in postprandial cholecystokinin | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) cholecystokinin measured before and 30, 60, 90, and 120 minutes after intake of breakfast with RIA.\ntype=secondary | measure=Change in postprandial ghrelin | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) ghrelin measured before and 30, 60, 90, and 120 minutes after intake of breakfast with ELISA\ntype=secondary | measure=Change in postprandial glucagon-like peptide-1 | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) total GLP-1 measured before and 30, 60, 90, and 120 minutes after intake of breakfast by ELISA\ntype=secondary | measure=Change in postprandial peptide yy | time_frame=Baseline, week 6, week 10 | description=Circulating (plasma) PYY3-36 concentrations measured before and 30, 60, 90, and 120 minutes after intake of breakfast with ELISA\ntype=other | measure=Blood work: beta hydroxybutyrate | time_frame=Week 1, week 2, week 3, week 4, week 5, week 6, week 7, week 8, week 9, week 10 | description=Adherence to the dietary interventions will be assessed using objective biochemical analysis through the measurement of beta hydroxybutyrate in blood using a ketone meter.\ntype=other | measure=Urine sample: acetoacetate | time_frame=Week 1, week 2, week 3, week 4, week 5, week 6, week 7, week 8, week 9, week 10 | description=Adherence to the dietary interventions will be assessed using objective biochemical analysis through the measurement of acetoacetate in urine using Ketostix reagent strips.\ntype=other | measure=Change in glucose | time_frame=Baseline, week 6, week 10 | description=The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating glucose using the SIRRUS analyzer.\ntype=other | measure=Change in total cholesterol | time_frame=Baseline, week 6, week 10 | description=The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating total cholesterol concentrations using the SIRRUS analyzer.\ntype=other | measure=Change in high-density lipoprotein cholesterol | time_frame=Baseline, week 6, week 10 | description=The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating HDL-C using the SIRRUS analyzer.\ntype=other | measure=Change in triglycerides | time_frame=Baseline, week 6, week 10 | description=The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating triglyceride concentrations using the SIRRUS analyzer.\ntype=other | measure=Change in free fatty acids | time_frame=Baseline, week 6, week 10 | description=The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating free fatty acid concentrations using the SIRRUS analyzer.\ntype=other | measure=Change in average appetite | time_frame=Baseline, week 1, week 2, week 3, week 4, week 5, week 6, week 7, week 8, week 9, week 10 | description=Participants will be asked to report their average hunger, fullness, desire to eat and prospective food consumption (e.g. how hungry did you feel this week? how much did you think about food this week?) over the previous week using a 10-cm visual analogue scale ranging from \"not at all\" to \"extremely\".",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 978,
+      "trial_nct_id": "NCT06736028"
+    },
+    {
+      "chunk_id": "NCT06736028:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-08-01\nPrimary completion date: 2026-06-30\nCompletion date: 2026-06-30\nStudy first posted: 2024-12-16\nResults first posted: None\nLast update posted: 2025-12-18\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06736028"
+    },
+    {
+      "chunk_id": "NCT06736028:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Alabama at Birmingham\nLead sponsor class: OTHER\nCollaborators: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06736028"
+    }
+  ],
+  "trial_nct_id": "NCT06736028"
+}

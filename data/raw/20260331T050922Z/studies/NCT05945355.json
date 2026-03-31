@@ -1,0 +1,308 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D063766",
+          "term": "Pediatric Obesity"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Each participant will be provided a PrO2\u2122 device and trained on its use as well as its accompanying PrO2 Fit\u2122 app. Participants will be instructed to inspire forcefully through PrO2\u2122 until the device signals that the user has achieved the target resistance (via audible alarm and visible light signal). The research team will implement biofeedback signals at a specific inspiratory resistance to provide precise and individualized training target. Successful IMR repetitions will require that subjects achieve a pressure target that is 40% of their MIP (maximum inspiratory pressure).",
+          "interventionNames": [
+            "Device: Pro2 - Low Dose - 40% of participant's MIP"
+          ],
+          "label": "Active Low Dose inspiratory muscle rehabilitation (IMR) group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Each participant will be provided a PrO2\u2122 device and trained on its use as well as its accompanying PrO2 Fit\u2122 app. Participants will be instructed to inspire forcefully through PrO2\u2122 until the device signals that the user has achieved the target resistance (via audible alarm and visible light signal). The research team will implement biofeedback signals at a specific inspiratory resistance to provide precise and individualized training target. Successful IMR repetitions will require that subjects achieve a pressure target that is 75% of their MIP (maximum inspiratory pressure).",
+          "interventionNames": [
+            "Device: Pro2 - High Dose - 75% of participant's MIP"
+          ],
+          "label": "Active High Dose inspiratory muscle rehabilitation (IMR) group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Each participant will be provided a PrO2\u2122 device and trained on its use as well as its accompanying PrO2 Fit\u2122 app. Participants will be instructed to inspire forcefully through PrO2\u2122 until the device signals that the user has achieved the target resistance (via audible alarm and visible light signal). The research team will implement biofeedback signals at a specific inspiratory resistance to provide precise and individualized training target. Successful IMR repetitions will require that subjects achieve a pressure target that is 15% of their MIP (maximum inspiratory pressure).",
+          "interventionNames": [
+            "Device: Pro2 - SHAM - 15% of participant's MIP"
+          ],
+          "label": "SHAM",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Active Low Dose inspiratory muscle rehabilitation (IMR) group"
+          ],
+          "description": "Each participant will be provided a PrO2\u2122 device and trained on its use as well as its accompanying PrO2 Fit\u2122 app. The PrO2\u2122 is a flow-resistive device that provides inspiratory resistance via a fixed 2mm orifice and has Bluetooth connectivity to most IOS/Android devices or Mac/Windows computers. The PrO2\u2122 device and app allows for both 100% adherence monitoring and immediate user biofeedback. Successful IMR repetitions will require that subjects achieve a pressure target that is 40% of their MIP (maximum inspiratory pressure).",
+          "name": "Pro2 - Low Dose - 40% of participant's MIP",
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "Active High Dose inspiratory muscle rehabilitation (IMR) group"
+          ],
+          "description": "Each participant will be provided a PrO2\u2122 device and trained on its use as well as its accompanying PrO2 Fit\u2122 app. The PrO2\u2122 is a flow-resistive device that provides inspiratory resistance via a fixed 2mm orifice and has Bluetooth connectivity to most IOS/Android devices or Mac/Windows computers. The PrO2\u2122 device and app allows for both 100% adherence monitoring and immediate user biofeedback. Successful IMR repetitions will require that subjects achieve a pressure target that is 75% of their MIP (maximum inspiratory pressure).",
+          "name": "Pro2 - High Dose - 75% of participant's MIP",
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "SHAM"
+          ],
+          "description": "Each participant will be provided a PrO2\u2122 device and trained on its use as well as its accompanying PrO2 Fit\u2122 app. The PrO2\u2122 is a flow-resistive device that provides inspiratory resistance via a fixed 2mm orifice and has Bluetooth connectivity to most IOS/Android devices or Mac/Windows computers. The PrO2\u2122 device and app allows for both 100% adherence monitoring and immediate user biofeedback. Successful IMR repetitions will require that participants achieve a pressure target that is 15% of their MIP (maximum inspiratory pressure).",
+          "name": "Pro2 - SHAM - 15% of participant's MIP",
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Asthma in Children",
+        "Obesity",
+        "Pediatric Obesity",
+        "Pediatric Asthma"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "jason.lang@duke.edu",
+          "name": "Jason Lang, MD",
+          "phone": "9196843364",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Durham",
+          "contacts": [
+            {
+              "email": "jason.lang@duke.edu",
+              "name": "Jason Lang",
+              "phone": "9196843364",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Duke Health Center Creekstone",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "27703"
+        },
+        {
+          "city": "Durham",
+          "contacts": [
+            {
+              "email": "vmp19@duke.edu",
+              "name": "Veronica Carrion, BS",
+              "phone": "9197041523",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Duke Healthy Lifestyles Clinic",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "27704"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Duke University",
+          "name": "Jason Lang, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is single-center cross-sectional mechanistic study in lean and obese children with moderate-severe asthma, followed by a randomized, SHAM-controlled trial of Inspiratory Training (IT). The primary outcome is to describe the contributions of inspiratory muscle dysfunction (IMD) and Small Airway Dysfunction (SAD) to obesity-related versus non-obesity-related asthma. The study will involve training (IT) for 8 weeks at three intensity levels (SHAM, low and high). Target dose: 150 inspirations three times weekly. The population includes 6 to 17-year-old children with moderate to severe asthma and with a body mass index qualifying as normal habitus (BMI 5th to 84th CDC percentile) or obese habitus (\u226595th percentile BMI and less than 170% of the 95th CDC percentile). Participants will be involved for 10 weeks. The investigators will use analysis of covariance (ANCOVA) to estimate and test the difference in mean values of baseline measures between obese and non-obese cohorts. Covariates will include age, sex (male/female), race/ethnicity, baseline asthma severity (NAEPP step 2 vs \u22653), and atopy status",
+      "detailedDescription": "Cross-sectional analytic study of pulmonary mechanics comparing lean and obese children with asthma followed by a randomized, SHAM-controlled 3-arm intervention trial of inspiratory training on small airway dysfunction and inspiratory muscle function.\n\nThe central objective of the MICA (Mechanistic Study of Inspiratory Training in Childhood Asthma) study is to assess key respiratory mechanisms in 6-17 year olds with symptomatic asthma (with and without obesity) in response to IT. Our central hypothesis is that obesity promotes dyspnea and worse asthma control via inspiratory muscle fatigue/dysfunction (IMD) and small airway dysfunction (SAD), and that IT will improve inspiratory muscle function and small airway measures.\n\nThe sample size calculations and main analyses for the IT trial are designed as a traditional parallel arm intervention trial (any dose IT vs. SHAM control) with visits 1-2 serving as the baseline evaluation and the main IT endpoints being collected at the 8-week visit.\n\nIn depth phenotyping involving measures of respiratory mechanics and muscle functioning and a RCT involving inspiratory training will address these objectives."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is single-center cross-sectional mechanistic study in lean and obese children with moderate-severe asthma, followed by a randomized, SHAM-controlled trial of Inspiratory Training (IT).",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "For every 1 participant allocated to sham, 2 will be active IT. Among them, half will be allocated low-dose and half high dose. To provide balance among treatment groups regarding sex/obesity-status, randomization will occur within four strata (males obese,females obese,males non-obese,females non-obese).Treatment assignment will be obtained using Duke REDCap enrollment/randomization system. All study staff and participants will be blinded to the treatment assignment at screening/enrollment and prior to treatment group allocation. Participants in the active IT and sham arms will use the same device. Participants may try to discern their device resistance. Although true masking of active IT versus sham may not be possible in all cases, participants will only be told that they are receiving 1 of 3 possible resistances. However, staff members who are assessing endpoints and performing statistical analyses will be blinded to treatment assignment until after the database is locked",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 6-17 years of age\n* Documented clinician-diagnosed asthma\n* Currently requiring 2 or more controller prescriptions to treat disease (i.e. moderate to severe persistent disease)\n* Either obese (\u226595th percentile BMI and less than 170% of the 95th CDC percentile) or have a normal BMI (BMI 5th to 84th CDC percentile)\n\nExclusion Criteria:\n\n* ACT (asthma control test) score \\<17\n* Ever intubated for asthma\n* FEV1 \\< 50% of predicted at enrollment\n* Currently pregnant\n* Legal guardian unable to consent in English or Spanish\n* Any major chronic illness that, in the opinion of the PI, would interfere with participation\n* Younger than 6 years of age",
+      "healthyVolunteers": false,
+      "maximumAge": "17 Years",
+      "minimumAge": "6 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "MICA",
+      "briefTitle": "Mechanistic Study of Inspiratory Training in Childhood Asthma (MICA)",
+      "nctId": "NCT05945355",
+      "officialTitle": "Mechanistic Study of Inspiratory Training in Childhood Asthma (MICA)",
+      "orgStudyIdInfo": {
+        "id": "Pro00112858"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Duke University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "measure": "Small airway dysfunction as measured by impulse oscillometry",
+          "timeFrame": "10 weeks"
+        },
+        {
+          "measure": "Small airway dysfunction as measured by residual volume",
+          "timeFrame": "10 weeks"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Number of participants with inspiratory muscle dysfunction in obesity-related versus non-obesity-related asthma",
+          "timeFrame": "10 weeks"
+        },
+        {
+          "measure": "Number of participants with small airway dysfunction in obesity-related versus non-obesity-related asthma",
+          "timeFrame": "10 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Inspiratory muscle endurance (sustained maximal inspiratory pressure)",
+          "timeFrame": "10 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": true,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institutes of Health (NIH)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Duke University"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-10-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-18",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-10-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-08-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-06",
+      "studyFirstPostDateStruct": {
+        "date": "2023-07-14",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-07-06",
+      "studyFirstSubmitQcDate": "2023-07-06"
+    }
+  }
+}

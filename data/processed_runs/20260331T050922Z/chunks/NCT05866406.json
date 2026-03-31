@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05866406:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05866406\nBrief title: The Effect of Time-Restricted Eating in Cardiometabolic Health\nOfficial title: The Effect of Time-Restricted Eating in Cardiometabolic Health\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT05866406"
+    },
+    {
+      "chunk_id": "NCT05866406:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity; PreDiabetes\nIntervention labels: Time restricted eating; Extended eating window; Healthy diet\nDrug class labels: \nArms: TRE group; Control group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT05866406"
+    },
+    {
+      "chunk_id": "NCT05866406:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Time-restricted eating (TRE) is a dietary manipulation that involves restricting food intake to 6-12 h/day with no energy intake the rest of the day. In rodents, TRE improves metabolic function without caloric restriction, potentially by activating nutrient sensing mechanisms and effects on circadian oscillations. However, an understanding of the effect of TRE on cardiometabolic health in people is not clear and few studies have evaluated this issue. Accordingly, the investigators propose to conduct a randomized controlled trial in people with obesity and prediabetes to determine the effect of 9 h TRE for 12 weeks, without a change in body weight, on key metabolic outcomes that are risk factors for cardiovascular disease (CVD): 1) multi-organ insulin sensitivity; 2) 24 h metabolic homeostasis and diurnal rhythm; and 3) adipose tissue and skeletal muscle biology. The proposed studies will elucidate the cardiometabolic implications of TRE in people with obesity and prediabetes.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 153,
+      "trial_nct_id": "NCT05866406"
+    },
+    {
+      "chunk_id": "NCT05866406:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 25 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* must be able to grant voluntary informed consent and comply with the study instructions\n* aged 25-75 years\n* men and women\n* body mass index 27-45 kg/m2\n* fasting plasma glucose 5.6-6.9 mmol/L, or 2h oral glucose tolerance test plasma glucose 7.8-11.1 mmol/L or haemoglobin A1C 39-46 mmol/mol or homeostasis model assessment-insulin resistance (HOMA-IR) score \u22652.73\n* self-reported habitual eating period \u2265 13 h per day\n\nExclusion Criteria:\n\n* shift worker\n* fasting \\>12 h/day more than once a week\n* vegan\n* \\> once a week no food intake after \\~1800 h\n* habitually waking up before \\~0400 h and sleeping before \\~2100 h\n* unstable weight (\\>5% change the last 2 months)\n* Clinical diagnosis of type 1 or 2 diabetes\n* Clinical diagnosis of sleep disorder\n* Clinical diagnosis of eating disorder\n* Clinical diagnosis of cancer in last 5 years\n* conditions that render subject unable to complete all testing procedures (including individuals with known allergies or contraindications to the medications used in this study)\n* use of medications that affect the study outcome measures or increase the risk of study procedures and that cannot be temporarily discontinued (e.g., steroids, alpha- or beta-adrenergic blockers or agonists, etc.)\n* smoking and illegal drug use\n* pregnant or lactating\n* gastrointestinal or bariatric surgery (except cholecystectomy and appendectomy)\n* individuals with electromedical devises\n* prisoners\n* alcohol abuse",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 252,
+      "trial_nct_id": "NCT05866406"
+    },
+    {
+      "chunk_id": "NCT05866406:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Insulin sensitivity | time_frame=3 months (pre-post intervention) | description=Insulin sensitivity will be assessed by using a hyperinsulinemic euglycemic clamp procedure in conjunction with infusion of stable isotope tracers.\ntype=secondary | measure=24 h glycemic control | time_frame=3 months (pre-post intervention) | description=Changes in plasma glucose concentration will be assessed during a 24 h feeding study.\ntype=secondary | measure=Adipose tissue gene expression | time_frame=3 months (pre-post intervention) | description=Changes in the expression of genes involved in energy metabolism will be assessed by using quantitative polymerase chain reaction (qPCR).",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 88,
+      "trial_nct_id": "NCT05866406"
+    },
+    {
+      "chunk_id": "NCT05866406:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-11-01\nPrimary completion date: 2028-06-30\nCompletion date: 2028-08-31\nStudy first posted: 2023-05-19\nResults first posted: None\nLast update posted: 2025-11-24\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05866406"
+    },
+    {
+      "chunk_id": "NCT05866406:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Cambridge University Hospitals NHS Foundation Trust\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT05866406"
+    }
+  ],
+  "trial_nct_id": "NCT05866406"
+}

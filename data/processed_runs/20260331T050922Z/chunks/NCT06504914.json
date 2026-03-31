@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06504914:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06504914\nBrief title: Preparing FIM-BCS - A Lifestyle Modification for African-American Breast Cancer Survivors\nOfficial title: Developing FIM-BCS: A Lifestyle Modification for African-American Breast Cancer Survivors With Cardiovascular Risk Factors\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT06504914"
+    },
+    {
+      "chunk_id": "NCT06504914:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Hypertension; Obesity; Nutrition, Healthy\nIntervention labels: Assigned Interventions\nDrug class labels: \nArms: Arms\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06504914"
+    },
+    {
+      "chunk_id": "NCT06504914:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Hypertension and obesity are both major risk factors for cardiovascular disease (CVD), a leading cause of death for Black women in the United States. The investigators propose examining the feasibility and acceptability of the 12-week RN-CHeFRx (Real Nourishment and Cooking Healthy Food is Rx) intervention\n\n\\- grocery delivery, cooking classes, and nutrition education - for Black women with hypertension and obesity to improve nutritious eating habits and blood pressure control.\nDetailed description: The objective of this study is to conduct the RN-CHeFRx (Real Nourishment and Cooking Healthy Food is Rx) for 12 weeks among Black women who are obese and hypertensive living Chicago. We propose to 1) Pilot the RN-CHEFRx intervention and measures that will be used to assess blood pressure, BMI status, and sodium intake with 20 Black women diagnosed with hypertension and BMI \u2265 30. We will assess the efficacy of the evaluation tools to be used in a future clinical trial at three-time points (baseline, 12 weeks, and 6 months); and 2) Assess the feasibility and acceptability of the RN-CHeFRx intervention using interviews, surveys, and documentary analysis. Findings from this study will inform a larger efficacy trial of RN-CHeFRx to improve dietary behaviors and blood pressure control among Black women with hypertension and obesity",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 209,
+      "trial_nct_id": "NCT06504914"
+    },
+    {
+      "chunk_id": "NCT06504914:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 18 Years\nMaximum age: 99 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* self-identified as Black or of African descent\n* female\n* \u2265 18 years old\n* baseline blood pressure \u2265130/85 or diagnosed with hypertension and/or BMI \u2265 25\n\nExclusion Criteria:\n\n* inability to cook in their homes\n* cognitive deficits impeding the ability to participate or provide informed consent\n* current treatment for cancer\n* liver or renal disease\n* pregnancy\n* lack of English language proficiency",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 87,
+      "trial_nct_id": "NCT06504914"
+    },
+    {
+      "chunk_id": "NCT06504914:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of participants who complete the 8 week intervention | time_frame=[Time Frame: Up to 8 weeks] | description=Completion will be measured by class attendance",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06504914"
+    },
+    {
+      "chunk_id": "NCT06504914:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-05\nPrimary completion date: 2026-06\nCompletion date: 2026-06\nStudy first posted: 2024-07-17\nResults first posted: None\nLast update posted: 2025-11-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06504914"
+    },
+    {
+      "chunk_id": "NCT06504914:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Illinois at Chicago\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06504914"
+    }
+  ],
+  "trial_nct_id": "NCT06504914"
+}

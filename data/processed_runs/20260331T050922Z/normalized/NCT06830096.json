@@ -1,0 +1,144 @@
+{
+  "arms": [
+    {
+      "description": "Body mass index \u226518.5 and \\<25.0 kg/m\u00b2, fasting plasma glucose concentration \\<95 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2264140-mg/dl, and hemoglobin A1C (HbA1C) \u22645.6%.",
+      "intervention_names": [
+        "Drug: 10 mg glipizide ingestion"
+      ],
+      "label": "Lean with normal glucose tolerance",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Body mass index \u226530 and \\<50 kg/m\u00b2, fasting plasma glucose concentration \\<95 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2264140 mg/dl, and hemoglobin A1C (HbA1C) \u22645.6%.",
+      "intervention_names": [
+        "Drug: 10 mg glipizide ingestion"
+      ],
+      "label": "Obesity with normal glucose tolerance",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Body mass index \u226530 and \\<50 kg/m\u00b2, fasting plasma glucose concentration 100-125 mg/dl, and 2-hr oral glucose tolerance test plasma glucose concentration \\<200 mg/dl.",
+      "intervention_names": [
+        "Drug: 10 mg glipizide ingestion"
+      ],
+      "label": "Obesity with impaired fasting glucose",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Body mass index \u226530 and \\<50 kg/m\u00b2; HbA1C 6.5-9.5%, fasting plasma glucose \u2265126 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2265200 mg/dl and/or medical history of type 2 diabetes and currently using anti-diabetic medications.",
+      "intervention_names": [
+        "Drug: 10 mg glipizide ingestion"
+      ],
+      "label": "Obesity with type 2 diabetes",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Obesity and Type 2 Diabetes",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Lean-normoglycemic group (n=10): BMI \u226518.5 and \\<25.0 kg/m\u00b2, fasting plasma glucose concentration \\<95 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2264140-mg/dl, and hemoglobin A1C (HbA1C) \u22645.6%.\n* Obesity-normoglycemic group (n=10): BMI \u226530 and \\<50 kg/m\u00b2, fasting plasma glucose concentration \\<95 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2264140 mg/dl, and hemoglobin A1C (HbA1C) \u22645.6%.\n* Obesity-impaired fasting glucose group (n=10): BMI \u226530 and \\<50 kg/m\u00b2, fasting plasma glucose concentration 100-125 mg/dl, and 2-hr oral glucose tolerance test plasma glucose concentration \\<200 mg/dl.\n* Obesity-type 2 diabetes group (n=10): BMI \u226530 and \\<50 kg/m\u00b2; HbA1C 6.5-9.5%, fasting plasma glucose \u2265126 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2265200 mg/dl and/or medical history of T2DM and currently using anti-diabetic medications.\n\nExclusion Criteria:\n\n* Diabetes therapy with insulin at \\>0.5 units/kg/day.\n* Any change in diabetes medication in previous 3 months.\n* Unstable weight (\\>2% change during the last 2 months before entering the study).\n* Evidence of significant organ system dysfunction or disease other than obesity and T2D.\n* Regular use of tobacco products.\n* Excessive consumption of alcohol (\u22653 drinks/day for men and \u22652 drinks/day for women).\n* Use of medications that are known to affect the study outcome measures (e.g., steroids, non-statin lipid-lowering medications) or increase the risk of study procedures (e.g., anticoagulants) and that cannot be temporarily discontinued for this study.\n* Anemia (Hemoglobin \\<10.0 g/dL).\n* Pregnant or breastfeeding.\n* Unable or unwilling to follow the study protocol or for any reason the research team believes the volunteer is not an appropriate candidate for this study, including non-compliance with screening appointments or previous medical visits.",
+    "healthy_volunteers": true,
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Lean with normal glucose tolerance",
+        "Obesity with impaired fasting glucose",
+        "Obesity with normal glucose tolerance",
+        "Obesity with type 2 diabetes"
+      ],
+      "description": "A single dose of 10 mg glipizide will be ingested",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "10 mg glipizide ingestion",
+      "normalized_name": "10 mg glipizide ingestion"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Insulin secreted by pancreas into plasma measured over 90 minutes after glipizide ingestion. Insulin secretion will be calculated using a stepwise insulin secretion rate function to fit plasma C-peptide concentrations to a two-compartment model of C-peptide kinetics using population-based C-peptide model parameters.",
+      "measure": "Insulin secretion",
+      "outcome_type": "primary",
+      "time_frame": "90 minutes after glipizide ingestion"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "NON_RANDOMIZED",
+    "brief_summary": "Insulin is a hormone that is made by \u03b2-cells in the pancreas and when released into the bloodstream helps control blood sugar levels. Insulin release is regulated by electrical activity in the \u03b2-cell which is generated by the ATP-sensitive potassium (KATP) channel. While reduced KATP activity is associated with increased insulin secretion, animals lacking KATP exhibit reduced secretion. This crossover from hypersecretion to undersecretion with KATP loss mirrors insulin secretion during type 2 diabetes. Intriguingly, evidence from cell and animal models suggest that chronically stimulated \u03b2-cells can lose KATP revealing a possible role for KATP loss in the failure of insulin secretion and poor control of blood sugar observed in type 2 diabetes. This study will therefore examine insulin responses following ingestion of a single dose of a sulfonylurea called glipizide that inhibits KATP channels in people with and without type 2 diabetes. The goal is to determine whether KATP channel activity is reduced during type 2 diabetes progression.",
+    "brief_title": "Role of KATP Channel Loss in Type 2 Diabetes",
+    "collaborator_names": [
+      "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+    ],
+    "completion_date": "2026-07-01",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Lean-normoglycemic group (n=10): BMI \u226518.5 and \\<25.0 kg/m\u00b2, fasting plasma glucose concentration \\<95 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2264140-mg/dl, and hemoglobin A1C (HbA1C) \u22645.6%.\n* Obesity-normoglycemic group (n=10): BMI \u226530 and \\<50 kg/m\u00b2, fasting plasma glucose concentration \\<95 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2264140 mg/dl, and hemoglobin A1C (HbA1C) \u22645.6%.\n* Obesity-impaired fasting glucose group (n=10): BMI \u226530 and \\<50 kg/m\u00b2, fasting plasma glucose concentration 100-125 mg/dl, and 2-hr oral glucose tolerance test plasma glucose concentration \\<200 mg/dl.\n* Obesity-type 2 diabetes group (n=10): BMI \u226530 and \\<50 kg/m\u00b2; HbA1C 6.5-9.5%, fasting plasma glucose \u2265126 mg/dl, 2-hr oral glucose tolerance test plasma glucose concentration \u2265200 mg/dl and/or medical history of T2DM and currently using anti-diabetic medications.\n\nExclusion Criteria:\n\n* Diabetes therapy with insulin at \\>0.5 units/kg/day.\n* Any change in diabetes medication in previous 3 months.\n* Unstable weight (\\>2% change during the last 2 months before entering the study).\n* Evidence of significant organ system dysfunction or disease other than obesity and T2D.\n* Regular use of tobacco products.\n* Excessive consumption of alcohol (\u22653 drinks/day for men and \u22652 drinks/day for women).\n* Use of medications that are known to affect the study outcome measures (e.g., steroids, non-statin lipid-lowering medications) or increase the risk of study procedures (e.g., anticoagulants) and that cannot be temporarily discontinued for this study.\n* Anemia (Hemoglobin \\<10.0 g/dL).\n* Pregnant or breastfeeding.\n* Unable or unwilling to follow the study protocol or for any reason the research team believes the volunteer is not an appropriate candidate for this study, including non-compliance with screening appointments or previous medical visits.",
+    "detailed_description": "The worldwide epidemic of obesity has developed alongside, and is causally linked to, the epidemic of insulin resistance and type 2 diabetes mellitus (T2DM). Plasma insulin concentrations are typically elevated in people with insulin resistance attributable to an increase in insulin secretion rate by pancreatic \u03b2-cells; however, in people with T2DM, \u03b2-cells eventually fail to 'keep up' and there is a crossover from insulin hypersecretion to undersecretion.\n\nIn the \u03b2-cell, KATP channels serve as the link between rising glucose and insulin secretion. Unlike other cells in the body, the uptake of glucose by the \u03b2-cell is directly proportional to the amount of glucose in the blood, so increasing blood glucose results in increased metabolism and production of ATP. This ATP closes the KATP channel, depolarizing the cell and driving an increase in intracellular Ca2+, which stimulates the secretion of insulin. The critical role of KATP channels in control of insulin secretion is clearly demonstrated by Gain-of-function (GOF) mutations that increase channel activity, preventing glucose mediated depolarization and secretion of insulin. Such mutations underlie neonatal diabetes mellitus (NDM) in humans and severe diabetes in experimental NDM mice that express transgenic GOF mutant KATP channels. While this paradigm implies that loss of KATP should cause the opposite effect, i.e. hypersecretion of insulin, mice with complete knockout (KO) of KATP show little evidence of hyperinsulinism, instead developing reduced secretion and impaired glucose tolerance from a very early age. Intriguingly, loss of function (LOF) mutations in mice have been shown to result increased insulin secretion, but these \"crossover\" to the under secreting KO phenotype when challenged with a high fat diet, mirroring the progression of T2DM from hypersecretion to undersecretion. In humans, LOF mutations have been associated with congenital hyperinsulinism, characterized by hypersecretion of insulin and hypoglycemia from a young age. However, despite this early hyperinsulinism, children from with CHI generally remit, losing insulin secretion and even progressing to diabetes with time. Counter to the simple model directly coupling KATP inhibition to insulin secretion, these observations from humans and mouse models suggest a more complex regulation wherein acute depolarization induces insulin secretion but when prolonged, secretion begins to fail.\n\nElectrical measurements from \u03b2-cells of isolated islets have demonstrated that incubation in high glucose results in a reduction in KATP activity, and mouse models of obesity and diabetes show increased electrical activity and a loss of KATP in proportion to their loss of glycemic control. These observations have led us to develop the hypothesis that \u03b2-cells subjected to chronic stimulation due to increased insulin resistance will progressively lose KATP, eventually causing the \"crossover\" to undersecretion that is observed in T2DM. In this study our goal is to test this hypothesis, administering a single dose of the KATP antagonist glipizide (10 mg) and using the resulting insulin secretion to indirectly assess KATP channel activity in the islets of volunteers from the following four cohorts, lean and normoglycemic (Lean NGT), obese with normoglycemia (Obesity NGT), obese with impaired fasting glucose (Obesity IFG) and obese type 2 diabetes (Obesity T2DM).",
+    "drug_class_labels": [],
+    "enrollment_count": 40,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "10 mg glipizide ingestion"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-07-04",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Washington University School of Medicine",
+    "masking": "NONE",
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06830096",
+    "official_title": "Hyperglycemia Induced Hyperexcitability: A Novel Role for KATP in the Progression of Type 2 Diabetes",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-03-31",
+    "primary_purpose": "BASIC_SCIENCE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06830096",
+    "start_date": "2025-03-07",
+    "study_first_posted_at": "2025-02-17",
+    "study_type": "INTERVENTIONAL"
+  }
+}

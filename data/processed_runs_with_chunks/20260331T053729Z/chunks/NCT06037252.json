@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06037252:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06037252\nBrief title: A Study of Investigational Tirzepatide (LY3298176) Doses in Participants With Type 2 Diabetes and Obesity\nOfficial title: A Phase 2, Randomized, Double-blind, Placebo-Controlled Study to Assess the Efficacy and Safety of Investigational Tirzepatide Doses in Participants With Type 2 Diabetes and Obesity\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 55,
+      "trial_nct_id": "NCT06037252"
+    },
+    {
+      "chunk_id": "NCT06037252:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes; obesity\nRaw conditions: Type 2 Diabetes; Obesity\nIntervention labels: Tirzepatide; Placebo\nDrug class labels: dual_gip_glp1_agonist\nArms: Tirzepatide High Dose 1; Tirzepatide High Dose 2; Tirzepatide; Placebo\nKeywords: Diabetes Mellitus; Glucose Metabolism Disorders; Metabolic Disease; Endocrine System Diseases; Overnutrition; Nutrition Disorders; Body Weight; Tirzepatide; Incretins",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06037252"
+    },
+    {
+      "chunk_id": "NCT06037252:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The main purpose of this study is to learn more about the safety and efficacy of investigational tirzepatide doses in participants with Type 2 diabetes and obesity that are already taking metformin. The study will last for about 89 weeks.\nDetailed description: The study will include a screening period of up to 5 weeks. The primary endpoint will be at Week 44 with a tirzepatide extension until week 80. A safety follow up will be performed approximately 4 weeks after end of treatment.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 85,
+      "trial_nct_id": "NCT06037252"
+    },
+    {
+      "chunk_id": "NCT06037252:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria\n\n* Have a Body Mass Index (BMI) \u226535 kilogram/square meter (kg/m\u00b2) at screening.\n* Have had stable body weight (\u00b15%) during the 90 days preceding screening.\n* Have been diagnosed with Type 2 Diabetes (T2D).\n* Have been on a stable treatment of metformin only at least 90 days preceding screening and between screening and randomization with the minimum effective dose of \u22651500 milligram (mg)/day.\n\nExclusion Criteria:\n\n* Have Type 1 Diabetes (T1D), history of ketoacidosis or hyperosmolar state/coma, or any other types of diabetes except T2D.\n* Have had 1 or more episode of severe hypoglycemia and/or 1 or more episode of hypoglycemia unawareness within 6 months prior to screening.\n* Are currently receiving or planning to receive treatment for diabetic retinopathy and/or macular edema.\n* Have a prior or planned surgical treatment for obesity.\n* Use products intended for weight loss including prescription drugs, over the counter (OTC) drugs, and herbal preparations, within 3 months prior to screening.\n* Have renal impairment measured as estimated glomerular filtration rate (eGFR) \\<45 milliliter/min (mL/min)/1.73 m\u00b2.\n* Have any of the following cardiovascular (CV) conditions within 2 months prior to screening.\n\n  * acute myocardial infarction.\n  * cerebrovascular accident (stroke).\n  * unstable angina .\n  * hospitalization due to congestive heart failure, or\n  * coronary artery revascularization.\n* Have a family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia (MEN) syndrome Type 2.\n* Have a history of chronic or acute pancreatitis.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 262,
+      "trial_nct_id": "NCT06037252"
+    },
+    {
+      "chunk_id": "NCT06037252:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change From Baseline in Body Weight | time_frame=Baseline (Week 0), Week 44\ntype=secondary | measure=Change from Baseline in HbA1c | time_frame=Baseline (Week 0), Week 44\ntype=secondary | measure=Change from Baseline in HbA1c | time_frame=Baseline (Week 24), Week 80\ntype=secondary | measure=Percent Change from Baseline in Body Weight | time_frame=Baseline (Week 24), Week 80\ntype=secondary | measure=Absolute Change from Baseline in Body Weight | time_frame=Baseline (Week 0), Week 44\ntype=secondary | measure=Absolute Change from Baseline in Body Weight | time_frame=Baseline (Week 24), Week 80\ntype=secondary | measure=Change from Baseline in Body Mass Index (BMI) | time_frame=Baseline (Week 0), Week 44\ntype=secondary | measure=Change from Baseline in BMI | time_frame=Baseline (Week 24), Week 80\ntype=secondary | measure=Change from Baseline in Waist Circumference | time_frame=Baseline (Week 0), Week 44\ntype=secondary | measure=Change from Baseline in Waist Circumference | time_frame=Baseline (Week 24), Week 80\ntype=secondary | measure=Percentage of Participants Achieving \u226515% Body Weight Reduction | time_frame=Baseline (Week 0), Week 44\ntype=secondary | measure=Percentage of Participants Achieving \u226515% Body Weight Reduction | time_frame=Baseline (Week 0), Week 80\ntype=secondary | measure=Pharmacokinetics (PK): Steady State Area Under the Concentration Time Curve (AUC) | time_frame=Baseline through Week 44 | description=Steady State Area Under the Concentration Time Curve (AUC) presented as a single average measure of AUC across the time frame.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 215,
+      "trial_nct_id": "NCT06037252"
+    },
+    {
+      "chunk_id": "NCT06037252:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-09-21\nPrimary completion date: 2026-01-08\nCompletion date: 2026-10\nStudy first posted: 2023-09-14\nResults first posted: None\nLast update posted: 2026-03-23\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06037252"
+    },
+    {
+      "chunk_id": "NCT06037252:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eli Lilly and Company\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06037252"
+    }
+  ],
+  "trial_nct_id": "NCT06037252"
+}

@@ -1,0 +1,335 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D006946",
+          "term": "Hyperinsulinism"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        },
+        {
+          "id": "D007333",
+          "term": "Insulin Resistance"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D052336",
+          "term": "Proglucagon"
+        },
+        {
+          "id": "D010187",
+          "term": "Pancreatic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D005934",
+          "term": "Glucagon"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2025-02-26",
+          "filename": "ICF_000.pdf",
+          "hasIcf": true,
+          "hasProtocol": false,
+          "hasSap": false,
+          "label": "Informed Consent Form",
+          "size": 526407,
+          "typeAbbrev": "ICF",
+          "uploadDate": "2026-03-03T10:03"
+        }
+      ]
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "We will study 20 subjects on one occasion using a hyperglycemic clamp with 2 doses of glucagon.",
+          "interventionNames": [
+            "Drug: Glucagon response study"
+          ],
+          "label": "Healthy Adults",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "We will study 20 subjects on one occasion using a hyperglycemic clamp with 2 doses of glucagon.",
+          "interventionNames": [
+            "Drug: Glucagon response study"
+          ],
+          "label": "Obese Adults",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "We will study 20 subjects on one occasion using a hyperglycemic clamp with 2 doses of glucagon.",
+          "interventionNames": [
+            "Drug: Glucagon response study"
+          ],
+          "label": "Adults with Type 2 Diabetes",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Adults with Type 2 Diabetes",
+            "Healthy Adults",
+            "Obese Adults"
+          ],
+          "description": "Please see information in group descriptions",
+          "name": "Glucagon response study",
+          "otherNames": [
+            "Glucagon"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Type2diabetes",
+        "NAFLD"
+      ],
+      "keywords": [
+        "glucagon",
+        "insulin resistance",
+        "hepatic steatosis",
+        "amino acid metabolism"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Rochester",
+          "country": "United States",
+          "facility": "Mayo Clinic in Rochester",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          },
+          "state": "Minnesota",
+          "zip": "55905"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Mayo Clinic",
+          "name": "Adrian Vella",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Whether impaired postprandial glucagon suppression in prediabetes and T2DM is an attempt to overcome resistance to glucagon's actions on hepatic AA catabolism, a defect in \u03b1-cell function, or a combination of both are important, unanswered questions. NAFLD is associated with T2DM risk and impaired insulin action. Unfortunately, it is unclear if glucagon resistance is caused by obesity, hepatic steatosis or both. The experiments outlined will determine if glucagon's actions on hepatic amino acid catabolism and EGP interact with hepatic lipid metabolism in lean and obese subjects with and without T2DM (and with varying degrees of hepatic steatosis).",
+      "detailedDescription": "T2DM and prediabetes are characterized by abnormal post-prandial suppression of glucagon, which contributes to postprandial hyperglycemia by increasing EGP. Although these effects are magnified by decreased and delayed insulin secretion, they are also apparent when insulin secretion is intact. In rodents, altered glucagon signaling changes \u03b1-cell function and mass - an effect mediated by changes in circulating AA concentrations. Are the elevated concentrations of branched-chain AA and other AA metabolites in T2DM a cause or an effect of global \u03b1-cell dysfunction? Could altered glucagon signaling precipitate a vicious cycle resulting in T2DM?"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "All subjects will undergo one study designed to measure the hepatic response to glucagon. There will be 3 groups non-diabetic and non-obese, obese, people with type 2 diabetes",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 21,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing to participate\n* Able to give consent\n\nExclusion Criteria:\n\n* History of prior upper abdominal surgery e.g. gastric banding, pyloroplasty, vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.\n* Contraindications to MRI (e.g. metal implants, claustrophobia).\n* Hematocrit \\< 35%\n* TSH \\< 0.4 or \\> 5.5.\n* Consumption of \\> 2 alcohol drinks per day or \\> 14 per week or a positive AUDIT questionnaire",
+      "healthyVolunteers": true,
+      "maximumAge": "65 Years",
+      "minimumAge": "25 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The Effects of Glucagon on Hepatic Metabolism",
+      "nctId": "NCT05500586",
+      "officialTitle": "The Effects of Glucagon on Hepatic Metabolism",
+      "orgStudyIdInfo": {
+        "id": "22-000113"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Mayo Clinic"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "No plan",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Tracer-dependent measurement of amino-acid clearance",
+          "measure": "Rate of Amino acid catabolism in the presence / absence of glucagon",
+          "timeFrame": "240 minutes of study"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Tracer-dependent measurement of amino-acid clearance",
+          "measure": "Effect of Diabetes on amino-acid catabolism",
+          "timeFrame": "240 minutes of study"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Mayo Clinic Clinical Trials",
+          "url": "https://www.mayo.edu/research/clinical-trials"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Adrian Vella"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Mayo Clinic",
+        "investigatorFullName": "Adrian Vella",
+        "investigatorTitle": "Regulatory Sponsor",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-03-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-03",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-30",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2022-10-20",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2022-08-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-08-10",
+      "studyFirstSubmitQcDate": "2022-08-11"
+    }
+  }
+}

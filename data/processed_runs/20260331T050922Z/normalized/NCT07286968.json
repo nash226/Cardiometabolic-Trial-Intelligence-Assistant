@@ -1,0 +1,229 @@
+{
+  "arms": [
+    {
+      "description": "Patients who had undergone Roux-en-Y gastric bypass surgery",
+      "intervention_names": [
+        "Other: Gastro-intestinal aspiration",
+        "Device: Telemetric"
+      ],
+      "label": "Roux-en-Y gastric bypass",
+      "type": null
+    },
+    {
+      "description": "Patients who had undergone sleeve gastrectomy surgery",
+      "intervention_names": [
+        "Other: Gastro-intestinal aspiration",
+        "Device: Telemetric"
+      ],
+      "label": "Sleeve gastrectomy",
+      "type": null
+    },
+    {
+      "description": "Patients without previous bariatric surgery",
+      "intervention_names": [
+        "Other: Gastro-intestinal aspiration",
+        "Device: Telemetric"
+      ],
+      "label": "Patients living with obesity",
+      "type": null
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Bariatric Surgery",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Roux-en Y Gastric Bypass",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Sleeve Gastrectomy",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Obesity & Overweight",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\nParticipants eligible for inclusion in this Investigation have to meet all of the following criteria:\n\n1. Voluntary written informed consent of the participant has been obtained prior to any screening procedures\n2. Age: 18-65 years\n\n   Specific inclusion criteria for the different patient populations:\n\n   Patients with obesity:\n3. Body Mass Index: \\> 30 kg/m2\n\n   Patients after bariatric surgery:\n4. Surgery: at least one year after Roux-en-Y gastric bypass or sleeve gastrectomy\n\nExclusion Criteria:\n\nParticipants eligible for this Investigation must not meet any of the following criteria:\n\n1. Patient has history of more than one bariatric surgery\n2. Patient has a waist circumference \\> 125.6 cm\n3. Patient had gastrointestinal surgery in the past three months\n4. Patient has a pacemaker, defibrillator, infusion pump, or other portable or implanted electromedical device\n5. Patient had frequent exposure to X-rays in the past year\n6. Patient has swallowing disorders, among others: dysphagia for food or pills, any oropharyngeal or oesophageal stricture, anxiety or functional abnormality\n7. Patient has Crohn's disease or Diverticulitis\n8. Patient has gastrointestinal strictures, fistulas or physiological/mechanical obstructions\n9. Patient has gastric bezoar\n10. Patient has a history of complex bowel resection or known abdominal adhesions\n11. Patient has short bowel syndrome or ostomy\n12. Patient has currently ongoing infections\n13. Patient is planned to undergo usage of rectal foam/enema or treatment with adjuvant chemotherapy or radiotherapy\n14. Patient is currently on parenteral diet\n15. Patient is planned to undergo MRI procedure during usage of the wireless capsule\n16. Patient is working in a professional healthcare facility (e.g. hospital, dental office, emergency room), military area (e.g. submarine, near radar installation), or heavy industrial area (e.g. power plants, automotive, mining, refineries) during the duration of the clinical investigation\n17. Patient is pregnant, breastfeeding, actively trying to get pregnant or had recent childbirth in last 6 months\n18. Patient cannot discontinue medication that affects gastrointestinal transit time and/or pH for at least 3 days before and during the study (and 4 weeks for weekly/long-acting GLP-1 analogues such as Saxenda, Ozempic, Wegovy, Mounjaro). This includes opioids (e.g., morphine, codeine), proton pump inhibitors (e.g., omeprazole, esomeprazole, pantoprazole), H2-receptor antagonists (e.g., cimetidine, famotidine), antacids, sucralfate, prokinetics (e.g., domperidone, metoclopramide), antidiarrheal agents (e.g., loperamide), antibiotics, probiotics and prebiotics.\n19. Any disorder, which in the investigator's opinion might jeopardise participant's safety or compliance with the CIP.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Patients living with obesity",
+        "Roux-en-Y gastric bypass",
+        "Sleeve gastrectomy"
+      ],
+      "description": "Aspiration of fluids from the stomach and small intestine using a naso-intestinal catheter.",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Gastro-intestinal aspiration",
+      "normalized_name": "gastro-intestinal aspiration"
+    },
+    {
+      "arm_group_labels": [
+        "Patients living with obesity",
+        "Roux-en-Y gastric bypass",
+        "Sleeve gastrectomy"
+      ],
+      "description": "Telemetric ingestible capsule",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Telemetric",
+      "normalized_name": "telemetric"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Gastric pouch and sleeve samples will be analysed for gastric lipase activity (described in U)",
+      "measure": "Activity of gastric lipase",
+      "outcome_type": "primary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "Gastric pouch and sleeve samples will be analysed for pepsin activity (described in U)",
+      "measure": "Activity of pepsin",
+      "outcome_type": "primary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for trypsin activity (described in U).",
+      "measure": "Activity of trypsin",
+      "outcome_type": "primary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for chymotrypsin activity (described in U).",
+      "measure": "Activity of chymotrypsin",
+      "outcome_type": "primary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for \u03b1-amylase activity (described in U).",
+      "measure": "Activity of \u03b1-amylase",
+      "outcome_type": "primary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "Samples collected in the duodenum and jejunum; or roux- and common-limb will be analysed for pancreatic lipase activity (described in U).",
+      "measure": "Activity of pancreatic lipase",
+      "outcome_type": "primary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "The total bile acid concentrations will be measured in all samples",
+      "measure": "Concentration of total bile acids",
+      "outcome_type": "secondary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "pH will be measured in all gastro-intestinal samples",
+      "measure": "pH",
+      "outcome_type": "secondary",
+      "time_frame": "2 hours"
+    },
+    {
+      "description": "Total transit time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+      "measure": "Total transit time",
+      "outcome_type": "secondary",
+      "time_frame": "48 hours"
+    },
+    {
+      "description": "Gastric emptying time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+      "measure": "Gastric emptying time",
+      "outcome_type": "secondary",
+      "time_frame": "48 hours"
+    },
+    {
+      "description": "Small intestinal transit time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+      "measure": "Small intestinal transit time",
+      "outcome_type": "secondary",
+      "time_frame": "48 hours"
+    },
+    {
+      "description": "Large intestinal transit time will be measured by the GISMO GEN I ingestible sensor (described in minutes).",
+      "measure": "Large intestinal transit time",
+      "outcome_type": "secondary",
+      "time_frame": "48 hours"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": null,
+    "brief_summary": "The goal of this clinical trial is to characterize gastrointestinal digestion and physiology in patients after bariatric surgery, or people living with obesity. The main question it aims to answer is: what is the status of gastrointestinal digestion and physiology after bariatric surgery? Participants will have two study visits: 1) participants will undergo collection of gastrointestinal samples and 2) participants will ingest an ingestible capsule that measures multiple physiological parameters along the gastrointestinal tract.",
+    "brief_title": "Gastro-Intestinal Digestion and Physiology After Bariatric Surgery",
+    "collaborator_names": [],
+    "completion_date": "2027-07-01",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\nParticipants eligible for inclusion in this Investigation have to meet all of the following criteria:\n\n1. Voluntary written informed consent of the participant has been obtained prior to any screening procedures\n2. Age: 18-65 years\n\n   Specific inclusion criteria for the different patient populations:\n\n   Patients with obesity:\n3. Body Mass Index: \\> 30 kg/m2\n\n   Patients after bariatric surgery:\n4. Surgery: at least one year after Roux-en-Y gastric bypass or sleeve gastrectomy\n\nExclusion Criteria:\n\nParticipants eligible for this Investigation must not meet any of the following criteria:\n\n1. Patient has history of more than one bariatric surgery\n2. Patient has a waist circumference \\> 125.6 cm\n3. Patient had gastrointestinal surgery in the past three months\n4. Patient has a pacemaker, defibrillator, infusion pump, or other portable or implanted electromedical device\n5. Patient had frequent exposure to X-rays in the past year\n6. Patient has swallowing disorders, among others: dysphagia for food or pills, any oropharyngeal or oesophageal stricture, anxiety or functional abnormality\n7. Patient has Crohn's disease or Diverticulitis\n8. Patient has gastrointestinal strictures, fistulas or physiological/mechanical obstructions\n9. Patient has gastric bezoar\n10. Patient has a history of complex bowel resection or known abdominal adhesions\n11. Patient has short bowel syndrome or ostomy\n12. Patient has currently ongoing infections\n13. Patient is planned to undergo usage of rectal foam/enema or treatment with adjuvant chemotherapy or radiotherapy\n14. Patient is currently on parenteral diet\n15. Patient is planned to undergo MRI procedure during usage of the wireless capsule\n16. Patient is working in a professional healthcare facility (e.g. hospital, dental office, emergency room), military area (e.g. submarine, near radar installation), or heavy industrial area (e.g. power plants, automotive, mining, refineries) during the duration of the clinical investigation\n17. Patient is pregnant, breastfeeding, actively trying to get pregnant or had recent childbirth in last 6 months\n18. Patient cannot discontinue medication that affects gastrointestinal transit time and/or pH for at least 3 days before and during the study (and 4 weeks for weekly/long-acting GLP-1 analogues such as Saxenda, Ozempic, Wegovy, Mounjaro). This includes opioids (e.g., morphine, codeine), proton pump inhibitors (e.g., omeprazole, esomeprazole, pantoprazole), H2-receptor antagonists (e.g., cimetidine, famotidine), antacids, sucralfate, prokinetics (e.g., domperidone, metoclopramide), antidiarrheal agents (e.g., loperamide), antibiotics, probiotics and prebiotics.\n19. Any disorder, which in the investigator's opinion might jeopardise participant's safety or compliance with the CIP.",
+    "detailed_description": "This clinical trial aims to characterize gastric and pancreatic enzyme activity in adults aged 18 to 65 who have previously (at least 1 year ago) undergone Roux-en-Y gastric bypass (RYGB) or sleeve gastrectomy (SG), as well as in individuals with obesity. In addition, the study seeks to quantify bile acid concentrations and pH at various locations within the gastrointestinal tract and to assess gastrointestinal transit time. During the study, aspirates will be collected from multiple regions of the gastrointestinal tract using a naso-intestinal catheter (study visit 1). An ingestible capsule will also be used to obtain continuous in vivo measurements of physiological conditions along the entire gastrointestinal tract (study visit 2).",
+    "drug_class_labels": [],
+    "enrollment_count": 51,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Gastro-intestinal aspiration",
+      "Telemetric"
+    ],
+    "intervention_model": null,
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Gastro-intestinal aspiration",
+      "ingestible telemetric capsule"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-20",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Universitaire Ziekenhuizen KU Leuven",
+    "masking": null,
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07286968",
+    "official_title": "Gastro-Intestinal Digestion and Physiology After Bariatric Surgery",
+    "overall_status": "RECRUITING",
+    "phases": [],
+    "primary_completion_date": "2027-07-01",
+    "primary_purpose": null,
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07286968",
+    "start_date": "2026-01-10",
+    "study_first_posted_at": "2025-12-16",
+    "study_type": "OBSERVATIONAL"
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Two HP515 20 mg Tablets +Two Placebos of HP515 10mg Tablets",
+          "interventionNames": [
+            "Drug: Placebo of HP515 10 mg Tablet",
+            "Drug: HP515 20 mg Tablet"
+          ],
+          "label": "HP515 40mg group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Two HP515 20mg Tablets + One HP515 10mg Tablet + One Placebo of HP515 10mg Tablet",
+          "interventionNames": [
+            "Drug: HP515 10 mg Tablet",
+            "Drug: Placebo of HP515 10 mg Tablet",
+            "Drug: HP515 20 mg Tablet"
+          ],
+          "label": "HP515 50mg group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Two HP515 20mg Tablets + Two HP515 10mg Tablets",
+          "interventionNames": [
+            "Drug: Placebo of HP515 10 mg Tablet",
+            "Drug: HP515 20 mg Tablet"
+          ],
+          "label": "HP515 60mg group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Two Placebos of HP515 20mg Tablet +Two Placebos of HP515 10mg Tablet",
+          "interventionNames": [
+            "Drug: Placebo of HP515 10 mg Tablet",
+            "Drug: Placebo of HP515 20mg Tablet"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "HP515 50mg group"
+          ],
+          "description": "Provided by provided by Hinova Pharmaceuticals Inc .Storage: Protect from light, keep sealed, store at \u226425\u00b0C. HP515 10mg Tablet, qd",
+          "name": "HP515 10 mg Tablet",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "HP515 40mg group",
+            "HP515 50mg group",
+            "HP515 60mg group",
+            "Placebo"
+          ],
+          "description": "Provided by provided by Hinova Pharmaceuticals Inc .Storage: Protect from light, keep sealed, store at \u226425\u00b0C. Placebo of HP515 10 mg Tablet ,qd , 12 weeks.",
+          "name": "Placebo of HP515 10 mg Tablet",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "HP515 40mg group",
+            "HP515 50mg group",
+            "HP515 60mg group"
+          ],
+          "description": "Provided by provided by Hinova Pharmaceuticals Inc .Storage: Protect from light, keep sealed, store at \u226425\u00b0C; HP515 20 mg Tablet, qd,12 weeks",
+          "name": "HP515 20 mg Tablet",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Provided by provided by Hinova Pharmaceuticals Inc .Storage: Protect from light, keep sealed, store at \u226425\u00b0C; Placebo of HP515 20 mg Tablet, qd,12 weeks",
+          "name": "Placebo of HP515 20mg Tablet",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NAFLD (Non-alcoholic Fatty Liver Disease)"
+      ],
+      "keywords": [
+        "non-alcoholic",
+        "Fatty Liver"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ymicecream@163.com",
+          "name": "Yang Ming YM Chief physician",
+          "phone": "+86-15810092973",
+          "role": "CONTACT"
+        },
+        {
+          "email": "weelai@163.com",
+          "name": "Wei WL chief physician",
+          "phone": "+86-15810092973",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "IRB@btch.edu.cn",
+              "name": "Liu Man Ting LMT Liu",
+              "phone": "+86-01056118567",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Beijing Tsinghua Changgung Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "102218"
+        },
+        {
+          "city": "Chengdu",
+          "contacts": [
+            {
+              "email": "liujy92@163.com",
+              "name": "Liu JingYu LJY chief physician",
+              "phone": "+86-13540087274",
+              "role": "CONTACT"
+            },
+            {
+              "name": "chief physician",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Chengdu Seventh People's Hospital",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          },
+          "state": "Sichuan",
+          "status": "RECRUITING",
+          "zip": "610041"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Primary Objective:\n\n\u2022 To evaluate the efficacy of HP515 tablets in participants with non-alcoholic fatty liver disease.\n\nSecondary objectives:\n\n* To evaluate the safety of HP515 tablets in participants with non-alcoholic fatty liver disease;\n* To evaluate the pharmacokinetic of HP515 tablets in participants with non-alcoholic fatty liver disease;\n* To evaluate the pharmacodynamic effects of HP515 tablets in participants with non-alcoholic fatty liver disease;\n\nExploratory objective:\n\n\u2022 To evaluate the impact of HP515 tablets on target markers in participants with non-alcoholic fatty liver disease.\n\nThe study includes a screening period of 4 weeks, a treatment period of 12 weeks, and a safety follow-up period of 4 weeks.",
+      "detailedDescription": "This study is a multicenter, randomized, double-blind, placebo-controlled Phase IIa clinical trial conducted in participants with non-alcoholic fatty liver disease.\n\nThe trial includes a screening period (D-28 to D-1), a treatment period (Week 1 to Week 12), and a safety follow-up period (Week 13 to Week 16).\n\nEligible participants are randomized based on stratification factors \\\\\\[D1 body weight \\<80 kg vs \u226580 kg\\]. Participants with body weight \\<80 kg are randomized in a 2:2:1 ratio to HP515 40 mg group, HP515 50 mg group, and placebo group. Participants with body weight \u226580 kg are randomized in a 2:1 ratio to HP515 60 mg group and placebo group. Each HP515 group enrolls 20 participants, totaling 60 participants, and the placebo group enrolls 20 participants, with a total of 80 participants enrolled.\n\nAll participants receive 12 weeks of medication, and the entire study process includes evaluation of efficacy and safety for all participants, as well as evaluation of targeted biomarkers.\n\nAll participants provided Pop-PK blood samples on an empty stomach before morning dosing at the end of Weeks 2, 6, 8, 10, and 12. Intensive blood sampling was performed for all participants completing 4 weeks of treatment or withdrawing early before the end of Week 4. Participants who completed the early withdrawal visit after at least 1 week of continuous dosing and did not discontinue medication prior to the in-person visit were encouraged to complete intensive PK sampling. \u2265MRI-PDFF and FibroScan examinations were performed during the screening period, at 12 weeks of treatment, and at early withdrawal visits (requiring a minimum of 6 weeks of medication duration). Participants who completed 12 weeks of treatment completed the treatment phase, while those who completed the 16-week safety follow-up completed the trial."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 80,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Participants must voluntarily sign the informed consent form before the trial and fully understand the trial content, process, and possible adverse reactions.\n2. Participants must be aged between 18 and 65 years old, including those at the borderline age.\n3. At the screening stage, the liver fat fraction must be \u2265 10%\n4. Female participants must not donate eggs from the start of the screening until the end of the study and within 28 days after discontinuing the study drug; male participants must not donate sperm from the start of the screening until the end of the study and within 28 days after discontinuing the study drug.\n5. Participants must agree to use contraception during the study period and for the next 6 months after the last administration of the study drug, and must agree to continuously use effective contraceptive measures.\n\nExclusion Criteria:\n\n1. The participants have known or suspected allergic reactions\n2. Liver biopsy indicates cirrhosis or the participant has been clinically diagnosed with cirrhosis\n3. Type 1 diabetic patients or those with poorly controlled type 2 diabetes (HbA1c \u2265 8.0%);\n4. Suspected other liver and gallbladder diseases through medical history and laboratory tests, which, based on the investigator's judgment, may affect safety or efficacy evaluation\n5. Any abnormality in thyroid function tests with clinical significance or a previous history of thyroid disease\n6. Within the previous 1 year, had myocardial infarction, unstable angina pectoris, coronary artery bypass surgery, cerebral infarction, cerebral hemorrhage, subarachnoid hemorrhage or transient ischemic attack, or other cardiovascular and cerebrovascular events that led to hospitalization;\n7. History of liver transplantation or planning to undergo liver transplantation;\n8. Had significant changes in diet or exercise habits in the past 2 months or a weight change of more than 5%;\n9. Participants who used drugs that changed the activity of CYP2C8 of liver enzymes within 4 weeks or 5 half-lives (whichever is longer), including strong inhibitors and inducers of liver metabolic enzymes;\n10. Pregnant or lactating women;\n11. Participants with contraindications to MRI scans;\n12. Participants judged by the investigator to be unsuitable for participation in the study.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "NASH/MASH",
+      "briefTitle": "A Trial to Evaluate the Efficacy, Safety, PK, and PD of HP515 in Non - Alcoholic Fatty Liver Disease ( NASH/MASH )",
+      "nctId": "NCT07308548",
+      "officialTitle": "A Phase IIa Clinical Trial to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of HP515 Tablets in Participants With Non - Alcoholic Fatty Liver Disease",
+      "orgStudyIdInfo": {
+        "id": "HP515 - 201"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Hinova Pharmaceuticals Inc."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "All the unpublished information provided by the sponsor to the researchers and any data generated from this trial are confidential and are exclusive to the sponsor. The researchers agree to keep this information confidential and use it only to complete this study. Such information may not be used for any other purpose without the written consent of the sponsor. The trial results will be presented in the form of a clinical trial report (CSR), which includes the data from all participating units. Any data derived from the trial and involving copyright protection belong to the sponsor. The sponsor has the right to publish these materials and information.",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Relative change from baseline is calculated for each subject as 100% x \\[(Week 12 Value - Baseline Value)/Baseline Value\\].",
+          "measure": "The relative change in liver fat fraction from the baseline by magnetic resonance proton density fat fraction (MRI-PDFF).",
+          "timeFrame": "Baseline and Week 12."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Absolute change from baseline is calculated for each subject as \\[(Week 12 Value - Baseline Value)\\].",
+          "measure": "The absolute change in liver fat fraction from the baseline by magnetic resonance proton density fat fraction (MRI-PDFF).",
+          "timeFrame": "Baseline and Week 12."
+        },
+        {
+          "description": "Proportion of subjects with \u226530% or 50% relative reduction in liver fat content by MRI-PDFF at Week 12",
+          "measure": "At the 12-week treatment period, through MRI-PDFF measurement, the proportion of participants whose liver fat fraction decreased by more than 30% or 50%.",
+          "timeFrame": "Week 12."
+        },
+        {
+          "description": "Percent change from baseline of low-density lipoprotein cholesterol (LDL-C)",
+          "measure": "The percentage changes of blood lipid",
+          "timeFrame": "Baseline, up to 12 weeks."
+        },
+        {
+          "description": "Safety of HP515 based on Adverse Events and Changes in Laboratory Values\u3001vital signs, physical examination, 12-lead electrocardiogram.",
+          "measure": "Number and Percentage of participants with any Treatment Emergent adverse events as assessed by CTCAE v5.0.[Time Frame: up to 16 weeks.]",
+          "timeFrame": "Up to 16 weeks."
+        },
+        {
+          "measure": "Assessment of pharmacokinetic parameters of HP515 : Maximum concentration (Cmax)",
+          "timeFrame": "Baseline, up to 12 weeks"
+        },
+        {
+          "measure": "Assessment of pharmacokinetic parameters of HP515 : area under the concentration-time curve (AUC)",
+          "timeFrame": "Base line and up to 12 weeks"
+        },
+        {
+          "measure": "Assessment of pharmacokinetic parameters of HP515: Time to maximum concentration (Tmax)",
+          "timeFrame": "Base line and up to 12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Hinova Pharmaceuticals Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-19",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-13",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-10-11",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-09-14",
+      "studyFirstSubmitQcDate": "2025-12-19"
+    }
+  }
+}

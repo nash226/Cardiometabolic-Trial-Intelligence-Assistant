@@ -1,0 +1,276 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Semaglutide administered subcutaneously (under the skin) once weekly. There will be a 20 week lead in period of dose escalation before reaching the target dose of 2.4mg weekly. Semaglutide will then be administered at the maximum tolerated dose for 52 weeks.",
+          "interventionNames": [
+            "Drug: Semaglutide Pen Injector"
+          ],
+          "label": "Semaglutide",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo administered subcutaneously (under the skin) once weekly.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Semaglutide"
+          ],
+          "description": "Starting dose of 0.24 mg injected weekly and increased every 4 weeks to a potential maximum dose of 2.4 mg weekly at 20 weeks followed by 52 weeks of weekly injections at the maximum tolerable dose",
+          "name": "Semaglutide Pen Injector",
+          "otherNames": [
+            "Wegovy"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo solution injected weekly for 72 weeks",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "NAFLD"
+      ],
+      "keywords": [
+        "Liver Transplant"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "sherry.boyett@vcuhealth.org",
+          "name": "Sherry Boyett, RN",
+          "phone": "804-828-5434",
+          "role": "CONTACT"
+        },
+        {
+          "email": "mohammad.siddiqui@vcuhealth.org",
+          "name": "Mohammad S Siddiqui, MD",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Richmond",
+          "country": "United States",
+          "facility": "Virginia Commonwealth University",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "23298"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Virginia Commonwealth University",
+          "name": "Mohammad S Siddiqui, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "In this study, semaglutide will be compared to placebo (a look-alike inactive substance, a \"sugar pill\") to determine if its use will prevent weight gain after liver transplantation (LT). In addition, researchers will be testing to determine if semaglutide prevents the development of Non-Alcoholic Fatty Liver Disease (NAFLD) after transplant through Magnetic Resonance Imaging (MRI) and laboratory results.",
+      "detailedDescription": "Weight gain following LT is common and a risk for cardiovascular disease and development of NAFLD. Developing NAFLD following LT can lead to patients developing scar tissue in the graft (transplanted liver), and graft-cirrhosis. These events can limit the benefit of the transplanted liver graft and reduce the benefit of LT as a therapy. Current weight management strategies have not been successful at the prevention of these events in most patients. This highlights a substantial unmet need for effective treatment to prevent or reduce post-LT weight gain and highlight the importance of new treatment strategies for reducing illness, death, and healthcare cost associated with post-LT weight gain.\n\nThe purpose of this research study is to test the safety, tolerability, and effectiveness of semaglutide when used to prevent weight gain after liver transplant. Semaglutide is a drug that has been approved by the U. S. Food and Drug Administration (FDA) for treatment of obesity and Type 2 Diabetes.\n\nSemaglutide, has shown to be effective for not only weight loss but also long-term weight maintenance. Semaglutide has also shown to be helpful in treatment of nonalcoholic steatohepatitis (NASH) in the non-transplant population. This medication also is used to control blood sugar and prevent cardiovascular disease, which contributes to poor outcomes in LT recipients. Thus, the purpose of the present study is to determine if use of semaglutide early after LT can (1) reduce weight gain and (2) prevent development of NAFLD following LT."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female age 18-75 years who received LT for any indication (i.e. NASH, hepatitis C, alcohol-induced cirrhosis, autoimmune hepatitis, etc.)\n* Liver transplant surgery within 8-24 weeks prior to randomization\n* Fasting glucose \\> 125 mg/dL or presence of diabetes (HbA1c\u22656.5% or use of diabetes medications) or pre-diabetes (HbA1c \\>5.7%)\n* Ability to provide informed consent\n* Discharged from the hospital following LT surgery\n* Tolerating diet\n* Normal graft function\\* (determined by treating hepatologist/surgeon based on clinical status and hepatic panel)\n* Stable immunosuppression according the VCU (Virginia Commonwealth University) post-LT protocols \\*\\* (i.e. calcineurin inhibitors + mycophenolate)\n* Eligible female patients will be (1) non-pregnant, evidenced by a negative urine pregnancy test, (2) non-lactating, (3)surgically sterile or post-menopausal, or they will agree to continue to use an accepted method of birth control during the study\n\nExclusion Criteria:\n\n* BMI\u2264 27kg/m2\n* GFR (Glomerular Filtration Rate) \u2264 25 ml/min/1.73m2\n* Type 1 autoimmune diabetes (by anti-GAD (glutamic acid decarboxylase) or history of ketoacidosis)\n* History of gastroparesis\n* Familial or personal history of medullary thyroid cancer or MEN (Multiple Endocrine Neoplasia) 2\n* History of pancreatitis\n* History of active malignancy post- LT with the exception of non-melanoma skin cancers\n* History of uncontrolled or unstable diabetic retinopathy or maculopathy\n* Acute cellular rejection\n* Hepatic artery thrombosis\n* Medical non-compliance\n* Active treatment with GLP (glucagon-like peptide)-1RA (receptor agonist) or SGLT (sodium-glucose cotransporter)-2 inhibitors at time of screening\n* History of hypersensitivity to semaglutide or its excipients\n* Women who are nursing, pregnant, or planning to become pregnant during the study, or are not using adequate contraceptive measures",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Randomized Double Blinded Placebo-Controlled w/Semaglutide to Prevent Weight Gain After Liver Transplant",
+      "nctId": "NCT05424003",
+      "officialTitle": "A Randomized Double Blinded Placebo-Controlled Trial of Semaglutide to Prevent Weight Gain Following Liver Transplantation",
+      "orgStudyIdInfo": {
+        "id": "HM20024306"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Virginia Commonwealth University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Weight measured in kilograms",
+          "measure": "Change in weight",
+          "timeFrame": "Baseline to week 72"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Number of participant who develop NAFLD by the end of treatment will be measured via MRI-PDFF (MRI-Proton Density Fat Fraction). A value of \\>5.2% will be considered the threshold for development of NAFLD following LT.",
+          "measure": "Development of NAFLD",
+          "timeFrame": "Week 72"
+        },
+        {
+          "description": "Fat distribution of the body body (body composition) will be assessed via MRI (i.e. visceral adipose tissue, abdominal subcutaneous tissue, fat free muscle volume, and muscle fat infiltration, epicardial fat). Means of delta body composition measures after 72 weeks will be compared between the two arms.",
+          "measure": "Change in adiposity",
+          "timeFrame": "Baseline to week 72"
+        },
+        {
+          "description": "Frequently Sampled IV Glucose Tolerance Test (FSIVGTT) will be used to measure insulin resistance",
+          "measure": "Change in insulin resistance",
+          "timeFrame": "Baseline to week 72"
+        },
+        {
+          "description": "Level of CRP will be assessed using a standard blood test.",
+          "measure": "Change in inflammation - C-reactive protein (CRP)",
+          "timeFrame": "Baseline to week 72"
+        },
+        {
+          "description": "Level of adiponectin will be assessed using a standard blood test.",
+          "measure": "Change in inflammation - adiponectin",
+          "timeFrame": "Baseline to week 72"
+        },
+        {
+          "description": "Fibrosis-4 (FIB-4) Index for Liver Fibrosis and NAFLD Fibrosis Score (NFS) will be assessed using a standard blood test.",
+          "measure": "Change in liver fibrosis markers",
+          "timeFrame": "Baseline to week 72"
+        },
+        {
+          "description": "Cardiovascular risk factors will be assessed using a standard lipid panel blood test.",
+          "measure": "Change in serum lipid profile",
+          "timeFrame": "Baseline to week 72"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Novo Nordisk A/S"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Virginia Commonwealth University"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-02",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-02-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-14",
+      "studyFirstSubmitQcDate": "2022-06-14"
+    }
+  }
+}

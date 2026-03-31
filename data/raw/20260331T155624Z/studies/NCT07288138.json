@@ -1,0 +1,862 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D005234",
+          "term": "Fatty Liver"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D065626",
+          "term": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: ECC4703"
+          ],
+          "label": "ECC4703 Low Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: ECC4703"
+          ],
+          "label": "ECC4703 High Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: ECC0509",
+            "Drug: ECC4703"
+          ],
+          "label": "ECC4703 High Dose + ECC0509 High Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: ECC0509"
+          ],
+          "label": "ECC0509 Low Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: ECC0509"
+          ],
+          "label": "ECC0509 High Dose",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo will be administered as matching oral capsules.",
+          "name": "Placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "ECC4703 Low Dose"
+          ],
+          "description": "ECC4703 will be administered as oral capsules.",
+          "name": "ECC4703",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "ECC0509 High Dose",
+            "ECC0509 Low Dose",
+            "ECC4703 High Dose + ECC0509 High Dose"
+          ],
+          "description": "ECC0509 will be administered as oral capsules.",
+          "name": "ECC0509",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "ECC4703 High Dose",
+            "ECC4703 High Dose + ECC0509 High Dose"
+          ],
+          "description": "ECC4703 will be administered as oral capsules.",
+          "name": "ECC4703",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metabolic Dysfunction-associated Steatohepatitis"
+      ],
+      "keywords": [
+        "Liver Disease",
+        "Nonalcoholic Steatohepatitis",
+        "ECC0509",
+        "ECC4703"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "contact@eccogene.com",
+          "name": "Eccogene Clinical Trials",
+          "phone": "86-21-61053022",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Chandler",
+          "country": "United States",
+          "facility": "Arizona Liver Health",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "85224"
+        },
+        {
+          "city": "Peoria",
+          "country": "United States",
+          "facility": "Arizona Liver Health - Peoria",
+          "geoPoint": {
+            "lat": 33.5806,
+            "lon": -112.23738
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "85381"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "facility": "Adobe Clinical Research, LLC",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "85712"
+        },
+        {
+          "city": "Tucson",
+          "country": "United States",
+          "facility": "Arizona Liver Health - Tucson",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "85712"
+        },
+        {
+          "city": "Little Rock",
+          "country": "United States",
+          "facility": "Arkansas Gastroenterology, P.A",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          },
+          "state": "Arkansas",
+          "status": "RECRUITING",
+          "zip": "71913"
+        },
+        {
+          "city": "Little Rock",
+          "country": "United States",
+          "facility": "ARcare Center for Clinical Research",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          },
+          "state": "Arkansas",
+          "status": "RECRUITING",
+          "zip": "77205"
+        },
+        {
+          "city": "Fountain Valley",
+          "country": "United States",
+          "facility": "ARK Clinical Research - Fountain Valley",
+          "geoPoint": {
+            "lat": 33.70918,
+            "lon": -117.95367
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92708"
+        },
+        {
+          "city": "Long Beach",
+          "country": "United States",
+          "facility": "Ark Clinical Research",
+          "geoPoint": {
+            "lat": 33.76696,
+            "lon": -118.18923
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "90815"
+        },
+        {
+          "city": "Bradenton",
+          "country": "United States",
+          "facility": "Synergy Healthcare",
+          "geoPoint": {
+            "lat": 27.49893,
+            "lon": -82.57482
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33511"
+        },
+        {
+          "city": "Bradenton",
+          "country": "United States",
+          "facility": "Synergy Healthcare",
+          "geoPoint": {
+            "lat": 27.49893,
+            "lon": -82.57482
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "34209"
+        },
+        {
+          "city": "Jupiter",
+          "country": "United States",
+          "facility": "Health Awareness, Inc.",
+          "geoPoint": {
+            "lat": 26.93422,
+            "lon": -80.09421
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33458"
+        },
+        {
+          "city": "Miami Lakes",
+          "country": "United States",
+          "facility": "Floridian Clinical Research, LLC",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33016"
+        },
+        {
+          "city": "Ocala",
+          "country": "United States",
+          "facility": "Ocala GI Research",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "34471"
+        },
+        {
+          "city": "Port Orange",
+          "country": "United States",
+          "facility": "Progressive Medical Research",
+          "geoPoint": {
+            "lat": 29.13832,
+            "lon": -80.99561
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32127"
+        },
+        {
+          "city": "Viera",
+          "country": "United States",
+          "facility": "ClinCloud, LLC",
+          "geoPoint": {
+            "lat": 28.24696,
+            "lon": -80.737
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32940"
+        },
+        {
+          "city": "Marietta",
+          "country": "United States",
+          "facility": "Gastrointestinal Specialists of Georgia, PC",
+          "geoPoint": {
+            "lat": 33.9526,
+            "lon": -84.54993
+          },
+          "state": "Georgia",
+          "status": "RECRUITING",
+          "zip": "30060"
+        },
+        {
+          "city": "South Bend",
+          "country": "United States",
+          "facility": "Digestive Research Alliance of Michiana",
+          "geoPoint": {
+            "lat": 41.68338,
+            "lon": -86.25001
+          },
+          "state": "Indiana",
+          "status": "RECRUITING",
+          "zip": "46635"
+        },
+        {
+          "city": "Covington",
+          "country": "United States",
+          "facility": "Tandem Clinical Research",
+          "geoPoint": {
+            "lat": 30.47549,
+            "lon": -90.10042
+          },
+          "state": "Louisiana",
+          "status": "RECRUITING",
+          "zip": "70433"
+        },
+        {
+          "city": "Houma",
+          "country": "United States",
+          "facility": "Tandem Clinical Research",
+          "geoPoint": {
+            "lat": 29.59577,
+            "lon": -90.71953
+          },
+          "state": "Louisiana",
+          "status": "RECRUITING",
+          "zip": "70360"
+        },
+        {
+          "city": "Marrero",
+          "country": "United States",
+          "facility": "Tandem Clinical Research GI, LLC",
+          "geoPoint": {
+            "lat": 29.89937,
+            "lon": -90.10035
+          },
+          "state": "Louisiana",
+          "status": "RECRUITING",
+          "zip": "70072"
+        },
+        {
+          "city": "Metairie",
+          "country": "United States",
+          "facility": "Tandem Clinical Research",
+          "geoPoint": {
+            "lat": 29.98409,
+            "lon": -90.15285
+          },
+          "state": "Louisiana",
+          "status": "RECRUITING",
+          "zip": "70006"
+        },
+        {
+          "city": "Greenbelt",
+          "country": "United States",
+          "facility": "Mid-Atlantic GI Research",
+          "geoPoint": {
+            "lat": 39.00455,
+            "lon": -76.87553
+          },
+          "state": "Maryland",
+          "status": "RECRUITING",
+          "zip": "20770"
+        },
+        {
+          "city": "St Louis",
+          "country": "United States",
+          "facility": "Gateway GI Research, LLC",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          },
+          "state": "Missouri",
+          "status": "RECRUITING",
+          "zip": "63141"
+        },
+        {
+          "city": "Akron",
+          "country": "United States",
+          "facility": "Akron Gastro Research",
+          "geoPoint": {
+            "lat": 41.08144,
+            "lon": -81.51901
+          },
+          "state": "Ohio",
+          "status": "RECRUITING",
+          "zip": "44333"
+        },
+        {
+          "city": "Columbia",
+          "country": "United States",
+          "facility": "Columbia Gastroenterology Associates, Llc",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          },
+          "state": "South Carolina",
+          "status": "RECRUITING",
+          "zip": "29204"
+        },
+        {
+          "city": "Austin",
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78757"
+        },
+        {
+          "city": "Bellaire",
+          "country": "United States",
+          "facility": "Bellaire Clinical Research",
+          "geoPoint": {
+            "lat": 29.70579,
+            "lon": -95.45883
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77401"
+        },
+        {
+          "city": "Farmers Branch",
+          "country": "United States",
+          "facility": "Dallas Research Institute, LLC",
+          "geoPoint": {
+            "lat": 32.92651,
+            "lon": -96.89612
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "75234"
+        },
+        {
+          "city": "Forney",
+          "country": "United States",
+          "facility": "Care United Research",
+          "geoPoint": {
+            "lat": 32.74818,
+            "lon": -96.47193
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "75126"
+        },
+        {
+          "city": "Georgetown",
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research - Georgetown",
+          "geoPoint": {
+            "lat": 30.63269,
+            "lon": -97.67723
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78626"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Houston Research Institute - Medical Center",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "770004"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Houston Research Institute",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77079"
+        },
+        {
+          "city": "Pasadena",
+          "country": "United States",
+          "facility": "Houston Research Institute - Pasadena",
+          "geoPoint": {
+            "lat": 29.69106,
+            "lon": -95.2091
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77505"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Quality Research, Inc.",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78209"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research - South San Antonio",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78222"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Pinnacle Clinical Research",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78229"
+        },
+        {
+          "city": "Sugar Land",
+          "country": "United States",
+          "facility": "Sugarland Medical Associates (Sma)",
+          "geoPoint": {
+            "lat": 29.61968,
+            "lon": -95.63495
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77478"
+        },
+        {
+          "city": "Waco",
+          "country": "United States",
+          "facility": "Digestive Research of Central Texas",
+          "geoPoint": {
+            "lat": 31.54933,
+            "lon": -97.14667
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "76712"
+        },
+        {
+          "city": "Wichita Falls",
+          "country": "United States",
+          "facility": "Digestive Health Research of North Texas, LLC",
+          "geoPoint": {
+            "lat": 33.91371,
+            "lon": -98.49339
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "76301"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Eccogene",
+          "name": "Eccogene Clinical Trials",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this trial is to evaluate the dose-dependent and comparative effects of ECC4703 (low and high dose), ECC0509 (low and high dose), and their combination on hepatic fat reduction as assessed by change in magnetic resonance imaging proton density fat fraction (MRI-PDFF) at Week 12."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 160,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adults \u226518 years of age who can provide written informed consent and comply with study procedures.\n2. Presumed MASH based on recent liver biopsy (NAFLD activity score \\[NAS\\] \u22654, fibrosis F1-F3) or non-invasive criteria consistent with liver fibrosis (metabolic syndrome plus FibroScan\u00ae liver stiffness 7-14 kPa).\n3. Evidence of hepatic steatosis confirmed by FibroScan\u00ae CAP \\>280 dB/m and MRI-PDFF \\>8% at screening.\n4. BMI \\>25 kg/m\\^2 to \\<50 kg/m\\^2 (non-Asian); BMI \u226523.0 to \\<50.0 kg/m\\^2 (Asian).\n5. ALT \\>1.5\u00d7upper limit of normal (ULN).\n6. Estimated glomerular filtration rate (eGFR) \u226560 mL/min/1.73m\\^2 (Chronic Kidney Disease Epidemiology Collaboration, \\[CKD-EPI\\]).\n7. Stable body weight (no \\>5% change) for at least 6 months prior to screening.\n8. Willing to comply with contraception requirements (as applicable to males and females of childbearing potential).\n9. In the opinion of the investigator, able to participate safely and complete required MRI/biomarker assessments.\n\nExclusion Criteria:\n\nLiver-related:\n\n1. Chronic liver disease other than metabolic dysfunction-associated steatotic liver disease (MASLD)/MASH, including alcoholic liver disease, autoimmune hepatitis, cholestatic disease, genetic liver diseases, or drug-induced liver injury.\n2. Evidence of cirrhosis or hepatic decompensation, including prior ascites, varices, encephalopathy, or laboratory/imaging findings consistent with cirrhosis.\n3. ALT or AST \\>5\u00d7ULN or ALP \\>2\u00d7ULN at screening.\n4. Clinically significant thyroid or adrenal dysfunction, including uncontrolled hypothyroidism, hyperthyroidism, or adrenal disorders.\n5. Type 1 diabetes, HbA1c \\>9.5%, or unstable type 2 diabetes requiring medication changes within 3 months.\n6. Use of medications that affect liver fat or fibrosis (e.g., Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) not on a stable dose, pioglitazone, obeticholic acid, high-dose vitamin E, hepatotoxic drugs) within protocol-specified washout periods.\n7. Significant alcohol use within 1 year prior to screening.\n8. Recent cardiovascular events, including myocardial infraction (MI), stroke, unstable angina, heart failure (New York heart association \\[NYHA III-IV\\]), or uncontrolled arrhythmia.\n9. Current or recent serious psychiatric illness, including psychosis, active suicidal ideation, or suicide attempt within 5 years.\n10. Pregnancy, breastfeeding, or conditions that increase risk or interfere with study procedures, including MRI contraindications or other investigator-determined safety concerns.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of a Thyroid Hormone Receptor Beta Isoform (THR\u03b2) Agonist and an Semicarbazide Sensitive Amine Oxidase (SSAO) Inhibitor, Alone and in Combination, in Adults With Presumed Metabolic Dysfunction-associated Steatohepatitis (MASH)",
+      "nctId": "NCT07288138",
+      "officialTitle": "A Phase 2a, Randomized, Double-blind, Placebo-controlled, Multicenter Study to Assess the Efficacy and Safety of a THR\u03b2 Agonist (ECC4703), an SSAO Inhibitor (ECC0509), and Their Combination in Adults With Presumed MASH",
+      "orgStudyIdInfo": {
+        "id": "EC0010"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Eccogene"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Relative Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC4703 Monotherapy Versus Placebo",
+          "timeFrame": "Baseline and Week 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Absolute Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC4703 Monotherapy Versus Placebo",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Relative Change from Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Absolute Change From Baseline in Liver Fat Content by MRI-PDFF, Comparing ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Percentage of Participants With \u226530%, \u226550%, and \u226570% Relative Reduction and Normalization (<5%) in Liver Fat Content by MRI-PDFF, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change From Baseline in Alanine Aminotransferase (ALT), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Percentage of Participants Achieving \u226517-unit Reduction in ALT, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Week 12"
+        },
+        {
+          "measure": "Percentage of Participants With 30% Reduction in MRI-PDFF, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Aspartate Aminotransferase (AST), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Alkaline Phosphatase (ALP), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Gamma-glutamyl Transferase (GGT), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Fibrosis-4 Index (FIB-4), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in AST to Platelet Ratio Index (APRI), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in FibroScan AST Score (FAST), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Non-alcoholic Fatty Liver Disease (NAFLD) Fibrosis Score (NFS), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Enhanced Liver Fibrosis (ELF) Score, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in MASH Resolution Index, Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in FibroScan Liver Stiffness Measurement (LSM), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in FibroScan Controlled Attenuation Parameter (CAP), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in LSM as Measure by Magnetic Resonance Elastography (MRE), Comparing ECC4703 and ECC0509 Monotherapy Versus Placebo, and the Combination of ECC4703 and ECC0509 Versus Each Component",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Total Cholesterol (TC), Triglycerides (TG), High-density Lipoprotein (HDL), Low-density Lipoprotein (LDL) and Apoprotein B (ApoB)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Lipoprotein(a) (Lp[a]) Profiles",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Hemoglobin A1c (HbA1c)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Fasting Plasma Glucose (FPG)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Fasting Insulin",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Homeostatic Model Assessment of Insulin Resistance (HOMA-IR) Profiles",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Body Weight",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline Body Mass Index (BMI)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Plasma Methylamine",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Cytokeratin-18 (CK-18)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in C-telopeptide of Type III Collagen (CTX-III)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change from Baseline in N-terminal Pro-peptide of Type III Collagen (Pro-C3)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Change in Ratio of Pro-C3",
+          "timeFrame": "Week 12"
+        },
+        {
+          "measure": "Change in Ratio of CTX-III",
+          "timeFrame": "Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Chronic Liver Disease Questionnaire (CLDQ)",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Change from Baseline in Short-form Liver Disease Quality of Life (SF-LDQOL)",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Plasma Concentration of ECC4703 and ECC0509",
+          "timeFrame": "Day 1, Weeks 2, 4, 6, 8, and 12"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Eccogene"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-10-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-12",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-10-16",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-15",
+      "studyFirstSubmitQcDate": "2025-12-15"
+    }
+  }
+}

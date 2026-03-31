@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06994923:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06994923\nBrief title: Weight Management Intervention in College: A Pilot\nOfficial title: Testing a Behavioral Weight Loss Intervention for Emerging Adults Implemented Within College Health Service Centers\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT06994923"
+    },
+    {
+      "chunk_id": "NCT06994923:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity and Overweight\nIntervention labels: BWLI-College; Control\nDrug class labels: \nArms: BWLI-College; Control\nKeywords: obesity; college students; behavioral weight loss intervention; small changes",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06994923"
+    },
+    {
+      "chunk_id": "NCT06994923:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This pilot randomized controlled trial will examine a behavioral weight loss intervention that uses a \"small change\" approach fro emerging adult college students with overweight/obesity. The primary aim is to assess student acceptability and clinically-meaningful weight changes.\nDetailed description: Forty percent of emerging adults (age 18-25) have overweight or obesity, which is unlikely to remit and has significant health consequences. However, emerging adults are underrepresented in traditional weight loss programs, drop-out at high rates, and have blunted weight loss outcomes. One potential way to improve participation is to offer BWLIs in college health service centers to reduce barriers to participation. Approximately 40% of emerging adults are enrolled in a postsecondary institution and college health centers are used widely by students. Moreover, delivering an intervention with design features that are responsive to emerging adult preferences and lifestyles may also improve intervention effectiveness and attractiveness. The \"small change\" (SC) approach to weight loss addresses emerging adult barriers to engagement by focusing on reducing calories through a few self-selected, specific changes to current obesogenic behaviors, requiring less time and effort than traditional behavioral weight loss interventions (BWLI) and promoting autonomy and self-efficacy. The SC approach has been used effectively for weight loss in other populations. This randomized controlled pilot study is part of a larger study that aims to develop and refine a novel and effective BWLI based on a SC approach that is designed for emerging adults and for implementation in college health centers, an accessible care setting. The primary aim of this substudy is to assess acceptability and feasibility of the intervention and to get a preliminary understanding of potential clinical benefit for participants.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 275,
+      "trial_nct_id": "NCT06994923"
+    },
+    {
+      "chunk_id": "NCT06994923:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 29 Years\nAge groups: ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* BMI of 25 or greater\n* Enrolled at college/university where study will take place\n* English-speaking\n\nExclusion Criteria:\n\n* History or current diagnosis of anorexia nervosa, bulimia nervosa, or alcohol use disorder (current symptoms also assessed at screening using validated screening questionnaires)\n* Participation in another formal weight loss program or current utilization of obesity medications\n* Current or recent pregnancy\n* Psychiatric hospitalization in the past 12 months\n* Recent weight loss of 5% body weight or more\n* History of bariatric surgery\n* Severe food or physical activity restrictions that would interfere with treatment recommendations",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 117,
+      "trial_nct_id": "NCT06994923"
+    },
+    {
+      "chunk_id": "NCT06994923:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Acceptability | time_frame=10 weeks | description=Refers to the satisfactory nature of a treatment and will be assessed via the 4-item Acceptability of Intervention Measure. Benchmarks are to reach mean scores of at least 4 out of 5.\ntype=primary | measure=Retention | time_frame=10 weeks | description=Rate of retention of 70% or more (benchmark)\ntype=primary | measure=Adherence | time_frame=10 weeks | description=Average attendance of 75% or more (benchmark)\ntype=primary | measure=Weight Loss | time_frame=10 weeks | description=Average weight loss of at least 3%",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 83,
+      "trial_nct_id": "NCT06994923"
+    },
+    {
+      "chunk_id": "NCT06994923:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-01-20\nPrimary completion date: 2027-03-01\nCompletion date: 2027-04-01\nStudy first posted: 2025-05-29\nResults first posted: None\nLast update posted: 2025-10-01\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06994923"
+    },
+    {
+      "chunk_id": "NCT06994923:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The Miriam Hospital\nLead sponsor class: OTHER\nCollaborators: National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06994923"
+    }
+  ],
+  "trial_nct_id": "NCT06994923"
+}
