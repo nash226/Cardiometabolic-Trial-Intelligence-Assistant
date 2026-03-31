@@ -2314,3 +2314,35 @@ The next step should likely be:
 
 - improving inferred filter presentation from the question itself
 - optionally reintroducing advanced filters later as a secondary or expandable tool
+
+## 47. UI Direction Mockups
+
+### What we built
+
+We created five standalone HTML mockups for the chat-first product direction so the interface can be chosen intentionally before implementation.
+
+The mockups explore different visual and interaction models:
+
+- editorial answer-led layout
+- analyst terminal layout
+- card-based assistant
+- notebook-style research flow
+- compact command center
+
+### Why this matters
+
+The product is shifting from a search-first interface into a chat-first assistant.
+
+That kind of change is easier to evaluate through multiple concrete UI directions than through incremental tweaks to one live template.
+
+### What I learned
+
+- once the backend and retrieval model are stable enough, design exploration becomes much more productive because the product constraints are clear
+- building several sharply different mockups is a better decision tool than polishing one medium-quality layout too early
+
+### What comes next
+
+The next step is:
+
+- choose one mockup direction
+- port its layout and interaction ideas into the real homepage template
