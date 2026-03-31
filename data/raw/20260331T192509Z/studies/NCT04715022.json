@@ -1,0 +1,277 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Saline will be administered over 2 hours",
+          "interventionNames": [
+            "Drug: Saline"
+          ],
+          "label": "Placebo infusion",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Ascorbic acid solution (American Regent Laboratories Inc.) will be obtained from the KU Investigational Pharmacy located in the University of Kansas (KU) Clinical Research Center where studies will take place. A priming bolus of 0.06 g ascorbic acid/kg fat free mass (FFM) dissolved in 100 mL of saline will be infused intravenously at 5 mL/min for 20 minutes, followed immediately by a \"drip-infusion\" of 0.02 g/kg FFM dissolved in 30 mL of saline administered over 2 hours at 0.5 mL/min.",
+          "interventionNames": [
+            "Drug: Ascorbic acid solution (American Regent Laboratories Inc.)"
+          ],
+          "label": "Ascorbic acid infusion",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Ascorbic acid infusion"
+          ],
+          "description": "Ascorbic acid solution (American Regent Laboratories Inc.) will be obtained from the KU Investigational Pharmacy located in the KU Clinical Research Center where studies will take place. A priming bolus of 0.06 g ascorbic acid/kg fat free mass (FFM) dissolved in 100 mL of saline will be infused intravenously at 5 mL/min for 20 minutes, followed immediately by a \"drip-infusion\" of 0.02 g/kg FFM dissolved in 30 mL of saline administered over 2 hours at 0.5 mL/min.",
+          "name": "Ascorbic acid solution (American Regent Laboratories Inc.)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo infusion"
+          ],
+          "description": "Placebo (saline) will be administered",
+          "name": "Saline",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension",
+        "Cardiovascular Diseases"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "sholwerda@kumc.edu",
+          "name": "Seth Holwerda, PhD",
+          "phone": "9729223230",
+          "role": "CONTACT"
+        },
+        {
+          "email": "mclark16@kumc.edi",
+          "name": "Manuel Clark, MPA",
+          "phone": "913-945-5763",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Kansas City",
+          "contacts": [
+            {
+              "email": "dclonch@kumc.edu",
+              "name": "Davina Clonch",
+              "phone": "913-226-6009",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mgangwish@kumc.edu",
+              "name": "Megan Gangwish",
+              "phone": "913-444-0949",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Kansas Medical Center",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          },
+          "state": "Kansas",
+          "status": "RECRUITING",
+          "zip": "66160"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Kansas Medical Center",
+          "name": "Seth Holwerda, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The main purpose of research is to examine and understanding the development of hypertension in obese adults with insulin resistance. Findings from our studies will identify unique mechanisms that can be targeted to limit increases in vascular dysfunction and reduce the excessively high prevalence of hypertension and risk for cardiovascular disease (CVD).\n\nThis study is testing the health of the blood vessels and the activity of the nerves that control the blood vessels in adults with insulin resistance. The extent to which ascorbic acid (Vitamin C) improves the function of the blood vessels will be determined. The primary outcome is blood pressure, which is the result of blood vessel health and activity of the nerves, and the reduction in blood pressure that is observed with ascorbic acid."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 23,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Obese: BMI \\>30 m/kg2\n2. Middle-aged: 35-65 years\n3. Participants must be willing and able to discontinue taking any vitamin C or E supplements or omega-3 fatty acids beginning 2 weeks prior.\n4. Able and willing to provide written informed consent\n\nExclusion Criteria:\n\n1. Diabetes mellitus: fasting glucose \\< 1267 mg/dL and/or HbA1c \\< 6.5%\n2. Currently taking a statin or antihypertension medication\n3. Hyperlipidemia: Fasting triglycerides \\< 250 mg/dL\n4. Hypertension: \\<130/80 mmHg\n5. History of heart disease (e.g., myocardial infarction, stent)\n6. History of vascular disease (e.g., bypass, stroke)",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "35 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Sympathetic-vascular Dysfunction in Obesity and Insulin Resistance (Vitamin C Study)",
+      "nctId": "NCT04715022",
+      "officialTitle": "Sympathetic-vascular Dysfunction in Obesity and Insulin Resistance",
+      "orgStudyIdInfo": {
+        "id": "STUDY00146744"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Kansas Medical Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.",
+          "measure": "Efficacy of infusion of ascorbic acid",
+          "timeFrame": "30 minutes"
+        },
+        {
+          "description": "The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.",
+          "measure": "Efficacy of infusion of ascorbic acid",
+          "timeFrame": "60 minutes"
+        },
+        {
+          "description": "The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.",
+          "measure": "Efficacy of infusion of ascorbic acid",
+          "timeFrame": "90 minutes"
+        },
+        {
+          "description": "The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.",
+          "measure": "Efficacy of infusion of ascorbic acid",
+          "timeFrame": "120 minutes"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Kansas Medical Center"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Kansas Medical Center",
+        "investigatorFullName": "Seth Holwerda PhD",
+        "investigatorTitle": "Principal Investigator",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-08-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-04",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-06-17",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-06",
+      "studyFirstPostDateStruct": {
+        "date": "2021-01-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-01-10",
+      "studyFirstSubmitQcDate": "2021-01-14"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07307989:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07307989\nBrief title: Early Statin-Ezetimibe Combination vs. Statin Monotherapy in Stroke With Atherosclerosis\nOfficial title: Early Statin-Ezetimibe Combination vs. Statin Monotherapy to Achieve LDL-C < 70 mg/dL in Recent Ischemic Stroke Patients With Evidence of Atherosclerosis: A Randomized Controlled Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT07307989"
+    },
+    {
+      "chunk_id": "NCT07307989:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Ischemic Stroke; Hypercholesteremia\nIntervention labels: statin + ezetimibe; Statin monotherapy (rosuvastatin or atorvastatin)\nDrug class labels: \nArms: Statin plus ezetimibe; Statin monotherapy\nKeywords: ischemic stroke; hypercholesteremia; statin; ezetimibe",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07307989"
+    },
+    {
+      "chunk_id": "NCT07307989:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study will be conducted at six medical institutions in Taiwan, recruiting patients who visit neurology outpatient clinics or are hospitalized within 30 days after an ischemic stroke.\n\nParticipants will be randomly assigned to either the experimental group (moderate-intensity statin plus ezetimibe) or the control group (moderate- or high-intensity statin).\n\nResearch assistants will screen patients aged 40 or older who have had an ischemic stroke or transient ischemic attack within 30 days, have atherosclerosis, and have LDL-C levels \u2265100 mg/dL. Eligible cases will be reviewed by the attending physician. With physician approval, patients will be invited to join the study, and those who agree and sign informed consent will be enrolled.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 116,
+      "trial_nct_id": "NCT07307989"
+    },
+    {
+      "chunk_id": "NCT07307989:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 20 Years\nMaximum age: 100 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* (1) clinical diagnosis of ischemic stroke or TIA; (2) Stroke or TIA symptoms and randomized within 30 days, then taking assigned medication within 2 days of randomization; (3) aged 20 years or older; (4) LDL-C \u2265 100 mg/dL after index ischemic stroke or TIA; (5) having evidence of atherosclerosis.\n\nExclusion Criteria:\n\n* (1) end stage renal disease because there is no clear benefit of LDL-C lowering therapy in these patients; (2) history of statin intolerance; (3) history of ezetimibe intolerance; or (4) ALT \\> 100 U/L.(5) Statins were regularly used before stroke. (6) Ezetimibe was used before stroke.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 119,
+      "trial_nct_id": "NCT07307989"
+    },
+    {
+      "chunk_id": "NCT07307989:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=LDL-C levels < 70 mg/dL | time_frame=6 months after randomization\ntype=secondary | measure=LDL-C levels < 70 mg/dL | time_frame=3 months",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT07307989"
+    },
+    {
+      "chunk_id": "NCT07307989:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-08-01\nPrimary completion date: 2029-07-31\nCompletion date: 2029-07-31\nStudy first posted: 2025-12-29\nResults first posted: None\nLast update posted: 2025-12-30\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07307989"
+    },
+    {
+      "chunk_id": "NCT07307989:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Chang Gung Memorial Hospital\nLead sponsor class: OTHER\nCollaborators: Chang Gung University\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT07307989"
+    }
+  ],
+  "trial_nct_id": "NCT07307989"
+}

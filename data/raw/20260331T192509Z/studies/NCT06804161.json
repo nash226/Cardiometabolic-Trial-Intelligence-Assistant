@@ -1,0 +1,206 @@
+{
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: SGLT2"
+          ],
+          "label": "SGLT2 Arm",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "SGLT2 Arm"
+          ],
+          "description": "10 mg",
+          "name": "SGLT2",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "1 tablet",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Hypertension"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "cvro@uksh.de",
+          "name": "Ingo Eitel, Prof. Dr.",
+          "phone": "045150044542",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Elias Rawish, Dr.",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "L\u00fcbeck",
+          "contacts": [
+            {
+              "name": "Ingo Eitel, Prof. Dr. med.",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Thomas Stiermaier, Dr.med",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Universit\u00e4t zu L\u00fcbeck",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          },
+          "state": "Schleswig-Holstein",
+          "status": "RECRUITING",
+          "zip": "23538"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Universit\u00e4tsklinikum Schleswig-Holstein - Campus L\u00fcbeck",
+          "name": "Ingo Eitel, Prof. Dr.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Hypertension (HTN) is a leading cause of cardiovascular disease (CVD). Despite existing therapies, patients with HTN still face substantial risks, due to pre-existing and ongoing end-organ damage due, in part, to inadequate blood pressure (BP) control. SGLT2 inhibitors (SGLT2i) are recommended for both type-2 diabetes and heart failure to reduce morbidity and mortality. SGLT2i reduce BP and might also improve outcomes for HTN by reducing end-organ damage through diverse other actions. However, confirmation that SGLT2i are clinically useful for the management of HTN is required to change guidelines and clinical practice."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 3000,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u226560 years\n2. Systolic blood pressure \\>140 mmHg or diastolic blood pressure \\>90 mmHg in two measurements on different days for newly diagnosed hypertension, or through one measurement at the screening visit for patients with an existing diagnosis of hypertension.\n3. A history of at least one CV event (myocardial infarction\\* or stroke\\*; stable angina or clinical evidence of coronary heart disease; peripheral arterial disease; transient ischemic attack)\n\nor\n\nThe presence of at least one cardiovascular risk factor (current smoking of more than one cigarette per day during at least 1 year; LDL-cholesterol \\> 4,0 mmol/l, Age \u2265 75 years, ESC HeartScore \\> 15%, BMI \\> 32 kg/m2)\n\n\\*excluding patients with myocardial infarction or stroke within preceding 3 months\n\nExclusion Criteria:- Known secondary cause of hypertension\n\n* Myocardial infarction or stroke within the previous 3 months\n* Symptomatic heart failure (including HFrEF, HFmEF, HFpEF)\n* History of Diabetes mellitus\n* History of ketoacidosis\n* Hepatic impairment (aspartate transaminase \\[AST\\] or alanine transaminase \\[ALT\\] \\>3x the upper limit of normal \\[ULN\\])\n* eGFR \\<25 mL/min/1.73 m2 (CKD-EPICr 2021 formula) at Visit 1\n* Receiving therapy with an SGLT2i within 8 weeks prior to randomization or previous intolerance to an SGLT2i\n* Participation in another clinical study with an investigational product during the last month prior to enrolment\n* Known allergy or hypersensitivity to SGLT2i\n* Women who are pregnant, nursing, or who plan to become pregnant while in the trial\n* Any medical condition - outside the renal and CV disease area - with a life expectancy of less than 2 years based on investigator's clinical judgement\n* Active malignancy requiring treatment at the time of visit 1 (with the exception of successfully treated basal cell or treated squamous cell carcinoma)\n* Inability to give informed consent",
+      "healthyVolunteers": false,
+      "minimumAge": "60 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "SGLT2-HYPE",
+      "briefTitle": "SGLT2 Inhibition for Cardiovascular Endpoint Reduction in Hypertension",
+      "nctId": "NCT06804161",
+      "officialTitle": "SGLT2 Inhibition for Cardiovascular Endpoint Reduction in Hypertension",
+      "orgStudyIdInfo": {
+        "id": "724154"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Luebeck"
+      }
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "* AE (general)\n* AE leading to treatment discontinuation\n* SAE\n* AE of special interest (AESI): including volume depletion, hypotension, metabolic acidosis and ketoacidosis",
+          "measure": "Safety endpoints",
+          "timeFrame": "7 Years"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Time until first occurrence of",
+          "timeFrame": "7 Years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Prof. Dr. med. Ingo Eitel"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Luebeck",
+        "investigatorFullName": "Prof. Dr. med. Ingo Eitel",
+        "investigatorTitle": "Head of department of medical clinic II",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2032-05-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-15",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2032-05-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-10",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-27",
+      "studyFirstSubmitQcDate": "2025-01-27"
+    }
+  }
+}

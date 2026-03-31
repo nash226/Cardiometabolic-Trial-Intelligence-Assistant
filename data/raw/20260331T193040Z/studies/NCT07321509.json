@@ -1,0 +1,283 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004071",
+          "term": "Digitalis Glycosides"
+        },
+        {
+          "id": "D002298",
+          "term": "Cardenolides"
+        },
+        {
+          "id": "D002301",
+          "term": "Cardiac Glycosides"
+        },
+        {
+          "id": "D002297",
+          "term": "Cardanolides"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004077",
+          "term": "Digoxin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive usual care plus oral digoxin. The initial dose and subsequent dose adjustments will be determined according to creatinine clearance using a web-based digoxin dosing calculator, following a predefined dosing table in the protocol.",
+          "interventionNames": [
+            "Other: Usual Care",
+            "Drug: Digoxin"
+          ],
+          "label": "Digoxin arm",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants assigned to this arm will receive usual care alone, without digoxin or any additional study medication.",
+          "interventionNames": [
+            "Other: Usual Care"
+          ],
+          "label": "Usual care alone",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Digoxin arm",
+            "Usual care alone"
+          ],
+          "description": "Standard clinical care provided according to local practice guidelines. No digoxin or other study-specific medication will be administered.",
+          "name": "Usual Care",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Digoxin arm"
+          ],
+          "description": "Oral digoxin administered in addition to usual care. Dose selection and adjustments will be based on creatinine clearance using a validated online digoxin dosing calculator according to predefined protocol tables.",
+          "name": "Digoxin",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Heart Failure (AHF)"
+      ],
+      "keywords": [
+        "Systolic Heart Failure",
+        "Digoxin",
+        "Quality of Life"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "guillermoliniado@yahoo.com.ar",
+          "name": "Guillermo Ernesto Liniado, MD",
+          "phone": "+5491168615900",
+          "role": "CONTACT"
+        },
+        {
+          "email": "juanalbertogagliardi@gmail.com",
+          "name": "Juan Alberto Gagliardi, MD",
+          "phone": "+5491154013300",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Buenos Aires",
+          "contacts": [
+            {
+              "email": "guillermoliniado@yahoo.com.ar",
+              "name": "Guillermo Liniado, MD",
+              "phone": "+5491168615900",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Argentina",
+          "facility": "Hospital General de Agudos Dr Cosme Argerich",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          },
+          "state": "Buenos Aires F.D.",
+          "status": "RECRUITING",
+          "zip": "1414"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Guillermo Ernesto Liniado, MD",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The DIG-DICA trial is a randomized, controlled, open-label, single-center study designed to evaluate whether adding low-dose digoxin to optimal medical therapy after an episode of acute decompensated heart failure improves patients' clinical status and quality of life. The study enrolls adults with heart failure with reduced ejection fraction (HFrEF) who have recently stabilized after hospitalization or urgent care for decompensation. The primary aim is to determine whether digoxin increases the proportion of patients who are \"Alive and Well\" at 180 days-defined by achieving a Kansas City Cardiomyopathy Questionnaire (KCCQ-12) score \u226575. The trial also explores effects on symptoms, functional capacity, biomarkers, renal function, and major cardiovascular events. The goal is to clarify whether modern low-dose digoxin provides meaningful clinical benefit in contemporary heart failure management.",
+      "detailedDescription": "The DIG-DICA study is a randomized, controlled, open-label, single-center trial designed to evaluate the clinical impact of low-dose digoxin in patients with heart failure with reduced ejection fraction (HFrEF) following an episode of acute decompensation. Despite significant advances in guideline-directed medical therapy (GDMT), many patients continue to experience persistent symptoms, recurrent congestion, impaired functional capacity, and reduced quality of life after stabilization. Digoxin, at low serum concentrations, remains a potentially valuable adjunct therapy, but contemporary evidence in the post-decompensation setting is limited.\n\nEligible patients are adults with HFrEF hospitalized or treated in urgent care for acute heart failure decompensation who have achieved clinical stabilization and are receiving standardized GDMT according to current guidelines. Participants are randomized to either continue their usual care alone or receive low-dose digoxin in addition to standard therapy. The dosing strategy aims to achieve low therapeutic concentrations consistent with current safety recommendations.\n\nThe primary outcome is the proportion of patients who are \"Alive and Well\" at 180 days, defined as achieving a Kansas City Cardiomyopathy Questionnaire (KCCQ-12) score \u226575. Secondary assessments include changes in symptoms, functional capacity (6-minute walk test and timed walk), N-terminal pro-B-type natriuretic peptide (NT-proBNP), renal function, and other markers of clinical course. Exploratory analyses evaluate the incidence of major cardiovascular events, including cardiovascular death, hospitalizations for heart failure, and urgent visits for decompensation.\n\nThis study seeks to provide contemporary evidence on whether the addition of low-dose digoxin after an acute heart failure episode can meaningfully improve medium-term clinical status, patient-reported outcomes, and stability in routine practice. The results are intended to clarify the role of digoxin as a practical, accessible, and low-cost adjunct in the modern management of HFrEF."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two-arm parallel assignment with 1:1 randomization to low-dose digoxin plus usual care versus usual care alone",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "There is no masking"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female \u2265 18 years of age who have signed written informed consent and are willing and able to complete treatment and follow-up.\n2. Recent hospitalization or emergency department visit for decompensated heart failure with reduced ejection fraction (HFrEF) (LVEF \u2264 40%).\n3. Resting heart rate \u2265 60 bpm in patients without a pacemaker.\n4. Distance walked on the 6-minute walk test (6MWT) \u2264 450 meters and/or less than 80% of the predicted value.\n5. NT-proBNP \u2265 450 pg/mL, or \u2265 900 pg/mL in patients with atrial fibrillation, and/or echocardiographic criteria of congestion\n\n   \\-\n\nExclusion Criteria:\n\n1. Resting heart rate \\< 60 bpm in sinus rhythm or \\< 70 bpm in atrial fibrillation.\n2. Myocardial infarction, acute coronary syndrome, myocarditis, percutaneous coronary intervention, or recent implantation (within the past 3 months) of cardiac resynchronization therapy (CRT), pacemaker, or implantable cardioverter-defibrillator (ICD); cardiac surgery or stroke within the past 30 days.\n3. Estimated glomerular filtration rate (eGFR) \u2264 30 mL/min/1.73 m\u00b2 (based on a sample obtained within the previous month).\n4. Presence of a mechanical ventricular assist device.\n5. Planned implantation of a ventricular assist device or cardiac transplantation.\n6. Non-cardiac comorbidities with a limited life expectancy (less than or equal to the study duration).\n7. Non-cardiac conditions (neurological or orthopedic) preventing performance of the 6-minute walk test (6MWT).\n8. Body mass index (BMI) \u2265 35 kg/m\u00b2.\n9. Amyloid, hypertrophic obstructive, or constrictive cardiomyopathy.\n10. Presence of an accessory atrioventricular conduction pathway (e.g., Wolff-Parkinson-White syndrome).\n11. History of symptomatic or sustained ventricular tachyarrhythmia (\u2265 30 seconds).\n12. Intermittent complete atrioventricular block or Mobitz type II second-degree AV block without pacemaker or ICD.\n13. Severe aortic valvular disease (grade III/III) with indication for invasive treatment.\n14. Complex congenital heart disease.\n15. Known hypersensitivity to digoxin (including prior adverse reactions).\n16. Current treatment with digoxin.\n17. Participation in another clinical trial (excluding observational registries).\n18. Pregnant or breastfeeding women, or women with the potential to become pregnant during the study period.\n\n    \\-",
+      "genderBased": true,
+      "healthyVolunteers": false,
+      "maximumAge": "120 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "DIG-DICA",
+      "briefTitle": "Digoxin After Acute Heart Failure",
+      "nctId": "NCT07321509",
+      "officialTitle": "Digoxina After Acute Hearte Failure",
+      "orgStudyIdInfo": {
+        "id": "16824"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Hospital General de Agudos \"Dr. Cosme Argerich\""
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "\"Well and alive\" is defined as the participant being alive and having a quality-of-life score \u226575 on a 0-100 scale at the specified follow-up time point.\n\nThe primary outcome is the proportion of participants who meet both criteria (alive and QoL \u226575) at 180 days after index hospital discharge.",
+          "measure": "Proportion of participants who are \"well and alive\" (alive and with quality-of-life score \u226575)",
+          "timeFrame": "180 days"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Hospital General de Agudos \"Dr. Cosme Argerich\""
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Guillermo Liniado"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Hospital General de Agudos \"Dr. Cosme Argerich\"",
+        "investigatorFullName": "Guillermo Liniado",
+        "investigatorTitle": "Physician",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-12-16",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-26",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-16",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-09",
+      "studyFirstSubmitQcDate": "2025-12-26"
+    }
+  }
+}

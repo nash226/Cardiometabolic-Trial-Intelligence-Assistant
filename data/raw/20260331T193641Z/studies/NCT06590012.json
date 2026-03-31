@@ -1,0 +1,377 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D002340",
+          "term": "Carotid Artery Diseases"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Tertinat"
+          ],
+          "label": "Tertinat",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Participants will take the placebo capsules in addition to standard treatment for a year.",
+          "name": "Placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Tertinat"
+          ],
+          "description": "Participants will take Tertinat capsules in addition to standard treatment for a year.",
+          "name": "Tertinat",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atherosclerosis",
+        "Atheroscleroses, Coronary",
+        "Carotid Atherosclerosis"
+      ],
+      "keywords": [
+        "atherosclerosis",
+        "lipoproteins",
+        "coronary atherosclerosis",
+        "carotid atherosclerosis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "nshakhpazyan@gmail.com",
+          "name": "Nikolay Shakhpazyan, PhD; Dr.",
+          "phone": "+79168244496",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Alikhan Asoyan",
+          "phone": "+79772667620",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Moscow",
+          "contacts": [
+            {
+              "email": "varvaraao@gmail.com",
+              "name": "Varvara A Orekhova, MD",
+              "phone": "+79629325095",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alexander N Orekhov, PhD, DSc",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Nikita G Nikiforov, BSc",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Russia",
+          "facility": "Institute for Atherosclerosis Research",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          },
+          "status": "RECRUITING",
+          "zip": "121609"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this clinical trial is to evaluate whether the biologically active food supplement, Tertinat, can influence atherosclerosis progression in adults and improve the treatment outcomes of cardiovascular diseases. The study will assess the frequency of fatal and clinically significant cardiovascular events, monitored every 12 months following participants\\&#39; inclusion in the trial.\n\nAdditionally, the trial will evaluate Tertinat's ability to prevent pro-atherogenic modification of lipoproteins and its impact on inflammatory activity. To this end, levels of desialylated low-density lipoproteins (LDL) and inflammatory markers in the blood will be monitored. Tertinat administration will occur alongside the standard therapy prescribed to patients based on their existing medical conditions.\n\nResearchers will compare the effects of the Tertinat supplement to a placebo (an identical-looking substance that does not contain the active supplement) to determine if Tertinat is effective in reducing cardiovascular events .\n\nParticipants will:\n\nTake either Tertinat or a placebo daily for a duration of 24 months. Visit the clinic once a year for check-ups and testing."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A randomized controlled trial with two parallel groups of participants",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "A randomized, double-blinded, placebo-controlled trial",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 556,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with cardiovascular disease disease of atherosclerotic origin, requiring hospitalization and treatment hospital conditions. Cardiovascular diseases may include the following nosology: Coronary heart disease; Atherosclerosis. Diseases include (and/or) atherosclerotic lesions of the coronary arteries, brachiocephalic arteries, limb arteries, renal arteries requiring surgical revascularization.\n* Patients who have undergone a complex of necessary by current standards for their disease instrumental and laboratory examinations, including ECG, severity assessment vascular stenosis (ultrasound, CT, angiography), including large arteries, brachiocephalic arteries, femoral arteries, biochemical blood test assessing the level of general cholesterol, triglycerides, lipoproteins low density, high lipoprotein density, glucose level.\n* Possibility of monitoring the patient - Possibility every 12 months call the patient for questioning and examination.\n* The patient has signed informed consent.\n\nExclusion Criteria:\n\n* Critical and urgent cardiovascular conditions: tissue ischemia stage III-IV, stroke, acute coronary syndrome, myocardial infarction, chronic heart failure III and IV class NYHA (New York Heart Association).\n* Other critical and urgent conditions not associated with cardiovascular diseases, including the need for urgent interventions, chronic renal failure stages IV-V (creatinine clearance \\< 30 ml / min according to the Cockcroft-Gault Equation)\n* Systemic autoimmune diseases in medical history, including: rheumatoid arthritis, systemic lupus erythematosus, autoimmune thyroiditis, autoimmune vasculitis, ulcerative colitis.\n* Significant weight loss (\\> 10% of body weight in the previous year) of unknown etiology.\n* Conditions that limit adherence to participation in the study (dementia, neuropsychiatric diseases, drug addiction, alcoholism, etc.).\n* Participation in other clinical studies (or use of investigational substances) within 3 months prior to study entry.\n* Carriers of HIV or viral hepatitis\n* Pregnancy or breast feeding\n* Refusal to participate in the study.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "45 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "TERACAD",
+      "briefTitle": "Evaluating the Impact of &#39;Tertinat&#39; on Patients with Atherosclerosis-Related Cardiovascular Diseases",
+      "nctId": "NCT06590012",
+      "officialTitle": "Prospective, Double-blind, Comparative Randomized Placebo-controlled Multicenter Study Evaluating the Impact of Oral Administration of the Peroral Supplement &#34;Tertinat&#34; with Dosage of 330 Mg/day for Patients with Cardiovascular Diseases, the Cause of Which is Atherosclerosis, on the Background of Standard Treatment.",
+      "orgStudyIdInfo": {
+        "id": "Ter-07082024"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Institute for Atherosclerosis Research, Russia"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Fatal cardiovascular events include: death from myocardial infarction, other forms of coronary heart disease (CHD), stroke, including sudden death and death within 24 hours of symptom onset, death from other non-coronary cardiovascular diseases except definitely non-atherosclerotic causes of death.",
+          "measure": "Frequency of fatal cardiovascular events",
+          "timeFrame": "Evaluated in 12 months from revascularization interventions"
+        },
+        {
+          "description": "Clinically significant cardiovascular events include: acute myocardial infarction and acute coronary syndrome, acute cerebrovascular accident, progressive heart failure, hospitalization due to critical limb ischemia.",
+          "measure": "Frequency of clinically significant cardiovascular events",
+          "timeFrame": "Evaluated in 12 months from revascularization interventions"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in the severity of stenosis of the affected due to the underlying disease and/or carotid and femoral arteries according to ultrasound examination",
+          "timeFrame": "Evaluated in 12 months"
+        },
+        {
+          "measure": "Atherogenicity changes in serum blood",
+          "timeFrame": "Evaluated in 12 months"
+        },
+        {
+          "measure": "Changes in LDL sialic acid levels",
+          "timeFrame": "Evaluated in 12 months"
+        },
+        {
+          "measure": "Changes in lipid profile indicators (total cholesterol, HDL cholesterol, triglycerides, LDL cholesterol - calculated value)",
+          "timeFrame": "Evaluated in 12 months"
+        },
+        {
+          "measure": "Changes in circulating immune complex cholesterol levels",
+          "timeFrame": "Evaluated in 12 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Mezentsev A, Bezsonov E, Kashirskikh D, Baig MS, Eid AH, Orekhov A. Proatherogenic Sialidases and Desialylated Lipoproteins: 35 Years of Research and Current State from Bench to Bedside. Biomedicines. 2021 May 25;9(6):600. doi: 10.3390/biomedicines9060600.",
+          "pmid": "34070542",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Liu Y, Zhang H, Dai X, Zhu R, Chen B, Xia B, Ye Z, Zhao D, Gao S, Orekhov AN, Zhang D, Wang L, Guo S. A comprehensive review on the phytochemistry, pharmacokinetics, and antidiabetic effect of Ginseng. Phytomedicine. 2021 Nov;92:153717. doi: 10.1016/j.phymed.2021.153717. Epub 2021 Sep 10.",
+          "pmid": "34583224",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Simental-Mendia LE, Shah N, Sathyapalan T, Majeed M, Orekhov AN, Jamialahmadi T, Sahebkar A. Effect of Curcumin on Glycaemic and Lipid Parameters in Polycystic Ovary Syndrome: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Reprod Sci. 2022 Nov;29(11):3124-3133. doi: 10.1007/s43032-021-00761-6. Epub 2021 Oct 15.",
+          "pmid": "34655047",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "P Karagodin V, I Summerhill V, Yet SF, Orekhov AN. The Anti-atherosclerotic Effects of Natural Polysaccharides: From Phenomena to the Main Mechanisms of Action. Curr Pharm Des. 2022;28(22):1823-1832. doi: 10.2174/1381612828666220518095025.",
+          "pmid": "35585810",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Glanz V, Bezsonov EE, Soldatov V, Orekhov AN. Thirty-Five-Year History of Desialylated Lipoproteins Discovered by Vladimir Tertov. Biomedicines. 2022 May 19;10(5):1174. doi: 10.3390/biomedicines10051174.",
+          "pmid": "35625910",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Markina YV, Kirichenko TV, Markin AM, Yudina IY, Starodubova AV, Sobenin IA, Orekhov AN. Atheroprotective Effects of Glycyrrhiza glabra L. Molecules. 2022 Jul 22;27(15):4697. doi: 10.3390/molecules27154697.",
+          "pmid": "35897875",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Hassanizadeh S, Shojaei M, Bagherniya M, Orekhov AN, Sahebkar A. Effect of nano-curcumin on various diseases: A comprehensive review of clinical trials. Biofactors. 2023 May-Jun;49(3):512-533. doi: 10.1002/biof.1932. Epub 2023 Jan 6.",
+          "pmid": "36607090",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Dabravolski SA, Sukhorukov VN, Melnichenko AA, Khotina VA, Orekhov AN. Oligosaccharides as Potential Therapeutics against Atherosclerosis. Molecules. 2023 Jul 17;28(14):5452. doi: 10.3390/molecules28145452.",
+          "pmid": "37513323",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Dabravolski SA, Sukhorukov VN, Melnichenko AA, Khotina VA, Orekhov AN. Potential Application of the Plant-Derived Essential Oils for Atherosclerosis Treatment: Molecular Mechanisms and Therapeutic Potential. Molecules. 2023 Jul 26;28(15):5673. doi: 10.3390/molecules28155673.",
+          "pmid": "37570643",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Poznyak AV, Kashirskikh DA, Postnov AY, Popov MA, Sukhorukov VN, Orekhov AN. Sialic acid as the potential link between lipid metabolism and inflammation in the pathogenesis of atherosclerosis. Braz J Med Biol Res. 2023 Dec 11;56:e12972. doi: 10.1590/1414-431X2023e12972. eCollection 2023.",
+          "pmid": "38088673",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Orekhov A, Sukhorukov V, Melnichenko A. Is Oxidized Low-Density Lipoprotein a Principal Actor in Atherogenesis? Curr Med Chem. 2024;31(42):6909-6910. doi: 10.2174/0109298673283640231208103306. No abstract available.",
+          "pmid": "38185888",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Orekhov A, Khotina V, Sukhorukov V, Sobenin I. Non-oxidative vs Oxidative Forms of Modified Low-density Lipoprotein: What is More Important in Atherogenesis? Curr Med Chem. 2024;31(17):2309-2313. doi: 10.2174/0109298673294245240102105814. No abstract available.",
+          "pmid": "38204226",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Orekhov AN. We Must Abandon the Myth: Oxidized Low-density Lipoprotein is not a Lipoprotein that Plays a Key Role in Atherogenesis. Curr Med Chem. 2025;32(15):2899-2914. doi: 10.2174/0109298673301236240311113807.",
+          "pmid": "38494931",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Poznyak AV, Yakovlev AA, Popov Mcapital A, Cyrillic, Zhuravlev AD, Sukhorukov VN, Orekhov AN. WITHDRAWN: Coronary atherosclerotic plaque regression strategies. J Biomed Res. 2024 May 29:1-21. doi: 10.7555/JBR.37.20230223. Online ahead of print.",
+          "pmid": "38808553",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kashirskikh D, Chicherina N, Glanz V, Orekhov A, Sobenin I. Mouse Model of Low-density Lipoprotein Desialylation In Vivo. Curr Med Chem. 2024 May 31. doi: 10.2174/0109298673294745240528092506. Online ahead of print.",
+          "pmid": "38831578",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Institute for Atherosclerosis Research, Russia"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-03-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-09-06",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-08-29",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-08-29",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-09",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-08-30",
+      "studyFirstSubmitQcDate": "2024-09-06"
+    }
+  }
+}

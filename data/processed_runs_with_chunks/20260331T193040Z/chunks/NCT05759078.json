@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05759078:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05759078\nBrief title: Effect of INtravenous FERRic Carboxymaltose Onmortality and Cardiovascular Morbidity, and Quality of Life in Iron Deficient Patients With Recent Myocardial infarCTion\nOfficial title: Effect of INtravenous FERRic Carboxymaltose Onmortality and Cardiovascular Morbidity, and Quality of Life in Iron Deficient Patients With Recent Myocardial infarCTion SUBTITLE Prevention of Cardiovascular Death, Heart Failure Events and Deterioration in Quality of Life With INtravenous FERRic Carboxymaltose in Iron Deficient Patients With Recent Myocardial Infarction\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 83,
+      "trial_nct_id": "NCT05759078"
+    },
+    {
+      "chunk_id": "NCT05759078:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Myocardial Infarction, Acute\nIntervention labels: Ferinject; Sodium Chloride 0.9% Inj\nDrug class labels: \nArms: Active; Placebo\nKeywords: Myocardial infarction; acute; iron deficiency; Infusion; ferric carboxymaltose",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05759078"
+    },
+    {
+      "chunk_id": "NCT05759078:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Non-commercial, multicentre, randomised, double-blind, parallel group, placebo-controlled clinical trial. Eligible patients were randomly assigned (1:1) using a secure, central, interactive, web-based response system, to intervention FCM or placebo arm. Time of observation: minimum of 8 months up to a maximum of 36 months.\n\nPrimary Study Objective: Primary:\n\nEvaluation of the effect of i.v. FCM treatment compared with placebo on the risk of death, the risk of heart failure events (HFE\\*) (number of events and time to first event), NTproBNP concentration and the change in quality of life (QoL) assessed using EQ-5D during the follow-up up to 36-months in patients with recent AMI and ID (with an implementation of a win ratio approach in a hierarchical descending order).\n\n\\*HFE: unplanned hospitalization for HF (including unplanned visit at emergency department due to HF), ambulatory significant intensification of diuretic therapy (either starting i.v. loop diuretic or more than doubling oral loop diuretic dose or de novo initiation of oral loop diuretic therapy due to HF signs/symptoms).\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 168,
+      "trial_nct_id": "NCT05759078"
+    },
+    {
+      "chunk_id": "NCT05759078:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 90 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion criteria:\n\n1. Age \u226518 years;\n2. Diagnosis of AMI (STEMI or NSTEMI) up to 4 weeks (28 days) before randomisation\n3. Presence of iron deficiency (ID) defined as transferrin saturation TSAT\\<20% assessed within up to 4 weeks (28 days) before randomisation;\n4. Presence of \u22653 factors (confirmed within up to 4 weeks before randomisation) (note: at least one of a-c must be present):\n\n   1. LVEF \u226450%;\n   2. NT-proBNP \u2265400 pg/mL for subjects in sinus rhythm and NT-proBNP \u2265800 pg/mL for subjects with atrial fibrillation;\n   3. Clinical features of congestion/volume overload (including Killip class II or more) requiring i.v. loop diuretic use;\n   4. Diagnosis of diabetes mellitus (also de novo diagnosis);\n   5. Diagnosis of atrial fibrillation (any time in the past or de-novo diagnosis);\n   6. Multivessel coronary disease (regardless of completeness of revascularisation during an index AMI);\n   7. Not complete revascularisation or/and no reperfusion (during an index AMI);\n   8. History of AMI (despite an index AMI);\n   9. eGFR \\<60 mL/min/1.73m2; 1. Age \u226570 years.\n5. Written informed consent\n\nExclusion criteria:\n\n1. Subject temperature \\>38 \u0366 C or any infection requiring antibiotic therapy within 48 hours prior to randomisation;\n2. Severe, symptomatic valve disorder;\n3. Urgent hospitalisation for whatever reasons (percutaneous/surgical procedure requiring hospitalisation within 4 weeks prior to randomisation).\n4. Body weight \\<50 kg;\n5. Haemoglobin \\<8 g/dL or \\>15,5 g/dL;\n6. Serum ferritin \\>400 ng/mL;\n7. Active gastroenteral bleeding;\n8. Known hypersensitivity to any of the administered preparations;\n9. Treatment with erythropoiesis stimulating factors, i.v. iron therapy or blood transfusion within 6 months prior to randomisation;\n10. Subject has known active malignancy of any organ system, i.e., clinical evidence of current malignancy or not in stable remission for at least 3 years since completion of last treatment with exception of non-invasive basal cell carcinoma, squamous cell carcinoma of the skin or cervical intra-epithelial neoplasia;\n11. Documented liver diseases;\n12. Participation in a device or drug trial within 3 months prior to randomisation or 5 half-lives, whichever period is longer, prior to the screening visit;\n13. Pregnancy or lactation;\n14. Any situation that may prevent the test from being performed in accordance with the protocol, or the consent of the investigator to be given in writing, including alcohol, drugs or any other substance overuse or addiction.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 394,
+      "trial_nct_id": "NCT05759078"
+    },
+    {
+      "chunk_id": "NCT05759078:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to all-cause death assessed up to maximum 36-months follow-up; | time_frame=up to 36 months | description=Defined as: (with an implementation of a win ratio approach in a hierarchical descending order):\n\n1. Time to all-cause death assessed up to maximum 36-months follow-up;\n2. Number of HFE assessed up to maximum 36-months follow-up;\n3. Time to first HFE assessed up to maximum 36-months follow-up;\n4. Changes in serum NT-proBNP concentration from the start of the follow-up to the end of participation in the study assessed as the area under the curve;\n5. Changes in quality of life (QoL) measured using the EQ-5D questionnaire from the start of the follow-up to the end of participation in the study assessed as the area under the curve.\n\n   * HFE: unplanned hospitalization for HF (including unplanned visit at emergency department due to HF), ambulatory significant intensification of diuretic therapy (either starting i.v. loop diuretic or more than doubling oral loop diuretic dose or de novo initiation of oral loop diuretic therapy due to HF signs/symptoms).\ntype=primary | measure=Number of HFE assessed up to maximum 36-months follow-up | time_frame=up to 36 months | description=Number of HFE\ntype=primary | measure=Time to first HFE assessed up to maximum 36-months follow-up | time_frame=up to 36 months | description=Time to first HFE\ntype=primary | measure=Changes in serum NT-proBNP concentration from the start of the follow-up to the end of participation in the study assessed as the area under the curve | time_frame=up to 36 months | description=Changes in serum NT-proBNP\ntype=primary | measure=Changes in quality of life (QoL) measured using the EQ-5D questionnaire from the start of the follow-up to the end of participation in the study assessed as the area under the curve | time_frame=up to 36 months | description=Changes in quality of life\ntype=secondary | measure=First unplanned HF hospitalisation or unplanned visit at emergency department due to HF or CV death during the follow-up (time-to-event model) | time_frame=up to 36 months | description=First unplanned HF hospitalisation or unplanned visit at emergency\ntype=secondary | measure=All unplanned HF hospitalisations and unplanned visit at emergency department due to HF and CV death during the follow-up (recurrent event model); | time_frame=up to 36 months | description=All unplanned HF hospitalisations and unplanned visit at emergency\ntype=secondary | measure=All unplanned HF hospitalisations and unplanned visit at emergency department due to HF during the follow-up (recurrent event model) | time_frame=up to 36 months | description=All unplanned HF hospitalisations and unplanned visit at emergency department\ntype=secondary | measure=All unplanned HF hospitalisations during the follow-up (recurrent event model); | time_frame=up to 36 months | description=All unplanned HF hospitalisations\ntype=secondary | measure=CV death during the follow-up | time_frame=up to 36 months | description=CV death\ntype=other | measure=First unplanned CV hospitalisation or CV death during the follow-up (time-to-event model); | time_frame=up to 36 months | description=First unplanned CV hospitalisation or CV death during the follow-up\ntype=other | measure=All unplanned CV hospitalisations and CV death during the follow-up (recurrent event model); | time_frame=up to 36 months | description=All unplanned CV hospitalisations and CV death during the follow-up\ntype=other | measure=All unplanned CV hospitalisations during the follow-up (recurrent event model); | time_frame=up to 36 months | description=All unplanned CV hospitalisations during the follow-up (recurrent event model);\ntype=other | measure=Non-CV death during the follow-up | time_frame=up to 36 months | description=Non-CV death during the follow-up\ntype=other | measure=All-cause death during the follow-up up | time_frame=up to 36 months | description=All-cause death during the follow-up\ntype=other | measure=Ambulatory significant intensification of diuretic therapy during the follow-up | time_frame=up to 36 months | description=Ambulatory significant intensification of diuretic therapy (either starting i.v. loop diuretic or more than doubling oral loop diuretic dose or de novo initiation of oral loop diuretic therapy due to HF signs/symptoms) during the follow-up.\ntype=other | measure=Changes in serum NT-proBNP concentration assessed as the area under the curve during the follow-up; | time_frame=up to 36 months | description=Changes in serum NT-proBNP concentration assessed as the area under the curve during the follow-up;\ntype=other | measure=Changes in quality of life (QoL) measured using the EQ-5D questionnaire assessed as the area under the curve during the follow-up; | time_frame=up to 36 months | description=Changes in quality of life (QoL) measured using the EQ-5D questionnaire assessed as the area under the curve during the follow-up;\ntype=other | measure=Cost-effectiveness measures during the follow-up | time_frame=up to 36 months | description=Cost-effectiveness measures during the follow-up.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 732,
+      "trial_nct_id": "NCT05759078"
+    },
+    {
+      "chunk_id": "NCT05759078:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-09-22\nPrimary completion date: 2026-12-31\nCompletion date: 2026-12-31\nStudy first posted: 2023-03-08\nResults first posted: None\nLast update posted: 2025-07-30\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05759078"
+    },
+    {
+      "chunk_id": "NCT05759078:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Wroclaw Medical University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; TERMINATED; RECRUITING; TERMINATED; RECRUITING; TERMINATED; RECRUITING; RECRUITING; TERMINATED; RECRUITING; RECRUITING; TERMINATED; TERMINATED; TERMINATED; RECRUITING; TERMINATED; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT05759078"
+    }
+  ],
+  "trial_nct_id": "NCT05759078"
+}

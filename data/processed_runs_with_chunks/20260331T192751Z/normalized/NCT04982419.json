@@ -1,0 +1,195 @@
+{
+  "arms": [
+    {
+      "description": "3 cycles of blood pressure cuff inflations to occlusive pressure of 200 mmHg for 5 minutes and deflation for 5 minutes",
+      "intervention_names": [
+        "Device: Remote ischemic preconditioning"
+      ],
+      "label": "Remote ischemic preconditioning",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "3 cycles of blood pressure cuff inflations to non-occlusive pressure of 60 mmHg for 5 minutes and deflation for 5 minutes (Control)",
+      "intervention_names": [
+        "Device: Sham remote ischemic conditioning"
+      ],
+      "label": "Sham remote ischemic preconditioning",
+      "type": "SHAM_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Acute Kidney Injury",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Heart Failure",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Contrast Induced Nephropathy",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Coronary Angiography",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Percutaneous Coronary Intervention",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Age 18 years\n* Diagnosis of heart failure with reduced LVEF \\<50%\n* Pre-procedure intravenous normal saline fluid restriction status\n* Society for Cardiovascular Angiography and Interventions (SCAI) AKI risk score (\\>1%)\n* Referral for coronary angiogram and/or PCI\n* Suspected stable coronary artery disease or acute coronary syndrome\n\nExclusion Criteria:\n\n* Inability to give informed consent\n* Unstable BP (SBP \\> 200 or \\<80 mmHg) at the time of enrolment\n* Upper limb peripheral arterial disease\n* Unavailability of at least one arm for RIPC/Sham-RIPC application\n* Kidney transplant\n* Renal disease requiring dialysis\n* Prior exposure to contrast media within 72hrs preceding coronary angiography\n* Pregnancy\n* Prisoner",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Remote ischemic preconditioning"
+      ],
+      "description": "3 cycles of blood pressure cuff inflations to occlusive pressure of 200 mmHg for 5 minutes and deflation for 5 minutes",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Remote ischemic preconditioning",
+      "normalized_name": "remote ischemic preconditioning"
+    },
+    {
+      "arm_group_labels": [
+        "Sham remote ischemic preconditioning"
+      ],
+      "description": "3 cycles of blood pressure cuff inflations to non-occlusive pressure of 60 mmHg for 5 minutes and deflation for 5 minutes (Control)",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Sham remote ischemic conditioning",
+      "normalized_name": "sham remote ischemic conditioning"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "The investigators define contrast-associated acute kidney injury as a relative increase in serum creatinine of 0.3mg/dl compared with initial creatinine at 48 hours time point after coronary angiography and/or PCI. The will obtain levels of serum creatinine at baseline, then at 24 and 48 hours time points.",
+      "measure": "Contrast-associated acute kidney injury",
+      "outcome_type": "primary",
+      "time_frame": "24 and 48 hours time points"
+    },
+    {
+      "description": "At one month follow-up, 6 minute walk test will be used to determine total distance walked in 6 minutes.",
+      "measure": "6 minute walk distance",
+      "outcome_type": "secondary",
+      "time_frame": "1 month"
+    },
+    {
+      "description": "Persistent renal dysfunction, renal replacement therapy, and death will be assessed at 3 months (90 days) to determine major adverse kidney events (MAKE90).",
+      "measure": "Major adverse kidney events",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    },
+    {
+      "description": "BNP is a hormone that is primarily secreted from the ventricular myocardium in response to hemodynamic stimuli such as ventricular volume expansion and pressure overload. The investigators will obtain levels of serum BNP at baseline, then at 24 and 48 hours.",
+      "measure": "Brain Natriuretic Peptide (BNP)",
+      "outcome_type": "secondary",
+      "time_frame": "24 and 48 hours time points"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This is a prospective, double-blind, sham-controlled, multicenter, randomized clinical trial is to study the effects of remote ischemic preconditioning on contrast-associated acute kidney injury, functional capacity, and major adverse kidney events in in patients with congestive heart failure undergoing cardiac catheterization and/or percutaneous coronary intervention.",
+    "brief_title": "Remote Ischemic Preconditioning for Renal and Cardiac Protection in Congestive Heart Failure (RICH) Trial",
+    "collaborator_names": [],
+    "completion_date": "2029-03-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Age 18 years\n* Diagnosis of heart failure with reduced LVEF \\<50%\n* Pre-procedure intravenous normal saline fluid restriction status\n* Society for Cardiovascular Angiography and Interventions (SCAI) AKI risk score (\\>1%)\n* Referral for coronary angiogram and/or PCI\n* Suspected stable coronary artery disease or acute coronary syndrome\n\nExclusion Criteria:\n\n* Inability to give informed consent\n* Unstable BP (SBP \\> 200 or \\<80 mmHg) at the time of enrolment\n* Upper limb peripheral arterial disease\n* Unavailability of at least one arm for RIPC/Sham-RIPC application\n* Kidney transplant\n* Renal disease requiring dialysis\n* Prior exposure to contrast media within 72hrs preceding coronary angiography\n* Pregnancy\n* Prisoner",
+    "detailed_description": "The RICH Trial is a prospective, multicenter, randomized clinical trial to determine the effect of remote ischemic preconditioning on contrast associated acute kidney injury, and to characterize the effect of remote ischemic preconditioning on brain natriuretic peptide, functional capacity at one month, and major adverse kidney events (persistent renal dysfunction, renal replacement therapy, and death) at three months in patients with congestive heart failure with reduced left ventricular ejection fraction undergoing coronary angiography and/or percutaneous coronary intervention.",
+    "drug_class_labels": [],
+    "enrollment_count": 240,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Remote ischemic preconditioning",
+      "Sham remote ischemic conditioning"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Contrast-induced acute kidney injury",
+      "Congestive heart failure",
+      "Contrast induced nephropathy",
+      "Coronary angiography",
+      "Percutaneous coronary intervention",
+      "Coronary artery disease",
+      "Remote ischemic conditioning",
+      "acute coronary syndrome",
+      "Acute kidney injury",
+      "Major adverse kidney events",
+      "Ischemic preconditioning"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-12-15",
+    "lead_sponsor_class": "FED",
+    "lead_sponsor_name": "VA Office of Research and Development",
+    "masking": "SINGLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT04982419",
+    "official_title": "Remote Ischemic Preconditioning for Renal and Cardiac Protection in Congestive Heart Failure (RICH) Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "primary_completion_date": "2028-03-31",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT04982419",
+    "start_date": "2021-11-01",
+    "study_first_posted_at": "2021-07-29",
+    "study_type": "INTERVENTIONAL"
+  }
+}

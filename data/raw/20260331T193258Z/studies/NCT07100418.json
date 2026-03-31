@@ -1,0 +1,253 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: HRS-7249 Injection"
+          ],
+          "label": "HRS-7249 Group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Sodium Chloride Injection"
+          ],
+          "label": "Sodium Chloride Injection Group",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "HRS-7249 Group"
+          ],
+          "description": "HRS-7249 injection.",
+          "name": "HRS-7249 Injection",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Sodium Chloride Injection Group"
+          ],
+          "description": "Sodium chloride injection.",
+          "name": "Sodium Chloride Injection",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hyperlipidemia"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "chanjuan.deng@hengrui.com",
+          "name": "Chanjuan Deng",
+          "phone": "+86-0518-82342973",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Shanghai",
+          "contacts": [
+            {
+              "email": "hxmchest@163.com",
+              "name": "Xumin Hou",
+              "phone": "+86-021-62801105",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Xumin Hou",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "China",
+          "facility": "Shanghai Chest Hospital",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "state": "Shanghai Municipality",
+          "status": "RECRUITING",
+          "zip": "200030"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The study is being conducted to evaluate the efficacy and safety of HRS-7249 for patients with hyperlipidemia, and to explore the reasonable dosage of HRS-7249 for patients with hyperlipidemia."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able and willing to provide a written informed consent.\n2. Age \u2265 18 years old and \\< 80 years old.\n3. Male or female.\n\nExclusion Criteria:\n\n1. Acute pancreatitis within 3 months or within 4 weeks or planned for plasma exchange treatment.\n2. Malignant tumors within 5 years.\n3. Severe cardiovascular or cerebrovascular diseases.\n4. Severe trauma or surgery within 6 months or severe infection within 3 months.\n5. Previous diagnosed diseases affecting lipid levels.\n6. Patients with unstable or severe diseases assessed as at risk by the investigator.\n7. Uncontrolled hypertension.\n8. Weight loss within 2 months or planned surgery causing unstable weight.\n9. Uncontrolled diabetes.\n10. Combined hyperthyroidism or hypothyroidism.\n11. History of drug or alcohol abuse.\n12. Significantly abnormal liver or kidney function.\n13. Significantly abnormal blood routine.\n14. Significantly abnormal thyroid function.\n15. Participated in clinical research within 3 months.\n16. Pregnant or lactating women, or refusing contraception.",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Clinical Study Evaluating the Efficacy and Safety of HRS-7249 in Treating Patients With Hyperlipidemia",
+      "nctId": "NCT07100418",
+      "officialTitle": "A Multicenter, Randomized, Placebo-controlled Phase II Clinical Trial to Evaluate the Efficacy and Safety of HRS-7249 in Patients With Hyperlipidemia",
+      "orgStudyIdInfo": {
+        "id": "HRS-7249-201"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Fujian Shengdi Pharmaceutical Co., Ltd."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The level of triglyceride (TG)",
+          "timeFrame": "About 28 weeks."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Adverse events (AEs)",
+          "timeFrame": "About 48 weeks."
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Fujian Shengdi Pharmaceutical Co., Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-09",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-09",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-08-12",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-09",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-07-27",
+      "studyFirstSubmitQcDate": "2025-07-27"
+    }
+  }
+}

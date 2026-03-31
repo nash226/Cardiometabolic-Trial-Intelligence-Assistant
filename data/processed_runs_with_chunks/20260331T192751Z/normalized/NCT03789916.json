@@ -1,0 +1,156 @@
+{
+  "arms": [
+    {
+      "description": "\"Dual antiplatelet therapy\": acetylsalicylic acid 100 mg/die + ticagrelor 90 mg bis in die",
+      "intervention_names": [
+        "Drug: Ticagrelor",
+        "Drug: acetylsalicylic acid"
+      ],
+      "label": "DAPT",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "\"Single antiplatelet therapy\": acetylsalicylic acid 100 mg/die",
+      "intervention_names": [
+        "Drug: acetylsalicylic acid"
+      ],
+      "label": "SAPT",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Coronary Artery Disease",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* patients undergoing CABG, \u00b1 cardiopulmonary bypass, \u00b1 any associated cardiac procedures (valve replacement,...)\n* incomplete myocardial revascularization, defined by anatomic or functional criteria\n* obtained informed consent\n\nExclusion Criteria:\n\n* acute coronary syndrome \\< 12 months from surgery\n* dual antiplatelet therapy at hospital admission\n* planned procedure to complete myocardial revascularization (e.g. hybrid approach)\n* intolerance / unable to take acetylsalicylic acid or ticagrelor\n* preoperative atrial fibrillation\n* impaired compliance\n* planned pregnancy\n* history of gastrointestinal bleeding\n* chronic kidney disease (eGFR \\< 30 mL/min/1.73 m2)\n* chronic liver disease\n* severe heart failure at hospital admission\n* active malignancy\n* alcohol abuse\n* any clinical condition not compatible with the treatment\n\nExit Criteria:\n\n* postoperative atrial fibrillation requiring anticoagulation\n* postoperative hemorrhagic events (stroke, GI bleeding)\n* occurrence of contraindications to acetylsalicylic acid or ticagrelor\n* surgical treatment requiring DAPT withdrawn\n* patient decision",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "DAPT"
+      ],
+      "description": "90 mg bis in die",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Ticagrelor",
+      "normalized_name": "ticagrelor"
+    },
+    {
+      "arm_group_labels": [
+        "DAPT",
+        "SAPT"
+      ],
+      "description": "100 mg die",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "acetylsalicylic acid",
+      "normalized_name": "acetylsalicylic acid"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "Cardiac-related mortality",
+      "outcome_type": "primary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Overall mortality and non-cardiac-related mortality",
+      "measure": "Mortality",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "cardiac-related mortality, myocardial infarction, repeated vessel revascularization, hospitalization for heart failure, major arrhythmias, stroke",
+      "measure": "Major adverse cardiac and cerebrovascular events (MACCEs)",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "stroke, gastrointestinal bleeding, life-threatening bleeding",
+      "measure": "Major adverse hemorrhagic events (MAHEs)",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The study aims to compare the efficacy of dual antiplatelet therapy (DAPT) over single antiplatelet therapy (SAPT) in patients with incomplete revascularization after coronary artery bypass graft surgery (CABG).\n\nBefore hospital discharge, patients will be 1:1 randomized to SAPT (acetylsalicylic acid 100 mg/die) or DAPT (acetylsalicylic acid 100 mg/die + ticagrelor 90 mg bis in die). DAPT will be continued for 12 months, and ticagrelor will be withdrawn thereafter. Primary endpoint is the evaluation of cardiac-related mortality at 5 years from hospital discharge.",
+    "brief_title": "SAPT Versus DAPT in Incomplete Revascularization After CABG",
+    "collaborator_names": [],
+    "completion_date": "2026-12-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* patients undergoing CABG, \u00b1 cardiopulmonary bypass, \u00b1 any associated cardiac procedures (valve replacement,...)\n* incomplete myocardial revascularization, defined by anatomic or functional criteria\n* obtained informed consent\n\nExclusion Criteria:\n\n* acute coronary syndrome \\< 12 months from surgery\n* dual antiplatelet therapy at hospital admission\n* planned procedure to complete myocardial revascularization (e.g. hybrid approach)\n* intolerance / unable to take acetylsalicylic acid or ticagrelor\n* preoperative atrial fibrillation\n* impaired compliance\n* planned pregnancy\n* history of gastrointestinal bleeding\n* chronic kidney disease (eGFR \\< 30 mL/min/1.73 m2)\n* chronic liver disease\n* severe heart failure at hospital admission\n* active malignancy\n* alcohol abuse\n* any clinical condition not compatible with the treatment\n\nExit Criteria:\n\n* postoperative atrial fibrillation requiring anticoagulation\n* postoperative hemorrhagic events (stroke, GI bleeding)\n* occurrence of contraindications to acetylsalicylic acid or ticagrelor\n* surgical treatment requiring DAPT withdrawn\n* patient decision",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 800,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Ticagrelor",
+      "acetylsalicylic acid"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "coronary artery bypass grafting",
+      "incomplete revascularization",
+      "coronary artery disease",
+      "dual antiplatelet therapy"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2022-07-21",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Campus Bio-Medico University",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT03789916",
+    "official_title": "Single Versus Dual Antiplatelet Therapy in Patients With Incomplete Revascularization After Coronary Artery Bypass Graft Surgery",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE3"
+    ],
+    "primary_completion_date": "2021-08-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT03789916",
+    "start_date": "2019-01-02",
+    "study_first_posted_at": "2018-12-31",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000081029",
+          "term": "Pulmonary Arterial Hypertension"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Assigned treatment: double oral (background therapy consisting of 1 endothelin receptor antagonist ERA and 1 phosphodiesterase type-5 inhibitor PDE-5i) with subcutaneous (SC)/intravenous (IV) treprostinil on top",
+          "interventionNames": [
+            "Drug: Generic treprostinil sodium + Standard of Care (Double Oral)",
+            "Drug: Standard of Care - Double Oral"
+          ],
+          "label": "Initial triple therapy",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "double oral (background therapy consisting of 1 endothelin receptor antagonist ERA and 1 phosphodiesterase type-5 inhibitor PDE-5i)",
+          "interventionNames": [
+            "Drug: Standard of Care - Double Oral"
+          ],
+          "label": "\u2022 Initial double therapy",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Initial triple therapy"
+          ],
+          "description": "Treprostinil (prostacyclin analogue) solution for continuous subcutaneous (SC) or intravenous (IV) infusion (1 mg/ml; 2.5 mg/ml; 5 mg/ml; 10 mg/ml in 10 mL glass vial) will be administered by an infusion pump system and up-titrated to \u226540 ng/kg/min or to the maximum tolerated dose within 24 weeks. Further up-titration shall be performed until trial completion according to the discretion of the investigator.",
+          "name": "Generic treprostinil sodium + Standard of Care (Double Oral)",
+          "otherNames": [
+            "Trisuva, Tresuvi, Treposa, Treprostinil Orpha-Devel, Treprostinil Amomed, Treprostinil OrPha, Treposuvi"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Initial triple therapy",
+            "\u2022 Initial double therapy"
+          ],
+          "description": "All patients will receive standard of care double oral background treatment consisting of one Phosphodiesterase type 5 inhibitor (i.e., tadalafil or sildenafil) and one Endothelin Receptor Antagonist (i.e. ambrisentan, bosentan or macitentan)",
+          "name": "Standard of Care - Double Oral",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Arterial Hypertension"
+      ],
+      "keywords": [
+        "intermediate-high risk",
+        "intermediate-low risk with severe hemodynamic impairment"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "tripletre@aoporphan.com",
+          "name": "Clinical Project Manager",
+          "phone": "+43676 3464650",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Linz",
+          "contacts": [
+            {
+              "email": "regina.steringer-mascherbauer@ordensklinikum.at",
+              "name": "Regina Steringer-Mascherbauer",
+              "phone": "+437327676",
+              "phoneExt": "4916",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Regina Steringer-Mascherbauer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Austria",
+          "facility": "Ordensklinikum Linz",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Vienna",
+          "contacts": [
+            {
+              "email": "irene.lang@meduniwien.ac.at",
+              "name": "Irene Lang",
+              "phone": "+43140400",
+              "phoneExt": "4623",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Irene Lang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Austria",
+          "facility": "Medical University Vienna",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Olomouc",
+          "contacts": [
+            {
+              "email": "jan.precek@fnol.cz",
+              "name": "Jan P\u0159e\u010dek",
+              "phone": "+420588445102",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jan P\u0159e\u010dek",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Czechia",
+          "facility": "Fakultn\u00ed Nemocnice Olomouc",
+          "geoPoint": {
+            "lat": 49.59552,
+            "lon": 17.25175
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Prague",
+          "contacts": [
+            {
+              "email": "pavel.jansa@vfn.cz",
+              "name": "Pavel Jansa",
+              "phone": "+420224962629",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pavel Jansa",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Czechia",
+          "facility": "V\u0161eobecn\u00e1 fakultn\u00ed nemocnice v Praze",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Paris",
+          "contacts": [
+            {
+              "email": "olivier.sitbon@abc.aphp.fr",
+              "name": "Olivier Sitbon",
+              "phone": "+33145217883",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Olivier Sitbon",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "France",
+          "facility": "H\u00f4pital Bic\u00eatre-- Assistance Publique Hopitaux de Paris",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Strasbourg",
+          "contacts": [
+            {
+              "email": "marianne.riou@chru-strasbourg.fr",
+              "name": "Marianne Riou",
+              "phone": "+330369550686",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marianne Riou",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "France",
+          "facility": "H\u00f4pitaux Universitaires de Strasbourg",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Berlin",
+          "contacts": [
+            {
+              "email": "c.opitz@drk-kliniken-berlin.de",
+              "name": "Christian Opitz",
+              "phone": "+493030354815",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Christian Opitz",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "DRK Kliniken Berlin Westend",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Dresden",
+          "contacts": [
+            {
+              "email": "michael.halank@uniklinikum-dresden.de",
+              "name": "Michael Halank",
+              "phone": "+4935145813981",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Michael Halank",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "University Hospital Carl Gustav Carus of Technical University Dresden",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Greifswald",
+          "contacts": [
+            {
+              "email": "ewert@uni-greifswald.de",
+              "name": "Ralf Ewert",
+              "phone": "+4938348680500",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ralf Ewert",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Universit\u00e4tsmedizin Greifswald",
+          "geoPoint": {
+            "lat": 54.08905,
+            "lon": 13.40244
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Budapest",
+          "contacts": [
+            {
+              "email": "titkarsag@kardio.hu",
+              "name": "Olga Hajnalka Balint",
+              "phone": "+3612152139",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Olga Hajnalka Balint",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Hungary",
+          "facility": "Gottsegen National Cardiovascular lnstitute",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Szeged",
+          "contacts": [
+            {
+              "email": "agoston.gergely@med.u-szeged.hu",
+              "name": "Gergely \u00c1goston",
+              "phone": "+3662545553",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Gergely \u00c1goston",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Hungary",
+          "facility": "Medical University of Szeged",
+          "geoPoint": {
+            "lat": 46.253,
+            "lon": 20.14824
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Rome",
+          "contacts": [
+            {
+              "email": "roberto.badagliacca@uniroma1.it",
+              "name": "Roberto Badagliacca",
+              "phone": "+39064402727",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Roberto Badagliacca",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Sapienza University of Rome",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Krakow",
+          "contacts": [
+            {
+              "name": "Grzegorz Kope\u0107",
+              "phone": "+48126143399",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Grzegorz Kope\u0107",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Poland",
+          "facility": "John Paul II Hospital Krakow",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Otwock",
+          "contacts": [
+            {
+              "email": "marcin.kurzyna@ecz-otwock.pl",
+              "name": "Marcin Kurzyna",
+              "phone": "+48227103052",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marcin Kurzyna",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Poland",
+          "facility": "Fryderyk Chopin Hospital in European Health Centre Otwock",
+          "geoPoint": {
+            "lat": 52.10577,
+            "lon": 21.26129
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Lisbon",
+          "contacts": [
+            {
+              "email": "rui.placido@chln.min-saude.pt",
+              "name": "Rui Miguel Freire Pl\u00e1cido",
+              "phone": "+351217805306",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rui Miguel Freire Pl\u00e1cido",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Portugal",
+          "facility": "Centro Hospitalar Lisboa Norte - Santa Maria University Hospital",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Bucharest",
+          "contacts": [
+            {
+              "name": "Ioan Mircea Coman",
+              "phone": "+40213175222",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ioan Mircea Coman",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Romania",
+          "facility": "Emergency Institute for Cardiovascular Diseases Prof. Dr. C.C.Iliescu",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "T\u00e2rgu Mure\u015f",
+          "contacts": [
+            {
+              "email": "ioan.tilea@umfst.ro",
+              "name": "Ioan Tilea",
+              "phone": "+40265215551",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ioan Tilea",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Romania",
+          "facility": "Emergency Clinical County Hospital of Targu Mures",
+          "geoPoint": {
+            "lat": 46.54245,
+            "lon": 24.55747
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Barcelona",
+          "contacts": [
+            {
+              "email": "iblanco2@clinic.cat",
+              "name": "Isabel Blanco Vich",
+              "phone": "+34932275779",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Isabel Blanco Vich",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital Clinic of Barcelona",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Madrid",
+          "contacts": [
+            {
+              "email": "jtenes@salud.madrid.org",
+              "name": "Jose Andres Tenes Mayen",
+              "phone": "+34913368263",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jose Andres Tenes Mayen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital Ramon y Cajal",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "NOT_YET_RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "TripleTRE investigates the effect of initial triple combination therapy (oral endothelin receptor antagonist (ERA) + oral phosphodiesterase ty\u00fce-5 inhibitor (PDE-5i) + parenteral treprostinil) compared to double oral therapy (oral ERA + oral PDE-5i) in pulmonary arterial hypertension (PAH) patients (group I) with intermediate-high risk or patients with intermediate-low risk with severe hemodynamic impairment at baseline in a prospective, randomized, unblinded setting with scope of increasing evidence for optimization of therapy concepts in PAH.\n\nThe effect of initial triple combination therapy vs initial double oral therapy (standard of care (SoC)) will be measured by primary endpoint: (non)response to the assigned treatment.",
+      "detailedDescription": "TripleTRE is prospective, randomized, two-arm, open-label, low-interventional, phase IV, multi-centre clinical trial comparing efficacy and safety of initial triple therapy including parenteral treprostinil to initial double oral therapy (standard of care (SoC)) by proportion of patients achieving low risk status according to the simplified four-strata risk-assessment tool from week 24 up to 48 weeks in 110 (55/group) treatment-na\u00efve adult intermediate-high risk or intermediate-low risk participants with severe hemodynamic impairment with pulmonary arterial hypertension (PAH) (group I). Severe hemodynamic impairment is defined in current European Society of Cardiology (ESC)/European Respiratory Society (ERS) Guidelines as at least one of following conditions: mean right atrial pressure (RAP) \u2265 20 mmHg, cardiac index (CI) \\< 2.0 L/min, stroke volume index (SVI) \\< 31 mL/m2 and/or pulmonary vascular resistance (PVR) \u2265 12 WU. Risk status will be assessed with the simplified four-strata risk-assessment tool as per ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (2022).\n\nTripleTRE will be performed in adult participants with a confirmed diagnosis of idiopathic PAH (IPAH), hereditary PAH (HPAH), drug and toxin-induced PAH (DPAH), PAH associated with Connective Tissue Disease (PAH-CTD) and PAH with corrected congenital heart disease (PAH-CHD).\n\nParticipants will be randomized to one of the two treatment arms in 1:1 ratio. All patients will start with double oral background medication (endothelin receptor antagonist (ERA) and phosphodiesterase type-5 inhibitor (PDE-5i)). Choice of double oral drug combination underline the discretion of the investigator and applicable treatment guidelines. In both treatment arms all drugs (i.e., background medication in double oral group, background medication and parenteral treprostinil in initial triple group) will be initiated within 3 weeks after randomization. Patients randomized to treprostinil arm will receive training on infusion pump and medication after that investigational medicinal product will be handed out. All patients will be handed out diaries for documentation of treprostinil dose and used vials.\n\nPrimary objective of TripleTRE is to investigate the effect of initial triple combination therapy compared to initial double oral therapy on risk status. The effect of initial triple combination therapy vs initial double oral therapy (SoC) will be measured by primary endpoint: (non)response to the assigned treatment, whereas therapy responders/non-responders are defined as:\n\n1. Therapy-responder: achievement of low-risk status between week 24 and week 48\n2. Therapy-non-responder:\n\n   1. pulmonary hypertension (PH) related deterioration to high-risk status, lung transplantation or death between week 12 and week 48 and/or\n   2. additional medication or change of initial PH specific medication due to unsatisfactory efficacy between week 12 and week 48 and/or\n   3. low risk status not achieved up to week 48\n\nRisk status is assessed with the simplified four-strata risk-assessment tool as per ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (2022).\n\nCommonly used variables such as hemodynamics, echocardiogram (ECHO) and time to clinical worsening will be evaluated as secondary endpoints. In addition, the emPHasis-10 questionnaire will be used as disease specific and validated patient-reported outcome tool for PAH patients. The European Quality of Life 5 Dimensions 5 Level Version (EQ-5D-5L) will be used as general patient-reported outcome tool independent from disease.\n\nTripleTRE trial is organized as a low-intervention trial consistent with definition in Clinical Trial Regulation (Regulation (EU) No 536/2014). Participants will not undergo any invasive examinations or laboratory evaluations, diagnostic or monitoring procedures specifically for the purposes of this trial that would expose them to increased risk compared to standard of care. Trial-related procedures as well as the frequency of assessments are in alignment with ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension (2022) and are not expected to pose additional risks to patients.\n\nPlanned trial duration per patient is minimum 12 weeks and maximum 48 weeks with up to 10 visits depending on achievement of therapy responder (i.e., low risk status) or therapy non-responder status. The visits 2 and 3 can be performed on phone. Other visits will be performed on-site. The trial will only be conducted in countries where ERA and PDE-5i treatments are standard of care and treprostinil is available to patients. At the end of trial, patients will be treated according to routine medical care at the PH expert centers receiving locally reimbursed medications. Approximately 10 countries and 20 sites are planed.\n\nStatistical considerations:\n\nThe complete statistical analysis plan (SAP) was finalized before first patient in (FPI) in meaning of first act of recruitment. A one-sided Boschloo exact test at 2.5% significance level will be used to test the following primary hypothesis:\n\nH0: Proportion of patients achieving low risk status (therapy responders) between week 24 and week 48 after baseline in the initial Triple treatment group is less or equal to the proportion of patients achieving low risk status between week 24 and week 48 after baseline in the initial Double oral treatment group.\n\nThe null hypothesis will be rejected if the 97.5% CI of the difference of proportions of therapy responders (triple minus double) is greater than 0.\n\nTo account for the variable time on treatment of therapy responders, a secondary sensitivity analysis will be performed by comparing the median time to the achievement of the low-risk status between the treatment groups.\n\nFurther sensitivity and subgroup analyses are defined in detail the statistical analysis plan (SAP) including the handling of missing values."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, randomized, two-arm, open-label, low-interventional, phase IV, multi-centre clinical trial comparing efficacy and safety of initial triple therapy including parenteral treprostinil to initial double oral therapy (background therapy with endothelin receptor antagonist - ERA and phosphodiesterase type-5 inhibitor - PDE-5i) by proportion of patients achieving low risk status according to the simplified four-strata risk-assessment tool from week 24 up to 48 weeks in 110 (55/group) treatment-na\u00efve adult intermediate-high risk or intermediate-low risk patients with severe hemodynamic impairment with pulmonary arterial hypertension (PAH) (group I).",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 110,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent prior to any trial-mandated procedure\n* Male or female \u2265 18 and \u2264 70 years of age\n* Symptomatic treatment-na\u00efve PAH patients (group I) with confirmed diagnosis of one of the following subgroups:\n\n  * idiopathic pulmonary arterial hypertension (IPAH)\n  * hereditary pulmonary arterial hypertension (HPAH)\n  * Drug and toxin-induced pulmonary arterial hypertension (DPAH)\n  * PAH associated with Connective Tissue Disease\n  * PAH with corrected congenital heart disease 4. Intermediate-high risk patients rated acc. the simplified four-strata risk-assessment tool or intermediate-low risk with severe hemodynamic impairment as defined in current PH guidelines i.e., mean right atrial pressure (RAP) \u2265 20 mmHg, cardiac index (CI) \\< 2.0 L/min, stroke volume index (SVI) \\< 31 mL/m2 and/or pulmonary vascular resistance (PVR) \u2265 12 WU\n* Right Heart Catheterization (RHC) meeting all the following criteria:\n\n  * Mean pulmonary arterial pressure (mPAP) \\> 20 mmHg\n  * Pulmonary capillary wedge pressure (PCWP) \u2264 15 mmHg\n  * PVR \\> 2 Wood Units\n* Women of childbearing potential must not be pregnant or lactating, must perform regular pregnancy tests, if sexually active, agrees to continue to use reliable method(s) of contraception until study completion\n\nExclusion Criteria:\n\n* PAH patients (group I) belonging to one of the following subgroups:\n\n  * Schistosomiasis\n  * HIV infection\n  * Portal hypertension\n  * Diffuse systemic sclerosis\n  * Uncorrected congenital heart disease including uncorrected systemic-to-pulmonary shunts\n* Any PAH-specific drug therapy in the past 3 months\n* Patients responding to vasoreactivity testing with calcium channel blockers (CCB)\n* Post-capillary PH and left heart disease\n* Known or suspected pulmonary veno-occlusive disease (PVOD)\n* Any PH due to lung disease\n* Any disorder of the respiratory system expressed by Diffusing Capacity of Lung for Carbon Monoxide (DLCO) \\<40% and a noticeable imaging result (e.g., CT) and (Total Lung Capacity) TLC \\<60% and (Forced Expiratory Volume) FEV1 \\<70% by plethysmography (a pulmonary function test)\n* Patients with need of ambulatory or long-term oxygen therapy\n* Electrocardiogram (ECG) with Fridericia's corrected QT interval (QTcF) \\> 480 msec at screening\n* Body mass index (BMI) \\> 35 (kg/m2)\n* Age \\> 70 years\n* History of restrictive, constrictive or congestive cardiomyopathy, atrial septostomy, any symptomatic coronary disease events within 6 months, severe uncontrolled arterial hypertension, acutely decompensated heart failure and myocardial infarction within 30 days, significant (\u2265 2+ regurgitation) mitral regurgitation or aortic regurgitation valvular disease, chronic systemic hypotension, unstable angina pectoris, permanent/persistent atrial fibrillation and/or need for pacemaker\n* Patients with acute anemia with hemoglobin (Hb) values \\<11g/dL\n* Cerebrovascular accident within 3 months\n* Documented severe hepatic impairment (with or without cirrhosis) according to National Cancer Institute organ dysfunction working group criteria, defined as total bilirubin \\> 3\u00d7 upper limit of the normal range (ULN) accompanied by aspartate aminotransferase (AST) \\> ULN and/or Child-Pugh Class C\n* Documented renal insufficiency with Glomerular Filtration Rate (GFR) \\<30 ml/min\n* Patients with untreated sleep apnea\n* Patient with other cardiovascular, liver, renal, hematologic, gastrointestinal (including active gastrointestinal ulcer), immunologic, endocrine (e.g., uncontrolled diabetes), metabolic, or central nervous system disease and acute bleeding and injuries (e.g., intracranial hemorrhage) that, in the opinion of the investigator, may adversely affect the safety of the patient and /or efficacy of the therapy or significantly limit the lifespan (\\< 12 months)\n* Patients with major surgery in the last 12 months\n* Known history of alcohol abuse\n* Treatment of a a cytochrome P450 (CYP)2C8 enzyme inducer (e.g., rifampicin) \u2264 28 days and/or treatment of a CYP2C8 enzyme inhibitor (e.g., gemfibrozil) \u2264 28 days\n* Treatment with another investigational drug (planned, or taken \u2264 12 weeks)\n* Hypersensitivity to any of the trial treatments or any excipient of their formulations\n* Pregnancy, breastfeeding, or intention to become pregnant during the trial\n* Any other significant disease or disorder which, in the opinion of the investigator, may put the patients at risk when participating in the trial\n* Any factor or condition likely to affect protocol compliance of the patient, as judged by the investigator.",
+      "healthyVolunteers": false,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "TripleTRE",
+      "briefTitle": "Initial Triple Therapy Including Parenteral Treprostinil vs Initial Double Oral Therapy in PAH Group I Patients",
+      "nctId": "NCT06317805",
+      "officialTitle": "Randomized Trial Comparing Efficacy and Safety of Initial Triple Therapy Including Parenteral Treprostinil to Initial Double Oral Therapy in Pulmonary Arterial Hypertension (PAH) Group I Patients (TripleTRE)",
+      "orgStudyIdInfo": {
+        "id": "TREV1-10P.401"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "AOP Orphan Pharmaceuticals AG"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-504351-26-01",
+          "type": "CTIS"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "1. Number of Adverse events (AE) and Adverse reactions (ADR)\n2. Number of Serious Adverse events (SAE) and Serious Adverse Drug Reactions (SADR)\n3. Number of Suspected unexpected serious adverse reactions (SUSAR)",
+          "measure": "Safety outcomes:",
+          "timeFrame": "between baseline and week 48"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "1. Therapy-responder: achievement of low-risk status between week 24 and week 48\n2. Therapy-non-responder:\n\n   1. PH related deterioration to high-risk status, lung transplantation or death between week 12 and week 48 and/or\n   2. additional medication or change of initial PH specific medication due to unsatisfactory efficacy between week 12 and week 48 and/or\n   3. low risk status not achieved up to week 48 Risk status is assessed with the simplified four-strata risk-assessment tool as per PH guidelines.",
+          "measure": "Patients achieving (non-)response status to the assigned treatment in terms of achievement of low-risk status",
+          "timeFrame": "between week 12 and week 48 from baseline (BL)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Pulmonary Vascular Resistance (PVR) measured in WU",
+          "measure": "Change in hemodynamic parameters by means of right heart catheterization (RHC) - PVR",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Mean pulmonary arterial pressure (mPAP) measured in mmHg",
+          "measure": "Change in hemodynamic parameters by means of right heart catheterization (RHC) - mPAP",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Mean right atrial pressure (mRAP) measured in mmHg",
+          "measure": "Change in hemodynamic parameters by means of right heart catheterization (RHC) - mRAP",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Cardiac index (CI) measured in liters per minute per square meter",
+          "measure": "Change in hemodynamic parameters by means of right heart catheterization (RHC) - CI",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Cardiac output (CO) measured in liters per minute",
+          "measure": "Change in hemodynamic parameters by means of right heart catheterization (RHC) - CO",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Right atrial pressure (RAP) measured in mmHg",
+          "measure": "Change in hemodynamic parameters by means of right heart catheterization (RHC) - RAP",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "RV-PA coupling estimated by the ratio of tricuspid annular plane systolic excursion by pulmonary artery systolic pressure (TAPSE/sPAP)",
+          "measure": "Change in right heart structure and function assessed by echocardiography - TAPSE/sPAP",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "RV end-diastolic area (RVEDA) measured in square centimeters",
+          "measure": "Change in right heart structure and function assessed by echocardiography - RVEDA",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "RV end-systolic area (RVESA) measured in square centimeters",
+          "measure": "Change in right heart structure and function assessed by echocardiography - RVESA",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "RV fractional area change (RVFAC) calculated in %",
+          "measure": "Change in right heart structure and function assessed by echocardiography - RVFAC",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Right Atrium (RA) area in square centimeters",
+          "measure": "Change in right heart structure and function assessed by echocardiography - RA",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Pericardial effusion assessment will be done and rated as yes/no",
+          "measure": "Change in right heart structure and function assessed by echocardiography - Pericardial effusion",
+          "timeFrame": "at week 24 from baseline (BL)"
+        },
+        {
+          "description": "Time from baseline to achievement of low-risk status assessed by the simplified four-strata risk-assessment tool",
+          "measure": "Time to achievement of low-risk status",
+          "timeFrame": "time from baseline (BL) up to week 48"
+        },
+        {
+          "description": "by means of the simplified four-strata risk-assessment tool categorizing patients in low (1), intermediate-low (2), intermediate-high (3) and high risk (4) based on the outcome in WHO FC class assessment, 6MWD and BNP/NT-proBNP",
+          "measure": "Rate of change of risk status",
+          "timeFrame": "between baseline and week 48"
+        },
+        {
+          "measure": "Change in the number of low-risk criteria based on the French PH Network Registry (FPHR) risk assessment tool",
+          "timeFrame": "between baseline and week 24"
+        },
+        {
+          "description": "REVEAL Registry Risk Score 2.0 for Pulmonary Arterial Hypertension (PAH) predicts survival in patients with pulmonary arterial hypertension.\n\nIt classifies patients in 3 risk groups:\n\n* Low: REVEAL score \u22646 meaning a predicted 1-year survival of \u226594%\n* Intermediate: REVEAL score 7-8 meaning a predicted 1-year survival of 70% to \\<94%\n* High: REVEAL score \u22659 meaning a predicted 1-year survival of \\<70%",
+          "measure": "Change in REVEAL 2.0 risk score",
+          "timeFrame": "between baseline and week 24"
+        },
+        {
+          "measure": "Rate of change in WHO-FC",
+          "timeFrame": "between baseline and week 48"
+        },
+        {
+          "measure": "Rate of change in 6MWD",
+          "timeFrame": "between baseline and week 48"
+        },
+        {
+          "measure": "Rate of change in NT-proBNP/BNP levels",
+          "timeFrame": "between baseline and week 48"
+        },
+        {
+          "description": "where clinical worsening is defined as:\n\n* PAH related death (including all deaths where PAH cannot be excluded as cause) and lung transplantation due to PAH\n* PH-related hospitalization\n* Post baseline (screening visit) decrease in 6MWD by 15%\n* Post baseline (screening visit) worsening of WHO FC",
+          "measure": "Total number of clinical worsening(s)",
+          "timeFrame": "between baseline and week 48"
+        },
+        {
+          "measure": "Overall and transplant free survival",
+          "timeFrame": "between baseline and week 48"
+        },
+        {
+          "description": "Emphasis meaning something of special importance or significance. Please translate using the most appropriate term. The PH in emPHasis represents the condition Pulmonary Hypertension. The number 10 refers to the number of items in the questionnaire.\n\nThis questionnaire is designed to determine how Pulmonary Hypertension (PH) affects patient's life. It refers to how PH affects or the impact that PH has on the patient's life.",
+          "measure": "Rate of change in quality of life - emPHasis-10",
+          "timeFrame": "between baseline and week 48"
+        },
+        {
+          "description": "The EQ-5D-5L questionnaire consists of 2 parts - the EQ-5D-5L descriptive system and the EQ Visual Analogue scale. The descriptive system comprises 5 dimensions (mobility, self-care, usual activities, pain/discomfort, anxiety/depression). Each dimension has 5 levels: no problems, slight problems, moderate problems, severe problems and extreme problems. The patient is asked to indicate his/her health state by ticking (or placing a cross) in the box against the most appropriate statement in each of the 5 dimensions. This decision results in a 1-digit number expressing the level selected for that dimension. The digits for 5 dimensions can be combined in a 5-digit number describing the respondent's health state. It should be noted that the numerals 1-5 have no arithmetic properties and should not be used as a cardinal score.",
+          "measure": "Rate of change in quality of life - EQ-5D-5L",
+          "timeFrame": "between baseline and week 48"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "UNKNOWN",
+          "name": "ANOVA CRO s.r.o."
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "PharmaLex Belgium"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Aixial s.r.o."
+        },
+        {
+          "class": "INDUSTRY",
+          "name": "GCP-Service International Ltd. & Co. KG"
+        }
+      ],
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "AOP Orphan Pharmaceuticals AG"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-03-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-12",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-12-06",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-03",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-02-20",
+      "studyFirstSubmitQcDate": "2024-03-12"
+    }
+  }
+}

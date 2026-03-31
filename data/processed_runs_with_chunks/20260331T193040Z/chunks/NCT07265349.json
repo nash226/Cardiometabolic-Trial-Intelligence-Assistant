@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07265349:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07265349\nBrief title: A Phase I/II Clinical Trial of Intramyocardial Injection of HucMSCs for the Treatment of Chronic Heart Failure\nOfficial title: A Phase I/II Clinical Trial to Evaluate the Safety and Efficacy of Intramyocardial Injection of Human Umbilical Cord Mesenchymal Stem Cells (HucMSCs) Combined With Coronary Artery Bypass Grafting in the Treatment of Chronic Heart Failure Caused by Chronic Ischemic Cardiomyopathy\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 73,
+      "trial_nct_id": "NCT07265349"
+    },
+    {
+      "chunk_id": "NCT07265349:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Coronary Artery Bypass Grafting (CABG); Chronic Heart Failure; Chronic Ischemic Cardiomyopathy\nIntervention labels: Mesenchymal stem cells(HucMSCs); CABG\nDrug class labels: \nArms: CABG combined with low-dose B2278; CABG combined with midium-dose B2278; CABG combined with high-dose B2278; Only CABG\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07265349"
+    },
+    {
+      "chunk_id": "NCT07265349:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: B2278 is a human umbilical cord mesenchymal stem cell (HucMSCs) injection derived from the umbilical cord. It has the advantages of stronger immune regulation, stronger expansion capacity, lower immunogenicity, and greater accessibility. The preliminary research results indicated that the B2278 injection promote the polarization of macrophages towards a reparative state through paracrine action, directly promote angiogenesis and inhibited inflammatory responses, thereby exerting effects on myocardial repair and treatment of heart failure, and it is also safe and well-tolerated.\n\nThis trial is a multi-center I/II phase clinical trial of the human umbilical cord mesenchymal stem cell injection solution, aiming to explore the dosage and regimen for the intramyocardial injection of B2278 in combination with coronary artery bypass grafting surgery for the treatment of chronic heart failure caused by chronic ischemic cardiomyopathy, and to evaluate the safety, tolerance and efficacy of allogeneic intramyocardial injection of the human umbilical cord mesenchymal stem cell injection solution in patients with chronic ischemic heart failure.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 164,
+      "trial_nct_id": "NCT07265349"
+    },
+    {
+      "chunk_id": "NCT07265349:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* 1\\) Age from 18 to 80 years, both genders are eligible ;\n* 2\\) Clinically judged to be suitable for CABG treatment due to chronic ischemic cardiomyopathy;\n* 3\\) LVEF (left ventricular ejection fraction) is \u2264 40% as indicated by echocardiography (modified Simpson method) or cardiac magnetic resonance (CMR);\n* 4\\) NYHA (New York Heart Association) cardiac function classification of grade II-IV;\n* 5\\) Patients or their legal guardians agreed to participate in this trial and signed the informed consent form.\n\nMajor exclusion Criteria:\n\n* 1\\) Severe left ventricular dysfunction, with LVEF \u2264 20% (based on the UCG or CMR examination results during the screening period);\n* 2\\) Non-ischemic chronic left heart dysfunction, including but not limited to acute left heart dysfunction, dilated cardiomyopathy, severe right heart dysfunction (such as bilateral lower extremity edema accompanied by jugular vein distension, liver enlargement, etc.) or severe pulmonary hypertension (PASP \\> 70 mmHg);\n* 3\\) Clinically determined that other surgical procedures need to be performed simultaneously during CABG surgery, including but not limited to congenital heart disease requiring concurrent surgical intervention, heart valve disease, ventricular aneurysm, ventricular septal perforation, papillary muscle dysfunction, aortic dissection, intracardiac mass, thrombus or neoplasm\uff1b\n* 4\\) Acute ST-segment elevation myocardial infarction or stroke event within 1 month before enrollment\uff1b\n* 5\\) Uncontrolled malignant arrhythmia;\n* 6)have undergone or are awaiting heart transplantation or implantation of a left ventricular assist device (LVAD).",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 254,
+      "trial_nct_id": "NCT07265349"
+    },
+    {
+      "chunk_id": "NCT07265349:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=In phase I, primary outcome will be measured with safety events including DLT, AE, SAE, TEAE, and MACE. In phase II, primary outcome will be measured with the change in LVEF based on CMR detection after 6 months of administration. | time_frame=6 months\ntype=secondary | measure=The changes in left ventricular ejection fraction (LVEF), left ventricular end-diastolic volume (LVEDV), and left ventricular end-systolic volume (LVESV) on CMR compared to the baseline. | time_frame=6 months\ntype=secondary | measure=The changes from baseline of LVEF, left ventricular end-systolic diameter (LVESD), left ventricular end-diastolic diameter (LVEDD), LVEDV, LVESV on UCG | time_frame=28 days, 3 months and 6 months\ntype=secondary | measure=The proportion of participants with improved LVEF (the proportion of participants whose LVEF increased by \u226510% compared to the baseline and whose LVEF was >40% based on CMR and/or UCG); | time_frame=3 months and 6 months\ntype=secondary | measure=The distribution of the New York Heart Association (NYHA) cardiac function classification | time_frame=28 days, 3 months and 6 months\ntype=secondary | measure=The proportion of participants with NYHA classification \u2264 II level | time_frame=28 days, 3months and 6months\ntype=secondary | measure=The changes in the 6-minute walk test (6MWT) results compared to the baseline | time_frame=28 days, 3 months and 6months\ntype=secondary | measure=The changes in the Minnesota Heart Failure Quality of Life Questionnaire (MLHFQ) from the baseline | time_frame=28 days, 3months and 6months\ntype=secondary | measure=The change in the result of amino-terminal pro-brain natriuretic peptide (NT-proBNP) compared to the baseline | time_frame=28 days, 3months and 6months\ntype=secondary | measure=The proportion of participants whose heart failure worsened (requiring hospitalization or emergency treatment due to the aggravation of heart failure symptoms and signs) | time_frame=3 months and 6months\ntype=other | measure=The change in troponin I (TnI) compared to the baseline | time_frame=28 days, 3 months and 6months\ntype=other | measure=The changes from the baseline of high-sensitivity C-reactive protein (hs-CRP), TNF-\u03b1, IL-1, and IL-6 | time_frame=28 days, 3 months and 6 months\ntype=other | measure=The changes in perfusion and metabolism of ischemic myocardium during the injection stage as measured by myocardial nuclear imaging (SPECT + PET) compared to the baseline (applicable only to those who have undergone nuclear imaging for determination) | time_frame=6 months",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 366,
+      "trial_nct_id": "NCT07265349"
+    },
+    {
+      "chunk_id": "NCT07265349:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-26\nPrimary completion date: 2026-12-31\nCompletion date: 2027-08-01\nStudy first posted: 2025-12-04\nResults first posted: None\nLast update posted: 2026-01-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07265349"
+    },
+    {
+      "chunk_id": "NCT07265349:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Tasly Pharmaceutical Group Co., Ltd\nLead sponsor class: INDUSTRY\nCollaborators: Shanghai Jiao Tong University School of Medicine, Ruijin Hospital\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07265349"
+    }
+  ],
+  "trial_nct_id": "NCT07265349"
+}

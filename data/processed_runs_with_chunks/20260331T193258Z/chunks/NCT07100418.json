@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07100418:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07100418\nBrief title: A Clinical Study Evaluating the Efficacy and Safety of HRS-7249 in Treating Patients With Hyperlipidemia\nOfficial title: A Multicenter, Randomized, Placebo-controlled Phase II Clinical Trial to Evaluate the Efficacy and Safety of HRS-7249 in Patients With Hyperlipidemia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT07100418"
+    },
+    {
+      "chunk_id": "NCT07100418:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hyperlipidemia\nIntervention labels: HRS-7249 Injection; Sodium Chloride Injection\nDrug class labels: \nArms: HRS-7249 Group; Sodium Chloride Injection Group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT07100418"
+    },
+    {
+      "chunk_id": "NCT07100418:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The study is being conducted to evaluate the efficacy and safety of HRS-7249 for patients with hyperlipidemia, and to explore the reasonable dosage of HRS-7249 for patients with hyperlipidemia.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT07100418"
+    },
+    {
+      "chunk_id": "NCT07100418:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Able and willing to provide a written informed consent.\n2. Age \u2265 18 years old and \\< 80 years old.\n3. Male or female.\n\nExclusion Criteria:\n\n1. Acute pancreatitis within 3 months or within 4 weeks or planned for plasma exchange treatment.\n2. Malignant tumors within 5 years.\n3. Severe cardiovascular or cerebrovascular diseases.\n4. Severe trauma or surgery within 6 months or severe infection within 3 months.\n5. Previous diagnosed diseases affecting lipid levels.\n6. Patients with unstable or severe diseases assessed as at risk by the investigator.\n7. Uncontrolled hypertension.\n8. Weight loss within 2 months or planned surgery causing unstable weight.\n9. Uncontrolled diabetes.\n10. Combined hyperthyroidism or hypothyroidism.\n11. History of drug or alcohol abuse.\n12. Significantly abnormal liver or kidney function.\n13. Significantly abnormal blood routine.\n14. Significantly abnormal thyroid function.\n15. Participated in clinical research within 3 months.\n16. Pregnant or lactating women, or refusing contraception.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 173,
+      "trial_nct_id": "NCT07100418"
+    },
+    {
+      "chunk_id": "NCT07100418:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The level of triglyceride (TG) | time_frame=About 28 weeks.\ntype=secondary | measure=Adverse events (AEs) | time_frame=About 48 weeks.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT07100418"
+    },
+    {
+      "chunk_id": "NCT07100418:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-08-12\nPrimary completion date: 2026-09\nCompletion date: 2027-01\nStudy first posted: 2025-08-03\nResults first posted: None\nLast update posted: 2025-09-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07100418"
+    },
+    {
+      "chunk_id": "NCT07100418:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Fujian Shengdi Pharmaceutical Co., Ltd.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT07100418"
+    }
+  ],
+  "trial_nct_id": "NCT07100418"
+}

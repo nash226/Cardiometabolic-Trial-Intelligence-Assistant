@@ -1,0 +1,279 @@
+{
+  "arms": [
+    {
+      "description": "In the accelerated-strategy group, RRT is initiated as soon as possible and within 6 hours after patients have met full eligibility criteria.",
+      "intervention_names": [
+        "Device: Early initiation of continuous renal replacement therapy"
+      ],
+      "label": "Accelerated initiation of CRRT",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Clinicians were discouraged from initiating RRT until the development of one or more of the following criteria.\n\n* Serum potassium \\> 6.5 mmol/L\n* Serum potassium\\> 6.0 mmol/L persisting despite medical treatment\n* Metabolic acidosis (pH \\< 7.15 and PaCO2 \\< 35 mmHg or serum bicarbonate \\< 12 mmol/L)\n* Blood urea nitrogen level \u2265100 mg/dL\n* Oliguria (\u22640.3 ml/kg/hour) or anuria for 48h or more\n* Diuretics refractory fluid overload or pulmonary edema",
+      "intervention_names": [
+        "Device: Standard initiation of continuous renal replacement therapy"
+      ],
+      "label": "Standard initiation of CRRT",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Cardiogenic Shock",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Acute Kidney Injury",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* The subject must be at least 19 years of age.\n* Patients presented with CS (Society for Cardiovascular Angiography and Interventions \\[SCAI\\] Shock classification C, D or E) \\* who requiring VA-ECMO.\n* Classic CS (Stage C) was defined as the following criteria. A. Systolic blood pressure less than 90 mmHg for more than 30 min or catecholamines required to maintain pressure more than 90 mmHg during systole. B. Sign of pulmonary congestion\n\nC. Sign of impaired organ perfusion with at least one of the following:\n\n1. altered mental status.\n2. cold, clammy skin and extremities.\n3. oliguria with urine output \\< 30ml/h.\n4. serum lactate \\> 2.0 mmol/l.\n\n   * SCAI Shock classification D is defined as failure to respond to initial interventions with clinical deterioration of classic CS or SCAI Shock classification E is defined as cardiac arrest with ongoing cardiopulmonary resuscitation requiring VA-ECMO\n   * Patients in the first 48 hours of CS developing AKI with at least one criterion (Characteristic of the stage 2 AKI according to Kidney Disease: Improving Global Outcomes \\[KDIGO\\] classification)\n   * A 2-fold or over increase in serum creatinine relative to baseline\n   * A reduction in urine output of \u22640.5 ml/kg/h for \u2265 12 hours\n\nExclusion Criteria:\n\n* Other causes of shock (hypovolemia, sepsis, obstructive shock).\n* Criteria mandating CRRT initiation: acute kidney injury prior to enrollment caused by any reason, at least one of the following criteria is met.\n* serum potassium \\> 6.5 mmol/L\n* serum potassium\\> 6.0 mmol/L persisting despite medical treatment.\n* metabolic acidosis (pH \\< 7.15 and PaCO2 \\< 35 mmHg or serum bicarbonate \\< 12 mmol/L)\n* blood urea nitrogen level \u2265100 mg/dL.\n* diuretics refractory volume overload or pulmonary edema\n* Unwitnessed out-of-hospital cardiac arrest with persistent Glasgow coma scale \\<8 after the return of spontaneous circulation.\n* Chronic kidney disease (CKD) with estimated glomerular filtration rate (eGFR)\\<30 mL/min/1.73m2 or end-stage kidney disease under dialysis\n* Kidney transplant within the past 365 days\n* Receipt of any RRT in the preceding 2 months\n* Known heparin intolerance.\n* Other severe concomitant disease with limited life expectancy \\< 6 months\n* Pregnancy or breastfeeding\n* Do not resuscitate wish.\n* Presence of a drug overdose or dialyzable toxin that necessitates RRT.\n* Presence or strong clinical suspicion of post-renal AKI duet to obstruction, rapidly progressive glomerulonephritis, vasculitis, thrombotic microangiopathy or acute interstitial nephritis\n* Clinical decision by a responsible physician to immediately start RRT.\n* Clinical decision by a responsible physician to defer RRT.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Accelerated initiation of CRRT"
+      ],
+      "description": "Patients will be randomized to either the standard initiation of the CRRT group or the accelerated initiation of the CRRT group with a 1:1 ratio.",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Early initiation of continuous renal replacement therapy",
+      "normalized_name": "early initiation of continuous renal replacement therapy"
+    },
+    {
+      "arm_group_labels": [
+        "Standard initiation of CRRT"
+      ],
+      "description": "Patients will be randomized to either the standard initiation of the CRRT group or the accelerated initiation of the CRRT group with a 1:1 ratio.",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Standard initiation of continuous renal replacement therapy",
+      "normalized_name": "standard initiation of continuous renal replacement therapy"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "NOT_YET_RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "all-cause mortality or RRT dependence",
+      "outcome_type": "primary",
+      "time_frame": "90 days after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "In-hospital mortality",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": null,
+      "measure": "In-hospital cardiac mortality",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": null,
+      "measure": "VA-ECMO weaning success",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": null,
+      "measure": "Time to VA-ECMO weaning",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": null,
+      "measure": "Critical limb ischemia",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": "Bleeding Academic Research Consortium \\[BARC\\] type 3-5",
+      "measure": "Access site major bleeding",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": "Cerebral Performance Category",
+      "measure": "CPC 3-5",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": "ICU Stay",
+      "measure": "Length of intensive-care unit stay",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": "Hospital stay",
+      "measure": "Length of hospital stay",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": "Mechanical Ventilation Maintenance",
+      "measure": "Duration of mechanical ventilation",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": "Renal Replacement Therapy",
+      "measure": "Duration of RRT",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 30 days"
+    },
+    {
+      "description": null,
+      "measure": "all-cause mortality",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "cardiac mortality",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": "Left ventricular assisted device implantation or heart transplantation",
+      "measure": "Requirement of cardiac replacement therapy",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "re-hospitalization due to heart failure",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "re-hospitalization due to any cause",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": "ischemic or hemorrhagic",
+      "measure": "cerebrovascular accident",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "RRT dependence",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "Serum creatinine and eGFR",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "major bleeding (BARC type 3, or 5)",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "clinically meaningful bleeding (BARC type 2, 3, or 5)",
+      "outcome_type": "secondary",
+      "time_frame": "90 days & 12 months after patient enrollment"
+    },
+    {
+      "description": null,
+      "measure": "Patients in the standard strategy group who received emergency RRT before 48 hours, according to criterion",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 48 hours"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This study was designed to compare the safety and efficacy of early continuous renal replacement therapy with standard continuous renal replacement therapy in the presence of acute kidney injury (stage 2 or greater acute kidney injury according to the KDIGO \\[The Kidney Disease: Improving Global Outcomes\\] classification) in patients with advanced cardiogenic shock on extracorporeal membrane oxygenation.",
+    "brief_title": "Accelerated vs. Standard Continuous Renal Replacement Therapy for Patients With Cardiogenic Shock Undergoing Veno-arterial ExtraCorporeal Membrane Oxygenator",
+    "collaborator_names": [],
+    "completion_date": "2029-06-30",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* The subject must be at least 19 years of age.\n* Patients presented with CS (Society for Cardiovascular Angiography and Interventions \\[SCAI\\] Shock classification C, D or E) \\* who requiring VA-ECMO.\n* Classic CS (Stage C) was defined as the following criteria. A. Systolic blood pressure less than 90 mmHg for more than 30 min or catecholamines required to maintain pressure more than 90 mmHg during systole. B. Sign of pulmonary congestion\n\nC. Sign of impaired organ perfusion with at least one of the following:\n\n1. altered mental status.\n2. cold, clammy skin and extremities.\n3. oliguria with urine output \\< 30ml/h.\n4. serum lactate \\> 2.0 mmol/l.\n\n   * SCAI Shock classification D is defined as failure to respond to initial interventions with clinical deterioration of classic CS or SCAI Shock classification E is defined as cardiac arrest with ongoing cardiopulmonary resuscitation requiring VA-ECMO\n   * Patients in the first 48 hours of CS developing AKI with at least one criterion (Characteristic of the stage 2 AKI according to Kidney Disease: Improving Global Outcomes \\[KDIGO\\] classification)\n   * A 2-fold or over increase in serum creatinine relative to baseline\n   * A reduction in urine output of \u22640.5 ml/kg/h for \u2265 12 hours\n\nExclusion Criteria:\n\n* Other causes of shock (hypovolemia, sepsis, obstructive shock).\n* Criteria mandating CRRT initiation: acute kidney injury prior to enrollment caused by any reason, at least one of the following criteria is met.\n* serum potassium \\> 6.5 mmol/L\n* serum potassium\\> 6.0 mmol/L persisting despite medical treatment.\n* metabolic acidosis (pH \\< 7.15 and PaCO2 \\< 35 mmHg or serum bicarbonate \\< 12 mmol/L)\n* blood urea nitrogen level \u2265100 mg/dL.\n* diuretics refractory volume overload or pulmonary edema\n* Unwitnessed out-of-hospital cardiac arrest with persistent Glasgow coma scale \\<8 after the return of spontaneous circulation.\n* Chronic kidney disease (CKD) with estimated glomerular filtration rate (eGFR)\\<30 mL/min/1.73m2 or end-stage kidney disease under dialysis\n* Kidney transplant within the past 365 days\n* Receipt of any RRT in the preceding 2 months\n* Known heparin intolerance.\n* Other severe concomitant disease with limited life expectancy \\< 6 months\n* Pregnancy or breastfeeding\n* Do not resuscitate wish.\n* Presence of a drug overdose or dialyzable toxin that necessitates RRT.\n* Presence or strong clinical suspicion of post-renal AKI duet to obstruction, rapidly progressive glomerulonephritis, vasculitis, thrombotic microangiopathy or acute interstitial nephritis\n* Clinical decision by a responsible physician to immediately start RRT.\n* Clinical decision by a responsible physician to defer RRT.",
+    "detailed_description": "Patients with cardiogenic shock who are placed on extracorporeal membrane oxygenation devices often have increased afterload due to the retrograde arterial flow of the device, resulting in increased left ventricular filling pressures, and optimal full-load management in these patients may be important to improve prognosis. Previous observational studies have reported that the use of renal replacement therapy for full-load management in patients with cardiogenic shock on extracorporeal membrane oxygenation is effective and improves patient survival in cases of severe renal dysfunction when fluid volume reduction is maintained. However, to date, there have been no randomized controlled studies to identify the optimal timing of renal replacement therapy in patients with cardiogenic shock on extracorporeal membrane oxygenation.",
+    "drug_class_labels": [],
+    "enrollment_count": 408,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Early initiation of continuous renal replacement therapy",
+      "Standard initiation of continuous renal replacement therapy"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Extracorporeal Membrane Oxygenator",
+      "Cardiogenic Shock",
+      "Acute Kidney Injury",
+      "Continuous Renal Replacement Therapy"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-05",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Samsung Medical Center",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "nct_id": "NCT06696235",
+    "official_title": "AcceleRatEd vs. StandarD ContinUous Renal ReplaCement ThErapy for Patients With Cardiogenic Shock Undergoing Veno-arterial ExtraCorporeal Membrane Oxygenator: Randomized-Controlled Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2028-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06696235",
+    "start_date": "2024-12-31",
+    "study_first_posted_at": "2024-11-20",
+    "study_type": "INTERVENTIONAL"
+  }
+}

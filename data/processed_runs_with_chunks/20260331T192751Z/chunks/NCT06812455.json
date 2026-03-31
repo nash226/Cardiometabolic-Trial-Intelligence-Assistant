@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06812455:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06812455\nBrief title: Effect of RIVAroxaban in Radial Artery Occlusion Treatment After Cardiac Catheterization\nOfficial title: Effect of RIVAroxaban in Reducing Radial Artery Occlusion Rate After Transradial Coronary Catheterization\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT06812455"
+    },
+    {
+      "chunk_id": "NCT06812455:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Radial Artery Occlusion\nIntervention labels: Rivaroxaban\nDrug class labels: \nArms: Intervention; Control\nKeywords: radial artery occlusion; complications; transradial; coronary catheterization; treatment",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06812455"
+    },
+    {
+      "chunk_id": "NCT06812455:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of the RIVA-RAO study is to determine whether the use of Rivaroxaban is an effective treatment of radial artery occlusion (RAO) after cardiac catheterization (both angiography and PCI). This is a prospective, single-center, randomized controlled, open-label study that will randomize patients with RAO into two groups, one receiving Rivaroxaban and the other receiving no anticoagulation. RAO will be detected by radial artery ultrasound up to 24 hours after the procedure.\n\nStudy objectives:\n\nPrimary objective:\n\nTo evaluate the effect of treatment with Rivaroxaban, in patients (both symptomatic and asymptomatic) with RAO after a coronary catheterization procedure (both angiography and percutaneous coronary intervention-PCI), in improving patency rates of the radial artery at 4 weeks after the procedure, compared with no-anticoagulation treatment.\n\nSecondary objectives:\n\nTo compare local access site and systemic complications (bleeding events, pseudoaneurysm, arteriovenous fistula) at 4 weeks after the procedure between the two groups.\nDetailed description: The use of the radial artery as an access site for coronary catheterization procedures, is constantly increasing because of lower rate of access site complications, shorter hospital stay, improved patient comfort and safer hemostasis. Radial artery occlusion remains a concern after transradial procedures, with a varied incidence, ranging from 5 to 38% as reported in the literature and probably reflecting different evaluation methods (pulse palpation versus ultrasound).\n\nAlthough perceived as usually asymptomatic, RAO may be symptomatic in up to 58.8% of patients, presenting as pain in the forearm, numbness/ paresthesia, paresis or acute ischemia. Moreover RAO excludes the affected vessel from future catheterization procedures, hemodialysis shunts, invasive hemodynamic monitoring, coronary arterial bypass grafting.\n\nSpontaneous recanalization of the vessel after RAO ranges from 5.4 to 47% at 1-month follow up. Today the only randomized studies reagrding RAO treatment have used either low-molecular-weight-heparin (LMWH) or apixaban.\n\nThis is a prospective, randomized study that will enroll, after informed written consent, all consecutive patients presenting with RAO, after a coronary catheterization procedure (both angiography and PCI) through the transradial access and having successfully received at least one radial artery sheath of any size at the end of the procedure.\n\nRAO will be diagnosed by radial artery ultrasound (2D, Doppler, colour) performed in all patients after sheath removal and successful local hemostasis and before hospital discharge. Clinical evaluation of radial artery patency with pulse palpation, modified Allen's test and reverse Barbeau test will be also applied in all patients.\n\nPatients diagnosed with RAO will be randomized 1:1 into two groups:\n\nTreatment group, that will receive Rivaroxaban for 4 weeks. Control group, that will not receive any anticoagulation.\n\nAll patients with RAO will be re-evaluated by radial artery ultrasound at 1-, 2- 4- weeks to determine radial artery patency and record any bleeding complications according to the EASY (Early Discharge After Transradial Stenting of Coronary Arteries) Hematoma Classification and the BARC (Bleeding Academic Research Consortium) bleeding definition.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 471,
+      "trial_nct_id": "NCT06812455"
+    },
+    {
+      "chunk_id": "NCT06812455:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Patients (both male and female) undergoing a coronary catheterization procedure (both angiography and PCI) through the transradial access and having successfully received at least one radial artery sheath of any size at the end of the procedure\n2. Radial artery occlusion confirmed by ultrasound (2D, Doppler, colour)\n\nExclusion Criteria:\n\n1. Age \\< 18 years\n2. Unable to provide informed written consent\n3. Any contraindication to receive Rivaroxaban",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 87,
+      "trial_nct_id": "NCT06812455"
+    },
+    {
+      "chunk_id": "NCT06812455:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Radial artery patency | time_frame=4 weeks | description=Radial artery patency at 4 weeks after the procedure, evaluated with radial artery ultrasound.\ntype=secondary | measure=Bleeding events | time_frame=4 weeks | description=To compare bleeding events (based on the BARC bleeding definition) at 4 weeks after the procedure.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06812455"
+    },
+    {
+      "chunk_id": "NCT06812455:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-03-01\nPrimary completion date: 2028-03-01\nCompletion date: 2029-03-01\nStudy first posted: 2025-02-06\nResults first posted: None\nLast update posted: 2025-02-11\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06812455"
+    },
+    {
+      "chunk_id": "NCT06812455:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: AHEPA University Hospital\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06812455"
+    }
+  ],
+  "trial_nct_id": "NCT06812455"
+}

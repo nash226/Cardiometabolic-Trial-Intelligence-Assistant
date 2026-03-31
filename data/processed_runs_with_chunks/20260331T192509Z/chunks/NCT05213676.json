@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05213676:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05213676\nBrief title: De-implementing Inhaled Nitric Oxide for Congenital Diaphragmatic Hernia\nOfficial title: Inhaled Nitric Oxide (iNO) for Congenital Diaphragmatic Hernia (CDH) - The \"NoNO Trial\" - a Multi-center, De-implementation, Stepped-wedge, Cluster-randomized Trial Within an Established Collaborative\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT05213676"
+    },
+    {
+      "chunk_id": "NCT05213676:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Congenital Diaphragmatic Hernia\nIntervention labels: Inhaled Nitric Oxide (iNO) use; De-implementation of Inhaled Nitric Oxide (iNO) use\nDrug class labels: \nArms: Inhaled Nitric Oxide (iNO) use; De-implementation of Inhaled Nitric Oxide (iNO) use\nKeywords: CDH; Inhaled Nitric Oxide; Pulmonary Hypertension",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT05213676"
+    },
+    {
+      "chunk_id": "NCT05213676:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to determine if de-implementation of inhaled nitric oxide (iNO) in the post-natal resuscitation/stabilization phase affects the composite outcome of extracorporeal life support (ECLS) use and/or mortality, as well as ECLS use, mortality, and/or oxygenation in congenital diaphragmatic hernia (CDH) newborns and to establish the cost-effectiveness of de-implementing iNO as a therapy in the postnatal resuscitation/stabilization phase of CDH management, which will be assessed as the incremental health system costs (savings) per prevented ECLS use and/or death.\nDetailed description: In this multi-center study, centers will use iNO per their usual protocol, and centers will then crossover to iNO de-implementation (that is, at the time of crossover, centers will stop using iNO in the initial resuscitation period). A stepped-wedge crossover study design will be used, and the timing of crossover will be cluster randomized at the level of the center.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 146,
+      "trial_nct_id": "NCT05213676"
+    },
+    {
+      "chunk_id": "NCT05213676:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 0 Months\nMaximum age: 1 Month\nAge groups: CHILD\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Postnatal, live born neonates with CDH\n\n  a. Presence of associated or additional anomalies is acceptable for inclusion\n* Bochdalek hernia location (right or left)\n* Diagnosed prior to 1 month of life\n* Born within or transferred to (within 1 week of life) a CDHSG member center participating in the trial\n\nExclusion Criteria:\n\n* CDH diagnosis after 1 month of age\n* Morgagni diaphragmatic hernia (central / anterior-medial diaphragmatic defect location)\n* Transferred to a CDH Study Group (CDHSG) member center after 1 week of life\n* Patients without potential access to iNO",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 113,
+      "trial_nct_id": "NCT05213676"
+    },
+    {
+      "chunk_id": "NCT05213676:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of participants who require Extracorporeal Life Support (ECLS) and/or who die prior to discharge | time_frame=from birth through hospital discharge (up to 12 months from birth) | description=The primary outcome is the composite outcome of ECLS use and/or mortality.\ntype=secondary | measure=Number of participants who require Extracorporeal Life Support (ECLS) prior to discharge | time_frame=from birth through hospital discharge (up to 12 months from birth)\ntype=secondary | measure=Number of participants who die prior to discharge | time_frame=from birth through hospital discharge (up to 12 months from birth)\ntype=secondary | measure=Change in oxygenation | time_frame=1 hour after initiation of iNO use | description=For the iNO de-implementation arm, participants will be assessed 1 hour after the time when iNO would have been initiated, per the protocol of the center.\ntype=secondary | measure=Change in oxygenation | time_frame=6 hours after initiation of iNO use | description=For the iNO de-implementation arm, participants will be assessed 6 hours after the time when iNO would have been initiated, per the protocol of the center.\ntype=secondary | measure=Total cost of initial inpatient care from birth through hospital discharge, per center | time_frame=from birth through hospital discharge (up to 12 months from birth)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 197,
+      "trial_nct_id": "NCT05213676"
+    },
+    {
+      "chunk_id": "NCT05213676:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-11-01\nPrimary completion date: 2030-10-31\nCompletion date: 2031-04-30\nStudy first posted: 2022-01-28\nResults first posted: None\nLast update posted: 2026-02-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05213676"
+    },
+    {
+      "chunk_id": "NCT05213676:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The University of Texas Health Science Center, Houston\nLead sponsor class: OTHER\nCollaborators: University of Tennessee & LeBonheur Children's Hospital (UT-LBCH); University of California-Irvine & Children's Hospital of Orange County (UC-CHOC); Medical University of South Carolina Children's Health (MUSC); University of Michigan & CS Mott Children's Hospital (UM-CSMott); Randall Children's Hospital-Portland (RCH); Stanford University & Lucile Packard Children's Hospital (Stanford-LPCH); University of California, San Diego & Rady Children's Hospital (UCSD-Rady); Boston Children's Hospital; Indiana University & Riley Children's Hospital (IU-RiCH); Norton Children's Hospital; University of Utah & Primary Children's Hospital (Utah-PCH); University of Washington & Seattle Children's Hospital (UW-SCH); University of Alabama & Children's Hospital of Alabama (UAB-CoA); University of Arkansas & Arkansas Children's Hospital (UA-ACH); Vanderbilt University & Vanderbilt University Medical Center (VUMC); University of Southern California & Children's Hospital Los Angeles (USC-CHLA); Emory University & Children's Healthcare of Atlanta (CHOA); University of Colorado & Children's Hospital of Colorado (CU-CHC)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 179,
+      "trial_nct_id": "NCT05213676"
+    }
+  ],
+  "trial_nct_id": "NCT05213676"
+}

@@ -1,0 +1,553 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000718191",
+          "term": "ziltivekimab"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants receive dose level 1 of ziltivekimab along with standard of care (SOC) subcutaneously once monthly for 12 months.",
+          "interventionNames": [
+            "Drug: Ziltivekimab"
+          ],
+          "label": "Ziltivekimab dose level 1 + standard of care (SOC)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants receive a placebo along with standard of care (SOC) subcutaneously once monthly for 12 months.",
+          "interventionNames": [
+            "Drug: Ziltivekimab Placebo"
+          ],
+          "label": "Placebo + SOC",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Ziltivekimab dose level 1 + standard of care (SOC)"
+          ],
+          "description": "Participants will receive ziltivekimab subcutaneously.",
+          "name": "Ziltivekimab",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo + SOC"
+          ],
+          "description": "Participants will receive placebo matched to ziltivekimab subcutaneously.",
+          "name": "Ziltivekimab Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocardial Infarction"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "clinicaltrials@novonordisk.com",
+          "name": "Novo Nordisk",
+          "phone": "(+1) 866-867-7178",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "Austria",
+          "facility": "Medizinische Universit\u00e4t Wien",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "1090"
+        },
+        {
+          "city": "Gistrup",
+          "country": "Denmark",
+          "facility": "Aalborg Universitetshospital Hjertemedicinsk Afdeling",
+          "geoPoint": {
+            "lat": 56.9943,
+            "lon": 9.99085
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "9260"
+        },
+        {
+          "city": "K\u00f8benhavn \u00d8",
+          "country": "Denmark",
+          "facility": "Rigshospitalet - Kardiologisk Forskningsenhed",
+          "geoPoint": {
+            "lat": 55.70968,
+            "lon": 12.56862
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "2100"
+        },
+        {
+          "city": "Rome",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera San Giovanni Addolorata",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          },
+          "state": "Lazio",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "00184"
+        },
+        {
+          "city": "Bergamo",
+          "country": "Italy",
+          "facility": "Azienda Socio Sanitaria Territoriale Papa Giovanni XXIII",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          },
+          "state": "Lombardy",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "24127"
+        },
+        {
+          "city": "Messina",
+          "country": "Italy",
+          "facility": "DAI Scienze Mediche - UOC Endocrinologia",
+          "geoPoint": {
+            "lat": 38.19394,
+            "lon": 15.55256
+          },
+          "state": "Sicily",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "98124"
+        },
+        {
+          "city": "Rivoli",
+          "country": "Italy",
+          "facility": "Presidio Ospedaliero di Rivoli",
+          "geoPoint": {
+            "lat": 45.07073,
+            "lon": 7.51465
+          },
+          "state": "To",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "10098"
+        },
+        {
+          "city": "Genova",
+          "country": "Italy",
+          "facility": "Ospedale Policlinico San Martino",
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "16132"
+        },
+        {
+          "city": "Novara",
+          "country": "Italy",
+          "facility": "AOU Maggiore della Carit\u00e0 di Novara - Dipartimento Toraco-Cardio-Vascolare - SCDU Cardiologia",
+          "geoPoint": {
+            "lat": 45.44694,
+            "lon": 8.62118
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "28100"
+        },
+        {
+          "city": "Orbassano",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Universitaria San Luigi Gonzaga - S.C.D.O. Microcitemie e malattie rare ematologiche",
+          "geoPoint": {
+            "lat": 45.00547,
+            "lon": 7.53813
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "10043"
+        },
+        {
+          "city": "Rome",
+          "country": "Italy",
+          "facility": "Fondazione Policlinico Universitario Agostino Gemelli IRCS",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "00168"
+        },
+        {
+          "city": "San Donato Milanese",
+          "country": "Italy",
+          "facility": "IRCCS Policlinico San Donato",
+          "geoPoint": {
+            "lat": 45.41047,
+            "lon": 9.26838
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "20097"
+        },
+        {
+          "city": "Nijmegen",
+          "country": "Netherlands",
+          "facility": "Radboudumc",
+          "geoPoint": {
+            "lat": 51.8425,
+            "lon": 5.85278
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "6525 GA"
+        },
+        {
+          "city": "Rotterdam",
+          "country": "Netherlands",
+          "facility": "Erasmus MC",
+          "geoPoint": {
+            "lat": 51.9225,
+            "lon": 4.47917
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "3015 GD"
+        },
+        {
+          "city": "Madrid",
+          "country": "Spain",
+          "facility": "Hospital Universitario de la Princesa",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "28006"
+        },
+        {
+          "city": "Santander",
+          "country": "Spain",
+          "facility": "Hospital Universitario Marqu\u00e9s de Valdecilla",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "39008"
+        },
+        {
+          "city": "Basel",
+          "country": "Switzerland",
+          "facility": "Universit\u00e4res Herzzentrum",
+          "geoPoint": {
+            "lat": 47.55839,
+            "lon": 7.57327
+          },
+          "status": "RECRUITING",
+          "zip": "4031"
+        },
+        {
+          "city": "Bern",
+          "country": "Switzerland",
+          "facility": "Inselspital-Universit\u00e4tsklinik f\u00fcr Kardiologie",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          },
+          "status": "RECRUITING",
+          "zip": "3010"
+        },
+        {
+          "city": "Geneva",
+          "country": "Switzerland",
+          "facility": "HUG-Service de Cardiologie",
+          "geoPoint": {
+            "lat": 46.20222,
+            "lon": 6.14569
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "1205"
+        },
+        {
+          "city": "Lucerne",
+          "country": "Switzerland",
+          "facility": "LUKS-Herzzentrum",
+          "geoPoint": {
+            "lat": 47.05048,
+            "lon": 8.30635
+          },
+          "status": "RECRUITING",
+          "zip": "6000"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Novo Nordisk A/S",
+          "name": "Clinical Transparency (dept. 2834)",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The study is testing the effect of ziltivekimab on reducing plaque in the blood vessels of the heart, specifically aiming to manage or reduce atherosclerotic plaque. The purpose of the study is to determine whether ziltivekimab can effectively reduce this plaque. Participants will either receive ziltivekimab (the active medicine) or a placebo (a dummy medicine with no effect on the body), with the treatment assignment decided by chance. It is important to note that ziltivekimab is not yet approved in any country or region worldwide; therefore, it is a new medicine that doctors cannot prescribe. The study will last for about 15 months."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Sponsor staff involved in the clinical trial is masked according to company standard procedures.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 332,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Informed consent obtained before any study-related activities. Study-related activities are any procedures that are carried out as part of the study, including activities to determine suitability for the study.\n* Age 18 years or above at the time of providing informed consent.\n* Acute myocardial infarction, with at least one coronary segment (culprit lesion) treated with percutaneous coronary intervention (PCI):\n\n  a. Acute ST-segment elevation myocardial infarction (STEMI) with all of the following: i. Onset of relevant pain suggestive of cardiac ischemia within less than or equal to (=\\<) 24h of index angiography.\n\nii. Electrocardiogram (ECG)-changes (in the absence of left ventricular hypertrophy or left bundle branch block): ST-segment elevation at the J point in at least two contiguous leads greater than or equal to (\\>=) 0.25 millivolts (mV) in men less than (\\<) 40 years, \\>=0.2 mV in men \\>=40 years, or \\>=0.15 mV in women in leads V2-V3; and/or \\>=0.1 mV in all other leads.\n\nNon-ST segment elevation myocardial infarction (NSTEMI), with rise and/or fall in cardiac troponin I or T with at least one value above the 99th percentile upper reference limit.\n\n* At least two major native coronary arteries \u2021 (\"study vessels\") each meeting the following criteria for intracoronary imaging immediately following the qualifying PCI procedure:\n\n  1. Angiographic evidence of a reduction in lumen diameter between \\>20 and \\<50 percent (%) by angiographic visual estimation.\n  2. Study vessel deemed to be accessible to imaging catheters and suitable for intracoronary imaging in the proximal (50 millimeter \\[mm\\]) segment (\"study segment\").\n  3. Study vessel may not be a bypass (saphenous vein or arterial) graft or a bypassed native vessel.\n  4. Study vessel must not have undergone previous PCI within the study segment.\n  5. A vessel which is candidate for intervention at the time of qualifying PCI or over the following 6 months in the judgment of the Investigator, cannot be a study vessel.\n\n     5\\. Hemodynamic stability (as assessed by the treating physician) allowing the repetitive administration of nitroglycerine during the study specific imaging procedure.\n\n     6\\. Ability to understand the requirements of the study and to provide informed consent 7. Willingness to undergo follow-up intracoronary imaging. 8. Possibility for randomisation and administration of the loading dose as early as possible after invasive procedure and latest within 48 hours after index PCI.\n\n     Two study segments may be obtained in the same vessel (e.g. two study segments in the Right Coronary Artery \\[RCA\\] or Left Circumflex Artery \\[LCX\\]), at the investigators discretion, considering vessel anatomy (e.g. left or right dominance), and where suitable landmarks between segments are at least 40 mm apart and with vessel wall irregularities.\n\n     Exclusion Criteria:\n* Known or suspected hypersensitivity to study intervention(s) or related products.\n* Known allergy to contrast medium, heparin, aspirin, ticagrelor or prasugrel.\n* Previous participation in this study. Participation is defined as randomisation.\n* Female of childbearing potential.\n* Participation in any other interventional or imaging clinical study within the past 30 days, or as parallel inclusion during the index hospitalization.\n* Any condition, which in the investigator's opinion might jeopardise participant's safety or compliance with the protocol.\n* Left-main disease, defined as \\>=50 percent (%) reduction in lumen diameter of the left main coronary artery by angiographic visual estimation\n* Three-vessel disease, defined as the presence of severe or significant coronary artery disease (CAD) on the basis of angiography, imaging, or physiology, in all three major epicardial territories (including major branches) that have an indication for revascularization or are too advanced to be treated.\n* History of coronary artery bypass surgery\n* Thrombolysis In Myocardial Infarction (TIMI) flow \\<2 of the infarct-related artery after PCI\n* Unstable clinical status (hemodynamic or electrical instability. Hemodynamic instability defined as any of the following:\n\nKillip Class III or IV. Sustained and/or symptomatic hypotension (as assessed by the treating physician).\n\n* Significant coronary calcification or tortuosity deemed to preclude Intra-Vascular Ultrasound (IVUS), Near Infrared Spectroscopy (NIRS) and Optical Coherence Tomography (OCT) evaluation.\n* Uncontrolled cardiac arrhythmia, defined as recurrent and symptomatic ventricular tachycardia or atrial fibrillation with rapid ventricular response not controlled by medications in the past 3 months prior to screening.\n* Severe kidney impairment defined as any of the following:\n\nPrevious or current estimated glomerular filtration rate \\<30 milliliters per minute (ml/min) /1.73 square meter (m\\^2) Chronic haemodialysis or peritoneal dialysis.\n\n\\- Active liver disease or hepatic dysfunction defined as at least one of the following: Previously known or current hepatic encephalopathy (clinical evaluation) Previously known or current ascites (clinical evaluation) Jaundice (clinical evaluation) Previous oesophageal/gastric variceal bleeding Known hepatitis cirrhosis\n\n* Current use of anti-interleukin (IL)-6 products or anticipated use of such drugs any time during the study.\n* Use of systemic immunosuppressive drugs (both small molecules and biologics) or disease modifying anti-rheumatic drugs (DMARDs including both biologic DMARDs like anti- TNFalpha and conventional DMARDs like methotrexate) or anticipated chronic use of such drugs any time during the study. (Note: Use of otic, ophthalmic, inhaled, and topical corticosteroids or local corticosteroid injections are not exclusionary. Furthermore, temporary systemic immunosuppressive treatment of e.g., chronic obstructive pulmonary disease \\[COPD\\] exacerbations is allowed).\n* Known, or suspicion of, active infection or major hematologic, metabolic, or endocrine dysfunction in the judgment of the Investigator.\n* History of recurrent serious infections (infections leading to hospitalization or use of intravenous (i.v.) antibiotics) within the past 12 months, at the discretion of the investigator.\n* Use of preventive systemic antibiotics, systemic antivirals, or systemic antifungals (Note: \"Systemic\" is defined as oral or i.v. drugs that are absorbed into the circulation. Antibiotics used to treat latent TB are exempted).\n* Absolute neutrophil count \\<2x10 10\\^9/L\n* Absolute platelet count \\< 120 x10\\^9/L\n* Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\>8 \u00d7 upper limit of normal. Participants with increased levels of ALT or AST \\<=8 x upper limit of normal (ULN) are eligible at the discretion of the investigator if the investigator considers the ALT or AST elevations to be caused by the current AMI. In case the elevation is considered related to other reasons than the current AMI, participants should be excluded when ALT or AST \\>2.5 x(ULN).\n* Known (acute or chronic) hepatitis B or hepatitis C\n* Planned surgery within 12 months from the time of screening.\n* History of cancer within the past 5 years, except for adequately treated basal cell skin cancer, squamous cell skin cancer, in situ cervical cancer, low risk prostate cancer, or carcinoma in situ/high grade prostatic intraepithelial neoplasia (PIN) at the discretion of the investigator.\n* Estimated life expectancy less than 2 years\n* Presence of risk factors for tuberculosis (TB) or history or evidence of latent TB such as (but not limited to):\n\nHistory or evidence of a positive TB test or chest X-ray compatible with latent TB and TB treatment initiated less than 28 days prior to randomisation.\n\n* Diagnosis of human immunodeficiency virus (HIV).\n* History of gastrointestinal perforation (Note: History of perforated appendicitis more than 5 years old is not exclusionary).\n* History of active diverticulitis within the past 5 years.\n* History of inflammatory bowel disease that has been clinically active within the past 12 months.\n* History of bone marrow or solid organ transplant or anticipated to receive an organ transplant during the study.\n* Received a live or attenuated-live vaccine product within 4 weeks of study intervention administration or expected to receive a live or attenuated-live vaccine product during the treatment period.\n* Major cardiac surgical (including but not restricted to coronary artery bypass graft surgery \\[CABG\\]), non-cardiac surgical, or major endoscopic procedure (thoracoscopic or laparoscopic) within the past 60 days or any major surgical procedure planned at the time of randomisation or as treatment for the current AMI (CABG).",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ZEPHYR",
+      "briefTitle": "A Research Study to Look at the Effect of Ziltivekimab on Plaque in the Blood Vessels of the Heart, Compared to Placebo, in People With a Heart Attack",
+      "nctId": "NCT07301034",
+      "officialTitle": "Effects of Ziltivekimab Versus Placebo on Coronary Atherosclerosis in Patients With Acute Myocardial Infarction. A Serial, Multivessel, Intravascular Ultrasound, Near-infrared Spectroscopy and Optical Coherence Tomography Imaging Study",
+      "orgStudyIdInfo": {
+        "id": "NN6018-8195"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Novo Nordisk A/S"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "World Health Organization (WHO)",
+          "id": "U1111-1316-8221",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "description": "According to the Novo Nordisk disclosure commitment on novonordisk-trials.com.",
+      "ipdSharing": "YES",
+      "url": "http://novonordisk-trials.com"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Percentage (%).",
+          "measure": "Change in percent atheroma volume (PAV) as determined by greyscale intravascular ultrasound (IVUS) in matched regions of interest",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Lipid core burden index (LCBI) (0 to 1000).",
+          "measure": "Change in maximum lipid core burden index (LCBI) in any 4-mm segment(maxLCBI4mm) as determined by Near-infrared spectroscopy (NIRS) in matched regions of interest",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Micro meter (\u00b5meter).",
+          "measure": "Change in minimal fibrous cap thickness as determined by (optical coherence tomography) OCT in matched regions of interest",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "LCBI index (0 to 1000).",
+          "measure": "Change in lipid core burden index (LCBI) total as determined by NIRS in matched regions of interest",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Degrees (\u00b0).",
+          "measure": "Change in average angular extension (AAE) of macrophages as determined by OCT in matched regions of interest",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Cubic Millimeter (mm3).",
+          "measure": "Change in normalized total atheroma volume (NTAV) by IVUS in matched regions of interest",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "\u00b5meter.",
+          "measure": "Change in mean fibrous cap thickness as determined by OCT in matched region of interest",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Picograms per milliliter (pg/mL).",
+          "measure": "Change in interleukin6 (IL-6)",
+          "timeFrame": "From randomisation (week 0) to week 4, and week 52"
+        },
+        {
+          "description": "Milligrams per deciliter (mg/dL).",
+          "measure": "Change in high-sensitivity C-reactive protein (hs-CRP)",
+          "timeFrame": "From randomisation (week 0) to week 4, and week 52"
+        },
+        {
+          "description": "Nanograms per milliliter (ng/mL).",
+          "measure": "Change in high-sensitivity Troponin T (hs-TnT)",
+          "timeFrame": "From randomisation (week 0) to week 4, and week 52"
+        },
+        {
+          "description": "Picograms per milliliter (pg/mL).",
+          "measure": "Change in N-terminal-pro-brain natriuretic peptide (NT-pro-BNP)",
+          "timeFrame": "From randomisation (week 0) to week 4, and week 52"
+        },
+        {
+          "measure": "Change in lipid and inflammatory markers",
+          "timeFrame": "From randomisation (week 0) to week 4, and week 52"
+        },
+        {
+          "description": "Number of first occurrences and time-to-event.",
+          "measure": "Time to first occurrence of: All-cause death",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52 weeks)"
+        },
+        {
+          "description": "Number of first occurrences and time-to-event.",
+          "measure": "Time to first occurrence of: Cardiac death",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Number of first occurrences and time-to-event.",
+          "measure": "Time to first occurrence of:Non-fatal spontaneous myocardial infarction",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Number of first occurrences and time-to-event.",
+          "measure": "Time to first occurrence of: Any coronary revascularization",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Number of first occurrences and time-to-event.",
+          "measure": "Time to first occurrence of: Non-fatal stroke",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        },
+        {
+          "description": "Number of first occurrences and time-to-event.",
+          "measure": "Time to first occurrence of:Transient ischemic attack",
+          "timeFrame": "From randomisation (week 0) to end-of-study (52-week)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Novo Nordisk A/S"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-02-24",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-10",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-11-14",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-18",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-11-27",
+      "studyFirstSubmitQcDate": "2025-12-22"
+    }
+  }
+}

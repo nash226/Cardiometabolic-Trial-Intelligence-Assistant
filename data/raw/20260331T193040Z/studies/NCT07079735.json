@@ -1,0 +1,381 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D012919",
+          "term": "Social Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012059",
+          "term": "Rejection, Psychology"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D015774",
+          "term": "Ganciclovir"
+        },
+        {
+          "id": "D000212",
+          "term": "Acyclovir"
+        },
+        {
+          "id": "D006147",
+          "term": "Guanine"
+        },
+        {
+          "id": "D007042",
+          "term": "Hypoxanthines"
+        },
+        {
+          "id": "D011688",
+          "term": "Purinones"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C000588473",
+          "term": "letermovir"
+        },
+        {
+          "id": "D000077562",
+          "term": "Valganciclovir"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients with moderate to high risk CMV risk will get letermovir for prophylaxis for 6 months for moderate risk and 1 year for high risk",
+          "interventionNames": [
+            "Drug: Letermovir"
+          ],
+          "label": "Letermovir",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients with moderate to high risk CMV risk will get valganciclovir for prophylaxis for 6 months for moderate risk and 1 year for high risk. This is standard of care",
+          "interventionNames": [
+            "Drug: Valganciclovir"
+          ],
+          "label": "Valganciclovir",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Low risk CMV patients who do not have an indication for CMV prophylaxis will be monitored",
+          "label": "No treatment",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Letermovir"
+          ],
+          "description": "CMV prophylaxis",
+          "name": "Letermovir",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Valganciclovir"
+          ],
+          "description": "Standard therapy for CMV prophylaxis",
+          "name": "Valganciclovir",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "CMV Viremia",
+        "Heart Transplant Infection",
+        "Heart Transplant Failure and Rejection"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ar3262@cumc.columbia.edu",
+          "name": "Afsana Rahman, MD",
+          "phone": "2123054600",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Adel T Alnatour, BS",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "New York",
+          "contacts": [
+            {
+              "email": "dtm9002@med.cornell.edu",
+              "name": "David Majure, MD",
+              "phone": "6469629062",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Adel T Alnatour, BS",
+              "role": "CONTACT"
+            },
+            {
+              "name": "David Majure, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "NYP-Weill Cornell",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "status": "RECRUITING",
+          "zip": "10021"
+        },
+        {
+          "city": "New York",
+          "contacts": [
+            {
+              "email": "ar3262@cumc.columbia.edu",
+              "name": "Afsana Rahman, MD",
+              "phone": "2123054600",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Adel T Alnatour, BS",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Afsana Rahman, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Columbia University/NYP Milstein Hospital",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "status": "RECRUITING",
+          "zip": "10032"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare the safety and efficacy of letermovir with valganciclovir for prevention of Cytomegalovirus (CMV) viremia in moderate to high risk serostatus heart transplant recipients.",
+      "detailedDescription": "This trial is a multi-center prospective, two-arm randomized study designed to assess the safety of letermovir use as the primary prophylaxis for CMV in patients recently transplanted with a heart. Although there are findings to support the safety and efficacy profiles of letermovir in certain patient populations (kidney transplant, lung transplant, and hematopoetic stem cell transplant), there is a clear lack of prospective data to support use of letermovir at the primary prevention of CMV for patients recently transplanted with a heart. Thus, despite numerous studies showing letermovir to be non-inferior to valganciclovir with a substantial reduction in leukopenia and neutropenia, valganciclovir continues to be the initial CMV prophylaxis in heart transplant recipients. This study aims to either confirm the findings about letermovir as seen in other patient populations, or to highlight potential concerns about using letermovir in heart transplant patients. Patients who get letermovir will also be given acyclovir for HSV (Herpes Simplex Virus) prophylaxis for 6 months. Those taking valganciclovir will not need this as HSV is covered by valganciclovir. Low risk patients will also be monitored during this period for a better understanding of CMV disease in this population."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients who are \\>18 years of age who have received a heart transplant and have not started their CMV prophylaxis regimen will be included.\n\nExclusion Criteria:\n\nHistory of or suspected CMV disease within 6 months prior is excluded.",
+      "healthyVolunteers": false,
+      "maximumAge": "99 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "VALET-CMV",
+      "briefTitle": "Valganciclovir vs. Letermovir for CMV Prophylaxis in Heart Transplant",
+      "nctId": "NCT07079735",
+      "officialTitle": "VALganciclovir vs. LETermovir for Primary Prevention of CMV in Moderate to High-Risk Heart Transplant Recipients (The VALET-CMV Study)",
+      "orgStudyIdInfo": {
+        "id": "AAAV8422"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Columbia University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Exploratory: looking at T cell unity against CMV. Assessing the predictive attributes of a positive test on the chance of future CMV viremia or disease.",
+          "measure": "Percent of CD4 and CD8 T cells that respond to CMV antigen",
+          "timeFrame": "6 months to 1 year after initiating CMV prophylaxis"
+        },
+        {
+          "description": "Exploratory: TTV activity will be measured by the TTV assay. This will be used to assess the immunogenicity of heart transplant patients that are identified as being at increased risk of infection or rejection.",
+          "measure": "Viral load of the torque teno virus (TTV)",
+          "timeFrame": "6 months to 1 year after initiating CMV prophylaxis"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Number of patients with leukopenia (white blood cell count \\<3000 cells \u00b5L)",
+          "measure": "Occurrence of leukopenia",
+          "timeFrame": "During the duration of CMV prophylaxis (6 months for moderate risk and 12 months for high risk from start of therapy)"
+        },
+        {
+          "description": "Number of patients with neutropenia (absolute neutrophil count \\<1500 cells/\u00b5L)",
+          "measure": "Occurrence of neutropenia",
+          "timeFrame": "During the duration of CMV prophylaxis (Up to 6 months for moderate risk and up to 12 months for high risk from start of therapy)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Number of patients with any positive CMV viral load detected by polymerase chain reaction (PCR)",
+          "measure": "Number of patients with any detectable CMV viremia after initiation of CMV prophylaxis",
+          "timeFrame": "6 months after initiation of CMV prophylaxis"
+        },
+        {
+          "description": "Number of patients with any positive CMV viral load detected by PCR.",
+          "measure": "Number of patients with any detectable CMV viremia while on CMV prophylaxis",
+          "timeFrame": "During the duration of CMV prophylaxis (Up to 6 months for moderate risk and up to 12 months for high risk patients)"
+        },
+        {
+          "description": "Number of patients with any positive CMV viral load detected by PCR.",
+          "measure": "Number of patients with any detectable CMV viremia after completing CMV prophylaxis",
+          "timeFrame": "Within 6 months after completing CMV prophylaxis"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Limaye AP, Budde K, Humar A, Vincenti F, Kuypers DRJ, Carroll RP, Stauffer N, Murata Y, Strizki JM, Teal VL, Gilbert CL, Haber BA. Letermovir vs Valganciclovir for Prophylaxis of Cytomegalovirus in High-Risk Kidney Transplant Recipients: A Randomized Clinical Trial. JAMA. 2023 Jul 3;330(1):33-42. doi: 10.1001/jama.2023.9106.",
+          "pmid": "37279999",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Chong PP, Teiber D, Prokesch BC, Arasaratnam RJ, Peltz M, Drazner MH, Garg S. Letermovir successfully used for secondary prophylaxis in a heart transplant recipient with ganciclovir-resistant cytomegalovirus syndrome (UL97 mutation). Transpl Infect Dis. 2018 Oct;20(5):e12965. doi: 10.1111/tid.12965. Epub 2018 Jul 20.",
+          "pmid": "29989279",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Saullo JL, Miller RA. Cytomegalovirus Therapy: Role of Letermovir in Prophylaxis and Treatment in Transplant Recipients. Annu Rev Med. 2023 Jan 27;74:89-105. doi: 10.1146/annurev-med-042921-124739. Epub 2022 Nov 4.",
+          "pmid": "36332639",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Potena L, Solidoro P, Patrucco F, Borgese L. Treatment and prevention of cytomegalovirus infection in heart and lung transplantation: an update. Expert Opin Pharmacother. 2016 Aug;17(12):1611-22. doi: 10.1080/14656566.2016.1199684. Epub 2016 Jun 30.",
+          "pmid": "27340928",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Saullo JL, Baker AW, Snyder LD, Reynolds JM, Zaffiri L, Eichenberger EM, Ferrari A, Steinbrink JM, Maziarz EK, Bacchus M, Berry H, Kakoullis SA, Wolfe CR. Cytomegalovirus prevention in thoracic organ transplantation: A single-center evaluation of letermovir prophylaxis. J Heart Lung Transplant. 2022 Apr;41(4):508-515. doi: 10.1016/j.healun.2021.12.005. Epub 2021 Dec 22.",
+          "pmid": "35031206",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Rahman A, Lee C, Rahman S, Baranowska J, Moeller CM, Valledor AF, Rubenstein G, Oren D, Alnatour AT, Labarre B, Taek K, Bae D, Raikhelkar J, Lotan D, Defilippis EM, Yunis AA, Fried J, Latif F, Yuzefpolskaya M, Colombo PC, Lin E, Majure DT, Clerkin KJ, Choe J, Sayer G, Uriel N. Efficacy of Letermovir for Cytomegalovirus Prophylaxis in Heart Transplant Recipients with Moderate to High-Risk CMV Serostatus. J Card Fail. 2025 Jun 23:S1071-9164(25)00284-2. doi: 10.1016/j.cardfail.2025.05.017. Online ahead of print.",
+          "pmid": "40562091",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Cornell University"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Columbia University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Columbia University",
+        "investigatorFullName": "Afsana Rahman",
+        "investigatorTitle": "Assistant Professor of Medicine",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-01-17",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-22",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-01-17",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-09-12",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-09",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-07-09",
+      "studyFirstSubmitQcDate": "2025-07-18"
+    }
+  }
+}

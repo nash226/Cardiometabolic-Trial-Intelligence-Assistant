@@ -1,0 +1,328 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: SHR-1918"
+          ],
+          "label": "SHR-1918 low dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: SHR-1918 placebo"
+          ],
+          "label": "SHR-1918 placebo low dose",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "interventionNames": [
+            "Drug: SHR-1918"
+          ],
+          "label": "SHR-1918 high dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: SHR-1918 placebo"
+          ],
+          "label": "SHR-1918 placebo high dose",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "SHR-1918 high dose",
+            "SHR-1918 low dose"
+          ],
+          "description": "SHR-1918",
+          "name": "SHR-1918",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "SHR-1918 placebo high dose",
+            "SHR-1918 placebo low dose"
+          ],
+          "description": "SHR-1918 placebo",
+          "name": "SHR-1918 placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hyperlipidemia"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Sheng.qi@hengrui.com",
+          "name": "Sheng Qi",
+          "phone": "+86 0518 82342973",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Hangzhou",
+          "contacts": [
+            {
+              "name": "Jianan Wang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "China",
+          "facility": "The Second Affiliated Hospital Zhejiang University School of Medicine",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          },
+          "state": "Zhejiang",
+          "status": "RECRUITING",
+          "zip": "310009"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The study is being conducted to evaluate the efficacy, and safety of SHR-1918 in reducing serum low-density lipoprotein cholesterol (LDL-C) and total triglycerides (TG) in patients with hyperlipidemia compared with placebo, and also includes To evaluate the effectiveness of SHR-1918 in reducing other lipid indicators in patients with mixed hyperlipidemia and to assess the safety of SHR-1918 in patients with mixed hyperlipidemia."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 900,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. the age must be at least 18 years old, and both men and women are eligible;\n2. the patient was receiving a stable dose of statins at the time of screening,, and the fasting LDL-C met: For individuals with extremely high risk of ASCVD, LDL-C\u22651.4 mmol/L; for those with very high risk of ASCVD, LDL-C\u22651.8 mmol/L; and for those with medium and high risk of ASCVD, \u22652.6 mol/L;\n3. Fasting TG\u22652.3\uff0cand \u22645.6 mmol/L;\n4. Understand the research procedures and methods, voluntarily participate in this trial and sign the informed consent form in person\uff1b\n\nExclusion Criteria:\n\n1. poorly controlled hypertension (systolic blood pressure \u2265160 mmHg and/or diastolic blood pressure \u2265100 mmHg) at the time of screening or before randomization\uff1b\n2. Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) or \u03b3 -glutamyl transferase (GGT) \\> 3\u00d7 upper limit of normal (ULN), or total bilirubin \\> 2\u00d7ULN\uff1b\n3. Thyroid stimulating hormone (TSH) is lower than the lower limit of normal (LLN) or greater than 1.5\u00d7ULN\uff1b\n4. The estimated glomerular filtration rate (eGFR) is less than 30 mL/min/1.73m2\uff1b\n5. Previously suffering from diseases that have a significant impact on blood lipid levels, such as nephrotic syndrome, severe liver diseases, Cushing's syndrome, etc",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Trial to Evaluate the Efficacy and Safety of SHR-1918 in Patients With Hyperlipidemia",
+      "nctId": "NCT07230730",
+      "officialTitle": "A Multicenter, Randomized, Double-blind, Placebo-controlled Phase III Clinical Study to Evaluate the Efficacy and Safety of SHR-1918 in Patients With Hyperlipidemia",
+      "orgStudyIdInfo": {
+        "id": "SHR-1918-302"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Beijing Suncadia Pharmaceuticals Co., Ltd"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The percentage change of serum LDL-C from baseline;",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The percentage change in serum TG from baseline;",
+          "timeFrame": "Baseline and Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage change of serum non-high-density lipoprotein cholesterol (non-HDL-C) from baseline;",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The percentage change in serum total cholesterol (TC) from baseline;",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The percentage change of serum apolipoprotein B (ApoB) from baseline at week 24;",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The percentage change of serum apolipoprotein A1 (ApoA1) from baseline;",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The change from baseline in serum LDL-C\uff1b",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The change from baseline in serum TG\uff1b",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The change from baseline in serum non-HDL-C\uff1b",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The change from baseline in serum TC\uff1b",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The change from baseline in serum ApoB\uff1b",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "The change from baseline in serum ApoA1\uff1b",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Absolute and relative percent change from baseline in serum lipoprotein(a) (Lp(a));",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Absolute and relative percent change from baseline in serum high-density lipoprotein cholesterol (HDL-C);",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "LDL-C goal attainment rates at Week 24, overall and by risk subgroup;",
+          "timeFrame": "Baseline and Week 24"
+        },
+        {
+          "measure": "Absolute and percentage change from baseline in serum non-HDL-C at Week 48;",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "Absolute and percentage change from baseline in serum ApoB at Week 48;",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "Absolute and percentage change from baseline in serum Lp(a) at Week 48;",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "Absolute and percentage change from baseline in serum TC at Week 48;",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "Absolute and percentage change from baseline in serum TG at Week 48;",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "Absolute and percentage change from baseline in serum HDL-C at Week 48;",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "Absolute and percentage change from baseline in serum ApoA1 at Week 48;",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "LDL-C goal attainment rates at Week 48, overall and by risk subgroup",
+          "timeFrame": "Baseline and Week 48"
+        },
+        {
+          "measure": "The incidence and severity of adverse events (AEs) throughout the study;",
+          "timeFrame": "up to week 52"
+        },
+        {
+          "measure": "Injection site reactions (pain, pruritus, erythema, swelling, induration, and rash) throughout the study;",
+          "timeFrame": "up to week 52"
+        },
+        {
+          "measure": "Major adverse cardiovascular events (Cardiovascular death, Non-fatal myocardial infarction, Non-fatal stroke and Coronary revascularization) throughout the study;",
+          "timeFrame": "up to week 52"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Beijing Suncadia Pharmaceuticals Co., Ltd"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-30",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-01-13",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-09",
+      "studyFirstPostDateStruct": {
+        "date": "2025-11-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-09-22",
+      "studyFirstSubmitQcDate": "2025-11-14"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT03789916:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT03789916\nBrief title: SAPT Versus DAPT in Incomplete Revascularization After CABG\nOfficial title: Single Versus Dual Antiplatelet Therapy in Patients With Incomplete Revascularization After Coronary Artery Bypass Graft Surgery\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT03789916"
+    },
+    {
+      "chunk_id": "NCT03789916:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Coronary Artery Disease\nIntervention labels: Ticagrelor; acetylsalicylic acid\nDrug class labels: \nArms: DAPT; SAPT\nKeywords: coronary artery bypass grafting; incomplete revascularization; coronary artery disease; dual antiplatelet therapy",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT03789916"
+    },
+    {
+      "chunk_id": "NCT03789916:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The study aims to compare the efficacy of dual antiplatelet therapy (DAPT) over single antiplatelet therapy (SAPT) in patients with incomplete revascularization after coronary artery bypass graft surgery (CABG).\n\nBefore hospital discharge, patients will be 1:1 randomized to SAPT (acetylsalicylic acid 100 mg/die) or DAPT (acetylsalicylic acid 100 mg/die + ticagrelor 90 mg bis in die). DAPT will be continued for 12 months, and ticagrelor will be withdrawn thereafter. Primary endpoint is the evaluation of cardiac-related mortality at 5 years from hospital discharge.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 88,
+      "trial_nct_id": "NCT03789916"
+    },
+    {
+      "chunk_id": "NCT03789916:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* patients undergoing CABG, \u00b1 cardiopulmonary bypass, \u00b1 any associated cardiac procedures (valve replacement,...)\n* incomplete myocardial revascularization, defined by anatomic or functional criteria\n* obtained informed consent\n\nExclusion Criteria:\n\n* acute coronary syndrome \\< 12 months from surgery\n* dual antiplatelet therapy at hospital admission\n* planned procedure to complete myocardial revascularization (e.g. hybrid approach)\n* intolerance / unable to take acetylsalicylic acid or ticagrelor\n* preoperative atrial fibrillation\n* impaired compliance\n* planned pregnancy\n* history of gastrointestinal bleeding\n* chronic kidney disease (eGFR \\< 30 mL/min/1.73 m2)\n* chronic liver disease\n* severe heart failure at hospital admission\n* active malignancy\n* alcohol abuse\n* any clinical condition not compatible with the treatment\n\nExit Criteria:\n\n* postoperative atrial fibrillation requiring anticoagulation\n* postoperative hemorrhagic events (stroke, GI bleeding)\n* occurrence of contraindications to acetylsalicylic acid or ticagrelor\n* surgical treatment requiring DAPT withdrawn\n* patient decision",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 168,
+      "trial_nct_id": "NCT03789916"
+    },
+    {
+      "chunk_id": "NCT03789916:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Cardiac-related mortality | time_frame=5 years\ntype=secondary | measure=Mortality | time_frame=5 years | description=Overall mortality and non-cardiac-related mortality\ntype=secondary | measure=Major adverse cardiac and cerebrovascular events (MACCEs) | time_frame=5 years | description=cardiac-related mortality, myocardial infarction, repeated vessel revascularization, hospitalization for heart failure, major arrhythmias, stroke\ntype=secondary | measure=Major adverse hemorrhagic events (MAHEs) | time_frame=5 years | description=stroke, gastrointestinal bleeding, life-threatening bleeding",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 62,
+      "trial_nct_id": "NCT03789916"
+    },
+    {
+      "chunk_id": "NCT03789916:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2019-01-02\nPrimary completion date: 2021-08-01\nCompletion date: 2026-12-31\nStudy first posted: 2018-12-31\nResults first posted: None\nLast update posted: 2022-07-21\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT03789916"
+    },
+    {
+      "chunk_id": "NCT03789916:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Campus Bio-Medico University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT03789916"
+    }
+  ],
+  "trial_nct_id": "NCT03789916"
+}

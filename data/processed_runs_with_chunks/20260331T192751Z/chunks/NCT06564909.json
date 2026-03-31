@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06564909:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06564909\nBrief title: Effect of L-Carnitine on Biomarkers of Myocardial Reperfusion Injury in Patients With STEMI\nOfficial title: Effect of L-Carnitine on Biomarkers of Myocardial Reperfusion Injury in Patients With ST-Segment Elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT06564909"
+    },
+    {
+      "chunk_id": "NCT06564909:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Reperfusion Injury, Myocardial; Myocardial Infarction\nIntervention labels: L-Carnitine; The standard care for the management of myocardial infarction post PCI\nDrug class labels: \nArms: Control group; Test group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT06564909"
+    },
+    {
+      "chunk_id": "NCT06564909:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The study aims is to evaluate the efficacy and tolerability of L-Carnitine on biomarkers of myocardial reperfusion injury in patients with ST-segment elevation myocardial infarction (STEMI) undergoing primary PCI by the assessment of nitrotyrosine as an oxidative stress marker and Matrix metallopeptidase-2 (MMP-2) as a cardiac fibrosis marker\nDetailed description: This study aims to investigate the effects of L-Carnitine on biomarkers of myocardial reperfusion injury in patients with ST-segment elevation myocardial infarction (STEMI) undergoing primary PCI by the assessment of the following:\n\n1. Measurement of nitrotyrosine as an oxidative stress marker and Matrix metallopeptidase-2 (MMP-2) as a cardiac fibrosis marker.\n2. Assessment of The TIMI (thrombolysis in myocardial infarction) grade and Myocardial Blush Grade (MBG).\n3. Echocardiography parameters\n\nPatients and Methods:\n\nDesign: Prospective, randomized, open label, controlled clinical trial\n\nPatients: A total of 76 STEMI patients undergoing primary PCI will be enrolled in the study and will be randomly assigned into one of 2 arms:\n\nGroup 1 (Control group) (n=38): STEMI patients undergoing PCI who will receive the standard of care Group 2 (Test group) (n= 38): STEMI patients undergoing PCI who will receive the standard of care in addition to L-Carnitine 5 g intravenous administered as slow Iv push over 2-3 minutes (L-Carnitine 1 gm / 5 mL Injection\u00ae, MEPACO, Egypt) prior to PCI and then 2 g orally (Carnitol 500 mg\u00ae, Global Napi, Egypt) daily for 4 weeks after PCI",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 234,
+      "trial_nct_id": "NCT06564909"
+    },
+    {
+      "chunk_id": "NCT06564909:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Female or male aged \\>18 and \\< 75 years.\n* STEMI patients undergoing PCI.\n\nExclusion Criteria:\n\n* Patients with a recent history of myocardial infarction (MI), a previous PCI, a previous coronary artery bypass graft, or any cardiac surgery.\n* A late presentation (\\>12 h), unsuccessful primary PCI (residual stenosis \\>50% in the culprit lesion after procedure),\n* Pretreatment with thrombolytic or glycoprotein IIb/IIIa inhibitor therapy before primary PCI,\n* Concurrent Infectious or active inflammatory disease,\n* Severe liver or renal disease, (aspartate aminotransferase (AST) or alanine transaminase (ALT) \\> 3x ULN or Total bilirubin \\> 3 x ULN), (CrCl \\< 60 ml/min (based on the Cockroft-Gault equation)\n* Neoplasm, or hematological disorders\n* Pregnant or breast-feeding patients\n* Active participation in another clinical study\n* Patients taking antioxidant drugs.\n* History of or known allergy or intolerability to the study medications",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 163,
+      "trial_nct_id": "NCT06564909"
+    },
+    {
+      "chunk_id": "NCT06564909:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Evaluation of the marker nitrotyrosine | time_frame=24 hours post PCI | description=Measuring serum concentration of nitrotyrosine as an oxidative stress marker\ntype=primary | measure=Evaluation of the marker (MMP-2) | time_frame=24 hours post PCI | description=Measuring serum concentration of Matrix metallopeptidase-2 (MMP-2) as a cardiac fibrosis marker.\ntype=secondary | measure=Assessment of Thrombolysis in Myocardial Infarction (TIMI) flow | time_frame=0-1 hour at the end of PCI | description=Grade 0: No perfusion Grade 1: Penetration without perfusion Grade 2: Partial perfusion Grade 3: Complete perfusion\ntype=secondary | measure=Assessment of Myocardial Blush Grade | time_frame=0-1 hour at the end of PCI | description=Grade 0: No myocardial blush Grade 1: Minimal myocardial blush Grade 2: Moderate myocardial blush Grade 3: Normal myocardial blush\ntype=secondary | measure=Incidence of ST-segment resolution >70 by ECG | time_frame=60 minutes post PCI\ntype=secondary | measure=Echocardiography | time_frame=4 weeks | description=Assessment of Left Ventricular Ejection Fraction (LVEF) and left ventricular diastolic and systolic volumes\ntype=secondary | measure=Occurrence of Major Adverse Cardiac Events (MACE) | time_frame=4 weeks | description=mortality, rehospitalization, reinfarction, arrhythmias, arrest, etc",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 174,
+      "trial_nct_id": "NCT06564909"
+    },
+    {
+      "chunk_id": "NCT06564909:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-01\nPrimary completion date: 2026-02\nCompletion date: 2026-03\nStudy first posted: 2024-08-21\nResults first posted: None\nLast update posted: 2025-06-26\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06564909"
+    },
+    {
+      "chunk_id": "NCT06564909:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Ain Shams University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06564909"
+    }
+  ],
+  "trial_nct_id": "NCT06564909"
+}

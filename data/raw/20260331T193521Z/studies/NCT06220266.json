@@ -1,0 +1,325 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D015228",
+          "term": "Hypertriglyceridemia"
+        },
+        {
+          "id": "D006937",
+          "term": "Hypercholesterolemia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004968",
+          "term": "Estrogens, Non-Steroidal"
+        },
+        {
+          "id": "D004967",
+          "term": "Estrogens"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D048789",
+          "term": "Phytoestrogens"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Diet control \\& life style modification",
+          "interventionNames": [
+            "Drug: Diet control & life style modification"
+          ],
+          "label": "Diet control & life style modification",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Pueraria mirifica",
+          "interventionNames": [
+            "Drug: Phytoestrogen"
+          ],
+          "label": "PM",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "PM"
+          ],
+          "description": "consume 1 capsule twice a day for 2 months which one capsule composed of dry weight 50 mg of Pueraria Mirifica 1or Pueraria Mirifica 2 or Pueraria Mirifica 3",
+          "name": "Phytoestrogen",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Diet control & life style modification"
+          ],
+          "description": "Diet control \\& life style modification",
+          "name": "Diet control & life style modification",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Dyslipidemias",
+        "Hypertriglyceridemia",
+        "Hypercholesterolemia",
+        "Hyper-LDL-cholesterolemia",
+        "Hypo HDL Cholesterolaemia",
+        "Postmenopausal Symptoms"
+      ],
+      "keywords": [
+        "Phytoestrogens",
+        "Pueraria Mirifica",
+        "Postmenopausal women",
+        "Dyslipidemia",
+        "Hypertriglyceridemia",
+        "Hypercholesterolemia",
+        "Hyper-LDL-cholesterolemia",
+        "Hypo HDL Cholesterolaemia",
+        "Postmenopausal Symptoms",
+        "Randomized clinical trail"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "purnprattana@gmail.com",
+          "name": "Prischa Saengow, MD.",
+          "phone": "+66-65-2162299",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Laksi",
+          "contacts": [
+            {
+              "email": "antiaging@dpu.ac.th",
+              "name": "P Jan Pitchapat",
+              "phone": "02-9547300 dial 853",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Thailand",
+          "facility": "Dhurakij Pundit University",
+          "state": "Bangkok",
+          "status": "RECRUITING",
+          "zip": "10210"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Dhurakij Pundit University",
+          "name": "Prischa Saengow, MD.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn about the effects of phytoestrogen from Pueraria Mirifica in improvement of serum lipid parameters. The primary question it aims to answer are:\n\n\u2022 phytoestrogen from Pueraria Mirifica can reduce serum triglyceride, total cholesterol, LDL and increase HDL or not\n\nParticipants will receive capsules which composed of dry weight 50 mg of Pueraria Mirifica twice a day for 2 months. Researchers will compare with diet control\\&life style modification to see if there is the improvement of serum lipid parameters",
+      "detailedDescription": "The secondary question it aims to answer are:\n\n* phytoestrogen from Pueraria Mirifica can reduce menopausal symptom score or not\n* phytoestrogen from Pueraria Mirifica can reduce body mass index(BMI) or not\n* phytoestrogen from Pueraria Mirifica can reduce waist circumference or not\n* phytoestrogen from Pueraria Mirifica can reduce blood pressure or not\n* phytoestrogen from Pueraria Mirifica effects to creatinine, BUN, eGFR or not\n* phytoestrogen from Pueraria Mirifica effects liver function enzymes or not"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patient preference trial",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Unmasked due to patient preference trial"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Natural menopause, last menstrual period more than one year ago.\n2. Abnormal lipid profile parameters The criteria set for this research are:\n\n   * LDL\\>130 mg/Dl or\n   * TG\\>150 mg/Dl or\n   * Total cholesterol\\>200 mg/Dl or\n   * HDL-C less than 50 mg/Dl. (Latest blood results not more than 6 months)\n3. Willing to participate in the project\n\nExclusion Criteria:\n\n1. Have ever received lipid-lowering medication or hormone replacement therapy or SERMs. During the past 6 weeks\n2. have had surgery on the ovaries or uterus before\n3. have a history of cancer within a 5-year period\n4. have diabetes or uncontrolled high blood pressure, including HbA1c \\>9, Systolic blood pressure \\>180 or Diastolic blood pressure \\>110\n5. Endocrine system disease such as thyroid\n6. Ever had an organ transplant\n7. Regularly use drugs, marijuana, or drink alcohol.\n8. has a psychiatric disorder\n9. have other serious medical conditions that require close monitoring\n10. Inconvenient to follow up until the end of the research.",
+      "genderBased": true,
+      "genderDescription": "Postmenopausal women",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effects of Phytoestrogen From Pueraria Mirifica in Improvement of Serum Lipid Parameters in Postmenopausal Women",
+      "nctId": "NCT06220266",
+      "officialTitle": "Effects of Phytoestrogen From Pueraria Mirifica in Improvement of Serum Lipid Parameters in Postmenopausal Women",
+      "orgStudyIdInfo": {
+        "id": "DPUHREC010/66FB"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Dhurakij Pundit University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Not sure yet whether it is possible to share but plan to up load all the record form and lab investigation if possible",
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "serum triglyceride, total cholesterol, LDL, HDL",
+          "measure": "Serum lipid parameters",
+          "timeFrame": "2 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Greene Climacteric Scale(GCS) minimum values= 0 , maximum values=63 , higher scores mean higher menopause symptom(worse outcome).",
+          "measure": "Menopause symptom score",
+          "timeFrame": "2 months"
+        },
+        {
+          "description": "mmHg",
+          "measure": "Blood Pressure",
+          "timeFrame": "2 months"
+        },
+        {
+          "measure": "Body mass index(BMI) or body weight",
+          "timeFrame": "2 months"
+        },
+        {
+          "description": "cm",
+          "measure": "waist circumference",
+          "timeFrame": "2 months"
+        },
+        {
+          "description": "Creatinine, BUN, eGFR",
+          "measure": "kidney function",
+          "timeFrame": "2 months"
+        },
+        {
+          "description": "AST, ALT",
+          "measure": "liver enzymes",
+          "timeFrame": "2 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "[1] World Health Organization . Geneva: World Health Organization; c2019. Global Health Observatory (GHO) data [Internet] [cited 2019 Jun 20]. Available from: http://www.who.int/gho/ncd/mortality_morbidity/ncd_total/en/index.html. [Google Scholar] [2] World Health Organization . Geneva: World Health Organization; c2019. Preventing chronic diseases: a vital investment [Internet] [cited 2019 Jun 20]. Available from: http://www.who.int/chp/chronic_disease_report/en. [Google Scholar] [3] Rhee EJ, Kim HC, Kim JH, et al. 2018 Guidelines for the management of dyslipidemia [published correction appears in Korean J Intern Med. 2019 Sep;34(5):1171]. Korean J Intern Med. 2019;34(4):723-771. doi:10.3904/kjim.2019.188 [4] Xi Y, Niu L, Cao N, et al. Prevalence of dyslipidemia and associated risk factors among adults aged \u226535 years in northern China: a cross-sectional study. BMC Public Health. 2020;20(1):1068. Published 2020 Jul 6. doi:10.1186/s12889-020-09172-9 [5] Ambikairajah, Ananthan BSc, MTeach, PhDc; Walsh, Erin PhD; Cherbuin, Nicolas PhD. Lipid profile differences during menopause: a review with meta-analysis. Menopause 26(11):p 1327-1333, November 2019. DOI: 10.1097/GME.0000000000001403 [6] Liang J, & Shang Y (2013). Estrogen and cancer. Annu Rev Physiol, 75, 225-240. [7] Blaustein JD 2008 An estrogen by any other name. Endocrinology 149:2697-2698 [8] Writing Group for the Women's Health Initiative Investigators. Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results from the Women's Health Initiative randomized controlled trial. JAMA.2002;288:321-333. [9] Sookvanichsilp N, Soonthornchareonnon N, Boonleang C. Estrogenic activity of the dichloromethane extract from Pueraria mirifica. Fitoterapia. 2008 Dec;79(7-8):509-14. doi: 10.1016/j.fitote.2008.05.006. Epub 2008 Jun 22. PMID: 18621111. [10] Peacock K, Ketvertis KM. Menopause. [Updated 2022 Aug 11]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2023 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK507826/ [11] Pappan N, Rehman A. Dyslipidemia. [Updated 2022 Jul 11]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2023 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK560891/ [12] Menazza S, Murphy E. The Expanding Complexity of Estrogen Receptor Signaling in the Cardiovascular System. Circ Res. 2016 Mar 18;118(6):994-1007. doi: 10.1161/CIRCRESAHA.115.305376. Epub 2016 Jan 7. PMID: 26838792; PMCID: PMC5012719. [13] Rossella E Nappi, et al. Menopause: a cardiometabolic transition. Lancet Diabetes Endocrinol. 2022 Jun;10(6):442-456. doi: 10.1016/S2213-8587(22)00076-6. [14] Hester M. den Ruijter, Georgios Kararigas. Estrogen and Cardiovascular Health. Front. Cardiovasc. Med., 2022 March 30:9 Sec. Sex and Gender in Cardiovascular Medicinehttps://doi.org/10.3389/fcvm.2022.886592 [15] Moskowitz D. A comprehensive review of the safety and efficacy of bioidentical hormones for the management of menopause and related health risks. Altern Med Rev. 2006 Sep;11(3):208-23. PMID: 17217322. [16] Holtorf K. The bioidentical hormone debate: are bioidentical hormones (estradiol, estriol, and progesterone) safer or more efficacious than commonly used synthetic versions in hormone replacement therapy? Postgrad Med. 2009 Jan;121(1):73-85. doi: 10.3810/pgm.2009.01.1949. PMID: 19179815. [17] Howlader N, Altekruse SF, Li CI, Chen VW, Clarke CA, Ries LA, et al. US incidence of breast cancer subtypes defined by joint hormone receptor and HER2 status. J Natl Cancer Inst. 2014;106:dju055 [18] WHO launches new roadmap on breast cancer. World Health Organization. Updated at February 3, 2023. Access September 9, 2023. https://www.who.int/news/item/03-02-2023-who-launches-new-roadmap-on-breast-cancer [19] Yue W, Wang JP, Li Y, Fan P, Liu G, Zhang N, Conaway M, Wang H, Korach KS, Bocchinfuso W, Santen R. Effects of estrogen on breast cancer development: Role of estrogen receptor independent mechanisms. Int J Cancer. 2010 Oct 15;127(8):1748-57. doi: 10.1002/ijc.25207. PMID: 20104523; PMCID: PMC4775086. [20] Martinkovich, Stephen & Shah, Darshan & Lobo, Sonia & Arnott, John. (2014). Selective estrogen receptor modulators: Tissue specificity and clinical utility. Clinical Interventions in Aging. 4. 1437. 10.2147/CIA.S66690. [21] Pickar JH, Komm BS (Sep 2015).",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Dhurakij Pundit University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Dhurakij Pundit University",
+        "investigatorFullName": "Prischa Saengow",
+        "investigatorTitle": "medical doctor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2024-11",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-23",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-08",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-03-02",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-01-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-01-14",
+      "studyFirstSubmitQcDate": "2024-01-14"
+    }
+  }
+}

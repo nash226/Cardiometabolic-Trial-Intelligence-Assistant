@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06399835:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06399835\nBrief title: Enavogliflozin vs. Pioglitazone on Glucose and Atherosclerosis\nOfficial title: Comparing Enavogliflozin and Pioglitazone as Add-ons to Metformin With/Without Dipeptidyl Peptidase-4 Inhibitors in Type 2 Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT06399835"
+    },
+    {
+      "chunk_id": "NCT06399835:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes\nIntervention labels: Enavogliflozin; Pioglitazone\nDrug class labels: \nArms: Enavogliflozin; Pioglitazone\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06399835"
+    },
+    {
+      "chunk_id": "NCT06399835:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The current study aimed to thoroughly compare a thiazolidinedione and an sodium-glucose cotransporter-2 (SGLT2) inhibitor regarding various clinical issues including atherosclerosis. Enavogliflozin is compared to Pioglitazone in the glucose-lowering effects of adding to the treatment of patients with type 2 diabetes whose HbA1c levels are not controlled by Metformin with or without DPP-4 inhibitors. Additionally, the study will compare changes in other metabolic or cardiovascular risk factors, such as triglycerides, high density lipoprotein cholesterol (HDLc), uric acid, blood pressure, and inflammatory markers, between the two drugs.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT06399835"
+    },
+    {
+      "chunk_id": "NCT06399835:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 20 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Type 2 diabetes patients with a glycated hemoglobin (HbA1c) level of 7.0 - 10.5% at screening\n* Males or females aged 20-80 years\n* Individuals who have been taking Metformin (\u2265 500mg) with or without a DPP-4 inhibitor (such as Sitagliptin, Vildagliptin, Saxagliptin, Linagliptin, Gemigliptin, Alogliptin, Teneligliptin, Anagliptin, Evogliptin) for at least the past 3 months\n* Body mass index \u2265 23 kg/m\u00b2\n* Estimated glomerular filtration ratio (eGFR) \u2265 60 ml/min/1.73m\u00b2\n\nExclusion Criteria:\n\n* Patients with Type 1 Diabetes, Gestational Diabetes, or secondary diabetes due to other causes\n* Patients with a history of acute cardiovascular disease within the last 3 months prior to the screening visit\n* Pregnant or breastfeeding patients, or patients not using contraception. Patients with chronic Hepatitis B or C (excluding healthy carriers of Hepatitis B), or liver disease (aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) \\> 3 times the upper limit of normal)\n* Patients with heart failure or a history of heart failure\n* Individuals with a history of cancer within the past 5 years (excluding those adequately treated for squamous cell carcinoma or thyroid cancer)\n* Patients who have participated in another clinical study within the last 30 days\n* Alcohol addiction\n* Patients for whom the use of Enavogliflozin or Pioglitazone is contraindicated\n* Patients taking other oral hypoglycemic agents or insulin or other investigational drugs\n* Patients deemed unsuitable for the study based on the investigator's judgment",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 258,
+      "trial_nct_id": "NCT06399835"
+    },
+    {
+      "chunk_id": "NCT06399835:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Changes of HbA1c from the baseline | time_frame=24 weeks\ntype=secondary | measure=Patients achieving HbA1c levels below 7% | time_frame=24 weeks | description=N and percentage of the patients\ntype=secondary | measure=Changes of body fat (whole body fat, abdominal fat) | time_frame=24 weeks | description=kg, %; measured with bioelectrical impedance analysis\ntype=secondary | measure=Changes of body weight | time_frame=12 weeks, 24 weeks\ntype=secondary | measure=Changes of glucose levels (fasting, 2-hour postprandial) | time_frame=12 weeks, 24 weeks | description=mg/dL\ntype=secondary | measure=Changes of systolic/diastolic blood pressures | time_frame=12 weeks, 24 weeks | description=mmHg\ntype=secondary | measure=Changes of lipids (total cholesterol, HDLc, low density lipoprotein cholesterol [LDLc], triglycerides) | time_frame=12 weeks, 24 weeks | description=mg/dL\ntype=secondary | measure=Changes of electrolytes (uric acid) | time_frame=12 weeks, 24 weeks | description=mg/dL\ntype=secondary | measure=Changes in parathyroid hormone | time_frame=12 weeks, 24 weeks | description=pg/mL\ntype=secondary | measure=Changes in 25-hydroxyl vitamin D3 | time_frame=12 weeks, 24 weeks | description=ng/mL\ntype=secondary | measure=Changes of albuminuria | time_frame=12 weeks, 24 weeks | description=mg/g\ntype=secondary | measure=Changes of urine electrolytes (Na, K, Cl, Ca, P, glucose) | time_frame=12 weeks, 24 weeks | description=mg/dL\ntype=secondary | measure=Changes in ketone body | time_frame=12 weeks, 24 weeks | description=umol/L\ntype=secondary | measure=Changes of carotid intima-media thickness | time_frame=24 weeks | description=maximal thickness (mm)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 212,
+      "trial_nct_id": "NCT06399835"
+    },
+    {
+      "chunk_id": "NCT06399835:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-01\nPrimary completion date: 2026-06\nCompletion date: 2026-12\nStudy first posted: 2024-05-06\nResults first posted: None\nLast update posted: 2024-05-06\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06399835"
+    },
+    {
+      "chunk_id": "NCT06399835:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Seoul National University Bundang Hospital\nLead sponsor class: OTHER\nCollaborators: Daewoong Pharmaceutical Co. LTD.\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT06399835"
+    }
+  ],
+  "trial_nct_id": "NCT06399835"
+}

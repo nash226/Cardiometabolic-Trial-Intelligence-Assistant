@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05850091:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05850091\nBrief title: Polygenic Risk-based Detection of Subclinical Coronary Atherosclerosis and Intervention With Statin and Colchicine\nOfficial title: Polygenic Risk-based Detection of Subclinical Coronary Atherosclerosis and Intervention With Statin and Colchicine\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT05850091"
+    },
+    {
+      "chunk_id": "NCT05850091:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Coronary Artery Disease\nIntervention labels: Rosuvastatin; Colchicine; Placebo\nDrug class labels: \nArms: Group A; Group B; Group C; Group D\nKeywords: Polygenic risk; Atherosclerosis; Genetics; Genomic medicine; Polygenic score; Precision medicine; Preventive cardiology; Coronary plaque; Inflammation; Cholesterol; Lipids; Colchicine; Statin",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT05850091"
+    },
+    {
+      "chunk_id": "NCT05850091:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this double-blind randomized controlled trial is to determine how treatment with high intensity statin, low-dose colchicine, and their combination modulates progression and composition of coronary atherosclerosis in individuals with high polygenic risk for coronary artery disease.\nDetailed description: The main question PROACT 2 aims to answer is whether and how single or dual targeting of cholesterol-lowering and inflammation modulates coronary plaque in individuals with high polygenic risk and subclinical coronary atherosclerosis.\n\nThis is a double-blind randomized controlled trial of 200 individuals with high polygenic risk for coronary artery disease and subclinical plaque on coronary computed tomography angiography. Participants will be randomized into four equal treatment groups: group A receiving a placebo daily, group B receiving rosuvastatin 20mg daily, group C receiving colchicine 0.6mg daily, and group D receiving both rosuvastatin 20mg daily and colchicine 0.6mg daily. The primary outcome is change in total non-calcified plaque volume on coronary computed tomography angiography from baseline to one year. Multiple secondary plaque imaging and biomarker outcomes will be explored in this pilot mechanistic trial.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 176,
+      "trial_nct_id": "NCT05850091"
+    },
+    {
+      "chunk_id": "NCT05850091:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 40 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Males and females between 40 and 75 years of age capable and willing to provide informed consent\n* Participant has high CAD PRS as defined on a clinical test\n* Participant with subclinical atherosclerosis defined as plaque visible on CCTA and causing \\<70% luminal stenosis\n\nExclusion Criteria:\n\n* Participant with a history of cardiovascular disease, defined by a diagnosis of coronary artery disease, peripheral artery disease, or cerebrovascular disease\n* Participant with a history of Liver disease (cirrhosis, active hepatitis, or severe hepatic disease) or any of the following recent lab results and determined to be non-transient: alanine aminotransferase greater than 3 times the upper limit of normal or total bilirubin greater than 2 times the upper limit of normal (unless due to Gilbert syndrome)\n* Participant with estimated glomerular filtration rate \\<60 mL/min/1.73 m2 or creatinine greater than 2 times the upper limit of normal\n* Patient with history of an allergic reaction or significant sensitivity to iodinated contrast, colchicine, or statins\n* Patient currently taking LDL cholesterol lowering or anti- inflammatory medications including colchicine\n* Participants requiring regular drugs known to be potent CY2P inhibitors (eg. ketoconazole, clarithromycin)\n* Female patient who is pregnant, or breast-feeding or is considering becoming pregnant during the study\n* Participant with BMI \u2265 40 kg/m2\n* Participant unable to provide informed consent\n* Participant unable to hold breath for 10 seconds",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 250,
+      "trial_nct_id": "NCT05850091"
+    },
+    {
+      "chunk_id": "NCT05850091:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in total non-calcified plaque volume from baseline to one year | time_frame=1 year | description=The primary outcome of this study is the change in total non-calcified plaque volume between the two groups from baseline to one year. This outcome will be measured using coronary computed tomography angiography (CCTA) and reported in cubic millimeters (mm\u00b3). The comparison of the changes in non-calcified plaque volume will help assess the effectiveness of the intervention on plaque progression and composition.\ntype=secondary | measure=Change in total plaque volumes from baseline to one year | time_frame=1 year | description=The change in the following plaque volumes will be compared between the two groups from baseline to one year: total plaque volume, total calcified plaque volume, and total low attenuation plaque volume. These volumes will be analyzed individually and reported in cubic millimeters (mm\u00b3).\ntype=secondary | measure=Change in maximal luminal stenosis from baseline to one year | time_frame=1 year | description=The change in maximal luminal stenosis will be compared between the two groups from baseline to one year, reported as a percentage (%).\ntype=secondary | measure=Change in calcium score from baseline to one year | time_frame=1 year | description=The change in calcium score will be compared between the two groups from baseline to one year, reported in Agatston units.\ntype=secondary | measure=Change in number of high-risk features from baseline to one year | time_frame=1 year | description=The change in the number of high-risk features will be compared between the two groups from baseline to one year, reported as a count (number of features).\ntype=secondary | measure=Change in fat attenuation index from baseline to one year | time_frame=1 year | description=The change in fat attenuation index will be compared between the two groups from baseline to one year, reported in Hounsfield units (HU).\ntype=secondary | measure=Progression in non-calcified plaque volume from baseline to one year | time_frame=1 year | description=The proportion of participants who had progression in non-calcified plaque volume from baseline to one year (%)\ntype=secondary | measure=Change in low-density lipoprotein cholesterol (LDL-C) from baseline to one year | time_frame=1 year | description=The change in low-density lipoprotein cholesterol (LDL-C) will be compared between the two groups from baseline to one year, reported in milligrams per deciliter (mg/dL).\ntype=secondary | measure=Change in C-reactive protein (CRP) from baseline to one year | time_frame=1 year | description=The change in C-reactive protein (CRP) will be compared between the two groups from baseline to one year, reported in milligrams per liter (mg/L).\ntype=secondary | measure=Change in Interleukin-6 and Interleukin-1 beta (IL-1\u00df) from baseline to one year | time_frame=1 year | description=The change in Interleukin-6 (IL-6) and Interleukin-1 beta (IL-1\u00df) will be compared between the two groups from baseline to one year. Both biomarkers will be analyzed individually and reported in picograms per milliliter (pg/mL).",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 464,
+      "trial_nct_id": "NCT05850091"
+    },
+    {
+      "chunk_id": "NCT05850091:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-12-07\nPrimary completion date: 2026-05-01\nCompletion date: 2027-05-01\nStudy first posted: 2023-05-09\nResults first posted: None\nLast update posted: 2026-03-23\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05850091"
+    },
+    {
+      "chunk_id": "NCT05850091:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Massachusetts General Hospital\nLead sponsor class: OTHER\nCollaborators: National Heart, Lung, and Blood Institute (NHLBI)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT05850091"
+    }
+  ],
+  "trial_nct_id": "NCT05850091"
+}

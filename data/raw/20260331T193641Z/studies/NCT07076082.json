@@ -1,0 +1,372 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D058729",
+          "term": "Peripheral Arterial Disease"
+        },
+        {
+          "id": "D016491",
+          "term": "Peripheral Vascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Aspirin and Clopidogrel (Plavix) for 1-month post-procedure followed by Aspirin indefinitely.\n\nDual antiplatelet therapy (DAPT), defined as the use of Clopidogrel (75 mg/day) (Plavix) and aspirin (81 mg or more/day). Single antiplatelet therapy (SAPT), defined as the use of aspirin (81 mg or more/day).",
+          "interventionNames": [
+            "Drug: Clopidogrel (Plavix) Pharmacogenetic Test Reagents"
+          ],
+          "label": "Dual antiplatelet therapy 1-Month followed by single antiplatelet therapy indefinitely",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Aspirin and Clopidogrel (Plavix) for 6-months post-procedure followed by Aspirin indefinitely.\n\nDual antiplatelet therapy (DAPT), defined as the use of Clopidogrel (75 mg/day) (Plavix) and aspirin (81 mg or more/day). Single antiplatelet therapy (SAPT), defined as the use of aspirin (81 mg or more/day).",
+          "interventionNames": [
+            "Drug: Clopidogrel (Plavix) Pharmacogenetic Test Reagents"
+          ],
+          "label": "Dual antiplatelet therapy 6-Month followed by single antiplatelet therapy indefinitely",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Dual antiplatelet therapy 1-Month followed by single antiplatelet therapy indefinitely",
+            "Dual antiplatelet therapy 6-Month followed by single antiplatelet therapy indefinitely"
+          ],
+          "description": "Dual antiplatelet therapy (DAPT), defined as the use of Clopidogrel (75 mg/day) (clopidogrel) and aspirin (81 mg or more/day). Single antiplatelet therapy (SAPT), defined as the use of aspirin (81 mg or more/day).",
+          "name": "Clopidogrel (Plavix) Pharmacogenetic Test Reagents",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Peripheral Arterial Disease"
+      ],
+      "keywords": [
+        "Peripheral Vascular Disease (PVD), Peripheral Vascular Intervention (PVI), Dual Antiplatelet therapy (DAPT), Peripheral Arterial Disease (PAD)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Stephen.orey@corewellhealth.org",
+          "name": "Stephen C Orey, MS",
+          "phone": "6163916660",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Detroit",
+          "contacts": [
+            {
+              "email": "smeehan1@hfhs.org",
+              "name": "Sarah Meehan",
+              "phone": "(313) 916-9387",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Loay Kabbani, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Henry Ford Hospital",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          },
+          "state": "Michigan",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "48202-2608"
+        },
+        {
+          "city": "Grand Rapids",
+          "contacts": [
+            {
+              "email": "Stephen.orey@corewellhealth.org",
+              "name": "Stephen C Orey, MS",
+              "phone": "6163916660",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Corewell Health",
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "49503"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Corewell Health West",
+          "name": "Vikram C Kashyap, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this investigator-initiated, multicenter, open label, randomized trial is to evaluate 1 month vs. 6 months of dual antiplatelet therapy (DAPT) in patients undergoing lower extremity endovascular revascularization. We hypothesize that extending dual antiplatelet therapy (DAPT) to six months, compared to one month, will improve patency rates of target vessels following peripheral vascular intervention (PVI) without significantly increasing complications, particularly bleeding events.",
+      "detailedDescription": "The Main Objective of this study is to create an investigator-initiated, multicenter, open label, randomized trial to evaluate 1 month vs. 6 months of DAPT in patients undergoing lower extremity endovascular revascularization. The randomization will be 1:1 within one strata (diabetes yes/no), using blocks of varying sizes. All patients will be on DAPT for one month. At the time of the one-month visit, eligible patients who consent will be randomized to single antiplatelet therapy (SAPT) indefinitely (Arm 1) or to DAPT for 5 more months (followed by SAPT) (Arm 2). Follow-up will continue for 12-months post-procedure and will include assessment of MACE and MALE, as well as adverse bleeding events. Data for this trial will be collected via nested participation in the VQI Peripheral Vascular Intervention (PVI) registry's existing Procedural and Follow-up data collection modules."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Investigator-initiated, multicenter, open label, randomized trial to evaluate 1 month vs. 6 months of DAPT in patients undergoing lower extremity endovascular revascularization. The randomization will be 1:1 within two strata (research site and diabetes yes/no), using blocks of varying sizes. All patients will be on DAPT for one month. At the time of the one-month visit, eligible patients who consent will be randomized to single antiplatelet therapy (SAPT) indefinitely (Arm 1) or to DAPT for 5 more months (followed by SAPT) (Arm 2). Follow-up will continue for 12-months post-procedure and will include assessment of MACE and MALE, as well as adverse bleeding events.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 350,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age greater than or equal to 45 at time of enrollment\n* Patient is scheduled for a PVI or has recently had a PVI in the last 30 days\n* Patient data is being submitted to Fivos, who is acting as the data collection subcontractor for the VQI-PVI registry.\n* Atherosclerotic vascular disease\n\nExclusion Criteria:\n\n* Patients who cannot consent for themselves\n* Allergy to Clopidogrel\n* Patients unable to stop clopidogrel for other medical reasons\n* Patients on dual pathway inhibition (DPI) with low dose rivaroxaban (2.5mg twice a day) that are unable to stop these medications\n* Allergy to aspirin\n* Nonatherosclerotic vascular disease\n* Patients undergoing open bypass at the same time as the peripheral transcutaneous angioplasty\n* Patients with high bleeding risk (HBR) defined as:\n\n  * History of major bleeding, active bleeding disorder, severe renal impairment (CrCl \\<30), concurrent anticoagulation, platelet count \\<100,000\n  * Recent stroke (within 6 months)\n  * Current warfarin therapy or full dose therapeutic direct oral anticoagulants (DOAC).\n* Patients unwilling or unable to comply with standard of care follow-up visits\n* Pregnant women\n* Prisoners",
+      "healthyVolunteers": false,
+      "minimumAge": "45 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "VSTAR-P",
+      "briefTitle": "Vascular Trial Associated Registry Pilot",
+      "nctId": "NCT07076082",
+      "officialTitle": "Vascular Trial Associated Registry Pilot: Antiplatelet Therapies for Patients Undergoing Lower Extremity Endovascular Revascularization",
+      "orgStudyIdInfo": {
+        "id": "2025-1010"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Corewell Health West"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Patients who undergo PVI that meet inclusion criteria and are offered enrollment.",
+          "measure": "The proportion of patients eligible who are offered study enrollment",
+          "timeFrame": "1 year"
+        },
+        {
+          "description": "Patients who meet inclusion criteria and agree to participate in trial vs those that do not agree to participate in trial",
+          "measure": "The proportion of eligible patients who consent to enrollment and randomization",
+          "timeFrame": "1 year"
+        },
+        {
+          "description": "The number of enrolled patients that have the occurrence of one of the following stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.",
+          "measure": "The proportion of enrolled patients who have the primary (composite) event of interest defined at 6 months",
+          "timeFrame": "6-months"
+        },
+        {
+          "description": "The number of enrolled patients that have the occurrence of one of the following stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.",
+          "measure": "The proportion of enrolled patients who have the primary (composite) event of interest defined at 12 months",
+          "timeFrame": "1 year"
+        },
+        {
+          "description": "Of the enrolled patients that have a medical primary event how many individuals were in each category stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.",
+          "measure": "The numbers and proportions of patients who have each type of major event",
+          "timeFrame": "1 year"
+        },
+        {
+          "description": "Major event status at 1, 6-months post PVI and 12-month post PVI",
+          "measure": "The proportions of patients who have major event status recorded at each observation time",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Aday AW, Gutierrez JA. Antiplatelet Therapy Following Peripheral Arterial Interventions: The Choice Is Yours. Circ Cardiovasc Interv. 2020 Aug;13(8):e009727. doi: 10.1161/CIRCINTERVENTIONS.120.009727. Epub 2020 Aug 14. No abstract available.",
+          "pmid": "32791949",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Bhatt DL, Flather MD, Hacke W, Berger PB, Black HR, Boden WE, Cacoub P, Cohen EA, Creager MA, Easton JD, Hamm CW, Hankey GJ, Johnston SC, Mak KH, Mas JL, Montalescot G, Pearson TA, Steg PG, Steinhubl SR, Weber MA, Fabry-Ribaudo L, Hu T, Topol EJ, Fox KA; CHARISMA Investigators. Patients with prior myocardial infarction, stroke, or symptomatic peripheral arterial disease in the CHARISMA trial. J Am Coll Cardiol. 2007 May 15;49(19):1982-8. doi: 10.1016/j.jacc.2007.03.025. Epub 2007 Apr 11.",
+          "pmid": "17498584",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Durand-Zaleski I, Bertrand M. The value of clopidogrel versus aspirin in reducing atherothrombotic events: the CAPRIE study. Pharmacoeconomics. 2004;22 Suppl 4:19-27. doi: 10.2165/00019053-200422004-00005.",
+          "pmid": "15876009",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gornik HL, Aronow HD, Goodney PP, Arya S, Brewster LP, Byrd L, Chandra V, Drachman DE, Eaves JM, Ehrman JK, Evans JN, Getchius TSD, Gutierrez JA, Hawkins BM, Hess CN, Ho KJ, Jones WS, Kim ESH, Kinlay S, Kirksey L, Kohlman-Trigoboff D, Long CA, Pollak AW, Sabri SS, Sadwin LB, Secemsky EA, Serhal M, Shishehbor MH, Treat-Jacobson D, Wilkins LR; Peer Review Committee Members. 2024 ACC/AHA/AACVPR/APMA/ABC/SCAI/SVM/SVN/SVS/SIR/VESS Guideline for the Management of Lower Extremity Peripheral Artery Disease: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2024 Jun 11;149(24):e1313-e1410. doi: 10.1161/CIR.0000000000001251. Epub 2024 May 14. Erratum In: Circulation. 2025 Apr 8;151(14):e918. doi: 10.1161/CIR.0000000000001329.",
+          "pmid": "38743805",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Writing Committee Members; Gornik HL, Aronow HD, Goodney PP, Arya S, Brewster LP, Byrd L, Chandra V, Drachman DE, Eaves JM, Ehrman JK, Evans JN, Getchius TSD, Gutierrez JA, Hawkins BM, Hess CN, Ho KJ, Jones WS, Kim ESH, Kinlay S, Kirksey L, Kohlman-Trigoboff D, Long CA, Pollak AW, Sabri SS, Sadwin LB, Secemsky EA, Serhal M, Shishehbor MH, Treat-Jacobson D, Wilkins LR. 2024 ACC/AHA/AACVPR/APMA/ABC/SCAI/SVM/SVN/SVS/SIR/VESS Guideline for the Management of Lower Extremity Peripheral Artery Disease: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2024 Jun 18;83(24):2497-2604. doi: 10.1016/j.jacc.2024.02.013. Epub 2024 May 14.",
+          "pmid": "38752899",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Tsai SY, Li YS, Lee CH, Cha SW, Wang YC, Su TW, Yu SY, Yeh CH. Mono or Dual Antiplatelet Therapy for Treating Patients with Peripheral Artery Disease after Lower Extremity Revascularization: A Systematic Review and Meta-Analysis. Pharmaceuticals (Basel). 2022 May 12;15(5):596. doi: 10.3390/ph15050596.",
+          "pmid": "35631422",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Nguyen T, Jokisch C, Dargan C, Janjua H, Brooks J, Moudgill N, Latz C, Shames M. The Effects of Clopidogrel Duration on Carotid Artery In-Stent Restenosis. Ann Vasc Surg. 2024 Jun;103:68-73. doi: 10.1016/j.avsg.2023.12.064. Epub 2024 Feb 11.",
+          "pmid": "38350539",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Henry Ford Hospital"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Corewell Health West"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Corewell Health West",
+        "investigatorFullName": "Vikram Kashyap",
+        "investigatorTitle": "Vice President, Cardiovascular Health, Frederik Meijer Heart and Vascular Institute",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-10-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-06",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-10-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-10-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-07-17",
+      "studyFirstSubmitQcDate": "2025-07-17"
+    }
+  }
+}

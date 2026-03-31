@@ -1,0 +1,208 @@
+{
+  "arms": [
+    {
+      "description": "eGFR \u2265 60 ml\u00b7min - 1\u00b71.73\u33a1",
+      "intervention_names": [
+        "Procedure: Percutaneous coronary intervention",
+        "Device: Orsiro\u2122 or Orsiro_Mission\u2122 stent"
+      ],
+      "label": "Normal or mild renal dysfunction",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "30\u2264 eGFR\\< 60 ml\u00b7min - 1\u00b71.73\u33a1",
+      "intervention_names": [
+        "Procedure: Percutaneous coronary intervention",
+        "Device: Orsiro\u2122 or Orsiro_Mission\u2122 stent"
+      ],
+      "label": "Moderate renal dysfunction",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "eGFR \\< 30 ml\u00b7min -1\u00b71.73\u33a1",
+      "intervention_names": [
+        "Procedure: Percutaneous coronary intervention",
+        "Device: Orsiro\u2122 or Orsiro_Mission\u2122 stent"
+      ],
+      "label": "Severe renal dysfunction",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Chronic Kidney Diseases",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Coronary Artery Disease",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* 19 years of age or older\n* Patient undergoing percutaneous coronary intervention with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents\n\nExclusion Criteria:\n\n* Patient with a life expectancy of less than one year\n* Patient who used another drug-eluting stent for percutaneous coronary intervention at study registration time\n* Cardiogenic shock\n* Pregnancy",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Moderate renal dysfunction",
+        "Normal or mild renal dysfunction",
+        "Severe renal dysfunction"
+      ],
+      "description": "Percutaneous coronary intervention",
+      "drug_class": null,
+      "intervention_type": "PROCEDURE",
+      "name": "Percutaneous coronary intervention",
+      "normalized_name": "percutaneous coronary intervention"
+    },
+    {
+      "arm_group_labels": [
+        "Moderate renal dysfunction",
+        "Normal or mild renal dysfunction",
+        "Severe renal dysfunction"
+      ],
+      "description": "Percutaneous coronary intervention with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Orsiro\u2122 or Orsiro_Mission\u2122 stent",
+      "normalized_name": "orsiro\u2122 or orsiro_mission\u2122 stent"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Number of participants with Target-lesion failure (TLF), defined as composite of cardiac death, target vessel-related myocardial infarction (TVMI) and ischemia-driven target-lesion revascularization (TLR) at 1 year",
+      "measure": "Target-lesion failure (TLF)",
+      "outcome_type": "primary",
+      "time_frame": "Within one year after the intervention"
+    },
+    {
+      "description": null,
+      "measure": "Number of participants with all cause death",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": null,
+      "measure": "Number of participants with cardiac death",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": "periprocedural or spontaneous",
+      "measure": "Number of participants with myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": null,
+      "measure": "Number of participants with composite of death or myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": null,
+      "measure": "Number of participants with composite of cardiac death or myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": null,
+      "measure": "Number of participants with target-vessel revascularization",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": null,
+      "measure": "Number of participants with target-lesion revascularization",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": "Stent thrombosis appropriate for Academic Research Consortium criteria",
+      "measure": "Number of participants with stent thrombosis",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    },
+    {
+      "description": "composite of composite of death, nonfatal myocardial infarction and ischemia-drive target-vessel revascularization (TVR)",
+      "measure": "Number of participants with target-vessel failure",
+      "outcome_type": "secondary",
+      "time_frame": "Within three years after the intervention"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "NON_RANDOMIZED",
+    "brief_summary": "Orsiro\u2122 or Orsiro\\_Mission\u2122 stents have the biodegradable polymer and the thinnest stent strut (60\u339b) in commercially available stents, which could minimize chronic inflammation and incomplete endothelialization. In several prior studies, ultrathin strut sirolimus-eluting stent (Orsiro\u00ae) showed better outcomes in terms of target lesion failure or target lesion revascularization compared to other contemporary stents. Chronic kidney disease (CKD) is known to be associated with adverse cardiovascular outcome including restenosis or stent thrombosis following percutaneous coronary interventin (PCI), because the patients with CKD have more complex coronary lesion characteristics, severe calcification, and diffuse plaque of the coronary artery. However, there is a paucity of data regarding clinical efficacy of Orsiro\u00ae in CKD population. Therefore, this study aims to investigate the differences in clinical outcomes according to renal function in patients undergoing PCI with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents. After patients will be divided into three groups according to the renal function; normal or mild renal dysfunction (eGFR \u2265 60 ml\u00b7min - 1\u00b71.73\u33a1), moderate renal dysfunction ( 30\u2264 eGFR\\< 60 ml\u00b7min - 1\u00b71.73\u33a1), and severe renal dysfunction (eGFR \\< 30 ml\u00b7min -1\u00b71.73\u33a1), the clinical outcome will be investigated among groups.",
+    "brief_title": "Clinical Impact of Orsiro\u2122 Stent in Patient With Chronic Kidney Disease",
+    "collaborator_names": [],
+    "completion_date": "2027-01-01",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* 19 years of age or older\n* Patient undergoing percutaneous coronary intervention with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents\n\nExclusion Criteria:\n\n* Patient with a life expectancy of less than one year\n* Patient who used another drug-eluting stent for percutaneous coronary intervention at study registration time\n* Cardiogenic shock\n* Pregnancy",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 3113,
+    "enrollment_type": "ACTUAL",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Percutaneous coronary intervention",
+      "Orsiro\u2122 or Orsiro_Mission\u2122 stent"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Chronic Kidney Diseases",
+      "Coronary Artery Disease",
+      "Orsiro stent"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-06-26",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "The Catholic University of Korea",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "nct_id": "NCT06475625",
+    "official_title": "Clinical Impact of Orsiro\u2122 Stent in Patient With Chronic Kidney Disease Undergoing Percutaneous Coronay Intervention : A Multicenter, Prospective All-comers Registry",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2025-01-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06475625",
+    "start_date": "2019-10-22",
+    "study_first_posted_at": "2024-06-26",
+    "study_type": "INTERVENTIONAL"
+  }
+}

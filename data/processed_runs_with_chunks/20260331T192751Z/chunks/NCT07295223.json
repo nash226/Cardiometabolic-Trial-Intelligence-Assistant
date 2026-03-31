@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07295223:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07295223\nBrief title: Effect of Glp-1 and Antidiabetic sgLT2 Agents for myoCardial infarcTion and Ultrasensitive Inflammatory Surveillance (GALACTUS Trial)\nOfficial title: GLP-1 and Antidiabetic SGLT2 Agents for Myocardial Infarction and Ultrasensitive Inflammatory Surveillance: An Open-Label Pilot Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT07295223"
+    },
+    {
+      "chunk_id": "NCT07295223:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Acute Myocardial Infarction With ST Elevation\nIntervention labels: Dapagliflozin 10 MG Oral Tablet; Semaglutide (Rybelsus\u00ae)\nDrug class labels: glp1_receptor_agonist\nArms: Dapagliflozin; Semaglutide\nKeywords: STEMI; Semaglutide; Dapagliflozin; High-sensitivity PCR",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07295223"
+    },
+    {
+      "chunk_id": "NCT07295223:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The primary risk factor for coronary artery disease is atherosclerosis, with inflammation playing a crucial role in the development and progression of this condition. It has now been proven that inflammation is key in the development of complications after an acute myocardial infarction. These complications can be immediate and mechanical, such as ventricular wall rupture and ventricular arrhythmia, or long-term, presenting as major cardiovascular events like heart failure.\n\nDuring acute myocardial infarction (AMI), circulating high-sensitivity CRP levels increase approximately 6 hours after the onset of ischemia. CRP levels measured between 24 and 72 hours after symptom onset are a significant prognostic marker for one-year outcomes. Higher high-sensitivity CRP levels at the time of AMI are linked to more severe coronary atherosclerotic lesions seen on angiography and lower LVEF one month after the event. A serum high-sensitivity CRP concentration greater than 10 mg/L after an AMI indicates inflammation, reflecting myocardial necrosis, plaque rupture, and acute thrombosis. In patients with AMI, persistent or increasing CRP levels are strongly associated with a higher risk of all-cause and non-cardiovascular death, especially when inflammation (CRP \\> 2.0 mg/L) continues for a year.\n\nAside from reperfusion therapy, very few pharmacological approaches have been used to reduce inflammation after AMI. One such approach was the use of colchicine in the COVERT-MI randomized, double-blind, multicenter trial. This trial compared five days of oral colchicine with a placebo and found no difference in infarct size between the groups at five days or three months, as measured by cardiac magnetic resonance imaging.\n\nSGLT-2 inhibitors are drugs that have revolutionized the management of cardiovascular diseases, offering proven benefits for patients with heart failure and notable nephroprotective effects. However, their use after acute myocardial infarction has not yet been sufficiently established, as the only two published clinical trials so far failed to meet their primary goal of reducing hospitalizations for heart failure. Additionally, evidence of their use in post-AMI inflammation exists only in experimental studies. In experimental studies, SGLT2 global-knockout (KO) mice were used to demonstrate that dapagliflozin significantly influences cardiac fibrosis and inflammation, and markedly alters the gene expression profiles of macrophages and fibroblasts. Moreover, dapagliflozin directly inhibited macrophage-mediated inflammation, thereby suppressing cardiac fibroblast activation.\n\nSimilarly, only experimental studies have shown that semaglutide decreases elevated levels of TNF-\u03b1, IL-6, ROS, and MDA in the serum and cardiac tissues of obese mice. By lowering the expression of Cxcl2, S100a8, and S100a9 in neutrophils, semaglutide may help reduce cardiac inflammation and oxidative stress.\n\nTherefore, the objective of this study is to compare the effects of dapagliflozin and semaglutide on inflammatory markers (hs-CRP and IL-6) in patients with acute ST-segment elevation myocardial infarction.\nDetailed description: This is a small open-label pilot clinical trial to assess the effectiveness of dapagliflozin and semaglutide on inflammatory markers (IL-6 and hs-CRP) in patients with STEMI over 24 weeks. It will include patients over 18 years old with STEMI, with or without a diagnosis of type 2 diabetes, clinical obesity, and an initial serum hs-CRP level greater than 2.0 mg/L.\n\nInflammation markers will be measured upon patient admission after percutaneous coronary intervention and again after 24 weeks of treatment with the drugs. Patients will be discharged in accordance with STEMI treatment guidelines, and their medication adherence and tolerability will be monitored.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 544,
+      "trial_nct_id": "NCT07295223"
+    },
+    {
+      "chunk_id": "NCT07295223:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Criteria for the fourth definition of acute myocardial infarction with ST-segment elevation.\n* Diagnosed with type 2 diabetes.\n* Initial serum high-sensitivity CRP value \\> 2.0 mg/L.\n* Clinically obese.\n* LVEF \\>50%.\n\nExclusion Criteria:\n\n* Patients who have recently received immunosuppressive therapy\n* Patients with a history of ischemic heart disease\n* Known allergy to any of the medications used\n* Use of any of the study drugs more than 6 months prior to randomization\n* Patients experiencing diabetic ketoacidosis\n* Patients with hemodynamic instability (mean arterial pressure \\<60 mmHg while on vasopressors)\n* Pregnant women\n* Patients with a history or current diagnosis of cancer\n* Patients with documented active infections, such as pneumonia or urinary tract infections\n* Patients with pancreatitis",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 144,
+      "trial_nct_id": "NCT07295223"
+    },
+    {
+      "chunk_id": "NCT07295223:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Inflammatory markers (high-sensitivity PCR) | time_frame=24 weeks. | description=Patients with hsCRP \\> 2 mg/L will be included, and a control will be taken to assess the change after 24 weeks of treatment.\ntype=primary | measure=Inflammatory markers (interleukin 6) | time_frame=24 weeks | description=Patients with IL-6 \\> 2 ng/L will be included, and a control will be taken to assess the change after 24 weeks of treatment.\ntype=secondary | measure=Epicardial fat | time_frame=24 weeks | description=Epicardial fat will be assessed using non-invasive coronary tomography during hospitalization for STEMI and again after 24 weeks of treatment.\ntype=secondary | measure=LDL cholesterol | time_frame=24 weeks | description=The impact of both interventions on LDL levels will be assessed after 24 weeks of treatment.\ntype=secondary | measure=Change in glucose and HbA1c | time_frame=24 weeks | description=The effect of both interventions on fasting glucose and HbA1c levels will be assessed after 24 weeks of treatment.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 150,
+      "trial_nct_id": "NCT07295223"
+    },
+    {
+      "chunk_id": "NCT07295223:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-30\nPrimary completion date: 2026-08\nCompletion date: 2026-09\nStudy first posted: 2025-12-19\nResults first posted: None\nLast update posted: 2026-01-05\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07295223"
+    },
+    {
+      "chunk_id": "NCT07295223:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Instituto Mexicano del Seguro Social\nLead sponsor class: OTHER_GOV\nCollaborators: Universidad de Guanajuato\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT07295223"
+    }
+  ],
+  "trial_nct_id": "NCT07295223"
+}

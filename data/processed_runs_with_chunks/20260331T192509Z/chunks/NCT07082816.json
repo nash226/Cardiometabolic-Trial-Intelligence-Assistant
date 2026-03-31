@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07082816:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07082816\nBrief title: Reformulated PG324 Ophthalmic Solution for Intraocular Pressure Reduction\nOfficial title: A Phase III, Prospective, Double-Masked, Randomized, Multi-Center, Active-Controlled, Parallel Group Comparison Study Assessing the Ocular Hypotensive Efficacy of Reformulated PG324 Ophthalmic Solution in Subjects With Elevated Intraocular Pressure\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT07082816"
+    },
+    {
+      "chunk_id": "NCT07082816:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Ocular Hypertension; Open Angle Glaucoma\nIntervention labels: Netarsudil 0.01%/latanoprost 0.005% ophthalmic solution; Netarsudil 0.02%/latanoprost 0.005% ophthalmic solution\nDrug class labels: \nArms: Reformulated PG324; PG324\nKeywords: Glaucoma; OAG; OHT",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT07082816"
+    },
+    {
+      "chunk_id": "NCT07082816:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is designed to see how safe and effective a new eye drop, called Reformulated PG324, is for lowering eye pressure in people with open-angle glaucoma (OAG) or ocular hypertension (OHT).\nDetailed description: About 470 adults with OAG or OHT will be randomly divided into 2 groups. One group will use the new Reformulated PG324 eye drops, and the other group will use the marketed PG324 eye drops. This study will be double-masked, so neither the researcher nor the participant will know which eye drop was administered. The expected individual duration of participation is approximately 3 months.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 100,
+      "trial_nct_id": "NCT07082816"
+    },
+    {
+      "chunk_id": "NCT07082816:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Key Inclusion Criteria:\n\n* Diagnosis of open-angle glaucoma or ocular hypertension in both eyes;\n* Unmedicated intraocular pressure measurements in the study eye as specified in the protocol;\n* Corrected distance visual acuity equal to or better than 20/100 in the study eye.\n\nKey Exclusion Criteria:\n\n* Current use of more than 2 ocular hypotensive medications within 30 days;\n* Intraocular pressure greater than 36 millimeters mercury (mmHg) at Screening;\n* Use of topical ocular medication of any kind within 5 days of Screening or throughout the study with the exception of ocular hypotensive medications (must be washed out).",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 116,
+      "trial_nct_id": "NCT07082816"
+    },
+    {
+      "chunk_id": "NCT07082816:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Mean Intraocular Pressure at each timepoint post-randomization | time_frame=Week 2, Week 6, Month 3 at 08:00, 10:00, 16:00 hours | description=Intraocular pressure (IOP) will be measured with a Goldmann tonometer and recorded in millimeters mercury (mmHg). IOP will be calculated as the mean of two readings or the median of three readings at each timepoint.\ntype=secondary | measure=Proportion of subjects with moderate to severe conjunctival hyperemia as assessed by biomicroscopy | time_frame=Up to Month 3/study exit | description=The subject will undergo a slit lamp examination at all visits, except for dispensing visits. The presence of moderate to severe conjunctival hyperemia (redness) will be recorded.\ntype=secondary | measure=Proportion of subjects with conjunctival hyperemia adverse events | time_frame=Up to Month 3/study exit | description=Occurrences of conjunctival hyperemia (redness) adverse events, either subject or investigator reported, will be recorded at each visit.\ntype=secondary | measure=Mean change from diurnally adjusted baseline IOP at each timepoint post-randomization | time_frame=Baseline (Day 1), Week 2, Week 6, Month 3 at 08:00, 10:00, 16:00 hours | description=Intraocular pressure (IOP) will be measured with a Goldmann tonometer and recorded in millimeters mercury (mmHg). IOP will be calculated as the mean of two readings or the median of three readings at each timepoint. Change is defined as the follow-up (Week 2, Week 6, and Month 3) minus baseline (Day 1) at each timepoint.\ntype=secondary | measure=Percent change from diurnally adjusted baseline IOP at each timepoint post-randomization | time_frame=Baseline (Day 1), Week 2, Week 6, Month 3 at 08:00, 10:00, 16:00 hours | description=Intraocular pressure (IOP) will be measured with a Goldmann tonometer and recorded in millimeters mercury (mmHg). IOP will be calculated as the mean of two readings or the median of three readings at each timepoint. Change is defined as the follow-up (Week 2, Week 6, and Month 3) minus baseline (Day 1) at each timepoint.\ntype=secondary | measure=Mean TSS-IOP scores at Month 3 | time_frame=Month 3 | description=The Treatment Satisfaction Survey for Intraocular Pressure (TSS-IOP) module is a 15-item questionnaire designed to assess subject satisfaction with ocular hypotensive medication(s). Subjects will respond to each item using a 5-, 6-, or 7-point Likert Scale. Individual scores will be computed by adding the scale values of items within a satisfaction category and transforming the resulting value into a score between 0 and 100. Higher scores are indicative of greater satisfaction. The questionnaire will be self-administered.\ntype=secondary | measure=Mean Changes in TSS-IOP scores from Screening to Month 3 | time_frame=Month 3 | description=The Treatment Satisfaction Survey for Intraocular Pressure (TSS-IOP) module is a 15-item questionnaire designed to assess subject satisfaction with ocular hypotensive medication(s). Subjects will respond to each item using a 5-, 6-, or 7-point Likert Scale. Individual scores will be computed by adding the scale values of items within a satisfaction category and transforming the resulting value into a score between 0 and 100. Higher scores are indicative of greater satisfaction. The questionnaire will be self-administered.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 489,
+      "trial_nct_id": "NCT07082816"
+    },
+    {
+      "chunk_id": "NCT07082816:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-09-02\nPrimary completion date: 2026-05\nCompletion date: 2026-05\nStudy first posted: 2025-07-24\nResults first posted: None\nLast update posted: 2026-01-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07082816"
+    },
+    {
+      "chunk_id": "NCT07082816:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Alcon Research\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT07082816"
+    }
+  ],
+  "trial_nct_id": "NCT07082816"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06941792:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06941792\nBrief title: Inclisiran Effectiveness in China: a Pragmatic Randomized Trial\nOfficial title: Effectiveness of Inclisiran for Patients With Coronary Heart Disease in China: a Multicenter, Standard of Care-Controlled Pragmatic Randomized Trial\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT06941792"
+    },
+    {
+      "chunk_id": "NCT06941792:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Coronary Heart Disease\nIntervention labels: inclisiran sodium injection; Standard of Care\nDrug class labels: \nArms: inclisiran group; Standard of Care group\nKeywords: Inclisiran; effectiveness; lipid-lowering; low-density lipoprotein cholesterol Test on Target",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06941792"
+    },
+    {
+      "chunk_id": "NCT06941792:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The current study will be conducted to evaluate the real-world effectiveness of inclisiran relative to standard of care (SoC) in Chinese patients with coronary heart disease (CHD), not only with the low-density lipoprotein cholesterol (LDL-C) change in 1 year, but also the LDL-C Test on Target for 1 year. This study further aims to assess the adherence, treatment patterns and satisfaction, and safety of inclisiran among Chinese patients.\nDetailed description: The study is a multicenter, randomized, parallel, open-label, pragmatic trial, to assess the effectiveness of inclisiran in the real-world compared to SoC, in patients with CHD in China who did not achieve LDL-C goal despite maximally tolerated statin therapy for \u22654weeks stable using. CHD patients include patients with acute coronary syndrome and patients with chronic coronary syndrome.\n\nAfter granting informed consent, being screened, and confirmed eligible for the study, participants will be randomized to 2 arms (inclisiran or SoC) in a 1:1 ratio.\n\nFollowing the randomization, participants start inclisiran or SoC adaptation (which means switching to or adding on another/other lipid-lowering therapies (LLT\\[s\\]). This start date is defined as Day 0.\n\nDuring follow-up, each participant will follow routine care, and the results of LDL-C tests will be collected for each Visit (every 3 months), with an allowable window of \u00b11.5 months. Each patient will be followed up until his/her end of study (EOS), which is the earliest of the end of follow-up period (Visit 4: approximately 12 months following Day 0), lost to follow-up, consent withdrawal, death, and participating in another interventional trial.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 255,
+      "trial_nct_id": "NCT06941792"
+    },
+    {
+      "chunk_id": "NCT06941792:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 99 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Signed informed consent must be obtained prior to participation in the study\n2. Documented diagnosis of CHD prior to screening, including acute coronary syndrome (ACS) and chronic coronary syndrome (CCS)\n3. Aged \u226518 years at randomization\n4. Despite maximally tolerated statin therapy for \u22654weeks stable using prior to screening, LDL-C result at screening not at goal (\u22651.8 mmol/L).\n\nThe maximum tolerated dose of statins also includes patients with statin intolerance or contraindication.\n\nExclusion Criteria:\n\n1. Received inclisiran during the 2 years prior to the screening.\n2. Received proprotein convertase subtilisin-kexin type 9 (PCSK9) mabs during the 3 months prior to screening.\n3. Participating in an interventional trial at enrollment\n4. Having severe liver disorder (Child-Pugh class C)\n5. Any other condition that may put the participant at significant risk if the participant participate in the current study, according to investigator's (or delegate's) judgment.\n\nOther protocol-defined inclusion/exclusion criteria may apply.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 170,
+      "trial_nct_id": "NCT06941792"
+    },
+    {
+      "chunk_id": "NCT06941792:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The percentage change in low-density lipoprotein cholesterol (LDL-C) level from baseline at 12 months, for the inclisiran group versus the standard of care (SoC) group | time_frame=12 months | description=To evaluate the real-world effectiveness of inclisiran, on the change in LDL-C levels at Month 12, compared with SoC, in Chinese patients with coronary heart disease (CHD)\ntype=secondary | measure=The proportion of participants with the 1-year LDL-C Test on Target \u226575%, for the inclisiran group versus the SoC group | time_frame=12 months | description=To evaluate the real-world effectiveness of inclisiran, on the LDL-C Test on Target at Month 12, compared with SoC, in Chinese patients with CHD\ntype=secondary | measure=The percentage change in LDL-C level from baseline at 3 months, 6 months, and 9 months, for the inclisiran group versus the SoC group | time_frame=At Month 3, Month 6 and Month 9 | description=To evaluate the effectiveness of inclisiran on the change in LDL-C levels at Month 3, Month 6, and Month 9, compared with SoC\ntype=secondary | measure=The proportion of participants with LDL-C <1.8 mmol/L at 12 months, for the inclisiran group versus the SoC group | time_frame=12 months | description=To evaluate the effectiveness of inclisiran on LDL-C at goal at Month 12\ntype=secondary | measure=To describe LDL-C Test on Target value during the 12 months after baseline, for the inclisiran group and the SoC group. | time_frame=12 months | description=To evaluate the real-world effectiveness of inclisiran, on LDL-C Test on Target at 1 year, compared with the SoC group.\ntype=secondary | measure=The percentage change in levels of total cholesterol, triglyceride, HDL-C, Lp(a), ApoA, and ApoB, from baseline at 3 months, 6 months, 9 months, and 12 months, for the inclisiran group versus the SoC group | time_frame=At Month 3, Month 6, Month 9, and Month 12 | description=To evaluate the effectiveness of inclisiran on the change in other parameters of the lipid profile at Month 3, Month 6, Month 9, and Month 12, compared with SoC\ntype=secondary | measure=Area under the curve (AUC) of LDL-C level versus time (from 0 months to 12 months), for the inclisiran group versus the SoC group | time_frame=Baseline, 12 months | description=To evaluate the accumulated LDL-C in the inclisiran group and the SoC group\ntype=secondary | measure=The proportion of participants with PDCinclisiran\u226580% in the inclisiran group and the proportion of participants with PDCnon-statin\u226580% in the SoC group, at 3 months, 6 months, 9 months, and 12 months | time_frame=At Month 3, Month 6, Month 9, and Month 12 | description=To estimate the adherence to inclisiran and other non-statin lipid-lowering therapies (LLTs), as measured by the proportion of days covered (PDC), using prescription data\ntype=secondary | measure=The average number of days covered, of inclisiran in the inclisiran group and of non-statin lipid-lowering therapies (LLTs) in the SoC group, at 3 months, 6 months, 9 months, and 12 months | time_frame=At Month 3, Month 6, Month 9, and Month 12 | description=To estimate the adherence to inclisiran and other non-statin lipid-lowering therapies (LLTs), as measured by the proportion of days covered (PDC), using prescription data\ntype=secondary | measure=The average PDCinclisiran in the inclisiran group and the average PDCnon-statin in the SoC group, at 3 months, 6 months, 9 months, and 12 months | time_frame=At Month 3, Month 6, Month 9, and Month 12 | description=To estimate the adherence to inclisiran and other non-statin lipid-lowering therapies (LLTs), as measured by the proportion of days covered (PDC), using prescription data\ntype=secondary | measure=Age at randomization and age at first diagnosis of CHD | time_frame=12 months | description=To describe the demographics and clinical characteristics of the inclisiran group and the SoC group.\ntype=secondary | measure=Sex | time_frame=12 months | description=To describe the demographics and clinical characteristics of the inclisiran group and the SoC group\ntype=secondary | measure=Temperature | time_frame=12 months | description=To describe the demographics and clinical characteristics of the inclisiran group and the SoC group\ntype=secondary | measure=Respiratory rate | time_frame=12 months | description=To describe the vital signs characteristics of inclisiran group and the SoC group. It will be measured manually or with an electrocardiogram monitor.\ntype=secondary | measure=Blood pressure | time_frame=12 months | description=To describe the demographics and clinical characteristics of the inclisiran group and the SoC group\ntype=secondary | measure=Heart rate | time_frame=12 months | description=To describe the demographics and clinical characteristics of the inclisiran group and the SoC group\ntype=secondary | measure=Previous lipid-lowering therapies (LLTs), through Adherence Assessment Questionnaire (AAQ) | time_frame=12 months | description=The AAQ is a generic instrument for assessing non-adherence (NA) in chronic conditions, consists of 11 items in total. Ten of these items are phrased as statements and use a 4-point Likert scale, offering the response options: Strongly agree, Generally agree, Generally disagree, and Strongly disagree. Each item is scored from 1 to 4, with a higher score indicating a greater likelihood of non-adherence.\ntype=secondary | measure=Previous lipid-lowering therapies (LLTs), through Adherence Barriers Questionnaire (ABQ) | time_frame=12 months | description=The ABQ consists of 16 items, each addressing a specific adherence barrier. All items are formulated as statements. A 4-point Likert scale is used, deliberately omitting a neutral response option to encourage decisive answers. The available response options are: Strongly agree, Generally agree, Generally disagree, and Strongly disagree. Each response is assigned a value from 1 to 4 or 4 to 1, depending on the wording of the item, ensuring that a higher score reflects a stronger influence of a specific barrier on the patient's perception. The total score ranges from 16 (minimum) to 64 (maximum).Based on patient responses, both a general ABQ score and item- or subscale-specific scores can be calculated, indicating the number and strength of adherence barriers experienced by a patient.\ntype=secondary | measure=Dose, frequency, and treatment duration of inclisiran in the inclisiran group and of other LLTs in the SoC group | time_frame=12 months | description=To describe the treatment patterns of inclisiran and other LLTs\ntype=secondary | measure=LDL-C variability in the inclisiran group by average successive variability (ASV), coefficient of variation (CV), and variation independent of mean (VIM) | time_frame=12 months | description=To evaluate LDL-C variability in the inclisiran group\ntype=secondary | measure=Subsequent LLTs for participants who discontinued/switched the assigned treatment | time_frame=12 months | description=To describe the treatment patterns of inclisiran and other LLTs\ntype=secondary | measure=Concomitant lipid lowering treatments | time_frame=12 months | description=To describe the treatment patterns of inclisiran and other LLTs\ntype=secondary | measure=Treatment satisfaction from Treatment Satisfaction Questionnaire for Medication (TSQM) | time_frame=At Month 6 and Month 12 | description=This scale includes four dimensions: drug treatment effectiveness, adverse reactions, convenience, and overall satisfaction. Whether the patient has experienced adverse drug reactions is scored using \"yes\" and \"no\"; The adverse reaction dimension is evaluated using a Likert-5 scale, with scores ranging from 1 to 5 indicating \"extremely dissatisfied\" to \"not dissatisfied at all\"; The effectiveness, convenience, and overall satisfaction are rated on a Likert-7 scale, with scores ranging from 1 to 7 indicating \"extremely dissatisfied\" and \"extremely satisfied\", respectively. The standard score for each dimension is 100 points, and the higher the score, the higher the patient's satisfaction with drug treatment.\ntype=secondary | measure=The average PDCinclisiran in the inclisiran group and the average PDCnon-statin in the SoC group, from patient questionnaire data, at 3 months, 6 months, 9 months, and 12 months | time_frame=At Month 3, Month 6, Month 9, and Month 12 | description=To assess treatment satisfaction and adherence by questionnaires\ntype=secondary | measure=Incidence of adverse events (AEs), serious adverse events (SAEs) | time_frame=12 months | description=To evaluate the safety of Inclisiran\ntype=secondary | measure=Number of participants with relevant medical history | time_frame=12 months | description=To describe the demographics and clinical characteristics of the inclisiran group and the SoC group",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 1280,
+      "trial_nct_id": "NCT06941792"
+    },
+    {
+      "chunk_id": "NCT06941792:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-17\nPrimary completion date: 2026-01-30\nCompletion date: 2026-01-30\nStudy first posted: 2025-04-24\nResults first posted: None\nLast update posted: 2026-01-26\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06941792"
+    },
+    {
+      "chunk_id": "NCT06941792:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT06941792"
+    }
+  ],
+  "trial_nct_id": "NCT06941792"
+}

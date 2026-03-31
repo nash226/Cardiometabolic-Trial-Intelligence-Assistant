@@ -1,0 +1,236 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C581236",
+          "term": "8-hydroxy-2,2,14,14-tetramethylpentadecanedioic acid"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Once daily",
+          "interventionNames": [
+            "Drug: Bempedoic Acid Tablet"
+          ],
+          "label": "Bempedoic acid",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Once daily",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Bempedoic acid"
+          ],
+          "description": "Once daily, oral",
+          "name": "Bempedoic Acid Tablet",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Once daily, oral",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Primary Hyperlipidemia"
+      ],
+      "keywords": [
+        "Bempedoic Acid",
+        "Hyperlipidemia",
+        "Efficacy",
+        "Safety"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "wei.zhao@ganlee.com",
+          "name": "Wei Zhao",
+          "phone": "010-56456726",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "wei.zhao@ganlee.com",
+              "name": "Wei Zhao",
+              "phone": "010-56456726",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Site 01",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial is a phase III study to evaluate the efficacy , tolerability, and safety of Bempedoic Acid Tablets in patients with hyperlipidemia not adequately controlled by Statins."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 240,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\. 18 years and older, male or female.\n* 2\\. 18 kg/m2 \u2264Body Mass Index (BMI) \u226435 kg/m2.\n* 3\\. Participants must agree to use reliable contraception from the screening day until 30 days after the last dose, and must not donate sperm or eggs for assisted reproduction purposes.\n* 4\\. Fully understand the purpose and requirements of the study, voluntarily participate in the clinical trial, and sign a written informed consent form, capable of completing the entire study process.\n\nExclusion Criteria:\n\n* 1\\. Known allergy to any component of the investigational drug or its excipients, or a history of allergic diseases (e.g., asthma, urticaria, eczema) or allergic constitution.\n* 2\\. Fasting triglycerides (TG) \u2265 5.64 mmol/L (\u2265 500 mg/dL) at screening.\n* 3\\. History of malignant tumors prior to screening.\n* 4\\. History of drug, alcohol, amphetamines, or other drug abuse.\n* 5\\. Participation in other clinical studies and use of other investigational drugs or medical devices within 3 months prior to screening or within 5 half-lives of the drugs (whichever is longer).\n* 6\\. Pregnant or breastfeeding females, or those with a positive human chorionic gonadotropin (HCG) pregnancy test.\n* 7\\. Any other factors that the investigator believes makes the participant unsuitable for the study.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Clinical Study to Evaluate the Efficacy, Tolerability, and Safety of Bempedoic Acid",
+      "nctId": "NCT06780410",
+      "officialTitle": "A Phase III Clinical Study to Evaluate the Efficacy, Tolerability, and Safety of Bempedoic Acid in Patients with Hyperlipidemia Not Adequately Controlled by Statins",
+      "orgStudyIdInfo": {
+        "id": "BDP-HLD-301"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Gan & Lee Pharmaceuticals."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage change from baseline in LDL-C levels at Week 12",
+          "timeFrame": "Baseline, Week 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage change from baseline in total cholesterol (TC) levels at Week 12",
+          "timeFrame": "Baseline, Week 12"
+        },
+        {
+          "measure": "Adverse events (AEs) and serious adverse events (SAEs) during the study",
+          "timeFrame": "Baseline, Week 13"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Gan & Lee Pharmaceuticals."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-01-13",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-10",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-12-20",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-01",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-13",
+      "studyFirstSubmitQcDate": "2025-01-13"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07064473:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07064473\nBrief title: EASi-PROTKT\u2122 - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease\nOfficial title: EASi-PROTKT\u2122 - A Phase III Double-blind, Randomised, Parallel-group Superiority Trial to Evaluate Efficacy and Safety of the Combined Use of Oral Vicadrostat (BI 690517) and Empagliflozin Compared With Placebo and Empagliflozin in Participants With Type 2 Diabetes, Hypertension and Established Cardiovascular Disease\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 82,
+      "trial_nct_id": "NCT07064473"
+    },
+    {
+      "chunk_id": "NCT07064473:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Diabetes Mellitus, Type 2; Hypertension; Cardiovascular Diseases\nIntervention labels: Vicadrostat; Empagliflozin; Placebo matching Vicadrostat\nDrug class labels: \nArms: Vicadrostat + empagliflozin treatment arm; Vicadrostat-placebo + empagliflozin treatment arm\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT07064473"
+    },
+    {
+      "chunk_id": "NCT07064473:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is open to adults with type 2 diabetes, high blood pressure, and cardiovascular disease. People can join the study if they have these conditions and do not have a history of heart failure. The purpose of this study is to find out if a medicine called vicadrostat, when taken with empagliflozin, helps reduce cardiovascular risk in people with these conditions. The study will compare this combination to a placebo version of vicadrostat with empagliflozin.\n\nParticipants are put into 2 groups randomly, which means by chance. One group takes vicadrostat and empagliflozin tablets, and the other group takes placebo tablets with empagliflozin. Placebo tablets look like vicadrostat tablets but do not contain any medicine.\n\nParticipants take a tablet once per day for 2 and a half years and up to 4 years and 3 months. All participants also continue their medication for type 2 diabetes, high blood pressure, and cardiovascular disease. Participants have an equal chance of receiving the study medicine or placebo.\n\nParticipants are in the study for up to 4 years and 3 months. During this time, they visit the study site regularly. During these visits, doctors collect information about participants' health and take blood samples. The doctors document when participants experience cardiovascular events. The doctors also regularly check participants' health and take note of any unwanted effects.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 226,
+      "trial_nct_id": "NCT07064473"
+    },
+    {
+      "chunk_id": "NCT07064473:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria :\n\n* At least 18 years old at time of consent\n* Signed and dated written informed consent in accordance with ICH-GCP and local legislation prior to admission to the trial\n* Women of childbearing potential (WOCBP) must be ready and able to use highly effective methods of birth control per ICH M3 (R2).\n* Participants with medical history of hypertension and on active pharmacological treatment\n* Participants with medical history of type 2 diabetes mellitus (T2DM) and on active pharmacological treatment\n* Established cardiovascular (CV) disease and on active pharmacological treatment\n* At least one additional risk factor for developing heart failure (HF)\n\nExclusion Criteria:\n\n* History of HF or hospitalization for HF or treatment of HF\n* Atrial fibrillation or Atrial flutter with a resting heart rate \\>110 beats per minute (bpm) documented by echocardiogram (ECG) at Visit 1 (screening)\n* Advanced untreated conduction disease or untreated clinically relevant ventricular arrhythmia at Visit 1 (screening)\n* Treatment with an Mineralocorticoid receptor antagonist (MRA)\n* Treatment with amiloride or other potassium-sparing diuretic\n* Receiving the following treatments at Visit 1 (screening) or requiring such treatment before Visit 2 (randomisation), or planned during the trial:\n\n  * A direct renin inhibitor (e.g. aliskiren)\n  * More than one Angiotensin-converting enzyme inhibitor (ACEi) and/or Angiotensin receptor blocker (ARB) (including Angiotensin receptor-neprilysin inhibitor (ARNi)) used simultaneously\n  * Other aldosterone synthase inhibitors (e.g. baxdrostat)\n  * Systemic mineralocorticoid replacement therapy (e.g. fludrocortisone) Further exclusion criteria apply.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 259,
+      "trial_nct_id": "NCT07064473"
+    },
+    {
+      "chunk_id": "NCT07064473:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to first event of cardiovascular (CV) death or heart failure event (HFE) | time_frame=Up to 51 months\ntype=secondary | measure=Time to first event of cardiovascular (CV) death or hospitalisation for heart failure (HHF) | time_frame=Up to 51 months\ntype=secondary | measure=Absolute change from baseline in mean systolic blood pressure (SBP) [mmHg] at Week 24 | time_frame=At baseline and week 24\ntype=secondary | measure=Relative change from baseline in Urine Albumin Creatinine Ratio (UACR) [mg/g] at Week 24 | time_frame=At baseline and week 24\ntype=secondary | measure=Time to first occurrence of the composite outcome of kidney disease progression, HHF, CV death | time_frame=Up to 51 months\ntype=secondary | measure=Time to first event of CV death, HFE, non-fatal myocardial infarction (MI) or non-fatal stroke (4-point Major adverse cardiovascular events (MACE)) | time_frame=Up to 51 months\ntype=secondary | measure=Occurrences of all-cause hospitalisations (first and recurrent) | time_frame=Up to 51 months\ntype=secondary | measure=Time to first event of new-onset atrial fibrillation or atrial flutter (in participants without history of atrial fibrillation and atrial flutter) or CV death | time_frame=Up to 51 months\ntype=secondary | measure=Time to all-cause death | time_frame=Up to 51 months\ntype=secondary | measure=Time to CV death | time_frame=Up to 51 months\ntype=secondary | measure=Time to first HHF | time_frame=Up to 51 months\ntype=secondary | measure=Time to first event of new-onset HF or CV death | time_frame=Up to 51 months\ntype=secondary | measure=Occurrences of HHF (first and recurrent) | time_frame=Up to 51 months\ntype=secondary | measure=Absolute change from baseline in mean diastolic blood pressure (DBP) [mmHg] at Week 24 | time_frame=At baseline and week 24",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 265,
+      "trial_nct_id": "NCT07064473"
+    },
+    {
+      "chunk_id": "NCT07064473:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-05-09\nPrimary completion date: 2029-12-14\nCompletion date: 2029-12-21\nStudy first posted: 2025-07-14\nResults first posted: None\nLast update posted: 2026-03-18\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07064473"
+    },
+    {
+      "chunk_id": "NCT07064473:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Boehringer Ingelheim\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT07064473"
+    }
+  ],
+  "trial_nct_id": "NCT07064473"
+}

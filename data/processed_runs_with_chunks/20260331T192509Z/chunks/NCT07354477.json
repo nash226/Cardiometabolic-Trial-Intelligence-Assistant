@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07354477:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07354477\nBrief title: Single-site Pilot Study Evaluating the Effect of QLS-111 Ophthalmic Solution on Posterior Perfusion and Vessel Dilation\nOfficial title: An Exploratory, Pilot, Single-site Study to Evaluate the Effect of QLS-111 Ophthalmic Solution on Posterior Perfusion and Vessel Dilation\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT07354477"
+    },
+    {
+      "chunk_id": "NCT07354477:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Non-proliferative Diabetic Retinopathy (NPDR); Open-angle Glaucoma (OAG); Normal Tension Glaucoma (NTG)\nIntervention labels: QLS-111 Ophthalmic Solution (0.015%); QLS-111 Ophthalmic Solution (0.075%)\nDrug class labels: \nArms: QLS-111 Ophthalmic Solution, 2 concentrations (0.015% and 0.075%, concurrent) dosed BID for 7 days\nKeywords: glaucoma; diabetic retinopathy; vessel dilation",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT07354477"
+    },
+    {
+      "chunk_id": "NCT07354477:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Pilot, single-site, prospective study of QLS-111 0.015 % in subjects with NPDR, OAG or NTG\nDetailed description: Pilot, single-site, prospective study of BID OU dosing of QLS-111 0.015 % for 7 days followed by QLS-111 0.075% BID OU in subjects with NPDR, OAG or NTG. Both eyes (OU) will be dosed. The study is comprised of 4 visits including Screening/Baseline visit, 2 Treatment Period visits over 14 days of IP dosing, and a Post-Treatment visit.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 77,
+      "trial_nct_id": "NCT07354477"
+    },
+    {
+      "chunk_id": "NCT07354477:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Diagnosis of mild to moderate OAG, mild to moderate NTG, or stable NPDR in at least one eye.\n* Corrected visual acuity in each eye +1.0 logMAR or better by early treatment diabetic retinopathy study (ETDRS) in each eye (equivalent to 20/200).\n* Able and willing to give signed informed consent and follow study instructions.\n\nExclusion Criteria:\n\n* History of active ocular disease other than mild to moderate OAG, mild to moderate NTG, or stable NPDR.\n* Patient is using more than 1 ocular hypotensive topical medication for intraocular pressure (IOP) control (prior MIGS and/or laser trabeculoplasty to control IOP is allowed if done at least 3 months from Screening (Visit 1).\n* Use of TO \u03b2-blockers (i.e. timolol) within 3 months prior to Screening.\n* Is noncompliant with current ocular anti-hypotensive medications and/or unwilling to be compliant throughout the study.\n* Clinically significant severe retinal disease in either eye that will require treatment during the study (e.g., proliferative diabetic retinopathy, exudative, or severe non-exudative macular degeneration). NOTE: background diabetic retinopathy (BDR) as required for the NPDR subjects is allowed if in the Investigator's opinion the BDR is stable and is expected to remain stable during the duration of the study.\n* Anti-VEGF or TO steroid treatment within 3 months prior to Screening or expected treatment while participating in this study. Prior diabetic macular edema (DME) history is allowed if adequately controlled with treatment (anti-VEGFs and steroids not within last 3 months prior to Screening), regimen is stable, and not expected to change during the study. - Corneal pathologic changes preventing reliable measurement (e.g., scarring, opacity, edema, and bullae) in either eye that would inhibit accurate IOP measurements.\n* Previously diagnosed, clinically significant systemic or psychiatric disease (e.g., myasthenia gravis, hepatic, renal, endocrine, pulmonary, or cardiovascular disorders) which might compromise the study results or subject safety. For the purpose of this study previously diagnosed, clinically significant renal disease that should be excluded from enrollment will be defined as Stages 3-5 kidney disease and/or an estimated glomerular filtration rate (eGFR) of \u226459.\n* Use of calcium channel blockers.\n* Labile hypertension and/or hypotension that is inadequately controlled,",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 376,
+      "trial_nct_id": "NCT07354477"
+    },
+    {
+      "chunk_id": "NCT07354477:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change from Baseline in blood flow to the posterior segment of the eye. | time_frame=Days 1 through 22 | description=Ocular imaging will be collected at study visits at baseline, treatment period , and 1 week post-treatment and to evaluate change from baseline in retinal vessel diameter and blood flow.\ntype=other | measure=Ocular safety | time_frame=Days 1 through 22 | description=Ocular safety will be assessed by review of the following:\n\n\u2022 Ocular adverse events (AEs)\ntype=other | measure=Systemic safety | time_frame=Days 1 through 22 | description=Systemic safety will be assessed by review of the following:\n\n\u2022 Systemic AEs",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 99,
+      "trial_nct_id": "NCT07354477"
+    },
+    {
+      "chunk_id": "NCT07354477:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-02-20\nPrimary completion date: 2026-06\nCompletion date: 2026-06\nStudy first posted: 2026-01-21\nResults first posted: None\nLast update posted: 2026-02-24\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07354477"
+    },
+    {
+      "chunk_id": "NCT07354477:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Qlaris Bio, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07354477"
+    }
+  ],
+  "trial_nct_id": "NCT07354477"
+}

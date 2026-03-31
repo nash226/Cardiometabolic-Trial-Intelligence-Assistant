@@ -1,0 +1,153 @@
+{
+  "arms": [
+    {
+      "description": "Once daily fixed-dose combination of extended release Torsemide 24 mg and Spironolactone 30 mg",
+      "intervention_names": [
+        "Drug: Combination Product: FDC of spironolactone and ER torsemide"
+      ],
+      "label": "Active Comparator: Fixed-dose combination (FDC) of ER Torsemide and Spironolactone tablet",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Oral dose of once daily up to 80 mg furosemide or equivalent doses of other loop diuretics and 10 mg finerenone",
+      "intervention_names": [
+        "Drug: Combination Product: Stabilized doses of loop diuretic and finerenone"
+      ],
+      "label": "Active Comparator: Continued on stabilized doses of loop diuretic and finerenone",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Hypertension (HTN)",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Adult male and female patients aged \u226518 years;\n2. Are diagnosed with a CKD;\n3. Have an eGFR of \u226525 and \u226460 mL/min/1.72 m2;\n4. Have an UACR 150-3500 mg/g and Sk 4.5 to 5.0 mmol/L;\n5. Have an observed clinic seated systolic blood pressure (SBP) of \u2265130 and \u2264170 mmHg;\n6. Are receiving up to an 80 mg daily dose of furosemide or an equivalent dose of other loop diuretics and and 10 mg daily dose of finerenone for 30 days;\n7. Willing and able to comply with all aspects of the protocol and to provide written informed consent from the patient or patient's legally acceptable representative (LAR);\n8. Willing to use effective methods of contraception during sexual intercourse with an opposite sex throughout the study.\n\nExclusion Criteria:\n\n1. Have a diagnosis of type I diabetes mellitus (T1DM);\n2. Have uncontrolled hypertension (SBP \\>170 mmHg);\n3. Have primary aldosteronism or endocrine disorders;\n4. Have serum potassium \\>5.0 or \\<4.5 mmol/L at screening;\n5. Unable to continue on 10 mg finerenone or require daily dose of more than 80mg furosemide or equivalent doses of other loop diuretics\n6. Have a recent diagnosis of acute kidney injury (\u22643 months);\n7. Had a cardiovascular event within 3 months prior to screening (e.g., myocardial infarction, stroke, transient ischemic attack, pulmonary embolism, elective coronary artery bypass grafting) or elective percutaneous coronary intervention within 1 month prior to screening;\n8. Had hospitalized for worsening heart failure in last 30 days;\n9. Have an autosomal dominant or recessive polycystic kidney disease;\n10. Have an Addison's disease;\n11. Have Hepatic insufficiency classified as Child-Pugh;\n12. Have a diagnosis of Lupus nephritis or anti-neutrophil cytoplasmic autoantibody (ANCA)-associated vasculitis or any other kidney diseases requiring immunosuppressive therapy;\n13. Have a history of organ transplant;\n14. Require treatment with potassium-sparing diuretics;\n15. Have an active malignancy;\n16. Currently taking potassium supplement or potassium binders;\n17. Have known hypersensitivity to sulfonamides or related compounds or spironolactone or finerenone;\n18. Is pregnant, breastfeeding, or planning to become pregnant during the study;\n19. Have participated in another clinical study involving any investigational drug within 30 days prior to Screening;\n20. Is considered to be unsuitable for any other reason that may either place the patient at increased risk during participation or interfere with the interpretation of the study outcomes by the Investigator, after reviewing medical and psychiatric history, physical examination, and laboratory evaluation.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Active Comparator: Fixed-dose combination (FDC) of ER Torsemide and Spironolactone tablet"
+      ],
+      "description": "The usual starting torsemide daily dose ranges from 5-10 mg (for hypertension) to 10-20 mg (for heart failure). The initial dose for treatment of heart failure or hypertension is 25 mg daily.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Combination Product: FDC of spironolactone and ER torsemide",
+      "normalized_name": "combination product: fdc of spironolactone and er torsemide"
+    },
+    {
+      "arm_group_labels": [
+        "Active Comparator: Continued on stabilized doses of loop diuretic and finerenone"
+      ],
+      "description": "Treatment will be up to 80 mg furosemide or equivalent doses of other loop diuretics and 10 mg finerenone",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Combination Product: Stabilized doses of loop diuretic and finerenone",
+      "normalized_name": "combination product: stabilized doses of loop diuretic and finerenone"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "SBP \u226510 mmHg reduction from baseline (binary: yes/no).",
+      "measure": "Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with SBP reduction",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    },
+    {
+      "description": "NCB is defined as UACR \u226530% reduction from baseline (binary: yes/no).",
+      "measure": "Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with UACR reduction",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    },
+    {
+      "description": "Serum K\u207a \u22645.0 mmol/L at end of treatment (binary: y/no)",
+      "measure": "Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with Serum K\u207a reduction",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "A study Comparing the Clinical Benefit of Finerenone Versus a Fixed-Dose Combination (FDC) of Extended-Release Torsemide and Spironolactone in Patients with Hypertension and Chronic Kidney Disease.",
+    "brief_title": "A Study Comparing the Clinical Benefit of Finerenone Versus a Fixed Dose Combination (FDC) of Extended-Release Torsemide and Spironolactone in Patients With Hypertension and Chronic Kidney Disease",
+    "collaborator_names": [],
+    "completion_date": "2026-10",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Adult male and female patients aged \u226518 years;\n2. Are diagnosed with a CKD;\n3. Have an eGFR of \u226525 and \u226460 mL/min/1.72 m2;\n4. Have an UACR 150-3500 mg/g and Sk 4.5 to 5.0 mmol/L;\n5. Have an observed clinic seated systolic blood pressure (SBP) of \u2265130 and \u2264170 mmHg;\n6. Are receiving up to an 80 mg daily dose of furosemide or an equivalent dose of other loop diuretics and and 10 mg daily dose of finerenone for 30 days;\n7. Willing and able to comply with all aspects of the protocol and to provide written informed consent from the patient or patient's legally acceptable representative (LAR);\n8. Willing to use effective methods of contraception during sexual intercourse with an opposite sex throughout the study.\n\nExclusion Criteria:\n\n1. Have a diagnosis of type I diabetes mellitus (T1DM);\n2. Have uncontrolled hypertension (SBP \\>170 mmHg);\n3. Have primary aldosteronism or endocrine disorders;\n4. Have serum potassium \\>5.0 or \\<4.5 mmol/L at screening;\n5. Unable to continue on 10 mg finerenone or require daily dose of more than 80mg furosemide or equivalent doses of other loop diuretics\n6. Have a recent diagnosis of acute kidney injury (\u22643 months);\n7. Had a cardiovascular event within 3 months prior to screening (e.g., myocardial infarction, stroke, transient ischemic attack, pulmonary embolism, elective coronary artery bypass grafting) or elective percutaneous coronary intervention within 1 month prior to screening;\n8. Had hospitalized for worsening heart failure in last 30 days;\n9. Have an autosomal dominant or recessive polycystic kidney disease;\n10. Have an Addison's disease;\n11. Have Hepatic insufficiency classified as Child-Pugh;\n12. Have a diagnosis of Lupus nephritis or anti-neutrophil cytoplasmic autoantibody (ANCA)-associated vasculitis or any other kidney diseases requiring immunosuppressive therapy;\n13. Have a history of organ transplant;\n14. Require treatment with potassium-sparing diuretics;\n15. Have an active malignancy;\n16. Currently taking potassium supplement or potassium binders;\n17. Have known hypersensitivity to sulfonamides or related compounds or spironolactone or finerenone;\n18. Is pregnant, breastfeeding, or planning to become pregnant during the study;\n19. Have participated in another clinical study involving any investigational drug within 30 days prior to Screening;\n20. Is considered to be unsuitable for any other reason that may either place the patient at increased risk during participation or interfere with the interpretation of the study outcomes by the Investigator, after reviewing medical and psychiatric history, physical examination, and laboratory evaluation.",
+    "detailed_description": "SAR-ERTSP-01P, A Randomized, Parallel, Two-Arm Study Comparing the Net Clinical Benefit of Finerenone Versus a Fixed-Dose Combination of Extended-Release Torsemide and Spironolactone in Patients with Hypertension and PRoteinuric ChrOnic KidNey Disease (NEPHRON).",
+    "drug_class_labels": [],
+    "enrollment_count": 30,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Combination Product: FDC of spironolactone and ER torsemide",
+      "Combination Product: Stabilized doses of loop diuretic and finerenone"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "radomized",
+      "two arm",
+      "parallel",
+      "torsemide",
+      "finerenone",
+      "spironolactone",
+      "fixed-dose combination",
+      "extended-release"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-09",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "Sarfez Pharmaceuticals, Inc.",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07223502",
+    "official_title": "A Randomized, Parallel, Two Arm Study Comparing the Net Clinical Benefit of Finerenone Versus a Fixed Dose Combination of Extended-Release Torsemide and Spironolactone in Patients With Hypertension and PRoteinuric ChrOnic KidNey Disease",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE3"
+    ],
+    "primary_completion_date": "2026-07",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07223502",
+    "start_date": "2025-12-01",
+    "study_first_posted_at": "2025-10-31",
+    "study_type": "INTERVENTIONAL"
+  }
+}

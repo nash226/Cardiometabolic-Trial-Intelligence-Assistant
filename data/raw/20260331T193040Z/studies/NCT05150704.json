@@ -1,0 +1,1265 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009205",
+          "term": "Myocarditis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011239",
+          "term": "Prednisolone"
+        },
+        {
+          "id": "D011246",
+          "term": "Pregnadienetriols"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000077324",
+          "term": "Crystalloid Solutions"
+        },
+        {
+          "id": "D007552",
+          "term": "Isotonic Solutions"
+        },
+        {
+          "id": "D012996",
+          "term": "Solutions"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008775",
+          "term": "Methylprednisolone"
+        },
+        {
+          "id": "D000077330",
+          "term": "Saline Solution"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "removedCountries": [
+        "Denmark",
+        "France",
+        "Germany",
+        "Greece",
+        "Japan"
+      ],
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Pulsed corticosteroid therapy (methylprednisolone 1 g IV qd for 3 days diluted in saline solution 250 mL) on top of standard therapy and maximal supportive care",
+          "interventionNames": [
+            "Drug: Methylprednisolone"
+          ],
+          "label": "Experimental arm",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo (saline solution 250 mL IV qd for 3 days) on top of standard therapy and maximal supportive care.",
+          "interventionNames": [
+            "Drug: saline solution"
+          ],
+          "label": "Control arm",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Experimental arm"
+          ],
+          "description": "Pulsed corticosteroid therapy (methylprednisolone 1 g IV qd for 3 days diluted in saline solution 250 mL) on top of standard therapy and maximal supportive care",
+          "name": "Methylprednisolone",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Control arm"
+          ],
+          "description": "Placebo (saline solution 250 mL IV qd for 3 days) on top of standard therapy and maximal supportive care.",
+          "name": "saline solution",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Myocarditis Acute"
+      ],
+      "keywords": [
+        "Acute Myocarditis",
+        "Corticosteroid therapy",
+        "Myocarditis",
+        "Trial",
+        "Immunosuppression",
+        "Acute heart failure",
+        "Fulminant acute myocarditis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "enrico.ammirati@ospedaleniguarda.it",
+          "name": "Enrico Ammirati, MD, PhD",
+          "phone": "+39 0264447791",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "San Diego",
+          "contacts": [
+            {
+              "name": "Eric D Adler, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of California San Diego",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92093"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "name": "Angelo Nascimbene, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Texas",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "77204"
+        },
+        {
+          "city": "Charlottesville",
+          "contacts": [
+            {
+              "name": "Antonio Abbate, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Virginia",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "22903"
+        },
+        {
+          "city": "Richmond",
+          "contacts": [
+            {
+              "name": "Roshanak Markley, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Virginia Commonwealth University",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "23284"
+        },
+        {
+          "city": "Graz",
+          "contacts": [
+            {
+              "name": "Markus Wallner, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Austria",
+          "facility": "Medical University of Graz",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Innsbruck",
+          "contacts": [
+            {
+              "name": "Gerhard Poelzl, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Austria",
+          "facility": "Medical University Innsbruck",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Vienna",
+          "contacts": [
+            {
+              "name": "Max Lenz, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Austria",
+          "facility": "Medical University of Wien",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Aalst",
+          "contacts": [
+            {
+              "name": "Mark Heggermont, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Belgium",
+          "facility": "Onze Lieve Vrouwziekenhuis",
+          "geoPoint": {
+            "lat": 50.93604,
+            "lon": 4.0355
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Edegem",
+          "contacts": [
+            {
+              "name": "Caroline Van De Heyning, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Belgium",
+          "facility": "Antwerp University Hospital",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Hasselt",
+          "contacts": [
+            {
+              "name": "Philippe Jr Timmermans, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Belgium",
+          "facility": "Jessa Hospital Hasselt",
+          "geoPoint": {
+            "lat": 50.93106,
+            "lon": 5.33781
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Leuven",
+          "contacts": [
+            {
+              "name": "Walter Droogn\u00e9, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Belgium",
+          "facility": "University Hospitals Leuven",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Brno",
+          "contacts": [
+            {
+              "name": "Jan Krej\u010d\u00ed, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Czechia",
+          "facility": "Masaryk University and St. Anne's University Hospital",
+          "geoPoint": {
+            "lat": 49.19522,
+            "lon": 16.60796
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Prague",
+          "contacts": [
+            {
+              "name": "Petr Kuchynka, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Czechia",
+          "facility": "Charles University in Prague and General University Hospital",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Prague",
+          "contacts": [
+            {
+              "name": "Vojtech Melenovsky, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Czechia",
+          "facility": "Institute for Clinical and Experimental Medicine - IKEM",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Helsinki",
+          "contacts": [
+            {
+              "name": "Jukka Lehtonen, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Finland",
+          "facility": "Heart and Lung Center, Helsinki University Hospital",
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Ancona",
+          "contacts": [
+            {
+              "name": "Marco Marini, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marco Marini, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "AOU Ospedali Riuniti Umberto I\u00b0-Lancisi-Salesi di Ancona",
+          "geoPoint": {
+            "lat": 43.60717,
+            "lon": 13.5103
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Bergamo",
+          "contacts": [
+            {
+              "name": "Aurelia Grosu, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Aurelia Grosu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "ASST Papa Giovanni XXIII",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Bologna",
+          "contacts": [
+            {
+              "name": "Luciano Potena, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Luciano Potena, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Policlinico S.Orsola-Malpighi",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Brescia",
+          "contacts": [
+            {
+              "name": "Daniela Tomasoni, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Daniela Tomasoni, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "ASST Spedali Civili",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Cagliari",
+          "contacts": [
+            {
+              "name": "Marco Corda, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marco Corda, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera \"G.Brotzu\"",
+          "geoPoint": {
+            "lat": 39.23054,
+            "lon": 9.11917
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Chieti",
+          "contacts": [
+            {
+              "name": "Marco Zimarino, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Italy",
+          "facility": "P.O. SS. Annunziata Chieti -ASL 2 Abruzzo",
+          "geoPoint": {
+            "lat": 42.34827,
+            "lon": 14.16494
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Florence",
+          "contacts": [
+            {
+              "name": "Francesco Cappelli, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Francesco Cappelli, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliero-Universitaria Careggi",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Genova",
+          "contacts": [
+            {
+              "name": "Roberta Della Bona, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Roberta Della Bona, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Ospedale Policlinico San Martino, IRCCS",
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Lecco",
+          "contacts": [
+            {
+              "name": "Roberto Spoladore, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Socio-Sanitaria Territoriale (ASST) di Lecco",
+          "geoPoint": {
+            "lat": 45.85589,
+            "lon": 9.39704
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Milan",
+          "contacts": [
+            {
+              "email": "enrico.ammirati@ospedaleniguarda.it",
+              "name": "Enrico Ammirati, MD",
+              "phone": "02 6444 7791",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Enrico Ammirati, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "ASST Grande Ospedale Metropolitano Niguarda",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Milan",
+          "contacts": [
+            {
+              "name": "Jeness Campodonico, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jeness Campodonico, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Centro Cardiologico Monzino",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Monza",
+          "contacts": [
+            {
+              "name": "Davide Corsi, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Davide Corsi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "ASST Monza, Ospedale San Gerardo",
+          "geoPoint": {
+            "lat": 45.58005,
+            "lon": 9.27246
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Naples",
+          "contacts": [
+            {
+              "name": "Francesco Loffredo, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Francesco Loffredo, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Specialistica dei Colli - Ospedale Monaldi",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Parma",
+          "contacts": [
+            {
+              "name": "Diego Ardissino, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Diego Ardissino, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliero Universitaria di Parma",
+          "geoPoint": {
+            "lat": 44.79935,
+            "lon": 10.32618
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Pavia",
+          "contacts": [
+            {
+              "name": "Rita Camporotondo, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rita Camporotondo, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Fondazione IRCCS Policlinico San Matteo",
+          "geoPoint": {
+            "lat": 45.19205,
+            "lon": 9.15917
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Pisa",
+          "contacts": [
+            {
+              "name": "Michele Emdin, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Michele Emdin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Fondazione Toscana Gabriele Monasterio",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Roma",
+          "contacts": [
+            {
+              "name": "Leonardo De Luca, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Leonardo De Luca, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera San Camillo Forlanini di Roma",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Roma",
+          "contacts": [
+            {
+              "name": "Maria Lucia Narducci, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Maria Lucia Narducci, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Siena",
+          "contacts": [
+            {
+              "name": "Serafina Valente, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Serafina Valente, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Universitaria Senese, Policlinico Santa Maria alle Scotte",
+          "geoPoint": {
+            "lat": 43.31822,
+            "lon": 11.33064
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Torino",
+          "contacts": [
+            {
+              "name": "Gaetano De Ferrari, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Gaetano De Ferrari, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Universitaria Citt\u00e0 della Salute e della Scienza di Torino",
+          "geoPoint": {
+            "lat": 44.88856,
+            "lon": 11.99138
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Udine",
+          "contacts": [
+            {
+              "name": "Massimo Imazio, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Massimo Imazio, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Presidio Ospedaliero Universitario \"Santa Maria della Misericordia\"",
+          "geoPoint": {
+            "lat": 46.0693,
+            "lon": 13.23715
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Ljubljana",
+          "contacts": [
+            {
+              "name": "Andreja \u010cerne, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Slovenia",
+          "facility": "University Medical Centre Ljubljana",
+          "geoPoint": {
+            "lat": 46.05108,
+            "lon": 14.50513
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "A Coru\u00f1a",
+          "contacts": [
+            {
+              "name": "Maria G Crespo-Leiro, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Complexo Hospitalario Universitario A Coru\u00f1a (CHUAC)",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Barcelona",
+          "contacts": [
+            {
+              "name": "Albert Ariza Sole, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Bellvitge University Hospital",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Barcelona",
+          "contacts": [
+            {
+              "name": "Alessandro Sionis, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital de La Santa Creu I Sant Pau",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Barcelona",
+          "contacts": [
+            {
+              "name": "Aitor Uribarri, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital Universitario Vall d'Hebron",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Madrid",
+          "contacts": [
+            {
+              "name": "Vanesa Bru\u00f1a, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital 12 de Octubre",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Madrid",
+          "contacts": [
+            {
+              "name": "Manuel Mart\u00ednez Sell\u00e9s, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital General Universitario Gregorio Mara\u00f1\u00f3n in Madrid",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Madrid",
+          "contacts": [
+            {
+              "name": "Fernando Dom\u00ednguez, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital Universitario Puerta de Hierro Majadahonda",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "M\u00e1laga",
+          "contacts": [
+            {
+              "name": "Jose Manuel Garcia-Pinilla, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital Universitario Virgen de la Victoria",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Murcia",
+          "contacts": [
+            {
+              "name": "Domingo Pascual, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital Universitario Virgen de la Arrixaca",
+          "geoPoint": {
+            "lat": 37.98704,
+            "lon": -1.13004
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "G\u00f6thenburg",
+          "contacts": [
+            {
+              "name": "Entela Bollano, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Sweden",
+          "facility": "Sahlgrenska Universitetssjukhuset",
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Lund",
+          "contacts": [
+            {
+              "name": "Oscar Braun, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Sweden",
+          "facility": "Lund University and Sk\u00e5ne University Hospital",
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          },
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Stockholm",
+          "contacts": [
+            {
+              "name": "Ida Haugen L\u00f6fman, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Sweden",
+          "facility": "Karolinska Universitetssjukhuset",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          },
+          "status": "NOT_YET_RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a phase III, multi-center international, single blind randomized controlled trial to test the efficacy of pulsed intravenous (IV) methylprednisolone versus standard therapy on top of maximal support in patients with Acute myocarditis (AM).",
+      "detailedDescription": "Acute myocarditis (AM) is a common condition characterized by histological evidence of inflammatory infiltrates associated with myocyte necrosis of non-ischemic origin. Clinical presentation spans from indolent form to cardiogenic shock also called fulminant myocarditis (FM). Patients can be stratified on the basis of their clinical presentation: patients with left ventricular (LV) ejection fraction (EF)\\<50% at first echocardiogram, and those with sustained ventricular arrhythmias, called complicated AM, have a worse prognosis compared with uncomplicated cases with preserved left ventricular ejection fraction (LVEF) and without arrhythmias. Among complicated AM, FM patients are those ones at the highest risk, presenting with severely impaired LVEF (generally \\<40%), and with need for inotropes and/or temporary mechanical circulatory supports (t-MCS).The pathogenesis of AM is felt to be due to an immune-mediated response against the myocardium.\n\nAs such, the overall objective is to evaluate the efficacy of pulsed IV corticosteroids therapy for the treatment of AM. It is proposed to test the efficacy of pulsed IV methylprednisolone in a single blind randomized controlled trial versus standard therapy on top of maximal support. The rationale for using pulsed corticosteroid therapy in the acute setting (within 3 weeks from cardiac symptoms' onset) to reduce myocardial inflammatory infiltrates favoring recovery appears strong. Nevertheless, no trial has tested this hypothesis in the very acute phase of AM, despite the high mortality rate of this condition and the fact that AM mainly affects young patients.\n\nCurrently, no specific medications in the acute phase of lymphocytic AM are recommended beyond supportive therapy with inotropes and t-MCS. One Cochrane review on corticosteroids showed that almost all studies focused on inflammatory cardiomyopathies with 6 months of symptoms of heart failure (HF), and despite an improvement of cardiac function observed in low quality and small size studies, there was no improvement in the survival. In the past, only one study assessed the efficacy of immunosuppression in AM, the Myocarditis Treatment Trial (MTT) that reported no benefit from immunosuppression. Neutral results in the MTT could be ascribed to a delay in the initiation of this potentially effective treatment. Thus, 55% of patients started immunosuppressive therapy after 1 month from the onset of myocarditis, when the left ventricle (LV) was already dilated, as highlighted by a mean LV end-diastolic diameter (EDD) of 64 mm. It is expected that patients with FM have normal LV dimension during the acute phase despite severe LV systolic dysfunction. Based on a study from PI group, it was observed that FM patients recover most of the LVEF in the first 2 weeks after admission, with a median absolute increase of 30%. This finding further suggests that an immunosuppressive treatment should be started as soon as possible to demonstrate effectiveness. As little has changed in the medical treatment of this condition in the last 30 years, identification of effective drugs is needed.\n\nPatients admitted to hospital for suspected AM complicated by acute HF/cardiogenic shock and LV systolic dysfunction will be screened for randomization.\n\nPatients will be randomized in the two arms in a 1:1 ratio (Pulsed methylprednisolone therapy vs Placebo). Randomization will be performed with stratification by country.\n\nThe primary objective is to demonstrate a reduction in the rate of the primary composite endpoint on patients treated with pulsed methylprednisolone therapy vs. standard therapy and maximal supportive care.\n\nEndpoints will be analyzed according to the following principles:\n\n* Intention-to-treat (ITT) population\n* Per Protocol (PP) population:\n* \"Safety population\"\n* A sensitivity analysis will also be performed on the previously defined populations after excluding patients (1) with histological diagnosis of giant cell myocarditis (GCM) or (2) who did not reach the final diagnosis of acute myocarditis based on CMRI or histology.\n\nSample size calculation: we plan to recruit a total of 360 patients, and we expect that about 20% of these patients or local physicians will refuse randomization. This would leave a total of 288 randomized patients (144 per arm).\n\nConsidering as relevant a reduction in the probability to reach the primary endpoint at 6 months from 25% in the standard therapy on top of maximal supportive care arm to 12% in the pulsed corticosteroid therapy arm (absolute risk reduction of 13% in absolute corresponding to a hazard ratio (HR) pulsed corticosteroid therapy vs. standard therapy of 0.44), the planned sample size will allow achieving a power of 0.80 with a one-sided log-rank test and an overall type I error of 0.025. The 25% figure considered for the standard therapy derives from a retrospective analysis of the patient's cohort spanning over 20 years. The calculation includes an interim analysis planned at 50% recruitment (O\\&#39;Brien-Fleming method). This interim analysis is accounted for in the sample size calculation with an alpha level of 0.001525 (final analysis 0.023475 alpha level) and is planned on the primary endpoint to assess a possible early treatment effect. No specific stopping rules are planned, given the multiplicity of aspects involved, but the report on safety will be reviewed by the Data and Safety Monitoring Committee (DSMC) will advise on possible aspects of the trial that need reconsideration.\n\nSample size adaptation: We will consider, based on the DSMC advise an adaptive approach to sample size in two regards:\n\n1. At the interim analysis, if the baseline incidence is lower than the expected 25%, the sample size calculation may be re-evaluated keeping the same HR of 0.44. For instance, if the observed incidence is 20%, maintaining the same HR of 0.44 (corresponding to an incidence of 9% in the pulsed corticosteroid therapy group, i.e. 11% in absolute risk reduction) the effective sample size needed to achieve 80% power should be increased to 360 patients. If the baseline incidence is higher than 25%, the planned actual sample size will achieve a power greater than 80% to detect a HR of 0.44 and no action will be taken.\n2. Based on the conditional power method, and on the DSMC advise, we may reconsider if a less promising result than HR=0.4444 is worth pursuing, given the current observed estimate. This case would require an increase in sample size that will be discussed in terms of relevance and feasibility. For example, if at the planned interim analysis, the estimated absolute risk reduction is at least 10% (HR=0.56) with 25% baseline, and the conditional power of meeting this 10% target (instead of the planned 13%) would be at least 60%, the sample size may be increased to reach the 80% desired power. In this case, the final effective sample size should be increased to 254 patients per arm to preserve an 80% power of demonstrating the less marked difference. The flexibility allowed in the sample size estimate will be considered based on the evaluation of the interim report by the DSMC and no data will be disclosed on interim treatment estimates to the study coordinator and steering committee.\n\nThe overall duration of the study from first patient first visit to last patient last visit will be 39 months. The follow-up will be up to 6 months and with additional 3 months to lock the database. Enrollment will last 30 months.\n\nIn parallel, there will be a prospective registry of patients that are eligible for the trial, but they are not randomized.\n\nA second registry, called MYOCARDITIS REGISTRY will prospectively recruit all patients with acute myocarditis demonstrated by CMRI or EMB who are not eligible for randomization (not all centers will take part in this registry).\n\nThe study is supported by a grant from Italian Ministry of Health (GR-2019-12368506) and Lombardy Region.\n\nExemption from the investigational new drug (IND) regulations by FDA on August 2nd, 2021 (PIND: 15727)\n\nEudraCT identifier: 2021-000938-34"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single blind randomized controlled trial",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 288,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients admitted to hospital for suspected AM\n* Age 18 years or older and below 70 years (18-69 years)\n* Acute HF with clinically suspected acute myocarditis based on an N-terminal pro-B-type natriuretic peptide (NT-proBNP) concentration of 1600 pg/mL or more or a B-type natriuretic peptide (BNP) concentration of 400 pg/mL or more;\n* Left ventricular ejection fraction (LVEF)\\<41% and left ventricular end diastolic diameter (LV-EDD)\\<56 mm (parasternal long-axis view) on echocardiogram;\n* Increased troponin (3x upper reference limit \\[URL\\]) at the time of randomization;\n* Clinical onset of cardiac symptoms within 3 weeks from randomization;\n* Excluded coronary artery disease by coronary angiogram in subjects \u226546 years of age, in case myocarditis is not histologically proven;\n* Randomization within 120 hours from hospital admission.\n\nExclusion Criteria:\n\n* Known systemic autoimmune disorder or other conditions at the time of randomization where immunosuppression is assumed useful. Patients in whom a systemic autoimmune disorder will be diagnosed during hospitalization will be included in the study if randomized, including patients with a diagnosis of cardiac sarcoidosis or giant cell myocarditis (GCM). Both patients included in the corticosteroids-treatment arm or in the placebo-treatment arm can receive the standard immunosuppressive therapy used in the center since the diagnosis of a systemic autoimmune disorder, or cardiac sarcoidosis or GCM;\n* Patients already on oral/IV chronic corticosteroid therapy or other chronic immunosuppressive therapies (colchicine or nonsteroidal anti-inflammatory drugs \\[NSAIDs\\] are not considered immunosuppressive drugs);\n* Contraindication to corticosteroids, including allergies to this medication and its excipients;\n* Patients with persistent peripheral eosinophilia (persistent Eosinophil count \\>7% of the leukocytes) or known hypereosinophilic syndrome at the time of randomization. Patients in whom eosinophilic myocarditis will be diagnosed on endomyocardial biopsy (EMB) will be included in the study if already randomized. Both patients included in the corticosteroids-treatment arm or in the placebo-treatment arm can receive the standard immunosuppressive therapy used in the center since the diagnosis;\n* Myocarditis associated with the ongoing administration of anti-cancer immune checkpoint inhibitor (ICI) agents;\n* Previously known chronic cardiac disease (i.e., previous cardiomyopathy) that does NOT include previous myocarditis if there is a functional recovery at the time of screening);\n* Evidence of active bacterial or fungal infectious disease (presence of fever or increased C-reactive protein are not considered exclusion criteria), or suspected bacterial/fungal infection associated with increased levels of procalcitonin (cut-off \\>10 ng/mL), if the laboratory exam is available in the center;\n* Known chronic infective disease, such as HIV infection or tuberculosis;\n* out-of-hospital cardiac arrest;\n* t-MCS instituted more than 48 hours before randomization;\n* Patients clinically judged too sick to initiate t-MCS (i.e., irreversible multiorgan failure);\n* Echocardiographic presence of images suggestive of other cardiac diseases (i.e. endocarditis)\n* Participants involved in another clinical trial;\n* Pregnant women (known pregnancy) or POSITIVE human chorionic gonadotropin (HCG) test measures (urine/blood) for women of 18-50 years of age.\n* Any other significant disease with expected life expectancy \\<12 months (i.e., evidence of irreversible severe brain injury) or disorder which, in the opinion of the Investigator, may either put the participants at risk because of participation in the trial, or may influence the result of the trial, or the participant's ability to participate in the trial.",
+      "healthyVolunteers": false,
+      "maximumAge": "69 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "MYTHS",
+      "briefTitle": "MYTHS - MYocarditis THerapy With Steroids",
+      "nctId": "NCT05150704",
+      "officialTitle": "Single Blind Randomized Controlled Trial to Assess the Safety and Efficacy of High Dose Pulse Intravenous Corticosteroid Therapy to Treat Patients With Complicated/Fulminant Acute Myocarditis",
+      "orgStudyIdInfo": {
+        "id": "MYTHS"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Niguarda Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "* Incidence of serious infections within 6 months;\n* Incidence of infections needing an IV therapy, excluding prophylactic antibiotic therapy within 6 months;\n* Incidence of upper gastrointestinal bleeding needing therapeutic endoscopy to achieve acute hemostasis;\n* Acute psychosis leading to the use of neuroleptic agents;\n* Incidence of critical illness myopathy or/and polyneuropathy (CIM/CIP);\n* Incidence of aseptic necrosis of femoral and humeral heads;\n* Incidence of stroke;\n* Incidence of need for pace-maker (both temporary and permanent);\n* Incidence of need for pericardiocentesis;\n* Incidence of need for mechanical ventilation after randomization;\n* Incidence of need for continuous venovenous hemofiltration (CVVH);\n* Incidence of bleeding requiring \u22655 units of blood or packed red blood cells.",
+          "measure": "Safety endpoints",
+          "timeFrame": "6 months from patients enrollment"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "The Primary composite endpoint is defined as the time from randomization to the first event occurring within 6 months on patients treated with pulsed corticosteroid therapy vs. standard therapy and maximal supportive care, among: (1) all-cause death, or (2) heart transplantation (HTx), or (3) long-term left ventricular assist device (LVAD) implant, or (4) need for an upgrading of the t-MCS, or (5) a ventricular tachycardia (VT)/fibrillation (VF) treated with direct current (DC) shock (excluding VT/VF in patients on t-MCS other than IABP), or (6) first rehospitalization due to HF or ventricular arrhythmias, or advanced Atrioventricular (AV) block.",
+          "measure": "Time from randomization to the first event among: all-cause death, HTx, long-term LVAD implant, need for an upgrading of the t-MCS, VT/VF treated with DC shock, first rehospitalization due to HF or ventricular arrhythmias, or AV block.",
+          "timeFrame": "6 months from patients enrollment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The main secondary composite endpoint is defined as the time from randomization to the first event occurring within 6 months on patients treated pulsed corticosteroid therapy vs. standard therapy and maximal supportive care, among: (1) all-cause death or (2) HTx or (3) long-term LVAD implant or (4) first rehospitalization due to HF or ventricular arrhythmias, or advanced AV block.",
+          "measure": "Time from randomization to the first event among: all-cause death, HTx, long-term LVAD implant, first rehospitalization due to HF or ventricular arrhythmias, or advanced AV block.",
+          "timeFrame": "6 months from patients enrollment"
+        },
+        {
+          "description": "Time from randomization to all-cause death within 6 months.",
+          "measure": "Mortality",
+          "timeFrame": "6 months from patients enrollment"
+        },
+        {
+          "description": "In-hospital composite endpoint is defined as the proportion of patients who experience at least one of the following events during index hospitalization: (1) all-cause death, or (2) HTx, or (3) long-term LVAD implant, or (4) need for an upgrading of the t-MCS, or (5) a VT/VF treated with DC shock (excluding VT/VF in patients on t-MCS other than IABP).",
+          "measure": "Proportion of patients who experience at least one of the following events during index hospitalization: (1) all-cause death, or (2) HTx, or (3) long-term LVAD implant, or (4) need for an upgrading of the t-MCS, or (5) a VT/VF treated with DC shock",
+          "timeFrame": "6 months from patients enrollment"
+        },
+        {
+          "description": "Number of days on t-MCS from randomization",
+          "measure": "Number of days on t-MCS from randomization",
+          "timeFrame": "6 months from patients enrollment"
+        },
+        {
+          "description": "Number of days in ICU from randomization",
+          "measure": "Number of days in ICU from randomization",
+          "timeFrame": "6 months from patients enrollment"
+        },
+        {
+          "description": "Change in LVEF on echocardiogram after 5 days from randomization",
+          "measure": "Change in LVEF on echocardiogram after 5 days from randomization",
+          "timeFrame": "5 days from randomization"
+        },
+        {
+          "description": "Change of troponin levels after 5 days from randomization (ratio of troponin level/local troponin URL).",
+          "measure": "Change of troponin levels after 5 days from randomization",
+          "timeFrame": "5 days from randomization"
+        },
+        {
+          "description": "Change in heart rate (HR) on ECG after 3 days from randomization (ECG recorded at the hour of initial randomization",
+          "measure": "Change in heart rate (HR) on ECG after 3 days from randomization",
+          "timeFrame": "3 days from randomization"
+        },
+        {
+          "description": "Proportion of patients with LVEF\\<55% AND/OR LV dilation on 6-month cardiac magnetic resonance imaging (CMRI)",
+          "measure": "Proportion of patients with LVEF<55% AND/OR LV dilation on 6-month cardiac magnetic resonance imaging (CMRI)",
+          "timeFrame": "6 months from patients enrollment"
+        },
+        {
+          "description": "Proportion of patients with LVEF\\<55% on 6-month CMRI",
+          "measure": "Proportion of patients with LVEF<55% on 6-month CMRI",
+          "timeFrame": "6 months from patients enrollment"
+        },
+        {
+          "description": "Proportion of patients with LV dilation on 6-month CMRI",
+          "measure": "Proportion of patients with LV dilation on 6-month CMRI",
+          "timeFrame": "6 months from patients enrollment"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Ammirati E, Frigerio M, Adler ED, Basso C, Birnie DH, Brambatti M, Friedrich MG, Klingel K, Lehtonen J, Moslehi JJ, Pedrotti P, Rimoldi OE, Schultheiss HP, Tschope C, Cooper LT Jr, Camici PG. Management of Acute Myocarditis and Chronic Inflammatory Cardiomyopathy: An Expert Consensus Document. Circ Heart Fail. 2020 Nov;13(11):e007405. doi: 10.1161/CIRCHEARTFAILURE.120.007405. Epub 2020 Nov 12.",
+          "pmid": "33176455",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kociol RD, Cooper LT, Fang JC, Moslehi JJ, Pang PS, Sabe MA, Shah RV, Sims DB, Thiene G, Vardeny O; American Heart Association Heart Failure and Transplantation Committee of the Council on Clinical Cardiology. Recognition and Initial Management of Fulminant Myocarditis: A Scientific Statement From the American Heart Association. Circulation. 2020 Feb 11;141(6):e69-e92. doi: 10.1161/CIR.0000000000000745. Epub 2020 Jan 6.",
+          "pmid": "31902242",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ammirati E, Cipriani M, Moro C, Raineri C, Pini D, Sormani P, Mantovani R, Varrenti M, Pedrotti P, Conca C, Mafrici A, Grosu A, Briguglia D, Guglielmetto S, Perego GB, Colombo S, Caico SI, Giannattasio C, Maestroni A, Carubelli V, Metra M, Lombardi C, Campodonico J, Agostoni P, Peretto G, Scelsi L, Turco A, Di Tano G, Campana C, Belloni A, Morandi F, Mortara A, Ciro A, Senni M, Gavazzi A, Frigerio M, Oliva F, Camici PG; Registro Lombardo delle Miocarditi. Clinical Presentation and Outcome in a Contemporary Cohort of Patients With Acute Myocarditis: Multicenter Lombardy Registry. Circulation. 2018 Sep 11;138(11):1088-1099. doi: 10.1161/CIRCULATIONAHA.118.035319.",
+          "pmid": "29764898",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ammirati E, Veronese G, Brambatti M, Merlo M, Cipriani M, Potena L, Sormani P, Aoki T, Sugimura K, Sawamura A, Okumura T, Pinney S, Hong K, Shah P, Braun O, Van de Heyning CM, Montero S, Petrella D, Huang F, Schmidt M, Raineri C, Lala A, Varrenti M, Foa A, Leone O, Gentile P, Artico J, Agostini V, Patel R, Garascia A, Van Craenenbroeck EM, Hirose K, Isotani A, Murohara T, Arita Y, Sionis A, Fabris E, Hashem S, Garcia-Hernando V, Oliva F, Greenberg B, Shimokawa H, Sinagra G, Adler ED, Frigerio M, Camici PG. Fulminant Versus Acute Nonfulminant Myocarditis in Patients With Left Ventricular Systolic Dysfunction. J Am Coll Cardiol. 2019 Jul 23;74(3):299-311. doi: 10.1016/j.jacc.2019.04.063.",
+          "pmid": "31319912",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Chen H, Liu J, Yang M. Corticosteroids for viral myocarditis. Cochrane Database Syst Rev. 2006 Oct 18;(4):CD004471. doi: 10.1002/14651858.CD004471.pub2.",
+          "pmid": "17054204",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Mason JW, O'Connell JB, Herskowitz A, Rose NR, McManus BM, Billingham ME, Moon TE. A clinical trial of immunosuppressive therapy for myocarditis. The Myocarditis Treatment Trial Investigators. N Engl J Med. 1995 Aug 3;333(5):269-75. doi: 10.1056/NEJM199508033330501.",
+          "pmid": "7596370",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ammirati E, Cipriani M, Lilliu M, Sormani P, Varrenti M, Raineri C, Petrella D, Garascia A, Pedrotti P, Roghi A, Bonacina E, Moreo A, Bottiroli M, Gagliardone MP, Mondino M, Ghio S, Totaro R, Turazza FM, Russo CF, Oliva F, Camici PG, Frigerio M. Survival and Left Ventricular Function Changes in Fulminant Versus Nonfulminant Acute Myocarditis. Circulation. 2017 Aug 8;136(6):529-545. doi: 10.1161/CIRCULATIONAHA.117.026386. Epub 2017 Jun 2.",
+          "pmid": "28576783",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ammirati E, Moslehi JJ. Diagnosis and Treatment of Acute Myocarditis: A Review. JAMA. 2023 Apr 4;329(13):1098-1113. doi: 10.1001/jama.2023.3371.",
+          "pmid": "37014337",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Veronese G, Nonini S, Cannata A, Aresta F, Olivieri G, Montrasio E, De Caria D, Perna E, Calini A, Bottiroli M, Cislaghi F, Pedrazzini G, Baltaro F, Quattrocchi G, Pedrotti P, Russo CF, Garascia A, Mondino M, Ammirati E. Fulminant Lymphocytic Myocarditis During Pregnancy Treated With Temporary Mechanical Circulatory Supports and Aggressive Immunosuppression. Circ Heart Fail. 2022 Dec;15(12):e009810. doi: 10.1161/CIRCHEARTFAILURE.122.009810. Epub 2022 Oct 28. No abstract available.",
+          "pmid": "36305298",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER_GOV",
+          "name": "Ministry of Health, Italy"
+        },
+        {
+          "class": "OTHER",
+          "name": "Istituto Di Ricerche Farmacologiche Mario Negri"
+        },
+        {
+          "class": "OTHER",
+          "name": "University of Milano Bicocca"
+        },
+        {
+          "class": "OTHER",
+          "name": "Regione Lombardia"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Niguarda Hospital"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-30",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-10-07",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-11-14",
+      "studyFirstSubmitQcDate": "2021-11-26"
+    }
+  }
+}

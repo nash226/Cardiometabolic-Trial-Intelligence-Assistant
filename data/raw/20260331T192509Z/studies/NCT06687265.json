@@ -1,0 +1,370 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        },
+        {
+          "id": "D006975",
+          "term": "Hypertension, Portal"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Metformin"
+          ],
+          "label": "METFORMIN GROUP",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "PLACEBO GROUP",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "METFORMIN GROUP"
+          ],
+          "description": "one pill of 500 mg per os twice a day for 28 days.",
+          "name": "Metformin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "PLACEBO GROUP"
+          ],
+          "description": "one pill per os twice a day for 28 days.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cirrhosis",
+        "Portal Hypertension Related to Cirrhosis"
+      ],
+      "keywords": [
+        "cirrhosis",
+        "portal hypertension",
+        "metformin",
+        "hepatic venous pressure gradient",
+        "carvedilol"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "lucile.moga@aphp.fr",
+          "name": "LUCILE MOGA",
+          "phone": "01 71 11 46 69",
+          "phoneExt": "+33",
+          "role": "CONTACT"
+        },
+        {
+          "email": "pierre-emmanuel.rautou@aphp.fr",
+          "name": "PIERRE EMMANUEL RAUTOU",
+          "phone": "01 40 87 52 83",
+          "phoneExt": "+33",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Clichy",
+          "contacts": [
+            {
+              "email": "lucile.moga@aphp.fr",
+              "name": "Lucile MOGA, Dre",
+              "phone": "00331-71-11-46-69",
+              "role": "CONTACT"
+            },
+            {
+              "email": "pierre-emmanuel.rautou@aphp.fr",
+              "name": "Pierre Emmanuel Rautou, Pr",
+              "phone": "00331-71-11-46-69",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lucile MOGA, Dre",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "France",
+          "facility": "Facility Name: Beaujon hospital",
+          "geoPoint": {
+            "lat": 48.90018,
+            "lon": 2.30952
+          },
+          "state": "France",
+          "status": "RECRUITING",
+          "zip": "92110"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Portal hypertension (PHT) is defined by an elevated pressure gradient between the portal vein and the hepatic veins \u2265 5 mm Hg, and is the main vector of complications in cirrhosis.\n\nWhen the hepatic venous pressure gradient (HVPG) is \u2265 10 mm Hg, it is considered as a \" clinically significant PHT \": ascites and oesophageal varices (EV) may occur.\n\nAbove 12 mm Hg, there is a risk of variceal bleeding. Carvedilol, a non-selective beta-blocker (NSBB), is recommended in all the patients with cirrhosis and clinically significant PHT in order to prevent decompensation of cirrhosis.\n\nNevertheless, 40 % of patients are NSBB non-responders, i.e. they do not show a significant decrease in HVPG. In addition, NSBB responders treated for primary prophylaxis have an incidence of variceal bleeding of approximately 10% per year, with a six-week mortality of 20%. Therefore, there is an unmet need for PHT in patients with cirrhosis who do not respond to NSBB, and also for an increase in efficacy in responders. In a randomised pilot study, Rittig et al. observed a mean change in HVPG of -2,9 mm Hg in 16 patients with cirrhosis and HVPG \u2265 12 mm Hg, not treated with NSBB, 90 minutes after ingestion of 1000 mg metformin.\n\nThe study will be a prospective, national, multicentre, phase II, superiority comparative randomized (1:1) simple-blinded clinical trial with two parallel arms: metformin versus placebo.\n\nThe main objective is to evaluate the effect of metformin versus placebo during 28 days on HVPG, in patients with cirrhosis and a HVPG \u2265 12 mm Hg already treated with carvedilol.\n\nSubjects randomized in the metformin group or placebo group will receive metformin ou placebo, one pill of 500 mg per os twice a day (one in the morning and one in the evening, during or at the end of the meal) for 28 days.",
+      "detailedDescription": "Portal hypertension (PHT) is defined by an elevated pressure gradient between the portal vein and the hepatic veins \u2265 5 mm Hg, and is the main vector of complications in cirrhosis.\n\nWhen the hepatic venous pressure gradient (HVPG) is \u2265 10 mm Hg, it is considered as a \" clinically significant PHT \": ascites and oesophageal varices (EV) may occur.\n\nAbove 12 mm Hg, there is a risk of variceal bleeding. Carvedilol, a non-selective beta-blocker (NSBB), is recommended in all the patients with cirrhosis and clinically significant PHT in order to prevent decompensation of cirrhosis.\n\nNevertheless, 40 % of patients are NSBB non-responders, i.e. they do not show a significant decrease in HVPG. In addition, NSBB responders treated for primary prophylaxis have an incidence of variceal bleeding of approximately 10% per year, with a six-week mortality of 20%. Therefore, there is an unmet need for PHT in patients with cirrhosis who do not respond to NSBB, and also for an increase in efficacy in responders. In a randomised pilot study, Rittig et al. observed a mean change in HVPG of -2,9 mm Hg in 16 patients with cirrhosis and HVPG \u2265 12 mm Hg, not treated with NSBB, 90 minutes after ingestion of 1000 mg metformin.\n\nThe study will be a prospective, national, multicentre, phase II, superiority comparative randomized (1:1) simple-blinded clinical trial with two parallel arms: metformin versus placebo.\n\nThe main objective is to evaluate the effect of metformin versus placebo during 28 days on HVPG, in patients with cirrhosis and a HVPG \u2265 12 mm Hg already treated with carvedilol.\n\nThere are several secondary objectives in this research listed below:\n\n* evaluate the safety and tolerability of metformin in patients with cirrhosis and a HVPG \u2265 12 mm Hg\n* evaluate the rate of change in HVPG after 28 days of treatment\n* evaluate the rate of patients with a clinically significant improvement in HVPG\n* assess the change in systemic haemodynamics after 28 days of treatment\n* assess the change in liver steatosis after 28 days of treatment\n* assess the performance of liver and spleen stiffness by vibration-controlled transient elastography (VCTE) using FibroScan\u00ae (Echosens, Paris, France) to estimate the haemodynamic response to the treatment\n* assess the performance of liver and spleen stiffness by 2D-shear wave elastography using Aixplorer\u00ae (SuperSonic Imagine, Aix-en-Provence, France) to estimate the haemodynamic response to the treatment\n* assess the effect of metformin on systemic inflammation, coagulation, hepatocyte stress, and endothelial function.\n\nSubjects randomized in the metformin group or placebo group will receive metformin ou placebo, one pill of 500 mg per os twice a day (one in the morning and one in the evening, during or at the end of the meal) for 28 days."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* \\- Age \u2265 18 years\n* Written informed consent to participate in the study\n* Medical insurance coverage\n* For child-bearing aged women, contraception using oestroprogestative, progestative, intrauterine device, or mechanical contraception\n* Diagnosis of cirrhosis based on a liver biopsy, or on clinical, biological, endoscopic, and radiological evidence\n* Active cause of cirrhosis, or resolution (alcohol cessation, sustained virological response to direct-acting antiviral treatment for HCV, initiation of nucleoside/nucleotide analog treatment for HBV) for at least 6 months\n* Child-Pugh A or B\n* High likelihood of HVPG \u2265 12 mm Hg based on investigator's judgement, or on the following criteria:\n\n  1. Investigator's judgement\n  2. active cause of cirrhosis and:\n\n     * History of clinical ascites\n     * Or history of variceal bleeding\n     * Or liver stiffness by VCTE \u2265 35 kPa on carvedilol in the last two years\n     * or spleen stiffness by VCTE \u2265 55 kPa on carvedilol in the last two years\n     * or liver surface nodularity \u2265 2,9 in the last two years\n     * or HVPG \\&gt; 16 mm Hg prior to starting NSBB\n     * or Laennec 4c cirrhosis on histology\n  3. or resolution of the cause of cirrhosis for at least 6 months and:\n\n     * history of clinical ascites in the last 6 months\n     * or history of variceal bleeding in the last 6 months\n     * or liver stiffness by VCTE \u2265 35 kPa on carvedilol in the last 6 months\n     * or spleen stiffness by VCTE \u2265 55 kPa on carvedilol in the last 6 months\n     * or liver surface nodularity \u2265 2,9 in the last 12 months\n     * or Laennec 4c cirrhosis on histology in the last 12 months\n* Treatment with carvedilol (\u2265 6,25 mg/day) at a stable dose for at least one month\n* Absence of hepatocellular carcinoma outside at least one nodule \\&gt; 3 cm in diameter, or more than 3 nodules, on ultrasound, CT-scan or MRI performed during the previous 6 months\n\nExclusion Criteria:\n\n* Serum total bilirubin \\> 50 \u00b5mol/L\n* Prothrombin ratio \\< 50 %\n* Transaminases \\> 5 ULN\n* Need for at least one paracentesis for ascites fluid evacuation in the last 6 months\n* Expected follow-up \\< 3 months\n* Known hypersensitivity to the active substance or any of the excipients\n* History of lactic acidosis, diabetic acidocetosis, or diabetic precoma\n* Ongoing condition that may lead to acute kidney injury or hypoxia: dehydration, severe infection, shock, cardiac decompensation, respiratory failure, or myocardial infarction within the past month\n* Known hypersensitivity to all the iodin-containing contrast agents\n* Known hypersensitivity to lidocaine for local anesthesia\n* Known hypersensitivity to beta-lactam antibiotics if the patient has a history of valve replacement\n* Alcohol consumption \\> 14 units/week for women or \\> 21 units/week for men, current or abstinent for less than 6 months\n* Biliary cirrhosis\n* Hepatocellular carcinoma with at least one nodule \\> 3 cm in diameter, or more than 3 nodules\n* Cholangiocarcinoma\n* Extra-hepatic cancer without remission\n* Severe chronic kidney disease defined as estimated glomerular filtration rate \\< 30 mL/min/1,73m2 using the MDRD-6 formula\n* Ongoing treatment with metformin, or discontinued for less than 3 months\n* Treatment with statins started or discontinued for less than 3 months\n* Treatment with nucleoside/nucleotide analogue for HBV, or direct-acting antiviral treatment for HCV, started for less than 6 months\n* Complete portal vein thrombosis (main portal trunk, or right branch), or portal cavernoma\n* History of TIPS (transjugular intrahepatic portosystemic shunt) / surgical portosystemic derivation / liver transplantation / major hepatectomy\n* Ongoing participation in another interventional therapeutic trial\n* Pregnant or breastfeeding women\n* Patients unable to give consent (under guardianship or curatorship)\n* Non-randomisation criteria: HVPG \\< 12 mm Hg at the catheterism performed during the first follow-up visit",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "Hyper-Met",
+      "briefTitle": "Effects of Metformin on Hepatic Venous Pressure Gradient in Patients With Cirrhosis and Portal Hypertension",
+      "nctId": "NCT06687265",
+      "officialTitle": "Effects of Metformin on Hepatic Venous Pressure Gradient in Patients With Cirrhosis and Portal Hypertension - A Randomized Placebo-controlled Study",
+      "orgStudyIdInfo": {
+        "id": "APHP230872"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Assistance Publique - H\u00f4pitaux de Paris"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "HVPG measures before and after metformin or placebo treatment",
+          "measure": "effect of metformin versus placebo during 28 days on HVPG, in patients with cirrhosis and a HVPG \u2265 12 mm Hg already treated with carvedilol.",
+          "timeFrame": "after 28 days of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change in arterial pressure after treatment : HVPG \\> or = 12 mm Hg, or at least a 10% reduction from baseline,",
+          "measure": "the rate of patients with a clinically significant improvement in HVPG",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "MELD (Model for End-Stage Liver Disease) score classification (6-40 with high score is worse outcome)",
+          "measure": "Change in cirrhosis severity MELD score",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "Child-Pugh classification or Child-Turcotte-Pugh classification (5-15 with high score is worse outcome)",
+          "measure": "Change in cirrhosis severity Child-Pugh score",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "The size (diameter) of a blood vessel.",
+          "measure": "change in systemic haemodynamics",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "treatment compliance",
+          "measure": "the tolerability of metformin in patients with cirrhosis and a HVPG \u2265 12 mm Hg",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "plasma level (at 2h30 of last dose)",
+          "measure": "Maximum metformin plasma level",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "HVPG measure",
+          "measure": "Relative changes in HVPG",
+          "timeFrame": "day 28"
+        },
+        {
+          "description": "HVGP",
+          "measure": "Change in arterial pressure",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "complication and adverse event evaluate by CTCAE guideline during treatment",
+          "measure": "the safety of metformin in patients with cirrhosis and a HVPG \u2265 12 mm Hg",
+          "timeFrame": "30 days after the beginning of treatment"
+        },
+        {
+          "description": "Controlled Attenuation Parameter with FibroScan\u00ae",
+          "measure": "Change in liver steatosis",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "measure": "Change in markers of systemic inflammation",
+          "timeFrame": "after 28 days of treatment."
+        },
+        {
+          "description": "hepatocyte large extracellular vesicles",
+          "measure": "Change in markers of hepatocyte stress",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "measure": "Change in markers of endothelial function",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "measure": "Change in platelet count",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "using FibroScan\u00ae",
+          "measure": "Change in liver stiffness by VCTE",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "using Aixplorer\u00ae",
+          "measure": "Change in liver stiffness by 2D-shear wave elastography",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "using FibroScan\u00ae",
+          "measure": "Change in SPLEEN stiffness by VCTE",
+          "timeFrame": "after 28 days of treatment"
+        },
+        {
+          "description": "using Aixplorer\u00ae",
+          "measure": "Change in spleen stiffness by 2D-shear wave elastography",
+          "timeFrame": "after 28 days of treatment"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Rittig N, Aagaard NK, Villadsen GE, Sandahl TD, Jessen N, Gronbaek H, George J. Randomised clinical study: acute effects of metformin versus placebo on portal pressure in patients with cirrhosis and portal hypertension. Aliment Pharmacol Ther. 2021 Aug;54(3):320-328. doi: 10.1111/apt.16460. Epub 2021 Jun 24.",
+          "pmid": "34165199",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Assistance Publique - H\u00f4pitaux de Paris"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-07-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-09",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-03-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-03-10",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-11",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-10-31",
+      "studyFirstSubmitQcDate": "2024-11-12"
+    }
+  }
+}

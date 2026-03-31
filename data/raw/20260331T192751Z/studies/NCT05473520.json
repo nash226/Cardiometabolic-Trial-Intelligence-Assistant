@@ -1,0 +1,530 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009164",
+          "term": "Mycobacterium Infections"
+        },
+        {
+          "id": "D000193",
+          "term": "Actinomycetales Infections"
+        },
+        {
+          "id": "D016908",
+          "term": "Gram-Positive Bacterial Infections"
+        },
+        {
+          "id": "D001424",
+          "term": "Bacterial Infections"
+        },
+        {
+          "id": "D001423",
+          "term": "Bacterial Infections and Mycoses"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D014376",
+          "term": "Tuberculosis"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D004194",
+          "term": "Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013754",
+          "term": "Tetracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004318",
+          "term": "Doxycycline"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Doxycycline 100 mg twice daily with once daily anti-tuberculous treatment comprising of rifampicin 10 mg/kg, isoniazid 5 mg/kg, ethambutol 15 - 20 mg/kg, \u00b1 pyrazinamide 25 mg/kg and pyridoxine 10-50 mg per day according to managing physicians' discretion. Where needed, the drugs will be adjusted according to renal function. These will be given daily for 8 weeks. Subsequently doxycycline will be ceased and patients are to continue with their standard anti-tuberculous treatment and duration according to their managing physician",
+          "interventionNames": [
+            "Drug: Doxycycline"
+          ],
+          "label": "Doxycycline + standard anti-tuberculous treatment",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo twice daily with once daily anti-tuberculous treatment comprising of rifampicin 10 mg/kg, isoniazid 5 mg/kg, ethambutol 15-20 mg/kg, \u00b1 pyrazinamide 25 mg/kg and pyridoxine 10-50 mg per day according to managing physicians' discretion. Where needed, the drugs will be adjusted according to renal function. These will be given daily for 8 weeks. Subsequently placebo will be ceased and patients are to continue with their standard anti-tuberculous treatment and duration according to their managing physician.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo + standard anti-tuberculous treatment",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Doxycycline + standard anti-tuberculous treatment"
+          ],
+          "description": "A dose of 100 mg twice daily of doxycycline based on the recommended dose for adults which is commonly used for bacterial infections such as rickettsial infection, lyme disease and pelvic inflammatory disease.",
+          "name": "Doxycycline",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo + standard anti-tuberculous treatment"
+          ],
+          "description": "Placebo + standard anti-tuberculous treatment",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tuberculosis",
+        "Acute Coronary Syndrome",
+        "Pulmonary Hypertension (Diagnosis)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "srishti.chhabra@mohh.com.sg",
+          "name": "Srishti CHHABRA, MBBS BSc MRCP",
+          "phone": "+65 6908 2222",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Kota Kinabalu",
+          "contacts": [
+            {
+              "email": "nurulainykb@moh.gov.my",
+              "name": "Nurul Ain Mohd Yaakub, Dr",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hema Yamini Devi Ramarmuty, Dr",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Malaysia",
+          "facility": "Hospital Queen Elizabeth I",
+          "geoPoint": {
+            "lat": 5.9749,
+            "lon": 116.0724
+          },
+          "state": "Sabah",
+          "status": "NOT_YET_RECRUITING"
+        },
+        {
+          "city": "Kota Kinabalu",
+          "country": "Malaysia",
+          "facility": "Klinik Kesihatan Luyang",
+          "geoPoint": {
+            "lat": 5.9749,
+            "lon": 116.0724
+          },
+          "state": "Sabah",
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "city": "Kota Kinabalu",
+          "contacts": [
+            {
+              "name": "Dr Siti Nor Aishah bt Abdul Rahim",
+              "phone": "+60192462367",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dr. Saravanan A/L Jayaraman",
+              "phone": "+60168040532",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Malaysia",
+          "facility": "Klinik Kesihatan Menggatal",
+          "geoPoint": {
+            "lat": 5.9749,
+            "lon": 116.0724
+          },
+          "state": "Sabah",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Kota Kinabalu",
+          "country": "Malaysia",
+          "facility": "Universiti Malaysia Sabah (UMS), Borneo Medical and Health Research Centre",
+          "geoPoint": {
+            "lat": 5.9749,
+            "lon": 116.0724
+          },
+          "state": "Sabah",
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "city": "Singapore",
+          "contacts": [
+            {
+              "email": "catherine_wm_ong@nuhs.edu.sg <catherine_wm_ong@nuhs.edu.sg>",
+              "name": "Catherine ONG, MRCP PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Singapore",
+          "facility": "National University Hospital",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          },
+          "status": "RECRUITING",
+          "zip": "119228"
+        },
+        {
+          "city": "Singapore",
+          "contacts": [
+            {
+              "email": "shera_tan@ttsh.com.sg",
+              "name": "Shera Tan, Dr",
+              "phone": "+65 6511 5131",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Shera Tan, Dr",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Singapore",
+          "facility": "TB Control Unit",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "National University Hospital, Singapore",
+          "name": "Catherine Ong, MRCP PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Tuberculosis (TB) is a global pandemic that despite successful treatment and bacterial eradication can cause chronic ill health, such as pulmonary impairment after tuberculosis (PIAT) and cardiovascular disease (CVD). A recent Phase 2b double-blind randomised-controlled clinical trial shows that adjunctive doxycycline therapy is safe, accelerates resolution of inflammation, suppresses tissue damaging enzyme activity and decreases pulmonary cavity volume (1). We aim to determine if adjunctive doxycycline can reduce PIAT and improve cardiovascular outcomes in a fully powered Phase III trial of 8 weeks of adjunctive doxycycline alongside standard pulmonary TB (PTB) treatment.\n\nThe investigators hypothesize that doxycycline inhibits tissue destruction in patients with PTB and thereby leads to improved lung function after treatment.\n\nSpecific aims\n\n1. To assess improvement in lung function as measured by forced expiratory volume (FEV1) predicted in PTB patients given doxycycline versus placebo.\n2. To investigate whether doxycycline will hasten the resolution of pulmonary cavities measured by CT thorax\n3. To investigate whether doxycycline can suppress inflammatory markers including matrix metalloproteinases\n4. To investigate whether doxycycline can accelerate time to sputum conversion\n5. To evaluate the effect of doxycycline on cardiovascular outcomes such as the incidence of acute coronary syndrome (ACS) and pulmonary hypertension\n6. To investigate whether doxycycline improves TB drug concentrations in sputum and plasma.\n7. To assess the safety profile of doxycycline with concurrent standard anti-tuberculous treatment.",
+      "detailedDescription": "In this Phase 3 double-blind randomised-controlled trial, doxycycline or placebo shall be given to 75 PTB patients in each arm for two months with a further follow-up of twenty-two months. Study sites are National University Hospital and TB Control Unit in Singapore and Luyang Health Clinic, Menggatal Health Clinic, and Inanam Health Clinic in Sabah, Malaysia. Lung function tests, non-contrast CT thorax, electrocardiograms and transthoracic echocardiograms will be performed at various time intervals. Induced sputum and plasma samples from all PTB patients shall be analysed for matrix metalloproteinases (MMPs), tissue inhibitors of metalloproteinases (TIMPs) and monitored for sputum mycobacteria culture conversion. Whole blood will be analysed by transcriptomics for bulk RNAseq while a subset of patients' blood will be analysed using single-cell RNAsequencing. Blood tests will also be taken for Troponin-I and N-terminal pro-B-type natriuretic peptide. Accomplishing these specific aims will determine if doxycycline decreases PIAT by improving lung function, reducing pulmonary cavities and accelerating sputum culture conversion. We will also be able to assess the effect of doxycycline on development of pulmonary hypertension and acute coronary syndrome. The results will positively impact clinical practice and international guidelines including the World Health Organisation that we collaborate with, for the treatment of pulmonary TB."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "The recruitment target would be 150 patients, with 75 in each arm\n\nInclusion criteria: Patients should meet all criteria:\n\n1. Aged 21 years and above\n2. Patients receiving \u2264 7 days of TB treatment or about to start standard combination TB treatment\n3. Confirmed pulmonary TB with positive acid-fast bacilli smear and/or positive nucleic acid amplification test (NAAT) and/or TB culture results\n4. CXR demonstrating pulmonary involvement with cavity or cavities\n5. Able to provide informed consent\n\nExclusion criteria:\n\n1. HIV co-infection\n2. Previous pulmonary TB\n3. Severe, pre-existing lung disease such as pulmonary fibrosis, bronchiectasis, COPD and lung cancer\n4. Pregnant or breast feeding\n5. Allergies to tetracyclines\n6. Patients on retinoic acid, neuromuscular blocking agents and pimozide which may increase risk of drug toxicity\n7. Autoimmune disease and/or on systemic immunosuppressants\n8. Use of any investigational or non-registered drug, vaccine or medical device other than the study drug within 182 days preceding dosing of study drug, or planned use during the study period\n9. Enrolment in any other clinical trial involving a systemic drug or intervention involving the lung\n10. Evidence of severe depression, schizophrenia or mania\n11. ALT \\> 3 times upper limit of normal\n12. Creatinine \\> 2 times upper limit of normal\n13. Principal investigator assessment of lack of willingness to participate and comply with all requirements including follow-up of the protocol, or identification of any factor felt to significantly increase the participant's risk of suffering an adverse outcome",
+      "healthyVolunteers": false,
+      "minimumAge": "21 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "Doxy-TB",
+      "briefTitle": "Doxycycline Host-directed Therapy to Improve Lung Function and Decrease Tissue Destruction in Pulmonary Tuberculosis",
+      "nctId": "NCT05473520",
+      "officialTitle": "Doxycycline Host-directed Therapy to Improve Lung Function and Decrease Tissue Destruction in Pulmonary Tuberculosis: A Phase III Randomized Control Trial (Doxy-TB)",
+      "orgStudyIdInfo": {
+        "id": "Phase III Doxy-TB"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "National University Hospital, Singapore"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "\\- FEV1 at 26 weeks, expressed as a percentage predicted for age, sex, height and race will be measured by spirometry and will be compared between the doxycycline and placebo group",
+          "measure": "Forced expiratory volume in 1 second (FEV1) at 26 weeks measured by spirometry",
+          "timeFrame": "week 0 to 26"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Forced expiratory volume, expressed as a percentage predicted for age, sex, height and race will be measured by spirometry and will be compared between the doxycycline and placebo group will be measured at D0, week 8, week 26, week 52, week 78 and week 104.",
+          "measure": "Forced expiratory volume in 1 second (FEV1) at 104 weeks measured by spirometry",
+          "timeFrame": "104 weeks"
+        },
+        {
+          "description": "Forced expiratory volume in 1 second divided by forced vital capacity (FEV1/FVC ratio) measured by spirometry",
+          "measure": "Forced expiratory volume in 1 second divided by forced vital capacity (FEV1/FVC ratio)",
+          "timeFrame": "104 weeks"
+        },
+        {
+          "description": "Incidence of Grade 3 or 4 adverse events and serious adverse events",
+          "measure": "Safety profile",
+          "timeFrame": "week 0 to 12"
+        },
+        {
+          "description": "Proportion of patients in each study group with resolution of pulmonary cavities on CT scan done at 26, 52, 78, 104 weeks",
+          "measure": "Resolution of pulmonary cavities on CT scan",
+          "timeFrame": "104 weeks"
+        },
+        {
+          "description": "Change in cumulative lung cavity volume (in cm3) measured on CT scan",
+          "measure": "Cumulative lung cavity volume",
+          "timeFrame": "week 0 to 104"
+        },
+        {
+          "description": "Change in Quality-of-life score by the St George's Respiratory Questionnaire will be measured. Scores range from 0 to 100, with higher scores indicating more limitations.",
+          "measure": "St George's Respiratory Questionnaire Score",
+          "timeFrame": "week 0 to 104"
+        },
+        {
+          "description": "Time taken in days for positivity of sputum TB culture using MGIT will be assessed",
+          "measure": "Sputum TB culture",
+          "timeFrame": "up to 8 weeks"
+        },
+        {
+          "description": "Time taken for sputum culture conversion (time taken for sputum cultures to turn negative) by liquid cultures will be investigated",
+          "measure": "Sputum culture conversion",
+          "timeFrame": "up to 8 weeks"
+        },
+        {
+          "description": "Change of sputum matrix metalloproteinase (MMP) concentration will be measured by Luminex array",
+          "measure": "Sputum matrix metalloproteinase (MMP) concentration",
+          "timeFrame": "up to 8 weeks"
+        },
+        {
+          "description": "Change in sputum functional assays by sputum collagenase and elastase assay will be assessed.",
+          "measure": "Sputum functional assays",
+          "timeFrame": "up to 8 weeks"
+        },
+        {
+          "description": "Change of host transcriptome will be measured via bulk RNA sequencing. In addition, in the subset of patients recruited from Singapore, single-cell RNA sequencing (scRNAseq) will be performed for neutrophils and peripheral blood mononuclear cells on 10 patients each from the doxycycline and placebo arm, analysing 10,000 cells per sample.",
+          "measure": "Host transcriptome",
+          "timeFrame": "week 0 to 104"
+        },
+        {
+          "description": "Change in host plasma matrix metalloproteinase (MMP) concentration will be measured by Luminex array",
+          "measure": "Host plasma matrix metalloproteinase (MMP) concentration",
+          "timeFrame": "week 0 to 104"
+        },
+        {
+          "description": "Sputum and plasma drug concentration of rifampicin, isoniazid, ethambutol, pyrazinamide (if prescribed) and doxycycline for a subset PK/PD study",
+          "measure": "Pharmacokinetics and pharmacodynamics of drug concentrations",
+          "timeFrame": "week 2"
+        },
+        {
+          "description": "Cardiac function and pulmonary artery systolic pressure will be measured using 2D Echocardiogram and electrocardiogram at D0, week 26, week 52, week 78 and week 104. The time-to-development of pulmonary hypertension over 2 years follow-up will be calculated.",
+          "measure": "Cardiac function and pulmonary hypertension",
+          "timeFrame": "week 0 to 104"
+        },
+        {
+          "description": "HsTnI and NT-proBNP will be measured sequentially at Day 0, Week 2, 8, 26, 52, 78 and 104 to screen for cardiotoxicity, which will then be ascertained by review of source documents.",
+          "measure": "Measurement of Troponin I and NT-proBNP",
+          "timeFrame": "week 0 to 104"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Miow QH, Vallejo AF, Wang Y, Hong JM, Bai C, Teo FS, Wang AD, Loh HR, Tan TZ, Ding Y, She HW, Gan SH, Paton NI, Lum J, Tay A, Chee CB, Tambyah PA, Polak ME, Wang YT, Singhal A, Elkington PT, Friedland JS, Ong CW. Doxycycline host-directed therapy in human pulmonary tuberculosis. J Clin Invest. 2021 Aug 2;131(15):e141895. doi: 10.1172/JCI141895.",
+          "pmid": "34128838",
+          "type": "BACKGROUND"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Publication",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34128838/"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Tan Tock Seng Hospital"
+        },
+        {
+          "class": "OTHER_GOV",
+          "name": "Hospital Queen Elizabeth, Malaysia"
+        },
+        {
+          "class": "OTHER",
+          "name": "National University of Singapore"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University Malaysia Sabah"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Menggatal Health Clinic, Sabah, Malaysia"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Luyang Health Clinic, Sabah, Malaysia"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "National University Hospital, Singapore"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2030-01-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-02",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2030-01-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-05-24",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-08",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-13",
+      "studyFirstSubmitQcDate": "2022-07-21"
+    }
+  }
+}

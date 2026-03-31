@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06979375:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06979375\nBrief title: A Research Study Comparing CDR132L With Placebo on the Structure and Function of the Heart in People With Heart Failure With Reduced/Mildly Reduced Ejection Fraction and Left Ventricular Hypertrophy\nOfficial title: Phase 2, Multicentre, Randomised, Double-blind, Placebo-controlled Safety and Efficacy Study of CDR132L on Reverse Cardiac Remodelling in Participants With Heart Failure With Reduced/Mildly Reduced Ejection Fraction and Left Ventricular Hypertrophy\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 74,
+      "trial_nct_id": "NCT06979375"
+    },
+    {
+      "chunk_id": "NCT06979375:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heart Failure\nIntervention labels: CDR132L; Placebo\nDrug class labels: \nArms: CDR132L + SoC; Placebo + SoC\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT06979375"
+    },
+    {
+      "chunk_id": "NCT06979375:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study will look into how CDR132L (a potential new medicine) works on the structure and function of the heart in people living with heart failure. Participants will either get CDR132L or placebo (a medicine which has no effect on the body), which treatment the participants get is decided by chance. The study will last for about 60 weeks.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 64,
+      "trial_nct_id": "NCT06979375"
+    },
+    {
+      "chunk_id": "NCT06979375:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 40 Years\nMaximum age: 84 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age 40-84 years (both inclusive) at the time of signing the informed consent.\n* Documented symptomatic heart failure (HF) diagnosed greater than or equal to (\u2265) 180 days prior to screening with at least weekly need for oral diuretic treatment, and New York Heart Association class II-III at screening.\n* Clinically stable and on optimized doses and unchanged drug classes of guideline-directed HF therapy \u2265 45 days prior to randomisation.\n* Left ventricular ejection fraction (LVEF) less than (\\<) 50 percent (%) as assessed by echocardiography at screening, measured by central laboratory.\n* Left ventricular hypertrophy or left ventricular dilatation assessed by echocardiography at screening measured by central laboratory with any of the following:\n\n  1. LVMi greater than (\\>)88 g/m\\^2 for female participants and \\>102 g/m\\^2 for male participants using the truncated ellipsoid method.\n  2. LVMi \\>95 g/m\\^2 for female participants and \\>115 g/m\\^2 for male participants, using the linear method (cube formula).\n  3. Left ventricular end-diastolic diameter indexed to body surface area (LVEDDi) \\>3.1 cm/m\\^2 for female participants and \\>3.0 cm/m\\^2 for male participants.\n* Body mass index 18.5-40 kilogram per meter square (kg/m\\^2) (both inclusive) and body weight less than or equal to (\u2264) 140 kilogram (kg). Body mass index is calculated in the electronic case report form based on height and body weight at the screening visit (visit 1).\n* N-terminal pro B-type natriuretic peptide (NT-proBNP) \u2265 300 picograms per milliliter (pg/mL); NT-proBNP \u2265600 pg/mL if atrial fibrillation/flutter is present at time of screening, measured by central laboratory.\n\nExclusion Criteria:\n\n* Estimated Glomerular Filtration Rate (eGFR) less than (\\<) 30 milliliter/minute/ 1.73-meter square (mL/min/1.73 m\\^2) at time of screening, measured by central laboratory.\n* Participants with an episode of acute kidney failure or acute kidney injury, at the discretion of the investigator,within 90 days prior to randomisation.\n* Myocardial infarction, unstable angina pectoris or HF hospitalization within 30 days prior to screening.\n* Participants receiving intravenous HF medications within 45 days prior to randomisation.\n* Planned coronary revascularization, pacemaker/cardioverter-defibrillator/cardiac resynchronization therapy (CRT) implantation, ablation of cardiac arrythmias or valve repair/replacement at the time of randomisation.\n* Stroke or transient ischemic attack within 12 months prior to randomisation.\n* Participants with potential disruption of the blood-brain barrier (e.g., multiple sclerosis), in the opinion of the investigator.\n* Known history of severe liver disease and/or alanine aminotransferase or aspartate aminotransferase greater than (\\>) 2.5x upper limit of normal at screening, measured by central laboratory.\n* Known genetic (or highly suspected due to family history) cause of increased cardiac mass (including dilated cardiomyopathy, Fabry disease and likely pathogenic or pathogenic variants within hypertrophic cardiomyopathy (HCM).\n* Participants with suspected or diagnosed cardiac amyloidosis or sarcoidosis.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 466,
+      "trial_nct_id": "NCT06979375"
+    },
+    {
+      "chunk_id": "NCT06979375:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Main Phase: Change in normalised microRNA-132-3p (miR-132) | time_frame=From baseline to week 24 | description=Ratio to baseline\ntype=secondary | measure=Main Phase: Change in composite Z-score based on the 3 outcome measures: LVEDVi; LVESVi; NT-proBNP | time_frame=From baseline to week 24 | description=The composite Z-score is calculated as the mean of the participant's 3 Z-scores for the change in the 3 outcome measures: Left ventricular end-diastolic volume indexed to body surface area (LVEDVi); Left ventricular end-systolic volume indexed to body surface area (LVESVi); N-terminal pro B-type natriuretic peptide (NT-proBNP)\ntype=secondary | measure=Main Phase: Number of adverse events | time_frame=From baseline to week 24 | description=Count\ntype=secondary | measure=Extension Phase: Number of adverse events | time_frame=From baseline to week 60 | description=Count",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 122,
+      "trial_nct_id": "NCT06979375"
+    },
+    {
+      "chunk_id": "NCT06979375:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-30\nPrimary completion date: 2027-05-16\nCompletion date: 2028-01-23\nStudy first posted: 2025-05-19\nResults first posted: None\nLast update posted: 2026-03-11\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06979375"
+    },
+    {
+      "chunk_id": "NCT06979375:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novo Nordisk A/S\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; COMPLETED; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; COMPLETED; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT06979375"
+    }
+  ],
+  "trial_nct_id": "NCT06979375"
+}

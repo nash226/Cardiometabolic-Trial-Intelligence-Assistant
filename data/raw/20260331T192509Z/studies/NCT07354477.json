@@ -1,0 +1,260 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009798",
+          "term": "Ocular Hypertension"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        },
+        {
+          "id": "D009901",
+          "term": "Optic Nerve Diseases"
+        },
+        {
+          "id": "D012164",
+          "term": "Retinal Diseases"
+        },
+        {
+          "id": "D003925",
+          "term": "Diabetic Angiopathies"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D048909",
+          "term": "Diabetes Complications"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D005902",
+          "term": "Glaucoma, Open-Angle"
+        },
+        {
+          "id": "D057066",
+          "term": "Low Tension Glaucoma"
+        },
+        {
+          "id": "D005901",
+          "term": "Glaucoma"
+        },
+        {
+          "id": "D003930",
+          "term": "Diabetic Retinopathy"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "QLS-111 Ophthalmic Solution, 2 concentrations (0.015% and 0.075%) dosed BID for 7 days (taken 12-hour intervals) OU.",
+          "interventionNames": [
+            "Drug: QLS-111 Ophthalmic Solution (0.015%)",
+            "Drug: QLS-111 Ophthalmic Solution (0.075%)"
+          ],
+          "label": "QLS-111 Ophthalmic Solution, 2 concentrations (0.015% and 0.075%, concurrent) dosed BID for 7 days",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "QLS-111 Ophthalmic Solution, 2 concentrations (0.015% and 0.075%, concurrent) dosed BID for 7 days"
+          ],
+          "description": "QLS-111 (0.015%) administered BID for 7 days OU.",
+          "name": "QLS-111 Ophthalmic Solution (0.015%)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "QLS-111 Ophthalmic Solution, 2 concentrations (0.015% and 0.075%, concurrent) dosed BID for 7 days"
+          ],
+          "description": "QLS-111 (0.075%) administered BID for 7 days OU. Follows the 7 days where QLS-111 (0.015%) is administered.",
+          "name": "QLS-111 Ophthalmic Solution (0.075%)",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Non-proliferative Diabetic Retinopathy (NPDR)",
+        "Open-angle Glaucoma (OAG)",
+        "Normal Tension Glaucoma (NTG)"
+      ],
+      "keywords": [
+        "glaucoma",
+        "diabetic retinopathy",
+        "vessel dilation"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "lbrandano@qlaris.bio",
+          "name": "Lisa Brandano",
+          "phone": "978-930-2103",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Palo Alto",
+          "country": "United States",
+          "facility": "Stanford University, Dept. of Ophthalmology",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "94303"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Qlaris Bio",
+          "name": "Barbara M Wirostko, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Pilot, single-site, prospective study of QLS-111 0.015 % in subjects with NPDR, OAG or NTG",
+      "detailedDescription": "Pilot, single-site, prospective study of BID OU dosing of QLS-111 0.015 % for 7 days followed by QLS-111 0.075% BID OU in subjects with NPDR, OAG or NTG. Both eyes (OU) will be dosed. The study is comprised of 4 visits including Screening/Baseline visit, 2 Treatment Period visits over 14 days of IP dosing, and a Post-Treatment visit."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SEQUENTIAL",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Study is open-label but imaging data will use a masked reviewer. Clinician reviewing the imaging data will be masked to the QLS-111 concentration and visit data when reviewing."
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 14,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of mild to moderate OAG, mild to moderate NTG, or stable NPDR in at least one eye.\n* Corrected visual acuity in each eye +1.0 logMAR or better by early treatment diabetic retinopathy study (ETDRS) in each eye (equivalent to 20/200).\n* Able and willing to give signed informed consent and follow study instructions.\n\nExclusion Criteria:\n\n* History of active ocular disease other than mild to moderate OAG, mild to moderate NTG, or stable NPDR.\n* Patient is using more than 1 ocular hypotensive topical medication for intraocular pressure (IOP) control (prior MIGS and/or laser trabeculoplasty to control IOP is allowed if done at least 3 months from Screening (Visit 1).\n* Use of TO \u03b2-blockers (i.e. timolol) within 3 months prior to Screening.\n* Is noncompliant with current ocular anti-hypotensive medications and/or unwilling to be compliant throughout the study.\n* Clinically significant severe retinal disease in either eye that will require treatment during the study (e.g., proliferative diabetic retinopathy, exudative, or severe non-exudative macular degeneration). NOTE: background diabetic retinopathy (BDR) as required for the NPDR subjects is allowed if in the Investigator's opinion the BDR is stable and is expected to remain stable during the duration of the study.\n* Anti-VEGF or TO steroid treatment within 3 months prior to Screening or expected treatment while participating in this study. Prior diabetic macular edema (DME) history is allowed if adequately controlled with treatment (anti-VEGFs and steroids not within last 3 months prior to Screening), regimen is stable, and not expected to change during the study. - Corneal pathologic changes preventing reliable measurement (e.g., scarring, opacity, edema, and bullae) in either eye that would inhibit accurate IOP measurements.\n* Previously diagnosed, clinically significant systemic or psychiatric disease (e.g., myasthenia gravis, hepatic, renal, endocrine, pulmonary, or cardiovascular disorders) which might compromise the study results or subject safety. For the purpose of this study previously diagnosed, clinically significant renal disease that should be excluded from enrollment will be defined as Stages 3-5 kidney disease and/or an estimated glomerular filtration rate (eGFR) of \u226459.\n* Use of calcium channel blockers.\n* Labile hypertension and/or hypotension that is inadequately controlled,",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "(PENGUIN)",
+      "briefTitle": "Single-site Pilot Study Evaluating the Effect of QLS-111 Ophthalmic Solution on Posterior Perfusion and Vessel Dilation",
+      "nctId": "NCT07354477",
+      "officialTitle": "An Exploratory, Pilot, Single-site Study to Evaluate the Effect of QLS-111 Ophthalmic Solution on Posterior Perfusion and Vessel Dilation",
+      "orgStudyIdInfo": {
+        "id": "QC-111-205"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Qlaris Bio, Inc."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Ocular safety will be assessed by review of the following:\n\n\u2022 Ocular adverse events (AEs)",
+          "measure": "Ocular safety",
+          "timeFrame": "Days 1 through 22"
+        },
+        {
+          "description": "Systemic safety will be assessed by review of the following:\n\n\u2022 Systemic AEs",
+          "measure": "Systemic safety",
+          "timeFrame": "Days 1 through 22"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Ocular imaging will be collected at study visits at baseline, treatment period , and 1 week post-treatment and to evaluate change from baseline in retinal vessel diameter and blood flow.",
+          "measure": "Change from Baseline in blood flow to the posterior segment of the eye.",
+          "timeFrame": "Days 1 through 22"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Qlaris Bio, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-21",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-02-20",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-02",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-22",
+      "studyFirstSubmitQcDate": "2026-01-17"
+    }
+  }
+}

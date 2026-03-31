@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06488105:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06488105\nBrief title: Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders Trial\nOfficial title: Initiating Preventive Care for Hyperlipidemia in the Emergency Department: The EMERALD (Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders) Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT06488105"
+    },
+    {
+      "chunk_id": "NCT06488105:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Lipid Disorder; Hypercholesterolemia; Cardiovascular Diseases; Atherosclerosis\nIntervention labels: Statin (rosuvastatin 10 or 40 mg daily, depending on risk); Healthy Lifestyle Counseling; Outpatient Followup\nDrug class labels: \nArms: Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders (EMERALD) arm; Usual Care Arm\nKeywords: hyperlipidemia; cardiovascular disease; atherosclerotic cardiovascular disease",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT06488105"
+    },
+    {
+      "chunk_id": "NCT06488105:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders (EMERALD) is a protocolized intervention based on American College of Cardiology/American Heart Association and US Preventive Services Task Force guidelines designed to initiate preventive cardiovascular care for emergency department patients being evaluated for acute coronary syndrome. The overarching goals of this proposal are to (1) determine the efficacy of EMERALD at lowering low-density lipoprotein cholesterol (LDL-C) and non high-density lipoprotein cholesterol (non-HDL-C) among at-risk Emergency Department (ED) patients who are not already receiving guideline-directed outpatient preventive care and (2) inform our understanding of patient adherence and determinants of implementation for ED-based cardiovascular disease prevention strategies.\nDetailed description: EMERALD involves (1) ordering an ED lipid panel, (2) calculating 10-year atherosclerotic cardiovascular disease (ASCVD) risk, (3) prescribing a moderate- or high-intensity statin, (4) providing healthy lifestyle counseling, and (5) bridging patients to ongoing outpatient preventive care (primary care or cardiology, depending on risk level).\n\nWe hypothesize that EMERALD will be associated with lower LDL-C and non-HDL-C at 30- and 180-days vs. usual care. The primary outcome will be percent change in LDL-C at 30-days. Secondary outcomes include percent change in LDL-C at 180-days and non-HDL-C at 30- and 180-days. We will randomize 130 ED patients with possible acute coronary syndrome 1:1 to EMERALD or usual care, which will provide 90% power with a two-sided alpha of 0.05 to demonstrate a 10% difference in percent change in LDL-C at 30-days between arms.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 239,
+      "trial_nct_id": "NCT06488105"
+    },
+    {
+      "chunk_id": "NCT06488105:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 40 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria\n\n1. Evaluation for Acute Coronary Syndrome\n2. Age 40-75 Years\n3. 10-year Atherosclerotic Cardiovascular Disease (ASCVD) Risk \u22657.5% or Known Diabetes or\n\nKnown ASCVD:\n\n1. Myocardial Infarction\n2. Unstable Angina\n3. Percutaneous Coronary Intervention\n4. Coronary Artery Bypass Graft\n5. Stroke\n6. Transient Ischemic Attack\n7. Peripheral Artery Disease\n\nExclusion Criteria\n\n1. ST-Segment Elevation Myocardial Infarction (STEMI) Activation\n2. ST Depression \\>1 mm in Contiguous Leads\n3. On a Lipid Lowering Agent (Statin, PCSK9 Inhibitor, Bempedoic Acid, Ezetimibe, Inclisiran, etc.)\n4. Inability to Return for 30-day Follow-up\n5. Unstable Vitals (Systolic blood pressure \\<90, HR \\>120 or \\<50, oxygen saturation \\<90%)\n6. Statin Intolerance\n7. Any Resulted High-Sensitivity Troponin I \u2265100 ng/L\n8. End-stage renal disease (ESRD) and/or glomerular filtration rate (GFR) \\<30 mL/min/1.73 m2\n9. Liver Cirrhosis\n10. Pregnancy\n11. Anticipated Hospitalization\n12. Life Expectancy \\<1 Year\n13. Transfer from Another Hospital\n14. Prisoner\n15. Non-English Speaking",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 168,
+      "trial_nct_id": "NCT06488105"
+    },
+    {
+      "chunk_id": "NCT06488105:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent change in low-density lipoprotein cholesterol (LDL-C) at 30 days | time_frame=Index ED encounter through 30 days (-3, +11 days) | description=Percent change in LDL-C from the index Emergency Department (ED) encounter through 30 days\ntype=secondary | measure=Percent change in LDL-C at 180 days. | time_frame=Index ED encounter through 180 days (+/- 15 days) | description=Percent change in LDL-C from the index ED encounter through 180 days\ntype=secondary | measure=Percent change in non high-density lipoprotein cholesterol (non-HDL-C) at 30 days | time_frame=Index ED encounter through 30 days (-3, +11 days) | description=Percent change in non-HDL-C from the index ED encounter through 30 days\ntype=secondary | measure=Percent change in non-HDL-C at 180 days | time_frame=Index ED encounter through 180 days (+/- 15 days) | description=Percent change in non-HDL-C from the index ED encounter through 180 days\ntype=secondary | measure=Proportion of patients with outpatient clinic follow-up at 30 days | time_frame=Index ED encounter through 30 days (-3, +8 days) | description=Did the patient follow-up with the recommended outpatient care team?\ntype=secondary | measure=Proportion of patients with statin prescription pick-up | time_frame=Index ED encounter through 10 days | description=Did the patient pick-up their statin prescription from the pharmacy?\ntype=secondary | measure=Qualitative barriers and facilators | time_frame=30 days (+30 days) after the index ED encounter | description=Qualitative interviews to determine facilitators and barriers to the Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders (EMERALD) program",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 233,
+      "trial_nct_id": "NCT06488105"
+    },
+    {
+      "chunk_id": "NCT06488105:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-08-05\nPrimary completion date: 2027-11-30\nCompletion date: 2029-03-31\nStudy first posted: 2024-07-05\nResults first posted: None\nLast update posted: 2026-02-27\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06488105"
+    },
+    {
+      "chunk_id": "NCT06488105:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Wake Forest University Health Sciences\nLead sponsor class: OTHER\nCollaborators: National Institutes of Health (NIH); National Heart, Lung, and Blood Institute (NHLBI)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT06488105"
+    }
+  ],
+  "trial_nct_id": "NCT06488105"
+}

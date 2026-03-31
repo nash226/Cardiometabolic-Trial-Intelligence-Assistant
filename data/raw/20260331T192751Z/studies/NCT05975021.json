@@ -1,0 +1,426 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D007773",
+          "term": "Lactates"
+        },
+        {
+          "id": "D006880",
+          "term": "Hydroxy Acids"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C468128",
+          "term": "Istaroxime"
+        },
+        {
+          "id": "D019344",
+          "term": "Lactic Acid"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Istaroxime delivered as an IV infusion via a syringe pump. Dosage regime is 1.0 \u00b5g/kg/min for 6 hours, 0.5 \u00b5g/kg/min for 42 hours. Total duration 48 hours.",
+          "interventionNames": [
+            "Drug: Istaroxime"
+          ],
+          "label": "Istaroxime",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo (lactose) delivered as an IV infusion via a syringe pump. Total duration 48 hours.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Istaroxime"
+          ],
+          "description": "IV infusion via a syringe pump. Dosage of 1.0 \u00b5g/kg/min for 6 hours; 0.5 \u00b5g/kg/min for 42 hours. Total duration 48 hours.",
+          "name": "Istaroxime",
+          "otherNames": [
+            "PST2744"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "IV infusion via a syringe pump. Total duration 48 hours.",
+          "name": "Placebo",
+          "otherNames": [
+            "Lactate"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Boston",
+          "country": "United States",
+          "facility": "Tufts Medical Center",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "zip": "02111"
+        },
+        {
+          "city": "Portland",
+          "country": "United States",
+          "facility": "Oregon Health and Sciences University",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          },
+          "state": "Oregon",
+          "zip": "97201"
+        },
+        {
+          "city": "Capital Federal",
+          "country": "Argentina",
+          "facility": "Sanatorio G\u00fcemes",
+          "state": "Buenos Aires",
+          "zip": "1180"
+        },
+        {
+          "city": "Capital Federal",
+          "country": "Argentina",
+          "facility": "Sanatorio De la Trinidad Palermo",
+          "state": "Buenos Aires",
+          "zip": "1425"
+        },
+        {
+          "city": "Rosario",
+          "country": "Argentina",
+          "facility": "Instituto Cardiovascular de Rosario",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          },
+          "state": "Sante Fe",
+          "zip": "S2000DSR"
+        },
+        {
+          "city": "Rosario",
+          "country": "Argentina",
+          "facility": "Hospital Privado de Rosario",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          },
+          "state": "Sante Fe",
+          "zip": "S2000GAP"
+        },
+        {
+          "city": "Rehovot",
+          "country": "Israel",
+          "facility": "Kaplan Medical Center",
+          "geoPoint": {
+            "lat": 31.89421,
+            "lon": 34.81199
+          },
+          "zip": "76100"
+        },
+        {
+          "city": "Alessandria",
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Santi Antonio e Biagio e Cesare Arrigo",
+          "geoPoint": {
+            "lat": 44.90924,
+            "lon": 8.61007
+          },
+          "zip": "15121"
+        },
+        {
+          "city": "Brescia",
+          "country": "Italy",
+          "facility": "ASST degli Spedali Civili di Brescia",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          },
+          "zip": "25123"
+        },
+        {
+          "city": "Milan",
+          "country": "Italy",
+          "facility": "IRCCS San Raffaele Scientific Institute",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          },
+          "zip": "20132"
+        },
+        {
+          "city": "Turin",
+          "country": "Italy",
+          "facility": "University of Turin, Citt\u00e0 della Salute e della Scienza",
+          "geoPoint": {
+            "lat": 45.07049,
+            "lon": 7.68682
+          },
+          "zip": "10123"
+        },
+        {
+          "city": "Bialystok",
+          "country": "Poland",
+          "facility": "Uniwersytecki Szpital Kliniczny w Bia\u0142ymstoku",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          },
+          "zip": "15-276"
+        },
+        {
+          "city": "Opole",
+          "country": "Poland",
+          "facility": "Uniwersytecki Szpital Kliniczny w Opolu",
+          "geoPoint": {
+            "lat": 50.67119,
+            "lon": 17.92604
+          },
+          "zip": "45-401"
+        },
+        {
+          "city": "Wroclaw",
+          "country": "Poland",
+          "facility": "Uniwersytecki Szpital Kliniczny, Instytut Chorob Serca",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          },
+          "zip": "50-556"
+        },
+        {
+          "city": "Wroclaw",
+          "country": "Poland",
+          "facility": "4 Wojskowy Szpital Kliniczny z Poliklinik\u0105 SP ZOZ",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          },
+          "zip": "50-981"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Windtree Therapeutics, Inc.",
+          "name": "Steven G Simonson, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The current trial aims to assess the effect of istaroxime in patients with SCAI Stage C Cardiogenic Shock (CS). These patients look unwell, frequently with a sudden change in mental status, mottled and cool extremities, and delayed capillary refill, as well as signs of congestion and relative low blood pressure and signs of hypoperfusion (reduced oxygen to organs) which frequently require support with rescue therapies including inotropes, vasopressors, or mechanical devices.\n\nWindtree Therapeutics, Inc. has been studying istaroxime, which has the potential to treat patients in this condition without some of the disadvantages of existing therapies being used to treat patients with acute heart failure and CS.\n\nParticipants enrolled in this trial will receive standard of care (SoC) therapy for heart failure and CS. Additionally, half of the participants will be randomly chosen to receive istaroxime. Istaroxime has the potential to increase blood pressure and improve cardiac function."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a pilot, multinational, multicenter, randomized, double-blind, placebo-controlled, safety and efficacy trial. Participants will consist of males or females 18 to 85 years of age hospitalized for acute decompensated heart failure (ADHF) with persistent hypotension (systolic blood pressure \\[SBP\\] 70 to 90 mmHg for two readings with concomitant signs of hypoperfusion), and mild to moderate renal impairment.",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Trial treatment will be blinded to the trial staff. Istaroxime and placebo are both lyophilized powders and are put into identical vials. Each trial box will be numbered with a unique identifier, which will not allow the trial staff to ascertain which treatment is being used.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent form (ICF);\n* Clinical presentation consistent with SCAI Stage C cardiogenic shock caused by ADHF and meeting the criteria in below table;\n* Admitted to ICU within 36 hours prior to randomization with congestion on chest x-ray or lung ultrasound and BNP \u2265 400 pg/mL or NT-proBNP \u2265 1400 pg/mL;\n* Males and females, 18 to 85 years of age (inclusive);\n* History of left ventricular ejection fraction (LVEF) \u2264 40%;\n* Persistent hypotension defined as SBP between 70 and 90 mmHg for 2 readings with concomitant signs of hypoperfusion;\n* Echocardiogram during initial hospitalization confirming ejection fraction \u2264 40% and no evidence of other pathology to confound interpretation of cardiac physiology (eg, pericardial effusion).\n\nTable: Definition of SCAI Stage C Required for Inclusion. These criteria must be present at screening or prior to screening in patients actively treated by vasoactive agents or/and inotropes concomitantly (at the same time)\n\nMust have at Least One of:\n\n* Hypoperfusion: Venous Lactate \u2265 2 mmol/L, urine output \\< 30 mL/hour, cold and clammy or acute alteration in mental status.\n* Hemodynamic Instability: SBP 70-90 mmHg, cardiac index \\< 2.2 L/min/meter2 and PCW \\> 15 mmHg\n\nWithout Any Of:\n\n* Venous lactate \\> 5 mmol/L\n* Worsening clinical status despite initial therapy (e.g., worsening hemodynamics, worsening renal or liver function)\n* ALT \\>500 U/L (8.333 \u00b5kat/L)\n\nExclusion Criteria:\n\n* Patient is in SCAI B (BP increased above 90 mmHg despite no vasoactive or inotrope therapy) or SCAI D (continuously deteriorating BP and hypoperfusion despite vasoactive or inotrope therapy);\n* Lactate \\< 2 mmol/L (unless the patient meets the criteria in bullet 2 of Table 5-1) or lactate \\> 5 mmol/L prior to randomization;\n* Cardiogenic shock due to any other condition besides acute decompensation of chronic heart failure;\n* Any of the following in the past 30 days: acute coronary syndrome, coronary revascularization, MI, CABG, or percutaneous coronary intervention;\n* Current (within 6 hours of screening) or anticipated need for treatment with renal support including ultrafiltration, or mechanical circulatory, ventilatory or renal support (intra-aortic balloon pump, endotracheal intubation, mechanical ventilation, or any ventricular assist device) such as persistent hypoperfusion and hypotension;\n* History of heart transplant or UNOS priority 1a heart transplant listing\n* Ongoing treatment with digoxin (if digoxin was stopped before signing the ICF and the digoxin plasma level is \\< 0.5 ng/ml, the patient may be enrolled);\n* Severe renal impairment (eGFR \\< 30 ml/min, calculated by the MDRD formula);\n* Hypersensitivity to the trial medication and its excipients (including known lactose hypersensitivity) or any related medication;\n* Stroke or TIA within 3 months;\n* Severe obstructive valvular lesions including severe aortic or mitral stenosis;\n* Primary hypertrophic or restrictive cardiomyopathy or systemic illness known to be associated with infiltrative heart disease;\n* Admission for AHF triggered primarily by a correctable etiology such as significant arrhythmia (inclusive of atrial fibrillation as the main reason for admission), infection, severe anemia, acute coronary syndrome, pulmonary embolism, exacerbation of COPD, planned admission for device implantation, or over-diuresis as a cause of hypotension;\n* Pericardial constriction or active pericarditis;\n* Significant ventricular arrhythmia prior to screening (such as sustained ventricular tachycardia or ventricular fibrillation) or implantable cardioverter defibrillator (ICD) shock within the past month or history of sudden death within 6 months;\n* Cardiac resynchronization therapy (CRT), ICD, or pacemaker implantation within the past month;\n* Uncontrolled arrythmia;\n* Sustained hypotension (SBP \\< 70 mmHg) for at least 30 minutes from the time of arrival to the hospital;\n* Systolic BP \\> 120 mmHg during the hour prior to randomization\n* Cor pulmonale or other causes of isolated right-sided HF or not related to left ventricular dysfunction;\n* Acute respiratory distress syndrome;\n* Suspected sepsis; fever \\> 38\u00b0 or active infection requiring IV antimicrobial treatment;\n* Body weight \\< 40 kg or \u2265 150 kg;\n* Laboratory exclusions:\n\n  1. Hemoglobin \\< 9 g/dl,\n  2. Platelet count \\< 100,000/\u00b5l,\n  3. Serum potassium \\> 5.3 mmol/l or \\< 3.5 mmol/l;\n* A life expectancy \\< 3 months based on the judgment of the investigator;\n* Severe pulmonary or thyroid disease;\n* Pregnant, planning on becoming pregnant, or currently breast-feeding;\n* Ongoing drug or alcohol abuse;\n* Participation in another interventional trial within the past 30 days.",
+      "healthyVolunteers": false,
+      "maximumAge": "85 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "SEISMiC-C",
+      "briefTitle": "A Safety and Efficacy Trial of Istaroxime for Cardiogenic Shock Stage C",
+      "nctId": "NCT05975021",
+      "officialTitle": "A Multicenter, Randomized, Placebo-Controlled, Parallel Group Trial on the Safety and Efficacy of Istaroxime for Cardiogenic Shock SCAI Stage C",
+      "orgStudyIdInfo": {
+        "id": "04-CL-2201"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Windtree Therapeutics"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "EMA",
+          "id": "CT Id: 2023-507243-11-00",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Mutual written agreement.",
+      "description": "The preparation and submittal for publication of a manuscript containing the study results shall be in accordance with a process determined by a mutual written agreement between Windtree and participating institutions.\n\nThe publication or presentation of any study results shall comply with all applicable privacy laws, including but not limited to HIPAA. This trial will be registered in the ClinicalTrials.gov and the CTIS databases, and results information from this trial will be submitted to both. In addition, every attempt will be made to publish results in peer-reviewed journals.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF",
+        "CSR"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "6 months after study end."
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Systolic blood pressure (SBP) area under the curve (AUC) from start of infusion to 6 hours",
+          "measure": "SBP AUC 0-6",
+          "timeFrame": "Start of infusion to 6 hours"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Windtree Therapeutics"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-15",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-28",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2024-06-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-08",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-07-26",
+      "studyFirstSubmitQcDate": "2023-07-26"
+    }
+  }
+}

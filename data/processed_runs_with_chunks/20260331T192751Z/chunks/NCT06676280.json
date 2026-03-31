@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06676280:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06676280\nBrief title: ASpirin Use and stAtin Strategy for Primary Prevention in Severe Coronary Calcium Score on Computed Tomography\nOfficial title: an Investigator-initiated, Multicenter, Open-label, 2-by-2 Factorial, and Randomized Trial to Evaluate the Role of Aspirin and High-intensity Statin Therapy, Respectively, in Individuals With Severe Coronary Calcification (Coronary Calcium Score \u2265300) to Prevent Atherosclerotic Cardiovascular Disease (ASCVD) Events With Severe Coronary Calcification (CAC \u2265300)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 74,
+      "trial_nct_id": "NCT06676280"
+    },
+    {
+      "chunk_id": "NCT06676280:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Cardiovascular Diseases\nIntervention labels: Aspirin; High-intensity statin; Guideline-directed statin therapy\nDrug class labels: \nArms: Aspirin and High-intensity statin; No aspirin and High-intensity statin; No aspirin and guideline-directed statin; Aspirin and guideline-directed statin\nKeywords: atherosclerotic cardiovascular disease; aspirin; high-intensity statin",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT06676280"
+    },
+    {
+      "chunk_id": "NCT06676280:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The primary objective of the ASA-3C trial is to evaluate the role of aspirin and high-intensity statin therapy, respectively, in individuals with severe coronary calcification (coronary calcium score \u2265300) to prevent atherosclerotic cardiovascular disease (ASCVD) events with severe coronary calcification (CAC \u2265300).\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06676280"
+    },
+    {
+      "chunk_id": "NCT06676280:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 40 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. The subject must be aged between 40 and 70 years.\n2. Patients who have coronary artery calcium score \u2265300 Agatston Unit on coronary calcium computed tomography.\n3. Patients who have 1 or more CVD risk factors in below;\n\n   * dyslipidemia or,\n   * diabetes or,\n   * hypertension or,\n   * family history of CVD or,\n   * smoking\n4. Patients agree to the study protocol and the schedule of clinical follow-up, and provides informed, written consent, as approved by the appropriate Institutional Review Board/Ethical Committee of the respective clinical site.\n\nExclusion Criteria:\n\n1. Individuals who have symptomatic coronary artery disease or heart failure.\n2. Patients who have documented clinical Atherosclerotic Cardiovascular Disease: previous myocardial infarction, acute coronary syndrome, stable angina, coronary revascularization and other arterial revascularization procedures, stroke and Transient ischaemic attack (TIA), \\>50% carotid stenosis or previous carotid endarterectomy or stenting, aortic aneurysm and peripheral artery disease.\n3. Patients who have evidence of myocardial ischemia on non-invasive stress test including stress single photon emission CT myocardial perfusion imaging (SPECT MPI), cardiovascular magnetic resonance (CMR) imaging, stress echocardiography, or treadmill test, or on invasive stress test including Fractional flow reserve (FFR) \\< 0.80 on invasive coronary angiography (diameter stenosis\\>50% without objective evidence of ischemia could be enrolled).\n4. Patients at high risk of bleeding: gastrointestinal hemorrhage or peptic ulcer within the previous 6 months; active hepatic disease such as cirrhosis or active hepatitis; use of warfarin, or other anticoagulant therapy; or has a history of aspirin allergy.\n5. Patients with atrial fibrillation and flutter.\n6. Patients with severe left ventricular dysfunction (ejection fraction \u226430%) or severe valvular heart disease who experience dyspnea on exertion (The NYHA (New York Heart Association) Functional Classification III-IV).\n7. History of allergy or severe adverse reaction to aspirin or statin or ezetimibe.\n8. History of myositis or myopathy with active disease in the 180 days prior to study entry.\n9. Patients with active liver disease or persistent unexplained serum transaminase elevation.\n10. Patients who have significantly abnormal findings which identified violation for safety by investigator on physical examination, blood test and electrocardiogram.\n11. History of alcohol or drug abuse.\n12. Concurrent medical condition with a life expectancy of less than 1 years.\n13. Pregnant and/or lactating women.\n14. Patient was unable to provide written informed consent or participate in log-term follow up.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 405,
+      "trial_nct_id": "NCT06676280"
+    },
+    {
+      "chunk_id": "NCT06676280:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Event rate of a composite of atherosclerotic cardiovascular disease event | time_frame=3 years | description=cardiovascular death; myocardial infarction ; hospitalization for Acute coronary syndrome; stroke; Transient ischaemic attack; peripheral arterial ischemia ;revascularization of coronary, carotid, or peripheral artery ;or death from an undetermined cause\ntype=secondary | measure=Event rate of Each individual component of primary composite outcome | time_frame=3 years\ntype=secondary | measure=Event rate of Death from any causes | time_frame=3 years\ntype=secondary | measure=Event rate of Hospitalization for heart failure | time_frame=3 years\ntype=secondary | measure=Event rate of the first occurrence of any major bleeding | time_frame=3 years | description=\\[Safety secondary endpoint\\] major bleeding is defined as a composite of intracranial hemorrhage, site-threatening bleeding event in the eye, gastrointestinal bleeding, or any other serious bleeding that resulted in hospitalization, transfusion, or that was fatal.\ntype=secondary | measure=Event rate of the Safety secondary endpoint | time_frame=3 years | description=Safety secondary endpoint:\n\nAspirin the first occurrence of any major bleeding; a composite of intracranial hemorrhage, site-threatening bleeding event in the eye, gastrointestinal bleeding, or any other serious bleeding that resulted in hospitalization, transfusion, or that was fatal.\n\nStatin\n\n* Muscle related adverse events; myalgia, myositis, myopathy, myonecrosis, rhabdomyolysis\n* New onset diabetes mellitus\n* Gall bladder-related adverse events\n* Cancer diagnosis\n* Cataract operation\n* New-onset neurocognitive disorder\n* Discontinuation or dose-reduction of statin therapy by intolerance",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 227,
+      "trial_nct_id": "NCT06676280"
+    },
+    {
+      "chunk_id": "NCT06676280:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-07-24\nPrimary completion date: 2035-03-31\nCompletion date: 2035-12-31\nStudy first posted: 2024-11-06\nResults first posted: None\nLast update posted: 2026-01-29\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06676280"
+    },
+    {
+      "chunk_id": "NCT06676280:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Jung-min Ahn\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06676280"
+    }
+  ],
+  "trial_nct_id": "NCT06676280"
+}

@@ -1,0 +1,730 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D014633",
+          "term": "Valine"
+        },
+        {
+          "id": "D000597",
+          "term": "Amino Acids, Branched-Chain"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D000601",
+          "term": "Amino Acids, Essential"
+        },
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000068756",
+          "term": "Valsartan"
+        },
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D003078",
+          "term": "Colchicine"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Cardiovascular Polypill + Colchicine 0.5 mg once daily",
+          "interventionNames": [
+            "Drug: Cardiovascular Polypill (Valsartan, Atorvastatin, Aspirin)",
+            "Drug: Colchicine 0.5 mg"
+          ],
+          "label": "Group 1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Cardiovascular Polypill + Colchicine placebo 0.5 mg once daily",
+          "interventionNames": [
+            "Drug: Cardiovascular Polypill (Valsartan, Atorvastatin, Aspirin)",
+            "Drug: Colchicine-placebo 0.5 mg"
+          ],
+          "label": "Group 2",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Usual care + Colchicine 0.5 mg once daily",
+          "interventionNames": [
+            "Drug: Colchicine 0.5 mg",
+            "Drug: Usual Care Group"
+          ],
+          "label": "Group 3",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Usual care + Colchicine placebo 0.5 mg once daily",
+          "interventionNames": [
+            "Drug: Usual Care Group",
+            "Drug: Colchicine-placebo 0.5 mg"
+          ],
+          "label": "Group 4",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Group 1",
+            "Group 2"
+          ],
+          "description": "Cardiovascular Polypill contains Valsartan, Atorvastatin, Aspirin\n\n1. Valsartan 160 mg + Atorvastatin 40 mg + Aspirin 100 mg\n\n   or\n2. Valsartan 160 mg + Atorvastatin 80 mg + Aspirin 100 mg\n\n   or\n3. Valsartan 320 mg + Atorvastatin 40 mg + Aspirin 100 mg\n\n   or\n4. Valsartan 320 mg + Atorvastatin 80 mg + Aspirin100 mg\n\n   or\n5. Valsartan 80 mg + Atorvastatin 40 mg + Aspirin 100 mg\n\n   or\n6. Valsartan 80 mg + Atorvastatin 80 mg + Aspirin 100 mg\n\n   or\n7. Valsartan 80 mg + Atorvastatin 20 mg + Aspirin 100 mg\\*\n\n   or\n8. Valsartan 160 mg + Atorvastatin 20 mg + Aspirin 100 mg\\*\n\n   or\n9. Valsartan 320 mg + Atorvastatin 20 mg + Aspirin 100 mg\\*\n\n   * The use of these formulations of the cardiovascular polypill will be restricted to cases of Statin-Related Muscle Symptoms (SRMS)",
+          "name": "Cardiovascular Polypill (Valsartan, Atorvastatin, Aspirin)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Group 1",
+            "Group 3"
+          ],
+          "description": "Colchicine 0.5 mg once daily",
+          "name": "Colchicine 0.5 mg",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Group 3",
+            "Group 4"
+          ],
+          "description": "Patients allocated to the usual care arm will receive standard of care therapies for secondary prevention according to the guidelines. Drugs and doses will be left at the discretion of the treating physicians.",
+          "name": "Usual Care Group",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Group 2",
+            "Group 4"
+          ],
+          "description": "Matching Colchicine-placebo 0.5 mg once daily",
+          "name": "Colchicine-placebo 0.5 mg",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atherothrombotic Diseases",
+        "Atherosclerotic Cardiovascular Disease (ASCVD)"
+      ],
+      "keywords": [
+        "Atherothrombotic diseases",
+        "Atherosclerotic cardiovascular disease",
+        "Polypill",
+        "Colchicine"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Macei\u00f3",
+          "contacts": [
+            {
+              "email": "centrodepesquisasclinicas@cesmac.edu.br",
+              "name": "Marco Mota, Principal Investigator",
+              "phone": "+55 82 3215-5032",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Centro de Pesquisas Cl\u00ednicas Dr. Marco Mota",
+          "geoPoint": {
+            "lat": -9.66583,
+            "lon": -35.73528
+          },
+          "state": "Alabama",
+          "status": "RECRUITING",
+          "zip": "57051160"
+        },
+        {
+          "city": "Messejana",
+          "contacts": [
+            {
+              "email": "unidadepesquisaclinica@gmail.com",
+              "name": "Jo\u00e3o David de Souza Neto, Principal Investigator",
+              "phone": "+55 85 399810 6905",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Secret\u00e1ria da Sa\u00fade do Estado do Cear\u00e1 - Hospital de Messejana Dr. Carlos Alberto Studart Gomes",
+          "geoPoint": {
+            "lat": -3.83222,
+            "lon": -38.48944
+          },
+          "state": "Cear\u00e1",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Petrolina",
+          "contacts": [
+            {
+              "email": "ancianato@portalbethesda.org.br",
+              "name": "Polyana Evangelista Lima, Principal Investigator",
+              "phone": "+55 87 2101 6504",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Empresa Brasileira de Servi\u00e7os Hospitalares - EBSERCH - Hospital de Ensino Dr. Washington Ant\u00f4nio de Barros- HU-UNIVASF",
+          "geoPoint": {
+            "lat": -9.39861,
+            "lon": -40.50083
+          },
+          "state": "Pernambuco",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Teresina",
+          "contacts": [
+            {
+              "email": "admin@cardiolima.com.br",
+              "name": "Carlos Eduardo Batista Lima",
+              "phone": "+55 86 3085 3048",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Centro de Pesquisa Cardiolima",
+          "geoPoint": {
+            "lat": -5.08917,
+            "lon": -42.80194
+          },
+          "state": "Piau\u00ed",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Rio de Janeiro",
+          "contacts": [
+            {
+              "email": "cepmsm@souzamarques.br",
+              "name": "Fabio Akio Nishijuka, Principal Investigator",
+              "phone": "+55 21 2128-4900",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Funda\u00e7\u00e3o T\u00e9cnico Educacional Souza Marques",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          },
+          "state": "Rio de Janeiro",
+          "status": "RECRUITING",
+          "zip": "22.793-140"
+        },
+        {
+          "city": "Porto Alegre",
+          "contacts": [
+            {
+              "email": "pesquisaclinica@cardiologia.org.br",
+              "name": "Maico Furlanetto, Principal Investigator",
+              "phone": "+55 51 3230 3860",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Funda\u00e7\u00e3o Universit\u00e1ria de Cardiologia - ICFUC",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          },
+          "state": "Rio Grande do Sul",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Porto Velho",
+          "contacts": [
+            {
+              "email": "ipesrondonia@gmail.com",
+              "name": "Marcus Vinicius Nunes Batista",
+              "phone": "+55 69 9378 7257",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Instituto de Pesquisa e Ensino em Sa\u00fade - IPES",
+          "geoPoint": {
+            "lat": -8.76194,
+            "lon": -63.90389
+          },
+          "state": "Rond\u00f4nia",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Joinville",
+          "contacts": [
+            {
+              "email": "pesquisa3@pesquisacmep.com.br",
+              "name": "Conrado Roberto Hoffmann Filho",
+              "phone": "+55 47 9220 6886",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "CMEP - Centro Multidisciplinar de Ensino especializado e Pesquisa",
+          "geoPoint": {
+            "lat": -26.30444,
+            "lon": -48.84556
+          },
+          "state": "Santa Catarina",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Bragan\u00e7a Paulista",
+          "contacts": [
+            {
+              "email": "cepec.husf@alsf.org.br",
+              "name": "Murillo de Oliveira Antunes",
+              "phone": "+55 11 2490 1366",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Hospital Universit\u00e1rio S\u00e3o Francisco na Provid\u00eancia de Deus",
+          "geoPoint": {
+            "lat": -22.9527,
+            "lon": -46.54418
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "S\u00e3o Jos\u00e9 do Rio Preto",
+          "contacts": [
+            {
+              "email": "coordena\u00e7\u00e3o.cardio@centrodepesquisacip.com.br",
+              "name": "Marcelo Arruda Nakazone, Principal Investigator",
+              "phone": "+55 17 3201-5054",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Funda\u00e7\u00e3o Faculdade Regional de Medicina S\u00e3o Jos\u00e9 do Rio Preto",
+          "geoPoint": {
+            "lat": -20.81972,
+            "lon": -49.37944
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING",
+          "zip": "15.090-000"
+        },
+        {
+          "city": "S\u00e3o Jos\u00e9 dos Campos",
+          "contacts": [
+            {
+              "email": "contato@cipes.com.br",
+              "name": "Fabiana Marcondes, Principal Investigator",
+              "phone": "+55 12 99726 2171",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "CIPES - Centro Internacional de Pesquisa Cl\u00ednica",
+          "geoPoint": {
+            "lat": -23.17944,
+            "lon": -45.88694
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "S\u00e3o Paulo",
+          "contacts": [
+            {
+              "email": "ltramujas@hcor.com.br",
+              "name": "Lucas Tramujas, Principal Investigator",
+              "phone": "+55 11 96910-7556",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Hcor",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING",
+          "zip": "04004-030"
+        },
+        {
+          "city": "S\u00e3o Paulo",
+          "contacts": [
+            {
+              "email": "pesquisa@cetrus.com.br",
+              "name": "Pablo de Oliveira Antunes",
+              "phone": "+55 11 91513 0651",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Centro de Pesquisa Cetrus",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Hcor Research Institute",
+          "name": "Pedro Gabriel Melo de Barros e Silva, P.h.D",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "affiliation": "Hcor Research Institute",
+          "name": "Lucas tramujas, M.D",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Hcor Research Institute",
+          "name": "Erlon Oliveira de Abreu-Silva, M.D",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The EPOCA study (Evaluation of a POlypill and Colchicine for risk reduction in patients with established Atherosclerotic cardiovascular disease) will be a randomized, superiority, parallel, 2x2 factorial, multicenter clinical trial which will include at least 7713 and up to a maximum of 10797 participants with established atherosclerotic cardiovascular disease.",
+      "detailedDescription": "Cardiovascular disease is the leading cause of morbidity and mortality worldwide and in Brazil. Additionally, cardiovascular risk factors are highly prevalent conditions which are, frequently, present in association. Despite the last therapeutic advances, rates of adequate control of these conditions are still low. One proposed strategy to increase such control and decrease cardiovascular risk is the use of fixed-dose combinations of different pharmacological classes, to be taken on single daily dose - a polypill. This strategy has already been studied in other parts of the world, especially in patients with established or at risk for coronary heart disease (CHD).\n\nFurthermore, there has been a need to explore other therapeutic targets beyond traditional risk factors that could impact the process of atherosclerosis. Among the various options evaluated, colchicine has emerged as a viable alternative, given its clinical use experience, mechanism of action, and the results showing a reduction in inflammatory biomarkers as well as clinical outcomes in individuals with different manifestations of coronary artery disease. However, it is important to highlight some key points regarding the available studies evaluating both the treatment strategy based on a polypill and the use of colchicine in the context of atherosclerotic cardiovascular disease (ASCVD).\n\nThe studies supporting both approaches were primarily conducted with participants with coronary artery disease from centers in Europe, the U.S., Iran, Oceania, and India, and there is a lack of robust evidence regarding these therapeutic strategies in other countries with a diverse population like Brazil, as well as in individuals with other manifestations of ASCVD (including peripheral arterial disease and cerebrovascular disease).\n\nGiven high prevalence of atherosclerotic cardiovascular disease and its traditional risk factors, low control rates, high levels of poor adherence and therapeutic inertia, and the specific realities of the population and healthcare system, evaluating the efficacy of a polypill strategy (fixed-dose an antihypertensive, aspirin, and high-potency statin) with a single daily dose, along with colchicine, in preventing cardiovascular events could contribute to improving cardiovascular care."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "They will be randomized, simultaneously, in a 1:1:1:1 ratio to polypill or usual care, and colchicine 0.5 mg once daily versus placebo, in a 2x2 factorial design. Therefore, the study will have four possible groups: Cardiovascular polypill + colchicine 0.5 mg once daily; Cardiovascular polypill + Colchicine placebo once daily; Usual care + Colchicine 0.5 mg once daily; or Usual care + Colchicine placebo once daily.",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The polypill factor will be open-label and controlled by standard treatment (usual care). The colchicine factor will be blinded and controlled by placebo.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 7713,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Individuals aged \u2265 45 years AND\n* Signature of the Informed Consent Form (ICF) AND at least one of the following criteria:\n* Previous atherothrombotic cardiovascular event (acute coronary syndrome, ischemic stroke, high-risk transient ischemic stroke, acute limb ischemia/arterial occlusion, or non-traumatic limb amputation) AND/OR\n* Previous arterial revascularization (percutaneous, surgical, and/or hybrid) OR\n* Diagnosis of significant atherosclerotic disease with \u2265 50% obstruction in any arterial territory (coronary, cerebrovascular, or peripheral), in the absence of a prior cardiovascular event or arterial revascularization.\n\nExclusion Criteria:\n\n* Pregnant or lactating women;\n* Women of childbearing age who do not use any form of contraception;\n* Known history of chronic kidney disease, stage \u2265 4 (estimated glomerular filtration rate \u2264 30 mL/min, if available);\n* Known history of cirrhosis or severe liver disease (e.g., transaminase levels \\> 3 times the upper limit of normal, if available);\n* Known history of inflammatory muscle disease (e.g., dermatomyositis or polymyositis) or creatine phosphokinase (CPK) levels \\> 3 times the upper limit of normal, if available);\n* Known history of moderate or severe valvular heart disease with anticipated need for valvular intervention within the next 12 months;\n* Planned arterial revascularization (inclusion is possible 30 days after completion of all planned procedures);\n* Left ventricular ejection fraction \u226440% (with the exception of patients with documented intolerance to ACE inhibitors and/or sacubitril/valsartan, who remain eligible for study enrollment);\n* Heart failure with functional class \u2265 III according to the New York Heart Association (NYHA), regardless of left ventricular ejection fraction;\n* Blood pressure \\< 120/80 mmHg in the absence of antihypertensive therapy;\n* Life expectancy \u2264 12 months;\n* Acute arterial event (acute coronary syndrome, non-cardioembolic ischemic stroke, acute limb ischemia) in the past 30 days;\n* Substance abuse/alcoholism;\n* Psychiatric and/or neurodegenerative disorder limiting self-care capacity;\n* Concurrent participation in another randomized clinical trial;\n* Contraindication to any component of the polypill;\n* Current or planned use of oral anticoagulant therapy within the next 12 months (except rivaroxaban 2.5 mg twice daily for patients with peripheral artery disease);\n* High risk of bleeding (e.g., but not limited to: blood dyscrasias, hemophilia, previous gastrointestinal or central nervous system bleeding);\n* Contraindication to colchicine;\n* Current use of colchicine.",
+      "healthyVolunteers": false,
+      "minimumAge": "45 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "EPOCA",
+      "briefTitle": "Polypill and Colchicine for Risk Reduction in Atherosclerotic Cardiovascular Disease",
+      "nctId": "NCT06930885",
+      "officialTitle": "Evaluation of a POlypill and Colchicine for Risk Reduction in Patients With Established Atherosclerotic Cardiovascular Disease: The EPOCA Randomized Clinical Trial",
+      "orgStudyIdInfo": {
+        "id": "EPOCA TRIAL"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Hospital do Coracao"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Submission of a statistical analysis plan for the purposed analyses. Compliance with Brazilian. data privacy law.",
+      "description": "Our data dissemination plan will follow the rules of the Hcor research institute",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR",
+        "ANALYTIC_CODE"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "1 year after the publication"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "It will be assessed through the 9-item adapted Hill-Bone Medication Adherence Scale.\n\nThe adapted 9-item Hill-Bone Medication Adherence Scale consists of 9 questions, each rated on a 4-point Likert scale ('all of the time', 'most of the time', 'some of the time', 'none of the time'). Item scores range from 1 to 4, yielding a total score between 9 and 36. Higher scores reflect poorer adherence, whereas lower scores reflect better adherence.",
+          "measure": "Change in Treatment Adherence",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Systolic and diastolic blood pressure will be assessed and summarized at each timepoint.",
+          "measure": "Change in Systolic and Diastolic Blood Pressure (SBP and DBP)",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Non-fasting blood analysis will be collected and LDL cholesterol level evaluated at each timepoint.",
+          "measure": "Change in serum LDL-c concentrations",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "High-sensitivity C-reactive protein (hs-CRP) will be colllected and evaluated at each timepoint",
+          "measure": "Change in serum concentrations of high-sensitivity C-reactive protein (hs-CRP)",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Systolic and diastolic blood pressure will be collected and the proportions of patients with controled blood pressure will be summarized at each timepoint",
+          "measure": "Proportion of individuals with controlled blood pressure",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Non-fasting blood analysis will be collected and the proportion of individuals with LDL-c levels at target will be evaluated at each timepoint",
+          "measure": "Proportion of individuals with LDL-c levels at target",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "The European Quality of Life - 5 Dimensions 5 Levels (EQ-5D-5L) Questionnaire will be administered at each timepoint to evaluate changes in quality of life.\n\nThe EQ-5D-5L includes a descriptive system and a visual analogue scale (EQ VAS). The descriptive system comprises five dimensions: mobility, self-care, usual activities, pain/discomfort, and anxiety/depression-each with five levels of severity. Responses generate a five-digit health profile. The EQ VAS captures the participant's self-rated health on a visual scale from 0 (\"the worst health you can imagine\") to 100 (\"the best health you can imagine\").",
+          "measure": "Change in Quality of Life",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Time to all-cause death",
+          "measure": "Safety endpoint: All-cause death",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "It will be assessed according to the definitions of the Bleeding Academic Research Consortium.",
+          "measure": "Safety endpoint: Bleeding",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Time to hospitalization for sepsis",
+          "measure": "Safety endpoint: Hospitalization for sepsis",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Time of ocurrence of new diagnosis of cancer",
+          "measure": "Safety endpoint: new diagnonis of cancer",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Time to cardiovascular death, non-fatal type 1 myocardial infarction, non-fatal ischemic stroke, urgent arterial revascularization, and non-traumatic major lower limb amputation",
+          "measure": "Primary efficacy endpoint: Major adverse cardiovascular and limb events (MACLE)",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Time to cardiovascular mortality, non-fatal type 1 myocardial infarction, and non-fatal ischemic stroke.",
+          "measure": "Key secondary endpoint: Major adverse cardiovascular events (MACE)",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Time to cardiovascular death",
+          "measure": "Cardiovascular death",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Time to non-fatal type 1 myocardial infarction",
+          "measure": "Non-fatal type 1 myocardial infarction",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        },
+        {
+          "description": "Time to non-fatal ischemic stroke",
+          "measure": "Non-fatal ischemic stroke",
+          "timeFrame": "Through study completion, an estimated average of 3 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Tramujas L, Nogueira A, Felix N, Maia I, de Barros E Silva PGM, Cavalcanti AB, Abizaid A. Trends in colchicine use across the spectrum of coronary artery disease. Vascul Pharmacol. 2025 Jun;159:107502. doi: 10.1016/j.vph.2025.107502. Epub 2025 May 13. No abstract available.",
+          "pmid": "40373935",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "de Barros E Silva PGM, do Nascimento CT, Pedrosa RP, Nakazone MA, do Nascimento MU, de Araujo Melo L, Junior OLS, Zimmermann SL, de Melo RMV, Bergo RR, Precoma DB, Tramujas L, Lima EG, Dantas JMM, do Amaral Baruzzi AC, Flumignan RLG, de Oliveira Paiva MSM, Gowdak LHW, de Carvalho PN, de Figueiredo Neto JA, Silvestre OM, Fioranelli A, Vieira RD', Horak ACP, Miyada DHK, Kojima FCS, de Oliveira JS, de Oliveira Silva L, Pavanello R, Ramacciotti E, Lopes RD; NEAT Investigators. Primary results of the brazilian registry of atherothrombotic disease (NEAT). Sci Rep. 2024 Feb 20;14(1):4222. doi: 10.1038/s41598-024-54516-9.",
+          "pmid": "38378735",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "de Abreu-Silva EO, Siepmann M, Siepmann T. Polypills in the Management of Cardiovascular Risk-A Perspective. J Clin Med. 2024 Sep 16;13(18):5487. doi: 10.3390/jcm13185487.",
+          "pmid": "39336974",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Tramujas L, Nogueira A, Felix N, de Barros E Silva PGM, Abizaid A, Cavalcanti AB. Association of colchicine use with cardiovascular and limb events in peripheral artery disease: Insights from a retrospective cohort study. Atherosclerosis. 2024 Nov;398:118563. doi: 10.1016/j.atherosclerosis.2024.118563. Epub 2024 Aug 9.",
+          "pmid": "39299823",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Hospital do Coracao"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2031-05",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-21",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2031-05",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-06-12",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-04",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-04-09",
+      "studyFirstSubmitQcDate": "2025-04-15"
+    }
+  }
+}

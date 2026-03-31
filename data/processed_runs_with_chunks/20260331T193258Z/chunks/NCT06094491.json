@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06094491:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06094491\nBrief title: Virtual Diabetes Group Visits Across Health Systems\nOfficial title: VIDA: Virtual Diabetes Group Visits Across Health Systems: Randomized Control Trial\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06094491"
+    },
+    {
+      "chunk_id": "NCT06094491:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes; obesity\nRaw conditions: T2DM (Type 2 Diabetes Mellitus); Hypertension; Heart Disease Chronic; Stroke; Hyperlipidemias; Peripheral Vascular Diseases; Obesity\nIntervention labels: Virtual Group Visit\nDrug class labels: \nArms: Virtual Group Visit Arm; Usual Care Arm\nKeywords: virtual group visits",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT06094491"
+    },
+    {
+      "chunk_id": "NCT06094491:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this project is to evaluate the effectiveness of a virtual diabetes group visits on patients with type 2 diabetes mellitus (T2DM).\nDetailed description: Managing diabetes can be complex and burdensome; patients must modify their diet, take medications, check their blood sugar, and visit their healthcare providers regularly. Diabetes group visits (GVs)-virtual group education and diabetes support, including goal setting-create a unique setting where patients can connect with peers and receive medical care and support. GVs can improve glycemic control and decrease healthcare utilization. GVs can provide patients with comprehensive care for their multimorbid chronic condition.\n\nVirtual GVs provide an opportunity to adapt to the current trends of telehealth and the ability to increase reach and scalability across multiple sites. Before the model can be widely adopted, important questions about the effectiveness and implementation of the virtual diabetes GV model need to be addressed. The investigators propose to build on an established program of diabetes GVs. This proposal aims to implement the virtual GV model (VIDA: Virtual Diabetes Group Visits Across Health Systems) in two distinct health systems in the Chicago region. Access Community Health Network (ACCESS) is one of the largest federally qualified health centers (FQHCs) in the United States with 35 sites across the Chicago metropolitan area, providing care for 175,000 medically under-resourced and low-income patients each year. Advocate Health Care (ADVOCATE) is a large, integrated private not-for-profit health system that includes 26 hospitals and more than 500 ambulatory sites. The system provides care across more than 129 primary care clinics in Illinois serving over 117,000 patients. Both are community-based health systems serving low-income communities in Chicago and are network partners of the Chicago Chronic Conditions Engagement Network (C3EN).\n\nNo studies have systematically implemented virtual diabetes GVs for adults with T2DM in the real-world primary care setting or across distinct health systems. The ability to train, implement, and evaluate virtual GVs across systems with different care models provides the opportunity to learn about adaptation and the obstacles and facilitators for implementation. This proposed study will compare virtual diabetes GVs to usual care using a type I hybrid effectiveness-implementation design via a pragmatic cluster randomized trial.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 361,
+      "trial_nct_id": "NCT06094491"
+    },
+    {
+      "chunk_id": "NCT06094491:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patient at a PARTICIPATING clinic (at least one visit in year prior to first GV)\n* Type 2 diabetes\n* \u2265 18 years old\n* A1C\\>8% within 6 months prior to first GV (we will first recruit patients with A1C\\>9%, then if spaces still available A1C\\>8.5%, then if spaces still available A1C\\>8%)\n* At least one additional cardiovascular condition (hypertension, heart disease, stroke, hyperlipidemia, peripheral vascular disease, or BMI \u2265 30)\n* English or Spanish speaking\n* PCP assented to recruiting patient\n* Patient provides written consent",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 107,
+      "trial_nct_id": "NCT06094491"
+    },
+    {
+      "chunk_id": "NCT06094491:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=A1c | time_frame=12 months | description=This is blood test that measures the percent of glucose and hemoglobin bound together.\ntype=secondary | measure=Systolic blood pressure | time_frame=12 months | description=Systolic blood pressure measures the arterial pressure\ntype=secondary | measure=Body Mass Index | time_frame=12 months | description=Measure of body fat based on height and weight\ntype=secondary | measure=Low density lipoproteins | time_frame=12 months | description=a measure of cholesterol in the blood",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 71,
+      "trial_nct_id": "NCT06094491"
+    },
+    {
+      "chunk_id": "NCT06094491:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-05-03\nPrimary completion date: 2026-06-30\nCompletion date: 2026-06-30\nStudy first posted: 2023-10-23\nResults first posted: None\nLast update posted: 2025-10-08\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06094491"
+    },
+    {
+      "chunk_id": "NCT06094491:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Chicago\nLead sponsor class: OTHER\nCollaborators: Wake Forest University Health Sciences; ACCESS Community Health Network; Midwest Clinicians' Network; National Institute on Minority Health and Health Disparities (NIMHD)\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT06094491"
+    }
+  ],
+  "trial_nct_id": "NCT06094491"
+}

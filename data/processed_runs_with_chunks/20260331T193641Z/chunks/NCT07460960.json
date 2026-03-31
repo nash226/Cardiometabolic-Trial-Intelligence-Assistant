@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07460960:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07460960\nBrief title: TRIal of STatin Therapy Effect on Androgen Status and Erectile functioN in Men\nOfficial title: A Randomized Controlled Trial of Statin Therapy Effect on Androgen Status and Erectile Function in Men With High and Very High Cardiovascular Risk\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT07460960"
+    },
+    {
+      "chunk_id": "NCT07460960:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Erectile Dysfunction Due to Arterial Disease; Atheroscleroses; Erectile Disfunction; Endothelial Dysfunction; Androgen Profile; Testosterone\nIntervention labels: Pitavastatin 1-4 mg daily; Rosuvastatin 20-40 mg daily\nDrug class labels: \nArms: Group Pit (n=75); Group Ros (n=75)\nKeywords: cardiovascular diseases; erectile dysfunction; androgen status; atherosclerosis; statins; statin therapy; coronary artery disease; endothelial dysfunction; testosterone",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 55,
+      "trial_nct_id": "NCT07460960"
+    },
+    {
+      "chunk_id": "NCT07460960:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Aim. To study the effect of different intensities of statin therapy on androgen status and erectile function in men aged 40-65 years with high and very high cardiovascular risk. Additionally, to assess the association between sex hormone levels, erectile function parameters, and traditional cardiovascular risk factors, arterial stiffness, and endothelial function in this patient category.\n\nMaterial and methods. It is planned to conduct a prospective randomized controlled trial, including 150 male patients aged 40-65 years, undergoing routine preventive examinations in the clinic of Moscow State University, having a high and very high risk of cardiovascular diseases and meeting the inclusion criteria. Group Pit (n=75) will receive pitavastatin at a starting dose of 1 mg/day. Group Ros (n=75) will receive rosuvastatin 20 mg/day. After 3 months, the biochemical parameters will be monitored, and dose titration of pitavastatin to 2-4 mg/day and/or rosuvastatin to 40 mg/day will be performed if necessary. Patient recruitment to the study will occur over 9 months at a single research center. Patients will be monitored with an objective assessment of erectile function parameters, blood analysis (including androgen status), central arteries stiffness, and endothelial function for 6 months from the moment of activation. Follow-up visits are scheduled at 1, 3 and 6 months.\n\nResults. The expected result of testing the research hypothesis is that statin therapy will not have a negative effect on androgen status and erectile function in men. Intensive statin therapy will have a greater positive effect on endothelial function, which may lead to an improvement in men's erectile function.\n\nConclusion. The study was planned under the assumption that statin therapy would not have a negative effect on androgen status and erectile function in men aged 40-65 years. It is also suggested that the positive effect of statins on endothelial function and vascular stiffness may lead to an improvement in erectile function among men with high and very high cardiovascular risk. If the hypothesis is confirmed, the results obtained will help improve statin treatment adherence in male patients and, as a result, increase the effectiveness of prevention of cardiovascular events.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 349,
+      "trial_nct_id": "NCT07460960"
+    },
+    {
+      "chunk_id": "NCT07460960:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: MALE\nMinimum age: 40 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* male patients aged 40-65 years, sexually active\n* high and very high risk of cardiovascular events (The Systematic Coronary Risk Evaluation 2 (SCORE2))\n* absence of previous statin therapy for 3 months\n* there are no known cardiovascular diseases requiring the appointment of statins in high doses from the start of treatment\n* the invariance of concomitant therapy for 3 months, if the patient needs it.\n\nExclusion Criteria:\n\n* known statin intolerance\n* known hypogonadism\n* persistent forms of atrial fibrillation\n* active malignant neoplasm requiring treatment at the time of screening\n* known chronic inflammatory diseases (rheumatoid arthritis, systemic connective tissue diseases, metabolically associated fatty liver disease, etc.)\n* impaired renal function (estimated glomerular filtration rate \\<30 ml/min/1.73 m2) and liver (transaminase levels more than 3 times reference values, bilirubin levels more than 2 times reference values)\n* chronic heart failure\n* a well-known diagnosis of mental illness\n* alcoholism and drug addiction\n* glucocorticoid therapy and regular therapy with nonsteroidal anti-inflammatory drugs (80% of the time for 3 months before switching on)\n* participation in any other clinical trial during this trial, including participation in the trial for 30 days prior to providing informed consent\n* the patient's inability to understand the essence of the study and consent to participate in it",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 235,
+      "trial_nct_id": "NCT07460960"
+    },
+    {
+      "chunk_id": "NCT07460960:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=objective assessment of erectile function parameters | time_frame=The assessment is carried out at the time of inclusion in the study, 3 and 6 months after the start of the study | description=The relative increase in the diameter of the penis, the duration of the relative increase in the diameter of the penis is more than 20%, the duration of the relative increase in the diameter of the penis is more than 30%. The assessment is carried out using the Androscan nocturnal penile tumescence recorder.\ntype=primary | measure=androgen status | time_frame=The assessment is carried out at the time of inclusion in the study, 3 and 6 months after the start of the study | description=Concentration of male sex hormones: testosterone, estradiol, dihydrotestosterone, sex hormone binding globulin.\ntype=secondary | measure=central arteries stiffness | time_frame=At the time of inclusion in the study and in dynamics after 3 and 6 months. | description=To determine the stiffness of the wall of the main vessels, measurement of the pulse wave velocity (m / s) using a single-socket device \"BPLab Vasotens\u00ae Office\" will be used\ntype=secondary | measure=endothelial function | time_frame=at the time of inclusion in the study and in dynamics after 3 and 6 months. | description=a study of flow-dependent vasodilation of the brachial artery with an assessment of endothelial function according to a standard procedure. The diameter of the brachial artery is compared at rest and after 5 minutes from the moment of termination of the functional test. An increase in the diameter of the brachial artery of 10% or more indicates the absence of endothelial dysfunction\ntype=secondary | measure=subjective assessment of erectile function parameters | time_frame=The assessment is carried out at the time of inclusion in the study and 6 months after the start of the study | description=The subjective assessment of the parameters of erectile function is planned to be assessed using the International Index of Erectile Function (IIEF) Questionnaire, which is recognized as the \"gold standard\" for evaluating erectile function in clinical trials. During the study, the scores obtained in this questionnaire will be compared.\n\nSCORING:\n\n1-10: Severe Erectile Dysfunction 11-16: Moderate dysfunction 17-21: Mild to moderate dysfunction 22-25: Mild dysfunction 26-30: No dysfunction",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 364,
+      "trial_nct_id": "NCT07460960"
+    },
+    {
+      "chunk_id": "NCT07460960:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-03-05\nPrimary completion date: 2027-12\nCompletion date: 2027-12\nStudy first posted: 2026-03-10\nResults first posted: None\nLast update posted: 2026-03-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07460960"
+    },
+    {
+      "chunk_id": "NCT07460960:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Lomonosov Moscow State University Medical Research and Educational Center\nLead sponsor class: OTHER\nCollaborators: Nizhpharm\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT07460960"
+    }
+  ],
+  "trial_nct_id": "NCT07460960"
+}

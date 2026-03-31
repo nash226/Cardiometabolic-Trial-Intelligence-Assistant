@@ -1,0 +1,309 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        },
+        {
+          "id": "D000083242",
+          "term": "Ischemic Stroke"
+        },
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004333",
+          "term": "Drug Administration Routes"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D007267",
+          "term": "Injections"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Intervention Group: Thrombectomy alone + evolocumab\n\nThrombectomy alone: Mechanical thrombectomy performed according to guidelines (may include necessary angioplasty/stent implantation).\n\nElavolocumab: 420 mg subcutaneously injected within 6 hours after recanalization (140 mg x 3 injections, pre-filled 3 mL total), at the location of the abdomen, lateral thigh, or lateral upper arm.\n\nBoth groups received standardized drug therapy: antithrombotic/lipid-regulating/blood pressure/blood glucose/fluid management and rehabilitation: in accordance with the latest clinical guidelines.",
+          "interventionNames": [
+            "Drug: Elavolocumab(420 mg injections)"
+          ],
+          "label": "intervention group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Control group: simple thrombectomy\n\nBoth groups received standardized drug therapy: antithrombotic/lipid-regulating/blood pressure/blood glucose/fluid management and rehabilitation: in accordance with the latest clinical guidelines.",
+          "label": "control group",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "intervention group"
+          ],
+          "description": "Intervention Group: Thrombectomy alone + evolocumab Thrombectomy alone: Mechanical thrombectomy performed according to guidelines (may include necessary angioplasty/stent implantation). Elavolocumab: 420 mg subcutaneously injected within 6 hours after recanalization (140 mg x 3 injections, pre-filled 3 mL total), at the location of the abdomen, lateral thigh, or lateral upper arm.",
+          "name": "Elavolocumab(420 mg injections)",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Stroke"
+      ],
+      "keywords": [
+        "Acute Ischemic Stroke",
+        "Mechanical Thrombectomy",
+        "Atherosclerosis",
+        "PCSK9 Inhibitor",
+        "Early Neurological Deterioration"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "xyfysjnkfy@126.com",
+          "name": "Yu Feng, MD, PhD",
+          "phone": "+86-15252148124",
+          "role": "CONTACT"
+        },
+        {
+          "email": "Xqt200010@126.com",
+          "name": "Qingtao Xie",
+          "phone": "+86-18762182525",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Xuzhou",
+          "contacts": [
+            {
+              "email": "xyfysjnkfy@126.com",
+              "name": "Yu Feng, MD, PhD",
+              "phone": "+86-15252148124",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yanbo Cheng, MD, PhD",
+              "phone": "+86-15050825328",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Affiliated Hospital of Xuzhou Medical University",
+          "geoPoint": {
+            "lat": 34.20442,
+            "lon": 117.28386
+          },
+          "state": "Jiangsu",
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "The Affiliated Hospital of Xuzhou Medical University",
+          "name": "Yu Feng, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "The Affiliated Hospital of Xuzhou Medical University",
+          "name": "Yanbo Cheng, MD, PhD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study (EPOCH-TECT) was a single-center, randomized, open-label, blinded, endpoint-assessing controlled trial conducted at the Affiliated Hospital of Xuzhou Medical University. It aimed to investigate the efficacy and safety of administering the PCSK9 inhibitor evolocumab early (within 6 hours) after successful thrombectomy in patients with atherosclerotic large vessel occlusive stroke. The study planned to enroll 60 patients, who were randomly assigned 1:1 to either the \"thrombectomy + evolocumab\" group or the \"thrombectomy alone\" group. The primary endpoint was the incidence of early neurological deterioration within 7 days post-procedure (NIHSS score increase \u22652 points from post-operative best or death from any cause); secondary endpoints included 24-hour recanalization failure rate, 90-day functional recovery (mRS score 0-2), changes in serum biomarkers, and safety indicators such as symptomatic intracranial hemorrhage. This study aimed to provide prospective evidence for early intensive lipid-lowering and neuroprotective strategies after thrombectomy."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-85 years old, gender not limited, gender ratio not limited.\n2. The clinical diagnosis was acute ischemic stroke with occlusion of the anterior circulation large vessels. CTA/DSA confirmed that the responsible vessel for this stroke occlusion was located in the intracranial segment of the internal carotid artery and the M1 segment of the middle cerebral artery.\n3. The time from onset to puncture is within 24 hours, and the patient receives mechanical thrombectomy (MT) (including direct thrombectomy and intravenous thrombolysis bridging thrombectomy), with postoperative vascular recanalization reaching mTICI grade 2b or 3. The surgical indications and time window follow the current guidelines and imaging criteria of key randomized controlled trials (RCTs). The definitions are as follows: Early window (0-6 h): Meeting the usual EVT indications (anterior circulation LVO, baseline NIHSS \u2265 6, ASPECTS \u2265 6, or center-defined criteria), the interventional team decides to perform MT; Late window (6-24 h): Meeting one of the imaging selection criteria of DAWN or DEFUSE-3 (based on CTP-RAPID or MRI-DWI/perfusion):\n\n   \u00b7DAWN (6-24 h) (any one): Age \u2265 80 years: NIHSS \u2265 10 and core infarct volume \\< 21 mL; Age \\< 80 years: NIHSS \u2265 10 and core \\< 31 mL; Age \\< 80 years: NIHSS \u2265 20 and core 31-51 mL.\n\n   \u2022 DEFUSE-3 (6-16 h) (all conditions must be met): Core \\<70 mL, mismatch ratio (penumbra/core) \u22651.8, mismatch volume \u226515 mL, and Tmax \\>6 s volume \\>15 mL.\n4. The etiological classification is intracranial arteriosclerosis-LAA (ICAD-LAA). The definition is as follows: imaging evidence supports the presence of atherosclerotic stenosis/plaque in the responsible vessel (such as severe stenosis/occlusion of the proximal internal carotid artery or middle cerebral artery) and the patient has corresponding underlying atherosclerosis (such as other intracranial/extracranial artery stenosis, hypertension, diabetes, etc.).\n5. Baseline National Institutes of Health Stroke Scale (NIHSS) score \u2265 6 points.\n6. Before the onset of the disease, the patient had good daily living abilities and an mRS score \u2264 2 (no severe disability).\n7. Able to complete the injection of research drugs as required.\n8. The patient or his or her legal representative shall sign a written informed consent form, understand the research content and agree to cooperate with the follow-up.\n\nExclusion Criteria:\n\n1. Non-atherosclerotic lesions (such as arterial dissection, Moyamoya disease, vasculitis, embolism of unknown origin, etc.).\n2. Patients who present with significant intracranial hemorrhage or excessively large cerebral infarction volume upon admission, making them unsuitable for continued participation in the study.\n3. The cause of stroke is cardioembolism (such as a history of heart disease such as atrial fibrillation or valvular heart disease).\n4. Individuals with a clear history of allergy to evolocumab or its excipients.\n5. Patients with severe liver and kidney dysfunction: baseline alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 3 times the upper limit of normal, or significantly reduced creatinine clearance (eGFR \\< 30 mL/min/1.73m\u00b2).\n6. Patients with active severe infection, immune system disease or other serious comorbidities that may significantly affect prognosis (such as active tumors, terminal diseases, etc.).\n7. Patients who have been treated with PCSK9 inhibitors within the past 4 weeks (to avoid affecting the study due to changes in tolerance or mechanism of action).\n8. Pregnant or lactating women.\n9. Expected survival \\<90 days or accompanied by other serious diseases.\n10. Currently participating in other interventional clinical studies.",
+      "healthyVolunteers": false,
+      "maximumAge": "85 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "EPOCH-TECT",
+      "briefTitle": "Early Administration of PCSK9 Inhibitors After Thrombectomy for Atherosclerotic Acute Ischemic Stroke: A Randomized Controlled Trial",
+      "nctId": "NCT07295366",
+      "officialTitle": "Early Administration of PCSK9 Inhibitors After Thrombectomy for Atherosclerotic Acute Ischemic Stroke: A Randomized Controlled Trial",
+      "orgStudyIdInfo": {
+        "id": "XYFY2025-KL574-01"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "The Affiliated Hospital of Xuzhou Medical University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Participants do not consent to the data sharing about themselves. IPD involves privacy and ethical issues.",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Ineffective reperfusion rate observed by CTA+CTP re-examination at 24-36 hours post-procedure",
+          "measure": "Ineffective reperfusion rate at 24-36 hours post-procedure",
+          "timeFrame": "Within 24-36 hours post-procedure"
+        },
+        {
+          "description": "Change in NIHSS score from post-procedure Day 0 to Day 7",
+          "measure": "Change in NIHSS score between baseline (Day 0) and Day 7",
+          "timeFrame": "within 1-7 days post-procedure"
+        },
+        {
+          "description": "Proportion of patients with mRS 0-2 at 90 days",
+          "measure": "Proportion of patients with mRS 0-2 at 90 days",
+          "timeFrame": "Within 90 days post-thrombectomy"
+        },
+        {
+          "description": "Incidence of new ischemic stroke at 90 days",
+          "measure": "Incidence of new ischemic stroke at 90 days",
+          "timeFrame": "Within 90 days post-thrombectomy"
+        },
+        {
+          "description": "EQ-5D-5L health-related quality of life score at 90 days",
+          "measure": "EQ-5D-5L health-related quality of life score at 90 days",
+          "timeFrame": "Within 90 days post-thrombectomy"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "The incidence of early neurological deterioration (END) within 7 days, defined as an increase of \u22652 points in NIHSS score compared to the best post-procedure level or death from any cause.",
+          "measure": "Early deterioration of neurological function (END)",
+          "timeFrame": "Within 7 days post-thrombectomy"
+        },
+        {
+          "description": "Incidence of symptomatic intracranial hemorrhage (sICH) within 90 days, defined according to the Heidelberg Bleeding Classification criteria.",
+          "measure": "Incidence of symptomatic intracranial hemorrhage (sICH) within 90 days, defined according to the Heidelberg Bleeding Classification criteria.",
+          "timeFrame": "Within 90 days post-thrombectomy"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "The Affiliated Hospital of Xuzhou Medical University"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-08-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-23",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-11-18",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-07",
+      "studyFirstSubmitQcDate": "2025-12-08"
+    }
+  }
+}

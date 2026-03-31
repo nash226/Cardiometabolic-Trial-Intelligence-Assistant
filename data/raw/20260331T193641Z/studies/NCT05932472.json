@@ -1,0 +1,335 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants randomized to aspirin administration at bedtime will be instructed to take their aspirin at approx. 8PM-12AM.",
+          "interventionNames": [
+            "Drug: Aspirin"
+          ],
+          "label": "Aspirin at bedtime",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants randomized to aspirin administration in the morning will be instructed to take their aspirin upon awakening or with their breakfast (approx. 6-10AM).",
+          "interventionNames": [
+            "Drug: Aspirin"
+          ],
+          "label": "Aspirin in the morning",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Aspirin at bedtime",
+            "Aspirin in the morning"
+          ],
+          "description": "Aspirin at currently prescribed dose",
+          "name": "Aspirin",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atherosclerosis",
+        "Cardiovascular Diseases",
+        "Drug Effect"
+      ],
+      "keywords": [
+        "Aspirin",
+        "Cardiovascular Disease",
+        "Prevention",
+        "Circadian Rhythm",
+        "Randomized Controlled Trial",
+        "Pragmatic",
+        "Outcomes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "niklas.dyrby.johansen@regionh.dk",
+          "name": "Niklas Dyrby Johansen, MD",
+          "phone": "+4520204794",
+          "role": "CONTACT"
+        },
+        {
+          "email": "mananpareek@dadlnet.dk",
+          "name": "Manan Pareek, MD, PhD",
+          "phone": "+4525536900",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Hellerup",
+          "contacts": [
+            {
+              "email": "niklas.dyrby.johansen@regionh.dk",
+              "name": "Niklas Dyrby Johansen, MD",
+              "phone": "+4520204794",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mananpareek@dadlnet.dk",
+              "name": "Manan Pareek, MD, PhD",
+              "phone": "+4525536900",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Denmark",
+          "facility": "Center for Translational Cardiology and Pragmatic Randomized Trials, Department of Cardiology, Copenhagen University Hospital - Herlev and Gentofte",
+          "geoPoint": {
+            "lat": 55.73204,
+            "lon": 12.57093
+          },
+          "status": "RECRUITING",
+          "zip": "2900"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Center for Translational Cardiology and Pragmatic Randomized Trials, Department of Cardiology, Copenhagen University Hospital - Herlev and Gentofte",
+          "name": "Manan Pareek, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Wide variability in the antiplatelet effects of aspirin may lead to recurrent thromboembolic events. Several pilot studies have suggested potential benefits of taking aspirin at bedtime rather than in the morning. The primary objective of this study is to examine whether aspirin administration at bedtime versus in the morning provides a superior reduction in the incidence of major adverse cardiovascular events among patients with or without established atherosclerotic cardiovascular disease, who are already taking aspirin.",
+      "detailedDescription": "The study is a pragmatic, registry-based, open-label, randomized controlled trial combining the utilization of the Danish nationwide health registries and the official Danish electronic letter system (Digital Post/eBoks) into an innovative, decentralized trial requiring no study visits from participants. The nationwide health registries will be used for identification of potential participants and data collection, including baseline information and follow-up data, while the electronic letter system will be used for sending recruitment letters and communicating with participants. Study participants will provide electronic informed consent from home before inclusion and randomization.\n\nThe trial will include patients currently in aspirin treatment regardless of the presence or absence of established cardiovascular disease. Participants will be randomized 1:1 to either aspirin administration at bedtime or in the morning. The trial is event-driven."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 32706,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>=18 years\n* Current chronic treatment with aspirin (as recorded in the Danish National Prescription Registry and confirmed by the participant via questionnaire)\n* Signed informed consent\n\nExclusion Criteria:\n\n* There are no exclusion criteria for this trial",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ASPIRIN-C3",
+      "briefTitle": "Randomized Comparison of Morning Versus Bedtime Administration of Aspirin: A Cardiovascular Circadian Chronotherapy (C3) Trial",
+      "nctId": "NCT05932472",
+      "officialTitle": "Randomized Comparison of Morning Versus Bedtime Administration of Aspirin: A Cardiovascular Circadian Chronotherapy (C3) Trial",
+      "orgStudyIdInfo": {
+        "id": "ASPIRIN-C3"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Herlev and Gentofte Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Baseline and endpoint data will be collected from Danish administrative health registries, which are subject to Danish legislation and can only be made available to a third party under certain conditions. Please contact the sponsor in case of any inquiries.",
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "measure": "Bleeding episode requiring hospitalization",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Hospitalization for intracranial hemorrhage",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Hospitalization for gastrointestinal hemorrhage",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Hospitalization for unstable angina",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Any arterial revascularization",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Any venous thromboembolism",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Time of day of hospitalization for myocardial infarction",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Time of day of hospitalization for stroke",
+          "timeFrame": "Up to 3 years"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "Composite of hospitalization for myocardial infarction, hospitalization for stroke, coronary revascularization, or cardiovascular death",
+          "timeFrame": "Up to 3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Hospitalization for myocardial infarction",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Hospitalization for stroke",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Coronary revascularization",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Cardiovascular death",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "All-cause death",
+          "timeFrame": "Up to 3 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Tor Biering-S\u00f8rensen"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Herlev and Gentofte Hospital",
+        "investigatorFullName": "Tor Biering-S\u00f8rensen",
+        "investigatorTitle": "Professor, MD, MSc, MPH, PhD",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-02-15",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-05",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-01-15",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-01-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-02",
+      "studyFirstPostDateStruct": {
+        "date": "2023-07-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-06-22",
+      "studyFirstSubmitQcDate": "2023-07-05"
+    }
+  }
+}

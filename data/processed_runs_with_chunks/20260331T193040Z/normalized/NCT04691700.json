@@ -1,0 +1,270 @@
+{
+  "arms": [
+    {
+      "description": "Goreisan (TJ-17) will be added at a dose of 7.5g per day to standard treatment",
+      "intervention_names": [
+        "Drug: Goreisan"
+      ],
+      "label": "Goreisan",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Standard treatment without Goreisan (TJ-17)",
+      "intervention_names": [
+        "Drug: Standard Treatment"
+      ],
+      "label": "No Goreisan",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Heart Failure",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Edema",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Traditional Japanese Medicine",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Kampo Medicine",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Clinical Trial",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Confirmed congestive heart failure (CHF) by Framingham criteria\n* CHF patients with cardiac edema and signs due to cardiac edema (signs of fluid overload: lower limb edema, pulmonary effusion, or pulmonary congestion on chest x-ray)\n* Elevated N-terminal pro brain-type natriuretic peptide (NT-proBNP) \u2265300 pg/mL or brain natriuretic peptide (BNP) \u2265100 pg/mL at enrollment\n* Patients \u2265 20 years of age, male or female\n* Provision of signed informed consent before any assessment is performed\n\nExclusion Criteria:\n\n* Valvular repair/replacement within 12 weeks prior to enrolment or planned to undergo any of these operations after randomization\n* Implantation of a cardiac resynchronization therapy (CRT) within 12 weeks prior to enrollment or intent to implant a CRT device\n* Previous cardiac transplantation or implantation of a ventricular assistance device or similar device, or implantation expected after randomization\n* End-stage renal failure (estimated glomerular filtration rate \\[eGFR\\] \\<15 mL/min/1.73m2) at enrollment\n* Patients who are expected to have a life expectancy of 6 months or less\n* Acute coronary syndrome at screening\n* Women of child-bearing potential or women who have a positive pregnancy test at enrolment or randomization\n* Treatment with herbal medicine at enrollment\n* Confirmed poor tolerability of Goreisan (including cinnamon allergy)\n* Considered not appropriate for the participation of the study",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "20 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Goreisan"
+      ],
+      "description": "Add Goreisan 7.5g per day to standard treatment with the intention to reduce or discontinue the existing diuretics",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Goreisan",
+      "normalized_name": "goreisan"
+    },
+    {
+      "arm_group_labels": [
+        "No Goreisan"
+      ],
+      "description": "Standard therapy without Goreisan",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Standard Treatment",
+      "normalized_name": "standard treatment"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Cardiac edema is defined as conditions having one or more following conditions: lower limb edema, pleural effusion, or pulmonary congestion on chest x-ray. Lower limb edema, pleural effusion, and pulmonary congestion are assessed by investigators. Improvement is defined as the disappearance of all signs of cardiac edema.",
+      "measure": "Improvement of cardiac edema",
+      "outcome_type": "primary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Composite of death from any cause or hospitalization from any cause.",
+      "measure": "Composite endpoint of all-cause death or hospitalization",
+      "outcome_type": "primary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "The KCCQ is a validated self-administered instrument of quality of life and health status in heart failure (HF) patients. The clinical summary score is a composite assessment of physical limitation, total symptom score, health-related quality of life, and social limitation scores. Scores are transformed to a range of 0-100, in which higher scores reflect better health status.",
+      "measure": "Change in the Kansas City Cardiomyopathy Questionnaire (KCCQ) overall summary score",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Loop diuretic dose will be calculated as furosemide-equivalent dose.",
+      "measure": "Change in loop diuretics dose",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Loop diuretic dose will be calculated as furosemide-equivalent dose.",
+      "measure": "Change in loop diuretics dose",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "End Stage Renal Disease (ESRD) is defined as: Sustained eGFR \\<15 mL/min/1.73m2, Chronic dialysis treatment or, receiving a renal transplant. Renal death is defined as renal failure as the underlying cause of death.",
+      "measure": "Composite endpoint of sustained decline in eGFR \u226550%, ESRD (end stage renal disease) or renal death",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Adverse drug event is an injury resulting from medical intervention related to any drug.",
+      "measure": "Adverse drug event",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Dyspnea, fatigue, orthopnea, jugular vein distention, rales, plueral effusion, and lower limb edema are assessed on a standardized 4-point scale ranging from 0 to 3. A composite congestion score is calculated by summing the individual scores for dyspnea, fatigue, orthopnea, jugular vein distention, rales, plueral effusion, and lower limb edema.",
+      "measure": "Change in a composite congestion score",
+      "outcome_type": "secondary",
+      "time_frame": "1 month"
+    },
+    {
+      "description": "Dyspnea, fatigue, orthopnea, jugular vein distention, rales, plueral effusion, and lower limb edema are assessed on a standardized 4-point scale ranging from 0 to 3. A composite congestion score is calculated by summing the individual scores for dyspnea, fatigue, orthopnea, jugular vein distention, rales, plueral effusion, and lower limb edema.",
+      "measure": "Change in a composite congestion score",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Dyspnea, fatigue, orthopnea, jugular vein distention, rales, plueral effusion, and lower limb edema are assessed on a standardized 4-point scale ranging from 0 to 3. A composite congestion score is calculated by summing the individual scores for dyspnea, fatigue, orthopnea, jugular vein distention, rales, plueral effusion, and lower limb edema.",
+      "measure": "Change in a composite congestion score",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Hospitalization from any cause.",
+      "measure": "All-cause hospitalization",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Composite of death from any cause or hospitalization for heart failure.",
+      "measure": "Composite endpoint of all-cause death or hospitalization for heart failure",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Hospitalization for heart failure.",
+      "measure": "Hospitalization for heart failure",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Death from any cause.",
+      "measure": "All-cause death",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Death other than death from cardiac or vascular diseases.",
+      "measure": "Non-cardiovascular death",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Change in New York Heart Association (NYHA) functional class, a well established grading scale to classify a patients' level of functionality based on the signs and symptoms of patient with heart failure.",
+      "measure": "Change in New York Heart Association (NYHA) functional class",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Change in N-terminal pro brain-type natriuretic peptide (NT-proBNP).",
+      "measure": "Change in N-terminal pro brain-type natriuretic peptide (NT-proBNP)",
+      "outcome_type": "secondary",
+      "time_frame": "1 month"
+    },
+    {
+      "description": "Change in N-terminal pro brain-type natriuretic peptide (NT-proBNP).",
+      "measure": "Change in N-terminal pro brain-type natriuretic peptide (NT-proBNP)",
+      "outcome_type": "secondary",
+      "time_frame": "6 month"
+    },
+    {
+      "description": "Change in N-terminal pro brain-type natriuretic peptide (NT-proBNP).",
+      "measure": "Change in N-terminal pro brain-type natriuretic peptide (NT-proBNP)",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Direct healthcare cost (Japanese Yen) from the time of randomization to 12 months was obained from the claim data patients.",
+      "measure": "Direct healthcare cost",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The objective of the GOREISAN-HF trial is to assess the effect of the administration of Goreisan (TJ-17) plus standard therapy compared to standard therapy alone on the improvement rate of cardiac edema and clinical outcomes in worsening congestive heart failure with volume overload.",
+    "brief_title": "GOREISAN for Heart Failure (GOREISAN-HF) Trial",
+    "collaborator_names": [],
+    "completion_date": "2027-12-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Confirmed congestive heart failure (CHF) by Framingham criteria\n* CHF patients with cardiac edema and signs due to cardiac edema (signs of fluid overload: lower limb edema, pulmonary effusion, or pulmonary congestion on chest x-ray)\n* Elevated N-terminal pro brain-type natriuretic peptide (NT-proBNP) \u2265300 pg/mL or brain natriuretic peptide (BNP) \u2265100 pg/mL at enrollment\n* Patients \u2265 20 years of age, male or female\n* Provision of signed informed consent before any assessment is performed\n\nExclusion Criteria:\n\n* Valvular repair/replacement within 12 weeks prior to enrolment or planned to undergo any of these operations after randomization\n* Implantation of a cardiac resynchronization therapy (CRT) within 12 weeks prior to enrollment or intent to implant a CRT device\n* Previous cardiac transplantation or implantation of a ventricular assistance device or similar device, or implantation expected after randomization\n* End-stage renal failure (estimated glomerular filtration rate \\[eGFR\\] \\<15 mL/min/1.73m2) at enrollment\n* Patients who are expected to have a life expectancy of 6 months or less\n* Acute coronary syndrome at screening\n* Women of child-bearing potential or women who have a positive pregnancy test at enrolment or randomization\n* Treatment with herbal medicine at enrollment\n* Confirmed poor tolerability of Goreisan (including cinnamon allergy)\n* Considered not appropriate for the participation of the study",
+    "detailed_description": "Current guidelines recommend the use of loop diuretics as an indication for class I to improve HF symptoms regardless of left ventricular ejection fraction. Loop diuretics, however, are known to activate the renin-angiotensin-aldosterone system and the sympathetic nervous system, which could accelerate HF progression. Loop diuretics could also cause worsening renal function and electrolyte disturbance, and it is desirable to have an alternative drug to loop diuretics to effectively relieve congestive symptoms. Goreisan (TJ-17), a traditional Japanese medicine composed of five herbal medicines, has long been used in Japan to treat impairments of the regulation of body fluid homeostasis, including edema, and has been less likely to cause renal dysfunction and electrolyte abnormalities. We therefore planned a multicenter, randomized, interventional, parallel assignment, open-label treatment trial to evaluate the long-term effect of in-hospital initiation of Goreisan, when added to standard therapy, in patients with worsening congestive heart failure and clear signs of volume overload.",
+    "drug_class_labels": [],
+    "enrollment_count": 1179,
+    "enrollment_type": "ACTUAL",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Goreisan",
+      "Standard Treatment"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Heart Failure",
+      "Edema",
+      "Traditional Japanese Medicine",
+      "Goreisan (TJ-17)",
+      "Clinical Trial"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-06",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Takeshi Morimoto",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "20 Years",
+    "nct_id": "NCT04691700",
+    "official_title": "GOREISAN for Heart Failure (GOREISAN-HF) Trial",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2027-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT04691700",
+    "start_date": "2021-01-19",
+    "study_first_posted_at": "2020-12-31",
+    "study_type": "INTERVENTIONAL"
+  }
+}

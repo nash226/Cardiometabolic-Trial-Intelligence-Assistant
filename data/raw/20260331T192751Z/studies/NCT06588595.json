@@ -1,0 +1,315 @@
+{
+  "derivedSection": {
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "ABCD-GENE \u226510: prasugrel 10 mg qd or ticagrelor 90 mg od monotherapy. ABCD-GENE \\<10: Aspirin 81 mg qd and clopidogrel 75 mg qd.",
+          "interventionNames": [
+            "Drug: Prasugrel/Ticagrelor monotherapy or aspirin plus clopidogrel"
+          ],
+          "label": "ABCD-GENE-guided de-escalation",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Aspirin 81 mg qd and clopidogrel 75 mg qd.",
+          "interventionNames": [
+            "Drug: Aspirin plus clopidogrel"
+          ],
+          "label": "Unguided de-escalation",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "ABCD-GENE-guided de-escalation"
+          ],
+          "description": "After at least 30 days of DAPT \\[with aspirin 81-mg qd and a potent P2Y12 inhibitor (prasugrel 10 mg qd or ticagrelor 90-mg BID)\\] in chronic coronary syndrome or after at least 90 days of DAPT in acute coronary syndromes; patients with an ABCD-GENE 10 or more will continue prasugrel 10 mg qd/ticagrelor 90 mg BID and drop aspirin; and patients with an ABCD-GENE less than10 will switch from prasugrel/ticagrelor-based DAPT to aspirin 81 mg qd plus clopidogrel 75 mg qd.",
+          "name": "Prasugrel/Ticagrelor monotherapy or aspirin plus clopidogrel",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Unguided de-escalation"
+          ],
+          "description": "After at least 30 days of DAPT \\[with aspirin 81 mg qd and a potent P2Y12 inhibitor (prasugrel 10 mg qd or ticagrelor 90 mg BID)\\] in chronic coronary syndrome or after at least 90 days of DAPT in acute coronary syndromes; patients will switch from prasugrel/ticagrelor-based DAPT to aspirin 81 mg qd plus clopidogrel 75 mg qd, irrespective of ABCD-GENE score.",
+          "name": "Aspirin plus clopidogrel",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Arterial Disease (CAD)"
+      ],
+      "keywords": [
+        "ABCD-GENE score",
+        "Dual antiplatelet therapy (DAPT)",
+        "Pharmacodynamic (PD) study",
+        "Percutaneous coronary intervention (PCI)",
+        "P2Y12 receptor inhibitor"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Luis.Ortega@jax.ufl.edu",
+          "name": "Luis Ortega, MD, PhD",
+          "phone": "904-244 2060",
+          "role": "CONTACT"
+        },
+        {
+          "email": "Andrea.Burton@jax.ufl.edu",
+          "name": "Andrea Burton, MPH, CCRP",
+          "phone": "904-244-5617",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Jacksonville",
+          "contacts": [
+            {
+              "email": "Luis.Ortega@jax.ufl.edu",
+              "name": "Luis Ortega, MD, PhD",
+              "phone": "904-244-2060",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Florida",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32209"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to compare the pharmacodynamic effects of ABCD-GENE guided vs. unguided de-escalation strategies among patients on dual antiplatelet therapy (DAPT) following percutaneous coronary intervention (PCI).",
+      "detailedDescription": "Dual antiplatelet therapy (DAPT) with aspirin and a P2Y12 receptor inhibitor represents the guideline-recommended treatment for the prevention of atherothrombotic events in patients with acute coronary syndrome (ACS) or undergoing percutaneous coronary intervention (PCI). In ACS patients undergoing PCI, DAPT is initiated during the index event and continued for up to one year to prevent stent-related complications and ischemic recurrences. Currently, clopidogrel, prasugrel, and ticagrelor are the three available oral P2Y12 inhibitors. Among ACS patients undergoing PCI, prasugrel and ticagrelor are preferred over clopidogrel due to their superior effectiveness in reducing ischemic events, including stent thrombosis. Nevertheless, this ischemic benefit comes at the risk of an increased risk of bleeding due to the enhanced antiplatelet potency of prasugrel and ticagrelor. Importantly, bleeding complications have significant prognostic implications, including increased mortality, highlighting the importance of identifying antiplatelet strategies associated with an optimal balance of reducing bleeding risk while maintaining ischemic protection.\n\nMost recurrent ischemic events, including stent thrombosis, occur early after the index event (i.e., 1-3 months post-PCI). Accordingly, it is common in clinical practice to use antiplatelet treatment regimens consisting of potent agents during the first months (i.e., enhanced platelet reactivity) after PCI, followed by approaches with less potent platelet inhibition. This bleeding avoidance strategy is defined as de-escalation and is endorsed by practice guidelines. De-escalation can occur using different strategies, including reducing platelet inhibition by a) discontinuing an antiplatelet agent (e.g., discontinuing either the P2Y12 inhibitor or aspirin) or b) switching from a more potent to a less potent P2Y12 inhibitor. Currently, de-escalation by aspirin discontinuation and maintaining P2Y12 inhibitor monotherapy is a guideline-recommended strategy regardless of bleeding risk and clinical presentation and appears to be a safer approach than discontinuation of a P2Y12 inhibitor and maintaining aspirin monotherapy. De-escalation by switching from a more potent (i.e., prasugrel or ticagrelor) to a less potent P2Y12 inhibitor (i.e., clopidogrel) can be performed either in a guided or unguided fashion. Guided de-escalation can use either genetic or platelet function tests to tailor antiplatelet therapy based on individual patient drug response, providing a personalized approach. In contrast, unguided de-escalation occurs without the use of these tests. Genetic testing for cytochrome P450 2C19 (CYP2C19) polymorphisms has the advantage over PFT in that it allows for the prediction of the response of clopidogrel without patients having to be on treatment. The accuracy of genetic testing to predict clopidogrel response can be improved by integrating clinical factors. In particular, the Age, Body Mass Index, Chronic Kidney Disease, Diabetes Mellitus, and Genotyping (ABCD-GENE) score is a simple tool designed to identify patients at risk of impaired clopidogrel response and has been validated in several studies. However, to date, there are no prospective randomized studies evaluating the pharmacodynamic (PD) effects of an ABCD-GENE score-guided de-escalation strategy in patients undergoing PCI. Furthermore, no study has compared two de-escalation strategies guided by the ABCD-GENE score."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Laboratory personnel processing blood samples will be blinded to the allocation of the participants.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients who have undergone PCI and are on maintenance treatment with DAPT, composed of low-dose aspirin (81mg qd) with either prasugrel (10 mg qd) or ticagrelor (90 mg bid). In particular, patients who underwent PCI in the setting of an acute coronary syndrome will be eligible for randomization after \u226590 days post-PCI, while patients who underwent PCI in the setting of a chronic coronary syndrome \u226530 days post-PCI.\n2. Age \u226518 years\n3. Provide written informed consent.\n\nExclusion Criteria:\n\n1. Prior history of stent thrombosis\n2. PCI within 30 days\n3. On treatment with any oral anticoagulant (vitamin K antagonists, dabigatran, rivaroxaban, apixaban, edoxaban) or chronic low-molecular-weight heparin (at venous thrombosis treatment, not for prophylaxis)\n4. Hemodynamic instability\n5. Hypersensitivity to clopidogrel\n6. Known platelet count less than 80x10\\^6/mL\n7. Known hemoglobin less than 9 g/dL\n8. Pregnant and breastfeeding women \\[women of childbearing age must use reliable birth control (i.e., oral contraceptives) while participating in the study\\].",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "SWAP-9",
+      "briefTitle": "The Switching Antiplatelet-9 (SWAP-9) Study",
+      "nctId": "NCT06588595",
+      "officialTitle": "Comparison of ABCD-GENE Score-Guided Versus Unguided DAPT De-Escalation: A Prospective Randomized Pharmacodynamic Study in Patients Undergoing PCI The Switching Antiplatelet-9 (SWAP-9) Study",
+      "orgStudyIdInfo": {
+        "id": "IRB202400929"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Florida"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Comparison of PRU determined by VerifyNow between ABCD-GENE-guided de-escalation vs. unguided de-escalation.",
+          "measure": "P2Y12 Reaction Units (PRU)",
+          "timeFrame": "At 30\u00b15 days (trough levels)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Comparison of the PRU trough levels determined by VerifyNow between clopidogrel-treated patients in the ABCD-GENE-guided de-escalation group (patients with ABCD-GENE score less than 10) and clopidogrel-treated patients in the unguided de-escalation group.",
+          "measure": "P2Y12 Reaction Units (PRU)",
+          "timeFrame": "At 30\u00b15 days (trough levels)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Angiolillo DJ, Capodanno D, Danchin N, Simon T, Bergmeijer TO, Ten Berg JM, Sibbing D, Price MJ. Derivation, Validation, and Prognostic Utility of a Prediction Rule for Nonresponse to Clopidogrel: The ABCD-GENE Score. JACC Cardiovasc Interv. 2020 Mar 9;13(5):606-617. doi: 10.1016/j.jcin.2020.01.226.",
+          "pmid": "32139218",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Capodanno D, Baber U, Bhatt DL, Collet JP, Dangas G, Franchi F, Gibson CM, Gwon HC, Kastrati A, Kimura T, Lemos PA, Lopes RD, Mehran R, O'Donoghue ML, Rao SV, Rollini F, Serruys PW, Steg PG, Storey RF, Valgimigli M, Vranckx P, Watanabe H, Windecker S, Angiolillo DJ. P2Y12 inhibitor monotherapy in patients undergoing percutaneous coronary intervention. Nat Rev Cardiol. 2022 Dec;19(12):829-844. doi: 10.1038/s41569-022-00725-6. Epub 2022 Jun 13.",
+          "pmid": "35697777",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Florida"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-02-28",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-24",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-08-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-11-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-02",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-09-06",
+      "studyFirstSubmitQcDate": "2024-09-06"
+    }
+  }
+}

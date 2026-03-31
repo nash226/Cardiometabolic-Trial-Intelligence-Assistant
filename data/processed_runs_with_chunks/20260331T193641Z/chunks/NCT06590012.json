@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06590012:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06590012\nBrief title: Evaluating the Impact of &#39;Tertinat&#39; on Patients with Atherosclerosis-Related Cardiovascular Diseases\nOfficial title: Prospective, Double-blind, Comparative Randomized Placebo-controlled Multicenter Study Evaluating the Impact of Oral Administration of the Peroral Supplement &#34;Tertinat&#34; with Dosage of 330 Mg/day for Patients with Cardiovascular Diseases, the Cause of Which is Atherosclerosis, on the Background of Standard Treatment.\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 66,
+      "trial_nct_id": "NCT06590012"
+    },
+    {
+      "chunk_id": "NCT06590012:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atherosclerosis; Atheroscleroses, Coronary; Carotid Atherosclerosis\nIntervention labels: Placebo; Tertinat\nDrug class labels: \nArms: Tertinat; Placebo\nKeywords: atherosclerosis; lipoproteins; coronary atherosclerosis; carotid atherosclerosis",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06590012"
+    },
+    {
+      "chunk_id": "NCT06590012:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of this clinical trial is to evaluate whether the biologically active food supplement, Tertinat, can influence atherosclerosis progression in adults and improve the treatment outcomes of cardiovascular diseases. The study will assess the frequency of fatal and clinically significant cardiovascular events, monitored every 12 months following participants\\&#39; inclusion in the trial.\n\nAdditionally, the trial will evaluate Tertinat's ability to prevent pro-atherogenic modification of lipoproteins and its impact on inflammatory activity. To this end, levels of desialylated low-density lipoproteins (LDL) and inflammatory markers in the blood will be monitored. Tertinat administration will occur alongside the standard therapy prescribed to patients based on their existing medical conditions.\n\nResearchers will compare the effects of the Tertinat supplement to a placebo (an identical-looking substance that does not contain the active supplement) to determine if Tertinat is effective in reducing cardiovascular events .\n\nParticipants will:\n\nTake either Tertinat or a placebo daily for a duration of 24 months. Visit the clinic once a year for check-ups and testing.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 170,
+      "trial_nct_id": "NCT06590012"
+    },
+    {
+      "chunk_id": "NCT06590012:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 45 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients with cardiovascular disease disease of atherosclerotic origin, requiring hospitalization and treatment hospital conditions. Cardiovascular diseases may include the following nosology: Coronary heart disease; Atherosclerosis. Diseases include (and/or) atherosclerotic lesions of the coronary arteries, brachiocephalic arteries, limb arteries, renal arteries requiring surgical revascularization.\n* Patients who have undergone a complex of necessary by current standards for their disease instrumental and laboratory examinations, including ECG, severity assessment vascular stenosis (ultrasound, CT, angiography), including large arteries, brachiocephalic arteries, femoral arteries, biochemical blood test assessing the level of general cholesterol, triglycerides, lipoproteins low density, high lipoprotein density, glucose level.\n* Possibility of monitoring the patient - Possibility every 12 months call the patient for questioning and examination.\n* The patient has signed informed consent.\n\nExclusion Criteria:\n\n* Critical and urgent cardiovascular conditions: tissue ischemia stage III-IV, stroke, acute coronary syndrome, myocardial infarction, chronic heart failure III and IV class NYHA (New York Heart Association).\n* Other critical and urgent conditions not associated with cardiovascular diseases, including the need for urgent interventions, chronic renal failure stages IV-V (creatinine clearance \\< 30 ml / min according to the Cockcroft-Gault Equation)\n* Systemic autoimmune diseases in medical history, including: rheumatoid arthritis, systemic lupus erythematosus, autoimmune thyroiditis, autoimmune vasculitis, ulcerative colitis.\n* Significant weight loss (\\> 10% of body weight in the previous year) of unknown etiology.\n* Conditions that limit adherence to participation in the study (dementia, neuropsychiatric diseases, drug addiction, alcoholism, etc.).\n* Participation in other clinical studies (or use of investigational substances) within 3 months prior to study entry.\n* Carriers of HIV or viral hepatitis\n* Pregnancy or breast feeding\n* Refusal to participate in the study.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 295,
+      "trial_nct_id": "NCT06590012"
+    },
+    {
+      "chunk_id": "NCT06590012:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Frequency of fatal cardiovascular events | time_frame=Evaluated in 12 months from revascularization interventions | description=Fatal cardiovascular events include: death from myocardial infarction, other forms of coronary heart disease (CHD), stroke, including sudden death and death within 24 hours of symptom onset, death from other non-coronary cardiovascular diseases except definitely non-atherosclerotic causes of death.\ntype=primary | measure=Frequency of clinically significant cardiovascular events | time_frame=Evaluated in 12 months from revascularization interventions | description=Clinically significant cardiovascular events include: acute myocardial infarction and acute coronary syndrome, acute cerebrovascular accident, progressive heart failure, hospitalization due to critical limb ischemia.\ntype=secondary | measure=Change in the severity of stenosis of the affected due to the underlying disease and/or carotid and femoral arteries according to ultrasound examination | time_frame=Evaluated in 12 months\ntype=secondary | measure=Atherogenicity changes in serum blood | time_frame=Evaluated in 12 months\ntype=secondary | measure=Changes in LDL sialic acid levels | time_frame=Evaluated in 12 months\ntype=secondary | measure=Changes in lipid profile indicators (total cholesterol, HDL cholesterol, triglycerides, LDL cholesterol - calculated value) | time_frame=Evaluated in 12 months\ntype=secondary | measure=Changes in circulating immune complex cholesterol levels | time_frame=Evaluated in 12 months",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 187,
+      "trial_nct_id": "NCT06590012"
+    },
+    {
+      "chunk_id": "NCT06590012:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-08-29\nPrimary completion date: 2025-08-29\nCompletion date: 2026-03-01\nStudy first posted: 2024-09-19\nResults first posted: None\nLast update posted: 2024-09-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06590012"
+    },
+    {
+      "chunk_id": "NCT06590012:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Institute for Atherosclerosis Research, Russia\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06590012"
+    }
+  ],
+  "trial_nct_id": "NCT06590012"
+}

@@ -1,0 +1,432 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D054318",
+          "term": "No-Reflow Phenomenon"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009566",
+          "term": "Nitrates"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009536",
+          "term": "Niacinamide"
+        },
+        {
+          "id": "D009539",
+          "term": "Nicotinic Acids"
+        },
+        {
+          "id": "D000147",
+          "term": "Acids, Heterocyclic"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D020108",
+          "term": "Nicorandil"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "If the lipid core burden index at the main lesion site on vascular ultrasound exceeds 353, randomization was performed.\n\nNicorandil group will be administrated 8cc or more of the prescribed drug (Nicroandil) according to randomization into the coronary artery before starting balloon therapy.",
+          "interventionNames": [
+            "Drug: Nicorandil"
+          ],
+          "label": "Pre-PCI IC Nicorandil",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "If the lipid core burden index at the main lesion site on vascular ultrasound exceeds 353, randomization was performed.\n\nStandard PCI group will be performed coronary intervention including starting balloon therapy without pre-administrated nicorandil.",
+          "label": "Standard PCI",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Pre-PCI IC Nicorandil"
+          ],
+          "description": "Administer 8cc or more of the prescribed drug according to randomization into the coronary artery before starting balloon therapy. The stent treatment method follows the standard treatment method.",
+          "name": "Nicorandil",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "No-Reflow Phenomenon",
+        "Coronary Artery Disease",
+        "Percutaneous Coronary Intervention"
+      ],
+      "keywords": [
+        "Nicorandil",
+        "No-reflow phenomenon",
+        "lipid core burden index",
+        "near-infrared spectroscopy"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "email": "joonletter@hanmail.net",
+              "name": "Jung Joon Cha, MD, PhD",
+              "phone": "8229205445",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Korea University Anam Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study was to determine the effect of intra-coronary administration of nicorandil on the prevention of lowering of coronary blood flow for high-risk plaque lesions defined as the high value of lipid core burden index in patients with coronary artery disease who require stent treatment."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "A Multi-center, Open Label, Randomized, Parallel-group Study"
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 460,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Over 19 years old\n2. Patients who agree to the study plan and clinical follow-up plan, voluntarily decide to participate in this study, and consent in writing to the consent to use information\n3. Patients who underwent NIRS-IVUS guided coronary stent surgery for coronary artery disease\n\nExclusion Criteria:\n\n1. Patients with TIMI \u2264 2 before coronary intervention\n2. Subjects with known hypersensitivity or contraindications to the following drugs or substances: heparin, aspirin, clopidogrel, ticagrelor, prasugrel, rosuvastatin, ezetimibe, evolocumab, lansoprazole, cobalt chromium, stainless steel nickel And contrast agents (however, even a subject who is hypersensitive to contrast agents can register if they can be controlled by steroids and pheniramine, except for known anaphylaxis.)\n3. Pregnant women, lactating women, or women of childbearing age who plan to become pregnant during this study\n4. Subjects who plan to have surgery to stop antiplatelet drugs within 6 months from registration\n5. Those whose surviving life is expected to be less than 1 year\n6. Subjects who visited the hospital due to cardiogenic shock and are predicted to have low survival probability based on medical judgment",
+      "healthyVolunteers": false,
+      "minimumAge": "19 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study to Evaluate the Impact of Pre-procedural Intracoronary Nicorandil Injection to PREVENT ReductioN of DecREased TIMI FLOW in Patients Who Undergoing Percutaneous Coronary Intervention for the Coronary Artery Disease",
+      "nctId": "NCT05427786",
+      "officialTitle": "A Randomized, Open Label, Parallel-group Study to Evaluate the Impact of Pre-procedural Intracoronary Nicorandil Injection to PREVENT ReductioN of DecREased TIMI FLOW in Patients Who Undergoing Percutaneous Coronary Intervention for the Coronary Artery Disease",
+      "orgStudyIdInfo": {
+        "id": "PREVENT NO-REFLOW"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Korea University Anam Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "The data generated in this study is available from the corresponding author(s) upon reasonable request.",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Correlation among LDL-cholesterol, lipoprotein(a), pre-procedural LCBi max, Post-procedural LCBi, LCBi total burden",
+          "measure": "Association between lipid profile and lipid core burden index",
+          "timeFrame": "6 month"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "occurrence of decreased TIMI flow (0,1,2) during the index procedure\n\nGrade 0-No perfusion\n\nGrade 1-Penetration without perfusion\n\nGrade 2-Partial perfusion but not reach complete perfusion\n\nGrade 3-Complete perfusion;; antegrade flow into the bed distal to the obstruction occurs as promptly as antegrade flow into the bed proximal to the obstruction, and clearance of contrast material from the involved bed is as rapid as clearance from an uninvolved bed in the same vessel or the opposite artery.",
+          "measure": "Occurrence of decreased TIMI flow",
+          "timeFrame": "during procedure"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "level change of CPK",
+          "measure": "Change of cardiac biomarker level after intervention",
+          "timeFrame": "1 month"
+        },
+        {
+          "description": "level change of CK-MB",
+          "measure": "Change of cardiac biomarker level after intervention",
+          "timeFrame": "1 month"
+        },
+        {
+          "description": "level change of Troponin T",
+          "measure": "Change of cardiac biomarker level after intervention",
+          "timeFrame": "1 month"
+        },
+        {
+          "description": "level change of Troponin I",
+          "measure": "Change of cardiac biomarker level after intervention",
+          "timeFrame": "1 month"
+        },
+        {
+          "description": "composite of all cause mortality, any myocardial infarction, and any revascularization",
+          "measure": "patient-oriented composite end point",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Percentage of All cause mortality",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Percentage of cardiac death",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Percentage of myocardial infarction",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Percentage of revascularization",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "GUSTO Angiographic Investigators. The effects of tissue plasminogen activator, streptokinase, or both on coronary-artery patency, ventricular function, and survival after acute myocardial infarction. N Engl J Med. 1993 Nov 25;329(22):1615-22. doi: 10.1056/NEJM199311253292204.",
+          "pmid": "8232430",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Morishima I, Sone T, Okumura K, Tsuboi H, Kondo J, Mukawa H, Matsui H, Toki Y, Ito T, Hayakawa T. Angiographic no-reflow phenomenon as a predictor of adverse long-term outcome in patients treated with percutaneous transluminal coronary angioplasty for first acute myocardial infarction. J Am Coll Cardiol. 2000 Oct;36(4):1202-9. doi: 10.1016/s0735-1097(00)00865-2.",
+          "pmid": "11028471",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Piana RN, Paik GY, Moscucci M, Cohen DJ, Gibson CM, Kugelmass AD, Carrozza JP Jr, Kuntz RE, Baim DS. Incidence and treatment of 'no-reflow' after percutaneous coronary intervention. Circulation. 1994 Jun;89(6):2514-8. doi: 10.1161/01.cir.89.6.2514.",
+          "pmid": "8205658",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Harrison RW, Aggarwal A, Ou FS, Klein LW, Rumsfeld JS, Roe MT, Wang TY; American College of Cardiology National Cardiovascular Data Registry. Incidence and outcomes of no-reflow phenomenon during percutaneous coronary intervention among patients with acute myocardial infarction. Am J Cardiol. 2013 Jan 15;111(2):178-84. doi: 10.1016/j.amjcard.2012.09.015. Epub 2012 Oct 27.",
+          "pmid": "23111142",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Endo M, Hibi K, Shimizu T, Komura N, Kusama I, Otsuka F, Mitsuhashi T, Iwahashi N, Okuda J, Tsukahara K, Kosuge M, Ebina T, Umemura S, Kimura K. Impact of ultrasound attenuation and plaque rupture as detected by intravascular ultrasound on the incidence of no-reflow phenomenon after percutaneous coronary intervention in ST-segment elevation myocardial infarction. JACC Cardiovasc Interv. 2010 May;3(5):540-9. doi: 10.1016/j.jcin.2010.01.015.",
+          "pmid": "20488411",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Naghavi M, Libby P, Falk E, Casscells SW, Litovsky S, Rumberger J, Badimon JJ, Stefanadis C, Moreno P, Pasterkamp G, Fayad Z, Stone PH, Waxman S, Raggi P, Madjid M, Zarrabi A, Burke A, Yuan C, Fitzgerald PJ, Siscovick DS, de Korte CL, Aikawa M, Juhani Airaksinen KE, Assmann G, Becker CR, Chesebro JH, Farb A, Galis ZS, Jackson C, Jang IK, Koenig W, Lodder RA, March K, Demirovic J, Navab M, Priori SG, Rekhter MD, Bahr R, Grundy SM, Mehran R, Colombo A, Boerwinkle E, Ballantyne C, Insull W Jr, Schwartz RS, Vogel R, Serruys PW, Hansson GK, Faxon DP, Kaul S, Drexler H, Greenland P, Muller JE, Virmani R, Ridker PM, Zipes DP, Shah PK, Willerson JT. From vulnerable plaque to vulnerable patient: a call for new definitions and risk assessment strategies: Part I. Circulation. 2003 Oct 7;108(14):1664-72. doi: 10.1161/01.CIR.0000087480.94275.97.",
+          "pmid": "14530185",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Naghavi M, Libby P, Falk E, Casscells SW, Litovsky S, Rumberger J, Badimon JJ, Stefanadis C, Moreno P, Pasterkamp G, Fayad Z, Stone PH, Waxman S, Raggi P, Madjid M, Zarrabi A, Burke A, Yuan C, Fitzgerald PJ, Siscovick DS, de Korte CL, Aikawa M, Airaksinen KE, Assmann G, Becker CR, Chesebro JH, Farb A, Galis ZS, Jackson C, Jang IK, Koenig W, Lodder RA, March K, Demirovic J, Navab M, Priori SG, Rekhter MD, Bahr R, Grundy SM, Mehran R, Colombo A, Boerwinkle E, Ballantyne C, Insull W Jr, Schwartz RS, Vogel R, Serruys PW, Hansson GK, Faxon DP, Kaul S, Drexler H, Greenland P, Muller JE, Virmani R, Ridker PM, Zipes DP, Shah PK, Willerson JT. From vulnerable plaque to vulnerable patient: a call for new definitions and risk assessment strategies: Part II. Circulation. 2003 Oct 14;108(15):1772-8. doi: 10.1161/01.CIR.0000087481.55887.C9.",
+          "pmid": "14557340",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Erlinge D, Maehara A, Ben-Yehuda O, Botker HE, Maeng M, Kjoller-Hansen L, Engstrom T, Matsumura M, Crowley A, Dressler O, Mintz GS, Frobert O, Persson J, Wiseth R, Larsen AI, Okkels Jensen L, Nordrehaug JE, Bleie O, Omerovic E, Held C, James SK, Ali ZA, Muller JE, Stone GW; PROSPECT II Investigators. Identification of vulnerable plaques and patients by intracoronary near-infrared spectroscopy and ultrasound (PROSPECT II): a prospective natural history study. Lancet. 2021 Mar 13;397(10278):985-995. doi: 10.1016/S0140-6736(21)00249-X.",
+          "pmid": "33714389",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Goldstein JA, Grines C, Fischell T, Virmani R, Rizik D, Muller J, Dixon SR. Coronary embolization following balloon dilation of lipid-core plaques. JACC Cardiovasc Imaging. 2009 Dec;2(12):1420-4. doi: 10.1016/j.jcmg.2009.10.003. No abstract available.",
+          "pmid": "20083078",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gardner CM, Tan H, Hull EL, Lisauskas JB, Sum ST, Meese TM, Jiang C, Madden SP, Caplan JD, Burke AP, Virmani R, Goldstein J, Muller JE. Detection of lipid core coronary plaques in autopsy specimens with a novel catheter-based near-infrared spectroscopy system. JACC Cardiovasc Imaging. 2008 Sep;1(5):638-48. doi: 10.1016/j.jcmg.2008.06.001.",
+          "pmid": "19356494",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Anderson JL, Karagounis LA, Becker LC, Sorensen SG, Menlove RL. TIMI perfusion grade 3 but not grade 2 results in improved outcome after thrombolysis for myocardial infarction. Ventriculographic, enzymatic, and electrocardiographic evidence from the TEAM-3 Study. Circulation. 1993 Jun;87(6):1829-39. doi: 10.1161/01.cir.87.6.1829.",
+          "pmid": "8504495",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ndrepepa G, Mehilli J, Schulz S, Iijima R, Keta D, Byrne RA, Pache J, Seyfarth M, Schomig A, Kastrati A. Prognostic significance of epicardial blood flow before and after percutaneous coronary intervention in patients with acute coronary syndromes. J Am Coll Cardiol. 2008 Aug 12;52(7):512-7. doi: 10.1016/j.jacc.2008.05.009.",
+          "pmid": "18687242",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Mehta RH, Ou FS, Peterson ED, Shaw RE, Hillegass WB Jr, Rumsfeld JS, Roe MT; American College of Cardiology-National Cardiovascular Database Registry Investigators. Clinical significance of post-procedural TIMI flow in patients with cardiogenic shock undergoing primary percutaneous coronary intervention. JACC Cardiovasc Interv. 2009 Jan;2(1):56-64. doi: 10.1016/j.jcin.2008.10.006.",
+          "pmid": "19463399",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Zhao JL, Yang YJ, Zhang YH, Pei WD, Sun YH, Chen JL, Gao RL. Chronic pretreatment of ACEI reduces no-reflow in patients with acute myocardial infarction treated with primary angioplasty. Clin Cardiol. 2007 Mar;30(3):130-4. doi: 10.1002/clc.20060.",
+          "pmid": "17385720",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Su Q, Li L, Liu Y. Short-term effect of verapamil on coronary no-reflow associated with percutaneous coronary intervention in patients with acute coronary syndrome: a systematic review and meta-analysis of randomized controlled trials. Clin Cardiol. 2013 Aug;36(8):E11-6. doi: 10.1002/clc.22143. Epub 2013 Jun 7.",
+          "pmid": "23749333",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Falk E, Shah PK, Fuster V. Coronary plaque disruption. Circulation. 1995 Aug 1;92(3):657-71. doi: 10.1161/01.cir.92.3.657. No abstract available.",
+          "pmid": "7634481",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Madder RD, Smith JL, Dixon SR, Goldstein JA. Composition of target lesions by near-infrared spectroscopy in patients with acute coronary syndrome versus stable angina. Circ Cardiovasc Interv. 2012 Feb 1;5(1):55-61. doi: 10.1161/CIRCINTERVENTIONS.111.963934. Epub 2012 Jan 17.",
+          "pmid": "22253357",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Topol EJ, Yadav JS. Recognition of the importance of embolization in atherosclerotic vascular disease. Circulation. 2000 Feb 8;101(5):570-80. doi: 10.1161/01.cir.101.5.570. No abstract available.",
+          "pmid": "10662756",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Falk E, Thuesen L. Pathology of coronary microembolisation and no reflow. Heart. 2003 Sep;89(9):983-5. doi: 10.1136/heart.89.9.983. No abstract available.",
+          "pmid": "12923001",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Waksman R, Di Mario C, Torguson R, Ali ZA, Singh V, Skinner WH, Artis AK, Cate TT, Powers E, Kim C, Regar E, Wong SC, Lewis S, Wykrzykowska J, Dube S, Kazziha S, van der Ent M, Shah P, Craig PE, Zou Q, Kolm P, Brewer HB, Garcia-Garcia HM; LRP Investigators. Identification of patients and plaques vulnerable to future coronary events with near-infrared spectroscopy intravascular ultrasound imaging: a prospective, cohort study. Lancet. 2019 Nov 2;394(10209):1629-1637. doi: 10.1016/S0140-6736(19)31794-5. Epub 2019 Sep 27.",
+          "pmid": "31570255",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Schuurman AS, Vroegindewey M, Kardys I, Oemrawsingh RM, Cheng JM, de Boer S, Garcia-Garcia HM, van Geuns RJ, Regar ES, Daemen J, van Mieghem NM, Serruys PW, Boersma E, Akkerhuis KM. Near-infrared spectroscopy-derived lipid core burden index predicts adverse cardiovascular outcome in patients with coronary artery disease during long-term follow-up. Eur Heart J. 2018 Jan 21;39(4):295-302. doi: 10.1093/eurheartj/ehx247.",
+          "pmid": "28531282",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Korea University Anam Hospital"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Korea University Anam Hospital",
+        "investigatorFullName": "Jung-Joon Cha",
+        "investigatorTitle": "Assistant Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-12-14",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-09",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-14",
+      "studyFirstSubmitQcDate": "2022-06-16"
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        },
+        {
+          "id": "D054318",
+          "term": "No-Reflow Phenomenon"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004837",
+          "term": "Epinephrine"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "This group will receive the all guidelines-directed recommendations of intervention in STEMI patients.\n\nIntracoronary 10 mcg adrenaline will be given via the guiding catheter in study group after restoration of epicardial coronary flow of the culprit vessel and achievement of TIMI I flow either after wiring and/or passage of a deflated balloon and/or PTCA with a small balloon, and/or use of thrombus aspiration and before stenting.",
+          "interventionNames": [
+            "Drug: Adrenaline"
+          ],
+          "label": "Study (Adrenaline)",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "This group will receive the standards of care , all guidelines-directed recommendations of intervention in STEMI patients.",
+          "label": "Control",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Study (Adrenaline)"
+          ],
+          "description": "Intracoronary 10 mcg adrenaline will be given via the guiding catheter in study group after restoration of epicardial coronary flow of the culprit vessel and achievement of TIMI I flow either after wiring and/or passage of a deflated balloon and/or PTCA with a small balloon, and/or use of thrombus aspiration and before stenting.",
+          "name": "Adrenaline",
+          "otherNames": [
+            "Epinephrine"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ST Segment Elevation Myocardial Infarction (STEMI)",
+        "No Reflow Phenomenon"
+      ],
+      "keywords": [
+        "STEMI",
+        "No-reflow",
+        "Adrenaline",
+        "Prophylaxis"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mostafaabdallahkhalifa@med.asu.edu.eg",
+          "name": "Mostafa Abdallah Khalifa, Master cardiology",
+          "phone": "+201012988025",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Cairo",
+          "contacts": [
+            {
+              "email": "Dr.khaled.aly@med.asu.edu.eg",
+              "name": "Khaled Aly, Associate professor",
+              "phone": "201003593088",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Egypt",
+          "facility": "Faculty of medicine Ain Shams Univesity",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          },
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this work is to study the role of intracoronary adrenaline administration as a preventive tool for no reflow in patients undergoing primary PCI.\n\nThe main question it aims to answer is:\n\nDo prohylcatic intrcoronary adrenaline reduce the incidence of no reflow without increaing risk of arrhythmia in primary PCI?\n\nThe procedure will be performed by expert operators. All patients will receive the guidelines-directed recommendations of intervention of STEMI patients.\n\nStudy group wil receive Intracoronary 10 mcg adrenaline via the guiding catheter after restoration of epicardial coronary flow of the culprit vessel and achievement of TIMI I flow either after wiring and/or passage of a deflated balloon and/or PTCA with a small balloon, and/or use of thrombus aspiration and before stenting.\n\nAll steps in the Cath-lab will be described in detail:\n\nThe primary end points will be improvement in coronary flow, as assessed by TIMI (Thrombolysis in Myocardial Infarction) flow, and myocardial blush.\n\nSecondary end points will be in-hospital mortality and major adverse cardiac events."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients who are 18 years or older\n2. Patients presenting with acute coronary syndrome with ECG criteria diagnostic of STEMI (according to the universal definition of myocardial infarction) within 12 hours from the onset of symptoms and treated by successful primary PCI.\n\nExclusion Criteria:\n\n1. Age \\< 18 years\n2. Pregnant females.\n3. Patients refused to give consent.\n4. Patients who had normal coronary angiography.\n5. Patients who had CTO lesions.\n6. Patients who have SCAD.\n7. Patients who developed dissection or mechanical complication during the procedure.\n8. Patients presenting with cardiogenic shock.\n9. Cardiomyopathies\n10. Contraindications to epinephrine as HTN with SBP \\>180 mmHg or DBP\\>110 mmHg, clinically significant arrhythmia (Atrial fibrillation with rapid ventricular rate, ventricular tachycardia, or ventricular fibrillation) prior to PCI, known allergy to epinephrine.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The Investigator Administers Intracoronary Adrenaline Via the Catheter in STEMI Patients During Primary PCI, After Flow Restoration and Before Stenting, and Studies Its Effect in Prevention of No Reflow",
+      "nctId": "NCT06847568",
+      "officialTitle": "Role of Catheter Administered Intracoronary Epinephrine in Prevention of No-Reflow in STEMI Patients Undergoing Primary Percutaneous Coronary Intervention",
+      "orgStudyIdInfo": {
+        "id": "FMASU MD48/2024"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Ain Shams University"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The primary end points will be improvement in coronary flow, as assessed by TIMI (Thrombolysis in Myocardial Infarction) flow\n\nThrombolysis in Myocardial Infarction risk score (TIMI) flow grading system as following:\n\n* TIMI 0 = No ante-grade flow beyond the point of occlusion.\n* TIMI 1 = Faint ante-grade flow beyond the point of occlusion with incomplete filling of the distal vascular bed.\n* TIMI 2 = Delayed or sluggish ante-grade flow with complete filling of the distal vascular beds.\n* TIMI 3 = Normal flow with complete filling of the distal vascular bed\n\nCoronary no-reflow (CNR) is diagnosed immediately after PCI when post-procedural angiographic TIMI flow is \\< 3",
+          "measure": "No-relow",
+          "timeFrame": "1 year up to 2 years"
+        },
+        {
+          "description": "The primary end points will be improvement in coronary flow, as assessed by myocardial blush grade.\n\nMyocardial blush grade (MBG) is defined as:\n\n* MBG 0 = No myocardial blush or contrast density.\n* MBG 1 = Minimal myocardial blush or contrast density.\n* MBG 2 = Moderate myocardial blush or contrast density but less than that obtained during angiography of a contralateral or ipsi-lateral non-infarct-related coronary artery.\n* MBG 3 = Normal myocardial blush or contrast density, comparable with that obtained during angiography of a contralateral or ipsilateral non-infarct-related coronary artery\n\nCoronary no-reflow (CNR) is diagnosed immediately after PCI when post-procedural angiographic MBG is 0 or 1",
+          "measure": "No-relow",
+          "timeFrame": "1 year up to 2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Secondary end points will be major adverse cardiac events.",
+          "measure": "MACE",
+          "timeFrame": "1 year up to 2 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Ain Shams University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Ain Shams University",
+        "investigatorFullName": "Mostafa AbdAllah Khalifa",
+        "investigatorTitle": "Assistant lecturer of cardiology",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-04-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-07",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-04-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-02-16",
+      "studyFirstSubmitQcDate": "2025-02-21"
+    }
+  }
+}

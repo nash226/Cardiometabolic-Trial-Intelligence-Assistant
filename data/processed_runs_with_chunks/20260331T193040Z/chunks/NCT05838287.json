@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05838287:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05838287\nBrief title: Pioglitazone on Heart Failure in Type-2 Diabetes Mellitus Participants\nOfficial title: Pioglitazone, Lipotoxicity, and Heart Failure With Preserved Ejection Fraction (HFpEF)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT05838287"
+    },
+    {
+      "chunk_id": "NCT05838287:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes Mellitus in Obese; Heart Failure With Preserved Ejection Fraction\nIntervention labels: Pioglitazone; Placebo\nDrug class labels: \nArms: Pioglitazone Administration Group; Placebo/Control Group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT05838287"
+    },
+    {
+      "chunk_id": "NCT05838287:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Our goal of the study is to learn the effects of the diabetes medication named Pioglitazone, in type-2 diabetic obese participants with Heart failure. The main question it aims to answer are:\n\n1. To demonstrate that impaired mitochondrial function leading to reduced ATP generation plays a key pathophysiologic role in the development of heart failure with preserved ejection fraction (HFpEF) in obese type 2 diabetic (T2D) individuals.\n2. To demonstrate that pioglitazone, improves diastolic (as well as systolic) function by improving myocardial insulin sensitivity and by reducing both myocardial and epicardial fat content.\nDetailed description: Either Pioglitazone or Placebo Pioglitazone will be administered during this study in this Type 2 Diabetic population with Heart Failure to examine if there are any beneficial effects on diastolic and systolic function.\n\nMyocardial blood flow (MBF) is measured using a PET scan, then participants will be randomized to pioglitazone or a placebo to examine the effects of the study drug on the effects on the systolic and diastolic function of the heart. In addition, myocardial insulin sensitivity change will be measured as well as myocardial fat content. The ratio of ATP: PCr will also be measured.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 194,
+      "trial_nct_id": "NCT05838287"
+    },
+    {
+      "chunk_id": "NCT05838287:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 30 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n1. Provision of signed and dated informed consent form\n2. Stated willingness to comply with all study procedures and availability for the duration of the study\n3. Male or female, aged 30-70 years\n4. Body Mass Index (BMI) of 27.5-40kg/m\u00b2\n5. HbA1c of 6.5 to 10%\n6. Blood pressure of less than or equal to 145/65mmHg\n7. eGFR greater than 45 ml/min/1.73m\u00b2\n8. Subject must have HFpEF (EF \\> 50% by ECHO screening)\n9. NYHA class II-III heart failure\n10. Only T2D patients treated with diet/exercise, metformin, sulfonylurea, metformin/SU, DPP4i or insulin will be studied.\n11. For females of reproductive potential: use of highly effective contraception for at least 1 month prior to screening and agreement to use such a method during study participation and for an additional \\[4 weeks\\] after the end of study participation.\n12. For males of reproductive potential: use of condoms or other methods to ensure effective contraception with partner.\n\nExclusion Criteria:\n\n1. Subjects with history of osteoporosis or proliferative diabetic retinopathy\n2. Subjects with Heart failure due to restrictive or infiltrative cardiomyopathy, active myocarditis, constrictive pericarditis, severe valvular heart disease, etc. will be excluded\n3. Patients with symptomatic coronary artery disease.\n4. Subjects with significant change in diuretic management during the month prior to screening (defined by doubling of diuretic dose, or addition of another HF medication).\n5. Subjects treated with a GLP-1 RA or thiazolidinedione.\n6. Subjects treated with a SGLT2i\n7. Pregnancy or lactation\n8. Known allergic reactions to components of the study interventions.\n9. Any metal plates, parts, screws, shrapnel, pins in body, or cardiac (heart) pacemaker",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 285,
+      "trial_nct_id": "NCT05838287"
+    },
+    {
+      "chunk_id": "NCT05838287:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in Systolic function | time_frame=Baseline and 6-months post treatment (approximately 24 weeks) | description=Measurement of change in systolic function of the heart using cardiac MRI\ntype=primary | measure=Change in Diastolic function | time_frame=Baseline and 6-months post treatment (approximately 24 weeks) | description=Measurement of change in diastolic function of the heart using cardiac MRI\ntype=secondary | measure=Myocardial insulin sensitivity | time_frame=Baseline and 6-months post treatment (approximately 24 weeks) | description=Measurement of change in Free Plasma Glucose (FPG) in blood plasma\ntype=secondary | measure=Myocardial fat content | time_frame=Baseline and 6-months post treatment (approximately 24 weeks) | description=Measurement of change in myocardial fat content\ntype=secondary | measure=PCr:ATP ratio | time_frame=Baseline and 6-months post treatment (approximately 24 weeks) | description=Measurement of change in PCr:ATP ratio",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 124,
+      "trial_nct_id": "NCT05838287"
+    },
+    {
+      "chunk_id": "NCT05838287:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-07-10\nPrimary completion date: 2029-08\nCompletion date: 2030-01\nStudy first posted: 2023-05-01\nResults first posted: None\nLast update posted: 2025-08-27\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05838287"
+    },
+    {
+      "chunk_id": "NCT05838287:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The University of Texas Health Science Center at San Antonio\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT05838287"
+    }
+  ],
+  "trial_nct_id": "NCT05838287"
+}

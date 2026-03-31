@@ -1,0 +1,201 @@
+{
+  "arms": [
+    {
+      "description": "Participants will take 2 81mg aspirin tablets daily from entrance into the trial until delivery.",
+      "intervention_names": [
+        "Drug: Aspirin 162 mg"
+      ],
+      "label": "Double low-dose aspirin",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Participants will take 2 placebo pills from entrance into the study until 12 weeks gestational age, they will then take 1 placebo pill and 1 81mg aspirin until delivery.",
+      "intervention_names": [
+        "Drug: Aspirin 81mg"
+      ],
+      "label": "Standard of Care",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Pre-Eclampsia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Pregnancy Loss",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria\n\n1. Provision of signed and dated informed consent form.\n2. Stated willingness to comply with all study procedures and availability for the duration of the study.\n3. Ability to take oral medication and be willing to adhere to the prescribed aspirin regimen.\n4. Patients with a gestation less than or equal to 6 weeks, 6 days (as determined by patient record of LMP or ART date).\n5. Patients between 18-45-year old who have one or more risk factors for preeclampsia and/or pregnancy loss, including:\n\n   1. preeclampsia in a previous pregnancy,\n   2. gestational diabetes in a previous pregnancy,\n   3. any documentation of fetal growth restriction or low birth weight in a prior pregnancy,\n   4. preterm birth in a previous pregnancy,\n   5. known multifetal gestation at enrollment,\n   6. chronic hypertension,\n   7. pregestational diabetes,\n   8. kidney disease,\n   9. systemic lupus erythematosus,\n   10. nulliparity,\n   11. pre-pregnancy body mass index \\>30,\n   12. family history of preeclampsia (i.e., mother or sister),\n   13. Black persons (due to social, not biological reasons),\n   14. Maternal age 35 years or older,\n   15. lower income (will be determined by qualification of public health insurance),\n   16. conceived with fertility treatment (including in vitro fertilization, ovulation induction, or intrauterine insemination),\n   17. history of one or more prior pregnancy losses \\<20 weeks gestation,\n   18. history of stillbirth in a prior pregnancy,\n   19. An interval of greater than 10 years since the last pregnancy.\n\nExclusion Criteria\n\n1. Known allergies to aspirin or non-steroidal anti-inflammatory agents (NSAID);\n2. Clinical indication for anticoagulant therapy, including prior or current thrombosis, antiphospholipid syndrome, or known major thrombophilia;\n3. Clinical indication for chronic use of NSAIDS during pregnancy;\n4. Medical contraindication to aspirin therapy, including untreated uncontrolled asthma, untreated symptomatic nasal polyps, bleeding disorders, or history of gastrointestinal ulcer.\n5. Patients with pelvic pain or bleeding who require urgent care (i.e., active vaginal bleeding greater than or equal to expected menses, open cervical os suggesting active miscarriage or severe pain requiring evaluation for ectopic pregnancy)",
+    "healthy_volunteers": false,
+    "maximum_age_text": "45 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "FEMALE"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Double low-dose aspirin"
+      ],
+      "description": "Aspirin is a nonsteroidal anti-inflammatory drug.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Aspirin 162 mg",
+      "normalized_name": "aspirin 162 mg"
+    },
+    {
+      "arm_group_labels": [
+        "Standard of Care"
+      ],
+      "description": "Aspirin is a nonsteroidal anti-inflammatory drug.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Aspirin 81mg",
+      "normalized_name": "aspirin 81mg"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "defined as two blood pressures (BPs) \u2265 140/90 mmHg at least 4 hours apart with proteinuria",
+      "measure": "Preeclampsia with or without severe features",
+      "outcome_type": "primary",
+      "time_frame": "from 20 weeks pregnancy to delivery, approximately 20 weeks"
+    },
+    {
+      "description": "Pregnancy loss prior to 24 weeks gestation",
+      "measure": "Pregnancy Loss",
+      "outcome_type": "primary",
+      "time_frame": "from enrollment to time of pregnancy loss, up to 24 weeks gestation"
+    },
+    {
+      "description": "This composite outcome will include the diagnosis of any of the following: preterm preeclampsia, term preeclampsia, gestational hypertension, preeclampsia with severe features, preeclampsia without severe features, biochemical pregnancy loss, clinical pregnancy loss",
+      "measure": "Composite outcome of hypertensive disorders of pregnancy or pregnancy loss",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to end of pregnancy, up to 38 weeks"
+    },
+    {
+      "description": "Diagnosis of preterm preeclampsia, occurring prior to 37 weeks in pregnancy",
+      "measure": "Preterm preeclampsia",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment up to 37 weeks of pregnancy, up to 37 weeks of pregnancy"
+    },
+    {
+      "description": "Diagnosis of term preeclampsia, occurring at 37 weeks or later in pregnancy",
+      "measure": "Term preeclampsia",
+      "outcome_type": "secondary",
+      "time_frame": "From 37 weeks until delivery, up to 3 weeks"
+    },
+    {
+      "description": "Defined as two BPs \u2265 140/90 mmHg at least 4 hours apart without proteinuria",
+      "measure": "Gestational Hypertension",
+      "outcome_type": "secondary",
+      "time_frame": "From 20 weeks of pregnancy to delivery, approximately 20 weeks"
+    },
+    {
+      "description": "Diagnosis of preeclampsia with severe hypertension and/or specific signs or symptoms of significant end-organ dysfunction",
+      "measure": "Preeclampsia with severe features",
+      "outcome_type": "secondary",
+      "time_frame": "From 20 weeks of pregnancy to delivery, up to 20 weeks"
+    },
+    {
+      "description": "defined as two BPs \u2265160/110 mmHg at least 4 hours apart or any of the following lab abnormalities or symptoms: platelets \\<100,000/microliter, liver enzymes at least twice the normal concentration, and/or severe right upper quadrant/epigastric pain, serum creatinine \\> 1.1 mg/dL or a doubling of baseline serum creatinine, pulmonary edema, or new-onset cerebral or visual disturbances (headache, blurry vision). Preeclampsia super-imposed on chronic hypertension will also be considered as part of this outcome.",
+      "measure": "Preeclampsia without severe features",
+      "outcome_type": "secondary",
+      "time_frame": "From 20 weeks of pregnancy to delivery, up to 20 weeks"
+    },
+    {
+      "description": "Defined as losses that occur prior to identification of a gestational sac via ultrasound",
+      "measure": "Biochemical pregnancy loss",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to time of pregnancy loss, up to approximately 20 weeks"
+    },
+    {
+      "description": "Defined as any pregnancy loss occurring following ultrasound confirmation of pregnancy",
+      "measure": "Clinical pregnancy loss",
+      "outcome_type": "secondary",
+      "time_frame": "From time of first ultrasound to 20 weeks pregnancy"
+    },
+    {
+      "description": "Defined as delivery at less than 37 weeks gestation",
+      "measure": "Preterm birth",
+      "outcome_type": "secondary",
+      "time_frame": "From enrollment to 36 weeks 6 days of pregnancy, up to delivery"
+    },
+    {
+      "description": "Defined as a birth weight less than 10th percentile for gestational age",
+      "measure": "Small for gestational age",
+      "outcome_type": "secondary",
+      "time_frame": "At time of delivery"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The goal of this clinical trial is to investigate the effects of early initiation of double low-dose aspirin in pregnant women. The main questions it aims to answer are:\n\nDoes this dose and timing of aspirin reduce the risk of pre-eclampsia compared to standard recommendations? Does this dose and timing of aspirin reduce the risk of pregnancy loss compared to standard recommendations? Participants will begin taking at no later than 6 weeks 6 days gestational age, either 162mg of aspirin through delivery or placebo until 12 weeks and then 81mg of aspirin through delivery.",
+    "brief_title": "APPLE: Aspirin to Prevent Pregnancy Loss and Preeclampsia",
+    "collaborator_names": [
+      "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)"
+    ],
+    "completion_date": "2029-06",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria\n\n1. Provision of signed and dated informed consent form.\n2. Stated willingness to comply with all study procedures and availability for the duration of the study.\n3. Ability to take oral medication and be willing to adhere to the prescribed aspirin regimen.\n4. Patients with a gestation less than or equal to 6 weeks, 6 days (as determined by patient record of LMP or ART date).\n5. Patients between 18-45-year old who have one or more risk factors for preeclampsia and/or pregnancy loss, including:\n\n   1. preeclampsia in a previous pregnancy,\n   2. gestational diabetes in a previous pregnancy,\n   3. any documentation of fetal growth restriction or low birth weight in a prior pregnancy,\n   4. preterm birth in a previous pregnancy,\n   5. known multifetal gestation at enrollment,\n   6. chronic hypertension,\n   7. pregestational diabetes,\n   8. kidney disease,\n   9. systemic lupus erythematosus,\n   10. nulliparity,\n   11. pre-pregnancy body mass index \\>30,\n   12. family history of preeclampsia (i.e., mother or sister),\n   13. Black persons (due to social, not biological reasons),\n   14. Maternal age 35 years or older,\n   15. lower income (will be determined by qualification of public health insurance),\n   16. conceived with fertility treatment (including in vitro fertilization, ovulation induction, or intrauterine insemination),\n   17. history of one or more prior pregnancy losses \\<20 weeks gestation,\n   18. history of stillbirth in a prior pregnancy,\n   19. An interval of greater than 10 years since the last pregnancy.\n\nExclusion Criteria\n\n1. Known allergies to aspirin or non-steroidal anti-inflammatory agents (NSAID);\n2. Clinical indication for anticoagulant therapy, including prior or current thrombosis, antiphospholipid syndrome, or known major thrombophilia;\n3. Clinical indication for chronic use of NSAIDS during pregnancy;\n4. Medical contraindication to aspirin therapy, including untreated uncontrolled asthma, untreated symptomatic nasal polyps, bleeding disorders, or history of gastrointestinal ulcer.\n5. Patients with pelvic pain or bleeding who require urgent care (i.e., active vaginal bleeding greater than or equal to expected menses, open cervical os suggesting active miscarriage or severe pain requiring evaluation for ectopic pregnancy)",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 1150,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Aspirin 162 mg",
+      "Aspirin 81mg"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-20",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Pennsylvania",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": "45 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06408181",
+    "official_title": "APPLE: Aspirin to Prevent Pregnancy Loss and Preeclampsia",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE3"
+    ],
+    "primary_completion_date": "2029-06",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "FEMALE",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06408181",
+    "start_date": "2024-06-12",
+    "study_first_posted_at": "2024-05-10",
+    "study_type": "INTERVENTIONAL"
+  }
+}

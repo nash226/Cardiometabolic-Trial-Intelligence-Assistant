@@ -1,0 +1,378 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003240",
+          "term": "Connective Tissue Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D001327",
+          "term": "Autoimmune Diseases"
+        },
+        {
+          "id": "D007154",
+          "term": "Immune System Diseases"
+        },
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008180",
+          "term": "Lupus Erythematosus, Systemic"
+        },
+        {
+          "id": "D000081029",
+          "term": "Pulmonary Arterial Hypertension"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D058846",
+          "term": "Antibodies, Monoclonal, Murine-Derived"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000069283",
+          "term": "Rituximab"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Rituximab will be administered as two IV infusions of 1000 mg each, given two weeks apart at Day 0 and Week 2. All subjects will receive 40 mg of prednisone orally the night before and morning of each infusion with diphenhydramine and acetaminophen orally thirty to sixty minutes prior to each infusion of rituximab. Subjects will remain on their baseline standard medical regimen.",
+          "interventionNames": [
+            "Drug: Rituximab"
+          ],
+          "label": "Rituximab group",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Rituximab group"
+          ],
+          "description": "Rituximab will be administered as two IV infusions of 1000 mg each, given two weeks apart at Day 0 and Week 2. All subjects will receive 40 mg of prednisone orally the night before and morning of each infusion with diphenhydramine and acetaminophen orally thirty to sixty minutes prior to each infusion of rituximab. Subjects will remain on their baseline standard medical regimen.",
+          "name": "Rituximab",
+          "otherNames": [
+            "Hanlikang"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Systemic Lupus Erythematosus",
+        "Pulmonary Arterial Hypertension"
+      ],
+      "keywords": [
+        "anti-CD20 antibodies",
+        "Systemic Lupus Erythematosus",
+        "Pulmonary Arterial Hypertension",
+        "multi-omics"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mengtao.li@cstar.org.cn",
+          "name": "Mengtao Li, Prof",
+          "phone": "86-10-69159958",
+          "role": "CONTACT"
+        },
+        {
+          "email": "54dingyufang@163.com",
+          "name": "Yufang Ding, MD",
+          "phone": "86-10-69159958",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "name": "Junyan Qian, MD",
+              "phone": "86-10-69159958",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yufang Ding, MD",
+              "phone": "86-10-69159958",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Peking Union Medical College Hospital",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "RECRUITING",
+          "zip": "100730"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Peking Union Medical College Hospital",
+          "name": "Mengtao Li, Prof",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective, single-arm, single-center, explorative clinical trial to evaluate the effect of Rituximab on disease progression in subjects with SLE-PAH receiving concurrent stable-dose standard medical therapy. The study will focus on assessment of clinical response and safety measures longitudinally. In addition, the biomarker of treatment efficacy with Rituximab and pathogenic autoantibody response in this disease will be investigated.",
+      "detailedDescription": "This is a prospective, single-arm, single-center, explorative clinical trial to evaluate the effect of Rituximab on disease progression in subjects with SLE-PAH receiving concurrent stable-dose standard medical therapy with a prostanoid, endothelin receptor antagonist, phosphodiesterase 5 (PDE-5) inhibitor, and/or guanylate cyclase stimulators.\n\nObjective. The study will focus on assessment of clinical response and safety measures longitudinally.The primary objective of this study is to explore the safety and efficacy of Rituximab in patients with SLE-PAH. In addition, the biomarker of treatment efficacy with Rituximab and pathogenic autoantibody response in this disease will be investigated.\n\nStudy population. Subjects with SLE-PAH with mean pulmonary artery pressure \u226525mmHg, pulmonary artery wedge pressure \u226415mmHg, and pulmonary vascular resistance \\> 3WU as measured by right heart catheterization will be enrolled. The diagnosis of SLE-PAH should be confirmed by a rheumatologist experienced in the diagnosis and treatment of systemic lupus erythematosus in conjunction with a cardiologist specializing in management of PAH. Both specialists will be part of the study team at each site.\n\nTreatment. Rituximab will be administered as two IV infusions of 1000 mg each, given two weeks apart at Day 0 and Week 2. All subjects will receive 40 mg of prednisone orally the night before and morning of each infusion with diphenhydramine and acetaminophen orally thirty to sixty minutes prior to each infusion of rituximab. Subjects will remain on their baseline standard medical regimen.\n\nFifty eligible subjects will be accrued. Each potential study subject will provide written informed consent prior to screening procedures. All inclusion and exclusion criteria must be met at time of recruitment prior to receipt of the first dose of rituximab (Day 0, Treatment Initiation).\n\nClinical assessments and sample collection will occur regularly through Week 24 with telephone follow-up conducted intermittently. The peripheral proteome, bulk-RNA sequencing, whole exome sequencing, cytokine profile, and T/B cell subsets will be assessed in 0 and Week 24. During this study, AEs and SAEs will be assessed, providing the subject has not withdrawn consent, to capture any infectious event \u2265 Grade 3 using the National Cancer Institute-Common Terminology Criteria for Adverse Events (NCI-CTCAE). No additional study-related data will be collected.\n\nThe primary efficacy endpoint is the change in pulmonary vascular resistance (PVR) from baseline to 24 weeks after treatment initiation. Hemodynamic measures will be assessed at baseline and Week 24, contributing to the understanding of the relationship between PVR and clinical endpoints. Time to clinical worsening will be assessed as a secondary outcome measure through Week 24, contributing to the understanding of the relationship between PVR and clinical endpoints. Initiation of new therapy due to disease worsening prior to Week 24 will prompt an endpoint visit and right heart catheterization prior to initiation of the new therapy. The mechanistic study objective is to identify biomarkers which correlate with treatment response as measured by exercise capacity (6MWD) and PVR (right heart catheterization). Proteomics, whole exome sequencing, cytokine profile,TB cell subsets, and bulk-RNA sequencing will be measured before and after rituximab treatment. The other mechanistic objective is to determine if the biomarkers anti-U1 RNP, anti-cardiolipin, and other autoantibodies, and quantitative immunoglobulin levels, including IgG subclasses, correlate with treatment response as measured by PVR (right heart catheterization).\n\nThe total duration of the study is anticipated to be approximately 3 years."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "single-arm, all patients will receive anti-CD20 antibodies.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\. Subject has provided written informed consent.\n* 2\\. Subject must be between the ages of 18 and 65, inclusive at the time of recruitment\n* 3\\. Clinical diagnosis of systemic lupus erythematosus. Diagnosis of SLE-PAH within the past 5 years, with a mean pulmonary arterial pressure (mPAP) of \u2265 25 mmHg, PAWP \u226415mmHg, mean PVR of \\> 3 Wood units at entry.\n* 4\\. WHO Functional Class II, III, or IV.\n* 5\\. Subjects must have been treated with background medical therapy for PAH (prostanoid, endothelin receptor antagonist, PDE-5 inhibitor, and/or guanylate cyclase stimulators) for a minimum of 8 weeks and have been on stable dose(s) of those medical therapy(ies) for at least 4 weeks prior to randomization with no expectation of change for 24 weeks after randomization.\n\nExclusion Criteria:\n\n* 1\\. Treatment with immunocompromising biologic agents (including, but not limited to TNF inhibitors, anakinra, abatacept, and tocilizumab) within 4 weeks prior to treatment initiation or treatment with infliximab within 8 weeks prior to treatment initiation.\n* 2\\. SLE combined with important organ damage endangers life:\n\n  1. Neuropsychiatric lupus with high risk such as status epilepticus;\n  2. Refractory thrombocytopenic purpura has a clear bleeding tendency;\n  3. Pulmonary alveolar hemorrhage leads to respiratory failure;\n* 3\\. Uncontrolled infection;\n* 4\\. Severe organ dysfunction:\n\n  1. Patients with moderate or severe liver function impairment (Child-Pugh grade B and C);\n  2. Patients with left ventricular dysfunction (left ventricular ejection fraction\\<45%);\n* 5\\. Other diseases are limited to completing a 6-minute walking test: angina pectoris, vascular, musculoskeletal lesions, etc\n* 6\\. Abnormal laboratory test: platelet\\<100 \u00d7 109/L, or hemoglobin\\<9 g/dL, or white blood cell count\\<3 \u00d7 109/L, or alanine aminotransferase (ALT)/aspartate aminotransferase (AST) greater than 1.5 times the upper limit of normal value, or total bilirubin and blood lipids greater than 2 times the upper limit of normal value\n* 7\\. Persistent hypotension, i.e. systolic blood pressure (SBP)\\<90 mmHg\n* 8\\. PAH caused by any reason other than SLE: other rheumatic diseases (such as SSc, rheumatoid arthritis, dermatomyositis, etc.); Portal hypertension, hereditary hemorrhagic telangiectasia, etc; Congenital heart disease; Suspicious drugs and poisons;\n* 9\\. Chronic hypoxic disease related pulmonary hypertension: moderate or severe obstructive pulmonary disease: FEV1\\<55%; Moderate or severe restrictive pulmonary disease: TLC\\<60%;\n* 10\\. Chronic thromboembolic pulmonary hypertension: Pulmonary ventilation/perfusion imaging indicates moderate to high suspicion of pulmonary thromboembolism;\n* 11\\. Existing infections or uncontrollable infections that require antibiotic or antiviral treatment;\n* 12\\. Women who are breastfeeding or pregnant or who plan to become pregnant during the study;\n* 13\\. History of malignant tumors in the past 5 years\n* 14\\. Mental, addictive, or other illnesses that restrict patients from providing informed consent or complying with research requirements;\n* 15\\. Any condition or treatment that the investigator believes puts the subject at an unacceptable risk as a test participant.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Anti-CD20 Antibodies for Treatment of SLE-PAH",
+      "nctId": "NCT05828147",
+      "officialTitle": "Efficacy and Mechanism of Anti-CD20 Antibodies in Systemic Lupus Erythematosus Associated Pulmonary Arterial Hypertension Based on Multi Omics Studies",
+      "orgStudyIdInfo": {
+        "id": "CSTAR-K2761"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Chinese SLE Treatment And Research Group"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "open access",
+      "description": "study protocol and statistical analysis plan",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "2025.12-2027.12"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "PVR as assessed by right heart catheterization, the gold standard method to assess cardiopulmonary haemodynamics. Standardized Fick-based pulmonary vascular resistance (PVRf, in Woods Units) are calculated as follows: PVR = TPG / CO, where TPG = Transpulmonary Gradient (mmHg), CO = Cardiac Output (L/min)",
+          "measure": "pulmonary vascular resistance (PVR)",
+          "timeFrame": "0-24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The amount of change in 6-minute walking distance (6MWD) from baseline to 24 weeks to evaluate changes in athletic ability",
+          "measure": "6MWD",
+          "timeFrame": "0-24 weeks"
+        },
+        {
+          "description": "Changes in Right Atrial Pressure (RAP) measured by Right Heart Catheter (RHC) from baseline to 24 weeks. the right atrial (RA) pressure waveform reflects both venous return to the right atrium during ventricular systole and right ventricular end-diastolic pressure. Normal RA pressures range from 0 to 7 mmHg",
+          "measure": "Right atrium Pressure (RAP)",
+          "timeFrame": "0-24 weeks"
+        },
+        {
+          "description": "Changes in Cardiac Index (CI) measured by Right Heart Catheter (RHC) from baseline to 24 weeks. Cardiac Index = Cardiac Output / Body Surface Area. The pulmonary artery catheter (PAC) measures the cardiac output (CO) via either the indicator thermodilution method or the Fick method. Normal hemodynamic measures for CI are 2.8 to 4.2 L/min/m2",
+          "measure": "Cardiac Index (CI)",
+          "timeFrame": "0-24 weeks"
+        },
+        {
+          "description": "clinical worsening: includes the first occurrence of any of the following: death, hospitalization due to PAH, increased PAH targeted drugs, deterioration of 6MWD\\>20%, and deterioration of WHO cardiac function grading.",
+          "measure": "Clinical worsening",
+          "timeFrame": "0-24 weeks"
+        },
+        {
+          "description": "Changes in serological indicators (BNP/NT proBNP) from baseline to 24 weeks. Trending BNP levels can be a useful component of globally assessing the patient's clinical course and monitoring response to treatment. BNP and N-terminal pro-BNP (NT-proBNP) are biomarkers that are commonly used to assess severity and monitor response to therapy in patients with heart failure.",
+          "measure": "BNP/NT proBNP",
+          "timeFrame": "0-24 weeks"
+        },
+        {
+          "description": "Changes in patients' quality of life as assessed by short form 36 (SF-36) from baseline to 24 and 48 weeks. Short-Form 36 (SF-36) is a self-report health-related quality-of-life (HRQOL) questionnaire, widely used in dialysis patients. It consists of physical and mental component scores (PCS/MCS), ranging from 0 to 100.",
+          "measure": "Patients' quality of life",
+          "timeFrame": "0-24 weeks"
+        },
+        {
+          "description": "Changes in the SLE Disease Activity Index (SLEDAI) of patients from baseline to 24 weeks. The Systemic Lupus Erythematosus Disease Activity Index-2K (SLEDAI-2K) is a scoring systems for global disease activity, ranging from 0 to105 points. SLEDAI includes 9 modules: neurological involvement, vascular involvement, kidney involvement, musculoskeletal involvement, serosal involvement, skin involvement, immunological abnormalities, systemic symptoms, and hematological involvement.",
+          "measure": "SLEDAI",
+          "timeFrame": "0-24 weeks"
+        },
+        {
+          "description": "The proportion of patients who met the low risk stratification of the 2022 ESC/ERS pulmonary hypertension guidelines within 24 weeks",
+          "measure": "low-risk stratification",
+          "timeFrame": "0-24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Kiriakidou M, Ching CL. Systemic Lupus Erythematosus. Ann Intern Med. 2020 Jun 2;172(11):ITC81-ITC96. doi: 10.7326/AITC202006020.",
+          "pmid": "32479157",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Li M, Zhang W, Leng X, Li Z, Ye Z, Li C, Li X, Zhu P, Wang Z, Zheng Y, Li X, Zhang M, Zhang F, Zhao Y, Zeng X; CSTAR co-authors. Chinese SLE Treatment and Research group (CSTAR) registry: I. Major clinical characteristics of Chinese patients with systemic lupus erythematosus. Lupus. 2013 Oct;22(11):1192-9. doi: 10.1177/0961203313499086. Epub 2013 Aug 20.",
+          "pmid": "23963101",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Qian J, Li M, Zhang X, Wang Q, Zhao J, Tian Z, Wei W, Zuo X, Zhang M, Zhu P, Ye S, Zhang W, Zheng Y, Qi W, Li Y, Zhang Z, Ding F, Gu J, Liu Y, Wang Y, Zeng X; following investigators were collaborators in the CSTAR-PAH study:. Long-term prognosis of patients with systemic lupus erythematosus-associated pulmonary arterial hypertension: CSTAR-PAH cohort study. Eur Respir J. 2019 Feb 14;53(2):1800081. doi: 10.1183/13993003.00081-2018. Print 2019 Feb.",
+          "pmid": "30635295",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gomez Mendez LM, Cascino MD, Garg J, Katsumoto TR, Brakeman P, Dall'Era M, Looney RJ, Rovin B, Dragone L, Brunetta P. Peripheral Blood B Cell Depletion after Rituximab and Complete Response in Lupus Nephritis. Clin J Am Soc Nephrol. 2018 Oct 8;13(10):1502-1509. doi: 10.2215/CJN.01070118. Epub 2018 Aug 8.",
+          "pmid": "30089664",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Dorfmuller P, Perros F, Balabanian K, Humbert M. Inflammation in pulmonary arterial hypertension. Eur Respir J. 2003 Aug;22(2):358-63. doi: 10.1183/09031936.03.00038903.",
+          "pmid": "12952274",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Humbert M, Kovacs G, Hoeper MM, Badagliacca R, Berger RMF, Brida M, Carlsen J, Coats AJS, Escribano-Subias P, Ferrari P, Ferreira DS, Ghofrani HA, Giannakoulas G, Kiely DG, Mayer E, Meszaros G, Nagavci B, Olsson KM, Pepke-Zaba J, Quint JK, Radegran G, Simonneau G, Sitbon O, Tonia T, Toshner M, Vachiery JL, Vonk Noordegraaf A, Delcroix M, Rosenkranz S; ESC/ERS Scientific Document Group. 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Respir J. 2023 Jan 6;61(1):2200879. doi: 10.1183/13993003.00879-2022. Print 2023 Jan. No abstract available.",
+          "pmid": "36028254",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Zamanian RT, Badesch D, Chung L, Domsic RT, Medsger T, Pinckney A, Keyes-Elstein L, D'Aveta C, Spychala M, White RJ, Hassoun PM, Torres F, Sweatt AJ, Molitor JA, Khanna D, Maecker H, Welch B, Goldmuntz E, Nicolls MR. Safety and Efficacy of B-Cell Depletion with Rituximab for the Treatment of Systemic Sclerosis-associated Pulmonary Arterial Hypertension: A Multicenter, Double-Blind, Randomized, Placebo-controlled Trial. Am J Respir Crit Care Med. 2021 Jul 15;204(2):209-221. doi: 10.1164/rccm.202009-3481OC.",
+          "pmid": "33651671",
+          "type": "RESULT"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Chinese SLE Treatment And Research Group"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-06",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-05-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-02",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-03-28",
+      "studyFirstSubmitQcDate": "2023-04-13"
+    }
+  }
+}

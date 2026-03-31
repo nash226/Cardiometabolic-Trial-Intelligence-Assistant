@@ -1,0 +1,305 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008052",
+          "term": "Lipid Metabolism, Inborn Errors"
+        },
+        {
+          "id": "D008661",
+          "term": "Metabolism, Inborn Errors"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D006951",
+          "term": "Hyperlipoproteinemias"
+        },
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006938",
+          "term": "Hyperlipoproteinemia Type II"
+        },
+        {
+          "id": "D006937",
+          "term": "Hypercholesterolemia"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D037001",
+          "term": "Directive Counseling"
+        },
+        {
+          "id": "D003376",
+          "term": "Counseling"
+        },
+        {
+          "id": "D008605",
+          "term": "Mental Health Services"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        },
+        {
+          "id": "D006296",
+          "term": "Health Services"
+        },
+        {
+          "id": "D005159",
+          "term": "Health Care Facilities Workforce and Services"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D062405",
+          "term": "Motivational Interviewing"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Motivational interview arm will receive a message to schedule a follow up motivational interview via telephone or video after the baseline survey as well as follow up surveys.",
+          "interventionNames": [
+            "Behavioral: Motivational interview (MI)"
+          ],
+          "label": "Motivational Interview",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Usual care arm will receive baseline and follow up surveys only.",
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Motivational Interview"
+          ],
+          "description": "The MI intervention is adapted from the CHEERS study intervention (M Health Fairview) found to be effective in promoting lipid screening in patients at increased risk for FH.\n\nWithin one month of completion of the baseline survey, a study coordinator, who received training in motivational interview integrity, will conduct a 20-40-minute (depending on participant needs) telephone or virtual (zoom) interview with participants randomized to this arm. Participants will be assessed on their readiness to get their cholesterol checked and discuss with family members the risk of FH.",
+          "name": "Motivational interview (MI)",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Familial Hypercholesterolemia",
+        "Cholesterol, Elevated",
+        "Genetic Disease"
+      ],
+      "keywords": [
+        "cholesterol",
+        "motivational interview",
+        "survey",
+        "cascade screening"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Duluth",
+          "country": "United States",
+          "facility": "Aspirus St. Luke's Hospital",
+          "geoPoint": {
+            "lat": 46.78327,
+            "lon": -92.10658
+          },
+          "state": "Minnesota",
+          "zip": "55805"
+        },
+        {
+          "city": "Duluth",
+          "country": "United States",
+          "facility": "Essentia Health",
+          "geoPoint": {
+            "lat": 46.78327,
+            "lon": -92.10658
+          },
+          "state": "Minnesota",
+          "zip": "55805"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The overall goal of this study is to promote awareness of Familial Hypercholesterolemia (FH). The investigators aim to enroll patients with suspected FH into the study and will randomize them to receive usual care or motivational interview. Primary study outcomes include knowledge of FH, as well as clinical and patient-reported outcomes. This study aims to promote optimal disease management and improve outcomes of FH patients.",
+      "detailedDescription": "This is a randomized 2-arm study designed to examine the impact of a personalized remote intervention that includes evidence-based risk communication and behavior change techniques with navigation. Patients who meet the inclusion criteria from both Essentia Health (Site A) and Aspirus St. Luke's Hospital (Site B) will be invited to complete the baseline survey. Participants will be randomized to one of two study arms: usual care (UC) and motivational interview (MI). Participant assignment occurs after completion of the baseline survey. Participants randomized to receive a MI will be contacted via telephone or email to schedule a date and time when they are available to receive a video or phone call from the study coordinator. During the MI, participants will be assessed on their readiness to communicate risk with family members. A letter will be sent to the participants physician for notice of the participation in the study. A follow-up survey will be sent to participants approximately 6 months after completion of the baseline survey, in both arms of the study. The study arms will be compared with regard to awareness and treatment of FH (aim 1), as well as the uptake of cascade screening in first- and second-degree relatives (aim 2)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A baseline survey will be sent to eligible participants age 2-75 years. Participants age 18-75 years who complete the survey will be randomly assigned to receive a motivational interview intervention or usual care.\n\nIf an eligible patient is under the age of 18 years, they will not be eligible to receive a motivational interview. Therefore, the patient's parent or legal guardian will be the primary target for participation in the survey and will be asked to complete the survey from their own perspective. The patient's parent will be recognized as the \"participant\" in this study and will then be eligible for randomization to the MI arm.\n\nA follow up survey will be sent to all participants approximately 6 months after completion of the baseline survey.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "SCREENING"
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 2-75 years\n* patients with existing clinical diagnosis or suspected FH\n* known genetic mutation of FH\n* patients with an initial (pretreatment) LDL level \\>190 mg/dL or total cholesterol \\>300 mg/dL (age \\>19 years) or LDL-c \\> 160mg/dL or total cholesterol \\>260 mg/dL in children age 2-19 years\n* patients currently taking a lipid-lowering medication and have an LDL \\>124 mg/dL or total cholesterol \\>195 mg/dL\n* capable of providing informed consent\n* Patients should reside in Minnesota, Wisconsin or North Dakota.\n\nExclusion Criteria:\n\n* Lack of research authorization\n* unable to provide informed consent (including non-English speaking individuals)\n* known medical condition other than FH that is thought to contribute to hyperlipidemia (i.e., untreated hypothyroidism, nephrotic syndrome, cholestasis hypopituitarism)\n* Pregnant women and prisoners will also be excluded.",
+      "healthyVolunteers": true,
+      "maximumAge": "75 Years",
+      "minimumAge": "2 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ID-FH",
+      "briefTitle": "Improved Diagnosis of Familial Hypercholesterolemia Across the Northland (ID-FH)",
+      "nctId": "NCT05238519",
+      "officialTitle": "Improved Diagnosis of Familial Hypercholesterolemia Across the Northland (ID-FH)",
+      "orgStudyIdInfo": {
+        "id": "EH21700"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Essentia Health"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Self-report of knowledge of personal history of FH will be assessed at baseline and follow up",
+          "measure": "Knowledge of familial hypercholesterolemia",
+          "timeFrame": "12 months post intervention"
+        },
+        {
+          "description": "Cascade screening will be assessed using self-report of either a) discussion about lipid screening with at least one first-degree relative or b) discussion about genetic testing for FH (in the patient's first-degree relatives) within 6 months of the intervention",
+          "measure": "Cascade screening of 1st degree family members",
+          "timeFrame": "6 months post intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Percent change in proportion of participants with LDL\\<100 from pre-enrollment LDL-c to follow up.",
+          "measure": "Proportion of participants with LDL<100",
+          "timeFrame": "12 months post enrollment"
+        },
+        {
+          "description": "Percent change in proportion of participants with LDL\\<70 from pre-enrollment LDL-c to follow up.",
+          "measure": "Proportion of participants with LDL<70",
+          "timeFrame": "12 months post enrollment"
+        },
+        {
+          "description": "Compared absolute and percent lowering of LDL from pre-enrollment LDL-c to follow up.",
+          "measure": "Absolute change in LDL from baseline to follow up",
+          "timeFrame": "12 months post enrollment"
+        },
+        {
+          "description": "Self-report of completion of a genetic test for familial hypercholesterolemia within 12 months of enrollment",
+          "measure": "Proportion of patients with self-report of genetic testing",
+          "timeFrame": "12 months post enrollment"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "UNKNOWN",
+          "name": "WHITESIDE Institute for Clinical Research"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Aspirus St. Luke's Hospital"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Essentia Health"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-15",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-11-06",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2022-02-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-14",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-02-03",
+      "studyFirstSubmitQcDate": "2022-02-03"
+    }
+  }
+}

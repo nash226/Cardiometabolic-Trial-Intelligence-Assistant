@@ -1,0 +1,367 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D009202",
+          "term": "Cardiomyopathies"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D048909",
+          "term": "Diabetes Complications"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D058065",
+          "term": "Diabetic Cardiomyopathies"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001713",
+          "term": "Biphenyl Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D007093",
+          "term": "Imidazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C576501",
+          "term": "finerenone"
+        },
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        },
+        {
+          "id": "D019808",
+          "term": "Losartan"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will take a polypill containing finerenone 10 mg, empagliflozin 12.5 mg, and losartan (25, 50 mg, or 100 mg) daily.",
+          "interventionNames": [
+            "Drug: Polypill"
+          ],
+          "label": "Polypill",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will be initiated on an SGLT2i, ARB, or finerenone if they are not already on the medication class.",
+          "interventionNames": [
+            "Drug: Combined prescription of the individual medications"
+          ],
+          "label": "Combined prescription of the individual medications",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Polypill"
+          ],
+          "description": "A combination of finerenone 10 mg, empagliflozin 12.5 mg, and losartan 50 mg or 100 mg within a polycapsule.",
+          "name": "Polypill",
+          "otherNames": [
+            "(Finerenone, Empagliflozin, Losartan)"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Combined prescription of the individual medications"
+          ],
+          "description": "We will initiate participants on an ARB, SGLT2i, and Finerenone if they are not in the polypill arm.",
+          "name": "Combined prescription of the individual medications",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes",
+        "High Blood Pressure"
+      ],
+      "keywords": [
+        "Type 2 Diabetes",
+        "Diabetic Cardiomyopathy",
+        "Hypertension",
+        "Polypill"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ambarish.pandey@utsouthwestern.edu",
+          "name": "Ambarish Pandey, MD, MSCS",
+          "phone": "214-645-2101",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Dallas",
+          "contacts": [
+            {
+              "email": "ambarish.pandey@utsouthwestern.edu",
+              "name": "Ambarish Pandey, MD",
+              "phone": "214-645-9762",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "UT Southwestern Medical Center",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "75235"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "UT Southwestern",
+          "name": "Ambarish Pandey, MD, MSCS",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will investigate the utility of a polypill-based strategy for patients with type 2 diabetes mellitus and high risk of heart failure (HF), as assessed via the WATCH-DM risk score. Polypill therapy will consist of empagliflozin 12.5 mg, losartan 25, 50 or 100 mg, and finerenone 10 mg daily. The study duration is 6 months, and participants will be randomized to either polypill therapy or simultaneous prescription of the individual drugs. The primary outcome is change in peak VO2 and adherence to usual care. The investigators hypothesize that the use of a polypill is feasible and improves medication adherence and peak VO2 as compared to those receiving usual care.",
+      "detailedDescription": "Heart failure (HF) is a major cause of cardiovascular morbidity and mortality. One of the risk factors for HF is diabetes mellitus (DM). Altered glucose and lipid metabolism in DM leads to fibrosis and cardiac remodeling, ultimately causing ventricular dysfunction. While there is no consensus on the definition of \"diabetic cardiomyopathy\", broadly it can be defined as presence of pathological left ventricular hypertrophy, fibrosis and left ventricular diastolic/systolic dysfunction. A risk prediction score called \"WATCH-DM\" that includes clinical, laboratory and echocardiographic data has been developed to predict HF risk in those with type 2 DM. Every unit increase was associated with a 24% increase in relative risk of HF within 5 years. Drugs that decrease HF incidence could potentially be used in patients with Type 2 DM to alleviate HF burden. This many also improve medication adherence, which is poor for patients with polypharmacy. The rationale for the study is as follows:\n\n* Heart failure represents a major contributor to mortality, morbidity, and healthcare costs\n* Adherence to medications that prevent heart failure is low.\n* A polypill strategy is an innovative approach to heart failure prevention that also promotes adherence, especially in underserved population.\n\nThe investigators propose a single-center, open-label, pragmatic, randomized study of 200 participants with T2DM and high risk of heart failure, as determined by a WATCH-DM risk score greater than or equal to 11. Duration of follow up will be 6 months. The target population is patients receiving care at UT Southwestern Medical Center or Parkland Health for Type 2 Diabetes Mellitus and high risk of heart failure. 100 participants will receive polypill and 100 will receive simultaneous individual prescriptions.The polypill will contain empagliflozin 12.5 mg, losartan 50 or 100 mg, and finerenone 10 mg and is dosed once daily. Our primary outcome will be the change in peak VO2 during a cardiopulmonary exercise test from baseline to 6 months. Secondary outcomes will include change in urine albumin creatine ratio, adherence, which will be assessed by the Morisky Medication Adherence Score - 8 (MMAS-8), pill count at baseline, 1 month and 3 months, and 6 months."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Participants will be randomized in 1:1 fashion.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with Type 2 DM\n* History of chronic kidney disease, defined as an estimated glomerular filtration rate (eGFR) of 25 to 90 per minute per 1.73 m2 of body-surface area (stage 2 to 4 CKD) with a urinary albumin-to-creatinine ratio (with albumin measured in milligrams and creatinine measured in grams) of less than 5000\n* With either a: High risk of HF as defined by High Watch-DM score (\u226511) or Elevated natriuretic peptides or Diastolic dysfunction or left ventricular hypertrophy on echocardiography\n\nExclusion Criteria:\n\n* eGFR \\< 25\n* Congestive heart failure\n* Hyperkalemia \\> 5.0\n* Contraindication to any component of polypill\n* Pregnancy\n* Creatinine \\>2.0mg/dL in men and \\>1.8mg/dL in women\n* Inability to calculate WATCH-DM score\n* Inability to undergo exercise testing",
+      "healthyVolunteers": false,
+      "maximumAge": "100 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "PolyPreventHF",
+      "briefTitle": "Polypill for Prevention of Cardiomyopathy",
+      "nctId": "NCT06143566",
+      "officialTitle": "Polypill Strategy for Prevention of Cardiomyopathy Among Patients With Diabetes at Risk of Heart Failure",
+      "orgStudyIdInfo": {
+        "id": "STU-2023-0725"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Texas Southwestern Medical Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Assessed via the Morisky Medication Adherence Score - 8. The score ranges from 0 to 8, with 8 meaning highest adherence.",
+          "measure": "Medication Adherence",
+          "timeFrame": "Baseline, 1 month, 3 month, and 6 month"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "The ability of a polypill to improve or prevent declines in exercise capacity as measured by changes in peak oxygen uptake at exercise will be assessed.",
+          "measure": "Oxygen uptake during peak exercise (Peak VO2)",
+          "timeFrame": "Baseline, 3-month, and 6-month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The ratio of urinary albumin to creatinine will be measured.",
+          "measure": "Urine albumin to creatinine ratio",
+          "timeFrame": "Baseline, 3 month, and 6 month"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Lee MMY, McMurray JJV, Lorenzo-Almoros A, Kristensen SL, Sattar N, Jhund PS, Petrie MC. Diabetic cardiomyopathy. Heart. 2019 Feb;105(4):337-345. doi: 10.1136/heartjnl-2016-310342. Epub 2018 Oct 18. No abstract available.",
+          "pmid": "30337334",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Segar MW, Vaduganathan M, Patel KV, McGuire DK, Butler J, Fonarow GC, Basit M, Kannan V, Grodin JL, Everett B, Willett D, Berry J, Pandey A. Machine Learning to Predict the Risk of Incident Heart Failure Hospitalization Among Patients With Diabetes: The WATCH-DM Risk Score. Diabetes Care. 2019 Dec;42(12):2298-2306. doi: 10.2337/dc19-0587. Epub 2019 Sep 13.",
+          "pmid": "31519694",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Filippatos G, Anker SD, Agarwal R, Ruilope LM, Rossing P, Bakris GL, Tasto C, Joseph A, Kolkhof P, Lage A, Pitt B; FIGARO-DKD Investigators. Finerenone Reduces Risk of Incident Heart Failure in Patients With Chronic Kidney Disease and Type 2 Diabetes: Analyses From the FIGARO-DKD Trial. Circulation. 2022 Feb 8;145(6):437-447. doi: 10.1161/CIRCULATIONAHA.121.057983. Epub 2021 Nov 13.",
+          "pmid": "34775784",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Zinman B, Wanner C, Lachin JM, Fitchett D, Bluhmki E, Hantel S, Mattheus M, Devins T, Johansen OE, Woerle HJ, Broedl UC, Inzucchi SE; EMPA-REG OUTCOME Investigators. Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes. N Engl J Med. 2015 Nov 26;373(22):2117-28. doi: 10.1056/NEJMoa1504720. Epub 2015 Sep 17.",
+          "pmid": "26378978",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Texas Southwestern Medical Center"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Texas Southwestern Medical Center",
+        "investigatorFullName": "Ambarish Pandey",
+        "investigatorTitle": "Associate Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-12-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-12",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-09-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-03-11",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-06",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-11-16",
+      "studyFirstSubmitQcDate": "2023-11-16"
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008052",
+          "term": "Lipid Metabolism, Inborn Errors"
+        },
+        {
+          "id": "D008661",
+          "term": "Metabolism, Inborn Errors"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D006951",
+          "term": "Hyperlipoproteinemias"
+        },
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006938",
+          "term": "Hyperlipoproteinemia Type II"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "ARO-DIMERPA in single or multiple ascending doses",
+          "interventionNames": [
+            "Drug: ARO-DIMERPA"
+          ],
+          "label": "ARO-DIMERPA",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo (normal saline, 0.9%) in single or multiple matching doses",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "ARO-DIMERPA"
+          ],
+          "description": "Subcutaneous (SC) injection",
+          "name": "ARO-DIMERPA",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Calculated volume to match active treatment by SC injection",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hyperlipidemia; Mixed"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ARODIMERPA-1001@arrowheadpharma.com",
+          "name": "Medical Monitor",
+          "phone": "626-304-3400",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Christchurch",
+          "country": "New Zealand",
+          "facility": "Research Site 1",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          },
+          "status": "RECRUITING",
+          "zip": "8011"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Study to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD), and effects on low-density lipoprotein cholesterol (LDL-C) and triglycerides (TGs) of single-dose ARO-DIMERPA and multiple doses of ARO-DIMERPA in adult participants with mixed hyperlipidemia."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 78,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willing to follow diet counseling as per Investigator judgment based on local standard of care\n* Specific fasting TG, LDL-C, and non-high density lipoprotein cholesterol levels at Screening\n* Participants of childbearing potential must agree to use highly effective contraception in addition to a condom during the study and for at least 90 days following the end of the study or last dose of study drug, whichever is later; participants must not donate sperm or eggs during the study and for at least 90 days following the end of the study or last dose of study drug whichever is later\n\nExclusion Criteria:\n\n* Current use or use within last 365 days or within 5-half-lives before Day 1 based on plasma PK, whichever is longer, of any hepatocyte-targeted siRNA\n* Current use or use within last 90 days or within 5-half-lives before Day 1 based on plasma PK, whichever is longer, of any antisense oligonucleotide therapy\n* Current use or use within last 60 days from Day 1 of any PCSK9 inhibitor monoclonal antibodies (eg, evolocumab or alirocumab)\n* Uncontrolled hypertension\n* History of bleeding diathesis or coagulopathy\n* Current diagnosis of nephrotic syndrome\n\nNote: Additional inclusion/exclusion criteria may apply per protocol.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Study of ARO-DIMERPA in Adult Participants With Mixed Hyperlipidemia",
+      "nctId": "NCT07223658",
+      "officialTitle": "Phase 1/2a, Double-blind, Placebo-controlled, Single and Multiple Dose-escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamic Effects of ARO-DIMERPA in Adult Subjects With Mixed Hyperlipidemia",
+      "orgStudyIdInfo": {
+        "id": "ARODIMERPA-1001"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Arrowhead Pharmaceuticals"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants with Treatment-Emergent Adverse Events (TEAEs)",
+          "timeFrame": "Up to Week 36"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percent Change from Baseline in Fasting LDL-C",
+          "timeFrame": "Baseline to Week 36"
+        },
+        {
+          "measure": "Percent Change from Baseline in Fasting TGs",
+          "timeFrame": "Baseline to Week 36"
+        },
+        {
+          "measure": "Percent Change from Baseline in Serum apoC-III",
+          "timeFrame": "Baseline to Week 36"
+        },
+        {
+          "measure": "Percent Change from Baseline in Serum PCSK9",
+          "timeFrame": "Baseline to Week 36"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Maximum Observed Plasma Concentration (Cmax)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Time to Maximum Plasma Concentration (Tmax)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Area Under the Plasma Concentration (AUC) Versus Time Curve From Time Zero to 24 Hours (AUC0-24)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: AUC Versus Time Curve From Time Zero to the Last Quantifiable Plasma Concentration (AUC0-t)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: AUC Versus Time Curve From Time Zero Extrapolated to Infinity (AUC0-inf)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Apparent Terminal Elimination Half-life (t1/2)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Apparent Systemic Clearance (CL/F)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Apparent Terminal-phase Volume of Distribution (Vz/F)",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARODIMERPA: Recovery of Unchanged Drug (Ae) in Urine From Time Zero to 24 Hours Postdose",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Percentage of Administered Drug Recovered (Fe) in Urine From Time Zero to 24 Hours Postdose",
+          "timeFrame": "Through 24 hours postdose"
+        },
+        {
+          "measure": "PK of ARO-DIMERPA: Renal Clearance (CLR)",
+          "timeFrame": "Through 24 hours postdose"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Arrowhead Pharmaceuticals"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2025-11-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-10-30",
+      "studyFirstSubmitQcDate": "2025-10-30"
+    }
+  }
+}

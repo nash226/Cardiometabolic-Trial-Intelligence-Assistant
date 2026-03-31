@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07216482:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07216482\nBrief title: A Clinical Study of Enlicitide in Participants With High Cholesterol (MK-0616-037)\nOfficial title: A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Enlicitide Decanoate Coadministered With Rosuvastatin in Adults With Hyperlipidemia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT07216482"
+    },
+    {
+      "chunk_id": "NCT07216482:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hyperlipidemia\nIntervention labels: Enlicitide; Rosuvastatin; Placebo for Enlicitide; Placebo for Rosuvastatin\nDrug class labels: \nArms: Enlicitide; Enlicitide + Rosuvastatin; Rosuvastatin; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT07216482"
+    },
+    {
+      "chunk_id": "NCT07216482:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Researchers designed a study medicine called enlicitide to lower low-density lipoprotein cholesterol (LDL-C). In this study, researchers want to learn about giving enlicitide with another medicine called rosuvastatin. Rosuvastatin is a standard (usual) treatment to lower LDL-C.\n\nThe goal of this study is to learn if enlicitide given with rosuvastatin works better than placebo on lowering LDL-C in a person's blood. A placebo looks like the study medicine but has no study medicine in it. Using a placebo helps researchers better understand the effects of a study medicine.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 93,
+      "trial_nct_id": "NCT07216482"
+    },
+    {
+      "chunk_id": "NCT07216482:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 64 Years\nAge groups: ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n-Has either not received lipid-lowering therapy (LLT) or has not received certain LLTs within a specified time period prior to the study.\n\nExclusion Criteria:\n\n* Has a history of homozygous familial hypercholesterolemia (FH), compound heterozygous FH, or double heterozygous FH.\n* Had a heart failure hospitalization within 3 months before Screening.\n* Is unwilling to take a statin, and/or has a history of statin-associated muscle symptoms or other statin-related AEs to any statin and dose, and/or is known to be intolerant to 1 or more statins.\n* Has a history of any of the following conditions: (1) Myopathy, myositis, rhabdomyolysis, or unexplained muscle pain; (2) Muscular or neuromuscular disease; (3) Neuropathy, fibromyalgia, or chronic pain; or (4) Has a personal or family history of hereditary muscular disorders.\n* Has active or chronic hepatobiliary or hepatic disease.\n* Has known human immunodeficiency virus (HIV) infection.\n* Is undergoing or previously underwent an LDL-C apheresis program within 3 months before Screening or plans to initiate an LDL-C apheresis program.\n* Has received any medication that may interact with rosuvastatin within 5 half-lives prior to Screening or is planning to initiate such treatment.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 209,
+      "trial_nct_id": "NCT07216482"
+    },
+    {
+      "chunk_id": "NCT07216482:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Mean Percent Change from Baseline in LDL-C at Week 8 (Enlicitide + Rosuvastatin Versus Placebo) | time_frame=Baseline and Week 8 | description=Blood samples will be collected at baseline and at Week 8 to assess mean percent change in LDL-C between participants treated with enlicitide and rosuvastatin versus placebo.\ntype=secondary | measure=Mean Percent Change from Baseline in LDL-C at Week 8 | time_frame=Baseline and Week 8 | description=Blood samples will be collected at baseline and at Week 8 to assess mean percent change in LDL-C.\ntype=secondary | measure=Mean Percent Change from Baseline in Apolipoprotein B (ApoB) at Week 8 | time_frame=Baseline and Week 8 | description=Blood samples will be collected at baseline and at Week 8 to assess mean percent change in ApoB.\ntype=secondary | measure=Number of Participants with One or More Adverse Events (AEs) | time_frame=Up to approximately 20 weeks | description=An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention.\ntype=secondary | measure=Number of Participants who Discontinue Study Drug Due to One or More AEs | time_frame=Up to approximately 12 weeks | description=An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention.\ntype=secondary | measure=Mean Percent Change from Baseline in LDL-C at Week 12 | time_frame=Baseline and Week 12 | description=Blood samples will be collected at baseline and at Week 12 to assess mean percent change in LDL-C.\ntype=secondary | measure=Mean Percent Change from Baseline in Non-High-Density Lipoprotein Cholesterol (non-HDL-C) at Week 8 | time_frame=Baseline and Week 8 | description=Blood samples will be collected at baseline and at Week 8 to assess mean percent change in non-HDL-C.\ntype=secondary | measure=Percent Change from Baseline in Lipoprotein (a) (Lp[a]) at Week 8 | time_frame=Baseline and Week 8 | description=Blood samples will be collected at baseline and at Week 8 to assess percent change in Lp(a).\ntype=secondary | measure=Percentage of Participants with LDL-C <70 mg/dL and \u226550% Reduction from Baseline at Week 8 | time_frame=Baseline and Week 8 | description=Blood samples will be collected at baseline and at Week 8 to assess the percentage of participants who have LDL-C \\<70 mg/dL and \u226550% reduction from baseline.\ntype=secondary | measure=Percentage of Participants with LDL-C <55 mg/dL and \u226550% Reduction from Baseline at Week 8 | time_frame=Baseline and Week 8 | description=Blood samples will be collected at baseline and at Week 8 to assess the percentage of participants who have LDL-C \\<55 mg/dL and \u226550% reduction from baseline.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 434,
+      "trial_nct_id": "NCT07216482"
+    },
+    {
+      "chunk_id": "NCT07216482:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-11-11\nPrimary completion date: 2026-12-02\nCompletion date: 2027-03-01\nStudy first posted: 2025-10-14\nResults first posted: None\nLast update posted: 2026-03-31\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07216482"
+    },
+    {
+      "chunk_id": "NCT07216482:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Merck Sharp & Dohme LLC\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT07216482"
+    }
+  ],
+  "trial_nct_id": "NCT07216482"
+}

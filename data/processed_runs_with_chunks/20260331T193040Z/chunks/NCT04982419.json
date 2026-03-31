@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04982419:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04982419\nBrief title: Remote Ischemic Preconditioning for Renal and Cardiac Protection in Congestive Heart Failure (RICH) Trial\nOfficial title: Remote Ischemic Preconditioning for Renal and Cardiac Protection in Congestive Heart Failure (RICH) Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT04982419"
+    },
+    {
+      "chunk_id": "NCT04982419:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Acute Kidney Injury; Heart Failure; Contrast Induced Nephropathy; Coronary Angiography; Percutaneous Coronary Intervention\nIntervention labels: Remote ischemic preconditioning; Sham remote ischemic conditioning\nDrug class labels: \nArms: Remote ischemic preconditioning; Sham remote ischemic preconditioning\nKeywords: Contrast-induced acute kidney injury; Congestive heart failure; Contrast induced nephropathy; Coronary angiography; Percutaneous coronary intervention; Coronary artery disease; Remote ischemic conditioning; acute coronary syndrome; Acute kidney injury; Major adverse kidney events; Ischemic preconditioning",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 71,
+      "trial_nct_id": "NCT04982419"
+    },
+    {
+      "chunk_id": "NCT04982419:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a prospective, double-blind, sham-controlled, multicenter, randomized clinical trial is to study the effects of remote ischemic preconditioning on contrast-associated acute kidney injury, functional capacity, and major adverse kidney events in in patients with congestive heart failure undergoing cardiac catheterization and/or percutaneous coronary intervention.\nDetailed description: The RICH Trial is a prospective, multicenter, randomized clinical trial to determine the effect of remote ischemic preconditioning on contrast associated acute kidney injury, and to characterize the effect of remote ischemic preconditioning on brain natriuretic peptide, functional capacity at one month, and major adverse kidney events (persistent renal dysfunction, renal replacement therapy, and death) at three months in patients with congestive heart failure with reduced left ventricular ejection fraction undergoing coronary angiography and/or percutaneous coronary intervention.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 126,
+      "trial_nct_id": "NCT04982419"
+    },
+    {
+      "chunk_id": "NCT04982419:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age 18 years\n* Diagnosis of heart failure with reduced LVEF \\<50%\n* Pre-procedure intravenous normal saline fluid restriction status\n* Society for Cardiovascular Angiography and Interventions (SCAI) AKI risk score (\\>1%)\n* Referral for coronary angiogram and/or PCI\n* Suspected stable coronary artery disease or acute coronary syndrome\n\nExclusion Criteria:\n\n* Inability to give informed consent\n* Unstable BP (SBP \\> 200 or \\<80 mmHg) at the time of enrolment\n* Upper limb peripheral arterial disease\n* Unavailability of at least one arm for RIPC/Sham-RIPC application\n* Kidney transplant\n* Renal disease requiring dialysis\n* Prior exposure to contrast media within 72hrs preceding coronary angiography\n* Pregnancy\n* Prisoner",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 130,
+      "trial_nct_id": "NCT04982419"
+    },
+    {
+      "chunk_id": "NCT04982419:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Contrast-associated acute kidney injury | time_frame=24 and 48 hours time points | description=The investigators define contrast-associated acute kidney injury as a relative increase in serum creatinine of 0.3mg/dl compared with initial creatinine at 48 hours time point after coronary angiography and/or PCI. The will obtain levels of serum creatinine at baseline, then at 24 and 48 hours time points.\ntype=secondary | measure=6 minute walk distance | time_frame=1 month | description=At one month follow-up, 6 minute walk test will be used to determine total distance walked in 6 minutes.\ntype=secondary | measure=Major adverse kidney events | time_frame=3 months | description=Persistent renal dysfunction, renal replacement therapy, and death will be assessed at 3 months (90 days) to determine major adverse kidney events (MAKE90).\ntype=secondary | measure=Brain Natriuretic Peptide (BNP) | time_frame=24 and 48 hours time points | description=BNP is a hormone that is primarily secreted from the ventricular myocardium in response to hemodynamic stimuli such as ventricular volume expansion and pressure overload. The investigators will obtain levels of serum BNP at baseline, then at 24 and 48 hours.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 178,
+      "trial_nct_id": "NCT04982419"
+    },
+    {
+      "chunk_id": "NCT04982419:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-11-01\nPrimary completion date: 2028-03-31\nCompletion date: 2029-03-31\nStudy first posted: 2021-07-29\nResults first posted: None\nLast update posted: 2025-12-15\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04982419"
+    },
+    {
+      "chunk_id": "NCT04982419:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: VA Office of Research and Development\nLead sponsor class: FED\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT04982419"
+    }
+  ],
+  "trial_nct_id": "NCT04982419"
+}

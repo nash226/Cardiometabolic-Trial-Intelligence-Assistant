@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT03471117:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT03471117\nBrief title: Pioglitazone to Reduce Sympathetic Overactivity in CKD Patients\nOfficial title: Targeting ADMA With Pioglitazone to Reduce Sympathetic Overactivity in CKD Patients\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT03471117"
+    },
+    {
+      "chunk_id": "NCT03471117:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Chronic Kidney Diseases\nIntervention labels: Pioglitazone; Placebo\nDrug class labels: \nArms: Pioglitazone; Placebo\nKeywords: blood pressure; pioglitazone; hypertension",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT03471117"
+    },
+    {
+      "chunk_id": "NCT03471117:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Chronic kidney disease (CKD) is associated with a higher risk of cardiovascular disease and death. An overactive sympathetic nervous system in CKD patients is one of the major mechanisms increasing the cardiovascular risks in this patient population. Recently, some studies have shown that a drug typically used to improve glucose control (pioglitazone) may also reduce sympathetic nerve activity and improve blood vessel function.\n\nThe goal of this study is to determine whether a short-term treatment with pioglitazone can reduce sympathetic nerve impulses throughout the body in CKD patients.\nDetailed description: Chronic Kidney Disease (CKD) is a major health problem affecting more than 26 million Americans. Notably, more patients with CKD die of cardiovascular complications than progress to dialysis. An overactive sympathetic nervous system is a well known cardiovascular risk factor present in CKD. The increase in sympathetic nerve activity (SNA) may not only contribute to hypertension, but also accelerates the progression of end organ damage that is independent of any rise in blood pressure. Indeed, elevated SNA is associated with poor prognosis and increased risk of cardiovascular morbidity and mortality. Thus, the sympathetic nervous system constitutes a primary novel drug target needed for improving cardiovascular outcomes in CKD patients. However, limited effort has been directed at identifying the mechanisms driving sympathetic overactivity in CKD and importantly, SNA remains high in these patients despite standard drug therapy including angiotensin converting enzyme inhibitors and angiotensin II receptor blockers. Thus, a better understanding of the mechanism(s) of the elevated SNA would enable us to devise more effective countermeasures and help reduce the subsequent morbidity and mortality among CKD patients. A potential signal driving SNA involves accumulation of the endogenous nitric oxide synthase inhibitor asymmetric dimethylarginine (ADMA). ADMA is elevated in CKD and is a strong, independent predictor of future cardiovascular events in these patients. Much of the work with ADMA has been correlational in nature with a focus on the well-known vascular endothelial properties of nitric oxide. However, increasing functional evidence indicates that nitric oxide is also a key signaling molecule involved in the tonic restraint of sympathetic outflow from the brainstem. Indeed, the investigators have recently demonstrated that systemic experimental inhibition of nitric oxide synthase causes sympathetic activation in healthy humans. In the current study, the investigators will target the pathophysiological nitric oxide synthase inhibition caused by elevated ADMA concentrations in CKD and its role in mediating sympathetic overactivity. Recent work has reported that thiazolidinediones, such as pioglitazone, reduce ADMA likely by upregulating dimethylarginine dimethylamino-hydrolase (DDAH), the enzyme responsible for the breakdown of ADMA. Indeed, analysis of the DDAH gene revealed the presence of a thiazolidinedione binding site, implying that thiazolidinediones can directly regulate DDAH expression and subsequently ADMA levels. Thus, thiazolidinediones may provide a promising therapy in CKD. Indeed, in a recent study, CKD patients treated with pioglitazone were less likely to reach the composite end points of cardiovascular morbidity and mortality. Importantly, this effect was independent of the level of renal impairment suggesting protective effects even in moderate CKD. However, the mechanisms for these improvements remain unclear. In this study, the investigators hypothesize that these favorable cardiovascular effects are through a lowering of ADMA and SNA. Thus, the ability of pioglitazone to reduce ADMA and SNA in CKD patients will be tested.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 544,
+      "trial_nct_id": "NCT03471117"
+    },
+    {
+      "chunk_id": "NCT03471117:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 35 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* CKD patients classified as Stage 3 and 4 of National Kidney Foundation Classification with estimated glomerular filtration rate (GFR) between 15 and 59 mL/min/1.73 m2 according to the Modification of Diet in Renal Disease (MDRD) formula based on serum creatinine, age, gender, and race.\n* Men and women 35 to 70 years of age\n\nExclusion Criteria:\n\n* Allergy to Glitazones\n* Myocardial infarction\n* Heart failure\n* Angina\n* History of kidney stones\n* Liver disease (abnormal liver enzymes)\n* Anemia (hemoglobin \\<8 g/dl)\n* Cancer with current treatment\n* Previous organ transplantation\n* Immunosuppressant therapy\n* Human immunodeficiency virus infection\n* Pregnancy or lactating\n* Current tobacco use\n* Dilantin and oral contraceptive usage due to potential drug interaction with glitazones\n* Self-identified history of hypoglycemia",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 148,
+      "trial_nct_id": "NCT03471117"
+    },
+    {
+      "chunk_id": "NCT03471117:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Muscle sympathetic nerve activity (MSNA) will be reduced after 1 month of treatment with pioglitazone | time_frame=1 month | description=Multiunit postganglionic MSNA will be recorded using standard microneurographic techniques. Briefly, a unipolar tungsten microelectrode will be inserted into the peroneal nerve near the fibular head of the leg. Neural signals will be amplified, filtered (bandwidth, 700-2,000 Hz), rectified, and integrated (time constant, 0.1 s) to obtain mean voltage neurograms.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 71,
+      "trial_nct_id": "NCT03471117"
+    },
+    {
+      "chunk_id": "NCT03471117:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2018-04-01\nPrimary completion date: 2026-04-01\nCompletion date: 2026-04-01\nStudy first posted: 2018-03-20\nResults first posted: None\nLast update posted: 2025-06-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT03471117"
+    },
+    {
+      "chunk_id": "NCT03471117:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The University of Texas at Arlington\nLead sponsor class: OTHER\nCollaborators: University of Texas, Southwestern Medical Center at Dallas\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT03471117"
+    }
+  ],
+  "trial_nct_id": "NCT03471117"
+}

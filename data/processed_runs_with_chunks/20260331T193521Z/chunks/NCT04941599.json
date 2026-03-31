@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04941599:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04941599\nBrief title: 2-Hydroxybenzylamine (2-HOBA) to Reduce HDL Modification and Improve HDL Function in Familial Hypercholesterolemia (FH)\nOfficial title: 2-Hydroxybenzylamine (2-HOBA) to Reduce HDL Modification and Improve HDL Function in Familial Hypercholesterolemia (FH)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT04941599"
+    },
+    {
+      "chunk_id": "NCT04941599:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Familial Hypercholesterolemia\nIntervention labels: 2-Hydroxybenzylamine; Placebo\nDrug class labels: \nArms: 2-Hydroxybenzylamine (2-HOBA); Placebo\nKeywords: Familial Hypercholesterolemia; HDL; LDL; 2-HOBA; HDL Function",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT04941599"
+    },
+    {
+      "chunk_id": "NCT04941599:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The Investigators will test the hypothesis that 2-HOBA will reduce modification of HDL and LDL and improve HDL function in humans with heterozygous FH. The Investigators plan to first study subjects with Familial Hypercholesterolemia (FH), treating them with 750 mg of 2-HOBA or placebo every 8 hours for 6 weeks.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 55,
+      "trial_nct_id": "NCT04941599"
+    },
+    {
+      "chunk_id": "NCT04941599:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 69 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Individuals with heterozygous Familial Hypercholesterolemia.\n\nExclusion Criteria:\n\n* Myocardial infarction or stroke within the last 6 months\n* unstable angina, symptoms of angina within the last 3 months\n* NYHA class III or IV heart failure or LVEF \\< 30%\n* poorly controlled hypertension: SBP \\> 180 mm Hg or DBP \\> 110 mm Hg,\n* pregnancy,\n* evidence of a previous acute coronary syndrome,\n* current smokers,\n* individuals with Type 2 Diabetes Mellitus, obesity (BMI \\> 30),\n* hypertriglyceridemia (fasting TG \\> 250 mg/dl),\n* renal insufficiency (Cr \\> 1.8),\n* hepatic disease (aspartate aminotransferase(AST) or alanine aminotransferase (ALT) \\> 2x ULN),\n* hypothyroidism,\n* nephrotic syndrome,\n* rheumatoid arthritis,\n* systemic lupus erythematosus,\n* AIDS or HIV\n* history of malignancy of any organ in last 5 years.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 152,
+      "trial_nct_id": "NCT04941599"
+    },
+    {
+      "chunk_id": "NCT04941599:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=2-HOBA increases HDL cholesterol efflux capacity. | time_frame=Baseline to week 6 | description=Change in HDL cholesterol efflux capacity will be measured by macrophage cholesterol efflux assay.\ntype=secondary | measure=2-HOBA reduces modification of HDL by Isolevuglandin (Iso-LG). | time_frame=Baseline to week 6 | description=Measurement of the Iso-LG-lysine lactam by mass spectrometry.\ntype=secondary | measure=2-HOBA reduces modification of HDL by malondialdehyde (MDA). | time_frame=Baseline to week 6 | description=Measurement of dilysyl-MDA cross-links by mass spectrometry.\ntype=other | measure=Change in HDL anti-inflammatory function in an in vitro assay of macrophage cytokine production (IL-1B, TNFa, IL-6). | time_frame=Baseline to week 6 | description=Measurement of changes in LPS-stimulated macrophage cytokine production(IL-1B, TNFa, IL-6).\ntype=other | measure=Change in HDL anti-oxidant function in an in vitro assay of macrophage reactive oxygen species production. | time_frame=Baseline to week 6 | description=Measurement of changes in H2O2-stimulated macrophage reactive oxygen species\ntype=other | measure=Change in HDL microRNA and small noncoding ribonucleic acid (sRNA) composition | time_frame=Baseline to week 6 | description=HDL microRNA and sRNA will be measured through high-throughput sequencing with quantitative polymerase chain reaction (qPCR) validation.\ntype=other | measure=Effects of 2-HOBA on HDL and LDL subpopulation sizes | time_frame=Baseline to week 6 | description=HDL and LDL subpopulation sizes and particle numbers will be measured by NMR",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 209,
+      "trial_nct_id": "NCT04941599"
+    },
+    {
+      "chunk_id": "NCT04941599:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-14\nPrimary completion date: 2026-06-30\nCompletion date: 2026-12-31\nStudy first posted: 2021-06-28\nResults first posted: None\nLast update posted: 2026-02-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT04941599"
+    },
+    {
+      "chunk_id": "NCT04941599:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Vanderbilt University Medical Center\nLead sponsor class: OTHER\nCollaborators: National Heart, Lung, and Blood Institute (NHLBI)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT04941599"
+    }
+  ],
+  "trial_nct_id": "NCT04941599"
+}

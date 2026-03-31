@@ -1,0 +1,368 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D058186",
+          "term": "Acute Kidney Injury"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "3 cycles of blood pressure cuff inflations to occlusive pressure of 200 mmHg for 5 minutes and deflation for 5 minutes",
+          "interventionNames": [
+            "Device: Remote ischemic preconditioning"
+          ],
+          "label": "Remote ischemic preconditioning",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "3 cycles of blood pressure cuff inflations to non-occlusive pressure of 60 mmHg for 5 minutes and deflation for 5 minutes (Control)",
+          "interventionNames": [
+            "Device: Sham remote ischemic conditioning"
+          ],
+          "label": "Sham remote ischemic preconditioning",
+          "type": "SHAM_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Remote ischemic preconditioning"
+          ],
+          "description": "3 cycles of blood pressure cuff inflations to occlusive pressure of 200 mmHg for 5 minutes and deflation for 5 minutes",
+          "name": "Remote ischemic preconditioning",
+          "otherNames": [
+            "RIPC"
+          ],
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "Sham remote ischemic preconditioning"
+          ],
+          "description": "3 cycles of blood pressure cuff inflations to non-occlusive pressure of 60 mmHg for 5 minutes and deflation for 5 minutes (Control)",
+          "name": "Sham remote ischemic conditioning",
+          "otherNames": [
+            "Sham-RIPC"
+          ],
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Kidney Injury",
+        "Heart Failure",
+        "Contrast Induced Nephropathy",
+        "Coronary Angiography",
+        "Percutaneous Coronary Intervention"
+      ],
+      "keywords": [
+        "Contrast-induced acute kidney injury",
+        "Congestive heart failure",
+        "Contrast induced nephropathy",
+        "Coronary angiography",
+        "Percutaneous coronary intervention",
+        "Coronary artery disease",
+        "Remote ischemic conditioning",
+        "acute coronary syndrome",
+        "Acute kidney injury",
+        "Major adverse kidney events",
+        "Ischemic preconditioning"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Oladipupo.Olafiranye@va.gov",
+          "name": "Oladipupo Olafiranye, MD MS",
+          "phone": "(214) 857-2923",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Pittsburgh",
+          "contacts": [
+            {
+              "email": "ning.feng@va.gov",
+              "name": "Ning Feng",
+              "phone": "412-360-6191",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "VA Pittsburgh Healthcare System University Drive Division, Pittsburgh, PA",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "15240"
+        },
+        {
+          "city": "Dallas",
+          "contacts": [
+            {
+              "email": "Oladipupo.Olafiranye@va.gov",
+              "name": "Oladipupo Olafiranye, MD MS",
+              "phone": "(214) 857-2923",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Oladipupo Olafiranye, MD MS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "VA North Texas Health Care System Dallas VA Medical Center, Dallas, TX",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "75216-7167"
+        },
+        {
+          "city": "Richmond",
+          "contacts": [
+            {
+              "email": "ion.jovin@va.gov",
+              "name": "Ion Jovin",
+              "phone": "804-675-5419",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Hunter Holmes McGuire VA Medical Center, Richmond, VA",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "23249-0001"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "VA North Texas Health Care System Dallas VA Medical Center, Dallas, TX",
+          "name": "Oladipupo Olafiranye, MD MS",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective, double-blind, sham-controlled, multicenter, randomized clinical trial is to study the effects of remote ischemic preconditioning on contrast-associated acute kidney injury, functional capacity, and major adverse kidney events in in patients with congestive heart failure undergoing cardiac catheterization and/or percutaneous coronary intervention.",
+      "detailedDescription": "The RICH Trial is a prospective, multicenter, randomized clinical trial to determine the effect of remote ischemic preconditioning on contrast associated acute kidney injury, and to characterize the effect of remote ischemic preconditioning on brain natriuretic peptide, functional capacity at one month, and major adverse kidney events (persistent renal dysfunction, renal replacement therapy, and death) at three months in patients with congestive heart failure with reduced left ventricular ejection fraction undergoing coronary angiography and/or percutaneous coronary intervention."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Eligible patients will be randomized to RIPC or sham-RIPC.",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 240,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years\n* Diagnosis of heart failure with reduced LVEF \\<50%\n* Pre-procedure intravenous normal saline fluid restriction status\n* Society for Cardiovascular Angiography and Interventions (SCAI) AKI risk score (\\>1%)\n* Referral for coronary angiogram and/or PCI\n* Suspected stable coronary artery disease or acute coronary syndrome\n\nExclusion Criteria:\n\n* Inability to give informed consent\n* Unstable BP (SBP \\> 200 or \\<80 mmHg) at the time of enrolment\n* Upper limb peripheral arterial disease\n* Unavailability of at least one arm for RIPC/Sham-RIPC application\n* Kidney transplant\n* Renal disease requiring dialysis\n* Prior exposure to contrast media within 72hrs preceding coronary angiography\n* Pregnancy\n* Prisoner",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "RICH",
+      "briefTitle": "Remote Ischemic Preconditioning for Renal and Cardiac Protection in Congestive Heart Failure (RICH) Trial",
+      "nctId": "NCT04982419",
+      "officialTitle": "Remote Ischemic Preconditioning for Renal and Cardiac Protection in Congestive Heart Failure (RICH) Trial",
+      "orgStudyIdInfo": {
+        "id": "NEPH-019-20S"
+      },
+      "organization": {
+        "class": "FED",
+        "fullName": "VA Office of Research and Development"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1I01CX002045-01",
+          "link": "https://reporter.nih.gov/quickSearch/1I01CX002045-01",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The investigators define contrast-associated acute kidney injury as a relative increase in serum creatinine of 0.3mg/dl compared with initial creatinine at 48 hours time point after coronary angiography and/or PCI. The will obtain levels of serum creatinine at baseline, then at 24 and 48 hours time points.",
+          "measure": "Contrast-associated acute kidney injury",
+          "timeFrame": "24 and 48 hours time points"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "At one month follow-up, 6 minute walk test will be used to determine total distance walked in 6 minutes.",
+          "measure": "6 minute walk distance",
+          "timeFrame": "1 month"
+        },
+        {
+          "description": "Persistent renal dysfunction, renal replacement therapy, and death will be assessed at 3 months (90 days) to determine major adverse kidney events (MAKE90).",
+          "measure": "Major adverse kidney events",
+          "timeFrame": "3 months"
+        },
+        {
+          "description": "BNP is a hormone that is primarily secreted from the ventricular myocardium in response to hemodynamic stimuli such as ventricular volume expansion and pressure overload. The investigators will obtain levels of serum BNP at baseline, then at 24 and 48 hours.",
+          "measure": "Brain Natriuretic Peptide (BNP)",
+          "timeFrame": "24 and 48 hours time points"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": true,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "FED",
+        "name": "VA Office of Research and Development"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-03-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-09",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-03-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-11-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2021-07-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-07-26",
+      "studyFirstSubmitQcDate": "2021-07-26"
+    }
+  }
+}

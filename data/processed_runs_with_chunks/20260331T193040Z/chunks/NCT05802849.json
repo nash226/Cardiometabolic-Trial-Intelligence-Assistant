@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05802849:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05802849\nBrief title: Acetazolamide Per os for Decompensation of Heart Failure\nOfficial title: Acetazolamide Per os for Decompensation of Heart Failure\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT05802849"
+    },
+    {
+      "chunk_id": "NCT05802849:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Chronic Heart Failure\nIntervention labels: Acetazolamide\nDrug class labels: \nArms: a group with the use of acetazolamide; a group of standart therapy\nKeywords: acetazolamide; edema syndrome",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05802849"
+    },
+    {
+      "chunk_id": "NCT05802849:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The main causes of chronic heart failure (CHF) are arterial hypertension and coronary artery disease, less often cardiomyopathy, pericarditis, metastatic myocardial lesions. It should be noted that up to 50% of patients have a preserved left ventricular ejection fraction (LVEF), while its prevalence is progressively increasing annually.\n\nAcute decompensation of CHF is understood as a rapid increase in the severity of clinical manifestations (shortness of breath, severe arterial hypoxemia, the occurrence of arterial hypotension), which caused urgent medical treatment and emergency hospitalization in a patient already suffering from CHF. Decompensation of CHF requires intensification of treatment in order to stabilize the patient's condition. Strengthening diuretic therapy in addition to standard therapy helps to reduce edematous syndrome.\nDetailed description: Chronic heart failure (CHF) is a syndrome caused by a violation of the heart's ability for contraction and relaxation, which is associated with an imbalance of vasoconstrictor and vasodilating neurohormonal systems, leading to hypoperfusion of organs and systems and the appearance of such complaints and signs as shortness of breath, weakness, palpitations, increased fatigue, swelling due to fluid congestion in the body.\n\nAn unfavorable prognosis, significant costs associated with excessive hospitalization of patients with this diagnosis require the development of clear criteria for the diagnosis and treatment of this condition. The variety of variants of the course of the disease, heterogeneous clinical characteristics of patients, difficulties in determining predisposing factors, unsufficient data on the pathogenetic features of the development of certain types of decompensation of CHF require an active scientific search in this direction and the development of modern clinically effective algorithms for the diagnosis and treatment of such patients The scientific hypothesis of the present study is that the use of acetazolamide in patients with decompensated HF at the hospital stage is accompanied by a significant regression of congestion compared to standard diuretic therapy (since randomization).\n\nThe investigators will anticipate that appointment of acetazolamide is accompanied by a decrease in the manifestation of edema syndrome.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 326,
+      "trial_nct_id": "NCT05802849"
+    },
+    {
+      "chunk_id": "NCT05802849:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Men or women aged 18 years and older\n* Decompensated CHF NYHA II-IV, which required intravenous administration of diuretics\n* Any injection fraction of left ventricle\\*\n* Signed informed consent to participate in the study.\n\n  * in patients with LV LV \u2265 50%: the presence of structural changes of the heart# (left ventricular myocardial hypertrophy, enlargement of the left atrium) and/or diastolic dysfunction# and/or increased levels of BNP or NT-proBNP (BNP \\> 400 pg/ml or NT-proBNP \\> 450 pg/ml in persons younger 50 years old; \\> 900 pg/l in persons 51-75 years old; \\> 1800 pg/ml older than 75 years) #.\n\n    * criteria according to clinical guidelines 2020 Clinical practice guidelines for Chronic heart failure. Russian Journal of Cardiology. 2020;25(11):4083. (In Russ.) doi:10.15829/1560-4071-2020-4083\n\nExclusion Criteria:\n\n* Acetazolamide therapy for a month before hospitalization.\n* The expected intravenous use of inotropes, vasopressors or sodium nitroprusside at any time of the study.\n* Exposure to nephrotoxic agents (e.g. contrast dye) is expected within the next 3 days.\n* Hypersensitivity to acetazolamide, other sulfonamides and / or components of the drug.\n* Systolic blood pressure \\<90 mmHg.\n* Pregnancy and lactation.\n* Hypokalemia (potassium \\< 3.5 mmol/l).\n* Hyponatremia (sodium \\<135 mmol/l).\n* Severe chronic renal insufficiency (creatinine clearance less than 10 ml/min) or the use of renal replacement therapy or ultrafiltration at any time prior to inclusion in the study.\n* Metabolic acidosis (bicarbonate less than 12 mmol/L).\n* Severe anemia (Hb \\<70 g/L).\n* Acute renal failure.\n* Addison's disease.\n* Decompensated diabetes mellitus.\n* Emergency conditions (myocardial infarction, pulmonary embolism, acute myocarditis, pericarditis, aortic aneurysm).\n* Cirrhosis of the liver with encephalopathy and liver failure.\n* Congenital heart defects.\n* Malignant neoplasm in the phase of active treatment or terminal form of cancer.\n* Hypocorticism.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 315,
+      "trial_nct_id": "NCT05802849"
+    },
+    {
+      "chunk_id": "NCT05802849:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=decrease of decompensation | time_frame=3 days | description=achievement of compensation in accordance with the criteria for discontinuation of diuretic therapy.\ntype=secondary | measure=an increase of urine volume | time_frame=3 days | description=an increase in the volume of urine excreted in the first 72 hours of hospitalization (from the moment of randomization)\ntype=secondary | measure=Weight loss | time_frame=10 days | description=a decrease of the weight\ntype=secondary | measure=Natriuresis | time_frame=10 days | description=Natriuresis (evaluation in daily urine)\ntype=secondary | measure=Duration of hospitalization | time_frame=10 days | description=Duration of hospitalization\ntype=secondary | measure=Duration of stay in the ICU | time_frame=10 days | description=Duration of stay in the ICU\ntype=secondary | measure=Death from any cause | time_frame=90 days | description=Death from any cause within 90 days\ntype=secondary | measure=Death from cardiovascular diseases | time_frame=90 days | description=Death from cardiovascular diseases within 90 days\ntype=secondary | measure=Death from decompensation of CHF or CHF | time_frame=90 days | description=Death from decompensation of CHF or CHF within 90 days\ntype=secondary | measure=The number of pleural and pericardial punctures | time_frame=10 days | description=The number of pleural and pericardial punctures performed during the period of hospitalization\ntype=secondary | measure=The number of points according to the SHOKS (clinical condition assessment scale) score | time_frame=10 days | description=0 points - absence of clinical signs of heart failure, I class - less than or equal to 3 points; II class - from 4 to 6 points; III class - from 7 to 9 points; IV class - more than 9 points.\ntype=secondary | measure=6-minute walk test | time_frame=10 days | description=6-minute walk test at discharge from the hospital",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 270,
+      "trial_nct_id": "NCT05802849"
+    },
+    {
+      "chunk_id": "NCT05802849:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-05-01\nPrimary completion date: 2025-08-28\nCompletion date: 2025-12-01\nStudy first posted: 2023-04-07\nResults first posted: None\nLast update posted: 2024-11-05\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05802849"
+    },
+    {
+      "chunk_id": "NCT05802849:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Samara State Medical University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT05802849"
+    }
+  ],
+  "trial_nct_id": "NCT05802849"
+}

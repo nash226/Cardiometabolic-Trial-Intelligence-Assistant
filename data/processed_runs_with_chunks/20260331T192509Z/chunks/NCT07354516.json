@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07354516:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07354516\nBrief title: Study of QLS-111-FDC in Open-Angle Glaucoma or Ocular Hypertension\nOfficial title: A Masked, Randomized, Prospective Study of QLS-111-FDC in Subjects With Open-Angle Glaucoma or Ocular Hypertension\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07354516"
+    },
+    {
+      "chunk_id": "NCT07354516:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: OAG - Open-Angle Glaucoma; OHT - Ocular Hypertension\nIntervention labels: QLS-111-FDC; Latanoprost (0.005%)\nDrug class labels: \nArms: QLS-111-FDC ophthalmic solution; Latanoprost ophthalmic solution\nKeywords: glaucoma; intraocular pressure (IOP); eye drops",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT07354516"
+    },
+    {
+      "chunk_id": "NCT07354516:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Firecrest study is evaluating the intraocular pressure (IOP)-lowering effect, safety, and tolerability of Qlaris' preservative free \\[PF\\], fixed-dose combination \\[FDC\\] investigational product (IP) in subjects with open-angle glaucoma (OAG) or ocular hypertension (OHT).\nDetailed description: 14-day prospective, double-masked, active-controlled, randomized multicenter study comparing QLS-111-FDC and PF latanoprost. Study is comprised of 5 visits.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 55,
+      "trial_nct_id": "NCT07354516"
+    },
+    {
+      "chunk_id": "NCT07354516:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 12 Years\nMaximum age: None\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* BCVA 1.0 logMAR or better in each eye (equivalent to 20/200)\n* Diagnosis of mild to moderate OAG or OHT in at least one eye\n* IOP \u226519 mmHg at 08:00 hour (H) at Qualification Visits following a run-in with PF latanoprost\n\nExclusion Criteria:\n\n* History of active ocular disease other than mild to moderate OAG/OHT\n* Prior use of any topical PGA without a clinically meaningful response\n* Noncompliant with current ocular anti-hypertensive medications or unwilling to be compliant throughout the study\n* Use of other topical ocular concomitant medications 30 days prior\n* History of angle closure or a narrow angle, significant ocular trauma, ocular infection, uveitis, intraocular surgery in either eye.\n* Central corneal thickness in either eye \\<470 or \\>630 \u03bcm\n* Clinically significant systemic or psychiatric disease, chronic kidney disease, or hypertension, hypotension, or diabetes that is uncontrolled.\n* Participation in any investigational study within 30 days prior to Screening\n* Females who are pregnant, nursing, or not using birth control.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 187,
+      "trial_nct_id": "NCT07354516"
+    },
+    {
+      "chunk_id": "NCT07354516:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change from baseline in IOP | time_frame=Over 15 days | description=Change from baseline in IOP, lowering of IOP compared to baseline is desirable outcome.\ntype=secondary | measure=Ocular safety and tolerability | time_frame=Over 15 days | description=Incidence of ocular adverse events\ntype=secondary | measure=Ocular comfort | time_frame=Over 15 days | description=Ocular comfort following study treatment as assessed by subject and using a visual analog scale (VAS) provided by the site at the treatment period visits. Subjects will grade their ocular comfort on a scale of 0 (extremely comfortable) to 100 (extremely uncomfortable) by placing a vertical mark on the horizontal line.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 102,
+      "trial_nct_id": "NCT07354516"
+    },
+    {
+      "chunk_id": "NCT07354516:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-03-18\nPrimary completion date: 2026-07-01\nCompletion date: 2026-07-15\nStudy first posted: 2026-01-21\nResults first posted: None\nLast update posted: 2026-03-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07354516"
+    },
+    {
+      "chunk_id": "NCT07354516:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Qlaris Bio, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07354516"
+    }
+  ],
+  "trial_nct_id": "NCT07354516"
+}

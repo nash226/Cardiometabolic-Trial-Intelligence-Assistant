@@ -1,0 +1,282 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017531",
+          "term": "Health Care Evaluation Mechanisms"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000070536",
+          "term": "Independent Medical Evaluation"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "For patients already on \u03b2-blocker therapy, the treatment will be continued and titrated at the discretion of the patient's most responsible physician(s).",
+          "interventionNames": [
+            "Other: Medical Assessment",
+            "Other: Quality of Life Assessment"
+          ],
+          "label": "Continuation of Beta-Blockers",
+          "type": "OTHER"
+        },
+        {
+          "description": "For patients on \u03b2-blocker therapy, medication will be tapered over 3-7 days to minimize the potential for withdrawal-related symptoms. A standardized angina treatment algorithm, which is independent of \u03b2-blocker use, will minimize any worsening of angina symptoms during drug withdrawal by utilizing other guideline recommended anti-anginal agents, such as calcium-channel blockers, long acting nitrates, or ivabradine. An anticipated 5% of patients allocated to this arm will not be able to tolerate discontinuation, however, patients will continue participation as per intention-to-treat principle. Background lifestyle measures and medical therapies will be recommended according to current Canadian guideline recommendations and individual patient profiles. Structured algorithms to achieve blood pressure goals that exclude the use of a \u03b2-blocker based on the Canadian Hypertension Education Program Guidelines will be provided.",
+          "interventionNames": [
+            "Other: Medical Assessment",
+            "Other: Quality of Life Assessment"
+          ],
+          "label": "De-Adoption of Beta-Blockers",
+          "type": "OTHER"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Continuation of Beta-Blockers",
+            "De-Adoption of Beta-Blockers"
+          ],
+          "description": "medical hx, events inquiry, adherence to treatment arm periodically over 4 years",
+          "name": "Medical Assessment",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Continuation of Beta-Blockers",
+            "De-Adoption of Beta-Blockers"
+          ],
+          "description": "online questionnaires periodically over 4 years, including SAQ, EQ-5D-5L, IIEF-5 (males) or FSFI (females)",
+          "name": "Quality of Life Assessment",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Stable Ischemic Heart Disease",
+        "Coronary Artery Disease",
+        "Beta-blocker Therapy"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Edmonton",
+          "country": "Canada",
+          "facility": "University of Alberta Hospital",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          },
+          "state": "Alberta",
+          "zip": "T6G 2B7"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Alberta",
+          "name": "Sean van Diepen, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients with heart disease are often prescribed many medications and these patients may experience drug interactions or negative drug related side effects. With newer medications and treatments available, it is not well known whether older drugs, such as beta-blockers, are still an effective and safe option for treating heart disease. Some evidence suggests beta-blockers should be continued, whereas other evidence suggests beta-blockers might cause unnecessary harm. The study hopes to determine whether continuation or discontinuation of beta-blockers will affect long term cardiovascular outcomes. The study investigators will also examine how beta-blockers continuation or discontinuation affects several quality of life measures.",
+      "detailedDescription": "Patients will be randomized to continue \u03b2-blocker therapy or discontinue \u03b2-blocker therapy. Patients will be followed remotely for approximately four years for adherence, events and outcomes assessments, and completion of multiple web-based quality of life questionnaires."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 59,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \\>21 years\n2. Documented Coronary Artery Disease (CAD) defined as:\n\n   * Myocardial Infarction at least 6 months prior; or\n   * Stable ischemic heart disease (defined using one of the following tests suggestive of significant coronary artery disease):\n\n     i. Positive exercise stress test ii. Positive Nuclear perfusion scan iii. Positive exercise or pharmacologic echocardiographic stress test iv. Positive magnetic resonance imaging coronary perfusion scan v. Coronary computed tomographic angiography Angiogram with stenosis \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing by CT (FFRCT); vi. Invasive coronary angiography with \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing (FFR) or instant wave free ratio (IFR),\n   * Previous Percutaneous Coronary Intervention (PCI, at least 6 months prior if revascularization is performed for an MI); or\n   * Previous Coronary Artery Bypass Grafting (CABG, at least 6 months prior if revascularization is performed for an MI)\n3. Able and willing to provide informed consent\n\nExclusion Criteria:\n\n1. Left Ventricular Ejection Fraction \\< 40% or current hospitalization for heart failure\n2. Myocardial infarction \\<6 months prior to randomization\n3. Indication for \u03b2-blocker as determined by the treating physician (such as atrial or ventricular arrhythmias or ongoing angina not controlled by another agent)\n4. Uncontrolled hypertension or uncontrolled angina symptoms (per the Investigator's discretion)\n5. Non-compliance with medical therapy\n6. Life expectancy \\<1 year\n7. Participation in another trial related to \u03b2-blockers or other anti-anginal drugs",
+      "healthyVolunteers": false,
+      "minimumAge": "21 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ABBREVIATE",
+      "briefTitle": "De-Adoption of Beta-Blockers in Patients With Stable Ischemic Heart Disease",
+      "nctId": "NCT05081999",
+      "officialTitle": "De-Adoption \u03b2eta-Blockers in Patients With Stable Ischemic Heart Disease Without REduced LV Ejection Fraction, Ongoing Ischemia, or Arrhythmias: a pragmaTic randomizEd Trial With Blinded Endpoints",
+      "orgStudyIdInfo": {
+        "id": "Pro00113192"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Alberta"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Composite of time to first all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or heart failure over an estimated four years",
+          "measure": "Composite of time to first all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or heart failure over an estimated four years",
+          "timeFrame": "4 years post randomization"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "individual components of the primary objective (including all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or HF)",
+          "measure": "individual components of the primary objective (including all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or HF)",
+          "timeFrame": "4 years post randomization"
+        },
+        {
+          "description": "stroke",
+          "measure": "stroke",
+          "timeFrame": "4 years post randomization"
+        },
+        {
+          "description": "angina related quality of life as measured by the Seattle Angina Questionnaire",
+          "measure": "angina related quality of life",
+          "timeFrame": "4 years post randomization"
+        },
+        {
+          "description": "sexual function as measured by the IIEF-5 and FSFI",
+          "measure": "sexual function",
+          "timeFrame": "4 years post randomization"
+        },
+        {
+          "description": "new onset diabetes",
+          "measure": "new onset diabetes",
+          "timeFrame": "4 years post randomization"
+        },
+        {
+          "description": "stop/re-start dates",
+          "measure": "drug withdrawal",
+          "timeFrame": "4 years post randomization"
+        },
+        {
+          "description": "health care costs in each arm",
+          "measure": "health care costs in each arm",
+          "timeFrame": "4 years post randomization"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Alberta"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-12",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-31",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-09-20",
+      "studyFirstSubmitQcDate": "2021-10-05"
+    }
+  }
+}

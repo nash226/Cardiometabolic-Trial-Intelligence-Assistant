@@ -1,0 +1,358 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D045162",
+          "term": "Thiazolidinediones"
+        },
+        {
+          "id": "D013844",
+          "term": "Thiazoles"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C000729921",
+          "term": "Enavogliflozin"
+        },
+        {
+          "id": "D000077205",
+          "term": "Pioglitazone"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Enavogliflozin 0.3 mg",
+          "interventionNames": [
+            "Drug: Enavogliflozin"
+          ],
+          "label": "Enavogliflozin",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Pioglitazone 15 mg",
+          "interventionNames": [
+            "Drug: Pioglitazone"
+          ],
+          "label": "Pioglitazone",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Enavogliflozin"
+          ],
+          "description": "Enavogliflozin 0.3mg once daily",
+          "name": "Enavogliflozin",
+          "otherNames": [
+            "Envlo Tab."
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Pioglitazone"
+          ],
+          "description": "Pioglitazone 15mg once daily",
+          "name": "Pioglitazone",
+          "otherNames": [
+            "Actos Tab."
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "limsoo@snu.ac.kr",
+          "name": "Soo Lim, M.D. Ph.D.",
+          "phone": "+82317877035",
+          "role": "CONTACT"
+        },
+        {
+          "email": "rainbowmjs@naver.com",
+          "name": "Minji Sohn, Ph.D.",
+          "phone": "+82317878443",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Seongnam-si",
+          "contacts": [
+            {
+              "email": "limsoo@snu.ac.kr",
+              "name": "Soo Lim",
+              "phone": "+82317877035",
+              "phoneExt": "82317877035",
+              "role": "CONTACT"
+            },
+            {
+              "email": "rainbowmjs@naver.com",
+              "name": "Minji Sohn",
+              "phone": "+82317878443",
+              "phoneExt": "82317878443",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Seoul National University Bundang Hospital",
+          "geoPoint": {
+            "lat": 37.43861,
+            "lon": 127.13778
+          },
+          "state": "Gyeonggi-do",
+          "status": "RECRUITING",
+          "zip": "13620"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Seoul National University Bundang Hospital",
+          "name": "Soo Lim, M.D. Ph.D.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The current study aimed to thoroughly compare a thiazolidinedione and an sodium-glucose cotransporter-2 (SGLT2) inhibitor regarding various clinical issues including atherosclerosis. Enavogliflozin is compared to Pioglitazone in the glucose-lowering effects of adding to the treatment of patients with type 2 diabetes whose HbA1c levels are not controlled by Metformin with or without DPP-4 inhibitors. Additionally, the study will compare changes in other metabolic or cardiovascular risk factors, such as triglycerides, high density lipoprotein cholesterol (HDLc), uric acid, blood pressure, and inflammatory markers, between the two drugs."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Type 2 diabetes patients with a glycated hemoglobin (HbA1c) level of 7.0 - 10.5% at screening\n* Males or females aged 20-80 years\n* Individuals who have been taking Metformin (\u2265 500mg) with or without a DPP-4 inhibitor (such as Sitagliptin, Vildagliptin, Saxagliptin, Linagliptin, Gemigliptin, Alogliptin, Teneligliptin, Anagliptin, Evogliptin) for at least the past 3 months\n* Body mass index \u2265 23 kg/m\u00b2\n* Estimated glomerular filtration ratio (eGFR) \u2265 60 ml/min/1.73m\u00b2\n\nExclusion Criteria:\n\n* Patients with Type 1 Diabetes, Gestational Diabetes, or secondary diabetes due to other causes\n* Patients with a history of acute cardiovascular disease within the last 3 months prior to the screening visit\n* Pregnant or breastfeeding patients, or patients not using contraception. Patients with chronic Hepatitis B or C (excluding healthy carriers of Hepatitis B), or liver disease (aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) \\> 3 times the upper limit of normal)\n* Patients with heart failure or a history of heart failure\n* Individuals with a history of cancer within the past 5 years (excluding those adequately treated for squamous cell carcinoma or thyroid cancer)\n* Patients who have participated in another clinical study within the last 30 days\n* Alcohol addiction\n* Patients for whom the use of Enavogliflozin or Pioglitazone is contraindicated\n* Patients taking other oral hypoglycemic agents or insulin or other investigational drugs\n* Patients deemed unsuitable for the study based on the investigator's judgment",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "20 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Enavogliflozin vs. Pioglitazone on Glucose and Atherosclerosis",
+      "nctId": "NCT06399835",
+      "officialTitle": "Comparing Enavogliflozin and Pioglitazone as Add-ons to Metformin With/Without Dipeptidyl Peptidase-4 Inhibitors in Type 2 Diabetes",
+      "orgStudyIdInfo": {
+        "id": "B-2310-859-002"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Seoul National University Bundang Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes of HbA1c from the baseline",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "N and percentage of the patients",
+          "measure": "Patients achieving HbA1c levels below 7%",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "description": "kg, %; measured with bioelectrical impedance analysis",
+          "measure": "Changes of body fat (whole body fat, abdominal fat)",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Changes of body weight",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "mg/dL",
+          "measure": "Changes of glucose levels (fasting, 2-hour postprandial)",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "mmHg",
+          "measure": "Changes of systolic/diastolic blood pressures",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "mg/dL",
+          "measure": "Changes of lipids (total cholesterol, HDLc, low density lipoprotein cholesterol [LDLc], triglycerides)",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "mg/dL",
+          "measure": "Changes of electrolytes (uric acid)",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "pg/mL",
+          "measure": "Changes in parathyroid hormone",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "ng/mL",
+          "measure": "Changes in 25-hydroxyl vitamin D3",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "mg/g",
+          "measure": "Changes of albuminuria",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "mg/dL",
+          "measure": "Changes of urine electrolytes (Na, K, Cl, Ca, P, glucose)",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "umol/L",
+          "measure": "Changes in ketone body",
+          "timeFrame": "12 weeks, 24 weeks"
+        },
+        {
+          "description": "maximal thickness (mm)",
+          "measure": "Changes of carotid intima-media thickness",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Daewoong Pharmaceutical Co. LTD."
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Seoul National University Bundang Hospital"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Seoul National University Bundang Hospital",
+        "investigatorFullName": "Soo Lim",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-03",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-02-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-05-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-04-26",
+      "studyFirstSubmitQcDate": "2024-05-03"
+    }
+  }
+}

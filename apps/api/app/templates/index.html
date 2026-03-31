@@ -160,19 +160,6 @@
       justify-content: flex-end;
       flex-wrap: wrap;
     }
-    .quick-prompts {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .quick-prompt {
-      padding: 8px 12px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: rgba(255, 255, 255, 0.9);
-      color: var(--ink);
-      cursor: pointer;
-    }
     .chat-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -349,11 +336,6 @@
         <section class="chat-composer">
           <label for="chat-question">Question</label>
           <textarea id="chat-question" placeholder="Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?">Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
-          <div class="quick-prompts" id="quick-prompts">
-            <button class="quick-prompt" type="button" data-prompt="Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?">GLP-1 obesity trials</button>
-            <button class="quick-prompt" type="button" data-prompt="Which accepted type 2 diabetes trials are active in 2026 and mention semaglutide?">Semaglutide in T2D</button>
-            <button class="quick-prompt" type="button" data-prompt="Which accepted trials in this corpus slice are recruiting and completing in 2026?">2026 recruiting trials</button>
-          </div>
           <div class="composer-actions">
             <button class="ghost" type="button" id="search-only-button">Refresh matched trials</button>
             <button type="button" id="chat-submit">Ask the assistant</button>
@@ -363,7 +345,7 @@
         <section class="chat-grid">
           <section class="column-card">
             <div>
-              <h2>Chat</h2>
+              <h2></h2>
               <p class="column-sub">Grounded responses.</p>
             </div>
             <div class="thread" id="thread">
@@ -406,7 +388,6 @@
     const matchedTrials = document.getElementById("matched-trials");
     const evidenceList = document.getElementById("evidence-list");
     const workspaceStatus = document.getElementById("workspace-status");
-    const quickPrompts = document.getElementById("quick-prompts");
     const conversation = [];
 
     function currentFilters() {
@@ -667,13 +648,6 @@
       if ((event.metaKey || event.ctrlKey) && event.key === "Enter") {
         askAssistant();
       }
-    });
-    quickPrompts.addEventListener("click", (event) => {
-      const promptButton = event.target.closest("[data-prompt]");
-      if (!promptButton) return;
-      questionInput.value = promptButton.dataset.prompt;
-      questionInput.focus();
-      setFilterTags(questionInput.value, currentFilters());
     });
     setFilterTags(questionInput.value, currentFilters());
   </script>

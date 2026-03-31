@@ -1,0 +1,285 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006937",
+          "term": "Hypercholesterolemia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001384",
+          "term": "Azetidines"
+        },
+        {
+          "id": "D001385",
+          "term": "Azetines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C108475",
+          "term": "pitavastatin"
+        },
+        {
+          "id": "D000069438",
+          "term": "Ezetimibe"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "FDC of Pitavastatin/Ezetimibe",
+          "interventionNames": [
+            "Drug: Pitavastatin 4mg",
+            "Drug: Ezetimibe 10 mg",
+            "Drug: Placebo (for Pitavastatin)"
+          ],
+          "label": "Pitavastatin/Ezetimibe Combination",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Pitavastatin",
+          "interventionNames": [
+            "Drug: Pitavastatin 4mg",
+            "Drug: Placebo (for Pitavastatin/Ezetimibe)"
+          ],
+          "label": "Pitavastatin Monotherapy",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Pitavastatin Monotherapy",
+            "Pitavastatin/Ezetimibe Combination"
+          ],
+          "description": "Administered as a fixed-dose combination tablet (Pitavastatin/Ezetimibe 4/10 mg) orally once daily for 52 weeks.",
+          "name": "Pitavastatin 4mg",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Pitavastatin/Ezetimibe Combination"
+          ],
+          "description": "Administered as a fixed-dose combination tablet (Pitavastatin/Ezetimibe 4/10 mg) orally once daily for 52 weeks.",
+          "name": "Ezetimibe 10 mg",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Pitavastatin Monotherapy"
+          ],
+          "description": "Administered as a matching placebo tablet identical in appearance to the Pitavastatin/Ezetimibe 4/10 mg fixed-dose combination, orally once daily for 52 weeks.",
+          "name": "Placebo (for Pitavastatin/Ezetimibe)",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Pitavastatin/Ezetimibe Combination"
+          ],
+          "description": "Administered as a matching placebo tablet identical in appearance to Pitavastatin 4 mg monotherapy, orally once daily for 52 weeks.",
+          "name": "Placebo (for Pitavastatin)",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypercholesterolemia"
+      ],
+      "keywords": [
+        "LDL Cholesterol Reduction"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "The Catholic University of Korea, Yeouido St. Mary's Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "The Catholic University of Korea, Yeouido St. Mary's Hospital, Principal Investigator",
+          "name": "Hyuk Sang Kwon",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A multicenter, randomized, double-blind, phase \u2163 study to evaluate the long-term efficacy and safety of Pitavastatin/Ezetimibe and Pitavastatin in patients with hypercholesterolemia with elevated triglycerides",
+      "detailedDescription": "A multicenter study to evaluate efficacy and safety"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "randomized, double-blind, phase IV",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "To maintain the double-blind, a double-dummy method was used where participants received both an active tablet and a matching placebo of the comparator",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 88,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with hypercholesterolemia\n* Patients diagnosed with metabolic syndrome or type 2 diabetes mellitus, and presenting with elevated LDL-C\n\nExclusion Criteria:\n\n* New-onset acute cardio-cerebrovascular disease\n* Severe hepatic impairment\n* Active liver disease",
+      "healthyVolunteers": false,
+      "minimumAge": "19 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Long-term Comparison of Pitavastatin/Ezetimibe and Pitavastatin in Patients With Hypercholesterolemia and Elevated Triglycerides",
+      "nctId": "NCT07442630",
+      "officialTitle": "A Multicenter Study to Evaluate Efficacy and Safety",
+      "orgStudyIdInfo": {
+        "id": "JW22401"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "JW Pharmaceutical"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The unit of measure is percentage (%). The percentage change is calculated as: \\[(Value at Week 8 - Value at Baseline) / Value at Baseline\\] \\* 100",
+          "measure": "Percentage change from baseline in LDL Cholesterol at Week 8 after the first dose of study treatment",
+          "timeFrame": "Baseline to week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change = (Value at Week 8, 24, or 52) - (Value at Baseline), Unit of measure: mg/dL",
+          "measure": "Change from baseline in HDL Cholesterol at Weeks 8, 24, and 52 after the first dose of study treatment",
+          "timeFrame": "Baseline to week 8, 24, 52"
+        },
+        {
+          "description": "Change = (Value at Week 8, 24, or 52) - (Value at Baseline), Unit of measure: mg/dL",
+          "measure": "Change from baseline in Triglycerides at Weeks 8, 24, and 52 after the first dose of study treatment",
+          "timeFrame": "Baseline to week 8, 24, 52"
+        },
+        {
+          "description": "Change = (Value at Week 8, 24, or 52) - (Value at Baseline), Unit of measure: mg/dL",
+          "measure": "Change from baseline in LDL Cholesterol at Weeks 8, 24, and 52 after the first dose of study treatment",
+          "timeFrame": "Baseline to week 8, 24, 52"
+        },
+        {
+          "description": "The NLFS is a calculated score used to estimate liver fat content. The change is calculated as (Value at Week 24 or 52) - (Value at Baseline).",
+          "measure": "Change from baseline in Non-alcoholic Fatty Liver Disease Liver Fat Score (NLFS) at Weeks 24 and 52",
+          "timeFrame": "Baseline to week 24, 52"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "JW Pharmaceutical"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-11-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-24",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-22",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2023-08-21",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-02",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-02-18",
+      "studyFirstSubmitQcDate": "2026-02-24"
+    }
+  }
+}

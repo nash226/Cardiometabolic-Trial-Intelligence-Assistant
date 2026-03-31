@@ -1,0 +1,148 @@
+{
+  "arms": [
+    {
+      "description": "Moderate-intensity statin plus ezetimibe as the interventional group. Both fixed-dose combination of statin/ezetimibe, such as Vytorin (simvastatin 20mg/ezetimibe 10mg), Atozet (atorvastatin 20mg/ezetimibe 10mg), Cretrol (rosuvastatin 10mg/ezetimibe 10mg) and one pill of ezetimibe added to moderate-intensity statins are allowed.",
+      "intervention_names": [
+        "Drug: statin + ezetimibe"
+      ],
+      "label": "Statin plus ezetimibe",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Moderate- or high-intensity statin monotherapy, including atorvastatin 10-80 mg/d, rosuvastatin 5-20 mg/d, pitavastatin 1-4 mg/d",
+      "intervention_names": [
+        "Drug: Statin monotherapy (rosuvastatin or atorvastatin)"
+      ],
+      "label": "Statin monotherapy",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Ischemic Stroke",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hypercholesteremia",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* (1) clinical diagnosis of ischemic stroke or TIA; (2) Stroke or TIA symptoms and randomized within 30 days, then taking assigned medication within 2 days of randomization; (3) aged 20 years or older; (4) LDL-C \u2265 100 mg/dL after index ischemic stroke or TIA; (5) having evidence of atherosclerosis.\n\nExclusion Criteria:\n\n* (1) end stage renal disease because there is no clear benefit of LDL-C lowering therapy in these patients; (2) history of statin intolerance; (3) history of ezetimibe intolerance; or (4) ALT \\> 100 U/L.(5) Statins were regularly used before stroke. (6) Ezetimibe was used before stroke.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "100 Years",
+    "minimum_age_text": "20 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Statin plus ezetimibe"
+      ],
+      "description": "Moderate-intensity statin plus ezetimibe 10mg",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "statin + ezetimibe",
+      "normalized_name": "statin + ezetimibe"
+    },
+    {
+      "arm_group_labels": [
+        "Statin monotherapy"
+      ],
+      "description": "Moderate- or high-intensity statin monotherapy",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Statin monotherapy (rosuvastatin or atorvastatin)",
+      "normalized_name": "statin monotherapy (rosuvastatin or atorvastatin)"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "LDL-C levels < 70 mg/dL",
+      "outcome_type": "primary",
+      "time_frame": "6 months after randomization"
+    },
+    {
+      "description": null,
+      "measure": "LDL-C levels < 70 mg/dL",
+      "outcome_type": "secondary",
+      "time_frame": "3 months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This study will be conducted at six medical institutions in Taiwan, recruiting patients who visit neurology outpatient clinics or are hospitalized within 30 days after an ischemic stroke.\n\nParticipants will be randomly assigned to either the experimental group (moderate-intensity statin plus ezetimibe) or the control group (moderate- or high-intensity statin).\n\nResearch assistants will screen patients aged 40 or older who have had an ischemic stroke or transient ischemic attack within 30 days, have atherosclerosis, and have LDL-C levels \u2265100 mg/dL. Eligible cases will be reviewed by the attending physician. With physician approval, patients will be invited to join the study, and those who agree and sign informed consent will be enrolled.",
+    "brief_title": "Early Statin-Ezetimibe Combination vs. Statin Monotherapy in Stroke With Atherosclerosis",
+    "collaborator_names": [
+      "Chang Gung University"
+    ],
+    "completion_date": "2029-07-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* (1) clinical diagnosis of ischemic stroke or TIA; (2) Stroke or TIA symptoms and randomized within 30 days, then taking assigned medication within 2 days of randomization; (3) aged 20 years or older; (4) LDL-C \u2265 100 mg/dL after index ischemic stroke or TIA; (5) having evidence of atherosclerosis.\n\nExclusion Criteria:\n\n* (1) end stage renal disease because there is no clear benefit of LDL-C lowering therapy in these patients; (2) history of statin intolerance; (3) history of ezetimibe intolerance; or (4) ALT \\> 100 U/L.(5) Statins were regularly used before stroke. (6) Ezetimibe was used before stroke.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 300,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "statin + ezetimibe",
+      "Statin monotherapy (rosuvastatin or atorvastatin)"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "ischemic stroke",
+      "hypercholesteremia",
+      "statin",
+      "ezetimibe"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-12-30",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Chang Gung Memorial Hospital",
+    "masking": "SINGLE",
+    "maximum_age_text": "100 Years",
+    "minimum_age_text": "20 Years",
+    "nct_id": "NCT07307989",
+    "official_title": "Early Statin-Ezetimibe Combination vs. Statin Monotherapy to Achieve LDL-C < 70 mg/dL in Recent Ischemic Stroke Patients With Evidence of Atherosclerosis: A Randomized Controlled Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2029-07-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07307989",
+    "start_date": "2025-08-01",
+    "study_first_posted_at": "2025-12-29",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06785116:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06785116\nBrief title: A Randomized, Placebo-controlled Trial of DAPAgliflozin (DAPA) for Cardiovascular Risk Reduction in the Postpartum Period of Hypertensive Pregnancies (HP)\nOfficial title: A Randomized, Placebo-controlled Trial of DAPAgliflozin for Cardiovascular Risk Reduction in the Postpartum Period of Hypertensive Pregnancies\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT06785116"
+    },
+    {
+      "chunk_id": "NCT06785116:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Gestational Hypertension; Hypertension in Pregnancy; Pre-Eclampsia; Superimposed Pre-Eclampsia; Cardiovascular Complication\nIntervention labels: Placebo; Dapagliflozin 10mg Tab\nDrug class labels: \nArms: Placebo; Dapagliflozin\nKeywords: Medication; Placebo; Postpartum period; Cardiovascular risk reduction; Echocardiogram",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06785116"
+    },
+    {
+      "chunk_id": "NCT06785116:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This trial is a pilot-scale, single institution randomized, placebo-controlled trial to assess the feasibility, acceptability, and efficacy of administering dapagliflozin for cardiovascular risk reduction in the postpartum period. The target population is patients at high risk of adverse cardiovascular outcomes within five years post-delivery.\n\nEligible participants will be randomized to receive either: 1) dapagliflozin (10mg daily) for six months (DAPA group) or 2) an orally administered, daily placebo (Control group).\n\nThe study hypothesizes:\n\nThe dapagliflozin group will have higher cardiovascular risk reduction scores than the Control Group.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 92,
+      "trial_nct_id": "NCT06785116"
+    },
+    {
+      "chunk_id": "NCT06785116:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Admitted for delivery at the University of Michigan (UM) Labor and Delivery (L\\&D) unit or enrolled in the UM postpartum blood pressure monitoring program following a delivery at the UM L\\&D unit\n* Determined to be at least 23 and 0/7 weeks of gestation based on a clinically acceptable dating method (can be a single or multifetal gestation with or without the presence of fetal anomalies) at the time of delivery\n* Consents to participation and must understand/read/speak English with the ability to understand and willingness to sign a written informed consent in English\n* Diagnosed with a hypertensive pregnancy by either of the following criteria:\n\n  * Taking an antihypertensive medication for the diagnosis of chronic or essential hypertension at the time of admission\n  * Hypertension, chronic hypertension, or essential hypertension must be present in the prospective participant's medical record\n  * Antihypertensive\" can be any medication taken for the purpose of blood pressure control per the medical record\n  * A documented hypertensive disorder of pregnancy (gestational hypertension, preeclampsia without severe features, preeclampsia with severe features, superimposed preeclampsia, or eclampsia) prior to delivery\n* Eligible participants must report a planned contraceptive method as part of the consent process, to be noted on their consent document.\n* Has two or more blood pressures \u2265160/110 Millimeters of mercury (mmHg) at least 60 minutes apart\n\n  * If an admitted patient does not meet this blood pressure criterion but is otherwise eligible, participants can consent to have a BNP drawn within 12 hours of delivery as an alternative measure of cardiovascular risk (if the brain natriuretic peptide (BNP) is \u2265100 Picograms per milliliter (pg/ml), participants are eligible to participate)\n\nExclusion Criteria:\n\n* Non-English speaking\n* Ongoing pregnancy\n* Stated desire to become pregnant within 8 months post-delivery\n* Intention to breastfeed after enrollment\n* BNP \u22651000 pg/ml within 12 hours of delivery, clinical team to be notified of result\n* Comorbidities that may affect cardiovascular risk assessment (per protocol)\n* Contraindication to dapagliflozin (per protocol)",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 350,
+      "trial_nct_id": "NCT06785116"
+    },
+    {
+      "chunk_id": "NCT06785116:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Cardiovascular risk reduction score | time_frame=Baseline, 6 months | description=The score will be summed and compared between groups.The components with outcome-based binary assessments by the following:\n\n* Biometric: change in systolic blood pressure (scores of 0 or 1) and change in body weight (scores of 0 or 1)\n* Echocardiogram: change in left ventricle wall thickness (scores of 0 or 1) and change in left ventricle mass (scores of 0 or 1)\n* Clinical: Non-hospitalization (scores of 0 or 1) and return to baseline antihypertensive needs (scores of 0 or 1) The total scores range from 0-6 with a higher score indicating greater cardiovascular risk reduction.\ntype=secondary | measure=The number of patients screened | time_frame=2-year recruitment period\ntype=secondary | measure=The number of patients screen-outs vs screen-ins | time_frame=2-year recruitment period | description=These will be the participants that qualify either by blood pressure or laboratory parameter (BNP) (screen-ins) or if not eligible (screen-outs).\ntype=secondary | measure=Reasons for ineligibility and refusal to participate | time_frame=2-year recruitment period\ntype=secondary | measure=Patient-stated adherence | time_frame=baseline to 6 months | description=This will be collected by the patient medication diary and study visit questionnaire.\ntype=secondary | measure=Patient reported barriers to adherence | time_frame=baseline to 6 months | description=Participants will answer 2 questions regarding missed doses of medications. These will be summarized.\ntype=secondary | measure=Loss to follow-up rates | time_frame=Baseline to 6 months | description=Information on loss to follow-up (where available) will be reported to inform future work.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 243,
+      "trial_nct_id": "NCT06785116"
+    },
+    {
+      "chunk_id": "NCT06785116:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-03-02\nPrimary completion date: 2028-08\nCompletion date: 2028-08\nStudy first posted: 2025-01-21\nResults first posted: None\nLast update posted: 2026-03-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06785116"
+    },
+    {
+      "chunk_id": "NCT06785116:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Michigan\nLead sponsor class: OTHER\nCollaborators: Society for Maternal-Fetal Medicine Foundation; American Association of Obstetricians and Gynecologists Foundation\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06785116"
+    }
+  ],
+  "trial_nct_id": "NCT06785116"
+}

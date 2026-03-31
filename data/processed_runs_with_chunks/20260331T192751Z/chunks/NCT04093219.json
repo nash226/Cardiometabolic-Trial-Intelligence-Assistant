@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04093219:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04093219\nBrief title: PANDORA: Delirium Prevention After Cardiac Surgery Using IV Acetaminophen to Prevent Postoperative Delirium in Older Cardiac Surgical Patients\nOfficial title: PANDORA: Scheduled Prophylactic 6-hourly Intravenous Acetaminophen to Prevent Postoperative Delirium in Older Cardiac Surgical Patients\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 48,
+      "trial_nct_id": "NCT04093219"
+    },
+    {
+      "chunk_id": "NCT04093219:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Delirium in Old Age; Delirium; Coronary Artery Disease\nIntervention labels: IV acetaminophen; Placebo\nDrug class labels: \nArms: IV Acetaminophen; Placebo\nKeywords: Acetaminophen; Postoperative; Delirium; Cardiac Surgery",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT04093219"
+    },
+    {
+      "chunk_id": "NCT04093219:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Our objective is to find an effective prophylactic intervention by evaluating IV acetaminophen's impact in reducing the frequency of postoperative delirium, one of the most common and detrimental complications of cardiac surgery in older adults.\nDetailed description: This project will study the impact of scheduled administration of IV acetaminophen on the incidence, duration, and severity of postoperative delirium and other important hospital outcomes. Additionally, this trial will evaluate the effects of IV acetaminophen on longer-term postoperative cognitive dysfunction and functional status and develop a biorepository of perioperative samples as a future resource to probe the mechanisms of postoperative delirium.\n\nThe investigators propose three specific aims by conducting a randomized, triple-blind clinical trial that enrolls 900 patients 60 years of age or older undergoing cardiac surgery. Through this trial, the investigators will determine the effect of IV acetaminophen on;\n\n1. the incidence, duration, and severity of postoperative delirium,\n2. the use of opioids and other rescue analgesics in the first 48 postoperative hours, daily pain scores at rest and exertion, and length of stay in the Intensive Care Unit and overall hospital length of stay\n3. longer-term (one, six, 12 months) cognitive, physical, and self-care functional recovery after surgery.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 200,
+      "trial_nct_id": "NCT04093219"
+    },
+    {
+      "chunk_id": "NCT04093219:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 60 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. \u2265 60 years of age\n2. Patients undergoing cardiac surgery \\[coronary artery bypass grafting (CABG) with or without valve, isolated valve surgery\\] requiring cardiopulmonary bypass\n\nExclusion Criteria:\n\n1. Pre-operative left ventricular ejection fraction (LVEF) \\< than 30%\n2. Emergent procedures\n3. Isolated aortic surgery\n4. Liver dysfunction (liver enzymes \\> 3 times the baseline, all patients will have a baseline liver function test information), history and exam suggestive of jaundice\n5. Hypersensitivity to the study drugs\n6. Active (in the past year) history of alcohol abuse (\u22655 drinks per day for men or \u2265 4 drinks per day for women)\n7. Any history of alcohol withdrawal or delirium tremens\n8. Delirium at baseline\n9. Non-English speaking\n10. Prisoners\n11. Physician Refusal\n12. COVID-19 Positive, symptomatic\n13. Co-enrollment with non-approved interventional trial",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 151,
+      "trial_nct_id": "NCT04093219"
+    },
+    {
+      "chunk_id": "NCT04093219:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Incidence of postoperative delirium | time_frame=Participants will be followed for the duration of the hospital stay, an average of 5 days | description=Occurrence of delirium on any postoperative day, as assessed using the CAM, 3D CAM, CAM Only, or CAM-ICU daily until hospital discharge.\ntype=secondary | measure=Incidence of Charted Delirium | time_frame=Participants will be followed for the duration of the hospital stay, an average of 5 days | description=Charted Delirium will be used as a key secondary outcome in addition to the CAM diagnosis. Incidence in patient's chart for diagnoses synonymous with delirium or a change to the patient's baseline mental status as indicated by trigger words associated with a predictive value for delirium\ntype=secondary | measure=Duration of delirium | time_frame=Participants will be followed for the duration of the hospital stay, an average of 6 days, and at 1 month, 6 month and 1- year following the date of surgery | description=Total number of in-hospital postoperative days in which delirium is present\ntype=secondary | measure=Severity of delirium | time_frame=Participants will be followed for the duration of the hospital stay, an average of 5 days | description=Delirium severity is evaluated both as the peak (highest) and sum CAM-S score over all hospital days\ntype=secondary | measure=Time to onset of delirium | time_frame=Participants will be followed for the duration of the hospital stay, an average of 5 days | description=Measured in days\ntype=secondary | measure=Additional postoperative analgesic requirements | time_frame=First 48 hours postoperatively | description=Amount of opioid (IV morphine or hydromorphone) and oral analgesics required for pain control, reported as overall morphine equivalents. Total Morphine Equivalent is calculated as the sum of (fentanyl dose \u00d7 2.4) + (hydromorphone dose \u00d7 4) + morphine dose + (oxycodone dose \u00d7 1.5).\ntype=secondary | measure=Worst daily pain scores with exertion (deep breathing and cough) | time_frame=Participants will be followed for the duration of the hospital stay, an average of 5 days | description=Pain scores will be collected three times daily using a numeric rating scale (0, no pain, to 10, worst possible pain).\ntype=secondary | measure=Length of stay in the Intensive Care Unit (ICU) | time_frame=Measured in days admitted in the ICU, an average of 2 days | description=Defined by the number of days admitted in the ICU prior to transfer to the general cardiac surgical floor\ntype=secondary | measure=Worst daily pain scores at rest | time_frame=Participants will be followed for the duration of the hospital stay, an average of 5 days | description=Pain scores will be collected three times daily using a numeric rating scale (0, no pain, to 10, worst possible pain).\ntype=secondary | measure=Length of hospital stay | time_frame=Measured in days admitted in the hospital, an average of 6 days | description=Defined by the number of days admitted in the hospital following the completion of surgery.\ntype=secondary | measure=Trajectory of cognitive function over time | time_frame=Participants will be followed for the duration of the hospital stay, an average of 6 days, and at 1 month, 6 month and 1- year following the date of surgery | description=Neurocognition will be reported using the Montreal Cognitive Assessment (MoCA) score that ranges from zero (worst possible score) to 30 (best). At one, six, and twelve months postoperatively a telephonic MoCA will be assessed over the phone. The t-MoCA scores range from zero \\[worst\\] to 22 \\[best\\]. A hierarchical linear regression model will be used to characterize the trajectory of t-MoCA scores over time.\ntype=secondary | measure=Trajectory of physical function over time. | time_frame=Participants will be followed at 1 month, 6 month and 1- year following the date of surgery | description=Physical function will be assessed using the Medical Outcomes Study Short Form 12 questionnaire (SF-12) physical composite score at one, six, and twelve months postoperatively assessed over the phone. A hierarchical linear regression model will be used to characterize the trajectory of SF-12 scores over time.\ntype=secondary | measure=Trajectory of functional outcomes over time | time_frame=Participants will be followed at 1 month, 6 month and 1- year following the date of surgery | description=Functional status (self care) will be assessed using the FuncAQ and FRAIL scale at one, six, and twelve months postoperatively assessed over the phone. A hierarchical linear regression model will be used to characterize the trajectory of FuncAQ and FRAIL scores over time.\ntype=secondary | measure=Trajectory of chronic pain over time | time_frame=Participants will be followed at 6 month and 1- year following the date of surgery | description=Chronic sternal pain will be assessed using the Numerical Pain Rating Scale (NPRS) at six and twelve months postoperatively assessed over the phone.\ntype=other | measure=Need for additional liver function tests | time_frame=Participants will be followed for the duration of the hospital stay, an average of 5 days | description=Clinical request for liver function test monitoring and reported ALT and AST values will be reported as safety outcomes\ntype=other | measure=Discontinuation of study drug | time_frame=48 hours postoperatively | description=Rates of clinician discontinuation of study drug.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 824,
+      "trial_nct_id": "NCT04093219"
+    },
+    {
+      "chunk_id": "NCT04093219:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2020-08-11\nPrimary completion date: 2025-03-04\nCompletion date: 2026-03-04\nStudy first posted: 2019-09-17\nResults first posted: None\nLast update posted: 2026-01-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT04093219"
+    },
+    {
+      "chunk_id": "NCT04093219:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Beth Israel Deaconess Medical Center\nLead sponsor class: OTHER\nCollaborators: National Institute on Aging (NIA)\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT04093219"
+    }
+  ],
+  "trial_nct_id": "NCT04093219"
+}

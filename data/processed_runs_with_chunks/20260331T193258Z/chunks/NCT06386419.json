@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06386419:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06386419\nBrief title: A Clinical Study to Evaluate the Safety and Effectiveness of Inclisiran Sodium in Indian Patients With Primary Hypercholesterolemia or Mixed Dyslipidemia\nOfficial title: A Real-world, Prospective, Multi-center, Open-label, Phase 4 Clinical Study to Evaluate the Safety and Effectiveness of Subcutaneous Injection of Inclisiran Sodium in Indian Patients With Primary Hypercholesterolemia or Mixed Dyslipidemia\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 66,
+      "trial_nct_id": "NCT06386419"
+    },
+    {
+      "chunk_id": "NCT06386419:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Primary Hypercholesterolemia; Mixed Dyslipidemia\nIntervention labels: inclisiran\nDrug class labels: \nArms: inclisiran\nKeywords: Inclisiran,; primary hypercholesterolemia; mixed dyslipidemia; ASCVD; PCSK9; Phase 4",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06386419"
+    },
+    {
+      "chunk_id": "NCT06386419:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is to generate post-marketing safety and effectiveness data of inclisiran sodium in Indian patients as per approved indication i.e., primary hypercholesterolemia (heterozygous familial and non-familial) or mixed dyslipidemia that more closely resembles the real-world population intended to be treated with inclisiran sodium.\nDetailed description: This is a prospective, multi-center, single-arm, open-label, interventional Phase 4 clinical study and will be conducted across several sites in India.\n\nThe study consists of:\n\n* Open-label treatment period: The open-label treatment period will be of 270 days during which 3 single doses of inclisiran sodium will be administered subcutaneously (SC) on Day 1, Day 90, and Day 270, respectively. On Day 1/Dose 1 visit, the patients will be assessed by the Investigator for their eligibility to receive inclisiran sodium based on their medical history and previous lipid test reports. The study treatment i.e., inclisiran sodium will be prescribed as per the latest India Prescribing Information (PI). The assignment of the participant to the therapy will be decided within the current practice and the medical indication and will clearly be separated from the decision to include the participant in the study.\n* Safety follow-up period: The safety follow-up will be performed 30 days after each dose administration of the study treatment i.e., Day 30, Day 120, and Day 300. The follow-up on Day 30 and Day 120 visits will be conducted telephonically while Day 300 visit will be an onsite follow-up visit.\n\nThis study will be conducted in compliance with Good Clinical Practices (GCP) including the Declaration of Helsinki and New Drugs and Clinical Trials (NDCT) Rules, 2019 requirements.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 267,
+      "trial_nct_id": "NCT06386419"
+    },
+    {
+      "chunk_id": "NCT06386419:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 100 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Male and female Indian participants aged \u226518 years or older.\n2. Participants for whom the treating physician prescribes treatment with inclisiran sodium in adherence with the India PI i.e., patients who are diagnosed with primary hypercholesterolemia (heterozygous familial and non-familial) or mixed dyslipidemia, as an adjunct to diet:\n\n   1. in combination with a statin or statin with other LLTs in patients unable to reach LDL-C goals with the maximum tolerated dose of a statin, or\n   2. alone or in combination with other LLTs in patients who are intolerant to statins or for whom a statin is contraindicated.\n3. Participants on LLTs should be on a stable dose for \u226530 days before the first dose administration of the study treatment.\n\nExclusion Criteria:\n\n1. Any surgical and/or medical condition, which in the opinion of the treating physician, may place the participant at higher risk of his/her participation in the study, or is likely to prevent the participant from complying with the requirements of the study or completing the study.\n2. Participants who have previous exposure to inclisiran sodium.\n3. Pregnant or nursing (lactating) women.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 203,
+      "trial_nct_id": "NCT06386419"
+    },
+    {
+      "chunk_id": "NCT06386419:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Incidence and type of treatment-emergent adverse events (TEAEs) | time_frame=10 months (300 days) | description=An Adverse Event (AE) is any untoward medical occurrence in a participant that does not necessarily have a causal relationship with the treatment. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding, for example), symptom, or disease temporarily associated with the use of a medicinal product, whether or not considered related to the medicinal product. A TEAE will be defined as an AE that begins or that worsens in severity after at least 1 dose of the study treatment has been administered.\ntype=secondary | measure=Mean change in LDL-C from baseline to Day 300. | time_frame=Baseline, Day 300 | description=Mean change in LDL-C from baseline to Day 300 to valuate the effectiveness of inclisiran sodium in terms of change in low-density lipoprotein cholesterol (LDL-C) levels.\ntype=secondary | measure=Proportion of the participants with \u226550% LDL-C reduction on Day 300 | time_frame=Baseline, Day 300 | description=Proportion of the participants with \u226550% LDL-C reduction on Day 300 to evaluate the effectiveness of inclisiran sodium in terms of change in low-density lipoprotein cholesterol (LDL-C) levels\ntype=secondary | measure=Proportion of the participants who attain global lipid targets for their level of atherosclerotic cardiovascular disorders (ASCVD) risk | time_frame=Day 300 | description=global lipid targets for their level of ASCVD risk: 55 mg/dL for ASCVD very high-risk participants 70 mg/dL for ASCVD high-risk participants\ntype=secondary | measure=Percentage change in TC, HDL-C, non-HDL-C, VLDL-C and TG | time_frame=Baseline, Day 300 | description=Percentage change in total cholesterol (TC), high-density lipoprotein cholesterol (HDL-C), non-HDL-C, very low-density lipoprotein cholesterol (VLDL-C), and triglycerides (TG) to evaluate the effectiveness of inclisiran sodium in reducing other lipid markers from baseline to Day 300.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 290,
+      "trial_nct_id": "NCT06386419"
+    },
+    {
+      "chunk_id": "NCT06386419:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-11-12\nPrimary completion date: 2026-02-27\nCompletion date: 2026-02-27\nStudy first posted: 2024-04-26\nResults first posted: None\nLast update posted: 2025-05-30\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06386419"
+    },
+    {
+      "chunk_id": "NCT06386419:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT06386419"
+    }
+  ],
+  "trial_nct_id": "NCT06386419"
+}

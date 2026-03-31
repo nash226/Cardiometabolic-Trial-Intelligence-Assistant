@@ -1,0 +1,765 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000789",
+          "term": "Angina, Unstable"
+        },
+        {
+          "id": "D000787",
+          "term": "Angina Pectoris"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002637",
+          "term": "Chest Pain"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006323",
+          "term": "Heart Arrest"
+        },
+        {
+          "id": "D003645",
+          "term": "Death, Sudden"
+        },
+        {
+          "id": "D003643",
+          "term": "Death"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000788",
+          "term": "Angina Pectoris, Variant"
+        },
+        {
+          "id": "D016757",
+          "term": "Death, Sudden, Cardiac"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D047548",
+          "term": "Defibrillators"
+        },
+        {
+          "id": "D004566",
+          "term": "Electrodes"
+        },
+        {
+          "id": "D055615",
+          "term": "Electrical Equipment and Supplies"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        },
+        {
+          "id": "D004567",
+          "term": "Electrodes, Implanted"
+        },
+        {
+          "id": "D019736",
+          "term": "Prostheses and Implants"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D017147",
+          "term": "Defibrillators, Implantable"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Device: Implantable Cardioverter Defibrillator"
+          ],
+          "label": "ICD implantation and optimal medical therapy",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Optimal Medical Therapy"
+          ],
+          "label": "optimal medical therapy",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "ICD implantation and optimal medical therapy"
+          ],
+          "description": "Implantable Cardioverter Defibrillator and Optimal Medical Therapy",
+          "name": "Implantable Cardioverter Defibrillator",
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "optimal medical therapy"
+          ],
+          "name": "Optimal Medical Therapy",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Angina Pectoris, Variant",
+        "Sudden Cardiac Death"
+      ],
+      "keywords": [
+        "Variant angina",
+        "Aborted sudden cardiac death",
+        "Implantable Cardioverter Defibrillator",
+        "Optimal Medical Therapy",
+        "ICD"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "kjchoi@amc.seoul.kr",
+          "name": "Kee-joon Choi, MD",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Bucheon-si",
+          "contacts": [
+            {
+              "name": "Hyung-o Choi, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hyung-o Choi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Soon Chun Hyang University Hospital Bucheon",
+          "geoPoint": {
+            "lat": 37.49889,
+            "lon": 126.78306
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Busan",
+          "contacts": [
+            {
+              "name": "Ki-won Hwang, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ki-won Hwang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Busan National University Yangsan Hospital",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Busan",
+          "contacts": [
+            {
+              "name": "Jin-hee Ahn, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jin-hee Ahn, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Busan University Hospital",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Busan",
+          "contacts": [
+            {
+              "name": "Jong-sung Park, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jong-sung Park, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Dong-A Medical Center",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Cheonan",
+          "contacts": [
+            {
+              "name": "Ha-young Choi, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ha-young Choi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Soon Chun Hyang University Hospital Cheonan",
+          "geoPoint": {
+            "lat": 36.8065,
+            "lon": 127.1522
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Daegu",
+          "contacts": [
+            {
+              "name": "Jongmin Hwang, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jongmin Hwang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Keimyung University Dongsan Medical Center",
+          "geoPoint": {
+            "lat": 35.87028,
+            "lon": 128.59111
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Daejeon",
+          "contacts": [
+            {
+              "name": "Jae-hyung Park, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jae-hyung Park, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Chungnam National University Hospital",
+          "geoPoint": {
+            "lat": 36.34913,
+            "lon": 127.38493
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Gangneung",
+          "country": "South Korea",
+          "facility": "Gangneung Asan Hospital",
+          "geoPoint": {
+            "lat": 37.75266,
+            "lon": 128.87239
+          },
+          "status": "WITHDRAWN"
+        },
+        {
+          "city": "Gwangju",
+          "contacts": [
+            {
+              "name": "Hyung-wook Park, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hyung-wook Park, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Chonnam National University Hospital",
+          "geoPoint": {
+            "lat": 35.15472,
+            "lon": 126.91556
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Iksan",
+          "country": "South Korea",
+          "facility": "Wonkwang University Hospital",
+          "geoPoint": {
+            "lat": 35.94389,
+            "lon": 126.95444
+          },
+          "status": "WITHDRAWN"
+        },
+        {
+          "city": "Incheon",
+          "contacts": [
+            {
+              "name": "Seung-Hwan Han, MDD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Seung-Hwan Han, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Gachon University Gil Medical Center",
+          "geoPoint": {
+            "lat": 37.45646,
+            "lon": 126.70515
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Jeonju",
+          "contacts": [
+            {
+              "name": "Kyung-seok Lee, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Kyung-seok Lee, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Chonbuk National University Hospital",
+          "geoPoint": {
+            "lat": 35.82194,
+            "lon": 127.14889
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Sejong",
+          "contacts": [
+            {
+              "name": "Minsu Kim, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Minsu Kim, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Chungnam National University Sejong Hospital",
+          "geoPoint": {
+            "lat": 36.59245,
+            "lon": 127.29223
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seongnam",
+          "contacts": [
+            {
+              "name": "Il-young Oh, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Il-young Oh, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Seoul university Bundang hospital",
+          "geoPoint": {
+            "lat": 35.54127,
+            "lon": 127.39683
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Kee-joon Choi, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Kee-joon Choi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Asan Medical Center",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Jun-Beom Park, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jun-Beom Park, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Ewha Womans University Mokdong Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Eun-sun Jin, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Eun-sun Jin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Kangdong KyungHee University hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Young-hoon Kim, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Young-hoon Kim, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Korea University Anam Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "Korea University Guro Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "TERMINATED"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Woo-hyun Lim, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Woo-hyun Lim, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Seoul National University Boramae Medical Center",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Se-il Oh, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Se-il Oh, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Seoul National University Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "Severance Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "WITHDRAWN"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Kiyuk Chang, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Kiyuk Chang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "The Catholic Univ. of Korea, Seoul St. Mary's Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "The Catholic University of Korea, Eunpyeong St. Mary's Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "WITHDRAWN"
+        },
+        {
+          "city": "Suwon",
+          "country": "South Korea",
+          "facility": "Ajou University Hospital",
+          "geoPoint": {
+            "lat": 37.29111,
+            "lon": 127.00889
+          },
+          "status": "ACTIVE_NOT_RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine whether ICD(Implantable Cardioverter Defibrillator) implantation on the top of optimal medical therapy in patients with variant angina manifesting as aborted sudden cardiac death reduces the incidence of the death from any cause compared with optimal medical therapy alone.",
+      "detailedDescription": "All participants will be monitored over a span of five years and the time point of the year of last subject last visit. The term \"year of last subject last visit\" refers to the time point of the last visit for all participants. At this specific time point, event occurrence check will be conducted to determine the occurrence of endpoint events among all participants."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 140,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years or older\n* Patients experienced successfully resuscitated cardiac arrest due to documented ventricular fibrillation or sustained rapid ventricular tachycardia\n* Diagnosed as variant angina, defined by spontaneous coronary spasm with ST elevation (\u22650.1mV) in the coronary angiogram and/or documented coronary spasm on ergonovine provocation coronary angiography\n\nExclusion Criteria:\n\n* Significant (\\>50%) coronary artery stenosis on coronary angiography\n* Organic heart disease known to be associated with sudden cardiac arrest.\n\n  * Heart failure with reduced ejection fraction (Left Ventricular Ejection Fraction \\< 35%)\n  * Presence of LV akinesia or aneurysm\n  * Hypertrophic cardiomyopathy\n  * Arrhythmogenic right ventricular dysplasia\n* Chronic Heart Failure New York Heart Association functional class III or IV\n* prior history of atrial or ventricular arrhythmia requiring class I or III antiarrhythmic drugs (flecainide, propafenone, amiodarone, sotalol and dronedarone)\n* Prior catheter ablation for ventricular arrhythmia\n* Primary cardiac electrical diseases (long QT syndrome, Brugada syndrome, catecholaminergic polymorphic ventricular tachycardia)\n* Prior pacemaker or Implantable Cardioverter Defibrillator\n* 2nd or 3rd degree AV block not related to coronary ischemia, requiring permanent pacemaker\n* Patients with poor neurologic outcome (defined as cerebral performance category scale \u22653)\n* Life expectancy \\<2 years\n* Psychiatric illnesses that may be aggravated by device implantation or that may preclude systematic follow-up",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "VARIANT ICD",
+      "briefTitle": "Implantable Cardioverter Defibrillator Versus Optimal Medical Therapy In Patients With Variant Angina Manifesting as Aborted Sudden Cardiac Death",
+      "nctId": "NCT02845531",
+      "orgStudyIdInfo": {
+        "id": "AMCCV2016-15"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Asan Medical Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Death from any cause",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Event rate of Cardiac death",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Event rate of Death from arrhythmia",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Event rate of Cardiac arrest",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Event rate of Recurrence of ventricular tachyarrhythmia",
+          "timeFrame": "5 years"
+        },
+        {
+          "description": "Hospitalization due to unstable angina, acute myocardial infarction, heart failure, cardiac arrhythmia",
+          "measure": "Event rate of Hospitalization",
+          "timeFrame": "5 years"
+        },
+        {
+          "description": "Appropriate ICD therapies defined as device-administered antitachycardia or defibrillation treatment for ventricular tachyarrhythmia that had not terminated spontaneously",
+          "measure": "Event rate of Appropriate ICD therapies",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Event rate of Inappropriate ICD therapies",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Event rate of Major device-related complications",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Event rate of Stroke",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "CardioVascular Research Foundation, Korea"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Kee-joon Choi"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Asan Medical Center",
+        "investigatorFullName": "Kee-joon Choi",
+        "investigatorTitle": "professor of medicine",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2031-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-12",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2030-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2016-11-29",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-06",
+      "studyFirstPostDateStruct": {
+        "date": "2016-07-27",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-07-24",
+      "studyFirstSubmitQcDate": "2016-07-24"
+    }
+  }
+}

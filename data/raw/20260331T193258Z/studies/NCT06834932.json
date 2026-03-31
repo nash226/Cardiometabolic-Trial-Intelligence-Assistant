@@ -1,0 +1,831 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "* Participants will receive Rosuvastatin Dose 1 QD for minimum 21 days (up to 28 days)\n* Then receive AZD0780 QD as add on for next 28 days (Part A)",
+          "interventionNames": [
+            "Drug: Rosuvastatin Dose 1",
+            "Drug: AZD0780"
+          ],
+          "label": "AZD0780 +Rosuvastatin Dose 1 (Part A)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "* Participants will receive Rosuvastatin Dose 1 QD for minimum 21 days (up to 28 days)\n* Then receive Placebo QD as add on for next 28 days (Part A)",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Rosuvastatin Dose 1"
+          ],
+          "label": "Placebo +Rosuvastatin Dose 1 (Part A)",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "* Participants will receive Rosuvastatin Dose 2 QD for minimum 21 days (up to 28 days)\n* Then receive AZD0780 QD as add on for next for 28 days (Part A)",
+          "interventionNames": [
+            "Drug: Rosuvastatin dose 2",
+            "Drug: AZD0780"
+          ],
+          "label": "AZD0780 +Rosuvastatin Dose 2 (Part A)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "* Participants will receive Rosuvastatin Dose 2 QD for minimum 21 days (up to 28 days)\n* Then receive Placebo QD as add on for 28 days (Part A)",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Rosuvastatin dose 2"
+          ],
+          "label": "Placebo + Rosuvastatin Dose 2 (Part A)",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "\u2022 Participate will receive AZD0780 QD for 52 weeks (Part B Cohort 1)",
+          "interventionNames": [
+            "Drug: AZD0780"
+          ],
+          "label": "AZD0780 (Part B Cohort 1)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "\u2022 Participate will receive Placebo QD for 52 weeks (Part B Cohort 1)",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo (Part B Cohort 1)",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "* Participate receive Rosuvastatin Dose 1 for 28 days.\n* Then receive AZD0780 QD as add on for 12 weeks (Part B Cohort 2)",
+          "interventionNames": [
+            "Drug: Rosuvastatin Dose 1",
+            "Drug: AZD0780"
+          ],
+          "label": "AZD0780+Rosuvastatin Dose 1 (Part B Cohort 2)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "* Participate receive Rosuvastatin Dose 1 for 28 days.\n* Then receive Placebo QD as add on for 12 weeks (Part B Cohort 2)",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Rosuvastatin Dose 1"
+          ],
+          "label": "Placebo+Rosuvastation Dose 1 (Part B Cohort 2)",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Placebo (Part B Cohort 1)",
+            "Placebo + Rosuvastatin Dose 2 (Part A)",
+            "Placebo +Rosuvastatin Dose 1 (Part A)",
+            "Placebo+Rosuvastation Dose 1 (Part B Cohort 2)"
+          ],
+          "description": "Administered orally as tablets",
+          "name": "Placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "AZD0780 +Rosuvastatin Dose 1 (Part A)",
+            "AZD0780+Rosuvastatin Dose 1 (Part B Cohort 2)",
+            "Placebo +Rosuvastatin Dose 1 (Part A)",
+            "Placebo+Rosuvastation Dose 1 (Part B Cohort 2)"
+          ],
+          "description": "Administered orally as tablets",
+          "name": "Rosuvastatin Dose 1",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "AZD0780 +Rosuvastatin Dose 2 (Part A)",
+            "Placebo + Rosuvastatin Dose 2 (Part A)"
+          ],
+          "description": "Administered orally as tablets",
+          "name": "Rosuvastatin dose 2",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "AZD0780 (Part B Cohort 1)",
+            "AZD0780 +Rosuvastatin Dose 1 (Part A)",
+            "AZD0780 +Rosuvastatin Dose 2 (Part A)",
+            "AZD0780+Rosuvastatin Dose 1 (Part B Cohort 2)"
+          ],
+          "description": "Administered orally as tablets",
+          "name": "AZD0780",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Dyslipidaemia"
+      ],
+      "keywords": [
+        "AZD0780",
+        "Dyslipidaemia"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "information.center@astrazeneca.com",
+          "name": "AstraZeneca Clinical Study Information Center",
+          "phone": "1-877-240-9479",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Baotou",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 40.6516,
+            "lon": 109.84389
+          },
+          "status": "RECRUITING",
+          "zip": "14010"
+        },
+        {
+          "city": "Beijing",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "status": "RECRUITING",
+          "zip": "100029"
+        },
+        {
+          "city": "Beijing",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "status": "RECRUITING",
+          "zip": "100050"
+        },
+        {
+          "city": "Bengbu",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 32.94083,
+            "lon": 117.36083
+          },
+          "status": "RECRUITING",
+          "zip": "233004"
+        },
+        {
+          "city": "Changchun",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          },
+          "status": "RECRUITING",
+          "zip": "130021"
+        },
+        {
+          "city": "Changchun",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          },
+          "status": "RECRUITING",
+          "zip": "130033"
+        },
+        {
+          "city": "Changde",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 29.03205,
+            "lon": 111.69844
+          },
+          "status": "RECRUITING",
+          "zip": "415000"
+        },
+        {
+          "city": "Changsha",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          },
+          "status": "RECRUITING",
+          "zip": "410015"
+        },
+        {
+          "city": "Changzhou",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 31.77359,
+            "lon": 119.95401
+          },
+          "status": "RECRUITING",
+          "zip": "272100"
+        },
+        {
+          "city": "Chengdu",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          },
+          "status": "RECRUITING",
+          "zip": "610000"
+        },
+        {
+          "city": "Chongqing",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          },
+          "status": "RECRUITING",
+          "zip": "402260"
+        },
+        {
+          "city": "Daqing",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 46.58333,
+            "lon": 125.0
+          },
+          "status": "RECRUITING",
+          "zip": "163000"
+        },
+        {
+          "city": "Deyang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 31.13019,
+            "lon": 104.38198
+          },
+          "status": "RECRUITING",
+          "zip": "618000"
+        },
+        {
+          "city": "Guangzhou",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          },
+          "status": "RECRUITING",
+          "zip": "510100"
+        },
+        {
+          "city": "Guangzhou",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          },
+          "status": "RECRUITING",
+          "zip": "510220"
+        },
+        {
+          "city": "Hengyang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 26.88946,
+            "lon": 112.61888
+          },
+          "status": "RECRUITING",
+          "zip": "421001"
+        },
+        {
+          "city": "Heze",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 35.23929,
+            "lon": 115.47358
+          },
+          "status": "RECRUITING",
+          "zip": "274099"
+        },
+        {
+          "city": "Linhai",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 22.8836,
+            "lon": 107.264
+          },
+          "status": "RECRUITING",
+          "zip": "317000"
+        },
+        {
+          "city": "Luoyang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 34.67345,
+            "lon": 112.43684
+          },
+          "status": "RECRUITING",
+          "zip": "471000"
+        },
+        {
+          "city": "Nanchang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          },
+          "status": "RECRUITING",
+          "zip": "330009"
+        },
+        {
+          "city": "Nanchong",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 30.79508,
+            "lon": 106.08473
+          },
+          "status": "RECRUITING",
+          "zip": "637900"
+        },
+        {
+          "city": "Nanjing",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          },
+          "status": "RECRUITING",
+          "zip": "210009"
+        },
+        {
+          "city": "Pingxiang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 27.61672,
+            "lon": 113.85353
+          },
+          "status": "RECRUITING",
+          "zip": "337055"
+        },
+        {
+          "city": "Qiqihar",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 47.33922,
+            "lon": 123.96154
+          },
+          "status": "RECRUITING",
+          "zip": "161000"
+        },
+        {
+          "city": "Sanya",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 18.25435,
+            "lon": 109.50947
+          },
+          "status": "RECRUITING",
+          "zip": "572000"
+        },
+        {
+          "city": "Shanghai",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "status": "RECRUITING",
+          "zip": "200032"
+        },
+        {
+          "city": "Shanghai",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "status": "RECRUITING",
+          "zip": "200120"
+        },
+        {
+          "city": "Shanghai",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "status": "NOT_YET_RECRUITING",
+          "zip": "310000"
+        },
+        {
+          "city": "Shenyang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          },
+          "status": "RECRUITING",
+          "zip": "110004"
+        },
+        {
+          "city": "Shenyang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          },
+          "status": "RECRUITING",
+          "zip": "110016"
+        },
+        {
+          "city": "Siping",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 43.16143,
+            "lon": 124.37785
+          },
+          "status": "RECRUITING",
+          "zip": "136000"
+        },
+        {
+          "city": "Taiyuan",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 37.86944,
+            "lon": 112.56028
+          },
+          "status": "RECRUITING",
+          "zip": "030024"
+        },
+        {
+          "city": "Tianjin",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          },
+          "status": "RECRUITING",
+          "zip": "300457"
+        },
+        {
+          "city": "Wuhan",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          },
+          "status": "RECRUITING",
+          "zip": "430010"
+        },
+        {
+          "city": "Wuhan",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          },
+          "status": "RECRUITING",
+          "zip": "430030"
+        },
+        {
+          "city": "Wuhan",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          },
+          "status": "RECRUITING",
+          "zip": "430060"
+        },
+        {
+          "city": "Xi'an",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          },
+          "status": "COMPLETED",
+          "zip": "710068"
+        },
+        {
+          "city": "Xianyang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 34.33778,
+            "lon": 108.70261
+          },
+          "status": "RECRUITING",
+          "zip": "750004"
+        },
+        {
+          "city": "Yinchuan",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 38.46806,
+            "lon": 106.27306
+          },
+          "status": "RECRUITING",
+          "zip": "750004"
+        },
+        {
+          "city": "Zigong",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 29.34162,
+            "lon": 104.77689
+          },
+          "status": "ACTIVE_NOT_RECRUITING",
+          "zip": "643021"
+        },
+        {
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          },
+          "status": "RECRUITING",
+          "zip": "999077"
+        },
+        {
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          },
+          "status": "COMPLETED"
+        },
+        {
+          "city": "Shatin",
+          "country": "Hong Kong",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 22.38333,
+            "lon": 114.18333
+          },
+          "status": "RECRUITING",
+          "zip": "00000"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomised, double-blind, placebo-controlled, multi-centre, sequential Phase II and Phase III study that will evaluate the efficacy, safety, and PK of AZD0780 administered orally for up to 52 weeks in participants with elevated LDL-C. The study consist of 2 separate parts (Part A and Part B) approximately 60 participants will be randomised in Part A. There will be 2 cohorts in Part B (approximately 220 participants in Cohort 1 and 100 participants in Cohort 2).",
+      "detailedDescription": "The planned study includes 2 parts. Part A will be the Phase II study and aims to evaluate the PK, PD, safety, and tolerability of AZD0780. Part B will be the Phase III study and aims to evaluate the reduction of LDL-C as well as the safety and tolerability after oral administration of AZD0780 on background lipid-lowing therapy including moderate to high-intensity statins.\n\nFor Part A, approximately 60 participants who meet the eligibility criteria will be randomised. Part A will comprise 4 periods totalling up to 80 days.\n\nFor Part B, approximately 220 participants who meet the eligibility criteria will be randomised in Cohort 1, and approximately 100 participants who meet the eligibility criteria will be randomised in Cohort 2.\n\nCohort 1: participants are on a stable dose of LLTs, including moderate to high-intensity statins for\u2265 28 days before screening.\n\nCohort 2: participants could be with moderate-intensity or without statins therapy (not due to statin intolerance) in background LLTs or not on any LLTs ."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 360,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPART A\n\n1. Males, and females of non-childbearing potential, 18 to 55 years of age, at the time of signing the informed consent.\n2. Diagnosis of dyslipidaemia: and with fasting LDL-C \u2265 100 mg/dL (2.6 mmol/L) and \\< 190 mg/dL (4.9 mmol/L) at screening (Visit 1).\n3. Fasting triglycerides \\< 400 mg/dL (\\< 4.52 mmol/L) at screening (Visit 1).\n4. Not on any LLTs for \u2265 8 weeks prior to screening (Visit 1), except for a heart-healthy lifestyle.\n5. No planned LLTs using during study participation.\n6. Body mass index \u2265 18 and \u226435 kg/m\\^2 , weigh \u226550 kg and \u2264120 kg.\n\nPART B\n\n1. Males, and females, \u2265 18 years of age, at the time of signing the informed consent.\n2. Meets one of the ASCVD status/risk categories and has a corresponding fasted LDL-C value at screening (Visit 1) .\n\n(1) Participants with clinical ASCVD, LDL-C \u2265 55 mg/dl (ultra-high risk) and \u2265 70 mg/dl (very high risk).\n\n(2) Participants without clinical ASCVD, at moderate to high risk for ASCVD at 10 years, LDL-C \u2265 100 mg/dl. ASCVD risk equivalents \\[diabetes mellitus,LDL-C \u2265 4.9 mmol/L or TC \u2265 7.2 mmol/L, HeFH, CKD (stage 3-5)\\] are also eligible.\n\n3\\. Fasting triglycerides \\< 400 mg/dL (\\< 4.52 mmol/L).\n\n4\\. Background LLTs:\n\nFor Cohort 1: on a stable dose of LLTs including medications and supplements \u2265 28 days before screening (Visit 1). , that typically include moderate to high-intensity statins for \u2265 28 days before screening (LLTs include medications \\[eg, statins, ezetimibe, niacin\\] and supplements \\[eg, omega-3 fatty acids\\] that can affect cholesterol levels).\n\n1. Participants intolerant to moderate or high intensity statins per the 2023 Chinese Guideline may be included if treated with a low intensity statin.\n2. Participants not on statins must have documented intolerance to at least two statins (including one at the lowest standard dose) or be on chronic medication contraindicating statin use.\n\nFor Cohort 2: Meet one of the following before screening (Visit 1):\n\n1. On a stable dose of LLTs including moderate statins .\n2. On a stable dose of LLTs without any statins.\n3. Not received treatment with any LLTs.\n\nExclusion Criteria:\n\nPART A\n\n1. Malignancy (except non-melanoma skin cancers, cervical in-situ carcinoma, breast ductal carcinoma in-situ, or Stage 1 prostate carcinoma) within the last 10 years.\n2. Recipient of any major organ transplant, eg, lung, liver, heart, bone marrow, renal.\n3. Homozygous familial hypercholesterolaemia, Know diagnosis of HeFH, LDL apheresis or plasma apheresis within 12 months prior to screening (Visit 1).\n4. QTcF \\> 450 ms; high degree atrioventricular-block grade II-III and sinus node dysfunction with significant sinus pause untreated with pacemaker; and cardiac tachyarrhythmias.\n5. A LDL-C reduction that is \\< 30% post rosuvastatin run-in period (Day -8).\n\nPART B\n\n1. Acute ischaemic ASCVD event within 7 days prior to screening (Visit 1).\n2. Any uncontrolled or serious disease.\n3. eGFR \\< 15 mL/min/1.73m2 using the CKD-EPI 2021 (age, sex) equation at screening (Visit 1).\n4. Uncontrolled type 2 diabetes mellitus, defined as HbA1c \u2265 9.5% at screening (Visit 1).\n5. Heart failure with New York Heart Association Class IV.\n6. Malignancy (except non-melanoma skin cancers, cervical in-situ carcinoma) within 5 years prior to screening (Visit 1).\n7. Severe concomitant non-CVD with risk of life expectancy \\< 2 years.\n8. Recipient of any major organ transplant, eg, lung, liver, heart, bone marrow, renal.\n9. Homozygous familial hypercholesterolaemia, LDL apheresis, or plasma apheresis within 12 months prior to screening or any other underlying known disease or condition that may interfere with interpretation of the clinical study results as judged by the Investigator.\n10. Uncontrolled hypertension defined as average sitting SBP \\> 160 mmHg or DBP \\> 110 mmHg at screening (Visit 1) or randomization despite antihypertensive therapy (based on the mean of the 3 consecutive readings).\n11. Any laboratory values with the following deviations at screening (Visit 1)\n\n    1. Any positive result on screening for hepatitis B or hepatitis C.\n    2. ALT \\> 3 \u00d7 ULN.\n    3. AST \\> 3 \u00d7 ULN.\n    4. TBL \\> 2 \u00d7 ULN (except for participants with Gilberts syndrome, where TBL 3 \u00d7 ULN is acceptable provided direct bilirubin \\< 1.5 \u00d7 ULN)\n    5. Creatine kinase \\> 5 \u00d7 ULN\n    6. Urine albumin-to-creatinine ratio \u2265 500 mg/g\n12. QTcF \\> 470 ms; high degree atrioventricular-block grade II-III and sinus node dysfunction with significant sinus pause untreated with pacemaker; and cardiac tachyarrhythmias.\n13. Current administration of PCSK9 inhibitor, siRNA or mAb (approved or investigational) at screening.\n14. Mipomersen or microsomal triglyceride transfer protein inhibitor (eg, lomitapide) use within 12 months prior to screening or planned ues during the study.\n15. Use of PCSK-9 inhibitors: evolocumab/alirocumab within 12 weeks, inclisiran within 18 months, tafolecimab, ebronucimab, ongericimab, and recaticimab within 3 to 6 months before screening or planned use during the study; or any other PCSK-9 inhibitor within 5 half-lives before screening or planned use during the study.\n16. Use of any lipid-lowing traditional Chinese medicine (expect Xuezhikang) within 8 weeks before screening.\n17. Use of gemfibrozil within one week before screening or planned use during the study.\n18. Receiving, or has received within 14 days of screening, medication with a black box warning for significant QT prolongation.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of AZD0780 in Participants With Dyslipidaemia",
+      "nctId": "NCT06834932",
+      "officialTitle": "A Randomised, Double-blind, Placebo-controlled, Multi-centre, Sequential Phase II, and Phase III Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of AZD0780 Administered for up to 52 Weeks in Participants With Dyslipidaemia (AZURE-CHINA)",
+      "orgStudyIdInfo": {
+        "id": "D7960C00008"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "AstraZeneca"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "When a request has been approved AstraZeneca will provide access to the deidentified individual patient-level data in an approved sponsored tool . Signed Data Sharing Agreement (non-negotiable contract for data accessors) must be in place before accessing requested information. Additionally, all users will need to accept the terms and conditions of the SAS MSE to gain access. For additional details, please review the Disclosure Statements at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure.",
+      "description": "Qualified researchers can request access to anonymized individual patient-level data from AstraZeneca group of companies sponsored clinical trials via the request portal. All request will be evaluated as per the AZ disclosure commitment: https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure. Yes, indicates that AZ are accepting requests for IPD, but this does not mean all requests will be shared.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "AstraZeneca will meet or exceed data availability as per the commitments made to the EFPIA Pharma Data Sharing Principles. For details of our timelines, please rerefer to our disclosure commitment at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure.",
+      "url": "https://astrazenecagroup-dt.pharmacm.com/DT/Home"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "To assess the safety and tolerability of AZD0780 following oral administration of multiple doses (PART A)",
+          "measure": "Number of participants with adverse events (PART A)",
+          "timeFrame": "From baseline up to Day 39 (PART A)"
+        },
+        {
+          "description": "To assess the safety and tolerability of AZD0780 versus placebo (PART B)",
+          "measure": "Number of participants with adverse events (PART B)",
+          "timeFrame": "Cohort 1: From baseline up to Day 375 (PART B) Cohort 2: From baseline up to Day 95 (PART B)"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "To characterise the single dose and steady state PK of AZD0780 following oral administration of AZD0780 (PART A)",
+          "measure": "AZD0780 Concentrations in plasma (PART A)",
+          "timeFrame": "Day 1 and Day 8: Pre-dose, 0.25,0.5,1,1.5,2,3,4,6,8,12,16 hours post-dose. Day 2, Day 9, Day 11, Day 15, Day 22, Day 29: Pre-dose (PART A)"
+        },
+        {
+          "description": "To characterise the single dose and steady state PK of AZD0780 following oral administration of AZD0780 (PART A)",
+          "measure": "AZD0780 PK Parameter: AUC0-t (PART A, intensive PK subgroup).",
+          "timeFrame": "Day 1 and Day 8: Pre-dose, 0.25,0.5,1,1.5,2,3,4,6,8,12,16 hours post-dose. Day 2, Day 9, Day 11, Day 15, Day 22, Day 29: Pre-dose (PART A)"
+        },
+        {
+          "description": "To characterise the single dose and steady state PK of AZD0780 following oral administration of AZD0780 (PART A)",
+          "measure": "AZD0780 PK parameter: Cmax (PART A, intensive PK subgroup)",
+          "timeFrame": "Day 1 and Day 8: Pre-dose, 0.25,0.5,1,1.5,2,3,4,6,8,12,16 hours post-dose. Day 2, Day 9, Day 11, Day 15, Day 22, Day 29: Pre-dose (PART A)"
+        },
+        {
+          "description": "To characterise the single dose and steady state PK of AZD0780 following oral administration of AZD0780 (PART A)",
+          "measure": "AZD0780 PK parameter: AUCtau (PART A, intensive PK sub group)",
+          "timeFrame": "Day 1 and Day 8: Pre-dose, 0.25,0.5,1,1.5,2,3,4,6,8,12,16 hours post-dose. Day 2, Day 9, Day 11, Day 15, Day 22, Day 29: Pre-dose (PART A)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on LDL-C at 12 weeks (PART B)",
+          "measure": "Relative change in LDL-C from baseline to 12 weeks (PART B)",
+          "timeFrame": "From baseline to 12 weeks (PART B)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "To evaluate the effect of treatment with AZD0780 versus placebo on LDL-C at Week 4 (PART A)",
+          "measure": "Relative change from baseline of LDL-C at Week 4 (PART A)",
+          "timeFrame": "From baseline to Week 4 (PART A)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on LDL-C at 12 weeks in Cohort 2 (PART B)",
+          "measure": "Relative change in LDL-C from baseline to 12 weeks (PART B Cohort 2)",
+          "timeFrame": "From baseline to 12 weeks (PART B Cohort 2)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on LDL-C at 12 weeks in participants on background statin therapy at baseline (PART B)",
+          "measure": "Relative change in LDL-C from baseline to 12 weeks (PART B)",
+          "timeFrame": "From baseline to 12 weeks (PART B)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on the probability of LDL-C \\< 70 mg/dL at 12 weeks in participants with baseline LDL-C \u2265 70 mg/dL (PART B)",
+          "measure": "Indicator for LDL-C < 70 mg/dL (< 1.8 mmol/L) at 12 weeks (PART B)",
+          "timeFrame": "From baseline to 12 weeks (PART B)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on the probability of LDL-C \\< 55 mg/dL at 12 weeks (PART B)",
+          "measure": "Indicator for LDL-C < 55 mg/dL (< 1.4 mmol/L) at 12 weeks (PART B)",
+          "timeFrame": "From baseline to 12 weeks (PART B)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on LDL-C at 28 weeks in Cohort 1 (PART B cohort 1)",
+          "measure": "Relative change in LDL-C from baseline to 28 weeks (PART B cohort 1)",
+          "timeFrame": "From baseline to Week 28 (PART B cohort 1)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on LDL-C at 52 weeks in Cohort 1 (PART B cohort 1)",
+          "measure": "Relative change in LDL-C from baseline to 52 weeks (PART B cohort 1)",
+          "timeFrame": "From baseline to Week 52 (PART B cohort 1)"
+        },
+        {
+          "description": "To compare the effect of treatment with AZD0780 versus placebo on lipid panel at 12 weeks (PART B cohort 2)",
+          "measure": "Relative change in lipid panel from baseline to 12 weeks (PART B cohort 2)",
+          "timeFrame": "From baseline to Week 12 (PART B cohort 2)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "AstraZeneca"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-02-22",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-06",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-22",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-12-06",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-12-02",
+      "studyFirstSubmitQcDate": "2025-02-18"
+    }
+  }
+}

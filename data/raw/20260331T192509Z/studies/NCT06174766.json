@@ -1,0 +1,291 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Take HGP2102-1 once daily for 4 weeks orally, and then take HGP2102-2 once daily for 6 weeks orally.",
+          "interventionNames": [
+            "Drug: HGP2102-1",
+            "Drug: HGP2102-2"
+          ],
+          "label": "Experimental1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Take HGP2102-1 once daily for 10 weeks orally.",
+          "interventionNames": [
+            "Drug: HGP2102-1"
+          ],
+          "label": "Experimental2",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Take RLD2209-1 once daily for 4 weeks orally, and then take RLD2209-2 once daily for 6 weeks orally.",
+          "interventionNames": [
+            "Drug: RLD2209-1",
+            "Drug: RLD2209-2"
+          ],
+          "label": "Active Comparator",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Experimental1",
+            "Experimental2"
+          ],
+          "description": "Test drug",
+          "name": "HGP2102-1",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Experimental1"
+          ],
+          "description": "Test drug",
+          "name": "HGP2102-2",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Active Comparator"
+          ],
+          "description": "Control drug",
+          "name": "RLD2209-1",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Active Comparator"
+          ],
+          "description": "Control drug",
+          "name": "RLD2209-2",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "skyko7@hanmi.co.kr",
+          "name": "Na Young Kim",
+          "phone": "82-2-410-9165",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Seok Min Kang, Ph.D",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Seodaemun-gu",
+          "contacts": [
+            {
+              "email": "smkang@yuhs.ac",
+              "name": "Seokmin Kang, M.D., Ph.D.",
+              "phone": "82-2-2228-8450",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Sevrance hosptal",
+          "state": "Seoul",
+          "status": "RECRUITING",
+          "zip": "03722"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A Multicenter, Randomized, Double-blind, Phase 3 Study to Evaluate the Efficacy and Safety of HGP2102 in patients with Essential Hypertension"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 324,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects whose clinic blood pressure measured in visit 1 corresponds to the following conditions\n\n   * sitSBP\\<180 mmHg and sitDBP\\<110mg for patients receiving any BP-lowering drug within 1 month prior to Visit 1\n   * 140mmHG\u2264sitSBP\\<180mmHg and 60mmHg\u2264sitDBP\\<110mmHg\n2. Subjects whose clinic and ambulatory blood pressure measured in visit 2 corresponds to the following conditions\n\n   * 24h-ABPM: 130mmHg\u2264 SBP \\<170mmHg\n   * clinic BP: 140 mmHg \u2264 sitSBP \\< 180 mmHg and 60 mmHg \u2264 sitDBP \\< 110 mmHg\n\nExclusion Criteria:\n\n1. Difference between arms greater than 20 mmHg for mean sitSBP or 10mmHg for mean sitDBP at Visit 1\n2. Patients who have taken more than three components of Blood pressure medication within 3 months prior to Visit 1\n3. Orthostatic hypotension with symptoms within 3 months prior to visit 1\n4. Secondary hypertension patient or suspected to be\n5. Uncontrolled type II diabetes mellitus (HbA1c \\> 9%) or type I diabetes mellitus\n6. Severe heart disease or severe neurovascular disease\n7. Moderate or malignant retinopathy\n8. Severe renal diseases (eGFR\\<30mL/min/1.73m2)\n9. Severe or active hepatopathy (AST or ALT \u2265 2 times of normal range)\n10. Hypokalemia or Hyperkalemia (K\\<3.5mmol/L or K \u2265 5.5mmol/L)\n11. Hyponatremia or Hypernatremia (Na\\<135mmol/L or Na \u2265 155mmol/L)\n12. History of malignancy tumor\n13. History of alcohol or drug abuse\n14. Positive to pregnancy test, nursing mother, intention on pregnancy\n15. Considered by investigator as not appropriate to participate in the clinical study with other reason",
+      "healthyVolunteers": false,
+      "minimumAge": "19 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study to Evaluate Efficacy and Safety of HGP2102 in Essential Hypertension Patients",
+      "nctId": "NCT06174766",
+      "officialTitle": "A Multicenter, Randomized, Double-blind, Phase 3 Study to Evaluate Efficacy and Safety of HGP2102 in Patients With Essential Hypertension",
+      "orgStudyIdInfo": {
+        "id": "HM-ENCORE-301"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Hanmi Pharmaceutical Company Limited"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from baseline in 24 hours ambulatory systolic blood pressure",
+          "timeFrame": "baseline, 10 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change from baseline in 24 hours ambulatory systolic blood pressure",
+          "timeFrame": "baseline, 4 weeks"
+        },
+        {
+          "measure": "Change from baseline in 24 hours ambulatory diastolic blood pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in 24 hours ambulatory pulse pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in diurnal ambulatory systolic blood pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in diurnal ambulatory diastolic blood pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in diurnal ambulatory pulse pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in nocturnal ambulatory systolic blood pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in nocturnal ambulatory diastolic blood pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in nocturnal ambulatory pulse pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in sitting systolic blood pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in sitting diastolic blood pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Change from baseline in sitting pulse pressure",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Proportion of subjects achieving blood pressure control",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        },
+        {
+          "measure": "Blood pressure response rate",
+          "timeFrame": "baseline, 4 weeks, 10 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Hanmi Pharmaceutical Company Limited"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-05-10",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-06",
+      "studyFirstPostDateStruct": {
+        "date": "2023-12-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-12-08",
+      "studyFirstSubmitQcDate": "2023-12-08"
+    }
+  }
+}

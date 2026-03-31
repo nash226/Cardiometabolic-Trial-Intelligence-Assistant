@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05621070:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05621070\nBrief title: Efficacy and Safety of JS002 as Monotherapy in Patients With Primary Hypercholesterolaemia and Mixed Dyslipidemia\nOfficial title: A Double-blind, Randomized, Placebo-controlled, Multicenter Study to Evaluate Efficacy and Safety of JS002 as Monotherapy in Patients With Primary Hypercholesterolaemia and Mixed Dyslipidemia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT05621070"
+    },
+    {
+      "chunk_id": "NCT05621070:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Primary Hypercholesterolaemia and Mixed Dyslipidemia\nIntervention labels: JS002; Placebo\nDrug class labels: \nArms: JS002 150mg Q2W; JS002 450mg Q4W; Placebo Q2W; Placebo Q4W\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05621070"
+    },
+    {
+      "chunk_id": "NCT05621070:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: JS002 is a recombinant humanized anti-PCSK9 monoclonal antibody. This is a randomized, double-blind, placebo-controlled study to evaluate the efficacy, safety, PK/PD profile, immunogenicity as well as complete delivery of auto-injector by patients of JS002 as monotherapy in patients with primary hypercholesterolaemia and mixed dyslipidemia.\n\nIn this study, two dose cohorts(150 mg, 450 mg) are set up, and 582 subjects are planned to be enrolled (randomizedly assigned to JS002 or placebo 150/450 mg group in a 2:1:2:1 ratio).A screening period (\u22646 weeks), a double-blind treatment period (12 weeks), an open-label treatment period (40 weeks), and a follow-up period (8 weeks) will be required.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 107,
+      "trial_nct_id": "NCT05621070"
+    },
+    {
+      "chunk_id": "NCT05621070:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Signed informed consent\n2. Age 18\\~80 years old\n3. Subject who has not achieve LDL-C goal as categorized by their CV risk at screening\n4. Fasting TG\u22644.5mmol/L by central laboratory at screening\n5. Statin intolerance subject must have a history of statin intolerance as evidenced\n\nExclusion Criteria:\n\n1. History of hemorrhagic stroke\n2. NYHA III or IV heart failure, or known LVEF\\< 30% within 1 year before randomization\n3. Uncontrolled serious cardiac arrhythmia defined as recurrent and highly symptomatic ventricular tachycardia, atrial fibrillation with rapid ventricular response, or supraventricular tachycardia that are not controlled by medications, within 90 days prior to randomization\n4. Myocardial infarction, unstable angina, percutaneous coronary intervention (PCI), coronary artery bypass graft (CABG) or stroke, deep vein thrombosis or pulmonary embolism within 90 days prior to randomization\n5. Planned cardiac surgery or revascularization\n6. Uncontrolled hypertension defined as sitting systolic blood pressure(SBP) \\> 160 mmHg or diastolic BP (DBP) \\> 100 mmHg\n7. Type 1 diabetes, poorly controlled type 2 diabetes (HbA1c \\> 8%), newly diagnosed type 2 diabetes (within 90 days of randomization)\n8. Others factors not suitable for participation judged by PI",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 208,
+      "trial_nct_id": "NCT05621070"
+    },
+    {
+      "chunk_id": "NCT05621070:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change From Baseline in LDL-C at Week 12 | time_frame=Baseline and week 12 | description=Percent Change From Baseline in LDL-C at Week 12 in statin intolerance subjects\ntype=primary | measure=Percent Change From Baseline in LDL-C at Week 12 | time_frame=Baseline and week 12 | description=Percent Change From Baseline in LDL-C at Week 12 in ITT subjects\ntype=secondary | measure=Change From Baseline in LDL-C at Week 12 | time_frame=Baseline and week 12 | description=Change From Baseline in LDL-C at Week 12 in statin intolerance and ITT subjects\ntype=secondary | measure=Percent Change From Baseline in LDL-C at Week 24,52 | time_frame=Baseline and week 24,52 | description=Percent Change From Baseline in LDL-C at Week 24,52 in statin intolerance and ITT subjects\ntype=secondary | measure=Change From Baseline in LDL-C at Week 24,52 | time_frame=Baseline and week 24,52 | description=Change From Baseline in LDL-C at Week 24,52 in statin intolerance and ITT subjects\ntype=secondary | measure=Percent Change From Baseline in other lipid parameters such as non-HDL-C, ApoB, TC, et al. at Week 12, 24, 52 | time_frame=Baseline and week 12, 24, 52 | description=Percent Change From Baseline in other lipid parameters at Week 12, 24, 52 in statin intolerance and ITT subjects\ntype=secondary | measure=Percentage of Participants With LDL-C Less Than 1.8 mmol/L(70 mg/dL) | time_frame=Baseline and week 12, 24, 52 | description=Percentage of Participants With LDL-C Less Than 1.8 mmol/L(70 mg/dL) at Week 12, 24, 52 in statin intolerance and ITT subjects\ntype=secondary | measure=Percentage of Participants With Full Administration of JS002 | time_frame=Baseline and week 12, 24, 52 | description=Percentage of Participants With Full Administration of JS002 at Weeks 12, 24, 52 in statin intolerance and ITT subjects\ntype=other | measure=Number of Participants with anti-drug antibodies (ADAs) | time_frame=From baseline to week 60 | description=Serum samples were analyzed for ADA. Positive samples were subsequently tested for neutralizing antibodies.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 308,
+      "trial_nct_id": "NCT05621070"
+    },
+    {
+      "chunk_id": "NCT05621070:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-02-03\nPrimary completion date: 2024-09-23\nCompletion date: 2024-09-30\nStudy first posted: 2022-11-17\nResults first posted: None\nLast update posted: 2024-09-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05621070"
+    },
+    {
+      "chunk_id": "NCT05621070:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Shanghai Junshi Bioscience Co., Ltd.\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT05621070"
+    }
+  ],
+  "trial_nct_id": "NCT05621070"
+}

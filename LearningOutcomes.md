@@ -2475,3 +2475,64 @@ The next diagram update should likely happen when:
 - query understanding becomes more explicit
 - compare workflows are added
 - or multi-turn conversation state becomes a first-class backend feature
+
+## 52. Simplified Architecture Diagram
+
+### What we built
+
+We simplified the Mermaid architecture diagram so it emphasizes the major system phases instead of lower-level implementation detail.
+
+The updated version focuses on:
+
+- queued ingestion
+- corpus construction
+- storage
+- runtime query flow
+
+### Why this matters
+
+The previous version was accurate, but it had started to carry too much implementation detail for fast comprehension.
+
+A simpler diagram is better for explaining the system to someone new, especially now that the product direction is becoming more chat-first.
+
+### What I learned
+
+- once a system has enough moving parts, accuracy alone is not enough; the diagram also needs to optimize for readability
+- a good architecture diagram often needs one simplified presentation layer and one more detailed engineering layer
+
+### What comes next
+
+The next diagram pass could split into:
+
+- one high-level presentation diagram
+- one deeper engineering diagram
+
+## 53. Removed Homepage Quick-Prompt Chips
+
+### What we built
+
+We removed the example prompt chips from underneath the homepage chat composer.
+
+This removed:
+
+- `GLP-1 obesity trials`
+- `Semaglutide in T2D`
+- `2026 recruiting trials`
+
+### Why this matters
+
+The homepage is moving toward a cleaner, more direct chat-first interface.
+
+The prompt chips were useful during early iteration, but they had started to feel like visual noise once the main interaction model was clear.
+
+### What I learned
+
+- starter prompts can help at the beginning of product exploration, but they are not always worth keeping once the interface is trying to feel focused and minimal
+- removing supporting UI elements can make the primary action feel more obvious than adding more explanation
+
+### What comes next
+
+The next UI cleanup pass should likely focus on:
+
+- simplifying any remaining debug-like labels
+- tightening spacing around the chat composer and result sections

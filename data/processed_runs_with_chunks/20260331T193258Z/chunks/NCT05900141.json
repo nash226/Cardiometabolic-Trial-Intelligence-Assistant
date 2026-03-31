@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05900141:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05900141\nBrief title: An Open Label Extension (OLE) Study to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230)\nOfficial title: A Single Arm, Open Label Extension (OLE), Multicenter Study to Evaluate Long-term Safety and Tolerability of Pelacarsen (TQJ230) in Patients With Cardiovascular Disease Who Have Successfully Completed the Apheresis Parent Study.\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 61,
+      "trial_nct_id": "NCT05900141"
+    },
+    {
+      "chunk_id": "NCT05900141:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hyperlipoproteinemia (a)\nIntervention labels: Pelacarsen\nDrug class labels: \nArms: Pelacarsen (TQJ230)\nKeywords: Lipoprotein(a); Cardiovascular disease; Apheresis; Post trial access; pelacarsen (TQJ230)",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT05900141"
+    },
+    {
+      "chunk_id": "NCT05900141:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This non-randomized, open-label extension study will provide post-trial access to pelacarsen (TQJ230) to participants in Germany with hyperlipoproteinemia(a) and established cardiovascular disease who have successfully completed the double-blind parent study (CTQJ230A12302).\nDetailed description: This study will allow to evaluate a long-term safety and tolerability of pelacarsen (TQJ230) 80 mg QM in patients. All consenting participants from the parent study who meet the eligibility criteria will be participating in this open label extension study. The maximum duration of this study is approximately 5 years.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 85,
+      "trial_nct_id": "NCT05900141"
+    },
+    {
+      "chunk_id": "NCT05900141:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 100 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Signed informed consent\n* Participant has successfully completed the parent study and is considered safe to participate by Investigator's clinical judgement.\n\nExclusion Criteria:\n\n* Any medical condition(s) that may put the participant at risk in the investigator's opinion\n* Pregnant or nursing (lactating) women\n* Women of child-bearing potential, unless they are using effective methods of contraception during dosing and for 16 weeks (= 5 times the terminal half-life) after stopping of study medication",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 95,
+      "trial_nct_id": "NCT05900141"
+    },
+    {
+      "chunk_id": "NCT05900141:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Incidence of Adverse events (AEs) or serious adverse events (SAEs), including changes in laboratory evaluations, vital signs qualifying and reported as AEs. | time_frame=60 months | description=Evaluate long-term safety and tolerability of pelacarsen (TQJ230) in participants with elevated Lp(a) and established cardiovascular disease who have competed the parent study\ntype=primary | measure=Duration of drug exposure | time_frame=60 months | description=Duration of drug exposure will be collected\ntype=secondary | measure=Number of lipoprotein apheresis sessions performed yearly for year 1, 2, 3, 4 and 5 | time_frame=60 months | description=Evaluate the long-term effect of pelacarsen on the need for lipoprotein apheresis.\ntype=secondary | measure=Absolute change in Lp(a) compared to baseline of the parent study. | time_frame=month 1, month 3, month 6, month 9, month 12, then every 6 months during OLE (up to 60 months) | description=Evaluate the long-term effect of pelacarsen on Lp(a) change.\ntype=secondary | measure=Percentage change in Lp(a) compared to baseline of the parent study. | time_frame=month 1, month 3, month 6, month 9, month 12, then every 6 months during OLE (up to 60 months) | description=Evaluate the long-term effect of pelacarsen on Lp(a) change.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 189,
+      "trial_nct_id": "NCT05900141"
+    },
+    {
+      "chunk_id": "NCT05900141:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-09-29\nPrimary completion date: 2028-08-24\nCompletion date: 2028-08-24\nStudy first posted: 2023-06-12\nResults first posted: None\nLast update posted: 2025-08-06\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05900141"
+    },
+    {
+      "chunk_id": "NCT05900141:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT05900141"
+    }
+  ],
+  "trial_nct_id": "NCT05900141"
+}

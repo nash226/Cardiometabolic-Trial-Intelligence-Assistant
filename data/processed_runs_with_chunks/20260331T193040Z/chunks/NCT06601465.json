@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06601465:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06601465\nBrief title: COgnitioN With VERiciGuat Evaluation in Heart Failure\nOfficial title: CONVERGE-HF: COgnitioN With VERiciGuat Evaluation in Heart Failure\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06601465"
+    },
+    {
+      "chunk_id": "NCT06601465:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heart Failure; Cognitive Impairment\nIntervention labels: Vericiguat\nDrug class labels: \nArms: Vericiguat; Standard of Care\nKeywords: Heart Failure; Cognitive Impairment; Vericiguat",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06601465"
+    },
+    {
+      "chunk_id": "NCT06601465:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: CONVERGE-HF is a 4-center pilot phase IIb randomized control trial in ambulatory patients with chronic heart failure (\u2265 6 months) and mild-to-moderate cognitive impairment.\nDetailed description: CONVERGE-HF is a randomized, open label, phase IIb trial evaluating the effect of sGC stimulator, Vericiguat versus standard of care on imaging markers and blood markers of cerebral and coronary small vessel diseases, function status, cognitive status, quality of life and clinical events in patients with heart failure and mild-to-moderate cognitive impairment. Patients will be randomized and allocated to either vericiguat or standard of care, for 26 weeks including the greater than 4 weeks timeframe for the uptitrations to the target dose.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 110,
+      "trial_nct_id": "NCT06601465"
+    },
+    {
+      "chunk_id": "NCT06601465:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Adult patients\n2. Established chronic heart failure (\u2265 6 months)\n3. Mild-to-moderate cognitive impairment (as per the diagnosis of cognitive impairment or a Montreal Cognitive Assessment (MoCA) score 10-25).\n\nExclusion Criteria:\n\n1. Patients who have contraindications for sGC stimulator and vericiguat therapy (i.e. use of long-acting nitrates, other soluble guanylate cyclase stimulators (e.g., riociguat), or phosphodiesterase type 5 (PDE-5), pregnancy or breast-feeding)\n2. Unable to undergo CMR imaging or brain MRI.\n3. CMR exclusions: incompatible implantable cardiac device (ICD or CRT), uncontrolled atrial fibrillation or recurrent ventricular arrhythmias).\n4. General medical conditions: uncontrolled thyroid disorders, hepatic failure, or myocardial revascularization procedures \\[coronary angioplasty and/or surgical revascularization in the previous 3 months\\], cancer/malignancy, or with severe dementia).\n5. Patients with allergies to the study products.\n6. Patients currently hospitalized.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 148,
+      "trial_nct_id": "NCT06601465"
+    },
+    {
+      "chunk_id": "NCT06601465:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in the lateral ventricular volumes. | time_frame=26 weeks | description=To determine whether in patients with heart failure and mild-to-moderate cognitive impairment, the 26 weeks of treatment with sGC stimulator, vericiguat versus standard of care lead to greater reduction (or smaller increase) in lateral ventricular volume in brain MRI as a proxy for the preservation of brain microvasculature and preventing brain tissue loss.\ntype=secondary | measure=Blood Biomarkers (a) | time_frame=26 weeks | description=To determine the difference in the change in cardiac ischemia and strain markers measured by cardiac troponin, IGFBP-7, and NT-proBNP between patients with heart failure and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat versus standard of care.\ntype=secondary | measure=Blood Biomarkers (b) | time_frame=26 weeks | description=To determine the difference in the change of brain-related marker of cis p-tau between patients with chronic CV disease and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat versus standard of care.\ntype=secondary | measure=Imaging Biomarkers (Cardiac) | time_frame=26 weeks | description=To determine the difference between patients with heart failure and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat, versus standard of care in terms of the change in CMR perfusion test results for perfusion deficits indicative of coronary microvascular impairment.\ntype=secondary | measure=Imaging Biomarkers (Brain) | time_frame=26 weeks | description=To determine the difference between patients with heart failure and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat versus standard of care in terms of the change in brain MRI peak skeletonized mean diffusivity of the white matter and change in white matter hypersensitivity volume indicative of cerebral small vessel disease.\ntype=secondary | measure=Clinical and patient-reported outcomes (MoCA) | time_frame=26 weeks | description=To compare the change of MoCA scores in 26 weeks between groups who were treated with vericiguat versus standard of care.\ntype=secondary | measure=Clinical and patient-reported outcomes (KCCQ-12) | time_frame=26 weeks | description=To compare the change of health-related quality of life (assessed via KCCQ-12) in 26 weeks between groups who were treated with vericiguat versus standard of care. The KCCQ-12 has a standardized format and has been validated for paper, electronic or telephone delivery.\ntype=secondary | measure=Clinical and patient-reported outcomes (6MWT) | time_frame=26 weeks | description=To compare the change of functional status assessed via 6-minute walk test (6MWT) in 26 weeks between groups who were treated with vericiguat versus standard of care. The 6MWT will be performed as outlined by the American Thoracic Society by an assessor blinded to treatment allocation.61 6MWT will be assessed both in-person and using the validated virtual approach utilizing Walk.Talk.Track app.\ntype=secondary | measure=Clinical and patient-reported outcomes (RBANS) | time_frame=26 weeks | description=To compare the change of Repeatable Battery for the Assessment of Neuropsychological Status (RBANS) scores between groups. The RBANS is a widely-used battery for identifying and characterizing abnormal cognitive decline in elderly adults. Its level of difficulty is appropriate for the range from normal cognition to moderately severe dementia.\ntype=secondary | measure=Clinical events - Death | time_frame=26 weeks | description=(all cause)\ntype=secondary | measure=Clinical events - Hospitalizations | time_frame=26 weeks | description=(all cause)\ntype=secondary | measure=Clinical events - Emergency Department Visits | time_frame=26 weeks | description=(all cause)\ntype=secondary | measure=Clinical events - Stroke | time_frame=26 weeks\ntype=secondary | measure=Clinical events - Other | time_frame=26 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 555,
+      "trial_nct_id": "NCT06601465"
+    },
+    {
+      "chunk_id": "NCT06601465:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-03\nPrimary completion date: 2026-07\nCompletion date: 2027-05\nStudy first posted: 2024-09-19\nResults first posted: None\nLast update posted: 2025-07-31\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06601465"
+    },
+    {
+      "chunk_id": "NCT06601465:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Alberta\nLead sponsor class: OTHER\nCollaborators: Ottawa Heart Institute Research Corporation; Heart and Stroke Foundation of Canada\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT06601465"
+    }
+  ],
+  "trial_nct_id": "NCT06601465"
+}

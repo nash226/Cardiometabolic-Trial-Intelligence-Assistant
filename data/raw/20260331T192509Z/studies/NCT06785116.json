@@ -1,0 +1,307 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011248",
+          "term": "Pregnancy Complications"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D046110",
+          "term": "Hypertension, Pregnancy-Induced"
+        },
+        {
+          "id": "D011225",
+          "term": "Pre-Eclampsia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "10 Milligram (mg) orally",
+          "interventionNames": [
+            "Drug: Dapagliflozin 10mg Tab"
+          ],
+          "label": "Dapagliflozin",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Participants will take this daily for 6-months. Additionally, during the study participants will have 4 study visits and be asked to complete study specific activities (i.e. daily blood pressure, weekly weights, laboratory draws, echocardiograms, etc.) Participants will be followed remotely for 1-month after the 6-month visit.",
+          "name": "Placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Dapagliflozin"
+          ],
+          "description": "Participants will take this daily for 6-months. Additionally, during the study participants will have 4 study visits and be asked to complete study specific activities (i.e. daily blood pressure, weekly weights, laboratory draws, echocardiograms, etc.) Participants will be followed remotely for 1-month after the 6-month visit.",
+          "name": "Dapagliflozin 10mg Tab",
+          "otherNames": [
+            "Farxiga"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Gestational Hypertension",
+        "Hypertension in Pregnancy",
+        "Pre-Eclampsia",
+        "Superimposed Pre-Eclampsia",
+        "Cardiovascular Complication"
+      ],
+      "keywords": [
+        "Medication",
+        "Placebo",
+        "Postpartum period",
+        "Cardiovascular risk reduction",
+        "Echocardiogram"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "levijand@umich.edu",
+          "name": "Levi Anderson",
+          "phone": "734-763-0295",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Ann Arbor",
+          "contacts": [
+            {
+              "email": "levijand@umich.edu",
+              "name": "Levi Anderson",
+              "phone": "734-763-0295",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ashley Hesson, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Michigan",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48109"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Michigan",
+          "name": "Ashley Hesson, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial is a pilot-scale, single institution randomized, placebo-controlled trial to assess the feasibility, acceptability, and efficacy of administering dapagliflozin for cardiovascular risk reduction in the postpartum period. The target population is patients at high risk of adverse cardiovascular outcomes within five years post-delivery.\n\nEligible participants will be randomized to receive either: 1) dapagliflozin (10mg daily) for six months (DAPA group) or 2) an orally administered, daily placebo (Control group).\n\nThe study hypothesizes:\n\nThe dapagliflozin group will have higher cardiovascular risk reduction scores than the Control Group."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The study will be conducted in a 1:1 fashion between the DAPA Group and the Control Group.",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Participants, the clinical team, and researchers will be blinded to group assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Admitted for delivery at the University of Michigan (UM) Labor and Delivery (L\\&D) unit or enrolled in the UM postpartum blood pressure monitoring program following a delivery at the UM L\\&D unit\n* Determined to be at least 23 and 0/7 weeks of gestation based on a clinically acceptable dating method (can be a single or multifetal gestation with or without the presence of fetal anomalies) at the time of delivery\n* Consents to participation and must understand/read/speak English with the ability to understand and willingness to sign a written informed consent in English\n* Diagnosed with a hypertensive pregnancy by either of the following criteria:\n\n  * Taking an antihypertensive medication for the diagnosis of chronic or essential hypertension at the time of admission\n  * Hypertension, chronic hypertension, or essential hypertension must be present in the prospective participant's medical record\n  * Antihypertensive\" can be any medication taken for the purpose of blood pressure control per the medical record\n  * A documented hypertensive disorder of pregnancy (gestational hypertension, preeclampsia without severe features, preeclampsia with severe features, superimposed preeclampsia, or eclampsia) prior to delivery\n* Eligible participants must report a planned contraceptive method as part of the consent process, to be noted on their consent document.\n* Has two or more blood pressures \u2265160/110 Millimeters of mercury (mmHg) at least 60 minutes apart\n\n  * If an admitted patient does not meet this blood pressure criterion but is otherwise eligible, participants can consent to have a BNP drawn within 12 hours of delivery as an alternative measure of cardiovascular risk (if the brain natriuretic peptide (BNP) is \u2265100 Picograms per milliliter (pg/ml), participants are eligible to participate)\n\nExclusion Criteria:\n\n* Non-English speaking\n* Ongoing pregnancy\n* Stated desire to become pregnant within 8 months post-delivery\n* Intention to breastfeed after enrollment\n* BNP \u22651000 pg/ml within 12 hours of delivery, clinical team to be notified of result\n* Comorbidities that may affect cardiovascular risk assessment (per protocol)\n* Contraindication to dapagliflozin (per protocol)",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "FEMALE",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "DAPA-HP",
+      "briefTitle": "A Randomized, Placebo-controlled Trial of DAPAgliflozin (DAPA) for Cardiovascular Risk Reduction in the Postpartum Period of Hypertensive Pregnancies (HP)",
+      "nctId": "NCT06785116",
+      "officialTitle": "A Randomized, Placebo-controlled Trial of DAPAgliflozin for Cardiovascular Risk Reduction in the Postpartum Period of Hypertensive Pregnancies",
+      "orgStudyIdInfo": {
+        "id": "HUM00260815"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Michigan"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The score will be summed and compared between groups.The components with outcome-based binary assessments by the following:\n\n* Biometric: change in systolic blood pressure (scores of 0 or 1) and change in body weight (scores of 0 or 1)\n* Echocardiogram: change in left ventricle wall thickness (scores of 0 or 1) and change in left ventricle mass (scores of 0 or 1)\n* Clinical: Non-hospitalization (scores of 0 or 1) and return to baseline antihypertensive needs (scores of 0 or 1) The total scores range from 0-6 with a higher score indicating greater cardiovascular risk reduction.",
+          "measure": "Cardiovascular risk reduction score",
+          "timeFrame": "Baseline, 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The number of patients screened",
+          "timeFrame": "2-year recruitment period"
+        },
+        {
+          "description": "These will be the participants that qualify either by blood pressure or laboratory parameter (BNP) (screen-ins) or if not eligible (screen-outs).",
+          "measure": "The number of patients screen-outs vs screen-ins",
+          "timeFrame": "2-year recruitment period"
+        },
+        {
+          "measure": "Reasons for ineligibility and refusal to participate",
+          "timeFrame": "2-year recruitment period"
+        },
+        {
+          "description": "This will be collected by the patient medication diary and study visit questionnaire.",
+          "measure": "Patient-stated adherence",
+          "timeFrame": "baseline to 6 months"
+        },
+        {
+          "description": "Participants will answer 2 questions regarding missed doses of medications. These will be summarized.",
+          "measure": "Patient reported barriers to adherence",
+          "timeFrame": "baseline to 6 months"
+        },
+        {
+          "description": "Information on loss to follow-up (where available) will be reported to inform future work.",
+          "measure": "Loss to follow-up rates",
+          "timeFrame": "Baseline to 6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "UNKNOWN",
+          "name": "Society for Maternal-Fetal Medicine Foundation"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "American Association of Obstetricians and Gynecologists Foundation"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Michigan"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Michigan",
+        "investigatorFullName": "Ashley Hesson",
+        "investigatorTitle": "Assistant Professor of Obstetrics and Gynecology",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-08",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-01",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-08",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-03-02",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-15",
+      "studyFirstSubmitQcDate": "2025-01-15"
+    }
+  }
+}

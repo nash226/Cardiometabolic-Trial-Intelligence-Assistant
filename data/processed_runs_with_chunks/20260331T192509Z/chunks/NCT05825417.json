@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05825417:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05825417\nBrief title: Pulmonary Hypertension: Intensification and Personalisation of Combination Rx\nOfficial title: A Multicentre Randomised Cross-over Trial of Disease Specific Therapy in Patients With Pulmonary Arterial Hypertension (PAH) Implanted With Pulmonary Artery Pressure and Cardiac Rhythm Monitoring Devices (CardioMEMS/ConfirmRx)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT05825417"
+    },
+    {
+      "chunk_id": "NCT05825417:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Pulmonary Arterial Hypertension\nIntervention labels: Selexipag; Riociguat; CardioMEMS pulmonary artery pressure monitor; Confirm Rx\nDrug class labels: \nArms: Arm A (selexipag/riociguat); Arm B (riociguat/selexipag)\nKeywords: remote monitoring; therapeutic development; personalised medicine",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT05825417"
+    },
+    {
+      "chunk_id": "NCT05825417:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to evaluate the capacity of implantable/remote technology for early evaluation of drug therapies in patients with pulmonary arterial hypertension (PAH). The main question it aims to answer is whether structured changes in clinical therapy will be detectable using implanted regulatory approved devices. Participants will will be implanted with approved medical devices and will enter into a study of approved drugs to assess physiology, activity and patient reported quality-of-life (QoL) outcomes. Researchers will compare two therapeutic strategies in each individual patient to see if the study design provides enough evidence to personalise drug treatment plans\nDetailed description: In this study, patients established on guideline recommended therapy will be implanted with devices and remote monitoring established. Patients will then enter into a 2x2 crossover study of approved drugs during which standard clinical investigations will be undertaken at baseline and maximal therapy on each drug. The cross-over design will provide multiple increases and decreases of drugs known to alter haemodynamics and 6MWT. The study is powered to detect improvement in right ventricular stroke volume measured by MRI from baseline to maximal therapy for each drug. It will then be established if changes in remote monitored measures provide an early indication of clinical efficacy when compared to the MRI, haemodynamics, NTproBNP and 6MWT made at 12-weeks. Remote measurement of haemodynamics during the two periods of de-escalation will inform understanding of physiology and inform clinical practice. The comparison of the two therapeutic strategies in individual patients in one study will facilitate novel clinical study designs and provide evidence for data-driven personalised medicine in the area.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 269,
+      "trial_nct_id": "NCT05825417"
+    },
+    {
+      "chunk_id": "NCT05825417:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Able to provide informed consent\n* Age 18-80 years\n* PAH which is idiopathic, heritable or associated with drugs, toxins or connective tissue disease\n* Stable PAH therapeutic regime comprising any combination of ERA and PDE5i for at least 1 month prior to screening (unless unable to tolerate therapy)\n* WHO functional class III\n* Resting mPAP \u226520 mmHg, pulmonary capillary wedge pressure \u226415 mmHg, pulmonary vascular resistance \u22652 Wood Units measured by right heart catheterisation at time of diagnosis\n* 6MWT \\>50m at entry\n* Estimated glomerular filtration rate (eGFR)\\>30 ml/min/1.73 m\u00b2 at entry (Appendix C)\n* Inadequate treatment response (clinically determined)\n\nExclusion Criteria:\n\n* Unable to provide informed consent\n* Pregnancy\n* Unprovoked pulmonary embolism (at any time)\n* Acute infection at time of screening (rescreening is permitted)\n* PAH due to human immunodeficiency virus, portal hypertension, schistosomiasis, congenital heart disease\n* Pulmonary hypertension due to left heart, lung, thromboembolic or unclear/multifactorial disease (Group II-V)\n* Unable to tolerate aspirin or P2Y12 inhibitor\n* Hypersensitivity to selexipag or riociguat\n* Clinically-significant renal disease (eGFR\u226430 ml/min/1.73m2)\n* Anaemia (haemoglobin \\<10 g/dl)\n* Left-sided heart disease and/or clinically significant cardiac disease, including but not limited to any of the following: aortic or mitral valve disease greater than mild aortic insufficiency; mild aortic stenosis; mild mitral stenosis; or moderate mitral regurgitation",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 241,
+      "trial_nct_id": "NCT05825417"
+    },
+    {
+      "chunk_id": "NCT05825417:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Right Ventricular Stroke Volume (RVSV) flow on each therapy measured by MRI RSVS (flow) on each therapy measured by MRI | time_frame=Baseline to Week 12 | description=This provides a robust, objective assessment of clinical efficacy which, if met, will mean that a change in therapy has provided a clinically meaningful change in physiology\ntype=secondary | measure=Haemodynamics - Total Pulmonary Resistance (TPR) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change in TPR (Woods Units) on each therapy to determine clinical efficacy\ntype=secondary | measure=Haemodynamics - mean Pulmonary Artery Pressure (mPAP) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change in mPAP (mmHg) on each therapy to determine clinical efficacy\ntype=secondary | measure=Haemodynamics - Cardiac Output (CO) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change in CO (L/min) on each therapy to determine clinical efficacy\ntype=secondary | measure=Haemodynamics - Cardiac Index | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change in cardiac index (L/min/m\\^2) on each therapy to determine clinical efficacy\ntype=secondary | measure=Haemodynamics - Stroke Volume (SV) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change in SV (mL) on each therapy to determine clinical efficacy\ntype=secondary | measure=Haemodynamics - Heart Rate (HR) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change in HR (bpm) on each therapy to determine clinical efficacy\ntype=secondary | measure=6 Minute Walk Test | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change on each therapy to determine clinical efficacy\ntype=secondary | measure=NTpro-BNP | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Right Ventricular Ejection Fraction (RVEF) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=RVEF (%) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Right Ventricular End Systolic Volume (RVESV) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=RVESV (mL/m\\^2) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Right Ventricular End Diastolic Volume (RVEDV) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=RVEDV (mL/m\\^2) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Right Ventricular Stroke Volume (RVSV) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=RVSV (mL) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Left Ventricular Volume Fraction (LVEF) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=LVEF (%) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Left Ventricular End Systolic Volume (LVESV) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=LVESV (mL/m\\^2) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Left Ventricular End Diastolic Volume LVEDV | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=LVEDV (mL/m\\^2) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Left Ventricular Stroke Volume (LVSV) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=LVSV (mL) on each therapy to determine clinical efficacy\ntype=secondary | measure=MRI - Left Ventricular Stroke Volume (LVSV) flow | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=LVSV flow on each therapy to determine clinical efficacy\ntype=secondary | measure=Patient Reported Outcomes (PRO) - Quality of Life (QoL) (EmPHasis-10) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change of QoL score on each therapy to determine clinical efficacy. This will be done using EmPHasis-10 questionnaire (10 questions using a 0 (poor) - 5 (good) scale)\ntype=secondary | measure=Patient Reported Outcomes (PRO) - Medication Compliance (PHoenix PRO) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change of medication compliance score on each therapy to determine clinical efficacy. This will be done using PHoenix PRO questionnaire (10 questions using a 0 (poor) - 5 (good) scale)\ntype=secondary | measure=Patient Reported Outcomes (PRO) - Medication Side Effects | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change of medication side effects on each therapy to determine clinical efficacy. This will be done using PHoenix Medication side effects questionnaires (4 Yes/No or Better/Worse style questions)\ntype=secondary | measure=Patient Reported Outcomes (PRO) - Depression symptoms (GAD-2/7) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change of depression symptoms on each therapy to determine clinical efficacy. This will be done using the GAD-2/7 questionnaire (2 screening questions to determine if symptoms present. If present, 7 additional questions to determine level of depression using a 0 (not at all) - 3 (nearly every day) scale)\ntype=secondary | measure=Patient Reported Outcomes (PRO) - Anxiety symptoms (PHQ-2/9) | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change of anxiety symptoms on each therapy to determine clinical efficacy. This will be done using the PHQ-2/9 questionnaire (2 screening questions to determine if symptoms present. If present, 9 additional questions to determine level of anxiety using a 0 (not at all) - 3 (nearly every day) scale)\ntype=secondary | measure=WHO functional class | time_frame=From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks | description=Change on each therapy to determine clinical efficacy. Functional assessment of PAH will be made according to the WHO classification system: Class I - Patients with PAH without limitation of physical activity. Ordinary physical activity does not cause increased dyspnoea or fatigue, chest pain, or near syncope / Class II - Patients with PAH resulting in slight limitation of physical activity. No discomfort at rest. Normal physical activity causes increased dyspnoea or fatigue, chest pain, or near syncope / Class III - Patients with PAH resulting in marked limitation of physical activity. There is no discomfort at rest. Less than ordinary activity causes increased dyspnoea or fatigue, chest pain, or near syncope / Class IV - Patients with PAH with inability to carry out any physical activity without discomfort. Indications of manifest right heart failure. Dyspnoea and/or fatigue may even be present at rest. Discomfort is increased by the least physical activity.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 1144,
+      "trial_nct_id": "NCT05825417"
+    },
+    {
+      "chunk_id": "NCT05825417:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-06-14\nPrimary completion date: 2026-01\nCompletion date: 2026-01\nStudy first posted: 2023-04-24\nResults first posted: None\nLast update posted: 2024-12-03\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05825417"
+    },
+    {
+      "chunk_id": "NCT05825417:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Sheffield Teaching Hospitals NHS Foundation Trust\nLead sponsor class: OTHER\nCollaborators: University of Glasgow; University of Sheffield; University of Newcastle Upon-Tyne; University of Cambridge\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT05825417"
+    }
+  ],
+  "trial_nct_id": "NCT05825417"
+}

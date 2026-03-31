@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04602754:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04602754\nBrief title: Efficacy and Safety of Berlim 25/20 Association in the Treatment of Type II Diabetes Mellitus and Dyslipidemia.\nOfficial title: National, Multicenter, Randomized, Double-blind, Triple-dummy, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Berlim 25/20 Association in the Treatment of Type II Diabetes Mellitus and Dyslipidemia.\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 61,
+      "trial_nct_id": "NCT04602754"
+    },
+    {
+      "chunk_id": "NCT04602754:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Dyslipidemia Associated With Type II Diabetes Mellitus\nIntervention labels: BERLIM 25/20 ASSOCIATION; EMPAGLIFLOZIN PLACEBO; ROSUVASTATIN CALCIUM PLACEBO; EMPAGLIFLOZIN; ROSUVASTATIN CALCIUM; BERLIM 25/20 ASSOCIATION PLACEBO\nDrug class labels: \nArms: BERLIM 25/20; Empagliflozin + rosuvastatin calcium\nKeywords: Dyslipidemia; Type II Diabetes Mellitus",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT04602754"
+    },
+    {
+      "chunk_id": "NCT04602754:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to evaluate the efficacy and safety of Berlim 25/20 association in the treatment of type 2 diabetes mellitus and dyslipidemia.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT04602754"
+    },
+    {
+      "chunk_id": "NCT04602754:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 85 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Ability to confirm voluntary participation and agree to all trial purposes by signing and dating the informed consent forms;\n* Participants of both sexes, with age greater than or equal to 18 years and less than or equal to 85 years;\n* Participants presenting the diagnosis of type II diabetes mellitus, and who did not reach the therapeutic goals of HbA1c with previous dietary, physical exercise guidance and previous therapies at a stable dose in the last 3 months;\n* HbA1c \u2265 7,5% and \u2264 10,5% and fasting blood glucose \\> 100 mg/dL at the screening visit;\n* Participants with high or very high cardiovascular risk according to the Brazilian guideline on the prevention of cardiovascular diseases in patients with diabetes (2017), which have not reached the goal of LDL-c \u2264 70 mg/dL or \u2264 50 mg/dL, respectively, with lifestyle changes, who are or aren't using low or moderate potency statins;\n* BMI (body mass index) \\> 19 Kg/m2 and \u2264 45 Kg/m2.\n\nExclusion Criteria:\n\n* Any clinical and laboratory findings that, in the judgment of the investigator, may interfere with the safety of research participants;\n* History of alcohol abuse or illicit drug use;\n* Participation in a clinical trial in the year prior to this study;\n* Pregnancy or risk of pregnancy and lactating patients;\n* Known hypersensitivity to the formula components used during the clinical trial;\n* Type 1 diabetes mellitus;\n* Fasting blood glucose \\> 300 mg/dL;\n* Risk factors for volume depletion;\n* Participants with total cholesterol \\> 500 mg/dL or triglycerides \\> 500 mg/dL;\n* Impaired renal function and end-stage renal disease;\n* Participants with known heart failure, class III to IV (New York Heart Association);\n* Impaired hepatic function;\n* Medical history of pancreatic diseases that may suggest insulin deficiency;\n* Participants who had any cardiovascular event (acute myocardial infarction, acute coronary syndrome, recent onset stable angina, stroke, unstable congestive heart failure requiring treatment change), underwent revascularization or vascular surgery in the 6 months prior to screening;\n* Bariatric surgery in the last two years and/ or other gastrointestinal surgeries that can cause chronic malabsorption syndrome;\n* Condition that, in the investigator's judgment, may favor clinically significant changes in CPK levels;\n* Current medical history of cancer and/ or cancer treatment in the last 5 years;\n* Participants with known uncontrolled hypothyroidism or TSH levels \\> 5 mIU/L;\n* History of known muscle disease or prior statin intolerance;\n* Participants using SGLT2 inhibitors, sulfonylureas and/or insulin therapy or PCSK9 inhibitors;\n* Participants who used other medications with prominent action in the control of serum triglyceride and cholesterol levels in the last 4 weeks or who are using low or moderate-intensity statins that cannot be replaced by rosuvastatin 20 mg;\n* Participants using medications that may interfere with triglyceride and cholesterol metabolism started less than 4 weeks ago or with dose adjustment in the last 4 weeks prior to the screening visit;\n* Treatment with anti-obesity drugs for less than 2 months or with dose change in the last 2 months.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 528,
+      "trial_nct_id": "NCT04602754"
+    },
+    {
+      "chunk_id": "NCT04602754:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Reduction of glycated hemoglobin levels measured between the first visit and the last visit. | time_frame=120 days\ntype=primary | measure=Percentual reduction of LDL-c levels measured between the first visit and the last visit. | time_frame=120 days\ntype=secondary | measure=Incidence and severity of adverse events recorded during the study. | time_frame=150 days",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT04602754"
+    },
+    {
+      "chunk_id": "NCT04602754:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-12-01\nPrimary completion date: 2026-05\nCompletion date: 2027-09\nStudy first posted: 2020-10-26\nResults first posted: None\nLast update posted: 2025-12-08\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT04602754"
+    },
+    {
+      "chunk_id": "NCT04602754:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: EMS\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT04602754"
+    }
+  ],
+  "trial_nct_id": "NCT04602754"
+}

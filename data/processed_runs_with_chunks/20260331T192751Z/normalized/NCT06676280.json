@@ -1,0 +1,196 @@
+{
+  "arms": [
+    {
+      "description": "Patients will take aspirin 100 mg/day and high-intensity statin therapy. Statin intensity is defined as 2018 Cholesterol Clinical Practice Guidelines.",
+      "intervention_names": [
+        "Drug: Aspirin",
+        "Drug: High-intensity statin"
+      ],
+      "label": "Aspirin and High-intensity statin",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Patients will take no aspirin and high-intensity statin therapy. Statin intensity is defined as 2018 Cholesterol Clinical Practice Guidelines.",
+      "intervention_names": [
+        "Drug: High-intensity statin"
+      ],
+      "label": "No aspirin and High-intensity statin",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Patients will take no aspirin and guideline-directed statin therapy.",
+      "intervention_names": [
+        "Drug: Guideline-directed statin therapy"
+      ],
+      "label": "No aspirin and guideline-directed statin",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Patients will take aspirin 100 mg/day and guideline-directed statin therapy.",
+      "intervention_names": [
+        "Drug: Aspirin",
+        "Drug: Guideline-directed statin therapy"
+      ],
+      "label": "Aspirin and guideline-directed statin",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Cardiovascular Diseases",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. The subject must be aged between 40 and 70 years.\n2. Patients who have coronary artery calcium score \u2265300 Agatston Unit on coronary calcium computed tomography.\n3. Patients who have 1 or more CVD risk factors in below;\n\n   * dyslipidemia or,\n   * diabetes or,\n   * hypertension or,\n   * family history of CVD or,\n   * smoking\n4. Patients agree to the study protocol and the schedule of clinical follow-up, and provides informed, written consent, as approved by the appropriate Institutional Review Board/Ethical Committee of the respective clinical site.\n\nExclusion Criteria:\n\n1. Individuals who have symptomatic coronary artery disease or heart failure.\n2. Patients who have documented clinical Atherosclerotic Cardiovascular Disease: previous myocardial infarction, acute coronary syndrome, stable angina, coronary revascularization and other arterial revascularization procedures, stroke and Transient ischaemic attack (TIA), \\>50% carotid stenosis or previous carotid endarterectomy or stenting, aortic aneurysm and peripheral artery disease.\n3. Patients who have evidence of myocardial ischemia on non-invasive stress test including stress single photon emission CT myocardial perfusion imaging (SPECT MPI), cardiovascular magnetic resonance (CMR) imaging, stress echocardiography, or treadmill test, or on invasive stress test including Fractional flow reserve (FFR) \\< 0.80 on invasive coronary angiography (diameter stenosis\\>50% without objective evidence of ischemia could be enrolled).\n4. Patients at high risk of bleeding: gastrointestinal hemorrhage or peptic ulcer within the previous 6 months; active hepatic disease such as cirrhosis or active hepatitis; use of warfarin, or other anticoagulant therapy; or has a history of aspirin allergy.\n5. Patients with atrial fibrillation and flutter.\n6. Patients with severe left ventricular dysfunction (ejection fraction \u226430%) or severe valvular heart disease who experience dyspnea on exertion (The NYHA (New York Heart Association) Functional Classification III-IV).\n7. History of allergy or severe adverse reaction to aspirin or statin or ezetimibe.\n8. History of myositis or myopathy with active disease in the 180 days prior to study entry.\n9. Patients with active liver disease or persistent unexplained serum transaminase elevation.\n10. Patients who have significantly abnormal findings which identified violation for safety by investigator on physical examination, blood test and electrocardiogram.\n11. History of alcohol or drug abuse.\n12. Concurrent medical condition with a life expectancy of less than 1 years.\n13. Pregnant and/or lactating women.\n14. Patient was unable to provide written informed consent or participate in log-term follow up.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "40 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Aspirin and High-intensity statin",
+        "Aspirin and guideline-directed statin"
+      ],
+      "description": "Patients will take aspirin 100 mg/day.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Aspirin",
+      "normalized_name": "aspirin"
+    },
+    {
+      "arm_group_labels": [
+        "Aspirin and High-intensity statin",
+        "No aspirin and High-intensity statin"
+      ],
+      "description": "Statin intensity is defined as 2018 Cholesterol Clinical Practice Guidelines.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "High-intensity statin",
+      "normalized_name": "high-intensity statin"
+    },
+    {
+      "arm_group_labels": [
+        "Aspirin and guideline-directed statin",
+        "No aspirin and guideline-directed statin"
+      ],
+      "description": "as 2018 Cholesterol Clinical Practice Guidelines.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Guideline-directed statin therapy",
+      "normalized_name": "guideline-directed statin therapy"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "cardiovascular death; myocardial infarction ; hospitalization for Acute coronary syndrome; stroke; Transient ischaemic attack; peripheral arterial ischemia ;revascularization of coronary, carotid, or peripheral artery ;or death from an undetermined cause",
+      "measure": "Event rate of a composite of atherosclerotic cardiovascular disease event",
+      "outcome_type": "primary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Event rate of Each individual component of primary composite outcome",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Event rate of Death from any causes",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Event rate of Hospitalization for heart failure",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "\\[Safety secondary endpoint\\] major bleeding is defined as a composite of intracranial hemorrhage, site-threatening bleeding event in the eye, gastrointestinal bleeding, or any other serious bleeding that resulted in hospitalization, transfusion, or that was fatal.",
+      "measure": "Event rate of the first occurrence of any major bleeding",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Safety secondary endpoint:\n\nAspirin the first occurrence of any major bleeding; a composite of intracranial hemorrhage, site-threatening bleeding event in the eye, gastrointestinal bleeding, or any other serious bleeding that resulted in hospitalization, transfusion, or that was fatal.\n\nStatin\n\n* Muscle related adverse events; myalgia, myositis, myopathy, myonecrosis, rhabdomyolysis\n* New onset diabetes mellitus\n* Gall bladder-related adverse events\n* Cancer diagnosis\n* Cataract operation\n* New-onset neurocognitive disorder\n* Discontinuation or dose-reduction of statin therapy by intolerance",
+      "measure": "Event rate of the Safety secondary endpoint",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The primary objective of the ASA-3C trial is to evaluate the role of aspirin and high-intensity statin therapy, respectively, in individuals with severe coronary calcification (coronary calcium score \u2265300) to prevent atherosclerotic cardiovascular disease (ASCVD) events with severe coronary calcification (CAC \u2265300).",
+    "brief_title": "ASpirin Use and stAtin Strategy for Primary Prevention in Severe Coronary Calcium Score on Computed Tomography",
+    "collaborator_names": [],
+    "completion_date": "2035-12-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. The subject must be aged between 40 and 70 years.\n2. Patients who have coronary artery calcium score \u2265300 Agatston Unit on coronary calcium computed tomography.\n3. Patients who have 1 or more CVD risk factors in below;\n\n   * dyslipidemia or,\n   * diabetes or,\n   * hypertension or,\n   * family history of CVD or,\n   * smoking\n4. Patients agree to the study protocol and the schedule of clinical follow-up, and provides informed, written consent, as approved by the appropriate Institutional Review Board/Ethical Committee of the respective clinical site.\n\nExclusion Criteria:\n\n1. Individuals who have symptomatic coronary artery disease or heart failure.\n2. Patients who have documented clinical Atherosclerotic Cardiovascular Disease: previous myocardial infarction, acute coronary syndrome, stable angina, coronary revascularization and other arterial revascularization procedures, stroke and Transient ischaemic attack (TIA), \\>50% carotid stenosis or previous carotid endarterectomy or stenting, aortic aneurysm and peripheral artery disease.\n3. Patients who have evidence of myocardial ischemia on non-invasive stress test including stress single photon emission CT myocardial perfusion imaging (SPECT MPI), cardiovascular magnetic resonance (CMR) imaging, stress echocardiography, or treadmill test, or on invasive stress test including Fractional flow reserve (FFR) \\< 0.80 on invasive coronary angiography (diameter stenosis\\>50% without objective evidence of ischemia could be enrolled).\n4. Patients at high risk of bleeding: gastrointestinal hemorrhage or peptic ulcer within the previous 6 months; active hepatic disease such as cirrhosis or active hepatitis; use of warfarin, or other anticoagulant therapy; or has a history of aspirin allergy.\n5. Patients with atrial fibrillation and flutter.\n6. Patients with severe left ventricular dysfunction (ejection fraction \u226430%) or severe valvular heart disease who experience dyspnea on exertion (The NYHA (New York Heart Association) Functional Classification III-IV).\n7. History of allergy or severe adverse reaction to aspirin or statin or ezetimibe.\n8. History of myositis or myopathy with active disease in the 180 days prior to study entry.\n9. Patients with active liver disease or persistent unexplained serum transaminase elevation.\n10. Patients who have significantly abnormal findings which identified violation for safety by investigator on physical examination, blood test and electrocardiogram.\n11. History of alcohol or drug abuse.\n12. Concurrent medical condition with a life expectancy of less than 1 years.\n13. Pregnant and/or lactating women.\n14. Patient was unable to provide written informed consent or participate in log-term follow up.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 5000,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Aspirin",
+      "High-intensity statin",
+      "Guideline-directed statin therapy"
+    ],
+    "intervention_model": "FACTORIAL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "atherosclerotic cardiovascular disease",
+      "aspirin",
+      "high-intensity statin"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-29",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Jung-min Ahn",
+    "masking": "NONE",
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "40 Years",
+    "nct_id": "NCT06676280",
+    "official_title": "an Investigator-initiated, Multicenter, Open-label, 2-by-2 Factorial, and Randomized Trial to Evaluate the Role of Aspirin and High-intensity Statin Therapy, Respectively, in Individuals With Severe Coronary Calcification (Coronary Calcium Score \u2265300) to Prevent Atherosclerotic Cardiovascular Disease (ASCVD) Events With Severe Coronary Calcification (CAC \u2265300)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2035-03-31",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06676280",
+    "start_date": "2025-07-24",
+    "study_first_posted_at": "2024-11-06",
+    "study_type": "INTERVENTIONAL"
+  }
+}

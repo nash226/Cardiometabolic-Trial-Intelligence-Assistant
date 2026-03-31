@@ -1,0 +1,360 @@
+{
+  "arms": [
+    {
+      "description": "Cardiovascular Polypill + Colchicine 0.5 mg once daily",
+      "intervention_names": [
+        "Drug: Cardiovascular Polypill (Valsartan, Atorvastatin, Aspirin)",
+        "Drug: Colchicine 0.5 mg"
+      ],
+      "label": "Group 1",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Cardiovascular Polypill + Colchicine placebo 0.5 mg once daily",
+      "intervention_names": [
+        "Drug: Cardiovascular Polypill (Valsartan, Atorvastatin, Aspirin)",
+        "Drug: Colchicine-placebo 0.5 mg"
+      ],
+      "label": "Group 2",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Usual care + Colchicine 0.5 mg once daily",
+      "intervention_names": [
+        "Drug: Colchicine 0.5 mg",
+        "Drug: Usual Care Group"
+      ],
+      "label": "Group 3",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Usual care + Colchicine placebo 0.5 mg once daily",
+      "intervention_names": [
+        "Drug: Usual Care Group",
+        "Drug: Colchicine-placebo 0.5 mg"
+      ],
+      "label": "Group 4",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Atherothrombotic Diseases",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Atherosclerotic Cardiovascular Disease (ASCVD)",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Individuals aged \u2265 45 years AND\n* Signature of the Informed Consent Form (ICF) AND at least one of the following criteria:\n* Previous atherothrombotic cardiovascular event (acute coronary syndrome, ischemic stroke, high-risk transient ischemic stroke, acute limb ischemia/arterial occlusion, or non-traumatic limb amputation) AND/OR\n* Previous arterial revascularization (percutaneous, surgical, and/or hybrid) OR\n* Diagnosis of significant atherosclerotic disease with \u2265 50% obstruction in any arterial territory (coronary, cerebrovascular, or peripheral), in the absence of a prior cardiovascular event or arterial revascularization.\n\nExclusion Criteria:\n\n* Pregnant or lactating women;\n* Women of childbearing age who do not use any form of contraception;\n* Known history of chronic kidney disease, stage \u2265 4 (estimated glomerular filtration rate \u2264 30 mL/min, if available);\n* Known history of cirrhosis or severe liver disease (e.g., transaminase levels \\> 3 times the upper limit of normal, if available);\n* Known history of inflammatory muscle disease (e.g., dermatomyositis or polymyositis) or creatine phosphokinase (CPK) levels \\> 3 times the upper limit of normal, if available);\n* Known history of moderate or severe valvular heart disease with anticipated need for valvular intervention within the next 12 months;\n* Planned arterial revascularization (inclusion is possible 30 days after completion of all planned procedures);\n* Left ventricular ejection fraction \u226440% (with the exception of patients with documented intolerance to ACE inhibitors and/or sacubitril/valsartan, who remain eligible for study enrollment);\n* Heart failure with functional class \u2265 III according to the New York Heart Association (NYHA), regardless of left ventricular ejection fraction;\n* Blood pressure \\< 120/80 mmHg in the absence of antihypertensive therapy;\n* Life expectancy \u2264 12 months;\n* Acute arterial event (acute coronary syndrome, non-cardioembolic ischemic stroke, acute limb ischemia) in the past 30 days;\n* Substance abuse/alcoholism;\n* Psychiatric and/or neurodegenerative disorder limiting self-care capacity;\n* Concurrent participation in another randomized clinical trial;\n* Contraindication to any component of the polypill;\n* Current or planned use of oral anticoagulant therapy within the next 12 months (except rivaroxaban 2.5 mg twice daily for patients with peripheral artery disease);\n* High risk of bleeding (e.g., but not limited to: blood dyscrasias, hemophilia, previous gastrointestinal or central nervous system bleeding);\n* Contraindication to colchicine;\n* Current use of colchicine.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "45 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Group 1",
+        "Group 2"
+      ],
+      "description": "Cardiovascular Polypill contains Valsartan, Atorvastatin, Aspirin\n\n1. Valsartan 160 mg + Atorvastatin 40 mg + Aspirin 100 mg\n\n   or\n2. Valsartan 160 mg + Atorvastatin 80 mg + Aspirin 100 mg\n\n   or\n3. Valsartan 320 mg + Atorvastatin 40 mg + Aspirin 100 mg\n\n   or\n4. Valsartan 320 mg + Atorvastatin 80 mg + Aspirin100 mg\n\n   or\n5. Valsartan 80 mg + Atorvastatin 40 mg + Aspirin 100 mg\n\n   or\n6. Valsartan 80 mg + Atorvastatin 80 mg + Aspirin 100 mg\n\n   or\n7. Valsartan 80 mg + Atorvastatin 20 mg + Aspirin 100 mg\\*\n\n   or\n8. Valsartan 160 mg + Atorvastatin 20 mg + Aspirin 100 mg\\*\n\n   or\n9. Valsartan 320 mg + Atorvastatin 20 mg + Aspirin 100 mg\\*\n\n   * The use of these formulations of the cardiovascular polypill will be restricted to cases of Statin-Related Muscle Symptoms (SRMS)",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Cardiovascular Polypill (Valsartan, Atorvastatin, Aspirin)",
+      "normalized_name": "cardiovascular polypill (valsartan, atorvastatin, aspirin)"
+    },
+    {
+      "arm_group_labels": [
+        "Group 1",
+        "Group 3"
+      ],
+      "description": "Colchicine 0.5 mg once daily",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Colchicine 0.5 mg",
+      "normalized_name": "colchicine 0.5 mg"
+    },
+    {
+      "arm_group_labels": [
+        "Group 3",
+        "Group 4"
+      ],
+      "description": "Patients allocated to the usual care arm will receive standard of care therapies for secondary prevention according to the guidelines. Drugs and doses will be left at the discretion of the treating physicians.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Usual Care Group",
+      "normalized_name": "usual care group"
+    },
+    {
+      "arm_group_labels": [
+        "Group 2",
+        "Group 4"
+      ],
+      "description": "Matching Colchicine-placebo 0.5 mg once daily",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Colchicine-placebo 0.5 mg",
+      "normalized_name": "colchicine-placebo 0.5 mg"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Time to cardiovascular death, non-fatal type 1 myocardial infarction, non-fatal ischemic stroke, urgent arterial revascularization, and non-traumatic major lower limb amputation",
+      "measure": "Primary efficacy endpoint: Major adverse cardiovascular and limb events (MACLE)",
+      "outcome_type": "primary",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Time to cardiovascular mortality, non-fatal type 1 myocardial infarction, and non-fatal ischemic stroke.",
+      "measure": "Key secondary endpoint: Major adverse cardiovascular events (MACE)",
+      "outcome_type": "secondary",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Time to cardiovascular death",
+      "measure": "Cardiovascular death",
+      "outcome_type": "secondary",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Time to non-fatal type 1 myocardial infarction",
+      "measure": "Non-fatal type 1 myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Time to non-fatal ischemic stroke",
+      "measure": "Non-fatal ischemic stroke",
+      "outcome_type": "secondary",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "It will be assessed through the 9-item adapted Hill-Bone Medication Adherence Scale.\n\nThe adapted 9-item Hill-Bone Medication Adherence Scale consists of 9 questions, each rated on a 4-point Likert scale ('all of the time', 'most of the time', 'some of the time', 'none of the time'). Item scores range from 1 to 4, yielding a total score between 9 and 36. Higher scores reflect poorer adherence, whereas lower scores reflect better adherence.",
+      "measure": "Change in Treatment Adherence",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Systolic and diastolic blood pressure will be assessed and summarized at each timepoint.",
+      "measure": "Change in Systolic and Diastolic Blood Pressure (SBP and DBP)",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Non-fasting blood analysis will be collected and LDL cholesterol level evaluated at each timepoint.",
+      "measure": "Change in serum LDL-c concentrations",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "High-sensitivity C-reactive protein (hs-CRP) will be colllected and evaluated at each timepoint",
+      "measure": "Change in serum concentrations of high-sensitivity C-reactive protein (hs-CRP)",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Systolic and diastolic blood pressure will be collected and the proportions of patients with controled blood pressure will be summarized at each timepoint",
+      "measure": "Proportion of individuals with controlled blood pressure",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Non-fasting blood analysis will be collected and the proportion of individuals with LDL-c levels at target will be evaluated at each timepoint",
+      "measure": "Proportion of individuals with LDL-c levels at target",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "The European Quality of Life - 5 Dimensions 5 Levels (EQ-5D-5L) Questionnaire will be administered at each timepoint to evaluate changes in quality of life.\n\nThe EQ-5D-5L includes a descriptive system and a visual analogue scale (EQ VAS). The descriptive system comprises five dimensions: mobility, self-care, usual activities, pain/discomfort, and anxiety/depression-each with five levels of severity. Responses generate a five-digit health profile. The EQ VAS captures the participant's self-rated health on a visual scale from 0 (\"the worst health you can imagine\") to 100 (\"the best health you can imagine\").",
+      "measure": "Change in Quality of Life",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Time to all-cause death",
+      "measure": "Safety endpoint: All-cause death",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "It will be assessed according to the definitions of the Bleeding Academic Research Consortium.",
+      "measure": "Safety endpoint: Bleeding",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Time to hospitalization for sepsis",
+      "measure": "Safety endpoint: Hospitalization for sepsis",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    },
+    {
+      "description": "Time of ocurrence of new diagnosis of cancer",
+      "measure": "Safety endpoint: new diagnonis of cancer",
+      "outcome_type": "other",
+      "time_frame": "Through study completion, an estimated average of 3 years"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The EPOCA study (Evaluation of a POlypill and Colchicine for risk reduction in patients with established Atherosclerotic cardiovascular disease) will be a randomized, superiority, parallel, 2x2 factorial, multicenter clinical trial which will include at least 7713 and up to a maximum of 10797 participants with established atherosclerotic cardiovascular disease.",
+    "brief_title": "Polypill and Colchicine for Risk Reduction in Atherosclerotic Cardiovascular Disease",
+    "collaborator_names": [],
+    "completion_date": "2031-05",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Individuals aged \u2265 45 years AND\n* Signature of the Informed Consent Form (ICF) AND at least one of the following criteria:\n* Previous atherothrombotic cardiovascular event (acute coronary syndrome, ischemic stroke, high-risk transient ischemic stroke, acute limb ischemia/arterial occlusion, or non-traumatic limb amputation) AND/OR\n* Previous arterial revascularization (percutaneous, surgical, and/or hybrid) OR\n* Diagnosis of significant atherosclerotic disease with \u2265 50% obstruction in any arterial territory (coronary, cerebrovascular, or peripheral), in the absence of a prior cardiovascular event or arterial revascularization.\n\nExclusion Criteria:\n\n* Pregnant or lactating women;\n* Women of childbearing age who do not use any form of contraception;\n* Known history of chronic kidney disease, stage \u2265 4 (estimated glomerular filtration rate \u2264 30 mL/min, if available);\n* Known history of cirrhosis or severe liver disease (e.g., transaminase levels \\> 3 times the upper limit of normal, if available);\n* Known history of inflammatory muscle disease (e.g., dermatomyositis or polymyositis) or creatine phosphokinase (CPK) levels \\> 3 times the upper limit of normal, if available);\n* Known history of moderate or severe valvular heart disease with anticipated need for valvular intervention within the next 12 months;\n* Planned arterial revascularization (inclusion is possible 30 days after completion of all planned procedures);\n* Left ventricular ejection fraction \u226440% (with the exception of patients with documented intolerance to ACE inhibitors and/or sacubitril/valsartan, who remain eligible for study enrollment);\n* Heart failure with functional class \u2265 III according to the New York Heart Association (NYHA), regardless of left ventricular ejection fraction;\n* Blood pressure \\< 120/80 mmHg in the absence of antihypertensive therapy;\n* Life expectancy \u2264 12 months;\n* Acute arterial event (acute coronary syndrome, non-cardioembolic ischemic stroke, acute limb ischemia) in the past 30 days;\n* Substance abuse/alcoholism;\n* Psychiatric and/or neurodegenerative disorder limiting self-care capacity;\n* Concurrent participation in another randomized clinical trial;\n* Contraindication to any component of the polypill;\n* Current or planned use of oral anticoagulant therapy within the next 12 months (except rivaroxaban 2.5 mg twice daily for patients with peripheral artery disease);\n* High risk of bleeding (e.g., but not limited to: blood dyscrasias, hemophilia, previous gastrointestinal or central nervous system bleeding);\n* Contraindication to colchicine;\n* Current use of colchicine.",
+    "detailed_description": "Cardiovascular disease is the leading cause of morbidity and mortality worldwide and in Brazil. Additionally, cardiovascular risk factors are highly prevalent conditions which are, frequently, present in association. Despite the last therapeutic advances, rates of adequate control of these conditions are still low. One proposed strategy to increase such control and decrease cardiovascular risk is the use of fixed-dose combinations of different pharmacological classes, to be taken on single daily dose - a polypill. This strategy has already been studied in other parts of the world, especially in patients with established or at risk for coronary heart disease (CHD).\n\nFurthermore, there has been a need to explore other therapeutic targets beyond traditional risk factors that could impact the process of atherosclerosis. Among the various options evaluated, colchicine has emerged as a viable alternative, given its clinical use experience, mechanism of action, and the results showing a reduction in inflammatory biomarkers as well as clinical outcomes in individuals with different manifestations of coronary artery disease. However, it is important to highlight some key points regarding the available studies evaluating both the treatment strategy based on a polypill and the use of colchicine in the context of atherosclerotic cardiovascular disease (ASCVD).\n\nThe studies supporting both approaches were primarily conducted with participants with coronary artery disease from centers in Europe, the U.S., Iran, Oceania, and India, and there is a lack of robust evidence regarding these therapeutic strategies in other countries with a diverse population like Brazil, as well as in individuals with other manifestations of ASCVD (including peripheral arterial disease and cerebrovascular disease).\n\nGiven high prevalence of atherosclerotic cardiovascular disease and its traditional risk factors, low control rates, high levels of poor adherence and therapeutic inertia, and the specific realities of the population and healthcare system, evaluating the efficacy of a polypill strategy (fixed-dose an antihypertensive, aspirin, and high-potency statin) with a single daily dose, along with colchicine, in preventing cardiovascular events could contribute to improving cardiovascular care.",
+    "drug_class_labels": [],
+    "enrollment_count": 7713,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Cardiovascular Polypill (Valsartan, Atorvastatin, Aspirin)",
+      "Colchicine 0.5 mg",
+      "Usual Care Group",
+      "Colchicine-placebo 0.5 mg"
+    ],
+    "intervention_model": "FACTORIAL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Atherothrombotic diseases",
+      "Atherosclerotic cardiovascular disease",
+      "Polypill",
+      "Colchicine"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-22",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Hospital do Coracao",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "45 Years",
+    "nct_id": "NCT06930885",
+    "official_title": "Evaluation of a POlypill and Colchicine for Risk Reduction in Patients With Established Atherosclerotic Cardiovascular Disease: The EPOCA Randomized Clinical Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE3"
+    ],
+    "primary_completion_date": "2031-05",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06930885",
+    "start_date": "2025-06-12",
+    "study_first_posted_at": "2025-04-16",
+    "study_type": "INTERVENTIONAL"
+  }
+}

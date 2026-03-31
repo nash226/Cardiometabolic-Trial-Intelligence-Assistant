@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06497127:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06497127\nBrief title: A Study in Patients With Mixed Dyslipidemia\nOfficial title: A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Parallel Study to Evaluate the Efficacy and Safety of Subcutaneously Administered BW-00112 in Patients With Mixed Dyslipidemia\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT06497127"
+    },
+    {
+      "chunk_id": "NCT06497127:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Mixed Dyslipidemia\nIntervention labels: BW-00112\nDrug class labels: \nArms: Cohort 1; Cohort 2; Cohort 3\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06497127"
+    },
+    {
+      "chunk_id": "NCT06497127:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A Phase 2 in Patients With Mixed Dyslipidemia\nDetailed description: A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Parallel Study to Evaluate the Efficacy and Safety of Subcutaneously Administered BW-00112 in Patients with Mixed Dyslipidemia",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06497127"
+    },
+    {
+      "chunk_id": "NCT06497127:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Must have given written informed consent and be able to comply with all study requirements.\n2. Males or females aged 18 to 75 aged years, inclusive, at the time of informed consent\n3. Fasting LDL-C \u2265 70 mg/dL \\[1.8 mmol/L\\] at Screening.\n\n4.150 mg/dL \\[1.7 mmol/L\\] \u2264 fasting TG \\< 500 mg/dL \\[5.6 mmol/L\\] at Screening, which may be repeated once if deemed necessary.\n\n5.On a stable statin for at least 1 month before Screening and plan to remain on the same medication and dose for the duration of the study.\n\n6.Females must be non-pregnant and non-lactating, and either surgically sterile or post-menopausal 7.Male patients agreeing to use acceptable methods of contraception\n\nExclusion Criteria:\n\n1. Active pancreatitis within 12 weeks prior to Day 1.\n2. Clinically significant acute cardiovascular even or procedure\n3. HbA1c \\> 9.0% at Screening or patients with diabetes who have experienced diabetic ketoacidosis, diabetic decompensation, hyperosmolar hyperglycemic nonketotic coma, diabetes complications, recurrent infections, or hospitalization related to poor glycemic control within 24 weeks prior to Day 1.\n4. Presence of any clinically significant uncontrolled disease known to influence serum lipids or lipoproteins. NOTE: Patients on thyroid replacement therapy are eligible if the dosage of thyroxine has been stable for at least 12 weeks prior to Day 1.\n5. Use of TG lowering medication , non-prescription dietary supplements or other cholesterol lowering medication 30 days prior to Day 1, other than statins and ezetimibe.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 258,
+      "trial_nct_id": "NCT06497127"
+    },
+    {
+      "chunk_id": "NCT06497127:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent change in fasting TG | time_frame=From baseline to Day 180 | description=Percent change in fasting TG from baseline to Day 180\ntype=secondary | measure=Percent change in fasting TG | time_frame=From baseline to Day 15, 30, 60, 90, 135, 225, and 270 | description=Percent change in fasting TG from baseline to Day 15, 30, 60, 90, 135, 225, and 270",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 62,
+      "trial_nct_id": "NCT06497127"
+    },
+    {
+      "chunk_id": "NCT06497127:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-28\nPrimary completion date: 2026-06-30\nCompletion date: 2028-03-30\nStudy first posted: 2024-07-11\nResults first posted: None\nLast update posted: 2026-01-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06497127"
+    },
+    {
+      "chunk_id": "NCT06497127:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Shanghai Argo Biopharmaceutical Co., Ltd.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06497127"
+    }
+  ],
+  "trial_nct_id": "NCT06497127"
+}

@@ -1,0 +1,558 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D010909",
+          "term": "Pituitary Hormones, Posterior"
+        },
+        {
+          "id": "D010907",
+          "term": "Pituitary Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D001127",
+          "term": "Arginine Vasopressin"
+        },
+        {
+          "id": "D014667",
+          "term": "Vasopressins"
+        },
+        {
+          "id": "D009638",
+          "term": "Norepinephrine"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants randomized to this arm will receive vasopressin intravenously in a blinded solution prepared by the pharmacy (final concentration: 0.12 U/mL in 250 mL of 5% glucose solution). The infusion will start at 5 mL/h and will be titrated by 2.5 mL/h every 10 minutes up to a maximum of 30 mL/h, corresponding to doses between 0.01 and 0.06 U/min. The infusion will be maintained until the target mean arterial pressure (MAP) \u226565 mmHg is achieved. If this target is not reached, open-label norepinephrine may be initiated. Hemodynamic and laboratory parameters will be collected at the start (T0) and after achieving target pressure (T1).",
+          "interventionNames": [
+            "Drug: Vasopressin intravenous infusion"
+          ],
+          "label": "Vasopressin",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants randomized to this arm will receive norepinephrine intravenously in a blinded solution prepared by the pharmacy (final concentration: 120 \u00b5g/mL in 250 mL of 5% glucose solution). The infusion will start at 5 mL/h and will be titrated by 2.5 mL/h every 10 minutes up to a maximum of 30 mL/h, corresponding to doses between 10 and 60 \u00b5g/min. The infusion will be maintained until the target mean arterial pressure (MAP) \u226565 mmHg is achieved. If this target is not reached, additional open-label norepinephrine may be started. Hemodynamic and laboratory parameters will be collected at the start (T0) and after achieving target pressure (T1).",
+          "interventionNames": [
+            "Drug: Norepinephrine intravenous infusion"
+          ],
+          "label": "Noradrenaline",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Vasopressin"
+          ],
+          "description": "Vasopressin will be administered intravenously in a blinded 250 mL bag of 5% glucose solution, at a final concentration of 0.12 U/mL. The infusion will begin at 5 mL/h and be increased by 2.5 mL/h every 10 minutes during the first hour, up to a maximum rate of 30 mL/h (equivalent to doses from 0.01 to 0.06 U/min). The target is to reach and maintain mean arterial pressure (MAP) \u226565 mmHg. If this is not achieved, open-label norepinephrine may be added. Hemodynamic and echocardiographic parameters will be measured before and after the target MAP is reached.",
+          "name": "Vasopressin intravenous infusion",
+          "otherNames": [
+            "Arginine Vasopressin",
+            "ADH",
+            "Pitressin"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Noradrenaline"
+          ],
+          "description": "Norepinephrine will be administered intravenously in a blinded 250 mL bag of 5% glucose solution, at a final concentration of 120 \u00b5g/mL. The infusion will begin at 5 mL/h and be increased by 2.5 mL/h every 10 minutes during the first hour, up to a maximum rate of 30 mL/h (equivalent to doses from 10 to 60 \u00b5g/min). The goal is to reach and maintain MAP \u226565 mmHg. If the MAP target is not reached, open-label norepinephrine may be initiated. Clinical and hemodynamic parameters will be collected at baseline and after MAP stabilization.",
+          "name": "Norepinephrine intravenous infusion",
+          "otherNames": [
+            "Noradrenaline",
+            "Levophed"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Vasoplegic Syndrome of Cardiac Surgery"
+      ],
+      "keywords": [
+        "Shock Cardiogenic",
+        "Postoperative Complications",
+        "Cardiac Surgical Procedures"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "aro@incor.usp.br",
+          "name": "Jos\u00e9 Le\u00f3n",
+          "phone": "+55 (11) 2661-5795",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "S\u00e3o Paulo",
+          "contacts": [
+            {
+              "email": "aro@incor.usp.br",
+              "name": "Jos\u00e9 D Le\u00f3n, Dr",
+              "phone": "+55 (11) 2661-5795",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ludhmila A Hajjar, Full Professor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Instituto do Cora\u00e7\u00e3o HCFMUSP",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          },
+          "status": "RECRUITING",
+          "zip": "05403-000"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Sao Paulo",
+          "name": "Ludhmila A Hajjar, Full Professor",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized, double-blind clinical trial designed to compare the inotropic effects of vasopressin versus norepinephrine in patients who develop vasoplegic syndrome in the immediate postoperative period following cardiac surgery.\n\nVasoplegic syndrome is characterized by severe hypotension due to systemic vasodilation, despite adequate fluid resuscitation and preserved or elevated cardiac output. Vasopressors are essential in restoring hemodynamic stability in this context; however, their impact on myocardial performance remains uncertain. While norepinephrine is the standard first-line agent, vasopressin has shown potential benefits, including reduced catecholamine exposure and fewer adverse cardiovascular effects.\n\nThis study aims to assess changes in cardiac output and other echocardiographic and hemodynamic parameters after administration of either vasopressin or norepinephrine. The findings are expected to contribute to optimizing vasopressor selection in vasoplegic patients after cardiac surgery and improving clinical outcomes.",
+      "detailedDescription": "This prospective, randomized, double-blind clinical trial investigates the inotropic effects of vasopressin versus norepinephrine in patients who develop vasoplegic syndrome (VS) in the immediate postoperative period following cardiac surgery.\n\nVasoplegic syndrome is characterized by severe hypotension with low systemic vascular resistance despite adequate cardiac output, often unresponsive to standard fluid resuscitation and catecholamine vasopressors. It is associated with significant morbidity and mortality, especially in cardiac surgery patients. In recent years, vasopressin has been explored as an alternative or adjunctive treatment due to its different mechanism of action and potentially fewer adverse effects compared to catecholamines.\n\nEligible patients (\u226518 years) undergoing coronary artery bypass grafting or valve surgery, who develop vasoplegic syndrome within 24 hours postoperatively, will be randomized in a 1:1 ratio to receive vasopressin or norepinephrine. Drug allocation will be blinded to the clinical and research teams, with identically prepared infusion bags.\n\nThe study protocol includes a detailed vasopressor infusion regimen, beginning at 5 mL/h with titration every 10 minutes to a maximum of 30 mL/h, aiming for a target mean arterial pressure (MAP) \u226565 mmHg. Hemodynamic parameters (SBP, DBP, MAP, HR, lactate, SVO\u2082, CO\u2082 gap) and echocardiographic indices (LVEF, TAPSE, VTI, CO, SVR) will be collected at baseline (T0) and upon reaching the MAP goal (T1).\n\nPrimary endpoint: Comparative assessment of the inotropic effects between the two vasopressors based on echocardiographic and hemodynamic changes from T0 to T1.\n\nSample size: 175 patients per arm, considering a 30% effect size and 5% attrition rate, powered at 80% with a 5% type I error.\n\nStatistical analysis will follow an intention-to-treat approach using appropriate parametric and non-parametric tests, with p-values \\<0.05 considered statistically significant.\n\nThis trial is expected to provide clinically relevant data on the efficacy and safety of vasopressin in improving myocardial performance in vasoplegic patients, potentially supporting its use as a first-line vasopressor in this context"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The study is double-blinded. Vasopressin and norepinephrine solutions will be prepared by the pharmacy in identical intravenous bags, labeled only with the participant's identification code. The pharmacy team will be the only party unblinded to treatment allocation. All other clinical staff, investigators, research personnel, participants, and their families will remain blinded throughout the study period.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 350,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age over 18.\n* Patients undergoing coronary artery bypass grafting, valve surgery or both, with a diagnosis of vasoplegic syndrome in the immediate postoperative period (\\<24 hours), defined as mean arterial pressure \\< 65 mmHg (measured using an invasive blood pressure catheter) and resistance to fluid replacement - at least 1000ml of crystalloids.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding.\n* Aortic surgery.\n* Surgeries to correct congenital heart disease.\n* Heart transplants.\n* Emergency surgery.\n* Use of vasopressor therapy in the preoperative period.\n* Presence of a ventricular assist device other than an intra-aortic balloon in the postoperative period.\n* Severe hyponatremia in the postoperative period (serum sodium less than 130mEq/l).\n* Postoperative acute coronary syndrome.\n* Mesenteric ischemia in the postoperative period.\n* History of Raynaud's disease.\n* History of neoplasia.",
+      "healthyVolunteers": true,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "INVASC",
+      "briefTitle": "Inotropic Effects of Vasopressin Versus Noradrenaline In Patients With Vasoplegic Syndrome After Cardiac Surgery",
+      "nctId": "NCT06934798",
+      "officialTitle": "Inotropic Effects of Vasopressin Versus Noradrenaline In Patients With Vasoplegic Syndrome After Cardiac Surgery",
+      "orgStudyIdInfo": {
+        "id": "16286719.1.0000.8069"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Sao Paulo"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The primary outcome is the variation in cardiac output (CO), measured by transthoracic echocardiography, from the beginning of the vasopressor infusion (T0) until the achievement of target mean arterial pressure \u226565 mmHg (T1), in patients with vasoplegic syndrome after cardiac surgery. This measurement reflects the inotropic effect of vasopressin versus norepinephrine",
+          "measure": "Change in inotropic function assessed by cardiac output between T0 and T1",
+          "timeFrame": "Up to 1 hour after initiation of vasopressor therapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "LVEF will be measured using transthoracic echocardiography at T0 (baseline) and T1 (after achieving MAP \u226565 mmHg), to assess changes in left ventricular systolic function.",
+          "measure": "Change in left ventricular ejection fraction (LVEF) between T0 and T1",
+          "timeFrame": "Up to 1 hour after vasopressor initiation"
+        },
+        {
+          "description": "Time (in minutes) between the start of vasopressor infusion (T0) and the point at which MAP \u226565 mmHg is reached (T1), indicating hemodynamic stabilization.",
+          "measure": "Time to achieve target mean arterial pressure (MAP \u226565 mmHg)",
+          "timeFrame": "Up to 1 hour"
+        },
+        {
+          "description": "Heart rate will be measured at baseline (T0) and after stabilization (T1) to assess the chronotropic effect of each drug.",
+          "measure": "Change in heart rate (HR) between T0 and T1",
+          "timeFrame": "Up to 1 hour"
+        },
+        {
+          "description": "Arterial lactate will be used as a marker of tissue perfusion, measured at T0 and T1, to evaluate response to vasopressor therapy.",
+          "measure": "Change in arterial lactate levels between T0 and T1",
+          "timeFrame": "Up to 1 hour"
+        },
+        {
+          "description": "SvO\u2082 will be measured at T0 and T1 as an indirect marker of oxygen delivery and cardiac output adequacy.",
+          "measure": "Change in central venous oxygen saturation (SvO\u2082)",
+          "timeFrame": "Up to 1 hour"
+        },
+        {
+          "description": "The CO\u2082 gap will be evaluated at T0 and T1 to assess tissue hypoperfusion and response to vasopressor use.",
+          "measure": "Change in CO\u2082 gap (central venous-to-arterial CO\u2082 difference)",
+          "timeFrame": "Up to 1 hour"
+        },
+        {
+          "description": "Number of participants in each arm requiring additional norepinephrine outside the study drug to reach MAP \u226565 mmHg.",
+          "measure": "Need for additional open-label norepinephrine",
+          "timeFrame": "During initial vasopressor titration (up to 1 hour)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Belletti A, Musu M, Silvetti S, Saleh O, Pasin L, Monaco F, Hajjar LA, Fominskiy E, Finco G, Zangrillo A, Landoni G. Non-Adrenergic Vasopressors in Patients with or at Risk for Vasodilatory Shock. A Systematic Review and Meta-Analysis of Randomized Trials. PLoS One. 2015 Nov 11;10(11):e0142605. doi: 10.1371/journal.pone.0142605. eCollection 2015.",
+          "pmid": "26558621",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Pelletier JS, Dicken B, Bigam D, Cheung PY. Cardiac effects of vasopressin. J Cardiovasc Pharmacol. 2014 Jul;64(1):100-7. doi: 10.1097/FJC.0000000000000092.",
+          "pmid": "24621650",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Dunser MW, Mayr AJ, Ulmer H, Knotzer H, Sumann G, Pajk W, Friesenecker B, Hasibeder WR. Arginine vasopressin in advanced vasodilatory shock: a prospective, randomized, controlled study. Circulation. 2003 May 13;107(18):2313-9. doi: 10.1161/01.CIR.0000066692.71008.BB. Epub 2003 May 5.",
+          "pmid": "12732600",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Hamzaoui O, Jozwiak M, Geffriaud T, Sztrymf B, Prat D, Jacobs F, Monnet X, Trouiller P, Richard C, Teboul JL. Norepinephrine exerts an inotropic effect during the early phase of human septic shock. Br J Anaesth. 2018 Mar;120(3):517-524. doi: 10.1016/j.bja.2017.11.065. Epub 2017 Nov 21.",
+          "pmid": "29452808",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Hamzaoui O, Georger JF, Monnet X, Ksouri H, Maizel J, Richard C, Teboul JL. Early administration of norepinephrine increases cardiac preload and cardiac output in septic patients with life-threatening hypotension. Crit Care. 2010;14(4):R142. doi: 10.1186/cc9207. Epub 2010 Jul 29.",
+          "pmid": "20670424",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Elgebaly AS, Sabry M. Infusion of low-dose vasopressin improves left ventricular function during separation from cardiopulmonary bypass: a double-blind randomized study. Ann Card Anaesth. 2012 Apr-Jun;15(2):128-33. doi: 10.4103/0971-9784.95076.",
+          "pmid": "22508204",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gordon AC, Mason AJ, Perkins GD, Ashby D, Brett SJ. Protocol for a randomised controlled trial of VAsopressin versus Noradrenaline as Initial therapy in Septic sHock (VANISH). BMJ Open. 2014 Jul 3;4(7):e005866. doi: 10.1136/bmjopen-2014-005866.",
+          "pmid": "24993769",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Russell JA, Walley KR, Singer J, Gordon AC, Hebert PC, Cooper DJ, Holmes CL, Mehta S, Granton JT, Storms MM, Cook DJ, Presneill JJ, Ayers D; VASST Investigators. Vasopressin versus norepinephrine infusion in patients with septic shock. N Engl J Med. 2008 Feb 28;358(9):877-87. doi: 10.1056/NEJMoa067373.",
+          "pmid": "18305265",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Morales DL, Garrido MJ, Madigan JD, Helman DN, Faber J, Williams MR, Landry DW, Oz MC. A double-blind randomized trial: prophylactic vasopressin reduces hypotension after cardiopulmonary bypass. Ann Thorac Surg. 2003 Mar;75(3):926-30. doi: 10.1016/s0003-4975(02)04408-9.",
+          "pmid": "12645718",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "McIntyre WF, Um KJ, Alhazzani W, Lengyel AP, Hajjar L, Gordon AC, Lamontagne F, Healey JS, Whitlock RP, Belley-Cote EP. Association of Vasopressin Plus Catecholamine Vasopressors vs Catecholamines Alone With Atrial Fibrillation in Patients With Distributive Shock: A Systematic Review and Meta-analysis. JAMA. 2018 May 8;319(18):1889-1900. doi: 10.1001/jama.2018.4528.",
+          "pmid": "29801010",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Masarwa R, Paret G, Perlman A, Reif S, Raccah BH, Matok I. Role of vasopressin and terlipressin in refractory shock compared to conventional therapy in the neonatal and pediatric population: a systematic review, meta-analysis, and trial sequential analysis. Crit Care. 2017 Jan 5;21(1):1. doi: 10.1186/s13054-016-1589-6.",
+          "pmid": "28057037",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Asfar P, Chawla L, Lerolle N, Radermacher P. Angiotensin-II: more than just another vasoconstrictor to treat septic shock-induced hypotension?*. Crit Care Med. 2014 Aug;42(8):1961-3. doi: 10.1097/CCM.0000000000000436. No abstract available.",
+          "pmid": "25029144",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Hajjar LA, Vincent JL, Barbosa Gomes Galas FR, Rhodes A, Landoni G, Osawa EA, Melo RR, Sundin MR, Grande SM, Gaiotto FA, Pomerantzeff PM, Dallan LO, Franco RA, Nakamura RE, Lisboa LA, de Almeida JP, Gerent AM, Souza DH, Gaiane MA, Fukushima JT, Park CL, Zambolim C, Rocha Ferreira GS, Strabelli TM, Fernandes FL, Camara L, Zeferino S, Santos VG, Piccioni MA, Jatene FB, Costa Auler JO Jr, Filho RK. Vasopressin versus Norepinephrine in Patients with Vasoplegic Shock after Cardiac Surgery: The VANCS Randomized Controlled Trial. Anesthesiology. 2017 Jan;126(1):85-93. doi: 10.1097/ALN.0000000000001434.",
+          "pmid": "27841822",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Hartmann C, Radermacher P, Wepler M, Nussbaum B. Non-Hemodynamic Effects of Catecholamines. Shock. 2017 Oct;48(4):390-400. doi: 10.1097/SHK.0000000000000879.",
+          "pmid": "28915214",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Vieillard-Baron A, Caille V, Charron C, Belliard G, Page B, Jardin F. Actual incidence of global left ventricular hypokinesia in adult septic shock. Crit Care Med. 2008 Jun;36(6):1701-6. doi: 10.1097/CCM.0b013e318174db05.",
+          "pmid": "18496368",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Levy B, Fritz C, Tahon E, Jacquot A, Auchet T, Kimmoun A. Vasoplegia treatments: the past, the present, and the future. Crit Care. 2018 Feb 27;22(1):52. doi: 10.1186/s13054-018-1967-3.",
+          "pmid": "29486781",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Elenkov IJ, Wilder RL, Chrousos GP, Vizi ES. The sympathetic nerve--an integrative interface between two supersystems: the brain and the immune system. Pharmacol Rev. 2000 Dec;52(4):595-638.",
+          "pmid": "11121511",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gomes WJ, Carvalho AC, Palma JH, Goncalves I Jr, Buffolo E. Vasoplegic syndrome: a new dilemma. J Thorac Cardiovasc Surg. 1994 Mar;107(3):942-3. No abstract available.",
+          "pmid": "8127127",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Bolliger D, Erb JM. Vasopressin-Magic Bullet in Vasoplegia Syndrome After Cardiac Surgery? J Cardiothorac Vasc Anesth. 2018 Oct;32(5):2233-2235. doi: 10.1053/j.jvca.2018.06.006. Epub 2018 Jun 20. No abstract available.",
+          "pmid": "30005847",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Levin RL, Degrange MA, Bruno GF, Del Mazo CD, Taborda DJ, Griotti JJ, Boullon FJ. Methylene blue reduces mortality and morbidity in vasoplegic patients after cardiac surgery. Ann Thorac Surg. 2004 Feb;77(2):496-9. doi: 10.1016/S0003-4975(03)01510-8.",
+          "pmid": "14759425",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Zeng LA, Hwang NC. Vasoplegia: More Magic Bullets? J Cardiothorac Vasc Anesth. 2019 May;33(5):1308-1309. doi: 10.1053/j.jvca.2019.01.010. Epub 2019 Jan 4. No abstract available.",
+          "pmid": "30709595",
+          "type": "BACKGROUND"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Morais, V D. Vasopressor Agents in Vasoplegic Syndrome after Cardiac Surgery: Systematic Review and Meta-Analysis of Multiple Treatments \\[thesis\\]. Porto Alegre: Federal University of Rio Grande do Sul; 2014 \\[cited 2019-05-25\\].",
+          "url": "https://www.lume.ufrgs.br/bitstream/handle/10183/104149/000939539.pdf?sequence=1&isAllowed=y"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "UNKNOWN",
+          "name": "Hospital Universit\u00e1rio Cassiano Ant\u00f4nio de Moraes/HUCAM"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Hospital Santa Casa de Miseric\u00f3rdia de Vit\u00f3ria"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Sao Paulo"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Sao Paulo",
+        "investigatorFullName": "Ludhmila Abrah\u00e3o Hajjar MD, PhD",
+        "investigatorTitle": "Full Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-07-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-25",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-04-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-04",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-04-11",
+      "studyFirstSubmitQcDate": "2025-04-11"
+    }
+  }
+}

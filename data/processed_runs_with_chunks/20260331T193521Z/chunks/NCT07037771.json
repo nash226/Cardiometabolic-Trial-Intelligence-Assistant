@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07037771:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07037771\nBrief title: A Phase 3 Study of Zodasiran in Adolescent and Adult Subjects With Homozygous Familial Hypercholesterolemia (YOSEMITE)\nOfficial title: Phase 3 Study to Evaluate the Efficacy and Safety of Zodasiran in Adolescent and Adult Subjects With Homozygous Familial Hypercholesterolemia (YOSEMITE)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT07037771"
+    },
+    {
+      "chunk_id": "NCT07037771:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Homozygous Familial Hypercholesterolemia\nIntervention labels: zodasiran Injection; Placebo\nDrug class labels: \nArms: zodasiran; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT07037771"
+    },
+    {
+      "chunk_id": "NCT07037771:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This multicenter, randomized, placebo-controlled study will evaluate the efficacy and safety of zodasiran subcutaneous (SC) injection in subjects 12 years of age and older with genetically or clinically diagnosed Homozygous familial hypercholesterolemia (HoFH). After completion of the double blind (DB) treatment period subjects will be eligible to continue in the optional open-label extension (OLE) period of the study. All placebo subjects who opt to continue will transition to active drug during the OLE Period.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 79,
+      "trial_nct_id": "NCT07037771"
+    },
+    {
+      "chunk_id": "NCT07037771:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 12 Years\nMaximum age: None\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age \u226512 years, non pregnant, non lactating, do not plan to become pregnant during the study\n* Body weight \u226535 kg at Screening as patients could theoretically be \\<35 kg as the study continues.\n* HoFH based on a supportive genetic test or a clinical diagnosis (total cholesterol \\>500 mg/dL\\[13 mmol/L\\] OR treated LDL-C concentration of \u2265300 mg/dL \\[\u22658 mmol/L\\] either accompanied by TGs \\<300 mg/dL \\[3.4 mmol/L\\] AND both parents with documented total cholesterol \\>250 mg/dL \\[6.5 mmol/L\\] OR cutaneous or tendinous xanthoma before 10 years of age)\n* LDL-C \u226570 mg/dL (1.8 mmol/L). For adolescents 12 to \\<18 years of age, screening LDL-C \u2265116 mg/dL (3 mmol/L).\n* Hemoglobin A1c (HbA1c) \u22649.5%\n* Total bilirubin \\<2xULN, unless in previously confirmed cases of Gilbert's syndrome\n* Alanine aminotransferase or aspartate aminotransferase \\<3\u00d7ULN\n* On standard of care, maximally tolerated lipid-lowering therapy to include a maximally tolerated statin, ezetimibe, and a PCSK9 inhibitor\n\nExclusion Criteria:\n\n* Use of a hepatocyte-targeted siRNA within 365 days before Day 1 (except inclisiran, which is permitted; administration of inclisiran and study drug must be separated by at least 4 weeks)\n* Use of an antisense oligonucleotide molecule within 3 months before Day 1 (except inclisiran, which is permitted; administration of inclisiran and study drug must be separated by at least 4 weeks)\n* Use of evinacumab within 3 months before Day 1. Evinacumab use is prohibited during the study.\n* Non-response to evinacumab, defined as LDL-C reduction \\<15% from baseline after 2 doses\n* Use of any other investigational agent or device within 30 days or 5 half-lives (whichever is longer) before Day 1\n* Use of systemic corticosteroids (unless used as replacement therapy for pituitary/adrenal disease with a stable regimen)\n* Estimated glomerular filtration rate \\<30 mL/min\n\nNOTE: Additional Inclusion/exclusion criteria may apply per protocol",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 323,
+      "trial_nct_id": "NCT07037771"
+    },
+    {
+      "chunk_id": "NCT07037771:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change from Baseline to Month 12 in Fasting Low Density Lipoprotein Cholesterol (LDL-C) (Randomized period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Change and Percent Change from Baseline to Month 12 in Fasting Apolipoprotein B (ApoB) (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Change and Percent Change from Baseline to Month 12 in Fasting Non-High Density Lipoprotein Cholesterol (non-HDL-C) (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Change from Baseline to Month 12 in Fasting LDL-C (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Area Under the Plasma Concentration Versus the Time Curve (AUC) from Baseline to Month 12 for Fasting LDL-C (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Change and Percent Change from Baseline to Month 12 in Fasting Triglycerides (TGs) (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Change and Percent Change from Baseline to Month 12 in Fasting Angiopoietin-like Protein 3 (ANGPTL3) (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Change and Percent Change from Baseline to Month 12 in Fasting Total Cholesterol (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Change and Percent Change from Baseline to Month 12 in Fasting High-Density Lipoprotein Cholesterol (HDL-C) (Randomized Period) | time_frame=Baseline, Month 12\ntype=secondary | measure=Proportion of Participants who Meet European Union (EU) LDL-C Apheresis Eligibility Criteria (per German Apheresis Working Group) at Month 12 (Randomized Period) | time_frame=Month 12\ntype=secondary | measure=Proportion of Participants who Meet United States (US) Apheresis Eligibility Criteria (per National Lipid Association) at Month 12 (Randomized Period) | time_frame=Month 12\ntype=secondary | measure=Proportion of Participants with Fasting LDL-C <100 mg/dL (2.6 mmol/L) at Month 12 (Randomized Period) | time_frame=Month 12\ntype=secondary | measure=Change from Baseline in Fasting LDL-C Over Time (Randomized Period) | time_frame=Baseline, Day 1, Months 1, 2, 3, 4.5, 6, 7.5, 9, 10.5, and 12\ntype=secondary | measure=Percent Change from Baseline in fasting LDL-C Over Time (Randomized Period) | time_frame=Baseline, Day 1, Months 1, 2, 3, 4.5, 6, 7.5, 9, 10.5, and 12\ntype=secondary | measure=Percent Change from Baseline to Month 12 in Fasting Lipoprotein(a) [Lp(a)] (Randomized Period) | time_frame=Baseline, Month 12",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 345,
+      "trial_nct_id": "NCT07037771"
+    },
+    {
+      "chunk_id": "NCT07037771:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-06-17\nPrimary completion date: 2027-08-20\nCompletion date: 2027-08-20\nStudy first posted: 2025-06-25\nResults first posted: None\nLast update posted: 2026-03-27\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07037771"
+    },
+    {
+      "chunk_id": "NCT07037771:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Arrowhead Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT07037771"
+    }
+  ],
+  "trial_nct_id": "NCT07037771"
+}

@@ -1,0 +1,557 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Ticagrelor 90 mg twice daily and ASA 75-100 mg daily for 12 months",
+          "interventionNames": [
+            "Drug: Ticagrelor 90mg twice daily and ASA 75-100 mg daily"
+          ],
+          "label": "Dual antiplatelet therapy",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "ASA 75-160 mg daily for 12 months",
+          "interventionNames": [
+            "Drug: ASA 75-160 mg daily"
+          ],
+          "label": "Acetylsalicylic acid",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Dual antiplatelet therapy"
+          ],
+          "description": "Assess whether ticagrelor 90 mg twice daily and ASA 75-100 mg daily versus ASA 75-160 mg daily improves outcome after isolated coronary artery bypass grafting in patients with acute coronary syndrome",
+          "name": "Ticagrelor 90mg twice daily and ASA 75-100 mg daily",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Acetylsalicylic acid"
+          ],
+          "description": "Assess whether ticagrelor 90 mg twice daily and ASA 75-100 mg daily versus ASA 75-160 mg daily improves outcome after isolated coronary artery bypass grafting in patients with acute coronary syndrome",
+          "name": "ASA 75-160 mg daily",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Coronary Bypass Grafting",
+        "Antiplatelet treatment"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Aalborg",
+          "country": "Denmark",
+          "facility": "Aalborg University Hospital",
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        },
+        {
+          "city": "Aarhus",
+          "country": "Denmark",
+          "facility": "Aarhus University Hospital",
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "facility": "Rigshospitalet",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "city": "Odense",
+          "country": "Denmark",
+          "facility": "Odense University Hospital",
+          "geoPoint": {
+            "lat": 55.39594,
+            "lon": 10.38831
+          }
+        },
+        {
+          "city": "Helsinki",
+          "country": "Finland",
+          "facility": "Helsinki University Hospital",
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          }
+        },
+        {
+          "city": "Kuopio",
+          "country": "Finland",
+          "facility": "Kuopio University Hospital",
+          "geoPoint": {
+            "lat": 62.89238,
+            "lon": 27.67703
+          }
+        },
+        {
+          "city": "Oulu",
+          "country": "Finland",
+          "facility": "Oulu University Hospital",
+          "geoPoint": {
+            "lat": 65.01236,
+            "lon": 25.46816
+          }
+        },
+        {
+          "city": "Tampere",
+          "country": "Finland",
+          "facility": "Tampere University Hospital",
+          "geoPoint": {
+            "lat": 61.49911,
+            "lon": 23.78712
+          }
+        },
+        {
+          "city": "Turku",
+          "country": "Finland",
+          "facility": "Turku University Hospital",
+          "geoPoint": {
+            "lat": 60.45148,
+            "lon": 22.26869
+          }
+        },
+        {
+          "city": "Reykjavik",
+          "country": "Iceland",
+          "facility": "Landsp\u00edtali University Hospital",
+          "geoPoint": {
+            "lat": 64.13548,
+            "lon": -21.89541
+          }
+        },
+        {
+          "city": "Bergen",
+          "country": "Norway",
+          "facility": "St. Olavs hospital, University Hospital",
+          "geoPoint": {
+            "lat": 60.39299,
+            "lon": 5.32415
+          }
+        },
+        {
+          "city": "Oslo",
+          "country": "Norway",
+          "facility": "Oslo University Hospital",
+          "geoPoint": {
+            "lat": 59.91273,
+            "lon": 10.74609
+          }
+        },
+        {
+          "city": "Troms\u00f8",
+          "country": "Norway",
+          "facility": "University Hospital of North Norway",
+          "geoPoint": {
+            "lat": 69.6489,
+            "lon": 18.95508
+          }
+        },
+        {
+          "city": "Trondheim",
+          "country": "Norway",
+          "facility": "Haukeland University Hospital",
+          "geoPoint": {
+            "lat": 63.43049,
+            "lon": 10.39506
+          }
+        },
+        {
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "facility": "Sahlgrenska University Hospital",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "city": "Karlskrona",
+          "country": "Sweden",
+          "facility": "Blekinge Hospital",
+          "geoPoint": {
+            "lat": 56.16156,
+            "lon": 15.58661
+          }
+        },
+        {
+          "city": "Link\u00f6ping",
+          "country": "Sweden",
+          "facility": "Link\u00f6ping University Hospital",
+          "geoPoint": {
+            "lat": 58.41086,
+            "lon": 15.62157
+          }
+        },
+        {
+          "city": "Lund",
+          "country": "Sweden",
+          "facility": "Sk\u00e5ne University Hospital",
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "city": "\u00d6rebro",
+          "country": "Sweden",
+          "facility": "\u00d6rebro University Hospital",
+          "geoPoint": {
+            "lat": 59.27412,
+            "lon": 15.2066
+          }
+        },
+        {
+          "city": "Stockholm",
+          "country": "Sweden",
+          "facility": "Karolinska University Hospital",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "city": "Ume\u00e5",
+          "country": "Sweden",
+          "facility": "University Hospital of Ume\u00e5",
+          "geoPoint": {
+            "lat": 63.82842,
+            "lon": 20.25972
+          }
+        },
+        {
+          "city": "Uppsala",
+          "country": "Sweden",
+          "facility": "Uppsala University Hospital",
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Dep. of Cardiothoracic Surgery , Sahlgrenska University Hospital, 413 45 Gothenburg, Sweden",
+          "name": "Anders Jeppssson, MD,PhD,Prof.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The study is a Randomised Registry-based Clinical Trial (RRCT) to assess whether dual antiplatelet therapy with ticagrelor and ASA compared to ASA alone improves outcome after isolated CABG in patients with acute coronary syndrome.",
+      "detailedDescription": "The trial is a 1:1 randomized, interventional, multi-national, multi-center, safety/efficacy, parallel assignment, open-label treatment study and will use the RRCT methodology. A RRCT study utilizes existing health care registry platforms to conduct a pragmatic prospective randomized trial.\n\nAfter the CABG, eligible patients that have consented to the study, will be randomized to either treatment arms. In the intervention arm, patients will be treated with ticagrelor 90 mg twice daily and ASA 75-100 mg daily for 12 months and patients in the control arm will get ASA only (75-160 mg daily according to local guidelines) during the same time period.\n\nThe patients will be followed by telephone interviews at 30 days and 365 days after inclusion. After the treatment period patients will be followed during an observation period by collection of outcome data from registries or medical records, 24, 36, 60 and 120 months after inclusion of the patient. No other data but the registry data or data from medical records will be collected."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Parallel treatment arms.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 2201,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Written informed consent\n2. Age \u226518 years\n3. Has undergone first time isolated CABG due to an episode of acute coronary syndrome (STEMI, NSTEMI, unstable angina) within 6 weeks before surgery\n\nExclusion Criteria:\n\n1. Previously enrolled in this study (i.e. patient now at repeat encounter)\n2. Concomitant surgical procedure other than CABG\n3. Anticoagulant treatment after the operation (e.g. warfarin, direct thrombin inhibitors (dabigatran), FXa inhibitors (rivaroxaban, apixaban, heparin, low-molecular weight heparin, fondaparinux)\n4. Discharge from the operating hospital to an ICU at another hospital\n5. Pregnancy or lactation\n6. Known intolerance or contraindication to ticagrelor or ASA\n7. Any disorder that may interfere with drug absorption\n8. Any condition other than coronary artery disease with a life expectancy \\<12 months\n9. Known chronic liver disease, renal disease requiring dialysis or bleeding disorder\n10. Atrioventricular block II and III in patients without pacemaker\n11. Any other indication for dual antiplatelet therapy, i.e. recent stent implantation\n12. Debilitating stroke within 90 days before inclusion\n13. Previous intracranial bleeding\n14. Treatment with immunosuppressants (e.g. cyclosporine and tacrolimus)\n15. Treatment with strong CYP3A4-inhibitors (e.g. ketoconazole, clarithromycin, nefazodone, ritonavir or atazanavir)\n16. Any condition that in the opinion of the investigator may interfere with adherence to trial protocol\n17. Participation in any other clinical trial evaluating investigational products at the time for enrollment in this study",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "TACSI",
+      "briefTitle": "Ticagrelor and ASA vs. ASA Only After Isolated Coronary Artery Bypass Grafting in Patients With Acute Coronary Syndrome",
+      "nctId": "NCT03560310",
+      "officialTitle": "Dual Antiplatelet Therapy With Ticagrelor and Acetylsalicylic Acid (ASA) vs. ASA Only After Isolated Coronary Artery Bypass Grafting in Patient With Acute Coronary Syndrome",
+      "orgStudyIdInfo": {
+        "id": "EudraCT 2017-001499-43"
+      },
+      "organization": {
+        "class": "OTHER_GOV",
+        "fullName": "Vastra Gotaland Region"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone improves 12 months outcome defined as time to major adverse cardiovascular events (MACE) after isolated CABG in ACS patients. MACE includes all-cause mortality, myocardial infarction, stroke and new revascularization.",
+          "measure": "Time to major adverse cardiovascular events (MACE)",
+          "timeFrame": "within12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences all cause death within 12 months after randomization",
+          "measure": "Time to all cause death",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone improves 12 months outcome defined as time to a composite endpoint of all cause death, myocardial infarction or stroke after isolated CABG in ACS patients.",
+          "measure": "Time to all cause death, myocardial infarction or stroke",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences cardiovascular death within 12 months after randomization",
+          "measure": "Time to cardiovascular death",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences myocardial infarction within 12 months after randomization",
+          "measure": "Time to first myocardial infarction",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of stroke within 12 months after randomization",
+          "measure": "Time to first stroke",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of new revascularization within 12 months after randomization",
+          "measure": "Time to new revascularization",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of coronary angiography within 12 months after randomization",
+          "measure": "Time to coronary angiography",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of heart failure within 12 months after randomization",
+          "measure": "Time to hospitalization for heart failure",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of cardiovascular hospitalization within 12 months after randomization",
+          "measure": "Time to cardiovascular hospitalization",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of sudden death or aborted cardiac arrest within 12 months after randomization",
+          "measure": "Time to sudden death or aborted cardiac arrest",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of new-onset atrial fibrillation within 12 months after randomization",
+          "measure": "Time to new-onset atrial fibrillation",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of major bleeding within 12 months after randomization",
+          "measure": "Time to major bleeding defined as bleeding requiring hospitalization",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of minor bleeding within 12 months after randomization",
+          "measure": "Time to minor bleeding",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of any bleeding within 12 months after randomization",
+          "measure": "Time to any bleeding",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of dyspnea within 12 months after randomization",
+          "measure": "Time to dyspnea",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of dyspnea causing drug interruption within 12 months after randomization",
+          "measure": "Time to dyspnea causing drug interruption",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of new onset renal failure within 12 months after randomization",
+          "measure": "Time to new onset renal failure",
+          "timeFrame": "within 12 months"
+        },
+        {
+          "description": "To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone improves long-term outcome defined as time to major adverse cardiovascular events (MACE) after isolated CABG in ACS patients. MACE includes all-cause mortality, myocardial infarction, stroke and new revascularization.",
+          "measure": "Time to major adverse cardiovascular events (MACE)",
+          "timeFrame": "2, 3, 5 and 10 years after the patient has been included in the study"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Jeppsson A, James S, Moller CH, Malm CJ, Dalen M, Vanky F, Modrau IS, Andersen K, Anttila V, Atroshchenko GV, Barbu M, Dreifaldt M, El-Akkawi AI, Friberg O, Gudbjartsson T, Gunn J, Haaverstad R, Halonen J, Hansson EC, Holm J, Husso A, Juvonen T, Jakobsen O, Jideus L, Johannesson E, Jonsson Holmdahl A, Jonsson K, Kolseth SM, Krasniqi L, Makela T, Mennander A, Mohagen Krogstad LE, Rafiq S, Raivio P, Riber L, Tahir A, Thorsen C, Tonnessen T, Wahba A, Zindovic I, Pivodic A, Nielsen SJ, Erlinge D, Alfredsson J, Sartipy U; TACSI Trial Group.; TACSI Trial Group. Ticagrelor and Aspirin or Aspirin Alone after Coronary Surgery for Acute Coronary Syndrome. N Engl J Med. 2025 Dec 11;393(23):2313-2323. doi: 10.1056/NEJMoa2508026. Epub 2025 Sep 1.",
+          "pmid": "40888737",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Malm CJ, Alfredsson J, Erlinge D, Gudbjartsson T, Gunn J, James S, Moller CH, Nielsen SJ, Sartipy U, Tonnessen T, Jeppsson A. Dual or single antiplatelet therapy after coronary surgery for acute coronary syndrome (TACSI trial): Rationale and design of an investigator-initiated, prospective, multinational, registry-based randomized clinical trial. Am Heart J. 2023 May;259:1-8. doi: 10.1016/j.ahj.2023.01.011. Epub 2023 Jan 18.",
+          "pmid": "36681173",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Gothia Forum - Center for Clinical Trial"
+        },
+        {
+          "class": "OTHER",
+          "name": "G\u00f6teborg University"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER_GOV",
+        "name": "Vastra Gotaland Region"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2035-02-15",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-29",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-13",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2018-06-29",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-08",
+      "studyFirstPostDateStruct": {
+        "date": "2018-06-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-06-01",
+      "studyFirstSubmitQcDate": "2018-06-15"
+    }
+  }
+}

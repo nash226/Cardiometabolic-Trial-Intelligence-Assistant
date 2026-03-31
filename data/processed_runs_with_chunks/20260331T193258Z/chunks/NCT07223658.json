@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07223658:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07223658\nBrief title: Study of ARO-DIMERPA in Adult Participants With Mixed Hyperlipidemia\nOfficial title: Phase 1/2a, Double-blind, Placebo-controlled, Single and Multiple Dose-escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamic Effects of ARO-DIMERPA in Adult Subjects With Mixed Hyperlipidemia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT07223658"
+    },
+    {
+      "chunk_id": "NCT07223658:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hyperlipidemia; Mixed\nIntervention labels: ARO-DIMERPA; Placebo\nDrug class labels: \nArms: ARO-DIMERPA; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT07223658"
+    },
+    {
+      "chunk_id": "NCT07223658:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Study to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD), and effects on low-density lipoprotein cholesterol (LDL-C) and triglycerides (TGs) of single-dose ARO-DIMERPA and multiple doses of ARO-DIMERPA in adult participants with mixed hyperlipidemia.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07223658"
+    },
+    {
+      "chunk_id": "NCT07223658:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Willing to follow diet counseling as per Investigator judgment based on local standard of care\n* Specific fasting TG, LDL-C, and non-high density lipoprotein cholesterol levels at Screening\n* Participants of childbearing potential must agree to use highly effective contraception in addition to a condom during the study and for at least 90 days following the end of the study or last dose of study drug, whichever is later; participants must not donate sperm or eggs during the study and for at least 90 days following the end of the study or last dose of study drug whichever is later\n\nExclusion Criteria:\n\n* Current use or use within last 365 days or within 5-half-lives before Day 1 based on plasma PK, whichever is longer, of any hepatocyte-targeted siRNA\n* Current use or use within last 90 days or within 5-half-lives before Day 1 based on plasma PK, whichever is longer, of any antisense oligonucleotide therapy\n* Current use or use within last 60 days from Day 1 of any PCSK9 inhibitor monoclonal antibodies (eg, evolocumab or alirocumab)\n* Uncontrolled hypertension\n* History of bleeding diathesis or coagulopathy\n* Current diagnosis of nephrotic syndrome\n\nNote: Additional inclusion/exclusion criteria may apply per protocol.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 221,
+      "trial_nct_id": "NCT07223658"
+    },
+    {
+      "chunk_id": "NCT07223658:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of Participants with Treatment-Emergent Adverse Events (TEAEs) | time_frame=Up to Week 36\ntype=secondary | measure=Percent Change from Baseline in Fasting LDL-C | time_frame=Baseline to Week 36\ntype=secondary | measure=Percent Change from Baseline in Fasting TGs | time_frame=Baseline to Week 36\ntype=secondary | measure=Percent Change from Baseline in Serum apoC-III | time_frame=Baseline to Week 36\ntype=secondary | measure=Percent Change from Baseline in Serum PCSK9 | time_frame=Baseline to Week 36\ntype=secondary | measure=PK of ARO-DIMERPA: Maximum Observed Plasma Concentration (Cmax) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: Time to Maximum Plasma Concentration (Tmax) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: Area Under the Plasma Concentration (AUC) Versus Time Curve From Time Zero to 24 Hours (AUC0-24) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: AUC Versus Time Curve From Time Zero to the Last Quantifiable Plasma Concentration (AUC0-t) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: AUC Versus Time Curve From Time Zero Extrapolated to Infinity (AUC0-inf) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: Apparent Terminal Elimination Half-life (t1/2) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: Apparent Systemic Clearance (CL/F) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: Apparent Terminal-phase Volume of Distribution (Vz/F) | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARODIMERPA: Recovery of Unchanged Drug (Ae) in Urine From Time Zero to 24 Hours Postdose | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: Percentage of Administered Drug Recovered (Fe) in Urine From Time Zero to 24 Hours Postdose | time_frame=Through 24 hours postdose\ntype=secondary | measure=PK of ARO-DIMERPA: Renal Clearance (CLR) | time_frame=Through 24 hours postdose",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 280,
+      "trial_nct_id": "NCT07223658"
+    },
+    {
+      "chunk_id": "NCT07223658:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-22\nPrimary completion date: 2026-06\nCompletion date: 2027-07\nStudy first posted: 2025-11-03\nResults first posted: None\nLast update posted: 2026-01-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07223658"
+    },
+    {
+      "chunk_id": "NCT07223658:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Arrowhead Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT07223658"
+    }
+  ],
+  "trial_nct_id": "NCT07223658"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05202509:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05202509\nBrief title: Cardiovascular Outcome Study to Evaluate the Effect of Obicetrapib in Patients With Cardiovascular Disease\nOfficial title: Placebo Controlled, Double Blind, Randomized Cardiovascular Outcome Study to Evaluate the Effect of 10 mg Obicetrapib in Participants With ASCVD Not Adequately Controlled Despite Maximally Tolerated Lipid Modifying Therapies\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 58,
+      "trial_nct_id": "NCT05202509"
+    },
+    {
+      "chunk_id": "NCT05202509:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atherosclerotic Cardiovascular Disease\nIntervention labels: Obicetrapib; Placebo\nDrug class labels: \nArms: obicetrapib 10mg; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT05202509"
+    },
+    {
+      "chunk_id": "NCT05202509:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study will be a placebo-controlled, double-blind, randomized, phase 3 study in participants with Atherosclerotic Cardiovascular Disease (ASCVD) who are not adequately controlled despite maximally tolerated lipid-lowering therapy.\nDetailed description: This study will be a placebo-controlled, double-blind, randomized, phase 3 study to evaluate the effect of 10mg Obicetrapib in participants with Atherosclerotic Cardiovascular Disease (ASCVD) who are not adequately controlled despite maximally tolerated lipid-lowering therapy to reduce the risk of cardiovascular death, myocardial infarction, stroke and non-elective coronary revascularization. The PREVAIL Study",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 84,
+      "trial_nct_id": "NCT05202509"
+    },
+    {
+      "chunk_id": "NCT05202509:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Males \\& females \u2265 18 years age.\n* Established ASCVD including:\n* Coronary artery disease\n* Cerebrovascular disease\n* Peripheral Artery disease\n* On maximally tolerated lipid-modifying therapy\n* Fasting LDL-C \u2265 55 mg/dL\n* Fasting triglycerides \\< 400 mg/dL\n* Estimated glomerular filtration rate \u2265 30 mL/min\n\nExclusion Criteria:\n\n* New York Heart Association class III or IV heart failure or left ventricular ejection fraction \\< 30%\n* Have been hospitalized for Heart Failure within 5 years prior to screening\n* Had non-fatal MI, non-fatal stroke, non-elective coronary revascularization and/or hospitalization for unstable angina or chest pain within past 3 months prior to screening\n* Uncontrolled hypertension\n* Diagnosis of homozygous familial hypercholesterolemia (HoFH)\n* Active liver disease\n* HbA1c \u226510%\n* Thyroid Stimulating Hormone (TSH) \\> 1.5 times upper limit normal\n* Creatine kinase \\> 3 times upper limit normal\n* History of malignancy with surgery in past 3 years\n* History of alcohol or drug abuse within past 5 years\n* Received treatment with investigational product or device within past 30 days excluding Coronavirus treatment or vaccine\n* Known allergy to study drug\n* Participated in previous obicetrapib trial\n* Taking gemfibrozil within 30 days screening",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 219,
+      "trial_nct_id": "NCT05202509"
+    },
+    {
+      "chunk_id": "NCT05202509:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Major Adverse Cardiovascular Effect (MACE) | time_frame=30 months after last participant randomized | description=To evaluate the effect of obicetrapib on the risk of MACE",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT05202509"
+    },
+    {
+      "chunk_id": "NCT05202509:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-02-07\nPrimary completion date: 2026-11\nCompletion date: 2026-11\nStudy first posted: 2022-01-21\nResults first posted: None\nLast update posted: 2024-06-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05202509"
+    },
+    {
+      "chunk_id": "NCT05202509:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: NewAmsterdam Pharma\nLead sponsor class: INDUSTRY\nCollaborators: Monash University\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT05202509"
+    }
+  ],
+  "trial_nct_id": "NCT05202509"
+}

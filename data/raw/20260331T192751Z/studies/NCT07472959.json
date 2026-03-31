@@ -1,0 +1,255 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D010468",
+          "term": "Perceptual Disorders"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D010149",
+          "term": "Pain, Postoperative"
+        },
+        {
+          "id": "D010146",
+          "term": "Pain"
+        },
+        {
+          "id": "D000377",
+          "term": "Agnosia"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients in this group received a standard fentanyl infusion during the entire CABG procedure until they were transferred out of the operating room.\"",
+          "label": "Group C (control group)",
+          "type": "NO_INTERVENTION"
+        },
+        {
+          "description": "Patients in this group received 5 mg of morphine prior to the initiation of the surgical procedure and an additional 5 mg at the time of separation from cardiopulmonary bypass.",
+          "interventionNames": [
+            "Drug: In this study, morphine administration, which is routinely and frequently used in our operating room for patients undergoing CABG, was applied as an additional intervention"
+          ],
+          "label": "Group M (group morphine)",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Group M (group morphine)"
+          ],
+          "description": "Unlike previous studies, this study aims to evaluate the postoperative effects of morphine administered intraoperatively rather than postoperative morphine administration",
+          "name": "In this study, morphine administration, which is routinely and frequently used in our operating room for patients undergoing CABG, was applied as an additional intervention",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiac Surgery Patient",
+        "Postoperative Pain",
+        "Pain After Surgery"
+      ],
+      "keywords": [
+        "pain",
+        "pain management",
+        "pain measurement",
+        "Cardiac Surgical Procedures",
+        "Cardiovascular Surgical Procedures"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "yasemin.ozsahin@iuc.edu.tr",
+          "name": "Yasemin Ozsahin, Specialist M.d.",
+          "phone": "+905369256721",
+          "role": "CONTACT"
+        },
+        {
+          "email": "kerem.erkalp@iuc.edu.tr",
+          "name": "Kerem Erkalp, Professor",
+          "phone": "+90 532 787 95 00",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Istanbul",
+          "contacts": [
+            {
+              "email": "yasemin.ozsahin@iuc.edu.tr",
+              "name": "Yasemin Ozsahin, Specialist M.d.",
+              "phone": "05369256721",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Istanbul University -Cerrahpasa Institute of Cardiology",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          },
+          "state": "Outside of the US",
+          "status": "RECRUITING",
+          "zip": "34000"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Ethics committee approval was obtained for this study, which was planned as a prospective, randomized, controlled, single-center trial to be conducted in patients undergoing coronary artery bypass grafting (CABG) surgery between December 2025 and March 2026.\n\nPatients eligible for inclusion were randomized into two groups at a 1:1 ratio using a random number list generated via the random.org website. Randomization was performed by an independent investigator who was not involved in the study procedures. The allocation sequence was placed into sequentially numbered, opaque, sealed envelopes. Upon enrollment of each patient, the next numbered envelope was opened to determine group assignment.\n\nPatients who did not complete the study protocol or did not receive the allocated medication were excluded from the analysis, and a per-protocol analysis approach was applied. The randomization list was kept confidential and was accessible only to authorized statistical personnel. Patients were followed in two groups: the Control Group (Group C) and the Morphine Group (Group M).\n\nAll procedures were performed at the Istanbul University-Cerrahpa\u015fa Cardiology Institute. After obtaining written informed consent, all patients were transferred to the operating room, where an 18G intravenous cannula was inserted, followed by premedication with midazolam 0.03 mg/kg (IV).\n\nStandard monitoring included 5-lead electrocardiography (ECG), heart rate measurement, invasive arterial blood pressure monitoring, and peripheral oxygen saturation assessment. Anesthesia induction was standardized for all patients using midazolam 0.15 mg/kg, fentanyl 10 \u00b5g/kg, and rocuronium 0.6 mg/kg (IV). Orotracheal intubation was performed using an endotracheal tube of appropriate size according to the patient's age and sex.\n\nFollowing intubation, mechanical ventilation was initiated and adjusted to maintain end-tidal carbon dioxide (EtCO\u2082) levels between 35 and 45 mmHg. Anesthesia maintenance was achieved using a total intravenous anesthesia (TIVA) technique with continuous infusions of propofol (1-10 mg/kg/h), fentanyl (2-4 \u00b5g/kg/h), and rocuronium (20 mg/h), targeting a bispectral index (BIS) value between 40 and 60. Prior to surgical incision, patients in the Morphine Group (Group M) received 5 mg intravenous morphine, administered with careful consideration of their hemodynamic status.\n\nDuring surgery, all patients were placed on cardiopulmonary bypass (CPB). After completion of graft anastomoses and stabilization of vital signs, patients were weaned from CPB. At this stage, patients in Group M received an additional 5 mg intravenous morphine. In contrast, patients in the Control Group (Group K) continued to receive perioperative fentanyl infusion.\n\nPostoperatively, patients were transferred to the intensive care unit (ICU) while intubated and mechanically ventilated. Extubation was performed according to clinical criteria. In the ICU, all patients received intravenous paracetamol 1000 mg every 6 hours and tramadol 100 mg intravenously. Pain intensity was assessed using the Numerical Rating Scale (NRS) / Visual Analog Scale (VAS). If the pain score exceeded 4, 3 mg intravenous morphine was administered, and total morphine consumption was recorded.\n\nPreoperative variables collected included age, sex, height, weight, body mass index (BMI), and American Society of Anesthesiologists Physical Status (ASA PS) classification. Intraoperative variables included administered drug doses, duration of surgery, cardiopulmonary bypass time, and total anesthesia duration.\n\nIn the postoperative period, the duration of mechanical ventilation in the intensive care unit (ICU), the presence of nausea and vomiting, postoperative ileus, and respiratory depression will be recorded. In addition, pain intensity at the thoracic tube insertion site, sternum, and saphenous vein graft incision will be assessed at the 1st, 2nd, 4th, 8th, and 24th hours following extubation using the Numerical Rating Scale (NRS) / Visual Analog Scale (VAS). All pain assessments will be performed and recorded by a blinded observer. Pain associated with the urinary catheter will also be evaluated using the NRS.\n\nProlonged postoperative ileus will be defined as the presence of abdominal distension and absence of bowel sounds in a patient without mechanical intestinal obstruction who experiences nausea or vomiting and fails to pass flatus or stool for more than three postoperative days. The severity and frequency of postoperative nausea and vomiting (PONV) will be assessed. Respiratory depression will be defined as a suppressed ventilatory response to hypercapnia or hypoxemia.",
+      "detailedDescription": "Pain intensity at the thoracic tube insertion site, sternum, and saphenous vein graft incision will be assessed at the 1st, 2nd, 4th, 8th, and 24th hours following extubation using the Numerical Rating Scale (NRS) / Visual Analog Scale (VAS)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patients aged 18 to 80 years\n* classified as American Society of Anesthesiologists (ASA) III\n* who are scheduled for elective coronary artery bypass grafting.\n\nExclusion Criteria:\n\n* Chronic opioid use.\n* Severe liver or kidney disease.\n* History of alcohol or substance abuse.\n* Left ventricular ejection fraction below 40%.\n* Inability to be weaned from mechanical ventilation within 12 hours after completion of surgery.\n* Undergoing combined cardiac surgery, including valve procedures.\n* Requirement for intra-aortic balloon pump (IABP) support.\n* Surgery performed on a beating heart.\n* Emergency surgery.\n* Reoperation due to bleeding or other complications.\n* Refusal to participate in the study.",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effect of Intraoperative Morphine on Postoperative Pain After CABG",
+      "nctId": "NCT07472959",
+      "officialTitle": "The Effect of Intraoperative Morphine Use on Postoperative Pain in Coronary Artery Bypass Surgery: A Randomized, Controlled Clinical Trial",
+      "orgStudyIdInfo": {
+        "id": "1539569"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Istanbul University - Cerrahpasa"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Pain scores at the thoracic tube insertion site, sternum, and saphenous graft incision will be assessed using a visual analog scale (VAS) by a blinded observer. The VAS consists of a 10-cm horizontal line anchored by two descriptors: \"no pain\" at the left end (0) and \"worst imaginable pain\" at the right end (10). Patients are asked to mark the point on the line that best represents their perceived level of pain at the time of assessment. The distance from the left end of the line to the patient's mark is measured in centimeters and recorded as the VAS score, ranging from 0 to 10.\n\n0: No pain\n\n1-3: Mild pain\n\n4-6: Moderate pain\n\n7-10: Severe pain",
+          "measure": "VAS Level",
+          "timeFrame": "1st, 2nd, 4th, 8th, and 24th hours after extubation."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The secondary objective is to assess, the incidence of nausea and vomiting (PONV)(side effect of morphine). The severity and frequency of PONV will be assessed. PONV will be graded as follows: None: No nausea, Mild nausea, a single episode of vomiting, nausea triggered by external stim, Moderate: Two episodes of vomiting, nausea without external stimulus, and need for a single dose of antiemetic, Severe nausea, more than two episodes of vomiting, and requirement for multiple doses of antiemetics",
+          "measure": "PONV",
+          "timeFrame": "1st, 2nd, 4th, 8th, and 24th hours after extubation"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Istanbul University - Cerrahpasa"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Istanbul University - Cerrahpasa",
+        "investigatorFullName": "Yasemin Ozsahin",
+        "investigatorTitle": "Anesthesiology and Reanimation Specialist",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-05-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-13",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-05-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-02-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-02-06",
+      "studyFirstSubmitQcDate": "2026-03-13"
+    }
+  }
+}

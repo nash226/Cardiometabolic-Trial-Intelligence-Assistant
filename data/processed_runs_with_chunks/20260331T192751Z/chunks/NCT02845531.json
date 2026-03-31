@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT02845531:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT02845531\nBrief title: Implantable Cardioverter Defibrillator Versus Optimal Medical Therapy In Patients With Variant Angina Manifesting as Aborted Sudden Cardiac Death\nOfficial title: None\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT02845531"
+    },
+    {
+      "chunk_id": "NCT02845531:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Angina Pectoris, Variant; Sudden Cardiac Death\nIntervention labels: Implantable Cardioverter Defibrillator; Optimal Medical Therapy\nDrug class labels: \nArms: ICD implantation and optimal medical therapy; optimal medical therapy\nKeywords: Variant angina; Aborted sudden cardiac death; Implantable Cardioverter Defibrillator; Optimal Medical Therapy; ICD",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT02845531"
+    },
+    {
+      "chunk_id": "NCT02845531:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to determine whether ICD(Implantable Cardioverter Defibrillator) implantation on the top of optimal medical therapy in patients with variant angina manifesting as aborted sudden cardiac death reduces the incidence of the death from any cause compared with optimal medical therapy alone.\nDetailed description: All participants will be monitored over a span of five years and the time point of the year of last subject last visit. The term \"year of last subject last visit\" refers to the time point of the last visit for all participants. At this specific time point, event occurrence check will be conducted to determine the occurrence of endpoint events among all participants.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 114,
+      "trial_nct_id": "NCT02845531"
+    },
+    {
+      "chunk_id": "NCT02845531:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age 18 years or older\n* Patients experienced successfully resuscitated cardiac arrest due to documented ventricular fibrillation or sustained rapid ventricular tachycardia\n* Diagnosed as variant angina, defined by spontaneous coronary spasm with ST elevation (\u22650.1mV) in the coronary angiogram and/or documented coronary spasm on ergonovine provocation coronary angiography\n\nExclusion Criteria:\n\n* Significant (\\>50%) coronary artery stenosis on coronary angiography\n* Organic heart disease known to be associated with sudden cardiac arrest.\n\n  * Heart failure with reduced ejection fraction (Left Ventricular Ejection Fraction \\< 35%)\n  * Presence of LV akinesia or aneurysm\n  * Hypertrophic cardiomyopathy\n  * Arrhythmogenic right ventricular dysplasia\n* Chronic Heart Failure New York Heart Association functional class III or IV\n* prior history of atrial or ventricular arrhythmia requiring class I or III antiarrhythmic drugs (flecainide, propafenone, amiodarone, sotalol and dronedarone)\n* Prior catheter ablation for ventricular arrhythmia\n* Primary cardiac electrical diseases (long QT syndrome, Brugada syndrome, catecholaminergic polymorphic ventricular tachycardia)\n* Prior pacemaker or Implantable Cardioverter Defibrillator\n* 2nd or 3rd degree AV block not related to coronary ischemia, requiring permanent pacemaker\n* Patients with poor neurologic outcome (defined as cerebral performance category scale \u22653)\n* Life expectancy \\<2 years\n* Psychiatric illnesses that may be aggravated by device implantation or that may preclude systematic follow-up",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 231,
+      "trial_nct_id": "NCT02845531"
+    },
+    {
+      "chunk_id": "NCT02845531:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Death from any cause | time_frame=5 years\ntype=secondary | measure=Event rate of Cardiac death | time_frame=5 years\ntype=secondary | measure=Event rate of Death from arrhythmia | time_frame=5 years\ntype=secondary | measure=Event rate of Cardiac arrest | time_frame=5 years\ntype=secondary | measure=Event rate of Recurrence of ventricular tachyarrhythmia | time_frame=5 years\ntype=secondary | measure=Event rate of Hospitalization | time_frame=5 years | description=Hospitalization due to unstable angina, acute myocardial infarction, heart failure, cardiac arrhythmia\ntype=secondary | measure=Event rate of Appropriate ICD therapies | time_frame=5 years | description=Appropriate ICD therapies defined as device-administered antitachycardia or defibrillation treatment for ventricular tachyarrhythmia that had not terminated spontaneously\ntype=secondary | measure=Event rate of Inappropriate ICD therapies | time_frame=5 years\ntype=secondary | measure=Event rate of Major device-related complications | time_frame=5 years\ntype=secondary | measure=Event rate of Stroke | time_frame=5 years",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 135,
+      "trial_nct_id": "NCT02845531"
+    },
+    {
+      "chunk_id": "NCT02845531:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2016-11-29\nPrimary completion date: 2030-12\nCompletion date: 2031-06\nStudy first posted: 2016-07-27\nResults first posted: None\nLast update posted: 2025-06-15\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT02845531"
+    },
+    {
+      "chunk_id": "NCT02845531:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Kee-joon Choi\nLead sponsor class: OTHER\nCollaborators: CardioVascular Research Foundation, Korea\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; WITHDRAWN; RECRUITING; WITHDRAWN; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; TERMINATED; RECRUITING; RECRUITING; WITHDRAWN; RECRUITING; WITHDRAWN; ACTIVE_NOT_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT02845531"
+    }
+  ],
+  "trial_nct_id": "NCT02845531"
+}

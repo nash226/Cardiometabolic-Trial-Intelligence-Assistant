@@ -1,0 +1,320 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D056988",
+          "term": "Anterior Wall Myocardial Infarction"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C048013",
+          "term": "Plasmalyte A"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "A single dose of Plasma-Lyte A in Human Albumin 2.5% total = 8 mL of study product delivered into the Infarct Related Artery",
+          "interventionNames": [
+            "Biological: Plasma-Lyte A and 25% Autologous Plasma"
+          ],
+          "label": "Plasma-Lyte A and 25% autologous plasma",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "A single dose of 20 million Autologous non-transfected Endothelial Progenitor Cells in Human Albumin 2.5% total = 8 mL of study product delivered into the Infarct Related Artery",
+          "interventionNames": [
+            "Biological: Autologous EPCs"
+          ],
+          "label": "Autologous EPCs",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "A single dose of 20 million Autologous transfected with human eNOS (endothelial nitric oxide synthase) Endothelial Progenitor Cells in Human Albumin 2.5% total = 8 mL of study product delivered into the Infarct Related Artery",
+          "interventionNames": [
+            "Biological: Autologous EPCs Transfected with human eNOS"
+          ],
+          "label": "Autologous EPCs Transfected with human eNOS",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Plasma-Lyte A and 25% autologous plasma"
+          ],
+          "description": "Single dose of 8 mls given by investigator via intracoronary injection into stent of infarct-related artery",
+          "name": "Plasma-Lyte A and 25% Autologous Plasma",
+          "type": "BIOLOGICAL"
+        },
+        {
+          "armGroupLabels": [
+            "Autologous EPCs"
+          ],
+          "description": "Single dose of 20 million cells in 8 mls given by investigator via intracoronary injection into stent of infarct-related artery",
+          "name": "Autologous EPCs",
+          "otherNames": [
+            "Non-applicable"
+          ],
+          "type": "BIOLOGICAL"
+        },
+        {
+          "armGroupLabels": [
+            "Autologous EPCs Transfected with human eNOS"
+          ],
+          "description": "Single dose of 20 million cells in 8 mls given by investigator via intracoronary injection into stent of infarct-related artery",
+          "name": "Autologous EPCs Transfected with human eNOS",
+          "otherNames": [
+            "Non-applicable"
+          ],
+          "type": "BIOLOGICAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anterior Wall Myocardial Infarction"
+      ],
+      "keywords": [
+        "Stent",
+        "endothelial progenitor cells",
+        "nitric oxide",
+        "myocardial infarction",
+        "MRI"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Ottawa",
+          "country": "Canada",
+          "facility": "University of Ottawa Heart Institute",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          },
+          "state": "Ontario",
+          "zip": "K1Y 4W7"
+        },
+        {
+          "city": "Toronto",
+          "country": "Canada",
+          "facility": "St. Michael's Hospital",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          },
+          "state": "Ontario",
+          "zip": "M5B 1W8"
+        },
+        {
+          "city": "Montreal",
+          "country": "Canada",
+          "facility": "L'institut de cardiologie de Montreal",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          },
+          "state": "Quebec",
+          "zip": "H1T 1C8"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Ottawa Hospital Research Institute",
+          "name": "Duncan Stewart, MD, FRCP C",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This will be the first clinical trial to include a strategy designed to enhance the function of autologous progenitor cells by overexpressing eNOS, and the first to use combination gene and cell therapy for the treatment of cardiac disease.",
+      "detailedDescription": "Introduction:\n\n* Despite the widespread use of pharmacological and/or interventional reperfusion therapies, recovery of cardiac function in myocardial infarction patients is often modest or in some cases absent. Unlike classical re-perfusion therapies, which must be delivered before irreversible cardiac damage has occurred, the use of progenitor cells could potentially restore functional tissue in regions that otherwise would form only scar. A number of clinical trials have been performed, mainly using autologous bone marrow cells, and these suggest a significant albeit modest improvement in cardiac function post MI. However, a major limitation of autologous cell therapy in patients with cardiovascular disease is the deleterious influence of age and other cardiac risk factors on progenitor cell activity, which may limit greatly the potential efficacy of this promising approach.\n\nTrial Design:\n\n* The Enhanced Angiogenic Cell Therapy - Acute Myocardial Infarction (ENACT-AMI) trial is a Canadian, 5-center, phase IIb, double-blind, parallel, randomized placebo controlled trial assessing the safety and efficacy of cell and gene therapy for patients with moderate to large anterior STEMI and who have undergone re-vascularization with stent implantation to the infarct related artery (IRA). The anticipated recruitment target is 100 patients over a two-year period.\n* Consenting participants who qualify during the screening process, will undergo apheresis. Randomization, through a web-based system will take place immediately after successful apheresis. The cell collection samples will be sent to a cell manufacturing facility for manufacturing according to the treatment allocation of: a)Placebo (Plasma-Lyte A \\& 25% autologous plasma), b)EPCs or c)EPCs transfected with human endothelial nitric oxide synthase (eNOS).\n* Approximately 5-7 days later, the patient will receive the randomized treatment allocation via intracoronary injection into the IRA. Participants will remain in hospital overnight for continuous cardiac monitoring. The first post-delivery visit will take place the following morning before hospital discharge. Subsequent study visits will be clinic visits at 1 week, 1, 3 and 6 months after study treatment. Subsequently, a registry to collect long-term safety information from telephone contacts will continue annually for 10 years. During the registry period, participants will be allowed to volunteer for enrolment in other clinical trials."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 47,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female 18-80 years of age\n* Clinical diagnosis of anterior ST-elevation myocardial infarction within the last 30 days, with any one of the following 12-lead electrocardiographic changes:\n* a) Greater than or equal to 1 mm ST elevation or new Q waves in 2 adjacent electrocardiographic precordial leads\n* b) A new left bundle branch block AND and for patients presenting within 3 days of onset of chest pain an increase in cardiospecific enzymes (\\>3x CK with, EITHER positive MB fraction or increase in troponin compared to institution laboratory normal ranges)\n* Successful PCI with stent implantation to infarct-related artery within the last 30 days; defined as residual stenosis no greater than 30%, TIMI flow of at least 2 or greater and a reference diameter of at least \\> 2mm\n* Is considered hemodynamically stable at time of enrollment and immediately prior to cell delivery\n* Screening LVEF must be no greater than 45% by echocardiography (determined by Simpson's method) performed at least 4 days after revascularization procedure. (All screening echos done within the first 4 days post-PCI must be repeated either by echocardiography or MRI prior to cell delivery to ensure that the variability does not exceed 10%)\n* In the case of a previous myocardial infarction, documented LVEF must be 55% or greater\n* Female participants MUST be surgically sterile, post-menopausal, have documented infertility, or are of child-bearing potential wih laboratory confirmation of non-pregnant state\n* Provided written informed consent and is willing to comply with study follow-up visits\n\nExclusion Criteria:\n\n* Significant unprotected left main disease (stenosis of 50% or greater on diagnostic angiography)\n* An increase in LVEF by greater that 10% from initial LVEF evaluation for repeat assessments\n* The presence of significant coronary lesions, other than the index lesion of the IRA\n* A history of significant ventricular arrhythmia NOT related to index STEMI\n* A history of cerebro-vascular accident or transient ischemic attack within 6 months of enrollment\n* Meets at least one exclusion criterion for MRI (NB: Recent stent implantation is not an exclusion)\n* Inability to undergo apheresis procedure (i.e.: poor venous access, laboratory abnormalities)\n* A history of uncorrected significant valvular heart disease\n* A history of left ventricular dysfunction prior to index STEMI\n* A history of human immunodeficiency virus (HIV) or hepatitis B or C infection\n* A history of malignancy within 5 years (Except for low-grade and fully resolved non-melanoma skin cancer)\n* A history of allergy to gentamycin or amphotericin\n* A history of Heparin-Induced Thrombocytopenia (HIT)\n* A history of non-compliance\n* Active inflammatory autoimmune disease requiring chronic immunosuppressive therapy\n* Creatinine clearance \\<60 by Cockcroft-Gault Calculator\n* Confirmed pregnant or lactating\n* Is enrolled in a current investigational drug or device trial\n* Participant has received cell or gene therapy in past\n* The presence of any significant co-morbidities that, in the investigator's opinion, would preclude the participant from taking part in the trial\n* Inability to provide informed consent and comply with the follow-up visit schedule",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ENACT-AMI",
+      "briefTitle": "The Enhanced Angiogenic Cell Therapy - Acute Myocardial Infarction Trial",
+      "nctId": "NCT00936819",
+      "officialTitle": "A Phase IIb, Randomized, Double-blind, Placebo Controlled Study Using Transplantation of Autologous Early Endothelial Progenitor Cells(EPCs) for Patients Who Have Suffered Acute Myocardial Infarction",
+      "orgStudyIdInfo": {
+        "id": "2008-872"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Ottawa Hospital Research Institute"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "controlled-trials.com",
+          "id": "ISRCTN47943321",
+          "type": "REGISTRY"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "1. A change in global left ventricular ejection fraction by cardiac MRI between those treated with cell/gene enriched EPCs versus placebo\n2. Change in global left ventricular ejection fraction by cardiac MRI between those treated with non-transfected autologous EPCs versus eNOS transfected EPCs.",
+          "measure": "Assessment of Global LVEF",
+          "timeFrame": "Baseline to 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "1. Change in regional wall motion and regional wall thickening by cardiac MRI between the above patient groups\n2. Change in echocardiographic assessment of LVEF, infarct size and ventricular volumes between the above patient groups",
+          "measure": "Assessment of: Cardiac wall motion and volumes",
+          "timeFrame": "Baseline to 6 months"
+        },
+        {
+          "description": "Quality of Life Measures: Participants will complete SF-36 and DASI questionnaires at baseline, 3 and 6 months.",
+          "measure": "Time To Clinical Worsening (TTCW)",
+          "timeFrame": "Baseline to 6 months"
+        },
+        {
+          "description": "1. Clinically significant changes in CK and troponin more than 24 hours post delivery\n2. Clinically significant changes in ECG\n3. Assessment of major acute cardiac events\n4. Evidence of any systemic embolization during the hospitalization period\n5. Need for revacularization procedures",
+          "measure": "Safety Measurements",
+          "timeFrame": "Baseline to 6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER_GOV",
+          "name": "Canadian Institutes of Health Research (CIHR)"
+        },
+        {
+          "class": "OTHER",
+          "name": "Stem Cell Network"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Ottawa Hospital Research Institute"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-11",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-12",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2020-03-05",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2013-07-19",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-08",
+      "studyFirstPostDateStruct": {
+        "date": "2009-07-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2009-07-07",
+      "studyFirstSubmitQcDate": "2009-07-08"
+    }
+  }
+}

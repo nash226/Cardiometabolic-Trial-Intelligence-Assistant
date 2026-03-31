@@ -1,0 +1,603 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001145",
+          "term": "Arrhythmias, Cardiac"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D001281",
+          "term": "Atrial Fibrillation"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D054144",
+          "term": "Heart Failure, Diastolic"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000078703",
+          "term": "Radiofrequency Ablation"
+        },
+        {
+          "id": "D000078702",
+          "term": "Radiofrequency Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D055011",
+          "term": "Ablation Techniques"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D002317",
+          "term": "Cardiovascular Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D017115",
+          "term": "Catheter Ablation"
+        },
+        {
+          "id": "D000889",
+          "term": "Anti-Arrhythmia Agents"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients with atrial fibrillation and heart failure with preserved systolic function will be enrolled after informed consent. They randomly assigned to catheter ablation as one arm. They will undergo a catheter ablation procedure within 14 days of randomization. This procedure will include isolation of all four pulmonary veins in the antrum using catheter delivered radiofrequency current, cryothermal or laser ablation energy with standard FDA approved ablation catheter systems used in atrial fibrillation ablation. Patients will be monitored for a minimum period of 9 months after the catheter ablation intervention.",
+          "interventionNames": [
+            "Device: Catheter ablation"
+          ],
+          "label": "Phase 1 Catheter Ablation",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients with atrial fibrillation and heart failure with preserved systolic function will be enrolled after informed consent. They will be randomly assigned to antiarrhythmic drug therapy for Rate or Rhythm control in this arm. They will undergo drug dose titration within 14 days of randomization. . Patients will be monitored for a minimum period of 9 months after the AAD therapy initiation",
+          "interventionNames": [
+            "Drug: Rate or Rhythm control antiarrhythmic drugs for atrial fibrillation"
+          ],
+          "label": "Phase 1 Antiarrhythmic drug therapy",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients with atrial fibrillation and heart failure with preserved systolic function will be enrolled after informed consent and completion of Phase 1. They will be randomly assigned to insertion of an implantable hemodynamic monitor in this arm and heart failure therapy guided by wireless hemodynamic monitoring. Patients will be monitored for a minimum period of 9 months after the implantable hemodynamic monitor insertion on guided drug therapy",
+          "interventionNames": [
+            "Device: Insertion of CardioMems Hemodynamic monitor"
+          ],
+          "label": "Phase 2 Guided Heart Failure Therapy",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients with atrial fibrillation and heart failure with preserved systolic function will be enrolled after informed consent and completion of Phase 1. They will be randomly assigned to heart failure management with empirical selection of heart failure therapy. Patients will be monitored for a minimum period of 9 months after the initiation of empirically selected heart failure drug therapy",
+          "interventionNames": [
+            "Drug: Empiric heart failure drug therapy"
+          ],
+          "label": "Phase 2 Empiric Heart Failure Therapy",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Phase 1 Catheter Ablation"
+          ],
+          "description": "Delivery of physical energy from external energy source via percutaneously inserted electrophysiologic catheter to destroy heart tissue in the human atrium and adjoining vasculature",
+          "name": "Catheter ablation",
+          "otherNames": [
+            "Ablation"
+          ],
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "Phase 1 Antiarrhythmic drug therapy"
+          ],
+          "description": "Administration of antiarrhythmic drug to achieve either rate control or restoration of sinus rhythm for management of atrial fibrillation",
+          "name": "Rate or Rhythm control antiarrhythmic drugs for atrial fibrillation",
+          "otherNames": [
+            "Antiarrhythmic Drug"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Phase 2 Guided Heart Failure Therapy"
+          ],
+          "description": "Insertion of wireless hemodynamic monitor to provide hemodynamic data to guide heart failure therapy to achieve heart failure improvement.",
+          "name": "Insertion of CardioMems Hemodynamic monitor",
+          "otherNames": [
+            "IPM"
+          ],
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "Phase 2 Empiric Heart Failure Therapy"
+          ],
+          "description": "Administration of heart failure drug therapy based on clinical evaluation to achieve heart failure improvement.",
+          "name": "Empiric heart failure drug therapy",
+          "otherNames": [
+            "HFDrug"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation",
+        "Heart Failure",
+        "Diastolic Heart Failure"
+      ],
+      "keywords": [
+        "Atrial fibrillation",
+        "Heart failure",
+        "Diastolic heart failure",
+        "Catheter Ablation",
+        "Antiarrhythmic Drugs"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "cmenj@aol.com",
+          "name": "SANJEEV SAKSENA, MD",
+          "phone": "7323029990",
+          "phoneExt": "7323029990",
+          "role": "CONTACT"
+        },
+        {
+          "email": "eprf@aol.com",
+          "name": "Carine Carvalhiero, BS",
+          "phone": "7323029990",
+          "phoneExt": "7323029990",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Flagstaff",
+          "contacts": [
+            {
+              "email": "aula.mcallister@nahealth.com",
+              "name": "Paula McAllister",
+              "phone": "928-214-3616",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rangadham Nagarakanti",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Northern Arizona Health Care",
+          "geoPoint": {
+            "lat": 35.19807,
+            "lon": -111.65127
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "86001"
+        },
+        {
+          "city": "Jonesboro",
+          "contacts": [
+            {
+              "email": "dr.devignair@gmail.com",
+              "name": "Devi G Nair, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sydney Stevens, NP",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "St. Bernards Heart and Vascular Center",
+          "geoPoint": {
+            "lat": 35.8423,
+            "lon": -90.70428
+          },
+          "state": "Arkansas",
+          "status": "RECRUITING",
+          "zip": "72401"
+        },
+        {
+          "city": "Littleton",
+          "contacts": [
+            {
+              "email": "sris@southdenver.com",
+              "name": "Sri Sundaram, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "msoltau@southdenver.com",
+              "name": "Mary Soltau, MSN",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "South Denver Cardiology",
+          "geoPoint": {
+            "lat": 39.61332,
+            "lon": -105.01665
+          },
+          "state": "Colorado",
+          "status": "RECRUITING",
+          "zip": "80120"
+        },
+        {
+          "city": "Overland",
+          "contacts": [
+            {
+              "email": "dlakkireddy@gmail.com",
+              "name": "Dhananjaya R Lakkireddy, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "jennifer.bush2@hcahealthcare.com",
+              "name": "Jennifer Bush, MSN",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rakesh Gopinathannair, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Kansas City Heart Rhythm Institute",
+          "geoPoint": {
+            "lat": 38.70116,
+            "lon": -90.36234
+          },
+          "state": "Missouri",
+          "status": "RECRUITING",
+          "zip": "66211"
+        },
+        {
+          "city": "Warren Township",
+          "contacts": [
+            {
+              "email": "eprf@aol.com",
+              "name": "Sanjeev Saksena, MBBS MD",
+              "phone": "732-302-9988",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Carine Carvalheiro",
+              "phone": "732-302-9990",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sanjeev Saksena, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Atul Prakash, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Electrophysiology Research Foundation",
+          "geoPoint": {
+            "lat": 40.60822,
+            "lon": -74.51803
+          },
+          "state": "New Jersey",
+          "status": "RECRUITING",
+          "zip": "07059"
+        },
+        {
+          "city": "Philadelphia",
+          "contacts": [
+            {
+              "email": "matthew.hyman@pennmedicine.upenn.edu",
+              "name": "Mathew D Hyman, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mary.gnap@pennmedicine.upenn.edu",
+              "name": "Mary Gnap",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Hospital of the University of Pennsylvania",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "19104"
+        },
+        {
+          "city": "Austin",
+          "contacts": [
+            {
+              "email": "dr.natale@gmail.com",
+              "name": "Andrea Natale, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "Mitra.Mohanty@stdavidsintl.com",
+              "name": "Sangamitra Mohanty, MBBS",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mary B Cishek, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "TCAI at St. David's Hospital",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78705"
+        },
+        {
+          "city": "Munich",
+          "contacts": [
+            {
+              "email": "thorsten.lewalter@osypka-herzzentrum.de",
+              "name": "Thorsten Lewalter, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "clemens.jilek@ikms.de",
+              "name": "Clemens Jilek, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Peter Osypka Herzzentrum",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          },
+          "state": "Bavaria",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "81379"
+        },
+        {
+          "city": "Geneva",
+          "contacts": [
+            {
+              "email": "dipen.shah@hcuge.ch",
+              "name": "Dipen Shah, MD",
+              "role": "CONTACT"
+            },
+            {
+              "email": "luca.galbiati@hcuge.ch",
+              "name": "Luca Galbiati, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Switzerland",
+          "facility": "Hopitaux Universitaires de Geneve",
+          "geoPoint": {
+            "lat": 46.20222,
+            "lon": 6.14569
+          },
+          "state": "Canton of Geneva",
+          "status": "RECRUITING",
+          "zip": "1205"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Electrophysiology Research Foundation",
+          "name": "Sanjeev Saksena, MD",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "affiliation": "Electrophysiology Research Foundation",
+          "name": "Andrea Natale, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Heart failure (HF) with preserved left ventricular function (pEF) is difficult clinical syndrome to treat effectively with few evidence based therapies. Atrial fibrillation (AF) is now an important co-morbidity being observed in 43% of patients with HFpEF. Rhythm control has not been studied in this population. Catheter ablation and antiarrhythmic drugs are rhythm control therapies that have been used for treatment of AF without HF or HF with reduced systolic function but have not been widely applied in HFpEF. No controlled comparative evaluation has been performed in HFpEF.\n\nThe introduction of wireless pulmonary artery hemodynamic monitoring has permitted optimization of HF therapy in patients with chronic HF with reduced and preserved EF. Reduction in HF hospitalizations has been observed in post hoc analyses of HFpEF patients but has not been systematically applied in AF patients with HFpEF.\n\nIn this study, we propose to study both rhythm control and optimized HF therapeutic approaches in an AF with HFpEF study population in a pilot study using a sequential two phase randomized controlled clinical trial design.",
+      "detailedDescription": "This is a prospective pilot study utilizing a randomized comparative sequential evaluation of these two therapeutic approaches in two consecutive phases:\n\nPhase 1 will examine an initial catheter ablation strategy versus an initial antiarrhythmic drug (AAD) therapy strategy for safety and efficacy in patients with atrial fibrillation with preserved systolic cardiac function, heart failure hospitalization in the past year or one or more documented HF events.\n\nPhase 2 will examine optimized rhythm control therapy with and without wireless pulmonary artery pressure hemodynamic monitoring for HF therapy optimization in the same patients as in Phase 1 with documented atrial fibrillation with preserved systolic cardiac function, prior HF hospitalization and class III heart failure.\n\nThis is an open label two phase study in which patients will be randomized in a 1:1 ratio to either ablation or AAD with a pilot phase 1 that will consist to 100 patients enrolled at 10 centers. They will be followed for a minimum of 6 months, after a three month blanking period, for event rates of the primary endpoint as well as safety and efficacy. Phase 2 will randomize patients completing Phase 1 to hemodynamic monitoring with a wireless pulmonary artery sensor insertion and guided HF therapy or empiric standard of care HF therapy. They will be followed for a minimum of 6 months, after a three month blanking period for optimization of rhythm and HF therapies.\n\nThis study is a sequential randomized, open label, active-controlled trial, designed to compare a composite clinical outcomes endpoint of heart failure hospitalization and/or cardiovascular mortality among these patients randomized to each of these treatment strategies. This endpoint will be employed in both pilot trial phases to assess event rates, as well as safety endpoints. This data will form the basis of a larger pivotal trial"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a prospective pilot study utilizing a randomized comparative sequential evaluation of two therapeutic approaches in two consecutive phases. Phase 1 will examine an initial catheter ablation strategy versus an initial antiarrhythmic drug (AAD) therapy strategy for safety and efficacy in patients with atrial fibrillation with preserved systolic cardiac function, heart failure hospitalization in the past year or one or more documented HF events.\n\nPhase 2 will examine optimized rhythm control therapy with and without wireless pulmonary artery pressure hemodynamic monitoring for HF therapy optimization in the same patients as in Phase 1 with documented atrial fibrillation with preserved systolic cardiac function, prior HF hospitalization and class III heart failure.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 360,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria: Patient with symptomatic Heart Failure with preserved systolic cardiac function \\& paroxysmal or persistent atrial fibrillation who meet the following criteria\n\n1. Subjects must be willing and able to give written informed consent\n2. Outpatients \u2265 50 years of age, male or post- menopausal female patients; premenopausal female patients who are on and will maintain continuous birth control therapy during the study.\n3. Subjects must have documented HFpEF \\& paroxysmal or persistent AF and satisfy one of the following inclusion criteria a) Consecutive patients with AF, symptomatic heart failure requiring diuretic therapy for at least 30 days prior to study entry b) Hospitalization for HF and/or AF in the past 12 months prior to catheter ablation with documented NT-pro BNP \\>200pg/ml for patients not in AF or \\> 600 pg/ml for patients in AF on screening ECG or NYHA class 2, 3 or ambulatory class 4 heart failure documented NT-pro BNP \\>300pg/ml for patients not in AF or \\> 900 pg/ml for patients in AF on screening ECG c).Evidence of structural heart disease defined as by at least 1 of the following echocardiography findings (any local measurement made during the screening epoch or within the 6 months prior to screening visit): 1) LA enlargement defined by at least 1 of the following: LA width (diameter) \\>3.8 cm or LA length \\>5.0 cm or LA area \\>20 cm2 or LA volume \\>55 ml or LA volume index \\>29 ml/m2 2) LVH defined by septal thickness or posterior wall thickness \\>1.1 cm d).Left ventricular ejection fraction \\> 45% using standard imaging techniques at enrollment for study or in prior 6 months e).ECG documented paroxysmal or persistent atrial fibrillation f).Patients are candidates for a clinically indicated catheter ablation procedure, and Rate or Rhythm control antiarrhythmic drug therapy\n4. Patients should be on one or more standard heart failure drug therapy (ies) for heart failure with preserved cardiac function for at least 30 days\n5. Written informed consent for the clinically indicated study procedures\n6. Patients must be candidates for long-term OAC therapy based on clinical practice guidelines for treatment of AF. Guidelines for GFR as established for DOACSs will be applicable to all subjects.\n\nExclusion Criteria:\n\n1. Patients with HFpEF who were not on any drug therapy for HF or have uncontrolled hypertension defined as systolic BP \\>180 mm Hg at screening or \\>150 mm Hg on three or more antihypertensive drugs\n2. Patients with QRS duration of \\>120 ms and intraventricular conduction defects who are or maybe candidates for or have received ventricular resynchronization therapy\n3. Recent (\\<1 month) myocardial infarction or acute coronary syndrome\n4. Recent (\\<3 months) coronary revascularization procedures\n5. Documented LA thrombus on TEE or any LVEF measurement \\<40%\n6. Patients who are not candidates for Rate or Rhythm control drug therapy for AF\n7. Dilated cardiomyopathy due to potentially reversible cause e.g. myocarditis\n8. Contraindications to anticoagulant therapy or adverse event with prior Warfarin or DOAC therapy\n9. Creatinine clearance \\<30ml/min or \\>95ml/min\n10. Advanced hepatic disease, pulmonary disease clinically significant congenital heart disease, clinically significant pericardial constriction, hypertrophic cardiomyopathy, infiltrative cardiomyopathy, decompensated valvular heart disease likely to require surgical or percutaneous intervention during the trial\n11. Recent stroke (\\<3 months) or thromboembolic event, transient ischemic attack or carotid angioplasty in the prior 3 months\n12. Recent (\\<3 months) intracranial or other major bleeding event\n13. Candidates for heart or any other organ transplantation or left ventricular assist devices, recent (\\< 3 months) valve or other cardiac surgery\n14. Patients requiring ACE inhibitor or ARB drug therapy for any reason\n15. History of hypersensitivity to antiarrhythmic drugs\n16. Patients with other clinically significant medical condition that precludes study participation\n17. Patients with life expectancy \\< 1 year\n18. Premenopausal female patients, who are not on continuous birth control therapy or are likely to discontinue it at any time during the entire duration of study enrollment.\n19. Pregnant or nursing lactating mothers or women of childbearing potential who are not on effective contraceptive therapy\n20. Patients who have been noncompliant with medical regimens or have social or other issues precluding regular follow up, history of alcohol or drug abuse in past 12 months.",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "TAP-CHF",
+      "briefTitle": "Treatment Of Atrial Fibrillation In Preserved Cardiac Function Heart Failure",
+      "nctId": "NCT04160000",
+      "officialTitle": "A Phase 4, Randomized, Open Label, Multicenter Prospective Comparative Study To Evaluate The Treatment Of Atrial Fibrillation In Preserved Cardiac Function Heart Failure",
+      "orgStudyIdInfo": {
+        "id": "EPRF - 2019 - 11"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Electrophysiology Research Foundation"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Time to either first of Heart failure hospitalization and/or mortality due to cardiovascular etiology",
+          "measure": "Time to Composite of Heart failure hospitalizations and/or Cardiovascular mortality",
+          "timeFrame": "From date of randomization until the date of first documented heart failure hospitalization or date of death from cardiovascular causes, whichever came first, assessed up to 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Time to mortality due to any cause",
+          "measure": "All cause Mortality",
+          "timeFrame": "From date of randomization until the date of death from any cause, assessed up to 12 months"
+        },
+        {
+          "description": "Time to major adverse cardiovascular event",
+          "measure": "MACE events",
+          "timeFrame": "From date of randomization until the date of first documented major adverse cardiovascular event, assessed up to 12 months"
+        },
+        {
+          "description": "Time to first hospitalization due to cardiovascular causes",
+          "measure": "Cardiovascular Hospitalization",
+          "timeFrame": "From date of randomization until the date of first documented hospitalization due to cardiovascular causes , assessed up to 12 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": true,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Saksena S, Slee A. Atrial fibrillation and its pernicious role in heart failure with preserved ejection fraction: a new frontier in interventional electrophysiology. J Interv Card Electrophysiol. 2018 Mar;51(2):89-90. doi: 10.1007/s10840-018-0341-3. No abstract available.",
+          "pmid": "29480345",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Cikes M, Claggett B, Shah AM, Desai AS, Lewis EF, Shah SJ, Anand IS, O'Meara E, Rouleau JL, Sweitzer NK, Fang JC, Saksena S, Pitt B, Pfeffer MA, Solomon SD. Atrial Fibrillation in Heart Failure With Preserved Ejection Fraction: The TOPCAT Trial. JACC Heart Fail. 2018 Aug;6(8):689-697. doi: 10.1016/j.jchf.2018.05.005. Epub 2018 Jul 11.",
+          "pmid": "30007557",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Slee A, Saad M, Saksena S. Heart failure progression and mortality in atrial fibrillation patients with preserved or reduced left ventricular ejection fraction. J Interv Card Electrophysiol. 2019 Sep;55(3):325-331. doi: 10.1007/s10840-019-00534-x. Epub 2019 Mar 18.",
+          "pmid": "30887281",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Slee A, Saksena S. Impact of initial heart failure emergence on clinical outcomes of atrial fibrillation patients in the AFFIRM trial. Am Heart J. 2020 Feb;220:1-11. doi: 10.1016/j.ahj.2019.10.005. Epub 2019 Oct 28.",
+          "pmid": "31756389",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Electrophysiology Research Foundation"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-22",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2020-07-26",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-05",
+      "studyFirstPostDateStruct": {
+        "date": "2019-11-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-11-06",
+      "studyFirstSubmitQcDate": "2019-11-08"
+    }
+  }
+}

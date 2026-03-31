@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07079735:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07079735\nBrief title: Valganciclovir vs. Letermovir for CMV Prophylaxis in Heart Transplant\nOfficial title: VALganciclovir vs. LETermovir for Primary Prevention of CMV in Moderate to High-Risk Heart Transplant Recipients (The VALET-CMV Study)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07079735"
+    },
+    {
+      "chunk_id": "NCT07079735:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: CMV Viremia; Heart Transplant Infection; Heart Transplant Failure and Rejection\nIntervention labels: Letermovir; Valganciclovir\nDrug class labels: \nArms: Letermovir; Valganciclovir; No treatment\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT07079735"
+    },
+    {
+      "chunk_id": "NCT07079735:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to compare the safety and efficacy of letermovir with valganciclovir for prevention of Cytomegalovirus (CMV) viremia in moderate to high risk serostatus heart transplant recipients.\nDetailed description: This trial is a multi-center prospective, two-arm randomized study designed to assess the safety of letermovir use as the primary prophylaxis for CMV in patients recently transplanted with a heart. Although there are findings to support the safety and efficacy profiles of letermovir in certain patient populations (kidney transplant, lung transplant, and hematopoetic stem cell transplant), there is a clear lack of prospective data to support use of letermovir at the primary prevention of CMV for patients recently transplanted with a heart. Thus, despite numerous studies showing letermovir to be non-inferior to valganciclovir with a substantial reduction in leukopenia and neutropenia, valganciclovir continues to be the initial CMV prophylaxis in heart transplant recipients. This study aims to either confirm the findings about letermovir as seen in other patient populations, or to highlight potential concerns about using letermovir in heart transplant patients. Patients who get letermovir will also be given acyclovir for HSV (Herpes Simplex Virus) prophylaxis for 6 months. Those taking valganciclovir will not need this as HSV is covered by valganciclovir. Low risk patients will also be monitored during this period for a better understanding of CMV disease in this population.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 227,
+      "trial_nct_id": "NCT07079735"
+    },
+    {
+      "chunk_id": "NCT07079735:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 99 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\nPatients who are \\>18 years of age who have received a heart transplant and have not started their CMV prophylaxis regimen will be included.\n\nExclusion Criteria:\n\nHistory of or suspected CMV disease within 6 months prior is excluded.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 58,
+      "trial_nct_id": "NCT07079735"
+    },
+    {
+      "chunk_id": "NCT07079735:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Occurrence of leukopenia | time_frame=During the duration of CMV prophylaxis (6 months for moderate risk and 12 months for high risk from start of therapy) | description=Number of patients with leukopenia (white blood cell count \\<3000 cells \u00b5L)\ntype=primary | measure=Occurrence of neutropenia | time_frame=During the duration of CMV prophylaxis (Up to 6 months for moderate risk and up to 12 months for high risk from start of therapy) | description=Number of patients with neutropenia (absolute neutrophil count \\<1500 cells/\u00b5L)\ntype=secondary | measure=Number of patients with any detectable CMV viremia after initiation of CMV prophylaxis | time_frame=6 months after initiation of CMV prophylaxis | description=Number of patients with any positive CMV viral load detected by polymerase chain reaction (PCR)\ntype=secondary | measure=Number of patients with any detectable CMV viremia while on CMV prophylaxis | time_frame=During the duration of CMV prophylaxis (Up to 6 months for moderate risk and up to 12 months for high risk patients) | description=Number of patients with any positive CMV viral load detected by PCR.\ntype=secondary | measure=Number of patients with any detectable CMV viremia after completing CMV prophylaxis | time_frame=Within 6 months after completing CMV prophylaxis | description=Number of patients with any positive CMV viral load detected by PCR.\ntype=other | measure=Percent of CD4 and CD8 T cells that respond to CMV antigen | time_frame=6 months to 1 year after initiating CMV prophylaxis | description=Exploratory: looking at T cell unity against CMV. Assessing the predictive attributes of a positive test on the chance of future CMV viremia or disease.\ntype=other | measure=Viral load of the torque teno virus (TTV) | time_frame=6 months to 1 year after initiating CMV prophylaxis | description=Exploratory: TTV activity will be measured by the TTV assay. This will be used to assess the immunogenicity of heart transplant patients that are identified as being at increased risk of infection or rejection.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 311,
+      "trial_nct_id": "NCT07079735"
+    },
+    {
+      "chunk_id": "NCT07079735:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-09-12\nPrimary completion date: 2028-01-17\nCompletion date: 2029-01-17\nStudy first posted: 2025-07-23\nResults first posted: None\nLast update posted: 2025-09-25\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07079735"
+    },
+    {
+      "chunk_id": "NCT07079735:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Columbia University\nLead sponsor class: OTHER\nCollaborators: Cornell University\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT07079735"
+    }
+  ],
+  "trial_nct_id": "NCT07079735"
+}

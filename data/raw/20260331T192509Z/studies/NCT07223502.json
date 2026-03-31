@@ -1,0 +1,256 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C576501",
+          "term": "finerenone"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Once daily fixed-dose combination of extended release Torsemide 24 mg and Spironolactone 30 mg",
+          "interventionNames": [
+            "Drug: Combination Product: FDC of spironolactone and ER torsemide"
+          ],
+          "label": "Active Comparator: Fixed-dose combination (FDC) of ER Torsemide and Spironolactone tablet",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Oral dose of once daily up to 80 mg furosemide or equivalent doses of other loop diuretics and 10 mg finerenone",
+          "interventionNames": [
+            "Drug: Combination Product: Stabilized doses of loop diuretic and finerenone"
+          ],
+          "label": "Active Comparator: Continued on stabilized doses of loop diuretic and finerenone",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Active Comparator: Fixed-dose combination (FDC) of ER Torsemide and Spironolactone tablet"
+          ],
+          "description": "The usual starting torsemide daily dose ranges from 5-10 mg (for hypertension) to 10-20 mg (for heart failure). The initial dose for treatment of heart failure or hypertension is 25 mg daily.",
+          "name": "Combination Product: FDC of spironolactone and ER torsemide",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Active Comparator: Continued on stabilized doses of loop diuretic and finerenone"
+          ],
+          "description": "Treatment will be up to 80 mg furosemide or equivalent doses of other loop diuretics and 10 mg finerenone",
+          "name": "Combination Product: Stabilized doses of loop diuretic and finerenone",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension (HTN)"
+      ],
+      "keywords": [
+        "radomized",
+        "two arm",
+        "parallel",
+        "torsemide",
+        "finerenone",
+        "spironolactone",
+        "fixed-dose combination",
+        "extended-release"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "info@sarfez.com",
+          "name": "Salim Shah, PhD, JD",
+          "phone": "877-872-7339",
+          "role": "CONTACT"
+        },
+        {
+          "email": "Sophia.Shah@sarfez.com",
+          "name": "Sophia Shah, MD",
+          "phone": "877-872-7339",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Vienna",
+          "contacts": [
+            {
+              "email": "info@sarfez.com",
+              "name": "Salim Shah, PhD, JD",
+              "phone": "877-872-7339",
+              "role": "CONTACT"
+            },
+            {
+              "email": "sophia.shah@sarfez.com",
+              "name": "Sophia Shah, MD",
+              "phone": "877-872-7339",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sophia Shah, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Sarfez Pharmaceuticals, Inc.",
+          "geoPoint": {
+            "lat": 38.90122,
+            "lon": -77.26526
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "22182"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Sarfez Pharmaceuticals, Inc.",
+          "name": "Chris Wilcox, MD, PhD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A study Comparing the Clinical Benefit of Finerenone Versus a Fixed-Dose Combination (FDC) of Extended-Release Torsemide and Spironolactone in Patients with Hypertension and Chronic Kidney Disease.",
+      "detailedDescription": "SAR-ERTSP-01P, A Randomized, Parallel, Two-Arm Study Comparing the Net Clinical Benefit of Finerenone Versus a Fixed-Dose Combination of Extended-Release Torsemide and Spironolactone in Patients with Hypertension and PRoteinuric ChrOnic KidNey Disease (NEPHRON)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, prospective, open label, blinded endpoints",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adult male and female patients aged \u226518 years;\n2. Are diagnosed with a CKD;\n3. Have an eGFR of \u226525 and \u226460 mL/min/1.72 m2;\n4. Have an UACR 150-3500 mg/g and Sk 4.5 to 5.0 mmol/L;\n5. Have an observed clinic seated systolic blood pressure (SBP) of \u2265130 and \u2264170 mmHg;\n6. Are receiving up to an 80 mg daily dose of furosemide or an equivalent dose of other loop diuretics and and 10 mg daily dose of finerenone for 30 days;\n7. Willing and able to comply with all aspects of the protocol and to provide written informed consent from the patient or patient's legally acceptable representative (LAR);\n8. Willing to use effective methods of contraception during sexual intercourse with an opposite sex throughout the study.\n\nExclusion Criteria:\n\n1. Have a diagnosis of type I diabetes mellitus (T1DM);\n2. Have uncontrolled hypertension (SBP \\>170 mmHg);\n3. Have primary aldosteronism or endocrine disorders;\n4. Have serum potassium \\>5.0 or \\<4.5 mmol/L at screening;\n5. Unable to continue on 10 mg finerenone or require daily dose of more than 80mg furosemide or equivalent doses of other loop diuretics\n6. Have a recent diagnosis of acute kidney injury (\u22643 months);\n7. Had a cardiovascular event within 3 months prior to screening (e.g., myocardial infarction, stroke, transient ischemic attack, pulmonary embolism, elective coronary artery bypass grafting) or elective percutaneous coronary intervention within 1 month prior to screening;\n8. Had hospitalized for worsening heart failure in last 30 days;\n9. Have an autosomal dominant or recessive polycystic kidney disease;\n10. Have an Addison's disease;\n11. Have Hepatic insufficiency classified as Child-Pugh;\n12. Have a diagnosis of Lupus nephritis or anti-neutrophil cytoplasmic autoantibody (ANCA)-associated vasculitis or any other kidney diseases requiring immunosuppressive therapy;\n13. Have a history of organ transplant;\n14. Require treatment with potassium-sparing diuretics;\n15. Have an active malignancy;\n16. Currently taking potassium supplement or potassium binders;\n17. Have known hypersensitivity to sulfonamides or related compounds or spironolactone or finerenone;\n18. Is pregnant, breastfeeding, or planning to become pregnant during the study;\n19. Have participated in another clinical study involving any investigational drug within 30 days prior to Screening;\n20. Is considered to be unsuitable for any other reason that may either place the patient at increased risk during participation or interfere with the interpretation of the study outcomes by the Investigator, after reviewing medical and psychiatric history, physical examination, and laboratory evaluation.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "NEPHRON",
+      "briefTitle": "A Study Comparing the Clinical Benefit of Finerenone Versus a Fixed Dose Combination (FDC) of Extended-Release Torsemide and Spironolactone in Patients With Hypertension and Chronic Kidney Disease",
+      "nctId": "NCT07223502",
+      "officialTitle": "A Randomized, Parallel, Two Arm Study Comparing the Net Clinical Benefit of Finerenone Versus a Fixed Dose Combination of Extended-Release Torsemide and Spironolactone in Patients With Hypertension and PRoteinuric ChrOnic KidNey Disease",
+      "orgStudyIdInfo": {
+        "id": "SAR-ERTSP-01"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Sarfez Pharmaceuticals, Inc."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "SBP \u226510 mmHg reduction from baseline (binary: yes/no).",
+          "measure": "Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with SBP reduction",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "NCB is defined as UACR \u226530% reduction from baseline (binary: yes/no).",
+          "measure": "Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with UACR reduction",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Serum K\u207a \u22645.0 mmol/L at end of treatment (binary: y/no)",
+          "measure": "Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with Serum K\u207a reduction",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Sarfez Pharmaceuticals, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-05",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-10-29",
+      "studyFirstSubmitQcDate": "2025-10-29"
+    }
+  }
+}

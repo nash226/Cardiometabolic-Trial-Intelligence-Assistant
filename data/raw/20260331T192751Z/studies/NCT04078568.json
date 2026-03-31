@@ -1,0 +1,908 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D014657",
+          "term": "Vasculitis"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        },
+        {
+          "id": "D017445",
+          "term": "Skin Diseases, Vascular"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009080",
+          "term": "Mucocutaneous Lymph Node Syndrome"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D007074",
+          "term": "Immunoglobulin G"
+        },
+        {
+          "id": "D007132",
+          "term": "Immunoglobulin Isotypes"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011246",
+          "term": "Pregnadienetriols"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D016756",
+          "term": "Immunoglobulins, Intravenous"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        },
+        {
+          "id": "D011239",
+          "term": "Prednisolone"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2025-10-31",
+          "filename": "SAP_005.pdf",
+          "hasIcf": false,
+          "hasProtocol": false,
+          "hasSap": true,
+          "label": "Statistical Analysis Plan",
+          "size": 1160835,
+          "typeAbbrev": "SAP",
+          "uploadDate": "2025-12-22T20:38"
+        },
+        {
+          "date": "2020-01-06",
+          "filename": "ICF_002.pdf",
+          "hasIcf": true,
+          "hasProtocol": false,
+          "hasSap": false,
+          "label": "Informed Consent Form: Informed Consent Form",
+          "size": 374606,
+          "typeAbbrev": "ICF",
+          "uploadDate": "2020-02-25T09:53"
+        }
+      ]
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "1. IVIG 2g/kg once, given within 12 to 24 hours;\n2. Aspirin 30 mg/kg in oral per day (given in 3 divided doses), then 3 to 5 mg/kg per day when fever subsides for 3 days and C-reactive protein (CRP) is normal. Aspirin will be continued for at least 6 weeks after onset of illness.",
+          "interventionNames": [
+            "Drug: IVIG",
+            "Drug: Aspirin"
+          ],
+          "label": "the standard group",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "1. IVIG 2g/kg once, given within 12 to 24 hours;\n2. Aspirin 30 mg/kg in oral per day (given in 3 divided doses), then 3 to 5 mg/kg per day when fever subsides for 3 days and CRP is normal. Aspirin will be continued for at least 6 weeks after onset of illness.\n3. Intravenous methylprednisolone 1.6 mg/kg per day (given in 2 divided doses) for 3 days, which is administered concurrently with the initial IVIG infusion and completed within 30-60 minutes, then changed to oral prednisolone 2 mg/kg when fever subsides for 3 days . If CRP is normal, the oral dose will be reduced every 5 days from 2 mg/kg to 1 mg/kg to 0.5 mg/kg (tapered over 15 days). Then prednisolone will be discontinued.",
+          "interventionNames": [
+            "Drug: IVIG",
+            "Drug: Aspirin",
+            "Drug: Prednisolone"
+          ],
+          "label": "the standard+prednisolone group",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "the standard group",
+            "the standard+prednisolone group"
+          ],
+          "description": "IVIG at a single dose of 2 g/kg, with the maximum dose of 60g",
+          "name": "IVIG",
+          "otherNames": [
+            "Intravenous Immunoglobulins, Human"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "the standard group",
+            "the standard+prednisolone group"
+          ],
+          "description": "Aspirin 30 mg/kg in oral per day (given in 3 divided doses), then 3 to 5 mg/kg per day when fever subsides for 3 days and C-reactive protein (CRP) is normal. Aspirin will be continued for at least 6 weeks after onset of illness.",
+          "name": "Aspirin",
+          "otherNames": [
+            "Acetylsalicylic acid"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "the standard+prednisolone group"
+          ],
+          "description": "Intravenous methylprednisolone 1.6 mg/kg per day (given in 2 divided doses, with the maximum dose 60mg of prednisolone ) for 3 days, which is administered concurrently with the initial IVIG infusion and completed within 30-60 minutes, then changed to oral prednisolone 2 mg/kg when fever subsides for 3 days. If CRP is normal, the oral dose will be reduced every 5 days from 2 mg/kg to 1 mg/kg to 0.5 mg/kg (tapered over 15 days). Then prednisolone will be discontinued.",
+          "name": "Prednisolone",
+          "otherNames": [
+            "STEROLONE"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Kawasaki Disease"
+      ],
+      "keywords": [
+        "Kawasaki disease",
+        "prednisolone",
+        "coronary artery lesion"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Bengbu",
+          "country": "China",
+          "facility": "Bengbu First People's Hopital",
+          "geoPoint": {
+            "lat": 32.94083,
+            "lon": 117.36083
+          },
+          "state": "Anhui",
+          "zip": "233000"
+        },
+        {
+          "city": "Hefei",
+          "country": "China",
+          "facility": "Anhui Children's Hospital",
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          },
+          "state": "Anhui",
+          "zip": "230022"
+        },
+        {
+          "city": "Beijing",
+          "country": "China",
+          "facility": "Children's Hospital, Capital Institute of Pediatrics",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "zip": "100020"
+        },
+        {
+          "city": "Chongqing",
+          "country": "China",
+          "facility": "Children's Hospital of Chongqing Medical University",
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          },
+          "state": "Chongqing Municipality",
+          "zip": "400014"
+        },
+        {
+          "city": "Xiamen",
+          "country": "China",
+          "facility": "Xiamen Children's Hospital",
+          "geoPoint": {
+            "lat": 24.47979,
+            "lon": 118.08187
+          },
+          "state": "Fujian",
+          "zip": "361006"
+        },
+        {
+          "city": "Lanzhou",
+          "country": "China",
+          "facility": "Lanzhou University Second Hospital",
+          "geoPoint": {
+            "lat": 36.05701,
+            "lon": 103.83987
+          },
+          "state": "Gansu",
+          "zip": "730030"
+        },
+        {
+          "city": "Guangzhou",
+          "country": "China",
+          "facility": "Sun Yat-sen Memorial Hospital",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          },
+          "state": "Guangdong",
+          "zip": "510120"
+        },
+        {
+          "city": "Guangzhou",
+          "country": "China",
+          "facility": "Guangzhou Women and Children's Medical Center",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          },
+          "state": "Guangdong",
+          "zip": "510623"
+        },
+        {
+          "city": "Shenzhen",
+          "country": "China",
+          "facility": "Shenzhen Children's Hospital",
+          "geoPoint": {
+            "lat": 22.54554,
+            "lon": 114.0683
+          },
+          "state": "Guangdong",
+          "zip": "518038"
+        },
+        {
+          "city": "Liuchow",
+          "country": "China",
+          "facility": "Liuzhou Maternity and Children Healthcare Hospital",
+          "geoPoint": {
+            "lat": 24.32405,
+            "lon": 109.40698
+          },
+          "state": "Guangxi",
+          "zip": "545001"
+        },
+        {
+          "city": "Kaifeng",
+          "country": "China",
+          "facility": "Kaifeng Children's Hospital",
+          "geoPoint": {
+            "lat": 34.7986,
+            "lon": 114.30742
+          },
+          "state": "Henan",
+          "zip": "475000"
+        },
+        {
+          "city": "Zhengzhou",
+          "country": "China",
+          "facility": "Henan Children's Hospital",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          },
+          "state": "Henan",
+          "zip": "450018"
+        },
+        {
+          "city": "Zhengzhou",
+          "country": "China",
+          "facility": "the First Affiliated Hospital of Zhengzhou University",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          },
+          "state": "Henan",
+          "zip": "450052"
+        },
+        {
+          "city": "Zhengzhou",
+          "country": "China",
+          "facility": "The Third Affiliated Hospital of Zhengzhou University",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          },
+          "state": "Henan",
+          "zip": "450052"
+        },
+        {
+          "city": "Shiyan",
+          "country": "China",
+          "facility": "Taihe Hospital Affiliated Hospital of Hubei University of Medicine",
+          "geoPoint": {
+            "lat": 32.6475,
+            "lon": 110.77806
+          },
+          "state": "Hubei",
+          "zip": "442000"
+        },
+        {
+          "city": "Wuhan",
+          "country": "China",
+          "facility": "Union Hospital,Tongji Medical College of Huazhong University of Science and Technology",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          },
+          "state": "Hubei",
+          "zip": "430022"
+        },
+        {
+          "city": "Changsha",
+          "country": "China",
+          "facility": "Hunan Provincial People's Hospital",
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          },
+          "state": "Hunan",
+          "zip": "410002"
+        },
+        {
+          "city": "Hohhot",
+          "country": "China",
+          "facility": "Inner Mongolia People's Hospital",
+          "geoPoint": {
+            "lat": 40.81056,
+            "lon": 111.65222
+          },
+          "state": "Inner Mongolia",
+          "zip": "010017"
+        },
+        {
+          "city": "Nanjing",
+          "country": "China",
+          "facility": "Children's Hospital of Nanjing Medical University",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          },
+          "state": "Jiangsu",
+          "zip": "210008"
+        },
+        {
+          "city": "Suzhou",
+          "country": "China",
+          "facility": "Children's hospital of Soochow University",
+          "geoPoint": {
+            "lat": 31.30408,
+            "lon": 120.59538
+          },
+          "state": "Jiangsu",
+          "zip": "215003"
+        },
+        {
+          "city": "Xuzhou",
+          "country": "China",
+          "facility": "Xuzhou Children's Hospital",
+          "geoPoint": {
+            "lat": 34.20442,
+            "lon": 117.28386
+          },
+          "state": "Jiangsu",
+          "zip": "221006"
+        },
+        {
+          "city": "Nanchang",
+          "country": "China",
+          "facility": "Jiangxi Provincial Children's Hospital",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          },
+          "state": "Jiangxi",
+          "zip": "330006"
+        },
+        {
+          "city": "Changchun",
+          "country": "China",
+          "facility": "The First Hospital of Jilin University",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          },
+          "state": "Jilin",
+          "zip": "130021"
+        },
+        {
+          "city": "Shenyang",
+          "country": "China",
+          "facility": "Shengjing Hospital of China Medical University",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          },
+          "state": "Liaoning",
+          "zip": "110004"
+        },
+        {
+          "city": "Xi'an",
+          "country": "China",
+          "facility": "Xi'an Children's Hospital",
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          },
+          "state": "Shaanxi",
+          "zip": "710003"
+        },
+        {
+          "city": "Jinan",
+          "country": "China",
+          "facility": "Qilu Hospital of Shandong University",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          },
+          "state": "Shandong",
+          "zip": "250012"
+        },
+        {
+          "city": "Qingdao",
+          "country": "China",
+          "facility": "Qingdao Women and Children's Hospital (Liaoyang West Road)",
+          "geoPoint": {
+            "lat": 36.06488,
+            "lon": 120.38042
+          },
+          "state": "Shandong",
+          "zip": "266011"
+        },
+        {
+          "city": "Qingdao",
+          "country": "China",
+          "facility": "Qingdao Women and Children's Hospital",
+          "geoPoint": {
+            "lat": 36.06488,
+            "lon": 120.38042
+          },
+          "state": "Shandong",
+          "zip": "266011"
+        },
+        {
+          "city": "Shanghai",
+          "country": "China",
+          "facility": "Shanghai Children's Hospital",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "state": "Shanghai Municipality",
+          "zip": "200040"
+        },
+        {
+          "city": "Shanghai",
+          "country": "China",
+          "facility": "Children's Hospital of Fudan University",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "state": "Shanghai Municipality",
+          "zip": "201102"
+        },
+        {
+          "city": "Chengdu",
+          "country": "China",
+          "facility": "Sichuan Provincial People's Hospital",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          },
+          "state": "Sichuan",
+          "zip": "610072"
+        },
+        {
+          "city": "Chengdu",
+          "country": "China",
+          "facility": "Chengdu Women's and Children's Central Hospital",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          },
+          "state": "Sichuan",
+          "zip": "610074"
+        },
+        {
+          "city": "Hangzhou",
+          "country": "China",
+          "facility": "Hangzhou First people's Hospital",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          },
+          "state": "Zhejiang",
+          "zip": "310006"
+        },
+        {
+          "city": "Wenzhou",
+          "country": "China",
+          "facility": "Yuying Children's Hospital of Wenzhou Medical University",
+          "geoPoint": {
+            "lat": 27.99942,
+            "lon": 120.66682
+          },
+          "state": "Zhejiang",
+          "zip": "325027"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Children's Hospital of Fudan University",
+          "name": "Fang Liu, MD.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the efficacy of the addition of prednisolone to conventional initial treatment (intravenous immunoglobulin \\[IVIG\\] plus aspirin) in reducing coronary artery lesion in children with Kawasaki disease (KD) .",
+      "detailedDescription": "This is a multicenter, open-label, blind-endpoints, randomized controlled trial at more than 10 hospitals in China. The investigators enrolled KD children diagnosed within 10 days of onset. Participants will be randomly assigned in a 1:1 ratio to the control group (receiving 2g/kg IVIG and 30 mg/kg aspirin) or the intervention group (receiving 2 g/kg IVIG, 30 mg/kg aspirin and additional 2 mg/kg prednisolone). Baseline characteristics of each participant will be collected, including sex, age of onset, height, body weight, subtype of KD, fever days before initial IVIG, echocardiographic findings at enrolment, and a series of pre-IVIG laboratory tests. Two-dimensional echocardiography will be performed at admission, 2 weeks, 1 month, 3 months, 6 months\uff0cand 12 months after onset of KD to assess the coronary artery lesions."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Participants and physicians will not be masked to the assignment. Pediatric cardiologists who assess coronary artery lesions (CAL) by echocardiography will be masked to the allocation.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 3208,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Meeting diagnostic criteria for Kawasaki disease (KD) released by American Heart Association (AHA) in 2017\n* Diagnosed before the tenth day of illness (with the first day of illness defined as the first day of fever)\n* Not treated with IVIG yet\n* Age \u22651 month\n\nExclusion Criteria:\n\n* Z score of any coronary artery before initial treatment \u226510\n* Receiving steroids or other immunosuppressive agents in the previous 30 days\n* With a previous history of KD\n* Afebrile before enrolment\n* With suspected infectious diseases including sepsis, septic meningitis, peritonitis, bacterial pneumonia, varicella and influenza\n* With serious immune diseases such as immunodeficiency or chromosomal abnormalities",
+      "healthyVolunteers": false,
+      "minimumAge": "1 Month",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Efficacy of Immunoglobulin Plus Prednisolone in Reducing Coronary Artery Lesion in Patients With Kawasaki Disease",
+      "nctId": "NCT04078568",
+      "officialTitle": "Efficacy of Immunoglobulin Plus Prednisolone in Reducing Coronary Artery Lesion in Patients With Kawasaki Disease: A Multicentre Randomised Controlled Trial",
+      "orgStudyIdInfo": {
+        "id": "KD-3-01"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Children's Hospital of Fudan University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Two-dimensional echocardiography will be performed to evaluate CAL at 1 month of illness. The measurement of each patient included the diameter of the left main coronary artery (LMCA), the left anterior descending artery (LAD), the left circumflex coronary artery (LCX), and the proximal and middle segments of the right coronary artery (RCA). Z score of each coronary artery will be calculated\uff08Journal of the American Society of Echocardiography, 2011, 24(1).\uff09. CAL is defined as z\u22652of any coronary artery of LMCA, LAD, LCX, and the proximal and middle segment of the RCA.",
+          "measure": "Percentage of coronary artery lesions(CAL) at one month of illness",
+          "timeFrame": "at one month of illness"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Axillary temperature (or rectal temperature) will be measured every 6 hours a day during hospitalization. Participants who have recurrent or persistent fever (axillary temperature \u226537.5\u00b0C or rectal temperature \u226538\u00b0C) after 36 hours of completion of initial IVIG infusion will be given additional treatment.",
+          "measure": "Percentage of the need for additional treatment",
+          "timeFrame": "from admission to discharge (about 2 weeks of illness)"
+        },
+        {
+          "description": "Axillary temperature (or rectal temperature) will be measured every 6 hours a day during hospitalization. Participants with an axillary temperature \\<37.5\u2103 (or rectal temperature \\<38\u2103) for more than 24 hours are considered afebrile. Record the time of the initiation of IVIG infusion and the time of the body temperature first becoming normal.",
+          "measure": "Duration of fever (hours) after initiation of initial IVIG infusion",
+          "timeFrame": "from initiation of initial IVIG infusion to the first record of being afebrile(defined as an axillary temperature <37.5 for more than 24 hours)"
+        },
+        {
+          "description": "This is a repeated measurement. The internal diameter of LMCA will be measured by echocardiography at six time points: at enrolment, at 2 weeks, 1 month, 3 months, 6 months and 12 months of illness. Z score will be calculated based on the height, weight and coronary artery diameter\uff08Journal of the American Society of Echocardiography, 2011, 24(1).\uff09.",
+          "measure": "Changes in z scores of LMCA throughout the study period",
+          "timeFrame": "from admission to 12 months of illness"
+        },
+        {
+          "description": "This is a repeated measurement. The internal diameter of LAD will be measured by echocardiography at six time points: at enrolment, at 2 weeks, 1 month, 3 months, 6 months and 12 months of illness. Z score will be calculated based on the height, weight and coronary artery diameter\uff08Journal of the American Society of Echocardiography, 2011, 24(1).\uff09.",
+          "measure": "Changes in z scores of LAD throughout the study period",
+          "timeFrame": "from admission to 12 months of illness"
+        },
+        {
+          "description": "This is a repeated measurement. The internal diameter of LCX will be measured by echocardiography at six time points: at enrolment, at 2 weeks, 1 month, 3 months, 6 months and 12 months of illness. Z score will be calculated based on the height, weight and coronary artery diameter\uff08Journal of the American Society of Echocardiography, 2011, 24(1).\uff09.",
+          "measure": "Changes in z scores of LCX throughout the study period",
+          "timeFrame": "from admission to 12 months of illness"
+        },
+        {
+          "description": "This is a repeated measurement. The internal diameter of the proximal segment of RCA will be measured by echocardiography at six time points: at enrolment, at 2 weeks, 1 month, 3 months, 6 months and 12 months of illness. Z score will be calculated based on the height, weight and coronary artery diameter\uff08Journal of the American Society of Echocardiography, 2011, 24(1).\uff09.",
+          "measure": "Changes in z scores of the proximal segment of RCA throughout the study period",
+          "timeFrame": "from admission to 12 months of illness"
+        },
+        {
+          "description": "This is a repeated measurement. The internal diameter of the middle segment of RCA will be measured by echocardiography at six time points: at enrolment, at 2 weeks, 1 month, 3 months, 6 months and 12 months of illness. Z score will be calculated based on the height, weight and coronary artery diameter\uff08Journal of the American Society of Echocardiography, 2011, 24(1).\uff09.",
+          "measure": "Changes in z scores of the middle segment of RCA throughout the study period",
+          "timeFrame": "from admission to 12 months of illness"
+        },
+        {
+          "description": "CRP level is measured before initial IVIG infusion and 72 hours after completion of initial IVIG infusion.",
+          "measure": "Change in serum C-reactive protein (CRP) concentration",
+          "timeFrame": "from admission to 72 hours after completion of initial IVIG infusion"
+        },
+        {
+          "description": "This is a composite outcome, including death, hypertension, severe infection, allergic reactions, heart failure, thrombosis, etc.",
+          "measure": "Number of patients with serious adverse events",
+          "timeFrame": "from admission to 3 months of illness"
+        },
+        {
+          "description": "Exploratory Outcome. This is a repeatedly measured binary variable. CAL classification is based on the maximum z score according to the 2017 American Heart Association guideline. Medium CAA is defined as a maximum Z score \u22655 to \\<10, and all internal diameters \\<8 mm; large or giant CAA is defined as a maximum Z score \u226510, or any internal diameter \u22658 mm. Data were and will be collected at six time points of illness: enrollment, 2th week (\u00b12 days), 1th month (+5 days), 3th month (\u00b15 days), 6th month (\u00b15 days) and 12th month (\u00b15 days), respectively.",
+          "measure": "Occurrence of medium-to-giant coronary artery aneurysms (CAAs)",
+          "timeFrame": "from admission to 12 months of illness onset"
+        },
+        {
+          "description": "Exploratory Outcome. This is a repeatedly measured binary variable. CAL classification is based on the maximum z score according to the 2017 American Heart Association guideline. Medium CAA is defined as a maximum Z score \u22655 to \\<10, and all internal diameters \\<8 mm; large or giant CAA is defined as a maximum Z score \u226510, or any internal diameter \u22658 mm. Data were and will be collected at six time points of illness: enrollment, 2th week (\u00b12 days), 1th month (+5 days), 3th month (\u00b15 days), 6th month (\u00b15 days) and 12th month (\u00b15 days), respectively.",
+          "measure": "Occurrence of large/giant CAAs",
+          "timeFrame": "from admission to 12 months of illness onset"
+        },
+        {
+          "description": "Exploratory outcome. CAL progression is defined as an increment in the Z score \u22651 from admission in any coronary artery (LMCA, LAD, LCX, proximal and middle segments of RCA) at any given time point within 3 months of illness onset. The outcome was assessed in all participants and those with CAL at baseline.",
+          "measure": "Occurrence of CAL progression within 3 months of illness onset",
+          "timeFrame": "from admission to 3 months of illness onset"
+        },
+        {
+          "description": "Exploratory outcome. This is a repeatedly measured continuous variable. The absolute internal diameter of LMCA were and will be collected at six time points of illness: enrollment, 2th week (\u00b12 days), 1th month (+5 days), 3th month (\u00b15 days), 6th month (\u00b15 days) and 12th month (\u00b15 days), respectively.",
+          "measure": "Changes in absolute diameter of LMCA throughout the study period",
+          "timeFrame": "from admission to 12 months of illness onset"
+        },
+        {
+          "description": "Exploratory outcome. This is a repeatedly measured continuous variable. The absolute internal diameter of LAD were and will be collected at six time points of illness: enrollment, 2th week (\u00b12 days), 1th month (+5 days), 3th month (\u00b15 days), 6th month (\u00b15 days) and 12th month (\u00b15 days), respectively.",
+          "measure": "Changes in absolute diameter of LAD throughout the study period",
+          "timeFrame": "from admission to 12 months of illness onset"
+        },
+        {
+          "description": "Exploratory outcome. This is a repeatedly measured continuous variable. The absolute internal diameter of LCX were and will be collected at six time points of illness: enrollment, 2th week (\u00b12 days), 1th month (+5 days), 3th month (\u00b15 days), 6th month (\u00b15 days) and 12th month (\u00b15 days), respectively.",
+          "measure": "Changes in absolute diameter of LCX throughout the study period",
+          "timeFrame": "from admission to 12 months of illness onset"
+        },
+        {
+          "description": "Exploratory outcome. This is a repeatedly measured continuous variable. The absolute internal diameter of the proximal segment of RCA were and will be collected at six time points of illness: enrollment, 2th week (\u00b12 days), 1th month (+5 days), 3th month (\u00b15 days), 6th month (\u00b15 days) and 12th month (\u00b15 days), respectively.",
+          "measure": "Changes in absolute diameter of the proximal segment of RCA throughout the study period",
+          "timeFrame": "from admission to 12 months of illness onset"
+        },
+        {
+          "description": "Exploratory outcome. This is a repeatedly measured continuous variable. The absolute internal diameter of the middle segment of RCA were and will be collected at six time points of illness: enrollment, 2th week (\u00b12 days), 1th month (+5 days), 3th month (\u00b15 days), 6th month (\u00b15 days) and 12th month (\u00b15 days), respectively.",
+          "measure": "Changes in absolute diameter of the middle segment of RCA throughout the study period",
+          "timeFrame": "from admission to 12 months of illness onset"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Lin SY, He L, Xie LP, Wang Y, Lin YX, Cao YY, Yan WL, Liu F, Huang GY. Effects of immunoglobulin plus prednisolone in reducing coronary artery lesions in patients with Kawasaki disease: study protocol for a phase III multicenter, open-label, blinded-endpoints randomized controlled trial. Trials. 2021 Dec 11;22(1):898. doi: 10.1186/s13063-021-05807-3.",
+          "pmid": "34895290",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Jiangxi Province Children's Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "First People's Hospital of Hangzhou"
+        },
+        {
+          "class": "OTHER",
+          "name": "Shengjing Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "The First Hospital of Jilin University"
+        },
+        {
+          "class": "OTHER",
+          "name": "Chengdu Women's and Children's Central Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Children's Hospital of Chongqing Medical University"
+        },
+        {
+          "class": "OTHER",
+          "name": "Inner Mongolia People's Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Sichuan Provincial People's Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology"
+        },
+        {
+          "class": "OTHER",
+          "name": "Third Affiliated Hospital of Zhengzhou University"
+        },
+        {
+          "class": "OTHER",
+          "name": "Children's Hospital of Soochow University"
+        },
+        {
+          "class": "OTHER",
+          "name": "Yuying Children's Hospital of Wenzhou Medical University"
+        },
+        {
+          "class": "OTHER",
+          "name": "Beijing Children's Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Qilu Hospital of Shandong University"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Children's Hospital of Fudan University"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-22",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-12-30",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2020-01-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2019-09-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-08-16",
+      "studyFirstSubmitQcDate": "2019-09-04"
+    }
+  }
+}

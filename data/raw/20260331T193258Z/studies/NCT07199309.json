@@ -1,0 +1,230 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D015228",
+          "term": "Hypertriglyceridemia"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Subcutaneous Injection",
+          "interventionNames": [
+            "Drug: MAR001"
+          ],
+          "label": "MAR001 Dose",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Matching Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "MAR001 Dose"
+          ],
+          "description": "Subcutaneous Injection",
+          "name": "MAR001",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Matching Placebo"
+          ],
+          "description": "Subcutaneous Injection",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertriglyceridemia"
+      ],
+      "keywords": [
+        "Remnant Cholesterol",
+        "MAR001",
+        "Hypertriglyceridemia"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "MAR-104-info@mareatx.com",
+          "name": "Andrew Lane",
+          "phone": "415-766-3610",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Chula Vista",
+          "country": "United States",
+          "facility": "Marea Site 301",
+          "geoPoint": {
+            "lat": 32.64005,
+            "lon": -117.0842
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "91911"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of the study is to determine the effect of MAR001 as compared to placebo on levels of the triglycerides (TG) in the postprandial state in adults with elevated TG."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willingness to provide informed consent and comply with the intervention and all study assessments\n* Two fasting TG collected at two separate, consecutive visits at least 7 days apart during the Screening period\n* HbA1c \u2265 5.7% and \u2264 8.5%\n* Stable diet for a minimum of 3 months prior to screening and with no plans to change diet through duration of study\n* Stable drug regimen (appropriate if relevant) prior to screening visit and no planned changes during screening or trial participation\n\nExclusion Criteria:\n\n* Acute or chronic liver disease\n* Diabetes medications (other than metformin)\n* History of type 1 diabetes mellitus or history of diabetic ketoacidosis\n* Newly diagnosed T2DM\n* Participants with known active hepatitis A, B, or C\n* Participants who are known to have uncontrolled human immunodeficiency virus (HIV) infection\n* Uncontrolled hypothyroidism\n* Any condition that prevents the participant from complying with study procedures",
+      "healthyVolunteers": false,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Mechanistic Study of MAR001 in Adults With Elevated Triglycerides and Remnant Cholesterol",
+      "nctId": "NCT07199309",
+      "officialTitle": "Phase 2 Randomized, Double-Blind, Placebo-Controlled Study of MAR001 on Postprandial Lipids in Patients With Elevated Triglycerides and Remnant Cholesterol",
+      "orgStudyIdInfo": {
+        "id": "MAR-104"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Marea Therapeutics"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from baseline in TG area under the curve after a mixed meal",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change from baseline in peak plasma TG concentration after a mixed meal",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change from baseline in RC area under the curve after a mixed meal",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change from baseline in peak plasma RC concentration after a mixed meal",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Marea Therapeutics"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-11",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-04",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-09-26",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-11",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-09-22",
+      "studyFirstSubmitQcDate": "2025-09-22"
+    }
+  }
+}

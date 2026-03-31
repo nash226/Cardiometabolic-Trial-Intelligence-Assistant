@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05822245:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05822245\nBrief title: A Study of PER-001 in Participants With Open-Angle Glaucoma\nOfficial title: A Phase 1/2a Study to Evaluate Safety, Tolerability, and Pharmacodynamic Effect After Single Administration of PER-001 Intravitreal Implant in Participants With Open-Angle Glaucoma\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 48,
+      "trial_nct_id": "NCT05822245"
+    },
+    {
+      "chunk_id": "NCT05822245:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Open-angle Glaucoma\nIntervention labels: PER-001 Intravitreal Implant - Low Dose; PER-001 Intravitreal Implant - High Dose; PER-001 Intravitreal Implant - Sham\nDrug class labels: \nArms: Phase 1 Cohort A; Phase 1 Cohort B; Phase 2 Cohort C; Phase 2 Cohort D\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 46,
+      "trial_nct_id": "NCT05822245"
+    },
+    {
+      "chunk_id": "NCT05822245:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This clinical study has two phases: Phase 1 and Phase 2a. Phase 1 is an open-label, single ascending dose (SAD), while Phase 2a is a randomized, single-masked (participant) with a sham control.\nDetailed description: This clinical study has two phases: Phase 1 and Phase 2a. Phase 1 is an open-label, SAD study to investigate the ocular and systemic safety and tolerability of two dose levels of PER-001, in participants with advanced OAG. Phase 1 will enroll up to approximately 12 participants.\n\nPhase 2a is a randomized, single-masked (participant) study to further investigate the ocular and systemic safety and tolerability of the two dose levels of PER-001 Intravitreal Implants in participants with progressing glaucoma. Participants who meet entry criteria will be randomized to receive either dose of PER-001 or sham control. In Phase 2a, a total of approximately 24 participants (12 in each Cohort, will be randomized).",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 148,
+      "trial_nct_id": "NCT05822245"
+    },
+    {
+      "chunk_id": "NCT05822245:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\nFor Phase 1 and Phase 2a:\n\n* Must be \u2265 18 years of age at the time of signing the informed consent\n* A negative pregnancy test for females of childbearing potential at Screening (serum) and Day 1 (urine).\n* IOP 6 to 25 mmHg (inclusive) at Screening in potentially eligible eye(s)\n\nPhase 1:\n\n* Best corrected visual acuity (BCVA) LogMAR score 1.0 or better at Screening in at least one eye and prior to randomization at Day 1 in the study eye\n* Diagnosis of advanced or severe primary OAG including normal tension, pseudoexfoliation and pigment dispersion\n\nPhase 2:\n\n* BCVA LogMAR score 0.5 or better at Screening in at least one eye and prior to randomization at Day 1 in the study eye\n* Primary OAG that is progressing in the study eye\n\nExclusion Criteria:\n\n* Blood pressure \\>140/90 mmHg or \\<90/60 mmHg at Screening\n* Any condition which, in the opinion of the investigator, would preclude the participant's ability to comply with study requirements including completion of the study (including but not limited to diagnosis of dementia, Alzheimer's, and/or other neurological disease or physical incapacity)\n* Females who are pregnant, nursing, or planning a pregnancy during the study\n* Any significant media opacity which precludes clinical evaluation and imaging of the retina\n* History of vitrectomy surgery or retinal detachment or macular hole (Stage 3 or 4)\n* Retinal laser within 3 months prior to Day 1\n* Intraocular surgery, including cataract surgery and Minimally Invasive Glaucoma\n* Surgery (MIGS), within 3 months prior to Day 1\n* Aphakia or absence of posterior capsule\n* Change in IOP lowering therapy within 6 weeks prior to Screening and/or anticipated change in IOP lowering therapy or treatment during the study Worse than mild non-proliferative diabetic retinopathy (Note: stable mild background diabetic retinopathy is permitted)\n* Any active uveitis and/or vitritis or history of idiopathic or autoimmune-associated uveitis\n* Active infectious conjunctivitis, keratitis, scleritis, or endophthalmitis (Note: mild blepharitis is permitted if stable)\n* History of recurrent infectious or inflammatory ocular disease\n* Central serous retinopathy\n* Non-glaucomatous optic neuropathy",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 369,
+      "trial_nct_id": "NCT05822245"
+    },
+    {
+      "chunk_id": "NCT05822245:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Ocular Measurement for Safety - Change from Baseline at Week 24 using Best-corrected Visual Acuity (BCVA) | time_frame=End of Study(Week 24) | description=ETDRS or modified ETDRS chart (Charts 1, 2, and R as applicable) with standardized distance and lighting will be used to calculate the LogMAR score\ntype=primary | measure=Ocular Measurement for Safety - Change from Baseline at Week 24 using Biomicroscopy | time_frame=End of Study(Week 24) | description=Slit lamp examinations will include evaluation of the lids, conjunctiva, cornea, anterior chamber, iris/pupil, and lens.\ntype=primary | measure=Ocular Measurement for Safety - Change from Baseline at Week 24 using Intraocular Pressure (IOP) | time_frame=End of Study(Week 24) | description=IOP is measured by a calibrated Goldmann applanation tonometry.\ntype=primary | measure=Ocular Measurement and Implant Assessment for Safety - Change from Baseline at Week 24 using Dilated Ophthalmoscopy | time_frame=End of Study(Week 24) | description=Dilated ophthalmoscopy examination will include evaluation of the vitreous, macula, retinal vessels, peripheral retina, and optic disc.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 160,
+      "trial_nct_id": "NCT05822245"
+    },
+    {
+      "chunk_id": "NCT05822245:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-05-25\nPrimary completion date: 2025-04-04\nCompletion date: 2026-04-04\nStudy first posted: 2023-04-20\nResults first posted: None\nLast update posted: 2025-04-15\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05822245"
+    },
+    {
+      "chunk_id": "NCT05822245:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Perfuse Therapeutics, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT05822245"
+    }
+  ],
+  "trial_nct_id": "NCT05822245"
+}

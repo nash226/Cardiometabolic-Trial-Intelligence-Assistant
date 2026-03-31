@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07442630:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07442630\nBrief title: Long-term Comparison of Pitavastatin/Ezetimibe and Pitavastatin in Patients With Hypercholesterolemia and Elevated Triglycerides\nOfficial title: A Multicenter Study to Evaluate Efficacy and Safety\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT07442630"
+    },
+    {
+      "chunk_id": "NCT07442630:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hypercholesterolemia\nIntervention labels: Pitavastatin 4mg; Ezetimibe 10 mg; Placebo (for Pitavastatin/Ezetimibe); Placebo (for Pitavastatin)\nDrug class labels: \nArms: Pitavastatin/Ezetimibe Combination; Pitavastatin Monotherapy\nKeywords: LDL Cholesterol Reduction",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07442630"
+    },
+    {
+      "chunk_id": "NCT07442630:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A multicenter, randomized, double-blind, phase \u2163 study to evaluate the long-term efficacy and safety of Pitavastatin/Ezetimibe and Pitavastatin in patients with hypercholesterolemia with elevated triglycerides\nDetailed description: A multicenter study to evaluate efficacy and safety",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT07442630"
+    },
+    {
+      "chunk_id": "NCT07442630:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients with hypercholesterolemia\n* Patients diagnosed with metabolic syndrome or type 2 diabetes mellitus, and presenting with elevated LDL-C\n\nExclusion Criteria:\n\n* New-onset acute cardio-cerebrovascular disease\n* Severe hepatic impairment\n* Active liver disease",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 54,
+      "trial_nct_id": "NCT07442630"
+    },
+    {
+      "chunk_id": "NCT07442630:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage change from baseline in LDL Cholesterol at Week 8 after the first dose of study treatment | time_frame=Baseline to week 8 | description=The unit of measure is percentage (%). The percentage change is calculated as: \\[(Value at Week 8 - Value at Baseline) / Value at Baseline\\] \\* 100\ntype=secondary | measure=Change from baseline in HDL Cholesterol at Weeks 8, 24, and 52 after the first dose of study treatment | time_frame=Baseline to week 8, 24, 52 | description=Change = (Value at Week 8, 24, or 52) - (Value at Baseline), Unit of measure: mg/dL\ntype=secondary | measure=Change from baseline in Triglycerides at Weeks 8, 24, and 52 after the first dose of study treatment | time_frame=Baseline to week 8, 24, 52 | description=Change = (Value at Week 8, 24, or 52) - (Value at Baseline), Unit of measure: mg/dL\ntype=secondary | measure=Change from baseline in LDL Cholesterol at Weeks 8, 24, and 52 after the first dose of study treatment | time_frame=Baseline to week 8, 24, 52 | description=Change = (Value at Week 8, 24, or 52) - (Value at Baseline), Unit of measure: mg/dL\ntype=secondary | measure=Change from baseline in Non-alcoholic Fatty Liver Disease Liver Fat Score (NLFS) at Weeks 24 and 52 | time_frame=Baseline to week 24, 52 | description=The NLFS is a calculated score used to estimate liver fat content. The change is calculated as (Value at Week 24 or 52) - (Value at Baseline).",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 242,
+      "trial_nct_id": "NCT07442630"
+    },
+    {
+      "chunk_id": "NCT07442630:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-08-21\nPrimary completion date: 2026-01-22\nCompletion date: 2026-11-30\nStudy first posted: 2026-03-02\nResults first posted: None\nLast update posted: 2026-03-02\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07442630"
+    },
+    {
+      "chunk_id": "NCT07442630:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: JW Pharmaceutical\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT07442630"
+    }
+  ],
+  "trial_nct_id": "NCT07442630"
+}

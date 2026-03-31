@@ -1,0 +1,395 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006937",
+          "term": "Hypercholesterolemia"
+        },
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C585830",
+          "term": "ALN-PCS"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients will receive what is the usual care in their respective countries. Usual care includes physical activity, diet modification, pharmacological therapy as: statin therapy (rosuvastatin, atorvastatin, simvastatin, pravastatin, lovastatin, fluvastatin, pitavastatin), ezetimibe, cholestyramine or bempedoic acid.",
+          "interventionNames": [
+            "Drug: Usual care"
+          ],
+          "label": "Usual Care",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients will receive what is usual care in their countries plus inclisiran 284 mg at baseline, 90 days, and 270 days.",
+          "interventionNames": [
+            "Drug: Usual care",
+            "Drug: KJX839"
+          ],
+          "label": "Inclisiran + Usual Care",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Inclisiran + Usual Care",
+            "Usual Care"
+          ],
+          "description": "Treatment after acute event approved in the country where patient is based. It may include educational intervention according to each country guidelines",
+          "name": "Usual care",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Inclisiran + Usual Care"
+          ],
+          "description": "Inclisiran in solution for subcutaneous injection on day 1, day 90, and day 270",
+          "name": "KJX839",
+          "otherNames": [
+            "Inclisiran"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypercholesterolaemia"
+      ],
+      "keywords": [
+        "PCSK9i",
+        "hypercholesterolemia",
+        "atherosclerotic cardiovascular disease",
+        "LDL-cholesterol",
+        "Latin America"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "novartis.email@novartis.com",
+          "name": "Novartis Pharmaceuticals",
+          "phone": "+41613241111",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Novartis Pharmaceuticals",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Corrientes",
+          "country": "Argentina",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -27.46784,
+            "lon": -58.8344
+          },
+          "status": "RECRUITING",
+          "zip": "W3400CDS"
+        },
+        {
+          "city": "Salvador",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          },
+          "state": "Estado de Bahia",
+          "status": "RECRUITING",
+          "zip": "40170-130"
+        },
+        {
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          },
+          "state": "Minas Gerais",
+          "status": "RECRUITING",
+          "zip": "30000"
+        },
+        {
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          },
+          "state": "Minas Gerais",
+          "status": "RECRUITING",
+          "zip": "30110-934"
+        },
+        {
+          "city": "Campo Largo",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -25.45955,
+            "lon": -49.53014
+          },
+          "state": "Paran\u00e1",
+          "status": "RECRUITING",
+          "zip": "83606-177"
+        },
+        {
+          "city": "Porto Alegre",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          },
+          "state": "Rio Grande do Sul",
+          "status": "RECRUITING",
+          "zip": "90560-032"
+        },
+        {
+          "city": "Blumenau",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -26.91944,
+            "lon": -49.06611
+          },
+          "state": "Santa Catarina",
+          "status": "WITHDRAWN",
+          "zip": "89010-500"
+        },
+        {
+          "city": "S\u00e3o Jos\u00e9",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -27.61528,
+            "lon": -48.6275
+          },
+          "state": "Santa Catarina",
+          "status": "RECRUITING",
+          "zip": "88103-901"
+        },
+        {
+          "city": "S\u00e3o Jos\u00e9",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -22.1,
+            "lon": -52.15
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING",
+          "zip": "15015-110"
+        },
+        {
+          "city": "Campina Gde Do Sul",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "zip": "83430 000"
+        },
+        {
+          "city": "Salvador",
+          "country": "Brazil",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          },
+          "status": "RECRUITING",
+          "zip": "40323-010"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Novartis Pharmaceuticals",
+          "name": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an open label, patient-level 1:1 randomized clinical trial in a multi-country study aiming to evaluate the real-world impact of inclisiran + Usual Care (UC) vs UC alone on LDL-C lowering, patient-reported outcomes, and healthcare resource utilization in an in-hospital population of patients, admitted during the acute setting, stabilized and before discharge, following an acute cardiovascular event.",
+      "detailedDescription": "The primary objective is to evaluate the impact of inclisiran plus usual care on LDL-C lowering versus usual care after acute MI, confirmed ischemic stroke, or urgent coronary revascularization.\n\nThe secondary objective is to compare the LDL-C reduction of both arms in target population.\n\nStudy completion for an individual participant is defined as when the participant finishes the last visit (day 330) and any assessments associated with that visit."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 520,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Admitted for MI (Type 1 NSTEMI or STEMI), urgent (i.e., non-elective) coronary revascularization (PCI or CABG) or confirmed ischemic stroke.\n* Stable patient: Patient will be considered stable if they did not suffer cardiac arrest at presentation or if in the last 24 hours before randomization:\n\n  * Was not in cardiogenic shock.\n  * Did not required invasive hemodynamic, inotropic or vasopressor support.\n* Participants are required to be eligible for receiving inclisiran in accordance to approved local label.\n\n  * Of note, patients who are initiated on statin therapy during the same hospitalization will not be excluded, as we expect a proportion of patients at baseline to not yet be on statin therapy in this real-world study. This will enhance the generalizability and pragmatic aspects of the study. However, because initiation of statin therapy at or near the time of enrollment could impact the primary outcome (if there is imbalance between the arms, or if there is differential stopping of statin therapy between the arms), we will stratify randomization by this factor and will pre-specify analyses in those who have vs. have not been initiated on statin therapy during the same hospitalization.\n\nExclusion Criteria:\n\n* Currently on PCSK9i therapy (within last 3 months)\n* Current participation in another clinical study with another study drug\n* Active liver disease defined as any known current infectious, neoplastic, or metabolic pathology of the liver at the Baseline Visit\n* Pregnant or nursing (lactating) women\n* Women of child-bearing potential, defined as all women physiologically capable of becoming pregnant, unless they are using highly effective methods of contraception",
+      "healthyVolunteers": false,
+      "maximumAge": "100 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "LATAM LOWERS LDL-C",
+      "nctId": "NCT06501443",
+      "officialTitle": "Latin America Lipid Optimization After Acute Event in Patients With AthErosclerotic CardiovasculaR DiseaSe and High LDL-C",
+      "orgStudyIdInfo": {
+        "id": "CKJX839A1MX02"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Novartis"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com",
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Impact of inclisiran plus usual care on low-density lipoprotein cholesterol (LDL-C) lowering versus usual care after acute myocardial infarction (MI), confirmed ischemic stroke, or urgent coronary revascularization.\n\nThe \"baseline\" level will be measured according to:\n\n* Baseline LDL-C from Standard of Care: If an LDL-C measurement has already been conducted as part of the standard care practices upon the patient's admission (prior to considering enrollment in the study), this measurement is considered the baseline value for the study.\n* Baseline LDL-C for Enrolled Patients: In cases where LDL-C was not performed as part of standard care at admission, the baseline LDL-C measurement will be drawn during 'Visit 0' after the patient has provided informed consent.",
+          "measure": "Change in LDL-C from baseline to 330 days",
+          "timeFrame": "Baseline and Day 330"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The \"baseline\" level will be measured according to:\n\n* Baseline LDL-C from Standard of Care: If an LDL-C measurement has already been conducted as part of the standard care practices upon the patient's admission (prior to considering enrollment in the study), this measurement is considered the baseline value for the study.\n* Baseline LDL-C for Enrolled Patients: In cases where LDL-C was not performed as part of standard care at admission, the baseline LDL-C measurement will be drawn during 'Visit 0' after the patient has provided informed consent.",
+          "measure": "Proportion of patients with >=50% reduction in LDL-C from baseline.",
+          "timeFrame": "Baseline and Day 330"
+        },
+        {
+          "description": "Reducing LDL-C to a threshold of at least 70 mg/dL is a cornerstone of secondary prevention therapy, and is recommended by major international guidelines.",
+          "measure": "Proportion of patients achieving LDL-C goal of <70 mg/dL",
+          "timeFrame": "Baseline and Day 330"
+        },
+        {
+          "description": "The \"baseline\" level will be measured according to:\n\n* Baseline LDL-C from Standard of Care: If an LDL-C measurement has already been conducted as part of the standard care practices upon the patient's admission (prior to considering enrollment in the study), this measurement is considered the baseline value for the study.\n* Baseline LDL-C for Enrolled Patients: In cases where LDL-C was not performed as part of standard care at admission, the baseline LDL-C measurement will be drawn during 'Visit 0' after the patient has provided informed consent.",
+          "measure": "Among participants with a baseline LDL-C\u226555 mg/dL: Proportion of patients achieving LDL-C goal of <55 mg/dL",
+          "timeFrame": "Baseline and Day 330"
+        },
+        {
+          "description": "Number of participants by statin initiated during index hospitalization vs. not.",
+          "measure": "Number of participants by timing of statin initiation",
+          "timeFrame": "Up to 330 days"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Novartis Pharmaceuticals"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-11-29",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-22",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-11-27",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-02-11",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-07-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-06-21",
+      "studyFirstSubmitQcDate": "2024-07-08"
+    }
+  }
+}

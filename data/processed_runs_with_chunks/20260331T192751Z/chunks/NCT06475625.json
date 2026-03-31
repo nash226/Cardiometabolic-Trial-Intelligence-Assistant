@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06475625:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06475625\nBrief title: Clinical Impact of Orsiro\u2122 Stent in Patient With Chronic Kidney Disease\nOfficial title: Clinical Impact of Orsiro\u2122 Stent in Patient With Chronic Kidney Disease Undergoing Percutaneous Coronay Intervention : A Multicenter, Prospective All-comers Registry\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06475625"
+    },
+    {
+      "chunk_id": "NCT06475625:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Chronic Kidney Diseases; Coronary Artery Disease\nIntervention labels: Percutaneous coronary intervention; Orsiro\u2122 or Orsiro_Mission\u2122 stent\nDrug class labels: \nArms: Normal or mild renal dysfunction; Moderate renal dysfunction; Severe renal dysfunction\nKeywords: Chronic Kidney Diseases; Coronary Artery Disease; Orsiro stent",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT06475625"
+    },
+    {
+      "chunk_id": "NCT06475625:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Orsiro\u2122 or Orsiro\\_Mission\u2122 stents have the biodegradable polymer and the thinnest stent strut (60\u339b) in commercially available stents, which could minimize chronic inflammation and incomplete endothelialization. In several prior studies, ultrathin strut sirolimus-eluting stent (Orsiro\u00ae) showed better outcomes in terms of target lesion failure or target lesion revascularization compared to other contemporary stents. Chronic kidney disease (CKD) is known to be associated with adverse cardiovascular outcome including restenosis or stent thrombosis following percutaneous coronary interventin (PCI), because the patients with CKD have more complex coronary lesion characteristics, severe calcification, and diffuse plaque of the coronary artery. However, there is a paucity of data regarding clinical efficacy of Orsiro\u00ae in CKD population. Therefore, this study aims to investigate the differences in clinical outcomes according to renal function in patients undergoing PCI with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents. After patients will be divided into three groups according to the renal function; normal or mild renal dysfunction (eGFR \u2265 60 ml\u00b7min - 1\u00b71.73\u33a1), moderate renal dysfunction ( 30\u2264 eGFR\\< 60 ml\u00b7min - 1\u00b71.73\u33a1), and severe renal dysfunction (eGFR \\< 30 ml\u00b7min -1\u00b71.73\u33a1), the clinical outcome will be investigated among groups.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 191,
+      "trial_nct_id": "NCT06475625"
+    },
+    {
+      "chunk_id": "NCT06475625:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* 19 years of age or older\n* Patient undergoing percutaneous coronary intervention with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents\n\nExclusion Criteria:\n\n* Patient with a life expectancy of less than one year\n* Patient who used another drug-eluting stent for percutaneous coronary intervention at study registration time\n* Cardiogenic shock\n* Pregnancy",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 70,
+      "trial_nct_id": "NCT06475625"
+    },
+    {
+      "chunk_id": "NCT06475625:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Target-lesion failure (TLF) | time_frame=Within one year after the intervention | description=Number of participants with Target-lesion failure (TLF), defined as composite of cardiac death, target vessel-related myocardial infarction (TVMI) and ischemia-driven target-lesion revascularization (TLR) at 1 year\ntype=secondary | measure=Number of participants with all cause death | time_frame=Within three years after the intervention\ntype=secondary | measure=Number of participants with cardiac death | time_frame=Within three years after the intervention\ntype=secondary | measure=Number of participants with myocardial infarction | time_frame=Within three years after the intervention | description=periprocedural or spontaneous\ntype=secondary | measure=Number of participants with composite of death or myocardial infarction | time_frame=Within three years after the intervention\ntype=secondary | measure=Number of participants with composite of cardiac death or myocardial infarction | time_frame=Within three years after the intervention\ntype=secondary | measure=Number of participants with target-vessel revascularization | time_frame=Within three years after the intervention\ntype=secondary | measure=Number of participants with target-lesion revascularization | time_frame=Within three years after the intervention\ntype=secondary | measure=Number of participants with stent thrombosis | time_frame=Within three years after the intervention | description=Stent thrombosis appropriate for Academic Research Consortium criteria\ntype=secondary | measure=Number of participants with target-vessel failure | time_frame=Within three years after the intervention | description=composite of composite of death, nonfatal myocardial infarction and ischemia-drive target-vessel revascularization (TVR)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 211,
+      "trial_nct_id": "NCT06475625"
+    },
+    {
+      "chunk_id": "NCT06475625:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2019-10-22\nPrimary completion date: 2025-01-01\nCompletion date: 2027-01-01\nStudy first posted: 2024-06-26\nResults first posted: None\nLast update posted: 2024-06-26\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06475625"
+    },
+    {
+      "chunk_id": "NCT06475625:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: The Catholic University of Korea\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06475625"
+    }
+  ],
+  "trial_nct_id": "NCT06475625"
+}

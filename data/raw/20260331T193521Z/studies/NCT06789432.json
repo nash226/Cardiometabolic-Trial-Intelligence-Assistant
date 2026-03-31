@@ -1,0 +1,308 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D006937",
+          "term": "Hypercholesterolemia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D001384",
+          "term": "Azetidines"
+        },
+        {
+          "id": "D001385",
+          "term": "Azetines"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        },
+        {
+          "id": "D000069438",
+          "term": "Ezetimibe"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Atorvastatin 10 mg and ezetimibe 10 mg"
+          ],
+          "label": "Arm 1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Atorvastatin 20 mg"
+          ],
+          "label": "Arm 2",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Arm 1"
+          ],
+          "description": "Atorvastatin/Ezetimibe 10/10mg once daily",
+          "name": "Atorvastatin 10 mg and ezetimibe 10 mg",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Arm 2"
+          ],
+          "description": "Atorvastatin (20 mg) Monotherapy once daily",
+          "name": "Atorvastatin 20 mg",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hyperlipidemia (E.G., Hypercholesterolemia)"
+      ],
+      "keywords": [
+        "increased LDL-C level",
+        "Hyperlipidemia",
+        "Atorvastatin (10 mg) and Ezetimibe (10 mg)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "rea@bpl.net",
+          "name": "Dr. Md. Alimur Reza, MBBS, MPH",
+          "phone": "+8801711438139",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "facility": "Popular Medical College & Hospital",
+          "geoPoint": {
+            "lat": 23.7104,
+            "lon": 90.40744
+          },
+          "state": "Dhaka Division",
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Professor, Dept. of Cardiology, Popular Medical College, Dhaka.",
+          "name": "Prof. Abdullah Al Shafi Majumder, MD, FACC, FRCP (E), FRCP (G)",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to evaluate the efficacy and safety of a fixed-dose combination of atorvastatin (10 mg) and ezetimibe (10 mg) compared to atorvastatin (20 mg) monotherapy in the Bangladeshi population.\n\nResearchers will compare atorvastatin (10 mg) and ezetimibe (10 mg) to atorvastatin (20 mg) monotherapy to see if atorvastatin (10 mg) and ezetimibe (10 mg) FDC works to treat dyslipidemia.\n\nParticipants will:\n\n* Take a fixed-dose combination of atorvastatin (10 mg) and ezetimibe (10 mg) compared to atorvastatin (20 mg) monotherapy for 3 months\n* Follow-up visits at 6 weeks and 12 weeks for checkups and tests"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a prospective, multi-centred, open-label, randomized controlled trial in patients with increased LDL-C levels.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Men and women aged \\>18 years.\n* Patients with a confirmed diagnosis of elevated LDL-C levels necessitating medical management.\n* Patients in the low to moderate cardiovascular disease (CVD) risk category according to ESC guidelines (2019)\n\n  * Low-risk: Increased LDL-C level without any co-morbidities\n  * Moderate-risk: Young patients (T1DM \\<35 years; T2DM \\<50 years) with DM duration \\<10 years, without other risk factors.\n\nExclusion Criteria:\n\n* History of hypersensitivity to any study drugs.\n* Clinically significant hepatic impairment (ALT, AST level \\> 2xULN) and/or renal impairment (Serum creatinine level \u22652xULN).\n* Patients with hepatitis B virus (HBV) or hepatitis C virus (HCV) with cirrhosis, end-stage liver disease, cancer, psychiatric instability, HIV + status, intestinal malabsorption.\n* Pregnant or lactating females.\n* The presence of a condition that, in the opinion of the investigator, would place the subject at increased risk from study participation.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Efficacy and Safety of Atorvastatin and Ezetimibe (10/10mg) Fixed Dose Combination Versus Atorvastatin (20mg) Monotherapy in Bangladeshi Population",
+      "nctId": "NCT06789432",
+      "officialTitle": "Efficacy and Safety of Atorvastatin and Ezetimibe (10/10mg) Fixed Dose Combination Versus Atorvastatin (20mg) Monotherapy in Bangladeshi Population",
+      "orgStudyIdInfo": {
+        "id": "BEX2411001"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Beximco Pharmaceuticals Ltd."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Compare the mean change in LDL-C (mg/dL) from baseline to week 12 in both groups.",
+          "measure": "Mean change in LDL-C from baseline",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "description": "Compare the percentage of patients withdrawn from the study due to adverse events in two groups.",
+          "measure": "Percentage of patients withdrawn from the study",
+          "timeFrame": "Baseline to Week 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Compare the frequency of achieving the target levels of LDL-C in both groups after 12 weeks",
+          "measure": "Achievement of target levels of LDL-C",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "description": "Compare the mean changes in total cholesterol (TC), HDL-C and TG from baseline to week 12 in both arms.",
+          "measure": "Mean changes in total cholesterol (TC), HDL-C and TG",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "description": "Compare the frequency of myopathy after 12 weeks between two arms",
+          "measure": "Frequency of myopathy",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "description": "Compare the frequency of AEs \\& SAEs between two arms",
+          "measure": "Frequency of AEs & SAEs",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "description": "Compare the change in SGPT (U/L) levels in both arms.",
+          "measure": "Changes in SGPT Levels in Both Arms",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "description": "Compare the changes in SGPT (U/L) levels in both arms.",
+          "measure": "Changes in Serum Creatinine Levels in Both Arms",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "description": "Compare the changes in creatine phosphokinase (CPK) level in Both Arms",
+          "measure": "Changes in creatine phosphokinase (CPK) level in Both Arms",
+          "timeFrame": "Baseline to Week 12"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Dr. Md. Alimur Reza"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Beximco Pharmaceuticals Ltd.",
+        "investigatorFullName": "Dr. Md. Alimur Reza",
+        "investigatorTitle": "Epidemiologist",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-25",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-10",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-02-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-17",
+      "studyFirstSubmitQcDate": "2025-01-22"
+    }
+  }
+}

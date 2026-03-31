@@ -1,0 +1,352 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D057510",
+          "term": "Endovascular Procedures"
+        },
+        {
+          "id": "D014656",
+          "term": "Vascular Surgical Procedures"
+        },
+        {
+          "id": "D013504",
+          "term": "Cardiovascular Surgical Procedures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D019060",
+          "term": "Minimally Invasive Surgical Procedures"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D062645",
+          "term": "Percutaneous Coronary Intervention"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "eGFR \u2265 60 ml\u00b7min - 1\u00b71.73\u33a1",
+          "interventionNames": [
+            "Procedure: Percutaneous coronary intervention",
+            "Device: Orsiro\u2122 or Orsiro_Mission\u2122 stent"
+          ],
+          "label": "Normal or mild renal dysfunction",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "30\u2264 eGFR\\< 60 ml\u00b7min - 1\u00b71.73\u33a1",
+          "interventionNames": [
+            "Procedure: Percutaneous coronary intervention",
+            "Device: Orsiro\u2122 or Orsiro_Mission\u2122 stent"
+          ],
+          "label": "Moderate renal dysfunction",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "eGFR \\< 30 ml\u00b7min -1\u00b71.73\u33a1",
+          "interventionNames": [
+            "Procedure: Percutaneous coronary intervention",
+            "Device: Orsiro\u2122 or Orsiro_Mission\u2122 stent"
+          ],
+          "label": "Severe renal dysfunction",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Moderate renal dysfunction",
+            "Normal or mild renal dysfunction",
+            "Severe renal dysfunction"
+          ],
+          "description": "Percutaneous coronary intervention",
+          "name": "Percutaneous coronary intervention",
+          "type": "PROCEDURE"
+        },
+        {
+          "armGroupLabels": [
+            "Moderate renal dysfunction",
+            "Normal or mild renal dysfunction",
+            "Severe renal dysfunction"
+          ],
+          "description": "Percutaneous coronary intervention with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents",
+          "name": "Orsiro\u2122 or Orsiro_Mission\u2122 stent",
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Kidney Diseases",
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "Chronic Kidney Diseases",
+        "Coronary Artery Disease",
+        "Orsiro stent"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Daejeon",
+          "country": "South Korea",
+          "facility": "Daejeon St. Mary's Hospital , The Catholic University of Korea",
+          "geoPoint": {
+            "lat": 36.34913,
+            "lon": 127.38493
+          }
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Daejeon St. Mary's Hospital , The Catholic University of Korea",
+          "name": "Mahn-Won Park",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Orsiro\u2122 or Orsiro\\_Mission\u2122 stents have the biodegradable polymer and the thinnest stent strut (60\u339b) in commercially available stents, which could minimize chronic inflammation and incomplete endothelialization. In several prior studies, ultrathin strut sirolimus-eluting stent (Orsiro\u00ae) showed better outcomes in terms of target lesion failure or target lesion revascularization compared to other contemporary stents. Chronic kidney disease (CKD) is known to be associated with adverse cardiovascular outcome including restenosis or stent thrombosis following percutaneous coronary interventin (PCI), because the patients with CKD have more complex coronary lesion characteristics, severe calcification, and diffuse plaque of the coronary artery. However, there is a paucity of data regarding clinical efficacy of Orsiro\u00ae in CKD population. Therefore, this study aims to investigate the differences in clinical outcomes according to renal function in patients undergoing PCI with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents. After patients will be divided into three groups according to the renal function; normal or mild renal dysfunction (eGFR \u2265 60 ml\u00b7min - 1\u00b71.73\u33a1), moderate renal dysfunction ( 30\u2264 eGFR\\< 60 ml\u00b7min - 1\u00b71.73\u33a1), and severe renal dysfunction (eGFR \\< 30 ml\u00b7min -1\u00b71.73\u33a1), the clinical outcome will be investigated among groups."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 3113,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 19 years of age or older\n* Patient undergoing percutaneous coronary intervention with Orsiro\u2122 or Orsiro\\_Mission\u2122 stents\n\nExclusion Criteria:\n\n* Patient with a life expectancy of less than one year\n* Patient who used another drug-eluting stent for percutaneous coronary intervention at study registration time\n* Cardiogenic shock\n* Pregnancy",
+      "healthyVolunteers": false,
+      "minimumAge": "19 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "OKAY",
+      "briefTitle": "Clinical Impact of Orsiro\u2122 Stent in Patient With Chronic Kidney Disease",
+      "nctId": "NCT06475625",
+      "officialTitle": "Clinical Impact of Orsiro\u2122 Stent in Patient With Chronic Kidney Disease Undergoing Percutaneous Coronay Intervention : A Multicenter, Prospective All-comers Registry",
+      "orgStudyIdInfo": {
+        "id": "DC190OEDI0069"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "The Catholic University of Korea"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Number of participants with Target-lesion failure (TLF), defined as composite of cardiac death, target vessel-related myocardial infarction (TVMI) and ischemia-driven target-lesion revascularization (TLR) at 1 year",
+          "measure": "Target-lesion failure (TLF)",
+          "timeFrame": "Within one year after the intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of participants with all cause death",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "measure": "Number of participants with cardiac death",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "description": "periprocedural or spontaneous",
+          "measure": "Number of participants with myocardial infarction",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "measure": "Number of participants with composite of death or myocardial infarction",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "measure": "Number of participants with composite of cardiac death or myocardial infarction",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "measure": "Number of participants with target-vessel revascularization",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "measure": "Number of participants with target-lesion revascularization",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "description": "Stent thrombosis appropriate for Academic Research Consortium criteria",
+          "measure": "Number of participants with stent thrombosis",
+          "timeFrame": "Within three years after the intervention"
+        },
+        {
+          "description": "composite of composite of death, nonfatal myocardial infarction and ischemia-drive target-vessel revascularization (TVR)",
+          "measure": "Number of participants with target-vessel failure",
+          "timeFrame": "Within three years after the intervention"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "The Catholic University of Korea"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "The Catholic University of Korea",
+        "investigatorFullName": "Mahn-Won Park",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-01-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-24",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2019-10-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-06",
+      "studyFirstPostDateStruct": {
+        "date": "2024-06-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-06-18",
+      "studyFirstSubmitQcDate": "2024-06-24"
+    }
+  }
+}

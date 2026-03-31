@@ -1,0 +1,398 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        },
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Atorvatstain 40mg OD",
+          "interventionNames": [
+            "Drug: Atorvastatin 40 mg"
+          ],
+          "label": "Atorvastatin",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Rosuvastatin 20mg",
+          "interventionNames": [
+            "Drug: Rosuvastatin 20 mg/day"
+          ],
+          "label": "Rosuvastatin",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Rosuvastatin"
+          ],
+          "description": "Rosuvastatin 20 mg / Day for 24 weeks",
+          "name": "Rosuvastatin 20 mg/day",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Atorvastatin"
+          ],
+          "description": "Atorvastatin 40mg / Day for 24 weeks",
+          "name": "Atorvastatin 40 mg",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndromes"
+      ],
+      "keywords": [
+        "atorvastatin",
+        "rosuvastatin",
+        "Vitamin D",
+        "Triglyceride",
+        "Lipid Profile"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ahshah12@hotmail.com",
+          "name": "Ali Hussnain",
+          "phone": "+923317641096",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Lahore",
+          "contacts": [
+            {
+              "email": "sidrah.lodhi@gmail.com",
+              "name": "AP Endocrinology",
+              "phone": "+923004683473",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Pakistan",
+          "facility": "King Edward Medical University",
+          "geoPoint": {
+            "lat": 31.558,
+            "lon": 74.35071
+          },
+          "state": "Punjab Province",
+          "status": "RECRUITING",
+          "zip": "54000"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "King Edward Medical University",
+          "name": "Uzma Malik",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "affiliation": "King Edward Medical University",
+          "name": "Ali Hussnain",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "there will be 2 groups of patients with acute coronary syndrome. The patients will receive one of the 2 study drugs and impact on raising Vitamin D level will be seen after 6 months",
+      "detailedDescription": "this randomized clinical trial will include 152 patients of acute coronary syndrome with normal Vitamin D levels. they will be randomized to receive either Atorvastatin or Rosuvastatin. After 6 months of therapy, the impact on Vitamin D levels will be checked"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "SUPPORTIVE_CARE"
+      },
+      "enrollmentInfo": {
+        "count": 152,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAcute Coronary Syndrome\n\n25 OH-Vitamin D levels between 30-70ng/ml\n\nExclusion Criteria:\n\nHypercalcemia\n\nhypocalcemia\n\npregnancy\n\nlactation\n\nhypersensitivity to statins\n\nhypothyroidism\n\nDeranged LFTs \\& RFTs\n\nUse of following within last 3 months (Vitamin D Supplements, lipid lowering drugs, anti-obesity drugs, corticosteroids)",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Impact of Atorvastatin Versus Rosuvastatin on 25 Hydroxy Vitamin D Levels in Patients With Acute Coronary Syndrome",
+      "nctId": "NCT06765265",
+      "officialTitle": "Impact of Atorvastatin Versus Rosuvastatin on 25 Hydroxy Vitamin D Levels in Patients With Acute Coronary Syndrome",
+      "orgStudyIdInfo": {
+        "id": "508/RC/KEMU/13-11-2023"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "King Edward Medical University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "all IPD that underlie results in a publication",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "ANALYTIC_CODE"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "January 2025-January 2026"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Serum Vitamin D",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Lipid Profile",
+          "timeFrame": "4 weeks & 24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Althanoon Z, Faisal IM, Ahmad AA, Merkhan MM, Merkhan MM. Pharmacological aspects of statins are relevant to their structural and physicochemical properties. Systematic Reviews in Pharmacy. 2020 Jul 1;11(7):167-71",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Levinson SS. Non-High-Density Lipoprotein Cholesterol and Guidelines for Cholesterol Lowering in Recent History. Lab Med. 2020 Jan 2;51(1):14-23. doi: 10.1093/labmed/lmz032.",
+          "pmid": "31147695",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Sathyapalan T, Shepherd J, Arnett C, Coady AM, Kilpatrick ES, Atkin SL. Atorvastatin increases 25-hydroxy vitamin D concentrations in patients with polycystic ovary syndrome. Clin Chem. 2010 Nov;56(11):1696-700. doi: 10.1373/clinchem.2010.144014. Epub 2010 Sep 3.",
+          "pmid": "20817794",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Thabit A, Alhifany A, Alsheikh R, Namnqani S, Al-Mohammadi A, Elmorsy S, Qari M, Ardawi M. Effect of simvastatin and atorvastatin on serum vitamin d and bone mineral density in hypercholesterolemic patients: a cross-sectional study. J Osteoporos. 2014;2014:468397. doi: 10.1155/2014/468397. Epub 2014 Aug 13.",
+          "pmid": "25197610",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Anagnostis P, Adamidou F, Slavakis A, Polyzos SA, Selalmatzidou D, Panagiotou A, Athyros VG, Karagiannis A, Kita M. Comparative Effect of Atorvastatin and Rosuvastatin on 25-hydroxy-Vitamin D Levels in Non-diabetic Patients with Dyslipidaemia: A Prospective Randomized Open-label Pilot Study. Open Cardiovasc Med J. 2014 Jul 11;8:55-60. doi: 10.2174/1874192401408010055. eCollection 2014.",
+          "pmid": "25110531",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Demir CC, Mousa U, Anil C. Effects of atorvastatin and rosuvastatin therapy on serum 25-hydroxyvitamin D levels: A comparative study 13th European Congress of Endocrinology. Endocr Abstr. 2011;26(1):548.",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Bauddh NK, Ranga GS. A study of the effect of rosuvastatin on vitamin D levels in patients with hypertension, diabetes mellitus, and coronary artery disease. Int J Health Sci Res. 2016; 6(7):42-6",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Patwardhan VG, Mughal ZM, Padidela R, Chiplonkar SA, Khadilkar VV, Khadilkar AV. To study impact of treatment with Rosuvastatin versus Atorvastatin on 25 hydroxy Vitamin D concentrations among adult Indian men- a randomized control trial. Indian J Pharmacol. 2020 Sep-Oct;52(5):365-371. doi: 10.4103/ijp.IJP_93_18.",
+          "pmid": "33283767",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Jorge AJ, Cordeiro JR, Rosa ML, Bianchi DB. Vitamin D deficiency and cardiovascular diseases. Int J Cardiovas Sci. 2018;31(1):422-32",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Sahebkar A, Reiner Z, Simental-Mendia LE, Ferretti G, Della Corte C, Nobili V. Impact of Statin Therapy on Plasma Vitamin D Levels: A Systematic Review and Meta-Analysis. Curr Pharm Des. 2017;23(6):861-869. doi: 10.2174/1381612822666161006150542.",
+          "pmid": "27719645",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Radhakrishnan A, Ruckmani A, Abishek M, Govindaraju S. Statin therapy and Vitamin D. Int J Basic Clin Pharmacol. 2015;4:1113-7.",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Bhattacharyya S, Bhattacharyya K, Maitra A. Possible mechanisms of interaction between statins and vitamin D. QJM. 2012 May;105(5):487-91. doi: 10.1093/qjmed/hcs001. Epub 2012 Feb 9. No abstract available.",
+          "pmid": "22323613",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Scragg R. The Vitamin D Assessment (ViDA) study - Design and main findings. J Steroid Biochem Mol Biol. 2020 Apr;198:105562. doi: 10.1016/j.jsbmb.2019.105562. Epub 2019 Dec 3.",
+          "pmid": "31809866",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Verdoia M, Pergolini P, Rolla R, Nardin M, Schaffer A, Barbieri L, Daffara V, Marino P, Bellomo G, Suryapranata H, De Luca G; Novara Atherosclerosis Study Group (NAS). Impact of high-dose statins on vitamin D levels and platelet function in patients with coronary artery disease. Thromb Res. 2017 Feb;150:90-95. doi: 10.1016/j.thromres.2016.12.019. Epub 2016 Dec 28.",
+          "pmid": "28068529",
+          "type": "RESULT"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "King Edward Medical University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "King Edward Medical University",
+        "investigatorFullName": "Sidrah Lodhi",
+        "investigatorTitle": "Assistant Professor of Endocrinology",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-07",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-01-05",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-03",
+      "studyFirstSubmitQcDate": "2025-01-03"
+    }
+  }
+}

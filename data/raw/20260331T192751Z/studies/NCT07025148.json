@@ -1,0 +1,320 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D010879",
+          "term": "Piperazines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000068799",
+          "term": "Prasugrel Hydrochloride"
+        },
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients deemed at high risk for both bleeding and ischemic risk randomized to continue clopdiogrel-based DAPT. High bleeding riks will be defined according to the Academic Research Consortium definition, while high ischemic risk will be defined as those patients with an ABCD-GENE score of 10 or higher.",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ],
+          "label": "Dual risk - Clopidogrel-based DAPT",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients deemed at high risk for both bleeding and ischemic risk randomized to receive low-dose prasugrel-based DAPT. High bleeding riks will be defined according to the Academic Research Consortium definition, while high ischemic risk will be defined as those patients with an ABCD-GENE score of 10 or higher.",
+          "interventionNames": [
+            "Drug: Prasugrel"
+          ],
+          "label": "Dual risk - Low-dose prasugrel-based DAPT",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients deemed at high risk for both bleeding but not at high risk for ischemic events being actively treated with clopidogrel-based DAPT as per standard of care. High bleeding riks will be defined according to the Academic Research Consortium definition.",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ],
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Dual risk - Low-dose prasugrel-based DAPT"
+          ],
+          "description": "Prasugrel 5 mg od for 30 \u00b1 5 days",
+          "name": "Prasugrel",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Control",
+            "Dual risk - Clopidogrel-based DAPT"
+          ],
+          "description": "Clopidogrel 75 mg od for 30 \u00b1 5 days",
+          "name": "Clopidogrel",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Arterial Disease (CAD)",
+        "Percutaneous Coronary Intervention (PCI)"
+      ],
+      "keywords": [
+        "Coronary artery disease",
+        "Dual antiplatelet therapy",
+        "High bleeding risk"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Luis.Ortega@jax.ufl.edu",
+          "name": "Luis Ortega-Paz, MD, PhD",
+          "phone": "904-244 2060",
+          "role": "CONTACT"
+        },
+        {
+          "email": "Andrea.Burton@jax.ufl.edu",
+          "name": "Andrea Burton, MPH, CCRP",
+          "phone": "904-244-5617",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Jacksonville",
+          "contacts": [
+            {
+              "email": "Luis.Ortega@jax.ufl.edu",
+              "name": "Luis Ortega-Paz, MD, PhD",
+              "phone": "904-244-2060",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Florida Health",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32209"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Florida College of Medicine - Jacksonville",
+          "name": "Dominick J Angiolillo, MD, PhD",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "affiliation": "University of Florida College of Medicine - Jacksonville",
+          "name": "Luis Ortega-Paz, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary aim of this study is to investigate the PD effects of switching from standard-dose clopidogrel dose to low-dose prasugrel versus continuing standard-dose clopidogrel in patients at dual-risk (HBR defined as the HBR-ARC criteria and HIR defined as ABCD-GENE score \u226510) following PCI. We hypothesize that in patients at dual-risk, switching from standard-dose clopidogrel to low-dose prasugrel will be superior to continuing standard-dose clopidogrel in terms of platelet reactivity."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with high bleeding risk (defined according to the ARC-HBR criteria) who have undergone PCI and are on maintenance treatment with DAPT, consisting of low-dose aspirin (81mg qd) with clopidogrel (75 mg qd) as part of standard of care for at least 30 days.\n* Age \u226518 years.\n* Provide written informed consent.\n\nExclusion Criteria:\n\n* Prior cerebrovascular event.\n* PCI within 30 days.\n* Hemodynamic instability.\n* On treatment with any oral anticoagulant (vitamin K antagonists, dabigatran, rivaroxaban, apixaban, edoxaban) or chronic low-molecular-weight heparin (at venous thrombosis treatment, not for prophylaxis).\n* Hypersensitivity to Aspirin, Clopidogrel, or Prasugrel.\n* Known hematologic malignancies or thrombocytopenia (platelet count \\<80x106/mL).\n* Known hemoglobinopathies or anemia (hemoglobin \\<9 g/dL)\n* Pregnant and breastfeeding women \\[women of childbearing age must use reliable birth control (i.e., oral contraceptives) while participating in the study\\].",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Dual Antiplatelet Therapy Escalation From Standard-dose Clopidogrel to Low-Dose Prasugrel in Patients With High Bleeding and Ischemic Risk Undergoing PCI: A Prospective, Randomized Pharmacodynamic Study (TAILOR-BLEED-2)",
+      "nctId": "NCT07025148",
+      "officialTitle": "Switching From Clopidogrel to Low-dose Prasugrel in Patients at Dual-risk Following Percutaneous Coronary Intervention (TAILOR-BLEED-2)",
+      "orgStudyIdInfo": {
+        "id": "IRB202401774"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Florida"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Individual patient data will be shared upon reasonable request to the primary investigator.",
+      "description": "Individual patient data will be shared upon reasonable request to the primary investigator.",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "Individual patient data will be shared upon reasonable request to the primary investigator after publication of the primary results."
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The primary end point of our study will be levels of platelet reactivity, measured as P2Y12 reaction units (PRU) using the VerifyNow system in patients at dual-risk (both HBR and HIR \\[ABCD-GENE score \u226510 points\\]) between low-dose prasugrel (5 mg qd) vs. standard-dose clopidogrel (75 mg qd)",
+          "measure": "Platelet reactivity measured as PRU",
+          "timeFrame": "30 Day"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Florida"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-11-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-31",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-08-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-10-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-08",
+      "studyFirstPostDateStruct": {
+        "date": "2025-06-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-06-09",
+      "studyFirstSubmitQcDate": "2025-06-09"
+    }
+  }
+}

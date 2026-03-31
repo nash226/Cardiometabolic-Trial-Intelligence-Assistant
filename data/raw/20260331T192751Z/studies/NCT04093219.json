@@ -1,0 +1,558 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003221",
+          "term": "Confusion"
+        },
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003693",
+          "term": "Delirium"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000083",
+          "term": "Acetanilides"
+        },
+        {
+          "id": "D000813",
+          "term": "Anilides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000814",
+          "term": "Aniline Compounds"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000082",
+          "term": "Acetaminophen"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "1 g IV acetaminophen every 6 hours for 48 hours during the first 2 days postoperatively",
+          "interventionNames": [
+            "Drug: IV acetaminophen"
+          ],
+          "label": "IV Acetaminophen",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Volume of the placebo (saline) will match that of IV acetaminophen at 100ml 0.9% NaCl",
+          "interventionNames": [
+            "Other: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "IV Acetaminophen"
+          ],
+          "description": "use of IV tylenol for pain",
+          "name": "IV acetaminophen",
+          "otherNames": [
+            "ofirmev"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Volume of the placebo (saline) will match that of IV acetaminophen at 100ml 0.9% NaCl",
+          "name": "Placebo",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Delirium in Old Age",
+        "Delirium",
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "Acetaminophen",
+        "Postoperative",
+        "Delirium",
+        "Cardiac Surgery"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Birmingham",
+          "country": "United States",
+          "facility": "University of Alabama at Birmingham",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          },
+          "state": "Alabama",
+          "zip": "35233"
+        },
+        {
+          "city": "Irvine",
+          "country": "United States",
+          "facility": "University of California Irvine",
+          "geoPoint": {
+            "lat": 33.66946,
+            "lon": -117.82311
+          },
+          "state": "California",
+          "zip": "92697"
+        },
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "University of California Los Angeles",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "zip": "90095"
+        },
+        {
+          "city": "New Haven",
+          "country": "United States",
+          "facility": "Yale University/Yale New Haven Hospital",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          },
+          "state": "Connecticut",
+          "zip": "06510"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "facility": "Massachusetts General Hospital",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "zip": "02114"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "facility": "Brigham and Women's Hospital",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "zip": "02115"
+        },
+        {
+          "city": "Boston",
+          "country": "United States",
+          "facility": "Beth Israel Deaconess Medical Center",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "zip": "02215"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "facility": "Columbia University Irving Medical Center",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "zip": "10032"
+        },
+        {
+          "city": "The Bronx",
+          "country": "United States",
+          "facility": "Albert Einstein College of Medicine- Montefiore",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          },
+          "state": "New York",
+          "zip": "10467"
+        },
+        {
+          "city": "Pittsburgh",
+          "country": "United States",
+          "facility": "University of Pittsburgh Medical Center",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          },
+          "state": "Pennsylvania",
+          "zip": "15213"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Beth Israel Deaconess Medical Center",
+          "name": "Balachundhar Subramaniam, MD, MPH",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Our objective is to find an effective prophylactic intervention by evaluating IV acetaminophen's impact in reducing the frequency of postoperative delirium, one of the most common and detrimental complications of cardiac surgery in older adults.",
+      "detailedDescription": "This project will study the impact of scheduled administration of IV acetaminophen on the incidence, duration, and severity of postoperative delirium and other important hospital outcomes. Additionally, this trial will evaluate the effects of IV acetaminophen on longer-term postoperative cognitive dysfunction and functional status and develop a biorepository of perioperative samples as a future resource to probe the mechanisms of postoperative delirium.\n\nThe investigators propose three specific aims by conducting a randomized, triple-blind clinical trial that enrolls 900 patients 60 years of age or older undergoing cardiac surgery. Through this trial, the investigators will determine the effect of IV acetaminophen on;\n\n1. the incidence, duration, and severity of postoperative delirium,\n2. the use of opioids and other rescue analgesics in the first 48 postoperative hours, daily pain scores at rest and exertion, and length of stay in the Intensive Care Unit and overall hospital length of stay\n3. longer-term (one, six, 12 months) cognitive, physical, and self-care functional recovery after surgery."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The research pharmacists at each institution will prepare the placebo and will dispense the study drug according to treatment allocation. Treatment allocation will otherwise remain concealed from all others involved in the conduct and analysis of the trial, including those performing statistical analysis. Study participants will remain blinded throughout.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 900,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. \u2265 60 years of age\n2. Patients undergoing cardiac surgery \\[coronary artery bypass grafting (CABG) with or without valve, isolated valve surgery\\] requiring cardiopulmonary bypass\n\nExclusion Criteria:\n\n1. Pre-operative left ventricular ejection fraction (LVEF) \\< than 30%\n2. Emergent procedures\n3. Isolated aortic surgery\n4. Liver dysfunction (liver enzymes \\> 3 times the baseline, all patients will have a baseline liver function test information), history and exam suggestive of jaundice\n5. Hypersensitivity to the study drugs\n6. Active (in the past year) history of alcohol abuse (\u22655 drinks per day for men or \u2265 4 drinks per day for women)\n7. Any history of alcohol withdrawal or delirium tremens\n8. Delirium at baseline\n9. Non-English speaking\n10. Prisoners\n11. Physician Refusal\n12. COVID-19 Positive, symptomatic\n13. Co-enrollment with non-approved interventional trial",
+      "healthyVolunteers": false,
+      "minimumAge": "60 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "PANDORA",
+      "briefTitle": "PANDORA: Delirium Prevention After Cardiac Surgery Using IV Acetaminophen to Prevent Postoperative Delirium in Older Cardiac Surgical Patients",
+      "nctId": "NCT04093219",
+      "officialTitle": "PANDORA: Scheduled Prophylactic 6-hourly Intravenous Acetaminophen to Prevent Postoperative Delirium in Older Cardiac Surgical Patients",
+      "orgStudyIdInfo": {
+        "id": "2019-P-000758"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Beth Israel Deaconess Medical Center"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01AG065554",
+          "link": "https://reporter.nih.gov/quickSearch/R01AG065554",
+          "type": "NIH"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Clinical request for liver function test monitoring and reported ALT and AST values will be reported as safety outcomes",
+          "measure": "Need for additional liver function tests",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 5 days"
+        },
+        {
+          "description": "Rates of clinician discontinuation of study drug.",
+          "measure": "Discontinuation of study drug",
+          "timeFrame": "48 hours postoperatively"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Occurrence of delirium on any postoperative day, as assessed using the CAM, 3D CAM, CAM Only, or CAM-ICU daily until hospital discharge.",
+          "measure": "Incidence of postoperative delirium",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 5 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Charted Delirium will be used as a key secondary outcome in addition to the CAM diagnosis. Incidence in patient's chart for diagnoses synonymous with delirium or a change to the patient's baseline mental status as indicated by trigger words associated with a predictive value for delirium",
+          "measure": "Incidence of Charted Delirium",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 5 days"
+        },
+        {
+          "description": "Total number of in-hospital postoperative days in which delirium is present",
+          "measure": "Duration of delirium",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 6 days, and at 1 month, 6 month and 1- year following the date of surgery"
+        },
+        {
+          "description": "Delirium severity is evaluated both as the peak (highest) and sum CAM-S score over all hospital days",
+          "measure": "Severity of delirium",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 5 days"
+        },
+        {
+          "description": "Measured in days",
+          "measure": "Time to onset of delirium",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 5 days"
+        },
+        {
+          "description": "Amount of opioid (IV morphine or hydromorphone) and oral analgesics required for pain control, reported as overall morphine equivalents. Total Morphine Equivalent is calculated as the sum of (fentanyl dose \u00d7 2.4) + (hydromorphone dose \u00d7 4) + morphine dose + (oxycodone dose \u00d7 1.5).",
+          "measure": "Additional postoperative analgesic requirements",
+          "timeFrame": "First 48 hours postoperatively"
+        },
+        {
+          "description": "Pain scores will be collected three times daily using a numeric rating scale (0, no pain, to 10, worst possible pain).",
+          "measure": "Worst daily pain scores with exertion (deep breathing and cough)",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 5 days"
+        },
+        {
+          "description": "Defined by the number of days admitted in the ICU prior to transfer to the general cardiac surgical floor",
+          "measure": "Length of stay in the Intensive Care Unit (ICU)",
+          "timeFrame": "Measured in days admitted in the ICU, an average of 2 days"
+        },
+        {
+          "description": "Pain scores will be collected three times daily using a numeric rating scale (0, no pain, to 10, worst possible pain).",
+          "measure": "Worst daily pain scores at rest",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 5 days"
+        },
+        {
+          "description": "Defined by the number of days admitted in the hospital following the completion of surgery.",
+          "measure": "Length of hospital stay",
+          "timeFrame": "Measured in days admitted in the hospital, an average of 6 days"
+        },
+        {
+          "description": "Neurocognition will be reported using the Montreal Cognitive Assessment (MoCA) score that ranges from zero (worst possible score) to 30 (best). At one, six, and twelve months postoperatively a telephonic MoCA will be assessed over the phone. The t-MoCA scores range from zero \\[worst\\] to 22 \\[best\\]. A hierarchical linear regression model will be used to characterize the trajectory of t-MoCA scores over time.",
+          "measure": "Trajectory of cognitive function over time",
+          "timeFrame": "Participants will be followed for the duration of the hospital stay, an average of 6 days, and at 1 month, 6 month and 1- year following the date of surgery"
+        },
+        {
+          "description": "Physical function will be assessed using the Medical Outcomes Study Short Form 12 questionnaire (SF-12) physical composite score at one, six, and twelve months postoperatively assessed over the phone. A hierarchical linear regression model will be used to characterize the trajectory of SF-12 scores over time.",
+          "measure": "Trajectory of physical function over time.",
+          "timeFrame": "Participants will be followed at 1 month, 6 month and 1- year following the date of surgery"
+        },
+        {
+          "description": "Functional status (self care) will be assessed using the FuncAQ and FRAIL scale at one, six, and twelve months postoperatively assessed over the phone. A hierarchical linear regression model will be used to characterize the trajectory of FuncAQ and FRAIL scores over time.",
+          "measure": "Trajectory of functional outcomes over time",
+          "timeFrame": "Participants will be followed at 1 month, 6 month and 1- year following the date of surgery"
+        },
+        {
+          "description": "Chronic sternal pain will be assessed using the Numerical Pain Rating Scale (NPRS) at six and twelve months postoperatively assessed over the phone.",
+          "measure": "Trajectory of chronic pain over time",
+          "timeFrame": "Participants will be followed at 6 month and 1- year following the date of surgery"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Rudolph JL, Marcantonio ER. Review articles: postoperative delirium: acute change with long-term implications. Anesth Analg. 2011 May;112(5):1202-11. doi: 10.1213/ANE.0b013e3182147f6d. Epub 2011 Apr 7.",
+          "pmid": "21474660",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Inouye SK, Westendorp RG, Saczynski JS. Delirium in elderly people. Lancet. 2014 Mar 8;383(9920):911-22. doi: 10.1016/S0140-6736(13)60688-1. Epub 2013 Aug 28.",
+          "pmid": "23992774",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gottesman RF, Grega MA, Bailey MM, Pham LD, Zeger SL, Baumgartner WA, Selnes OA, McKhann GM. Delirium after coronary artery bypass graft surgery and late mortality. Ann Neurol. 2010 Mar;67(3):338-44. doi: 10.1002/ana.21899.",
+          "pmid": "20373345",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Saczynski JS, Marcantonio ER, Quach L, Fong TG, Gross A, Inouye SK, Jones RN. Cognitive trajectories after postoperative delirium. N Engl J Med. 2012 Jul 5;367(1):30-9. doi: 10.1056/NEJMoa1112923.",
+          "pmid": "22762316",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "van den Boogaard M, Kox M, Quinn KL, van Achterberg T, van der Hoeven JG, Schoonhoven L, Pickkers P. Biomarkers associated with delirium in critically ill patients and their relation with long-term subjective cognitive dysfunction; indications for different pathways governing delirium in inflamed and noninflamed patients. Crit Care. 2011;15(6):R297. doi: 10.1186/cc10598. Epub 2011 Dec 29.",
+          "pmid": "22206727",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gallagher R. Opioid-induced neurotoxicity. Can Fam Physician. 2007 Mar;53(3):426-7. No abstract available.",
+          "pmid": "17872676",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "O'Neal JB. The utility of intravenous acetaminophen in the perioperative period. Front Public Health. 2013 Aug 6;1:25. doi: 10.3389/fpubh.2013.00025.",
+          "pmid": "24350194",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Subramaniam B, Shankar P, Shaefi S, Mueller A, O'Gara B, Banner-Goodspeed V, Gallagher J, Gasangwa D, Patxot M, Packiasabapathy S, Mathur P, Eikermann M, Talmor D, Marcantonio ER. Effect of Intravenous Acetaminophen vs Placebo Combined With Propofol or Dexmedetomidine on Postoperative Delirium Among Older Patients Following Cardiac Surgery: The DEXACET Randomized Clinical Trial. JAMA. 2019 Feb 19;321(7):686-696. doi: 10.1001/jama.2019.0234.",
+          "pmid": "30778597",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Inouye SK, Kosar CM, Tommet D, Schmitt EM, Puelle MR, Saczynski JS, Marcantonio ER, Jones RN. The CAM-S: development and validation of a new scoring system for delirium severity in 2 cohorts. Ann Intern Med. 2014 Apr 15;160(8):526-533. doi: 10.7326/M13-1927.",
+          "pmid": "24733193",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ramachandran RV, Behera A, Hussain Z, Peck J, Ananthakrishanan A, Mathur P, Banner-Goodspeed V, Muehlschlegel JD, Pittet JF, Bardia A, Schonberger R, Marcantonio ER, Kveraga K, Subramaniam B. Incidence of Concurrent Cerebral Desaturation and Electroencephalographic Burst Suppression in Cardiac Surgery Patients. Anesth Analg. 2025 May 1;140(5):1086-1092. doi: 10.1213/ANE.0000000000007209.",
+          "pmid": "39446661",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Ramachandran RV, Ananthakrishnan A, Orui H, Kveraga K, Subramaniam B. The Influence of Preoperative Physical Activity on Intraoperative Brain Function in Cardiac Surgical patients. Res Sq [Preprint]. 2024 Jun 7:rs.3.rs-4427122. doi: 10.21203/rs.3.rs-4427122/v1.",
+          "pmid": "38883767",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Khera T, Mathur PA, Banner-Goodspeed VM, Narayanan S, Mcgourty M, Kelly L, Palihnich K, Novack L, Davis R, Talmor D, Marcantonio ER, Subramaniam B. Scheduled Prophylactic 6-Hourly IV AcetaminopheN to Prevent Postoperative Delirium in Older CaRdiac SurgicAl Patients (PANDORA): protocol for a multicentre randomised controlled trial. BMJ Open. 2021 Mar 10;11(3):e044346. doi: 10.1136/bmjopen-2020-044346.",
+          "pmid": "33692183",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute on Aging (NIA)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Beth Israel Deaconess Medical Center"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Beth Israel Deaconess Medical Center",
+        "investigatorFullName": "Balachundhar Subramaniam",
+        "investigatorTitle": "Associate Professor of Anesthesia",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-03-04",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-09",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-03-04",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2020-08-11",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2019-09-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-09-13",
+      "studyFirstSubmitQcDate": "2019-09-16"
+    }
+  }
+}

@@ -1,0 +1,1458 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D002712",
+          "term": "Chlorides"
+        },
+        {
+          "id": "D006851",
+          "term": "Hydrochloric Acid"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017670",
+          "term": "Sodium Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012965",
+          "term": "Sodium Chloride"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Placebo",
+          "interventionNames": [
+            "Drug: Saline"
+          ],
+          "label": "Arm 1",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "DII235 dose 1",
+          "interventionNames": [
+            "Drug: DII235"
+          ],
+          "label": "Arm 2",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "DII235 dose 2",
+          "interventionNames": [
+            "Drug: DII235"
+          ],
+          "label": "Arm 3",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "DII235 dose 3",
+          "interventionNames": [
+            "Drug: DII235"
+          ],
+          "label": "Arm 4",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "DII235 dose 4",
+          "interventionNames": [
+            "Drug: DII235"
+          ],
+          "label": "Arm 5",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Arm 2",
+            "Arm 3",
+            "Arm 4",
+            "Arm 5"
+          ],
+          "description": "Solution for injection",
+          "name": "DII235",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Arm 1"
+          ],
+          "description": "solution for injection",
+          "name": "Saline",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Lipoprotein Disorder"
+      ],
+      "keywords": [
+        "Lipoprotein(a)",
+        "cardiovascular disease",
+        "atherosclerotic cardiovascular disease (ASCVD)",
+        "lipoprotein disorder",
+        "cardiovascular",
+        "cholesterol",
+        "hyperlipidemia",
+        "dyslipidemia",
+        "DII235"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "novartis.email@novartis.com",
+          "name": "Novartis Pharmaceuticals",
+          "phone": "1-888-669-6682",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Novartis Pharmaceuticals",
+          "phone": "+41613241111",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Birmingham",
+          "contacts": [
+            {
+              "email": "paulasulli@gmail.com",
+              "name": "Paula Sullivan",
+              "phone": "+1 205 815 5000",
+              "role": "CONTACT"
+            },
+            {
+              "name": "James Sullivan",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Parkway Medical Center",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          },
+          "state": "Alabama",
+          "status": "RECRUITING",
+          "zip": "35215"
+        },
+        {
+          "city": "Huntsville",
+          "contacts": [
+            {
+              "email": "awilliams@theheartcenter.md",
+              "name": "Amy Williams",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Vernon R Hunter",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Heart Center Research Llc",
+          "geoPoint": {
+            "lat": 34.7304,
+            "lon": -86.58594
+          },
+          "state": "Alabama",
+          "status": "RECRUITING",
+          "zip": "35801"
+        },
+        {
+          "city": "Little Rock",
+          "contacts": [
+            {
+              "email": "sclementsresearch@yahoo.com",
+              "name": "Sherry Clements",
+              "phone": "+1 501 664 0941",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Joe L Hargrove",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Cardiology and Medicine Clinic PA",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          },
+          "state": "Arkansas",
+          "status": "RECRUITING",
+          "zip": "72204"
+        },
+        {
+          "city": "Beverly Hills",
+          "contacts": [
+            {
+              "email": "mflores@nationalheartinstitute.org",
+              "name": "Maria Flores",
+              "phone": "+1 310 289 5221",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Norman Lepor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "National Heart Institute",
+          "geoPoint": {
+            "lat": 34.07362,
+            "lon": -118.40036
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "90211"
+        },
+        {
+          "city": "Canoga Park",
+          "contacts": [
+            {
+              "email": "aroobalingam@allianceclinicalnetwork.com",
+              "name": "Anitha Roobalingam",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Hessam Aazami",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Alliance Clinical",
+          "geoPoint": {
+            "lat": 34.20112,
+            "lon": -118.59814
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "91303"
+        },
+        {
+          "city": "Boca Raton",
+          "contacts": [
+            {
+              "email": "jaustin@flourishresearch.com",
+              "name": "Jennifer Austin",
+              "phone": "+1 561 756 8206",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rasha Youssef",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Excel Medical Clinical Trials LLC",
+          "geoPoint": {
+            "lat": 26.35869,
+            "lon": -80.0831
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33434"
+        },
+        {
+          "city": "Hollywood",
+          "contacts": [
+            {
+              "email": "Y.Ramos@zenithclinicalresearch.com",
+              "name": "Yeny Ramos",
+              "phone": "+1 305 546 1311",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Moises Issa",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Zenith Clinical Research",
+          "geoPoint": {
+            "lat": 26.0112,
+            "lon": -80.14949
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33021"
+        },
+        {
+          "city": "Jacksonville",
+          "contacts": [
+            {
+              "email": "zwinans@encoredocs.com",
+              "name": "Zoe Winans",
+              "phone": "+1 904 730 0101",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Michael J Koren",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Jacksonville Center for Clinical Research",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32216"
+        },
+        {
+          "city": "Miami",
+          "contacts": [
+            {
+              "email": "asealy@flourishresearch.com",
+              "name": "Ashlee Sealy",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rimsky Denis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Flourish Res Acq LLC North Miami",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33138"
+        },
+        {
+          "city": "Miami Lakes",
+          "contacts": [
+            {
+              "email": "sramirez@inpatientresearch.com",
+              "name": "Sergio Ramirez",
+              "phone": "+1 786 502 4303",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Alexis Gutierrez",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Inpatient Research Clinical LLC",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33014"
+        },
+        {
+          "city": "Miami Lakes",
+          "contacts": [
+            {
+              "email": "jcasola@inpatientresearch.com",
+              "name": "Jose Casola",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jose Contreras",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Inpatient Research Clinical LLC",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33014"
+        },
+        {
+          "city": "Ocala",
+          "contacts": [
+            {
+              "email": "arleana.brown@morganmmc.com",
+              "name": "Arleana Brown",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lan Luo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Ocala Cardiovascular Research",
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "34471"
+        },
+        {
+          "city": "Pensacola",
+          "contacts": [
+            {
+              "email": "tramsey@secclinicalresearch.com",
+              "name": "Tatum Ramsey",
+              "phone": "+1 850 696 7148",
+              "role": "CONTACT"
+            },
+            {
+              "name": "William Doty",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "SEC Clinical Research",
+          "geoPoint": {
+            "lat": 30.42131,
+            "lon": -87.21691
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32503"
+        },
+        {
+          "city": "Wellington",
+          "contacts": [
+            {
+              "email": "elizabeth.dagher@cardiologypartnerspl.com",
+              "name": "Elizabeth Dagher",
+              "phone": "+1 561 537 4778",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Duccio Baldari",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Cardiology Partners Clinical Research Institute",
+          "geoPoint": {
+            "lat": 26.65868,
+            "lon": -80.24144
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33449"
+        },
+        {
+          "city": "Tucker",
+          "contacts": [
+            {
+              "email": "hhaile@ahsmed.com",
+              "name": "Hiwot Haile",
+              "phone": "+1 770 407 6369",
+              "role": "CONTACT"
+            },
+            {
+              "name": "David Suh",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Atlanta Heart Specialists LLC",
+          "geoPoint": {
+            "lat": 33.85455,
+            "lon": -84.21714
+          },
+          "state": "Georgia",
+          "status": "RECRUITING",
+          "zip": "30084"
+        },
+        {
+          "city": "Oak Brook",
+          "contacts": [
+            {
+              "email": "loria.awadallah@amr-clinical.com",
+              "name": "Loria Awadallah",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Saifullah Nasir",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "AMR Chicago",
+          "geoPoint": {
+            "lat": 41.83281,
+            "lon": -87.92895
+          },
+          "state": "Illinois",
+          "status": "RECRUITING",
+          "zip": "60523"
+        },
+        {
+          "city": "Wichita",
+          "contacts": [
+            {
+              "email": "shaunacie.mccallum@amr-clinical.com",
+              "name": "Shaunacie Mc Callum",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jerry Punch",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Alliance for Multispecialty Research",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          },
+          "state": "Kansas",
+          "status": "RECRUITING",
+          "zip": "67207"
+        },
+        {
+          "city": "Lafayette",
+          "contacts": [
+            {
+              "email": "Ariel.Quebedeaux@cardio.com",
+              "name": "Ariel Quebedeaux",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Wade May",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "CV Ins of the South",
+          "geoPoint": {
+            "lat": 30.22409,
+            "lon": -92.01984
+          },
+          "state": "Louisiana",
+          "status": "RECRUITING",
+          "zip": "70503"
+        },
+        {
+          "city": "West Monroe",
+          "contacts": [
+            {
+              "email": "nparrott76@gmail.com",
+              "name": "Nina Parrott",
+              "phone": "+1 318 387 1946",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Assad Mouhaffel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Monroe Research Llc",
+          "geoPoint": {
+            "lat": 32.51848,
+            "lon": -92.14764
+          },
+          "state": "Louisiana",
+          "status": "RECRUITING",
+          "zip": "71291"
+        },
+        {
+          "city": "Beltsville",
+          "contacts": [
+            {
+              "email": "nseman@metresearch.org",
+              "name": "Nibras Seman",
+              "phone": "+1 301 595 0356",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ayim Akyea-Djamson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Metropolitan Cardiovascular Consultants Llc",
+          "geoPoint": {
+            "lat": 39.03483,
+            "lon": -76.90747
+          },
+          "state": "Maryland",
+          "status": "RECRUITING",
+          "zip": "20705"
+        },
+        {
+          "city": "Ft. Washington",
+          "contacts": [
+            {
+              "email": "andersonmedicalresearch@gmail.com",
+              "name": "Ann-Marie Cobb",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Felton Anderson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Anderson Medical Research",
+          "geoPoint": {
+            "lat": 38.70734,
+            "lon": -77.02303
+          },
+          "state": "Maryland",
+          "status": "RECRUITING",
+          "zip": "20744"
+        },
+        {
+          "city": "Lanham",
+          "contacts": [
+            {
+              "email": "iluyomade@capitolcardiology.com",
+              "name": "Iluyomade Adeusi",
+              "phone": "+1 301 312 0575",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Vineet Venugopal",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Capitol Cardiology Associates",
+          "geoPoint": {
+            "lat": 38.96875,
+            "lon": -76.8634
+          },
+          "state": "Maryland",
+          "status": "RECRUITING",
+          "zip": "20706"
+        },
+        {
+          "city": "Flint",
+          "contacts": [
+            {
+              "email": "fshah@aamrc.net",
+              "name": "Fayyaz Shah",
+              "phone": "+1 810 237 1125",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ahmed A Arif",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "AA Medical Research Center",
+          "geoPoint": {
+            "lat": 43.01253,
+            "lon": -83.68746
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48504"
+        },
+        {
+          "city": "Ypsilanti",
+          "contacts": [
+            {
+              "email": "martha_bohn@michiganheart.com",
+              "name": "Martha Bohn",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ahmad Mizyed",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Trinity Health Michigan Heart",
+          "geoPoint": {
+            "lat": 42.24115,
+            "lon": -83.61299
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48197"
+        },
+        {
+          "city": "Tupelo",
+          "contacts": [
+            {
+              "email": "Brittany.cook@nmhs.net",
+              "name": "Brittany Cook",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Henry Baker Boler",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Cardiology Associates of North MS",
+          "geoPoint": {
+            "lat": 34.25807,
+            "lon": -88.70464
+          },
+          "state": "Mississippi",
+          "status": "RECRUITING",
+          "zip": "38801"
+        },
+        {
+          "city": "Las Vegas",
+          "contacts": [
+            {
+              "email": "fsdabct@gmail.com",
+              "name": "Fungai Siziba-Dubose",
+              "phone": "+1 702 804 5900",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Atoya Adams",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "AB Clinical Trials",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          },
+          "state": "Nevada",
+          "status": "RECRUITING",
+          "zip": "89119"
+        },
+        {
+          "city": "Marion",
+          "contacts": [
+            {
+              "email": "Rruddcrc@gmail.com",
+              "name": "Rhonda Rudd",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Parminder Singh",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "K and R Research LLC",
+          "geoPoint": {
+            "lat": 40.58867,
+            "lon": -83.12852
+          },
+          "state": "Ohio",
+          "status": "RECRUITING",
+          "zip": "43302"
+        },
+        {
+          "city": "Linwood",
+          "contacts": [
+            {
+              "email": "mcosgrove@tcvclinicalstudies.com",
+              "name": "Michael Cosgrove",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Edward Stankiewicz",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "TCV Clinical Studies",
+          "geoPoint": {
+            "lat": 39.8265,
+            "lon": -75.42547
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "19061"
+        },
+        {
+          "city": "Yardley",
+          "contacts": [
+            {
+              "email": "sharonb@ccpdocs.com",
+              "name": "Sharon Budzinski",
+              "phone": "+1 215 321 7400#242",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Paul Grena",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Cardiology Consultants of Philadelphia",
+          "geoPoint": {
+            "lat": 40.24566,
+            "lon": -74.846
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "19067"
+        },
+        {
+          "city": "Jackson",
+          "contacts": [
+            {
+              "email": "lgibbons@apexcardio.com",
+              "name": "Leslie Gibbons",
+              "phone": "+1 731 423 8200",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mohsin Alhaddad",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Apex Cardiology Research Associates of Jackson",
+          "geoPoint": {
+            "lat": 35.61452,
+            "lon": -88.81395
+          },
+          "state": "Tennessee",
+          "status": "RECRUITING",
+          "zip": "38301"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "ASincere@biopharmainfo.net",
+              "name": "Alexis Sincere",
+              "phone": "+1 877 339 0254",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Amin Karim",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Angiocardiac Care of Texas PA",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77025"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "shirmia@biopharmainfo.net",
+              "name": "Shirmia Artis Stephens",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Imran Afridi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Dallas Heart and Vascular Consultants PA",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77084"
+        },
+        {
+          "city": "San Antonio",
+          "contacts": [
+            {
+              "email": "eknight@flourishresearch.com",
+              "name": "Libby Knight",
+              "phone": "+1 210 949 0122",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Douglas Denham",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Clinical Trials of Texas",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78229"
+        },
+        {
+          "city": "Tomball",
+          "contacts": [
+            {
+              "email": "dburns@houstonheartcenter.com",
+              "name": "Dawn Burns",
+              "phone": "+1 281 351 4911",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Shamaila Aslam",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Northwest Houston Clinical Research PLLC",
+          "geoPoint": {
+            "lat": 30.09716,
+            "lon": -95.61605
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77375"
+        },
+        {
+          "city": "Bountiful",
+          "contacts": [
+            {
+              "email": "madie@progressiveclinicalresearch.com",
+              "name": "Madie Toole",
+              "phone": "+1 801 292 2850",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Joshua Oaks",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Progressive Clinical Research",
+          "geoPoint": {
+            "lat": 40.88939,
+            "lon": -111.88077
+          },
+          "state": "Utah",
+          "status": "RECRUITING",
+          "zip": "84010"
+        },
+        {
+          "city": "Richmond",
+          "contacts": [
+            {
+              "email": "adrianknight@dominionmedicalinc.com",
+              "name": "Adrian Knight",
+              "phone": "+1 804 836 6540",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Richard A Jackson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Dominion Medical Associates",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "23219"
+        },
+        {
+          "city": "Puyallup",
+          "contacts": [
+            {
+              "email": "Fawna.White@multicare.org",
+              "name": "Fawna White",
+              "phone": "+1 253 697 4192",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Vinay Malhotra",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "MultiCare Ins Research Innovation",
+          "geoPoint": {
+            "lat": 47.18538,
+            "lon": -122.2929
+          },
+          "state": "Washington",
+          "status": "RECRUITING",
+          "zip": "98372"
+        },
+        {
+          "city": "Munich",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          },
+          "state": "Bavaria",
+          "status": "RECRUITING",
+          "zip": "81377"
+        },
+        {
+          "city": "Potsdam",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 52.39886,
+            "lon": 13.06566
+          },
+          "state": "Brandenburg",
+          "status": "RECRUITING",
+          "zip": "14473"
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          },
+          "state": "Hesse",
+          "status": "RECRUITING",
+          "zip": "60594"
+        },
+        {
+          "city": "Kaiserslautern",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 49.443,
+            "lon": 7.77161
+          },
+          "state": "Rhineland-Palatinate",
+          "status": "RECRUITING",
+          "zip": "67655"
+        },
+        {
+          "city": "Dresden",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          },
+          "state": "Saxony",
+          "status": "RECRUITING",
+          "zip": "01307"
+        },
+        {
+          "city": "Bad Krozingen",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 47.91667,
+            "lon": 7.7
+          },
+          "status": "RECRUITING",
+          "zip": "79189"
+        },
+        {
+          "city": "Berlin",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          },
+          "status": "RECRUITING",
+          "zip": "10787"
+        },
+        {
+          "city": "Dortmund",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 51.51494,
+            "lon": 7.466
+          },
+          "status": "RECRUITING",
+          "zip": "44137"
+        },
+        {
+          "city": "Essen",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          },
+          "status": "RECRUITING",
+          "zip": "45147"
+        },
+        {
+          "city": "Essen",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          },
+          "status": "RECRUITING",
+          "zip": "45359"
+        },
+        {
+          "city": "Gladbeck",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 51.57077,
+            "lon": 6.98593
+          },
+          "status": "RECRUITING",
+          "zip": "45968"
+        },
+        {
+          "city": "Magdeburg",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 52.13129,
+            "lon": 11.63189
+          },
+          "status": "RECRUITING",
+          "zip": "39120"
+        },
+        {
+          "city": "M\u00fcnster",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 51.96236,
+            "lon": 7.62571
+          },
+          "status": "RECRUITING",
+          "zip": "48145"
+        },
+        {
+          "city": "Papenburg",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 53.07769,
+            "lon": 7.41516
+          },
+          "status": "RECRUITING",
+          "zip": "26871"
+        },
+        {
+          "city": "Rostock",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 54.0887,
+            "lon": 12.14049
+          },
+          "status": "RECRUITING",
+          "zip": "18057"
+        },
+        {
+          "city": "R\u00fcdersdorf",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 50.89744,
+            "lon": 11.95811
+          },
+          "status": "RECRUITING",
+          "zip": "15562"
+        },
+        {
+          "city": "Warendorf",
+          "country": "Germany",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 51.95109,
+            "lon": 7.98756
+          },
+          "status": "RECRUITING",
+          "zip": "48231"
+        },
+        {
+          "city": "Matsudo",
+          "country": "Japan",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 35.77995,
+            "lon": 139.90144
+          },
+          "state": "Chiba",
+          "status": "RECRUITING",
+          "zip": "270-2251"
+        },
+        {
+          "city": "Takamatsu",
+          "country": "Japan",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 34.33333,
+            "lon": 134.05
+          },
+          "state": "Kagawa-ken",
+          "status": "RECRUITING",
+          "zip": "760 8557"
+        },
+        {
+          "city": "Miyhazaki",
+          "country": "Japan",
+          "facility": "Novartis Investigative Site",
+          "state": "Miyazaki",
+          "status": "RECRUITING",
+          "zip": "8802102"
+        },
+        {
+          "city": "Suita",
+          "country": "Japan",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 34.76143,
+            "lon": 135.51567
+          },
+          "state": "Osaka",
+          "status": "RECRUITING",
+          "zip": "5650853"
+        },
+        {
+          "city": "Shinjuku Ku",
+          "country": "Japan",
+          "facility": "Novartis Investigative Site",
+          "state": "Tokyo",
+          "status": "RECRUITING",
+          "zip": "160-0008"
+        },
+        {
+          "city": "Kyoto",
+          "country": "Japan",
+          "facility": "Novartis Investigative Site",
+          "geoPoint": {
+            "lat": 35.02107,
+            "lon": 135.75385
+          },
+          "status": "RECRUITING",
+          "zip": "6078062"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Novartis Pharmaceuticals",
+          "name": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The main purpose of this study is to determine the safety and efficacy of DII235 in adults with elevated lipoprotein(a)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "In order to preserve the integrity of the study and to minimize bias, a randomized double-blind study design is being used.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent must be obtained prior to participation in the study.\n* Male or female participants 18 to 80 years of age (inclusive) at the screening.\n* Lp(a) \u2265 150 nmol/L at screening, measured at the central laboratory.\n* Participants with evidence of atherosclerotic cardiovascular disease and/or type 2 diabetes mellitus.\n\nExclusion Criteria:\n\n* Severe renal dysfunction\n* Hepatic dysfunction\n* Malignancy within the last 5 years\n* Use of investigational medications as defined in the protocol\n* History or presence at screening of an underlying disease, or surgical, physical, medical, or psychiatric condition that, in the opinion of the Investigator, or sponsor if consulted, would potentially affect participant safety within the study or interfere with participating in or completing the study or with the interpretation of data\n\nOther protocol-defined inclusion/exclusion criteria may apply",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of DII235 in Adults With Elevated Lipoprotein(a)",
+      "nctId": "NCT07235046",
+      "officialTitle": "A Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel-group, Dose-finding Study to Evaluate Efficacy, Safety, and Tolerability of DII235 in Adults With Elevated Lipoprotein(a)",
+      "orgStudyIdInfo": {
+        "id": "CDII235A12201"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Novartis"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com",
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 180, defined as the area under the curve (AUC) between the Day 60 Visit date and the Day 180 Visit date, divided by the duration between the two visit dates.",
+          "measure": "Time averaged percentage change from baseline between Day 60 and Day 180",
+          "timeFrame": "baseline to day 60 and day 180"
+        },
+        {
+          "description": "Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 360, defined as the area under the curve (AUC) between the Day 60 visit date and the Day 360 visit date, divided by the duration between the two visit dates.",
+          "measure": "Difference between DII235 dose 2 and placebo in time-averaged percent change from baseline in Lp(a) measured between Day 60 and Day 360",
+          "timeFrame": "baseline to day 60 and day 360"
+        },
+        {
+          "description": "Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 360, defined as the area under the curve (AUC) between the Day 60 visit date and the Day 360 visit date, divided by the duration between the two visit dates.",
+          "measure": "Difference between DII235 dose 4 and placebo in time-averaged percent change from baseline in Lp(a) measured between Day 60 and Day 360",
+          "timeFrame": "baseline to day 60 and day 360"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 360, defined as the area under the curve (AUC) between the Day 60 visit date and the Day 360 visit date, divided by the duration between the two visit dates.",
+          "measure": "Difference between DII235 dose 1, dose 3 and placebo versus placebo in time-averaged percent change from baseline in Lp(a) measured between Day 60 and Day 360",
+          "timeFrame": "baseline to day 60 and 360"
+        },
+        {
+          "description": "Time averaged change from baseline in log Lp(a) measured between Day 240 and Day 360, defined as the area under the curve (AUC) between the Day 240 Visit date and the Day 360 Visit date, divided by the duration between the two visit dates.",
+          "measure": "Difference between DII235 doses versus placebo in time-averaged percent change from baseline in Lp(a) measured between Day 240 and Day 360",
+          "timeFrame": "baseline to day 240 and Day 360"
+        },
+        {
+          "description": "Participant's status of achieving Lp(a) \\< 125 nmol/L at Day 180 and at Day 360 (Yes, No), without having any defined intercurrent events.",
+          "measure": "Difference between DII235 doses versus placebo with respect to the proportion of participants in achieving Lp(a) < 125 nmol/L at Day 180 and Day 360",
+          "timeFrame": "Day 180 and Day 360"
+        },
+        {
+          "description": "Participant's status of achieving Lp(a) \\< 75 nmol/L at Day 180 and at Day 360 (Yes, No), without having any defined intercurrent events.",
+          "measure": "Difference between DII235 doses versus placebo with respect to the proportion of participants in achieving Lp(a) < 75 nmol/L at Day 180 and Day 360",
+          "timeFrame": "Day 180 and Day 360"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Novartis Pharmaceuticals"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-09-08",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-02",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-09-08",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-05",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-11-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-11-14",
+      "studyFirstSubmitQcDate": "2025-11-14"
+    }
+  }
+}

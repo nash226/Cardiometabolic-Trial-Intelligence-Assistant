@@ -1,0 +1,210 @@
+{
+  "arms": [
+    {
+      "description": "Pitavastatin 2 mg/d - 4 mg/d",
+      "intervention_names": [
+        "Drug: Pitavastatin"
+      ],
+      "label": "pitavastatin",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Evolocumab 140 mg once per 2 weeks or Alirokumab 150 mg once per 2 weeks",
+      "intervention_names": [
+        "Drug: PCSK9 inhibitor"
+      ],
+      "label": "PCSK9 Inhibitors",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Dyslipidemias",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hyperlipidemias",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Liver Transplant Disorder",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Immunosuppression",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Statins",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* signed informed consent to participate in the study;\n* a history of liver transplantation for any reason;\n* immunosuppressive therapy;\n* the presence of hyperlipidemia, requiring the prescription of lipid-lowering therapy according to the clinical guidelines of the European Society for the Study of Atherosclerosis (EAS) 2019\n* failure to achieve the target level of LDL-C against the background of current lipid-lowering therapy;\n* if the patient within 1 month before randomization took lipid-lowering therapy, then the absence of side effects against the background of previous lipid-lowering therapy.\n\nExclusion Criteria:\n\n* treatment with PCSK9 in previous 6 months;\n* current treatment in the form of lipoprotein apheresis;\n* heart failure IV NYHA;\n* active infectious disease, severe hematological, metabolic, gastrointestinal or endocrine dysfunctions (for example, uncontrolled thyroid dysfunction) at the time of the screening or randomization visits;\n* the presence of an oncological disease, with the exception of hepatocellular carcinoma, which served as the reason for liver transplantation;\n* CFR\\<15ml/min/1,73m2;\n* pregnancy and breastfeeding.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "pitavastatin"
+      ],
+      "description": "First phase (6 months):\n\nPatients will be randomized 1:1 into 2 groups:\n\n1. pitavastatin monotherapy\n2. monotherapy with a PCSK9 inhibitor (evolocumab 140 mg or alirocumab 150 mg once every 2 weeks subcutaneously)\n\nIn the group of Pitavastatin: Pitavastatin at visit 0 will be prescribed at a dose of 2 mg, after 1 month in the absence of side effects against the background of ongoing therapy, the dose will be increased to 4 mg.\n\nThe lipid profile and safety of the therapy will be assessed in 1, 3 and 6 months after the start of the therapy.\n\nWhen triglyceride levels rise above 5.7 mmol/l in two consecutive analyzes, the addition of fenofibrate may be considered.\n\nSecond phase (6 months):\n\nIf the target level of LDL-C is not achieved during monotherapy with pitavastatin, the patient will be asked to continue treatment with combined lipid-lowering therapy (pitavastatin + PCSK9 inhibitor). There will be visits on the 7th, 9th and 12th months.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Pitavastatin",
+      "normalized_name": "pitavastatin"
+    },
+    {
+      "arm_group_labels": [
+        "PCSK9 Inhibitors"
+      ],
+      "description": "First phase (6 months):\n\nPatients will be randomized 1:1 into 2 groups:\n\n1. pitavastatin monotherapy\n2. monotherapy with a PCSK9 inhibitor (evolocumab 140 mg or alirocumab 150 mg once every 2 weeks subcutaneously)\n\nIn the group of PCSK9 inhibitors:The lipid profile and safety of the therapy will be assessed in 1, 3 and 6 months after the start of the therapy.\n\nWhen triglyceride levels rise above 5.7 mmol/l in two consecutive analyzes, the addition of fenofibrate may be considered.\n\nSecond phase (6 months):\n\nIf the target level of LDL-C is not achieved during monotherapy with a PCSK9 inhibitor, the patient will be asked to continue treatment with combined lipid-lowering therapy (pitavastatin + PCSK9 inhibitor). Pitavastatin will initially be prescribed at a dose of 2 mg, after 1 month. in the absence of side effects against the background of ongoing therapy, the dose will be increased to 4 mg. There will be visits on the 7th, 9th and 12th months.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "PCSK9 inhibitor",
+      "normalized_name": "pcsk9 inhibitor"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "absolute change in LDL-C from baseline",
+      "measure": "absolute change in LDL-C from baseline by months 1 and 3 of study therapy",
+      "outcome_type": "primary",
+      "time_frame": "months 1 and 3 of study therapy"
+    },
+    {
+      "description": "percent change in LDL-C from baseline",
+      "measure": "percent change in LDL-C from baseline at months 1 and 3 of study therapy",
+      "outcome_type": "primary",
+      "time_frame": "months 1 and 3 of study therapy"
+    },
+    {
+      "description": "the proportion of patients who have reached the target level of LDL-C",
+      "measure": "the proportion of patients who have reached the target level of LDL-C by month 1 of study therapy",
+      "outcome_type": "primary",
+      "time_frame": "month 1 of study therapy"
+    },
+    {
+      "description": "the proportion of patients who have reached the target level of LDL-C",
+      "measure": "the proportion of patients who have reached the target level of LDL-C by month 3 of study therapy",
+      "outcome_type": "primary",
+      "time_frame": "month 3 of study therapy"
+    },
+    {
+      "description": "the timing of achieving the target level of LDL-C",
+      "measure": "the timing of achieving the target level of LDL-C at months 1, 3, 6, 7, 9, 12 of study therapy",
+      "outcome_type": "secondary",
+      "time_frame": "months 1, 3, 6, 7, 9, 12 of study therapy"
+    },
+    {
+      "description": "percent of patients with target level of LDL-C",
+      "measure": "percent of patients with target level of LDL-C at months 6 and 12 of study therapy",
+      "outcome_type": "secondary",
+      "time_frame": "months 6 and 12 of study therapy"
+    },
+    {
+      "description": "the proportion of patients with increased level of creatine phosphokinase (more than 4 times of the upper limit normal (ULN))",
+      "measure": "the proportion of patients with increased level of creatine phosphokinase (more than 4 times of the upper limit normal (ULN)) at months 1, 3, 6, 7, 9, 12 of study therapy",
+      "outcome_type": "other",
+      "time_frame": "months 1, 3, 6, 7, 9, 12 of study therapy"
+    },
+    {
+      "description": "the proportion of patients with increase higer than the upper limit normal (ULN) of one of the parameters in blood: ALT, AST, GGT, alkaline phosphatase, total bilirubin",
+      "measure": "the proportion of patients with increase higer than the upper limit normal (ULN) of one of the parameters in blood: ALT, AST, GGT, alkaline phosphatase, total bilirubin at months 1, 3, 6, 7, 9, 12 of study therapy",
+      "outcome_type": "other",
+      "time_frame": "months 1, 3, 6, 7, 9, 12 of study therapy"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "To study the efficacy and safety of pitavastatin and PCSK9 inhibitors in liver transplant patients on ongoing immunosuppressive therapy.",
+    "brief_title": "Efficacy and Safety of Pitavastatin and PCSK9 Inhibitors in Liver Transplant Patients",
+    "collaborator_names": [],
+    "completion_date": "2025-01-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* signed informed consent to participate in the study;\n* a history of liver transplantation for any reason;\n* immunosuppressive therapy;\n* the presence of hyperlipidemia, requiring the prescription of lipid-lowering therapy according to the clinical guidelines of the European Society for the Study of Atherosclerosis (EAS) 2019\n* failure to achieve the target level of LDL-C against the background of current lipid-lowering therapy;\n* if the patient within 1 month before randomization took lipid-lowering therapy, then the absence of side effects against the background of previous lipid-lowering therapy.\n\nExclusion Criteria:\n\n* treatment with PCSK9 in previous 6 months;\n* current treatment in the form of lipoprotein apheresis;\n* heart failure IV NYHA;\n* active infectious disease, severe hematological, metabolic, gastrointestinal or endocrine dysfunctions (for example, uncontrolled thyroid dysfunction) at the time of the screening or randomization visits;\n* the presence of an oncological disease, with the exception of hepatocellular carcinoma, which served as the reason for liver transplantation;\n* CFR\\<15ml/min/1,73m2;\n* pregnancy and breastfeeding.",
+    "detailed_description": "1. Evaluate the efficacy and safety of lipid-lowering therapy in real clinical practice.\n2. To evaluate the efficacy and safety of pitavastatin in patients undergoing liver transplantation and receiving immunosuppressive therapy.\n3. Evaluate the efficacy and safety of PCSK9 inhibitors in patients undergoing liver transplantation and receiving immunosuppressive therapy.\n4. To compare the efficacy and safety of pitavastatin and a PCSK9 inhibitor in patients undergoing liver transplantation and receiving immunosuppressive therapy.",
+    "drug_class_labels": [],
+    "enrollment_count": 59,
+    "enrollment_type": "ACTUAL",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Pitavastatin",
+      "PCSK9 inhibitor"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Dyslipidemias",
+      "Hyperlipidemias",
+      "Liver Transplant Disorder",
+      "Immunosuppression",
+      "Immunosuppressive therapy",
+      "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "pitavastatin",
+      "statins",
+      "PCSK9",
+      "PCSK9 Inhibitors",
+      "evolocumab",
+      "alirocumab"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-01-22",
+    "lead_sponsor_class": "OTHER_GOV",
+    "lead_sponsor_name": "National Medical Research Center for Therapy and Preventive Medicine",
+    "masking": "DOUBLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05537948",
+    "official_title": "Efficacy and Safety of Pitavastatin and PCSK9 Inhibitors in Liver Transplant Patients",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2024-01-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05537948",
+    "start_date": "2021-10-01",
+    "study_first_posted_at": "2022-09-13",
+    "study_type": "INTERVENTIONAL"
+  }
+}

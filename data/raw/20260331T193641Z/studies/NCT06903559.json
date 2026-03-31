@@ -1,0 +1,338 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D007676",
+          "term": "Kidney Failure, Chronic"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006401",
+          "term": "Hematologic Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C584543",
+          "term": "roxadustat"
+        },
+        {
+          "id": "D006397",
+          "term": "Hematinics"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants randomized to this arm will receive oral Roxadustat (Evernzo) three times per week according to standard dosing guidelines for managing anemia in hemodialysis patients. Participants will continue standard care for other conditions but will discontinue other erythropoiesis-stimulating agents (ESAs). Dosing may be adjusted based on hemoglobin response as per protocol and product labeling.",
+          "interventionNames": [
+            "Drug: Roxadustat"
+          ],
+          "label": "Roxadustat Group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants randomized to this arm will continue receiving their conventional management for renal anemia, typically including erythropoiesis-stimulating agents (ESAs) and/or intravenous iron, as determined by standard clinical practice at the study site. Participants will receive standard care for all other conditions.",
+          "interventionNames": [
+            "Drug: Conventional Anemia Management"
+          ],
+          "label": "Conventional Treatment Group",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Roxadustat Group"
+          ],
+          "description": "Intervention Description: Oral hypoxia-inducible factor prolyl hydroxylase inhibitor (HIF-PHI). Administered orally three times per week. Dosage will be initiated and adjusted according to prescribing guidelines for the treatment of anemia associated with chronic kidney disease in patients on dialysis, based on hemoglobin levels.",
+          "name": "Roxadustat",
+          "otherNames": [
+            "Evernzo"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Conventional Treatment Group"
+          ],
+          "description": "Standard of care treatment for renal anemia, typically involving administration of erythropoiesis-stimulating agents (ESAs, e.g., epoetin, darbepoetin) and/or intravenous iron supplementation. Dosing and specific agents used are per standard clinical practice at the study site and adjusted based on hemoglobin levels and iron status according to prevailing guidelines.",
+          "name": "Conventional Anemia Management",
+          "otherNames": [
+            "Erythropoiesis-Stimulating Agent",
+            "Iron Supplementation"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Kidney Failure, Chronic",
+        "Malnutrition-Inflammation Syndrome",
+        "Anemia in End Stage Renal Disease",
+        "Cardiovascular Diseases (CVD)"
+      ],
+      "keywords": [
+        "Roxadustat",
+        "Hemodialysis",
+        "Renal Anemia",
+        "Cardiovascular Diseases",
+        "Malnutrition-Inflammation-Atherosclerosis Syndrome"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ibrahimgalalah@gmail.com",
+          "name": "Ibrahim M Galalah, MSC",
+          "phone": "+201027794586",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Al Mansurah",
+          "contacts": [
+            {
+              "email": "ibrahimgalalah@gmail.com",
+              "name": "Ibrahim M Galalah",
+              "phone": "+201027794586",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Egypt",
+          "facility": "Urology and Nephrology Center, Mansoura University",
+          "geoPoint": {
+            "lat": 31.03637,
+            "lon": 31.38069
+          },
+          "state": "Dakahliya",
+          "status": "RECRUITING",
+          "zip": "35111"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients with kidney failure who require hemodialysis often suffer from anemia (low red blood cell count), heart and blood vessel problems, and a condition involving poor nutrition, inflammation, and hardening of the arteries (called MIA syndrome). Standard treatments for anemia often involve injections and iron supplements. This study aims to see if a newer oral medication, Roxadustat, works better than these standard treatments not only for anemia but also for improving cardiovascular health and the MIA syndrome.\n\nParticipants in the study will be randomly assigned (like by chance) to one of two groups. One group will receive Roxadustat, while the other group will continue with their conventional anemia treatment. Researchers will compare the effects on heart function, markers of nutrition and inflammation, and anemia levels in both groups over a 6-month period.",
+      "detailedDescription": "Renal anemia is a frequent and significant complication in patients with end-stage kidney disease undergoing hemodialysis, affecting over 90% of this population. Anemia adversely impacts quality of life and is associated with increased cardiovascular risk, hospitalization rates, and mortality. These patients also commonly experience Malnutrition-Inflammation-Atherosclerosis (MIA) syndrome and have significantly elevated cardiovascular mortality compared to the general population. While Erythropoiesis-stimulating agents (ESAs) are a mainstay of therapy, concerns exist regarding potential adverse events, particularly with high doses, highlighting the need for alternative or complementary strategies.\n\nRoxadustat is an oral hypoxia-inducible factor prolyl hydroxylase inhibitor (HIF-PHI) that represents a newer class of agents for treating renal anemia. By inhibiting HIF degradation, Roxadustat mimics a hypoxic state, leading to enhanced endogenous erythropoietin synthesis and improved iron metabolism pathways. While its efficacy in managing anemia is established, its potential effects on the interconnected issues of cardiovascular disease (CVD) and MIA syndrome in the hemodialysis population remain poorly understood and require further investigation.\n\nThis study hypothesizes that Roxadustat, compared to conventional anemia management, may offer benefits beyond hemoglobin correction, potentially improving cardiovascular parameters and ameliorating aspects of the MIA syndrome in hemodialysis patients.\n\nThis is a randomized, open-label, parallel-group, controlled clinical trial conducted at the Urology and Nephrology center, Mansoura University. Eligible chronic hemodialysis patients will be randomized 1:1 to receive either Roxadustat (intervention group) or continue conventional anemia therapy (control group) for a duration of 6 months. Conventional therapy typically includes ESAs and iron supplementation as per standard clinical practice.\n\nKey assessments will include evaluation of cardiovascular status (utilizing echocardiography for structural and functional assessment, and Doppler ultrasound for carotid intima-media thickness), markers relevant to MIA syndrome (including anthropometric measurements, inflammatory markers like high-sensitivity C-reactive protein (hs-CRP) and Endothelin-1, nutritional markers, lipid profiles, and measures like normalized protein catabolic rate (nPCR)), and parameters related to anemia management (hemoglobin, iron indices). Data will be collected at baseline and at the end of the 6-month study period. Safety monitoring will occur throughout the trial. Statistical analysis will compare changes between the two groups using appropriate methods for quantitative and qualitative data."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 46,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age of patient is more than 18.\n* Patients who are willing to sign informed consent.\n* Patients with ESKD on chronic hemodialysis for more than 3 months.\n\nExclusion Criteria:\n\n* Current pregnancy or lactation.\n* Patients with pre-existing malignancy.\n* Patients with psychosis or on hypnotics.\n* Refuse to participate in the study.\n* Known history of hematological disorders or other known causes for anemia other than CKD or dialysis.\n* Patients with severe cardiovascular disease",
+      "genderBased": false,
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ROXA-HD-MIA",
+      "briefTitle": "Roxadustat's Effect on Heart, Nutrition, and Inflammation in Hemodialysis Patients",
+      "nctId": "NCT06903559",
+      "officialTitle": "Effect of Roxadustat on Cardiovascular System and Malnutrition-Inflammation-Atherosclerosis (MIA) Syndrome in Hemodialysis Patients: A Randomized Controlled Study",
+      "orgStudyIdInfo": {
+        "id": "MD.24.08.876"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Mansoura University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "A final decision regarding the sharing of individual participant data (IPD) has not yet been made. Factors such as institutional policies, data privacy regulations, resource availability for data de-identification and sharing, and specific requests from qualified researchers will be considered post-study completion before determining if and how IPD might be shared. Any potential sharing would be subject to appropriate ethical and institutional approvals",
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Assesses the change in the percentage of blood leaving the left ventricle with each contraction, measured by transthoracic echocardiography at the beginning of the study and after 6 months of treatment. An increase indicates improvement in systolic function.",
+          "measure": "Change from Baseline in Left Ventricular Ejection Fraction (LVEF) at 6 Months",
+          "timeFrame": "Baseline and 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Assesses the change in the thickness of the inner layers of the carotid artery wall, a marker of atherosclerosis. Measured by Doppler ultrasound of the carotid artery at the beginning of the study and after 6 months of treatment. A decrease or smaller increase indicates less progression of atherosclerosis.",
+          "measure": "Change from Baseline in Carotid Intima-Media Thickness (CIMT) at 6 Months",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "description": "Assesses the change in a marker of systemic inflammation. Measured via laboratory blood test at the beginning of the study and after 6 months of treatment. A decrease indicates reduced inflammation.",
+          "measure": "Change from Baseline in High-Sensitivity C-Reactive Protein (hs-CRP) Level at 6 Months",
+          "timeFrame": "Baseline and 6 months"
+        },
+        {
+          "description": "Assesses the change in protein catabolism, reflecting nutritional status and protein intake adequacy in dialysis patients. Calculated based on urea kinetics (typically from pre- and post-dialysis BUN and dialysis parameters) at the beginning of the study and after 6 months. An increase may indicate improved nutritional status (within appropriate ranges).",
+          "measure": "Change from Baseline in Normalized Protein Catabolic Rate (nPCR) at 6 Months",
+          "timeFrame": "Baseline and 6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Sanghani NS, Haase VH. Hypoxia-Inducible Factor Activators in Renal Anemia: Current Clinical Experience. Adv Chronic Kidney Dis. 2019 Jul;26(4):253-266. doi: 10.1053/j.ackd.2019.04.004.",
+          "pmid": "31477256",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Yap DYH, McMahon LP, Hao CM, Hu N, Okada H, Suzuki Y, Kim SG, Lim SK, Vareesangthip K, Hung CC, Nangaku M; APSN HIF-PHI Recommendation Committee. Recommendations by the Asian Pacific society of nephrology (APSN) on the appropriate use of HIF-PH inhibitors. Nephrology (Carlton). 2021 Feb;26(2):105-118. doi: 10.1111/nep.13835. Epub 2020 Dec 9.",
+          "pmid": "33222343",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Zhou Q, Mao M, Li J, Deng F. The efficacy and safety of roxadustat for anemia in patients with dialysis-dependent chronic kidney disease: a systematic review and meta-analysis. Ren Fail. 2023 Dec;45(1):2195011. doi: 10.1080/0886022X.2023.2195011.",
+          "pmid": "37489561",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Mansoura University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Mansoura University",
+        "investigatorFullName": "Ibrahim Mohammed Galalah",
+        "investigatorTitle": "Principal Investigator",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-11-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-10-15",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-04-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-28",
+      "studyFirstSubmitQcDate": "2025-03-28"
+    }
+  }
+}

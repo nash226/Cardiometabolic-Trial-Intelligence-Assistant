@@ -1,0 +1,269 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D058226",
+          "term": "Plaque, Atherosclerotic"
+        },
+        {
+          "id": "D002340",
+          "term": "Carotid Artery Diseases"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "All patients will undergo a 68Ga-NODAGA-RGD PET/CT, a 18F-FDG PET/CT, a MRI and a US.",
+          "interventionNames": [
+            "Drug: 68Ga-NODAGA-RGD PET/CT"
+          ],
+          "label": "68Ga-NODAGA-RGD radiotracer",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "68Ga-NODAGA-RGD radiotracer"
+          ],
+          "description": "200 MBq 68 Ga-NODAGA-RGD will be administered i.v. and images centred on the carotid area acquired",
+          "name": "68Ga-NODAGA-RGD PET/CT",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Inflammation",
+        "Atheromatous Plaques",
+        "Carotid Artery Diseases"
+      ],
+      "keywords": [
+        "PET/CT",
+        "68Ga-NODAGA-RGD",
+        "18F-FDG",
+        "MRI",
+        "US ultrasound",
+        "inflammatory atheromatous plaque",
+        "endarterectomy"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "john.prior@chuv.ch",
+          "name": "John O. Prior, PhD, MD",
+          "phone": "+41 21 314 43 48",
+          "role": "CONTACT"
+        },
+        {
+          "email": "emmanuel.deshayes@chuv.ch",
+          "name": "Emmanuel Deshayes, MD",
+          "phone": "+41 21 314 02 20",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Lausanne",
+          "country": "Switzerland",
+          "facility": "Centre Hospitalier Universitaire Vaudois",
+          "geoPoint": {
+            "lat": 46.516,
+            "lon": 6.63282
+          },
+          "state": "Canton of Vaud",
+          "status": "RECRUITING",
+          "zip": "1011"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Lausanne University Hospitals",
+          "name": "John O. Prior, PhD, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The present study aims at assessing the ability of 68Ga-NODAGA-RGD PET/CT for the detection of inflammatory atheromatous plaques in the carotid arteries, compared to 18F-FDG PET/CT, MRI and US and to determine the contribution of each imaging technique. Current gold standard for inflammation is histopathology.\n\nHypothesis : 68Ga-NODAGA-RGD might give a better initial evaluation of patients with atheromatous plaques in the carotid artery eligible for endarterectomy.",
+      "detailedDescription": "Patients with indication for endarterectomy will be presented the present protocol. If inclusion criteria are fulfilled, patients will have a 18F-FDG PET/CT + carotid US performed 6 to 2 days before endarterectomy and 68Ga-NODAGA-RGD PET/CT + MRI performed the day before endarterectomy. Histopathological sample will be analyzed to measure plaque inflammation.\n\nAll imaging results and histopathology results will be pooled and compared."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "DIAGNOSTIC"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* age \\<= 85 years\n* Karnofsky \\>= 80%\n* patient with indication ofr carotid endarterectomy\n* signed consent form\n\nExclusion Criteria:\n\n* indication for surgery other than endarterectomy \\<14 days\n* contraindication to surgery\n* contraindication to MRI\n* contraindication to gadolinium injection (stage 4/5 kidney insufficiency, GFR\\<30ml/min/1.73m2)\n* pregnancy, breastfeeding\n* lack of discernment",
+      "healthyVolunteers": false,
+      "maximumAge": "85 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Multimodal Imaging Assessment of the Inflammatory Atheromatous Plaque",
+      "nctId": "NCT01608516",
+      "officialTitle": "Multimodal Assessment of the Inflammatory Atheromatous Plaque : Comparison Between 68Ga-NODAGA-RGD PET/CT, 18F-FDG PET/CT, MRI AND US",
+      "orgStudyIdInfo": {
+        "id": "80/10"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Lausanne Hospitals"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The potential of each of the methods of imaging for the detection of inflammatory atheromatous plaques will be compared. For that purpose, the capacity of every criterion of primary assessment to determine the presence of an unstable plaque will be studied compared with the histopathological sample.",
+          "measure": "Comparison of each method of imaging for the detection of inflammatory atheromatous plaques",
+          "timeFrame": "Within1 month of endarterectomy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "A comparison of the AUC will be realized to determine the superiority of a method compared with the other one, by a non parametric test comparing AUC , ROC curves respectively.",
+          "measure": "Comparison of AUC of the imaging methods",
+          "timeFrame": "Within1 month of endarterectomy"
+        },
+        {
+          "description": "The histopathological analysis will be the degree of local inflammation estimated by the macrophagic infiltration as well as the degree of neovascularization.",
+          "measure": "Analysis of histopathological sample of endarterectomy",
+          "timeFrame": "Within1 month of endarterectomy"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Gnesin S, Mitsakis P, Cicone F, Deshayes E, Dunet V, Gallino AF, Kosinski M, Baechler S, Buchegger F, Viertl D, Prior JO. First in-human radiation dosimetry of 68Ga-NODAGA-RGDyK. EJNMMI Res. 2017 Dec;7(1):43. doi: 10.1186/s13550-017-0288-x. Epub 2017 May 18.",
+          "pmid": "28523582",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Swiss Heart Foundation"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Lausanne Hospitals"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Lausanne Hospitals",
+        "investigatorFullName": "John O. Prior",
+        "investigatorTitle": "Chief of Department of Nuclear Medicine",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2024-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-17",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2012-04",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-06",
+      "studyFirstPostDateStruct": {
+        "date": "2012-05-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2012-04-16",
+      "studyFirstSubmitQcDate": "2012-05-28"
+    }
+  }
+}

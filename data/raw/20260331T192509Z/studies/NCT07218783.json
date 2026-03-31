@@ -1,0 +1,256 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D007905",
+          "term": "Lens Diseases"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D002386",
+          "term": "Cataract"
+        },
+        {
+          "id": "D005901",
+          "term": "Glaucoma"
+        },
+        {
+          "id": "D009798",
+          "term": "Ocular Hypertension"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Bimatoprost Implant System",
+            "Device: SpyGlass IOL"
+          ],
+          "label": "Bimatoprost Implant System / IOL Combination",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Timolol Maleate Ophthalmic Solution, 0.5%",
+            "Device: Commercial IOL"
+          ],
+          "label": "Timolol Maleate Ophthalmic Solution 0.5%",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Bimatoprost Implant System / IOL Combination"
+          ],
+          "description": "Bimatoprost Implant System used in combination with the SpyGlass IOL",
+          "name": "Bimatoprost Implant System",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Bimatoprost Implant System / IOL Combination"
+          ],
+          "description": "SpyGlass Intraocular Lens",
+          "name": "SpyGlass IOL",
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "Timolol Maleate Ophthalmic Solution 0.5%"
+          ],
+          "description": "Timolol Maleate Ophthalmic Solution, 0.5% BID",
+          "name": "Timolol Maleate Ophthalmic Solution, 0.5%",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Timolol Maleate Ophthalmic Solution 0.5%"
+          ],
+          "description": "Commercially Available Aspheric Monofocal Non-Yellow Chromophore Intraocular Lens",
+          "name": "Commercial IOL",
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cataract",
+        "Glaucoma",
+        "Ocular Hypertension"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "clinical@spyglasspharma.com",
+          "name": "Director, Clinical Affairs",
+          "phone": "949-284-6904",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "jmaguilar@houstoneye.com",
+              "name": "Clinical Research Coordinator",
+              "phone": "832-553-7100",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Houston Eye Associates",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77025"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "SpyGlass Pharma",
+          "name": "Paul Yoo, OD",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial is a randomized study to evaluate the Bimatoprost Implant System used in combination with the SpyGlass IOL to Timolol Ophthalmic Solution in participants with mild to moderate open-angle glaucoma or ocular hypertension undergoing cataract surgery."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 400,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of mild to moderate open-angle glaucoma or ocular hypertension\n* Planned removal of cataract\n* Female participants of childbearing potential must have a negative urine pregnancy test at the baseline visit and agree to the use of contraception\n\nExclusion Criteria:\n\n* Uncontrolled systemic disease\n* History of incisional/refractive corneal surgery\n* Any glaucoma diagnosis other than OHT, open-angle, pseudoexfoliative, or pigmentary glaucoma\n* History of incisional glaucoma surgery or intraocular injections\n* Other ocular diseases, pathology, or conditions",
+      "healthyVolunteers": false,
+      "minimumAge": "22 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Evaluation of the Safety and Efficacy of the Bimatoprost Implant System Used in Combination With the SpyGlass IOL Compared to Timolol Ophthalmic Solution (Rhine)",
+      "nctId": "NCT07218783",
+      "officialTitle": "A Prospective, Multicenter, Randomized, Masked, Controlled Study to Evaluate the Safety and Efficacy of the Bimatoprost Implant System (78 mcg) Used in Combination With the SpyGlass IOL Compared to Timolol Maleate Ophthalmic Solution, USP, 0.5%,",
+      "orgStudyIdInfo": {
+        "id": "SGP-005"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "SpyGlass Pharma, Inc."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Time-matched mean IOP change from Baseline in the study eyes at all the individual IOP timepoints",
+          "measure": "Mean IOP Reduction from Baseline (mmHg)",
+          "timeFrame": "Weeks 2 and 6, and Month 3"
+        },
+        {
+          "description": "Study eyes achieving best corrected distance visual acuity (BCDVA) of 20/40 or better",
+          "measure": "BCDVA 20/40 or better",
+          "timeFrame": "Month 6"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Time matched mean IOP reduction from Baseline (mmHg) in the study eyes at all the individual IOP timepoints",
+          "measure": "Mean IOP Reduction from Baseline (mmHg)",
+          "timeFrame": "Month 6, 9 and 12"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "SpyGlass Pharma Website",
+          "url": "https://www.spyglasspharma.com/"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "SpyGlass Pharma, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2031-03-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-16",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2029-03-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-10-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-10",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-10-16",
+      "studyFirstSubmitQcDate": "2025-10-16"
+    }
+  }
+}

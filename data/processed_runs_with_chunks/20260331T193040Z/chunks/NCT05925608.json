@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05925608:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05925608\nBrief title: Clinical Trial of Human Allogenic Culture-expanded Bone Marrow-derived Mesenchymal Stem Cells\nOfficial title: Phase I/II Clinical Trial of Human Allogenic Culture-expanded Bone Marrow-derived Mesenchymal Stem Cells (hMSCs) in Patients With Ischemic Heart Failure With Reduced Ejection Fraction (HFrEF)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT05925608"
+    },
+    {
+      "chunk_id": "NCT05925608:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heart Failure, Systolic\nIntervention labels: CardiALLO\u2122 Human Allogenic Culture-expanded Bone marrow-derived Mesenchymal Stem Cells (hMSCs); Diagnostic Catheterization\nDrug class labels: \nArms: Study Treatment; Control\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05925608"
+    },
+    {
+      "chunk_id": "NCT05925608:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This clinical study will utilize allogenic bone marrow-derived culture-expanded MSC that are expanded from mesenchymal stem cells and delivered using the investigational Helix transendocardial delivery catheter as a therapy for ischemic HFrEF with reduced ejection fraction.\nDetailed description: Chronic heart failure is in need of new therapies. Over the past few years, cardiovascular regenerative medicine using bone marrow-derived cells has emerged as a new treatment strategy that could have tremendous benefit in treating heart failure. At present, several types of adult bone marrow derived stem cells hold great promise to treat heart failure. Allogenic culture-expanded bone marrow-derived human mesenchymal stem cells (MSC) are the subject of the current study as having potential to provide a safe and effective treatment for patients with ischemic heart failure. Mesenchymal stem cells are multipotent stromal cells that can differentiate into a variety of cell types, including osteoblasts (bone cells), chondrocytes (cartilage cells), myocytes (muscle cells) and adipocytes (fat cells which give rise to marrow adipose tissue). The CardiALLO cell therapy is an allogenic bone marrow-derived cell treatment which is delivered intramyocardially using the investigational Helix delivery catheter. The purpose of this study is to determine the safety, optimal dose and efficacy of CardiALLO cell therapy system in patients with ischemic heart failure with reduced ejection fraction (HFrEF). Phase I is designed to determine effective dose and Phase II is designed to evaluate effectiveness for improving clinical outcomes.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 235,
+      "trial_nct_id": "NCT05925608"
+    },
+    {
+      "chunk_id": "NCT05925608:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 21 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* New York Heart Association (NYHA) Class II or III\n* Diagnosis of chronic ischemic left ventricular dysfunction secondary to myocardial infarction\n* Left ventricular ejection fraction between 20% and 40%\n* On stable, guideline-directed medical and device therapy, as appropriate\n* NTproBNP level of \\>500 pg/ml.\n* Have inflammation \\> 2 mg/L as measured by high-sensitivity C-reactive protein (hs-CRP) test.\n\nExclusion Criteria:\n\n* Other cardiovascular or medical history parameters, as appropriate, that may preclude safe administration of the study treatment.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 101,
+      "trial_nct_id": "NCT05925608"
+    },
+    {
+      "chunk_id": "NCT05925608:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Treatment-emergent serious adverse events | time_frame=Through 30 days post-procedure. | description=Incidence of TE-SAE defined as a composite of death, non-fatal MI, stroke, worsening HF (requiring admission, iv diuretics and/or inotropics), myocardial perforation (with tamponade), ventricular arrythmias \\>15 seconds\ntype=primary | measure=Composite endpoint consisting of all cause or cardiac death, non-fatal cardiac-related hospitalizations and functional capacity measured using the 6 minute walk distance. | time_frame=Through Month 12 | description=The primary efficacy endpoint is a composite endpoint based on a 3-tiered Finkelstein-Schoenfeld (FS) hierarchical analysis. The tiers, starting with the most serious events, would be (1) all cause death, including cardiac death equivalents such as heart transplant or left ventricular assist device placement, ordered by time to event; (2) non-fatal MACCE events excluding those deemed procedure related occurring within the first 7 days (heart failure hospitalization, stroke or MI) ordered by time to event, and (3) change for 6MWD.\ntype=secondary | measure=Overall survival | time_frame=Through 12 months | description=Overall survival time\ntype=secondary | measure=Major Adverse Cardiac Events (MACE) | time_frame=Through 12 months | description=A composite of all-cause death, hospitalization for worsening heart failure, nonfatal recurrent myocardial infarction, placement of a left ventricular assist device \\[LVAD\\], or heart transplantation)\ntype=secondary | measure=Minnesota Living with Heart Failure Questionnaire | time_frame=Through 12 months | description=Self-reported questionnaire asking about heart failure symptoms with lower score being better",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 223,
+      "trial_nct_id": "NCT05925608"
+    },
+    {
+      "chunk_id": "NCT05925608:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-08-23\nPrimary completion date: 2026-12\nCompletion date: 2027-12\nStudy first posted: 2023-06-29\nResults first posted: None\nLast update posted: 2025-12-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05925608"
+    },
+    {
+      "chunk_id": "NCT05925608:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: BioCardia, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT05925608"
+    }
+  ],
+  "trial_nct_id": "NCT05925608"
+}

@@ -1,0 +1,312 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D018805",
+          "term": "Sepsis"
+        },
+        {
+          "id": "D007239",
+          "term": "Infections"
+        },
+        {
+          "id": "D018746",
+          "term": "Systemic Inflammatory Response Syndrome"
+        },
+        {
+          "id": "D007249",
+          "term": "Inflammation"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012772",
+          "term": "Shock, Septic"
+        },
+        {
+          "id": "D019586",
+          "term": "Intracranial Hypertension"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D007773",
+          "term": "Lactates"
+        },
+        {
+          "id": "D006880",
+          "term": "Hydroxy Acids"
+        },
+        {
+          "id": "D002264",
+          "term": "Carboxylic Acids"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D019354",
+          "term": "Sodium Lactate"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients suffering from septic shock who require fluid resuscitation get 0.5M HSL (containing 504mM of sodium and lactate)",
+          "interventionNames": [
+            "Drug: Sodium Lactate"
+          ],
+          "label": "Group 1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients suffering from septic shock who require fluid resuscitation get 3% NaCl (containing 513mM of sodium and chloride)",
+          "interventionNames": [
+            "Drug: 3% NaCl"
+          ],
+          "label": "Group 2",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Group 1"
+          ],
+          "description": "0.5M HSL (containing 504mM of sodium and lactate)",
+          "name": "Sodium Lactate",
+          "otherNames": [
+            "0.5M natrii lactatis"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Group 2"
+          ],
+          "description": "active compartor 3% NaCl",
+          "name": "3% NaCl",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Septic Shock",
+        "Intracranial Hypertension"
+      ],
+      "keywords": [
+        "intracranial hypertension",
+        "septic shock"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "krizm@fnplzen.cz",
+          "name": "Miroslav K\u0159\u00ed\u017e, MD",
+          "phone": "+420732850912",
+          "role": "CONTACT"
+        },
+        {
+          "email": "marek.nalos@gmail.com",
+          "name": "Marek Nalos, MD",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Pilsen",
+          "contacts": [
+            {
+              "email": "krizm@fnplzen.cz",
+              "name": "Miroslav K\u0159\u00ed\u017e, MD",
+              "phone": "+420 732 850 912",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mareknalos@gmail.com",
+              "name": "Marek Nalos",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Miroslav K\u0159\u00ed\u017e, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Czechia",
+          "facility": "University Hospital Pilsen",
+          "geoPoint": {
+            "lat": 49.74747,
+            "lon": 13.37759
+          },
+          "state": "Czech Republic",
+          "status": "RECRUITING",
+          "zip": "30100"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "A Pilot, Randomized, Double-Blinded, Controlled Study of Hemodynamic and Acid Base Effects of 0.5M Sodium Lactate and 3% Saline Solutions in Septic Shock Patients",
+      "detailedDescription": "This study investigates two resuscitation fluids that are being used off label for the treatment of patients suffering from septic shock and also in patients with intracranial hypertension in intensive care."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects will be eligible for the trial if they meet all of the following criteria:\n\n  1. Age criteria: 18 - 90 years\n  2. Septic shock - Sepsis 3 criteria :\n\n     1. acute change in total SOFA score \u2265 2 due to infection\n     2. use of vasopressor drug to maintain target mean arterial pressure \u2265 65 mmHg\n     3. blood lactate level \u2265 2 mmol/L within last 24 hours\n  3. Likely need for fluid resuscitation\n\n     1. poor peripheral perfusion as evidenced by 2 out of 4: i. peripheral cyanosis with delayed capillary refill \u2265 3 seconds ii. low urinary output (\\< 0.5 ml/kg/hour for at least 6 hours) iii. central venous O2 saturation \\< 70% iv. clouded sensorium/poor mentation\n     2. dynamic assessment of preload responsiveness as evidenced by 1 out of 3: i. positive passive leg raising test ii. pulse pressure variation and / or stroke volume variation2, both \\> 12% iii. distensibility index of inferior vena caval diameter \\> 12%\n  4. Signed the relevant informed consent form\n\nExclusion Criteria:\n\n* Subjects will not be eligible for the trial if they meet any of the following criteria:\n\n  1. Poor transthoracic echo windows\n  2. Actual body weight \\> 160 kg\n  3. Hypernatremia: \\[Na\\] \\> 150 mEq/L\n  4. Cardiac tamponade\n  5. Uncorrected severe valvular heart disease or life-threatening arrhythmia\n  6. Moribund patients likely to die before the study protocol is completed\n  7. Patients with absolute indication for immediate acute hemodialysis/hemofiltration (within 2 hrs) based on pH \\< 7.0, K \\> 7.0mmol/L\n  8. Severe liver dysfunction defined by total serum bilirubin \\> 120 umol/l\n  9. Pregnancy and lactation",
+      "healthyVolunteers": false,
+      "maximumAge": "90 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "MJIP1_0",
+      "briefTitle": "Study SOLACE SEPSIS",
+      "nctId": "NCT06634069",
+      "officialTitle": "A Pilot, Randomized, Double-Blinded, Controlled Study of Hemodynamic and Acid Base Effects of 0.5M Sodium Lactate and 3% Saline Solutions in Septic Shock Patients",
+      "orgStudyIdInfo": {
+        "id": "EU CTR: 2024-517927-37-00"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University Hospital Pilsen"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Not yet decided to sharing IPD.",
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "SV is the amount of blood that leaves the left ventricle with every beat cycle and is calculated by measuring the Doppler flow in the aortic valve.\n\nUnit: ml",
+          "measure": "haemodynamic effects",
+          "timeFrame": "at time of start of infusion, at 30 minutes and at 60 minutes from the start of the respective fluid bolus"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Diagnostic approach to acid-base changes is based on the assessment of bicarbonate buffer system, in which pH is determined by the ratio of \\[HCO3-\\] to pCO2 meassured by a POC whole-blood analyzer system\n\nUnit: \\[HCO3-\\] - mmol/l, pCO2 - kPa",
+          "measure": "acid-base effect",
+          "timeFrame": "at time of start of infusion, at 30 minutes and at 60 minutes from the start of the respective fluid bolus"
+        },
+        {
+          "description": "Inflammatory markers as CRP, procalcitonin, interleukin-6 and feritin are sepcific indicators linked to degree of inflammation and determined by regular biochemical analysis. The dynamics of parameters after the study fluid administration will be evaluated.\n\nUnit: CRP - mg/l, procalcitonin - ug/l, interleukin-6 - ng/l, ferritin - ug/l",
+          "measure": "anti-inflammatory effect",
+          "timeFrame": "parameters measured within the last 24 hours prior to start of infusion and within 24 hours after the study fluid infusion."
+        },
+        {
+          "description": "Incidence of adverse events and reactions according to following Adverse Events of Special Interest (AESI) and descriptive analysis of the incidence of any adverse events and reactions during participation in the study in both study arms. AEs are defined according to the valid definitions for clinical trials as imposed by legislation (Directive 2001/20/EG).",
+          "measure": "Safety - Incidence of adverse events and reactions",
+          "timeFrame": "30 days after intervention"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University Hospital Pilsen"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-10",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-11-24",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-04",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-10-07",
+      "studyFirstSubmitQcDate": "2024-10-07"
+    }
+  }
+}

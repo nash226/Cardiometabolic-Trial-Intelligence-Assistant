@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06847568:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06847568\nBrief title: The Investigator Administers Intracoronary Adrenaline Via the Catheter in STEMI Patients During Primary PCI, After Flow Restoration and Before Stenting, and Studies Its Effect in Prevention of No Reflow\nOfficial title: Role of Catheter Administered Intracoronary Epinephrine in Prevention of No-Reflow in STEMI Patients Undergoing Primary Percutaneous Coronary Intervention\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 62,
+      "trial_nct_id": "NCT06847568"
+    },
+    {
+      "chunk_id": "NCT06847568:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: ST Segment Elevation Myocardial Infarction (STEMI); No Reflow Phenomenon\nIntervention labels: Adrenaline\nDrug class labels: \nArms: Study (Adrenaline); Control\nKeywords: STEMI; No-reflow; Adrenaline; Prophylaxis",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06847568"
+    },
+    {
+      "chunk_id": "NCT06847568:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of this work is to study the role of intracoronary adrenaline administration as a preventive tool for no reflow in patients undergoing primary PCI.\n\nThe main question it aims to answer is:\n\nDo prohylcatic intrcoronary adrenaline reduce the incidence of no reflow without increaing risk of arrhythmia in primary PCI?\n\nThe procedure will be performed by expert operators. All patients will receive the guidelines-directed recommendations of intervention of STEMI patients.\n\nStudy group wil receive Intracoronary 10 mcg adrenaline via the guiding catheter after restoration of epicardial coronary flow of the culprit vessel and achievement of TIMI I flow either after wiring and/or passage of a deflated balloon and/or PTCA with a small balloon, and/or use of thrombus aspiration and before stenting.\n\nAll steps in the Cath-lab will be described in detail:\n\nThe primary end points will be improvement in coronary flow, as assessed by TIMI (Thrombolysis in Myocardial Infarction) flow, and myocardial blush.\n\nSecondary end points will be in-hospital mortality and major adverse cardiac events.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 172,
+      "trial_nct_id": "NCT06847568"
+    },
+    {
+      "chunk_id": "NCT06847568:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Patients who are 18 years or older\n2. Patients presenting with acute coronary syndrome with ECG criteria diagnostic of STEMI (according to the universal definition of myocardial infarction) within 12 hours from the onset of symptoms and treated by successful primary PCI.\n\nExclusion Criteria:\n\n1. Age \\< 18 years\n2. Pregnant females.\n3. Patients refused to give consent.\n4. Patients who had normal coronary angiography.\n5. Patients who had CTO lesions.\n6. Patients who have SCAD.\n7. Patients who developed dissection or mechanical complication during the procedure.\n8. Patients presenting with cardiogenic shock.\n9. Cardiomyopathies\n10. Contraindications to epinephrine as HTN with SBP \\>180 mmHg or DBP\\>110 mmHg, clinically significant arrhythmia (Atrial fibrillation with rapid ventricular rate, ventricular tachycardia, or ventricular fibrillation) prior to PCI, known allergy to epinephrine.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 149,
+      "trial_nct_id": "NCT06847568"
+    },
+    {
+      "chunk_id": "NCT06847568:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=No-relow | time_frame=1 year up to 2 years | description=The primary end points will be improvement in coronary flow, as assessed by TIMI (Thrombolysis in Myocardial Infarction) flow\n\nThrombolysis in Myocardial Infarction risk score (TIMI) flow grading system as following:\n\n* TIMI 0 = No ante-grade flow beyond the point of occlusion.\n* TIMI 1 = Faint ante-grade flow beyond the point of occlusion with incomplete filling of the distal vascular bed.\n* TIMI 2 = Delayed or sluggish ante-grade flow with complete filling of the distal vascular beds.\n* TIMI 3 = Normal flow with complete filling of the distal vascular bed\n\nCoronary no-reflow (CNR) is diagnosed immediately after PCI when post-procedural angiographic TIMI flow is \\< 3\ntype=primary | measure=No-relow | time_frame=1 year up to 2 years | description=The primary end points will be improvement in coronary flow, as assessed by myocardial blush grade.\n\nMyocardial blush grade (MBG) is defined as:\n\n* MBG 0 = No myocardial blush or contrast density.\n* MBG 1 = Minimal myocardial blush or contrast density.\n* MBG 2 = Moderate myocardial blush or contrast density but less than that obtained during angiography of a contralateral or ipsi-lateral non-infarct-related coronary artery.\n* MBG 3 = Normal myocardial blush or contrast density, comparable with that obtained during angiography of a contralateral or ipsilateral non-infarct-related coronary artery\n\nCoronary no-reflow (CNR) is diagnosed immediately after PCI when post-procedural angiographic MBG is 0 or 1\ntype=secondary | measure=MACE | time_frame=1 year up to 2 years | description=Secondary end points will be major adverse cardiac events.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 260,
+      "trial_nct_id": "NCT06847568"
+    },
+    {
+      "chunk_id": "NCT06847568:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-04-01\nPrimary completion date: 2026-04-30\nCompletion date: 2026-04-30\nStudy first posted: 2025-02-26\nResults first posted: None\nLast update posted: 2025-03-11\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06847568"
+    },
+    {
+      "chunk_id": "NCT06847568:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Ain Shams University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06847568"
+    }
+  ],
+  "trial_nct_id": "NCT06847568"
+}

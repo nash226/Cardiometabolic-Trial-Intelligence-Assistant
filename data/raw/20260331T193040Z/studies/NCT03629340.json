@@ -1,0 +1,310 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "500mg PO (by mouth) BID (two times daily) x 1 week then increase to 1000mg PO BID x 11 weeks",
+          "interventionNames": [
+            "Drug: Metformin"
+          ],
+          "label": "Drug: Metformin",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo capsule that is of identical size, shape, and color to experimental drug capsule PO (by mouth) BID (two times each day) for 12 weeks",
+          "interventionNames": [
+            "Drug: Placebo oral capsule"
+          ],
+          "label": "Placebo Oral Capsule",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Drug: Metformin"
+          ],
+          "description": "500 mg PO BID x 1 week then increase to 1000 mg PO BID x 11 weeks",
+          "name": "Metformin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo Oral Capsule"
+          ],
+          "description": "Placebo capsule that is of identical size, shape, and color to experimental drug capsule PO (by mouth) BID (two times each day) for 12 weeks",
+          "name": "Placebo oral capsule",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Hypertension",
+        "Heart Failure"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "miranda.gilbert@ucsf.edu",
+          "name": "Miranda Gilbert, BS, MS",
+          "phone": "415-514-6351",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "San Francisco",
+          "contacts": [
+            {
+              "email": "miranda.gilbert@ucsf.edu",
+              "name": "Miranda Gilbert",
+              "phone": "415-514-6351",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marc A Simon, MD, MS",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "UCSF Medical Center",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "94143"
+        },
+        {
+          "city": "Pittsburgh",
+          "contacts": [
+            {
+              "email": "onesisa@upmc.edu",
+              "name": "Sara Onesi, RN",
+              "phone": "412-864-3265",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Michael Risbano, MD, MA",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Pittsburgh Medical Center",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "15213"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Pittsburgh",
+          "name": "Michael Risbano, MD, MA",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "University of California, San Francisco",
+          "name": "Marc A Simon, MD, MS",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The main objective of this study is to determine the clinical efficacy of metformin versus placebo and the therapeutic response with regards to functional capacity and hemodynamics in PH-HFpEF.",
+      "detailedDescription": "This is a 12-week blinded cross over trial of metformin in PH-HFpEF to improve exercise hemodynamics, functional capacity, and glucose metabolism. This phase II clinical trial will provide detailed phenotyping, physiological and mechanistic data on PH-HFpEF."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n2\\. PH-HFpEF Confirmed diagnosis by RHC within the past 6 months:\n\nMean Pulmonary Arterial Pressure (mPAP) \u2265 25 mm Hg AND Pulmonary artery wedge pressure (PAWP) \u2265 15 mm Hg AND Transpulmonary Gradient (TPG) \u2265 12 mm Hg\n\nOR Exercise measurements\n\nMean Pulmonary Arterial Pressure (mPAP) \u2265 30 mm Hg AND Pulmonary artery wedge pressure (PAWP) \u2265 20 mm Hg AND PA calculation (change in mPAP/change in cardiac output) = \u22653 mmHg/L/min\n\n3\\. Three or more features of metabolic syndrome defined as:\n\nBody Mass Index (BMI) \u2265 30 kg/m\u00b2 Systolic blood pressure (BP) \u2265 130 mm Hg and/or diastolic BP \u2265 85 mm Hg Elevated waist circumference \\> 102 cm in men and \\> 88 cm in women Fasting triglyceride (TG) level over 150 mg/dl High-density lipoprotein \\<40 mg/dL in men or \\< 50 mg/dL in women\n\nExclusion Criteria:\n\n1. Age less than 18 years;\n2. Uncontrolled systemic hypertension based on repeated measurement of sitting systolic blood pressure \\>170 mm Hg or sitting diastolic blood pressure \\>95 mm Hg at Screening;\n3. Systemic sitting blood pressure \\< 110 mmHg systolic or \\< 60 mm Hg diastolic at Screening;\n4. Hemoglobin A1C \\> 10;\n5. Currently taking metformin or history of intolerance to metformin or contraindication to taking metformin;\n6. Known type 1 diabetes\n7. Positive urine pregnancy test or breastfeeding\n8. Ejection Fraction \\< 50%\n9. Dementia;\n\n11\\. End-stage malignancy; 12. Major cardiovascular event or procedure within 6 weeks prior to enrollment; 13. Severe valvular disease; 14. Other severe acute or chronic medical, psychiatric or laboratory abnormality that may increase the risk associated with study participation or investigational product administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the subject inappropriate for entry into this study or would prevent completion of the study; 15. Current Smoker; 16. Hemoglobin \\<9 g/dL; 17. Estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73 m2; 18. Receipt of an investigational product or device, or participation in a drug research study within a period of 15 days 19. \\<3 months of stable dose of PDE5i",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "PH-HFpEF",
+      "briefTitle": "Metformin for Pulmonary Hypertension HFpEF",
+      "nctId": "NCT03629340",
+      "officialTitle": "Phase II Trial of Metformin for Pulmonary Hypertension in Heart Failure With Preserved Ejection Fraction",
+      "orgStudyIdInfo": {
+        "id": "STUDY19020231"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of California, San Francisco"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01AG058659",
+          "link": "https://reporter.nih.gov/quickSearch/R01AG058659",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The primary endpoint of the trial will be mean pulmonary artery pressure (mPAP) during submaximal exercise as compared between placebo and metformin at 12 weeks (i.e. the week 12 RHC of placebo vs week 12 RHC of metformin).",
+          "timeFrame": "12 weeks (i.e. the 12th week of placebo vs 12th week of metformin)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute on Aging (NIA)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of California, San Francisco"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-07",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-02",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2019-02-26",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2018-08-14",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-08-10",
+      "studyFirstSubmitQcDate": "2018-08-10"
+    }
+  }
+}
