@@ -2190,3 +2190,127 @@ Encoding status filters as one advanced clause is more reliable for multi-value 
 The next step is:
 
 - requeue the failed diabetes job with the updated fetch builder
+
+## 43. Chat-First Finder Refactor
+
+### What we built
+
+We refactored the main finder UI into a clearer chat-first workspace.
+
+The homepage now leads with:
+
+- one primary question composer
+- starter prompts
+- a visible conversation thread
+- a separate retrieval context panel for filters, matched trials, and evidence
+
+### Why this matters
+
+The product direction changed from a search-first interface with an ask box into a trial intelligence assistant whose primary entry point is conversation.
+
+That required the UI to make the chat flow feel primary while still preserving retrieval transparency.
+
+### What I learned
+
+- changing the interaction model is not just a styling change; the page structure has to express which action is primary
+- a chat-first product still needs visible retrieval context or it quickly starts to feel like an opaque chatbot
+- preserving a small local thread on the page makes the app feel much more like an assistant than a single-turn form
+
+### What comes next
+
+The next UI iteration should likely improve:
+
+- richer per-turn evidence grouping
+- chat-linked trial cards
+- inferred filter controls that can be adjusted directly from the conversation
+
+## 44. Minimal UI Copy Pass
+
+### What we built
+
+We tightened the finder UI headers and subheaders so the page reads more minimally.
+
+This pass shortened:
+
+- the hero headline and lead
+- the sidebar helper copy
+- the workspace section labels
+- the retrieval panel headings
+
+### Why this matters
+
+The app is moving toward a chat-first experience, and overly explanatory headers were making the interface feel heavier than the product interaction actually is.
+
+Minimal copy makes the UI feel more direct while keeping the retrieval structure visible.
+
+### What I learned
+
+- once a page structure is doing the explanatory work, long subheaders start adding noise instead of clarity
+- a chat-first interface benefits from shorter labels because the conversation itself becomes the main source of context
+
+### What comes next
+
+The next UI pass should likely focus on:
+
+- spacing and hierarchy refinement
+- reducing visual repetition between the chat and context columns
+
+## 45. Single-Card Chat Layout
+
+### What we built
+
+We removed the separate homepage context card and folded its contents into the main chat card.
+
+The finder page now uses:
+
+- one primary chat surface
+- retrieval details stacked underneath the conversation
+- no separate right-side context container
+
+### Why this matters
+
+The extra context card was making the page feel split between two competing primary areas.
+
+Collapsing the layout into one card makes the chat interaction clearer while still keeping filters, matched trials, and evidence available on the same screen.
+
+### What I learned
+
+- a chat-first interface becomes easier to read when secondary retrieval details are visually subordinate to the conversation
+- removing layout competition often simplifies the product more effectively than adding more copy or styling
+
+### What comes next
+
+The next refinement should likely focus on:
+
+- cleaning up spacing within the single-card layout
+- deciding whether filters should remain visible by default or be collapsible
+
+## 46. Open-Ended Corpus Chat Default
+
+### What we built
+
+We removed the homepage scope controls and changed the main chat surface to default to the widest available corpus slice.
+
+The finder page now:
+
+- has no visible filter sidebar
+- sends open-ended retrieval requests by default
+- lets the user express scope through the question itself
+
+### Why this matters
+
+The product direction is now explicitly chat-first.
+
+Pre-constraining the experience with visible filters was making the interface feel more like a search dashboard than an assistant. Removing those controls makes the conversation the primary driver of retrieval.
+
+### What I learned
+
+- if chat is truly the front door, visible scope controls can undermine that by shifting the user back into form-filling behavior
+- broad defaults are useful as long as grounded retrieval and citations remain visible
+
+### What comes next
+
+The next step should likely be:
+
+- improving inferred filter presentation from the question itself
+- optionally reintroducing advanced filters later as a secondary or expandable tool
