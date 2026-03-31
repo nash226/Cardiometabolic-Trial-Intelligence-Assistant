@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ trial.nct_id }} - Trial Detail</title>
+  <style>
+    :root {
+      --bg: #f5f0e6;
+      --paper: #fffaf2;
+      --ink: #1c2329;
+      --muted: #5d6a70;
+      --line: #d8ccb8;
+      --accent: #0f766e;
+      --accent-soft: #d8f0ed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(180deg, #f3eadc 0%, var(--bg) 100%);
+      color: var(--ink);
+    }
+    .shell {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 28px 20px 44px;
+      display: grid;
+      gap: 18px;
+    }
+    .back {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      width: fit-content;
+    }
+    .hero, .section {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 20px;
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.03;
+      letter-spacing: -0.03em;
+    }
+    .sub {
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.55;
+    }
+    .meta, .label-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .pill {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #12534c;
+      font-size: 0.84rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 1.1rem;
+    }
+    .kv {
+      display: grid;
+      gap: 10px;
+    }
+    .kv div {
+      display: grid;
+      gap: 4px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(216, 204, 184, 0.7);
+    }
+    .k {
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .v {
+      line-height: 1.45;
+    }
+    .list {
+      display: grid;
+      gap: 12px;
+    }
+    .item {
+      border: 1px solid rgba(216, 204, 184, 0.9);
+      border-radius: 16px;
+      padding: 14px;
+      background: white;
+    }
+    .item h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+    pre {
+      white-space: pre-wrap;
+      margin: 0;
+      font: inherit;
+      line-height: 1.5;
+    }
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <a class="back" href="/">← Back to finder</a>
+
+    <section class="hero">
+      <div class="pill">{{ trial.nct_id }}</div>
+      <h1>{{ trial.brief_title }}</h1>
+      <p class="sub">{{ trial.official_title or "No official title available." }}</p>
+      <div class="meta">
+        <span class="pill">{{ trial.study_type or "Unknown type" }}</span>
+        {% for phase in trial.phases %}
+          <span class="pill">{{ phase }}</span>
+        {% endfor %}
+        <span class="pill">{{ trial.overall_status or "Unknown status" }}</span>
+        {% if trial.validation %}
+          <span class="pill">{{ "Accepted corpus" if trial.validation.accepted else "Rejected corpus" }}</span>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="section">
+        <h2>Trial Snapshot</h2>
+        <div class="kv">
+          <div><span class="k">Source</span><span class="v"><a href="{{ trial.source_url }}">{{ trial.source_url }}</a></span></div>
+          <div><span class="k">Sponsor</span><span class="v">{{ trial.lead_sponsor_name or "Unknown" }}{% if trial.lead_sponsor_class %} ({{ trial.lead_sponsor_class }}){% endif %}</span></div>
+          <div><span class="k">Enrollment</span><span class="v">{{ trial.enrollment_count or "Unknown" }}{% if trial.enrollment_type %} {{ trial.enrollment_type|lower }}{% endif %}</span></div>
+          <div><span class="k">2026 Relevance</span><span class="v">{{ "Yes" if trial.is_2026_relevant else "No" }}{% if trial.relevance_reasons %} — {{ ", ".join(trial.relevance_reasons) }}{% endif %}</span></div>
+          <div><span class="k">Interventions</span><span class="v">{{ ", ".join(trial.intervention_labels) if trial.intervention_labels else "None" }}</span></div>
+          <div><span class="k">Conditions</span><span class="v">{{ ", ".join(trial.condition_labels) if trial.condition_labels else "None" }}</span></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Timeline</h2>
+        <div class="kv">
+          <div><span class="k">Start date</span><span class="v">{{ trial.start_date_text or "Unknown" }}</span></div>
+          <div><span class="k">Primary completion</span><span class="v">{{ trial.primary_completion_date_text or "Unknown" }}</span></div>
+          <div><span class="k">Completion</span><span class="v">{{ trial.completion_date_text or "Unknown" }}</span></div>
+          <div><span class="k">First posted</span><span class="v">{{ trial.study_first_posted_at_text or "Unknown" }}</span></div>
+          <div><span class="k">Last update</span><span class="v">{{ trial.last_update_posted_at_text or "Unknown" }}</span></div>
+          <div><span class="k">Results posted</span><span class="v">{{ trial.results_first_posted_at_text or "Not posted" }}</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="section">
+        <h2>Summary</h2>
+        <pre>{{ trial.brief_summary or "No summary available." }}</pre>
+      </div>
+      <div class="section">
+        <h2>Eligibility</h2>
+        {% if trial.eligibility %}
+          <pre>{{ trial.eligibility.criteria_text or "No criteria text available." }}</pre>
+        {% else %}
+          <pre>No eligibility data available.</pre>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Interventions</h2>
+      <div class="list">
+        {% for intervention in trial.interventions %}
+          <div class="item">
+            <h3>{{ intervention.name }}</h3>
+            <div class="label-row">
+              {% if intervention.intervention_type %}<span class="pill">{{ intervention.intervention_type }}</span>{% endif %}
+              {% if intervention.drug_class %}<span class="pill">{{ intervention.drug_class }}</span>{% endif %}
+            </div>
+            <p class="sub">{{ intervention.description or "No description available." }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="section">
+        <h2>Outcomes</h2>
+        <div class="list">
+          {% for outcome in trial.outcomes %}
+            <div class="item">
+              <h3>{{ outcome.measure or "Unnamed outcome" }}</h3>
+              <p class="sub">{{ outcome.outcome_type or "unknown type" }}{% if outcome.time_frame %} — {{ outcome.time_frame }}{% endif %}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="section">
+        <h2>Chunk Previews</h2>
+        <div class="list">
+          {% for chunk in trial.chunks %}
+            <div class="item">
+              <h3>{{ chunk.title or chunk.chunk_type }}</h3>
+              <p class="sub">{{ chunk.snippet }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

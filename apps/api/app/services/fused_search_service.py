@@ -10,6 +10,17 @@ from .search_service import _build_where_clause
 from scripts.lib.embedding_utils import embed_text
 
 
+DEFAULT_CHUNK_TYPE_WEIGHTS = {
+    "status_identity": 1.0,
+    "conditions_interventions": 1.0,
+    "summary_description": 1.0,
+    "eligibility": 1.0,
+    "outcomes": 1.0,
+    "timeline": 1.0,
+    "sponsor_locations": 1.0,
+}
+
+
 def _vector_literal(values: list[float]) -> str:
     return "[" + ",".join(str(float(value)) for value in values) + "]"
 
@@ -22,6 +33,51 @@ def _normalize_score_map(scores: dict[str, float]) -> dict[str, float]:
     if low == high:
         return {key: 1.0 for key in scores}
     return {key: (value - low) / (high - low) for key, value in scores.items()}
+
+
+def _query_aware_chunk_type_weights(query: str) -> dict[str, float]:
+    normalized = query.lower()
+    weights = dict(DEFAULT_CHUNK_TYPE_WEIGHTS)
+
+    if any(term in normalized for term in ["therapy", "drug", "agonist", "glp", "incretin", "intervention", "treatment"]):
+        weights.update(
+            {
+                "conditions_interventions": 1.25,
+                "summary_description": 1.1,
+                "outcomes": 1.05,
+                "eligibility": 0.8,
+                "status_identity": 0.9,
+            }
+        )
+
+    if any(term in normalized for term in ["eligibility", "include", "inclusion", "exclude", "exclusion", "criteria"]):
+        weights.update(
+            {
+                "eligibility": 1.3,
+                "conditions_interventions": 1.0,
+                "summary_description": 0.95,
+            }
+        )
+
+    if any(term in normalized for term in ["date", "timeline", "completion", "recruiting", "status", "posted", "updated"]):
+        weights.update(
+            {
+                "timeline": 1.25,
+                "status_identity": 1.1,
+                "eligibility": 0.85,
+            }
+        )
+
+    if any(term in normalized for term in ["endpoint", "outcome", "measure"]):
+        weights.update(
+            {
+                "outcomes": 1.25,
+                "summary_description": 1.05,
+                "eligibility": 0.85,
+            }
+        )
+
+    return weights
 
 
 def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
@@ -104,13 +160,17 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
 
     norm_lexical = _normalize_score_map(lexical_scores)
     norm_semantic = _normalize_score_map(semantic_scores)
+    chunk_type_weights = _query_aware_chunk_type_weights(request.query)
     all_chunk_ids = set(norm_lexical) | set(norm_semantic)
     ranked = []
     for chunk_id in all_chunk_ids:
-        fused_score = (
+        chunk_type = str(chunk_meta[chunk_id].get("chunk_type", ""))
+        chunk_type_weight = chunk_type_weights.get(chunk_type, 1.0)
+        base_score = (
             request.lexical_weight * norm_lexical.get(chunk_id, 0.0)
             + request.semantic_weight * norm_semantic.get(chunk_id, 0.0)
         )
+        fused_score = base_score * chunk_type_weight
         ranked.append((chunk_id, fused_score))
     ranked.sort(key=lambda item: (-item[1], item[0]))
 
@@ -125,6 +185,7 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
                 chunk_type=str(meta.get("chunk_type", "")),
                 title=meta.get("title"),
                 snippet=content[:180].replace("\n", " ").strip(),
+                chunk_type_weight=chunk_type_weights.get(str(meta.get("chunk_type", "")), 1.0),
                 lexical_score_raw=lexical_scores.get(chunk_id, 0.0),
                 semantic_score_raw=semantic_scores.get(chunk_id, 0.0),
                 lexical_score_norm=norm_lexical.get(chunk_id, 0.0),

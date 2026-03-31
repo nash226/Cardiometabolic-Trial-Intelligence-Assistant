@@ -23,6 +23,7 @@ class FusedSearchResult(BaseModel):
     chunk_type: str
     title: str | None = None
     snippet: str
+    chunk_type_weight: float
     lexical_score_raw: float
     semantic_score_raw: float
     lexical_score_norm: float
