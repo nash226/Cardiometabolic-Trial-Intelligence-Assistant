@@ -13,6 +13,7 @@ The script combines:
 - structured trial filters from Postgres
 - lexical scores from `trial_chunks.content_tsv`
 - semantic scores from `trial_chunks.embedding`
+- query-aware chunk-type weighting
 
 and returns a fused ranking.
 
@@ -24,6 +25,7 @@ This is the point where the retrieval stack is fully operating from the persiste
 
 Each result includes:
 
+- chunk type weight
 - lexical raw score
 - semantic raw score
 - lexical normalized score

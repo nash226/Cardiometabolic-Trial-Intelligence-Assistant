@@ -134,6 +134,43 @@ The next likely step is either:
 - add richer answer formatting and trial-level grouping, or
 - build evaluation cases that score whether answers are supported by the retrieved evidence
 
+## Query-Aware Chunk Weighting
+
+### What we built
+
+We updated fused retrieval to apply query-aware chunk-type weighting before the final ranking.
+
+This affects:
+
+- `POST /api/v1/search/fused`
+- `POST /api/v1/ask`
+
+### Why this matters
+
+Not all chunk types are equally useful for every question.
+
+Examples:
+
+- therapy questions should favor `conditions_interventions`
+- eligibility questions should favor `eligibility`
+- completion and status questions should favor `timeline`
+- endpoint questions should favor `outcomes`
+
+Without this step, a semantically similar but weak chunk like `eligibility` can outrank a more useful intervention chunk for treatment questions.
+
+### What I learned
+
+- retrieval quality is not only about lexical vs semantic scoring
+- chunk selection quality also depends on ranking the right section types for the question intent
+- this is a ranking improvement, not a scope change or an LLM prompt change
+
+### What comes next
+
+The next improvement after chunk-type weighting is likely one of:
+
+- intervention / drug-class enrichment so queries like `incretin` can map more directly to trial interventions
+- retrieval evaluation to measure whether the new weighting improves evidence quality consistently
+
 ## 1. Narrowing the product scope
 
 ### What we decided
@@ -1765,3 +1802,75 @@ through the same backend application.
 
 - It is often cleaner to expose semantic retrieval as a separate endpoint first instead of overloading the lexical endpoint immediately.
 - That keeps comparison easy while the retrieval behavior is still being tuned.
+
+
+## 32 Grounded Answer Generation
+
+### What we built
+
+We added a first answer-generation endpoint:
+
+- `POST /api/v1/ask`
+
+It retrieves evidence with fused search, then synthesizes an answer from those retrieved chunks.
+
+### Why this matters
+
+This is the first point where the system behaves like a user-facing intelligence assistant instead of only a retrieval backend.
+
+The key design choice is still grounded behavior:
+
+- retrieve first
+- answer second
+- return citations with the answer
+- fall back to extractive evidence if synthesis is unavailable
+
+### What I learned
+
+- answer generation should be downstream of a stable retrieval interface, not mixed directly into database queries
+- a useful first answer layer is conservative and citation-heavy, not conversationally broad
+- fallback behavior matters because retrieval can succeed even when generation fails
+
+### What comes next
+
+The next likely step is either:
+
+- add richer answer formatting and trial-level grouping, or
+- build evaluation cases that score whether answers are supported by the retrieved evidence
+
+## Query-Aware Chunk Weighting
+
+### What we built
+
+We updated fused retrieval to apply query-aware chunk-type weighting before the final ranking.
+
+This affects:
+
+- `POST /api/v1/search/fused`
+- `POST /api/v1/ask`
+
+### Why this matters
+
+Not all chunk types are equally useful for every question.
+
+Examples:
+
+- therapy questions should favor `conditions_interventions`
+- eligibility questions should favor `eligibility`
+- completion and status questions should favor `timeline`
+- endpoint questions should favor `outcomes`
+
+Without this step, a semantically similar but weak chunk like `eligibility` can outrank a more useful intervention chunk for treatment questions.
+
+### What I learned
+
+- retrieval quality is not only about lexical vs semantic scoring
+- chunk selection quality also depends on ranking the right section types for the question intent
+- this is a ranking improvement, not a scope change or an LLM prompt change
+
+### What comes next
+
+The next improvement after chunk-type weighting is likely one of:
+
+- intervention / drug-class enrichment so queries like `incretin` can map more directly to trial interventions
+- retrieval evaluation to measure whether the new weighting improves evidence quality consistently

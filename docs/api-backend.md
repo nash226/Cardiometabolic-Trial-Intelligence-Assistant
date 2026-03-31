@@ -76,7 +76,14 @@ Example request:
 
 ## Fused search endpoint
 
-`POST /api/v1/search/fused` runs DB-backed fused retrieval. It applies the same structured filters, computes lexical and semantic scores for eligible chunks, normalizes both score streams, and returns a combined ranking with transparent score breakdowns.
+`POST /api/v1/search/fused` runs DB-backed fused retrieval. It applies the same structured filters, computes lexical and semantic scores for eligible chunks, normalizes both score streams, applies query-aware chunk-type weighting, and returns a combined ranking with transparent score breakdowns.
+
+For example:
+
+- therapy / intervention questions boost `conditions_interventions`
+- timeline / completion questions boost `timeline`
+- eligibility questions boost `eligibility`
+- endpoint questions boost `outcomes`
 
 Example request:
 
@@ -93,6 +100,15 @@ Example request:
   "limit": 5
 }
 ```
+
+Each fused result now includes:
+
+- `chunk_type_weight`
+- `lexical_score_raw`
+- `semantic_score_raw`
+- `lexical_score_norm`
+- `semantic_score_norm`
+- `fused_score`
 
 ## Ask endpoint
 
