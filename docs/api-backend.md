@@ -12,6 +12,7 @@ This is the first backend service layer over the stored trial corpus.
 - `POST /api/v1/search`
 - `POST /api/v1/search/semantic`
 - `POST /api/v1/search/fused`
+- `POST /api/v1/ask`
 
 ## What `POST /api/v1/search` does
 
@@ -90,5 +91,36 @@ Example request:
   "lexical_weight": 0.4,
   "semantic_weight": 0.6,
   "limit": 5
+}
+```
+
+## Ask endpoint
+
+`POST /api/v1/ask` is the first grounded answer-generation layer.
+
+It does this in order:
+
+1. runs fused retrieval over the stored corpus
+2. builds a constrained evidence prompt from the returned chunks
+3. asks the model to answer only from that evidence
+4. returns the answer plus cited chunk metadata
+
+If model synthesis fails, the endpoint falls back to an extractive evidence summary instead of returning an ungrounded answer.
+
+Example request:
+
+```json
+{
+  "question": "Which 2026 obesity trials appear to involve incretin-related therapy?",
+  "accepted_only": true,
+  "condition": "obesity",
+  "study_type": "INTERVENTIONAL",
+  "year_2026_only": true,
+  "provider": "openai",
+  "embedding_model": "text-embedding-3-small",
+  "answer_model": "gpt-4o-mini",
+  "lexical_weight": 0.4,
+  "semantic_weight": 0.6,
+  "retrieval_limit": 5
 }
 ```

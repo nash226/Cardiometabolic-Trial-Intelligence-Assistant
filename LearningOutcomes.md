@@ -100,6 +100,40 @@ The project now has enough moving parts that a visual system map is useful:
 
 The next diagram update should happen when grounded answer generation is added, so the diagram can show retrieval feeding a real synthesis layer instead of a placeholder
 
+## Grounded Answer Generation
+
+### What we built
+
+We added a first answer-generation endpoint:
+
+- `POST /api/v1/ask`
+
+It retrieves evidence with fused search, then synthesizes an answer from those retrieved chunks.
+
+### Why this matters
+
+This is the first point where the system behaves like a user-facing intelligence assistant instead of only a retrieval backend.
+
+The key design choice is still grounded behavior:
+
+- retrieve first
+- answer second
+- return citations with the answer
+- fall back to extractive evidence if synthesis is unavailable
+
+### What I learned
+
+- answer generation should be downstream of a stable retrieval interface, not mixed directly into database queries
+- a useful first answer layer is conservative and citation-heavy, not conversationally broad
+- fallback behavior matters because retrieval can succeed even when generation fails
+
+### What comes next
+
+The next likely step is either:
+
+- add richer answer formatting and trial-level grouping, or
+- build evaluation cases that score whether answers are supported by the retrieved evidence
+
 ## 1. Narrowing the product scope
 
 ### What we decided
