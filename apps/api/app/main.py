@@ -22,7 +22,7 @@ templates = Jinja2Templates(directory="apps/api/app/templates")
 
 @app.get("/", response_class=HTMLResponse)
 def finder_page(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse(request=request, name="index.html", context={})
 
 
 @app.get("/health")
@@ -81,4 +81,8 @@ def trial_detail_page(request: Request, nct_id: str):
         raise HTTPException(status_code=500, detail=str(exc)) from exc
     if trial is None:
         raise HTTPException(status_code=404, detail=f"Trial {nct_id} not found")
-    return templates.TemplateResponse("trial_detail.html", {"request": request, "trial": trial})
+    return templates.TemplateResponse(
+        request=request,
+        name="trial_detail.html",
+        context={"trial": trial},
+    )
