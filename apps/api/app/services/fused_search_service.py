@@ -89,6 +89,7 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
         SELECT
             tc.chunk_id,
             tc.trial_nct_id,
+            t.brief_title,
             tc.chunk_type,
             tc.title,
             tc.content,
@@ -104,6 +105,7 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
         SELECT
             tc.chunk_id,
             tc.trial_nct_id,
+            t.brief_title,
             tc.chunk_type,
             tc.title,
             tc.content,
@@ -130,10 +132,11 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
         with conn.cursor() as cur:
             cur.execute(lexical_sql, [*where_params, request.query, request.query])
             for row in cur.fetchall():
-                chunk_id, trial_nct_id, chunk_type, title, content, source_field_paths, score = row
+                chunk_id, trial_nct_id, brief_title, chunk_type, title, content, source_field_paths, score = row
                 lexical_scores[chunk_id] = float(score)
                 chunk_meta[chunk_id] = {
                     "trial_nct_id": trial_nct_id,
+                    "trial_title": brief_title,
                     "chunk_type": chunk_type,
                     "title": title,
                     "content": content,
@@ -142,12 +145,13 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
 
             cur.execute(semantic_sql, [query_vector, *where_params])
             for row in cur.fetchall():
-                chunk_id, trial_nct_id, chunk_type, title, content, source_field_paths, score = row
+                chunk_id, trial_nct_id, brief_title, chunk_type, title, content, source_field_paths, score = row
                 semantic_scores[chunk_id] = float(score)
                 chunk_meta.setdefault(
                     chunk_id,
                     {
                         "trial_nct_id": trial_nct_id,
+                        "trial_title": brief_title,
                         "chunk_type": chunk_type,
                         "title": title,
                         "content": content,
@@ -182,6 +186,7 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
             FusedSearchResult(
                 chunk_id=chunk_id,
                 trial_nct_id=str(meta.get("trial_nct_id", "")),
+                trial_title=meta.get("trial_title"),
                 chunk_type=str(meta.get("chunk_type", "")),
                 title=meta.get("title"),
                 snippet=content[:180].replace("\n", " ").strip(),

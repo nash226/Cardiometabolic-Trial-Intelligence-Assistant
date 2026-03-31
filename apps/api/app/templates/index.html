@@ -45,7 +45,7 @@
       border: 1px solid var(--line);
       background: rgba(255, 250, 240, 0.75);
       color: var(--muted);
-      font-size: 12px;
+      font-size: 20px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
     }
@@ -277,7 +277,6 @@
     }
     .card-top {
       display: flex;
-      justify-content: space-between;
       gap: 12px;
       align-items: baseline;
     }
@@ -286,10 +285,6 @@
       color: var(--accent);
       letter-spacing: 0.08em;
       text-transform: uppercase;
-    }
-    .score {
-      color: var(--muted);
-      font-size: 0.82rem;
     }
     .title {
       margin: 0;
@@ -338,9 +333,7 @@
   <div class="shell">
     <section class="hero">
       <span class="eyebrow">Cardiometabolic trial intelligence assistant</span>
-      <h1>Ask. Inspect. Decide.</h1>
       <p class="lead">
-        Ask the corpus directly. Retrieval stays grounded underneath.
       </p>
     </section>
 
@@ -490,7 +483,7 @@
             <div class="bubble-text">${escapeHtml(turn.question)}</div>
           </article>
           <article class="bubble assistant">
-            <small>Assistant · ${escapeHtml(turn.method || "grounded")}</small>
+            <small>Assistant</small>
             <div class="bubble-text">${escapeHtml(turn.answer)}</div>
             ${filterPills ? `<div class="bubble-meta">${filterPills}</div>` : ""}
             ${warnings}
@@ -510,12 +503,7 @@
         <article class="trial-card">
           <div class="card-top">
             <span class="nct">${result.trial_nct_id}</span>
-            <span class="score">score ${Number(result.fused_score).toFixed(3)}</span>
-          </div>
-          <h3 class="title">${result.title || result.chunk_type}</h3>
-          <div class="tag-row">
-            <span class="pill">${result.chunk_type}</span>
-            <span class="pill">weight ${Number(result.chunk_type_weight).toFixed(2)}</span>
+            <h3 class="title">${result.trial_title || result.title || result.chunk_type}</h3>
           </div>
           <p class="snippet">${result.snippet}</p>
           <a href="/trials/${result.trial_nct_id}">Open trial detail</a>

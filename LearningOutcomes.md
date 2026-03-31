@@ -2346,3 +2346,132 @@ The next step is:
 
 - choose one mockup direction
 - port its layout and interaction ideas into the real homepage template
+
+## 48. Trial Card Metadata Simplification
+
+### What we built
+
+We simplified the matched trial cards in the chat UI.
+
+The cards now:
+
+- remove the fused score from the top right
+- place the NCT ID inline with the title
+- remove the chunk type and weight pills
+
+### Why this matters
+
+The previous card layout exposed retrieval internals too aggressively for the primary product view.
+
+Those details are useful for debugging, but they were competing with the information the user is more likely to care about first: which study this is and why it matters.
+
+### What I learned
+
+- retrieval transparency does not require every scoring artifact to be visible in the primary UI
+- simplifying result cards can make the product feel more intentional without losing the underlying grounded behavior
+
+### What comes next
+
+The next card refinement should likely focus on:
+
+- making trial titles more human-readable than chunk section names
+- deciding which metadata deserves a secondary detail line
+
+## 49. Trial Cards Should Lead With Study Identity
+
+### What we built
+
+We updated fused retrieval results and the homepage trial cards so matched studies display the trial brief title instead of the chunk section title.
+
+The API now returns:
+
+- `trial_title`
+
+And the UI now renders:
+
+- `NCT ID + study title`
+
+instead of:
+
+- `NCT ID + chunk title`
+
+### Why this matters
+
+The user is trying to understand which study matched, not which retrieval chunk happened to surface first.
+
+Showing the study title makes the result cards read like study objects rather than retrieval internals.
+
+### What I learned
+
+- when retrieval is chunk-based, the UI still needs to present study-level identity first
+- chunk titles are useful as supporting context, but they are not the right primary label for search results
+
+### What comes next
+
+The next refinement should likely decide whether the secondary line under each card should show:
+
+- chunk context
+- sponsor and phase
+- or timeline relevance
+
+## 50. Hide Internal Answer Method Labels In The UI
+
+### What we built
+
+We removed the visible `grounded_llm` method label from the homepage chat thread.
+
+The backend still returns the answer method internally, but the UI now just shows:
+
+- `Assistant`
+
+instead of:
+
+- `Assistant · grounded_llm`
+
+### Why this matters
+
+`grounded_llm` is an implementation detail, not user-facing language.
+
+Exposing it in the primary chat surface made the product feel more like a debug interface than an assistant experience.
+
+### What I learned
+
+- users usually benefit from seeing evidence and matched studies, not internal method names
+- a grounded product can stay transparent without showing raw system labels in the conversation UI
+
+### What comes next
+
+The next cleanup pass should likely identify other backend-facing labels that still leak into the UI and simplify them.
+
+## 51. Architecture Diagram Needed The Runtime Query Path
+
+### What we built
+
+We updated the Mermaid system architecture diagram to explicitly show the query pipeline.
+
+The diagram now includes:
+
+- chat question entry
+- inferred or applied scope
+- fused retrieval over the stored corpus
+- grounded answer generation
+- UI rendering of the answer, matched trials, evidence snippets, and citations
+
+### Why this matters
+
+The product has shifted into a chat-first experience, so the old diagram was no longer enough.
+
+It showed ingestion and retrieval components, but it did not show how a user question actually flows through the running system.
+
+### What I learned
+
+- once the product interaction becomes conversational, the architecture diagram needs to represent runtime query flow, not just system modules
+- showing both ingestion and query-time behavior makes the system easier to explain to future builders and stakeholders
+
+### What comes next
+
+The next diagram update should likely happen when:
+
+- query understanding becomes more explicit
+- compare workflows are added
+- or multi-turn conversation state becomes a first-class backend feature
