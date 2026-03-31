@@ -2073,3 +2073,71 @@ The next likely step is:
 
 - preserving context and question state when the user navigates into a cited trial, or
 - building the compare view
+
+## 39. RQ + Redis Ingestion Jobs
+
+### What we built
+
+We added queued corpus expansion with `RQ + Redis`.
+
+This includes:
+
+- an `ingestion_jobs` table
+- job create/list/detail API endpoints
+- an RQ worker entrypoint
+- a queued ingestion flow that fetches, processes, embeds, and loads runs into Postgres
+
+### Why this matters
+
+The corpus no longer has to be expanded manually step by step from the terminal.
+
+That makes it much easier to:
+
+- grow the stored trial universe
+- repeat ingestion runs
+- inspect job status and failures
+
+### What I learned
+
+- once the ingestion pipeline is stable, the right next abstraction is orchestration, not more transformation logic
+- using the existing ingestion functions inside the queue worker keeps the manual and queued paths aligned
+
+### What comes next
+
+The next likely step is:
+
+- add a small admin UI for job creation and status, or
+- use the queue to expand the corpus substantially before more product features
+
+## 40. Architecture Diagram Refresh
+
+### What we built
+
+We updated the current architecture diagram to include:
+
+- `RQ + Redis` ingestion jobs
+- the worker-based corpus expansion path
+- grounded answer generation
+- the current FastAPI-served UI layer
+
+### Why this matters
+
+The old diagram no longer matched the real system closely enough.
+
+Once queueing, answer generation, and UI were added, the architecture picture needed to reflect:
+
+- both ingestion modes
+- retrieval plus answer generation
+- backend plus current client surface
+
+### What I learned
+
+- architecture diagrams go stale quickly once a project starts adding orchestration and UI layers
+- keeping the diagram aligned with the implemented system is more useful than keeping an older simpler picture
+
+### What comes next
+
+The next diagram update should likely happen when:
+
+- compare view is added, or
+- an ingestion admin UI is added
