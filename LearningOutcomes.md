@@ -11,7 +11,7 @@ Each section should answer:
 
 ## Current Architectural Snapshot
 
-The system currently has three implemented ingestion layers and a documented product frame.
+The system currently has an implemented ingestion pipeline, persistent Postgres corpus, and API-backed retrieval.
 
 Current flow:
 
@@ -27,6 +27,18 @@ Current flow:
    - [scripts/validate_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/validate_trial.py)
    - decides whether a normalized record belongs in the MVP corpus and writes the result under [data/normalized/validation](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized/validation)
 
+4. `chunk`
+   - [scripts/generate_chunks.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/generate_chunks.py)
+   - creates field-aware retrieval chunks for each validated trial
+
+5. `store`
+   - [scripts/load_processed_run_to_db.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/load_processed_run_to_db.py)
+   - loads trials, validation, chunks, and embeddings into Postgres + pgvector
+
+6. `retrieve`
+   - API endpoints under [apps/api/app/main.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/app/main.py)
+   - expose DB-backed lexical, semantic, and fused retrieval
+
 Current product scope:
 
 - source: ClinicalTrials.gov
@@ -38,6 +50,55 @@ Current product scope:
 Current architectural principle:
 
 - build the system as a transparent hybrid retrieval pipeline, starting from trustworthy ingestion before UI or LLM-heavy features
+
+## API Retrieval Snapshot
+
+### What we built
+
+The API now exposes three retrieval modes:
+
+- `POST /api/v1/search`
+- `POST /api/v1/search/semantic`
+- `POST /api/v1/search/fused`
+
+### Why this matters
+
+This turns the retrieval pipeline into a reusable backend service instead of a collection of local scripts.
+
+### What I learned
+
+- lexical retrieval is strongest for exact phrase overlap
+- semantic retrieval is strongest for concept-heavy phrasing
+- fused retrieval combines both without hiding where the ranking came from
+
+### What comes next
+
+The next layer above retrieval is answer generation over retrieved chunks with grounded citations.
+
+## Architecture Diagram
+
+### What we built
+
+We added a current-state architecture diagram at [current-architecture-diagram.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/current-architecture-diagram.md).
+
+### Why this matters
+
+The project now has enough moving parts that a visual system map is useful:
+
+- source ingestion
+- preprocessing
+- storage
+- retrieval API
+- next-step answer generation
+
+### What I learned
+
+- architecture diagrams are most useful when they reflect what is actually implemented, not the imagined future system
+- the cleanest way to show this project is as a hybrid retrieval pipeline with a separate future answer layer
+
+### What comes next
+
+The next diagram update should happen when grounded answer generation is added, so the diagram can show retrieval feeding a real synthesis layer instead of a placeholder
 
 ## 1. Narrowing the product scope
 
