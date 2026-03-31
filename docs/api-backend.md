@@ -13,6 +13,7 @@ This is the first backend service layer over the stored trial corpus.
 - `POST /api/v1/search/semantic`
 - `POST /api/v1/search/fused`
 - `POST /api/v1/ask`
+- `GET /api/v1/trials/{nct_id}`
 
 ## What `POST /api/v1/search` does
 
@@ -44,6 +45,12 @@ Then start the API:
 
 ```bash
 uvicorn apps.api.app.main:app --reload
+```
+
+If you are using the new template-based frontend pages, make sure the updated Python dependencies are installed first:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Why this matters
@@ -145,3 +152,28 @@ Example request:
   "retrieval_limit": 5
 }
 ```
+
+## Trial detail endpoint
+
+`GET /api/v1/trials/{nct_id}` returns the stored normalized trial record, child collections, validation state, and chunk previews for one study.
+
+This is the backend contract for:
+
+- result card drill-down
+- trial detail page
+- compare view preparation
+
+Example:
+
+```bash
+curl http://127.0.0.1:8000/api/v1/trials/NCT06893016
+```
+
+## Minimal frontend pages
+
+The API app now also serves a minimal no-Node frontend:
+
+- `GET /`
+- `GET /trials/{nct_id}`
+
+These pages are server-rendered with Jinja2 and use the existing API endpoints behind the scenes.

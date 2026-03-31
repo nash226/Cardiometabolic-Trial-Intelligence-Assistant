@@ -100,146 +100,6 @@ The project now has enough moving parts that a visual system map is useful:
 
 The next diagram update should happen when grounded answer generation is added, so the diagram can show retrieval feeding a real synthesis layer instead of a placeholder
 
-## Grounded Answer Generation
-
-### What we built
-
-We added a first answer-generation endpoint:
-
-- `POST /api/v1/ask`
-
-It retrieves evidence with fused search, then synthesizes an answer from those retrieved chunks.
-
-### Why this matters
-
-This is the first point where the system behaves like a user-facing intelligence assistant instead of only a retrieval backend.
-
-The key design choice is still grounded behavior:
-
-- retrieve first
-- answer second
-- return citations with the answer
-- fall back to extractive evidence if synthesis is unavailable
-
-### What I learned
-
-- answer generation should be downstream of a stable retrieval interface, not mixed directly into database queries
-- a useful first answer layer is conservative and citation-heavy, not conversationally broad
-- fallback behavior matters because retrieval can succeed even when generation fails
-
-### What comes next
-
-The next likely step is either:
-
-- add richer answer formatting and trial-level grouping, or
-- build evaluation cases that score whether answers are supported by the retrieved evidence
-
-## Query-Aware Chunk Weighting
-
-### What we built
-
-We updated fused retrieval to apply query-aware chunk-type weighting before the final ranking.
-
-This affects:
-
-- `POST /api/v1/search/fused`
-- `POST /api/v1/ask`
-
-### Why this matters
-
-Not all chunk types are equally useful for every question.
-
-Examples:
-
-- therapy questions should favor `conditions_interventions`
-- eligibility questions should favor `eligibility`
-- completion and status questions should favor `timeline`
-- endpoint questions should favor `outcomes`
-
-Without this step, a semantically similar but weak chunk like `eligibility` can outrank a more useful intervention chunk for treatment questions.
-
-### What I learned
-
-- retrieval quality is not only about lexical vs semantic scoring
-- chunk selection quality also depends on ranking the right section types for the question intent
-- this is a ranking improvement, not a scope change or an LLM prompt change
-
-### What comes next
-
-The next improvement after chunk-type weighting is likely one of:
-
-- intervention / drug-class enrichment so queries like `incretin` can map more directly to trial interventions
-- retrieval evaluation to measure whether the new weighting improves evidence quality consistently
-
-## 33 OpenAI SDK Refactor
-
-### What we built
-
-We refactored the OpenAI integration to use the official Python SDK instead of raw HTTP calls.
-
-This changed two paths:
-
-- embeddings now use `client.embeddings.create(...)`
-- answer generation now uses `client.responses.create(...)`
-
-### Why this matters
-
-The SDK is a better long-term integration surface than hand-written `urllib` requests.
-
-It gives us:
-
-- cleaner client code
-- better alignment with the current OpenAI API surface
-- easier future upgrades for response generation
-
-### What I learned
-
-- embeddings and answer generation are two separate model interaction paths in this system
-- `responses.create(...)` is the right abstraction for answer generation
-- embeddings should still use the embeddings API through the SDK
-
-### What comes next
-
-The next step is to reinstall dependencies in the venv and rerun:
-
-- semantic retrieval
-- fused retrieval
-- grounded answer generation
-
-to verify the SDK-backed path end to end
-
-## 34 Path To MVP
-
-### What we built
-
-We added a dedicated MVP path document at [path-to-mvp.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/path-to-mvp.md).
-
-### Why this matters
-
-The project now has enough backend capability that the main question is no longer “can this architecture work?”
-
-The main question is:
-
-- what is the shortest path to a usable product?
-
-The MVP path document answers that by separating:
-
-- must-have product steps
-- quality improvements that can come after
-
-### What I learned
-
-- once the backend core is working, the biggest risk becomes losing focus and continuing to optimize internals instead of finishing the user-facing product
-- the cleanest MVP sequence is backend contract first, then finder UI, then detail/ask, then compare, then evaluation
-
-### What comes next
-
-The next build step should be:
-
-- `GET /api/v1/trials/{nct_id}`
-
-After that, the frontend trial finder can start against a stable backend contract.
-
 ## 1. Narrowing the product scope
 
 ### What we decided
@@ -1598,7 +1458,7 @@ That means the next real retrieval improvement should be:
 
 instead of replacing one method with another.
 
-## 24. Fused retrieval combines lexical and semantic signals explicitly
+## 23. Fused retrieval combines lexical and semantic signals explicitly
 
 ### What we built
 
@@ -1675,7 +1535,7 @@ This is what we want because date-oriented queries benefit heavily from lexical 
 - metadata-style queries benefit more from lexical weight.
 - score transparency makes it much easier to reason about why a result ranked where it did.
 
-## 25. The storage layer is now designed for Postgres + pgvector
+## 24. The storage layer is now designed for Postgres + pgvector
 
 ### What we built
 
@@ -1725,7 +1585,7 @@ Why:
 - Storage should follow the retrieval design, not precede it.
 - By delaying the database until after retrieval logic was proven, we ended up with a cleaner schema and clearer mapping from files to tables.
 
-## 26. The database loader now bridges file artifacts into Postgres
+## 25. The database loader now bridges file artifacts into Postgres
 
 ### What we built
 
@@ -1775,7 +1635,7 @@ That is acceptable for now because the priority is:
 
 not maximum ingestion throughput.
 
-## 29. DB semantic retrieval follows the same backend pattern
+## 26. DB semantic retrieval follows the same backend pattern
 
 ### What we built
 
@@ -1807,7 +1667,7 @@ from the stored corpus.
   - database access
   - embedding provider access
 
-## 30. The retrieval scripts now have an API boundary
+## 27. The retrieval scripts now have an API boundary
 
 ### What we built
 
@@ -1844,7 +1704,7 @@ That matters because the frontend should call a stable API contract, not raw scr
 - API work also introduces another environment contract:
   - FastAPI and Pydantic now need to be installed in the venv
 
-## 31. The API now exposes both lexical and semantic retrieval
+## 28. The API now exposes both lexical and semantic retrieval
 
 ### What we built
 
@@ -1873,7 +1733,7 @@ through the same backend application.
 - That keeps comparison easy while the retrieval behavior is still being tuned.
 
 
-## 32 Grounded Answer Generation
+## 29. Grounded Answer Generation
 
 ### What we built
 
@@ -1907,7 +1767,7 @@ The next likely step is either:
 - add richer answer formatting and trial-level grouping, or
 - build evaluation cases that score whether answers are supported by the retrieved evidence
 
-## Query-Aware Chunk Weighting
+## 30. Query-Aware Chunk Weighting
 
 ### What we built
 
@@ -1943,3 +1803,149 @@ The next improvement after chunk-type weighting is likely one of:
 
 - intervention / drug-class enrichment so queries like `incretin` can map more directly to trial interventions
 - retrieval evaluation to measure whether the new weighting improves evidence quality consistently
+
+## 31. OpenAI SDK Refactor
+
+### What we built
+
+We refactored the OpenAI integration to use the official Python SDK instead of raw HTTP calls.
+
+This changed two paths:
+
+- embeddings now use `client.embeddings.create(...)`
+- answer generation now uses `client.responses.create(...)`
+
+### Why this matters
+
+The SDK is a better long-term integration surface than hand-written `urllib` requests.
+
+It gives us:
+
+- cleaner client code
+- better alignment with the current OpenAI API surface
+- easier future upgrades for response generation
+
+### What I learned
+
+- embeddings and answer generation are two separate model interaction paths in this system
+- `responses.create(...)` is the right abstraction for answer generation
+- embeddings should still use the embeddings API through the SDK
+
+### What comes next
+
+The next step is to reinstall dependencies in the venv and rerun:
+
+- semantic retrieval
+- fused retrieval
+- grounded answer generation
+
+to verify the SDK-backed path end to end
+
+## 32. Path To MVP
+
+### What we built
+
+We added a dedicated MVP path document at [path-to-mvp.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/path-to-mvp.md).
+
+### Why this matters
+
+The project now has enough backend capability that the main question is no longer “can this architecture work?”
+
+The main question is:
+
+- what is the shortest path to a usable product?
+
+The MVP path document answers that by separating:
+
+- must-have product steps
+- quality improvements that can come after
+
+### What I learned
+
+- once the backend core is working, the biggest risk becomes losing focus and continuing to optimize internals instead of finishing the user-facing product
+- the cleanest MVP sequence is backend contract first, then finder UI, then detail/ask, then compare, then evaluation
+
+### What comes next
+
+The next build step should be:
+
+- `GET /api/v1/trials/{nct_id}`
+
+After that, the frontend trial finder can start against a stable backend contract.
+
+## 33. Trial Detail Endpoint
+
+### What we built
+
+We added:
+
+- `GET /api/v1/trials/{nct_id}`
+
+This endpoint returns one stored trial with:
+
+- core trial metadata
+- conditions
+- interventions
+- arms
+- outcomes
+- locations
+- eligibility
+- validation state
+- chunk previews
+
+### Why this matters
+
+This is the missing backend contract for the product path.
+
+It gives the frontend a stable way to move from:
+
+- search results
+
+to:
+
+- a real trial detail page
+
+without exposing raw database tables directly.
+
+### What I learned
+
+- a usable MVP needs detail endpoints, not just search endpoints
+- storing normalized child records pays off here because the API can return a clean trial object instead of forcing the frontend to reconstruct it
+
+### What comes next
+
+The next product step should be:
+
+- start the Next.js trial finder UI against the search and trial-detail endpoints
+
+## 34. Minimal No-Node Finder UI
+
+### What we built
+
+We added a minimal FastAPI-served frontend:
+
+- `GET /`
+- `GET /trials/{nct_id}`
+
+This uses Jinja2 templates and lightweight browser-side JavaScript instead of a Node-based frontend stack.
+
+### Why this matters
+
+This keeps the MVP path moving without introducing npm-based frontend tooling right now.
+
+It gives us:
+
+- a search page over the stored corpus
+- result drill-down into trial detail
+- a safer frontend path while supply-chain concerns remain
+
+### What I learned
+
+- once the backend contracts are stable, a minimal template-based UI is enough to turn the system into a usable MVP shell
+- we do not need a full frontend framework to validate the core product workflows
+
+### What comes next
+
+The next UI step should be:
+
+- add the grounded answer panel to the trial detail or search experience

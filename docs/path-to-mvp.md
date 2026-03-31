@@ -59,6 +59,11 @@ Goal:
 
 - make the corpus searchable through a real interface
 
+Current implementation choice:
+
+- FastAPI-served HTML templates with minimal client-side JavaScript
+- no Node or npm dependency for the MVP path right now
+
 Minimum screens:
 
 - search page
@@ -154,7 +159,7 @@ These are important, but should follow the main product path:
 
 The highest-value next implementation step is:
 
-- add `GET /api/v1/trials/{nct_id}`
-- then start the Next.js trial finder UI
+- finish the FastAPI-served finder and detail experience
+- then add the answer panel to that UI
 
 That creates the shortest path from working backend to usable MVP.
