@@ -1,0 +1,347 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000067757",
+          "term": "Glucagon-Like Peptide-1 Receptor"
+        },
+        {
+          "id": "D000067756",
+          "term": "Glucagon-Like Peptide Receptors"
+        },
+        {
+          "id": "D043562",
+          "term": "Receptors, G-Protein-Coupled"
+        },
+        {
+          "id": "D011956",
+          "term": "Receptors, Cell Surface"
+        },
+        {
+          "id": "D008565",
+          "term": "Membrane Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011964",
+          "term": "Receptors, Gastrointestinal Hormone"
+        },
+        {
+          "id": "D018000",
+          "term": "Receptors, Peptide"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000098860",
+          "term": "Tirzepatide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive tirzepatide subcutaneously (SC)",
+          "interventionNames": [
+            "Drug: Tirzepatide"
+          ],
+          "label": "Participants with Type 2 Diabetes",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive tirzepatide SC",
+          "interventionNames": [
+            "Drug: Tirzepatide"
+          ],
+          "label": "Participants with Overweight or Obesity Without Type 2 Diabetes",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Participants with Overweight or Obesity Without Type 2 Diabetes",
+            "Participants with Type 2 Diabetes"
+          ],
+          "description": "Administered SC",
+          "name": "Tirzepatide",
+          "otherNames": [
+            "LY3298176"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Overweight",
+        "Obesity"
+      ],
+      "keywords": [
+        "Point of Care Ultrasound (POCUS)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "LillyTrials@Lilly.com",
+          "name": "Trial questions or participation questions: 1-877-CTLILLY (1-877-285-4559) or",
+          "phone": "3176154559",
+          "role": "CONTACT"
+        },
+        {
+          "email": "clinical_inquiry_hub@lilly.com",
+          "name": "Physicians interested in becoming principal investigators please contact",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Singapore",
+          "contacts": [
+            {
+              "phone": "+65-64139811",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Noel Varghese",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Singapore",
+          "facility": "Lilly Centre for Clinical Pharmacology",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          },
+          "status": "RECRUITING",
+          "zip": "138623"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Eli Lilly and Company",
+          "name": "Call 1-877-CTLILLY (1-877-285-4559) or 1-317-615-4559 Mon - Fri 8 AM - 8 PM Eastern time (UTC/GMT - 5 hours, EST)",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate how fasting and stopping the use of tirzepatide affects the amount of food and drink that stays in the stomach after a meal. Ultrasound will be used to check the stomach content after a test meal."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Meet one of the following criteria:\n\n  * Have type 2 diabetes\n  * Have obesity\n  * Have overweight with at least one health issue related to weight but without type 2 diabetes\n\nExclusion Criteria:\n\n* Have a condition that affects how their stomach empties\n* Have had weight loss surgery\n* Have type 1 diabetes\n* Have any major medical conditions or histories that could interfere with the study",
+      "healthyVolunteers": false,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study to Evaluate the Effect of Fasting Duration and Tirzepatide Withholding on the Amount of Food and Fluid in the Stomach in Participants With Type 2 Diabetes Mellitus and Participants With Overweight or Obesity Without Type 2 Diabetes Mellitus",
+      "nctId": "NCT07299084",
+      "officialTitle": "A Study to Evaluate the Effect of Fasting Duration and Temporary Withholding of Tirzepatide on Retained Gastric Contents Using Gastric Ultrasound in Participants With Type 2 Diabetes Mellitus and Participants With Overweight or Obesity Without Type 2 Diabetes Mellitus",
+      "orgStudyIdInfo": {
+        "id": "27358"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Eli Lilly and Company"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "Eli Lilly and Company",
+          "id": "I8F-MC-GPJE",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants with Lack of Gastric Content Retention Post-Solid Test Meal",
+          "timeFrame": "Baseline, Day 171 (at 6, 8, 12, 18 and 24 hours after baseline or Day 170 solid test meal)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants with Lack of Gastric Content Retention Post-Liquid Test Meal",
+          "timeFrame": "Day 178 (at 6, 8, 12, 18 and 24 hours after Day 177 liquid test meal)"
+        },
+        {
+          "measure": "Amount of Gastric Content Volume Post-Liquid Test Meal",
+          "timeFrame": "Day 178 (at 6, 8, 12, 18 and 24 hours after Day 177 liquid test meal)"
+        },
+        {
+          "measure": "Amount of Gastric Content Volume Post-Solid Test Meal",
+          "timeFrame": "Baseline, Day 171 (at 6, 8, 12, 18 and 24 hours after baseline or Day 170 solid test meal)"
+        },
+        {
+          "measure": "Percentage of Participants with Lack of Gastric Content Retention Post-Solid Test Meal After Discontinuation of Tirzepatide",
+          "timeFrame": "Baseline through 8 days after discontinuation of tirzepatide at 6, 8, 12,18 and 24 hours"
+        },
+        {
+          "measure": "Percentage of Participants with Grades 0, 1, and 2 from Antrum Grading Scale Post-Solid Test Meal",
+          "timeFrame": "Baseline, Day 171 (at 6, 8, 12, 18 and 24 hours after baseline or Day 170 solid test meal)"
+        },
+        {
+          "measure": "Percentage of Participants with Grades 0, 1, and 2 from Antrum Grading Scale Post-Liquid Test Meal",
+          "timeFrame": "Day 178 (at 6, 8, 12, 18 and 24 hours after Day 177 liquid test meal)]"
+        },
+        {
+          "measure": "Percentage of Participants with Grades 0, 1, and 2 from Antrum Grading Scale After Discontinuation of Tirzepatide",
+          "timeFrame": "Baseline through 8 days after discontinuation of tirzepatide at 6, 8, 12,18 and 24 hours"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "A Study to Evaluate the Effect of Fasting Duration and Tirzepatide Withholding on the Amount of Food and Fluid in the Stomach in Participants With Type 2 Diabetes Mellitus and Participants With Overweight or Obesity Without Type 2 Diabetes Mellitus",
+          "url": "https://trials.lilly.com/en-US/trial/677436"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Eli Lilly and Company"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-02",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-01-14",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-10",
+      "studyFirstSubmitQcDate": "2025-12-10"
+    }
+  }
+}

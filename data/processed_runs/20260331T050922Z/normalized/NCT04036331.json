@@ -1,0 +1,309 @@
+{
+  "arms": [
+    {
+      "description": "Brenner FIT pediatric weight management program enrollment. an interdisciplinary, family-based pediatric weight management clinic based upon the Familial Approach to Treatment of Childhood Obesity. Patients are referred by a physician for obesity or overweight with a weight-related comorbidity. Treatment teams are comprised of a pediatrician, counselor, dietitian, and physical activity specialist, with others (e.g., social workers, physical therapists) as needed. The entire family is encouraged to attend all aspects of the treatment program, although only one attending caregiver is required.",
+      "intervention_names": [
+        "Behavioral: Brenner FIT Standard"
+      ],
+      "label": "Adolescent Participants",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Weight loss program for adults/caregivers of those enrolled in Brenner FIT. Participants in the By Design condition (adult caregivers) will be prescribed the Essentials lifestyle intervention which includes tailored dietary and physical activity goals designed to achieve 1-2 lbs./week of weight loss, provided by a multidisciplinary team of medical providers, dietitians, behaviorists, and exercise specialists. A daily calorie restriction of 500 kcal/day is prescribed based on estimates of total energy expenditure (TEE) obtained from a measured resting metabolic rate (RMR) prior to enrollment.",
+      "intervention_names": [
+        "Behavioral: By Design Essentials"
+      ],
+      "label": "Caregivers of Adolescent Participants",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "This condition is for dyads that are co-enrolled in This component adds four additional strategies: dyad group sessions, one-on-one parent/child communication sessions, joint goal setting/tracking, and home environment assessment. This innovative approach will seek to employ components of motivation and communication theories to increase self-monitoring, positive communication, problem solving, and social support to increase healthy physical activity and eating behaviors to increase the effectiveness of the weight loss programs beyond gains observed in matched controls.",
+      "intervention_names": [
+        "Behavioral: Dyad Plus"
+      ],
+      "label": "Co-enrollment",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Weight Loss",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Pediatric Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Overweight Adolescents",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Parent-Child Relations",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Family and Household",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Eligible for enrollment in Brenner FIT and/or By Design Essentials\n* Caregiver who lives in the house with a BMI \\> 30\n* No contraindication for physical activity or caloric restriction\n* Must be able to read and write English\n\nExclusion Criteria:\n\n* BMI \\< 30\n* Contraindication for physical activity or caloric restriction\n* Cannot read or write English",
+    "healthy_volunteers": false,
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "13 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Adolescent Participants"
+      ],
+      "description": "After referral, families attend an orientation, in which they are then scheduled for an initial introductory 2-hour intake group session and cooking class; these occur within 2-4 weeks of the orientation. Monthly 1-hour long visits with the dietitian, counselor, and physical activity specialist are held for 6 months, in which the child and caregiver see the pediatrician. During the 6 months of treatment, they attend 4 group classes, choosing from topics such as meal planning, physical activity, and parenting. Specialized visits with the physical activity specialist or dietician are scheduled as pertinent issues arise. Clinic visits include individualized goal setting (for behaviors family/clinician have agreed to address), healthy eating and physical activity education, and behavioral counseling to implement changes at home.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Brenner FIT Standard",
+      "normalized_name": "brenner fit standard"
+    },
+    {
+      "arm_group_labels": [
+        "Caregivers of Adolescent Participants"
+      ],
+      "description": "A dietitian provides each participant with a detailed program manual that describes the prescribed diet. The dietitian utilizes standard behavioral techniques to promote lifestyle behavior changes that enable participants to implement and maintain behaviors necessary to adhere to the dietary prescription. Participants also receive a standard exercise program designed to promote exercise energy expenditure of approximately 600 kilocalories\\*/week. The exercise prescription includes resistance training for 2 days per week and aerobic training for 3 days per week, to meet a 600 kilocalories\\*/week expenditure goal. Behaviorists meet with participants to provide individual and group-based counseling to learn the skills necessary to adopt the prescribed dietary pattern and exercise plans. Group sessions will be delivered consecutively over 6 months (20 total; 1.5 hours each).",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "By Design Essentials",
+      "normalized_name": "by design essentials"
+    },
+    {
+      "arm_group_labels": [
+        "Co-enrollment"
+      ],
+      "description": "This will include all components of the standard Brenner FIT program and By Design Essentials.\n\nIn addition, group sessions, one-on-one parent/child communication sessions, joint goal setting/tracking, and home environment assessment. Dyads will attend 6 meetings that will last approximately 1 hour each.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Dyad Plus",
+      "normalized_name": "dyad plus"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Weight status of caregivers and youth will be quantified through calculation of BMI derived from measurement of height and weight at the intake and follow-up visits. Both height (plus or minus 0.1 cm) and weight (plus or minus 0.5 kg) will be recorded twice and values will be averaged to produce the final value using a Tanita (registered trademark) digital scale and a Seca (registered trademark) Height Rod (respectively). BMI will be calculated as kg /m2. BMI z-score will be calculated using CDC growth charts.",
+      "measure": "BMI z-score",
+      "outcome_type": "primary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Weight status of caregivers and youth will be quantified through calculation of BMI derived from measurement of height and weight at the intake and follow-up visits. Both height (plus or minus 0.1 cm) and weight (plus or minus 0.5 kg) will be recorded twice and values will be averaged to produce the final value using a Tanita (registered trademark) digital scale and a Seca (registered trademark) Height Rod (respectively). BMI will be calculated as kg /m2. BMI z-score will be calculated using CDC growth charts.",
+      "measure": "BMI z-score",
+      "outcome_type": "primary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "We will examine screening, recruitment, retention, adherence, and overall perception of Brenner FIT and By Design components",
+      "measure": "Feasibility and Acceptability of Implementation",
+      "outcome_type": "primary",
+      "time_frame": "Month 6"
+    },
+    {
+      "description": "Physical activity data will be collected using the Physical Activity Assessment Tool (PAAT). The PAAT measures type, frequency, and duration of moderate and vigorous physical activity from all four domains of physical activity-leisure, occupational, household, and transportation-in the last 7 days, and asks if this is \"more, less, or about the same as usual\" activity",
+      "measure": "Physical Activity Assessment Tool (PAAT)-Adult",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Physical activity data will be collected using the Physical Activity Assessment Tool (PAAT). The PAAT measures type, frequency, and duration of moderate and vigorous physical activity from all four domains of physical activity-leisure, occupational, household, and transportation-in the last 7 days, and asks if this is \"more, less, or about the same as usual\" activity",
+      "measure": "Physical Activity Assessment Tool (PAAT)-Adult",
+      "outcome_type": "secondary",
+      "time_frame": "6 Months"
+    },
+    {
+      "description": "Physical activity data will be collected using the Youth Physical Activity Questionnaire (YPAQ which contains 47 different activities broken into contextual settings/domains: sporting, leisure, school, and free-time activities and aims to measures frequency, duration, intensity, and mode, over the past 7 days of both PA and sedentary activities. The questionnaire will be self-administered via a REDCap survey. Study staff will be available to answer any questions that participants have during the process.",
+      "measure": "Physical Activity Assessed with Youth Physical Activity Questionnaire (YPAQ)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Physical activity data will be collected using the Youth Physical Activity Questionnaire (YPAQ which contains 47 different activities broken into contextual settings/domains: sporting, leisure, school, and free-time activities and aims to measures frequency, duration, intensity, and mode, over the past 7 days of both PA and sedentary activities. The questionnaire will be self-administered via a REDCap survey. Study staff will be available to answer any questions that participants have during the process.",
+      "measure": "Physical Activity Assessed with Youth Physical Activity Questionnaire (YPAQ)",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "In addition to using the YPAQ, physical activity data will be collected using Fitbit Inspire 2 (Model Number: FB418BKBK). Participating children will be instructed to wear the Fitbit device for 7 days continuously during the two data collection timepoints (baseline and 6 months).",
+      "measure": "Physical Activity Assessed Using Fitbit (Youth)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "In addition to using the YPAQ, physical activity data will be collected using Fitbit Inspire 2 (Model Number: FB418BKBK). Participating children will be instructed to wear the Fitbit device for 7 days continuously during the two data collection timepoints (baseline and 6 months).",
+      "measure": "Physical Activity Assessed Using Fitbit (Youth)",
+      "outcome_type": "secondary",
+      "time_frame": "6 Months"
+    },
+    {
+      "description": "Fasting blood glucose will be ascertained for each participant. A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is optimal. A fasting blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Concentration of fasting glucose for all participants, mg/dL",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Fasting blood glucose will be ascertained for each participant. A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is optimal. A fasting blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Concentration of fasting glucose for all participants, mg/dL",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "AST a useful test for detecting or monitoring liver damage. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Aspartate Aminotransferase -Levels of AST for all participants, measured in units per liter (IU/L)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Fasting insulin levels will be gathered from all participants. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Concentration of fasting Insulin for all participants, mg/dL",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Fasting insulin levels will be gathered from all participants. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Concentration of fasting Insulin for all participants, mg/dL",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Normal range for the hemoglobin A1c level is between 4% and 5.6%. Hemoglobin A1c levels between 5.7% and 6.4%. Values greater denote diabetes. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Hemoglobin A1c concentration for all participants, measured in percentage",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Normal range for the hemoglobin A1c level is between 4% and 5.6%. Hemoglobin A1c levels between 5.7% and 6.4%. Values greater denote diabetes. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Hemoglobin A1c concentration for all participants, measured in percentage",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "AST a useful test for detecting or monitoring liver damage. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Aspartate Aminotransferase -Levels of AST for all participants, measured in units per liter (IU/L)",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "A low level of ALT in the blood is expected and is normal. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Alanine Aminotransferase-Levels of ALT for all participants, measured in units per liter",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "A low level of ALT in the blood is expected and is normal. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Alanine Aminotransferase-Levels of ALT for all participants, measured in units per liter",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "total cholesterol: less than 200 mg/dL.ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Concentration of total cholesterol (mg/dL)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "total cholesterol: less than 200 mg/dL. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Concentration of total cholesterol (mg/dL)",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Clinical and non-clinical costs of the interventions will be compiled over the duration of the program. All cost will be reported in the same unit. ONLY if routinely collected as a part of regular clinical care.",
+      "measure": "Economic costs of the three intervention arms over duration of program (USD)",
+      "outcome_type": "secondary",
+      "time_frame": "Month 6"
+    },
+    {
+      "description": "To assess diet in participant, we will use the NCI's NHANES Food Frequency Questionnaire which aims to obtain frequency and, in some cases, portion size information about food and beverage consumption over a specified period of time, typically the past month or year. A food frequency questionnaire (FFQ) consists of a finite list of foods and beverages with response categories to indicate usual frequency of consumption over the time period queried. To assess the total diet, the number of foods and beverages queried typically ranges from 80 to 120. The questionnaire will be self-administered via a REDCap survey. Study staff will be available to answer any questions that participants have during the process.",
+      "measure": "Diet for Parent and Youth",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline and 6 Months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "CHILD",
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The purpose of this research is to determine the effectiveness of a coordinated program (Dyad Plus) that would help to facilitate self-monitoring, positive communication, joint problem solving, and social support to increase physical activity, healthy eating, and weight loss. Participants of the Brenner FIT (Families In Training) pediatric weight management program and their parent/guardian will co-enroll in weight loss programs. Parents/guardians will receive the components of By Design Essentials.",
+    "brief_title": "Dyad Plus Effectiveness/Feasibility",
+    "collaborator_names": [
+      "National Institutes of Health (NIH)"
+    ],
+    "completion_date": "2026-04",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Eligible for enrollment in Brenner FIT and/or By Design Essentials\n* Caregiver who lives in the house with a BMI \\> 30\n* No contraindication for physical activity or caloric restriction\n* Must be able to read and write English\n\nExclusion Criteria:\n\n* BMI \\< 30\n* Contraindication for physical activity or caloric restriction\n* Cannot read or write English",
+    "detailed_description": "Brenner FIT is a family-based pediatric weight management clinic for youth 2-18 years old referred by a physician for overweight or obesity. By Design is an adult (\\>18yrs) weight loss clinic that includes tailored dietary and physical activity behavioral counseling. The preliminary data suggest that most adolescent youth who enroll in Brenner FIT have at least one adult caregiver who is eligible and would benefit from enrollment in By Design Essentials.\n\nParticipants will be randomized into 1 of 3 groups. This include Brenner FIT standard care, Brenner FIT standard care+ By Design Essentials, or Dyad Plus.\n\nBrenner FIT Standard: After referral, families attend an orientation, in which they are then scheduled for an initial introductory 2-hour intake group session and cooking class; these occur within 2-4 weeks of the orientation. Monthly 1-hour long visits with the dietitian, counselor, and physical activity specialist are held for 6 months, in which the child and caregiver see the pediatrician. During the 6 months of treatment, they attend 4 group classes, choosing from topics such as meal planning, physical activity, and parenting. Specialized visits with the physical activity specialist or dietician are scheduled as pertinent issues arise. Clinic visits include individualized goal setting (for behaviors family/clinician have agreed to address), healthy eating and physical activity education, and behavioral counseling to implement changes at home.\n\nBy Design Essentials: A dietitian provides each participant with a detailed program manual that describes the prescribed diet. The dietitian utilizes standard behavioral techniques to promote lifestyle behavior changes that enable participants to implement and maintain behaviors necessary to adhere to the dietary prescription. Participants also receive a standard exercise program designed to promote exercise energy expenditure of approximately 600 kilocalories\\*/week. The exercise prescription includes resistance training for 2 days per week and aerobic training for 3 days per week, to meet a 600 kilocalories\\*/week expenditure goal. Behaviorists meet with participants to provide individual and group-based counseling to learn the skills necessary to adopt the prescribed dietary pattern and exercise plans. Group sessions will be delivered consecutively over 6 months (20 total; 1.5 hours each).\n\nDyad Plus (combination of Brenner FIT and By Design Essentials):This will include all components of the standard Brenner FIT program and By Design Essentials. In addition, group sessions, one-on-one parent/child communication sessions, joint goal setting/tracking, and home environment assessment. Dyads will attend 6 meetings that will last approximately 1 hour each.",
+    "drug_class_labels": [],
+    "enrollment_count": 90,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Brenner FIT Standard",
+      "By Design Essentials",
+      "Dyad Plus"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-27",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Wake Forest University Health Sciences",
+    "masking": "NONE",
+    "maximum_age_text": "65 Years",
+    "minimum_age_text": "13 Years",
+    "nct_id": "NCT04036331",
+    "official_title": "Effectiveness/Feasibility of A Coordinated Parent/Child Dyad Weight Loss Intervention:",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-04",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT04036331",
+    "start_date": "2021-07-30",
+    "study_first_posted_at": "2019-07-29",
+    "study_type": "INTERVENTIONAL"
+  }
+}

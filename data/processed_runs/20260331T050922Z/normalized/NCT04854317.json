@@ -1,0 +1,203 @@
+{
+  "arms": [
+    {
+      "description": "Obese patients with I, II, and III grade of obesity (BMI 30-44.99 kg/m2) and previous failed attempts of diet.",
+      "intervention_names": [
+        "Procedure: Endoscopic gastroplasty"
+      ],
+      "label": "Patients undergoing Endoscopic Sleeve Gastroplasty",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Obese patients with I, II, and III grade of obesity (BMI 30-44.99 kg/m2) and previous failed attempts of diet.",
+      "intervention_names": [
+        "Procedure: Endoscopic gastroplasty"
+      ],
+      "label": "Patients undergoing Endoluminal Vertical Gastroplasty",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Obese patients with I, II, and III grade of obesity (BMI 30-44.99 kg/m2) and previous failed attempts of diet.",
+      "intervention_names": [
+        "Procedure: Endoscopic gastroplasty"
+      ],
+      "label": "Patients undergoing Primary Obesity Surgical Endolumenal 2",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Obesity",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* age \\> 18 years old;\n* acceptance of written informed consent to undergo an EG;\n* capability to understand and comply with the study protocol;\n* obesity: a BMI of 30-34.99 kg/m2 with previous failed attempts at diet and with obesity-related diseases, a BMI of 35-39.99 kg/m2 with previous failed attempts at diet and with or without obesity-related diseases, a BMI of 40-44.99 kg/m2 with previous failed attempts at diet and with or without obesity-related diseases not fit for surgery.\n\nExclusion Criteria:\n\n* patients who do not give their consent to the enrollment in the study or are incompetent, unconscious or unable to express their consent for any reason;\n* patients suffering from any condition which precludes compliance with study instructions;\n* patients who underwent previous attempts at surgical or endoscopic bariatric therapy;\n* patient has any allergy or other known contraindication or intolerance to the medications used in the study;\n* women who are either pregnant or nursing at the time of screening, or are of child-bearing potential and do not practice methods of contraception;\n* patient suffers from a life threatening condition.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Patients undergoing Endoluminal Vertical Gastroplasty",
+        "Patients undergoing Endoscopic Sleeve Gastroplasty",
+        "Patients undergoing Primary Obesity Surgical Endolumenal 2"
+      ],
+      "description": "Endoscopic Gastroplasty",
+      "drug_class": null,
+      "intervention_type": "PROCEDURE",
+      "name": "Endoscopic gastroplasty",
+      "normalized_name": "endoscopic gastroplasty"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "To evaluate the percentage of Total Body Weight Loss after each endoscopic bariatric procedure",
+      "measure": "Percentage of Total Body Weight Loss (TBWL percent)",
+      "outcome_type": "primary",
+      "time_frame": "at 30\u00b115, 90\u00b130, 180\u00b130, 360\u00b130, 540\u00b130 days after the procedure"
+    },
+    {
+      "description": "To evaluate the percentage of Excess Weight Loss after each endoscopic bariatric procedure",
+      "measure": "Percentage of Excess Weight Loss (EWL percent)",
+      "outcome_type": "secondary",
+      "time_frame": "at 30\u00b115, 90\u00b130, 180\u00b130, 360\u00b130, 540\u00b130 days after the procedure"
+    },
+    {
+      "description": "bleeding (YES/NO), perforation (YES/NO), fistula (YES/NO)",
+      "measure": "Safety in terms of occurrance intra-procedural, post-procedural and late adverse events (AEs).",
+      "outcome_type": "secondary",
+      "time_frame": "intra-procedural, up to 14 days and any time after 14 days"
+    },
+    {
+      "description": "percentage of procedures completed without abortion",
+      "measure": "Technical success rate",
+      "outcome_type": "secondary",
+      "time_frame": "intra-procedural"
+    },
+    {
+      "description": "NRS pain scale (0-10 points, where 0 is no pain and 10 is the worst pain imaginable)",
+      "measure": "Pain procedure-related",
+      "outcome_type": "secondary",
+      "time_frame": "the day before the procedure, at 12, 24 hours after the procedure"
+    },
+    {
+      "description": "PONV vomit scale 0-3 points (0= no vomit, 1=1 episodes per day, 2= 2 episodes per day, 3= 3 or more episodes per day)",
+      "measure": "Vomit procedure-related",
+      "outcome_type": "secondary",
+      "time_frame": "at 12, 24 hours after the procedure"
+    },
+    {
+      "description": "PONV nausea intensity scale 0-3 points (0= no nausea, 1=sometimes, 2= often or most of the time, 3= all of the time)",
+      "measure": "Nausea procedure-related",
+      "outcome_type": "secondary",
+      "time_frame": "at 12, 24 hours after the procedure"
+    },
+    {
+      "description": "procedure time (minutes)",
+      "measure": "Procedure time differences among the procedures used",
+      "outcome_type": "secondary",
+      "time_frame": "intra-procedural"
+    },
+    {
+      "description": "number of suturing systems, needles, threads, sutures and cinchs",
+      "measure": "Quantity of devices and accessories used during the procedures",
+      "outcome_type": "secondary",
+      "time_frame": "intra-procedural"
+    },
+    {
+      "description": "BAROS QoL Scale (BAROS questionnaire), EQ-5D test, Sio test, Scl-90 test, EDE-q, BUT test, DERS test",
+      "measure": "Quality of life (QoL) of endoscopic bariatric procedures",
+      "outcome_type": "secondary",
+      "time_frame": "before the procedure (when required by the test) and 1,3,6,12,18,24,36 months after the procedure"
+    },
+    {
+      "description": "quantification of the hepatic steatosis before and after the procedure by elastography",
+      "measure": "Hepatic steatosis",
+      "outcome_type": "secondary",
+      "time_frame": "before the procedure (at baseline) and 3\u00b11 months after the procedure"
+    },
+    {
+      "description": "evaluation of the transit time thorough the stomach by a X-ray with barium meal.",
+      "measure": "Transit time",
+      "outcome_type": "secondary",
+      "time_frame": "before the procedure (at baseline) and 3\u00b11 months after the procedure"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "A single-center, randomized trial will be conducted in order to compare three Endoscopic Gastroplasty (EG) techniques in obese patients (BMI 30-44.99 kg/m2) at Gastroenterology and Gastrointestinal Endoscopy Unit, Mater Olbia Hospital, Qatar Foundation Endowment \\& Gemelli Foundation, Italy in period June 2020 - August 2024, with the aim to compare the efficacy and safety of these procedures.",
+    "brief_title": "Bariatric Endoscopy for Treatment of Obesity",
+    "collaborator_names": [],
+    "completion_date": "2025-02",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* age \\> 18 years old;\n* acceptance of written informed consent to undergo an EG;\n* capability to understand and comply with the study protocol;\n* obesity: a BMI of 30-34.99 kg/m2 with previous failed attempts at diet and with obesity-related diseases, a BMI of 35-39.99 kg/m2 with previous failed attempts at diet and with or without obesity-related diseases, a BMI of 40-44.99 kg/m2 with previous failed attempts at diet and with or without obesity-related diseases not fit for surgery.\n\nExclusion Criteria:\n\n* patients who do not give their consent to the enrollment in the study or are incompetent, unconscious or unable to express their consent for any reason;\n* patients suffering from any condition which precludes compliance with study instructions;\n* patients who underwent previous attempts at surgical or endoscopic bariatric therapy;\n* patient has any allergy or other known contraindication or intolerance to the medications used in the study;\n* women who are either pregnant or nursing at the time of screening, or are of child-bearing potential and do not practice methods of contraception;\n* patient suffers from a life threatening condition.",
+    "detailed_description": "BACKROUND Obesity has reached epidemic proportions in the world affecting nowadays, along with overweight, over a third of the world's population. It is a chronic multifactorial illness that can lead to potentially life threatening diseases (such as metabolic disorders, cardiovascular disease, stroke, liver disease, and cancer) that can be prevented and improved by weight loss.\n\nA widely accepted option for the treatment of obesity is the endoscopic approach by many different techniques, ranging from the placement of an intragastric balloon (IGB) to the EG, that are nowadays available in the clinical practice as three techniques: Endoscopic Sleeve Gastroplasty (ESG) with Overstitch Endoscopic Suturing Device (Apollo Overstitch), Endoluminal Vertical Gastroplasty (EVG) with an endoluminal-suturing device (Endomina), and Primary Obesity Surgery Endolumenal-2 (POSE-2). Basically, Bariatric Endoscopy (BE) has two mechanism of action. The first one consists in reduction of the stomach capacity and the second one is alteration of gastric motility.\n\nThe major advantages of BE techniques consist in their lower invasiveness compared to surgery, reversibility, short hospital stay, and cost-effectiveness. For instance, laparoscopic sleeve gastrectomy (LSG) is the most performed bariatric surgery procedure that is effective but is associated with important adverse events as bleeding from the staple line that can occur in up to 5% of the procedures, gastric leak and persistent fistulas that can occur in up to 8% the LSG.\n\nThe weight reduction is conditioned by patient gastric capacity and treatment duration but also the change in the attitude of the patient towards food and physical activity may be fundamental. It is therefore important that the patient is motivated to lose weight and aware of the consequences of his behaviour.\n\nAs at the moment many BE techniques are available and most of them are often interchangeable, it could be important to start clarifying if there are any differences among them in terms of their safety and efficacy.\n\nIn this study we focused on EG as literature shows more promising results in terms of weight loss compared to IGB.\n\nTYPE OF STUDY Single centre, randomized trial.\n\nOBJECTIVES Primary objective of the study is to detect any difference among the three EG techniques available in the clinical practice, in terms of weight loss over a 18 months period.\n\nTRIAL DESIGN All patients with indication to EG will be revised by an internal multidisciplinary team composed of gastroenterologist, surgeon, dietitian, psychiatrist, radiologist and endocrinologist.\n\nBefore each EG procedure, the patients will be subjected to a psychoclinical assessment (a clinical interview along with psychometric tests) to identify psychopathological conditions which may contraindicate the treatment or personality traits that may predict a successfull treatment (Millon Clinical Multiaxial Inventory-III, MCMI-III); during this visit it will be also evaluated the patients' food-related behavior (Eating Problem Checklist EPCL), their binge eating severity (Binge Eating Scale BES), various aspects of body-image perception and body attitudes (Body Uneasiness Test BUT), the eating impulsivity (BIS-11 Barratt Impulsiveness Scale BIS-11), and the patients' quality of life based on a combination of generic and specific instruments (Obesity Related Well-Being questionnaire ORWELL 97), collateral QoL measures (as the Short Form of SF-36 health Survey, SF-12), together with the patients' own intervention; major endocrine disorders will be excluded and an esophagogastroduodenoscopy will be performed in order to exclude also endoscopic contraindications to the endoscopic bariatric procedure.\n\nBefore each EG procedure patients also will get their first dietician examination while at hospital. During the first visit, all patients will be subjected to a clinical interview in order to estimate their calories intake, their eating and taste habits and their level of physical activity, then will be collected anthropometric data (height, weight, circumferences) in order to calculate Body Mass Index (BMI), Waist/Hips ratio (WHR) and cardiovascular risk. Furthermore the dietician will identify a goal for each patient in terms of weight loss and physical activity improvement per week, reinforcing successful outcomes and rewarding good behaviors, also through the involvement of patients family members as social support. Just after the endoscopic bariatric procedure patients will be given a two months refeeding protocol, different depending on endoscopic procedure.\n\nBefore the preliminary esophagogastroduodenoscopy a blood sample will be collected in order to establish the initial blood asset for each patient.\n\nA liver ultrasound with elastography will be performed in order to evaluate the degree of steatosis. A transit study examination and a barium x-ray will be performed in order to test the motility and the size of the stomach before the endoscopic bariatric procedure.\n\nAfter informed consent will be obtained, patients will be randomly enrolled to each procedure, according a software released by the GraphPad Software Company.\n\nEach procedure will be performed by two skilled endoscopists in obesity procedures and with an anaesthesiologist support for monitoring and general anesthesia.\n\nThe patients will be randomly divided as follows:\n\n* 1/3 patients will be treated with ESG (created by a series of endoluminally placed free-hand, full-thickness, closely spaced sutures through the gastric wall from the pre-pyloric antrum to the gastroesophageal junction by using an endoscopic suturing device called Overstitch. This procedure reduces the entire stomach along the greater curvature, to form an endoscopically created sleeve);\n* 1/3 patients will be treated with POSE2 (large, overtube-style platform that has 4 working channels that can accommodate a slim endoscope and 3 specialized instruments to place transmural tissue anchor plications in parts of the gastric body);\n* 1/3 patients will be treated with EVG (by using an over-the-scope triangulation platform attached to an endoscope, anterior-to-posterior greater curvature plications are applied).\n\nAfter the procure the patients will undergo a dietician check at 30\u00b115, 90\u00b130, 180\u00b130, 360\u00b130, 540\u00b130 days of follow-up. Just after the first follow-up patients will be given a new customized food plan. During each dietician check will be collected new anthropometric data and patients will be trained to reduce calories intake, to increase physical activity, to self-monitoring, to slower eating and they will undergo a nutritional education in order to obtain behavior-change intervention. During dietician checks, the patients will be interviewed regarding their quality of life according the Weiner's Bariatric Quality of Life Index , their behavior change about diet and calories intake and will be collected new anthropometric data in order to evaluate the % of total body weight loss (TBWL%), % of excess weight loss (EWL%) and the \u0394 Body Mass Index (\u0394BMI). Dietician checks will be performed by a dietician who is skilled both in dietician support and behavioral therapy for obese patients.\n\nFurthermore during the follow-up patients will also undergo a psychological visits, with the same timing of the dietician checks (at 30\u00b115, 90\u00b130, 180\u00b130, 360\u00b130, 540\u00b130 days of follow-up), in order to evaluate the compliance to the previous given instructions, to reinforce good eating behaviors and, after a psychoclinical reassessment through some of the above mentioned tests, to give a psychological support in case of need.\n\nPatients will undergo also a gastroenterological visit at 30\u00b115, 90\u00b130, 180\u00b130, 360\u00b130, 540\u00b130 days of follow-up to assess any possible adverse event to the procedure or to modify therapy in case of symptoms not well controlled.\n\nA liver ultrasound with elastography, a transit study examination and a barium x-ray will be performed 3 months after the procedure in order to evaluate any change in hepatic steatosis, motility and size of the stomach.\n\nBlood samples will be collected 30\u00b115 90\u00b130, 180\u00b130, 360\u00b130, 540\u00b130 days after each EG in order to evaluate hormonal and microbiota modifications.\n\nPATIENTS One hundred eighty-nine adult patients with obesity eligible for EG will be randomly and consecutively enrolled in one Endoscopy Unit: Mater Olbia Hospital (Olbia, Italy).\n\nSAMPLE SIZE Assuming from the literature that the bariatric endoscopic techniques considered in our protocol have similar results in the short-term period (i.e. 15-20% of % Total Body Weight Loss), while assuming more relevant differences in the long-term period, a total sample size of 159 patients (53 for each group) will be sufficient to detect a difference of means among the 3 groups, considering an effect size of 25%, a power of 80% and a significance level of 5%. However, to compensate for potential drop-out, enrollment could be continued beyond the planned sample size, with patients allocated to available procedures at the time of enrollment.\n\nSTATISTICS Sample characteristics will be summarized as mean \u00b1 standard deviation (SD) or median and 25\u00b0-75\u00b0 percentiles (IQR) for quantitative variables, and by absolute and relative (percentages) frequencies for qualitative ones. Shapiro-Wilk test will be used to assess normality f data distribution. Relationship between two quantitative variables will be assessed by calculating Pearson or Spearman correlation coefficients. Pearson Chi Square or Fisher exact tests will be used to evaluate differences of qualitative variables. Differences in quantitative variables between groups will be investigated with unpaired t-test or one-way analysis of variance (ANOVA), as appropriate, or non-parametric methods (Mann-Whitney's and Kruskal-Wallis' tests) if assumptions of parametric tests will be not satisfied. For post hoc multiple testing, we will adjust the alpha level by using the Bonferroni correction (i.e. results were considered statistically significant at p\\<0.05). For all other analyses, a p-value less than 0.05 will be considered statistically significant. SPSS or Jamovi version 2.2.5 (The jamovi project, Newcastle, Australia) software will be used for statistical computation.\n\nINFORMED CONSENT STATEMENT All patients will be required to give informed consent to the study. All clinical data will be obtained after each patient agreed to treatment by written consent.\n\nDATA RETENTION Data will be retained by the Mater Olbia Hospital in the electronic archive provided for each patient during their first admission at Hospital, as it always happens for all patients.\n\nINSURANCE All patients will be covered by the regular insurance provided by the Mater Olbia Hospital for inpatients and outpatients as the same steps are scheduled also for each patient who should undergo an endoscopic bariatric procedure out of this study.",
+    "drug_class_labels": [],
+    "enrollment_count": 189,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Endoscopic gastroplasty"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Weight",
+      "Obese",
+      "Endoscopic Sleeve Gastroplasty",
+      "Endoluminal Vertical Gastroplasty",
+      "Primary Obesity Surgical Endolumenal 2"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-02-03",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Mater Olbia Hospital",
+    "masking": "SINGLE",
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT04854317",
+    "official_title": "Endoscopic Gastroplasty for Treatment of Obesity: a Single Centre, Randomized Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2025-02",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT04854317",
+    "start_date": "2020-06-19",
+    "study_first_posted_at": "2021-04-22",
+    "study_type": "INTERVENTIONAL"
+  }
+}

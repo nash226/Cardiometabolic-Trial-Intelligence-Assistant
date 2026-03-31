@@ -1,0 +1,240 @@
+{
+  "arms": [
+    {
+      "description": "Participants in the Core component condition will receive guidance and support for healthy eating and regular physical activity.",
+      "intervention_names": [
+        "Behavioral: Mediterranean eating style",
+        "Behavioral: Physical activity"
+      ],
+      "label": "Core Component",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive support to eat with more awareness of hunger and fullness signals and to explore/identify ways to enjoy physical activity.",
+      "intervention_names": [
+        "Behavioral: Mediterranean eating style",
+        "Behavioral: Physical activity",
+        "Behavioral: Mindful Eating",
+        "Behavioral: Enjoyable Exercise"
+      ],
+      "label": "Core Component+Mindful eating+Enjoyable exercise",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive support to eat with more awareness of hunger and fullness signals, strategies to improve how they think and feel about their bodies, and to explore/identify ways to enjoy physical activity.",
+      "intervention_names": [
+        "Behavioral: Mediterranean eating style",
+        "Behavioral: Physical activity",
+        "Behavioral: Mindful Eating",
+        "Behavioral: Body Appreciation",
+        "Behavioral: Enjoyable Exercise"
+      ],
+      "label": "All component condition",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive support to eat with more awareness of hunger and fullness signals and strategies to improve how they think and feel about their bodies.",
+      "intervention_names": [
+        "Behavioral: Mediterranean eating style",
+        "Behavioral: Physical activity",
+        "Behavioral: Mindful Eating",
+        "Behavioral: Body Appreciation"
+      ],
+      "label": "Core Component+Mindful eating+Body Appreciation",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive strategies to improve how they think and feel about their bodies, and to explore/identify ways to enjoy physical activity.",
+      "intervention_names": [
+        "Behavioral: Mediterranean eating style",
+        "Behavioral: Physical activity",
+        "Behavioral: Body Appreciation",
+        "Behavioral: Enjoyable Exercise"
+      ],
+      "label": "Core component+body appreciation+enjoyment of exercise",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Obesity & Overweight",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Cardiometabolic Risk Factors",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* 18 years and older\n* BMI between 25-40 (if BMI is between 25-30 then additional cardiometabolic risk factor must be present including hypertension, high cholesterol, prediabetes or type 2 diabetes)\n\nExclusion Criteria:\n\n* current participation in a formal weight loss program\n* current use of weight loss medication\n* history of bariatric surgery\n* physical condition that would limit the ability to engage in moderate intensity physical activity\n* current pregnancy\n* recent weight loss of 5% body weight\n* condition that may interfere with ability to complete the study procedures",
+    "healthy_volunteers": true,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "All component condition",
+        "Core Component",
+        "Core Component+Mindful eating+Body Appreciation",
+        "Core Component+Mindful eating+Enjoyable exercise",
+        "Core component+body appreciation+enjoyment of exercise"
+      ],
+      "description": "The Mediterranean eating style is characterized by high intake of minimally processed, plant-based foods (fruits, vegetables, whole grains, beans and nuts), high intake of olive oil, moderate intake of dairy, low intake of red meat, and wine in moderation. This dietary pattern emphasizes inclusion of health promoting foods rather than focusing on restricting types and quantities of food, weight change is not a goal of this approach, and it is flexible rather than rule based to accommodate tastes/preferences. Daily self monitoring is a key strategy to support adherence to this eating style",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Mediterranean eating style",
+      "normalized_name": "mediterranean eating style"
+    },
+    {
+      "arm_group_labels": [
+        "All component condition",
+        "Core Component",
+        "Core Component+Mindful eating+Body Appreciation",
+        "Core Component+Mindful eating+Enjoyable exercise",
+        "Core component+body appreciation+enjoyment of exercise"
+      ],
+      "description": "Based on the Physical Activity Guidelines for Americans (PAG) which provide a evidence-based summary of key recommendations for adults in the United States to achieve the robust health benefits accessible through regular physical activity. Recommendations include 150 minutes of moderate-to-vigorous aerobic exercise per week, muscle strengthening activities 2 times per week, and reducing daily sedentary time. Participants will receive psychoeducation and explore examples of activities that will help achieve the goal. Strategies for monitoring exercise will be reviewed.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Physical activity",
+      "normalized_name": "physical activity"
+    },
+    {
+      "arm_group_labels": [
+        "All component condition",
+        "Core Component+Mindful eating+Body Appreciation",
+        "Core Component+Mindful eating+Enjoyable exercise"
+      ],
+      "description": "Based on Mindfulness-Based Eating Awareness Training (MB-EAT) which is a multi-session, group-based intervention designed to increase awareness of both internal and external cues to eat and to facilitate the capacity to regulate eating behaviors and food intake in response to these cues. These skills are developed through experiential activities that are completed in the group setting during each meeting including regular mindfulness practice and mindfulness activities specifically applied to the experience of eating. Participants are also given mindfulness activities to practice between group meetings.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Mindful Eating",
+      "normalized_name": "mindful eating"
+    },
+    {
+      "arm_group_labels": [
+        "All component condition",
+        "Core Component+Mindful eating+Body Appreciation",
+        "Core component+body appreciation+enjoyment of exercise"
+      ],
+      "description": "An adapted version of the Body Project, a dissonance-based body appreciation program designed to increase awareness of and actively challenge sociocultural factors that promote negative body image and can disrupt healthy eating and exercise. Participants engage in group discussion and experiential activities to practice resisting sources of pressure to conform to unhealthy body standards. Between-session activities help participants translate knowledge and skills to their daily lives.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Body Appreciation",
+      "normalized_name": "body appreciation"
+    },
+    {
+      "arm_group_labels": [
+        "All component condition",
+        "Core Component+Mindful eating+Enjoyable exercise",
+        "Core component+body appreciation+enjoyment of exercise"
+      ],
+      "description": "Participants will be provided with a brief overview and rationale for the importance of finding enjoyable ways to be physically active. Participants will experiment with different, evidence-based strategies to boost affect during exercise to build an activity routine that is enjoyable.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Enjoyable Exercise",
+      "normalized_name": "enjoyable exercise"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "This 8-item self-report measure captures perceived quality and usefulness and overall satisfaction with treatment. Scores range from 8-32 with higher scores reflecting a more positive view of treatment.",
+      "measure": "Client Satisfaction Questionnaire",
+      "outcome_type": "primary",
+      "time_frame": "End of treatment, 12 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The purpose of this research study is to pilot test five different, group based and remotely delivered programs designed to support healthy eating and regular physical activity. Each group will contain information and support for healthy eating and physical activity. Groups may also include support to 1) eat with more awareness of hunger and fullness, 2) improve how people think and feel about their bodies, and/or 3) identify ways to be physically active that are more enjoyable. Each group will include a unique combination of these components and the goal is to assess overall satisfaction and engagement with each of the programs.",
+    "brief_title": "Pilot Test of Five Weight Neutral Interventions to Improve Health Among Adults of Higher Body Weight",
+    "collaborator_names": [
+      "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+    ],
+    "completion_date": "2026-11-15",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* 18 years and older\n* BMI between 25-40 (if BMI is between 25-30 then additional cardiometabolic risk factor must be present including hypertension, high cholesterol, prediabetes or type 2 diabetes)\n\nExclusion Criteria:\n\n* current participation in a formal weight loss program\n* current use of weight loss medication\n* history of bariatric surgery\n* physical condition that would limit the ability to engage in moderate intensity physical activity\n* current pregnancy\n* recent weight loss of 5% body weight\n* condition that may interfere with ability to complete the study procedures",
+    "detailed_description": "The goal of study is to conduct a Multiphase Optimization STrategy (MOST) Preparation phase study to combine and pilot test candidate components for a group-based, remotely delivered weight neutral/healthy lifestyle intervention. Potential treatment components will include the following existing, evidence-based interventions; (1) mindfulness-based eating awareness training , (2) body acceptance program , and (3) a tailored intervention to promote enjoyment of physical activity. Weight neutral components will complement a Core intervention of standardized education on healthy diet (emphasizing the Mediterranean diet) and Physical Activity Guidelines for Americans (i.e., aerobic activity, muscle strengthening). This phase of the science is focused on pilot testing to ensure the target sample can be recruited and and that the novel combinations of treatment components can be delivered as intended. To make strategic use of resources, a fractional factorial design will be used to pilot test five conditions: the Core intervention alone and all possible combinations of the Core intervention + two or more of the weight neutral components. Men and women (n=50) with BMI\u226525kg/m2 will be recruited and randomized in small groups (n=10) to receive one of the five conditions held online (each 12 weeks in duration).",
+    "drug_class_labels": [],
+    "enrollment_count": 50,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Mediterranean eating style",
+      "Physical activity",
+      "Mindful Eating",
+      "Body Appreciation",
+      "Enjoyable Exercise"
+    ],
+    "intervention_model": "FACTORIAL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Mediterannean diet",
+      "Physical Activity",
+      "Weight Neutral",
+      "Lifestyle intervention",
+      "Mindful eating",
+      "Mindfulness-based Eating Awareness Training",
+      "Body Image",
+      "Obesity",
+      "Overweight",
+      "Cardiometabolic health",
+      "Multiphase Optimization STrategy (MOST)",
+      "MOST Preparation Phase",
+      "Body appreciation"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-23",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "The Miriam Hospital",
+    "masking": "SINGLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07363616",
+    "official_title": "Optimizing a Weight Neutral Intervention to Improve Health Among Adults of Higher Body Weight: A MOST Preparation Phase Study",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-11-15",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07363616",
+    "start_date": "2025-12-31",
+    "study_first_posted_at": "2026-01-23",
+    "study_type": "INTERVENTIONAL"
+  }
+}

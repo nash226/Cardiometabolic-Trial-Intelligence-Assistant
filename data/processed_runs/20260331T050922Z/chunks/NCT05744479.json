@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05744479:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05744479\nBrief title: Metformin for Antipsychotic-induced Weight Gain in Adults With Intellectual Disability\nOfficial title: Metformin for Antipsychotic-induced Weight Gain in Adults With Intellectual Disability: A Double-Blind Randomized Control Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT05744479"
+    },
+    {
+      "chunk_id": "NCT05744479:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Intellectual Disability; Developmental Disability; Obesity\nIntervention labels: Metformin; Placebo; Lifestyle Intervention\nDrug class labels: \nArms: Metformin (Oral); Placebo\nKeywords: Intellectual Disability; Developmental Disability; Obesity; Metformin",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05744479"
+    },
+    {
+      "chunk_id": "NCT05744479:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: People with IDD (intellectual and developmental disability) have very high rates of obesity and die prematurely from cardiometabolic disease. While antipsychotics contribute to this problem, their use is necessary and appropriate in a significant subgroup of individuals with IDD. Exercise and diet interventions have limitations and may not be sufficient, requiring effective adjunctive pharmacological approaches to target obesity and related comorbidities in IDD. However, persons with IDD treated with antipsychotics are systematically excluded from clinical trials hindering development of evidence to help guide safe and effective treatment of these comorbidities. Moreover, evidence from other disorders cannot be extrapolated to IDD given inherent biological differences between disorders. This trial will address the identified gaps, which extend beyond cardiovascular morbidity and negatively impact psychosocial outcomes, in a hugely underserviced population.This is the the first RCT (randomized control trial) to examine the efficacy of metformin in overweight or obese adults with IDD who have experienced antipsychotic-induced weight gain. By generating efficacy data for a very accessible and scalable intervention, allows for guideline and implementation strategies to address a recalcitrant health problem.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 183,
+      "trial_nct_id": "NCT05744479"
+    },
+    {
+      "chunk_id": "NCT05744479:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 16 Years\nMaximum age: 65 Years\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Stable outpatients\n* Age 16-65 years\n* Diagnosed with an IDD\n* On maintenance treatment with an antipsychotic (stable dose for \u22653 months).\n* BMI must be \u226530 kg/m2, OR \u226527 kg/m2 with at least one weight-related comorbidity (treated or untreated) such as: hypertension, dyslipidaemia, obstructive sleep apnea, or impaired fasting glucose, OR \\>=25 for individuals who have gained \\> 5% body weight in association with AP use.\n* Females of child-bearing age must be on one of the following regular contraceptives:\n\n  1. Agree to abstain from sex for the duration of the trial or\n  2. A barrier method of a diaphragm with spermicide and/or Latex condom or\n  3. An oral contraceptive agent, implantable contraceptive or an injectable contraceptive for at least six months prior to entering the study and will continue its use throughout the study, or\n  4. An intrauterine device, or\n  5. Partner has had a vasectomy at least 3 months prior to study start\n\nExclusion Criteria:\n\n* Females who are nursing, currently pregnant, or have a positive pregnancy test\n* Clinical or laboratory evidence of uncompensated cardiovascular, endocrine, haematological, hepatic, renal, or pulmonary disease\n* Previous treatment and lack of efficacy or tolerability with metformin\n* History or diagnosis of Type 1 Diabetes (T1D) or Type 2 Diabetes (TD2) or fasting blood work, HbA1c \\> 6.5%\n* History of metabolic acidosis or lactic acidosis\n* Treatment with weight-lowering agents\n* Medications with significant renal impact\n* Major medical or surgical event in the preceding 3 months\n* Acute suicidal risk.\n* Moderate to severe substance use disorder, other than caffein or nicotine use disorder",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 289,
+      "trial_nct_id": "NCT05744479"
+    },
+    {
+      "chunk_id": "NCT05744479:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Individual's percentage change in body weight | time_frame=Weeks 0, 4, 8, 12, 16, 10, 24 | description=Percentage change in body weight measured in percentage change of pounds (lbs)\ntype=secondary | measure=Proportion of participants who achieve body weight reduction \u22655%, and \u226510% in each arm | time_frame=Week 0 and week 24 | description=Percentage change in body weight measured in percentage change of pounds (lbs), expressed as a percentage\ntype=secondary | measure=Between group (metformin vs placebo) absolute change in weight | time_frame=Week 24 | description=Absolute change in body weight between metformin and placebo groups measured in pounds (lbs). Calculated by the mean change in weight between the metformin and placebo groups.\ntype=secondary | measure=Between group absolute change in waist circumference | time_frame=Week 24 | description=Absolute change in waist circumstance measured in centimetres (cm) between metformin and placebo groups. Calculated by the mean change in waist circumstance between the metformin and placebo groups.\ntype=secondary | measure=Between group absolute change in BMI | time_frame=Week 24 | description=Absolute change in BMI between metformin and placebo groups. Calculated by the mean change in BMI between the metformin and placebo groups.\ntype=secondary | measure=Change in whole body insulin sensitivity calculated with Matsuda Index | time_frame=Week 0 and Week 24 | description=With the results of the oral glucose tolerance test at Week 0 and Week 24, insulin sensitivity was calculated with the Matsuda index.\n\nInsulin sensitivity was calculated with Matsuda index: \\[10,000 / \u221aglucose minute 0 x insulin minute 0) (mean glucose (OGTT) x mean insulin OGTT)\\]. A higher result is better.\n\nIn the formula OGTT: oral glucose tolerance test.\ntype=secondary | measure=Change in beta-cell function, measured using the Insulin Secretion-Sensitivity Index-2 (ISSI-2) | time_frame=Week 0 and Week 24 | description=ISSI-2 is defined as the product of (i) insulin secretion measured by the ratio of the area-under-the-insulin-curve to the area-under-the-glucose curve and (ii) insulin sensitivity measured by the Matsuda index.\ntype=secondary | measure=Proportion in each group converting to impaired glucose tolerance, prediabetes, or type 2 diabetes | time_frame=Week 0 and Week 24 | description=Measured through the change in HOMA-IR (Homeostatic Model Assessment for Insulin Resistance) derived from the Oral Glucose Tolerance Test (OGTT).\ntype=secondary | measure=Change in cardiovascular risk factors assessed by change in C-reactive protein | time_frame=Week 0 and Week 24 | description=Measured through the change in C-reactive protein (CRP) assessed at week 0 and week 24.\n\nHealthy levels:\n\nCRP: Less than 0.3 mg/dL\ntype=secondary | measure=Change in cardiovascular risk factor assessed by change in fasting lipids profile | time_frame=Week 0 and Week 24 | description=Change in fasting lipid profile (low-density lipoprotein cholesterol (LDL), high-density lipoprotein cholesterol (HDL), and triglycerides) assessed at week 0 and week 24.\n\nHealthy levels:\n\nLDL: less than 100mg/dL HDL: 40mg/dL or higher Triglycerides: less than 150mg/dL\ntype=secondary | measure=Change in cardiovascular risk factor assessed by change in blood pressure | time_frame=Week 0 and Week 24 | description=Measured through the change in blood pressure (systolic/diastolic) assessed at week 0 and week 24. A blood pressure range of 110/70 to 120/80 is considered normal.\ntype=secondary | measure=Change in visceral and liver fat content | time_frame=Week 0 and Week 24 | description=Change in visceral and liver fat content assessed via MRI scans at week 0 and week 24.\ntype=secondary | measure=Medication Adherence | time_frame=Week 0 to Week 24 | description=Measured through returning of blister pill packs, and assessing number of pills taken.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 559,
+      "trial_nct_id": "NCT05744479"
+    },
+    {
+      "chunk_id": "NCT05744479:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-02-28\nPrimary completion date: 2025-12-01\nCompletion date: 2026-12-01\nStudy first posted: 2023-02-27\nResults first posted: None\nLast update posted: 2025-08-05\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05744479"
+    },
+    {
+      "chunk_id": "NCT05744479:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Centre for Addiction and Mental Health\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT05744479"
+    }
+  ],
+  "trial_nct_id": "NCT05744479"
+}

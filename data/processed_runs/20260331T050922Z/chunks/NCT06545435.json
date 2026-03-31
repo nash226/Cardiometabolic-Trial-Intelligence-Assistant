@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06545435:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06545435\nBrief title: Predicting Appendicular Lean and Fat Mass With Bioelectrical Impedance Analysis Among Adult Patients With Obesity.\nOfficial title: Predicting Appendicular Lean and Fat Mass With Bioelectrical Impedance Analysis Among Adult Patients With Obesity.\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT06545435"
+    },
+    {
+      "chunk_id": "NCT06545435:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: \nDrug class labels: \nArms: Obese Adults Cohort; MRI Validation Subset\nKeywords: Appendicular Lean Mass; Fat Mass; Body Composition; Bio-Impedance Analysis",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06545435"
+    },
+    {
+      "chunk_id": "NCT06545435:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study aims to develop and cross-validate novel bioelectrical impedance analysis (BIA) equations for predicting appendicular soft tissue masses, specifically fat mass (FM) and appendicular lean mass (ALM), in a sample of Caucasian adult subjects affected by obesity. The research will compare these new BIA equations with three established BIA-derived prediction models and validate them using dual-energy X-ray absorptiometry (DXA) and magnetic resonance imaging (MRI) data. This study utilizes existing datasets to enhance the accuracy and applicability of BIA in assessing body composition and supports the development of standardized algorithms for converting raw BIA data across different devices and populations.\nDetailed description: Assessing body composition in persons with obesity, and in particular, the excess of fat mass and the possible reduction of muscle mass, is important to define the phenotypic manifestation of obesity (estimating the risk of dysmetabolic, cardiovascular, and functional complications), and to determine a better treatment approach. Dual X-ray absorptiometry (DXA) is a mature technology for assessing body composition with major advances in the technology over the past three decades. DXA is a validated tool to investigate body composition phenotypes, as it reliably assesses whole-body and regional bone mineral content, fat mass and lean mass. Unfortunately, it is not always available in all settings where instead Bio-Impedance Analysis (BIA) (which has lower costs and greater convenience of use) is commonly used to estimate body composition starting from electrical resistance and reactance data.\n\nRegrettably, the two methods often give non-superimposable results and studies have been carried out to predict, from BIA, values commonly obtainable only with DXA. In particular, different studies estimated the appendicular lean mass from BIA, which represents an important parameter for the evaluation of sarcopenia and is correlated with its functional limitations. For example, a post hoc analysis of the PROVIDE study was aimed in particular at assessing the level of agreement between BIA- and DXA-derived soft tissue ratios as indicators of limb tissue quality and at developing and cross-validating new BIA equations for predicting appendicular soft tissue \\[fat mass (FM) and appendicular lean mass (ALM)\\] in older Caucasian adults with physical function decline using both the Hologic Horizon and GE Lunar DXA systems as reference methods.\n\nMETHODS:\n\nThis study is based on baseline data (anthropometric, BIA, and DXA) collected in pre-existing datasets. In particular\n\n* the Sapienza dataset which derived from a study aimed at investigating the association between markers of insulin sensitivity and SO defined by three novel body composition models will be used to develop BIA equations predicting appendicular soft tissue masses;\n* datasets from different studies and in particular from the BIA International Dataset Project will be used to validate the BIA equations assessing the agreement between BIA- and DXA-derived soft tissue estimation\n\nSTUDY PARAMETERS:\n\n-Anthropometry: anthropometric parameters should have been measured in accordance with validated and standardized methodologies.\n\nThe anthropometric parameters of interest are body mass, stature, waist circumference, calf circumference, arm circumference, and triceps skinfold thickness, limb length.\n\n-Dual energy X-ray absorptiometry: all participants should have been scanned using a fan beam whole body DXA device (Hologic Bedford, Massachusetts, USA; Lunar Prodigy, GE Healthcare). Daily calibration of the densitometers should have been performed following the instructions provided by the manufacturer.\n\nSince measurements vary among instruments from different manufacturers, calibration equations will be used to address these issues and improve the agreement between devices.\n\nThe body components of interest are total fat mass (FM), total lean mass (LM), ALM (sum of the lean mass in the limbs), FM (sum of the fat mass in the limbs), and the ratio of ALM to FM.\n\n-Bioelectrical impedance analysis: After overnight fasting and bladder voiding, bioelectrical impedance analysis should have been performed with participants lying supine (with their limbs slightly away from their body; active electrodes should have been placed on the right side on conventional metacarpal and metatarsal lines, recording electrodes in standard positions at the right wrist and ankle) or in vertical position (barefoot, stepping onto the electrodes embedded into the scale and grasping the electrode-embedded handles). At each location, a whole-body tetrapolar BIA device operating at a weak alternating electrical current of 500 \u00b5A to 1 mA and a single frequency of 50 kHz should have been used to measure the voltage drop across body tissues.\n\nThe electric parameters of interest are resistance (R: restriction of current flow), reactance (Xc: capacitance of cell membranes and tissue interfaces), and phase angle (PhA).\n\nThe information about BIA devices will be recorded since raw R and Xc values may not be not comparable.\n\nDue to the significant differences found in different studies when comparing vertical to supine position, the results obtained with the two methodologies will be analysed separately.\n\nWith reference to the limitation reported by the PROVIDE study authors (i.e. the absence of a direct measurement of extracellular water), the raw data detected through multifrequency bioimpedance devices will also be used, where available. Specifically, the values of impedance and resistance measured at a frequency of 5 kHz will be included; furthermore, where available, it would be optimal to analyze data measured at the following frequencies; 1, 2, 5, 10, 50, 100, 200, 250 and 500 kHz.\n\nSTATISTICS:\n\nData will be analyzed by using IBM\u00ae SPSS\u00ae Statistics version 25. The data will be presented as frequency (percent) and mean \u00b1 SD for qualitative and quantitative variables, respectively. The Shapiro-Wilk test will be used to evaluate if the data are normally distributed. Comparison of continuous variables will be performed using parametric or non-parametric tests depending on whether the distribution is normal or not. The chi-square test will be used to check whether the frequencies occurring in the sample differ significantly from the expected frequencies. The cut-off for statistical significance will be set at p\\<0.05.\n\nPreliminary equations, using DXA-derived appendicular lean and fat mass as the dependent variables, and age, gender, BMI, weight, impedance index, and reactance as independent variables, will be developed using a stepwise multiple linear regression approach. Only significant regressors of appendicular soft tissue masses will be considered in the equations.\n\nModel performance fit will be assessed using multiple correlations (R2) and standard errors of the estimate (SEE). For each of the appendicular soft tissue components, the model with the lowest standard error of the estimate will be used in the cross-validation analysis.\n\nThe individual and body composition data from the cross-validation samples will be imputed into the developed equations to assess their accuracy. The statistics for cross-validation includes mean difference, limits of agreement, and root mean squared error.\n\nAdditionally, the agreement between ALM\\_BIA estimated in our sample, ALM\\_SERGI, ALM\\_Provide, and ALM\\_KYLE will be assessed using regression analysis.\n\nFinally, the agreement between the ALM/FM-ratios estimated by DXA and by BIA will be evaluated using Bland and Altman analysis.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 1117,
+      "trial_nct_id": "NCT06545435"
+    },
+    {
+      "chunk_id": "NCT06545435:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Adults with obesity (BMI \u2265 30 kg/m\u00b2)\n* Age 18 years and older\n* Available baseline DXA and BIA measurements\n* Provided informed consent for data use\n\nExclusion Criteria:\n\n* any chronic disease or medication that can significantly affect body composition \\[eg. malignant diseases in the last 5 years, organ failure, acute inflammation (C-reactive protein\\>10 mg/L) autoimmune diseases, neurological diseases, syndromic obesity\\]\n* cognitive impairment (Mini-Mental State Examination \\<25)\n* subjects that are considered physically active (athletes or very active subjects i.e., performing at least 150 minutes of moderate to vigorous physical activity per week)\n* alcohol intake \\>140g/wk for Males and 70g/wk for Females\n* participation in a weight-reducing program (last 3 months)\n* impossibility to perform DXA exam\n* pregnancy and breast-feeding.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 144,
+      "trial_nct_id": "NCT06545435"
+    },
+    {
+      "chunk_id": "NCT06545435:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Development and Cross-Validation of BIA Equations for Appendicular Soft Tissue Masses | time_frame=Baseline | description=This primary outcome measures the accuracy and cross-validation of newly developed bioelectrical impedance analysis (BIA) equations in predicting appendicular soft tissue masses, including fat mass (FM) and appendicular lean mass (ALM), in Caucasian adults with obesity. The aim is to validate these equations against dual-energy X-ray absorptiometry (DXA) measurements.\ntype=secondary | measure=Comparison of New BIA Equations with Existing Models | time_frame=Baseline | description=This secondary outcome evaluates the performance of newly developed BIA equations against existing BIA-derived prediction models, specifically those by Kyle et al. (2003), Sergi et al. (2015), and the PROVIDE study (2017). The comparison will focus on differences in prediction accuracy for appendicular soft tissue masses.(FM) compared to measurements obtained from DXA.\ntype=secondary | measure=Algorithm Development for Conversion Between BIA Devices | time_frame=Baseline | description=This outcome involves developing algorithms to facilitate the conversion of raw BIA data (resistance and reactance) between different devices and populations. This aims to standardize BIA measurements and improve compatibility across different settings and demographic groups.\ntype=secondary | measure=Cross-Validation of New BIA Equations with Different DXA Systems | time_frame=Baseline | description=This outcome assesses the cross-validation of the new BIA equations using different DXA systems as reference standards. The objective is to ensure the robustness and reliability of BIA predictions across various DXA technologies.measurements for muscle size and architecture in a sub-sample of participants.\ntype=secondary | measure=Validation of BIA Equations Using Magnetic Resonance Imaging (MRI) | time_frame=Baseline | description=This outcome evaluates the validation of the BIA equations in a subset of subjects using magnetic resonance imaging (MRI) to assess muscle size and architecture. The goal is to further validate the accuracy of BIA predictions for soft tissue composition compared to MRI data.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 293,
+      "trial_nct_id": "NCT06545435"
+    },
+    {
+      "chunk_id": "NCT06545435:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-05-13\nPrimary completion date: 2025-06-30\nCompletion date: 2025-12-31\nStudy first posted: 2024-08-09\nResults first posted: None\nLast update posted: 2024-08-26\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06545435"
+    },
+    {
+      "chunk_id": "NCT06545435:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Roma La Sapienza\nLead sponsor class: OTHER\nCollaborators: University of Trieste; University of North Carolina, Chapel Hill; Federal University of Pelotas; Louisiana State University Health Sciences Center in New Orleans; University of Cagliari; University of Lisbon; University of Alberta; Curtin University\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 61,
+      "trial_nct_id": "NCT06545435"
+    }
+  ],
+  "trial_nct_id": "NCT06545435"
+}

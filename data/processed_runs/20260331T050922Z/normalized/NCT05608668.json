@@ -1,0 +1,173 @@
+{
+  "arms": [
+    {
+      "description": "Each participant will be provided a PrO2\u2122 device and trained on its use and its accompanying PrO2 Fit\u2122 app. The PrO2\u2122 is a flow-resistive device that provides inspiratory resistance via a fixed 2mm orifice and has Bluetooth connectivity to most IOS/Android devices or Mac/Windows computers. The PrO2\u2122 device and app allows for both 100% adherence monitoring and immediate user biofeedback.\n\nParticipants will be instructed to inspire forcefully through PrO2\u2122 until the device signals that the user has achieved the target resistance (via audible alarm and visible light signal).\n\nThe research team will implement biofeedback signals at a specific inspiratory resistance to provide a precise and individualized training target. Successful IMR repetitions will require that subjects achieve a pressure target that is 60% of their MIP.",
+      "intervention_names": [
+        "Device: Pro2 - 60% of participant's MIP"
+      ],
+      "label": "Active inspiratory muscle rehabilitation (IMR) group",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Participants in the control intervention will also use the same PrO2\u2122 device but at a reduced peak resistance of 15% MIP. The research team will implement biofeedback signals at a specific inspiratory resistance to provide precise and individualized training target. Successful IMR repetitions will require that subjects achieve a pressure target that is 15% of their MIP for each repetition.",
+      "intervention_names": [
+        "Device: Pro2 - 15% of participant's MIP"
+      ],
+      "label": "SHAM",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Pediatric Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Pediatric Asthma",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "CHILD"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Documented informed consent from legal guardian and assent from participant as appropriate.\n* Children 8 to 17 years of age with obesity (BMI \u2265 95th percentile for age and sex) and mild asthma.\n* Participants (or parent/guardian) must have access to the internet and an approved smart device/computer.\n* Child must have a designated caregiver who expresses a commitment to encourage the participant to complete the study procedures.\n* Participant and legal guardian must speak and read English.\n* Child is currently taking prescription medicine for asthma (Any type of albuterol or inhaled steroid)\n\nExclusion Criteria:\n\n* Prior intubation for asthma\n* Current self-reported pregnancy or planning to become pregnant.\n* Have an FEV1 \\< 50% of predicted at screening\n* History of lung surgery in the past two years,\n* History of pulmonary embolism in the past two years,\n* Any history of recurrent spontaneous pneumothorax, or pneumothorax in the past 12 months\n* Current undiagnosed chest pain,\n* History of inner ear surgery in the past 12 months,\n* Undiagnosed syncopal episodes in the past two years,\n* Progressive neurological or neuromuscular disorders or need for chronic O2 therapy.\n* Inability to complete baseline measurements satisfactorily according to the research coordinator's or PI's judgment.\n* Any condition in the opinion of the PI that would not allow safe conduct of study procedures (including IMR, MIP testing or step-test), such as a physical disability, recent musculoskeletal injury or illness, current and ongoing evaluation for undiagnosed cardiopulmonary or neurologic symptoms",
+    "healthy_volunteers": false,
+    "maximum_age_text": "17 Years",
+    "minimum_age_text": "8 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Active inspiratory muscle rehabilitation (IMR) group"
+      ],
+      "description": "Each participant will be provided a PrO2\u2122 device and trained on its use as well as its accompanying PrO2 Fit\u2122 app. The PrO2\u2122 is a flow-resistive device that provides inspiratory resistance via a fixed 2mm orifice and has Bluetooth connectivity to most IOS/Android devices or Mac/Windows computers. The PrO2\u2122 device and app allows for both 100% adherence monitoring and immediate user biofeedback. Participants will be instructed to inspire forcefully through PrO2\u2122 until the device signals that the user has achieved the target resistance (via audible alarm and visible light signal). The research team will implement biofeedback signals at a specific inspiratory resistance to provide precise and individualized training target. Successful IMR repetitions will require that subjects achieve a pressure target that is 60% of their MIP.",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Pro2 - 60% of participant's MIP",
+      "normalized_name": "pro2 - 60% of participant's mip"
+    },
+    {
+      "arm_group_labels": [
+        "SHAM"
+      ],
+      "description": "Participants in the control intervention will also use the same PrO2\u2122 device but at a reduced peak resistance of 15% MIP. The research team will implement biofeedback signals at a specific inspiratory resistance to provide precise and individualized training target. Successful IMR repetitions will require that subjects achieve a pressure target that is 15% of their MIP for each repetition",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Pro2 - 15% of participant's MIP",
+      "normalized_name": "pro2 - 15% of participant's mip"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Prevalence of IMR completion (actual / planned reps over intervention period) in active IMR group",
+      "measure": "Adherence to active IMR Adherence to active IMR",
+      "outcome_type": "primary",
+      "time_frame": "approximately 2 months"
+    },
+    {
+      "description": "Prevalence of agree or strongly agree to question of satisfaction with active IMR",
+      "measure": "Participant satisfaction among active IMR participants",
+      "outcome_type": "primary",
+      "time_frame": "approximately 2 months"
+    },
+    {
+      "description": "Completion of study Visit 3",
+      "measure": "Prevalence of completer status",
+      "outcome_type": "primary",
+      "time_frame": "approximately 2 months"
+    },
+    {
+      "description": "Change in maximum inspiratory pressure (MIP) over intervention period",
+      "measure": "Demonstrate changes in inspiratory muscle function with IMR.",
+      "outcome_type": "secondary",
+      "time_frame": "approximately 2 months"
+    },
+    {
+      "description": "Participants are asked every week during the follow up calls if there are any health improvements",
+      "measure": "Demonstrate changes in respiratory symptoms following IMR.",
+      "outcome_type": "secondary",
+      "time_frame": "approximately 2 months"
+    },
+    {
+      "description": "Participants are asked every week during the follow up calls if there are any adverse events",
+      "measure": "Demonstrate the safety of IMR",
+      "outcome_type": "other",
+      "time_frame": "approximately 2 months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "CHILD"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This is a single-center, randomized, SHAM-controlled, parallel assignment, double-masked,8-week interventional study among children aged 8-17 years (not yet 18 years old) of age with obesity and asthma. (n=60), recruited from Duke Health Center Creekstone, to test the effectiveness of inspiratory muscle rehabilitation (IMR) as an acceptable add-on intervention to reduce dyspnea (feeling short-of-breath or breathless) and to promote greater activity in children with obesity and asthma.\n\nClinic to test the effectiveness of inspiratory muscle rehabilitation (IMR) as an acceptable add-on intervention to reduce dyspnea (feeling short-of-breath or breathless) and to promote greater activity in children with obesity",
+    "brief_title": "Inspiratory Pulmonary Rehabilitation for Children With Obesity and Asthma",
+    "collaborator_names": [
+      "American Lung Association"
+    ],
+    "completion_date": "2026-06",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Documented informed consent from legal guardian and assent from participant as appropriate.\n* Children 8 to 17 years of age with obesity (BMI \u2265 95th percentile for age and sex) and mild asthma.\n* Participants (or parent/guardian) must have access to the internet and an approved smart device/computer.\n* Child must have a designated caregiver who expresses a commitment to encourage the participant to complete the study procedures.\n* Participant and legal guardian must speak and read English.\n* Child is currently taking prescription medicine for asthma (Any type of albuterol or inhaled steroid)\n\nExclusion Criteria:\n\n* Prior intubation for asthma\n* Current self-reported pregnancy or planning to become pregnant.\n* Have an FEV1 \\< 50% of predicted at screening\n* History of lung surgery in the past two years,\n* History of pulmonary embolism in the past two years,\n* Any history of recurrent spontaneous pneumothorax, or pneumothorax in the past 12 months\n* Current undiagnosed chest pain,\n* History of inner ear surgery in the past 12 months,\n* Undiagnosed syncopal episodes in the past two years,\n* Progressive neurological or neuromuscular disorders or need for chronic O2 therapy.\n* Inability to complete baseline measurements satisfactorily according to the research coordinator's or PI's judgment.\n* Any condition in the opinion of the PI that would not allow safe conduct of study procedures (including IMR, MIP testing or step-test), such as a physical disability, recent musculoskeletal injury or illness, current and ongoing evaluation for undiagnosed cardiopulmonary or neurologic symptoms",
+    "detailed_description": "Asthma is a chronic respiratory disease affecting roughly 8% of US children, and is characterized by intermittent symptoms of breathlessness/dyspnea, chest tightness, wheeze, and cough. Although asthma is currently the most common chronic disease in childhood, there are no cures and the underlying etiologies of the various asthma phenotypes still remain unclear. More than half of the 7-8 million pediatric asthma patients in the US have one or more exacerbations each year. A sizable component of asthma's impact on children stems from the recurrent mild-moderate symptoms that cause impaired quality-of-life, activity limitation and exercise avoidance. Uncontrolled asthma frequently disrupts quality of life and is the #1 reason that children miss school and avoid physical activity. Among children with asthma, obesity is a major risk factor for disruptive asthma symptoms. Asthma is conventionally thought to stem from inflammation in the lower airways. However, despite the widespread availability of anti-inflammatory inhaled corticosteroid (ICS) drugs, uncontrolled asthma remains extremely common and appears to be less effective in obese patients.\n\nPediatric obesity is a risk factor for both new-onset asthma and asthma that has more frequent and refractory symptoms. We found that pediatric obesity increases the risk for spirometry-confirmed asthma by nearly 30%. The mechanistic link between obesity and uncontrolled asthma remains unknown. In general, asthmatic children who are obese experience a reduced response to daily preventative ICS. Pediatric obesity has repeatedly been associated with more frequent and severe asthma symptoms, greater airflow obstruction, need for more frequent albuterol use, and more frequent and severe exacerbations. A consistent finding across most studies of children with both obesity and asthma has been an obesity-related increase in the frequency of chronic asthma symptoms (specifically dyspnea) and asthma-related activity limitation. We found that the greater asthma symptoms seen in obese versus non-obese children were primarily attributable to excess symptoms of dyspnea. Obese adolescents with asthma most commonly report that dyspnea is their most problematic asthma symptom. We hypothesize that the increased asthma symptom reporting in obese asthma, stems not from airway inflammation but rather obesity-related impaired breathing mechanics (i.e. chest restriction). Because of the reduced response to conventional asthma drugs and the resulting excess symptoms, there is a critical need for new treatment approaches for obese children with asthma that is guided by improved mechanistic understanding of this difficult phenotype.",
+    "drug_class_labels": [],
+    "enrollment_count": 60,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Pro2 - 60% of participant's MIP",
+      "Pro2 - 15% of participant's MIP"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Asthma",
+      "Obesity",
+      "Pediatric"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-08-22",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Duke University",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": "17 Years",
+    "minimum_age_text": "8 Years",
+    "nct_id": "NCT05608668",
+    "official_title": "Inspiratory Pulmonary Rehabilitation for Children With Obesity and Asthma",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-06",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05608668",
+    "start_date": "2023-07-27",
+    "study_first_posted_at": "2022-11-08",
+    "study_type": "INTERVENTIONAL"
+  }
+}

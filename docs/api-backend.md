@@ -181,3 +181,7 @@ These pages are server-rendered with Jinja2 and use the existing API endpoints b
 The trial detail page now includes a grounded answer panel backed by:
 
 - `POST /api/v1/ask`
+
+The finder page now also includes a corpus-level ask panel that reuses the active finder filters and calls:
+
+- `POST /api/v1/ask`

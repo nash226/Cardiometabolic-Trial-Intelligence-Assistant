@@ -2010,3 +2010,66 @@ The next improvement is likely:
 
 - linking citations to specific sections on the detail page, or
 - adding the answer panel to the search page
+
+## 37. Section-Directed Citation Links
+
+### What we built
+
+We updated UI citations so they now point to relevant sections on the trial detail page instead of only linking back to the top of the record.
+
+Chunk types now map to section anchors such as:
+
+- `summary_description` -> summary
+- `eligibility` -> eligibility
+- `conditions_interventions` -> interventions
+- `outcomes` -> outcomes
+- `timeline` -> timeline
+
+### Why this matters
+
+Clickable citations are much more useful when they land near the evidence the answer is citing.
+
+That reduces friction for the user and makes grounded answers easier to inspect.
+
+### What I learned
+
+- citation UX is not just about linking to the right record
+- good grounded UX should route the user to the right part of the record whenever possible
+
+### What comes next
+
+The next improvement is likely:
+
+- preserving ask state across cross-trial navigation, or
+- adding the answer panel to the finder/search page
+
+## 38. Global Corpus Ask On The Finder Page
+
+### What we built
+
+We added a global ask panel to the finder page.
+
+It:
+
+- reuses the current search filters
+- sends the question to `POST /api/v1/ask`
+- renders the grounded answer directly on the search page
+- shows cited trials beneath the answer
+
+### Why this matters
+
+This is the first corpus-level assistant workflow in the UI.
+
+It lets the user ask questions over the filtered search space without having to drill into one trial first.
+
+### What I learned
+
+- the same answer endpoint can support both trial-specific and corpus-slice workflows when the filter contract is stable
+- adding global ask to the finder page makes the product feel much closer to the intended trial intelligence assistant
+
+### What comes next
+
+The next likely step is:
+
+- preserving context and question state when the user navigates into a cited trial, or
+- building the compare view

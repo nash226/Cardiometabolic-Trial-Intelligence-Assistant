@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04014413:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04014413\nBrief title: Safety and Efficacy of Fecal Microbiota Transplantation\nOfficial title: Safety and Efficacy of Fecal Microbiota Transplantation: A Pilot Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT04014413"
+    },
+    {
+      "chunk_id": "NCT04014413:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Crohn Disease; Ulcerative Colitis; Celiac Disease; Irritable Bowel Syndrome; Functional Dysphonia; Constipation; Clostridium Difficile Infection; Diabetes Mellitus; Obesity; Multidrug -Resistant Infection; Hepatic Encephalopathy; Multiple Sclerosis; Pseudo-Obstruction; Carbapenem-Resistant Enterobacteriaceae Infection; Vancomycin Resistant Enterococci Infection; Multiple Organ Dysfunction Syndrome; Dysbiotic Bowel Syndrome; MRSA Enteritis; Pseudomembranous Enterocolitis; Alopecia; Autism; Graft-versus-host Disease; Idiopathic Thrombocytopenic Purpura; Atopy or Allergy; Liver Disease; Alcohol Dependence; Psoriatic Arthropathy\nIntervention labels: Fecal Microbiota Transplantation\nDrug class labels: \nArms: Crohn's disease; Ulcerative colitis; Celiac disease; Irritable bowel syndrome; Functional dyspepsia; Constipation; Metabolic disease (diabetes mellitus or obesity); Multidrug-resistant infection; Hepatic encephalopathy; Multiple sclerosis; Pseudo-obstruction; CRE infection; VRE infection; Multiple organ dysfunction; Dysbiotic bowel syndrome; MRSA enteritis; Pseudomembranous enteritis; Alopecia; Autism; Graft-versus-host disease; Idiopathic thrombocytopenic purpura; Atopy or allergy; Liver disease; Alcohol dependence; Antibiotic-associated diarrhea\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 130,
+      "trial_nct_id": "NCT04014413"
+    },
+    {
+      "chunk_id": "NCT04014413:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The gut microbiota is critical to health and functions with a level of complexity comparable to that of an organ system. Dysbiosis, or alterations of this gut microbiota ecology, have been implicated in a number of disease states. Fecal microbiota transplantation (FMT), defined as infusion of feces from healthy donors to affected subjects, is a method to restore a balanced gut microbiota and has attracted great interest in recent years due to its efficacy and ease of use. FMT is now recommended as the most effective therapy for CDI not responding to standard therapies.\n\nRecent studies have suggested that dysbiosis is associated with a variety of disorders, and that FMT could be a useful treatment. Randomized controlled trial has been conducted in a number of disorders and shown positive results, including alcoholic hepatitis, Crohn's disease (CD), ulcerative colitis (UC), pouchitis, irritable bowel syndrome (IBS), hepatic encephalopathy and metabolic syndrome. Case series/reports and pilot studies has shown positive results in other disorders including Celiac disease, functional dyspepsia, constipation, metabolic syndrome such as diabetes mellitus, multidrug-resistant, hepatic encephalopathy, multiple sclerosis, pseudo-obstruction, carbapenem-resistant Enterobacteriaceae (CRE) or Vancomycin-resistant Enterococci (VRE) infection, radiation-induced toxicity, multiple organ dysfunction, dysbiotic bowel syndrome, MRSA enteritis, Pseudomembranous enteritis, idiopathic thrombocytopenic purpura (ITP), and atopy.\n\nDespite FMT appears to be relatively safe and efficacious in treating a wide range of disease, its safety and efficacy in a usual clinical setting is unknown. More data is required to confirm safety and efficacy of FMT. Therefore, the investigators aim to conduct a pilot study to investigate the efficacy and safety of FMT in a variety of dysbiosis-associated disorder.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 271,
+      "trial_nct_id": "NCT04014413"
+    },
+    {
+      "chunk_id": "NCT04014413:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: None\nMaximum age: None\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\nConfirmed diagnosis of any of the following diseases:\n\n* Crohn's disease\n* Ulcerative colitis\n* Celiac disease\n* Irritable bowel syndrome\n* Functional dyspepsia\n* Constipation\n* Antibiotic-associated diarrhea or any antibiotic- associated complications/symptoms\n* Metabolic syndrome such as diabetes mellitus and obesity\n* Multidrug-resistant infection\n* Hepatic encephalopathy\n* Multiple sclerosis\n* Pseudo-obstruction\n* Carbapenem-resistant Enterobacteriaceae (CRE) or Vancomycin-resistant Enterococci (VRE) infection\n* Multiple organ dysfunction\n* Dysbiotic bowel syndrome\n* MRSA enteritis\n* Pseudomembranous enteritis\n* Alopecia, autism\n* Graft-versus-host disease\n* Idiopathic thrombocytopenic purpura (ITP)\n* Atopy or allergy\n* Liver disease such as Nonalcoholic fatty liver disease (NAFLD) and Nonalcoholic steatohepatitis (NASH)\n* Alcohol dependence\n* Psoriatic arthropathy that has suboptimal control of disease despite standard treatment.\n\nExclusion Criteria:\n\n* Known contraindication to all FMT infusion method such as nasoduodenal tube insertion, oesophago-gastro-duodenoscopy (OGD), enteroscopy, colonoscopy and enema\n* Any conditions that may render the efficacy of FMT or at the discretion of the investigators\n* Current pregnancy",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 181,
+      "trial_nct_id": "NCT04014413"
+    },
+    {
+      "chunk_id": "NCT04014413:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The efficacy of FMT in treating dysbiosis-associated disorder will be assessed by number of patients who have improvement in clinical symptoms (depends on each disease as stated in outcome) | time_frame=1 year\ntype=secondary | measure=Number of Participants With Treatment-Related Adverse Events as Assessed by CTCAE v4.0 | time_frame=1 year\ntype=other | measure=Any improvement or deterioration or recurrence of the underlying condition by clinical judgement of doctors | time_frame=1 year",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 71,
+      "trial_nct_id": "NCT04014413"
+    },
+    {
+      "chunk_id": "NCT04014413:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2019-07-15\nPrimary completion date: 2030-10-31\nCompletion date: 2030-10-31\nStudy first posted: 2019-07-10\nResults first posted: None\nLast update posted: 2024-08-22\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04014413"
+    },
+    {
+      "chunk_id": "NCT04014413:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Chinese University of Hong Kong\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT04014413"
+    }
+  ],
+  "trial_nct_id": "NCT04014413"
+}

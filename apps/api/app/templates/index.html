@@ -143,6 +143,24 @@
       margin: 0;
       color: var(--muted);
     }
+    .ask-box {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      color: var(--ink);
+      font: inherit;
+      resize: vertical;
+    }
     .result-list {
       display: grid;
       gap: 14px;
@@ -206,6 +224,21 @@
       color: var(--muted);
       text-align: center;
       background: rgba(255,255,255,0.45);
+    }
+    .warning {
+      color: #8a4b12;
+      background: #fff1dd;
+      border: 1px solid #efcf9a;
+      border-radius: 14px;
+      padding: 10px 12px;
+    }
+    .citation-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .citation-link:hover {
+      text-decoration: underline;
     }
     @media (max-width: 900px) {
       .layout {
@@ -276,6 +309,29 @@
             <p id="result-meta">Run a search to inspect the stored trial corpus.</p>
           </div>
         </div>
+        <div class="ask-box">
+          <div>
+            <h2>Ask The Current Corpus Slice</h2>
+            <p class="lead" style="font-size:0.98rem; max-width:none;">
+              This uses the current finder filters and runs grounded answer generation over that filtered corpus slice.
+            </p>
+          </div>
+          <form id="ask-form">
+            <textarea id="ask-question" placeholder="Which phase 3 obesity trials in this slice have primary completion in 2026?">Which phase 3 obesity trials in this slice have primary completion in 2026?</textarea>
+            <button type="submit" id="ask-button">Ask the corpus</button>
+          </form>
+          <div id="ask-output" style="display:none;">
+            <article class="card">
+              <div class="card-top">
+                <span class="nct">Grounded answer</span>
+                <span class="score" id="ask-method"></span>
+              </div>
+              <p class="snippet" id="ask-answer"></p>
+            </article>
+            <div id="ask-warnings" class="result-list" style="margin-top:12px;"></div>
+            <div id="ask-citations" class="result-list" style="margin-top:12px;"></div>
+          </div>
+        </div>
         <div class="result-list" id="result-list">
           <div class="empty">No search executed yet.</div>
         </div>
@@ -288,6 +344,23 @@
     const button = document.getElementById("search-button");
     const resultMeta = document.getElementById("result-meta");
     const resultList = document.getElementById("result-list");
+    const askForm = document.getElementById("ask-form");
+    const askButton = document.getElementById("ask-button");
+    const askOutput = document.getElementById("ask-output");
+    const askMethod = document.getElementById("ask-method");
+    const askAnswer = document.getElementById("ask-answer");
+    const askWarnings = document.getElementById("ask-warnings");
+    const askCitations = document.getElementById("ask-citations");
+
+    function currentFilters() {
+      return {
+        condition: form.condition.value || null,
+        phase: form.phase.value || null,
+        study_type: form.study_type.value || null,
+        accepted_only: document.getElementById("accepted_only").checked,
+        year_2026_only: document.getElementById("year_2026_only").checked
+      };
+    }
 
     function renderResults(payload) {
       const results = payload.results || [];
@@ -314,6 +387,40 @@
       `).join("");
     }
 
+    function renderAsk(payload) {
+      askOutput.style.display = "block";
+      askMethod.textContent = payload.method;
+      askAnswer.textContent = payload.answer;
+
+      if (payload.warnings && payload.warnings.length) {
+        askWarnings.innerHTML = payload.warnings
+          .map((warning) => `<div class="warning">${warning}</div>`)
+          .join("");
+      } else {
+        askWarnings.innerHTML = "";
+      }
+
+      if (!payload.citations || !payload.citations.length) {
+        askCitations.innerHTML = '<div class="empty">No citations returned.</div>';
+        return;
+      }
+
+      askCitations.innerHTML = payload.citations.map((citation) => `
+        <article class="card">
+          <div class="card-top">
+            <span class="nct">${citation.trial_nct_id}</span>
+            <span class="score">${citation.chunk_id}</span>
+          </div>
+          <h3 class="title">
+            <a class="citation-link" href="/trials/${citation.trial_nct_id}">
+              ${citation.title || citation.chunk_type}
+            </a>
+          </h3>
+          <p class="snippet">${citation.snippet}</p>
+        </article>
+      `).join("");
+    }
+
     async function runSearch(event) {
       event.preventDefault();
       button.disabled = true;
@@ -322,11 +429,7 @@
 
       const payload = {
         query: form.query.value,
-        condition: form.condition.value || null,
-        phase: form.phase.value || null,
-        study_type: form.study_type.value || null,
-        accepted_only: document.getElementById("accepted_only").checked,
-        year_2026_only: document.getElementById("year_2026_only").checked,
+        ...currentFilters(),
         limit: 10
       };
 
@@ -353,7 +456,52 @@
       }
     }
 
+    async function askCorpus(event) {
+      event.preventDefault();
+      askButton.disabled = true;
+      askButton.textContent = "Asking...";
+      askOutput.style.display = "block";
+      askMethod.textContent = "";
+      askAnswer.textContent = "Running grounded retrieval and answer generation over the current corpus slice...";
+      askWarnings.innerHTML = "";
+      askCitations.innerHTML = "";
+
+      const payload = {
+        question: document.getElementById("ask-question").value,
+        ...currentFilters(),
+        provider: "openai",
+        embedding_model: "text-embedding-3-small",
+        answer_model: "gpt-4o-mini",
+        lexical_weight: 0.4,
+        semantic_weight: 0.6,
+        retrieval_limit: 5
+      };
+
+      try {
+        const response = await fetch("/api/v1/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(errorText || "Ask request failed");
+        }
+
+        const data = await response.json();
+        renderAsk(data);
+      } catch (error) {
+        askMethod.textContent = "failed";
+        askWarnings.innerHTML = `<div class="warning">${error.message}</div>`;
+      } finally {
+        askButton.disabled = false;
+        askButton.textContent = "Ask the corpus";
+      }
+    }
+
     form.addEventListener("submit", runSearch);
+    askForm.addEventListener("submit", askCorpus);
     form.dispatchEvent(new Event("submit", { cancelable: true }));
   </script>
 </body>

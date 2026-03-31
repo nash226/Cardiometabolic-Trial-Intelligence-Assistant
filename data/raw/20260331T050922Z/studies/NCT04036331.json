@@ -1,0 +1,585 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001836",
+          "term": "Body Weight Changes"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D015431",
+          "term": "Weight Loss"
+        },
+        {
+          "id": "D063766",
+          "term": "Pediatric Obesity"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Brenner FIT pediatric weight management program enrollment. an interdisciplinary, family-based pediatric weight management clinic based upon the Familial Approach to Treatment of Childhood Obesity. Patients are referred by a physician for obesity or overweight with a weight-related comorbidity. Treatment teams are comprised of a pediatrician, counselor, dietitian, and physical activity specialist, with others (e.g., social workers, physical therapists) as needed. The entire family is encouraged to attend all aspects of the treatment program, although only one attending caregiver is required.",
+          "interventionNames": [
+            "Behavioral: Brenner FIT Standard"
+          ],
+          "label": "Adolescent Participants",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Weight loss program for adults/caregivers of those enrolled in Brenner FIT. Participants in the By Design condition (adult caregivers) will be prescribed the Essentials lifestyle intervention which includes tailored dietary and physical activity goals designed to achieve 1-2 lbs./week of weight loss, provided by a multidisciplinary team of medical providers, dietitians, behaviorists, and exercise specialists. A daily calorie restriction of 500 kcal/day is prescribed based on estimates of total energy expenditure (TEE) obtained from a measured resting metabolic rate (RMR) prior to enrollment.",
+          "interventionNames": [
+            "Behavioral: By Design Essentials"
+          ],
+          "label": "Caregivers of Adolescent Participants",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "This condition is for dyads that are co-enrolled in This component adds four additional strategies: dyad group sessions, one-on-one parent/child communication sessions, joint goal setting/tracking, and home environment assessment. This innovative approach will seek to employ components of motivation and communication theories to increase self-monitoring, positive communication, problem solving, and social support to increase healthy physical activity and eating behaviors to increase the effectiveness of the weight loss programs beyond gains observed in matched controls.",
+          "interventionNames": [
+            "Behavioral: Dyad Plus"
+          ],
+          "label": "Co-enrollment",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Adolescent Participants"
+          ],
+          "description": "After referral, families attend an orientation, in which they are then scheduled for an initial introductory 2-hour intake group session and cooking class; these occur within 2-4 weeks of the orientation. Monthly 1-hour long visits with the dietitian, counselor, and physical activity specialist are held for 6 months, in which the child and caregiver see the pediatrician. During the 6 months of treatment, they attend 4 group classes, choosing from topics such as meal planning, physical activity, and parenting. Specialized visits with the physical activity specialist or dietician are scheduled as pertinent issues arise. Clinic visits include individualized goal setting (for behaviors family/clinician have agreed to address), healthy eating and physical activity education, and behavioral counseling to implement changes at home.",
+          "name": "Brenner FIT Standard",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Caregivers of Adolescent Participants"
+          ],
+          "description": "A dietitian provides each participant with a detailed program manual that describes the prescribed diet. The dietitian utilizes standard behavioral techniques to promote lifestyle behavior changes that enable participants to implement and maintain behaviors necessary to adhere to the dietary prescription. Participants also receive a standard exercise program designed to promote exercise energy expenditure of approximately 600 kilocalories\\*/week. The exercise prescription includes resistance training for 2 days per week and aerobic training for 3 days per week, to meet a 600 kilocalories\\*/week expenditure goal. Behaviorists meet with participants to provide individual and group-based counseling to learn the skills necessary to adopt the prescribed dietary pattern and exercise plans. Group sessions will be delivered consecutively over 6 months (20 total; 1.5 hours each).",
+          "name": "By Design Essentials",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Co-enrollment"
+          ],
+          "description": "This will include all components of the standard Brenner FIT program and By Design Essentials.\n\nIn addition, group sessions, one-on-one parent/child communication sessions, joint goal setting/tracking, and home environment assessment. Dyads will attend 6 meetings that will last approximately 1 hour each.",
+          "name": "Dyad Plus",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Weight Loss",
+        "Pediatric Obesity",
+        "Overweight Adolescents",
+        "Parent-Child Relations",
+        "Family and Household"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "camelia.singletary@advocatehealth.org",
+          "name": "Camelia R Singletary, MPH",
+          "phone": "13369992469",
+          "role": "CONTACT"
+        },
+        {
+          "email": "justin.b.moore@wfusm.edu",
+          "name": "Justin Moore, PhD",
+          "phone": "336-716-3702",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Winston-Salem",
+          "contacts": [
+            {
+              "email": "jusmoore@wakehealth.edu",
+              "name": "Justin Moore",
+              "phone": "336-716-3702",
+              "role": "CONTACT"
+            },
+            {
+              "email": "crsingle@wakehealth.edu",
+              "name": "Camelia R Singletary",
+              "phone": "13369992469",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Wake Forest Baptist Medical Center",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "27127"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Wake Forest University Health Sciences",
+          "name": "Justin Moore",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research is to determine the effectiveness of a coordinated program (Dyad Plus) that would help to facilitate self-monitoring, positive communication, joint problem solving, and social support to increase physical activity, healthy eating, and weight loss. Participants of the Brenner FIT (Families In Training) pediatric weight management program and their parent/guardian will co-enroll in weight loss programs. Parents/guardians will receive the components of By Design Essentials.",
+      "detailedDescription": "Brenner FIT is a family-based pediatric weight management clinic for youth 2-18 years old referred by a physician for overweight or obesity. By Design is an adult (\\>18yrs) weight loss clinic that includes tailored dietary and physical activity behavioral counseling. The preliminary data suggest that most adolescent youth who enroll in Brenner FIT have at least one adult caregiver who is eligible and would benefit from enrollment in By Design Essentials.\n\nParticipants will be randomized into 1 of 3 groups. This include Brenner FIT standard care, Brenner FIT standard care+ By Design Essentials, or Dyad Plus.\n\nBrenner FIT Standard: After referral, families attend an orientation, in which they are then scheduled for an initial introductory 2-hour intake group session and cooking class; these occur within 2-4 weeks of the orientation. Monthly 1-hour long visits with the dietitian, counselor, and physical activity specialist are held for 6 months, in which the child and caregiver see the pediatrician. During the 6 months of treatment, they attend 4 group classes, choosing from topics such as meal planning, physical activity, and parenting. Specialized visits with the physical activity specialist or dietician are scheduled as pertinent issues arise. Clinic visits include individualized goal setting (for behaviors family/clinician have agreed to address), healthy eating and physical activity education, and behavioral counseling to implement changes at home.\n\nBy Design Essentials: A dietitian provides each participant with a detailed program manual that describes the prescribed diet. The dietitian utilizes standard behavioral techniques to promote lifestyle behavior changes that enable participants to implement and maintain behaviors necessary to adhere to the dietary prescription. Participants also receive a standard exercise program designed to promote exercise energy expenditure of approximately 600 kilocalories\\*/week. The exercise prescription includes resistance training for 2 days per week and aerobic training for 3 days per week, to meet a 600 kilocalories\\*/week expenditure goal. Behaviorists meet with participants to provide individual and group-based counseling to learn the skills necessary to adopt the prescribed dietary pattern and exercise plans. Group sessions will be delivered consecutively over 6 months (20 total; 1.5 hours each).\n\nDyad Plus (combination of Brenner FIT and By Design Essentials):This will include all components of the standard Brenner FIT program and By Design Essentials. In addition, group sessions, one-on-one parent/child communication sessions, joint goal setting/tracking, and home environment assessment. Dyads will attend 6 meetings that will last approximately 1 hour each."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Eligible for enrollment in Brenner FIT and/or By Design Essentials\n* Caregiver who lives in the house with a BMI \\> 30\n* No contraindication for physical activity or caloric restriction\n* Must be able to read and write English\n\nExclusion Criteria:\n\n* BMI \\< 30\n* Contraindication for physical activity or caloric restriction\n* Cannot read or write English",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "13 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Dyad Plus Effectiveness/Feasibility",
+      "nctId": "NCT04036331",
+      "officialTitle": "Effectiveness/Feasibility of A Coordinated Parent/Child Dyad Weight Loss Intervention:",
+      "orgStudyIdInfo": {
+        "id": "IRB00059569"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Wake Forest University Health Sciences"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "National Institutes of Health",
+          "id": "40010565",
+          "type": "OTHER_GRANT"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Weight status of caregivers and youth will be quantified through calculation of BMI derived from measurement of height and weight at the intake and follow-up visits. Both height (plus or minus 0.1 cm) and weight (plus or minus 0.5 kg) will be recorded twice and values will be averaged to produce the final value using a Tanita (registered trademark) digital scale and a Seca (registered trademark) Height Rod (respectively). BMI will be calculated as kg /m2. BMI z-score will be calculated using CDC growth charts.",
+          "measure": "BMI z-score",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Weight status of caregivers and youth will be quantified through calculation of BMI derived from measurement of height and weight at the intake and follow-up visits. Both height (plus or minus 0.1 cm) and weight (plus or minus 0.5 kg) will be recorded twice and values will be averaged to produce the final value using a Tanita (registered trademark) digital scale and a Seca (registered trademark) Height Rod (respectively). BMI will be calculated as kg /m2. BMI z-score will be calculated using CDC growth charts.",
+          "measure": "BMI z-score",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "We will examine screening, recruitment, retention, adherence, and overall perception of Brenner FIT and By Design components",
+          "measure": "Feasibility and Acceptability of Implementation",
+          "timeFrame": "Month 6"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Physical activity data will be collected using the Physical Activity Assessment Tool (PAAT). The PAAT measures type, frequency, and duration of moderate and vigorous physical activity from all four domains of physical activity-leisure, occupational, household, and transportation-in the last 7 days, and asks if this is \"more, less, or about the same as usual\" activity",
+          "measure": "Physical Activity Assessment Tool (PAAT)-Adult",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Physical activity data will be collected using the Physical Activity Assessment Tool (PAAT). The PAAT measures type, frequency, and duration of moderate and vigorous physical activity from all four domains of physical activity-leisure, occupational, household, and transportation-in the last 7 days, and asks if this is \"more, less, or about the same as usual\" activity",
+          "measure": "Physical Activity Assessment Tool (PAAT)-Adult",
+          "timeFrame": "6 Months"
+        },
+        {
+          "description": "Physical activity data will be collected using the Youth Physical Activity Questionnaire (YPAQ which contains 47 different activities broken into contextual settings/domains: sporting, leisure, school, and free-time activities and aims to measures frequency, duration, intensity, and mode, over the past 7 days of both PA and sedentary activities. The questionnaire will be self-administered via a REDCap survey. Study staff will be available to answer any questions that participants have during the process.",
+          "measure": "Physical Activity Assessed with Youth Physical Activity Questionnaire (YPAQ)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Physical activity data will be collected using the Youth Physical Activity Questionnaire (YPAQ which contains 47 different activities broken into contextual settings/domains: sporting, leisure, school, and free-time activities and aims to measures frequency, duration, intensity, and mode, over the past 7 days of both PA and sedentary activities. The questionnaire will be self-administered via a REDCap survey. Study staff will be available to answer any questions that participants have during the process.",
+          "measure": "Physical Activity Assessed with Youth Physical Activity Questionnaire (YPAQ)",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "In addition to using the YPAQ, physical activity data will be collected using Fitbit Inspire 2 (Model Number: FB418BKBK). Participating children will be instructed to wear the Fitbit device for 7 days continuously during the two data collection timepoints (baseline and 6 months).",
+          "measure": "Physical Activity Assessed Using Fitbit (Youth)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "In addition to using the YPAQ, physical activity data will be collected using Fitbit Inspire 2 (Model Number: FB418BKBK). Participating children will be instructed to wear the Fitbit device for 7 days continuously during the two data collection timepoints (baseline and 6 months).",
+          "measure": "Physical Activity Assessed Using Fitbit (Youth)",
+          "timeFrame": "6 Months"
+        },
+        {
+          "description": "Fasting blood glucose will be ascertained for each participant. A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is optimal. A fasting blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Concentration of fasting glucose for all participants, mg/dL",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Fasting blood glucose will be ascertained for each participant. A fasting blood sugar level less than 100 mg/dL (5.6 mmol/L) is optimal. A fasting blood sugar level from 100 to 125 mg/dL (5.6 to 6.9 mmol/L) is considered prediabetes. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Concentration of fasting glucose for all participants, mg/dL",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "AST a useful test for detecting or monitoring liver damage. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Aspartate Aminotransferase -Levels of AST for all participants, measured in units per liter (IU/L)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Fasting insulin levels will be gathered from all participants. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Concentration of fasting Insulin for all participants, mg/dL",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Fasting insulin levels will be gathered from all participants. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Concentration of fasting Insulin for all participants, mg/dL",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Normal range for the hemoglobin A1c level is between 4% and 5.6%. Hemoglobin A1c levels between 5.7% and 6.4%. Values greater denote diabetes. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Hemoglobin A1c concentration for all participants, measured in percentage",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "Normal range for the hemoglobin A1c level is between 4% and 5.6%. Hemoglobin A1c levels between 5.7% and 6.4%. Values greater denote diabetes. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Hemoglobin A1c concentration for all participants, measured in percentage",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "AST a useful test for detecting or monitoring liver damage. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Aspartate Aminotransferase -Levels of AST for all participants, measured in units per liter (IU/L)",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "A low level of ALT in the blood is expected and is normal. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Alanine Aminotransferase-Levels of ALT for all participants, measured in units per liter",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "A low level of ALT in the blood is expected and is normal. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Alanine Aminotransferase-Levels of ALT for all participants, measured in units per liter",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "total cholesterol: less than 200 mg/dL.ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Concentration of total cholesterol (mg/dL)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "description": "total cholesterol: less than 200 mg/dL. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Concentration of total cholesterol (mg/dL)",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Clinical and non-clinical costs of the interventions will be compiled over the duration of the program. All cost will be reported in the same unit. ONLY if routinely collected as a part of regular clinical care.",
+          "measure": "Economic costs of the three intervention arms over duration of program (USD)",
+          "timeFrame": "Month 6"
+        },
+        {
+          "description": "To assess diet in participant, we will use the NCI's NHANES Food Frequency Questionnaire which aims to obtain frequency and, in some cases, portion size information about food and beverage consumption over a specified period of time, typically the past month or year. A food frequency questionnaire (FFQ) consists of a finite list of foods and beverages with response categories to indicate usual frequency of consumption over the time period queried. To assess the total diet, the number of foods and beverages queried typically ranges from 80 to 120. The questionnaire will be self-administered via a REDCap survey. Study staff will be available to answer any questions that participants have during the process.",
+          "measure": "Diet for Parent and Youth",
+          "timeFrame": "Baseline and 6 Months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Kelly T, Yang W, Chen CS, Reynolds K, He J. Global burden of obesity in 2005 and projections to 2030. Int J Obes (Lond). 2008 Sep;32(9):1431-7. doi: 10.1038/ijo.2008.102. Epub 2008 Jul 8.",
+          "pmid": "18607383",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ogden CL, Carroll MD, Kit BK, Flegal KM. Prevalence of childhood and adult obesity in the United States, 2011-2012. JAMA. 2014 Feb 26;311(8):806-14. doi: 10.1001/jama.2014.732.",
+          "pmid": "24570244",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ogden CL, Carroll MD, Lawman HG, Fryar CD, Kruszon-Moran D, Kit BK, Flegal KM. Trends in Obesity Prevalence Among Children and Adolescents in the United States, 1988-1994 Through 2013-2014. JAMA. 2016 Jun 7;315(21):2292-9. doi: 10.1001/jama.2016.6361.",
+          "pmid": "27272581",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kamath CC, Vickers KS, Ehrlich A, McGovern L, Johnson J, Singhal V, Paulo R, Hettinger A, Erwin PJ, Montori VM. Clinical review: behavioral interventions to prevent childhood obesity: a systematic review and metaanalyses of randomized trials. J Clin Endocrinol Metab. 2008 Dec;93(12):4606-15. doi: 10.1210/jc.2006-2411. Epub 2008 Sep 9.",
+          "pmid": "18782880",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Loveman E, Al-Khudairy L, Johnson RE, Robertson W, Colquitt JL, Mead EL, Ells LJ, Metzendorf MI, Rees K. Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years. Cochrane Database Syst Rev. 2015 Dec 21;2015(12):CD012008. doi: 10.1002/14651858.CD012008.",
+          "pmid": "26690844",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Boutelle KN, Cafri G, Crow SJ. Parent predictors of child weight change in family based behavioral obesity treatment. Obesity (Silver Spring). 2012 Jul;20(7):1539-43. doi: 10.1038/oby.2012.48. Epub 2012 Feb 23.",
+          "pmid": "22421896",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Brown CL, Skelton JA. Opportunities and Cautions in the Use of Commercially Delivered Weight-Management Programs for Children and Adolescents. J Pediatr. 2017 Jun;185:12-14. doi: 10.1016/j.jpeds.2017.02.068. Epub 2017 Mar 15. No abstract available.",
+          "pmid": "28318528",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Skelton JA, Beech BM. Attrition in paediatric weight management: a review of the literature and new directions. Obes Rev. 2011 May;12(5):e273-81. doi: 10.1111/j.1467-789X.2010.00803.x. Epub 2010 Sep 29.",
+          "pmid": "20880126",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Irby MB, Boles KA, Jordan C, Skelton JA. TeleFIT: adapting a multidisciplinary, tertiary-care pediatric obesity clinic to rural populations. Telemed J E Health. 2012 Apr;18(3):247-9. doi: 10.1089/tmj.2011.0117. Epub 2012 Feb 22.",
+          "pmid": "22356527",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Barlow SE; Expert Committee. Expert committee recommendations regarding the prevention, assessment, and treatment of child and adolescent overweight and obesity: summary report. Pediatrics. 2007 Dec;120 Suppl 4:S164-92. doi: 10.1542/peds.2007-2329C.",
+          "pmid": "18055651",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Yang L, Colditz GA. Prevalence of Overweight and Obesity in the United States, 2007-2012. JAMA Intern Med. 2015 Aug;175(8):1412-3. doi: 10.1001/jamainternmed.2015.2405. No abstract available.",
+          "pmid": "26098405",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Abildso CG, Zizzi S, Fitzpatrick SJ. Predictors of clinically significant weight loss and participant retention in an insurance-sponsored community-based weight management program. Health Promot Pract. 2013 Jul;14(4):580-8. doi: 10.1177/1524839912462393. Epub 2012 Oct 17.",
+          "pmid": "23075503",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Devakumar D, Grijalva-Eternod C, Cortina-Borja M, Williams J, Fewtrell M, Wells J. Disentangling the associations between parental BMI and offspring body composition using the four-component model. Am J Hum Biol. 2016 Jul;28(4):524-33. doi: 10.1002/ajhb.22825. Epub 2016 Feb 5.",
+          "pmid": "26848813",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Naess M, Holmen TL, Langaas M, Bjorngaard JH, Kvaloy K. Intergenerational Transmission of Overweight and Obesity from Parents to Their Adolescent Offspring - The HUNT Study. PLoS One. 2016 Nov 16;11(11):e0166585. doi: 10.1371/journal.pone.0166585. eCollection 2016.",
+          "pmid": "27851798",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Turner-McGrievy GM, Wright JA, Migneault JP, Quintiliani L, Friedman RH. The interaction between dietary and life goals: using goal systems theory to explore healthy diet and life goals. Health Psychol Behav Med. 2014 Jan 1;2(1):759-769. doi: 10.1080/21642850.2014.927737. Epub 2014 Jul 15.",
+          "pmid": "25750817",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Anderson-Bill ES, Winett RA, Wojcik JR. Social cognitive determinants of nutrition and physical activity among web-health users enrolling in an online intervention: the influence of social support, self-efficacy, outcome expectations, and self-regulation. J Med Internet Res. 2011 Mar 17;13(1):e28. doi: 10.2196/jmir.1551.",
+          "pmid": "21441100",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Anderson ES, Winett RA, Wojcik JR. Self-regulation, self-efficacy, outcome expectations, and social support: social cognitive theory and nutrition behavior. Ann Behav Med. 2007 Nov-Dec;34(3):304-12. doi: 10.1007/BF02874555.",
+          "pmid": "18020940",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Irby MB, Kolbash S, Garner-Edwards D, Skelton JA. Pediatric Obesity Treatment in Children With Neurodevelopmental Disabilities: A Case Series and Review of the Literature. Infant Child Adolesc Nutr. 2012 Aug 1;4(4):215-221. doi: 10.1177/1941406412448527.",
+          "pmid": "24723990",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Spear BA, Barlow SE, Ervin C, Ludwig DS, Saelens BE, Schetzina KE, Taveras EM. Recommendations for treatment of child and adolescent overweight and obesity. Pediatrics. 2007 Dec;120 Suppl 4:S254-88. doi: 10.1542/peds.2007-2329F.",
+          "pmid": "18055654",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Bailey RC, Olson J, Pepper SL, Porszasz J, Barstow TJ, Cooper DM. The level and tempo of children's physical activities: an observational study. Med Sci Sports Exerc. 1995 Jul;27(7):1033-41. doi: 10.1249/00005768-199507000-00012.",
+          "pmid": "7564970",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Djafarian K, Speakman JR, Stewart J, Jackson DM. Comparison of activity levels measured by a wrist worn accelerometer and direct observation in young children. Open Journal of Pediatrics. 2013;03(04):422-427.",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Chandler JL, Brazendale K, Beets MW, Mealing BA. Classification of physical activity intensities using a wrist-worn accelerometer in 8-12-year-old children. Pediatr Obes. 2016 Apr;11(2):120-7. doi: 10.1111/ijpo.12033. Epub 2015 Apr 20.",
+          "pmid": "25893950",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Chandler JL, Beets MW, Drenowatz C, et al. Analysis of Accelerometer Counts during Sedentary Activities on Dominant and Non-Dominant Wrists in 5-11 year old Children. Under review.",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Moore JB, Hanes JC Jr, Barbeau P, Gutin B, Trevino RP, Yin Z. Validation of the Physical Activity Questionnaire for Older Children in children of different races. Pediatr Exerc Sci. 2007 Feb;19(1):6-19. doi: 10.1123/pes.19.1.6.",
+          "pmid": "17554153",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Thompson FE, Dixit-Joshi S, Potischman N, Dodd KW, Kirkpatrick SI, Kushi LH, Alexander GL, Coleman LA, Zimmerman TP, Sundaram ME, Clancy HA, Groesbeck M, Douglass D, George SM, Schap TE, Subar AF. Comparison of Interviewer-Administered and Automated Self-Administered 24-Hour Dietary Recalls in 3 Diverse Integrated Health Systems. Am J Epidemiol. 2015 Jun 15;181(12):970-8. doi: 10.1093/aje/kwu467. Epub 2015 May 10.",
+          "pmid": "25964261",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kirkpatrick SI, Subar AF, Douglass D, Zimmerman TP, Thompson FE, Kahle LL, George SM, Dodd KW, Potischman N. Performance of the Automated Self-Administered 24-hour Recall relative to a measure of true intakes and to an interviewer-administered 24-h recall. Am J Clin Nutr. 2014 Jul;100(1):233-40. doi: 10.3945/ajcn.114.083238. Epub 2014 Apr 30.",
+          "pmid": "24787491",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Haines J, Rifas-Shiman SL, Horton NJ, Kleinman K, Bauer KW, Davison KK, Walton K, Austin SB, Field AE, Gillman MW. Family functioning and quality of parent-adolescent relationship: cross-sectional associations with adolescent weight-related behaviors and weight status. Int J Behav Nutr Phys Act. 2016 Jun 14;13:68. doi: 10.1186/s12966-016-0393-7.",
+          "pmid": "27301414",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Saint-Maurice PF, Welk GJ, Beyler NK, Bartee RT, Heelan KA. Calibration of self-report tools for physical activity research: the Physical Activity Questionnaire (PAQ). BMC Public Health. 2014 May 16;14:461. doi: 10.1186/1471-2458-14-461.",
+          "pmid": "24886625",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Compas BE, Davis GE, Forsythe CJ, Wagner BM. Assessment of major and daily stressful events during adolescence: the Adolescent Perceived Events Scale. J Consult Clin Psychol. 1987 Aug;55(4):534-541. doi: 10.1037/0022-006X.55.4.534. No abstract available.",
+          "pmid": "3624609",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Motl RW, Dishman RK, Dowda M, Pate RR. Factorial validity and invariance of a self-report measure of physical activity among adolescent girls. Res Q Exerc Sport. 2004 Sep;75(3):259-71. doi: 10.1080/02701367.2004.10609159.",
+          "pmid": "15487290",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Golan M. Fifteen years of the Family Eating and Activity Habits Questionnaire (FEAHQ): an update and review. Pediatr Obes. 2014 Apr;9(2):92-101. doi: 10.1111/j.2047-6310.2013.00144.x. Epub 2013 Feb 28.",
+          "pmid": "23447444",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Measuring Enjoyment of Physical Activity in Children: Validation of the Physical Activity Enjoyment Scale. J Appl Sport Psychol. 2009 Jan 1;21(S1):S116-S129. doi: 10.1080/10413200802593612.",
+          "pmid": "20209028",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Eys M, Loughead T, Bray SR, Carron AV. Development of a cohesion questionnaire for youth: the Youth Sport Environment Questionnaire. J Sport Exerc Psychol. 2009 Jun;31(3):390-408. doi: 10.1123/jsep.31.3.390.",
+          "pmid": "19799000",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Little RJ, Cohen ML, Dickersin K, Emerson SS, Farrar JT, Neaton JD, Shih W, Siegel JP, Stern H. The design and conduct of clinical trials to limit missing data. Stat Med. 2012 Dec 10;31(28):3433-43. doi: 10.1002/sim.5519. Epub 2012 Jul 25.",
+          "pmid": "22829439",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Nelson JD, Moore JB, Blake C, Morris SF, Kolbe MB. Characteristics of successful community partnerships to promote physical activity among young people, North Carolina, 2010-2012. Prev Chronic Dis. 2013 Dec 12;10:E208. doi: 10.5888/pcd10.130110.",
+          "pmid": "24331281",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Jilcott SB, Hurwitz J, Moore JB, Blake C. Qualitative perspectives on the use of traditional and nontraditional food venues among middle- and low-income women in Eastern North Carolina. Ecol Food Nutr. 2010 Sep-Oct;49(5):373-89. doi: 10.1080/03670244.2010.507438.",
+          "pmid": "21888577",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Moore JB, Schneider L, Lazorick S, Shores KA, Beighle A, Jilcott SB, Newkirk J. Rationale and development of the Move More North Carolina: Recommended Standards for After-School Physical Activity. J Public Health Manag Pract. 2010 Jul-Aug;16(4):359-66. doi: 10.1097/PHH.0b013e3181ca2634.",
+          "pmid": "20520375",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institutes of Health (NIH)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Wake Forest University Health Sciences"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-04",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-25",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-04",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-07-30",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2019-07-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-07-25",
+      "studyFirstSubmitQcDate": "2019-07-26"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05197738:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05197738\nBrief title: Research Framework Exploring Sleep Health\nOfficial title: Research Framework Exploring Sleep Health\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT05197738"
+    },
+    {
+      "chunk_id": "NCT05197738:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Sleep; Sleep Apnea; Obesity; Mood\nIntervention labels: \nDrug class labels: \nArms: High risk OSA; Low risk OSA; Short sleepers; Long sleepers; Average lengths leepers; Regular sleepers; Irregular sleepers; Severe insomnia risk; Moderate insomnia risk; No insomnia risk; Increased social jet lag\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT05197738"
+    },
+    {
+      "chunk_id": "NCT05197738:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a digital health study in which participants are recruited to collect sleep and activity data from digital activity trackers. We are also collecting survey/questionnaire data on baseline health and sleep characteristics as well as bi-weekly assessments of sleep quality and mood. Overall, we aim to examine how sleep relates to physical and mental health in a large population of activity tracker users.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 69,
+      "trial_nct_id": "NCT05197738"
+    },
+    {
+      "chunk_id": "NCT05197738:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Age \u2265 18 years\n* Residing within the United States\n* Ability to use the REFRESH app on the participant's own smartphone device\n\nExclusion Criteria:\n\n* In-ability to consent",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT05197738"
+    },
+    {
+      "chunk_id": "NCT05197738:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Patient Health Questionnaire 9 | time_frame=Administered one time at enrollment | description=Baseline depression scores on a scale from 0 to 27, which higher scores indicated more depression\ntype=primary | measure=Bi-weekly mood scores | time_frame=Averaged bi-weekly over a two month period | description=Mood scores based on an 11 point rating scale, with higher scores indicated a better mood\ntype=primary | measure=Subjective sleep quality | time_frame=Averaged bi-weekly over a two month period | description=Biweekly assessment of refreshing sleep quality on an 11 point rating scale, with higher scores indicated better subjective sleep from the participant\ntype=primary | measure=Change in BMI | time_frame=Measured as the difference between BMI reported at the beginning of the study and at the two-month mark. | description=Based on standard BMI categories; calculated based on self-reported data of height and weight",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 134,
+      "trial_nct_id": "NCT05197738"
+    },
+    {
+      "chunk_id": "NCT05197738:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-02-15\nPrimary completion date: 2026-12-31\nCompletion date: 2041-12-31\nStudy first posted: 2022-01-19\nResults first posted: None\nLast update posted: 2024-06-28\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05197738"
+    },
+    {
+      "chunk_id": "NCT05197738:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Scripps Translational Science Institute\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT05197738"
+    }
+  ],
+  "trial_nct_id": "NCT05197738"
+}

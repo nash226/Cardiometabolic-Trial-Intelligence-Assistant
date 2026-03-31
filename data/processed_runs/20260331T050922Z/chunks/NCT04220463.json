@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04220463:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04220463\nBrief title: Interest of Hypnosis When Setting up Non-invasive Ventilation in a Conscious Patient With COPD and/or Obesity With a BMI Greater Than 30, Suffering Fromacute Respiratory Distress in Adult Intensive Care\nOfficial title: HYVIR : Interest of Hypnosis During the Implementation of Non-invasive Ventilation in a Patient With COPD and/or Obesity With a BMI Greater Than 30, Conscious With Acute Respiratory Distress in the Adult Intensive Care Unit\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 80,
+      "trial_nct_id": "NCT04220463"
+    },
+    {
+      "chunk_id": "NCT04220463:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Chronic Obstructive Pulmonary Disease (COPD); Obesity With a BMI Greater Than 30; Acute Respiratory Distress in Adult Intensive Care\nIntervention labels: Hypnosis + NIV; NIV\nDrug class labels: \nArms: Hypnosis group; Control group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT04220463"
+    },
+    {
+      "chunk_id": "NCT04220463:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Discomfort during respiratory decompensation of a patient with chronic obstructive pulmonary disease (COPD) and/or obesity with a BMI greater than 30, in intensive care and the establishment of non-invasive ventilation (NIV) is frequent and a source of failure. this therapy. Pharmacological treatments may be impossible due to the pathology, the risk of it worsening and adverse effects. In this context, hypnosis appears to be a tool that would promote comfort and thus increase tolerance of NIV.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 81,
+      "trial_nct_id": "NCT04220463"
+    },
+    {
+      "chunk_id": "NCT04220463:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Pre-inclusion criteria\n\n* Man or woman, aged 18 or over, admitted to medical intensive care\n* Glasgow score = 15\n* Patient with acute respiratory failure decompensating COPD and/or having obesity with a body mass index (BMI) greater than 30\n* Patient having given free, informed and written consent\n* Patient affiliated to a health insurance system\n\nInclusion Criteria:\n\n* Glasgow score = 15\n* Need during use of non-invasive ventilation\n\nExclusion Criteria:\n\n* Procedure to be carried out in extreme urgency (PaCO2 too high and leading to an immediate vital risk, and / or PaO2 too low) on medical decision\n* Confusional state making hypnosis impossible\n* Decompensated psychiatric illness\n* Patient entering with an NIV in place already installed in another department. The subject becomes included again at the end of the treatment with NIV if however he needs it again.\n* Patient already included in the study during previous non-invasive ventilation\n* Patient participating in research involving an interventional human person (category 1) on an analgesic / sedative medication\n* A person of full age subject to legal protection (safeguard of justice, curators, guardianship) or deprived of liberty",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 208,
+      "trial_nct_id": "NCT04220463"
+    },
+    {
+      "chunk_id": "NCT04220463:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Comfort | time_frame=2 hours after initiation of NIV | description=Quantification of comfort by a Digital Verbal Comfort Scale 2 hours after initiation of NIV (from 0 to 10, 0 being the minimum comfort felt and 10 the maximum comfort felt by the patient)\ntype=secondary | measure=Anxiety | time_frame=Before and 30 minuts, 2 hours and 24 hours after the implementation of the NIV | description=Assessment of anxiety (Numerical Verbal Scale from 0 to 10) at inclusion, 30 minutes, 2 hours and 24 hours after the implementation of the NIV\ntype=secondary | measure=First NIV session duration | time_frame=At the end of the first NIV session | description=Calculation of the number of hours of the first NIV session\ntype=secondary | measure=Comfort | time_frame=Before and 30 minuts and 24 hours after the implementation of the NIV | description=Comfort assessment at inclusion, 30 minutes and 24 hours after the implementation of the NIV (Digital Verbal Scale from 0 to 10)\ntype=secondary | measure=TcpCO2 | time_frame=Before and 30 minuts, 2 hours and 24 hours after the implementation of the NIV | description=Decrease in PaCO2: Installation of a transcutaneous sensor and measurement of TcpCO2 at inclusion, 30 minutes, 2 hours and 24 hours after the establishment of the NIV\ntype=secondary | measure=NIV duration | time_frame=after the first 24 hours of treatment | description=Calculation of the number of hours of NIV in the first 24 hours of treatment\ntype=secondary | measure=dyspnea | time_frame=2 hours after the setting up of the NIV | description=Assessment of the dyspnea felt by the patient 2 hours after the setting up of the NIV: +2: significant improvement; +1 slight improvement; 0 No change; -1 slight deterioration; -2 significant deterioration.\ntype=secondary | measure=Intubation | time_frame=Day 28 | description=Number of intubations: calculation of the number of patients intubated during the ICU stay.\ntype=secondary | measure=Stay duration | time_frame=Day 28 | description=Duration of stay in intensive care\ntype=secondary | measure=anxiolytic treatment prescription | time_frame=Day 28 | description=Record of the number of patients who had to have a prescription for anxiolytics during hospitalization in intensive care.\ntype=secondary | measure=stress | time_frame=Before and 30 minuts and 2 hours after the implementation of the NIV | description=Evaluation of the stress of the healthcare team by a numerical verbal scale from 0 to 10 (0 being no stress and 10 the greatest possible stress felt) at inclusion, 30 minutes and 2 hours after NIV initiation",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 397,
+      "trial_nct_id": "NCT04220463"
+    },
+    {
+      "chunk_id": "NCT04220463:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-11-20\nPrimary completion date: 2025-11-20\nCompletion date: 2025-11-20\nStudy first posted: 2020-01-07\nResults first posted: None\nLast update posted: 2025-06-24\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04220463"
+    },
+    {
+      "chunk_id": "NCT04220463:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Rennes University Hospital\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT04220463"
+    }
+  ],
+  "trial_nct_id": "NCT04220463"
+}

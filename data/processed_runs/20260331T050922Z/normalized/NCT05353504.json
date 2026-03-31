@@ -1,0 +1,250 @@
+{
+  "arms": [
+    {
+      "description": "high-dose daily inulin",
+      "intervention_names": [
+        "Dietary Supplement: Inulin"
+      ],
+      "label": "prebiotic dietary supplement",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "new educational program to change eating behaviour, provided through weekly sessions.",
+      "intervention_names": [
+        "Behavioral: Lifestyle intervention"
+      ],
+      "label": "behavioural lifestyle intervention",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "equicaloric daily maltodextrin",
+      "intervention_names": [
+        "Dietary Supplement: Placebo"
+      ],
+      "label": "placebo dietary supplement",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Overweight and Obesity",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* BMI \\>= 25 kg/m2 or WHR \\>= 0.9/0.85 (m/d, f)\n* no MRI contra-indication\n* written informed consent\n\nExclusion Criteria:\n\n* athletes\n* occurrence of a clinically relevant psychiatric disease in the last 12 months, e.g. depression, substance abuse, eating disorders, schizophrenia\n* any chronic inflammatory or malignant disease\n* type 1 diabetes\n* previous bariatric/gastric surgery\n* pregnancy or breastfeeding woman",
+    "healthy_volunteers": true,
+    "maximum_age_text": "60 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "prebiotic dietary supplement"
+      ],
+      "description": "28g/day delivered in 2 sachets throughout the day with main meals",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Inulin",
+      "normalized_name": "inulin"
+    },
+    {
+      "arm_group_labels": [
+        "behavioural lifestyle intervention"
+      ],
+      "description": "weekly educational sessions to improve individual's eating behaviour",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Lifestyle intervention",
+      "normalized_name": "lifestyle intervention"
+    },
+    {
+      "arm_group_labels": [
+        "placebo dietary supplement"
+      ],
+      "description": "equicaloric maltodextrin delivered in 2 sachets throughout the day with main meals",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "BOLD-acitvity will be measured using event-related echo-planar T2\\*-weighted magnetic resonance imaging (MRI) during food wanting task according to previously described procedures (details of preprocessing at: https://osf.io/ynkxw). Onsets of food and art stimuli presentation will be modelled as separate regressors convolving delta functions with a canonical hemodynamic response function. Wanting rating scores (on an 8-point likert scale) per stimulus will be added as covariates. In a parallel model, kcal of food stimuli will be added multiplied with wanting scores to model high caloric food wanting interaction. At the group level, we will assess the contrasts food \\> art and wanting modulation.",
+      "measure": "blood-oxygenation-level-dependent (BOLD) activity during food wanting",
+      "outcome_type": "primary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Changes in alpha and beta diversity assessed using 16S rRNA sequencing of stool samples",
+      "measure": "microbial alpha and beta diversity",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "BOLD-acitvity will be measured using event-related echo-planar T2\\*-weighted magnetic resonance imaging (MRI) during food wanting and food memory recognition tasks according to previously described procedures (details of preprocessing at: https://osf.io/ynkxw). Onsets of food and art stimuli presentation in encoding and recognition will be modelled as separate regressors convolving delta functions with a canonical hemodynamic response function. Correctly remembered and correctly rejected, as well as misses and false alarms will be modeled separately. In parallel models, similar and new items als well as wanting rating scores (on an 8-point likert scale) per stimulus and kcal of food stimuli multiplied with wanting scores will be added as covariates. At the group level, we will assess the contrasts correct \\> false and wanting modulation.",
+      "measure": "fMRI BOLD activity memory performance",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "self-reported hunger feeling on a 8-point score from minimum 0 (not at all) to maximum 8 (very much).",
+      "measure": "satiety",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "ghrelin pg/ml in blood",
+      "measure": "ghrelin",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "leptin ng/ml in blood",
+      "measure": "leptin",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Glucagon-like peptide-1 (GLP-1) pg/ml in blood",
+      "measure": "GLP-1",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "peptide YY pg/ml in blood",
+      "measure": "PYY",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "insulin in blood uU/ml",
+      "measure": "insulin",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "hemoglycated globulin A1c in blood %",
+      "measure": "HbA1c",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "high sensitive C-reactive protein mg/l (and optionally tumor necrosis factor alpha and interleukin 6 in blood, pg/ml)",
+      "measure": "inflammatory markers",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "short-chain fatty acids (SCFA), bile acids",
+      "measure": "microbial metabolic markers in blood",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "weight kg/height in m squared",
+      "measure": "body mass index",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "waist (cm) to hip (cm) circumeference ratio",
+      "measure": "waist hip ratio",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "body fat % according to bioelectrical impedance analysis",
+      "measure": "body fat",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "assessed with the food craving questionnaire (Meule et al., 2012, German version).",
+      "measure": "food craving",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "measured using the attention network task (ANT)",
+      "measure": "executive attention performance",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The investigators aim to test the hypothesis that a microbiome-changing dietary intervention improves food decision-making and to determine the underlying microbiotal and metabolic mechanisms. To this end, 90 overweight/obese adults will be enrolled in a randomized controlled trial to test the effects of a pre-biotic dietary intervention (supplementary intake of soluble fibre) or a behavioural lifestyle intervention (weekly educational program) vs. control condititon (supplementary intake of isocaloric starch) over a period of 26 weeks. Before and after the intervention/control period, participants will undergo task-based functional and structural MRI and cognitive testing. The gut microbiota will be assessed using 16S rDNA next-generation sequencing (V3/V4 region) in stool samples. Diet, anthropometry and lifestyle will be monitored with questionnaires and metabolomics will be assayed in peripheral blood and stool (e.g. SCFA). Using a modulation of gut-brain communication through a prebiotic diet and lifestyle intervention, respectively, the investigators will be able to discover microbiota communities that play a key role for eating behaviour. Related mechanistic insights could help to develop novel preventive and therapeutic options to combat unhealthy weight gain in our obesogenic society.",
+    "brief_title": "Impact of Microbiome-changing Interventions on Food Decision-making",
+    "collaborator_names": [
+      "Universit\u00e4tsklinikum Leipzig",
+      "DFG - Deutsche Forschungs Gemeinschaft (German Research Foundation)",
+      "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
+    ],
+    "completion_date": "2026-12",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* BMI \\>= 25 kg/m2 or WHR \\>= 0.9/0.85 (m/d, f)\n* no MRI contra-indication\n* written informed consent\n\nExclusion Criteria:\n\n* athletes\n* occurrence of a clinically relevant psychiatric disease in the last 12 months, e.g. depression, substance abuse, eating disorders, schizophrenia\n* any chronic inflammatory or malignant disease\n* type 1 diabetes\n* previous bariatric/gastric surgery\n* pregnancy or breastfeeding woman",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 90,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Inulin",
+      "Lifestyle intervention",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2022-04-29",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Max Planck Institute for Human Cognitive and Brain Sciences",
+    "masking": "TRIPLE",
+    "maximum_age_text": "60 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05353504",
+    "official_title": "\"SFB 1052/3 - Mechanismen Der Adipositas, Projekt A1: Ver\u00e4nderung Der Neurobiologischen Grundlagen Von Ess-Entscheidungen Bei Adipositas\" Engl. \"CRC 1052/3 - Obesity Mechanisms, Project A1: Targeting Neurobehavioral Determinants of Obesity\"",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2024-12",
+    "primary_purpose": "BASIC_SCIENCE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05353504",
+    "start_date": "2022-03-08",
+    "study_first_posted_at": "2022-04-29",
+    "study_type": "INTERVENTIONAL"
+  }
+}

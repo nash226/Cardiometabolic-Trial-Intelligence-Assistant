@@ -1,0 +1,296 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001836",
+          "term": "Body Weight Changes"
+        },
+        {
+          "id": "D001522",
+          "term": "Behavior, Animal"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D015430",
+          "term": "Weight Gain"
+        },
+        {
+          "id": "D001070",
+          "term": "Appetitive Behavior"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Subjects will complete a supervised high-intensity interval training program for 12 weeks, including four weekly training sessions. The training session will include a 3 minute warm-up followed by six 40 second bouts of high intensity (85-95% of VO2peak) with 3 minutes moderate intensity (45-55% of VO2peak) between each bout of high intensity, concluding with a 3 minute cool-down. Each participant's target heart rate will be specific to them, calculated from the exercise test completed during Visit 1.",
+          "interventionNames": [
+            "Other: Exercise"
+          ],
+          "label": "Exercise Training",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Exercise Training"
+          ],
+          "description": "High Intensity Exercise",
+          "name": "Exercise",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Weight Gain",
+        "Bariatric Surgery Candidate",
+        "Appetitive Behavior"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Maria.Vamvini@joslin.harvard.edu",
+          "name": "Maria Vamvini, MD",
+          "phone": "617-309-2400",
+          "role": "CONTACT"
+        },
+        {
+          "email": "laura.simpson@joslin.harvard.edu",
+          "name": "Laura Simpson, MS",
+          "phone": "617-735-3924",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Boston",
+          "contacts": [
+            {
+              "email": "laura.simpson@joslin.harvard.edu",
+              "name": "Simpson",
+              "phone": "617-735-3924",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Joslin Diabetes Center",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "status": "RECRUITING",
+          "zip": "02215"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Joslin Diabetes Center",
+          "name": "Maria Vamvini, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to explore how HIIT influences brain function, neural and molecular pathways related to weight control, setting the stage for future obesity intervention research.",
+      "detailedDescription": "This study will include adults aged 18-70 years with a BMI \\>19 kg/m\u00b2, both with and without prior bariatric surgery. Those with bariatric surgery must have experienced clinically significant weight regain (\\>10% of maximum weight lost) within 1 to 5 years post-surgery.\n\nParticipants will complete three initial clinical visits before beginning a 12-week high-intensity interval training (HIIT) program, followed by three post-training clinical visits. During visit 1, participants will undergo anthropometric assessments, baseline blood draw, oral glucose tolerance test, psychometric evaluations, and complete an MRI safety screening. At visit 2, participants will complete a resting metabolic rate assessment and a VO\u2082peak test. During visit 3, participants will have another baseline blood draw and undergo a functional MRI (fMRI).\n\nThe HIIT program will consist of four weekly 28-minute sessions conducted at the Joslin Diabetes and at home. Each exercise session will include a 3-minute warm-up, six rounds of 40 seconds high-intensity followed by 3 minutes of moderate intensity, and will conclude with a 3-minute cool-down.\n\nAfter completing the 12-week program, participants will return for clinical visits 4-6, repeating all baseline assessments."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-70 years\n* Body mass index (BMI) \\>19 kg/m2 and body weight\\< 250kg\n* Participants must have experienced a clinically significant weight regain, defined as over 10% of their maximum weight lost, within 1 to 5 years following their bariatric surgery. They will be asked to self-report their weight loss history. Participants must also provide the operative report from their bariatric surgery for reference.\n* In good general health with no conditions that could influence the outcome of the trial, and in the judgment of the investigator is a good candidate for the study based on review of available medical history, physical examination and clinical laboratory evaluations\n* Willing to adhere to the protocol requirements for the duration of the study\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus\n* Peripheral neuropathy with insensate feet\n* Recent blood donation within the last 2 months\n* Use of beta-blockers\n* Current pregnancy or breastfeeding\n* Active Heart or lung disease\n* Severe hypertension (systolic \\>160 mmHg or diastolic \\>90 mmHg)\n* Inability to exercise for any reason\n* Any known contraindication to exercise testing based on current ACSM guidelines\n* MRI contraindications, such as presence of pacemakers, aneurysm clips, artificial heart valves, ear implants, metal fragments, or foreign objects in the eyes, skin, or body\n* Known presence of a structural brain lesion (e.g. tumor, cortical infarct)\n* Presence of another neurologic disorder, which could impact findings (e.g. multiple sclerosis)\n* History of cardiovascular disease, stroke, congestive heart failure\n* Active hematological, renal, pulmonary or hepatic disorders\n* Active treatment for cancer\n* A history of active alcohol or substance abuse\n* Any significant systemic illness or unstable medical condition which could lead to difficulty complying with the study protocol\n* History of claustrophobia and inability to tolerate an MRI\n* Body weight \\>250kgr and largest body diameter of 70cm as there is a certain weight and diameter limit of the MRI scanner\n* Unwilling or unable to return for study visits, undergo neuropsychological testing and MRI imaging\n* Left-handedness",
+      "healthyVolunteers": true,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Exercise, Brain Activity, and Weight Maintenance",
+      "nctId": "NCT06511310",
+      "officialTitle": "Effects of Exercise Training on Brain Activity and Its Relation to Weight Maintenance and Appetite Regulation",
+      "orgStudyIdInfo": {
+        "id": "00000256"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Joslin Diabetes Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in connectivity between brain areas following exercise training by using resting state functional MRI.",
+          "timeFrame": "Evaluation of changes in brain function by fMRI before and after 12 weeks of exercise training."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Subjects will be evaluated with Three Factor Eating Questionnaire (TFEQ).",
+          "measure": "Changes in appetitive behavior.",
+          "timeFrame": "Evaluation of changes in hunger before and after 12 weeks of exercise training."
+        },
+        {
+          "description": "Subjects will be evaluated with Beck Depression Inventory II (BDI-II) to assess for depressive symptoms.",
+          "measure": "Changes in mood.",
+          "timeFrame": "Evaluation of changes in mood before and after 12 weeks of exercise training."
+        },
+        {
+          "description": "Changes in circulating exosome miRNAs will be measured using next-generation sequencing (NGS) and reported as normalized counts or fold changes relative to baseline.",
+          "measure": "Degree of changes in miRNA profiling of circulating exosomes in blood samples.",
+          "timeFrame": "Evaluation of changes in miRNA before and after 12 weeks of exercise training."
+        },
+        {
+          "description": "Evaluation using mini cognitive test.",
+          "measure": "Changes in cognitive function.",
+          "timeFrame": "Changes in cognition function before and after 12 weeks of HIIT."
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Nutrition Obesity Research Center"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Joslin Diabetes Center"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-07-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-27",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-09-15",
+        "type": "ESTIMATED"
+      },
+      "statusVerifiedDate": "2025-08",
+      "studyFirstPostDateStruct": {
+        "date": "2024-07-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-06-18",
+      "studyFirstSubmitQcDate": "2024-07-15"
+    }
+  }
+}

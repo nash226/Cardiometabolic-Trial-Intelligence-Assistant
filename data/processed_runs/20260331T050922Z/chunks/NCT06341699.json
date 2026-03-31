@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06341699:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06341699\nBrief title: Study of the Steroid Hormone Milieu in Obese Patients\nOfficial title: Studio Del Milieu Steroideo in Pazienti Obesi\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06341699"
+    },
+    {
+      "chunk_id": "NCT06341699:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity, Morbid\nIntervention labels: \nDrug class labels: \nArms: \nKeywords: hypercortisolism; hypogonadism",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT06341699"
+    },
+    {
+      "chunk_id": "NCT06341699:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of this observational study is to evaluate the actual secretion of cortisol and testosterone in obese male subjects, together with the receptor sensitivity to these hormones in order to understand whether the hormonal milieu deriving from these parameters is associated with alterations in bone metabolism, lipoprotein concentration and function, and/or the severity and complications of obesity.\n\nIt will be also investigated if this hormonal milieu is a predictive factor for cardiovascular disease in obese patients.\n\nEligible subjects are male patients (age 18-80 years) with severe obesity and no other known causes of hypercortisolism or hypogonadism.\n\nQuestionnaires for the evaluation of mood and symptoms will be collected upon enrollment, patient's anamnestic and clinical data relating to disease complications, BMI, previous blood tests, cortisol suppression with dexamethasone 1 mg will be collected, and blood sample will be sent to and analyzed at a centralized laboratory for the study of Steroid hormones, bone metabolism, lipoprotein function, genetics and receptor analysis.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 164,
+      "trial_nct_id": "NCT06341699"
+    },
+    {
+      "chunk_id": "NCT06341699:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: MALE\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* morbid obesity\n\nExclusion Criteria:\n\n* patients suffering from severe systemic pathologies, fever, chronic inflammatory states known to cause PCR \\>10 mg/dL\n* use of corticosteroids at the time of enrollment\n* the patient's poor understanding of spoken and written Italian\n* patients suffering from primary pathologies of the testicle, known at enrollment\n* patients suffering from hypothalamic-pituitary or adrenal pathologies already known at the time of enrollment",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 88,
+      "trial_nct_id": "NCT06341699"
+    },
+    {
+      "chunk_id": "NCT06341699:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Association of androgen milieu with the severity of obesity | time_frame=2024 | description=Evaluate the association of hypogonadism and/or androgen receptor polymorphisms that reduce sensitivity to androgens with: patients' BMI; comorbidities of obesity, and bone metabolism\ntype=primary | measure=Association of cortisol milieu with the severity of obesity | time_frame=2024 | description=Evaluate the association of hypercortisolism and/or glucocorticoid receptor polymorphisms that increase sensitivity to cortisol with: patients' BMI; comorbidities of obesity, and bone metabolism\ntype=primary | measure=Algorithm fo CV risk in obesity | time_frame=2024 | description=Use of artificial intelligence methods to hypothesize an algorithm including steroid milieu that can identify obese patients at greater cardiovascular risk\ntype=secondary | measure=Prevalence of hypogonadism in morbid obesity | time_frame=2024 | description=To evaluate the prevalence of hypogonadism in patients with severe obesity using EMAS criteria\ntype=secondary | measure=Prevalence of patients with morbid obesity unresponsive to overnight suppression test | time_frame=2024 | description=To evaluate the prevalence of patients with severe obesity positive to Nugent testing\ntype=secondary | measure=Enrichment in rare HH variants in obese patients with central hypogonadism | time_frame=2025 | description=Compare the enrichment in rare variants for HH-associated genes in obese patients with hypogonadotropic hypogonadism, compared to the general population\ntype=secondary | measure=Enrichment in rare variants associated with hypercortisolism in obese patients unresponsive to Nugent testing | time_frame=2025 | description=Compare the enrichment in rare variants in genes associated with hypercortisolism in obese patients unresponsive to Nugent testing, compared to the general population",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 238,
+      "trial_nct_id": "NCT06341699"
+    },
+    {
+      "chunk_id": "NCT06341699:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-05-16\nPrimary completion date: 2026-06-30\nCompletion date: 2026-06-30\nStudy first posted: 2024-04-02\nResults first posted: None\nLast update posted: 2025-05-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06341699"
+    },
+    {
+      "chunk_id": "NCT06341699:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Istituto Auxologico Italiano\nLead sponsor class: OTHER\nCollaborators: Ministry of Health, Italy\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT06341699"
+    }
+  ],
+  "trial_nct_id": "NCT06341699"
+}

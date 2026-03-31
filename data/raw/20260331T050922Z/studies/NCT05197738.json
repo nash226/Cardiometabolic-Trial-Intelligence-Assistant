@@ -1,0 +1,296 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001049",
+          "term": "Apnea"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D020919",
+          "term": "Sleep Disorders, Intrinsic"
+        },
+        {
+          "id": "D020920",
+          "term": "Dyssomnias"
+        },
+        {
+          "id": "D012893",
+          "term": "Sleep Wake Disorders"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012891",
+          "term": "Sleep Apnea Syndromes"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Cohort of individuals found to sleep have scores categorized as \"High risk,\" on the Berlin questionnaire.",
+          "label": "High risk OSA"
+        },
+        {
+          "description": "Cohort of individuals found to sleep have scores categorized as \"Low risk,\" on the Berlin questionnaire.",
+          "label": "Low risk OSA"
+        },
+        {
+          "description": "Cohort of individuals found to have average sleep duration of \\< 7 hours per night. Individuals who sleep on average less than 6 hours per night will further be sub-categorized as very short sleeprs.",
+          "label": "Short sleepers"
+        },
+        {
+          "description": "Cohort of individuals found to have average sleep duration of \\>9 hours per night.",
+          "label": "Long sleepers"
+        },
+        {
+          "description": "Cohort of individuals found to have an average sleep duration between 7 and 9 hours per night",
+          "label": "Average lengths leepers"
+        },
+        {
+          "description": "Cohort of individuals whose standard deviation of sleep duration falls within 1 standard deviation of their mean sleep duration.",
+          "label": "Regular sleepers"
+        },
+        {
+          "description": "Cohort of individuals whose standard deviation of sleep duration falls greater than 1 standard deviation of their mean sleep duration",
+          "label": "Irregular sleepers"
+        },
+        {
+          "description": "Cohort of individuals whose scores on the Insomnia Severity Index would be categorized as severe",
+          "label": "Severe insomnia risk"
+        },
+        {
+          "description": "Cohort of individuals whose scores on the Insomnia Severity Index would be categorized as moderate",
+          "label": "Moderate insomnia risk"
+        },
+        {
+          "description": "Cohort of individuals whose scores on the Insomnia Severity Index would be categorized as low",
+          "label": "No insomnia risk"
+        },
+        {
+          "description": "Individuals who are more than 1 hour less or more of sleep on weekdays compared to average weekend sleep.",
+          "label": "Increased social jet lag"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Sleep",
+        "Sleep Apnea",
+        "Obesity",
+        "Mood"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "stuti@scripps.edu",
+          "name": "Stuti Jaiswal, MD, PhD",
+          "phone": "858-784-2169",
+          "role": "CONTACT"
+        },
+        {
+          "email": "eramos@scripps.edu",
+          "name": "Ed Ramos, PhD",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "La Jolla",
+          "contacts": [
+            {
+              "name": "Stuti J Jaiswal, MD, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Scripps Research Institute",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92037"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Scripps Research Institute",
+          "name": "Stuti Jaiswal, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a digital health study in which participants are recruited to collect sleep and activity data from digital activity trackers. We are also collecting survey/questionnaire data on baseline health and sleep characteristics as well as bi-weekly assessments of sleep quality and mood. Overall, we aim to examine how sleep relates to physical and mental health in a large population of activity tracker users."
+    },
+    "designModule": {
+      "bioSpec": {
+        "description": "An eventual goal of this study is to include a genetic assessment",
+        "retention": "SAMPLES_WITH_DNA"
+      },
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 100000,
+        "type": "ESTIMATED"
+      },
+      "patientRegistry": false,
+      "studyType": "OBSERVATIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18 years\n* Residing within the United States\n* Ability to use the REFRESH app on the participant's own smartphone device\n\nExclusion Criteria:\n\n* In-ability to consent",
+      "healthyVolunteers": true,
+      "minimumAge": "18 Years",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "General adult population."
+    },
+    "identificationModule": {
+      "acronym": "REFRESH",
+      "briefTitle": "Research Framework Exploring Sleep Health",
+      "nctId": "NCT05197738",
+      "officialTitle": "Research Framework Exploring Sleep Health",
+      "orgStudyIdInfo": {
+        "id": "IRB-21-7863"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Scripps Translational Science Institute"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Baseline depression scores on a scale from 0 to 27, which higher scores indicated more depression",
+          "measure": "Patient Health Questionnaire 9",
+          "timeFrame": "Administered one time at enrollment"
+        },
+        {
+          "description": "Mood scores based on an 11 point rating scale, with higher scores indicated a better mood",
+          "measure": "Bi-weekly mood scores",
+          "timeFrame": "Averaged bi-weekly over a two month period"
+        },
+        {
+          "description": "Biweekly assessment of refreshing sleep quality on an 11 point rating scale, with higher scores indicated better subjective sleep from the participant",
+          "measure": "Subjective sleep quality",
+          "timeFrame": "Averaged bi-weekly over a two month period"
+        },
+        {
+          "description": "Based on standard BMI categories; calculated based on self-reported data of height and weight",
+          "measure": "Change in BMI",
+          "timeFrame": "Measured as the difference between BMI reported at the beginning of the study and at the two-month mark."
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Scripps Translational Science Institute"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Scripps Translational Science Institute",
+        "investigatorFullName": "Stuti Jaiswal",
+        "investigatorTitle": "Assistant Professor of Molecular Medicine",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2041-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-27",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-02-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-06",
+      "studyFirstPostDateStruct": {
+        "date": "2022-01-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-12-16",
+      "studyFirstSubmitQcDate": "2022-01-05"
+    }
+  }
+}

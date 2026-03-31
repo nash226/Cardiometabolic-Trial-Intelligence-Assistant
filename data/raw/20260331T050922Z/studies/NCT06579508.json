@@ -1,0 +1,458 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D018986",
+          "term": "Motor Vehicles"
+        },
+        {
+          "id": "D014186",
+          "term": "Transportation"
+        },
+        {
+          "id": "D013676",
+          "term": "Technology, Industry, and Agriculture"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D015541",
+          "term": "Off-Road Motor Vehicles"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "No intervention, only the evaluations will be done.",
+          "label": "Control",
+          "type": "NO_INTERVENTION"
+        },
+        {
+          "description": "High-intensity interval cycle ergometer train, with inter effort normoxia (FiO2 = 21%).",
+          "interventionNames": [
+            "Other: Cycle ergometer"
+          ],
+          "label": "Normoxia - Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "High-intensity interval cycle ergometer train, with inter effort normoxia (FiO2 = 21%).",
+          "interventionNames": [
+            "Other: Cycle ergometer"
+          ],
+          "label": "Normoxia - Taurina",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "High-intensity interval cycle ergometer train, with inter effort hypoxia (FiO2 = 12%).",
+          "interventionNames": [
+            "Other: Cycle ergometer"
+          ],
+          "label": "Hypoxia - Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "High-intensity interval cycle ergometer train, with inter effort hypoxia (FiO2 = 12%).",
+          "interventionNames": [
+            "Other: Cycle ergometer"
+          ],
+          "label": "Hypoxia - Taurina",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Hypoxia - Placebo",
+            "Hypoxia - Taurina",
+            "Normoxia - Placebo",
+            "Normoxia - Taurina"
+          ],
+          "description": "The initial part will last 5 minutes at low intensity, corresponding to \"easy\" by the RPE.\n\nThe main part will be performed at the intensity of training zone 3 (100-110% of the Lan), lasting 5 minutes with a rest of 2.5 minutes between exercises. The intensity will be controlled by HR and RPE.\n\nThe final part will last 3 minutes at low intensity, corresponding to \"easy\" by the RPE.\n\nThe load progression occurred during the first four weeks, starting with 3 sets and adding 1 set per week.\n\nThe intensity of each effort is 100-110%HRAnTh.",
+          "name": "Cycle ergometer",
+          "otherNames": [
+            "Bike"
+          ],
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity"
+      ],
+      "keywords": [
+        "Mitochondrial disfunction",
+        "Oxidative stress",
+        "Inter-effort Hypoxia",
+        "Physical Exercise",
+        "Obesity"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ellenfreitas@usp.br",
+          "name": "Ellen C de Freitas",
+          "phone": "+55 16 3315-0345",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Ribeir\u00e3o Preto",
+          "contacts": [
+            {
+              "email": "ellenfreitas@usp.br",
+              "name": "Ellen C Freitas, Ph.D.",
+              "phone": "+55 16 3602-0345",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "University of S\u00e3o Paulo, School of Physical Education and Sports of Ribeir\u00e3o Preto.",
+          "geoPoint": {
+            "lat": -21.1775,
+            "lon": -47.81028
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING",
+          "zip": "14049-900"
+        },
+        {
+          "city": "Ribeir\u00e3o Preto",
+          "contacts": [
+            {
+              "email": "marcela.viliod@usp.br",
+              "name": "Marcela C Viliod, Bachelor",
+              "phone": "+ 55 13 99207 0520",
+              "role": "CONTACT"
+            },
+            {
+              "email": "ellenfreitas@usp.br",
+              "name": "Ellen C Freitas, Ph.D",
+              "phone": "+55 16 3602-0345",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "University of S\u00e3o Paulo, School of Physical Education and Sports of Ribeir\u00e3o Preto",
+          "geoPoint": {
+            "lat": -21.1775,
+            "lon": -47.81028
+          },
+          "state": "S\u00e3o Paulo",
+          "status": "RECRUITING",
+          "zip": "14049-900"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "USP",
+          "name": "Marcela C Viliod",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The prevalence of obesity in Brazil is one of the highest in Latin America. As an inflammatory disease, obesity needs to be treated, and one of the best interventions is exercise. This research aims to learn more about the effects of combining high-intensity training, recovery hypoxia, and taurine supplementation. To better understand these effects, the researchers will compare hypoxia and normoxia, as well as taurine and placebo, with all participants training in the same way. The researchers will also investigate mitochondrial respiration and food consumption to connect certain aspects of obesity with overall health.",
+      "detailedDescription": "Obesity is characterized by a chronic inflammatory state, often linked with elevated oxidative stress and mitochondrial dysfunction. While physical exercise can trigger inflammatory responses due to muscle damage, it also promotes significant bodily adaptations, particularly in body composition, physical fitness, and skeletal muscle tissue, including enhanced mitochondrial dynamics. Moderate hypoxia, when combined with exercise, further amplifies these benefits by increasing the expression of genes related to mitochondrial biogenesis, GLUT1 expression, and angiogenesis. Previous findings suggest that high-intensity physical activity not only improves cardiorespiratory capacity and alters body composition but also significantly elevates inflammation. Consequently, taurine, a supplement known for its anti-inflammatory properties and ability to reduce oxidative stress, should be considered to mitigate these issues and optimize the benefits of exercise and hypoxia. Based on these premises, it is hypothesized that the combination of taurine supplementation with physical training under recovery hypoxia may reduce the significant rise in pro-inflammatory cytokines, thereby enhancing the potential benefits of exercise and moderate hypoxia."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized clinical trial",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Participants will be randomly distributed into 5 groups:\n\nControl; Normoxia + placebo (Nor-P); Normoxia + taurine (Nor-T); Hypoxia + placebo (Hyp-P); Hypoxia + Taurine (Hyp-T). Control group is the only group without training",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women\n* Age between 25 - 45 years old;\n* BMI between 30 - 35kg/m\u00b2;\n* Not be on a diet;\n* Not be on a physical activity program;\n* Not be menopaused.\n\nExclusion Criteria:\n\n* Smokers;\n* Alcoholics;\n* Use thyroid medication;\n* Carry out nutritional monitoring or in treatment for weight loss;\n* Hypertension;\n* Metabolical syndrome;\n* Have any comorbidity associated to obesity;\n* Drugs use.",
+      "healthyVolunteers": true,
+      "maximumAge": "45 Years",
+      "minimumAge": "25 Years",
+      "sex": "FEMALE",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effects of High-intensity Exercise With Hypoxia and Taurine Supplementation on Metabolic and Mitochondrial Parameters",
+      "nctId": "NCT06579508",
+      "officialTitle": "Effects of High-intensity Intermittent Exercise With Recovery Hypoxia and Taurine Supplementation in Women With Obesity on Metabolic and Mitochondrial Parameters",
+      "orgStudyIdInfo": {
+        "id": "Hypoxia_Taurine"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Sao Paulo"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nHeight measured in meters.",
+          "measure": "Anthropometry - Height",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body weight in kilograms (kg).",
+          "measure": "Anthropometry - Weight",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body mass index (BMI = weight measured(kg) / (height (m)\u00b2).",
+          "measure": "Anthropometry - BMI",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body composition for fat-free mass (grams and %).",
+          "measure": "Body composition - Free-fat mass",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body composition for fat mass (grams and %).",
+          "measure": "Body composition - Fat mass",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body composition for bone mineral content (g.cm\u00b2).",
+          "measure": "Body composition - Bone",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in total cholesterol (mg/dL).",
+          "measure": "Lipid profile - Cholesterol",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in triglycerides (mg/dL).",
+          "measure": "Lipid profile - Triglycerides",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in HDL-cholesterol and LDL-cholesterol (mg/dL).",
+          "measure": "Lipid profile - HDL/LDL",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in blood glucose (mg/dL).",
+          "measure": "Lipid profile - Glucose",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Changes in serum levels of cytokines will be evaluated with MILLIPLEX\u00ae Kit. Pro- inflammatory citokines: IL-6, TNF-\u03b1 (pg/mL).",
+          "measure": "Inflammatory profile - pro inflammatory",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Changes in serum levels of cytokines will be evaluated with MILLIPLEX\u00ae Kit. Ant- inflammatory citokines: IL-10 (pg/mL), Adiponectin (ng/mL).",
+          "measure": "Inflammatory profile - anti inflammatory",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using heart rate (HR).",
+          "measure": "Aerobic performance - HRAnTh",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using intensity in Watts (W).",
+          "measure": "Aerobic performance - IAnTh",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using Rate of Perceived Effort (RPE).",
+          "measure": "Aerobic performance - RPEAnTh",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using lactate concentration \\[lac-\\].",
+          "measure": "Aerobic performance - LacAnTh",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nVO2peak in ml.kg-1.min-1.",
+          "measure": "Aerobic performance - VO2",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "A food record of three non-consecutive days: two days of the week and one day in the weekend. This evaluation will last 12 weeks. Will be evaluated with Dietwin\u00ae software (S\u00e3o Paulo, Brazil):\n\nThe macronutrients, micronutrients and fiber in quilocalories and percentage (%)",
+          "measure": "Food Intake",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "The feed will undergo analysis through the NOVA Classification. By NOVA, food will be classified into four groups: Group 1 - Unprocessed or minimally processed foods; Group 2 - Processed culinary ingredients; Group 3 - Processed foods; Group 4 - Ultra-processed foods.\n\nFor each category, the total calories ingested will be calculated, and later, represented in percentage (%) the participation of each food group in the general diet.",
+          "measure": "Food quality",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "The participants will supplement 3g of taurina or placebo during 12 weeks. The rate of plasmatic taurine (mmol) will be evaluated during pre and post intervention.",
+          "measure": "Taurine rates",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "After biopsy the tissue will be treated for:\n\nqPCR analysis.",
+          "measure": "Muscle biopsy - RNA",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "After biopsy the tissue will be treated for:\n\nWestern blotting analysis.",
+          "measure": "Muscle biopsy - Protein",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "After biopsy the tissue will be treated for:\n\nHigh-resolution respirometry of muscle fibers analysis.",
+          "measure": "Muscle biopsy - Mitochondria",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The Borg scale will be use to quantify the:\n\nRate of Perceived Effort (RPE) - will be noted after each effort during all the training program.",
+          "measure": "Training measures - RPE",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "The internal load will be calculated using TRIMP:\n\nCalculated multipling the RPE for the time in effort (TRIMP = RPE \\* time in effort), for each participant and training session.",
+          "measure": "Training measures - TRIMP",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "The Oxygen saturation (SpO2) will be measure in percent (%), using a pulse oximeter.\n\nSpO2 (%) will be noted after the end of the effort, the lowest point during the rest and in the end of the rest.",
+          "measure": "Training measures - SP02",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "description": "The heart rate (HR) will be measure in beats per minute (BPM) with Polar clock.",
+          "measure": "Training measures - HR",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER_GOV",
+          "name": "Funda\u00e7\u00e3o de Amparo \u00e0 Pesquisa do Estado de S\u00e3o Paulo"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Sao Paulo"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Sao Paulo",
+        "investigatorFullName": "Ellen Cristini de Freitas",
+        "investigatorTitle": "Principal Investigator",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-28",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-08",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-03-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-08-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-08-20",
+      "studyFirstSubmitQcDate": "2024-08-27"
+    }
+  }
+}

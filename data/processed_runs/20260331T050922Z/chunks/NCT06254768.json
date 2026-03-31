@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06254768:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06254768\nBrief title: Use of Continuous Glucose Monitors in Children and Adolescents With Obesity\nOfficial title: Use of Continuous Glucose Monitors in Children and Adolescents With Obesity\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT06254768"
+    },
+    {
+      "chunk_id": "NCT06254768:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Pediatric Obesity\nIntervention labels: Continuous glucose monitor\nDrug class labels: \nArms: Unblinded; Blinded\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06254768"
+    },
+    {
+      "chunk_id": "NCT06254768:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: To study if continuous glucose monitors are feasible for use in children and adolescents with obesity.\nDetailed description: Various CGMs are approved by the U.S. Food and Drug Administration (FDA) for use in children and adults with diabetes. However, to date, little is known about how CGM technology can be integrated into weight management strategies for adolescents with obesity. No study to date has explored the effects of unblinded vs. blinded CGM use alone, without any other lifestyle modification recommendations. Thus, to address this question, this is a cross-over feasibility trial of blinded vs. unblinded CGM use in youth with obesity. This study hypothesizes that CGM will be a feasible and acceptable technology for youth with obesity, without diabetes, to utilize, and that access to daily glucose trends will facilitate positive changes in eating behavior and daily activity level compared to blinded CGM use. Thirty adolescents with obesity will be recruited into a six-week cross-over trial. All participants will be randomly assigned to either the blinded or unblinded group for three weeks. And then cross over to the other group for another three weeks. The primary endpoints are recruitment, retention, and adherence. While the secondary endpoints are glycemic variability, as captured on CGM, change in weight as an excess percentage of 95th percentile, sleep, dietary intake, physical activity, and eating behaviors.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 223,
+      "trial_nct_id": "NCT06254768"
+    },
+    {
+      "chunk_id": "NCT06254768:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 10 Years\nMaximum age: 21 Years\nAge groups: CHILD; ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Age 10-21 years BMI \\>95th percentile\n\nExclusion Criteria:\n\n* Previous diagnosis of Prader Willi Syndrome or hypothalamic obesity\n* Intellectual disability\n* Previous or planned bariatric surgery\n* Hemoglobin A1c \\>6.5 %\n* Current use of medication that impacts weight",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 61,
+      "trial_nct_id": "NCT06254768"
+    },
+    {
+      "chunk_id": "NCT06254768:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Feasibility of continuous glucose monitor(CGM) use in children and adolescents with obesity | time_frame=6 weeks | description=Investigator will measure this outcome using recruitment rate achieved each month for the duration of the study period as the number of participants screened per month over the number of participants consented.\ntype=secondary | measure=To access the change in glycemic variability measured by CGMS in unblinded versus blinded periods through standard deviation of the mean. | time_frame=6 weeks | description=Investigator will measure the effect of un-blinded CGM versus blinded use on glycemic variability measured by the Standard Deviation of the mean glycemia (SD) measured by CGMS.\ntype=other | measure=Effect of on sleep in youth with obesity using CGMs | time_frame=6 weeks | description=Investigator will assess the effect on quality of sleep in youth with obesity when using CGMs with the help of Pittsburgh Sleep Quality Index. The Pittsburgh Sleep Quality Index scored 0 (no difficulty) to 3 (severe difficulty). The component scores are summed to produce a global score (range 0 to 21). Higher scores indicate worse sleep quality.\ntype=other | measure=Effect of CGM use on physical activity in youth with obesity when using CGMs | time_frame=6 weeks | description=Investigator will assess the effect on physical activity when using CGMS with the help of International Physical Activity Questionnaire. The items on the form are structured to provide separate scores on walking, moderate-intensity and vigorous-intensity activity. Computation of the total score for the short form requires summation of the duration (in minutes) and frequency (days) of walking, moderate-intensity and vigorous-intensity activities.\ntype=other | measure=Effect of CGM use on dietary intake in youth with obesity when using CGMs | time_frame=6 weeks | description=Investigator will assess the effect on dietary intake when using CGMS with the help of The Automated Self-Administered 24-hour Dietary Assessment Tool which is a tool that enables multiple, automatically coded, self-administered 24-hour diet recalls and/or single or multi-day food records, also known as food diaries.\ntype=other | measure=Effect of CGM use on eating behaviors in youth with obesity when using CGMs | time_frame=6 weeks | description=Investigator will assess the effect on eating behaviors in youth with obesity when using CGMs with the help of Dutch Eating Behavior Questionnaire. Items on the Dutch Eating Behavior Questionnaire range from 1 (never) to 5 (very often), with higher scores indicating greater endorsement of the eating behavior.\ntype=other | measure=Effect of CGM use on change in the BMI as a percentage of the 95th percentile (%BMIp95) in youth with obesity when using CGMs | time_frame=6 weeks. | description=Investigator will measure the change in the BMI as a percentage of the 95th percentile (%BMIp95) in youth with obesity when using CGMs between baseline to week 6.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 450,
+      "trial_nct_id": "NCT06254768"
+    },
+    {
+      "chunk_id": "NCT06254768:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-01-17\nPrimary completion date: 2024-03\nCompletion date: 2024-06\nStudy first posted: 2024-02-12\nResults first posted: None\nLast update posted: 2024-02-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06254768"
+    },
+    {
+      "chunk_id": "NCT06254768:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of California, Los Angeles\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06254768"
+    }
+  ],
+  "trial_nct_id": "NCT06254768"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06129110:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06129110\nBrief title: Effect of Weight Loss on Intermuscular Adipose Tissue (IMAT) Signaling\nOfficial title: Effect of Weight Loss on Intermuscular Adipose Tissue (IMAT) Signaling\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06129110"
+    },
+    {
+      "chunk_id": "NCT06129110:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity; Insulin Sensitivity; Muscle Weakness; Adiposity; Insulin Resistance\nIntervention labels: Diet Weight Loss\nDrug class labels: \nArms: Diet Weight Loss; Delayed Intervention\nKeywords: IMAT; Intermuscular Adipose Tissue; Weight Loss; Diet",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06129110"
+    },
+    {
+      "chunk_id": "NCT06129110:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this intervention study is to learn about how weight loss impacts molecular signaling of intermuscular adipose tissue (IMAT) in individuals with obesity. The main question it aims to answer is how inflammatory molecules secreted by IMAT promote muscle insulin resistance and inflammation, and how these same molecules are diminished after weight loss. Following screening visits involving body composition measures, blood testing, strength testing, and a thigh muscle biopsy, participants will go through a 12-week dietary intervention for weight loss. After 12 weeks, this will be followed by the same testing and biopsies that were completed before the intervention. Researchers will then compare outcomes of individuals who lost weight to individuals who did not lose weight.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 123,
+      "trial_nct_id": "NCT06129110"
+    },
+    {
+      "chunk_id": "NCT06129110:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Generally healthy men and women aged 18-70\n* BMI between 30-40\n* Less than 1 hour of exercise per week\n* Women:\n\n  1. may be pre or post menopausal\n\nExclusion Criteria:\n\n* Type 1 or Type 2 diabetes\n* Thyroid disease\n* History of lung disease\n* Active use of nicotine\n* Severe plasma lipid disorders\n* Taking hormone replacement drugs, blood thinners, or thiazoladinediones\n* Women:\n\n  1. Currently going through menopause or peri-menopause\n  2. Pregnant or breastfeeding\n  3. History of Polycystic Ovary Syndrome",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 105,
+      "trial_nct_id": "NCT06129110"
+    },
+    {
+      "chunk_id": "NCT06129110:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Insulin Sensitivity | time_frame=12 weeks | description=Participants will undergo a standard 3-hour hyperinsulinemic/euglycemic clamp with insulin infused at 80 mU/m2/min, and glucose clamped at 90 mg/dl with a variable dextrose infusion.\ntype=primary | measure=Body Weight | time_frame=12 weeks | description=Participant weight will be measured using BodyTrace scales during the 12 week intervention.\ntype=primary | measure=IMAT Content | time_frame=12 weeks | description=A multi-slice MRI will be used to quantify IMAT and muscle content in both legs with acquisition of \\~20 axial images (10 mm thickness) with 10 mm spacing between images starting superior to the patella. IMAT content will be quantified using the well-validated Sirlin 6-echo method and normalized to muscle volume.\ntype=primary | measure=Muscle Mass | time_frame=12 weeks | description=A multi-slice MRI will be used to quantify IMAT and muscle content in both legs with acquisition of \\~20 axial images (10 mm thickness) with 10 mm spacing between images starting superior to the patella. Muscle volume will be quantified using standard methods with anatomical cross-sectional area evaluated in each T1 weighted, high resolution, gradient echo profile scan, and multiplied by the length of the muscle.\ntype=primary | measure=Muscle Strength | time_frame=12 weeks | description=Participants will perform quadriceps muscle strength testing using an isokinetic dynamometer.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 206,
+      "trial_nct_id": "NCT06129110"
+    },
+    {
+      "chunk_id": "NCT06129110:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-01-01\nPrimary completion date: 2028-12-01\nCompletion date: 2029-12-01\nStudy first posted: 2023-11-13\nResults first posted: None\nLast update posted: 2024-04-23\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06129110"
+    },
+    {
+      "chunk_id": "NCT06129110:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Colorado, Denver\nLead sponsor class: OTHER\nCollaborators: National Institutes of Health (NIH); National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT06129110"
+    }
+  ],
+  "trial_nct_id": "NCT06129110"
+}

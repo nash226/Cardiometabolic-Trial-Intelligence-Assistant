@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07284979:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07284979\nBrief title: Efficacy and Safety of KAI-9531 Administered Once Weekly Compared With Semaglutide and Placebo in Participants Living With Obesity Who Do Not Have Diabetes\nOfficial title: A Phase 3, Randomized, Active- and Placebo-Controlled, Partially-Blinded Study to Compare the Efficacy and Safety of KAI-9531 Administered Once Weekly Versus Semaglutide and Placebo in Participants Living With Obesity Who Do Not Have Diabetes\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 72,
+      "trial_nct_id": "NCT07284979"
+    },
+    {
+      "chunk_id": "NCT07284979:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: KAI-9531; Semaglutide; Placebo\nDrug class labels: glp1_receptor_agonist\nArms: KAI-9531: Dose 1; KAI-9531: Dose 2; Semaglutide; Placebo\nKeywords: Obesity; KAI-9531; Glucagon-like peptide-1; GLP-1; Semaglutide; Glucose-dependent Insulinotropic Peptide; GIP",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT07284979"
+    },
+    {
+      "chunk_id": "NCT07284979:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The primary objective of this study is to demonstrate that KAI-9531 subcutaneous (SC) injection once weekly is superior to semaglutide SC once weekly and to placebo SC once weekly on percent change in body weight.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07284979"
+    },
+    {
+      "chunk_id": "NCT07284979:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Key Inclusion Criteria:\n\n* BMI \u226535 kilograms per square meter (kg/m\\^2).\n* History of at least 1 self-reported unsuccessful effort to lose weight with diet and exercise within the prior 6 months.\n\nKey Exclusion Criteria:\n\n* Current diagnosis or history of diabetes mellitus.\n* Started medications within 3 months prior to Screening that may cause significant weight gain, including, but not limited to, tricyclic antidepressants, atypical antipsychotics, and mood stabilizers.\n* Unstable weight defined as self-reported change in body weight exceeding 5% within the 3 months prior to Screening.\n* Family or personal history of multiple endocrine neoplasia Type 2 or medullary thyroid cancer.\n* Uncontrolled hypertension or unstable cardiovascular disease.\n* History of chronic or acute pancreatitis.\n* Known clinically significant gastric-emptying abnormality or chronic treatment with medications that directly affect gastrointestinal motility.\n* History of suicide attempt.\n* History of significant active or unstable Major Depressive Disorder (MDD) or other severe psychiatric disorder.\n* Received treatment with semaglutide, tirzepatide, glucagon-like peptide-1 receptor (GLP-1R) agonist, GLP-1/glucose-dependent insulinotropic polypeptide (GIP), or glucagon receptor agonist within 3 months prior to Screening.\n\nNote: Additional inclusion/exclusion criteria may apply, per protocol.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 205,
+      "trial_nct_id": "NCT07284979"
+    },
+    {
+      "chunk_id": "NCT07284979:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent Change From Baseline in Body Weight at Week 76 | time_frame=Baseline, Week 76\ntype=secondary | measure=Percentage of Participants with \u226510%, \u226515%, \u226520% and \u226525% Reduction in Body Weight | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in Waist Circumference | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in Absolute Body Weight | time_frame=Baseline, Week 76\ntype=secondary | measure=Percentage of Participants with \u22655% Reduction in Body Weight | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in Systolic Blood Pressure (SBP) | time_frame=Baseline, Week 76\ntype=secondary | measure=Percent Change From Baseline in Fasting Triglycerides | time_frame=Baseline, Week 76\ntype=secondary | measure=Percent Change From Baseline in Fasting High-density Lipoprotein (HDL)-cholesterol | time_frame=Baseline, Week 76\ntype=secondary | measure=Percent Change From Baseline in Fasting Non-HDL-cholesterol | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in Impact of Weight on Quality of Life-Lite Clinical Trials Version (IWQOL-Lite-CT) Physical Function Composite Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Percentage of Participants with \u226530% Reduction in Body Weight | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in Body Mass Index (BMI) | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in Control of Eating Questionnaire (CoEQ) Craving Control Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in CoEQ Positive Mood Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in CoEQ Craving for Sweets Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in CoEQ Craving for Savory Food Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in CoEQ Hunger Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in CoEQ Satiety Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in CoEQ Combined Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Change From Baseline in Food Noise Questionnaire (FNQ) Score | time_frame=Baseline, Week 76\ntype=secondary | measure=Number of Participants With Treatment-emergent Adverse Events (TEAEs) | time_frame=Day 1 up to Week 80\ntype=secondary | measure=Number of Participants With Anti-drug Antibodies (ADAs) | time_frame=Up to Week 80\ntype=secondary | measure=Number of Participants With Neutralizing Antibodies (Nabs) | time_frame=Up to Week 80\ntype=secondary | measure=Plasma Concentrations of KAI-9531 | time_frame=Up to Week 76",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 357,
+      "trial_nct_id": "NCT07284979"
+    },
+    {
+      "chunk_id": "NCT07284979:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-30\nPrimary completion date: 2028-03-20\nCompletion date: 2028-04-17\nStudy first posted: 2025-12-16\nResults first posted: None\nLast update posted: 2026-03-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07284979"
+    },
+    {
+      "chunk_id": "NCT07284979:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Kailera\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07284979"
+    }
+  ],
+  "trial_nct_id": "NCT07284979"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07271940:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07271940\nBrief title: Full Plate Living Nutrition Education Program\nOfficial title: Full Plate Living Nutrition Education Program\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT07271940"
+    },
+    {
+      "chunk_id": "NCT07271940:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Diabetes Mellitus; Pre Diabetes; Obesity\nIntervention labels: Full Plate Living Nutrition Education Program\nDrug class labels: \nArms: Full Plate Living Nutrition Education Program\nKeywords: fiber; nutrition",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT07271940"
+    },
+    {
+      "chunk_id": "NCT07271940:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of the research is to evaluate the acceptability and feasibility of implementing a 8-session nutritional education program in a general internal medicine clinic. This program emphasizes a fiber-rich, whole foods diet consisting of fruits, vegetables, legumes, whole grains, nuts and seeds. Such interventions can improve diabetes management and lead to weight loss. 48 participants will be enrolled and on study for approximately 5 months.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 71,
+      "trial_nct_id": "NCT07271940"
+    },
+    {
+      "chunk_id": "NCT07271940:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 22 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Pre-diabetes or diabetes\n* Body Mass Index (BMI) 30-42\n* UW Health Primary Care Physician\n\nExclusion Criteria:\n\n* Pregnant\n* Active cancer (treatment within one year or planning on having treatment)\n* Eating Disorder (SDE Screening 2+)\n* Chronic Kidney Disease (CKD) (Stage 4 or 5)\n* Patient Health Questionnaire-9 (PHQ9) indicating severe depression (greater than 15)\n* No PHQ9 and PHQ2 greater than 2\n* General Anxiety Disorder-7 (GAD7) indicating severe anxiety (greater than 15)\n* No GAD 7 and GAD2 greater than 2\n* Inflammatory bowel disease (IBD)\n* Irritable bowel syndrome (IBS)\n* Readiness to Change less than 7\n* Confidence to Change less than 7\n* Lack of transportation\n* Non-English Speaking\n* No control over food environment\n* No access to laptop, desktop computer, or tablet\n* No email or text message access\n* Unwilling to participate in a shared medical visit\n* Unable to attend one of the four concurrent shared medical visit session cohorts\n* For those on insulin, no access to finger-prick blood glucose meter or continuous glucose monitor",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 198,
+      "trial_nct_id": "NCT07271940"
+    },
+    {
+      "chunk_id": "NCT07271940:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Participant Weight | time_frame=retrospectively from 2 years prior to enrollment and up to 20 weeks on study (3 month follow up)\ntype=secondary | measure=Automated Self-Administered 24-Hour Dietary Assessment Tool (ASA24) | time_frame=baseline, 8 weeks, 20 weeks (3 month follow up) | description=Dietary fiber (grams per day) will be measured using the Automated Self-Administered 24-Hour Dietary Assessment Tool (ASA24) which has been validated for measuring fiber intake in adults. The ASA24 is a free, web-based tool. Participants will complete the ASA24 online two times prior to the first session, 2 times prior to the last session, and 2 times 3 months after the last session.\ntype=secondary | measure=Participant Quality of Life measured by the SF-12 score | time_frame=baseline, 8 weeks, 20 weeks (3 month follow up) | description=Possible scores range from 0-100 with higher scores indicating better quality of life.\ntype=secondary | measure=Acceptability: Percent of Participants who found the intervention acceptable | time_frame=Participant surveyed at the end of last session, approximately 8 weeks | description=A subset of participants will be invited to complete an individual interview after the last session. The aim is to schedule 8-12 participants for interviews including both participants who completed all the sessions and those stopped attending sessions. Data will be derived from these qualitative semi-structured interviews.\ntype=secondary | measure=Feasibility: Participant Retention Rate | time_frame=baseline, 8 weeks, 20 weeks (3 month follow up) | description=Feasibility will in part be measured by participant retention rate, the number of participants who complete each time point of data collection over the number of participants enrolled.\ntype=secondary | measure=Feasibility: Participation Rate | time_frame=Through enrollment (up to 3 months) | description=Feasibility will in part be measured by participation rate, the number of participants enrolled over the target enrollment.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 288,
+      "trial_nct_id": "NCT07271940"
+    },
+    {
+      "chunk_id": "NCT07271940:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-01-12\nPrimary completion date: 2027-01\nCompletion date: 2027-01\nStudy first posted: 2025-12-09\nResults first posted: None\nLast update posted: 2026-01-22\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07271940"
+    },
+    {
+      "chunk_id": "NCT07271940:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Wisconsin, Madison\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT07271940"
+    }
+  ],
+  "trial_nct_id": "NCT07271940"
+}

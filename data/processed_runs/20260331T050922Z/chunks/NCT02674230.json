@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT02674230:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT02674230\nBrief title: OCEAN Registry: Obesity and Clock for Elegant Aging Registry\nOfficial title: OCEAN Registry: Obesity and Clock for Elegant Aging Registry \u80a5\u80d6\u63a7\u5236\u53ca\u751f\u7406\u6642\u9418\u4e4b\u7814\u7a76\u8a08\u756b\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT02674230"
+    },
+    {
+      "chunk_id": "NCT02674230:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity; Circadian Dysregulation; Aging; Cardiovascular Disease\nIntervention labels: \nDrug class labels: \nArms: Extreme obesity; Obesity; Normal subjects\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT02674230"
+    },
+    {
+      "chunk_id": "NCT02674230:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study aims to study the relationships between obesity, circadian rhythm, and aging. The investigators set up a prospective cohort registry for morbid obesity, obesity, and normal subjects with annual follow-up. The cohort aims to investigate the pathophysiological, molecular, genetic, and cellular aspects of the relationships between obesity, circadian deregulation, and impacts on aging. Clinical data, questionnaires, biological material, and molecular signatures will be collected and investigated.\nDetailed description: The objective of this observational study is the follow-up of 2000 adult obesity (BMI \u2265 35 and 24-35 kg/m2) and non-obese subjects with annual follow-up for 10 years. Clinical data, biochemistry, and biological samples (serum, DNA, RNA, white blood cells) will be collected and stored. Adipose tissues will be collected if participants received liposuction, plastic surgery, bariatric surgery, dermatological procedure, intra-abdominal operation, and cardiovascular surgery. Questionnaires will be obtained with special nurse including sleep quality, chronotypes, and circadian activities. During follow up period, major adverse cardiovascular events will be monitored.\n\nThe investigators anticipate that the results generated from the study will provide valuable data to a better understanding of the relationships between obesity, circadian rhythm, and aging.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 188,
+      "trial_nct_id": "NCT02674230"
+    },
+    {
+      "chunk_id": "NCT02674230:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 20 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Age \u2265 20 years old\n* Body mass index \u2265 24 kg/m2\n* For normal subjects, Body mass index \\< 24 kg/m2\n\nExclusion Criteria:\n\n* No inform consent\n* Use of steroid medications\n* Severe systemic diseases or organ failure with estimated life expectancy of 6 months or less",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 69,
+      "trial_nct_id": "NCT02674230"
+    },
+    {
+      "chunk_id": "NCT02674230:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Body weight | time_frame=10 years\ntype=secondary | measure=Major Cardiovascular Adverse Events | time_frame=3, 6, 12, and 18 months. 2, 5, and 10 years\ntype=secondary | measure=Sleep quality as assessed by Pittsburgh Sleep Quality Index (PSQI) questionnaire | time_frame=3, 6, 12, and 18 months. 2, 5, and 10 years\ntype=secondary | measure=Personal chronotype (biological clock) as assessed by Munich Chronotype Questionnaire | time_frame=3, 6, 12, and 18 months. 2, 5, and 10 years",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 74,
+      "trial_nct_id": "NCT02674230"
+    },
+    {
+      "chunk_id": "NCT02674230:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2011-07\nPrimary completion date: 2026-06\nCompletion date: 2026-06\nStudy first posted: 2016-02-04\nResults first posted: None\nLast update posted: 2024-02-28\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT02674230"
+    },
+    {
+      "chunk_id": "NCT02674230:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Chang Gung Memorial Hospital\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT02674230"
+    }
+  ],
+  "trial_nct_id": "NCT02674230"
+}

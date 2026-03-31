@@ -1,0 +1,464 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001836",
+          "term": "Body Weight Changes"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D015431",
+          "term": "Weight Loss"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D002149",
+          "term": "Energy Intake"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        },
+        {
+          "id": "D011613",
+          "term": "Psychotherapy"
+        },
+        {
+          "id": "D004191",
+          "term": "Behavioral Disciplines and Activities"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D031204",
+          "term": "Caloric Restriction"
+        },
+        {
+          "id": "D001521",
+          "term": "Behavior Therapy"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants randomized to the ketogenic diet will follow a diet with 5% energy from carbohydrates, 70% from fat, and 25% from protein for 6 weeks. The first 2 of the 6 weeks weeks will be a gradual refeeding, with participants slowly withdrawing from the meal replacements used during the 4-week weight loss phase, while introducing more food.",
+          "interventionNames": [
+            "Behavioral: Diet Therapy",
+            "Behavioral: Calorie Restriction",
+            "Behavioral: Behavioral Support"
+          ],
+          "label": "Ketogenic Diet",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants randomized to the low-fat diet will follow a diet with 50% energy from carbohydrates, 25% energy from fat, and 25% energy from protein for 6 weeks. The first 2 of the 6 weeks weeks will be a gradual refeeding, with participants slowly withdrawing from the meal replacements used during the 4-week weight loss phase, while introducing more food.",
+          "interventionNames": [
+            "Behavioral: Calorie Restriction",
+            "Behavioral: Behavioral Support",
+            "Behavioral: Diet Therapy"
+          ],
+          "label": "Low-Fat Diet",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Ketogenic Diet"
+          ],
+          "description": "Participants will be provided food to meet the ketogenic diet prescription for the 6-week weight maintenance phase.",
+          "name": "Diet Therapy",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Ketogenic Diet",
+            "Low-Fat Diet"
+          ],
+          "description": "Participants will follow a commercial low-energy diet and be provided with meal replacements for 4 weeks aiming to achieve a minimum of 5% weight loss.",
+          "name": "Calorie Restriction",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Ketogenic Diet",
+            "Low-Fat Diet"
+          ],
+          "description": "Participants will meet weekly with a registered dietitian, for a 20-minute consultation throughout the entire study period (10 weeks) to increase engagement and improve adherence and retention.",
+          "name": "Behavioral Support",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Low-Fat Diet"
+          ],
+          "description": "Participants will have food provided to meet the standard low-fat diet prescription for the 6-week weight maintenance phase.",
+          "name": "Diet Therapy",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity"
+      ],
+      "keywords": [
+        "Ketogenic Diet",
+        "Weight loss",
+        "Weight loss maintenance",
+        "Appetite",
+        "Energy expenditure"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "catia197@uab.edu",
+          "name": "Catia Martins, PhD",
+          "phone": "205-934-7922",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Birmingham",
+          "contacts": [
+            {
+              "email": "catia197@uab.edu",
+              "name": "Catia Martins, PhD",
+              "phone": "2059347922",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Alabama at Birmingham",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          },
+          "state": "Alabama",
+          "status": "RECRUITING",
+          "zip": "35294"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to investigate whether a Ketogenic Diet (KD) can increase Total Energy Expenditure (TEE), while benefiting appetite, during weight loss maintenance in reduced-obese individuals.",
+      "detailedDescription": "The total duration of the intervention will be 10 weeks. Participants will first undergo 4 weeks of a low-energy diet (LED), aiming to induce a minimum of 5% weight loss (weight loss phase). Those who achieve at least a 5% weight loss will then be randomized (1:1) to a 6-week weight loss maintenance (WLM) diet, either a KD or an isocaloric low-fat diet, with the first 2 weeks being a gradual refeeding."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI 30-45 kg/m2\n* Both men and women\n* Age between 18-65 years\n* Sedentary to moderately active (\\<2 h/wk of moderate, structured, intentional, exercise)\n\nExclusion Criteria:\n\n* Pregnancy or lactation\n* Daily use of tobacco (\\>1 pk/wk)\n* Change in weight greater than 5 lb in the previous 3 months\n* Cognitive impairment\n* Previous bariatric surgery\n* History of eating disorder\n* Presence of any condition (e.g. DM2, PCOS, inflammatory disease, untreated thyroid disease, fluid overload states such as chronic kidney disease, congestive heart failure, or cirrhosis)\n* Use of any medication (e.g., glucocorticoid, GLP-1 analogues, hormone replacement therapy) deemed to interfere with study outcomes.\n* Pre-menopausal women will need to have a regular menstrual cycle (28+/-2 days) or be on hormonal contraceptives\n* Fasting glucose plasma concentration \\>125 mg/dl and/or HbA1c \\> 6.4%",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "KETOWEI",
+      "briefTitle": "Ketogenic Diets for Weight Loss Maintenance: Impact on Energy Expenditure and Appetite in Individuals With Obesity",
+      "nctId": "NCT06736028",
+      "officialTitle": "Ketogenic Diets for Weight Loss Maintenance: Impact on Energy Expenditure and Appetite in Individuals With Obesity",
+      "orgStudyIdInfo": {
+        "id": "IRB-300012956"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Alabama at Birmingham"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "P30DK079626",
+          "link": "https://reporter.nih.gov/quickSearch/P30DK079626",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "All datasets that can be shared will be deposited in the NIH-supported Vivli repository which specializes in clinical trial data. Given the sensitive nature of the dataset, de-identified human subjects' data will be made available in Vivli, which restricts access to the data to qualified investigators with an appropriate research question who sign a data use agreement.",
+      "description": "This project will produce demographic information, anthropometric and body composition data, energy expenditure, fat oxidation, plasma concentrations of several gastrointestinal hormones involved in appetite regulation, insulin, glucose, blood lipids, and subjective appetite feelings. Data will be obtained from bioimpedance analysis and dual-energy x-ray absorptiometry (DEXA) for body compsoiiton; ELISA, RIA and other laboratorial methods used for the quantification of hormones and metabolites, and questionnaires and visual analogue scales. Data will be collected from 20 research participants. We estimate to be generating gigabyte (.csv) amounts of data. The methodology, statistical analysis plan, and a data dictionary will also be shared. Based on ethical considerations, scientific data will be de-identified and shared at the participant level. Data will be made available in .csv format and will not require the use of specialized tools to be accessed or manipulated.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "The data will be shared with others by the time the related study is published and will stay available for at least 10 years."
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Adherence to the dietary interventions will be assessed using objective biochemical analysis through the measurement of beta hydroxybutyrate in blood using a ketone meter.",
+          "measure": "Blood work: beta hydroxybutyrate",
+          "timeFrame": "Week 1, week 2, week 3, week 4, week 5, week 6, week 7, week 8, week 9, week 10"
+        },
+        {
+          "description": "Adherence to the dietary interventions will be assessed using objective biochemical analysis through the measurement of acetoacetate in urine using Ketostix reagent strips.",
+          "measure": "Urine sample: acetoacetate",
+          "timeFrame": "Week 1, week 2, week 3, week 4, week 5, week 6, week 7, week 8, week 9, week 10"
+        },
+        {
+          "description": "The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating glucose using the SIRRUS analyzer.",
+          "measure": "Change in glucose",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating total cholesterol concentrations using the SIRRUS analyzer.",
+          "measure": "Change in total cholesterol",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating HDL-C using the SIRRUS analyzer.",
+          "measure": "Change in high-density lipoprotein cholesterol",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating triglyceride concentrations using the SIRRUS analyzer.",
+          "measure": "Change in triglycerides",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "The fasting blood sample collected before the participants enter the chamber will be analyzed for circulating free fatty acid concentrations using the SIRRUS analyzer.",
+          "measure": "Change in free fatty acids",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Participants will be asked to report their average hunger, fullness, desire to eat and prospective food consumption (e.g. how hungry did you feel this week? how much did you think about food this week?) over the previous week using a 10-cm visual analogue scale ranging from \"not at all\" to \"extremely\".",
+          "measure": "Change in average appetite",
+          "timeFrame": "Baseline, week 1, week 2, week 3, week 4, week 5, week 6, week 7, week 8, week 9, week 10"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Total Energy Expenditure (TEE) refers to the total amount of energy (calories) your body uses in a day. Twenty-four-hour EE and RQ will be measured inside the whole room indirect calorimeter (chamber) following standard procedures",
+          "measure": "Change from baseline total energy expenditure",
+          "timeFrame": "Baseline, week 6, week 10"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Subjective appetite ratings are personal feelings or perceptions about hunger, fullness, desire to eat (DTE), and prospective food consumption (PFC) usually measured using self-reported scales ranging from \"not at all\" to \"extremely\". Subjective appetite ratings (hunger, fullness, DTE and PFC) will be measured using a validated 10cm visual analog scale which will be given to the participants inside the chamber before meals.",
+          "measure": "Change in appetite ratings",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Bioimpedance analysis (BIA) will be used to measure fat mass, fat-free mass, total, extra, and intra-cellular water.",
+          "measure": "Change in total body composition",
+          "timeFrame": "Baseline, week 4, week 6, week 10"
+        },
+        {
+          "description": "FM, bone mass, and lean body mass will be determined by dual-energy X-ray absorptiometry (iDXA instrument, GE Healthcare Lunar, Madison, WI) with the use of software version 1.5g (Lunar Corp).",
+          "measure": "Change in total body composition",
+          "timeFrame": "Baseline, week 4, week 6, week10"
+        },
+        {
+          "description": "Circulating (serum) fasting insulin will be measured using validated methods",
+          "measure": "Change in fasting insulin",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) fasting cholecystokinin will be measured by RIA.",
+          "measure": "Change in fasting cholecystokinin",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) fasting ghrelin concentrations will be measured by ELISA",
+          "measure": "Change in fasting ghrelin",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) fasting total GLP-1 will be measured by ELISA",
+          "measure": "Change in fasting glucagon-like peptide-1",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) fasting PYY3-36 concentrations will be measured by ELISA",
+          "measure": "Change in fasting peptide YY (PYY)",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Body weight is the total amount a person weighs when measured on a scale.",
+          "measure": "Change in total body weight",
+          "timeFrame": "Baseline, week 4, week 6, week 10"
+        },
+        {
+          "description": "Walking economy will be assessed using a submaximal treadmill test, performed 90 minutes after breakfast. Following a familiarization period, participant will walk on the treadmill at 2 miles/hour for 15 minutes, followed by another 15 minutes at 2.5 miles/hour.",
+          "measure": "Change in mechanical efficiency",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Resting Energy Expenditure (REE) is the amount of energy (calories) your body needs to keep working while you're at rest. Participants will enter the chamber in the morning in the fasting state. REE will be measured while the participant is in the metabolic chamber.",
+          "measure": "Change in resting energy expenditure",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (serum) insulin measured before and 30, 60, 90, and 120 minutes after intake of breakfast with validated methods",
+          "measure": "Change in postprandial insulin",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) cholecystokinin measured before and 30, 60, 90, and 120 minutes after intake of breakfast with RIA.",
+          "measure": "Change in postprandial cholecystokinin",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) ghrelin measured before and 30, 60, 90, and 120 minutes after intake of breakfast with ELISA",
+          "measure": "Change in postprandial ghrelin",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) total GLP-1 measured before and 30, 60, 90, and 120 minutes after intake of breakfast by ELISA",
+          "measure": "Change in postprandial glucagon-like peptide-1",
+          "timeFrame": "Baseline, week 6, week 10"
+        },
+        {
+          "description": "Circulating (plasma) PYY3-36 concentrations measured before and 30, 60, 90, and 120 minutes after intake of breakfast with ELISA",
+          "measure": "Change in postprandial peptide yy",
+          "timeFrame": "Baseline, week 6, week 10"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Alabama at Birmingham"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Alabama at Birmingham",
+        "investigatorFullName": "Catia Martins",
+        "investigatorTitle": "Associate Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-17",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-12-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-12-10",
+      "studyFirstSubmitQcDate": "2024-12-13"
+    }
+  }
+}

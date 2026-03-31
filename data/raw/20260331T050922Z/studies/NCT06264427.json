@@ -1,0 +1,430 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D012891",
+          "term": "Sleep Apnea Syndromes"
+        },
+        {
+          "id": "D001049",
+          "term": "Apnea"
+        },
+        {
+          "id": "D012120",
+          "term": "Respiration Disorders"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D020919",
+          "term": "Sleep Disorders, Intrinsic"
+        },
+        {
+          "id": "D020920",
+          "term": "Dyssomnias"
+        },
+        {
+          "id": "D012893",
+          "term": "Sleep Wake Disorders"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012164",
+          "term": "Retinal Diseases"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        },
+        {
+          "id": "D003925",
+          "term": "Diabetic Angiopathies"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D048909",
+          "term": "Diabetes Complications"
+        },
+        {
+          "id": "D010523",
+          "term": "Peripheral Nervous System Diseases"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D009767",
+          "term": "Obesity, Morbid"
+        },
+        {
+          "id": "D020181",
+          "term": "Sleep Apnea, Obstructive"
+        },
+        {
+          "id": "D003930",
+          "term": "Diabetic Retinopathy"
+        },
+        {
+          "id": "D003929",
+          "term": "Diabetic Neuropathies"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017422",
+          "term": "Sequence Analysis, DNA"
+        },
+        {
+          "id": "D017421",
+          "term": "Sequence Analysis"
+        },
+        {
+          "id": "D005821",
+          "term": "Genetic Techniques"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000073336",
+          "term": "Whole Genome Sequencing"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "All participants will undergo examination for genom sequencing, diabetic complications and obstructive sleep apnea. Treatment for these conditions will not be randomized, but will be offered any participant who fulfills the excision treatment criteria",
+          "interventionNames": [
+            "Genetic: Whole genome sequencing",
+            "Diagnostic Test: VAGUS",
+            "Diagnostic Test: NightOwl",
+            "Device: CPAP"
+          ],
+          "label": "Intervention arm",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Intervention arm"
+          ],
+          "description": "Screening for MODY diabetes. Diabetic treatment will be adjusted based on the participant's diabetic genotype.",
+          "name": "Whole genome sequencing",
+          "type": "GENETIC"
+        },
+        {
+          "armGroupLabels": [
+            "Intervention arm"
+          ],
+          "description": "To examine for Cardiovasculare Autonomic Neuropathy participants will be tested with the handheld Vagus device (Medicus Engineering, Aarhus, Denmark). Participants are instructed to perform three cardiovascular reflex tests (CARTs) after lying still in supine position for 5 minutes to record heart rate at rest. CARTs include supine-to-upright position, deep-breathing, and valsalva maneuver. From each CART the ratio based on the shortest and longest R-R-interval at predefined timepoints in the recording is used to assess the possibility of CAN",
+          "name": "VAGUS",
+          "type": "DIAGNOSTIC_TEST"
+        },
+        {
+          "armGroupLabels": [
+            "Intervention arm"
+          ],
+          "description": "Participants will be examined for sleep apnea for 3 nights using the NightOwl (Ectosense, Belgium) device, which measuring Peripheral Arterial Tonometry (PAT) in the index finger. The results of the examination will is uploaded via the patient's smartphone to an online platform accessible to healthcare providers. Participants with signs of sleep apnea will receive a confirmatory cardiorespiratory monitoring using the Nox T3s (Noxturnal, ResMed), and the results will be compared.",
+          "name": "NightOwl",
+          "type": "DIAGNOSTIC_TEST"
+        },
+        {
+          "armGroupLabels": [
+            "Intervention arm"
+          ],
+          "description": "Participants with an Apnea-Hypoapnea-Index above 30, or above 15 with symptoms of sleep apnea, will be offered treatment with continuous positive airway pressure (CPAP).",
+          "name": "CPAP",
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Obesity, Morbid",
+        "Obstructive Sleep Apnea",
+        "MODY",
+        "Diabetic Retinopathy",
+        "Diabetic Neuropathies"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "MMSN@peqqik.gl",
+          "name": "Mads Jensen, MD.",
+          "phone": "+299 34 46 23",
+          "role": "CONTACT"
+        },
+        {
+          "email": "MAEJ@peqqik.gl",
+          "name": "Marit Eika J\u00f8rgensen, MD. Ph.d",
+          "phone": "+299 34 43 24",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Nuuk",
+          "contacts": [
+            {
+              "email": "MMSN@peqqik.gl",
+              "name": "Mads Mose Jensen, MD.",
+              "phone": "+299 34 46 23",
+              "role": "CONTACT"
+            },
+            {
+              "email": "MAEJ@peqqik.gl",
+              "name": "Marit Eika J\u00f8rgensen, Md. Ph.d",
+              "phone": "34 43 24",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Greenland",
+          "facility": "Steno Diabetes Center Greenland, Queen Ingrids Hospital",
+          "geoPoint": {
+            "lat": 64.18347,
+            "lon": -51.72157
+          },
+          "state": "Sermersooq",
+          "status": "RECRUITING",
+          "zip": "3900"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Steno Diabetes Center Greenland",
+          "name": "Marit Eika J\u00f8rgensen, Md. Phd",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to perform a detailed description of the feno- and genotype of people living with type 2 diabetes and severe obesity who are linked to care at Steno Diabetes Center Greenland.\n\nThe main questions it aims to answer are:\n\n* Are monogenetic diabetes variants associated with the same risk of developing late diabetic complications as other types of diabetes?\n* Can genotyping and thereby personalized medicine be implemented in Greenland, and can personalized medicine lead to improved treatment?\n* What is the prevalence of sleep apnea among high-risk individuals in Greenland?\n* Is it possible to develop and implement a simple algorithm for the identification of sleep apnea in Greenland that can ensure treatment of severe sleep apnea?\n\nParticipants will:\n\n* Answer WHO-5 and FOSQ-10 questionnaires regarding quality of life and functional outcomes of sleepiness\n* Perform VAGUS examinations for Cardiovasculare Autonomic Neuropathy\n* Clinical examination of height, weight, circumference of hip, waist and neck, Friedman tonsil and tongue score, nasal air flow, nasal septal deviation\n* Blood samples for full genome sequencing",
+      "detailedDescription": "The phenotypic and genotypic characteristics of dysmetabolism in the Greenlandic Inuit population are yet to be described in detail. However, the unique interaction of genetic and environmental factors in this population and its effect on disease development calls for further investigation. Therefore, we aim to examine how metabolic diseases manifest and progress distinctively in this population compared to Western populations.\n\nThe study employs whole genome sequencing, with a focus on identifying variants in the TBC1D4 gene, which is linked to muscular insulin resistance, and HNF1\u03b1, associated with MODY (Maturity-onset Diabetes of the Young) diabetes. In addition, the prevalence of Obstructive Sleep Apnea (OSA) in relation to metabolic disorders is examined. Our methodology combines genetic analysis with clinical evaluations to understand the impact of these genetic factors on disease manifestation and potential complications.\n\nThe findings will likely offer a unique perspective on the genetic influence on metabolic diseases in the Greenlandic Inuit population, highlighting the significance of novel genetic variants for disease management and prevention. The study investigates the relationship between metabolic disorders and OSA, and aims to describe how diagnosis and treatment of OSA can be introduced in an Arctic setting. This research emphasizes the need for genotype-aware treatment approaches and culturally tailored healthcare strategies, not only for the Greenlandic Inuit but also as a model for personalized medicine approaches in other populations. The insights gained here contribute to a deeper understanding of metabolic diseases, potentially influencing future global healthcare strategies."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Participants will be examined with whole genom sequencing, and diabetes treatment will be accommodated their diabetic fenotype.\n\n'For the intervention, participants will be screened for obstructive sleep apnea (OSA). Participants with signs of OSA will be offered treatment with Continuos Positive Airway Pressure.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Type 2 diabetes and/or morbid obesity (BMI \\>40)\n* Over 18 years old\n\nExclusion Criteria:\n\n* Does not speak either English, Danish or Greenlandic",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Phenotypic and Genotypic Characterization of Patients With Dysmetabolism in Greenland",
+      "nctId": "NCT06264427",
+      "officialTitle": "Phenotypic and Genotypic Characterization of Patients With Dysmetabolism in Greenland",
+      "orgStudyIdInfo": {
+        "id": "KVUG - 2022 - 10"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Steno Diabetes Center Greenland"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Ethical permission from Science Ethical Committee Approval from Health Authorities, Queen Ingrids Hospital Data Sharing Agreement",
+      "description": "IPD will be available for researcher who hold relevant approval from the Science Ethical Committee and health authorities.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ANALYTIC_CODE"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "Study protocol will be published in first quarter of 2024. Analytic code will be published in final peer reviewed articles alongside results of the study."
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "What is the proportion of patients linked to care at SDCG who have MODY diabetes, and to what degree do they suffer from micro- and macrovascular complication.",
+          "measure": "Number of participants with MODY diabetes and their complication status",
+          "timeFrame": "Blood drawn at inclusion. Results for participants ready after approximately 6 months."
+        },
+        {
+          "description": "What is the proportion of participants with diabetes complication overall.",
+          "measure": "Number of participants with diabetic complication",
+          "timeFrame": "Types and number of complications are available at inclusion. No follow-up screenings for complications are performed."
+        },
+        {
+          "description": "What proportion of participants suffer from OSA.",
+          "measure": "Number of participants with obstructive sleep apnea",
+          "timeFrame": "Home sleep testing is performed for 3 nights after inclusion. Confirmatory home sleep examinations performed one day after the initial sleep examination. In total, four days examinations time."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Is it possible to develop and implement a specialized treatment regime for obstructive sleep apnea in Greenland with similar treatment compliance when compared with other populations. CPAP compliance is evaluated through the online treatment system Airview (Resmed), where compliance is defined as minimum 4 hours use for 70% of nights in the past 90 days.",
+          "measure": "CPAP compliance in Greenlandic patients",
+          "timeFrame": "CPAP compliance is evaluated 6 months after treatment initiation."
+        },
+        {
+          "description": "The World Health Organization Well-being Index (WHO-5) questionnaire is performed at inclusion and 6 months after. The raw scores are transformed to a score between 0 and 100, where high scores indicate higher wellbeing. Scores for participants in CPAP treatment will be compared before and after treatment to examine the effect of CPAP on quality of life.",
+          "measure": "CPAP treatment effect on quality of life measured with the World Health Organization Well-being Index (WHO-5).",
+          "timeFrame": "The questionnaire is answered at inclusion and 6 months after."
+        },
+        {
+          "description": "The functional outcome of sleep questionnaire (FOSQ-10) is performed at inclusion and 6 months after. A total score, with a potential value between 5-20, is calculated. Low values indicate excessive daytime sleepiness while high scores indicate no excessive daytime sleepiness. Scores for participants in CPAP treatment will be compared before and after treatment to examine the effect of CPAP on quality of life.",
+          "measure": "CPAP treatment effect on daytime sleepiness measured with the functional outcome of sleep questionnaire (FOSQ-10).",
+          "timeFrame": "The questionnaire is answered at inclusion and 6 months after."
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Zealand University Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "University of Copenhagen"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Steno Diabetes Center Greenland"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-15",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-07-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-02",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-01-17",
+      "studyFirstSubmitQcDate": "2024-02-15"
+    }
+  }
+}

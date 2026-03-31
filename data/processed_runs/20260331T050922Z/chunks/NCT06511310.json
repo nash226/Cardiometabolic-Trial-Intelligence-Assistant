@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06511310:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06511310\nBrief title: Exercise, Brain Activity, and Weight Maintenance\nOfficial title: Effects of Exercise Training on Brain Activity and Its Relation to Weight Maintenance and Appetite Regulation\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT06511310"
+    },
+    {
+      "chunk_id": "NCT06511310:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity; Weight Gain; Bariatric Surgery Candidate; Appetitive Behavior\nIntervention labels: Exercise\nDrug class labels: \nArms: Exercise Training\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT06511310"
+    },
+    {
+      "chunk_id": "NCT06511310:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study aims to explore how HIIT influences brain function, neural and molecular pathways related to weight control, setting the stage for future obesity intervention research.\nDetailed description: This study will include adults aged 18-70 years with a BMI \\>19 kg/m\u00b2, both with and without prior bariatric surgery. Those with bariatric surgery must have experienced clinically significant weight regain (\\>10% of maximum weight lost) within 1 to 5 years post-surgery.\n\nParticipants will complete three initial clinical visits before beginning a 12-week high-intensity interval training (HIIT) program, followed by three post-training clinical visits. During visit 1, participants will undergo anthropometric assessments, baseline blood draw, oral glucose tolerance test, psychometric evaluations, and complete an MRI safety screening. At visit 2, participants will complete a resting metabolic rate assessment and a VO\u2082peak test. During visit 3, participants will have another baseline blood draw and undergo a functional MRI (fMRI).\n\nThe HIIT program will consist of four weekly 28-minute sessions conducted at the Joslin Diabetes and at home. Each exercise session will include a 3-minute warm-up, six rounds of 40 seconds high-intensity followed by 3 minutes of moderate intensity, and will conclude with a 3-minute cool-down.\n\nAfter completing the 12-week program, participants will return for clinical visits 4-6, repeating all baseline assessments.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 210,
+      "trial_nct_id": "NCT06511310"
+    },
+    {
+      "chunk_id": "NCT06511310:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Age 18-70 years\n* Body mass index (BMI) \\>19 kg/m2 and body weight\\< 250kg\n* Participants must have experienced a clinically significant weight regain, defined as over 10% of their maximum weight lost, within 1 to 5 years following their bariatric surgery. They will be asked to self-report their weight loss history. Participants must also provide the operative report from their bariatric surgery for reference.\n* In good general health with no conditions that could influence the outcome of the trial, and in the judgment of the investigator is a good candidate for the study based on review of available medical history, physical examination and clinical laboratory evaluations\n* Willing to adhere to the protocol requirements for the duration of the study\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus\n* Peripheral neuropathy with insensate feet\n* Recent blood donation within the last 2 months\n* Use of beta-blockers\n* Current pregnancy or breastfeeding\n* Active Heart or lung disease\n* Severe hypertension (systolic \\>160 mmHg or diastolic \\>90 mmHg)\n* Inability to exercise for any reason\n* Any known contraindication to exercise testing based on current ACSM guidelines\n* MRI contraindications, such as presence of pacemakers, aneurysm clips, artificial heart valves, ear implants, metal fragments, or foreign objects in the eyes, skin, or body\n* Known presence of a structural brain lesion (e.g. tumor, cortical infarct)\n* Presence of another neurologic disorder, which could impact findings (e.g. multiple sclerosis)\n* History of cardiovascular disease, stroke, congestive heart failure\n* Active hematological, renal, pulmonary or hepatic disorders\n* Active treatment for cancer\n* A history of active alcohol or substance abuse\n* Any significant systemic illness or unstable medical condition which could lead to difficulty complying with the study protocol\n* History of claustrophobia and inability to tolerate an MRI\n* Body weight \\>250kgr and largest body diameter of 70cm as there is a certain weight and diameter limit of the MRI scanner\n* Unwilling or unable to return for study visits, undergo neuropsychological testing and MRI imaging\n* Left-handedness",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 360,
+      "trial_nct_id": "NCT06511310"
+    },
+    {
+      "chunk_id": "NCT06511310:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Changes in connectivity between brain areas following exercise training by using resting state functional MRI. | time_frame=Evaluation of changes in brain function by fMRI before and after 12 weeks of exercise training.\ntype=secondary | measure=Changes in appetitive behavior. | time_frame=Evaluation of changes in hunger before and after 12 weeks of exercise training. | description=Subjects will be evaluated with Three Factor Eating Questionnaire (TFEQ).\ntype=secondary | measure=Changes in mood. | time_frame=Evaluation of changes in mood before and after 12 weeks of exercise training. | description=Subjects will be evaluated with Beck Depression Inventory II (BDI-II) to assess for depressive symptoms.\ntype=secondary | measure=Degree of changes in miRNA profiling of circulating exosomes in blood samples. | time_frame=Evaluation of changes in miRNA before and after 12 weeks of exercise training. | description=Changes in circulating exosome miRNAs will be measured using next-generation sequencing (NGS) and reported as normalized counts or fold changes relative to baseline.\ntype=secondary | measure=Changes in cognitive function. | time_frame=Changes in cognition function before and after 12 weeks of HIIT. | description=Evaluation using mini cognitive test.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 176,
+      "trial_nct_id": "NCT06511310"
+    },
+    {
+      "chunk_id": "NCT06511310:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-09-15\nPrimary completion date: 2026-07-01\nCompletion date: 2027-07-01\nStudy first posted: 2024-07-19\nResults first posted: None\nLast update posted: 2025-09-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06511310"
+    },
+    {
+      "chunk_id": "NCT06511310:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Joslin Diabetes Center\nLead sponsor class: OTHER\nCollaborators: Nutrition Obesity Research Center\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT06511310"
+    }
+  ],
+  "trial_nct_id": "NCT06511310"
+}

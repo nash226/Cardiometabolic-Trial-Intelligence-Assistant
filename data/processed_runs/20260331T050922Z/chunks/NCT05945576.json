@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05945576:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05945576\nBrief title: IDMet (RaDiCo Cohort) (RaDiCo-IDMet)\nOfficial title: National Cohort on Imprinting Disorders and Their Metabolic Consequences\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT05945576"
+    },
+    {
+      "chunk_id": "NCT05945576:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Silver Russell Syndrome; Beckwith-Wiedemann Syndrome; Transient Neonatal Diabetes Mellitus; Angelman Syndrome; Prader-Willi Syndrome; Temple Syndrome; Kagami-Ogata Syndrome; Pseudohypoparathyroidism; Familial Precocious Puberty\nIntervention labels: \nDrug class labels: \nArms: \nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT05945576"
+    },
+    {
+      "chunk_id": "NCT05945576:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this observational study is to describe the natural history of imprinting disorders (IDs) according to their metabolic profile in all patients (adults and children) affected with an ID regardless of the severity of the disease, with a molecular characterization, with a signed informed consent for all subjects, followed in one partner's center.\n\nThe main questions it aims to answer are:\n\n* Can we identify common metabolic profiles for all imprinted diseases?\n* Which imprinting disorders have an impact on the metabolic profiles of IDs?\n* Which are the metabolic risks associated to IDs?\n* Can we use the metabolic profiles for the clinical classification and prognosis of IDs?\n* Are there common therapeutic approaches for all IDs?\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 125,
+      "trial_nct_id": "NCT05945576"
+    },
+    {
+      "chunk_id": "NCT05945576:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: None\nMaximum age: None\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients (adults and children) affected with an ID regardless of the severity of the disease\n* A confirmed diagnosis of ID (based on molecular diagnosis)\n* A signed informed consent for adults or signed informed consent of parents/guardians of minors/ protected adult.\n\nNon-Inclusion Criteria:\n\nThere are no non-inclusion criteria.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 69,
+      "trial_nct_id": "NCT05945576"
+    },
+    {
+      "chunk_id": "NCT05945576:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The clinical characteristics of IDs in pediatric and adult's patients. | time_frame=Through study completion, an average of 10 years\ntype=primary | measure=The genetic characteristics of IDs in pediatric and adult's patients. | time_frame=Through study completion, an average of 10 years\ntype=primary | measure=The biological characteristics of IDs in pediatric and adult's patients. | time_frame=Through study completion, an average of 10 years\ntype=primary | measure=The morphometric characteristics of IDs in pediatric and adult's patients. | time_frame=Through study completion, an average of 10 years\ntype=secondary | measure=Search for an association between the metabolic phenotype of IDs patients' and their biological profil. | time_frame=At the time of diagnosis (or at first measurement)\ntype=secondary | measure=Determination of the prevalence of metabolic abnormalities (MA). | time_frame=At inclusion\ntype=secondary | measure=Estimation of the risk for metabolic complications such as obesity, diabetes, cardiovascular disease (CVD), metabolic syndrome. | time_frame=10 years after\ntype=secondary | measure=Description of different therapeutic approaches and identification of a common base for all IDs. | time_frame=Through study completion, an average of 10 years\ntype=secondary | measure=Variations of quality-of-life scores. | time_frame=Through study completion, an average of 10 years\ntype=secondary | measure=Analyse of (epi)genetic mutations transmission in proband and relatives. | time_frame=Through study completion, an average of 10 years\ntype=other | measure=Identification of different metabolic profile which allow a clinical classification of IDs. | time_frame=Through study completion, an average of 10 years\ntype=other | measure=Description and identification of the most relevant biological and clinical practices for diagnostic and follow-up of ID patients. | time_frame=Through study completion, an average of 10 years\ntype=other | measure=Identification of a group of French patients with the same characteristics. | time_frame=At inclusion\ntype=other | measure=Search of an association between blood metabolic markers, genetic pattern and gut microbiota. | time_frame=Through study completion, an average of 10 years\ntype=other | measure=Description of different scientific rational for transferring a therapeutic approach (clinical guidelines) from an ID to another (identification of common phenotype, i.e. metabolic profile). | time_frame=Through study completion, an average of 10 years",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 333,
+      "trial_nct_id": "NCT05945576"
+    },
+    {
+      "chunk_id": "NCT05945576:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2017-03-10\nPrimary completion date: 2028-03\nCompletion date: 2028-03\nStudy first posted: 2023-07-14\nResults first posted: None\nLast update posted: 2026-02-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05945576"
+    },
+    {
+      "chunk_id": "NCT05945576:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France\nLead sponsor class: OTHER_GOV\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT05945576"
+    }
+  ],
+  "trial_nct_id": "NCT05945576"
+}

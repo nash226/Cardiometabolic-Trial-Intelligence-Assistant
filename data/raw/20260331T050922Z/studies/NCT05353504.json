@@ -1,0 +1,421 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013213",
+          "term": "Starch"
+        },
+        {
+          "id": "D005936",
+          "term": "Glucans"
+        },
+        {
+          "id": "D001704",
+          "term": "Biopolymers"
+        },
+        {
+          "id": "D011108",
+          "term": "Polymers"
+        },
+        {
+          "id": "D046911",
+          "term": "Macromolecular Substances"
+        },
+        {
+          "id": "D004040",
+          "term": "Dietary Carbohydrates"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D005630",
+          "term": "Fructans"
+        },
+        {
+          "id": "D011134",
+          "term": "Polysaccharides"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D007444",
+          "term": "Inulin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "high-dose daily inulin",
+          "interventionNames": [
+            "Dietary Supplement: Inulin"
+          ],
+          "label": "prebiotic dietary supplement",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "new educational program to change eating behaviour, provided through weekly sessions.",
+          "interventionNames": [
+            "Behavioral: Lifestyle intervention"
+          ],
+          "label": "behavioural lifestyle intervention",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "equicaloric daily maltodextrin",
+          "interventionNames": [
+            "Dietary Supplement: Placebo"
+          ],
+          "label": "placebo dietary supplement",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "prebiotic dietary supplement"
+          ],
+          "description": "28g/day delivered in 2 sachets throughout the day with main meals",
+          "name": "Inulin",
+          "type": "DIETARY_SUPPLEMENT"
+        },
+        {
+          "armGroupLabels": [
+            "behavioural lifestyle intervention"
+          ],
+          "description": "weekly educational sessions to improve individual's eating behaviour",
+          "name": "Lifestyle intervention",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "placebo dietary supplement"
+          ],
+          "description": "equicaloric maltodextrin delivered in 2 sachets throughout the day with main meals",
+          "name": "Placebo",
+          "type": "DIETARY_SUPPLEMENT"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Overweight and Obesity"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mi-food@cbs.mpg.de",
+          "name": "Meghedi Vartanian, MSc",
+          "phone": "+49(0)341/9940-951",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Leipzig",
+          "contacts": [
+            {
+              "email": "mi-food@cbs.mpg.de",
+              "name": "Meghedi Vartanian, Msc",
+              "phone": "+49(0)341/9940-954",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mi-food@cbs.mpg.de",
+              "name": "Silke Friedrich",
+              "phone": "+49(0)341/9940-954",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Veronica Witte, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Cognitive Neurology, University Medical Center Leipzig",
+          "name": "Veronica Witte, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators aim to test the hypothesis that a microbiome-changing dietary intervention improves food decision-making and to determine the underlying microbiotal and metabolic mechanisms. To this end, 90 overweight/obese adults will be enrolled in a randomized controlled trial to test the effects of a pre-biotic dietary intervention (supplementary intake of soluble fibre) or a behavioural lifestyle intervention (weekly educational program) vs. control condititon (supplementary intake of isocaloric starch) over a period of 26 weeks. Before and after the intervention/control period, participants will undergo task-based functional and structural MRI and cognitive testing. The gut microbiota will be assessed using 16S rDNA next-generation sequencing (V3/V4 region) in stool samples. Diet, anthropometry and lifestyle will be monitored with questionnaires and metabolomics will be assayed in peripheral blood and stool (e.g. SCFA). Using a modulation of gut-brain communication through a prebiotic diet and lifestyle intervention, respectively, the investigators will be able to discover microbiota communities that play a key role for eating behaviour. Related mechanistic insights could help to develop novel preventive and therapeutic options to combat unhealthy weight gain in our obesogenic society."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "People will be randomly assigned to the three arms and blinded towards receipt of dietary fibre supplement or placebo supplement. However, behavioural lifestyle intervention arm cannot be blinded to participants.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "BASIC_SCIENCE"
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI \\>= 25 kg/m2 or WHR \\>= 0.9/0.85 (m/d, f)\n* no MRI contra-indication\n* written informed consent\n\nExclusion Criteria:\n\n* athletes\n* occurrence of a clinically relevant psychiatric disease in the last 12 months, e.g. depression, substance abuse, eating disorders, schizophrenia\n* any chronic inflammatory or malignant disease\n* type 1 diabetes\n* previous bariatric/gastric surgery\n* pregnancy or breastfeeding woman",
+      "genderBased": true,
+      "genderDescription": "all genders, self-report",
+      "healthyVolunteers": true,
+      "maximumAge": "60 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "MIFOOD",
+      "briefTitle": "Impact of Microbiome-changing Interventions on Food Decision-making",
+      "nctId": "NCT05353504",
+      "officialTitle": "\"SFB 1052/3 - Mechanismen Der Adipositas, Projekt A1: Ver\u00e4nderung Der Neurobiologischen Grundlagen Von Ess-Entscheidungen Bei Adipositas\" Engl. \"CRC 1052/3 - Obesity Mechanisms, Project A1: Targeting Neurobehavioral Determinants of Obesity\"",
+      "orgStudyIdInfo": {
+        "id": "MIFOOD"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Max Planck Institute for Human Cognitive and Brain Sciences"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Registration on a website, providing copy of ID",
+      "description": "We plan to share all data openly but anonymized on secured German servers of the institute after registration with ID.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ANALYTIC_CODE"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "after end of study for 5 years or longer"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "BOLD-acitvity will be measured using event-related echo-planar T2\\*-weighted magnetic resonance imaging (MRI) during food wanting task according to previously described procedures (details of preprocessing at: https://osf.io/ynkxw). Onsets of food and art stimuli presentation will be modelled as separate regressors convolving delta functions with a canonical hemodynamic response function. Wanting rating scores (on an 8-point likert scale) per stimulus will be added as covariates. In a parallel model, kcal of food stimuli will be added multiplied with wanting scores to model high caloric food wanting interaction. At the group level, we will assess the contrasts food \\> art and wanting modulation.",
+          "measure": "blood-oxygenation-level-dependent (BOLD) activity during food wanting",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Changes in alpha and beta diversity assessed using 16S rRNA sequencing of stool samples",
+          "measure": "microbial alpha and beta diversity",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "BOLD-acitvity will be measured using event-related echo-planar T2\\*-weighted magnetic resonance imaging (MRI) during food wanting and food memory recognition tasks according to previously described procedures (details of preprocessing at: https://osf.io/ynkxw). Onsets of food and art stimuli presentation in encoding and recognition will be modelled as separate regressors convolving delta functions with a canonical hemodynamic response function. Correctly remembered and correctly rejected, as well as misses and false alarms will be modeled separately. In parallel models, similar and new items als well as wanting rating scores (on an 8-point likert scale) per stimulus and kcal of food stimuli multiplied with wanting scores will be added as covariates. At the group level, we will assess the contrasts correct \\> false and wanting modulation.",
+          "measure": "fMRI BOLD activity memory performance",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "self-reported hunger feeling on a 8-point score from minimum 0 (not at all) to maximum 8 (very much).",
+          "measure": "satiety",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "ghrelin pg/ml in blood",
+          "measure": "ghrelin",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "leptin ng/ml in blood",
+          "measure": "leptin",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Glucagon-like peptide-1 (GLP-1) pg/ml in blood",
+          "measure": "GLP-1",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "peptide YY pg/ml in blood",
+          "measure": "PYY",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "insulin in blood uU/ml",
+          "measure": "insulin",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "hemoglycated globulin A1c in blood %",
+          "measure": "HbA1c",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "high sensitive C-reactive protein mg/l (and optionally tumor necrosis factor alpha and interleukin 6 in blood, pg/ml)",
+          "measure": "inflammatory markers",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "short-chain fatty acids (SCFA), bile acids",
+          "measure": "microbial metabolic markers in blood",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "weight kg/height in m squared",
+          "measure": "body mass index",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "waist (cm) to hip (cm) circumeference ratio",
+          "measure": "waist hip ratio",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "body fat % according to bioelectrical impedance analysis",
+          "measure": "body fat",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "assessed with the food craving questionnaire (Meule et al., 2012, German version).",
+          "measure": "food craving",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "measured using the attention network task (ANT)",
+          "measure": "executive attention performance",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Vartanian M, Endres KJ, Lee YT, Friedrich S, Meemken MT, Schamarek I, Rohde-Zimmermann K, Schurfeld R, Eisenberg L, Hilbert A, Beyer F, Stumvoll M, Sacher J, Villringer A, Christensen JF, Witte AV. Investigating the impact of microbiome-changing interventions on food decision-making: MIFOOD study protocol. BMC Nutr. 2025 Jan 13;11(1):8. doi: 10.1186/s40795-024-00971-6.",
+          "pmid": "39806493",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Universit\u00e4tsklinikum Leipzig"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "DFG - Deutsche Forschungs Gemeinschaft (German Research Foundation)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Max Planck Institute for Human Cognitive and Brain Sciences"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-04-26",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-03-08",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2022-04",
+      "studyFirstPostDateStruct": {
+        "date": "2022-04-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-03-23",
+      "studyFirstSubmitQcDate": "2022-04-26"
+    }
+  }
+}

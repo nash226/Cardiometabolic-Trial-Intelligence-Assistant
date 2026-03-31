@@ -1,0 +1,171 @@
+{
+  "arms": [
+    {
+      "description": "Low calorie meal replacement shakes",
+      "intervention_names": [
+        "Behavioral: Diet Weight Loss"
+      ],
+      "label": "Diet Weight Loss",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Normal feeding",
+      "intervention_names": [],
+      "label": "Delayed Intervention",
+      "type": "NO_INTERVENTION"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Insulin Sensitivity",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Muscle Weakness",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Adiposity",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Insulin Resistance",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Generally healthy men and women aged 18-70\n* BMI between 30-40\n* Less than 1 hour of exercise per week\n* Women:\n\n  1. may be pre or post menopausal\n\nExclusion Criteria:\n\n* Type 1 or Type 2 diabetes\n* Thyroid disease\n* History of lung disease\n* Active use of nicotine\n* Severe plasma lipid disorders\n* Taking hormone replacement drugs, blood thinners, or thiazoladinediones\n* Women:\n\n  1. Currently going through menopause or peri-menopause\n  2. Pregnant or breastfeeding\n  3. History of Polycystic Ovary Syndrome",
+    "healthy_volunteers": true,
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Diet Weight Loss"
+      ],
+      "description": "Low calorie diet of meal replacement shakes",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "Diet Weight Loss",
+      "normalized_name": "diet weight loss"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Participants will undergo a standard 3-hour hyperinsulinemic/euglycemic clamp with insulin infused at 80 mU/m2/min, and glucose clamped at 90 mg/dl with a variable dextrose infusion.",
+      "measure": "Insulin Sensitivity",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    },
+    {
+      "description": "Participant weight will be measured using BodyTrace scales during the 12 week intervention.",
+      "measure": "Body Weight",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    },
+    {
+      "description": "A multi-slice MRI will be used to quantify IMAT and muscle content in both legs with acquisition of \\~20 axial images (10 mm thickness) with 10 mm spacing between images starting superior to the patella. IMAT content will be quantified using the well-validated Sirlin 6-echo method and normalized to muscle volume.",
+      "measure": "IMAT Content",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    },
+    {
+      "description": "A multi-slice MRI will be used to quantify IMAT and muscle content in both legs with acquisition of \\~20 axial images (10 mm thickness) with 10 mm spacing between images starting superior to the patella. Muscle volume will be quantified using standard methods with anatomical cross-sectional area evaluated in each T1 weighted, high resolution, gradient echo profile scan, and multiplied by the length of the muscle.",
+      "measure": "Muscle Mass",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    },
+    {
+      "description": "Participants will perform quadriceps muscle strength testing using an isokinetic dynamometer.",
+      "measure": "Muscle Strength",
+      "outcome_type": "primary",
+      "time_frame": "12 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The goal of this intervention study is to learn about how weight loss impacts molecular signaling of intermuscular adipose tissue (IMAT) in individuals with obesity. The main question it aims to answer is how inflammatory molecules secreted by IMAT promote muscle insulin resistance and inflammation, and how these same molecules are diminished after weight loss. Following screening visits involving body composition measures, blood testing, strength testing, and a thigh muscle biopsy, participants will go through a 12-week dietary intervention for weight loss. After 12 weeks, this will be followed by the same testing and biopsies that were completed before the intervention. Researchers will then compare outcomes of individuals who lost weight to individuals who did not lose weight.",
+    "brief_title": "Effect of Weight Loss on Intermuscular Adipose Tissue (IMAT) Signaling",
+    "collaborator_names": [
+      "National Institutes of Health (NIH)",
+      "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+    ],
+    "completion_date": "2029-12-01",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Generally healthy men and women aged 18-70\n* BMI between 30-40\n* Less than 1 hour of exercise per week\n* Women:\n\n  1. may be pre or post menopausal\n\nExclusion Criteria:\n\n* Type 1 or Type 2 diabetes\n* Thyroid disease\n* History of lung disease\n* Active use of nicotine\n* Severe plasma lipid disorders\n* Taking hormone replacement drugs, blood thinners, or thiazoladinediones\n* Women:\n\n  1. Currently going through menopause or peri-menopause\n  2. Pregnant or breastfeeding\n  3. History of Polycystic Ovary Syndrome",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 70,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Diet Weight Loss"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "IMAT",
+      "Intermuscular Adipose Tissue",
+      "Weight Loss",
+      "Diet"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-04-23",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Colorado, Denver",
+    "masking": "SINGLE",
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06129110",
+    "official_title": "Effect of Weight Loss on Intermuscular Adipose Tissue (IMAT) Signaling",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2028-12-01",
+    "primary_purpose": "BASIC_SCIENCE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06129110",
+    "start_date": "2024-01-01",
+    "study_first_posted_at": "2023-11-13",
+    "study_type": "INTERVENTIONAL"
+  }
+}

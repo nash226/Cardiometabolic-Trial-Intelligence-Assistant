@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06817863:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06817863\nBrief title: A Self-Guided Mobile Intervention for Adults With Binge Eating and Obesity\nOfficial title: A Self-Guided Mobile Intervention for Adults With Binge Eating and Obesity\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT06817863"
+    },
+    {
+      "chunk_id": "NCT06817863:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Binge Eating Disorder Associated With Obesity; Binge Eating Disorder\nIntervention labels: Digital\nDrug class labels: \nArms: Self-Help Digital Intervention\nKeywords: digital treatment; self-help intervention; binge eating",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06817863"
+    },
+    {
+      "chunk_id": "NCT06817863:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The proposed study is an open label, non randomized, waitlist controlled single group feasibility study of the feasibility and usability of a digital intervention (called ChangeBite) to be used by individuals with obesity and comorbid binge eating behavior. The proposed research will include approximately 30 participants. Participants will be recruited for this single group pilot trial using online advertising to attend a virtual screening session. Screened participants willing and eligible to participate, will receive informed consent and formally start ChangeBite. Participants will be instructed to engage with ChangeBite and attend follow up assessments on scheduled video calls. Feasibility and acceptability of implementation will be assessed by collecting data on recruitment, retention, usability and satisfaction. The research team will also collect assessment data from participants on feasibility, and usability. In addition to self report scales, semi-structured interviews will be completed with a trained research team member via video call and will be partially recorded. Assessments will be done at baseline, 12 weeks, and 24 weeks. Participants' app use frequency and duration will be tracked using software analytics. Participants' body weight will be captured weekly using a timestamped picture of their weight as it appears on their scale and Body Mass Index will be calculated with these data points.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 212,
+      "trial_nct_id": "NCT06817863"
+    },
+    {
+      "chunk_id": "NCT06817863:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Are English speaking male or female\n2. Are aged 18-70 years\n3. Have recurrent objective or subjective binge eating episodes (\u226512 episodes in 3 months)\n4. Have BMI \u226530\n5. Own an iPhone with iOS 11 or higher, or Android with OS 8.1 or higher\n6. Are willing and able to complete enrollment procedures\n7. Are able to understand the nature of the study and provide written informed consent\n\nExclusion Criteria:\n\n1. Are unable to fluently speak, write and read English.\n2. Are already receiving treatment for an eating disorder (e.g., research participants cannot be receiving concurrent eating disorder treatment from another provider)\n3. Are receiving weight loss treatment (behavioral or pharmacological)\n4. Have a mental handicap or are currently experiencing severe psychopathology that would limit their ability to engage in study (e.g., imminent or high risk for suicide, substance use disorder, active psychotic disorder,)\n5. Are purging and/or using laxatives 3 or more times per week and are not deemed safe for remote treatment by a primary care provider.\n6. Are exercising 2 or more hours a day on average, or engaging in significantly harmful compensatory behaviors (i.e., \\> 3x/week of self-induced vomiting or laxative use), and are not deemed safe for remote treatment by a primary care provider.\n7. Are fasting for 24 hours or more, \\> 3x times a week, and are not deemed safe for remote treatment by a primary care provider.\n8. Are unwilling to receive medical clearance and/or medical monitoring as requested by the study to ensure they are medically safe to participate.\n9. Are pregnant or planning to become pregnant within the next year.\n10. Are individuals who are not yet adults (infants, children, teenagers) Are currently taking any of these medications: Haldol, Loxitane, Mellaril, Moban, Navane, Prolixin, Serentil, Stelaxine, Trilafon, Thoraxine, Abilify, Clozaril, Geodon, Risperdal, Seroquel, Zyprexa\n11. Are adults unable to consent\n12. Are prisoners",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 335,
+      "trial_nct_id": "NCT06817863"
+    },
+    {
+      "chunk_id": "NCT06817863:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Binge eating episodes | time_frame=3 months | description=The frequency of binge eating episodes.\ntype=primary | measure=Weight | time_frame=3 months | description=Weight loss during the intervention.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT06817863"
+    },
+    {
+      "chunk_id": "NCT06817863:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-02\nPrimary completion date: 2025-06\nCompletion date: 2025-12\nStudy first posted: 2025-02-10\nResults first posted: None\nLast update posted: 2025-02-17\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06817863"
+    },
+    {
+      "chunk_id": "NCT06817863:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Drexel University\nLead sponsor class: OTHER\nCollaborators: National Institute of Mental Health (NIMH); Oui Therapeutics, Inc.\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06817863"
+    }
+  ],
+  "trial_nct_id": "NCT06817863"
+}

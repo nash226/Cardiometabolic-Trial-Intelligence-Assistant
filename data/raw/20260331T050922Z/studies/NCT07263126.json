@@ -1,0 +1,348 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005081",
+          "term": "Exercise Therapy"
+        },
+        {
+          "id": "D012046",
+          "term": "Rehabilitation"
+        },
+        {
+          "id": "D000359",
+          "term": "Aftercare"
+        },
+        {
+          "id": "D003266",
+          "term": "Continuity of Patient Care"
+        },
+        {
+          "id": "D005791",
+          "term": "Patient Care"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D026741",
+          "term": "Physical Therapy Modalities"
+        },
+        {
+          "id": "D064797",
+          "term": "Physical Conditioning, Human"
+        },
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000076663",
+          "term": "Endurance Training"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "participants trained in termoneutral ambient temperature",
+          "interventionNames": [
+            "Other: endurance training with bicycle ergometer in termoneutral ambient temperature"
+          ],
+          "label": "Case group 1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "participants trained in lightly cold ambient temperature",
+          "interventionNames": [
+            "Other: endurance training with bicycle ergometer in lightly cold ambient temperature"
+          ],
+          "label": "Case group 2",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "participants do not trained",
+          "label": "control group",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Case group 1"
+          ],
+          "description": "trained with bicycle ergometer three times a week for three months.",
+          "name": "endurance training with bicycle ergometer in termoneutral ambient temperature",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Case group 2"
+          ],
+          "description": "trained with bicycle ergometer three times a week for three months.",
+          "name": "endurance training with bicycle ergometer in lightly cold ambient temperature",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endurance Training"
+      ],
+      "keywords": [
+        "Bicycle Ergometer",
+        "Overweight",
+        "Obese"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "sules@pau.edu.tr",
+          "name": "\u015eule \u015eim\u015fek, Ass. Prof.",
+          "phone": "05058099914",
+          "role": "CONTACT"
+        },
+        {
+          "email": "aysenuroymak@gmail.com",
+          "name": "Ay\u015fe Nur Oymak Soysal, PhD",
+          "phone": "05058446603",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Denizli",
+          "contacts": [
+            {
+              "email": "sules@pau.edu.tr",
+              "name": "\u015eule \u015eim\u015fek, Pdf",
+              "phone": "05058099914",
+              "role": "CONTACT"
+            },
+            {
+              "email": "aysenuroymak@gmail.com",
+              "name": "Ay\u015fe Nur Oymak Soysal, Phd",
+              "phone": "05058446603",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "\u015eule \u015eim\u015fek",
+          "geoPoint": {
+            "lat": 37.77417,
+            "lon": 29.0875
+          },
+          "state": "Sarayk\u00f6y",
+          "status": "RECRUITING",
+          "zip": "09200"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Prof. Dr.",
+          "name": "Ummuhan Ba\u015f Aslan, Prof. Dr.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to investigate the effect of endurance training performed with a bicycle ergometer at different ambient temperatures on the amount of fat tissue and fat tissue metabolism in overweight and obese women.",
+      "detailedDescription": "This study will examine the effects of 12 weeks of endurance training on a bicycle ergometer at thermoneutral and slightly cold ambient temperatures on body composition, subcutaneous and visceral fat tissue thickness, and levels of irisin, leptin, adiponectin, apelin, IL-6 and FGF-21 in the blood of overweight and obese women."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Endurance training in termoneutral ambient, Endurance training in lightly cold ambient, control group (the waiting list group)",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The main outcome measures will be assessed by 3 different researchers . The researchers conducting the assessments will not know which group the participants are belongs to.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nBeing female,\n\n* Being between 20-40 years old,\n* Having a BMI between 25 and 34.9,\n* Having a waist circumference greater than 80 cm,\n* Not having participated in any exercise program in the last 3 months ,\n* Not having experienced a change of more than 10% in body weight in the last 6 months.\n\nExclusion Criteria:\n\n* On a weight loss diet,\n\n  * Having cancer, unstable heart disease, cerebrovascular disease, metabolic disease, diabetes, hypertension, psychiatric disorders, or other conditions or neurological disorders,\n  * Having a musculoskeletal disorder or any disease/injury that may affect participation in exercise training,\n  * Participating in regular physical activity (at least 150 minutes of moderate-intensity physical activity or 75 minutes of vigorous-intensity physical activity or an equivalent combination of both during the week),\n  * Being pregnant or breastfeeding,\n  * Having undergone surgery for the treatment of obesity,\n  * Receiving pharmacological treatment for obesity. Participants who did not attend more than 20% of the endurance training program will be excluded from the study.",
+      "healthyVolunteers": true,
+      "maximumAge": "40 Years",
+      "minimumAge": "20 Years",
+      "sex": "FEMALE",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effect of Bicycle Ergometer Training on Fat Tissue Amount and Metabolism",
+      "nctId": "NCT07263126",
+      "officialTitle": "Effect of Bicycle Ergometer Training in Thermoneutral and Lightly Cold Ambient Temperatures on Fat Tissue Amount and Metabolism in Overweight and Obese Women",
+      "orgStudyIdInfo": {
+        "id": "23.07.2024/13"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Pamukkale University"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "assesed with height and body weight",
+          "measure": "rate of BMI",
+          "timeFrame": "baseline/ through study completion, an average 3 months"
+        },
+        {
+          "description": "assesed with with a Tanita BC 418 brand device.",
+          "measure": "analysis of biyoelectric impedans Bioelectrical impedance analysis",
+          "timeFrame": "baseline/ through study completion, an average 3 months"
+        },
+        {
+          "description": "Waist and hip circumference will be measured with a tape measure.",
+          "measure": "Ratio of waist-hip Waist hip ratio",
+          "timeFrame": "baseline/ through study completion, an average 3 months"
+        },
+        {
+          "description": "assesed with Ultrasonography",
+          "measure": "rate of subcutaneous and visceral adipose tissue thickness",
+          "timeFrame": "baseline/ through study completion, an average 3 months"
+        },
+        {
+          "description": "assesed with blood analysis",
+          "measure": "concentration of serum irisin, leptin, adiponectin, apelin, \u0130L-6 and FGF-21",
+          "timeFrame": "baseline/ through study completion, an average 3 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Otero-Diaz B, Rodriguez-Flores M, Sanchez-Munoz V, Monraz-Preciado F, Ordonez-Ortega S, Becerril-Elias V, Baay-Guzman G, Obando-Monge R, Garcia-Garcia E, Palacios-Gonzalez B, Villarreal-Molina MT, Sierra-Salazar M, Antuna-Puente B. Exercise Induces White Adipose Tissue Browning Across the Weight Spectrum in Humans. Front Physiol. 2018 Dec 11;9:1781. doi: 10.3389/fphys.2018.01781. eCollection 2018.",
+          "pmid": "30618796",
+          "type": "RESULT"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Pamukkale University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Pamukkale University",
+        "investigatorFullName": "\u015eule \u015e\u0130M\u015eEK",
+        "investigatorTitle": "Principal \u0130nvestigator",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-05-27",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-03",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-05-27",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-05-27",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-05-27",
+      "studyFirstSubmitQcDate": "2025-12-03"
+    }
+  }
+}

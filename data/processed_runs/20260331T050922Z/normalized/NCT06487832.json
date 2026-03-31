@@ -1,0 +1,188 @@
+{
+  "arms": [
+    {
+      "description": "Acute administration of 0.25 mg semaglutide (0.19 ml)",
+      "intervention_names": [
+        "Other: Subcutaneous GLP1-RA"
+      ],
+      "label": "GLP-1",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Acute administration of 0.19 ml NaCl",
+      "intervention_names": [
+        "Other: Subcutaneous placebo"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Normal Weight",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Overweight and Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Insulin Sensitivity",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Insulin Resistance",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* BMI between 18.5 and 24.9 kg/m2; and between 27.5 kg/m2 and 40 kg/m2\n* Written consent to participate in the study\n* Written consent to be informed about incidental findings\n\nExclusion Criteria:\n\n* Type 1 or type 2 diabetes, LADA, MODY, or cardiovascular diseases such as chronic heart failure, myocardial infarction, status post stroke\n* BMI \\< 18.5 or \\> 40 kg/m2\n* Persons who cannot legally give consent\n* Pregnancy or lactation\n* History of severe mental or somatic disorders including neurological diseases (incl. epileptic seizures)\n* Taking psychotropic drugs\n* Chronic diseases or medication that influence glucose metabolism\n* Regular use of analgesic drugs\n* Previous bariatric surgery\n* Known allergy against one or more of the used agents\n* Acute infection and/or antibiotic treatment within the last 4 weeks\n* Hemoglobin values less than 10.5 g/dl for women, less than 11.5 g/dl for men\n* Other diseases that in the opinion of the investigator may jeopardize the success of the study or indicate a risk to the volunteer\n* Participation in a lifestyle intervention study or a pharmaceutical study within the last 30 days\n* Metal implants which cannot be removed as pacemakers, artificial heart valve, electrical devices as insulin pumps, large tattoos, retainer over more than 4 teeth, contraceptive coil, implanted magnetic metal parts as screws or plates after a surgery\n* Persons with claustrophobia\n* Persons with tinnitus\n* Weight loss or gain of \\>5% in the last 3 months\n* Pancreatic diseases\n* History or family history of multiple endocrine neoplasia (MEN2) or medullary thyroid cancer\n* History of malignant thyroid disease\n* History of malignant disease in the past 5 years\n* Surgery in the last three months\n* Chronic tobacco use of more than 10 cigarettes/day\n* Women who do not consent to refrain from breastfeeding until 2 months after the end of the study\n* Women of childbearing age who do not consent to use safe method of contraception from 28 days before until 2 months after the end of the study or refrain from heterosexual intercourse during this time\n* Women of childbearing age who do not consent to take a pregnancy test",
+    "healthy_volunteers": true,
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "GLP-1"
+      ],
+      "description": "Subcutaneous administration of semaglutide",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Subcutaneous GLP1-RA",
+      "normalized_name": "subcutaneous glp1-ra"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo"
+      ],
+      "description": "Subcutaneous administration of NaCl",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Subcutaneous placebo",
+      "normalized_name": "subcutaneous placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Resting-state cerebral blood flow and BOLD-fMRI response from before to 30 min after nasal spray administration",
+      "measure": "Cerebral response after insulin compared to placebo nasal spray",
+      "outcome_type": "primary",
+      "time_frame": "24 hours after semaglutide or placebo administration"
+    },
+    {
+      "description": "BOLD-fMRI response to food cues 30 min after nasal spray administration",
+      "measure": "Neural food-cue reactivity after insulin compared to placebo nasal spray",
+      "outcome_type": "secondary",
+      "time_frame": "24 hours after semaglutide or placebo administration"
+    },
+    {
+      "description": "Diffusion weighted parameter based on MRI measurements",
+      "measure": "Diffusion-weighted imaging (DWI)",
+      "outcome_type": "secondary",
+      "time_frame": "24 hours after semaglutide or placebo administration"
+    },
+    {
+      "description": "HRV based on ECG measurements",
+      "measure": "Heart rate variability (HRV)",
+      "outcome_type": "secondary",
+      "time_frame": "24 hours after semaglutide or placebo administration"
+    },
+    {
+      "description": "On a visual analogue scale, subjective feeling of hunger and food craving will be assessed using questionnaires.",
+      "measure": "Change in subjective feeling of hunger and food craving",
+      "outcome_type": "secondary",
+      "time_frame": "24 hours after semaglutide or placebo administration"
+    },
+    {
+      "description": "Using a questionnaire, positive and negative affect state will be assessed.",
+      "measure": "Change in mood",
+      "outcome_type": "secondary",
+      "time_frame": "24 hours after semaglutide or placebo administration"
+    },
+    {
+      "description": "Cambridge Cognition Tests Battery",
+      "measure": "Performance during cognitive tests",
+      "outcome_type": "secondary",
+      "time_frame": "24 hours after semaglutide or placebo administration"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The overarching goal of the current study is to investigate the effect of GLP-1 on brain insulin responsiveness in a randomized, single-blinded, within subject cross-over study design. To this end, investigators will compare the effect of the administration of semaglutide versus placebo, followed by an fMRI with administration of intranasal insulin or placebo.",
+    "brief_title": "Effect of GLP1 Receptor Agonist on Brain Insulin Responsiveness",
+    "collaborator_names": [],
+    "completion_date": "2027-12-31",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* BMI between 18.5 and 24.9 kg/m2; and between 27.5 kg/m2 and 40 kg/m2\n* Written consent to participate in the study\n* Written consent to be informed about incidental findings\n\nExclusion Criteria:\n\n* Type 1 or type 2 diabetes, LADA, MODY, or cardiovascular diseases such as chronic heart failure, myocardial infarction, status post stroke\n* BMI \\< 18.5 or \\> 40 kg/m2\n* Persons who cannot legally give consent\n* Pregnancy or lactation\n* History of severe mental or somatic disorders including neurological diseases (incl. epileptic seizures)\n* Taking psychotropic drugs\n* Chronic diseases or medication that influence glucose metabolism\n* Regular use of analgesic drugs\n* Previous bariatric surgery\n* Known allergy against one or more of the used agents\n* Acute infection and/or antibiotic treatment within the last 4 weeks\n* Hemoglobin values less than 10.5 g/dl for women, less than 11.5 g/dl for men\n* Other diseases that in the opinion of the investigator may jeopardize the success of the study or indicate a risk to the volunteer\n* Participation in a lifestyle intervention study or a pharmaceutical study within the last 30 days\n* Metal implants which cannot be removed as pacemakers, artificial heart valve, electrical devices as insulin pumps, large tattoos, retainer over more than 4 teeth, contraceptive coil, implanted magnetic metal parts as screws or plates after a surgery\n* Persons with claustrophobia\n* Persons with tinnitus\n* Weight loss or gain of \\>5% in the last 3 months\n* Pancreatic diseases\n* History or family history of multiple endocrine neoplasia (MEN2) or medullary thyroid cancer\n* History of malignant thyroid disease\n* History of malignant disease in the past 5 years\n* Surgery in the last three months\n* Chronic tobacco use of more than 10 cigarettes/day\n* Women who do not consent to refrain from breastfeeding until 2 months after the end of the study\n* Women of childbearing age who do not consent to use safe method of contraception from 28 days before until 2 months after the end of the study or refrain from heterosexual intercourse during this time\n* Women of childbearing age who do not consent to take a pregnancy test",
+    "detailed_description": "Investigate the effect of the GLP1 receptor agonist (i.e. 0.25 mg semaglutide) vs. placebo on the brain using functional magnetic resonance imaging (fMRI) in combination with 160IU intranasal insulin vs. placebo administration in healthy male and female participants of normal-weight and overweight/obesity. Participants will furthermore undergo tasks that assess cognitive functions and eating behavior. Brain insulin responsiveness (primary outcome) is defined as the cerebral response to intranasal insulin compared to placebo by means of cerebral blood flow and resting-state BOLD measurements. Secondary outcomes include diffusion weighted imaging, neural food cue reactivity, cognitive functions and metabolic predictors.",
+    "drug_class_labels": [],
+    "enrollment_count": 60,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Subcutaneous GLP1-RA",
+      "Subcutaneous placebo"
+    ],
+    "intervention_model": "CROSSOVER",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "GLP-1",
+      "Brain",
+      "functional magnetic resonance imaging",
+      "Semaglutide"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-03-30",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University Hospital Tuebingen",
+    "masking": "SINGLE",
+    "maximum_age_text": "70 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06487832",
+    "official_title": "Impact of the Incretin System on Brain Insulin Sensitivity in Humans with Normal Weight, Overweight and Obesity",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2027-07-31",
+    "primary_purpose": "BASIC_SCIENCE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06487832",
+    "start_date": "2024-07-01",
+    "study_first_posted_at": "2024-07-05",
+    "study_type": "INTERVENTIONAL"
+  }
+}

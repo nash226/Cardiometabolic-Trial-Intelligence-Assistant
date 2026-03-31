@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06579508:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06579508\nBrief title: Effects of High-intensity Exercise With Hypoxia and Taurine Supplementation on Metabolic and Mitochondrial Parameters\nOfficial title: Effects of High-intensity Intermittent Exercise With Recovery Hypoxia and Taurine Supplementation in Women With Obesity on Metabolic and Mitochondrial Parameters\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT06579508"
+    },
+    {
+      "chunk_id": "NCT06579508:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: Cycle ergometer\nDrug class labels: \nArms: Control; Normoxia - Placebo; Normoxia - Taurina; Hypoxia - Placebo; Hypoxia - Taurina\nKeywords: Mitochondrial disfunction; Oxidative stress; Inter-effort Hypoxia; Physical Exercise; Obesity",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT06579508"
+    },
+    {
+      "chunk_id": "NCT06579508:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The prevalence of obesity in Brazil is one of the highest in Latin America. As an inflammatory disease, obesity needs to be treated, and one of the best interventions is exercise. This research aims to learn more about the effects of combining high-intensity training, recovery hypoxia, and taurine supplementation. To better understand these effects, the researchers will compare hypoxia and normoxia, as well as taurine and placebo, with all participants training in the same way. The researchers will also investigate mitochondrial respiration and food consumption to connect certain aspects of obesity with overall health.\nDetailed description: Obesity is characterized by a chronic inflammatory state, often linked with elevated oxidative stress and mitochondrial dysfunction. While physical exercise can trigger inflammatory responses due to muscle damage, it also promotes significant bodily adaptations, particularly in body composition, physical fitness, and skeletal muscle tissue, including enhanced mitochondrial dynamics. Moderate hypoxia, when combined with exercise, further amplifies these benefits by increasing the expression of genes related to mitochondrial biogenesis, GLUT1 expression, and angiogenesis. Previous findings suggest that high-intensity physical activity not only improves cardiorespiratory capacity and alters body composition but also significantly elevates inflammation. Consequently, taurine, a supplement known for its anti-inflammatory properties and ability to reduce oxidative stress, should be considered to mitigate these issues and optimize the benefits of exercise and hypoxia. Based on these premises, it is hypothesized that the combination of taurine supplementation with physical training under recovery hypoxia may reduce the significant rise in pro-inflammatory cytokines, thereby enhancing the potential benefits of exercise and moderate hypoxia.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 258,
+      "trial_nct_id": "NCT06579508"
+    },
+    {
+      "chunk_id": "NCT06579508:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 25 Years\nMaximum age: 45 Years\nAge groups: ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Women\n* Age between 25 - 45 years old;\n* BMI between 30 - 35kg/m\u00b2;\n* Not be on a diet;\n* Not be on a physical activity program;\n* Not be menopaused.\n\nExclusion Criteria:\n\n* Smokers;\n* Alcoholics;\n* Use thyroid medication;\n* Carry out nutritional monitoring or in treatment for weight loss;\n* Hypertension;\n* Metabolical syndrome;\n* Have any comorbidity associated to obesity;\n* Drugs use.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 89,
+      "trial_nct_id": "NCT06579508"
+    },
+    {
+      "chunk_id": "NCT06579508:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Anthropometry - Height | time_frame=12 weeks | description=Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nHeight measured in meters.\ntype=primary | measure=Anthropometry - Weight | time_frame=12 weeks | description=Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body weight in kilograms (kg).\ntype=primary | measure=Anthropometry - BMI | time_frame=12 weeks | description=Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body mass index (BMI = weight measured(kg) / (height (m)\u00b2).\ntype=primary | measure=Body composition - Free-fat mass | time_frame=12 weeks | description=Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body composition for fat-free mass (grams and %).\ntype=primary | measure=Body composition - Fat mass | time_frame=12 weeks | description=Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body composition for fat mass (grams and %).\ntype=primary | measure=Body composition - Bone | time_frame=12 weeks | description=Dual energy x-ray absorptiometry (DEXA) will be use for:\n\nChanges in body composition for bone mineral content (g.cm\u00b2).\ntype=primary | measure=Lipid profile - Cholesterol | time_frame=12 weeks | description=Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in total cholesterol (mg/dL).\ntype=primary | measure=Lipid profile - Triglycerides | time_frame=12 weeks | description=Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in triglycerides (mg/dL).\ntype=primary | measure=Lipid profile - HDL/LDL | time_frame=12 weeks | description=Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in HDL-cholesterol and LDL-cholesterol (mg/dL).\ntype=primary | measure=Lipid profile - Glucose | time_frame=12 weeks | description=Quantified by Total Liquiform Cholesterol Kit, HDL Cholesterol Kit and Liquiform Triglycerides Kit, from Labtest diagn\u00f3stica\u00ae, using an enzymatic system and absorbance spectrophotometer:\n\nChanges in blood glucose (mg/dL).\ntype=primary | measure=Inflammatory profile - pro inflammatory | time_frame=12 weeks | description=Changes in serum levels of cytokines will be evaluated with MILLIPLEX\u00ae Kit. Pro- inflammatory citokines: IL-6, TNF-\u03b1 (pg/mL).\ntype=primary | measure=Inflammatory profile - anti inflammatory | time_frame=12 weeks | description=Changes in serum levels of cytokines will be evaluated with MILLIPLEX\u00ae Kit. Ant- inflammatory citokines: IL-10 (pg/mL), Adiponectin (ng/mL).\ntype=primary | measure=Aerobic performance - HRAnTh | time_frame=12 weeks | description=Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using heart rate (HR).\ntype=primary | measure=Aerobic performance - IAnTh | time_frame=12 weeks | description=Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using intensity in Watts (W).\ntype=primary | measure=Aerobic performance - RPEAnTh | time_frame=12 weeks | description=Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using Rate of Perceived Effort (RPE).\ntype=primary | measure=Aerobic performance - LacAnTh | time_frame=12 weeks | description=Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nAnaerobic threshold (AT) using lactate concentration \\[lac-\\].\ntype=primary | measure=Aerobic performance - VO2 | time_frame=12 weeks | description=Physical tests performed pre-, after 6 weeks and post- intervention to assess aerobic physical fitness by incremental test in cycle ergometer. The test aim to evaluate:\n\nVO2peak in ml.kg-1.min-1.\ntype=primary | measure=Food Intake | time_frame=12 weeks | description=A food record of three non-consecutive days: two days of the week and one day in the weekend. This evaluation will last 12 weeks. Will be evaluated with Dietwin\u00ae software (S\u00e3o Paulo, Brazil):\n\nThe macronutrients, micronutrients and fiber in quilocalories and percentage (%)\ntype=primary | measure=Food quality | time_frame=12 weeks | description=The feed will undergo analysis through the NOVA Classification. By NOVA, food will be classified into four groups: Group 1 - Unprocessed or minimally processed foods; Group 2 - Processed culinary ingredients; Group 3 - Processed foods; Group 4 - Ultra-processed foods.\n\nFor each category, the total calories ingested will be calculated, and later, represented in percentage (%) the participation of each food group in the general diet.\ntype=primary | measure=Taurine rates | time_frame=12 weeks | description=The participants will supplement 3g of taurina or placebo during 12 weeks. The rate of plasmatic taurine (mmol) will be evaluated during pre and post intervention.\ntype=primary | measure=Muscle biopsy - RNA | time_frame=12 weeks | description=After biopsy the tissue will be treated for:\n\nqPCR analysis.\ntype=primary | measure=Muscle biopsy - Protein | time_frame=12 weeks | description=After biopsy the tissue will be treated for:\n\nWestern blotting analysis.\ntype=primary | measure=Muscle biopsy - Mitochondria | time_frame=12 weeks | description=After biopsy the tissue will be treated for:\n\nHigh-resolution respirometry of muscle fibers analysis.\ntype=secondary | measure=Training measures - RPE | time_frame=12 weeks | description=The Borg scale will be use to quantify the:\n\nRate of Perceived Effort (RPE) - will be noted after each effort during all the training program.\ntype=secondary | measure=Training measures - TRIMP | time_frame=12 weeks | description=The internal load will be calculated using TRIMP:\n\nCalculated multipling the RPE for the time in effort (TRIMP = RPE \\* time in effort), for each participant and training session.\ntype=secondary | measure=Training measures - SP02 | time_frame=12 weeks | description=The Oxygen saturation (SpO2) will be measure in percent (%), using a pulse oximeter.\n\nSpO2 (%) will be noted after the end of the effort, the lowest point during the rest and in the end of the rest.\ntype=secondary | measure=Training measures - HR | time_frame=12 weeks | description=The heart rate (HR) will be measure in beats per minute (BPM) with Polar clock.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 965,
+      "trial_nct_id": "NCT06579508"
+    },
+    {
+      "chunk_id": "NCT06579508:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-03-01\nPrimary completion date: 2025-08\nCompletion date: 2025-12\nStudy first posted: 2024-08-30\nResults first posted: None\nLast update posted: 2025-06-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06579508"
+    },
+    {
+      "chunk_id": "NCT06579508:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Sao Paulo\nLead sponsor class: OTHER\nCollaborators: Funda\u00e7\u00e3o de Amparo \u00e0 Pesquisa do Estado de S\u00e3o Paulo\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06579508"
+    }
+  ],
+  "trial_nct_id": "NCT06579508"
+}

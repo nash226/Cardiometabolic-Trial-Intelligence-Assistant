@@ -8,7 +8,10 @@ import json
 from pathlib import Path
 from typing import Any
 
-from lib.embedding_utils import embed_text
+try:
+    from .lib.embedding_utils import embed_text
+except ImportError:  # pragma: no cover - script execution fallback
+    from lib.embedding_utils import embed_text
 
 
 def parse_args() -> argparse.Namespace:

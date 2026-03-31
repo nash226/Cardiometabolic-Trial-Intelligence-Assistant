@@ -1,0 +1,280 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000726451",
+          "term": "BI 456906"
+        },
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "PET/CT imaging for analysis of the liver",
+          "interventionNames": [
+            "Drug: BI 456906"
+          ],
+          "label": "Group 1: BI 456906",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "PET/CT imaging for analysis of the liver",
+          "interventionNames": [
+            "Drug: Semaglutide"
+          ],
+          "label": "Group 2: Semaglutide",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "PET/CT imaging for analysis of the pancreas",
+          "interventionNames": [
+            "Drug: BI 456906"
+          ],
+          "label": "Group 3: BI 456906",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "PET/CT imaging for analysis of the pancreas",
+          "interventionNames": [
+            "Drug: Semaglutide"
+          ],
+          "label": "Group 4: Semaglutide",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Group 1: BI 456906",
+            "Group 3: BI 456906"
+          ],
+          "description": "BI 456906",
+          "name": "BI 456906",
+          "otherNames": [
+            "survodutide"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Group 2: Semaglutide",
+            "Group 4: Semaglutide"
+          ],
+          "description": "Semaglutide",
+          "name": "Semaglutide",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "clintriage.rdg@boehringer-ingelheim.com",
+          "name": "Boehringer Ingelheim",
+          "phone": "1-800-243-0127",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Amsterdam",
+          "contacts": [
+            {
+              "email": "nederland@bitrialsupport.com",
+              "name": "Boehringer Ingelheim",
+              "phone": "08000204613",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "Amsterdam UMC, location VUMC",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          },
+          "status": "RECRUITING",
+          "zip": "1105 AZ"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is open to adults with obesity. People with a body mass index (BMI) in the range from 30 to 40 kg/m2 and a body weight of 70 to 150 kg can participate in the study. The purpose of this study is to find out whether treatment with a medicine called BI 456906 changes the occupancy of receptors in the liver and in the pancreas. These receptors are involved in appetite and weight regulation. To measure the occupancy of these receptors, doctors use injectable tracers. Doctors visualise the binding of the tracers to these receptors with imaging methods.\n\nParticipants are put into 4 groups randomly, which means by chance. 2 groups get BI 456906 and 2 groups get semaglutide. Semaglutide is an approved medicine for body weight reduction. For 17 weeks, participants get injections under the skin. They either get BI 456906 twice a week or semaglutide once a week. The injected doses increase in small steps. Before and after 17 weeks of treatment, the receptor occupancy is determined.\n\nParticipants are in the study for up to 6 months. At the beginning and at the end of the treatment participants stay at the study site with an overnight stay. At the beginning, the study staff trains participants how to inject the study treatment at home. Participants who get BI 456906 visit the study site 18 times and have 19 visits at home. Participants who get semaglutide visit the study site 15 times and have 6 home visits. The doctors also regularly check participants' health and take note of any unwanted effects."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy male or female subjects according to the assessment of the investigator, as based on a complete medical history including a physical examination, vital signs (blood pressure (BP), pulse rate (PR)), 12-lead electrocardiogram (ECG), and clinical laboratory tests\n* Age of 18 to 65 years (inclusive)\n* Body mass index (BMI) of \u2265 30 and \u2264 40 kg/m2 and body weight \u226570 kg and \u2264150 kg\n* Signed and dated written informed consent prior to admission to the study, in accordance with Good Clinical Practice (GCP) and local legislation\n* Women of childbearing potential (WOCBP) must be willing and able to use two forms of effective contraception where at least one form is a highly effective method of birth control per International Council for Harmonisation (ICH) M3 (R2) that result in a low failure rate of less than 1% per year when used consistently and correctly\n\nExclusion Criteria:\n\n* Any finding in the medical examination (including BP, PR or ECG) deviating from normal and assessed as clinically relevant by the investigator\n* Resting heart rate \\> 100 beats per minute (bpm) and/or systolic blood pressure \u2265 160 millimetre of mercury (mmHg) and/or diastolic blood pressure \u226595 mmHg at screening.\n* Any laboratory value outside the reference range that the investigator considers to be of clinical relevance. Subjects with the following abnormal values are not eligible for the trial participation:\n\n  * Low-density lipoprotein (LDL) \\> 160 mg/dL (4.15 mmol/L)\n  * total cholesterol \\>240 mg/dL (6.22 mmol/L)\n  * triglyceride \\>200 mg/dL (2.26 mmol/L)\n  * blood glucose \\> 126 mg/dl (\\>7 mmol/L) fasting and/or glycated haemoglobin (HbA1c) \\>6.5% (\\>48 mmol/mol)\n* Any evidence of a concomitant disease assessed as clinically relevant by the investigator. Subjects with type 1 and type 2 diabetes mellitus are not eligible for the trial\n* Gastrointestinal, hepatic, renal, respiratory, cardiovascular, metabolic, immunological or hormonal disorders assessed as clinically relevant by the investigator\n* Diseases of the central nervous system (including but not limited to any kind of seizures), and other relevant neurological or psychiatric disorders\n* History of relevant orthostatic hypotension, fainting spells, or blackouts\n* Personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2, manifest hypo- or hyperthyroidism at Visit 1\n\nFurther criteria apply",
+      "healthyVolunteers": true,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study in People With Obesity to Test the Effects of BI 456906 Compared With Semaglutide on Glucagon Receptor Activity in the Liver",
+      "nctId": "NCT05202353",
+      "officialTitle": "Open-label, Randomised, 4 Parallel-group, Phase I Clinical Trial to Investigate BI 456906 Occupancy of Glucagon Receptors in Liver and Glucagon-like Peptide 1 Receptors in Pancreas in Comparison With Semaglutide After Administration of Radiolabeled Tracer in Male and Female Subjects With Obesity Using PET and MRI",
+      "orgStudyIdInfo": {
+        "id": "1404-0047"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Boehringer Ingelheim"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2021-000363-76",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "2024-515417-17-00",
+          "type": "CTIS"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "description": "Clinical studies sponsored by Boehringer Ingelheim, phases I to IV, interventional and non-interventional, are in scope for sharing of the raw clinical study data and clinical study documents, except for the following exclusions:\n\n1. studies in products where Boehringer Ingelheim is not the license holder;\n2. studies regarding pharmaceutical formulations and associated analytical methods, and studies pertinent to pharmacokinetics using human biomaterials;\n3. studies conducted in a single center or targeting rare diseases (because of limitations with anonymization).\n\nFor more details refer to: https://www.mystudywindow.com/msw/datatransparency",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of glucagon (GCG) receptors occupancy in the liver using Positron emission tomography (PET) imaging at End of Treatment (EOT) visit",
+          "timeFrame": "up to Week 17"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of glucagon-like Peptide 1 (GLP-1) receptors occupancy in the pancreas using PET imaging at EOT visit",
+          "timeFrame": "up to Week 17"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": true,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Related Info",
+          "url": "http://www.mystudywindow.com"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Boehringer Ingelheim"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-11-02",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-28",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-10-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-10-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2022-01-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-10",
+      "studyFirstSubmitQcDate": "2022-01-10"
+    }
+  }
+}

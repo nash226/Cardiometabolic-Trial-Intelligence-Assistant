@@ -1,0 +1,378 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D019954",
+          "term": "Neurobehavioral Manifestations"
+        },
+        {
+          "id": "D009461",
+          "term": "Neurologic Manifestations"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D065886",
+          "term": "Neurodevelopmental Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008607",
+          "term": "Intellectual Disability"
+        },
+        {
+          "id": "D002658",
+          "term": "Developmental Disabilities"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "50 participants will be administered oral metformin titrated to a maximum dose of 2000mg/day for 24 weeks.",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Behavioral: Lifestyle Intervention"
+          ],
+          "label": "Metformin (Oral)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "50 participants will be administered an identical oral placebo for 24 weeks.",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Behavioral: Lifestyle Intervention"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Metformin (Oral)"
+          ],
+          "description": "Metformin oral, 2000mg/day, for 24 weeks.",
+          "name": "Metformin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Oral placebo for 24 weeks",
+          "name": "Placebo",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Metformin (Oral)",
+            "Placebo"
+          ],
+          "description": "Participants from both groups will meet a dietician and a diabetes educator at the study start to obtain advice regarding healthy diet, portion size, and meal planning to improve physical health. All participants will be invited to monthly group meetings to learn skills which will help them in a variety of wellness areas such as physical exercises and diet. Attendance in these sessions will be encouraged but not mandatory, and attendance will be recorded. Fidelity with these interventions will be captured using diet and physical activity questionnaires at RCT start, midpoint and end, and end of open label phase.",
+          "name": "Lifestyle Intervention",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Intellectual Disability",
+        "Developmental Disability",
+        "Obesity"
+      ],
+      "keywords": [
+        "Intellectual Disability",
+        "Developmental Disability",
+        "Obesity",
+        "Metformin"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mahavir.agarwal@camh.ca",
+          "name": "Mahavir Agarwal, MD, PhD",
+          "phone": "4165358501",
+          "phoneExt": "30546",
+          "role": "CONTACT"
+        },
+        {
+          "email": "maria.papoulias@camh.ca",
+          "name": "Maria Papoulias",
+          "phone": "4165358501",
+          "phoneExt": "39365",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Toronto",
+          "contacts": [
+            {
+              "email": "maria.papoulias@camh.ca",
+              "name": "Maria Papoulias, MSc",
+              "phone": "416-535-8501",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mahavir Agarwal, PhD, MBBS, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Canada",
+          "facility": "Centre for Addiction and Mental Health",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          },
+          "state": "Ontario",
+          "status": "RECRUITING",
+          "zip": "M6J1H3"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "People with IDD (intellectual and developmental disability) have very high rates of obesity and die prematurely from cardiometabolic disease. While antipsychotics contribute to this problem, their use is necessary and appropriate in a significant subgroup of individuals with IDD. Exercise and diet interventions have limitations and may not be sufficient, requiring effective adjunctive pharmacological approaches to target obesity and related comorbidities in IDD. However, persons with IDD treated with antipsychotics are systematically excluded from clinical trials hindering development of evidence to help guide safe and effective treatment of these comorbidities. Moreover, evidence from other disorders cannot be extrapolated to IDD given inherent biological differences between disorders. This trial will address the identified gaps, which extend beyond cardiovascular morbidity and negatively impact psychosocial outcomes, in a hugely underserviced population.This is the the first RCT (randomized control trial) to examine the efficacy of metformin in overweight or obese adults with IDD who have experienced antipsychotic-induced weight gain. By generating efficacy data for a very accessible and scalable intervention, allows for guideline and implementation strategies to address a recalcitrant health problem."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Metformin vs Placebo",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Double Blinded RCT",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Stable outpatients\n* Age 16-65 years\n* Diagnosed with an IDD\n* On maintenance treatment with an antipsychotic (stable dose for \u22653 months).\n* BMI must be \u226530 kg/m2, OR \u226527 kg/m2 with at least one weight-related comorbidity (treated or untreated) such as: hypertension, dyslipidaemia, obstructive sleep apnea, or impaired fasting glucose, OR \\>=25 for individuals who have gained \\> 5% body weight in association with AP use.\n* Females of child-bearing age must be on one of the following regular contraceptives:\n\n  1. Agree to abstain from sex for the duration of the trial or\n  2. A barrier method of a diaphragm with spermicide and/or Latex condom or\n  3. An oral contraceptive agent, implantable contraceptive or an injectable contraceptive for at least six months prior to entering the study and will continue its use throughout the study, or\n  4. An intrauterine device, or\n  5. Partner has had a vasectomy at least 3 months prior to study start\n\nExclusion Criteria:\n\n* Females who are nursing, currently pregnant, or have a positive pregnancy test\n* Clinical or laboratory evidence of uncompensated cardiovascular, endocrine, haematological, hepatic, renal, or pulmonary disease\n* Previous treatment and lack of efficacy or tolerability with metformin\n* History or diagnosis of Type 1 Diabetes (T1D) or Type 2 Diabetes (TD2) or fasting blood work, HbA1c \\> 6.5%\n* History of metabolic acidosis or lactic acidosis\n* Treatment with weight-lowering agents\n* Medications with significant renal impact\n* Major medical or surgical event in the preceding 3 months\n* Acute suicidal risk.\n* Moderate to severe substance use disorder, other than caffein or nicotine use disorder",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "16 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "METIDD",
+      "briefTitle": "Metformin for Antipsychotic-induced Weight Gain in Adults With Intellectual Disability",
+      "nctId": "NCT05744479",
+      "officialTitle": "Metformin for Antipsychotic-induced Weight Gain in Adults With Intellectual Disability: A Double-Blind Randomized Control Trial",
+      "orgStudyIdInfo": {
+        "id": "024/2022"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Centre for Addiction and Mental Health"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Percentage change in body weight measured in percentage change of pounds (lbs)",
+          "measure": "Individual's percentage change in body weight",
+          "timeFrame": "Weeks 0, 4, 8, 12, 16, 10, 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Percentage change in body weight measured in percentage change of pounds (lbs), expressed as a percentage",
+          "measure": "Proportion of participants who achieve body weight reduction \u22655%, and \u226510% in each arm",
+          "timeFrame": "Week 0 and week 24"
+        },
+        {
+          "description": "Absolute change in body weight between metformin and placebo groups measured in pounds (lbs). Calculated by the mean change in weight between the metformin and placebo groups.",
+          "measure": "Between group (metformin vs placebo) absolute change in weight",
+          "timeFrame": "Week 24"
+        },
+        {
+          "description": "Absolute change in waist circumstance measured in centimetres (cm) between metformin and placebo groups. Calculated by the mean change in waist circumstance between the metformin and placebo groups.",
+          "measure": "Between group absolute change in waist circumference",
+          "timeFrame": "Week 24"
+        },
+        {
+          "description": "Absolute change in BMI between metformin and placebo groups. Calculated by the mean change in BMI between the metformin and placebo groups.",
+          "measure": "Between group absolute change in BMI",
+          "timeFrame": "Week 24"
+        },
+        {
+          "description": "With the results of the oral glucose tolerance test at Week 0 and Week 24, insulin sensitivity was calculated with the Matsuda index.\n\nInsulin sensitivity was calculated with Matsuda index: \\[10,000 / \u221aglucose minute 0 x insulin minute 0) (mean glucose (OGTT) x mean insulin OGTT)\\]. A higher result is better.\n\nIn the formula OGTT: oral glucose tolerance test.",
+          "measure": "Change in whole body insulin sensitivity calculated with Matsuda Index",
+          "timeFrame": "Week 0 and Week 24"
+        },
+        {
+          "description": "ISSI-2 is defined as the product of (i) insulin secretion measured by the ratio of the area-under-the-insulin-curve to the area-under-the-glucose curve and (ii) insulin sensitivity measured by the Matsuda index.",
+          "measure": "Change in beta-cell function, measured using the Insulin Secretion-Sensitivity Index-2 (ISSI-2)",
+          "timeFrame": "Week 0 and Week 24"
+        },
+        {
+          "description": "Measured through the change in HOMA-IR (Homeostatic Model Assessment for Insulin Resistance) derived from the Oral Glucose Tolerance Test (OGTT).",
+          "measure": "Proportion in each group converting to impaired glucose tolerance, prediabetes, or type 2 diabetes",
+          "timeFrame": "Week 0 and Week 24"
+        },
+        {
+          "description": "Measured through the change in C-reactive protein (CRP) assessed at week 0 and week 24.\n\nHealthy levels:\n\nCRP: Less than 0.3 mg/dL",
+          "measure": "Change in cardiovascular risk factors assessed by change in C-reactive protein",
+          "timeFrame": "Week 0 and Week 24"
+        },
+        {
+          "description": "Change in fasting lipid profile (low-density lipoprotein cholesterol (LDL), high-density lipoprotein cholesterol (HDL), and triglycerides) assessed at week 0 and week 24.\n\nHealthy levels:\n\nLDL: less than 100mg/dL HDL: 40mg/dL or higher Triglycerides: less than 150mg/dL",
+          "measure": "Change in cardiovascular risk factor assessed by change in fasting lipids profile",
+          "timeFrame": "Week 0 and Week 24"
+        },
+        {
+          "description": "Measured through the change in blood pressure (systolic/diastolic) assessed at week 0 and week 24. A blood pressure range of 110/70 to 120/80 is considered normal.",
+          "measure": "Change in cardiovascular risk factor assessed by change in blood pressure",
+          "timeFrame": "Week 0 and Week 24"
+        },
+        {
+          "description": "Change in visceral and liver fat content assessed via MRI scans at week 0 and week 24.",
+          "measure": "Change in visceral and liver fat content",
+          "timeFrame": "Week 0 and Week 24"
+        },
+        {
+          "description": "Measured through returning of blister pill packs, and assessing number of pills taken.",
+          "measure": "Medication Adherence",
+          "timeFrame": "Week 0 to Week 24"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Centre for Addiction and Mental Health"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-31",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-02-28",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-08",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-01-13",
+      "studyFirstSubmitQcDate": "2023-02-15"
+    }
+  }
+}

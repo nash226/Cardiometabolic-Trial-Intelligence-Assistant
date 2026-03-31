@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06264427:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06264427\nBrief title: Phenotypic and Genotypic Characterization of Patients With Dysmetabolism in Greenland\nOfficial title: Phenotypic and Genotypic Characterization of Patients With Dysmetabolism in Greenland\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06264427"
+    },
+    {
+      "chunk_id": "NCT06264427:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Diabetes Mellitus, Type 2; Obesity, Morbid; Obstructive Sleep Apnea; MODY; Diabetic Retinopathy; Diabetic Neuropathies\nIntervention labels: Whole genome sequencing; VAGUS; NightOwl; CPAP\nDrug class labels: \nArms: Intervention arm\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT06264427"
+    },
+    {
+      "chunk_id": "NCT06264427:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to perform a detailed description of the feno- and genotype of people living with type 2 diabetes and severe obesity who are linked to care at Steno Diabetes Center Greenland.\n\nThe main questions it aims to answer are:\n\n* Are monogenetic diabetes variants associated with the same risk of developing late diabetic complications as other types of diabetes?\n* Can genotyping and thereby personalized medicine be implemented in Greenland, and can personalized medicine lead to improved treatment?\n* What is the prevalence of sleep apnea among high-risk individuals in Greenland?\n* Is it possible to develop and implement a simple algorithm for the identification of sleep apnea in Greenland that can ensure treatment of severe sleep apnea?\n\nParticipants will:\n\n* Answer WHO-5 and FOSQ-10 questionnaires regarding quality of life and functional outcomes of sleepiness\n* Perform VAGUS examinations for Cardiovasculare Autonomic Neuropathy\n* Clinical examination of height, weight, circumference of hip, waist and neck, Friedman tonsil and tongue score, nasal air flow, nasal septal deviation\n* Blood samples for full genome sequencing\nDetailed description: The phenotypic and genotypic characteristics of dysmetabolism in the Greenlandic Inuit population are yet to be described in detail. However, the unique interaction of genetic and environmental factors in this population and its effect on disease development calls for further investigation. Therefore, we aim to examine how metabolic diseases manifest and progress distinctively in this population compared to Western populations.\n\nThe study employs whole genome sequencing, with a focus on identifying variants in the TBC1D4 gene, which is linked to muscular insulin resistance, and HNF1\u03b1, associated with MODY (Maturity-onset Diabetes of the Young) diabetes. In addition, the prevalence of Obstructive Sleep Apnea (OSA) in relation to metabolic disorders is examined. Our methodology combines genetic analysis with clinical evaluations to understand the impact of these genetic factors on disease manifestation and potential complications.\n\nThe findings will likely offer a unique perspective on the genetic influence on metabolic diseases in the Greenlandic Inuit population, highlighting the significance of novel genetic variants for disease management and prevention. The study investigates the relationship between metabolic disorders and OSA, and aims to describe how diagnosis and treatment of OSA can be introduced in an Arctic setting. This research emphasizes the need for genotype-aware treatment approaches and culturally tailored healthcare strategies, not only for the Greenlandic Inuit but also as a model for personalized medicine approaches in other populations. The insights gained here contribute to a deeper understanding of metabolic diseases, potentially influencing future global healthcare strategies.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 424,
+      "trial_nct_id": "NCT06264427"
+    },
+    {
+      "chunk_id": "NCT06264427:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Type 2 diabetes and/or morbid obesity (BMI \\>40)\n* Over 18 years old\n\nExclusion Criteria:\n\n* Does not speak either English, Danish or Greenlandic",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT06264427"
+    },
+    {
+      "chunk_id": "NCT06264427:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of participants with MODY diabetes and their complication status | time_frame=Blood drawn at inclusion. Results for participants ready after approximately 6 months. | description=What is the proportion of patients linked to care at SDCG who have MODY diabetes, and to what degree do they suffer from micro- and macrovascular complication.\ntype=primary | measure=Number of participants with diabetic complication | time_frame=Types and number of complications are available at inclusion. No follow-up screenings for complications are performed. | description=What is the proportion of participants with diabetes complication overall.\ntype=primary | measure=Number of participants with obstructive sleep apnea | time_frame=Home sleep testing is performed for 3 nights after inclusion. Confirmatory home sleep examinations performed one day after the initial sleep examination. In total, four days examinations time. | description=What proportion of participants suffer from OSA.\ntype=secondary | measure=CPAP compliance in Greenlandic patients | time_frame=CPAP compliance is evaluated 6 months after treatment initiation. | description=Is it possible to develop and implement a specialized treatment regime for obstructive sleep apnea in Greenland with similar treatment compliance when compared with other populations. CPAP compliance is evaluated through the online treatment system Airview (Resmed), where compliance is defined as minimum 4 hours use for 70% of nights in the past 90 days.\ntype=secondary | measure=CPAP treatment effect on quality of life measured with the World Health Organization Well-being Index (WHO-5). | time_frame=The questionnaire is answered at inclusion and 6 months after. | description=The World Health Organization Well-being Index (WHO-5) questionnaire is performed at inclusion and 6 months after. The raw scores are transformed to a score between 0 and 100, where high scores indicate higher wellbeing. Scores for participants in CPAP treatment will be compared before and after treatment to examine the effect of CPAP on quality of life.\ntype=secondary | measure=CPAP treatment effect on daytime sleepiness measured with the functional outcome of sleep questionnaire (FOSQ-10). | time_frame=The questionnaire is answered at inclusion and 6 months after. | description=The functional outcome of sleep questionnaire (FOSQ-10) is performed at inclusion and 6 months after. A total score, with a potential value between 5-20, is calculated. Low values indicate excessive daytime sleepiness while high scores indicate no excessive daytime sleepiness. Scores for participants in CPAP treatment will be compared before and after treatment to examine the effect of CPAP on quality of life.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 387,
+      "trial_nct_id": "NCT06264427"
+    },
+    {
+      "chunk_id": "NCT06264427:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-07-15\nPrimary completion date: 2025-12-31\nCompletion date: 2026-12-31\nStudy first posted: 2024-02-20\nResults first posted: None\nLast update posted: 2024-02-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06264427"
+    },
+    {
+      "chunk_id": "NCT06264427:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Steno Diabetes Center Greenland\nLead sponsor class: OTHER\nCollaborators: Zealand University Hospital; University of Copenhagen\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06264427"
+    }
+  ],
+  "trial_nct_id": "NCT06264427"
+}

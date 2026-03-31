@@ -1,0 +1,162 @@
+{
+  "arms": [
+    {
+      "description": "In this group, no nudge interventions were implemented, only data were collected.",
+      "intervention_names": [],
+      "label": "Control",
+      "type": "NO_INTERVENTION"
+    },
+    {
+      "description": "Students are exposed to information about the sugar content of cola on the Questionnaire Star platform to \"nudge\" students towards healthier choices",
+      "intervention_names": [
+        "Behavioral: choice architecture"
+      ],
+      "label": "choice architecture (Sugar Content Information)",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Students are exposed to information about the harms of cola on the Questionnaire Star platform to \"nudge\" students towards healthier choices",
+      "intervention_names": [
+        "Behavioral: choice architecture"
+      ],
+      "label": "choice architecture (Sugar Harm Information)",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Students are exposed to information about the most peers choose mineral water on the Questionnaire Star platform to \"nudge\" students towards healthier choices",
+      "intervention_names": [
+        "Behavioral: choice architecture"
+      ],
+      "label": "choice architecture (Social Norm Information)",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Food Selection",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* college students\n* 18 years or above of age\n* willing to participate\n\nExclusion Criteria:\n\n* None",
+    "healthy_volunteers": true,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "choice architecture (Sugar Content Information)"
+      ],
+      "description": "Display the sugar content of the drink on the platform.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "choice architecture",
+      "normalized_name": "choice architecture"
+    },
+    {
+      "arm_group_labels": [
+        "choice architecture (Sugar Harm Information)"
+      ],
+      "description": "Showing the various harms that can come from long-term excessive consumption of sugary beverages on the platform.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "choice architecture",
+      "normalized_name": "choice architecture"
+    },
+    {
+      "arm_group_labels": [
+        "choice architecture (Social Norm Information)"
+      ],
+      "description": "The platform shows the information that the majority of their peers have chosen mineral water.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "choice architecture",
+      "normalized_name": "choice architecture"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Investigators will collect online records of beverage choices submitted by students on the Questionnaire Star platform. If the participant chooses a bottle of mineral water, the participant will receive a value of one. Otherwise, the participant will receive a value of zero. Investigators will use this binary measure to estimate the proportion of students who choose mineral water.",
+      "measure": "Percentage of students who chose cola",
+      "outcome_type": "primary",
+      "time_frame": "1 day"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The primary objective of this study is to investigate whether three nudging interventions would affect the beverage selection and consumption behaviors of Chinese university students. These interventions encompass providing information on the sugar content of sugar-sweetened beverages (SSBs), disseminating harmful information about SSBs, and showcasing the social norm that the majority of students opt for mineral water. Through a single-factor between-subjects experiment, we aim to examine the impact of these nudge interventions on the proportion of students choosing sugary drinks versus mineral water, thereby assessing their effectiveness in guiding healthier beverage choices.",
+    "brief_title": "Using Nudge Strategies to Promote Healthier Beverage Intake Among College Students",
+    "collaborator_names": [],
+    "completion_date": "2026-07-30",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* college students\n* 18 years or above of age\n* willing to participate\n\nExclusion Criteria:\n\n* None",
+    "detailed_description": "As the prevalence of overweight, obesity, and chronic diseases continues to escalate, excessive consumption of sugar-sweetened beverages (SSBs) has emerged as a growing public health concern globally. One approach to reducing beverage intake while conserving resources is the utilization of nudge strategies. Nudge strategies, characterized by their low cost and ease of implementation, facilitate individuals in making more accurate and beneficial choices in a predictable manner, through subtle interventions that do not prohibit any options or significantly alter incentives. This nudge experiment will be conducted in a classroom setting, where participants will be randomly assigned to four groups for beverage selection: No Nudge Intervention Group, Sugar Content Information Nudge Group, Sugar Harmful information Nudge Group and Social Norm Nudge Group. Participants will access the nudge content specific to their respective groups via the professional survey platform of Questionnaire Star and make a choice between cola and mineral water.",
+    "drug_class_labels": [],
+    "enrollment_count": 300,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "choice architecture"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-05-28",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Nanjing Medical University",
+    "masking": "SINGLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06596564",
+    "official_title": "A Study on Nudge Interventions to Promote Changes in Sugar-Sweetened Beverage Consumption Behaviors Among College Students",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2026-07-01",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06596564",
+    "start_date": "2024-10-01",
+    "study_first_posted_at": "2024-09-19",
+    "study_type": "INTERVENTIONAL"
+  }
+}

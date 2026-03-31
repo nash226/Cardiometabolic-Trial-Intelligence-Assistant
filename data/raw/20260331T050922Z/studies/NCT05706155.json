@@ -1,0 +1,446 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D006946",
+          "term": "Hyperinsulinism"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D007333",
+          "term": "Insulin Resistance"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D004035",
+          "term": "Diet Therapy"
+        },
+        {
+          "id": "D044623",
+          "term": "Nutrition Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004032",
+          "term": "Diet"
+        },
+        {
+          "id": "D009747",
+          "term": "Nutritional Physiological Phenomena"
+        },
+        {
+          "id": "D000066888",
+          "term": "Diet, Food, and Nutrition"
+        },
+        {
+          "id": "D010829",
+          "term": "Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000095500",
+          "term": "Diet, Plant-Based"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Hypocaloric diet with predominance of animal protein",
+          "interventionNames": [
+            "Behavioral: Control Diet"
+          ],
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Hypocaloric diet with predominance of plant protein",
+          "interventionNames": [
+            "Behavioral: Plant-based Diet"
+          ],
+          "label": "Intervention",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Control"
+          ],
+          "description": "Hypocaloric diet to achieve a 5% weight loss with macronutrient distribution according to current guidelines for T2D: 50% of energy from carbohydrates, prioritizing those with low glycemic index; 30% from total fats and a maximum of 10% from saturated fats; 20% of energy from proteins, 15% from animal sources and 5% from plant sources. Participants will also receive printed and validated educational material, with recommendations for healthy eating, and will be instructed to maintain their habitual physical activity level.",
+          "name": "Control Diet",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Intervention"
+          ],
+          "description": "Hypocaloric diet to achieve a 5% weight loss. The dietary prescription was adapted from the Eat-Lancet Commission report to Brazilian population culture, with 50% of energy from carbohydrates, prioritizing those with a low glycemic index; 30% from total fats and a maximum of 5% from saturated fats; 20% from proteins, 5% from animal sources and 15% from plant sources. Participants in this group will receive printed and validated support material with recommendations for a healthy and plant-based eating, and will be instructed to maintain their habitual physical activity level.",
+          "name": "Plant-based Diet",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes",
+        "Overweight",
+        "Obesity"
+      ],
+      "keywords": [
+        "Diabetes Mellitus",
+        "Obesity",
+        "Plant-based Diet",
+        "Insulin Resistance"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "fgerchman@hcpa.edu.br",
+          "name": "Fernando Gerchman, PhD",
+          "phone": "+555133596246",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Porto Alegre",
+          "contacts": [
+            {
+              "email": "fgerchman@hcpa.edu.br",
+              "name": "Fernando Gerchman, PhD",
+              "phone": "55 51 33598127",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Brazil",
+          "facility": "Hospital de Cl\u00ednicas de Porto Alegre",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          },
+          "state": "Rio Grande do Sul",
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Hospital de Cl\u00ednicas de Porto Alegre",
+          "name": "Fernando Gerchman, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to examine the effect plant-based diet, with a partial replacement of animal protein by plant protein, in blood sugar levels and other health risks of people with type 2 diabetes and excessive weight. The plant-based diet will be compared to a standard healthy diet according to guidelines for people with diabetes. Participants will follow a plant-based or a standard healthy diet for 24 weeks and will maintain their habitual levels of physical activity.",
+      "detailedDescription": "This is a single center, open label, parallel and randomized clinical trial. Subjects with type 2 diabetes (T2D) and excessive weight will be recruited through advertisement on the web page of Hospital de Cl\u00ednicas de Porto Alegre (HCPA), local newspaper, television and social media, or referred by a doctor or nutritionist, from external to HCPA services. Patients will be also screened through electronic records of HCPA's clinics. After screening and selection according to inclusion criteria, participants will undergo a clinical, laboratory and nutritional evaluation following a standard assessment protocol. After all baseline assessments, they will be randomly allocated to one of the following interventions for 24 weeks: (1) Control diet (CDG): hypocaloric diet according to current guidelines for T2D or (2) Plant-based diet (PBG): hypocaloric diet with partial replacement of animal protein by plant protein. Both groups will have caloric targets calculated to achieve a 5% weight loss during the 6 months of study, will have the same macronutrient distribution on the diet and will receive the same nutritional and medical support. Telephone calls will be performed monthly for adherence evaluation. At the end of 12 and 24 weeks of intervention, all patients will be submitted to the same clinical, laboratory and nutrition exams applied at baseline."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a single center and open label randomized controlled trial, in which participants will be assigned to one of the two different dietary interventions",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The participants and the care providers will not be blinded. People involved in assessing outcomes and with data analysis will be blinded.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 146,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults (\u226518 and \u226465 years old)\n* Diagnosis of Type 2 Diabetes;\n* Glycated hemoglobin from 7% to 11%;\n* Overweight or obesity (BMI \u226525 kg/m\u00b2 and \\<40 kg/m\u00b2);\n* Use of any hypoglycemic and insulin;\n* Stable weight (maximum variation of approximately 5%) for at least 12 weeks before screening;\n* Not having undergone dietary intervention in the last 6 months;\n* Have the ability to understand and be able to adhere to intervention proposals;\n* Able and willing to provide an informed consent form for written and to comply with the requirements of the study protocol;\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus;\n* Retinopathy with vision deficit that limits the activities proposed in the interventions;\n* Chronic kidney disease with estimated glomerular filtration \\< 30 mL/min per 1.73m\u00b2;\n* Liver failure, chronic viral hepatitis;\n* Grade III or IV heart failure\n* Active or progressive neurodegenerative disease;\n* Prior stroke that has caused sequelae;\n* Use of medications that affect glucose metabolism (e.g. corticosteroids or immunosuppressants) or cause weight loss;\n* Chronic treatment with oral or parenteral corticosteroids (\\>7 days consecutive treatment) within 4 weeks prior to screening;\n* Treatment with weight-reducing agents (eg, orlistat, sibutramine, topiramate, bupropion, liraglutide, semaglutide) within the last 12 weeks before screening;\n* Treatment with thyroid hormone that was not maintained at a stable dose in last 12 weeks before screening;\n* History of active substance abuse (including alcohol) within the last year;\n* Thyroid Stimulating Hormone (TSH) outside the normal range;\n* Fasting triglycerides \u2265 600 mg/dL;\n* Tumor diagnosed and/or treated (except basal cell skin cancer, carcinoma in situ of the cervix, or prostate cancer in situ) within the last 5 years;\n* Severe psychiatric illness;\n* Predisposition or diagnosis of eating disorders;\n* Women who are pregnant, intend to become pregnant during the study period, or who are currently breastfeeding;\n* Hyperglycemia characterized by acute symptoms: polyuria, polydipsia and/or weight loss in the last 3 months;\n* Metabolic and acute complications of diabetes such as ketoacidosis or hyperosmolar coma;\n* Potentially unreliable patients and those deemed by the investigator to be unsuitable for the study;\n* Night workers who work after 10pm;\n* Being on a vegetarian, vegan or flexitarian diet at the time of recruitment;\n* Having undergone bariatric surgery;\n* Carriers of the human immunodeficiency virus (HIV);\n* Any other medical condition/disorder that the investigators consider that are likely to: interfere with the patient's ability to complete the entire study period or participate in study activities;\n* Participants who require any treatment that could affect the interpretation, reliability or safety of data during the study intervention.",
+      "healthyVolunteers": false,
+      "maximumAge": "65 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effect of Partial Dietary Replacement From Animal to Plant-Based Protein for Type 2 Diabetes Management",
+      "nctId": "NCT05706155",
+      "officialTitle": "Effect of Partial Dietary Replacement From Animal to Plant-Based Protein for Type 2 Diabetes Management: A Randomized Clinical Trial",
+      "orgStudyIdInfo": {
+        "id": "2020-0095"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Hospital de Clinicas de Porto Alegre"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Difference between groups in glycated hemoglobin",
+          "measure": "Change in Glycated Hemoglobin",
+          "timeFrame": "baseline, 12 and 24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "For continuous glucose monitoring and assessment of glycemic variability, the FreeStyle Libre, ABBOTT\u00ae device will be used. FreeStyle Libre consists of a continuous glucose monitoring (SMCG) system. Glycemic variability will be assessed using time on target parameters of values between 70 and 180 mg/dL, time in hypoglycemia and time above target and coefficient of variability as measures of glycemic variability.",
+          "measure": "Glycemic Variability",
+          "timeFrame": "baseline and 12 weeks"
+        },
+        {
+          "description": "Postprandial metabolism will be measured after the intake of liquid standard meal. Insulin secretion, insulin sensitivity and beta-cell function will be assessed by mathematical models",
+          "measure": "Changes in postprandial metabolism",
+          "timeFrame": "baseline and 12 weeks"
+        },
+        {
+          "description": "Fat-free mass and fat mass will be assessed by Bioelectrical Impedance (body composition analyzer tetrapolar InBody 370S, BiospaceCo. Ltd, Seoul, South Korea). Anthropometric measures include brachial, neck, waist, hip and calf circumferences, with participants wearing light clothing and barefoot.",
+          "measure": "Changes in body composition",
+          "timeFrame": "Monthly, up to 24 weeks"
+        },
+        {
+          "description": "Lipid profile will include total cholesterol, HDL-c, LDL-c, triglycerides, apolipoprotein B, apolipoprotein a1 and lipoprotein (a).",
+          "measure": "Changes in cardiometabolic outcomes",
+          "timeFrame": "baseline and 24 weeks"
+        },
+        {
+          "description": "Blood pressure (mmHg) will be assessed in triplicate with an interval of 1 minute between measurements, with the participant in the sitting position, after 5 minutes of rest. On a subsample, the ambulatory blood pressure monitoring will be used in order to record blood pressure measures in 24 hours and evaluate parameters such as mean BP, pressure loads, areas under the curve, variations between daytime and nighttime, pulse pressure variability",
+          "measure": "Changes in blood pressure",
+          "timeFrame": "baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "Ultra-Sensitive C-Reactive Protein (US-CRP) test will be performed to assess systemic inflammation.",
+          "measure": "Changes in inflammatory marker",
+          "timeFrame": "baseline and 24 weeks"
+        },
+        {
+          "description": "Food craving will be assessed by the Food Craving Questionnaire-State (FCQ-S), which is composed of 15 statements and is a tool sensitive to changes in contextual, psychological and physiological states in response to specific situations. Higher scores are associated with greater food deprivation, negative eating-related experiences and a greater susceptibility to triggers that lead to eating. Each item has a Likert-response, with (1) totally disagree and (5) totally agree. Total scores vary from 15 to 75 and correspond to the sum of all statements.",
+          "measure": "Changes in food craving scale",
+          "timeFrame": "baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "Quality of life will be measured by the The Short Form 36 Health Survey Questionnaire (the SF-36). SF-36 is a 36 item scale, which measures eight domains of health status: physical functioning (10 items); physical role limitations (four items); bodily pain (two items); general health perceptions (five items); energy/vitality (four items); social functioning (two items); emotional role limitations (three items) and mental health (five items). The scores are transformed to range from zero where the respondent has the worst possible health to 100 where the respondent is in the best possible health.",
+          "measure": "Changes in quality of life scale",
+          "timeFrame": "baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "The Beck Depression Inventory will be used for detecting depressive symptoms, which consists of 21 sets of statements about depressive symptoms in the last 15 days that are rated on a 0 to 3 scale and total scores ranging from 0 to 63. The severity of symptoms will be classified as follows: 0-13, minimal/no depression; 14-19, mild depression; 20-28, moderate depression; and 29-63, severe depression.",
+          "measure": "Changes in depressive symptoms",
+          "timeFrame": "baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "The Generalized Anxiety Symptoms-7 (GAD-7) will be used for assessing anxiety symptoms, which consists of 7 self-reported items. Each item has a Likert-response format on a 4-point scale (0- 3 points). Respondents will be asked to consider the previous 2 weeks and to rate symptom frequency as 'not at all' (0), 'several days' (1), 'more than half of all days' (2) or 'nearly all days' (3). The total score response ranges from 0 to 21.",
+          "measure": "Changes in anxiety symptoms",
+          "timeFrame": "baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "Adherence will be assessed by 7-day weighted food records at 12 and 24 weeks, and by 24-hour food records monthly.",
+          "measure": "Adherence to a plant-based diet",
+          "timeFrame": "Baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "Incidence of sarcopenia during follow-up among participants without sarcopenia at baseline. Sarcopenia will be defined according to established diagnostic criteria, based on low handgrip strength (muscle strength), low appendicular skeletal muscle mass index (muscle quantity), and impaired physical performance assessed by the Timed Up and Go test",
+          "measure": "Incidence of sarcopenia",
+          "timeFrame": "baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "Dietary intake will be assessed at baseline and follow-up and classified according to the NOVA food classification system. The outcome is the change in ultra-processed food (UPF) consumption over time. UPF intake will be quantified using complementary metrics, percentage of total energy intake (% energy), absolute energy intake (kcal/day), and amount consumed (g/day), which represent alternative expressions of the same outcome construct.",
+          "measure": "Change in ultra-processed food consumption",
+          "timeFrame": "Baseline, 12, and 24 weeks"
+        },
+        {
+          "description": "Renal function will be assessed by estimated glomerular filtration rate calculated using the CKD-EPI 2021 equation based on serum creatinine.",
+          "measure": "Change in estimated glomerular filtration rate",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "description": "Glomerular injury will be assessed by measuring urinary albumin excretion in a 24-hour urine collection and a urine sample. This analysis will be conducted in participants with urinary albumin levels greater than 14 mg/L at baseline.",
+          "measure": "Change in albuminuria",
+          "timeFrame": "Baseline, 12 and 24 weeks"
+        },
+        {
+          "description": "Bone mineral metabolism will be assessed at baseline and follow-up. The outcome is the change in bone mineral metabolism parameters, evaluated using a panel of serum biomarkers including calcium, phosphorus, and 25-hydroxyvitamin D, measured by standard laboratory methods.",
+          "measure": "Change in bone mineral metabolism parameters",
+          "timeFrame": "Baseline, 12 and 24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Toumpanakis A, Turnbull T, Alba-Barba I. Effectiveness of plant-based diets in promoting well-being in the management of type 2 diabetes: a systematic review. BMJ Open Diabetes Res Care. 2018 Oct 30;6(1):e000534. doi: 10.1136/bmjdrc-2018-000534. eCollection 2018.",
+          "pmid": "30487971",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Willett W, Rockstrom J, Loken B, Springmann M, Lang T, Vermeulen S, Garnett T, Tilman D, DeClerck F, Wood A, Jonell M, Clark M, Gordon LJ, Fanzo J, Hawkes C, Zurayk R, Rivera JA, De Vries W, Majele Sibanda L, Afshin A, Chaudhary A, Herrero M, Agustina R, Branca F, Lartey A, Fan S, Crona B, Fox E, Bignet V, Troell M, Lindahl T, Singh S, Cornell SE, Srinath Reddy K, Narain S, Nishtar S, Murray CJL. Food in the Anthropocene: the EAT-Lancet Commission on healthy diets from sustainable food systems. Lancet. 2019 Feb 2;393(10170):447-492. doi: 10.1016/S0140-6736(18)31788-4. Epub 2019 Jan 16. No abstract available.",
+          "pmid": "30660336",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Moulin CC, Tiskievicz F, Zelmanovitz T, de Oliveira J, Azevedo MJ, Gross JL. Use of weighed diet records in the evaluation of diets with different protein contents in patients with type 2 diabetes. Am J Clin Nutr. 1998 May;67(5):853-7. doi: 10.1093/ajcn/67.5.853.",
+          "pmid": "9583841",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Tai MM. A mathematical model for the determination of total area under glucose tolerance and other metabolic curves. Diabetes Care. 1994 Feb;17(2):152-4. doi: 10.2337/diacare.17.2.152.",
+          "pmid": "8137688",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Czerwoniuk D, Fendler W, Walenciak L, Mlynarski W. GlyCulator: a glycemic variability calculation tool for continuous glucose monitoring data. J Diabetes Sci Technol. 2011 Mar 1;5(2):447-51. doi: 10.1177/193229681100500236.",
+          "pmid": "21527118",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Wang YP, Gorenstein C. Psychometric properties of the Beck Depression Inventory-II: a comprehensive review. Braz J Psychiatry. 2013 Oct-Dec;35(4):416-31. doi: 10.1590/1516-4446-2012-1048. Epub 2013 Dec 23.",
+          "pmid": "24402217",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Sousa TV, Viveiros V, Chai MV, Vicente FL, Jesus G, Carnot MJ, Gordo AC, Ferreira PL. Reliability and validity of the Portuguese version of the Generalized Anxiety Disorder (GAD-7) scale. Health Qual Life Outcomes. 2015 Apr 25;13:50. doi: 10.1186/s12955-015-0244-2.",
+          "pmid": "25908249",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Queiroz de Medeiros AC, Campos Pedrosa LF, Hutz CS, Yamamoto ME. Brazilian version of food cravings questionnaires: Psychometric properties and sex differences. Appetite. 2016 Oct 1;105:328-33. doi: 10.1016/j.appet.2016.06.003. Epub 2016 Jun 7.",
+          "pmid": "27288149",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Cruz LN, Fleck MP, Oliveira MR, Camey SA, Hoffmann JF, Bagattini AM, Polanczyk CA. Health-related quality of life in Brazil: normative data for the SF-36 in a general population sample in the south of the country. Cien Saude Colet. 2013 Jul;18(7):1911-21. doi: 10.1590/s1413-81232013000700006.",
+          "pmid": "23827895",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER_GOV",
+          "name": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Hospital de Clinicas de Porto Alegre"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-12-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-26",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-11-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-12-23",
+      "studyFirstSubmitQcDate": "2023-01-20"
+    }
+  }
+}

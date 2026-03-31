@@ -1,0 +1,273 @@
+{
+  "arms": [
+    {
+      "description": "participants in this arm ingest coffee capsules with 1.8g instant black coffee powder twice daily with breakfast and lunch.",
+      "intervention_names": [
+        "Dietary Supplement: Coffee capsule"
+      ],
+      "label": "Coffee capsule",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "participants in this arm consume cornstarch capsules (without coffee) twice daily with breakfast and lunch.",
+      "intervention_names": [
+        "Dietary Supplement: Corn starch capsule"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Prediabetes",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Age between 18 and 59 years old;\n2. Diagnosis of Prediabetes according to the WHO criteria (fasting glucose=6.1-6.9 mmol/L and/or 2-hour post-OGTT glucose=7.8- 11.0 mmol/L);\n3. Body mass index ( BMI ) \u2265 28kg/m2;\n4. No coffee intake in the past month;\n5. Provide written informed consent and be willing to participate.\n\nExclusion Criteria:\n\n1. Patients with diagnosis of diabetes, or taking anti-diabetic medication;\n2. Patients with cardiovascular or cerebrovascular diseases, cancer, renal disease, liver disease, other chronic diseases affecting glucose and lipid metabolism, etc;\n3. Participants with known hypersensitivity or intolerance to coffee, or unwilling to accept coffee;\n4. Pregnancy, planned pregnancy, or lactation;\n5. Investigators, for any reason, consider the participants inappropriate for the study (e.g., uncontrolled bipolar disease).",
+    "healthy_volunteers": true,
+    "maximum_age_text": "59 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Coffee capsule"
+      ],
+      "description": "Take 12 coffee capsules containing 3.6 g instant black coffee powder per day (take 6 coffee capsules twice daily with breakfast and lunch).",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Coffee capsule",
+      "normalized_name": "coffee capsule"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo"
+      ],
+      "description": "Take 12 placebo capsules containing 3.6 g corn starch per day (take 6 placebo capsules twice daily with breakfast and lunch).",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Corn starch capsule",
+      "normalized_name": "corn starch capsule"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "14 days blinded intermittent-scanned continuous glucose monitoring (CGM): the FreeStyle Libre Pro system is utilized to record glycemic data, with the readout of the device exclusively performed by researchers. During the day, participants will be blinded to their glucose values.",
+      "measure": "Continuous glucose monitoring parameters",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after three-month intervention"
+    },
+    {
+      "description": "Blood samples will be drawn at time points 0 min, 30 min, 120 min for glucose measurements during a 75 g-oral glucose tolerance test (75 g-OGTT).\n\nIncremental glucose area under the curve (gAUC) will be calculated using the trapezoidal method.",
+      "measure": "glucose from a 75 g-oral glucose tolerance test \uff08mmol/L\uff09",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Blood samples will be drawn at time points 0 min, 30 min, 120 min for insulin measurements during a 75 g-oral glucose tolerance test (75 g-OGTT).\n\nIncremental insulin area under the curve (iAUC) will be calculated using the trapezoidal method.",
+      "measure": "insulin from a 75 g-oral glucose tolerance test \uff08pmol/L\uff09",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Blood samples will be drawn at time points 0 min, 30 min, 120 min for C-peptide measurements during a 75 g-oral glucose tolerance test (75 g-OGTT).",
+      "measure": "C-peptide from a 75 g-oral glucose tolerance test (ng/ml)",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Blood samples will be drawn at time points 0 min, 30 min, 120 min for glucagon measurements during a 75 g-oral glucose tolerance test (75 g-OGTT).",
+      "measure": "glucagon from a 75 g-oral glucose tolerance test\uff08pmol/L\uff09",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Reflect the levels of blood sugar in the past two to three months.",
+      "measure": "Glycated hemoglobin (HbA1c) ( % )",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after three-month intervention"
+    },
+    {
+      "description": "Serum total cholesterol concentrations under fasting conditions.",
+      "measure": "Fasting total cholesterol (mmol/L)",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Serum high-density lipoprotein-cholesterol (HDL-C) concentrations under fasting conditions.",
+      "measure": "Fasting high-density lipoprotein-cholesterol (mmol/L)",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Serum low-density lipoprotein-cholesterol ( LDL-C) concentrations under fasting conditions.",
+      "measure": "Fasting low-density lipoprotein-cholesterol (mmol/L)",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Serum triglycerides concentrations under fasting conditions.",
+      "measure": "Fasting triglycerides (mmol/L)",
+      "outcome_type": "primary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Serum levels of inflammatory factors: high-sensitivity C-reactive protein (CRP).",
+      "measure": "C-reactive protein",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Serum levels of inflammatory factors: interleukin-6 (IL-6).",
+      "measure": "Interleukin-6",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Calculation of body mass index (BMI) using body weight and height.",
+      "measure": "Body mass index ( kg/m^2)",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Assessed using an InBody bioelectrical impedance analyzer.",
+      "measure": "Fat mass (FM)",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Assessed using an InBody bioelectrical impedance analyzer.",
+      "measure": "body fat percentage (BF)",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Assessed using an InBody bioelectrical impedance analyzer.",
+      "measure": "visceral fat",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Assessed using an InBody bioelectrical impedance analyzer.",
+      "measure": "skeletal muscle mass (SMM)",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Assessed using an InBody bioelectrical impedance analyzer.",
+      "measure": "fat-free mass (FFM)",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "high-molecular-weight adiponectin",
+      "measure": "Adiponectin",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "After 20 min of rest, blood pressure will be measured between 8:00 and 9:00 in the morning by an experienced nurse and the average of three consecutive measurements will be recorded.",
+      "measure": "Systolic blood pressure\uff08mmHg\uff09",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "After 20 min of rest, blood pressure will be measured between 8:00 and 9:00 in the morning by an experienced nurse and the average of three consecutive measurements will be recorded.",
+      "measure": "Diastolic blood pressure\uff08mmHg\uff09",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "After 20 min of rest, heart rate will be measured between 8:00 and 9:00 in the morning by an experienced nurse and the average of three consecutive measurements will be recorded.",
+      "measure": "Heart rate \uff08bpm\uff09",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Controlled attenuation parameter (CAP) by transient hepatic elastography (THE) assesses the degree of hepatic steatosis.",
+      "measure": "Controlled attenuation parameter (CAP)",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    },
+    {
+      "description": "Heart Rhythm Variation Analysis.",
+      "measure": "Standard deviation of heart rate variability (SDNN)",
+      "outcome_type": "secondary",
+      "time_frame": "at baseline, after one-month intervention, after three-month intervention"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Epidemiological studies have shown an inverse association between coffee consumption and risk of type 2 diabetes. However, the randomized controlled trials in prediabetes are limited to evaluate the effects of coffee. The purpose of this study is to investigate the effects of coffee on metabolic factors and inflammation in individuals with prediabetes and obesity. A double-blind, randomized controlled trial is designed to explore the effects of coffee consumption on participants with prediabetes and obesity. A total of 100 eligible participants with prediabetes and obesity will be recruited from the Health Management Center of Nanjing First Hospital. These participants are randomly assigned in a 1:1 ratio to either the coffee capsule group or the control group. The coffee capsule group will be instructed to consume 3.6 g of coffee capsules per day (0.3 g per capsule, 6 capsules per serving, twice a day, once in the morning and once in the middle of the day). The control group will be asked to consume 3.6 g of cornstarch capsules (0.3 g per capsule, 6 capsules per serving, twice a day, once in the morning and once in the middle of the day). 75 g oral glucose tolerance test, 2-week blinded continuous glucose measurement and others will be performed before and after the 3-month intervention. During the three months of intervention, the information on dietary intake, physical activity and sleep of participants will be systematically collected. To comprehensively assess the impact of coffee intake on prediabetes and obesity, we will analyze the effects of coffee capsules on various metabolic and inflammatory markers, including glucose metabolism, lipid profiles, blood pressure, adiponectin, high sensitivity C-reactive protein, interleukin-6, body mass index, body composition, the degree of hepatic steatosis and so on. We will further adjust for potential confounding factors such as lifestyle factors to better understand the underlying biological mechanisms driving this association.",
+    "brief_title": "Effects of Coffee Consumption on Metabolic Markers in Adults With Prediabetes and Obesity",
+    "collaborator_names": [],
+    "completion_date": "2024-10",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Age between 18 and 59 years old;\n2. Diagnosis of Prediabetes according to the WHO criteria (fasting glucose=6.1-6.9 mmol/L and/or 2-hour post-OGTT glucose=7.8- 11.0 mmol/L);\n3. Body mass index ( BMI ) \u2265 28kg/m2;\n4. No coffee intake in the past month;\n5. Provide written informed consent and be willing to participate.\n\nExclusion Criteria:\n\n1. Patients with diagnosis of diabetes, or taking anti-diabetic medication;\n2. Patients with cardiovascular or cerebrovascular diseases, cancer, renal disease, liver disease, other chronic diseases affecting glucose and lipid metabolism, etc;\n3. Participants with known hypersensitivity or intolerance to coffee, or unwilling to accept coffee;\n4. Pregnancy, planned pregnancy, or lactation;\n5. Investigators, for any reason, consider the participants inappropriate for the study (e.g., uncontrolled bipolar disease).",
+    "detailed_description": "Participants with both prediabetes and obesity who undergo physical examinations at the Health Management Center of Nanjing First Hospital will be recruited for this study. The details of this study design are as follows:\n\n1\\. Inclusion and exclusion criteria for participants. Inclusion criteria are as follows: 1) Age between 18 and 59 years old; 2) Body mass index (BMI) \u2265 28 kg/m2; 3) No consumption of coffee in the past month; 4) Provide written informed consent; 5) Abnormal glucose tolerance, as per the 1999 WHO diagnostic criteria for prediabetes, includes impaired fasting glucose (IFG), impaired glucose tolerance (IGT) or a combination of both, with blood glucose fluctuations within an abnormal range (fasting blood glucose \u22656.1 mmol/L but \\<7.0 mmol/L, and/or 2-hour glucose tolerance blood glucose \u22657.8 mmol/L but \\<11.1 mmol/L). The exclusion criteria for participants include individuals who 1) have been diagnosed with diabetes or are taking anti-diabetic drugs; 2) have a history of diseases such as cancer, liver and kidney dysfunction, existing cardiovascular and cerebrovascular diseases, and other diseases that may affect glucose and lipid metabolism; 3) self-report gastrointestinal reaction or intolerance to coffee and reject coffee consumption; 4) are pregnant or planning to become pregnant in the near future; 5) are deemed unsuitable to participate in this study by researcher believes that they are not to participate in this study.\n\n2\\. Sample size calculation: Based on the estimation of research purpose, research design, expected effect size, and statistical analysis method, the sample size is determined to be 100 cases, including fifty cases in the intervention group and fifty cases in the control group.\n\n3\\. Definition of the intervention group and placebo group: the intervention group serves as the coffee capsule group, and will receive 3.6 g of coffee capsules per day (0.3 g/capsule, 6 capsules/time, 2 times/day, once in the morning and once in the middle of the day). The placebo group (control group) is required to consume 3.6 g of cornstarch capsules per day (0.3 g/capsule, 6 capsules/time, 2 times/day, once in the morning and once in the middle of the day).\n\n4\\. Follow-up and data collection: this follow-up period will span three months. Before and after the 3-month intervention the participants will partake in:\n\n1. regular assessments. Demographic characteristics and medical information will be collected, including age, gender, occupation, education level, income, medication history (hormones, contraceptives, etc.), and family history of chronic diseases. Besides, using questionnaires, we also collect lifestyle information such as smoking, drinking, diet intake, physical activity, and sleep of participants. Specifically, the Simplified Food Frequency Questionnaire (FFQ25) and 24-hour Diet Record Questionnaire (DR) are employed to assess the dietary intake of participants in the past six months and the previous 24 hours (one day each in the middle of the week and on the weekend), respectively. International Physical Activity Questionnaire (IPAQ) is utilized to assess various aspects of physical activity, including time, frequency, and intensity. The sleep information (sleep time, sleep quality, etc.) is evaluated by Pittsburgh sleep quality index (PSQI).\n2. A 75 g oral glucose tolerance test (75 g-OGTT). Blood samples are taken fasting and 30, 120 minutes after the glucose load. Blood samples are analyzed for glucose, insulin, C-peptide, and glucagon.\n3. 2-week continuous glucose measurement using blinded continuous glucose monitor/sensor on upper arm.\n4. Fasting blood samples: glycated hemoglobin (HbA1c), total cholesterol, high-density lipoprotein-cholesterol (HDL-C), low-density lipoprotein-cholesterol (LDL-C), triglycerides, high sensitivity C-reactive protein (CRP), interleukin 6 (IL-6).\n5. Furthermore, blood pressure, transient hepatic elastography for the assessment of fatty liver degree, body composition analysis, and heart rhythm variation analysis are collected using corresponding instrument and equipment inspection. Additionally, blood, urine, and stool samples will be collected for further analysis.",
+    "drug_class_labels": [],
+    "enrollment_count": 100,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Coffee capsule",
+      "Corn starch capsule"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Prediabetes",
+      "Obesity",
+      "Coffee",
+      "Glucose metabolism",
+      "Lipid metabolism",
+      "Inflammation"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-03-26",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Nanjing First Hospital, Nanjing Medical University",
+    "masking": "DOUBLE",
+    "maximum_age_text": "59 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06330727",
+    "official_title": "Effects of Three-Month Coffee Consumption on Metabolic Biomarkers in Adults With Prediabetes and Obesity: a Randomized, Double-blind, Placebo-controlled Clinical Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2024-10",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06330727",
+    "start_date": "2024-02-05",
+    "study_first_posted_at": "2024-03-26",
+    "study_type": "INTERVENTIONAL"
+  }
+}

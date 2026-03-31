@@ -1,0 +1,374 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D009068",
+          "term": "Movement"
+        },
+        {
+          "id": "D009142",
+          "term": "Musculoskeletal Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D015444",
+          "term": "Exercise"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants in the Core component condition will receive guidance and support for healthy eating and regular physical activity.",
+          "interventionNames": [
+            "Behavioral: Mediterranean eating style",
+            "Behavioral: Physical activity"
+          ],
+          "label": "Core Component",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive support to eat with more awareness of hunger and fullness signals and to explore/identify ways to enjoy physical activity.",
+          "interventionNames": [
+            "Behavioral: Mediterranean eating style",
+            "Behavioral: Physical activity",
+            "Behavioral: Mindful Eating",
+            "Behavioral: Enjoyable Exercise"
+          ],
+          "label": "Core Component+Mindful eating+Enjoyable exercise",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive support to eat with more awareness of hunger and fullness signals, strategies to improve how they think and feel about their bodies, and to explore/identify ways to enjoy physical activity.",
+          "interventionNames": [
+            "Behavioral: Mediterranean eating style",
+            "Behavioral: Physical activity",
+            "Behavioral: Mindful Eating",
+            "Behavioral: Body Appreciation",
+            "Behavioral: Enjoyable Exercise"
+          ],
+          "label": "All component condition",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive support to eat with more awareness of hunger and fullness signals and strategies to improve how they think and feel about their bodies.",
+          "interventionNames": [
+            "Behavioral: Mediterranean eating style",
+            "Behavioral: Physical activity",
+            "Behavioral: Mindful Eating",
+            "Behavioral: Body Appreciation"
+          ],
+          "label": "Core Component+Mindful eating+Body Appreciation",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants in this condition will receive guidance and support for healthy eating and regular physical activity. They will also receive strategies to improve how they think and feel about their bodies, and to explore/identify ways to enjoy physical activity.",
+          "interventionNames": [
+            "Behavioral: Mediterranean eating style",
+            "Behavioral: Physical activity",
+            "Behavioral: Body Appreciation",
+            "Behavioral: Enjoyable Exercise"
+          ],
+          "label": "Core component+body appreciation+enjoyment of exercise",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "All component condition",
+            "Core Component",
+            "Core Component+Mindful eating+Body Appreciation",
+            "Core Component+Mindful eating+Enjoyable exercise",
+            "Core component+body appreciation+enjoyment of exercise"
+          ],
+          "description": "The Mediterranean eating style is characterized by high intake of minimally processed, plant-based foods (fruits, vegetables, whole grains, beans and nuts), high intake of olive oil, moderate intake of dairy, low intake of red meat, and wine in moderation. This dietary pattern emphasizes inclusion of health promoting foods rather than focusing on restricting types and quantities of food, weight change is not a goal of this approach, and it is flexible rather than rule based to accommodate tastes/preferences. Daily self monitoring is a key strategy to support adherence to this eating style",
+          "name": "Mediterranean eating style",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "All component condition",
+            "Core Component",
+            "Core Component+Mindful eating+Body Appreciation",
+            "Core Component+Mindful eating+Enjoyable exercise",
+            "Core component+body appreciation+enjoyment of exercise"
+          ],
+          "description": "Based on the Physical Activity Guidelines for Americans (PAG) which provide a evidence-based summary of key recommendations for adults in the United States to achieve the robust health benefits accessible through regular physical activity. Recommendations include 150 minutes of moderate-to-vigorous aerobic exercise per week, muscle strengthening activities 2 times per week, and reducing daily sedentary time. Participants will receive psychoeducation and explore examples of activities that will help achieve the goal. Strategies for monitoring exercise will be reviewed.",
+          "name": "Physical activity",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "All component condition",
+            "Core Component+Mindful eating+Body Appreciation",
+            "Core Component+Mindful eating+Enjoyable exercise"
+          ],
+          "description": "Based on Mindfulness-Based Eating Awareness Training (MB-EAT) which is a multi-session, group-based intervention designed to increase awareness of both internal and external cues to eat and to facilitate the capacity to regulate eating behaviors and food intake in response to these cues. These skills are developed through experiential activities that are completed in the group setting during each meeting including regular mindfulness practice and mindfulness activities specifically applied to the experience of eating. Participants are also given mindfulness activities to practice between group meetings.",
+          "name": "Mindful Eating",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "All component condition",
+            "Core Component+Mindful eating+Body Appreciation",
+            "Core component+body appreciation+enjoyment of exercise"
+          ],
+          "description": "An adapted version of the Body Project, a dissonance-based body appreciation program designed to increase awareness of and actively challenge sociocultural factors that promote negative body image and can disrupt healthy eating and exercise. Participants engage in group discussion and experiential activities to practice resisting sources of pressure to conform to unhealthy body standards. Between-session activities help participants translate knowledge and skills to their daily lives.",
+          "name": "Body Appreciation",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "All component condition",
+            "Core Component+Mindful eating+Enjoyable exercise",
+            "Core component+body appreciation+enjoyment of exercise"
+          ],
+          "description": "Participants will be provided with a brief overview and rationale for the importance of finding enjoyable ways to be physically active. Participants will experiment with different, evidence-based strategies to boost affect during exercise to build an activity routine that is enjoyable.",
+          "name": "Enjoyable Exercise",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity & Overweight",
+        "Cardiometabolic Risk Factors"
+      ],
+      "keywords": [
+        "Mediterannean diet",
+        "Physical Activity",
+        "Weight Neutral",
+        "Lifestyle intervention",
+        "Mindful eating",
+        "Mindfulness-based Eating Awareness Training",
+        "Body Image",
+        "Obesity",
+        "Overweight",
+        "Cardiometabolic health",
+        "Multiphase Optimization STrategy (MOST)",
+        "MOST Preparation Phase",
+        "Body appreciation"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "kayloni.olson@brownhealth.org",
+          "name": "KayLoni Olson, PhD",
+          "phone": "401-793-8971",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Providence",
+          "contacts": [
+            {
+              "email": "NEW_PATH@Brownhealth.org",
+              "name": "KayLoni Olson, PhD",
+              "phone": "401-793-8971",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Weight Control and Diabetes Research Center",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          },
+          "state": "Rhode Island",
+          "status": "RECRUITING",
+          "zip": "02903"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to pilot test five different, group based and remotely delivered programs designed to support healthy eating and regular physical activity. Each group will contain information and support for healthy eating and physical activity. Groups may also include support to 1) eat with more awareness of hunger and fullness, 2) improve how people think and feel about their bodies, and/or 3) identify ways to be physically active that are more enjoyable. Each group will include a unique combination of these components and the goal is to assess overall satisfaction and engagement with each of the programs.",
+      "detailedDescription": "The goal of study is to conduct a Multiphase Optimization STrategy (MOST) Preparation phase study to combine and pilot test candidate components for a group-based, remotely delivered weight neutral/healthy lifestyle intervention. Potential treatment components will include the following existing, evidence-based interventions; (1) mindfulness-based eating awareness training , (2) body acceptance program , and (3) a tailored intervention to promote enjoyment of physical activity. Weight neutral components will complement a Core intervention of standardized education on healthy diet (emphasizing the Mediterranean diet) and Physical Activity Guidelines for Americans (i.e., aerobic activity, muscle strengthening). This phase of the science is focused on pilot testing to ensure the target sample can be recruited and and that the novel combinations of treatment components can be delivered as intended. To make strategic use of resources, a fractional factorial design will be used to pilot test five conditions: the Core intervention alone and all possible combinations of the Core intervention + two or more of the weight neutral components. Men and women (n=50) with BMI\u226525kg/m2 will be recruited and randomized in small groups (n=10) to receive one of the five conditions held online (each 12 weeks in duration)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years and older\n* BMI between 25-40 (if BMI is between 25-30 then additional cardiometabolic risk factor must be present including hypertension, high cholesterol, prediabetes or type 2 diabetes)\n\nExclusion Criteria:\n\n* current participation in a formal weight loss program\n* current use of weight loss medication\n* history of bariatric surgery\n* physical condition that would limit the ability to engage in moderate intensity physical activity\n* current pregnancy\n* recent weight loss of 5% body weight\n* condition that may interfere with ability to complete the study procedures",
+      "healthyVolunteers": true,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "NEW PATH",
+      "briefTitle": "Pilot Test of Five Weight Neutral Interventions to Improve Health Among Adults of Higher Body Weight",
+      "nctId": "NCT07363616",
+      "officialTitle": "Optimizing a Weight Neutral Intervention to Improve Health Among Adults of Higher Body Weight: A MOST Preparation Phase Study",
+      "orgStudyIdInfo": {
+        "id": "R03DK140291",
+        "link": "https://reporter.nih.gov/quickSearch/R03DK140291",
+        "type": "NIH"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "The Miriam Hospital"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R03DK140291",
+          "link": "https://reporter.nih.gov/quickSearch/R03DK140291",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "Data will be uploaded by the PI into a repository that will meet compliance for federally funded research. The PI has authority to grant or limit access to the data. Upon receipt of request for access, the PI and investigative team will review to determine if the proposed use is scientifically justified and appropriate. If so, access to data will be granted through the portal, in coordination with the PI's institutional compliance department for data sharing, for time-limited use with potential for extension upon receipt of signed agreement to terms of use.",
+      "description": "All de-identified and scored data used to investigate the study aims will be preserved and shared upon approved request.",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "Data will be made available at the time of associated publication or the end of the project funding period, whichever comes first. The data will be retained with the repository for approximately 3 years past the publication date of the primary aims to permit sufficient time for replication of fundings."
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "This 8-item self-report measure captures perceived quality and usefulness and overall satisfaction with treatment. Scores range from 8-32 with higher scores reflecting a more positive view of treatment.",
+          "measure": "Client Satisfaction Questionnaire",
+          "timeFrame": "End of treatment, 12 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "The Miriam Hospital"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-11-15",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-22",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-11-15",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-31",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-21",
+      "studyFirstSubmitQcDate": "2026-01-22"
+    }
+  }
+}

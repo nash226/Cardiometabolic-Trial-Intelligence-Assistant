@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06596564:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06596564\nBrief title: Using Nudge Strategies to Promote Healthier Beverage Intake Among College Students\nOfficial title: A Study on Nudge Interventions to Promote Changes in Sugar-Sweetened Beverage Consumption Behaviors Among College Students\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT06596564"
+    },
+    {
+      "chunk_id": "NCT06596564:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity; Food Selection\nIntervention labels: choice architecture\nDrug class labels: \nArms: Control; choice architecture (Sugar Content Information); choice architecture (Sugar Harm Information); choice architecture (Social Norm Information)\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06596564"
+    },
+    {
+      "chunk_id": "NCT06596564:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The primary objective of this study is to investigate whether three nudging interventions would affect the beverage selection and consumption behaviors of Chinese university students. These interventions encompass providing information on the sugar content of sugar-sweetened beverages (SSBs), disseminating harmful information about SSBs, and showcasing the social norm that the majority of students opt for mineral water. Through a single-factor between-subjects experiment, we aim to examine the impact of these nudge interventions on the proportion of students choosing sugary drinks versus mineral water, thereby assessing their effectiveness in guiding healthier beverage choices.\nDetailed description: As the prevalence of overweight, obesity, and chronic diseases continues to escalate, excessive consumption of sugar-sweetened beverages (SSBs) has emerged as a growing public health concern globally. One approach to reducing beverage intake while conserving resources is the utilization of nudge strategies. Nudge strategies, characterized by their low cost and ease of implementation, facilitate individuals in making more accurate and beneficial choices in a predictable manner, through subtle interventions that do not prohibit any options or significantly alter incentives. This nudge experiment will be conducted in a classroom setting, where participants will be randomly assigned to four groups for beverage selection: No Nudge Intervention Group, Sugar Content Information Nudge Group, Sugar Harmful information Nudge Group and Social Norm Nudge Group. Participants will access the nudge content specific to their respective groups via the professional survey platform of Questionnaire Star and make a choice between cola and mineral water.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 244,
+      "trial_nct_id": "NCT06596564"
+    },
+    {
+      "chunk_id": "NCT06596564:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* college students\n* 18 years or above of age\n* willing to participate\n\nExclusion Criteria:\n\n* None",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT06596564"
+    },
+    {
+      "chunk_id": "NCT06596564:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage of students who chose cola | time_frame=1 day | description=Investigators will collect online records of beverage choices submitted by students on the Questionnaire Star platform. If the participant chooses a bottle of mineral water, the participant will receive a value of one. Otherwise, the participant will receive a value of zero. Investigators will use this binary measure to estimate the proportion of students who choose mineral water.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 70,
+      "trial_nct_id": "NCT06596564"
+    },
+    {
+      "chunk_id": "NCT06596564:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-10-01\nPrimary completion date: 2026-07-01\nCompletion date: 2026-07-30\nStudy first posted: 2024-09-19\nResults first posted: None\nLast update posted: 2025-05-28\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06596564"
+    },
+    {
+      "chunk_id": "NCT06596564:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Nanjing Medical University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06596564"
+    }
+  ],
+  "trial_nct_id": "NCT06596564"
+}

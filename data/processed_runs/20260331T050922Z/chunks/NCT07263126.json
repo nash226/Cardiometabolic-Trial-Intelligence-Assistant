@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07263126:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07263126\nBrief title: Effect of Bicycle Ergometer Training on Fat Tissue Amount and Metabolism\nOfficial title: Effect of Bicycle Ergometer Training in Thermoneutral and Lightly Cold Ambient Temperatures on Fat Tissue Amount and Metabolism in Overweight and Obese Women\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT07263126"
+    },
+    {
+      "chunk_id": "NCT07263126:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Endurance Training\nIntervention labels: endurance training with bicycle ergometer in termoneutral ambient temperature; endurance training with bicycle ergometer in lightly cold ambient temperature\nDrug class labels: \nArms: Case group 1; Case group 2; control group\nKeywords: Bicycle Ergometer; Overweight; Obese",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 44,
+      "trial_nct_id": "NCT07263126"
+    },
+    {
+      "chunk_id": "NCT07263126:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of this study is to investigate the effect of endurance training performed with a bicycle ergometer at different ambient temperatures on the amount of fat tissue and fat tissue metabolism in overweight and obese women.\nDetailed description: This study will examine the effects of 12 weeks of endurance training on a bicycle ergometer at thermoneutral and slightly cold ambient temperatures on body composition, subcutaneous and visceral fat tissue thickness, and levels of irisin, leptin, adiponectin, apelin, IL-6 and FGF-21 in the blood of overweight and obese women.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT07263126"
+    },
+    {
+      "chunk_id": "NCT07263126:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 20 Years\nMaximum age: 40 Years\nAge groups: ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\nBeing female,\n\n* Being between 20-40 years old,\n* Having a BMI between 25 and 34.9,\n* Having a waist circumference greater than 80 cm,\n* Not having participated in any exercise program in the last 3 months ,\n* Not having experienced a change of more than 10% in body weight in the last 6 months.\n\nExclusion Criteria:\n\n* On a weight loss diet,\n\n  * Having cancer, unstable heart disease, cerebrovascular disease, metabolic disease, diabetes, hypertension, psychiatric disorders, or other conditions or neurological disorders,\n  * Having a musculoskeletal disorder or any disease/injury that may affect participation in exercise training,\n  * Participating in regular physical activity (at least 150 minutes of moderate-intensity physical activity or 75 minutes of vigorous-intensity physical activity or an equivalent combination of both during the week),\n  * Being pregnant or breastfeeding,\n  * Having undergone surgery for the treatment of obesity,\n  * Receiving pharmacological treatment for obesity. Participants who did not attend more than 20% of the endurance training program will be excluded from the study.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 188,
+      "trial_nct_id": "NCT07263126"
+    },
+    {
+      "chunk_id": "NCT07263126:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=rate of BMI | time_frame=baseline/ through study completion, an average 3 months | description=assesed with height and body weight\ntype=primary | measure=analysis of biyoelectric impedans Bioelectrical impedance analysis | time_frame=baseline/ through study completion, an average 3 months | description=assesed with with a Tanita BC 418 brand device.\ntype=primary | measure=Ratio of waist-hip Waist hip ratio | time_frame=baseline/ through study completion, an average 3 months | description=Waist and hip circumference will be measured with a tape measure.\ntype=primary | measure=rate of subcutaneous and visceral adipose tissue thickness | time_frame=baseline/ through study completion, an average 3 months | description=assesed with Ultrasonography\ntype=primary | measure=concentration of serum irisin, leptin, adiponectin, apelin, \u0130L-6 and FGF-21 | time_frame=baseline/ through study completion, an average 3 months | description=assesed with blood analysis",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 127,
+      "trial_nct_id": "NCT07263126"
+    },
+    {
+      "chunk_id": "NCT07263126:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-05-27\nPrimary completion date: 2026-05-27\nCompletion date: 2026-05-27\nStudy first posted: 2025-12-04\nResults first posted: None\nLast update posted: 2025-12-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07263126"
+    },
+    {
+      "chunk_id": "NCT07263126:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Pamukkale University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT07263126"
+    }
+  ],
+  "trial_nct_id": "NCT07263126"
+}

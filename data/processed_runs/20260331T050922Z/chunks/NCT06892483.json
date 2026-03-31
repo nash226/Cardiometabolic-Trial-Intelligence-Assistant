@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06892483:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06892483\nBrief title: Breastmilk in Response to a Bout of Exercise\nOfficial title: Breastmilk Composition in Response to a Bout of Exercise\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06892483"
+    },
+    {
+      "chunk_id": "NCT06892483:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Infant Development; Obesity, Childhood; Diabetes, Childhood-Onset\nIntervention labels: Pre-Pregnancy BMI\nDrug class labels: \nArms: Active; Inactive\nKeywords: Breast milk; Postpartum exercise",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06892483"
+    },
+    {
+      "chunk_id": "NCT06892483:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to unveil the mechanistic benefits of a bout of postpartum maternal exercise on infant health that are provided by breastmilk.\nDetailed description: The nutrients and antibodies in breastmilk promote infant growth, development, and immunity. Breastfed infants exhibit lower risk of adult-onset obesity and type 2 diabetes compared to formula-fed infants, and the composition of breastmilk is influenced by maternal factors such as obesity and type 2 diabetes, profoundly impacting its health benefits. While postpartum maternal exercise enhances infant health, its effects on breastmilk composition remain unknown, hindering our understanding of how postpartum exercise benefits breastfed infants.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 104,
+      "trial_nct_id": "NCT06892483"
+    },
+    {
+      "chunk_id": "NCT06892483:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 18 Years\nMaximum age: 45 Years\nAge groups: ADULT\nHealthy volunteers: True\nCriteria: Exclusion Criteria:\n\n* Active coronary artery disease or heart failure.\n* Participation in a structured exercise program \u2265 1 day/week in the \"inactive\" subcohort or \\< 3 days per week in the \"active\" subcohort.\n* A known medical condition that in the judgment of the investigator might interfere with the completion of the protocol such as the following examples:\n\n  * Abnormal liver function test results (Transaminase \\>2 times the upper limit of normal\n  * Abnormal renal function test results (calculated GFR \\<60 mL/min/1.73m2);\n  * If on antihypertensive, thyroid, anti-depressant or lipid lowering medication, lack of stability on the medication for the past 2 months prior to enrollment in the study\n  * Uncontrolled thyroid disease (TSH undetectable or \\>10 mlU/L); testing required within three months prior to admission for subjects with a goiter, positive antibodies, or who are on thyroid hormone replacement, and within one year otherwise\n  * Abuse of alcohol or recreational drugs\n  * Active tobacco smoking within the past 3 months\n  * Infectious process not anticipated to resolve prior to study procedures (e.g. meningitis, pneumonia, osteomyelitis).\n  * Uncontrolled arterial hypertension (Resting diastolic blood pressure \\>90 mmHg and/or systolic blood pressure \\>160 mmHg) at the time of screening.\n  * A recent injury to body or limb, muscular disorder, use of any medication, any carcinogenic disease, or other significant medical disorder if that injury, medication or disease in the judgment of the investigator will affect the completion of the protocol\n  * Active pregnancy\n  * Restrictions on Use of Other Drugs or Treatments:\n\n    * Any other medication believed to be a contraindication to the subject's participation.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 281,
+      "trial_nct_id": "NCT06892483"
+    },
+    {
+      "chunk_id": "NCT06892483:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Breastmilk Exosome Concentration | time_frame=1 month | description=The molecules in small extracellular vesicles (exosomes) can transmit information between cells throughout the body. A bout of exercise induces a robust release of exosomes in the plasma with unique molecular cargo. Exosomes are also present in breastmilk, and there is evidence that breastmilk exosomes can evade degradation in the infant gut and can thus transmit molecular information from mother to infant. Though maternal exercise is viewed as beneficial for the breastfeeding infant, the molecular mechanisms of how this occurs remain unknown. The primary objective of this trial will be to determine if a bout of maternal exercise increases the release exosomes in breastmilk. The investigators will measure breastmilk exosome concentration using nano particle tracking.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 124,
+      "trial_nct_id": "NCT06892483"
+    },
+    {
+      "chunk_id": "NCT06892483:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-04-21\nPrimary completion date: 2027-10-10\nCompletion date: 2028-09-25\nStudy first posted: 2025-03-24\nResults first posted: None\nLast update posted: 2025-05-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06892483"
+    },
+    {
+      "chunk_id": "NCT06892483:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Mayo Clinic\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06892483"
+    }
+  ],
+  "trial_nct_id": "NCT06892483"
+}

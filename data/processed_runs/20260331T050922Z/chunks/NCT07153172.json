@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07153172:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07153172\nBrief title: Safety Follow-up Study of Participants Dosed With INV-347 in Study INV-CL-108\nOfficial title: Safety Follow-up Study of Participants Previously Dosed With INV-347 in the First-in-Human Study INV-CL-108\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07153172"
+    },
+    {
+      "chunk_id": "NCT07153172:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: INV-347\nDrug class labels: \nArms: Participants from the study INV-CL-108\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT07153172"
+    },
+    {
+      "chunk_id": "NCT07153172:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The study looks at the safety and blood levels of the study drug INV-347 in participants who were previously dosed with INV-347 in study INV-CL-108. Participants will not get any study drug in this study as it looks into the safety of a drug previously dosed. The study will last until visit 21.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 58,
+      "trial_nct_id": "NCT07153172"
+    },
+    {
+      "chunk_id": "NCT07153172:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n1. Informed consent obtained before any study-related activities. Study-related activities are any procedures that are carried out as part of the study, including activities to determine suitability for the study.\n2. Male or female (sex at birth).\n3. Age 18 years or above at the time of signing the informed consent.\n4. Previously dosed with INV-347 in study INV-CL-108 and with measurable INV-347 concentration in plasma at enrolment \\[above lower limit of qualification (LLOQ) of 0.5 nanogram per milliliter (ng/mL)\\].\n\nExclusion Criteria:\n\nThe study has no exclusion criteria.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 107,
+      "trial_nct_id": "NCT07153172"
+    },
+    {
+      "chunk_id": "NCT07153172:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of adverse events | time_frame=From the end-of-study participation in INV-CL-108 (week 0) to completion of the end-of-study visit (up to week 104 from enrolment) | description=Number of events",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT07153172"
+    },
+    {
+      "chunk_id": "NCT07153172:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-08-06\nPrimary completion date: 2027-09-15\nCompletion date: 2027-09-15\nStudy first posted: 2025-09-03\nResults first posted: None\nLast update posted: 2026-03-06\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07153172"
+    },
+    {
+      "chunk_id": "NCT07153172:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novo Nordisk A/S\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07153172"
+    }
+  ],
+  "trial_nct_id": "NCT07153172"
+}

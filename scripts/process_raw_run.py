@@ -9,10 +9,16 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from generate_chunks import generate_chunks, write_json as write_chunk_json
-from normalize_trial import load_json as load_raw_json
-from normalize_trial import normalize_trial, write_json as write_normalized_json
-from validate_trial import validate_trial, write_json as write_validation_json
+try:
+    from .generate_chunks import generate_chunks, write_json as write_chunk_json
+    from .normalize_trial import load_json as load_raw_json
+    from .normalize_trial import normalize_trial, write_json as write_normalized_json
+    from .validate_trial import validate_trial, write_json as write_validation_json
+except ImportError:  # pragma: no cover - script execution fallback
+    from generate_chunks import generate_chunks, write_json as write_chunk_json
+    from normalize_trial import load_json as load_raw_json
+    from normalize_trial import normalize_trial, write_json as write_normalized_json
+    from validate_trial import validate_trial, write_json as write_validation_json
 
 
 def parse_args() -> argparse.Namespace:

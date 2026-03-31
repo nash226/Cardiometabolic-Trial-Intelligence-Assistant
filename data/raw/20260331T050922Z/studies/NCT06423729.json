@@ -1,0 +1,304 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009566",
+          "term": "Nitrates"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009536",
+          "term": "Niacinamide"
+        },
+        {
+          "id": "D009539",
+          "term": "Nicotinic Acids"
+        },
+        {
+          "id": "D000147",
+          "term": "Acids, Heterocyclic"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D020108",
+          "term": "Nicorandil"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "23 patients who will receive 2nd generation sulfonylureas only, for three months.",
+          "label": "Control Arm",
+          "type": "NO_INTERVENTION"
+        },
+        {
+          "description": "23 patients who will receive a combination of 2nd generation sulfonylureas and nicorandil 10 mg twice daily,for three months.",
+          "interventionNames": [
+            "Drug: Nicorandil 10 MG"
+          ],
+          "label": "Nicorandil Arm",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Nicorandil Arm"
+          ],
+          "description": "Patients will receive oral Nicorandil 10 MG twice daily in addition to 2nd generation sulfonylureas , for 3 months.",
+          "name": "Nicorandil 10 MG",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2"
+      ],
+      "keywords": [
+        "Type 2 DM, Nicorandil, Obesity"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "merna198ali@gmail.com",
+          "name": "Merna Mohamed Seddik Ali",
+          "phone": "+201026064628",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Tanta",
+          "contacts": [
+            {
+              "email": "merna198ali@gmail.com",
+              "name": "Merna Mohamed Seddik Ali, Master degree",
+              "phone": "+201026064628",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Merna Mohamed Seddik Ali",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Egypt",
+          "facility": "Faculty of Pharmacy, Tanta University",
+          "geoPoint": {
+            "lat": 30.78847,
+            "lon": 31.00192
+          },
+          "status": "RECRUITING",
+          "zip": "31511"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "1. Evaluating the effect of nicorandil on glycemic control of diabetic obese patients treated with sulfonylureas.\n2. Investigating the effect of nicorandil on body weight of diabetic obese patients treated with sulfonylureas."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 46,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diabetes duration ranged from 1 to 10 years.\n* Body mass index (BMI) \\>30 Kg/m2.\n* The selected patients are treated with sulfonylureas alone.\n* The age of selected patient ranged from 18 and 60 years.\n\nExclusion Criteria:\n\n* Pregnant and lactating females.\n* Patients with hypersensitivity to nicorandil.\n* Uncontrolled hypertension and its antihypertensive medications\n* Severe renal or hepatic disease.",
+      "healthyVolunteers": false,
+      "maximumAge": "60 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effect of Nicorandil in Type 2 Diabetic Obese Patients",
+      "nctId": "NCT06423729",
+      "officialTitle": "Clinical Study Evaluating the Effect of Nicorandil in Type 2 Diabetic Obese Patients Treated With Sulfonylurea",
+      "orgStudyIdInfo": {
+        "id": "Nicorandil in DM"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Tanta University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Change in HbA1c (From baseline to 12 weeks)",
+          "measure": "Change in HbA1c level",
+          "timeFrame": "The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months."
+        },
+        {
+          "description": "Change in body weight (From baseline to 12 weeks).",
+          "measure": "Change in body weight.",
+          "timeFrame": "The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months."
+        },
+        {
+          "description": "Change in Body mass index (BMI) (From baseline to 12 weeks).",
+          "measure": "Change in Body mass index (BMI)",
+          "timeFrame": "The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months."
+        },
+        {
+          "description": "Change in Visceral adiposity index (VAI) (From baseline to 12 weeks).",
+          "measure": "Change in Visceral adiposity index (VAI).",
+          "timeFrame": "The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Assessment of Adiponenctin, Interleukin-6 (IL-6) and Nitric oxide levels by ELISA Kits according to manufacturer's instructions.",
+          "measure": "Change in Adiponenctin, Interleukin-6 (IL-6) and Nitric oxide (NO) serum levels.",
+          "timeFrame": "The participants will be assessed before initiation of the study (baseline), and at the end of the study after 3 months."
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Tanta University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Tanta University",
+        "investigatorFullName": "Merna Mohamed Seddik Ali",
+        "investigatorTitle": "Merna Mohamed Seddik Ali , Master degree in Clinical Pharmacy, Tanta University",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2025-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-21",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-06-01",
+        "type": "ESTIMATED"
+      },
+      "statusVerifiedDate": "2024-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-05-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-05-16",
+      "studyFirstSubmitQcDate": "2024-05-16"
+    }
+  }
+}

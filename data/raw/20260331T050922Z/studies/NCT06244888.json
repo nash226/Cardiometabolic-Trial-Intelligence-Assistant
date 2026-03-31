@@ -1,0 +1,348 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D009424",
+          "term": "Nervous System Physiological Phenomena"
+        },
+        {
+          "id": "D055687",
+          "term": "Musculoskeletal and Neural Physiological Phenomena"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008722",
+          "term": "Methods"
+        },
+        {
+          "id": "D012890",
+          "term": "Sleep"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "All participants who lose at least 3% of their initial body weight will be asked to participate in a system identification experiment every day for 52 weeks.",
+          "interventionNames": [
+            "Behavioral: Intervention Targeting Stress and Emotion Regulation",
+            "Behavioral: Intervention Targeting Motivation and Self-efficacy for Weight Management",
+            "Behavioral: Intervention for Normalization of Eating",
+            "Behavioral: Intervention Targeting Physical Activity and Sleep"
+          ],
+          "label": "System Identification",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "System Identification"
+          ],
+          "description": "This intervention involves learning and practicing relaxation exercises and setting aside time for pleasurable activities.",
+          "name": "Intervention Targeting Stress and Emotion Regulation",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "System Identification"
+          ],
+          "description": "This intervention involves identifying values related to weight, lifestyle, and health; identifying barriers to value-consistent living; exploring the consequences of letting barriers drive behavior; and 4) setting goals that are small, specific, attainable, and values-consistent.",
+          "name": "Intervention Targeting Motivation and Self-efficacy for Weight Management",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "System Identification"
+          ],
+          "description": "This intervention involves dietary self-monitoring with the goal of staying within a calorie goal ranging from 1,200 kcal/day to 1,800 kcal/day. Participants are also provided with meal planning tools and encouraged to addresses hunger and cravings by promoting feelings of satiety via consumption of foods that are high in volume but low in calories.",
+          "name": "Intervention for Normalization of Eating",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "System Identification"
+          ],
+          "description": "This simple intervention prompts participants at the start of the day to schedule up to 30 minutes of moderate-to-vigorous intensity physical activity; brisk walking is encouraged. Participants also set a bedtime and wake time and are encouraged to set a reminder alarm to ensure at least 8 hours of sleep.",
+          "name": "Intervention Targeting Physical Activity and Sleep",
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Overweight and Obesity"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "sotoole@lifespan.org",
+          "name": "Sharon O'Toole, M.A.T.",
+          "phone": "401 793-8992",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Providence",
+          "contacts": [
+            {
+              "email": "sotoole@lifespan.org",
+              "name": "Sharon O'Toole, M.A.T.",
+              "phone": "401-793-8992",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Miriam Hospital Weight Control and Diabetes Resarch Center",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          },
+          "state": "Rhode Island",
+          "status": "RECRUITING",
+          "zip": "02903"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This project capitalizes on principles of control systems engineering to build a dynamical model that predicts weight change during weight loss maintenance using behavioral, psychosocial, and environmental indicators evaluated in a system identification experiment. A 6-month behavioral obesity treatment will be administered to produce weight loss. Participants losing at least 3% of initial body weight will be followed for an additional 12 months via daily smartphone surveys that incorporates passive sensing to objectively monitor key behaviors. Survey data pertaining to behavioral, psychosocial, and environmental indicators will be used to develop a controller algorithm that can predict when an individual is entering a heightened period of risk for regain and why risk is elevated. Interventions targeting key risk indicators will be randomly administered during the system ID experiment. Survey and passive sensing data documenting the effects of the interventions will likewise drive development of the controller algorithm, allowing it to determine which interventions are most likely to counter risk of regain."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "See study description for details. All participants will receive all intervention elements, with allocation varying randomly across time using procedures appropriate for system identification.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* English language fluent and literate at the 6th grade level\n* Body mass index (BMI) between 25 and 50 kg/m-squared\n* Able to walk 2 city blocks without stopping\n* Owns a smartphone\n\nExclusion Criteria:\n\n* Report of a heart condition, chest pain during periods of activity or rest, or loss of consciousness in the 12 months prior to enrolling.\n* Currently participating in another weight loss program\n* Currently taking weight loss medication\n* Has lost \u22655% of body weight in the 6 months prior to enrolling\n* Has been pregnant within the 6 months prior to enrolling\n* Plans to become pregnant within 18 months of enrolling\n* Any medical condition that would affect the safety of participating in unsupervised physical activity\n* Any condition that would result in inability to follow the study protocol, including terminal illness and untreated major psychiatric illness",
+      "healthyVolunteers": false,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Control Systems Engineering for Weight Loss Maintenance",
+      "nctId": "NCT06244888",
+      "officialTitle": "Control Systems Engineering to Address the Problem of Weight Loss Maintenance: A System Identification Experiment to Model Behavioral & Psychosocial Factors Measured by Ecological Momentary Assessment",
+      "orgStudyIdInfo": {
+        "id": "422620"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "The Miriam Hospital"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01DK137423",
+          "link": "https://reporter.nih.gov/quickSearch/1R01DK137423",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "A data-sharing agreement that provides for (1) a commitment to use the data for research purposes only; (2) a commitment to securing the data using appropriate computer technology; (3) a commitment to destroying or returning the data after analyses are completed and (4) a commitment not to attempt to identify participants individually. Information shared with outside collaborators will link personal health information to a unique study ID in order to maintain participant anonymity.",
+      "description": "We will make data and documentation available under a data-sharing agreement that provides for (1) a commitment to use the data for research purposes only; (2) a commitment to securing the data using appropriate computer technology; (3) a commitment to destroying or returning the data after analyses are completed and (4) a commitment not to attempt to identify participants individually. Information shared with outside collaborators will link personal health information to a unique study ID in order to maintain participant anonymity.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "This will be measured throughout the system identification experiment using a consumer scale with internet connectivity.",
+          "measure": "Weight change",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Intervention engagement will be measured by the smartphone application that delivers intervention. Engagement is defined as the count of clicks to open intervention resources.",
+          "measure": "Intervention engagement",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the Multidimensional Health Locus of Control scale for smartphone administration.",
+          "measure": "Weight Locus of Control",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the Beliefs about Dietary Compliance Scale and the Exercise Benefits/Barriers scale for smartphone administration.",
+          "measure": "Perceived Benefit of Weight Control",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the Weight Control Strategies scale for smartphone administration.",
+          "measure": "Weight Control Strategies Intentions and Implementation",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the Three Factor Eating Questionnaire for smartphone administration.",
+          "measure": "Hunger and Cravings",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the Profile of Mood States and Positive and Negative Affect States for smartphone administration.",
+          "measure": "Affect",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from Cohen's Stress Scale for smartphone administration.",
+          "measure": "Stress",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the short-form Weight Efficacy Lifestyle Questionnaire for smartphone administration.",
+          "measure": "Self-efficacy",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Wrist-worn accelerometer-measured sleep timing, duration \\& quality.",
+          "measure": "Sleep",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the short-form Multidimensional Scale of Perceived Social Support for smartphone administration.",
+          "measure": "Social Support",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Wrist-worn accelerometer-measured minutes per day of physical activity.",
+          "measure": "Physical Activity",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Mean scale score of questionnaire items adapted from the Three Factor Eating Questionnaire for smartphone administration.",
+          "measure": "Dysregulated Eating",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        },
+        {
+          "description": "Count of self-reported instances of unintended eating, eating larger portions than one intended, and eating foods that one intended to avoid",
+          "measure": "Dietary Lapse",
+          "timeFrame": "Every day during the 52-week system identification experiment"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "The Miriam Hospital"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-01",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-02-26",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-01",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-01-18",
+      "studyFirstSubmitQcDate": "2024-01-29"
+    }
+  }
+}

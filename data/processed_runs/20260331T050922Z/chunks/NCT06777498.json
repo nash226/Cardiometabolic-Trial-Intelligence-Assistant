@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06777498:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06777498\nBrief title: The Precision Nutrition New York Study\nOfficial title: Optimizing Dietary Fiber Eating Patterns to Prevent Obesity and Resulting Metabolic Disorders\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: NA",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06777498"
+    },
+    {
+      "chunk_id": "NCT06777498:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Body Composition Changes; Body Weight Changes\nIntervention labels: Whole Grain Intervention then fruits and vegetables; Fruit and Vegetable Intervention and then whole grains\nDrug class labels: \nArms: Experimental: Group A: Whole grains then fruits and vegetables; Experimental: Group B: Fruits and vegetables then whole grains\nKeywords: dietary fiber; gut microbiome; gut microbiota; short-chain fatty acids; SCFAs; whole grains; fruits; vegetables",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 65,
+      "trial_nct_id": "NCT06777498"
+    },
+    {
+      "chunk_id": "NCT06777498:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Dietary fiber has been shown to have beneficial effects on human health through its impact on microbes present in the gut. However, these effects can vary between individuals, and everyone may not reap the same health benefits by eating the same sources of fiber. Factors predicting how an individual's gut microbes as well as the beneficial metabolites produced by these microbes change in response to different sources of fiber would be helpful in developing precision nutrition approaches that maximize the benefits of dietary fiber. The objective of this study is to evaluate candidate predictors of gut microbiota response to fiber sources from either whole grains or fruits and vegetables.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 114,
+      "trial_nct_id": "NCT06777498"
+    },
+    {
+      "chunk_id": "NCT06777498:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 21 Years\nMaximum age: 50 Years\nAge groups: ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Age is between 21-50 years\n* BMI is between 25-30. You can check your BMI here: https://www.cdc.gov/bmi/adult-calculator/index.html\n* Must be able to have height, weight, waist, and hip circumference, and body composition measured during the study\n* Must be able to provide saliva samples.\n* Must be able to provide a phone number and email address at which the study investigators can contact for study-related matters.\n* Must be able to increase dietary fiber intake to the recommended level following the instructions on the USDA MyPlate website: https://www.myplate.gov/myplate-plan\n* Must be able to provide food records of everything consumed (food, beverage, and supplements) on one weekday and one weekend day (example Tuesday, Saturday) every week during the study. This will be done using an online survey.\n* Must be able to provide 10 stool samples over 11 weeks of the study duration. 18) Must have stable weight (within \u00b13% of usual body weight) for the last two months.\n* Must be able to to take an online survey to assess recent dietary fiber intake to determine eligibility.\n\nExclusion Criteria:\n\n* Electronic medical implant, for example, a pacemaker.\n* An existing, UNTREATED, thyroid condition.\n* Use of systemic antibiotics (intravenous injection, intramuscular, or oral) within the last 4 months.\n* An acute disease at the time of enrollment (Acute disease is defined as the presence of a moderate or severe illness with or without fever).\n* A chronic, clinically significant (unresolved, requiring ongoing medical management or medication) pulmonary, cardiovascular, gastrointestinal, hepatic, or renal functional abnormality.\n* Any suspected state of immunosuppression or immunodeficiency including HIV.\n* A history of active UNTREATED gastrointestinal disorders or diseases including\n\n  1. Inflammatory bowel disease (IBD)\n  2. Ulcerative colitis (mild-moderate-severe)\n  3. Crohn's or celiac disease\n  4. Indeterminate colitis\n  5. Irritable bowel syndrome (IBS) (moderate-severe)\n  6. Persistent, infectious gastroenteritis, colitis or gastritis\n  7. Persistent or chronic diarrhea of unknown etiology\n  8. Clostridium difficile infection (recurrent)\n  9. Chronic constipation\n* Previously had bariatric surgery.\n* An unstable dietary history as defined by major changes in diet during the previous month. For example, elimination or significantly increased intake of a major food group in the diet.\n* Recent history of chronic alcohol consumption defined as more than 5 drinks (or servings) of alcohol per day.\n* Female participants: pregnant/lactating.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 400,
+      "trial_nct_id": "NCT06777498"
+    },
+    {
+      "chunk_id": "NCT06777498:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Body weight changes | time_frame=3-4 weeks | description=For each intervention (whole grains \\& fruits and vegetables), investigators will measure change in body weight in kg = Post-intervention minus Pre-intervention\ntype=primary | measure=Body fat percentage changes | time_frame=3-4 weeks | description=For each intervention (whole grains \\& fruits and vegetables), investigators will measure change in fat percentage = Post-intervention minus Pre-intervention\ntype=secondary | measure=Gut microbiome measured by 16S rRNA gene sequencing | time_frame=3-4 weeks | description=For each intervention (whole grains \\& fruits and vegetables), investigators will calculate changes in relative abundance (proportion) of each gut bacterium from Pre-intervention to Post-intervention.\ntype=secondary | measure=Fecal short-chain fatty acid concentrations (SCFAs) | time_frame=3-4 weeks | description=For each intervention (whole grains \\& fruits and vegetables), investigators will measure change in SCFA concentrations = Post-intervention minus Pre-intervention. We will report the SCFAs acetate, butyrate, and propionate.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 141,
+      "trial_nct_id": "NCT06777498"
+    },
+    {
+      "chunk_id": "NCT06777498:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-01-13\nPrimary completion date: 2025-10-01\nCompletion date: 2025-12-31\nStudy first posted: 2025-01-16\nResults first posted: None\nLast update posted: 2025-07-11\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06777498"
+    },
+    {
+      "chunk_id": "NCT06777498:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Cornell University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06777498"
+    }
+  ],
+  "trial_nct_id": "NCT06777498"
+}

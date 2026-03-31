@@ -1,0 +1,378 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D001836",
+          "term": "Body Weight Changes"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D063766",
+          "term": "Pediatric Obesity"
+        },
+        {
+          "id": "D015431",
+          "term": "Weight Loss"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003710",
+          "term": "Demography"
+        },
+        {
+          "id": "D011154",
+          "term": "Population Characteristics"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C071468",
+          "term": "2,2,2',4'-tetrachloroacetophenone"
+        },
+        {
+          "id": "D044382",
+          "term": "Population Groups"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Intervention for 6 months more or less",
+          "interventionNames": [
+            "Behavioral: Parent Weekly Individual Telephone Support"
+          ],
+          "label": "Condition 1: Tele",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Intervention for 6 months",
+          "interventionNames": [
+            "Behavioral: Child Education"
+          ],
+          "label": "Condition 2: Child Education",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Intervention for 6 months",
+          "interventionNames": [
+            "Behavioral: Parent Initial Counseling"
+          ],
+          "label": "Condition 3: Parent Counseling",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Intervention for 6 months",
+          "interventionNames": [
+            "Behavioral: Parent Weekly Individual Telephone Support",
+            "Behavioral: Child Education",
+            "Behavioral: Parent Initial Counseling"
+          ],
+          "label": "Condition 4: Counseling, Child Education, and Tele",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Intervention for 6 months",
+          "interventionNames": [
+            "Behavioral: Parent Monthly Group Support"
+          ],
+          "label": "Condition 5: Group Support",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Intervention for 6 months",
+          "interventionNames": [
+            "Behavioral: Parent Weekly Individual Telephone Support",
+            "Behavioral: Child Education",
+            "Behavioral: Parent Monthly Group Support"
+          ],
+          "label": "Condition 6: Group Support, Child Education, and Tele",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Intervention for 6 months",
+          "interventionNames": [
+            "Behavioral: Parent Weekly Individual Telephone Support",
+            "Behavioral: Parent Initial Counseling",
+            "Behavioral: Parent Monthly Group Support"
+          ],
+          "label": "Condition 7: Group Support, Parent Counseling, and Tele",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Intervention for 6 months",
+          "interventionNames": [
+            "Behavioral: Child Education",
+            "Behavioral: Parent Initial Counseling",
+            "Behavioral: Parent Monthly Group Support"
+          ],
+          "label": "Condition 8: Group Support, Parent Counseling, and Child Education",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Condition 1: Tele",
+            "Condition 4: Counseling, Child Education, and Tele",
+            "Condition 6: Group Support, Child Education, and Tele",
+            "Condition 7: Group Support, Parent Counseling, and Tele"
+          ],
+          "description": "Interventionists will deliver a 20-30 minute session via videoconference (e.g. Zoom) using the Family COMIDA Intervention Manual",
+          "name": "Parent Weekly Individual Telephone Support",
+          "otherNames": [
+            "Tele"
+          ],
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Condition 2: Child Education",
+            "Condition 4: Counseling, Child Education, and Tele",
+            "Condition 6: Group Support, Child Education, and Tele",
+            "Condition 8: Group Support, Parent Counseling, and Child Education"
+          ],
+          "description": "6 weekly diet/PA education sessions ('Child Education')",
+          "name": "Child Education",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Condition 3: Parent Counseling",
+            "Condition 4: Counseling, Child Education, and Tele",
+            "Condition 7: Group Support, Parent Counseling, and Tele",
+            "Condition 8: Group Support, Parent Counseling, and Child Education"
+          ],
+          "description": "Interventionists will deliver a 20-30 minute session via videoconference (e.g. Zoom) using the Family COMIDA Intervention Manual",
+          "name": "Parent Initial Counseling",
+          "otherNames": [
+            "Parent Counseling"
+          ],
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Condition 5: Group Support",
+            "Condition 6: Group Support, Child Education, and Tele",
+            "Condition 7: Group Support, Parent Counseling, and Tele",
+            "Condition 8: Group Support, Parent Counseling, and Child Education"
+          ],
+          "description": "Parents will be invited to join a Spanish language (English if preferred) weekly group videoconference (can join by phone if preferred).",
+          "name": "Parent Monthly Group Support",
+          "otherNames": [
+            "Group"
+          ],
+          "type": "BEHAVIORAL"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Child Obesity",
+        "Weight Loss"
+      ],
+      "keywords": [
+        "child obesity",
+        "obesity",
+        "weight loss",
+        "Memorial Sloan Kettering Cancer Center",
+        "25-003"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "lengj@mskcc.org",
+          "name": "Jennifer Leng, MD, MPH",
+          "phone": "646-888-8057",
+          "role": "CONTACT"
+        },
+        {
+          "email": "ganyf@mskcc.org",
+          "name": "Francesca Gany, MD, MS",
+          "phone": "646-888-8054",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "New York",
+          "contacts": [
+            {
+              "name": "Jennifer Leng, MD, MPH",
+              "phone": "646-888-8057",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Memorial Sloan Kettering Cancer Center (All Protocol Activities)",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          },
+          "state": "New York",
+          "status": "RECRUITING",
+          "zip": "10065"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Memorial Sloan Kettering Cancer Center",
+          "name": "Jennifer Leng, MD, MPH",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine the most effective family-centered intervention (FCI) for weight loss and obesity prevention in Hispanic families. FCI is a type of program that involves family (such as parents and caregivers) supporting their children to promote healthy habits."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 1319,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "NA"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPhase 1\n\n* Age \\>= 18 years (per self-report)\n* Self-identifies as Hispanic/Latino (per self-report)\n* Seeking, or has used, services at the VDS or MHU (per self-report)\n* Is the parent or primary caregiver for at least one child aged 8-12 living in their household (per self-report)\n* Screens as obese (BMI \\> 30 kg/m2) or overweight (BMI of 25 - 29.9 kg/m2) (per height and weight measurement in person or per self-report)\n* Owns a cell phone capable of receiving text messages (per self-report)\n* Owns an internet connected device (e.g. cell phone, tablet, etc.) capable of conducting videoconference calls (per self-report)\n* Agrees to be audio-recorded (per self-report)\n\nPhase 2 (parent participants)\n\n* Age \\>= 18 years (per self-report)\n* Self-identifies as Hispanic/Latino (per self-report)\n* Seeking, or has used, services at the VDS or MHU (per self-report)\n* Is the parent or primary caregiver for at least one child aged 8-12 living in their household (per self-report)\n* Screens as obese (BMI \\> 30 kg/m2) or overweight (BMI of 25 - 29.9 kg/m2) (per height and weight measurement in person or remotely)\n* Owns a cell phone capable of receiving text messages (per self-report)\n* Owns an internet connected device (e.g. cell phone, tablet, etc.) capable of conducting videoconference calls (per self-report)\n* Agrees to be audio-recorded (per self-report)\n\nPhase 2 (child participants)\n\n* Age 8-12 years (per parent self-report)\n* Has a parent or primary caregiver who is eligible and participating in Phase 2 (per parent self-report)\n\nExclusion Criteria:\n\nPhase 1\n\n* Is pregnant or might be pregnant (per self-report)\n* Presence of a chronic disease such as cancer, kidney disease, liver disease, etc. (individuals with hypertension and diabetes mellitus may still participate) that may affect diet and study participation (per self-report)\n* Has dietary restrictions, i.e. liquid diet, that may affect diet and study participation (per self-report)\n* Has a household member who has already participated or agreed to participate in this study program (per self-report)\n* Prior participation in one of our preliminary studies, e.g., COMIDA, SANOS, Family COMIDA (per self-report) and any related focus groups\n* Works for or with the VDS or MHU (per self-report)\n* Presence of cognitive impairment disorder (i.e., delirium or dementia) sufficient to preclude meaningful informed consent and/or data collection (per study team)\n\nPhase 2 (parent participant)\n\n* Is pregnant or might be pregnant (per self-report)\n* For women, is lactating (per self-report)\n* Presence of a chronic disease such as cancer, kidney disease, liver disease, etc. (individuals with hypertension and diabetes mellitus may still participate) that may affect diet and study participation (per self-report)\n* Has dietary restrictions, i.e., liquid diet, that may affect diet and study participation (per self-report)\n* Has physical activity restrictions, i.e., handicapped or mobility issues, that may affect physical activity participation (increasing step counts; per self-report)\n* Has a household member who has already participated or agreed to participate in this study program (per self-report)\n* Prior participation in one of our preliminary studies, e.g., COMIDA, SANOS, Family COMIDA (per self-report) and any related focus groups\n* Works for or with the VDS or MHU (per self-report)\n* Presence of cognitive impairment disorder (i.e., delirium or dementia) sufficient to preclude meaningful informed consent and/or data collection (per study team)\n\nPhase 2 (child participant)\n\n* Has dietary restrictions, i.e., liquid diet, that may affect diet and study participation (per parent self-report)\n* Has physical activity restrictions, i.e., handicapped or mobility issues, that may affect physical activity participation (per parent self-report)\n* Has an eating disorder (per parent self-report)\n* Is underweight (per parent self-report)",
+      "healthyVolunteers": true,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Family COMIDA (Consumo de Opciones M\u00e1s Ideales De Alimentos) (Eating More Ideal Food Options)",
+      "nctId": "NCT07144800",
+      "officialTitle": "Family COMIDA (Consumo de Opciones M\u00e1s Ideales De Alimentos) (Eating More Ideal Food Options)",
+      "orgStudyIdInfo": {
+        "id": "25-003"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Memorial Sloan Kettering Cancer Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "Memorial Sloan Kettering Cancer Center supports the international committee of medical journal editors (ICMJE) and the ethical obligation of responsible sharing of data from clinical trials. The protocol summary, a statistical summary, and informed consent form will be made available on clinicaltrials.gov when required as a condition of Federal awards, other agreements supporting the research and/or as otherwise required. Requests for deidentified individual participant data can be made following one year after publication and for up to 36 months later. Deidentified individual participant data reported in the manuscript will be shared under the terms of a Data Use Agreement and may only be used for approved proposals. Requests may be made to: crdatashare@mskcc.org.",
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "To utilize an optimization trial to identify the most effective, mHealth weight loss/obesity prevention FCI for Hispanic families in the U.S. 5% weight loss from baseline among overweight/obese parents (a percentage loss associated with numerous health benefits)",
+          "measure": "Percentage weight loss from baseline among participants",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Memorial Sloan Kettering Cancer Center",
+          "url": "https://www.mskcc.org"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Memorial Sloan Kettering Cancer Center"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2031-07-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-29",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2030-07-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2025-08-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-08-25",
+      "studyFirstSubmitQcDate": "2025-08-25"
+    }
+  }
+}

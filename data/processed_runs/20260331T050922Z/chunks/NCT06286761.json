@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06286761:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06286761\nBrief title: Routine Validation and Reproducibility Testing of Laboratory Measures and Research Techniques Used for Metabolism Research (VAL)\nOfficial title: Routine Validation and Reproducibility Testing of Laboratory Assays and Research Techniques Used for Metabolism Research\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT06286761"
+    },
+    {
+      "chunk_id": "NCT06286761:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: obesity\nRaw conditions: Obesity\nIntervention labels: endothelial cell collection\nDrug class labels: \nArms: Single arm\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06286761"
+    },
+    {
+      "chunk_id": "NCT06286761:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this research study is to validate (check the accuracy of) laboratory assays, intravenous catheter insertion, and equipment or devices and their reproducibility, which is necessary to perform high quality research on chronic diseases (obesity, pre-diabetes and type-2 diabetes, dyslipidemia, non-alcoholic fatty liver disease, cardiovascular disease, etc.), nutrition, and metabolism (the process by which a substance is handled in your body) at the University of Missouri. As technology changes and we start to use new testing methods, it is necessary to compare results from old tests, equipment and devices and new tests, equipment, or devices and the reproducibility of these measurements to make sure we are getting accurate results. Reproducibility means performing the same test more than once to see if the same results can be achieved each time.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 136,
+      "trial_nct_id": "NCT06286761"
+    },
+    {
+      "chunk_id": "NCT06286761:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 75 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* \u226518 and \u226475 years of age\n* body mass index \u226518.5 and \u226445 kg/m2\n* Weight stable (i.e., \u22643% change)\n* \u2264150 min of structured exercise/week for at least 2 months before entering the study\n* Blood glucose: \\< 126 mg/dl fasted, \\< 200 mg/dl with 2 hour oral glucose tolerance testing\n* Hemoglobin A1C (HbA1C) \u22646.5%\n* Dyslipidemia triglycerides \u2265125 mg/dL\n* No chronic kidney disease\n* Not vegan or vegetarian or on high protein diet (e.g. Atkins) or supplements that are not allowed\n* No intolerance or allergies to study diet ingredients\n* No excessive alcohol or tobacco consumption\n\nExclusion Criteria:\n\n* \\<18 and \\>75 years of age\n* body mass index \\<18.5 or \\>45 kg/m2\n* history of or current significant organ system dysfunction (e.g., heart disease, stroke, diabetes, cancer in remission for \\<5 years, dementia, chronic kidney disease)\n* allergies or intolerances to meal ingredients, vegans or vegetarians\n* use of medications that could confound the study outcomes (e.g., anti-inflammatories, immune modulators, etc)\n* take dietary supplements (e.g., certain pre- and pro-biotics, fiber, fish oil supplements)\n* engaged in regular structured exercise \\>150 min per week\n* alcohol use disorder as defined by the National Institute of Alcohol Abuse and Alcoholism or use of controlled substances\n* pregnant women\n* persons who use tobacco\n* prisoners\n* the inability to grant voluntary informed consent.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 249,
+      "trial_nct_id": "NCT06286761"
+    },
+    {
+      "chunk_id": "NCT06286761:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Validation and reproducibility testing for blood assays | time_frame=through study completion, an average of 10 weeks | description=insulin, C-peptide, glucagon, substrates (free fatty acids, glucose, ketone bodies) and biomarkers of substrate metabolism (e.g., cytokines and adipokines)\ntype=primary | measure=Validation and reproducibility testing for endothelial cell collection | time_frame=through study completion, an average of 10 weeks | description=endothelial cell quantity collected\ntype=primary | measure=Validation and reproducibility testing for mixed meal ingestion | time_frame=through study completion, an average of 10 weeks | description=tolerability and palatability of meal type (protein concentration, carbohydrate concentration)\ntype=primary | measure=Validation and reproducibility testing for glucose tolerance testing | time_frame=through study completion, an average of 10 weeks | description=glucose levels\ntype=primary | measure=Validation and reproducibility testing for DEXA | time_frame=through study completion, an average of 10 weeks | description=body composition analysis\ntype=primary | measure=Validation and reproducibility testing for MRI | time_frame=through study completion, an average of 10 weeks | description=body composition analysis\ntype=primary | measure=Validation and reproducibility testing for MRS | time_frame=through study completion, an average of 10 weeks | description=body composition analysis",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 177,
+      "trial_nct_id": "NCT06286761"
+    },
+    {
+      "chunk_id": "NCT06286761:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-05-08\nPrimary completion date: 2028-03\nCompletion date: 2028-03\nStudy first posted: 2024-02-29\nResults first posted: None\nLast update posted: 2025-07-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06286761"
+    },
+    {
+      "chunk_id": "NCT06286761:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Bettina Mittendorfer\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06286761"
+    }
+  ],
+  "trial_nct_id": "NCT06286761"
+}

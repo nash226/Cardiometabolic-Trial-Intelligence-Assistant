@@ -1,0 +1,651 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000591245",
+          "term": "semaglutide"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive Dose 1 of KAI-9531 once weekly.",
+          "interventionNames": [
+            "Drug: KAI-9531"
+          ],
+          "label": "KAI-9531: Dose 1",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive Dose 2 of KAI-9531 once weekly.",
+          "interventionNames": [
+            "Drug: KAI-9531"
+          ],
+          "label": "KAI-9531: Dose 2",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive semaglutide once weekly.",
+          "interventionNames": [
+            "Drug: Semaglutide"
+          ],
+          "label": "Semaglutide",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Participants will receive placebo matched to KAI-9531 once weekly.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "KAI-9531: Dose 1",
+            "KAI-9531: Dose 2"
+          ],
+          "description": "SC Injection",
+          "name": "KAI-9531",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Semaglutide"
+          ],
+          "description": "SC Injection",
+          "name": "Semaglutide",
+          "otherNames": [
+            "Wegovy"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "SC Injection",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity"
+      ],
+      "keywords": [
+        "Obesity",
+        "KAI-9531",
+        "Glucagon-like peptide-1",
+        "GLP-1",
+        "Semaglutide",
+        "Glucose-dependent Insulinotropic Peptide",
+        "GIP"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "info-clinicalstudies@kailera.com",
+          "name": "Kailera Therapeutics, Inc.",
+          "phone": "781-317-0291",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Glendale",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 33.53865,
+            "lon": -112.18599
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "85308"
+        },
+        {
+          "city": "Phoenix",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "85012"
+        },
+        {
+          "city": "Little Rock",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          },
+          "state": "Arkansas",
+          "status": "RECRUITING",
+          "zip": "72205"
+        },
+        {
+          "city": "Northridge",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 34.22834,
+            "lon": -118.53675
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "91325"
+        },
+        {
+          "city": "Oceanside",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 33.19587,
+            "lon": -117.37948
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92058"
+        },
+        {
+          "city": "Hamden",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 41.39593,
+            "lon": -72.89677
+          },
+          "state": "Connecticut",
+          "status": "RECRUITING",
+          "zip": "06517"
+        },
+        {
+          "city": "Stamford",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 41.05343,
+            "lon": -73.53873
+          },
+          "state": "Connecticut",
+          "status": "RECRUITING",
+          "zip": "06905"
+        },
+        {
+          "city": "Orange City",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 28.94888,
+            "lon": -81.29867
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32763"
+        },
+        {
+          "city": "Albany",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 31.57851,
+            "lon": -84.15574
+          },
+          "state": "Georgia",
+          "status": "RECRUITING",
+          "zip": "31707"
+        },
+        {
+          "city": "Chicago",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "status": "RECRUITING",
+          "zip": "60640"
+        },
+        {
+          "city": "Newton",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 38.04668,
+            "lon": -97.34504
+          },
+          "state": "Kansas",
+          "status": "RECRUITING",
+          "zip": "67114"
+        },
+        {
+          "city": "Shreveport",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          },
+          "state": "Louisiana",
+          "status": "RECRUITING",
+          "zip": "71105"
+        },
+        {
+          "city": "Farmington Hills",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 42.48531,
+            "lon": -83.37716
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48334"
+        },
+        {
+          "city": "Missoula",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 46.87215,
+            "lon": -113.994
+          },
+          "state": "Montana",
+          "status": "RECRUITING",
+          "zip": "59804"
+        },
+        {
+          "city": "Las Vegas",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          },
+          "state": "Nevada",
+          "status": "RECRUITING",
+          "zip": "89148"
+        },
+        {
+          "city": "Albany",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 42.65258,
+            "lon": -73.75623
+          },
+          "state": "New York",
+          "status": "RECRUITING",
+          "zip": "12203"
+        },
+        {
+          "city": "Morehead City",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 34.72294,
+            "lon": -76.72604
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "28557"
+        },
+        {
+          "city": "Norman",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 35.22257,
+            "lon": -97.43948
+          },
+          "state": "Oklahoma",
+          "status": "RECRUITING",
+          "zip": "73069"
+        },
+        {
+          "city": "East Greenwich",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 41.66038,
+            "lon": -71.45589
+          },
+          "state": "Rhode Island",
+          "status": "RECRUITING",
+          "zip": "02818"
+        },
+        {
+          "city": "North Charleston",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 32.85462,
+            "lon": -79.97481
+          },
+          "state": "South Carolina",
+          "status": "RECRUITING",
+          "zip": "29405"
+        },
+        {
+          "city": "Spartanburg",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 34.94957,
+            "lon": -81.93205
+          },
+          "state": "South Carolina",
+          "status": "RECRUITING",
+          "zip": "29303"
+        },
+        {
+          "city": "Brownsville",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 25.90175,
+            "lon": -97.49748
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78526"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78229"
+        },
+        {
+          "city": "Manassas",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 38.75095,
+            "lon": -77.47527
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "20110"
+        },
+        {
+          "city": "Richmond",
+          "country": "United States",
+          "facility": "Kailera Clinical Site",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "23236"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to demonstrate that KAI-9531 subcutaneous (SC) injection once weekly is superior to semaglutide SC once weekly and to placebo SC once weekly on percent change in body weight."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The participant and investigator will be blinded for participants randomized to KAI-9531 or placebo until the study is complete. Semaglutide will be provided open-label.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 1200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* BMI \u226535 kilograms per square meter (kg/m\\^2).\n* History of at least 1 self-reported unsuccessful effort to lose weight with diet and exercise within the prior 6 months.\n\nKey Exclusion Criteria:\n\n* Current diagnosis or history of diabetes mellitus.\n* Started medications within 3 months prior to Screening that may cause significant weight gain, including, but not limited to, tricyclic antidepressants, atypical antipsychotics, and mood stabilizers.\n* Unstable weight defined as self-reported change in body weight exceeding 5% within the 3 months prior to Screening.\n* Family or personal history of multiple endocrine neoplasia Type 2 or medullary thyroid cancer.\n* Uncontrolled hypertension or unstable cardiovascular disease.\n* History of chronic or acute pancreatitis.\n* Known clinically significant gastric-emptying abnormality or chronic treatment with medications that directly affect gastrointestinal motility.\n* History of suicide attempt.\n* History of significant active or unstable Major Depressive Disorder (MDD) or other severe psychiatric disorder.\n* Received treatment with semaglutide, tirzepatide, glucagon-like peptide-1 receptor (GLP-1R) agonist, GLP-1/glucose-dependent insulinotropic polypeptide (GIP), or glucagon receptor agonist within 3 months prior to Screening.\n\nNote: Additional inclusion/exclusion criteria may apply, per protocol.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Efficacy and Safety of KAI-9531 Administered Once Weekly Compared With Semaglutide and Placebo in Participants Living With Obesity Who Do Not Have Diabetes",
+      "nctId": "NCT07284979",
+      "officialTitle": "A Phase 3, Randomized, Active- and Placebo-Controlled, Partially-Blinded Study to Compare the Efficacy and Safety of KAI-9531 Administered Once Weekly Versus Semaglutide and Placebo in Participants Living With Obesity Who Do Not Have Diabetes",
+      "orgStudyIdInfo": {
+        "id": "K9531-3107"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Kailera"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-523511-11-00",
+          "type": "CTIS"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent Change From Baseline in Body Weight at Week 76",
+          "timeFrame": "Baseline, Week 76"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants with \u226510%, \u226515%, \u226520% and \u226525% Reduction in Body Weight",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in Waist Circumference",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in Absolute Body Weight",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Percentage of Participants with \u22655% Reduction in Body Weight",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in Systolic Blood Pressure (SBP)",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Percent Change From Baseline in Fasting Triglycerides",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Percent Change From Baseline in Fasting High-density Lipoprotein (HDL)-cholesterol",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Percent Change From Baseline in Fasting Non-HDL-cholesterol",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in Impact of Weight on Quality of Life-Lite Clinical Trials Version (IWQOL-Lite-CT) Physical Function Composite Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Percentage of Participants with \u226530% Reduction in Body Weight",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in Body Mass Index (BMI)",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in Control of Eating Questionnaire (CoEQ) Craving Control Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in CoEQ Positive Mood Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in CoEQ Craving for Sweets Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in CoEQ Craving for Savory Food Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in CoEQ Hunger Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in CoEQ Satiety Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in CoEQ Combined Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Change From Baseline in Food Noise Questionnaire (FNQ) Score",
+          "timeFrame": "Baseline, Week 76"
+        },
+        {
+          "measure": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+          "timeFrame": "Day 1 up to Week 80"
+        },
+        {
+          "measure": "Number of Participants With Anti-drug Antibodies (ADAs)",
+          "timeFrame": "Up to Week 80"
+        },
+        {
+          "measure": "Number of Participants With Neutralizing Antibodies (Nabs)",
+          "timeFrame": "Up to Week 80"
+        },
+        {
+          "measure": "Plasma Concentrations of KAI-9531",
+          "timeFrame": "Up to Week 76"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Kailera"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-04-17",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-12",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-03-20",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-30",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-16",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-12-09",
+      "studyFirstSubmitQcDate": "2025-12-09"
+    }
+  }
+}

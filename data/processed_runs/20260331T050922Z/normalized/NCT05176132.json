@@ -1,0 +1,511 @@
+{
+  "arms": [
+    {
+      "description": "BMI above 30 kg/m2 and being 18 to 60 years of age. Since the initiative is open for the general obese population, the investigators did not define the size of the cohort, but expect around 500 referrals per year.",
+      "intervention_names": [
+        "Other: Life style intervention (dietician+ physiotherapist)",
+        "Other: Self management"
+      ],
+      "label": "OBESE (BMI>30)",
+      "type": null
+    },
+    {
+      "description": "100 persons with normal weight (BMI 20 - 25 kg/m2) 18 to 60 years of age",
+      "intervention_names": [
+        "Other: No intervention"
+      ],
+      "label": "CONTROL Normal weight (BMI 20-25)",
+      "type": null
+    },
+    {
+      "description": "100 persons with overweight (BMI 25 - 30 kg/m2) 18 to 60 years of age",
+      "intervention_names": [
+        "Other: No intervention"
+      ],
+      "label": "CONTROL Overweight (BMI 25-30)",
+      "type": null
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Obesity",
+      "normalized_name": "obesity"
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* BMI \\>30 (Obese cohort), BMI 20-25 (control group I), BMI 25-30 (control group II)\n* Age 18-60 years\n\nExclusion Criteria:\n\n* None",
+    "healthy_volunteers": true,
+    "maximum_age_text": "60 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "OBESE (BMI>30)"
+      ],
+      "description": "Obese patients with obesity related diseases will be invited to participate in a personalized lifestyle intervention program with dieticians and physiotherapists focusing on health improvement through personal motivation and perceived limitations and body accept.",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Life style intervention (dietician+ physiotherapist)",
+      "normalized_name": "life style intervention (dietician+ physiotherapist)"
+    },
+    {
+      "arm_group_labels": [
+        "OBESE (BMI>30)"
+      ],
+      "description": "Patients with no obesity related diseases will not be offered lifestyle intervention, but encouraged to physical activity (self management)",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Self management",
+      "normalized_name": "self management"
+    },
+    {
+      "arm_group_labels": [
+        "CONTROL Normal weight (BMI 20-25)",
+        "CONTROL Overweight (BMI 25-30)"
+      ],
+      "description": "Control groups (BMI 20-25 and BMI 25-30)",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "No intervention",
+      "normalized_name": "no intervention"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Undetected obesity-related diseases (hypertension, diabetes, dyslipidemia, sleep apnea, non-alcoholic fatty liver disease, chronic obstructive pulmonary disease, EKG-abnormalities, and polycystic ovary syndrome (PCOS).",
+      "measure": "Prevalence of unrecognized obesity-related diseases",
+      "outcome_type": "primary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Undetected obesity-related diseases (hypertension, diabetes, dyslipidemia, sleep apnea, non-alcoholic fatty liver disease, chronic obstructive pulmonary disease, EKG-abnormalities, and polycystic ovary syndrome (PCOS).",
+      "measure": "Prevalence of unrecognized obesity-related diseases",
+      "outcome_type": "primary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Standard cut-of values",
+      "measure": "Consultation systolic and diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Standard cut-of values",
+      "measure": "Consultation systolic and diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Standard cut-of values",
+      "measure": "Consultation systolic and diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Measures mean blood pressure, day and night",
+      "measure": "24 hour blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Measures mean blood pressure, day and night",
+      "measure": "24 hour blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "HbA1c equal to or higher than 48 mmol/mol indicates diabetes",
+      "measure": "HbA1c",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "HbA1c equal to or higher than 48 mmol/mol indicates diabetes",
+      "measure": "HbA1c",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "HbA1c equal to or higher than 48 mmol/mol indicates diabetes",
+      "measure": "HbA1c",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Hba1c 43-47 indicates prediabetes",
+      "measure": "Prediabetes",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Hba1c 43-47 indicates prediabetes",
+      "measure": "Prediabetes",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Hba1c 43-47 indicates prediabetes",
+      "measure": "Prediabetes",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Dyslipidemia is defined as low density lipoprotein (LDL) \\> 3 mmol/l or high density lipoprotein (HDL) cholesterol \\< 1 mmol/l.",
+      "measure": "Low density lipoprotein",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Dyslipidemia is defined as low density lipoprotein (LDL) \\> 3 mmol/l or high density lipoprotein (HDL) cholesterol \\< 1 mmol/l.",
+      "measure": "Low density lipoprotein",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Dyslipidemia is defined as low density lipoprotein (LDL) \\> 3 mmol/l or high density lipoprotein (HDL) cholesterol \\< 1 mmol/l.",
+      "measure": "Low density lipoprotein",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Berlin sleep apnea questionnaire: The Berlin Questionnaire consists of three categories designed to elicit information regarding snoring (category 1), daytime somnolence (category 2), and the presence of obesity and/or hypertension (category 3). Categories 1 and 2 are considered positive if 2 or more responses are positive category 3 is considered positive if 1 response is positive and/or the body mass index is greater than 30 kg per meter squared. A patient is considered to have a high likelihood of sleep disordered breathing if 2 or more categories are positive.",
+      "measure": "Berlin sleep apnea questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Berlin sleep apnea questionnaire: The Berlin Questionnaire consists of three categories designed to elicit information regarding snoring (category 1), daytime somnolence (category 2), and the presence of obesity and/or hypertension (category 3). Categories 1 and 2 are considered positive if 2 or more responses are positive category 3 is considered positive if 1 response is positive and/or the body mass index is greater than 30 kg per meter squared. A patient is considered to have a high likelihood of sleep disordered breathing if 2 or more categories are positive.",
+      "measure": "Berlin sleep apnea questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Epworth Sleepiness Scale: Score 0-24. 0-5 Lower Normal Daytime Sleepiness, 6-10 Higher Normal Daytime Sleepiness, 11-12 Mild Excessive Daytime Sleepiness 13-15 Moderate Excessive Daytime Sleepiness, 16-24 Severe Excessive Daytime Sleepiness",
+      "measure": "Epworth Sleepiness Scale",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Epworth Sleepiness Scale: Score 0-24. 0-5 Lower Normal Daytime Sleepiness, 6-10 Higher Normal Daytime Sleepiness, 11-12 Mild Excessive Daytime Sleepiness 13-15 Moderate Excessive Daytime Sleepiness, 16-24 Severe Excessive Daytime Sleepiness",
+      "measure": "Epworth Sleepiness Scale",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Quantifies sleep apnea cardiorespiratory monitoring: AHI \\< 5 per hour=normal or minimal, AHI \u2265 5, but \\< 15 per hour: mild, AHI \u2265 15, but \\< 30 per hour moderate and AHI \u2265 30 per hour: severe",
+      "measure": "Apnea hypopnoea index (AHI)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Quantifies sleep apnea cardiorespiratory monitoring: AHI \\< 5 per hour=normal or minimal, AHI \u2265 5, but \\< 15 per hour: mild, AHI \u2265 15, but \\< 30 per hour moderate and AHI \u2265 30 per hour: severe",
+      "measure": "Apnea hypopnoea index (AHI)",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Quantifies liver-stiffness as a measure of non-alcoholic fatty liver disease, lower is better",
+      "measure": "Elastography",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Quantifies liver-stiffness as a measure of non-alcoholic fatty liver disease, lower is better",
+      "measure": "Elastography",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Indication of Chronic obstructive pulmonary disease as measured by spirometry",
+      "measure": "FEV1/FVC",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Indication of Chronic obstructive pulmonary disease as measured by spirometry",
+      "measure": "FEV1/FVC",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Under resting conditions, standard 12 lead electrocardiography",
+      "measure": "EKG",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Under resting conditions, standard 12 lead electrocardiography",
+      "measure": "EKG",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Measures hirsutism and indicates risk of Polycystic ovary syndrome (PCOS): Whole body equal or less than 10: normal, over 10: increased, Face: more than 2 is considered high and indicates hirsutism",
+      "measure": "Ferriman-Gallwey score self-reported",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Measures hirsutism and indicates risk of Polycystic ovary syndrome (PCOS): Whole body equal or less than 10: normal, over 10: increased, Face: more than 2 is considered high and indicates hirsutism",
+      "measure": "Ferriman-Gallwey score self-reported",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Handgrip force: Higher is better, no defined cut-off value",
+      "measure": "Hand-grip force",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Handgrip force: Higher is better, no defined cut-off value",
+      "measure": "Hand-grip force",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Handgrip force: Higher is better, no defined cut-off value",
+      "measure": "Hand-grip force",
+      "outcome_type": "secondary",
+      "time_frame": "five years"
+    },
+    {
+      "description": "Fat-free mass as estimated by bioimpedance measure, higher is better, no cut-of value",
+      "measure": "Fat-free mass",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Fat-free mass as estimated by bioimpedance measure, higher is better, no cut-of value",
+      "measure": "Fat-free mass",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Fat-free mass as estimated by bioimpedance measure, higher is better, no cut-of value",
+      "measure": "Fat-free mass",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Gait Speed in 6 meters: High more than 1.1 m/s, Median 0.7-1.1 m/s, Low \\<0.7 m/s",
+      "measure": "Gait-speed",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Gait Speed in 6 meters: High more than 1.1 m/s, Median 0.7-1.1 m/s, Low \\<0.7 m/s",
+      "measure": "Gait-speed",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Gait Speed in 6 meters: High more than 1.1 m/s, Median 0.7-1.1 m/s, Low \\<0.7 m/s",
+      "measure": "Gait-speed",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Participants are weighed in light clothes with no shoes or pocket items, lower is better",
+      "measure": "Body weight",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Participants are weighed in light clothes with no shoes or pocket items, lower is better",
+      "measure": "Body weight",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Participants are weighed in light clothes with no shoes or pocket items, lower is better",
+      "measure": "Body weight",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Body weight / m2, lower is better",
+      "measure": "BMI",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Body weight / m2, lower is better",
+      "measure": "BMI",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Body weight / m2, lower is better",
+      "measure": "BMI",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Lower is better",
+      "measure": "Waist circumference",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Lower is better",
+      "measure": "Waist circumference",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Lower is better",
+      "measure": "Waist circumference",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Measures the ability of a person to work, higher values are better, no cut-of value",
+      "measure": "Work-ability Index",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Measures the ability of a person to work, higher values are better, no cut-of value",
+      "measure": "Work-ability Index",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Measures weight associated quality of life, higher values are better, no cut-of value",
+      "measure": "Impact of weight on quality of life-lite",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Measures weight associated quality of life, higher values are better, no cut-of value",
+      "measure": "Impact of weight on quality of life-lite",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Measures weight associated quality of life, higher values are better, no cut-of value",
+      "measure": "Impact of weight on quality of life-lite",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Measures eating behavior and appetite traits, descriptive",
+      "measure": "Adult Eating Behavior Questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Measures eating behavior and appetite traits, descriptive",
+      "measure": "Adult Eating Behavior Questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Measures eating behavior and appetite traits, descriptive",
+      "measure": "Adult Eating Behavior Questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    },
+    {
+      "description": "Measures a persons attitude to physical activity, higher is better, no cut-of value",
+      "measure": "SDOI attitude to physical activity questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "baseline"
+    },
+    {
+      "description": "Measures a persons attitude to physical activity, higher is better, no cut-of value",
+      "measure": "SDOI attitude to physical activity questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Measures a persons attitude to physical activity, higher is better, no cut-of value",
+      "measure": "SDOI attitude to physical activity questionnaire",
+      "outcome_type": "secondary",
+      "time_frame": "5 years"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "allocation": null,
+    "brief_summary": "People with BMI \\>30 kg/m2 will be included in at population-based cohort. Additionally, one control group with BMI 18.5-25 kg/m2 and one control group with BMI 25-30 kg/m2 will be included. All participants with age 18 and 60 years.\n\nTo evaluate health status participants will be screened by for undetected obesity-related diseases (hypertension, diabetes, dyslipidemia, sleep apnea, non-alcoholic fatty liver disease, chronic obstructive pulmonary disease, EKG-abnormalities, polycystic ovary syndrome (PCOS), and joint pain and for quality of life at baseline, 1 year, and 5 years. Additionally, anthropometric measurements are collected and a biobank is established for future research studies.\n\nPeople with obesity related disease will be offered participation in a 12 month personalized lifestyle intervention program aimed at improvement of health and self-perception.\n\nThe collected data will be used to detect the prevalence for obesity-related disease to identify predictors for future obesity related disease and to evaluate the effect of a lifestyle intervention on health and quality of life.",
+    "brief_title": "South Danish Obesity Initiative, Screening for Unrecognized Obesity Related Disease",
+    "collaborator_names": [
+      "Steno Diabetes Center Odense",
+      "Odense University Hospital"
+    ],
+    "completion_date": "2030-09-01",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* BMI \\>30 (Obese cohort), BMI 20-25 (control group I), BMI 25-30 (control group II)\n* Age 18-60 years\n\nExclusion Criteria:\n\n* None",
+    "detailed_description": "Obesity is associated with a variety of adverse health problems, and there is currently no effective scalable treatment with a durable effect. Additionally, well-known obesity related health problems are often underdiagnosed.\n\nA Danish cohort of people with BMI \\>30 kg/m2 is established on University Hospital South West Jutland. Additionally, one control group with BMI 18.5-25 kg/m2 and one control group with BMI 25-30 kg/m2 will be included. Age range is defined as 18 and 60 years.\n\nTo evaluate health status all participants are screened by for undetected obesity-related diseases (hypertension, diabetes, dyslipidemia, sleep apnea, non-alcoholic fatty liver disease, chronic obstructive pulmonary disease, EKG-abnormalities, polycystic ovary syndrome (PCOS) and joint pain.\n\nData will be collected from questionnaires (Impact of Weight related on Quality of Life, Attitude to physical activity questionnaire, Adult Eating Behavior questionnaire, Berlin sleep apnea and Epworths Sleepiness scale, PCOS related questionnaire including Ferriman-Gallwey score, Work Ability Index, and weight history); clinical laboratory variables (HbA1c, glucose, c-peptide, lipid status, thyroid stimulating hormone (TSH), triiodothyronine (T3), thyroxine (T4), hemoglobin, thrombocytes, alanine aminotransferase (ALAT), aspartate aminotransferase (ASAT), bilirubin, gamma glutamic transferase, lactate dehydrogenase (LDH), alkaline phosphatase, and creatinine levels); and anthropometric measurements (blood pressure, EKG, liver elastography, spirometry (forced expiratory volume during first second as a fraction of forced vital capacity (FEV1/FVC), hand grip strength, gait speed, and CT scan for estimation of the subcutaneous and visceral fat volume). People with diseases uncovered by the screening program will be referred to specialized departments or general practice for further assessment and treatment.\n\nA biobank (blood, feces, urine) is established for future research studies. Patients with obesity related diseases will be invited to participate in a personalized lifestyle intervention program with dietitians and physiotherapists focusing on health improvement through personal motivation, perceived limitations and body accept. Additionally, participants are invited to a 1 year follow-up. All participants, independent of disease status, will be invited for at new screening 5 years after the initial visit.\n\nThe data collected for the cohort will be used to estimate the prevalence and development of new obesity-related diseases, and to identify predictors for obesity-related diseases. Finally, the effect of the lifestyle intervention-program will be evaluated.",
+    "drug_class_labels": [],
+    "enrollment_count": 2700,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Life style intervention (dietician+ physiotherapist)",
+      "Self management",
+      "No intervention"
+    ],
+    "intervention_model": null,
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Obesity",
+      "Lifestyle intervention",
+      "BMI",
+      "Cohort",
+      "sleep apnea",
+      "diabetes",
+      "PCOS",
+      "NAFLD",
+      "Hypertension",
+      "Hyperlipidemia"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2023-10-19",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Claus Bogh Juhl",
+    "masking": null,
+    "maximum_age_text": "60 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05176132",
+    "official_title": "South Danish Obesity Initiative (SDOI)",
+    "overall_status": "RECRUITING",
+    "phases": [],
+    "primary_completion_date": "2025-09-01",
+    "primary_purpose": null,
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05176132",
+    "start_date": "2020-09-01",
+    "study_first_posted_at": "2022-01-04",
+    "study_type": "OBSERVATIONAL"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "arms": [
+    {
+      "description": "Twelve weeks, three times per week of HIIT plus plyometric training in a sample of obese pre-APHV (initial biological maturational stage).",
+      "intervention_names": [
+        "Behavioral: HIIT plus plyometric training"
+      ],
+      "label": "pre-PHV HIIT plus plyometric training",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Twelve weeks, three times per week of HIIT plus plyometric training in a sample of obese post-APHV (final biological maturational stage).",
+      "intervention_names": [
+        "Behavioral: HIIT plus plyometric training"
+      ],
+      "label": "post-APHV HIIT plus plyometric training",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Twelve weeks, three times per week of HIIT in a sample of obese pre-APHV (initial biological maturational stage).",
+      "intervention_names": [
+        "Behavioral: HIIT"
+      ],
+      "label": "pre-APHV HIIT",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Twelve weeks, three times per week of HIIT in a sample of obese post-APHV (initial biological maturational stage).",
+      "intervention_names": [
+        "Behavioral: HIIT"
+      ],
+      "label": "post-APHV HIIT",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Pediatric Obesity",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Training Effectiveness",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "CHILD"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Pediatric population with obesity determined by the body mass index by z-score (BMI-z) \u2265 2 standard deviations (SD) and \u2264 3.5 SD of the median for age and sex.\n* Pediatric population with -1 to -3 APHV (pre-APHV) and +1 to +3 APHV (post-APHV).\n\nExclusion Criteria:\n\n* Cognitive Disabilities.\n* Musculoskeletal condition that prevents regular physical activity.\n* Severe heart diseases that contraindicate the practice of physical activity.\n* Individuals who perform supervised exercise in the past six months.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "17 Years",
+    "minimum_age_text": "7 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "post-APHV HIIT plus plyometric training",
+        "pre-PHV HIIT plus plyometric training"
+      ],
+      "description": "The HIIT plus plyometric training will perform two weeks of exercise adaptation involving 25 minutes of MICT at 65% of maximal heart rate (HRmax) and 5 minutes of jumps in place at 5 - 6 of the EPinfant scale of Perceived exertion. The HIIT plus plyometric training will perform 15 minutes of HIIT and 5 minutes of jumps each session. The HIIT phase will be performed in a work recovery intensity at 85 and 50% of the HRmax. The work phase of jumps will be performed \"all out,\" and the recovery phase will be performed at 5 - 6 of the EPinfant scale of perceived exertion. The work: recovery bouts will be progressed from 1:4 (15 seconds: 60 seconds) at weeks 3-6, to 1:3 (15 seconds: 45 seconds) at weeks 7-9, and to 1:3 (15 seconds: 30 seconds) at weeks 10-12. In all sessions, the rate of perceived exertion, heart rate, and exercise planning compliance will be measured.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "HIIT plus plyometric training",
+      "normalized_name": "hiit plus plyometric training"
+    },
+    {
+      "arm_group_labels": [
+        "post-APHV HIIT",
+        "pre-APHV HIIT"
+      ],
+      "description": "The HIIT group will perform two weeks of exercise adaptation involving 30 minutes of moderate-intensity continuous training (MICT) at 65% of the maximal heart rate (HRmax) reached in the maximal oxygen consumption test. The HIIT group will perform 20 minutes of HIIT each session, with a work: recovery intensity at 85% and 50% of HRmax, respectively. The work: recovery bouts will be progressed from 1:4 (15 seconds:60 seconds) at weeks 3-6, to 1:3 (15 seconds:45 seconds) at weeks 7-9, and to 1:2 (15 seconds: 30 seconds) at weeks 10-12. In all sessions, the rate of perceived exertion, heart rate, and exercise planning compliance will be measured.",
+      "drug_class": null,
+      "intervention_type": "BEHAVIORAL",
+      "name": "HIIT",
+      "normalized_name": "hiit"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "The stiffness will be estimated as the slope of the linear tendon elongation-force relationship above 50% of each participant's maximum attained force.",
+      "measure": "Achilles Tendon Stiffnes (N/mm)",
+      "outcome_type": "primary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The Achilles tendon young modulus will be estimated as the slope of the linear tendon stress-strain relationship above 50% of each participant's maximum attained force.",
+      "measure": "Achilles Tendon Young Modulus",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The Achilles tendon force of the Achilles tendon will be calculated as the plantar flexors torque divided by the Achilles tendon moment arm plus the dorsiflexor contribution.",
+      "measure": "Achilles Tendon Force (N)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Tendon elongation will be measured as the Achilles tendon myotendinous junction displacement (ArtUS, Telemed, Vilnius, Lithuania) from rest in the MIVC trials. The tendon lengthening will be normalized by the Achilles tendon moment arm.",
+      "measure": "Achilles Tendon Elongation (mm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The tendon stress will be calculated as the ratio between the mean maximum attained force and the smallest cross-sectional area measured for each participant.",
+      "measure": "Achilles Tendon Stress (MPa)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The tendon strain will be calculated as the tendon elongation associated with the peak tendon force relative to its resting length.",
+      "measure": "Achilles Tendon Strain (%)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "To determine the gastrocnemius medialis thickness, the children will be measured in a prone position with the knee fully extended and the ankle at 90\u00b0. A B-mode ultrasound (ArtUS, Telemed, Vilnius, Lithuania) will take images at 20%, 30%, and 40% of the tibial length, defined as the distance from the popliteal crease to the midpoint of the lateral malleolus. Muscle thickness will be defined as the perpendicular distance between superficial and deep aponeurosis.",
+      "measure": "Gastrocnemius Medialis Thickness (mm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "To determine the gastrocnemius medialis pennation angle, the children will be measured in a prone position with the knee fully extended and the ankle at 90\u00b0. A B-mode ultrasound (ArtUS, Telemed, Vilnius, Lithuania) will take images at 20%, 30%, and 40% of the tibial length, defined as the distance from the popliteal crease to the midpoint of the lateral malleolus. Pennation angle will be defined as the angle between the deep aponeurosis and the echoes of the interspace between the fibers bundles.",
+      "measure": "Gastrocnemius Medialis Pennation Angle (\u00b0)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "To determine the gastrocnemius medialis fascicle length, the children will be measured in a prone position with the knee fully extended and the ankle at 90\u00b0. A B-mode ultrasound (ArtUS, Telemed, Vilnius, Lithuania) will take images at 20%, 30%, and 40% of the tibial length, defined as the distance from the popliteal crease to the midpoint of the lateral malleolus. The fascicle length will be derived through the means of trigonometry using the values of muscle thickness and pennation angle.",
+      "measure": "Gastrocnemius Medialis Fascicle Length (mm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "To determine the gastrocnemius medialis echo-intensity, the children will be measured in a prone position with the knee fully extended and the ankle at 90\u00b0. A B-mode ultrasound (ArtUS, Telemed, Vilnius, Lithuania) will take images at 20%, 30%, and 40% of the tibial length, defined as the distance from the popliteal crease to the midpoint of the lateral malleolus. The echo intensity will be measured as the mean of pixel intensity in a region of interest.",
+      "measure": "Gastrocnemius Medialis Echo-Intensity (U.A).",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The MVIC will be assessed in a prone position with the knee fully extended with the ankle at 90\u00b0 in a dynamometer (Isoforce, TUR, Germany). Participants will perform three submaximal contractions of the plantar flexors at 50%, 70%, and 90% of the MIVC and three attempts to reach the MIVC separated by 1 minute of rest. The participants will perform three attempts to reach the MIVC under the instruction to perform \"as fast as possible\".",
+      "measure": "Plantar Flexors Maximal Isometric Voluntary Contraction (Nm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The participants will perform three attempts to reach the MIVC under the instruction to perform \"as fast as possible.\" with this consideration, we will calculate the rate of force development (RFD) offline. The RFD will calculate the change in force per time interval at 50, 100, 200, and 400 ms using a custom-written program.",
+      "measure": "Plantar Flexors Rate of Force Development (Nm/s)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Participants will perform a treadmill (HP cosmos, LE 200 CE model, Germany) maximal oxygen consumption test (Cosmed, Quark CPET, Italy) until exhaustion. The VO2 peak will be taken at the highest 10 seconds average until exhaustion, and the gas exchange threshold (GET) will be calculated with the V-slope method.",
+      "measure": "Maxymal Oxygen Consumption (ml/kg/min)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "To determine the VO2 kinetics, the participants will complete four \"step\" tests. The \"step\" test will consist of a transition for the rest to running at 90% of the GET for 6 minutes, to perform a second \"step\" test of the heart rate, VO2, dioxide carbon production (VCO2), and Ventilation minute (VE) will return to baseline levels. Throughout the 6 minutes running at 90% GET, phase II of the VO2 kinetics will be plotted against time.",
+      "measure": "Oxygen Uptake Kinetics (s)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "During the four \"step\" test, a Moxy monitor (Moxy, fortiori LLC, Minnesota, USA) will be ubicated in the gastrocnemius medialis to measure the total hemoglobin and muscle oxygen saturation.",
+      "measure": "Muscle oxygenation kinetics",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Venous blood samples will be collected after 8 to 12 hours of fasting. Data from the venous samples will be used to calculate the lipid profile (triglycerides, total cholesterol, LDL cholesterol, VLDL cholesterol and HDL cholesterol).",
+      "measure": "Lipid Profile",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Venous blood samples will be collected after 8 to 12 hours of fasting. Data from the venous samples will be used to calculate the glycemic control (glycemia, insulin). The HOMA-index will calculated by dividing fasting insulin (mU/L) by glycemia (mg/dl) / 405.",
+      "measure": "Glycemic Control",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Venous blood samples will be collected after 8 to 12 hours of fasting. Data from the venous samples will be used to calculate the low-grade inflammation state by reactive C protein and IL-6.",
+      "measure": "Low-gradde Inflammation",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "A physician will measure blood pressure on an outpatient basis using equipment appropriate for the patient arm length and age. The obtained data will be classified by sex, height, and age according to the normative values provided in the clinical guidelines for the diagnosis and management of high blood pressure in the pediatric population.",
+      "measure": "Blood Pressure",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The standing broad jump will be assessed following the alpha fitness protocol.",
+      "measure": "Standing Broad Jump (cm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The squat jump will be assessed with a contact platform",
+      "measure": "Squat Jump (cm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The countermovement jump will be assessed with a contact platform",
+      "measure": "Countermovement Jump",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "A Bioimpedance device (InBody770 model, South Korea) will be used for the body composition analysis. Participants will be asked to avoid exercise, caffeine for \u2265 24 hours, and food or drinks for \u22654 hours before testing, with the exception of water, which could be consumed up to 45 minutes before testing.",
+      "measure": "Skeletal Muscle Mass (kg)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "A Bioimpedance device (InBody770 model, South Korea) will be used for the body composition analysis. Participants will be asked to avoid exercise, caffeine for \u2265 24 hours, and food or drinks for \u22654 hours before testing, with the exception of water, which could be consumed up to 45 minutes before testing.",
+      "measure": "Fat mass (kg)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "A Bioimpedance device (InBody770 model, South Korea) will be used for the body composition analysis. Participants will be asked to avoid exercise, caffeine for \u2265 24 hours, and food or drinks for \u22654 hours before testing, with the exception of water, which could be consumed up to 45 minutes before testing.",
+      "measure": "Fat mass percent (%)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "A Bioimpedance device (InBody770 model, South Korea) will be used for the body composition analysis. Participants will be asked to avoid exercise, caffeine for \u2265 24 hours, and food or drinks for \u22654 hours before testing, with the exception of water, which could be consumed up to 45 minutes before testing.",
+      "measure": "Visceral Adipose Tissue (cm2)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Body weight were obtained using a SECA\u00ae beam balance",
+      "measure": "Body weight (kg)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Body height were obtained using a SECA\u00ae stadiometer.",
+      "measure": "Body Height (cm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Based on the weight and height measurements, BMI and BMI-z scores were calculated.",
+      "measure": "Body Mass Index (Kg/m2)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Waist circumference was measured using a non-stretchable measuring tape.",
+      "measure": "Waist circumference (cm)",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "Using the height and waist circumference, the waist-to-height ratio (WHtR) was calculated.",
+      "measure": "Waist-to-height ratio",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The Kidscreen-27 questionnaire will be used to assess the quality of life of the pediatric population with obesity. The questionnaire consists of five dimensions, allowing detailed profile information for physical well-being, psychological well-being, autonomy, parent relations, social support, peers, school, and environment. The questionnaire was validated in the Chilean pediatric population.",
+      "measure": "Measurement of Quality of Life",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The Spanish Perceived Physical Literacy Inventory will be used to assess the physical literacy of children. The questionnaire consists of three items (sense of self and self-confidence, self-expression, communication with others, and knowledge and understanding) divided into nine questions. It was validated in the Spanish language.",
+      "measure": "Physical Literacy",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The Physical Activity Enjoyment Scale will be used to assess the enjoyment of the two different training programs. The questionnaire consists of 16 Likert-type questions, which were validated in the Spanish language and present a Cronbach's Alpha coefficient of 0.85, informing an internal consistency of the scale.",
+      "measure": "Enjoyment",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "For the male pediatric population, the formula to determine the years for APHV will be: -7.99994 + (0.0036124) x (chronological age x height), and for the female pediatric population, it will be: -7.709133 + (0.0042232) x (chronological age x height). The pediatric population with a maturity offset of less than -1 will be determined as pre-APHV and greater than +1 as post-APHV.",
+      "measure": "Maturity Offset",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    },
+    {
+      "description": "The questionnaire of the \"Instituto de Nutrici\u00f3n y Tecnolog\u00eda de los Alimentos\" will be used to assess the physical activity levels. The questionnaire was validated in the Chilean population and consists of five items: hours spent lying down, hours spent in seated activities, number of blocks walked, daily hours spent in outdoor recreational games, and weekly hours of scheduled exercises or sports. Each category will be scored from 0 to 2, so the total score ranges from 0 to 10. The score of 5 presents a specificity value of 0.89 to determine the inactive pediatric population",
+      "measure": "Physical Activity Levels",
+      "outcome_type": "secondary",
+      "time_frame": "Previous (T0) and posterior to twelve weeks of training (T12)."
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "CHILD"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The randomized controlled trial will compare the effects of a High-intensity interval training (HIIT) protocol versus a HIIT plus plyometric training in the muscle-tendon structure function and metabolism of the pediatric population with obesity at different biological maturational stages (pre-to-age peak velocity \\[APHV\\] and post-APHV). Both groups perform baseline evaluations of the main and secondary outcomes and receive the intervention for twelve weeks, three times per week. Once the interventions are completed, the participants undergo the same evaluations they performed at baseline.",
+    "brief_title": "Effects of HIIT and Concurrent HITT/Plyometric Training on Muscle-tendon Structure, Function and Metabolism in Pediatric Population With Obesity at Different Biological Maturation States (HIIT-PRO Kids).",
+    "collaborator_names": [],
+    "completion_date": "2026-09-01",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Pediatric population with obesity determined by the body mass index by z-score (BMI-z) \u2265 2 standard deviations (SD) and \u2264 3.5 SD of the median for age and sex.\n* Pediatric population with -1 to -3 APHV (pre-APHV) and +1 to +3 APHV (post-APHV).\n\nExclusion Criteria:\n\n* Cognitive Disabilities.\n* Musculoskeletal condition that prevents regular physical activity.\n* Severe heart diseases that contraindicate the practice of physical activity.\n* Individuals who perform supervised exercise in the past six months.",
+    "detailed_description": "The prevalence of pediatric obesity increased 4.2-fold between 1976 and 2022, and it's expected to continue increasing toward 2030. Pediatric obesity is a public health problem due to its multiple metabolic comorbidities. Moreover, body weight and fat infiltration due to pediatric obesity negatively affect muscle-tendon structure, function, and metabolism, negatively impacting physical activity levels, active play, functional performance (e.g., jumping capacity), and quality of life. As a solution, HIIT protocols could decrease body weight and fat percentage and increase muscle oxidative capacity. The addition of plyometric training to HIIT protocols could generate the same effects as the HIIT protocol alone, with an additional enhancement in functional performance. However, the influence of biological maturation stages in the adaptations to training in pediatric population with obesity has been scarcely reported. Thus, throughout different biological maturation stages, such as pre-to-age peak velocity (APHV) (early stage of biological maturation) to post-APHV (final stage of biological maturation stage), an increase in testosterone, growth factors, and glycolytic metabolism capacity occurs. Therefore, the differences in the anabolic milieu and glycolytic metabolism between the pre-APHV and post-APHV could produce a differential capacity of training stimuli to modify the muscle-tendon, structure, function, and metabolism in these pediatric population with obesity. Therefore, this study aims to determine the effects of HIIT and concurrent HIIT and plyometric training in the muscle-tendon structure, function, and metabolism of the pediatric population with obesity in different maturation stages.\n\nThe study will be a parallel-group randomized controlled trial that compares the effects of HIIT versus HIIT plus plyometric training on muscle-tendon structure, function, and metabolism in the pediatric population pre-APHV and post-APHV with obesity in a public health setting. The primary outcome will be the Achilles tendon mechanical properties. We estimate a sample size of 10 participants per group and 40 in total.\n\nThe investigators aim to demonstrate the beneficial effects of HIIT plus plyometric training on the muscle-tendon structure and metabolism of the pediatric obesity population. Moreover, the researchers expected a difference in the adaptations provided by the training protocol between the pre-APHV and post-APHV groups.",
+    "drug_class_labels": [],
+    "enrollment_count": 40,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "HIIT plus plyometric training",
+      "HIIT"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Pediatric obesity",
+      "High-intensity interval training",
+      "Tendon mechanical properties",
+      "Plyometric training",
+      "Biological maturation stages"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-09-05",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Universidad Nacional Andres Bello",
+    "masking": "SINGLE",
+    "maximum_age_text": "17 Years",
+    "minimum_age_text": "7 Years",
+    "nct_id": "NCT06727500",
+    "official_title": "Effects of HIIT and Concurrent HITT/Plyometric Training on Muscle-tendon Structure, Function and Metabolism in Pediatric Population With Obesity at Different Biological Maturation States (HIIT-PRO Kids): A Study Protocol of Randomized Controlled Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2025-08-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06727500",
+    "start_date": "2025-04-01",
+    "study_first_posted_at": "2024-12-11",
+    "study_type": "INTERVENTIONAL"
+  }
+}

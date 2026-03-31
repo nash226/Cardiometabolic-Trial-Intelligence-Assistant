@@ -20,6 +20,7 @@
       font-family: Georgia, "Times New Roman", serif;
       background: linear-gradient(180deg, #f3eadc 0%, var(--bg) 100%);
       color: var(--ink);
+      scroll-behavior: smooth;
     }
     .shell {
       max-width: 1120px;
@@ -195,7 +196,7 @@
     </section>
 
     <section class="grid">
-      <div class="section">
+      <div class="section" id="ask-panel">
         <h2>Ask About This Trial</h2>
         <form class="ask-form" id="ask-form">
           <textarea id="question" name="question" placeholder="Ask a grounded question about this trial...">Does this trial appear to involve incretin-related therapy?</textarea>
@@ -214,7 +215,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" id="trial-snapshot">
         <h2>Trial Snapshot</h2>
         <div class="kv">
           <div><span class="k">Source</span><span class="v"><a href="{{ trial.source_url }}">{{ trial.source_url }}</a></span></div>
@@ -226,7 +227,7 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" id="timeline">
         <h2>Timeline</h2>
         <div class="kv">
           <div><span class="k">Start date</span><span class="v">{{ trial.start_date_text or "Unknown" }}</span></div>
@@ -240,11 +241,11 @@
     </section>
 
     <section class="grid">
-      <div class="section">
+      <div class="section" id="summary-description">
         <h2>Summary</h2>
         <pre>{{ trial.brief_summary or "No summary available." }}</pre>
       </div>
-      <div class="section">
+      <div class="section" id="eligibility">
         <h2>Eligibility</h2>
         {% if trial.eligibility %}
           <pre>{{ trial.eligibility.criteria_text or "No criteria text available." }}</pre>
@@ -254,7 +255,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="interventions">
       <h2>Interventions</h2>
       <div class="list">
         {% for intervention in trial.interventions %}
@@ -271,7 +272,7 @@
     </section>
 
     <section class="grid">
-      <div class="section">
+      <div class="section" id="outcomes">
         <h2>Outcomes</h2>
         <div class="list">
           {% for outcome in trial.outcomes %}
@@ -282,7 +283,7 @@
           {% endfor %}
         </div>
       </div>
-      <div class="section">
+      <div class="section" id="chunk-previews">
         <h2>Chunk Previews</h2>
         <div class="list">
           {% for chunk in trial.chunks %}
@@ -311,6 +312,24 @@
       "is_2026_relevant": trial.is_2026_relevant
     } | tojson }};
 
+    const chunkSectionMap = {
+      status_identity: "trial-snapshot",
+      conditions_interventions: "interventions",
+      summary_description: "summary-description",
+      eligibility: "eligibility",
+      outcomes: "outcomes",
+      timeline: "timeline",
+      sponsor_locations: "trial-snapshot"
+    };
+
+    function citationHref(citation) {
+      const sectionId = chunkSectionMap[citation.chunk_type] || "chunk-previews";
+      if (citation.trial_nct_id === trialMeta.nct_id) {
+        return `#${sectionId}`;
+      }
+      return `/trials/${citation.trial_nct_id}#${sectionId}`;
+    }
+
     function renderAnswer(payload) {
       answerBox.style.display = "grid";
       answerText.textContent = payload.answer;
@@ -331,7 +350,7 @@
       citationList.innerHTML = payload.citations.map((citation) => `
         <div class="item">
           <h3>
-            <a class="citation-link" href="/trials/${citation.trial_nct_id}">
+            <a class="citation-link" href="${citationHref(citation)}">
               ${citation.trial_nct_id} · ${citation.title || citation.chunk_type}
             </a>
           </h3>

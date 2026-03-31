@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06953180:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06953180\nBrief title: Epigenetics and NCD Prevention in Kazakhstan: Personalized Approaches and Biological Age Prediction\nOfficial title: Epigenetics and Prevention of Non-communicable Diseases in Kazakhstan: a Personalized Approach and Biological Age Prediction\nStudy type: OBSERVATIONAL\nOverall status: RECRUITING\nPhases:",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT06953180"
+    },
+    {
+      "chunk_id": "NCT06953180:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes; obesity\nRaw conditions: Cardiovascular Diseases (CVD); Type 2 Diabetes; Chronic Respiratory Diseases; Obesity (Disorder); Chronic Kidney Diseases\nIntervention labels: Genetic: DNA analysis\nDrug class labels: \nArms: The study includes 1 cohort divided into 4 age subgroups.\nKeywords: DNA methylation; precision medicine; preventive medicine; artificial intelligence; biomedical modeling",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT06953180"
+    },
+    {
+      "chunk_id": "NCT06953180:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study aims to enhance personalized and preventive care for non-communicable diseases (NCDs) in Kazakhstan by examining epigenetic factors, predicting biological age and reproductive function using machine learning, and developing health improvement recommendations.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT06953180"
+    },
+    {
+      "chunk_id": "NCT06953180:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 69 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Adults aged 18 to 69 years.\n* Residents of 17 regions of Kazakhstan.\n* Willingness to participate and provide informed consent.\n\nExclusion Criteria:\n\n* Age less than 18 years old or over 69 years old.\n* Failure to provide informed consent or incomplete participation in data collection procedures.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 69,
+      "trial_nct_id": "NCT06953180"
+    },
+    {
+      "chunk_id": "NCT06953180:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Accuracy of Machine Learning Model for Predicting Biological Age | time_frame=Within 10 months from start of data collection | description=Evaluation of the model's performance (based on telomere length and DNA methylation) using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R\u00b2.\ntype=primary | measure=Accuracy of Reproductive Function Prediction Model | time_frame=Within 10 months from start of data collection | description=Development and validation of machine learning model to predict reproductive function using biomarkers. Model performance evaluated via MAE, MSE, and R\u00b2.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 83,
+      "trial_nct_id": "NCT06953180"
+    },
+    {
+      "chunk_id": "NCT06953180:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-03-03\nPrimary completion date: 2026-01-01\nCompletion date: 2026-12-31\nStudy first posted: 2025-05-01\nResults first posted: None\nLast update posted: 2025-07-11\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06953180"
+    },
+    {
+      "chunk_id": "NCT06953180:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Asfendiyarov Kazakh National Medical University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06953180"
+    }
+  ],
+  "trial_nct_id": "NCT06953180"
+}

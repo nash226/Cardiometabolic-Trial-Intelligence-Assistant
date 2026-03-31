@@ -1,0 +1,297 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D050177",
+          "term": "Overweight"
+        },
+        {
+          "id": "D044343",
+          "term": "Overnutrition"
+        },
+        {
+          "id": "D009748",
+          "term": "Nutrition Disorders"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D002908",
+          "term": "Chronic Disease"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D009765",
+          "term": "Obesity"
+        },
+        {
+          "id": "D051436",
+          "term": "Renal Insufficiency, Chronic"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-30"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "The study follows a multistage cluster sampling design with age and gender stratification. A total of 1 cohorts have been identified, further divided into 4 age subgroups:\n\n1. 18-29 years\n2. 30-44 years\n3. 45-59 years\n4. 60-69 years Each age group is designed to have an equal distribution of men and women, ensuring gender balance across all subgroups.",
+          "interventionNames": [
+            "Other: Genetic: DNA analysis"
+          ],
+          "label": "The study includes 1 cohort divided into 4 age subgroups."
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "The study includes 1 cohort divided into 4 age subgroups."
+          ],
+          "description": "Investigation of telomere length (TL) and DNA methylation level analysis",
+          "name": "Genetic: DNA analysis",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiovascular Diseases (CVD)",
+        "Type 2 Diabetes",
+        "Chronic Respiratory Diseases",
+        "Obesity (Disorder)",
+        "Chronic Kidney Diseases"
+      ],
+      "keywords": [
+        "DNA methylation",
+        "precision medicine",
+        "preventive medicine",
+        "artificial intelligence",
+        "biomedical modeling"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "fakhradiyev.i@kaznmu.kz",
+          "name": "Ildar Fakhradiyev, Ph.D",
+          "phone": "+7 (727) 338 7090",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Almaty",
+          "contacts": [
+            {
+              "email": "fakhradiyev.i@kaznmu.kz",
+              "name": "Ildar Fakhradiyev, PhD",
+              "phone": "+7 (727) 338 7090",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ildar Fakhradiyev, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Kazakhstan",
+          "facility": "Asfendiyarov Kazakh National Medical University",
+          "geoPoint": {
+            "lat": 43.25249,
+            "lon": 76.9115
+          },
+          "state": "Kazakhstan",
+          "status": "RECRUITING",
+          "zip": "050000"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to enhance personalized and preventive care for non-communicable diseases (NCDs) in Kazakhstan by examining epigenetic factors, predicting biological age and reproductive function using machine learning, and developing health improvement recommendations."
+    },
+    "designModule": {
+      "bioSpec": {
+        "description": "Venous blood samples and peripheral blood mononuclear cells (PBMCs) will be collected. DNA will be extracted and analyzed for telomere length (via quantitative real-time polymerase chain reaction (qPCR)) and methylation patterns (using methylation-sensitive high-resolution melting (MS-HRM)). Only high-quality DNA (assessed by spectrophotometry and fluorometry) will be retained. Samples will be stored at -80\u00b0C.",
+        "retention": "SAMPLES_WITH_DNA"
+      },
+      "designInfo": {
+        "observationalModel": "OTHER",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 6720,
+        "type": "ESTIMATED"
+      },
+      "patientRegistry": false,
+      "studyType": "OBSERVATIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged 18 to 69 years.\n* Residents of 17 regions of Kazakhstan.\n* Willingness to participate and provide informed consent.\n\nExclusion Criteria:\n\n* Age less than 18 years old or over 69 years old.\n* Failure to provide informed consent or incomplete participation in data collection procedures.",
+      "healthyVolunteers": true,
+      "maximumAge": "69 Years",
+      "minimumAge": "18 Years",
+      "samplingMethod": "PROBABILITY_SAMPLE",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study population consists of 6,720 adult volunteers aged 18 to 69 years, residing across 17 regions of Kazakhstan. Participants are stratified by age and gender to ensure balanced representation within the following age groups:\n\n* 18-29 years\n* 30-44 years\n* 45-59 years\n* 60-69 years Each age group includes an equal proportion of men and women, ensuring gender balance. The selection follows a multistage cluster sampling design, incorporating various socioeconomic backgrounds and health statuses to enhance the generalizability of findings."
+    },
+    "identificationModule": {
+      "briefTitle": "Epigenetics and NCD Prevention in Kazakhstan: Personalized Approaches and Biological Age Prediction",
+      "nctId": "NCT06953180",
+      "officialTitle": "Epigenetics and Prevention of Non-communicable Diseases in Kazakhstan: a Personalized Approach and Biological Age Prediction",
+      "orgStudyIdInfo": {
+        "id": "BR27304987"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Asfendiyarov Kazakh National Medical University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Evaluation of the model's performance (based on telomere length and DNA methylation) using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R\u00b2.",
+          "measure": "Accuracy of Machine Learning Model for Predicting Biological Age",
+          "timeFrame": "Within 10 months from start of data collection"
+        },
+        {
+          "description": "Development and validation of machine learning model to predict reproductive function using biomarkers. Model performance evaluated via MAE, MSE, and R\u00b2.",
+          "measure": "Accuracy of Reproductive Function Prediction Model",
+          "timeFrame": "Within 10 months from start of data collection"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Asfendiyarov Kazakh National Medical University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Asfendiyarov Kazakh National Medical University",
+        "investigatorFullName": "Ildar Fakhradiyev",
+        "investigatorTitle": "Vice-rector",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-08",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-01-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-03-03",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-04",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-31",
+      "studyFirstSubmitQcDate": "2025-04-23"
+    }
+  }
+}

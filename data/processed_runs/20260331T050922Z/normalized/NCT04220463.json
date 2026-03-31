@@ -1,0 +1,202 @@
+{
+  "arms": [
+    {
+      "description": "For the hypnosis group, hypnotic support is set up by a doctor/IDE previously trained and dedicated during the implementation of the NIV. The dedicated doctor/IDE will be presented before the start of the NIV setup procedure and will start the hypnosis session a few minutes before the mask is put on. The procedure for setting up the NAV may begin after agreement from the dedicated doctor/IDE.",
+      "intervention_names": [
+        "Other: Hypnosis + NIV"
+      ],
+      "label": "Hypnosis group",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "In the control group, in order to preserve the knowledge of the evaluator, the doctor/IDE dedicated to hypnosis is present in the service but does not intervene in the care so as not to be tempted to involuntarily put hypnosis in place. The assessor will be chosen from the two other teams present in the other two modules (each module is a seven-bed unit and has no physical communication with the other two) after the start of the procedure for setting up the NIV, with or without hypnosis, in order to be certain that he had no visual contact with the patient and the caregivers present before the evaluation. The implementation of the NAV will take place as usually carried out in the service.",
+      "intervention_names": [
+        "Other: NIV"
+      ],
+      "label": "Control group",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Obesity With a BMI Greater Than 30",
+      "normalized_name": "obesity"
+    },
+    {
+      "is_primary": true,
+      "name": "Acute Respiratory Distress in Adult Intensive Care",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Pre-inclusion criteria\n\n* Man or woman, aged 18 or over, admitted to medical intensive care\n* Glasgow score = 15\n* Patient with acute respiratory failure decompensating COPD and/or having obesity with a body mass index (BMI) greater than 30\n* Patient having given free, informed and written consent\n* Patient affiliated to a health insurance system\n\nInclusion Criteria:\n\n* Glasgow score = 15\n* Need during use of non-invasive ventilation\n\nExclusion Criteria:\n\n* Procedure to be carried out in extreme urgency (PaCO2 too high and leading to an immediate vital risk, and / or PaO2 too low) on medical decision\n* Confusional state making hypnosis impossible\n* Decompensated psychiatric illness\n* Patient entering with an NIV in place already installed in another department. The subject becomes included again at the end of the treatment with NIV if however he needs it again.\n* Patient already included in the study during previous non-invasive ventilation\n* Patient participating in research involving an interventional human person (category 1) on an analgesic / sedative medication\n* A person of full age subject to legal protection (safeguard of justice, curators, guardianship) or deprived of liberty",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Hypnosis group"
+      ],
+      "description": "For the hypnosis group, hypnotic support is set up by a doctor/IDE previously trained and dedicated during the implementation of the NIV. The dedicated doctor/IDE will be presented before the start of the NIV setup procedure and will start the hypnosis session a few minutes before the mask is put on. The procedure for setting up the NAV may begin after agreement from the dedicated doctor/IDE.",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Hypnosis + NIV",
+      "normalized_name": "hypnosis + niv"
+    },
+    {
+      "arm_group_labels": [
+        "Control group"
+      ],
+      "description": "In the control group, in order to preserve the knowledge of the evaluator, the doctor/IDE dedicated to hypnosis is present in the service but does not intervene in the care so as not to be tempted to involuntarily put hypnosis in place. The assessor will be chosen from the two other teams present in the other two modules (each module is a seven-bed unit and has no physical communication with the other two) after the start of the procedure for setting up the NIV, with or without hypnosis, in order to be certain that he had no visual contact with the patient and the caregivers present before the evaluation. The implementation of the NAV will take place as usually carried out in the service.",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "NIV",
+      "normalized_name": "niv"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Quantification of comfort by a Digital Verbal Comfort Scale 2 hours after initiation of NIV (from 0 to 10, 0 being the minimum comfort felt and 10 the maximum comfort felt by the patient)",
+      "measure": "Comfort",
+      "outcome_type": "primary",
+      "time_frame": "2 hours after initiation of NIV"
+    },
+    {
+      "description": "Assessment of anxiety (Numerical Verbal Scale from 0 to 10) at inclusion, 30 minutes, 2 hours and 24 hours after the implementation of the NIV",
+      "measure": "Anxiety",
+      "outcome_type": "secondary",
+      "time_frame": "Before and 30 minuts, 2 hours and 24 hours after the implementation of the NIV"
+    },
+    {
+      "description": "Calculation of the number of hours of the first NIV session",
+      "measure": "First NIV session duration",
+      "outcome_type": "secondary",
+      "time_frame": "At the end of the first NIV session"
+    },
+    {
+      "description": "Comfort assessment at inclusion, 30 minutes and 24 hours after the implementation of the NIV (Digital Verbal Scale from 0 to 10)",
+      "measure": "Comfort",
+      "outcome_type": "secondary",
+      "time_frame": "Before and 30 minuts and 24 hours after the implementation of the NIV"
+    },
+    {
+      "description": "Decrease in PaCO2: Installation of a transcutaneous sensor and measurement of TcpCO2 at inclusion, 30 minutes, 2 hours and 24 hours after the establishment of the NIV",
+      "measure": "TcpCO2",
+      "outcome_type": "secondary",
+      "time_frame": "Before and 30 minuts, 2 hours and 24 hours after the implementation of the NIV"
+    },
+    {
+      "description": "Calculation of the number of hours of NIV in the first 24 hours of treatment",
+      "measure": "NIV duration",
+      "outcome_type": "secondary",
+      "time_frame": "after the first 24 hours of treatment"
+    },
+    {
+      "description": "Assessment of the dyspnea felt by the patient 2 hours after the setting up of the NIV: +2: significant improvement; +1 slight improvement; 0 No change; -1 slight deterioration; -2 significant deterioration.",
+      "measure": "dyspnea",
+      "outcome_type": "secondary",
+      "time_frame": "2 hours after the setting up of the NIV"
+    },
+    {
+      "description": "Number of intubations: calculation of the number of patients intubated during the ICU stay.",
+      "measure": "Intubation",
+      "outcome_type": "secondary",
+      "time_frame": "Day 28"
+    },
+    {
+      "description": "Duration of stay in intensive care",
+      "measure": "Stay duration",
+      "outcome_type": "secondary",
+      "time_frame": "Day 28"
+    },
+    {
+      "description": "Record of the number of patients who had to have a prescription for anxiolytics during hospitalization in intensive care.",
+      "measure": "anxiolytic treatment prescription",
+      "outcome_type": "secondary",
+      "time_frame": "Day 28"
+    },
+    {
+      "description": "Evaluation of the stress of the healthcare team by a numerical verbal scale from 0 to 10 (0 being no stress and 10 the greatest possible stress felt) at inclusion, 30 minutes and 2 hours after NIV initiation",
+      "measure": "stress",
+      "outcome_type": "secondary",
+      "time_frame": "Before and 30 minuts and 2 hours after the implementation of the NIV"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Discomfort during respiratory decompensation of a patient with chronic obstructive pulmonary disease (COPD) and/or obesity with a BMI greater than 30, in intensive care and the establishment of non-invasive ventilation (NIV) is frequent and a source of failure. this therapy. Pharmacological treatments may be impossible due to the pathology, the risk of it worsening and adverse effects. In this context, hypnosis appears to be a tool that would promote comfort and thus increase tolerance of NIV.",
+    "brief_title": "Interest of Hypnosis When Setting up Non-invasive Ventilation in a Conscious Patient With COPD and/or Obesity With a BMI Greater Than 30, Suffering Fromacute Respiratory Distress in Adult Intensive Care",
+    "collaborator_names": [],
+    "completion_date": "2025-11-20",
+    "condition_labels": [
+      "obesity"
+    ],
+    "country_codes": [],
+    "criteria_text": "Pre-inclusion criteria\n\n* Man or woman, aged 18 or over, admitted to medical intensive care\n* Glasgow score = 15\n* Patient with acute respiratory failure decompensating COPD and/or having obesity with a body mass index (BMI) greater than 30\n* Patient having given free, informed and written consent\n* Patient affiliated to a health insurance system\n\nInclusion Criteria:\n\n* Glasgow score = 15\n* Need during use of non-invasive ventilation\n\nExclusion Criteria:\n\n* Procedure to be carried out in extreme urgency (PaCO2 too high and leading to an immediate vital risk, and / or PaO2 too low) on medical decision\n* Confusional state making hypnosis impossible\n* Decompensated psychiatric illness\n* Patient entering with an NIV in place already installed in another department. The subject becomes included again at the end of the treatment with NIV if however he needs it again.\n* Patient already included in the study during previous non-invasive ventilation\n* Patient participating in research involving an interventional human person (category 1) on an analgesic / sedative medication\n* A person of full age subject to legal protection (safeguard of justice, curators, guardianship) or deprived of liberty",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 50,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Hypnosis + NIV",
+      "NIV"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-06-24",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Rennes University Hospital",
+    "masking": "SINGLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT04220463",
+    "official_title": "HYVIR : Interest of Hypnosis During the Implementation of Non-invasive Ventilation in a Patient With COPD and/or Obesity With a BMI Greater Than 30, Conscious With Acute Respiratory Distress in the Adult Intensive Care Unit",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "NA"
+    ],
+    "primary_completion_date": "2025-11-20",
+    "primary_purpose": "SUPPORTIVE_CARE",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT04220463",
+    "start_date": "2021-11-20",
+    "study_first_posted_at": "2020-01-07",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -9,7 +9,10 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from lib.env_utils import load_dotenv
+try:
+    from .lib.env_utils import load_dotenv
+except ImportError:  # pragma: no cover - script execution fallback
+    from lib.env_utils import load_dotenv
 
 
 def parse_args() -> argparse.Namespace:
@@ -313,17 +316,11 @@ def load_embedding_map(index_path: Path | None, skip_embeddings: bool) -> dict[s
     return result
 
 
-def main() -> int:
-    args = parse_args()
-    summary_payload = load_json(args.summary_path)
-    embedding_map = load_embedding_map(args.semantic_index_path, args.skip_embeddings)
+def load_processed_run(summary_path: Path, semantic_index_path: Path | None, skip_embeddings: bool = False) -> int:
+    summary_payload = load_json(summary_path)
+    embedding_map = load_embedding_map(semantic_index_path, skip_embeddings)
 
-    try:
-        conn = get_db_connection()
-    except RuntimeError as exc:
-        print(str(exc), file=sys.stderr)
-        return 1
-
+    conn = get_db_connection()
     loaded_count = 0
     with conn:
         with conn.cursor() as cur:
@@ -334,8 +331,25 @@ def main() -> int:
                 chunk_payload = load_json(Path(study_item["chunk_path"]))
 
                 trial_id = upsert_trial(cur, normalized_payload, raw_payload)
-                refresh_child_tables(cur, trial_id, normalized_payload, validation_payload, chunk_payload, embedding_map)
+                refresh_child_tables(
+                    cur,
+                    trial_id,
+                    normalized_payload,
+                    validation_payload,
+                    chunk_payload,
+                    embedding_map,
+                )
                 loaded_count += 1
+    return loaded_count
+
+
+def main() -> int:
+    args = parse_args()
+    try:
+        loaded_count = load_processed_run(args.summary_path, args.semantic_index_path, args.skip_embeddings)
+    except RuntimeError as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
 
     print(f"Loaded {loaded_count} trials into Postgres")
     return 0
