@@ -11,6 +11,7 @@ This is the first backend service layer over the stored trial corpus.
 - `GET /health`
 - `POST /api/v1/search`
 - `POST /api/v1/search/semantic`
+- `POST /api/v1/search/fused`
 
 ## What `POST /api/v1/search` does
 
@@ -68,6 +69,26 @@ Example request:
   "year_2026_only": true,
   "provider": "openai",
   "model": "text-embedding-3-small",
+  "limit": 5
+}
+```
+
+## Fused search endpoint
+
+`POST /api/v1/search/fused` runs DB-backed fused retrieval. It applies the same structured filters, computes lexical and semantic scores for eligible chunks, normalizes both score streams, and returns a combined ranking with transparent score breakdowns.
+
+Example request:
+
+```json
+{
+  "query": "incretin obesity therapy",
+  "accepted_only": true,
+  "study_type": "INTERVENTIONAL",
+  "year_2026_only": true,
+  "provider": "openai",
+  "model": "text-embedding-3-small",
+  "lexical_weight": 0.4,
+  "semantic_weight": 0.6,
   "limit": 5
 }
 ```

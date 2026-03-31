@@ -1,5 +1,7 @@
 # Architecture
 
+See the current system diagram at [current-architecture-diagram.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/current-architecture-diagram.md).
+
 ## System shape
 
 The MVP is a hybrid retrieval application over ClinicalTrials.gov study records. It is not a free-form literature chatbot.
