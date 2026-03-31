@@ -3,14 +3,11 @@
 from __future__ import annotations
 
 import hashlib
-import json
 import math
 import os
 import re
 from pathlib import Path
 from typing import Any
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
 
 try:
     from .env_utils import load_dotenv
@@ -19,10 +16,17 @@ except ImportError as exc:  # pragma: no cover - script execution fallback
         raise
     from lib.env_utils import load_dotenv
 
+try:
+    from openai import OpenAI
+except ImportError as exc:  # pragma: no cover - dependency missing at runtime
+    OpenAI = Any  # type: ignore[assignment]
+    OPENAI_IMPORT_ERROR = exc
+else:
+    OPENAI_IMPORT_ERROR = None
+
 
 TOKEN_PATTERN = re.compile(r"[a-z0-9_+-]+")
 LOCAL_DEBUG_DIMENSION = 256
-OPENAI_EMBEDDINGS_URL = "https://api.openai.com/v1/embeddings"
 
 
 def tokenize(text: str) -> list[str]:
@@ -55,33 +59,23 @@ def local_debug_embedding(text: str, dimension: int = LOCAL_DEBUG_DIMENSION) -> 
 
 
 def openai_embedding(text: str, model: str) -> list[float]:
+    if OPENAI_IMPORT_ERROR is not None:
+        raise RuntimeError(
+            "The openai package is required for provider=openai. Install dependencies with "
+            "`pip install -r requirements.txt`."
+        ) from OPENAI_IMPORT_ERROR
+
     load_dotenv(Path.cwd())
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is required for provider=openai")
 
-    body = json.dumps({"input": text, "model": model}).encode("utf-8")
-    request = Request(
-        OPENAI_EMBEDDINGS_URL,
-        data=body,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-    try:
-        with urlopen(request, timeout=60) as response:
-            payload = json.load(response)
-    except HTTPError as exc:
-        raise RuntimeError(f"OpenAI embeddings HTTP error {exc.code}") from exc
-    except URLError as exc:
-        raise RuntimeError(f"OpenAI embeddings network error: {exc.reason}") from exc
-
-    data = payload.get("data", [])
+    client = OpenAI(api_key=api_key)
+    response = client.embeddings.create(model=model, input=text)
+    data = getattr(response, "data", None)
     if not data:
         raise RuntimeError("OpenAI embeddings response did not contain data")
-    embedding = data[0].get("embedding")
+    embedding = data[0].embedding
     if not isinstance(embedding, list):
         raise RuntimeError("OpenAI embeddings response did not contain an embedding list")
     return [float(value) for value in embedding]

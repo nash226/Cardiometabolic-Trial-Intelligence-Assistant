@@ -1,10 +1,7 @@
 from __future__ import annotations
 
-import json
 import os
 from pathlib import Path
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
 
 from scripts.lib.env_utils import load_dotenv
 
@@ -12,8 +9,13 @@ from ..schemas.ask import AskCitation, AskRequest, AskResponse
 from ..schemas.fused_search import FusedSearchRequest
 from .fused_search_service import fused_search_trials
 
-
-OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions"
+try:
+    from openai import OpenAI
+except ImportError as exc:  # pragma: no cover - dependency missing at runtime
+    OpenAI = None  # type: ignore[assignment]
+    OPENAI_IMPORT_ERROR = exc
+else:
+    OPENAI_IMPORT_ERROR = None
 
 
 def _build_ask_prompt(question: str, citations: list[AskCitation]) -> str:
@@ -67,48 +69,27 @@ def _fallback_answer(question: str, citations: list[AskCitation]) -> tuple[str, 
 
 
 def _openai_answer(prompt: str, model: str) -> str:
+    if OPENAI_IMPORT_ERROR is not None or OpenAI is None:
+        raise RuntimeError(
+            "The openai package is required for answer generation. Install dependencies with "
+            "`pip install -r requirements.txt`."
+        ) from OPENAI_IMPORT_ERROR
+
     load_dotenv(Path.cwd())
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is required for answer generation.")
 
-    body = json.dumps(
-        {
-            "model": model,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "You answer only from provided trial evidence and keep responses concise.",
-                },
-                {"role": "user", "content": prompt},
-            ],
-            "temperature": 0.1,
-        }
-    ).encode("utf-8")
-    request = Request(
-        OPENAI_CHAT_COMPLETIONS_URL,
-        data=body,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
+    client = OpenAI(api_key=api_key)
+    response = client.responses.create(
+        model=model,
+        temperature=0.1,
+        instructions="You answer only from provided trial evidence and keep responses concise.",
+        input=prompt,
     )
-    try:
-        with urlopen(request, timeout=60) as response:
-            payload = json.load(response)
-    except HTTPError as exc:
-        raise RuntimeError(f"OpenAI chat completions HTTP error {exc.code}") from exc
-    except URLError as exc:
-        raise RuntimeError(f"OpenAI chat completions network error: {exc.reason}") from exc
-
-    choices = payload.get("choices", [])
-    if not choices:
-        raise RuntimeError("OpenAI chat completions response did not contain choices.")
-    message = choices[0].get("message", {})
-    content = message.get("content")
+    content = getattr(response, "output_text", None)
     if not isinstance(content, str) or not content.strip():
-        raise RuntimeError("OpenAI chat completions response did not contain text content.")
+        raise RuntimeError("OpenAI responses API did not return text content.")
     return content.strip()
 
 

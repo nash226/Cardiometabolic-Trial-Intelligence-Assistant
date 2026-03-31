@@ -123,6 +123,11 @@ It does this in order:
 
 If model synthesis fails, the endpoint falls back to an extractive evidence summary instead of returning an ungrounded answer.
 
+OpenAI integration now uses the official Python SDK:
+
+- embeddings via `client.embeddings.create(...)`
+- answer generation via `client.responses.create(...)`
+
 Example request:
 
 ```json

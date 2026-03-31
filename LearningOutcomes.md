@@ -171,6 +171,75 @@ The next improvement after chunk-type weighting is likely one of:
 - intervention / drug-class enrichment so queries like `incretin` can map more directly to trial interventions
 - retrieval evaluation to measure whether the new weighting improves evidence quality consistently
 
+## 33 OpenAI SDK Refactor
+
+### What we built
+
+We refactored the OpenAI integration to use the official Python SDK instead of raw HTTP calls.
+
+This changed two paths:
+
+- embeddings now use `client.embeddings.create(...)`
+- answer generation now uses `client.responses.create(...)`
+
+### Why this matters
+
+The SDK is a better long-term integration surface than hand-written `urllib` requests.
+
+It gives us:
+
+- cleaner client code
+- better alignment with the current OpenAI API surface
+- easier future upgrades for response generation
+
+### What I learned
+
+- embeddings and answer generation are two separate model interaction paths in this system
+- `responses.create(...)` is the right abstraction for answer generation
+- embeddings should still use the embeddings API through the SDK
+
+### What comes next
+
+The next step is to reinstall dependencies in the venv and rerun:
+
+- semantic retrieval
+- fused retrieval
+- grounded answer generation
+
+to verify the SDK-backed path end to end
+
+## 34 Path To MVP
+
+### What we built
+
+We added a dedicated MVP path document at [path-to-mvp.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/path-to-mvp.md).
+
+### Why this matters
+
+The project now has enough backend capability that the main question is no longer “can this architecture work?”
+
+The main question is:
+
+- what is the shortest path to a usable product?
+
+The MVP path document answers that by separating:
+
+- must-have product steps
+- quality improvements that can come after
+
+### What I learned
+
+- once the backend core is working, the biggest risk becomes losing focus and continuing to optimize internals instead of finishing the user-facing product
+- the cleanest MVP sequence is backend contract first, then finder UI, then detail/ask, then compare, then evaluation
+
+### What comes next
+
+The next build step should be:
+
+- `GET /api/v1/trials/{nct_id}`
+
+After that, the frontend trial finder can start against a stable backend contract.
+
 ## 1. Narrowing the product scope
 
 ### What we decided
