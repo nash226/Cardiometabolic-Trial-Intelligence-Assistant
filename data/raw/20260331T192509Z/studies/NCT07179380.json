@@ -1,0 +1,805 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D017563",
+          "term": "Lung Diseases, Interstitial"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive TPIP, once daily (QD), at a starting dose of 80 micrograms (\u03bcg) to maximum tolerated dose up to 1280 \u03bcg for 24 weeks.",
+          "interventionNames": [
+            "Drug: Treprostinil Palmitil Inhalation Powder"
+          ],
+          "label": "Treprostinil Palmitil Inhalation Powder",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Participants will receive a placebo matching TPIP QD for 24 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Treprostinil Palmitil Inhalation Powder"
+          ],
+          "description": "Oral inhalation using a capsule-based dry powder inhaler device.",
+          "name": "Treprostinil Palmitil Inhalation Powder",
+          "otherNames": [
+            "INS1009"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Oral inhalation using a capsule-based dry powder inhaler device.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Hypertension",
+        "Interstitial Lung Disease"
+      ],
+      "keywords": [
+        "pulmonary hypertension",
+        "interstitial lung disease"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "medicalinformation@insmed.com",
+          "name": "Insmed Medical Information",
+          "phone": "18444467633",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Santa Barbara",
+          "country": "United States",
+          "facility": "USA001",
+          "geoPoint": {
+            "lat": 34.42083,
+            "lon": -119.69819
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "93105"
+        },
+        {
+          "city": "Naples",
+          "country": "United States",
+          "facility": "USA006",
+          "geoPoint": {
+            "lat": 26.14234,
+            "lon": -81.79596
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "34102"
+        },
+        {
+          "city": "Bend",
+          "country": "United States",
+          "facility": "USA003",
+          "geoPoint": {
+            "lat": 44.05817,
+            "lon": -121.31531
+          },
+          "state": "Oregon",
+          "status": "RECRUITING",
+          "zip": "97701"
+        },
+        {
+          "city": "Richmond",
+          "country": "United States",
+          "facility": "USA008",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "23230"
+        },
+        {
+          "city": "R\u00edo Cuarto",
+          "country": "Argentina",
+          "facility": "ARG003",
+          "geoPoint": {
+            "lat": -33.13044,
+            "lon": -64.35272
+          },
+          "state": "C\u00f3rdoba Province",
+          "status": "RECRUITING",
+          "zip": "5800"
+        },
+        {
+          "city": "San Miguel de Tucum\u00e1n",
+          "country": "Argentina",
+          "facility": "ARG008",
+          "geoPoint": {
+            "lat": -26.81601,
+            "lon": -65.21051
+          },
+          "state": "Tucum\u00e1n Province",
+          "status": "RECRUITING",
+          "zip": "T4000AXL"
+        },
+        {
+          "city": "Leuven",
+          "country": "Belgium",
+          "facility": "BEL002",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          },
+          "status": "RECRUITING",
+          "zip": "3000"
+        },
+        {
+          "city": "Prague",
+          "country": "Czechia",
+          "facility": "CZE001",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          },
+          "status": "RECRUITING",
+          "zip": "14059"
+        },
+        {
+          "city": "Le Kremlin-Bic\u00eatre",
+          "country": "France",
+          "facility": "FRA003",
+          "geoPoint": {
+            "lat": 48.81471,
+            "lon": 2.36073
+          },
+          "status": "RECRUITING",
+          "zip": "94275"
+        },
+        {
+          "city": "Tbilisi",
+          "country": "Georgia",
+          "facility": "GEO002",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          },
+          "status": "RECRUITING",
+          "zip": "0140"
+        },
+        {
+          "city": "Tbilisi",
+          "country": "Georgia",
+          "facility": "GEO004",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          },
+          "status": "RECRUITING",
+          "zip": "0159"
+        },
+        {
+          "city": "Tbilisi",
+          "country": "Georgia",
+          "facility": "GEO003",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          },
+          "status": "RECRUITING",
+          "zip": "0180"
+        },
+        {
+          "city": "Tbilisi",
+          "country": "Georgia",
+          "facility": "GEO001",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          },
+          "status": "RECRUITING",
+          "zip": "0186"
+        },
+        {
+          "city": "Stuttgart",
+          "country": "Germany",
+          "facility": "DEU012",
+          "geoPoint": {
+            "lat": 48.78232,
+            "lon": 9.17702
+          },
+          "state": "Baden-Wurttemberg",
+          "status": "RECRUITING",
+          "zip": "70376"
+        },
+        {
+          "city": "M\u00fcnchen",
+          "country": "Germany",
+          "facility": "DEU003",
+          "geoPoint": {
+            "lat": 48.69668,
+            "lon": 13.46314
+          },
+          "state": "Bavaria",
+          "status": "RECRUITING",
+          "zip": "80335"
+        },
+        {
+          "city": "M\u00fcnchen",
+          "country": "Germany",
+          "facility": "DEU006",
+          "geoPoint": {
+            "lat": 48.69668,
+            "lon": 13.46314
+          },
+          "state": "Bavaria",
+          "status": "RECRUITING",
+          "zip": "80639"
+        },
+        {
+          "city": "Immenhausen",
+          "country": "Germany",
+          "facility": "DEU005",
+          "geoPoint": {
+            "lat": 51.42763,
+            "lon": 9.48017
+          },
+          "state": "Hesse",
+          "status": "RECRUITING",
+          "zip": "34376"
+        },
+        {
+          "city": "Bonn",
+          "country": "Germany",
+          "facility": "DEU008",
+          "geoPoint": {
+            "lat": 50.73438,
+            "lon": 7.09549
+          },
+          "state": "North Rhine-Westphalia",
+          "status": "RECRUITING",
+          "zip": "53127"
+        },
+        {
+          "city": "Gauting",
+          "country": "Germany",
+          "facility": "DEU010",
+          "geoPoint": {
+            "lat": 48.06919,
+            "lon": 11.37703
+          },
+          "status": "RECRUITING",
+          "zip": "82131"
+        },
+        {
+          "city": "Petah Tikva",
+          "country": "Israel",
+          "facility": "ISR003",
+          "geoPoint": {
+            "lat": 32.08707,
+            "lon": 34.88747
+          },
+          "state": "Central District",
+          "status": "RECRUITING",
+          "zip": "4941492"
+        },
+        {
+          "city": "Haifa",
+          "country": "Israel",
+          "facility": "ISR001",
+          "geoPoint": {
+            "lat": 32.81303,
+            "lon": 34.99928
+          },
+          "status": "RECRUITING",
+          "zip": "3436212"
+        },
+        {
+          "city": "Jerusalem",
+          "country": "Israel",
+          "facility": "ISR002",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          },
+          "status": "RECRUITING",
+          "zip": "9112001"
+        },
+        {
+          "city": "Tel Aviv",
+          "country": "Israel",
+          "facility": "ISR004",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          },
+          "status": "RECRUITING",
+          "zip": "6423906"
+        },
+        {
+          "city": "Sassari",
+          "country": "Italy",
+          "facility": "ITA012",
+          "geoPoint": {
+            "lat": 40.72586,
+            "lon": 8.55552
+          },
+          "status": "RECRUITING",
+          "zip": "07100"
+        },
+        {
+          "city": "Nagakute",
+          "country": "Japan",
+          "facility": "JPN006",
+          "geoPoint": {
+            "lat": 35.17325,
+            "lon": 137.05667
+          },
+          "state": "Aichi-ken",
+          "status": "RECRUITING",
+          "zip": "480-1195"
+        },
+        {
+          "city": "Narashino-shi",
+          "country": "Japan",
+          "facility": "JPN002",
+          "state": "Chiba",
+          "status": "RECRUITING",
+          "zip": "275-8580"
+        },
+        {
+          "city": "Narita",
+          "country": "Japan",
+          "facility": "JPN004",
+          "geoPoint": {
+            "lat": 35.78333,
+            "lon": 140.31667
+          },
+          "state": "Chiba",
+          "status": "RECRUITING",
+          "zip": "286-8520"
+        },
+        {
+          "city": "Sapporo",
+          "country": "Japan",
+          "facility": "JPN001",
+          "geoPoint": {
+            "lat": 43.06667,
+            "lon": 141.35
+          },
+          "state": "Hokkaido",
+          "status": "RECRUITING",
+          "zip": "060-8648"
+        },
+        {
+          "city": "Yokohama",
+          "country": "Japan",
+          "facility": "JPN007",
+          "geoPoint": {
+            "lat": 35.43333,
+            "lon": 139.65
+          },
+          "state": "Kanagawa",
+          "status": "RECRUITING",
+          "zip": "236-0051"
+        },
+        {
+          "city": "Bunkyo-Ku",
+          "country": "Japan",
+          "facility": "JPN013",
+          "state": "Tokyo",
+          "status": "RECRUITING",
+          "zip": "113-8431"
+        },
+        {
+          "city": "Kiyose",
+          "country": "Japan",
+          "facility": "JPN008",
+          "geoPoint": {
+            "lat": 35.77952,
+            "lon": 139.53014
+          },
+          "state": "Tokyo",
+          "status": "RECRUITING",
+          "zip": "204-8585"
+        },
+        {
+          "city": "Shibuya City",
+          "country": "Japan",
+          "facility": "JPN003",
+          "geoPoint": {
+            "lat": 35.6589,
+            "lon": 139.70665
+          },
+          "state": "Tokyo",
+          "status": "RECRUITING",
+          "zip": "151-8528"
+        },
+        {
+          "city": "Nagano",
+          "country": "Japan",
+          "facility": "JPN005",
+          "geoPoint": {
+            "lat": 36.65,
+            "lon": 138.18333
+          },
+          "status": "RECRUITING",
+          "zip": "380-0928"
+        },
+        {
+          "city": "Christchurch",
+          "country": "New Zealand",
+          "facility": "NZL001",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          },
+          "state": "Canterbury",
+          "status": "RECRUITING",
+          "zip": "8011"
+        },
+        {
+          "city": "Dunedin",
+          "country": "New Zealand",
+          "facility": "NZL002",
+          "geoPoint": {
+            "lat": -45.87416,
+            "lon": 170.50361
+          },
+          "state": "Otago",
+          "status": "RECRUITING",
+          "zip": "9016"
+        },
+        {
+          "city": "Lisbon",
+          "country": "Portugal",
+          "facility": "PRT001",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          },
+          "status": "RECRUITING",
+          "zip": "1769-001"
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "KOR001",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING",
+          "zip": "03080"
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "KOR006",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING",
+          "zip": "6351"
+        },
+        {
+          "city": "W\u014fnju",
+          "country": "South Korea",
+          "facility": "KOR005",
+          "geoPoint": {
+            "lat": 37.35139,
+            "lon": 127.94528
+          },
+          "status": "RECRUITING",
+          "zip": "26426"
+        },
+        {
+          "city": "Majadahonda",
+          "country": "Spain",
+          "facility": "ESP010",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          },
+          "state": "Madrid",
+          "status": "RECRUITING",
+          "zip": "28222"
+        },
+        {
+          "city": "Barcelona",
+          "country": "Spain",
+          "facility": "ESP012",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING",
+          "zip": "8035"
+        },
+        {
+          "city": "Barcelona",
+          "country": "Spain",
+          "facility": "ESP004",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING",
+          "zip": "8036"
+        },
+        {
+          "city": "Madrid",
+          "country": "Spain",
+          "facility": "ESP006",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "RECRUITING",
+          "zip": "28026"
+        },
+        {
+          "city": "Madrid",
+          "country": "Spain",
+          "facility": "ESP009",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "RECRUITING",
+          "zip": "28034"
+        },
+        {
+          "city": "Madrid",
+          "country": "Spain",
+          "facility": "ESP003",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          },
+          "status": "RECRUITING",
+          "zip": "28046"
+        },
+        {
+          "city": "Palma de Mallorca",
+          "country": "Spain",
+          "facility": "ESP002",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          },
+          "status": "RECRUITING",
+          "zip": "7120"
+        },
+        {
+          "city": "Santiago de Compostela",
+          "country": "Spain",
+          "facility": "ESP011",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          },
+          "status": "RECRUITING",
+          "zip": "50009"
+        },
+        {
+          "city": "Seville",
+          "country": "Spain",
+          "facility": "ESP001",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          },
+          "status": "RECRUITING",
+          "zip": "41009"
+        },
+        {
+          "city": "Kaohsiung City",
+          "country": "Taiwan",
+          "facility": "TWN001",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          },
+          "status": "RECRUITING",
+          "zip": "807"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to evaluate the effect of 24-weeks of once daily treatment with TPIP versus placebo on exercise capacity in adults with PH-ILD."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 344,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Diagnosis of PH World Health Organisation (WHO) Group 3 associated with ILD \\[including but not limited to idiopathic interstitial pneumonia (IIP), chronic hypersensitivity pneumonitis (HSP), connective tissue disease-associated interstitial lung disease (CTD-ILD), combined pulmonary fibrosis and emphysema (CPFE)\\].\n* Confirmation of fibrotic interstitial lung disease by centrally overread computed tomography (CT) scan performed at Screening or within prior 12 months.\n* PH confirmed by right heart catheterization (RHC) at Screening or within 12 months prior to Screening, with the following hemodynamic findings:\n\n  * Mean pulmonary arterial pressure (mPAP) \\>20 millimetre of mercury (mmHg) and\n  * Pulmonary capillary wedge pressure (PCWP) of \u226415 mmHg and\n  * Pulmonary vascular resistance (PVR) \u22654 wood units (WU).\n* 6 Minute walking distance (6MWD) \u2265100 and \u2264500 meters at two 6MWTs at Screening performed at least 4 hours apart, with the difference between the 2 distances \u226415%.\n* Participants receiving chronic medication for underlying disease (e.g., antifibrotic, immunomodulators, immunosuppressants, etc.) and/or phosphodiesterase 5 (PDE5) inhibitors, should be on this treatment for \u226590 days and on a stable dose for \u226530 days prior to Screening.\n* Capable of giving signed informed consent as described in Section 10.1.5 which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n\nExclusion criteria\n\n* Diagnosis of Pulmonary Hypertension WHO Groups 1, 2, 4, or 5, or subtypes of PH WHO Group 3 other than interstitial lung disease.\n* Primary diagnosis of chronic obstructive pulmonary disease (COPD) and/or forced expiratory volume in 1 second (FEV1)/FVC \\<0.7 (based on screening or historical spirometry within the prior 6 months).\n* Clinically significant left heart disease:\n\n  * evidence of clinically significant left-sided valvular heart disease,\n  * left ventricular failure with left ventricular ejection fraction (LVEF) \\<45%, or diagnosis of heart failure with preserved ejection fraction (HFpEF)\n  * echocardiography findings at Screening suggestive for postcapillary PH\n  * unstable ischemic heart disease\n  * unstable arrhythmia, including uncontrolled atrial fibrillation (rate-controlled arrhythmia or paroxysmal atrial fibrillation is allowed)\n* Evidence of chronic thromboembolic disease or recent (within 6 months of Screening) acute pulmonary embolism.\n* Known hypersensitivity or contraindication to treprostinil or TPIP or TPIP formulation excipients (e.g., mannitol, leucine).\n* Current use of cigarettes or e-cigarettes: An adult who has smoked at least 100 cigarettes in his or her lifetime and who currently smokes either every day or some days.\n* Current use of inhaled marijuana, recreational or medical (current use defined as used at least one or more times during the past 30 days prior to Screening) or expected use during the study.\n* Any other medical or psychological condition including relevant laboratory abnormalities at Screening that, in the opinion of the Investigator, suggest a new and/or insufficiently understood disease and/or may present an unreasonable risk to the study participant as a result of his/her participation in this clinical trial, may impede their ability complete the study or the study assessments or confound the outcomes of the trial.\n\nNote: Other protocol defined inclusion/exclusion criteria may apply.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "PALM-ILD",
+      "briefTitle": "Efficacy and Safety Study of Treprostinil Palmitil Inhalation Powder (TPIP) in Participants With Pulmonary Hypertension Associated With Interstitial Lung Disease (PH-ILD)",
+      "nctId": "NCT07179380",
+      "officialTitle": "A Phase 3, Randomized, Double-blind, Placebo-controlled, Multicenter, Parallel Group Study to Evaluate the Efficacy and Safety of Treprostinil Palmitil Inhalation Powder in Participants With Pulmonary Hypertension Associated With Interstitial Lung Disease",
+      "orgStudyIdInfo": {
+        "id": "INS1009-311"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Insmed Incorporated"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "EU CT Number",
+          "id": "2025-521558-40-00",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in 6MWD Measured at Peak Exposure From Baseline to Week 24",
+          "timeFrame": "Baseline, Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time From Randomization to First Clinical Worsening Over the 24-Week Treatment Period",
+          "timeFrame": "Up to Week 24"
+        },
+        {
+          "measure": "Time From Randomization to First Major Morbidity or Mortality Event Over the 24-Week Treatment Period",
+          "timeFrame": "Up to Week 24"
+        },
+        {
+          "measure": "Change From Baseline in N-Terminal Pro Hormone Brain Natriuretic Peptide (NT-proBNP) Plasma Concentration Over 24 Weeks",
+          "timeFrame": "Baseline up to Week 24"
+        },
+        {
+          "measure": "Number of Participants With Greater Than or Equal to (>=) 30% Decrease in NT-proBNP or Who Maintained/Achieved Less Than (<) 300 Nanogram per Liter (ng/L) of NT-proBNP Level at Week 24",
+          "timeFrame": "At Week 24"
+        },
+        {
+          "measure": "Change in 6MWD Measured at Trough Exposure From Baseline to Week 22",
+          "timeFrame": "Baseline, Week 22"
+        },
+        {
+          "measure": "Change From Baseline in 6MWD Measured at Peak Exposure Over 20 Weeks",
+          "timeFrame": "Baseline up to Week 20"
+        },
+        {
+          "measure": "Mean Change From Baseline in Living With Pulmonary Fibrosis (L-PF) Total Symptom Domain Score Over 24 Weeks",
+          "timeFrame": "Baseline up to Week 24"
+        },
+        {
+          "measure": "Plasma Concentrations of Treprostinil Palmitil (TP) and Treprostinil (TRE)",
+          "timeFrame": "Pre-dose and post-dose at multiple timepoints up to Week 24"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Insmed Incorporated"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-12-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-27",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-17",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-09-10",
+      "studyFirstSubmitQcDate": "2025-09-10"
+    }
+  }
+}

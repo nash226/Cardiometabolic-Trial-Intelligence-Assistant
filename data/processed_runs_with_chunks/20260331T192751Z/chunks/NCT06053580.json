@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06053580:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06053580\nBrief title: Repurposing Valsartan May Protect Against Pulmonary Hypertension\nOfficial title: Repurposing Valsartan May Protect Against Pulmonary Hypertension\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06053580"
+    },
+    {
+      "chunk_id": "NCT06053580:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Pulmonary Arterial Hypertension; Right Heart Failure; Right Ventricular Dysfunction; Pulmonary Vascular Disorder\nIntervention labels: Valsartan 40 mg; Placebo\nDrug class labels: \nArms: Valsartan; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06053580"
+    },
+    {
+      "chunk_id": "NCT06053580:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a Phase 2, single-center, randomized placebo controlled trial of valsartan (an angiotensin receptor blocker) in adults with pulmonary arterial hypertension. The study will evaluate the safety and clinical efficacy of a 24-week course of valsartan.\nDetailed description: Pulmonary arterial hypertension (PAH) is one of many conditions that put stress and strain on the right side of the heart. This stress and strain can cause right heart failure. Although there are medications to treat PAH, there are currently no medications that act directly on the heart to improve right heart function. This is different than left heart failure where one of the cornerstones of treatment is medication targeted at the heart to improve left heart function.\n\nValsartan is a well-tolerated and inexpensive medication that is currently used to treat hypertension and left heart failure. Preliminary results suggest that valsartan may help the right heart to adapt and strengthen when stressed instead of fail; however, these results are suggestive and not definitive. A randomized controlled trial is required to evaluate the possibility that valsartan can impact right heart function.\n\nParticipants in the study will take valsartan or placebo for 24 weeks. They will have three study visits at 0, 2, 12, and 24 weeks. These visits will add 20-30 minutes to the standard clinic visits at those time points and there will be an echocardiogram at weeks 0 and 24. The visits at weeks 2 and 12 may be completed remotely for most participants. Some participants may elect to participate in exercise testing and/or right heart catheterization at weeks 0 and 24; however, this is not required to participate in the trial.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 274,
+      "trial_nct_id": "NCT06053580"
+    },
+    {
+      "chunk_id": "NCT06053580:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Male or female, age 18 to 80\n2. WHO Group 1 Pulmonary Arterial Hypertension\n3. NYHA Functional Class II, III, or IV at screening (Appendix 2 for Functional Class Decision Aid)\n4. Right heart catheterization within five years demonstrating a mean pulmonary arterial pressure of \u226525 mmHg, occlusion pressure of \u226415 mmHg, and resistance \u2265 3 wood units\n5. Participants with a right heart catheterization within five years demonstrating a mean pulmonary arterial pressure of \u2265 25 mmHg and occlusion pressure of 15 - 20 mmHg will be considered for inclusion if the pulmonary vascular resistance \u2265 9 wood units and they are being treated with pulmonary arterial hypertension specific therapy\n6. Able to walk with/without a walking aid for a distance of at least 50 meters\n\nExclusion Criteria:\n\n1. Pregnant or lactating\n2. Non-group 1 pulmonary hypertension or veno-occlusive disease\n3. History of interstitial lung disease, unless subject has collagen vascular disease and has pulmonary function testing conducted within 12 months demonstrating a total lung capacity or vital capacity of \u2265 60 %\n4. Has received or will receive an investigational drug, device, or study within 30 days or during the course of study\n5. ACE-inhibitor, ARB or ARNI use within 30 days of randomization.\n6. Left sided myocardial disease as evidenced by left ventricular ejection fraction \\< 40%\n7. Any other clinically significant illness or abnormal laboratory values (measured during the Screening period) that, in the opinion of the Investigator, might put the subject at risk of harm during the study or might adversely affect the interpretation of the study data\n8. Anticipated survival less than 1 year due to concomitant disease\n9. Allergy or angioedema with ACE-inhibitor use\n10. Potassium \\>5mEq/L or sCr \\>2mg/dL at screening\n11. SBP \\<90mmHg at screening",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 315,
+      "trial_nct_id": "NCT06053580"
+    },
+    {
+      "chunk_id": "NCT06053580:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Six-minute walk distance | time_frame=0 to 24 weeks | description=To determine whether valsartan increases six-minute walk distance at 24 weeks in men and women with pulmonary arterial hypertension.\ntype=secondary | measure=Change in BNP | time_frame=0 to 24 weeks | description=To determine whether valsartan reduces BNP at 24 weeks\ntype=secondary | measure=Change in New York Heart Association (NYHA) functional class | time_frame=0 to 24 weeks | description=To determine whether valsartan improves New York Heart Association (NYHA) functional class at 24 weeks (NYHA Functional Class is a score from 1 to 4 where higher scores connote worse health-related impairment)\ntype=secondary | measure=Change in right ventricular morphology by echocardiogram (right ventricular dilation) | time_frame=0 to 24 weeks | description=To determine whether valsartan improves right ventricular morphology at 24 weeks including improved right ventricular dilation\ntype=secondary | measure=Change in right ventricular morphology by echocardiogram (tricuspid annular plane systolic excursion(TAPSE)) | time_frame=0 to 24 weeks | description=To determine whether valsartan improves right ventricular morphology at 24 weeks including improved TAPSE\ntype=secondary | measure=Change in health related quality of life (emPHasis-10 questionnaire) | time_frame=0 to 24 weeks | description=To determine whether valsartan improves health related quality of life as estimated by the emPHasis- 10 score (Each item on the emPHasis-10 questionnaire is scored on a semantic differential six-point scale (0-5), with contrasting adjectives at each end; EmPHasis-10 scores range from 0 to 50 with higher scores indicating worse quality of life)\ntype=secondary | measure=Frequency of escalation for PAH focused care (increased diuretics, escalating doses of pulmonary vasodilators, and/or adding additional pulmonary vasodilators) | time_frame=0 to 24 weeks | description=To determine whether valsartan decreases the need to escalate PAH focused care (increased diuretics, escalating doses of pulmonary vasodilators, and/or adding an additional pulmonary vasodilator)\ntype=other | measure=Change in invasive hemodynamics (sub-study): Stroke Volume Index | time_frame=0 to 24 weeks | description=To determine whether valsartan increases stroke volume index at 24 weeks\ntype=other | measure=Change in invasive hemodynamics (sub-study): Wedge pressure | time_frame=0 to 24 weeks | description=Exploratory: To explore whether valsartan is associated with differences in wedge pressure at 24 weeks\ntype=other | measure=Change in invasive hemodynamics (sub-study): Right Atrial pressure | time_frame=0 to 24 weeks | description=Exploratory: To explore whether valsartan is associated with differences in right atrial pressure at 24 weeks\ntype=other | measure=Change in invasive hemodynamics (sub-study): Pulmonary Vascular Resistance | time_frame=0 to 24 weeks | description=Exploratory: To explore whether valsartan is associated with differences in pulmonary vascular resistance at 24 weeks\ntype=other | measure=Change in Cardiopulmonary Exercise Testing (sub-study): Maximal oxygen uptake | time_frame=0 to 24 weeks | description=To determine whether valsartan increases maximal oxygen uptake in individuals with pulmonary arterial hypertension at 24 weeks\ntype=other | measure=Change in Cardiopulmonary Exercise Testing (sub-study): Ve/VCO2 slope | time_frame=0 to 24 weeks | description=Exploratory: To explore whether valsartan decreases the Ve/VCO2 slope in individuals with pulmonary arterial hypertension over 24 weeks\ntype=other | measure=Change in Cardiopulmonary Exercise Testing (sub-study): Total wattage | time_frame=0 to 24 weeks | description=Exploratory: To explore whether valsartan increases total achieved wattage in individuals with pulmonary arterial hypertension over 24 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 512,
+      "trial_nct_id": "NCT06053580"
+    },
+    {
+      "chunk_id": "NCT06053580:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-28\nPrimary completion date: 2027-07-01\nCompletion date: 2027-07-01\nStudy first posted: 2023-09-25\nResults first posted: None\nLast update posted: 2025-03-25\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06053580"
+    },
+    {
+      "chunk_id": "NCT06053580:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Washington\nLead sponsor class: OTHER\nCollaborators: National Heart, Lung, and Blood Institute (NHLBI)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06053580"
+    }
+  ],
+  "trial_nct_id": "NCT06053580"
+}

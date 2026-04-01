@@ -1,0 +1,411 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D018754",
+          "term": "Ventricular Dysfunction"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000081029",
+          "term": "Pulmonary Arterial Hypertension"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D018497",
+          "term": "Ventricular Dysfunction, Right"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013777",
+          "term": "Tetrazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D014633",
+          "term": "Valine"
+        },
+        {
+          "id": "D000597",
+          "term": "Amino Acids, Branched-Chain"
+        },
+        {
+          "id": "D000596",
+          "term": "Amino Acids"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D000601",
+          "term": "Amino Acids, Essential"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000068756",
+          "term": "Valsartan"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Valsartan 40mg capsule taken twice daily for 24 weeks.",
+          "interventionNames": [
+            "Drug: Valsartan 40 mg"
+          ],
+          "label": "Valsartan",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo capsule taken twice daily for 24 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Valsartan"
+          ],
+          "description": "Valsartan 40mg twice daily for 24 weeks.",
+          "name": "Valsartan 40 mg",
+          "otherNames": [
+            "Diovan"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "Placebo twice daily for 24 weeks.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Arterial Hypertension",
+        "Right Heart Failure",
+        "Right Ventricular Dysfunction",
+        "Pulmonary Vascular Disorder"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "lalnaser@uw.edu",
+          "name": "Laurie Hogl, RRT",
+          "phone": "206.543.8334",
+          "role": "CONTACT"
+        },
+        {
+          "email": "nmliston@uw.edu",
+          "name": "Nancy Liston, MS",
+          "phone": "206.543.8334",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Seattle",
+          "contacts": [
+            {
+              "email": "lalnaser@uw.edu",
+              "name": "Laurie Hogl",
+              "phone": "206-543-8334",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Peter J Leary, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Yonatan Buber, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Sam G Rayner, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Lia M Barros, DNP",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Washington Medical Center",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          },
+          "state": "Washington",
+          "status": "RECRUITING",
+          "zip": "98195"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Washington",
+          "name": "Peter Leary, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 2, single-center, randomized placebo controlled trial of valsartan (an angiotensin receptor blocker) in adults with pulmonary arterial hypertension. The study will evaluate the safety and clinical efficacy of a 24-week course of valsartan.",
+      "detailedDescription": "Pulmonary arterial hypertension (PAH) is one of many conditions that put stress and strain on the right side of the heart. This stress and strain can cause right heart failure. Although there are medications to treat PAH, there are currently no medications that act directly on the heart to improve right heart function. This is different than left heart failure where one of the cornerstones of treatment is medication targeted at the heart to improve left heart function.\n\nValsartan is a well-tolerated and inexpensive medication that is currently used to treat hypertension and left heart failure. Preliminary results suggest that valsartan may help the right heart to adapt and strengthen when stressed instead of fail; however, these results are suggestive and not definitive. A randomized controlled trial is required to evaluate the possibility that valsartan can impact right heart function.\n\nParticipants in the study will take valsartan or placebo for 24 weeks. They will have three study visits at 0, 2, 12, and 24 weeks. These visits will add 20-30 minutes to the standard clinic visits at those time points and there will be an echocardiogram at weeks 0 and 24. The visits at weeks 2 and 12 may be completed remotely for most participants. Some participants may elect to participate in exercise testing and/or right heart catheterization at weeks 0 and 24; however, this is not required to participate in the trial."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female, age 18 to 80\n2. WHO Group 1 Pulmonary Arterial Hypertension\n3. NYHA Functional Class II, III, or IV at screening (Appendix 2 for Functional Class Decision Aid)\n4. Right heart catheterization within five years demonstrating a mean pulmonary arterial pressure of \u226525 mmHg, occlusion pressure of \u226415 mmHg, and resistance \u2265 3 wood units\n5. Participants with a right heart catheterization within five years demonstrating a mean pulmonary arterial pressure of \u2265 25 mmHg and occlusion pressure of 15 - 20 mmHg will be considered for inclusion if the pulmonary vascular resistance \u2265 9 wood units and they are being treated with pulmonary arterial hypertension specific therapy\n6. Able to walk with/without a walking aid for a distance of at least 50 meters\n\nExclusion Criteria:\n\n1. Pregnant or lactating\n2. Non-group 1 pulmonary hypertension or veno-occlusive disease\n3. History of interstitial lung disease, unless subject has collagen vascular disease and has pulmonary function testing conducted within 12 months demonstrating a total lung capacity or vital capacity of \u2265 60 %\n4. Has received or will receive an investigational drug, device, or study within 30 days or during the course of study\n5. ACE-inhibitor, ARB or ARNI use within 30 days of randomization.\n6. Left sided myocardial disease as evidenced by left ventricular ejection fraction \\< 40%\n7. Any other clinically significant illness or abnormal laboratory values (measured during the Screening period) that, in the opinion of the Investigator, might put the subject at risk of harm during the study or might adversely affect the interpretation of the study data\n8. Anticipated survival less than 1 year due to concomitant disease\n9. Allergy or angioedema with ACE-inhibitor use\n10. Potassium \\>5mEq/L or sCr \\>2mg/dL at screening\n11. SBP \\<90mmHg at screening",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "REVAMP-PH",
+      "briefTitle": "Repurposing Valsartan May Protect Against Pulmonary Hypertension",
+      "nctId": "NCT06053580",
+      "officialTitle": "Repurposing Valsartan May Protect Against Pulmonary Hypertension",
+      "orgStudyIdInfo": {
+        "id": "STUDY00018685"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Washington"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R61HL167848",
+          "link": "https://reporter.nih.gov/quickSearch/R61HL167848",
+          "type": "NIH"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "To determine whether valsartan increases stroke volume index at 24 weeks",
+          "measure": "Change in invasive hemodynamics (sub-study): Stroke Volume Index",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "Exploratory: To explore whether valsartan is associated with differences in wedge pressure at 24 weeks",
+          "measure": "Change in invasive hemodynamics (sub-study): Wedge pressure",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "Exploratory: To explore whether valsartan is associated with differences in right atrial pressure at 24 weeks",
+          "measure": "Change in invasive hemodynamics (sub-study): Right Atrial pressure",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "Exploratory: To explore whether valsartan is associated with differences in pulmonary vascular resistance at 24 weeks",
+          "measure": "Change in invasive hemodynamics (sub-study): Pulmonary Vascular Resistance",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "To determine whether valsartan increases maximal oxygen uptake in individuals with pulmonary arterial hypertension at 24 weeks",
+          "measure": "Change in Cardiopulmonary Exercise Testing (sub-study): Maximal oxygen uptake",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "Exploratory: To explore whether valsartan decreases the Ve/VCO2 slope in individuals with pulmonary arterial hypertension over 24 weeks",
+          "measure": "Change in Cardiopulmonary Exercise Testing (sub-study): Ve/VCO2 slope",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "Exploratory: To explore whether valsartan increases total achieved wattage in individuals with pulmonary arterial hypertension over 24 weeks",
+          "measure": "Change in Cardiopulmonary Exercise Testing (sub-study): Total wattage",
+          "timeFrame": "0 to 24 weeks"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "To determine whether valsartan increases six-minute walk distance at 24 weeks in men and women with pulmonary arterial hypertension.",
+          "measure": "Six-minute walk distance",
+          "timeFrame": "0 to 24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "To determine whether valsartan reduces BNP at 24 weeks",
+          "measure": "Change in BNP",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "To determine whether valsartan improves New York Heart Association (NYHA) functional class at 24 weeks (NYHA Functional Class is a score from 1 to 4 where higher scores connote worse health-related impairment)",
+          "measure": "Change in New York Heart Association (NYHA) functional class",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "To determine whether valsartan improves right ventricular morphology at 24 weeks including improved right ventricular dilation",
+          "measure": "Change in right ventricular morphology by echocardiogram (right ventricular dilation)",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "To determine whether valsartan improves right ventricular morphology at 24 weeks including improved TAPSE",
+          "measure": "Change in right ventricular morphology by echocardiogram (tricuspid annular plane systolic excursion(TAPSE))",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "To determine whether valsartan improves health related quality of life as estimated by the emPHasis- 10 score (Each item on the emPHasis-10 questionnaire is scored on a semantic differential six-point scale (0-5), with contrasting adjectives at each end; EmPHasis-10 scores range from 0 to 50 with higher scores indicating worse quality of life)",
+          "measure": "Change in health related quality of life (emPHasis-10 questionnaire)",
+          "timeFrame": "0 to 24 weeks"
+        },
+        {
+          "description": "To determine whether valsartan decreases the need to escalate PAH focused care (increased diuretics, escalating doses of pulmonary vasodilators, and/or adding an additional pulmonary vasodilator)",
+          "measure": "Frequency of escalation for PAH focused care (increased diuretics, escalating doses of pulmonary vasodilators, and/or adding additional pulmonary vasodilators)",
+          "timeFrame": "0 to 24 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Lahm T, Hess E, Baron AE, Maddox TM, Plomondon ME, Choudhary G, Maron BA, Zamanian RT, Leary PJ. Renin-Angiotensin-Aldosterone System Inhibitor Use and Mortality in Pulmonary Hypertension: Insights From the Veterans Affairs Clinical Assessment Reporting and Tracking Database. Chest. 2021 Apr;159(4):1586-1597. doi: 10.1016/j.chest.2020.09.258. Epub 2020 Oct 5.",
+          "pmid": "33031831",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Heart, Lung, and Blood Institute (NHLBI)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Washington"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Washington",
+        "investigatorFullName": "Peter Leary",
+        "investigatorTitle": "Associate Professor, School of Medicine",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-07-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-24",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-07-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-02-28",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-09-07",
+      "studyFirstSubmitQcDate": "2023-09-13"
+    }
+  }
+}

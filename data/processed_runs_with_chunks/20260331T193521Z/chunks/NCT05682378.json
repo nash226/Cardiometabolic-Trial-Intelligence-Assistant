@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05682378:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05682378\nBrief title: Long-term Safety and Tolerability of Inclisiran in Participants With HeFH or HoFH Who Have Completed the Adolescent ORION-16 or ORION-13 Studies\nOfficial title: An Open-label, Single Arm, Multicenter Extension Study to Evaluate Long-term Safety and Tolerability of Inclisiran in Participants With Heterozygous or Homozygous Familial Hypercholesterolemia Who Have Completed the Adolescent ORION-16 or ORION-13 Studies (VICTORION-PEDS-OLE)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 69,
+      "trial_nct_id": "NCT05682378"
+    },
+    {
+      "chunk_id": "NCT05682378:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heterozygous or Homozygous Familial Hypercholesterolemia\nIntervention labels: Inclisiran\nDrug class labels: \nArms: Inclisiran\nKeywords: KJX839; heterozygous familial hypercholesterolemia; homozygous familial hypercholesterolemia; familial hypercholesterolemia; FH; inclisiran; pediatric",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05682378"
+    },
+    {
+      "chunk_id": "NCT05682378:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this open-label, single arm, multicenter extension study is to evaluate the long-term safety and tolerability of inclisiran in participants with HeFH or HoFH who have completed the ORION-16 or ORION-13 studies.\nDetailed description: This is an open-label, single arm, multicenter study designed to evaluate long-term safety and tolerability of inclisiran. In addition, the study will provide participants the opportunity to have continued access to treatment with inclisiran.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 72,
+      "trial_nct_id": "NCT05682378"
+    },
+    {
+      "chunk_id": "NCT05682378:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 12 Years\nMaximum age: 100 Years\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Key inclusion:\n\n* Male and female participants with a diagnosis of HeFH or HoFH who completed the ORION-16 or ORION-13 studies\n* Per investigator's clinical judgment, participant derived benefit from treatment with inclisiran in the ORION-16 or ORION-13 studies\n\nKey exclusion:\n\n* Participants who in the feeder inclisiran ORION-16 and ORION-13 studies either screen failed or permanently discontinued from the treatment/study for any reason or had serious safety or tolerability issues related to inclisiran treatment\n* Any uncontrolled or serious disease, or any medical, physical, or surgical condition, that may either interfere with participation in the clinical study or interpretation of clinical study results, and/or put the participant at significant risk",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 130,
+      "trial_nct_id": "NCT05682378"
+    },
+    {
+      "chunk_id": "NCT05682378:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Number of participants with treatment-emergent adverse events (TEAEs) and serious adverse events (TESAEs) | time_frame=From Day 1 in the study up to the end of study visit; up to 1080 days | description=Safety and tolerability: TEAEs, TESAEs (incidence, severity, relationship to study drug and discontinuation due to TEAEs)\ntype=secondary | measure=Percentage and absolute change in LDL-C from baseline in the feeder study to end of study | time_frame=Baseline (of feeder study) and Day 1080 | description=Evaluate the long-term effect of inclisiran (from baseline of feeder study to end of study) in lowering LDL-C",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 95,
+      "trial_nct_id": "NCT05682378"
+    },
+    {
+      "chunk_id": "NCT05682378:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-02-10\nPrimary completion date: 2028-03-02\nCompletion date: 2028-03-02\nStudy first posted: 2023-01-12\nResults first posted: None\nLast update posted: 2026-02-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05682378"
+    },
+    {
+      "chunk_id": "NCT05682378:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT05682378"
+    }
+  ],
+  "trial_nct_id": "NCT05682378"
+}

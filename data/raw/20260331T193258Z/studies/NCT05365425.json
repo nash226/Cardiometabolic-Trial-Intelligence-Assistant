@@ -1,0 +1,309 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C080710",
+          "term": "policosanol"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Choline fenofibrate (135mg as fenofibric acid) 1 tablet once daily oral administration regardless of diet",
+          "interventionNames": [
+            "Drug: Choline fenofibrate"
+          ],
+          "label": "Tgfenon",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Policosanol 10mg 1 tablet once daily oral administration",
+          "interventionNames": [
+            "Drug: Policosanol"
+          ],
+          "label": "Policosanol 10",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Tgfenon"
+          ],
+          "description": "choline fenofibrate 178.8mg (135mg as fenofibric acid)",
+          "name": "Choline fenofibrate",
+          "otherNames": [
+            "Tgfenon"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Policosanol 10"
+          ],
+          "description": "policosanol 10mg",
+          "name": "Policosanol",
+          "otherNames": [
+            "Policosanol 10"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Dyslipidemia",
+        "Atherosclerosis",
+        "Diabetes Mellitus, Type 2"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "limsoo@snu.ac.kr",
+          "name": "Soo Lim",
+          "phone": "+82-31-787-7035",
+          "role": "CONTACT"
+        },
+        {
+          "email": "rainbowmjs@naver.com",
+          "name": "Minji Sohn",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Seongnam-si",
+          "contacts": [
+            {
+              "email": "limsoo@snu.ac.kr",
+              "name": "Soo Lim",
+              "phone": "01097662706",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "SNUBH",
+          "geoPoint": {
+            "lat": 37.43861,
+            "lon": 127.13778
+          },
+          "state": "Gyeonggi-do",
+          "status": "RECRUITING",
+          "zip": "13620"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized controlled study to assess the effect of choline fenofibrate compared with policosanol in Korean T2DM patients with asymptomatic atherosclerosis.",
+      "detailedDescription": "In patients with type 2 diabetes with atherosclerotic combined dyslipidemia, the effect of choline fenofibrate on the progression of carotid intima media thickness and carotid artery plaque will be evaluated by 3D carotid ultrasound."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 56,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Type 2 diabetes under treatment with HbA1c 6.0-10.0% at screening visit\n* Male or female of 20 years or over\n* Mixed dyslipidemia: triglyceride 200\\~499 mg/dL, HDL-cholesterol male \u226445 mg/dL or female \u226450 mg/dL\n* Identified carotid artery plaque: carotid intima-media thickness (cIMT) \u2265 1.0 mm\n* Creatinine \u22641.8 mg/dL\n\nExclusion Criteria:\n\n* Dyslipidemia which requires other therapy: triglyceride \u2265500 mg/dL or LDL-cholesterol \u2265190 mg/dL\n* Uncontrolled hypertension\n* Severe renal dysfunction\n* GOT/GPT \\>120/120 or chronic liver disease\n* Pregnant or childbearing woman who does not have enough contraception\n* Changes of medication related to chronic diseases (diabetes, hypertension, dyslipidemia, etc.) within 3 months\n* Other antiplatlet medication such as cilostazol, clopidogrel (except aspirin)",
+      "healthyVolunteers": false,
+      "minimumAge": "20 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Choline Fenofibrate and Carotid Atherosclerosis in Patients With Type 2 Diabetes and Combined Dyslipidemia",
+      "nctId": "NCT05365425",
+      "officialTitle": "Effect of Choline Fenofibrate on Carotid Atherosclerosis Estimated by 3D Ultrasound in Patients With Type 2 Diabetes and Combined Dyslipidemia",
+      "orgStudyIdInfo": {
+        "id": "B-2111-720-003"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Seoul National University Bundang Hospital"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Maximum carotid IMT (mm)",
+          "measure": "Carotid intima media thickness",
+          "timeFrame": "24 week"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "measured by ultrasound",
+          "measure": "Area of carotid artery plaque",
+          "timeFrame": "24 week"
+        },
+        {
+          "description": "changes of non-calcified plaque volume (mm3)",
+          "measure": "Plaque characteristics",
+          "timeFrame": "24 week"
+        },
+        {
+          "description": "changes of HbA1c (%)",
+          "measure": "Glucose homeostasis",
+          "timeFrame": "24 week"
+        },
+        {
+          "description": "TG concentration, HDL-cholesterol concentration",
+          "measure": "Lipid metabolism",
+          "timeFrame": "24 week"
+        },
+        {
+          "description": "Body composition of fat mass (kg)",
+          "measure": "Bioelectrical Impedance Analysis",
+          "timeFrame": "24 week"
+        },
+        {
+          "description": "albumin-to-creatinine ratio (mg/g)",
+          "measure": "Proteinuria",
+          "timeFrame": "24 week"
+        },
+        {
+          "description": "measured by 16S rRNA or metagenome sequencing, comparing the composition or each phylum/genus/species",
+          "measure": "changes of gut microbiota",
+          "timeFrame": "24 week"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Daewon Pharmaceutical Co., Ltd."
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Seoul National University Bundang Hospital"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Seoul National University Bundang Hospital",
+        "investigatorFullName": "Soo Lim",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-04-30",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-06-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-04",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-03-16",
+      "studyFirstSubmitQcDate": "2022-05-03"
+    }
+  }
+}

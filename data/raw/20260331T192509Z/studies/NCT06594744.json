@@ -1,0 +1,578 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000230",
+          "term": "Adenocarcinoma"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D008113",
+          "term": "Liver Neoplasms"
+        },
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D008107",
+          "term": "Liver Diseases"
+        },
+        {
+          "id": "D004935",
+          "term": "Esophageal Diseases"
+        },
+        {
+          "id": "D005767",
+          "term": "Gastrointestinal Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006528",
+          "term": "Carcinoma, Hepatocellular"
+        },
+        {
+          "id": "D004932",
+          "term": "Esophageal and Gastric Varices"
+        },
+        {
+          "id": "D006975",
+          "term": "Hypertension, Portal"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D002227",
+          "term": "Carbazoles"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006575",
+          "term": "Heterocyclic Compounds, 3-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000077261",
+          "term": "Carvedilol"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "EVL will be performed and repeated every 3 to 4 weeks until the EVs are eradicated. Following this, patients will undergo regular upper gastrointestinal endoscopic surveillance, initially every three months for a total of two sessions, then every six months for a total of two sessions, and subsequently annually. If EVs are found to recur during surveillance, additional EVL will be performed every 3 to 4 weeks until the varices are again eradicated endoscopically.",
+          "interventionNames": [
+            "Procedure: Endoscopic variceal ligation"
+          ],
+          "label": "Endoscopic variceal ligation",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "The initial dosage of carvedilol is set at 6.25 mg daily. In the absence of hypotension (systolic blood pressure \\< 90 mmHg), bradycardia (resting heart rate \\< 55 beats per minute), or other adverse effects, hospitalized patients may have their dosage increased to 12.5 mg daily after 3 days, while outpatient patients may increase their dosage to 12.5 mg daily after 7 days. This dosage represents the target dose for the trial.",
+          "interventionNames": [
+            "Drug: Carvedilol"
+          ],
+          "label": "Carvedilol",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Endoscopic variceal ligation"
+          ],
+          "description": "EVL will be performed and repeated every 3 to 4 weeks until the EVs are eradicated. Following this, patients will undergo regular upper gastrointestinal endoscopic surveillance, initially every three months for a total of two sessions, then every six months for a total of two sessions, and subsequently annually. If EVs are found to recur during surveillance, additional EVL will be performed every 3 to 4 weeks until the varices are again eradicated endoscopically.",
+          "name": "Endoscopic variceal ligation",
+          "type": "PROCEDURE"
+        },
+        {
+          "armGroupLabels": [
+            "Carvedilol"
+          ],
+          "description": "The initial dosage of carvedilol is set at 6.25 mg daily. In the absence of hypotension (systolic blood pressure \\&lt; 90 mmHg), bradycardia (resting heart rate \\&lt; 55 beats per minute), or other adverse effects, hospitalized patients may have their dosage increased to 12.5 mg daily after 3 days, while outpatient patients may increase their dosage to 12.5 mg daily after 7 days. This dosage represents the target dose for the trial.",
+          "name": "Carvedilol",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hepatocellular Carcinoma (HCC)",
+        "Esophageal Varices"
+      ],
+      "keywords": [
+        "Endoscopic variceal ligation",
+        "Hepatocellular carcinoma",
+        "Nonselective beta-blocker",
+        "Portal hypertension"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "tcyang@vghtpe.gov.tw",
+          "name": "Tsung-Chieh Yang, MD",
+          "phone": "+886-2-28712121",
+          "phoneExt": "7506",
+          "role": "CONTACT"
+        },
+        {
+          "email": "mchou@vghtpe.gov.tw",
+          "name": "Ming-Chih Hou, MD",
+          "phone": "+886-2-28712121",
+          "phoneExt": "7053",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Taipei",
+          "contacts": [
+            {
+              "email": "tcyang@vghtpe.gov.tw",
+              "name": "Tsung-Chieh Yang, MD",
+              "phone": "+886-2-28712121",
+              "phoneExt": "7506",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mchou@vghtpe.gov.tw",
+              "name": "Ming-Chih Hou, MD",
+              "phone": "+886-2-28712121",
+              "phoneExt": "7053",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tsung-Chieh Yang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Taiwan",
+          "facility": "Taipei Veterans General Hospital",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          },
+          "status": "RECRUITING",
+          "zip": "11217"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to evaluate whether endoscopic variceal ligation (EVL) or carvedilol is more effective at preventing the first esophageal variceal bleeding (EVB) in patients with hepatocellular carcinoma (HCC). It will also learn about the safety of EVL and carvedilol in patients with HCC. The main questions it aims to answer are:\n\nWhether EVL or carvedilol is more effective at preventing initial EVB in patients with HCC with high-risk EVs.\n\nWhat medical problems do participants have when undergoing EVL or taking carvedilol? Researchers will compare the efficacy and safety of EVL to carvedilol for the prevention of first EVB in patients with HCC.\n\nParticipants will:\n\nUndergo EVL every 3-4 weeks until variceal eradication and then receive regular endoscopic follow-up according to the protocol, or Take carvedilol every day (start from 6.25 mg/d and then titrate to 12.5 mg/d if tolerable).\n\nVisit the clinic once every 2-3 months for checkups and tests. Keep a diary of their vital signs (SBP, DBP, and HR) as well as symptoms.",
+      "detailedDescription": "Gastro-esophageal variceal bleeding is a major complication of portal hypertension (PHT) and carries a high rate of rebleeding and mortality. Hepatocellular carcinoma (HCC), a special subgroup of PHT, is the sixth most commonly diagnosed cancer and the third leading cause of cancer death worldwide. The presence of esophageal varices (EVs) in more than half of patients with HCC is associated with poor survival. Furthermore, without primary prevention strategies, nearly half of these HCC patients experience esophageal variceal bleeding (EVB). The prognosis of HCC patients with EVB is extremely poor, with a rebleeding rate of 50% and a six-week mortality rate of 26-48%, both of which are higher than those of non-HCC patients.\n\nHowever, there is still a lack of evidence on how to prevent first EVB in patients with HCC with high-risk EVs. AASLD practice guidance recommends prevention of EVB and hepatic decompensation in patients with HCC should follow the same principles as those for patients without HCC, that is, nonselective beta-blocker (NSBB) therapy is recommended in patients with HCC with clinically significant portal hypertension (CSPH). Endoscopic variceal ligation (EVL) is recommended for compensated patients with high-risk EVs who have contraindications to NSBBs. However, this recommendation lacks randomized controlled trial (RCT) to support it. Our recently published RCT showed that EVL is superior to propranolol (PPL) in the primary prevention of EVB in patients with HCC with high-risk EVs. In the subgroup analysis, EVL reduces EVB and improves OS in patients with BCLC stage A/B but not in those with BCLC stage C/D.\n\nCarvedilol, an NSBB that additionally exerts intrinsic anti-alpha-1-adrenergic activity, has been shown to reduce hepatic venous pressure gradient more than propranolol and is currently the first-line treatment for primary prophylaxis in patients with CSPH. Nevertheless, the superiority of EVL versus carvedilol as a primary prevention strategy in patients with HCC with high-risk EVs is still unknown. In this project, we will initiate an open-label RCT aiming at comparing the efficacy of EVL and carvedilol in the primary prevention of EVB in patients with HCC with high-risk EVs. We will also explore if there is any difference between the two groups in terms of other upper gastrointestinal bleeding, nonbleeding liver decompensation (such as new onset/worsening ascites, hepatic encephalopathy, spontaneous bacterial peritonitis, and hepatorenal syndrome), overall survival, adverse events, tolerability and safety. We will also compare the efficacy of EVL and carvedilol in the primary prevention of EVB in patients with HCC at different BCLC stage."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "EVL group:\n\nEVL will be performed and repeated every 3 to 4 weeks until the EVs are eradicated. Following this, patients will undergo regular upper gastrointestinal endoscopic surveillance, initially every three months for a total of two sessions, then every six months for a total of two sessions, and subsequently annually. If EVs are found to recur during surveillance, additional EVL will be performed every 3 to 4 weeks until the varices are again eradicated endoscopically.\n\nCarvedilol group:\n\nThe initial dosage of carvedilol is set at 6.25 mg daily. In the absence of hypotension (systolic blood pressure \\&amp;amp;lt; 90 mmHg), bradycardia (resting heart rate \\&amp;amp;lt; 55 beats per minute), or other adverse effects, hospitalized patients may have their dosage increased to 12.5 mg daily after 3 days, while outpatient patients may increase their dosage to 12.5 mg daily after 7 days. This dosage represents the target dose for the trial.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Patients with HCC and high-risk EVs, confirmed through imaging and clinical data (classified as F2 or F3 EVs according to Beppu et al. classification)\n\nExclusion Criteria:\n\n* Age less than 20 years or greater than 90 years.\n* History of esophageal variceal bleeding.\n* Previous treatment for EVs, including EVL, endoscopic sclerotherapy, transjugular intrahepatic portosystemic shunt (TIPS), or surgical interventions.\n* Use of non-selective \u03b2-blockers within two weeks prior to enrollment.\n* Contraindications for non-selective \u03b2-blockers, including severe atrioventricular block, chronic obstructive pulmonary disease (COPD), asthma, poorly controlled diabetes, and severe peripheral artery disease.\n* Presence of other end-stage organ diseases, including terminal cancers other than HCC, heart failure, and renal failure.\n* Pregnant women.",
+      "healthyVolunteers": false,
+      "maximumAge": "90 Years",
+      "minimumAge": "20 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "P-HCC-CVL",
+      "briefTitle": "Endoscopic Variceal Ligation vs Carvedilol for the Prevention of First Esophageal Variceal Bleeding in Patients With HCC",
+      "nctId": "NCT06594744",
+      "officialTitle": "A Randomized Controlled Trial of Endoscopic Variceal Ligation Versus Carvedilol for the Prevention of First Esophageal Variceal Bleeding in Patients With Hepatocellular Carcinoma",
+      "orgStudyIdInfo": {
+        "id": "2024-02-016B"
+      },
+      "organization": {
+        "class": "OTHER_GOV",
+        "fullName": "Taipei Veterans General Hospital, Taiwan"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "measure": "Primary and secondary outcomes categorized by BCLC staging in the subgroup analysis",
+          "timeFrame": "3 years"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "The cumulative incidence of esophageal variceal bleeding",
+          "measure": "Esophageal variceal bleeding",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The cumulative incidence of other upper gastrointestinal bleeding",
+          "measure": "Other upper gastrointestinal bleeding",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "Events that defined first/further nonbleeding liver decompensation were based on the Baveno VII consensus",
+          "measure": "First/further nonbleeding liver decompensation",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Overall survival",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Adverse events",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Kaplan DE, Ripoll C, Thiele M, Fortune BE, Simonetto DA, Garcia-Tsao G, Bosch J. AASLD Practice Guidance on risk stratification and management of portal hypertension and varices in cirrhosis. Hepatology. 2024 May 1;79(5):1180-1211. doi: 10.1097/HEP.0000000000000647. Epub 2023 Oct 23. No abstract available.",
+          "pmid": "37870298",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Llovet JM, Bru C, Bruix J. Prognosis of hepatocellular carcinoma: the BCLC staging classification. Semin Liver Dis. 1999;19(3):329-38. doi: 10.1055/s-2007-1007122.",
+          "pmid": "10518312",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Pugh RN, Murray-Lyon IM, Dawson JL, Pietroni MC, Williams R. Transection of the oesophagus for bleeding oesophageal varices. Br J Surg. 1973 Aug;60(8):646-9. doi: 10.1002/bjs.1800600817. No abstract available.",
+          "pmid": "4541913",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Sarin SK, Lahoti D, Saxena SP, Murthy NS, Makwana UK. Prevalence, classification and natural history of gastric varices: a long-term follow-up study in 568 portal hypertension patients. Hepatology. 1992 Dec;16(6):1343-9. doi: 10.1002/hep.1840160607.",
+          "pmid": "1446890",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Beppu K, Inokuchi K, Koyanagi N, Nakayama S, Sakata H, Kitano S, Kobayashi M. Prediction of variceal hemorrhage by esophageal endoscopy. Gastrointest Endosc. 1981 Nov;27(4):213-8. doi: 10.1016/s0016-5107(81)73224-3.",
+          "pmid": "6975734",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Serper M, Kaplan DE, Taddei TH, Tapper EB, Cohen JB, Mahmud N. Nonselective beta blockers, hepatic decompensation, and mortality in cirrhosis: A national cohort study. Hepatology. 2023 Feb 1;77(2):489-500. doi: 10.1002/hep.32737. Epub 2022 Oct 17.",
+          "pmid": "35984731",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kalambokis GN, Christaki M, Tsiakas I, Despotis G, Fillipas-Ntekouan S, Fotopoulos A, Tsiouris S, Xourgia X, Lakkas L, Pappas K, Michalis LK, Sergianiti F, Baltayiannis G, Christodoulou D, Koustousi C, Aggelis N, Milionis H. Conversion of Propranolol to Carvedilol Improves Renal Perfusion and Outcome in Patients With Cirrhosis and Ascites. J Clin Gastroenterol. 2021 Sep 1;55(8):721-729. doi: 10.1097/MCG.0000000000001431.",
+          "pmid": "32991355",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Totzeck M, Mincu RI, Rassaf T. Cardiovascular Adverse Events in Patients With Cancer Treated With Bevacizumab: A Meta-Analysis of More Than 20 000 Patients. J Am Heart Assoc. 2017 Aug 10;6(8):e006278. doi: 10.1161/JAHA.117.006278.",
+          "pmid": "28862931",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Abou-Alfa GK, Lau G, Kudo M, Chan SL, Kelley RK, Furuse J, Sukeepaisarnjaroen W, Kang YK, Van Dao T, De Toni EN, Rimassa L, Breder V, Vasilyev A, Heurgue A, Tam VC, Mody K, Thungappa SC, Ostapenko Y, Yau T, Azevedo S, Varela M, Cheng AL, Qin S, Galle PR, Ali S, Marcovitz M, Makowsky M, He P, Kurland JF, Negro A, Sangro B. Tremelimumab plus Durvalumab in Unresectable Hepatocellular Carcinoma. NEJM Evid. 2022 Aug;1(8):EVIDoa2100070. doi: 10.1056/EVIDoa2100070. Epub 2022 Jun 6.",
+          "pmid": "38319892",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Cheng AL, Qin S, Ikeda M, Galle PR, Ducreux M, Kim TY, Lim HY, Kudo M, Breder V, Merle P, Kaseb AO, Li D, Verret W, Ma N, Nicholas A, Wang Y, Li L, Zhu AX, Finn RS. Updated efficacy and safety data from IMbrave150: Atezolizumab plus bevacizumab vs. sorafenib for unresectable hepatocellular carcinoma. J Hepatol. 2022 Apr;76(4):862-873. doi: 10.1016/j.jhep.2021.11.030. Epub 2021 Dec 11.",
+          "pmid": "34902530",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Finn RS, Qin S, Ikeda M, Galle PR, Ducreux M, Kim TY, Kudo M, Breder V, Merle P, Kaseb AO, Li D, Verret W, Xu DZ, Hernandez S, Liu J, Huang C, Mulla S, Wang Y, Lim HY, Zhu AX, Cheng AL; IMbrave150 Investigators. Atezolizumab plus Bevacizumab in Unresectable Hepatocellular Carcinoma. N Engl J Med. 2020 May 14;382(20):1894-1905. doi: 10.1056/NEJMoa1915745.",
+          "pmid": "32402160",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Allaire M, Thabut D. Portal hypertension and variceal bleeding in patients with liver cancer: Evidence gaps for prevention and management. Hepatology. 2024 Jan 1;79(1):213-223. doi: 10.1097/HEP.0000000000000291. Epub 2023 Jan 13.",
+          "pmid": "36631021",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Thabut D, Kudo M. Treatment of portal hypertension in patients with HCC in the era of Baveno VII. J Hepatol. 2023 Mar;78(3):658-662. doi: 10.1016/j.jhep.2022.11.019. Epub 2022 Nov 30.",
+          "pmid": "36460163",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Shah HA, Azam Z, Rauf J, Abid S, Hamid S, Jafri W, Khalid A, Ismail FW, Parkash O, Subhan A, Munir SM. Carvedilol vs. esophageal variceal band ligation in the primary prophylaxis of variceal hemorrhage: a multicentre randomized controlled trial. J Hepatol. 2014 Apr;60(4):757-64. doi: 10.1016/j.jhep.2013.11.019. Epub 2013 Nov 28.",
+          "pmid": "24291366",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Bhardwaj A, Kedarisetty CK, Vashishtha C, Bhadoria AS, Jindal A, Kumar G, Choudhary A, Shasthry SM, Maiwall R, Kumar M, Bhatia V, Sarin SK. Carvedilol delays the progression of small oesophageal varices in patients with cirrhosis: a randomised placebo-controlled trial. Gut. 2017 Oct;66(10):1838-1843. doi: 10.1136/gutjnl-2016-311735. Epub 2016 Jun 13.",
+          "pmid": "27298379",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Tripathi D, Ferguson JW, Kochar N, Leithead JA, Therapondos G, McAvoy NC, Stanley AJ, Forrest EH, Hislop WS, Mills PR, Hayes PC. Randomized controlled trial of carvedilol versus variceal band ligation for the prevention of the first variceal bleed. Hepatology. 2009 Sep;50(3):825-33. doi: 10.1002/hep.23045.",
+          "pmid": "19610055",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Villanueva C, Albillos A, Genesca J, Garcia-Pagan JC, Calleja JL, Aracil C, Banares R, Morillas RM, Poca M, Penas B, Augustin S, Abraldes JG, Alvarado E, Torres F, Bosch J. beta blockers to prevent decompensation of cirrhosis in patients with clinically significant portal hypertension (PREDESCI): a randomised, double-blind, placebo-controlled, multicentre trial. Lancet. 2019 Apr 20;393(10181):1597-1608. doi: 10.1016/S0140-6736(18)31875-0. Epub 2019 Mar 22.",
+          "pmid": "30910320",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Villanueva C, Torres F, Sarin SK, Shah HA, Tripathi D, Brujats A, Rodrigues SG, Bhardwaj A, Azam Z, Hayes PC, Jindal A, Abid S, Alvarado E, Bosch J; Carvedilol-IPD-MA-group and the Baveno Cooperation: an EASL Consortium. Carvedilol reduces the risk of decompensation and mortality in patients with compensated cirrhosis in a competing-risk meta-analysis. J Hepatol. 2022 Oct;77(4):1014-1025. doi: 10.1016/j.jhep.2022.05.021. Epub 2022 May 31.",
+          "pmid": "35661713",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Jachs M, Hartl L, Simbrunner B, Bauer D, Paternostro R, Balcar L, Hofer B, Pfisterer N, Schwarz M, Scheiner B, Stattermayer AF, Pinter M, Trauner M, Mandorfer M, Reiberger T. Carvedilol Achieves Higher Hemodynamic Response and Lower Rebleeding Rates Than Propranolol in Secondary Prophylaxis. Clin Gastroenterol Hepatol. 2023 Aug;21(9):2318-2326.e7. doi: 10.1016/j.cgh.2022.06.007. Epub 2022 Jul 14.",
+          "pmid": "35842118",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Jutabha R, Jensen DM, Martin P, Savides T, Han SH, Gornbein J. Randomized study comparing banding and propranolol to prevent initial variceal hemorrhage in cirrhotics with high-risk esophageal varices. Gastroenterology. 2005 Apr;128(4):870-81. doi: 10.1053/j.gastro.2005.01.047.",
+          "pmid": "15825071",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Schepke M, Kleber G, Nurnberg D, Willert J, Koch L, Veltzke-Schlieker W, Hellerbrand C, Kuth J, Schanz S, Kahl S, Fleig WE, Sauerbruch T; German Study Group for the Primary Prophylaxis of Variceal Bleeding. Ligation versus propranolol for the primary prophylaxis of variceal bleeding in cirrhosis. Hepatology. 2004 Jul;40(1):65-72. doi: 10.1002/hep.20284.",
+          "pmid": "15239087",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Lui HF, Stanley AJ, Forrest EH, Jalan R, Hislop WS, Mills PR, Finlayson ND, Macgilchrist AJ, Hayes PC. Primary prophylaxis of variceal hemorrhage: a randomized controlled trial comparing band ligation, propranolol, and isosorbide mononitrate. Gastroenterology. 2002 Sep;123(3):735-44. doi: 10.1053/gast.2002.35385.",
+          "pmid": "12198700",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Sarin SK, Lamba GS, Kumar M, Misra A, Murthy NS. Comparison of endoscopic ligation and propranolol for the primary prevention of variceal bleeding. N Engl J Med. 1999 Apr 1;340(13):988-93. doi: 10.1056/NEJM199904013401302.",
+          "pmid": "10099140",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Lim J, Kim HI, Kim E, Kim J, An J, Chang S, Kim SO, Lee HC, Lee YS, Shim JH. Variceal bleeding is aggravated by portal venous invasion of hepatocellular carcinoma: a matched nested case-control study. BMC Cancer. 2021 Jan 5;21(1):11. doi: 10.1186/s12885-020-07708-1.",
+          "pmid": "33402105",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Sidali S, Nault JC. Portal hypertension and hepatocellular carcinoma: Navigating uncharted waters. United European Gastroenterol J. 2022 Feb;10(1):8-9. doi: 10.1002/ueg2.12193. Epub 2022 Jan 8. No abstract available.",
+          "pmid": "34997990",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Allaire M, Rudler M, Thabut D. Portal hypertension and hepatocellular carcinoma: Des liaisons dangereuses.... Liver Int. 2021 Aug;41(8):1734-1743. doi: 10.1111/liv.14977. Epub 2021 Jun 28.",
+          "pmid": "34051060",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ripoll C, Groszmann RJ, Garcia-Tsao G, Bosch J, Grace N, Burroughs A, Planas R, Escorsell A, Garcia-Pagan JC, Makuch R, Patch D, Matloff DS; Portal Hypertension Collaborative Group. Hepatic venous pressure gradient predicts development of hepatocellular carcinoma independently of severity of cirrhosis. J Hepatol. 2009 May;50(5):923-8. doi: 10.1016/j.jhep.2009.01.014. Epub 2009 Mar 5.",
+          "pmid": "19303163",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kadouchi K, Higuchi K, Shiba M, Okazaki H, Yamamori K, Sasaki E, Tominaga K, Watanabe T, Fujiwara Y, Oshitani N, Arakawa T. What are the risk factors for aggravation of esophageal varices in patients with hepatocellular carcinoma? J Gastroenterol Hepatol. 2007 Feb;22(2):240-6. doi: 10.1111/j.1440-1746.2006.04418.x.",
+          "pmid": "17295878",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Yang TC, Chen WC, Hou MC, Chen PH, Lee PC, Chang CY, Lu HS, Chen YJ, Hsu SJ, Huang HC, Luo JC, Huang YH, Lee FY. Endoscopic variceal ligation versus propranolol for the primary prevention of oesophageal variceal bleeding in patients with hepatocellular carcinoma: an open-label, two-centre, randomised controlled trial. Gut. 2024 Mar 7;73(4):682-690. doi: 10.1136/gutjnl-2023-330419.",
+          "pmid": "38123994",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "de Franchis R, Bosch J, Garcia-Tsao G, Reiberger T, Ripoll C; Baveno VII Faculty. Baveno VII - Renewing consensus in portal hypertension. J Hepatol. 2022 Apr;76(4):959-974. doi: 10.1016/j.jhep.2021.12.022. Epub 2021 Dec 30.",
+          "pmid": "35120736",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kim JH, Sinn DH, Kim K, Kang W, Gwak GY, Paik YH, Choi MS, Lee JH, Koh KC, Paik SW. Primary Prophylaxis for Variceal Bleeding and the Improved Survival of Patients with Newly Diagnosed Hepatocellular Carcinoma. Dig Dis Sci. 2016 Nov;61(11):3354-3362. doi: 10.1007/s10620-016-4255-6. Epub 2016 Jul 19.",
+          "pmid": "27435325",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Chen WC, Hou MC, Lin HC, Lee FY, Yeh YY, Chang FY, Lee SD. Feasibility and potential benefit of maintenance endoscopic variceal ligation in patients with unresectable hepatocellular carcinoma and acute esophageal variceal hemorrhage: a controlled trial. Gastrointest Endosc. 2001 Jul;54(1):18-23. doi: 10.1067/mge.2001.115731.",
+          "pmid": "11427836",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Akahoshi T, Tomikawa M, Tsutsumi N, Hashizume M, Maehara Y. Merits of prophylactic sclerotherapy for esophageal varices concomitant unresectable hepatocellular carcinoma: prospective randomized study. Dig Endosc. 2014 Mar;26(2):172-7. doi: 10.1111/den.12119. Epub 2013 May 8.",
+          "pmid": "23650913",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Iwakiri R, Koyama T, Hirano M, Uchida Y, Ishibashi S, Kuwahara A, Matsunaga K, Sakata H, Fujimoto K. Endoscopic injection sclerotherapy for esophageal varices prolonged survival of patients with hepatocellular carcinoma complicating liver cirrhosis. Gastrointest Endosc. 2000 May;51(5):569-72. doi: 10.1016/s0016-5107(00)70291-4.",
+          "pmid": "10805843",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Miyoshi H, Matsumoto A, Oka M, Sugi K, Yoshimura K, Hongou Y, Katsu K. Efficacy of prophylactic sclerotherapy in patients with hepatocellular carcinoma and varices negative for the red color sign. Gastrointest Endosc. 1997 Jun;45(6):498-502. doi: 10.1016/s0016-5107(97)70180-9.",
+          "pmid": "9199908",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Bucci L, Garuti F, Camelli V, Lenzi B, Farinati F, Giannini EG, Ciccarese F, Piscaglia F, Rapaccini GL, Di Marco M, Caturelli E, Zoli M, Borzio F, Sacco R, Maida M, Felder M, Morisco F, Gasbarrini A, Gemini S, Foschi FG, Missale G, Masotto A, Affronti A, Bernardi M, Trevisani F; Italian Liver Cancer (ITA.LI.CA) Group; Italian Liver Cancer ITA LI CA Group. Comparison between alcohol- and hepatitis C virus-related hepatocellular carcinoma: clinical presentation, treatment and outcome. Aliment Pharmacol Ther. 2016 Feb;43(3):385-99. doi: 10.1111/apt.13485. Epub 2015 Dec 14.",
+          "pmid": "26662476",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Giannini EG, Risso D, Testa R, Trevisani F, Di Nolfo MA, Del Poggio P, Benvegnu L, Ludovico Rapaccini G, Farinati F, Zoli M, Borzio F, Caturelli E; Italian Liver Cancer (ITA.LI.CA.) Group. Prevalence and prognostic significance of the presence of esophageal varices in patients with hepatocellular carcinoma. Clin Gastroenterol Hepatol. 2006 Nov;4(11):1378-84. doi: 10.1016/j.cgh.2006.08.011. Epub 2006 Oct 23.",
+          "pmid": "17059899",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries. CA Cancer J Clin. 2021 May;71(3):209-249. doi: 10.3322/caac.21660. Epub 2021 Feb 4.",
+          "pmid": "33538338",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Lee YR, Park SY, Tak WY. Treatment Outcomes and Prognostic Factors of Acute Variceal Bleeding in Patients with Hepatocellular Carcinoma. Gut Liver. 2020 Jul 15;14(4):500-508. doi: 10.5009/gnl19155.",
+          "pmid": "31816673",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Garcia-Tsao G, Lim JK; Members of Veterans Affairs Hepatitis C Resource Center Program. Management and treatment of patients with cirrhosis and portal hypertension: recommendations from the Department of Veterans Affairs Hepatitis C Resource Center Program and the National Hepatitis C Program. Am J Gastroenterol. 2009 Jul;104(7):1802-29. doi: 10.1038/ajg.2009.191. Epub 2009 May 19.",
+          "pmid": "19455106",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "El-Serag HB, Everhart JE. Improved survival after variceal hemorrhage over an 11-year period in the Department of Veterans Affairs. Am J Gastroenterol. 2000 Dec;95(12):3566-73. doi: 10.1111/j.1572-0241.2000.03376.x.",
+          "pmid": "11151893",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Sanyal AJ, Bosch J, Blei A, Arroyo V. Portal hypertension and its complications. Gastroenterology. 2008 May;134(6):1715-28. doi: 10.1053/j.gastro.2008.03.007. No abstract available.",
+          "pmid": "18471549",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER_GOV",
+        "name": "Taipei Veterans General Hospital, Taiwan"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2030-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-11",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2030-10",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-10-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-02",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-09-10",
+      "studyFirstSubmitQcDate": "2024-09-10"
+    }
+  }
+}

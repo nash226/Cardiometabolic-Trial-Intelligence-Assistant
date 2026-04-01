@@ -1,0 +1,246 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006951",
+          "term": "Hyperlipoproteinemias"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "SRSD216 administered SC. in subjects of Part 1",
+          "interventionNames": [
+            "Drug: SRSD216 injection"
+          ],
+          "label": "SRSD216 injection (Part 1)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "SRSD216 administered SC. in subjects of Part 2",
+          "interventionNames": [
+            "Drug: SRSD216 injection",
+            "Drug: Placebo"
+          ],
+          "label": "SRSD216 injection (Part 2)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placbo administered SC. in subjects of Part 1",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "0.9% Sodium Chloride (Part 1)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placbo administered SC. in subjects of Part 2",
+          "interventionNames": [
+            "Drug: SRSD216 injection",
+            "Drug: Placebo"
+          ],
+          "label": "0.9% Sodium Chloride (Part 2)",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "0.9% Sodium Chloride (Part 2)",
+            "SRSD216 injection (Part 1)",
+            "SRSD216 injection (Part 2)"
+          ],
+          "description": "Administered SC.",
+          "name": "SRSD216 injection",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "0.9% Sodium Chloride (Part 1)",
+            "0.9% Sodium Chloride (Part 2)",
+            "SRSD216 injection (Part 2)"
+          ],
+          "description": "Administered SC.",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hyperlipoproteinemia (a)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "medical@siriusrna.com",
+          "name": "Medical Director",
+          "phone": "+86 21 61207756",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Beijing",
+          "contacts": [
+            {
+              "email": "medical@siriusrna.com",
+              "name": "Investigator",
+              "phone": "+86 21 61207756",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "Site 01",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "RECRUITING",
+          "zip": "100000"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Sirius Therapeutics",
+          "name": "Medical Director, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a two-part study, intended to investigate the safety, tolerability, characteristics of PK and PD of single SC dose of SRSD216 and to identify a dose range for further studies in subjects with elevated Lp(a) level with or without ASCVD history."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 84,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Able to comprehend and willing to sign an informed consent form (ICF) and to abide by the study restrictions;\n* Males or females, of any race;\n* Body mass index (BMI) between 18.0 and 40.0 kg/m2, inclusive;\n* Male subjects are not allowed to donate sperm, and female subjects are not allowed to donate eggs from the time the ICF is signed until at least 3 months after the last follow-up.\n\nExclusion Criteria:\n\n* Any history or evidence of abnormal bleeding or coagulopathy; or evidence of prolonged or unexplained, clinically significant bleeding, or frequent unexplained bruising or thrombosis; or history of spontaneous bleeding;\n* Evidence of active or suspected cancer within 3 years prior to screening (non-melanoma skin cancer, localized prostate cancer treated with curative intent, or other in situ carcinoma that does not require systemic therapy and is considered cured for at least 1 years is allowed);\n* Acute febrile illness within 7 days prior to dose administration or evidence of active infection;\n* Any major surgery within 3 months prior to screening or plan to have any major surgery during the study;\n* History of clinically significant hypersensitivity, intolerance, or allergy to any oligonucleotide or GalNAc as determined by the investigator;\n* Fasting TG\u2265 500 mg/dL (5.6 mmol/L) during screening;\n* Receipt of an investigational drug within 30 days or 5 half-lives of that drug, whichever is longer, prior to dose administration in this study;\n* Have previously completed or withdrawn from this study or any other study investigating SRSD216 and have previously received SRSD216.",
+      "healthyVolunteers": true,
+      "maximumAge": "70 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of SRSD216 in Patients With Elevated Lipoprotein (a)",
+      "nctId": "NCT07172646",
+      "officialTitle": "A Phase I/II, Randomized, Double Blind, Placebo Controlled, Dose-Escalation and -Expansion Study to Evaluate the Safety, Tolerability, PK, and PD of Subcutaneously Administered SRSD216 in Patients With Elevated Lipoprotein(a)",
+      "orgStudyIdInfo": {
+        "id": "SRSD216-101"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Sirius Therapeutics Co., Ltd."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "A summary of TEAE to evaluate the safety and tolerability of SRSD216",
+          "measure": "Incidence of treatment-emergent adverse events (TEAEs)",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Sirius Therapeutics Co., Ltd."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-04",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-03",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-04-07",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-15",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-08-21",
+      "studyFirstSubmitQcDate": "2025-09-10"
+    }
+  }
+}

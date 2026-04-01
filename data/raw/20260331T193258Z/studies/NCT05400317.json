@@ -1,0 +1,211 @@
+{
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "AD-218",
+          "interventionNames": [
+            "Drug: AD-218"
+          ],
+          "label": "Active Comparator : Test group",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "AD-218A",
+          "interventionNames": [
+            "Drug: AD-218A"
+          ],
+          "label": "Active Comparator : Control group",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Active Comparator : Test group"
+          ],
+          "description": "PO, Once daily(QD), 12weeks",
+          "name": "AD-218",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Active Comparator : Control group"
+          ],
+          "description": "PO, Once daily(QD), 12weeks",
+          "name": "AD-218A",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mixed Dyslipidemia"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "sryoon@addpharma.co.kr",
+          "name": "Sarah Yoon",
+          "phone": "82-031-891-5576",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Kyu Chang Won, M.D., Ph.D",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Daegu",
+          "contacts": [
+            {
+              "name": "Kyu Chang Won, M.D., Ph.D",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Yeongnam University Hospital",
+          "geoPoint": {
+            "lat": 35.87028,
+            "lon": 128.59111
+          },
+          "state": "Nam-gu",
+          "status": "RECRUITING",
+          "zip": "42415"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Yeungnam University Hospital",
+          "name": "Kyu Chang Won, M.D., Ph.D",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the efficacy and safety of AD-218",
+      "detailedDescription": "Condition or disease : Mixed Dyslipidemia Treatment Drug : AD-218, AD-218A, Placebo of AD-218, Placebo of AD-218A"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 520,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* A man or woman over 19 years old.\n* Sign on ICF prior to study participation\n\nExclusion Criteria:\n\n* History of Fibromyalgia, Myopathy etc (CK \u2265 2 X ULN)\n* Other exclusions applied",
+      "healthyVolunteers": false,
+      "minimumAge": "19 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study to Evaluate the Efficacy and Safety of AD-218",
+      "nctId": "NCT05400317",
+      "officialTitle": "A Randomized, Double-blinded, Active-controlled, Multicenter Phase 3 Clinical Trial and Open-label, Extension Study to Evaluate the Efficacy and Safety of AD-218 in Patients with Mixed Dyslipidemia",
+      "orgStudyIdInfo": {
+        "id": "AD-218P3"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Addpharma Inc."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "non-HDL-C at week 12 compared AD-218 with AD-218A",
+          "measure": "Percent change (%) of non-HDL-C from baseline at week 12",
+          "timeFrame": "from baseline at 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "non-HDL-C at week 4,8 compared AD-218 with AD-218A",
+          "measure": "Percent change (%) of non-HDL-C from baseline at week 4, 8",
+          "timeFrame": "from baseline at week 4,8"
+        },
+        {
+          "description": "Lipid panel at week 4, 8, 12 compared AD-218 with AD-218A",
+          "measure": "Percent change (%) of Lipid panel from baseline at week 4, 8, 12",
+          "timeFrame": "from baseline at week 4, 8, 12"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Addpharma Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-03",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-03-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-07-27",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-02",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-05-27",
+      "studyFirstSubmitQcDate": "2022-05-27"
+    }
+  }
+}

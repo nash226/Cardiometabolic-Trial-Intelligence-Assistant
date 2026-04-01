@@ -1,0 +1,188 @@
+{
+  "arms": [
+    {
+      "description": "For patients already on \u03b2-blocker therapy, the treatment will be continued and titrated at the discretion of the patient's most responsible physician(s).",
+      "intervention_names": [
+        "Other: Medical Assessment",
+        "Other: Quality of Life Assessment"
+      ],
+      "label": "Continuation of Beta-Blockers",
+      "type": "OTHER"
+    },
+    {
+      "description": "For patients on \u03b2-blocker therapy, medication will be tapered over 3-7 days to minimize the potential for withdrawal-related symptoms. A standardized angina treatment algorithm, which is independent of \u03b2-blocker use, will minimize any worsening of angina symptoms during drug withdrawal by utilizing other guideline recommended anti-anginal agents, such as calcium-channel blockers, long acting nitrates, or ivabradine. An anticipated 5% of patients allocated to this arm will not be able to tolerate discontinuation, however, patients will continue participation as per intention-to-treat principle. Background lifestyle measures and medical therapies will be recommended according to current Canadian guideline recommendations and individual patient profiles. Structured algorithms to achieve blood pressure goals that exclude the use of a \u03b2-blocker based on the Canadian Hypertension Education Program Guidelines will be provided.",
+      "intervention_names": [
+        "Other: Medical Assessment",
+        "Other: Quality of Life Assessment"
+      ],
+      "label": "De-Adoption of Beta-Blockers",
+      "type": "OTHER"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Stable Ischemic Heart Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Coronary Artery Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Beta-blocker Therapy",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Age \\>21 years\n2. Documented Coronary Artery Disease (CAD) defined as:\n\n   * Myocardial Infarction at least 6 months prior; or\n   * Stable ischemic heart disease (defined using one of the following tests suggestive of significant coronary artery disease):\n\n     i. Positive exercise stress test ii. Positive Nuclear perfusion scan iii. Positive exercise or pharmacologic echocardiographic stress test iv. Positive magnetic resonance imaging coronary perfusion scan v. Coronary computed tomographic angiography Angiogram with stenosis \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing by CT (FFRCT); vi. Invasive coronary angiography with \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing (FFR) or instant wave free ratio (IFR),\n   * Previous Percutaneous Coronary Intervention (PCI, at least 6 months prior if revascularization is performed for an MI); or\n   * Previous Coronary Artery Bypass Grafting (CABG, at least 6 months prior if revascularization is performed for an MI)\n3. Able and willing to provide informed consent\n\nExclusion Criteria:\n\n1. Left Ventricular Ejection Fraction \\< 40% or current hospitalization for heart failure\n2. Myocardial infarction \\<6 months prior to randomization\n3. Indication for \u03b2-blocker as determined by the treating physician (such as atrial or ventricular arrhythmias or ongoing angina not controlled by another agent)\n4. Uncontrolled hypertension or uncontrolled angina symptoms (per the Investigator's discretion)\n5. Non-compliance with medical therapy\n6. Life expectancy \\<1 year\n7. Participation in another trial related to \u03b2-blockers or other anti-anginal drugs",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "21 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Continuation of Beta-Blockers",
+        "De-Adoption of Beta-Blockers"
+      ],
+      "description": "medical hx, events inquiry, adherence to treatment arm periodically over 4 years",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Medical Assessment",
+      "normalized_name": "medical assessment"
+    },
+    {
+      "arm_group_labels": [
+        "Continuation of Beta-Blockers",
+        "De-Adoption of Beta-Blockers"
+      ],
+      "description": "online questionnaires periodically over 4 years, including SAQ, EQ-5D-5L, IIEF-5 (males) or FSFI (females)",
+      "drug_class": null,
+      "intervention_type": "OTHER",
+      "name": "Quality of Life Assessment",
+      "normalized_name": "quality of life assessment"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Composite of time to first all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or heart failure over an estimated four years",
+      "measure": "Composite of time to first all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or heart failure over an estimated four years",
+      "outcome_type": "primary",
+      "time_frame": "4 years post randomization"
+    },
+    {
+      "description": "individual components of the primary objective (including all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or HF)",
+      "measure": "individual components of the primary objective (including all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or HF)",
+      "outcome_type": "secondary",
+      "time_frame": "4 years post randomization"
+    },
+    {
+      "description": "stroke",
+      "measure": "stroke",
+      "outcome_type": "secondary",
+      "time_frame": "4 years post randomization"
+    },
+    {
+      "description": "angina related quality of life as measured by the Seattle Angina Questionnaire",
+      "measure": "angina related quality of life",
+      "outcome_type": "secondary",
+      "time_frame": "4 years post randomization"
+    },
+    {
+      "description": "sexual function as measured by the IIEF-5 and FSFI",
+      "measure": "sexual function",
+      "outcome_type": "secondary",
+      "time_frame": "4 years post randomization"
+    },
+    {
+      "description": "new onset diabetes",
+      "measure": "new onset diabetes",
+      "outcome_type": "secondary",
+      "time_frame": "4 years post randomization"
+    },
+    {
+      "description": "stop/re-start dates",
+      "measure": "drug withdrawal",
+      "outcome_type": "secondary",
+      "time_frame": "4 years post randomization"
+    },
+    {
+      "description": "health care costs in each arm",
+      "measure": "health care costs in each arm",
+      "outcome_type": "secondary",
+      "time_frame": "4 years post randomization"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Patients with heart disease are often prescribed many medications and these patients may experience drug interactions or negative drug related side effects. With newer medications and treatments available, it is not well known whether older drugs, such as beta-blockers, are still an effective and safe option for treating heart disease. Some evidence suggests beta-blockers should be continued, whereas other evidence suggests beta-blockers might cause unnecessary harm. The study hopes to determine whether continuation or discontinuation of beta-blockers will affect long term cardiovascular outcomes. The study investigators will also examine how beta-blockers continuation or discontinuation affects several quality of life measures.",
+    "brief_title": "De-Adoption of Beta-Blockers in Patients With Stable Ischemic Heart Disease",
+    "collaborator_names": [],
+    "completion_date": "2026-12-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Age \\>21 years\n2. Documented Coronary Artery Disease (CAD) defined as:\n\n   * Myocardial Infarction at least 6 months prior; or\n   * Stable ischemic heart disease (defined using one of the following tests suggestive of significant coronary artery disease):\n\n     i. Positive exercise stress test ii. Positive Nuclear perfusion scan iii. Positive exercise or pharmacologic echocardiographic stress test iv. Positive magnetic resonance imaging coronary perfusion scan v. Coronary computed tomographic angiography Angiogram with stenosis \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing by CT (FFRCT); vi. Invasive coronary angiography with \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing (FFR) or instant wave free ratio (IFR),\n   * Previous Percutaneous Coronary Intervention (PCI, at least 6 months prior if revascularization is performed for an MI); or\n   * Previous Coronary Artery Bypass Grafting (CABG, at least 6 months prior if revascularization is performed for an MI)\n3. Able and willing to provide informed consent\n\nExclusion Criteria:\n\n1. Left Ventricular Ejection Fraction \\< 40% or current hospitalization for heart failure\n2. Myocardial infarction \\<6 months prior to randomization\n3. Indication for \u03b2-blocker as determined by the treating physician (such as atrial or ventricular arrhythmias or ongoing angina not controlled by another agent)\n4. Uncontrolled hypertension or uncontrolled angina symptoms (per the Investigator's discretion)\n5. Non-compliance with medical therapy\n6. Life expectancy \\<1 year\n7. Participation in another trial related to \u03b2-blockers or other anti-anginal drugs",
+    "detailed_description": "Patients will be randomized to continue \u03b2-blocker therapy or discontinue \u03b2-blocker therapy. Patients will be followed remotely for approximately four years for adherence, events and outcomes assessments, and completion of multiple web-based quality of life questionnaires.",
+    "drug_class_labels": [],
+    "enrollment_count": 59,
+    "enrollment_type": "ACTUAL",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Medical Assessment",
+      "Quality of Life Assessment"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-16",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Alberta",
+    "masking": "SINGLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "21 Years",
+    "nct_id": "NCT05081999",
+    "official_title": "De-Adoption \u03b2eta-Blockers in Patients With Stable Ischemic Heart Disease Without REduced LV Ejection Fraction, Ongoing Ischemia, or Arrhythmias: a pragmaTic randomizEd Trial With Blinded Endpoints",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-01-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05081999",
+    "start_date": "2023-01-30",
+    "study_first_posted_at": "2021-10-18",
+    "study_type": "INTERVENTIONAL"
+  }
+}

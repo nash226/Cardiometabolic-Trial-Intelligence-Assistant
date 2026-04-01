@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07025148:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07025148\nBrief title: Dual Antiplatelet Therapy Escalation From Standard-dose Clopidogrel to Low-Dose Prasugrel in Patients With High Bleeding and Ischemic Risk Undergoing PCI: A Prospective, Randomized Pharmacodynamic Study (TAILOR-BLEED-2)\nOfficial title: Switching From Clopidogrel to Low-dose Prasugrel in Patients at Dual-risk Following Percutaneous Coronary Intervention (TAILOR-BLEED-2)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT07025148"
+    },
+    {
+      "chunk_id": "NCT07025148:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Coronary Arterial Disease (CAD); Percutaneous Coronary Intervention (PCI)\nIntervention labels: Prasugrel; Clopidogrel\nDrug class labels: \nArms: Dual risk - Clopidogrel-based DAPT; Dual risk - Low-dose prasugrel-based DAPT; Control\nKeywords: Coronary artery disease; Dual antiplatelet therapy; High bleeding risk",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT07025148"
+    },
+    {
+      "chunk_id": "NCT07025148:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The primary aim of this study is to investigate the PD effects of switching from standard-dose clopidogrel dose to low-dose prasugrel versus continuing standard-dose clopidogrel in patients at dual-risk (HBR defined as the HBR-ARC criteria and HIR defined as ABCD-GENE score \u226510) following PCI. We hypothesize that in patients at dual-risk, switching from standard-dose clopidogrel to low-dose prasugrel will be superior to continuing standard-dose clopidogrel in terms of platelet reactivity.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 75,
+      "trial_nct_id": "NCT07025148"
+    },
+    {
+      "chunk_id": "NCT07025148:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients with high bleeding risk (defined according to the ARC-HBR criteria) who have undergone PCI and are on maintenance treatment with DAPT, consisting of low-dose aspirin (81mg qd) with clopidogrel (75 mg qd) as part of standard of care for at least 30 days.\n* Age \u226518 years.\n* Provide written informed consent.\n\nExclusion Criteria:\n\n* Prior cerebrovascular event.\n* PCI within 30 days.\n* Hemodynamic instability.\n* On treatment with any oral anticoagulant (vitamin K antagonists, dabigatran, rivaroxaban, apixaban, edoxaban) or chronic low-molecular-weight heparin (at venous thrombosis treatment, not for prophylaxis).\n* Hypersensitivity to Aspirin, Clopidogrel, or Prasugrel.\n* Known hematologic malignancies or thrombocytopenia (platelet count \\<80x106/mL).\n* Known hemoglobinopathies or anemia (hemoglobin \\<9 g/dL)\n* Pregnant and breastfeeding women \\[women of childbearing age must use reliable birth control (i.e., oral contraceptives) while participating in the study\\].",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 158,
+      "trial_nct_id": "NCT07025148"
+    },
+    {
+      "chunk_id": "NCT07025148:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Platelet reactivity measured as PRU | time_frame=30 Day | description=The primary end point of our study will be levels of platelet reactivity, measured as P2Y12 reaction units (PRU) using the VerifyNow system in patients at dual-risk (both HBR and HIR \\[ABCD-GENE score \u226510 points\\]) between low-dose prasugrel (5 mg qd) vs. standard-dose clopidogrel (75 mg qd)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 58,
+      "trial_nct_id": "NCT07025148"
+    },
+    {
+      "chunk_id": "NCT07025148:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-10-01\nPrimary completion date: 2027-08-01\nCompletion date: 2027-11-01\nStudy first posted: 2025-06-17\nResults first posted: None\nLast update posted: 2025-11-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07025148"
+    },
+    {
+      "chunk_id": "NCT07025148:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Florida\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07025148"
+    }
+  ],
+  "trial_nct_id": "NCT07025148"
+}

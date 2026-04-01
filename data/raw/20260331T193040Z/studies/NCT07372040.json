@@ -1,0 +1,328 @@
+{
+  "derivedSection": {
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013830",
+          "term": "Thiadiazoles"
+        },
+        {
+          "id": "D013844",
+          "term": "Thiazoles"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D052999",
+          "term": "Quinazolinones"
+        },
+        {
+          "id": "D011799",
+          "term": "Quinazolines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        },
+        {
+          "id": "D000086",
+          "term": "Acetazolamide"
+        },
+        {
+          "id": "D008788",
+          "term": "Metolazone"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "will include 22 patients who will receive 10 mg oral empagliflozin administered simultaneously with the first dose of loop diuretics each day for 3 days",
+          "interventionNames": [
+            "Drug: empagliflozin"
+          ],
+          "label": "Empagliflozin group",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "will include 22 patients who will receive 500 mg oral acetazolamide administered simultaneously with the first dose of loop diuretics each day for 3 days",
+          "interventionNames": [
+            "Drug: Acetazolamide"
+          ],
+          "label": "Acetazolamide group",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "will include 22 patients who will receive 5 mg oral metolazone administered simultaneously with the first dose of loop diuretics each day for 3 days",
+          "interventionNames": [
+            "Drug: metolazone"
+          ],
+          "label": "Metolazone group",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Empagliflozin group"
+          ],
+          "description": "Empagliflozin may augment the natriuretic and aquaretic actions of loop diuretics in patients with acute decompensated heart failure and it does not typically cause electrolyte disturbances and has been shown to improve outcomes in patients with heart failure",
+          "name": "empagliflozin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Acetazolamide group"
+          ],
+          "description": "Acetazolamide can augment the action of loop diuretics in patients with acute decompensated heart failure",
+          "name": "Acetazolamide",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Metolazone group"
+          ],
+          "description": "Metolazone can augment the action of loop diuretics in patients with acute decompensated heart failure",
+          "name": "metolazone",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Decompensated Heart Failure"
+      ],
+      "keywords": [
+        "Empagliflozin",
+        "Acetazolamide",
+        "Metolazone",
+        "Acute heart failure",
+        "Add-on therapies to Loop diuretics"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "dalia_gomaa@pharm.tanta.edu.eg",
+          "name": "Dalia A Gomaa, MSc in clinical pharmacy",
+          "phone": "+20+01063410525",
+          "role": "CONTACT"
+        },
+        {
+          "email": "dalia.mohamed1@pharm.tanta.edu.eg",
+          "name": "Dalia R El-Afify, Associate professor",
+          "phone": "+20+01006831093",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Tanta",
+          "contacts": [
+            {
+              "email": "dalia_gomaa@pharm.tanta.edu.eg",
+              "name": "Dalia A Gomaa, MSc in clinical pharmacy",
+              "phone": "02+01063410525",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Egypt",
+          "facility": "Tanta university",
+          "geoPoint": {
+            "lat": 30.78847,
+            "lon": 31.00192
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Tanta University",
+          "name": "Dalia A Gomaa, MSc in clinical pharmacy",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to compare the efficacy and safety of empagliflozin, acetazolamide, and metolazone as add-on therapies to loop diuretics in patients with acute decompensated heart failure."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Model Description",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Masking Description"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 66,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female patients older than 18 years.\n2. Hospital admission with clinical diagnosis of acute decompensated heart failure with at least one clinical sign of volume overload (e.g. edema, ascites confirmed by echography or pleural effusion confirmed by chest X-ray or echography).\n\nExclusion Criteria:\n\n1. Type 1 diabetes.\n2. Chronic kidney disease with estimated glomerular filtration rate (eGFR) \\<30 mL/min per 1.73 m\u00b2 or end-stage kidney failure with the need for chronic dialysis treatment.\n3. A systolic blood pressure of less than 90 mmHg.\n4. Cardiogenic shock.\n5. Receipt of acetazolamide maintenance therapy.\n6. Receipt of an SGLT2 inhibitor, thiazide, or thiazide-like diuretic in the 48 hrs before randomization.\n7. Any cause of heart failure leading to decompensation that will need urgent management (eg, acute coronary syndrome, unstable arrhythmias, acute pulmonary embolism).\n8. Pregnant or breastfeeding women.\n9. Moderate to severe anemia.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Add-on Diuretics in Acute Decompensated Heart Failure",
+      "nctId": "NCT07372040",
+      "officialTitle": "Clinical Study Comparing Empagliflozin, Acetazolamide, and Metolazone as Add-on Therapies to Loop Diuretics in Acute Decompensated Heart Failure",
+      "orgStudyIdInfo": {
+        "id": "Acute Heart Failure 2026"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Tanta University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The cumulative urine output measured over 3 days",
+          "timeFrame": "3 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Blood samples will be collected at baseline and after 4 days",
+          "measure": "- The change in serum level of N-terminal pro-brain natriuretic peptide (NT-proBNP)",
+          "timeFrame": "4 days"
+        },
+        {
+          "description": "Blood samples will be collected at baseline and after 4 days",
+          "measure": "The change in serum level of Soluble suppression of tumorigenicity 2 (sST2)",
+          "timeFrame": "4 days"
+        },
+        {
+          "description": "Urine samples will be collected at baseline and after 3 days",
+          "measure": "The change in urinary level of Tissue inhibitor of metalloproteinases-2 (TIMP-2 )",
+          "timeFrame": "3 days"
+        },
+        {
+          "description": "Urine samples will be collected at baseline and after 3 days",
+          "measure": "The change in urinary level of Insulin-like growth factor-binding protein 7 (IGFBP7)",
+          "timeFrame": "3 days"
+        },
+        {
+          "description": "Proportion of patients who die within 30 days of randomization",
+          "measure": "30-day mortality",
+          "timeFrame": "up to 30 days"
+        },
+        {
+          "description": "the treating physician will calculate the congestion score, on a scale from 0 to 10 on the basis of the sum of scores for the degree of edema (0 to 4), pleural effusion (0 to 3), and ascites (0 to 3), with higher scores indicating a worse condition on all scales",
+          "measure": "Proportion of patients achieving an ADVOR Score \u2264 1 without the need for escalating diuretic strategy",
+          "timeFrame": "3 days"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Tanta University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Tanta University",
+        "investigatorFullName": "Dalia Abdelhamid Gomaa",
+        "investigatorTitle": "assistant lecturer of clinical pharmacy, faculty of pharmacy",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-02-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-02",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-02-01",
+        "type": "ESTIMATED"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-19",
+      "studyFirstSubmitQcDate": "2026-01-19"
+    }
+  }
+}

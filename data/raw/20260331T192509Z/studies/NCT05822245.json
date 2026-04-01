@@ -1,0 +1,244 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005901",
+          "term": "Glaucoma"
+        },
+        {
+          "id": "D009798",
+          "term": "Ocular Hypertension"
+        },
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D005902",
+          "term": "Glaucoma, Open-Angle"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Cohort A - Low Dose",
+          "interventionNames": [
+            "Drug: PER-001 Intravitreal Implant - Low Dose"
+          ],
+          "label": "Phase 1 Cohort A",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Cohort B - High Dose",
+          "interventionNames": [
+            "Drug: PER-001 Intravitreal Implant - High Dose"
+          ],
+          "label": "Phase 1 Cohort B",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Cohort C - Low Dose or Sham",
+          "interventionNames": [
+            "Drug: PER-001 Intravitreal Implant - Low Dose",
+            "Drug: PER-001 Intravitreal Implant - Sham"
+          ],
+          "label": "Phase 2 Cohort C",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Cohort D - High Dose or Sham",
+          "interventionNames": [
+            "Drug: PER-001 Intravitreal Implant - High Dose",
+            "Drug: PER-001 Intravitreal Implant - Sham"
+          ],
+          "label": "Phase 2 Cohort D",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Phase 1 Cohort A",
+            "Phase 2 Cohort C"
+          ],
+          "description": "PER-001 Low Dose Intravitreal Implant",
+          "name": "PER-001 Intravitreal Implant - Low Dose",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Phase 1 Cohort B",
+            "Phase 2 Cohort D"
+          ],
+          "description": "PER-001 High Dose Intravitreal Implant",
+          "name": "PER-001 Intravitreal Implant - High Dose",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Phase 2 Cohort C",
+            "Phase 2 Cohort D"
+          ],
+          "description": "PER-001 Intravitreal Sham",
+          "name": "PER-001 Intravitreal Implant - Sham",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Open-angle Glaucoma"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "San Francisco",
+          "country": "United States",
+          "facility": "Perfuse Therapeutics, Inc.",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          },
+          "state": "California",
+          "zip": "94158"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Perfuse Therapeutics, Inc.",
+          "name": "Phillip Lai, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical study has two phases: Phase 1 and Phase 2a. Phase 1 is an open-label, single ascending dose (SAD), while Phase 2a is a randomized, single-masked (participant) with a sham control.",
+      "detailedDescription": "This clinical study has two phases: Phase 1 and Phase 2a. Phase 1 is an open-label, SAD study to investigate the ocular and systemic safety and tolerability of two dose levels of PER-001, in participants with advanced OAG. Phase 1 will enroll up to approximately 12 participants.\n\nPhase 2a is a randomized, single-masked (participant) study to further investigate the ocular and systemic safety and tolerability of the two dose levels of PER-001 Intravitreal Implants in participants with progressing glaucoma. Participants who meet entry criteria will be randomized to receive either dose of PER-001 or sham control. In Phase 2a, a total of approximately 24 participants (12 in each Cohort, will be randomized)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Dose escalation.",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Placebo sham",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nFor Phase 1 and Phase 2a:\n\n* Must be \u2265 18 years of age at the time of signing the informed consent\n* A negative pregnancy test for females of childbearing potential at Screening (serum) and Day 1 (urine).\n* IOP 6 to 25 mmHg (inclusive) at Screening in potentially eligible eye(s)\n\nPhase 1:\n\n* Best corrected visual acuity (BCVA) LogMAR score 1.0 or better at Screening in at least one eye and prior to randomization at Day 1 in the study eye\n* Diagnosis of advanced or severe primary OAG including normal tension, pseudoexfoliation and pigment dispersion\n\nPhase 2:\n\n* BCVA LogMAR score 0.5 or better at Screening in at least one eye and prior to randomization at Day 1 in the study eye\n* Primary OAG that is progressing in the study eye\n\nExclusion Criteria:\n\n* Blood pressure \\>140/90 mmHg or \\<90/60 mmHg at Screening\n* Any condition which, in the opinion of the investigator, would preclude the participant's ability to comply with study requirements including completion of the study (including but not limited to diagnosis of dementia, Alzheimer's, and/or other neurological disease or physical incapacity)\n* Females who are pregnant, nursing, or planning a pregnancy during the study\n* Any significant media opacity which precludes clinical evaluation and imaging of the retina\n* History of vitrectomy surgery or retinal detachment or macular hole (Stage 3 or 4)\n* Retinal laser within 3 months prior to Day 1\n* Intraocular surgery, including cataract surgery and Minimally Invasive Glaucoma\n* Surgery (MIGS), within 3 months prior to Day 1\n* Aphakia or absence of posterior capsule\n* Change in IOP lowering therapy within 6 weeks prior to Screening and/or anticipated change in IOP lowering therapy or treatment during the study Worse than mild non-proliferative diabetic retinopathy (Note: stable mild background diabetic retinopathy is permitted)\n* Any active uveitis and/or vitritis or history of idiopathic or autoimmune-associated uveitis\n* Active infectious conjunctivitis, keratitis, scleritis, or endophthalmitis (Note: mild blepharitis is permitted if stable)\n* History of recurrent infectious or inflammatory ocular disease\n* Central serous retinopathy\n* Non-glaucomatous optic neuropathy",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of PER-001 in Participants With Open-Angle Glaucoma",
+      "nctId": "NCT05822245",
+      "officialTitle": "A Phase 1/2a Study to Evaluate Safety, Tolerability, and Pharmacodynamic Effect After Single Administration of PER-001 Intravitreal Implant in Participants With Open-Angle Glaucoma",
+      "orgStudyIdInfo": {
+        "id": "PER001-201"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Perfuse Therapeutics, Inc."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "ETDRS or modified ETDRS chart (Charts 1, 2, and R as applicable) with standardized distance and lighting will be used to calculate the LogMAR score",
+          "measure": "Ocular Measurement for Safety - Change from Baseline at Week 24 using Best-corrected Visual Acuity (BCVA)",
+          "timeFrame": "End of Study(Week 24)"
+        },
+        {
+          "description": "Slit lamp examinations will include evaluation of the lids, conjunctiva, cornea, anterior chamber, iris/pupil, and lens.",
+          "measure": "Ocular Measurement for Safety - Change from Baseline at Week 24 using Biomicroscopy",
+          "timeFrame": "End of Study(Week 24)"
+        },
+        {
+          "description": "IOP is measured by a calibrated Goldmann applanation tonometry.",
+          "measure": "Ocular Measurement for Safety - Change from Baseline at Week 24 using Intraocular Pressure (IOP)",
+          "timeFrame": "End of Study(Week 24)"
+        },
+        {
+          "description": "Dilated ophthalmoscopy examination will include evaluation of the vitreous, macula, retinal vessels, peripheral retina, and optic disc.",
+          "measure": "Ocular Measurement and Implant Assessment for Safety - Change from Baseline at Week 24 using Dilated Ophthalmoscopy",
+          "timeFrame": "End of Study(Week 24)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Perfuse Therapeutics, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-04-04",
+        "type": "ESTIMATED"
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-04-04",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2023-05-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-10",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-03-27",
+      "studyFirstSubmitQcDate": "2023-04-07"
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "arms": [
+    {
+      "description": "Baseline - established PDE/ERA therapy Week 1 - initiate OPA (PDE/ERA/OPA therapy) Weeks 2-12 - uptitration of OPA to maximal therapy (PDE/ERA/OPA therapy) Weeks 13-14 - reduce OPA (PDE/ERA/OPA therapy) Week 15 - washout OPA (PDE/OPA therapy) Week 16 - washout PDE (ERA therapy) Week 17 - initiate sGCS (ERA/sGCS therapy) Weeks 18-27 - uptitration of sGCS to maximal therapy (ERA/sGCS therapy)",
+      "intervention_names": [
+        "Drug: Selexipag",
+        "Drug: Riociguat",
+        "Device: CardioMEMS pulmonary artery pressure monitor",
+        "Device: Confirm Rx"
+      ],
+      "label": "Arm A (selexipag/riociguat)",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Baseline - established PDE/ERA therapy Week 1 - washout PDE (ERA therapy only) Week 2 - initiate sGCS (ERA/sGCS therapy) Weeks 3-12 - uptitration of sGCS to maximal therapy (ERA/sGCS therapy) Week 13 - reduce sGCS (ERA/sGCS therapy) Week 14 - reduce and washout sGCS (ERA therapy) Week 15 - initiate PDE (PDE/ERA therapy) Week 16 - initiate OPA (PDE/ERA/OPA therapy) Weeks 17-27 - uptitration of OPA to maximal therapy (PDE/ERA/OPA therapy)",
+      "intervention_names": [
+        "Drug: Selexipag",
+        "Drug: Riociguat",
+        "Device: CardioMEMS pulmonary artery pressure monitor",
+        "Device: Confirm Rx"
+      ],
+      "label": "Arm B (riociguat/selexipag)",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Pulmonary Arterial Hypertension",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Able to provide informed consent\n* Age 18-80 years\n* PAH which is idiopathic, heritable or associated with drugs, toxins or connective tissue disease\n* Stable PAH therapeutic regime comprising any combination of ERA and PDE5i for at least 1 month prior to screening (unless unable to tolerate therapy)\n* WHO functional class III\n* Resting mPAP \u226520 mmHg, pulmonary capillary wedge pressure \u226415 mmHg, pulmonary vascular resistance \u22652 Wood Units measured by right heart catheterisation at time of diagnosis\n* 6MWT \\>50m at entry\n* Estimated glomerular filtration rate (eGFR)\\>30 ml/min/1.73 m\u00b2 at entry (Appendix C)\n* Inadequate treatment response (clinically determined)\n\nExclusion Criteria:\n\n* Unable to provide informed consent\n* Pregnancy\n* Unprovoked pulmonary embolism (at any time)\n* Acute infection at time of screening (rescreening is permitted)\n* PAH due to human immunodeficiency virus, portal hypertension, schistosomiasis, congenital heart disease\n* Pulmonary hypertension due to left heart, lung, thromboembolic or unclear/multifactorial disease (Group II-V)\n* Unable to tolerate aspirin or P2Y12 inhibitor\n* Hypersensitivity to selexipag or riociguat\n* Clinically-significant renal disease (eGFR\u226430 ml/min/1.73m2)\n* Anaemia (haemoglobin \\<10 g/dl)\n* Left-sided heart disease and/or clinically significant cardiac disease, including but not limited to any of the following: aortic or mitral valve disease greater than mild aortic insufficiency; mild aortic stenosis; mild mitral stenosis; or moderate mitral regurgitation",
+    "healthy_volunteers": false,
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Arm A (selexipag/riociguat)",
+        "Arm B (riociguat/selexipag)"
+      ],
+      "description": "If Arm A - Up-titration to maximum tolerated dose followed by de-escalation If Arm B - Up-titration to maximum tolerated dose followed by observation, modification or transition at discretion of responsible care team where necessary.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Selexipag",
+      "normalized_name": "selexipag"
+    },
+    {
+      "arm_group_labels": [
+        "Arm A (selexipag/riociguat)",
+        "Arm B (riociguat/selexipag)"
+      ],
+      "description": "If Arm A - Up-titration to maximum tolerated dose followed by de-escalation If Arm B - Up-titration to maximum tolerated dose followed by observation, modification or transition at discretion of responsible care team where necessary.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Riociguat",
+      "normalized_name": "riociguat"
+    },
+    {
+      "arm_group_labels": [
+        "Arm A (selexipag/riociguat)",
+        "Arm B (riociguat/selexipag)"
+      ],
+      "description": "Implantation and remote monitoring established with patient initiated daily readings",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "CardioMEMS pulmonary artery pressure monitor",
+      "normalized_name": "cardiomems pulmonary artery pressure monitor"
+    },
+    {
+      "arm_group_labels": [
+        "Arm A (selexipag/riociguat)",
+        "Arm B (riociguat/selexipag)"
+      ],
+      "description": "Implantation and remote monitoring established with automated daily readings / downloads",
+      "drug_class": null,
+      "intervention_type": "DEVICE",
+      "name": "Confirm Rx",
+      "normalized_name": "confirm rx"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "This provides a robust, objective assessment of clinical efficacy which, if met, will mean that a change in therapy has provided a clinically meaningful change in physiology",
+      "measure": "Right Ventricular Stroke Volume (RVSV) flow on each therapy measured by MRI RSVS (flow) on each therapy measured by MRI",
+      "outcome_type": "primary",
+      "time_frame": "Baseline to Week 12"
+    },
+    {
+      "description": "Change in TPR (Woods Units) on each therapy to determine clinical efficacy",
+      "measure": "Haemodynamics - Total Pulmonary Resistance (TPR)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change in mPAP (mmHg) on each therapy to determine clinical efficacy",
+      "measure": "Haemodynamics - mean Pulmonary Artery Pressure (mPAP)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change in CO (L/min) on each therapy to determine clinical efficacy",
+      "measure": "Haemodynamics - Cardiac Output (CO)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change in cardiac index (L/min/m\\^2) on each therapy to determine clinical efficacy",
+      "measure": "Haemodynamics - Cardiac Index",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change in SV (mL) on each therapy to determine clinical efficacy",
+      "measure": "Haemodynamics - Stroke Volume (SV)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change in HR (bpm) on each therapy to determine clinical efficacy",
+      "measure": "Haemodynamics - Heart Rate (HR)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change on each therapy to determine clinical efficacy",
+      "measure": "6 Minute Walk Test",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change on each therapy to determine clinical efficacy",
+      "measure": "NTpro-BNP",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "RVEF (%) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Right Ventricular Ejection Fraction (RVEF)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "RVESV (mL/m\\^2) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Right Ventricular End Systolic Volume (RVESV)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "RVEDV (mL/m\\^2) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Right Ventricular End Diastolic Volume (RVEDV)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "RVSV (mL) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Right Ventricular Stroke Volume (RVSV)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "LVEF (%) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Left Ventricular Volume Fraction (LVEF)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "LVESV (mL/m\\^2) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Left Ventricular End Systolic Volume (LVESV)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "LVEDV (mL/m\\^2) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Left Ventricular End Diastolic Volume LVEDV",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "LVSV (mL) on each therapy to determine clinical efficacy",
+      "measure": "MRI - Left Ventricular Stroke Volume (LVSV)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "LVSV flow on each therapy to determine clinical efficacy",
+      "measure": "MRI - Left Ventricular Stroke Volume (LVSV) flow",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change of QoL score on each therapy to determine clinical efficacy. This will be done using EmPHasis-10 questionnaire (10 questions using a 0 (poor) - 5 (good) scale)",
+      "measure": "Patient Reported Outcomes (PRO) - Quality of Life (QoL) (EmPHasis-10)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change of medication compliance score on each therapy to determine clinical efficacy. This will be done using PHoenix PRO questionnaire (10 questions using a 0 (poor) - 5 (good) scale)",
+      "measure": "Patient Reported Outcomes (PRO) - Medication Compliance (PHoenix PRO)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change of medication side effects on each therapy to determine clinical efficacy. This will be done using PHoenix Medication side effects questionnaires (4 Yes/No or Better/Worse style questions)",
+      "measure": "Patient Reported Outcomes (PRO) - Medication Side Effects",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change of depression symptoms on each therapy to determine clinical efficacy. This will be done using the GAD-2/7 questionnaire (2 screening questions to determine if symptoms present. If present, 7 additional questions to determine level of depression using a 0 (not at all) - 3 (nearly every day) scale)",
+      "measure": "Patient Reported Outcomes (PRO) - Depression symptoms (GAD-2/7)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change of anxiety symptoms on each therapy to determine clinical efficacy. This will be done using the PHQ-2/9 questionnaire (2 screening questions to determine if symptoms present. If present, 9 additional questions to determine level of anxiety using a 0 (not at all) - 3 (nearly every day) scale)",
+      "measure": "Patient Reported Outcomes (PRO) - Anxiety symptoms (PHQ-2/9)",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    },
+    {
+      "description": "Change on each therapy to determine clinical efficacy. Functional assessment of PAH will be made according to the WHO classification system: Class I - Patients with PAH without limitation of physical activity. Ordinary physical activity does not cause increased dyspnoea or fatigue, chest pain, or near syncope / Class II - Patients with PAH resulting in slight limitation of physical activity. No discomfort at rest. Normal physical activity causes increased dyspnoea or fatigue, chest pain, or near syncope / Class III - Patients with PAH resulting in marked limitation of physical activity. There is no discomfort at rest. Less than ordinary activity causes increased dyspnoea or fatigue, chest pain, or near syncope / Class IV - Patients with PAH with inability to carry out any physical activity without discomfort. Indications of manifest right heart failure. Dyspnoea and/or fatigue may even be present at rest. Discomfort is increased by the least physical activity.",
+      "measure": "WHO functional class",
+      "outcome_type": "secondary",
+      "time_frame": "From baseline and area under the curve to 4 weeks, 8 weeks and 12 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The goal of this clinical trial is to evaluate the capacity of implantable/remote technology for early evaluation of drug therapies in patients with pulmonary arterial hypertension (PAH). The main question it aims to answer is whether structured changes in clinical therapy will be detectable using implanted regulatory approved devices. Participants will will be implanted with approved medical devices and will enter into a study of approved drugs to assess physiology, activity and patient reported quality-of-life (QoL) outcomes. Researchers will compare two therapeutic strategies in each individual patient to see if the study design provides enough evidence to personalise drug treatment plans",
+    "brief_title": "Pulmonary Hypertension: Intensification and Personalisation of Combination Rx",
+    "collaborator_names": [
+      "University of Glasgow",
+      "University of Sheffield",
+      "University of Newcastle Upon-Tyne",
+      "University of Cambridge"
+    ],
+    "completion_date": "2026-01",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Able to provide informed consent\n* Age 18-80 years\n* PAH which is idiopathic, heritable or associated with drugs, toxins or connective tissue disease\n* Stable PAH therapeutic regime comprising any combination of ERA and PDE5i for at least 1 month prior to screening (unless unable to tolerate therapy)\n* WHO functional class III\n* Resting mPAP \u226520 mmHg, pulmonary capillary wedge pressure \u226415 mmHg, pulmonary vascular resistance \u22652 Wood Units measured by right heart catheterisation at time of diagnosis\n* 6MWT \\>50m at entry\n* Estimated glomerular filtration rate (eGFR)\\>30 ml/min/1.73 m\u00b2 at entry (Appendix C)\n* Inadequate treatment response (clinically determined)\n\nExclusion Criteria:\n\n* Unable to provide informed consent\n* Pregnancy\n* Unprovoked pulmonary embolism (at any time)\n* Acute infection at time of screening (rescreening is permitted)\n* PAH due to human immunodeficiency virus, portal hypertension, schistosomiasis, congenital heart disease\n* Pulmonary hypertension due to left heart, lung, thromboembolic or unclear/multifactorial disease (Group II-V)\n* Unable to tolerate aspirin or P2Y12 inhibitor\n* Hypersensitivity to selexipag or riociguat\n* Clinically-significant renal disease (eGFR\u226430 ml/min/1.73m2)\n* Anaemia (haemoglobin \\<10 g/dl)\n* Left-sided heart disease and/or clinically significant cardiac disease, including but not limited to any of the following: aortic or mitral valve disease greater than mild aortic insufficiency; mild aortic stenosis; mild mitral stenosis; or moderate mitral regurgitation",
+    "detailed_description": "In this study, patients established on guideline recommended therapy will be implanted with devices and remote monitoring established. Patients will then enter into a 2x2 crossover study of approved drugs during which standard clinical investigations will be undertaken at baseline and maximal therapy on each drug. The cross-over design will provide multiple increases and decreases of drugs known to alter haemodynamics and 6MWT. The study is powered to detect improvement in right ventricular stroke volume measured by MRI from baseline to maximal therapy for each drug. It will then be established if changes in remote monitored measures provide an early indication of clinical efficacy when compared to the MRI, haemodynamics, NTproBNP and 6MWT made at 12-weeks. Remote measurement of haemodynamics during the two periods of de-escalation will inform understanding of physiology and inform clinical practice. The comparison of the two therapeutic strategies in individual patients in one study will facilitate novel clinical study designs and provide evidence for data-driven personalised medicine in the area.",
+    "drug_class_labels": [],
+    "enrollment_count": 40,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Selexipag",
+      "Riociguat",
+      "CardioMEMS pulmonary artery pressure monitor",
+      "Confirm Rx"
+    ],
+    "intervention_model": "CROSSOVER",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "remote monitoring",
+      "therapeutic development",
+      "personalised medicine"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-12-03",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Sheffield Teaching Hospitals NHS Foundation Trust",
+    "masking": "NONE",
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05825417",
+    "official_title": "A Multicentre Randomised Cross-over Trial of Disease Specific Therapy in Patients With Pulmonary Arterial Hypertension (PAH) Implanted With Pulmonary Artery Pressure and Cardiac Rhythm Monitoring Devices (CardioMEMS/ConfirmRx)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05825417",
+    "start_date": "2023-06-14",
+    "study_first_posted_at": "2023-04-24",
+    "study_type": "INTERVENTIONAL"
+  }
+}

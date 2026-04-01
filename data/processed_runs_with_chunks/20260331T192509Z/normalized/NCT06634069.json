@@ -1,0 +1,156 @@
+{
+  "arms": [
+    {
+      "description": "Patients suffering from septic shock who require fluid resuscitation get 0.5M HSL (containing 504mM of sodium and lactate)",
+      "intervention_names": [
+        "Drug: Sodium Lactate"
+      ],
+      "label": "Group 1",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Patients suffering from septic shock who require fluid resuscitation get 3% NaCl (containing 513mM of sodium and chloride)",
+      "intervention_names": [
+        "Drug: 3% NaCl"
+      ],
+      "label": "Group 2",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Septic Shock",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Intracranial Hypertension",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Subjects will be eligible for the trial if they meet all of the following criteria:\n\n  1. Age criteria: 18 - 90 years\n  2. Septic shock - Sepsis 3 criteria :\n\n     1. acute change in total SOFA score \u2265 2 due to infection\n     2. use of vasopressor drug to maintain target mean arterial pressure \u2265 65 mmHg\n     3. blood lactate level \u2265 2 mmol/L within last 24 hours\n  3. Likely need for fluid resuscitation\n\n     1. poor peripheral perfusion as evidenced by 2 out of 4: i. peripheral cyanosis with delayed capillary refill \u2265 3 seconds ii. low urinary output (\\< 0.5 ml/kg/hour for at least 6 hours) iii. central venous O2 saturation \\< 70% iv. clouded sensorium/poor mentation\n     2. dynamic assessment of preload responsiveness as evidenced by 1 out of 3: i. positive passive leg raising test ii. pulse pressure variation and / or stroke volume variation2, both \\> 12% iii. distensibility index of inferior vena caval diameter \\> 12%\n  4. Signed the relevant informed consent form\n\nExclusion Criteria:\n\n* Subjects will not be eligible for the trial if they meet any of the following criteria:\n\n  1. Poor transthoracic echo windows\n  2. Actual body weight \\> 160 kg\n  3. Hypernatremia: \\[Na\\] \\> 150 mEq/L\n  4. Cardiac tamponade\n  5. Uncorrected severe valvular heart disease or life-threatening arrhythmia\n  6. Moribund patients likely to die before the study protocol is completed\n  7. Patients with absolute indication for immediate acute hemodialysis/hemofiltration (within 2 hrs) based on pH \\< 7.0, K \\> 7.0mmol/L\n  8. Severe liver dysfunction defined by total serum bilirubin \\> 120 umol/l\n  9. Pregnancy and lactation",
+    "healthy_volunteers": false,
+    "maximum_age_text": "90 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Group 1"
+      ],
+      "description": "0.5M HSL (containing 504mM of sodium and lactate)",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Sodium Lactate",
+      "normalized_name": "sodium lactate"
+    },
+    {
+      "arm_group_labels": [
+        "Group 2"
+      ],
+      "description": "active compartor 3% NaCl",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "3% NaCl",
+      "normalized_name": "3% nacl"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "SV is the amount of blood that leaves the left ventricle with every beat cycle and is calculated by measuring the Doppler flow in the aortic valve.\n\nUnit: ml",
+      "measure": "haemodynamic effects",
+      "outcome_type": "primary",
+      "time_frame": "at time of start of infusion, at 30 minutes and at 60 minutes from the start of the respective fluid bolus"
+    },
+    {
+      "description": "Diagnostic approach to acid-base changes is based on the assessment of bicarbonate buffer system, in which pH is determined by the ratio of \\[HCO3-\\] to pCO2 meassured by a POC whole-blood analyzer system\n\nUnit: \\[HCO3-\\] - mmol/l, pCO2 - kPa",
+      "measure": "acid-base effect",
+      "outcome_type": "secondary",
+      "time_frame": "at time of start of infusion, at 30 minutes and at 60 minutes from the start of the respective fluid bolus"
+    },
+    {
+      "description": "Inflammatory markers as CRP, procalcitonin, interleukin-6 and feritin are sepcific indicators linked to degree of inflammation and determined by regular biochemical analysis. The dynamics of parameters after the study fluid administration will be evaluated.\n\nUnit: CRP - mg/l, procalcitonin - ug/l, interleukin-6 - ng/l, ferritin - ug/l",
+      "measure": "anti-inflammatory effect",
+      "outcome_type": "secondary",
+      "time_frame": "parameters measured within the last 24 hours prior to start of infusion and within 24 hours after the study fluid infusion."
+    },
+    {
+      "description": "Incidence of adverse events and reactions according to following Adverse Events of Special Interest (AESI) and descriptive analysis of the incidence of any adverse events and reactions during participation in the study in both study arms. AEs are defined according to the valid definitions for clinical trials as imposed by legislation (Directive 2001/20/EG).",
+      "measure": "Safety - Incidence of adverse events and reactions",
+      "outcome_type": "secondary",
+      "time_frame": "30 days after intervention"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "A Pilot, Randomized, Double-Blinded, Controlled Study of Hemodynamic and Acid Base Effects of 0.5M Sodium Lactate and 3% Saline Solutions in Septic Shock Patients",
+    "brief_title": "Study SOLACE SEPSIS",
+    "collaborator_names": [],
+    "completion_date": "2027-10",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Subjects will be eligible for the trial if they meet all of the following criteria:\n\n  1. Age criteria: 18 - 90 years\n  2. Septic shock - Sepsis 3 criteria :\n\n     1. acute change in total SOFA score \u2265 2 due to infection\n     2. use of vasopressor drug to maintain target mean arterial pressure \u2265 65 mmHg\n     3. blood lactate level \u2265 2 mmol/L within last 24 hours\n  3. Likely need for fluid resuscitation\n\n     1. poor peripheral perfusion as evidenced by 2 out of 4: i. peripheral cyanosis with delayed capillary refill \u2265 3 seconds ii. low urinary output (\\< 0.5 ml/kg/hour for at least 6 hours) iii. central venous O2 saturation \\< 70% iv. clouded sensorium/poor mentation\n     2. dynamic assessment of preload responsiveness as evidenced by 1 out of 3: i. positive passive leg raising test ii. pulse pressure variation and / or stroke volume variation2, both \\> 12% iii. distensibility index of inferior vena caval diameter \\> 12%\n  4. Signed the relevant informed consent form\n\nExclusion Criteria:\n\n* Subjects will not be eligible for the trial if they meet any of the following criteria:\n\n  1. Poor transthoracic echo windows\n  2. Actual body weight \\> 160 kg\n  3. Hypernatremia: \\[Na\\] \\> 150 mEq/L\n  4. Cardiac tamponade\n  5. Uncorrected severe valvular heart disease or life-threatening arrhythmia\n  6. Moribund patients likely to die before the study protocol is completed\n  7. Patients with absolute indication for immediate acute hemodialysis/hemofiltration (within 2 hrs) based on pH \\< 7.0, K \\> 7.0mmol/L\n  8. Severe liver dysfunction defined by total serum bilirubin \\> 120 umol/l\n  9. Pregnancy and lactation",
+    "detailed_description": "This study investigates two resuscitation fluids that are being used off label for the treatment of patients suffering from septic shock and also in patients with intracranial hypertension in intensive care.",
+    "drug_class_labels": [],
+    "enrollment_count": 40,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Sodium Lactate",
+      "3% NaCl"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "intracranial hypertension",
+      "septic shock"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-04-13",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University Hospital Pilsen",
+    "masking": "DOUBLE",
+    "maximum_age_text": "90 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06634069",
+    "official_title": "A Pilot, Randomized, Double-Blinded, Controlled Study of Hemodynamic and Acid Base Effects of 0.5M Sodium Lactate and 3% Saline Solutions in Septic Shock Patients",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2027-10",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06634069",
+    "start_date": "2024-11-24",
+    "study_first_posted_at": "2024-10-09",
+    "study_type": "INTERVENTIONAL"
+  }
+}

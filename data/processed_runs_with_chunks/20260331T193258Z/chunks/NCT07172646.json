@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07172646:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07172646\nBrief title: A Study of SRSD216 in Patients With Elevated Lipoprotein (a)\nOfficial title: A Phase I/II, Randomized, Double Blind, Placebo Controlled, Dose-Escalation and -Expansion Study to Evaluate the Safety, Tolerability, PK, and PD of Subcutaneously Administered SRSD216 in Patients With Elevated Lipoprotein(a)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 55,
+      "trial_nct_id": "NCT07172646"
+    },
+    {
+      "chunk_id": "NCT07172646:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hyperlipoproteinemia (a)\nIntervention labels: SRSD216 injection; Placebo\nDrug class labels: \nArms: SRSD216 injection (Part 1); SRSD216 injection (Part 2); 0.9% Sodium Chloride (Part 1); 0.9% Sodium Chloride (Part 2)\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT07172646"
+    },
+    {
+      "chunk_id": "NCT07172646:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a two-part study, intended to investigate the safety, tolerability, characteristics of PK and PD of single SC dose of SRSD216 and to identify a dose range for further studies in subjects with elevated Lp(a) level with or without ASCVD history.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT07172646"
+    },
+    {
+      "chunk_id": "NCT07172646:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 70 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Able to comprehend and willing to sign an informed consent form (ICF) and to abide by the study restrictions;\n* Males or females, of any race;\n* Body mass index (BMI) between 18.0 and 40.0 kg/m2, inclusive;\n* Male subjects are not allowed to donate sperm, and female subjects are not allowed to donate eggs from the time the ICF is signed until at least 3 months after the last follow-up.\n\nExclusion Criteria:\n\n* Any history or evidence of abnormal bleeding or coagulopathy; or evidence of prolonged or unexplained, clinically significant bleeding, or frequent unexplained bruising or thrombosis; or history of spontaneous bleeding;\n* Evidence of active or suspected cancer within 3 years prior to screening (non-melanoma skin cancer, localized prostate cancer treated with curative intent, or other in situ carcinoma that does not require systemic therapy and is considered cured for at least 1 years is allowed);\n* Acute febrile illness within 7 days prior to dose administration or evidence of active infection;\n* Any major surgery within 3 months prior to screening or plan to have any major surgery during the study;\n* History of clinically significant hypersensitivity, intolerance, or allergy to any oligonucleotide or GalNAc as determined by the investigator;\n* Fasting TG\u2265 500 mg/dL (5.6 mmol/L) during screening;\n* Receipt of an investigational drug within 30 days or 5 half-lives of that drug, whichever is longer, prior to dose administration in this study;\n* Have previously completed or withdrawn from this study or any other study investigating SRSD216 and have previously received SRSD216.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 278,
+      "trial_nct_id": "NCT07172646"
+    },
+    {
+      "chunk_id": "NCT07172646:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Incidence of treatment-emergent adverse events (TEAEs) | time_frame=1 year | description=A summary of TEAE to evaluate the safety and tolerability of SRSD216",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT07172646"
+    },
+    {
+      "chunk_id": "NCT07172646:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-04-07\nPrimary completion date: 2026-05\nCompletion date: 2027-04\nStudy first posted: 2025-09-15\nResults first posted: None\nLast update posted: 2026-01-06\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07172646"
+    },
+    {
+      "chunk_id": "NCT07172646:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Sirius Therapeutics Co., Ltd.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT07172646"
+    }
+  ],
+  "trial_nct_id": "NCT07172646"
+}

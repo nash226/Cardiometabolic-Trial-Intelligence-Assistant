@@ -1,0 +1,212 @@
+{
+  "arms": [
+    {
+      "description": "Taiwanese whole grain job's tear (Red job's tear)",
+      "intervention_names": [
+        "Biological: Taiwanese whole grain job's tear (red job's tear)"
+      ],
+      "label": "Taiwanese whole grain job's tear (Red job's tear)",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "White job's tear",
+      "intervention_names": [
+        "Biological: White job's tear"
+      ],
+      "label": "White job's tear",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Active comparator group\n\n* serve as comparator group from week 0 to week 8,\n* assigned to red job's tear or white job's tear group from week 8 to week 16",
+      "intervention_names": [
+        "Biological: Taiwanese whole grain job's tear (red job's tear)",
+        "Biological: White job's tear"
+      ],
+      "label": "Active comparator group",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Sarcopenia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Frailty",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hyperglycemia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hyperlipidemia",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\nPeople who aged 60-95 years\n\nPatients with following characteristics:\n\nfeeling loss in activity detecting decline in self's walking speed. feeling tired of doing everything. having fall event in last year. People willing to follow the program and cooperate with us for following tracking.\n\nPeople who are neither vegan nor vegetarian People agree and be able to sign the informed consent.\n\nExclusion Criteria:\n\nPeople with any disease affecting their limbs, including:\n\nhaving fracture on limbs in the past 6 months having severe arthritis in the past 6 months any other whom PI recognized as weak control of their nervous system( e.g.: Parkinson's disease and stroke).\n\nPeople with intermittent limp caused by peripheral artery diseases People with weak control of mental disorder People with weak control of Cardiopulmonary disease People with weak control of Malignant tumor People with weak control of kidney diseases (eGFR \\<60ml/min/1.73) People with Visual impairment and Hearing disorder which cannot help to complete the program.\n\nPeople who have underwent hormone treatment and planned to undergo hormone treatment during program session.\n\nAny other condition that PI recognized as not suitable",
+    "healthy_volunteers": true,
+    "maximum_age_text": "95 Years",
+    "minimum_age_text": "60 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Active comparator group",
+        "Taiwanese whole grain job's tear (Red job's tear)"
+      ],
+      "description": "300cc drink made from red job's tear, 2 bottle/day from week 0 to week 8",
+      "drug_class": null,
+      "intervention_type": "BIOLOGICAL",
+      "name": "Taiwanese whole grain job's tear (red job's tear)",
+      "normalized_name": "taiwanese whole grain job's tear (red job's tear)"
+    },
+    {
+      "arm_group_labels": [
+        "Active comparator group",
+        "White job's tear"
+      ],
+      "description": "300cc drink made from white job's tear, 2 bottle/day from week 0 to week 8",
+      "drug_class": null,
+      "intervention_type": "BIOLOGICAL",
+      "name": "White job's tear",
+      "normalized_name": "white job's tear"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "ASMI=appendicular skeletal muscle mass(kg)/(height(m)2)",
+      "measure": "Changes of appendicular skeletal muscle index(ASMI)",
+      "outcome_type": "primary",
+      "time_frame": "0, 8, 16 week"
+    },
+    {
+      "description": "Maximal handgrip strength of dominant hand (kg)",
+      "measure": "Changes of handgrip strength",
+      "outcome_type": "primary",
+      "time_frame": "0, 8, 16 week"
+    },
+    {
+      "description": "Usual gait speed measured by 6-meter walking (m/s)",
+      "measure": "Changes of gait speed",
+      "outcome_type": "primary",
+      "time_frame": "0, 8, 16 week"
+    },
+    {
+      "description": "Changes of time required to finish timed up and go(TUG) test",
+      "measure": "Changes of time required to finish timed up and go(TUG) test",
+      "outcome_type": "primary",
+      "time_frame": "0, 8, 16 week"
+    },
+    {
+      "description": "defined by hsCRP",
+      "measure": "Changes of inflammation marker",
+      "outcome_type": "secondary",
+      "time_frame": "0, 8, 16 week"
+    },
+    {
+      "description": "Measured by HOMA-IR",
+      "measure": "Changes of insulin resistance",
+      "outcome_type": "secondary",
+      "time_frame": "0, 8, 16 week"
+    },
+    {
+      "description": "Changes of LDL",
+      "measure": "Changes of LDL",
+      "outcome_type": "secondary",
+      "time_frame": "0, 8, 16 week"
+    },
+    {
+      "description": "Measured by serum myostatin",
+      "measure": "Changes of muscle biomarker 1",
+      "outcome_type": "secondary",
+      "time_frame": "0, 8 week"
+    },
+    {
+      "description": "Measured by serum follistatin",
+      "measure": "Changes of muscle biomarker 2",
+      "outcome_type": "secondary",
+      "time_frame": "0, 8 week"
+    },
+    {
+      "description": "Measured by serum activin A",
+      "measure": "Changes of muscle biomarker 3",
+      "outcome_type": "secondary",
+      "time_frame": "0, 8 week"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Background: This investigation aims to explore efficacy of Taiwanese whole grain job's tear on muscle health and blood glucose and lipid levels in community-dwelling older adults.\n\nMethods: An open-label, 16-week, randomized controlled, cross-over trial involving participants with subject complaint of slower gait or weakness or fall in last year were recruited. The intervention group consumed Taiwanese whole grain job's tear (red job's tear) or white job's tear. Assessments included laboratory tests, functional assessments, and body composition.",
+    "brief_title": "Whole Grain Job's Tear, Muscle Health, Blood Glucose and Lipid Level",
+    "collaborator_names": [
+      "Taichung District Agricultural Research and Extension Station, Ministry of Agriculture, Taiwan"
+    ],
+    "completion_date": "2024-12",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\nPeople who aged 60-95 years\n\nPatients with following characteristics:\n\nfeeling loss in activity detecting decline in self's walking speed. feeling tired of doing everything. having fall event in last year. People willing to follow the program and cooperate with us for following tracking.\n\nPeople who are neither vegan nor vegetarian People agree and be able to sign the informed consent.\n\nExclusion Criteria:\n\nPeople with any disease affecting their limbs, including:\n\nhaving fracture on limbs in the past 6 months having severe arthritis in the past 6 months any other whom PI recognized as weak control of their nervous system( e.g.: Parkinson's disease and stroke).\n\nPeople with intermittent limp caused by peripheral artery diseases People with weak control of mental disorder People with weak control of Cardiopulmonary disease People with weak control of Malignant tumor People with weak control of kidney diseases (eGFR \\<60ml/min/1.73) People with Visual impairment and Hearing disorder which cannot help to complete the program.\n\nPeople who have underwent hormone treatment and planned to undergo hormone treatment during program session.\n\nAny other condition that PI recognized as not suitable",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 80,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Taiwanese whole grain job's tear (red job's tear)",
+      "White job's tear"
+    ],
+    "intervention_model": "CROSSOVER",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-07-16",
+    "lead_sponsor_class": "OTHER_GOV",
+    "lead_sponsor_name": "Taipei Veterans General Hospital, Taiwan",
+    "masking": "NONE",
+    "maximum_age_text": "95 Years",
+    "minimum_age_text": "60 Years",
+    "nct_id": "NCT06503172",
+    "official_title": "The Clinical Effectiveness of Taiwanese Whole Grain Job's Tear on Muscle Health, Blood Glucose and Lipid Levels- a Randomized Controlled Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2024-12",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06503172",
+    "start_date": "2024-06-14",
+    "study_first_posted_at": "2024-07-16",
+    "study_type": "INTERVENTIONAL"
+  }
+}

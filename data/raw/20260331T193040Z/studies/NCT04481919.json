@@ -1,0 +1,340 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D004630",
+          "term": "Emergencies"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients will have a spot urine sodium and urine creatinine obtained. The urine and creatinine results will be input into the diuretic calculator and the diuretic dose will be chosen based on daily goals for urine output and net negative fluid balance. Performed 3 times per day, diuretic dosing will be individualized based on the proportion of 24-hour diuresis achieved since the prior IV diuretic dose. Every 24 hours new goals for urine output and net negative fluid balance are established based on the study and treatment team's assessment of residual congestion until protocol completion.",
+          "interventionNames": [
+            "Drug: Protocolized diuretic therapy"
+          ],
+          "label": "Protocolized spot urine sodium guided diuretic therapy",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients will be placed on guideline-based diuretic dosing consistent with usual practice. The initial dose will be two times their home dose and will be subsequently adjusted by the treating team based on renal function and symptom severity. The treating team can increase or decrease the frequency and dose of diuretic based on urine output and clinical assessment. Patients in this arm also have urine collected 3 times per day by the bedside nurse to mirror the intervention arm.",
+          "label": "Guideline-based care",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Protocolized spot urine sodium guided diuretic therapy"
+          ],
+          "description": "The urine sodium, urine creatinine and serum creatinine results will be input into the diuretic calculator and the diuretic dose will be chosen based on daily goals for urine output and net negative fluid balance.",
+          "name": "Protocolized diuretic therapy",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Acute Heart Failure"
+      ],
+      "keywords": [
+        "Diuretic Therapy",
+        "Emergency Department"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "facility": "VA Tennessee Valley Health Service",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "zip": "37232"
+        },
+        {
+          "city": "Nashville",
+          "country": "United States",
+          "facility": "Vanderbilt University Medical Center",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "zip": "37232"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Vanderbilt University Medical Center",
+          "name": "Sean P. Collins, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized trial of protocolized diuretic therapy guided by urinary sodium compared to structured usual care in ED patients with AHF. Participants will be recruited following an initial standard evaluation in the ED and randomized in a 1:1 fashion to structured usual care or protocolized diuretic therapy guided by urinary sodium.",
+      "detailedDescription": "A standardized protocol driven treatment pathway for hospitalized patients started in the first few hours of ED evaluation and utilizing objective measures of diuretic response is needed. The investigators believe this would maximize diuretic efficiency, facilitate quicker resolution of congestion, avoid WHF and prolonged LOS, and reduce AHF readmissions. Propr data suggests low urine sodium predicts length of stay and outcomes after initial diuretic dosing in the outpatient and inpatient setting. Further, use of our pathway using spot urine sodium to titrate subsequent loop diuretic doses and maximize response in inpatients with AHF has shown compelling improvements in congestion and weight loss. However, a randomized trial is necessary to determine if initiating this protocol ,started in the ED, will improve AHF outcomes relative to structured usual care. Specifically, the investigators hypothesize use of spot urine sodium guided diuretic therapy will result in significant improvement in days of benefit over the 14 days after randomization. Days of benefit combines patient symptoms captured by global clinical status with clinical state quantifying the need for hospitalization and IV diuresis."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two-arm comparison of structured usual care vs urinary sodium guided diuresis",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Triple blinded study of guideline-based care compared with a protocolized diuretic strategy using urinary sodium",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 474,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18\n* Emergency Department diagnosis of Acute Heart Failure (AHF)\n* Any one of the following:\n\n  i. Chest radiograph or lung ultrasound consistent with AHF ii. Jugular venous distension iii. Pulmonary rales on auscultation iv. Lower extremity edema v. S3 gallop\n* \\> 10 pounds of volume overload physician estimate or historical dry weight\n* IV diuretic ordered or planned to be during first 24 hours of ED or inpatient stay\n\nExclusion Criteria:\n\n* End Stage Renal Disease (ESRD) requiring dialysis\n* Need for immediate intubation\n* Acute Coronary Syndrome - presentation consistent with myocardial ischemia AND new ST-Segment elevation/depression\n* Temperature \\> 100.5\u00baF\n* End Stage Heart Failure: transplant list or ventricular assist device\n* Concurrent use of ototoxic medications including intravenous aminoglycosides and cisplatin\n* Systolic Blood Pressure \\< 90 mmHg at time of consent\n* LV outflow obstruction, severe uncorrected stenotic valvular disease or severe restrictive cardiomyopathy\n* Greater than 2 doses of IV diuretic administered at the time of screening from the time of the hospital presentation leading to this admission (outside hospital time is included)\n* Severe, uncorrected serum electrolyte abnormalities at the time of consent (serum potassium \\<3.0 mEq/L, magnesium \\<1.0 mEq/L or sodium \\<125 or \\>150 mEq/l)\n* Lack of informed consent",
+      "healthyVolunteers": false,
+      "minimumAge": "19 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ESCALATE",
+      "briefTitle": "Randomized Controlled Trial of urinE chemiStry Guided aCute heArt faiLure treATmEnt (ESCALATE)",
+      "nctId": "NCT04481919",
+      "officialTitle": "A Randomized Trial of Protocolized Diuretic Therapy Compared to Standard Care in Emergency Department Patients With Acute Heart Failure",
+      "orgStudyIdInfo": {
+        "id": "190690"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Vanderbilt University Medical Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "The Publication Committee will authorize access to study data. Investigators must submit a proposal requesting approval to access our trial data. Our trial will participate in the NHLBI Central Repository for study data and specimens.\n\nAll data access will follow guidelines described in the NHLBI Limited Access Data Policy",
+      "description": "The Publication Committee will authorize access to study data. Investigators must submit a proposal requesting approval to access our trial data. Our trial will participate in the NHLBI Central Repository for study data and specimens.\n\nAll data access will follow guidelines described in the NHLBI Limited Access Data Policy.",
+      "infoTypes": [
+        "CSR"
+      ],
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "measured daily using a continuous scale from 1-100",
+          "measure": "Dyspnea score",
+          "timeFrame": "from the time of randomization through the end of protocolized IV diuretics, approximately 14 days"
+        },
+        {
+          "description": "changes in the urinary tubular injury markers such as KIM-1 and NGAL",
+          "measure": "Change in Kidney injury biomarkers",
+          "timeFrame": "from the time of randomization through the end of protocolized IV diuretics, approximately 14 days"
+        },
+        {
+          "description": "number of days in the hospital",
+          "measure": "Hospital Length of stay",
+          "timeFrame": "from the ED presentation to hospital discharge, approximately 7 days"
+        },
+        {
+          "description": "all-cause death",
+          "measure": "180-day all cause death",
+          "timeFrame": "within 180 days of hospital discharge"
+        },
+        {
+          "description": "Incidence of symptomatic (lightheaded, chest pain) hypotension (SBP \\< 80 mmHg confirmed on 2 successive measurements at least 30 minutes apart)",
+          "measure": "Hypotension",
+          "timeFrame": "from the time of randomization through 7 days off protocolized IV diuretics, or discharge"
+        },
+        {
+          "description": "AKI (defined as a need for renal replacement therapy or KDIGO stage 2 or greater from a serum creatinine at randomization)",
+          "measure": "Acute Kidney Injury Differences in Epithelial sodium channel (ENaC) levels",
+          "timeFrame": "from the time of randomization through 7 days off protocolized IV diuretics, or discharge"
+        },
+        {
+          "description": "Cardiorenal death or MI as adjudicated by a clinical events committee",
+          "measure": "Cardiorenal death or Myocardial Infarction (MI) during hospitalization",
+          "timeFrame": "from the time of randomization through 7 days off protocolized IV diuretics, or discharge"
+        },
+        {
+          "description": "Clinically significant ototoxicity or tinnitus as determined by the study team",
+          "measure": "Ototoxicity or tinnitus",
+          "timeFrame": "from the time of randomization through 7 days off protocolized IV diuretics, or discharge"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Daily composite of the clinical state and global clinical status (GCS), expressed as an integer ranging in value from 0 (deceased) to 15 (outpatient; best possible GCS).",
+          "measure": "Clinical Status Score",
+          "timeFrame": "From the time of randomization through day 14"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Daily orthodema score",
+          "measure": "Inpatient clinical congestion",
+          "timeFrame": "from the time of randomization through the end of protocolized IV diuretics, approximately 14 days"
+        },
+        {
+          "description": "Cardiorenal death and Acute Heart Failure Readmission",
+          "measure": "Cardiorenal Death and AHF Readmission",
+          "timeFrame": "within 30 days of hospital discharge"
+        },
+        {
+          "description": "measured daily using a continuous scale of 1-100",
+          "measure": "Global clinical status (GCS)",
+          "timeFrame": "from the time of randomization through 14 days after randomization"
+        },
+        {
+          "description": "Blood measurement",
+          "measure": "Change in natriuretic peptides",
+          "timeFrame": "from the time of randomization through the end of protocolized IV diuretics, approximately 14 days"
+        },
+        {
+          "description": "difference between fluid input and urine output in ml",
+          "measure": "Net fluid loss",
+          "timeFrame": "from the time of randomization through the end of protocolized IV diuretics, approximately 14 days"
+        },
+        {
+          "description": "cumulative urine output in ml",
+          "measure": "Total urine output",
+          "timeFrame": "from the time of randomization through the end of protocolized IV diuretics, approximately 14 days"
+        },
+        {
+          "description": "cumulative weight loss in pounds",
+          "measure": "Weight Loss",
+          "timeFrame": "from the time of randomization through the end of protocolized IV diuretics, approximately 14 days"
+        },
+        {
+          "description": "Those days not in the hospital, rehab or a skilled nursing facility from the time of randomization through day 30",
+          "measure": "Home days",
+          "timeFrame": "within 30 days from randomization"
+        },
+        {
+          "description": "As measured by shoebox audiometry with a significant change in hearing threshold (dB) across frequencies from 250-8000 Hz",
+          "measure": "Subclinical ototoxicity",
+          "timeFrame": "at two time points: 1) the day of randomization and 2) the next calendar day after protocolized IV diuretics are stopped"
+        },
+        {
+          "description": "cumulative sodium excretion estimated using the NRPE (based on spot urine creatinine and sodium)",
+          "measure": "Cumulative natriuresis",
+          "timeFrame": "from the time of randomization through the end of protocolized diuretics, approximately 14 days"
+        },
+        {
+          "description": "mean daily sodium excretion estimated using the NRPE (based on spot urine creatinine and sodium)",
+          "measure": "Average daily natriuresis",
+          "timeFrame": "from the time of randomization through the end of protocolized diuretics, approximately 14 days"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Cox ZL, Siddiqi HK, Stevenson LW, Bales B, Han JH, Hart K, Imhoff B, Ivey-Miranda JB, Jenkins CA, Lindenfeld J, Shotwell MS, Miller KF, Ooi H, Rao VS, Schlendorf K, Self WH, Siew ED, Storrow A, Walsh R, Wrenn JO, Testani JM, Collins SP. Randomized controlled trial of urinE chemiStry guided aCute heArt faiLure treATmEnt (ESCALATE): Rationale and design. Am Heart J. 2023 Nov;265:121-131. doi: 10.1016/j.ahj.2023.07.014. Epub 2023 Aug 6.",
+          "pmid": "37544492",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Vanderbilt University Medical Center"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Vanderbilt University Medical Center",
+        "investigatorFullName": "Sean Collins",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-17",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-09-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-05-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-11",
+      "studyFirstPostDateStruct": {
+        "date": "2020-07-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-07-19",
+      "studyFirstSubmitQcDate": "2020-07-19"
+    }
+  }
+}

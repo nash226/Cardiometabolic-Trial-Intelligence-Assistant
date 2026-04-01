@@ -1,0 +1,240 @@
+{
+  "arms": [
+    {
+      "description": "1. Epicardial or microvascular coronary spasm: Amlodipine 2.5mg initial dose, 10mg max dose\n2. Coronary microvascular dysfunction: Nebivolol 5mg initial dose, 20mg max dose\n3. Myocardial Bridge: Nebivolol 5mg initial dose, 20mg max dose\n4. Mixed epicardial/microvascular spasm and coronary microvascular dysfunction/myocardial bridge: Amlodipine 2.5mg initial dose, 10mg max dose; PLUS Nebivolol 5mg initial dose, 20mg max dose\n\nParticipants will take their assigned therapy after randomization. Weekly person via in-person visit or telephone is performed to uptitrate therapy to the maximally tolerated dose. After 1-3 weeks, the initial drug titration phase is completed and a final dose reached. Participants are then instructed to take the maximally tolerated dose for an additional 4 weeks to the conclusion of the study.",
+      "intervention_names": [
+        "Drug: Amlodipine",
+        "Drug: Nebivolol"
+      ],
+      "label": "Targeted medical therapy",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "1. Epicardial or microvascular coronary spasm: Placebo\n2. Coronary microvascular dysfunction: Placebo\n3. Myocardial Bridge: Placebo\n4. Mixed epicardial/microvascular spasm and coronary microvascular dysfunction/myocardial bridge: Placebo\n\nParticipants will take their assigned therapy after randomization. Weekly person via in-person visit or telephone is performed to uptitrate therapy to the maximally tolerated dose. After 1-3 weeks, the initial drug titration phase is completed and a final dose reached. Participants are then instructed to take the maximally tolerated dose for an additional 4 weeks to the conclusion of the study.",
+      "intervention_names": [
+        "Drug: Placebo"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Angina Pectoris",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Microvascular Angina",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Vasospastic Angina",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Myocardial Bridge of Coronary Artery",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* All patients with stable angina referred to the Stanford University Hospital cardiac catheterization laboratory for clinically indicated coronary function testing are eligible for inclusion into the study.\n\nSpecific inclusion criteria for randomization:\n\n* Absence of significant epicardial coronary artery disease on angiography\n* Fractional flow reserve \\> 0.80\n\nAnd \u2265 1 of the following:\n\n* Epicardial coronary spasm on acetylcholine testing\n* Microvascular spasm on acetylcholine testing\n* Coronary flow reserve \\< 2.5\n* Index of microcirculatory resistance \u2265 25\n* Myocardial bridge on intravascular ultrasound with dobutamine resting full-cycle ratio \u2264 0.76\n\nExclusion Criteria:\n\n* Acute coronary syndrome less than one week prior to enrolment\n* Cardiomyopathy\n* Contraindications to beta-blockers or calcium channel blockers\n* Baseline systolic blood pressure \\< 95 mmHg\n* Baseline heart rate \\< 55 bpm",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Targeted medical therapy"
+      ],
+      "description": "Amlodipine taken once orally daily at a starting dose of 2.5mg, uptitrated to a maximum of 10mg if tolerated.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Amlodipine",
+      "normalized_name": "amlodipine"
+    },
+    {
+      "arm_group_labels": [
+        "Targeted medical therapy"
+      ],
+      "description": "Nebivolol taken once orally daily at a starting dose of 5mg, uptitrated to a maximum of 20mg if tolerated.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Nebivolol",
+      "normalized_name": "nebivolol"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo"
+      ],
+      "description": "Placebo taken once orally daily.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Change in Seattle Angina Questionnaire summary score at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.",
+      "measure": "Seattle Angina Questionnaire summary score",
+      "outcome_type": "primary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Change in EuroQol 5 dimension score - 5L index score at follow-up compared to baseline. The index ranges from -0.573 to 1.000, with a higher score indicating a better outcome.",
+      "measure": "EuroQol 5 dimension - 5L index score",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Change in EuroQol 5 dimension score - 5L visual analogue score at follow-up compared to baseline. The index ranges from 0 - 100, with a higher score indicating a better outcome.",
+      "measure": "EuroQol 5 dimension - 5L visual analogue score",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Change in PHQ-4 at follow-up compared to baseline. The score ranges from 0 - 12, with a higher score indicating a worse outcome.",
+      "measure": "PHQ-4 score",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Change in Treatment Satisfaction Questionnaire for Medication score at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.",
+      "measure": "Treatment Satisfaction Questionnaire for Medication score",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Change in Seattle Angina Questionnaire summary score stratified by specific chest pain endotypes at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.",
+      "measure": "Seattle Angina Questionnaire summary score stratified by specific chest pain endotypes",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "EuroQol 5 dimension - 5L index score stratified by specific chest pain endotypes at follow-up compared to baseline. The index ranges from -0.573 to 1.000, with a higher score indicating a better outcome.",
+      "measure": "EuroQol 5 dimension - 5L index score stratified by specific chest pain endotypes",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "EuroQol 5 dimensions - 5L visual analogue score stratified by specific chest pain endotypes at follow-up compared to baseline. The index ranges from 0 - 100, with a higher score indicating a better outcome.",
+      "measure": "EuroQol 5 dimensions - 5L visual analogue score stratified by specific chest pain endotypes",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "PHQ-4 score stratified by specific chest pain endotypes at follow-up compared to baseline. The score ranges from 0 - 12, with a higher score indicating a worse outcome.",
+      "measure": "PHQ-4 scores stratified by specific chest pain endotypes",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Treatment Satisfaction Questionnaire for Medication scores stratified by specific chest pain endotypes at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.",
+      "measure": "Treatment Satisfaction Questionnaire for Medication score stratified by specific chest pain endotypes",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Change in Seattle Angina Questionnaire summary score stratified by baseline angina frequency at at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.",
+      "measure": "Seattle Angina Questionnaire summary score stratified by baseline angina frequency",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Difference between targeted medical therapy group and placebo group in proportion of patients with good response (Seattle Angina Questionnaire summary score \u2265 10), no angina (Seattle Angina Questionnaire angina frequency score = 100), and excellent health status (Seattle Angina Questionnaire summary score \u2265 75).",
+      "measure": "Proportion of patients with good response, no angina, and excellent health status",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    },
+    {
+      "description": "Incidence of bleeding, coronary dissection, stroke, periprocedural myocardial infarction, non-self-limiting arrhythmias during the index coronary function testing procedure",
+      "measure": "Safety endpoints",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline"
+    },
+    {
+      "description": "Difference between targeted medical therapy group and placebo group in incidence of cardiac death, myocardial infarction, and hospital presentation for unstable angina.",
+      "measure": "Major adverse cardiac events",
+      "outcome_type": "secondary",
+      "time_frame": "5-7 weeks (depending on drug titration period)"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The goal of this clinical trial is to learn if targeted medical therapy will improve symptoms and quality of life in patients with angina and non-obstructive coronary arteries compared to placebo, after the underlying cause of the chest pain has been ascertained by coronary function testing.\n\nParticipants will be treated with either medications that target the underlying cause of their chest pain or placebo for 4 weeks after a drug titration phase of 1-3 weeks. They will be asked to complete a series of questionnaires to evaluate their quality of life at the beginning and end of the study.",
+    "brief_title": "Efficacy of Targeted Medical Therapy in Angina and Nonobstructive Coronary Arteries",
+    "collaborator_names": [
+      "American Heart Association"
+    ],
+    "completion_date": "2026-12",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* All patients with stable angina referred to the Stanford University Hospital cardiac catheterization laboratory for clinically indicated coronary function testing are eligible for inclusion into the study.\n\nSpecific inclusion criteria for randomization:\n\n* Absence of significant epicardial coronary artery disease on angiography\n* Fractional flow reserve \\> 0.80\n\nAnd \u2265 1 of the following:\n\n* Epicardial coronary spasm on acetylcholine testing\n* Microvascular spasm on acetylcholine testing\n* Coronary flow reserve \\< 2.5\n* Index of microcirculatory resistance \u2265 25\n* Myocardial bridge on intravascular ultrasound with dobutamine resting full-cycle ratio \u2264 0.76\n\nExclusion Criteria:\n\n* Acute coronary syndrome less than one week prior to enrolment\n* Cardiomyopathy\n* Contraindications to beta-blockers or calcium channel blockers\n* Baseline systolic blood pressure \\< 95 mmHg\n* Baseline heart rate \\< 55 bpm",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 150,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Amlodipine",
+      "Nebivolol",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-11-27",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Stanford University",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06424834",
+    "official_title": "A Randomized Controlled Study of Targeted Medical Therapy Versus Placebo for Angina and Non- Obstructive Coronary Arteries: The MVP-ANOCA Study",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "primary_completion_date": "2026-12",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06424834",
+    "start_date": "2024-10-10",
+    "study_first_posted_at": "2024-05-22",
+    "study_type": "INTERVENTIONAL"
+  }
+}

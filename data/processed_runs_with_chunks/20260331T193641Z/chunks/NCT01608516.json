@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT01608516:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT01608516\nBrief title: Multimodal Imaging Assessment of the Inflammatory Atheromatous Plaque\nOfficial title: Multimodal Assessment of the Inflammatory Atheromatous Plaque : Comparison Between 68Ga-NODAGA-RGD PET/CT, 18F-FDG PET/CT, MRI AND US\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT01608516"
+    },
+    {
+      "chunk_id": "NCT01608516:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Inflammation; Atheromatous Plaques; Carotid Artery Diseases\nIntervention labels: 68Ga-NODAGA-RGD PET/CT\nDrug class labels: \nArms: 68Ga-NODAGA-RGD radiotracer\nKeywords: PET/CT; 68Ga-NODAGA-RGD; 18F-FDG; MRI; US ultrasound; inflammatory atheromatous plaque; endarterectomy",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT01608516"
+    },
+    {
+      "chunk_id": "NCT01608516:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The present study aims at assessing the ability of 68Ga-NODAGA-RGD PET/CT for the detection of inflammatory atheromatous plaques in the carotid arteries, compared to 18F-FDG PET/CT, MRI and US and to determine the contribution of each imaging technique. Current gold standard for inflammation is histopathology.\n\nHypothesis : 68Ga-NODAGA-RGD might give a better initial evaluation of patients with atheromatous plaques in the carotid artery eligible for endarterectomy.\nDetailed description: Patients with indication for endarterectomy will be presented the present protocol. If inclusion criteria are fulfilled, patients will have a 18F-FDG PET/CT + carotid US performed 6 to 2 days before endarterectomy and 68Ga-NODAGA-RGD PET/CT + MRI performed the day before endarterectomy. Histopathological sample will be analyzed to measure plaque inflammation.\n\nAll imaging results and histopathology results will be pooled and compared.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 132,
+      "trial_nct_id": "NCT01608516"
+    },
+    {
+      "chunk_id": "NCT01608516:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 85 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* age \\<= 85 years\n* Karnofsky \\>= 80%\n* patient with indication ofr carotid endarterectomy\n* signed consent form\n\nExclusion Criteria:\n\n* indication for surgery other than endarterectomy \\<14 days\n* contraindication to surgery\n* contraindication to MRI\n* contraindication to gadolinium injection (stage 4/5 kidney insufficiency, GFR\\<30ml/min/1.73m2)\n* pregnancy, breastfeeding\n* lack of discernment",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 76,
+      "trial_nct_id": "NCT01608516"
+    },
+    {
+      "chunk_id": "NCT01608516:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Comparison of each method of imaging for the detection of inflammatory atheromatous plaques | time_frame=Within1 month of endarterectomy | description=The potential of each of the methods of imaging for the detection of inflammatory atheromatous plaques will be compared. For that purpose, the capacity of every criterion of primary assessment to determine the presence of an unstable plaque will be studied compared with the histopathological sample.\ntype=secondary | measure=Comparison of AUC of the imaging methods | time_frame=Within1 month of endarterectomy | description=A comparison of the AUC will be realized to determine the superiority of a method compared with the other one, by a non parametric test comparing AUC , ROC curves respectively.\ntype=secondary | measure=Analysis of histopathological sample of endarterectomy | time_frame=Within1 month of endarterectomy | description=The histopathological analysis will be the degree of local inflammation estimated by the macrophagic infiltration as well as the degree of neovascularization.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 149,
+      "trial_nct_id": "NCT01608516"
+    },
+    {
+      "chunk_id": "NCT01608516:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2012-04\nPrimary completion date: 2024-12\nCompletion date: 2024-12\nStudy first posted: 2012-05-31\nResults first posted: None\nLast update posted: 2024-06-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT01608516"
+    },
+    {
+      "chunk_id": "NCT01608516:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Lausanne Hospitals\nLead sponsor class: OTHER\nCollaborators: Swiss Heart Foundation\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT01608516"
+    }
+  ],
+  "trial_nct_id": "NCT01608516"
+}

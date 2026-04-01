@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06501443:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06501443\nBrief title: LATAM LOWERS LDL-C\nOfficial title: Latin America Lipid Optimization After Acute Event in Patients With AthErosclerotic CardiovasculaR DiseaSe and High LDL-C\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT06501443"
+    },
+    {
+      "chunk_id": "NCT06501443:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hypercholesterolaemia\nIntervention labels: Usual care; KJX839\nDrug class labels: \nArms: Usual Care; Inclisiran + Usual Care\nKeywords: PCSK9i; hypercholesterolemia; atherosclerotic cardiovascular disease; LDL-cholesterol; Latin America",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06501443"
+    },
+    {
+      "chunk_id": "NCT06501443:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is an open label, patient-level 1:1 randomized clinical trial in a multi-country study aiming to evaluate the real-world impact of inclisiran + Usual Care (UC) vs UC alone on LDL-C lowering, patient-reported outcomes, and healthcare resource utilization in an in-hospital population of patients, admitted during the acute setting, stabilized and before discharge, following an acute cardiovascular event.\nDetailed description: The primary objective is to evaluate the impact of inclisiran plus usual care on LDL-C lowering versus usual care after acute MI, confirmed ischemic stroke, or urgent coronary revascularization.\n\nThe secondary objective is to compare the LDL-C reduction of both arms in target population.\n\nStudy completion for an individual participant is defined as when the participant finishes the last visit (day 330) and any assessments associated with that visit.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 131,
+      "trial_nct_id": "NCT06501443"
+    },
+    {
+      "chunk_id": "NCT06501443:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 100 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Admitted for MI (Type 1 NSTEMI or STEMI), urgent (i.e., non-elective) coronary revascularization (PCI or CABG) or confirmed ischemic stroke.\n* Stable patient: Patient will be considered stable if they did not suffer cardiac arrest at presentation or if in the last 24 hours before randomization:\n\n  * Was not in cardiogenic shock.\n  * Did not required invasive hemodynamic, inotropic or vasopressor support.\n* Participants are required to be eligible for receiving inclisiran in accordance to approved local label.\n\n  * Of note, patients who are initiated on statin therapy during the same hospitalization will not be excluded, as we expect a proportion of patients at baseline to not yet be on statin therapy in this real-world study. This will enhance the generalizability and pragmatic aspects of the study. However, because initiation of statin therapy at or near the time of enrollment could impact the primary outcome (if there is imbalance between the arms, or if there is differential stopping of statin therapy between the arms), we will stratify randomization by this factor and will pre-specify analyses in those who have vs. have not been initiated on statin therapy during the same hospitalization.\n\nExclusion Criteria:\n\n* Currently on PCSK9i therapy (within last 3 months)\n* Current participation in another clinical study with another study drug\n* Active liver disease defined as any known current infectious, neoplastic, or metabolic pathology of the liver at the Baseline Visit\n* Pregnant or nursing (lactating) women\n* Women of child-bearing potential, defined as all women physiologically capable of becoming pregnant, unless they are using highly effective methods of contraception",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 284,
+      "trial_nct_id": "NCT06501443"
+    },
+    {
+      "chunk_id": "NCT06501443:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change in LDL-C from baseline to 330 days | time_frame=Baseline and Day 330 | description=Impact of inclisiran plus usual care on low-density lipoprotein cholesterol (LDL-C) lowering versus usual care after acute myocardial infarction (MI), confirmed ischemic stroke, or urgent coronary revascularization.\n\nThe \"baseline\" level will be measured according to:\n\n* Baseline LDL-C from Standard of Care: If an LDL-C measurement has already been conducted as part of the standard care practices upon the patient's admission (prior to considering enrollment in the study), this measurement is considered the baseline value for the study.\n* Baseline LDL-C for Enrolled Patients: In cases where LDL-C was not performed as part of standard care at admission, the baseline LDL-C measurement will be drawn during 'Visit 0' after the patient has provided informed consent.\ntype=secondary | measure=Proportion of patients with >=50% reduction in LDL-C from baseline. | time_frame=Baseline and Day 330 | description=The \"baseline\" level will be measured according to:\n\n* Baseline LDL-C from Standard of Care: If an LDL-C measurement has already been conducted as part of the standard care practices upon the patient's admission (prior to considering enrollment in the study), this measurement is considered the baseline value for the study.\n* Baseline LDL-C for Enrolled Patients: In cases where LDL-C was not performed as part of standard care at admission, the baseline LDL-C measurement will be drawn during 'Visit 0' after the patient has provided informed consent.\ntype=secondary | measure=Proportion of patients achieving LDL-C goal of <70 mg/dL | time_frame=Baseline and Day 330 | description=Reducing LDL-C to a threshold of at least 70 mg/dL is a cornerstone of secondary prevention therapy, and is recommended by major international guidelines.\ntype=secondary | measure=Among participants with a baseline LDL-C\u226555 mg/dL: Proportion of patients achieving LDL-C goal of <55 mg/dL | time_frame=Baseline and Day 330 | description=The \"baseline\" level will be measured according to:\n\n* Baseline LDL-C from Standard of Care: If an LDL-C measurement has already been conducted as part of the standard care practices upon the patient's admission (prior to considering enrollment in the study), this measurement is considered the baseline value for the study.\n* Baseline LDL-C for Enrolled Patients: In cases where LDL-C was not performed as part of standard care at admission, the baseline LDL-C measurement will be drawn during 'Visit 0' after the patient has provided informed consent.\ntype=secondary | measure=Number of participants by timing of statin initiation | time_frame=Up to 330 days | description=Number of participants by statin initiated during index hospitalization vs. not.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 417,
+      "trial_nct_id": "NCT06501443"
+    },
+    {
+      "chunk_id": "NCT06501443:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-02-11\nPrimary completion date: 2026-11-27\nCompletion date: 2026-11-29\nStudy first posted: 2024-07-15\nResults first posted: None\nLast update posted: 2025-12-30\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06501443"
+    },
+    {
+      "chunk_id": "NCT06501443:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; WITHDRAWN; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT06501443"
+    }
+  ],
+  "trial_nct_id": "NCT06501443"
+}

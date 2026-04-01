@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05932472:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05932472\nBrief title: Randomized Comparison of Morning Versus Bedtime Administration of Aspirin: A Cardiovascular Circadian Chronotherapy (C3) Trial\nOfficial title: Randomized Comparison of Morning Versus Bedtime Administration of Aspirin: A Cardiovascular Circadian Chronotherapy (C3) Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT05932472"
+    },
+    {
+      "chunk_id": "NCT05932472:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atherosclerosis; Cardiovascular Diseases; Drug Effect\nIntervention labels: Aspirin\nDrug class labels: \nArms: Aspirin at bedtime; Aspirin in the morning\nKeywords: Aspirin; Cardiovascular Disease; Prevention; Circadian Rhythm; Randomized Controlled Trial; Pragmatic; Outcomes",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT05932472"
+    },
+    {
+      "chunk_id": "NCT05932472:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Wide variability in the antiplatelet effects of aspirin may lead to recurrent thromboembolic events. Several pilot studies have suggested potential benefits of taking aspirin at bedtime rather than in the morning. The primary objective of this study is to examine whether aspirin administration at bedtime versus in the morning provides a superior reduction in the incidence of major adverse cardiovascular events among patients with or without established atherosclerotic cardiovascular disease, who are already taking aspirin.\nDetailed description: The study is a pragmatic, registry-based, open-label, randomized controlled trial combining the utilization of the Danish nationwide health registries and the official Danish electronic letter system (Digital Post/eBoks) into an innovative, decentralized trial requiring no study visits from participants. The nationwide health registries will be used for identification of potential participants and data collection, including baseline information and follow-up data, while the electronic letter system will be used for sending recruitment letters and communicating with participants. Study participants will provide electronic informed consent from home before inclusion and randomization.\n\nThe trial will include patients currently in aspirin treatment regardless of the presence or absence of established cardiovascular disease. Participants will be randomized 1:1 to either aspirin administration at bedtime or in the morning. The trial is event-driven.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 206,
+      "trial_nct_id": "NCT05932472"
+    },
+    {
+      "chunk_id": "NCT05932472:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age \\>=18 years\n* Current chronic treatment with aspirin (as recorded in the Danish National Prescription Registry and confirmed by the participant via questionnaire)\n* Signed informed consent\n\nExclusion Criteria:\n\n* There are no exclusion criteria for this trial",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 59,
+      "trial_nct_id": "NCT05932472"
+    },
+    {
+      "chunk_id": "NCT05932472:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Composite of hospitalization for myocardial infarction, hospitalization for stroke, coronary revascularization, or cardiovascular death | time_frame=Up to 3 years\ntype=secondary | measure=Hospitalization for myocardial infarction | time_frame=Up to 3 years\ntype=secondary | measure=Hospitalization for stroke | time_frame=Up to 3 years\ntype=secondary | measure=Coronary revascularization | time_frame=Up to 3 years\ntype=secondary | measure=Cardiovascular death | time_frame=Up to 3 years\ntype=secondary | measure=All-cause death | time_frame=Up to 3 years\ntype=other | measure=Bleeding episode requiring hospitalization | time_frame=Up to 3 years\ntype=other | measure=Hospitalization for intracranial hemorrhage | time_frame=Up to 3 years\ntype=other | measure=Hospitalization for gastrointestinal hemorrhage | time_frame=Up to 3 years\ntype=other | measure=Hospitalization for unstable angina | time_frame=Up to 3 years\ntype=other | measure=Any arterial revascularization | time_frame=Up to 3 years\ntype=other | measure=Any venous thromboembolism | time_frame=Up to 3 years\ntype=other | measure=Time of day of hospitalization for myocardial infarction | time_frame=Up to 3 years\ntype=other | measure=Time of day of hospitalization for stroke | time_frame=Up to 3 years",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 162,
+      "trial_nct_id": "NCT05932472"
+    },
+    {
+      "chunk_id": "NCT05932472:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-01-15\nPrimary completion date: 2027-01-15\nCompletion date: 2027-02-15\nStudy first posted: 2023-07-06\nResults first posted: None\nLast update posted: 2024-02-06\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05932472"
+    },
+    {
+      "chunk_id": "NCT05932472:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Tor Biering-S\u00f8rensen\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT05932472"
+    }
+  ],
+  "trial_nct_id": "NCT05932472"
+}

@@ -1,0 +1,2998 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007266",
+          "term": "Inhibition, Psychological"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C530884",
+          "term": "anacetrapib"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2016-01-11",
+          "filename": "Prot_000.pdf",
+          "hasIcf": false,
+          "hasProtocol": true,
+          "hasSap": false,
+          "label": "Study Protocol",
+          "size": 1057738,
+          "typeAbbrev": "Prot",
+          "uploadDate": "2018-01-23T10:36"
+        },
+        {
+          "date": "2017-05-12",
+          "filename": "SAP_001.pdf",
+          "hasIcf": false,
+          "hasProtocol": false,
+          "hasSap": true,
+          "label": "Statistical Analysis Plan",
+          "size": 672101,
+          "typeAbbrev": "SAP",
+          "uploadDate": "2018-01-23T10:37"
+        }
+      ]
+    }
+  },
+  "hasResults": true,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Anacetrapib"
+          ],
+          "label": "Anacetrapib",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Placebo anacetrapib"
+          ],
+          "label": "Placebo anacetrapib",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Anacetrapib"
+          ],
+          "description": "tablet, 100mg daily",
+          "name": "Anacetrapib",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo anacetrapib"
+          ],
+          "description": "tablet, 1 tablet daily",
+          "name": "Placebo anacetrapib",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atherosclerotic Cardiovascular Disease"
+      ],
+      "keywords": [
+        "vascular disease",
+        "lipids",
+        "cholesteryl ester transfer protein (CETP) inhibition",
+        "anacetrapib"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Oxford",
+          "country": "United Kingdom",
+          "facility": "CTSU, University of Oxford",
+          "geoPoint": {
+            "lat": 51.75222,
+            "lon": -1.25596
+          },
+          "state": "Oxfordshire",
+          "zip": "OX3 7LF"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Oxford",
+          "name": "Martin Landray",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "University of Oxford",
+          "name": "Louise Bowman",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The Randomized EValuation of the Effects of Anacetrapib Through Lipid-modification (REVEAL) trial aims to determine whether lipid modification with anacetrapib 100mg daily reduces the risk of coronary death, myocardial infarction (MI) or coronary revascularization (collectively known as major coronary events) in patients with circulatory problems who have their Low-density Lipoprotein (LDL) cholesterol level treated with a statin.",
+      "detailedDescription": "Sub-study: Does anacetrapib as a CETP inhibitor lead to mobilization of stem cells and enhance myocardial function via neoangiogenesis and tissue regeneration?\n\nFollowing the main on-treatment part of the study, there was a further period of at least 2 years during which participants were followed-up by telephone, off treatment.\n\nAll participants stopped study treatment prior to February 2017 (results for the main-trial have been reported) and direct participant follow-up was completed in April 2019.\n\nIn the UK we will continue to collect information on health outcomes via central data registries and NHS sources for many years."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 30449,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must be aged at least 50 at the time of initial invitation, and at least one of the following inclusion criteria must be satisfied:\n\n  * History of MI; or\n  * Cerebrovascular atherosclerotic disease (i.e. history of presumed ischaemic stroke or carotid revascularization); or\n  * Peripheral arterial disease (i.e. history of non-coronary revascularization, including aortic aneurysm repair or graft); or\n  * Diabetes mellitus with other evidence of symptomatic coronary heart disease (i.e. treatment or hospitalization for angina, or a history of coronary revascularization or acute coronary syndrome).\n\nExclusion Criteria:\n\n* None of the following must be satisfied:\n\n  * Acute MI, acute coronary syndrome or stroke within 4 weeks prior to Screening Visit or during Run-in (but such individuals may be entered later, if appropriate);\n  * Planned coronary revascularization procedure within the next 6 months (such individuals may be entered later, if appropriate);\n  * Definite history of chronic liver disease, or abnormal liver function (i.e. alanine transaminase (ALT) \\>2x the upper limit of normal (ULN)). Note: Individuals with a history of acute hepatitis are eligible provided this ALT limit is not exceeded;\n  * Severe renal insufficiency (i.e. creatinine \\>200 \u00b5mol/L \\[2.3 mg/dL\\], dialysis or functioning renal transplant);\n  * Evidence of active inflammatory muscle disease (e.g. dermatomyositis, polymyositis), or creatine kinase (CK) \\>3x ULN;\n  * Previous significant adverse reaction to a statin or anacetrapib;\n  * Current treatment with any of the following lipid-lowering treatments:\n\n    (i) a regimen considered to produce substantially greater LDL cholesterol reduction than atorvastatin 80 mg daily for individuals in non-Asian countries or 20 mg daily for those in North East Asia; or (ii) fibric acid derivative (\"fibrate\", including gemfibrozil); or (iii) niacin (nicotinic acid) at doses above 100 mg daily\n  * Concurrent treatment with a medication that is contraindicated with anacetrapib or atorvastatin:\n\n    (i) any potent CYP3A4 inhibitor, such as:\n    1. macrolide antibiotics (erythromycin, clarithromycin, telithromycin);\n    2. systemic imidazole or triazole antifungals (e.g. itraconazole, posaconazole);\n    3. protease inhibitors (e.g. atazanavir);\n    4. nefazodone\n\n       (ii) ciclosporin\n\n       (iii) daptomycin\n\n       (iv) systemic use of fusidic acid\n\n       Note: Individuals who are taking such drugs temporarily may be re-screened when they discontinue them, if considered appropriate;\n  * Known to be poorly compliant with clinic visits or prescribed medication;\n  * Medical history that might limit the individual's ability to take trial treatments for the duration of the study (e.g. severe respiratory disease; history of cancer or evidence of spread within last 5 years, other than non-melanoma skin cancer; or recent history of alcohol or substance misuse);\n  * Women of child-bearing potential (unless using adequate contraception);\n  * Current participation in a clinical trial with an unlicensed drug or device.\n\nIndividuals will also be excluded at the Screening visit if it is considered unlikely that they will achieve total cholesterol \\<3.5 mmol/L (135 mg/dL) on the highest atorvastatin dose available in their region (atorvastatin 80 mg daily in non-Asian countries or 20 mg daily in North East Asia).\n\nIn addition, individuals will be excluded at the Randomization visit if any of the following are true:\n\n* Total cholesterol above 4 mmol/L \\[155 mg/dL\\]\n* Non-compliant with run-in treatment (\\<90% scheduled run-in medication taken)\n* Individual is no longer willing to be randomized into the 4-5 year trial\n* The individual's doctor is of the view that their patient should not be randomized.",
+      "healthyVolunteers": false,
+      "minimumAge": "50 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "REVEAL",
+      "briefTitle": "REVEAL: Randomized EValuation of the Effects of Anacetrapib Through Lipid-modification",
+      "nctId": "NCT01252953",
+      "officialTitle": "REVEAL: Randomized EValuation of the Effects of Anacetrapib Through Lipid-modification. A Large-scale, Randomized Placebo-controlled Trial of the Clinical Effects of Anacetrapib Among People With Established Vascular Disease",
+      "orgStudyIdInfo": {
+        "id": "CTSUREVEAL1"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Oxford"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "ISRCTN",
+          "id": "48678192",
+          "type": "REGISTRY"
+        },
+        {
+          "id": "2010-023467-18",
+          "type": "EUDRACT_NUMBER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "See URL",
+      "description": "Proposals for substudies must be approved by the Steering Committee. Procedures for accessing the data for this study are available on: https://www.ndph.ox.ac.uk/data-access.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "ipdSharing": "YES",
+      "url": "https://www.ndph.ox.ac.uk/data-access"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Primary assessment involves an intention-to-treat comparison among all randomized participants of the effects of allocation to anacetrapib versus placebo on major coronary events (defined as the occurrence of coronary death, myocardial infarction or coronary revascularization procedure) during the scheduled treatment period.\n\nData reported is for the first major coronary event.",
+          "measure": "Number of Participants With Major Coronary Event",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Major atherosclerotic events (defined as coronary death, myocardial infarction or presumed ischaemic stroke; the key secondary outcome).\n\nSecondary assessments involve intention-to-treat comparisons among all randomized participants of the effects of allocation to anacetrapib versus placebo during the scheduled treatment period.",
+          "measure": "Number of Participants With Major Atherosclerotic Event",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years"
+        },
+        {
+          "description": "Presumed ischaemic stroke (i.e. not known to be haemorrhagic).\n\nSecondary assessments involve intention-to-treat comparisons among all randomized participants of the effects of allocation to anacetrapib versus placebo during the scheduled treatment period.",
+          "measure": "Number of Participants With Presumed Ischaemic Stroke",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years"
+        },
+        {
+          "description": "Major vascular events (defined as coronary death, myocardial infarction, coronary revascularization or presumed ischaemic stroke).\n\nSecondary assessments involve intention-to-treat comparisons among all randomized participants of the effects of allocation to anacetrapib versus placebo during the scheduled treatment period",
+          "measure": "Number of Participants With Major Vascular Event",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "REVEAL Collaborative Group; Bowman L, Chen F, Sammons E, Hopewell JC, Wallendszus K, Stevens W, Valdes- Marquez E, Wiviott S, Cannon CP, Braunwald E, Collins R, Landray MJ. Randomized Evaluation of the Effects of Anacetrapib through Lipid-modification (REVEAL)-A large-scale, randomized, placebo-controlled trial of the clinical effects of anacetrapib among people with established vascular disease: Trial design, recruitment, and baseline characteristics. Am Heart J. 2017 May;187:182-190. doi: 10.1016/j.ahj.2017.02.021. Epub 2017 Feb 21.",
+          "pmid": "28454801",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "HPS3/TIMI55-REVEAL Collaborative Group; Bowman L, Hopewell JC, Chen F, Wallendszus K, Stevens W, Collins R, Wiviott SD, Cannon CP, Braunwald E, Sammons E, Landray MJ. Effects of Anacetrapib in Patients with Atherosclerotic Vascular Disease. N Engl J Med. 2017 Sep 28;377(13):1217-1227. doi: 10.1056/NEJMoa1706444. Epub 2017 Aug 28.",
+          "pmid": "28847206",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Hopewell JC, Ibrahim M, Hill M, Shaw PM, Braunwald E, Blaustein RO, Bowman L, Landray MJ, Sabatine MS, Collins R; HPS3/TIMI55-REVEAL Collaborative Group. Impact of ADCY9 Genotype on Response to Anacetrapib. Circulation. 2019 Sep 10;140(11):891-898. doi: 10.1161/CIRCULATIONAHA.119.041546. Epub 2019 Jul 23.",
+          "pmid": "31331193",
+          "type": "RESULT"
+        },
+        {
+          "citation": "HPS3/TIMI55-REVEAL Collaborative Group; Writing Committee; Sammons E, Hopewell JC, Chen F, Stevens W, Wallendszus K, Valdes-Marquez E, Dayanandan R, Knott C, Murphy K, Wincott E, Baxter A, Goodenough R, Lay M, Hill M, Macdonnell S, Fabbri G, Lucci D, Fajardo-Moser M, Brenner S, Hao D, Zhang H, Liu J, Wuhan B, Mosegaard S, Herrington W, Wanner C, Angermann C, Ertl G, Maggioni A, Barter P, Mihaylova B, Mitchel Y, Blaustein R, Goto S, Tobert J, DeLucca P, Chen Y, Chen Z, Gray A, Haynes R, Armitage J, Baigent C, Wiviott S, Cannon C, Braunwald E, Collins R, Bowman L, Landray M; REVEAL Collaborative Group. Long-term safety and efficacy of anacetrapib in patients with atherosclerotic vascular disease. Eur Heart J. 2022 Apr 6;43(14):1416-1424. doi: 10.1093/eurheartj/ehab863.",
+          "pmid": "34910136",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Lui JNM, Williams C, Keng MJ, Hopewell JC, Sammons E, Chen F, Gray A, Bowman L, Landray SMJ, Mihaylova B; REVEAL Collaborative Group. Impact of New Cardiovascular Events on Quality of Life and Hospital Costs in People With Cardiovascular Disease in the United Kingdom and United States. J Am Heart Assoc. 2023 Oct 3;12(19):e030766. doi: 10.1161/JAHA.123.030766. Epub 2023 Sep 26.",
+          "pmid": "37750555",
+          "type": "RESULT"
+        },
+        {
+          "citation": "Landmesser U, von Eckardstein A, Kastelein J, Deanfield J, Luscher TF. Increasing high-density lipoprotein cholesterol by cholesteryl ester transfer protein-inhibition: a rocky road and lessons learned? The early demise of the dal-HEART programme. Eur Heart J. 2012 Jul;33(14):1712-5. doi: 10.1093/eurheartj/ehs182. Epub 2012 Jun 13. No abstract available.",
+          "pmid": "22696435",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Krauss RM, Wojnooski K, Orr J, Geaney JC, Pinto CA, Liu Y, Wagner JA, Luk JM, Johnson-Levonas AO, Anderson MS, Dansky HM. Changes in lipoprotein subfraction concentration and composition in healthy individuals treated with the CETP inhibitor anacetrapib. J Lipid Res. 2012 Mar;53(3):540-547. doi: 10.1194/jlr.M018010. Epub 2011 Dec 17.",
+          "pmid": "22180633",
+          "type": "DERIVED"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "REVEAL trial website",
+          "url": "https://www.revealtrial.org/"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Merck Sharp & Dohme LLC"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Oxford"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2037-01-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-11",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2017-01-31",
+        "type": "ACTUAL"
+      },
+      "resultsFirstPostDateStruct": {
+        "date": "2018-05-04",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2018-02-01",
+      "resultsFirstSubmitQcDate": "2018-04-06",
+      "startDateStruct": {
+        "date": "2011-06"
+      },
+      "statusVerifiedDate": "2024-06",
+      "studyFirstPostDateStruct": {
+        "date": "2010-12-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2010-11-24",
+      "studyFirstSubmitQcDate": "2010-12-01"
+    }
+  },
+  "resultsSection": {
+    "adverseEventsModule": {
+      "description": "All participants were assessed for adverse events at 6-monthly intervals at which relevant information was recorded on the electronic case report form. In accordance with the protocol, Serious Adverse Events were recorded for all participants (30,449 subjects) and non-serious Adverse Events (presented in the 'Other Adverse Events' section) were recorded in North America only (6,082 subjects).",
+      "eventGroups": [
+        {
+          "deathsNumAffected": 1122,
+          "deathsNumAtRisk": 15225,
+          "description": "anacetrapib: tablet, 100mg daily",
+          "id": "EG000",
+          "otherNumAffected": 2493,
+          "otherNumAtRisk": 3048,
+          "seriousNumAffected": 8898,
+          "seriousNumAtRisk": 15225,
+          "title": "Anacetrapib"
+        },
+        {
+          "deathsNumAffected": 1155,
+          "deathsNumAtRisk": 15224,
+          "description": "placebo anacetrapib: tablet, 1 tablet daily",
+          "id": "EG001",
+          "otherNumAffected": 2503,
+          "otherNumAtRisk": 3034,
+          "seriousNumAffected": 8912,
+          "seriousNumAtRisk": 15224,
+          "title": "Placebo Anacetrapib"
+        }
+      ],
+      "frequencyThreshold": "5",
+      "otherEvents": [
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 169,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 208,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Cardiac disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 227,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 230,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Eye disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 596,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 557,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Gastrointestinal disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 321,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 338,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "General disorders and administration site conditions"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 974,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 943,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Infections and infestations"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 480,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 516,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Injury, poisoning and procedural complications"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 327,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 307,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Investigations"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 405,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 393,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Metabolism and nutrition disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1125,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1105,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Musculoskeletal and connective tissue disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 625,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 623,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Nervous system disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 155,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 139,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Psychiatric disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 160,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 171,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Renal and urinary disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 463,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 412,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Respiratory, thoracic and mediastinal disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 203,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 211,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Skin and subcutaneous tissue disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Surgical and medical procedures",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 211,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 202,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Surgical and medical procedures"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 185,
+              "numAtRisk": 3048
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 189,
+              "numAtRisk": 3034
+            }
+          ],
+          "term": "Vascular disorders"
+        }
+      ],
+      "seriousEvents": [
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 188,
+              "numAtRisk": 15225,
+              "numEvents": 219
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 182,
+              "numAtRisk": 15224,
+              "numEvents": 210
+            }
+          ],
+          "term": "Blood and lymphatic system disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2568,
+              "numAtRisk": 15225,
+              "numEvents": 4120
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2766,
+              "numAtRisk": 15224,
+              "numEvents": 4280
+            }
+          ],
+          "term": "Cardiac disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Congenital, familial and genetic disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 15225,
+              "numEvents": 9
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 15224,
+              "numEvents": 4
+            }
+          ],
+          "term": "Congenital, familial and genetic disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 114,
+              "numAtRisk": 15225,
+              "numEvents": 121
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 91,
+              "numAtRisk": 15224,
+              "numEvents": 99
+            }
+          ],
+          "term": "Ear and labyrinth disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 50,
+              "numAtRisk": 15225,
+              "numEvents": 50
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 49,
+              "numAtRisk": 15224,
+              "numEvents": 51
+            }
+          ],
+          "term": "Endocrine disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 204,
+              "numAtRisk": 15225,
+              "numEvents": 235
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 232,
+              "numAtRisk": 15224,
+              "numEvents": 264
+            }
+          ],
+          "term": "Eye disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 813,
+              "numAtRisk": 15225,
+              "numEvents": 1012
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 788,
+              "numAtRisk": 15224,
+              "numEvents": 976
+            }
+          ],
+          "term": "Gastrointestinal disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 691,
+              "numAtRisk": 15225,
+              "numEvents": 781
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 736,
+              "numAtRisk": 15224,
+              "numEvents": 838
+            }
+          ],
+          "term": "General disorders & administration site conditions"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 217,
+              "numAtRisk": 15225,
+              "numEvents": 251
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 238,
+              "numAtRisk": 15224,
+              "numEvents": 268
+            }
+          ],
+          "term": "Hepatobiliary disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 12,
+              "numAtRisk": 15225,
+              "numEvents": 12
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 29,
+              "numAtRisk": 15224,
+              "numEvents": 29
+            }
+          ],
+          "term": "Immune system disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1559,
+              "numAtRisk": 15225,
+              "numEvents": 2097
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1537,
+              "numAtRisk": 15224,
+              "numEvents": 2152
+            }
+          ],
+          "term": "Infections and infestations"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 753,
+              "numAtRisk": 15225,
+              "numEvents": 889
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 777,
+              "numAtRisk": 15224,
+              "numEvents": 918
+            }
+          ],
+          "term": "Injury, poisoning and procedural complications"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1105,
+              "numAtRisk": 15225,
+              "numEvents": 1421
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1135,
+              "numAtRisk": 15224,
+              "numEvents": 1419
+            }
+          ],
+          "term": "Investigations"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 642,
+              "numAtRisk": 15225,
+              "numEvents": 774
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 687,
+              "numAtRisk": 15224,
+              "numEvents": 820
+            }
+          ],
+          "term": "Metabolism and nutrition disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 438,
+              "numAtRisk": 15225,
+              "numEvents": 508
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 432,
+              "numAtRisk": 15224,
+              "numEvents": 501
+            }
+          ],
+          "term": "Musculoskeletal and connective tissue disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1323,
+              "numAtRisk": 15225,
+              "numEvents": 1810
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1295,
+              "numAtRisk": 15224,
+              "numEvents": 1770
+            }
+          ],
+          "term": "Neoplasms benign, malignant and unspecified (incl cycts and polyps)"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1399,
+              "numAtRisk": 15225,
+              "numEvents": 1789
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1455,
+              "numAtRisk": 15224,
+              "numEvents": 1822
+            }
+          ],
+          "term": "Nervous system disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 104,
+              "numAtRisk": 15225,
+              "numEvents": 117
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 111,
+              "numAtRisk": 15224,
+              "numEvents": 124
+            }
+          ],
+          "term": "Psychiatric disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 415,
+              "numAtRisk": 15225,
+              "numEvents": 516
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 398,
+              "numAtRisk": 15224,
+              "numEvents": 470
+            }
+          ],
+          "term": "Renal and urinary disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 49,
+              "numAtRisk": 15225,
+              "numEvents": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 56,
+              "numAtRisk": 15224,
+              "numEvents": 59
+            }
+          ],
+          "term": "Reproductive system and breast disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 606,
+              "numAtRisk": 15225,
+              "numEvents": 791
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 605,
+              "numAtRisk": 15224,
+              "numEvents": 813
+            }
+          ],
+          "term": "Respiratory, thoracic and mediastinal disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 84,
+              "numAtRisk": 15225,
+              "numEvents": 93
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 97,
+              "numAtRisk": 15224,
+              "numEvents": 109
+            }
+          ],
+          "term": "Skin and subcutaneous tissue disorders"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Social circumstances",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 501,
+              "numAtRisk": 15225,
+              "numEvents": 769
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 516,
+              "numAtRisk": 15224,
+              "numEvents": 778
+            }
+          ],
+          "term": "Social circumstances"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Surgical and medical procedures",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3409,
+              "numAtRisk": 15225,
+              "numEvents": 5051
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3478,
+              "numAtRisk": 15224,
+              "numEvents": 5241
+            }
+          ],
+          "term": "Surgical and medical procedures"
+        },
+        {
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (14.0)",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 346,
+              "numAtRisk": 15225,
+              "numEvents": 399
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 352,
+              "numAtRisk": 15224,
+              "numEvents": 393
+            }
+          ],
+          "term": "Vascular disorders"
+        }
+      ],
+      "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years"
+    },
+    "baselineCharacteristicsModule": {
+      "denoms": [
+        {
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "15225"
+            },
+            {
+              "groupId": "BG001",
+              "value": "15224"
+            },
+            {
+              "groupId": "BG002",
+              "value": "30449"
+            }
+          ],
+          "units": "Participants"
+        }
+      ],
+      "groups": [
+        {
+          "description": "Anacetrapib: 100mg tablet daily",
+          "id": "BG000",
+          "title": "Anacetrapib"
+        },
+        {
+          "description": "Placebo anacetrapib: 1 tablet daily",
+          "id": "BG001",
+          "title": "Placebo Anacetrapib"
+        },
+        {
+          "description": "Total of all reporting groups",
+          "id": "BG002",
+          "title": "Total"
+        }
+      ],
+      "measures": [
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ],
+                  "title": "<=18 years"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6634"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6643"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13277"
+                    }
+                  ],
+                  "title": "Between 18 and 65 years"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8591"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8581"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "17172"
+                    }
+                  ],
+                  "title": ">=65 years"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Age, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "8",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "8",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "8",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "Age, Continuous",
+          "unitOfMeasure": "years"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2456"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2459"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4915"
+                    }
+                  ],
+                  "title": "Female"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12769"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12765"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25534"
+                    }
+                  ],
+                  "title": "Male"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Sex: Female, Male",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "121"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "114"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "235"
+                    }
+                  ],
+                  "title": "Hispanic or Latino"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2560"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2522"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5082"
+                    }
+                  ],
+                  "title": "Not Hispanic or Latino"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12544"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12588"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25132"
+                    }
+                  ],
+                  "title": "Unknown or Not Reported"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Ethnicity (NIH/OMB)",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "160"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "168"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "328"
+                    }
+                  ],
+                  "title": "Black or African American"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4323"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4323"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8646"
+                    }
+                  ],
+                  "title": "Chinese"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    }
+                  ],
+                  "title": "Other North East Asian"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "95"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "97"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "192"
+                    }
+                  ],
+                  "title": "South Asian"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "22"
+                    }
+                  ],
+                  "title": "South East Asian"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10561"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10558"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21119"
+                    }
+                  ],
+                  "title": "White"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "96"
+                    }
+                  ],
+                  "title": "Other"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    }
+                  ],
+                  "title": "Mixed"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ],
+                  "title": "Unknown"
+                }
+              ],
+              "title": "Race"
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Race/Ethnicity, Customized",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4204"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4177"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8381"
+                    }
+                  ]
+                }
+              ],
+              "title": "United Kingdom"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "426"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "418"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "844"
+                    }
+                  ]
+                }
+              ],
+              "title": "Norway"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "427"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "434"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "861"
+                    }
+                  ]
+                }
+              ],
+              "title": "Sweden"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "918"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "932"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1850"
+                    }
+                  ]
+                }
+              ],
+              "title": "Denmark"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "307"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "306"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "613"
+                    }
+                  ]
+                }
+              ],
+              "title": "Finland"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "755"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "774"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1529"
+                    }
+                  ]
+                }
+              ],
+              "title": "Germany"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "826"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "834"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1660"
+                    }
+                  ]
+                }
+              ],
+              "title": "Italy"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2687"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2643"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5330"
+                    }
+                  ]
+                }
+              ],
+              "title": "United States"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "361"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "391"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "752"
+                    }
+                  ]
+                }
+              ],
+              "title": "Canada"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4314"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4315"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8629"
+                    }
+                  ]
+                }
+              ],
+              "title": "China"
+            }
+          ],
+          "paramType": "NUMBER",
+          "title": "Region of Enrollment",
+          "unitOfMeasure": "participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13325"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13354"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "26679"
+                    }
+                  ]
+                }
+              ],
+              "title": "Coronary heart disease"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3385"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3396"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6781"
+                    }
+                  ]
+                }
+              ],
+              "title": "Cerebrovascular disease"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1229"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1206"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2435"
+                    }
+                  ]
+                }
+              ],
+              "title": "Peripheral-artery disease"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5654"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5666"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11320"
+                    }
+                  ]
+                }
+              ],
+              "title": "Diabetes"
+            },
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "902"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "869"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1771"
+                    }
+                  ]
+                }
+              ],
+              "title": "Heart failure"
+            }
+          ],
+          "description": "The participants could have more than one of these conditions.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Previous disease",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7863"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7875"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15738"
+                    }
+                  ],
+                  "title": "Europe"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3048"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3034"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6082"
+                    }
+                  ],
+                  "title": "North America"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4314"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4315"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8629"
+                    }
+                  ],
+                  "title": "China"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Region",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5678"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5760"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11438"
+                    }
+                  ],
+                  "title": "<125 mmHg"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4819"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4740"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9559"
+                    }
+                  ],
+                  "title": "\u2265125 to <140 mmHg"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4728"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4724"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9452"
+                    }
+                  ],
+                  "title": "\u2265140 mmHg"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Systolic Blood Pressure, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "18.5",
+                      "value": "131.3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "18.5",
+                      "value": "131.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "18.5",
+                      "value": "131.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "Systolic Blood Pressure, Continuous",
+          "unitOfMeasure": "mmHg"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5656"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5790"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11446"
+                    }
+                  ],
+                  "title": "< 75 mmHg"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5408"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5277"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10685"
+                    }
+                  ],
+                  "title": "\u2265 75 to < 85 mmHg"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4161"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4157"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "8318"
+                    }
+                  ],
+                  "title": "\u2265 85 mmHg"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Diastolic Blood Pressure, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "10.9",
+                      "value": "78.1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "11.0",
+                      "value": "78.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "11.0",
+                      "value": "78.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "Diastolic Blood Pressure, Continuous",
+          "unitOfMeasure": "mmHg"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3447"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3361"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6808"
+                    }
+                  ],
+                  "title": "<25 kg/m^2"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6949"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6995"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13944"
+                    }
+                  ],
+                  "title": "\u226525 to < 30 kg/m^2"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4829"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4868"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9697"
+                    }
+                  ],
+                  "title": "\u2265 30 kg/m^2"
+                }
+              ]
+            }
+          ],
+          "description": "The body mass index is the weight in kilograms divided by the square of the height in meters.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Body Mass Index, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "5.0",
+                      "value": "28.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "5.1",
+                      "value": "28.6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "5.1",
+                      "value": "28.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "Body Mass Index, Continuous",
+          "unitOfMeasure": "kg/m^2"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5023"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5077"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10100"
+                    }
+                  ],
+                  "title": "< 54 mg/dl"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4643"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4705"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9348"
+                    }
+                  ],
+                  "title": "\u2265 54 to < 66 mg/dl"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5559"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5442"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11001"
+                    }
+                  ],
+                  "title": "\u2265 66 mg/dl"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "LDL Cholesterol, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "15",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "15",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "15",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "LDL Cholesterol, Continuous",
+          "unitOfMeasure": "mg/dl"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5642"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5701"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11343"
+                    }
+                  ],
+                  "title": "< 85 mg/dl"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4896"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4853"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9749"
+                    }
+                  ],
+                  "title": "\u2265 85 to <101 mg/dl"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4687"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4670"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9357"
+                    }
+                  ],
+                  "title": "\u2265 101 mg/dl"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Non-HDL Cholesterol, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "19",
+                      "value": "92"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "19",
+                      "value": "92"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "19",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "Non-HDL Cholesterol, Continuous",
+          "unitOfMeasure": "mg/dl"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4583"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4590"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9173"
+                    }
+                  ],
+                  "title": "< 35 mg/dl"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5438"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5269"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10707"
+                    }
+                  ],
+                  "title": "\u2265 35 to < 43 mg/dl"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5204"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5365"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10569"
+                    }
+                  ],
+                  "title": "\u2265 43 mg/dl"
+                }
+              ]
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "HDL Cholesterol, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "10",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "10",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "10",
+                      "value": "40"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "HDL Cholesterol, Continuous",
+          "unitOfMeasure": "mg/dl"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1655"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1698"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3353"
+                    }
+                  ],
+                  "title": "< 60 ml/min/1.73m^2"
+                },
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13570"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13526"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27096"
+                    }
+                  ],
+                  "title": "\u2265 60 ml/min/1.73m^2"
+                }
+              ]
+            }
+          ],
+          "description": "The estimated glomerular filtration rate was calculated with the use of the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation as per Levey AS, Stevens LA, Schmid CH, et al. A new equation to estimate glomerular filtration rate.\n\nAnn Intern Med 2009; 150(9): 604-12.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "title": "Glomerular Filtration Rate, Categorical",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "spread": "17",
+                      "value": "83"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "spread": "17",
+                      "value": "83"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "spread": "17",
+                      "value": "83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "dispersionType": "STANDARD_DEVIATION",
+          "paramType": "MEAN",
+          "title": "Glomerular Filtration Rate, Continuous",
+          "unitOfMeasure": "ml/min/1.73m^2"
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "email": "martin.landray@ndph.ox.ac.uk",
+        "organization": "Nuffield Department of Population Health, University of Oxford",
+        "phone": "+44 (0)1865 743743",
+        "title": "Prof Martin Landray"
+      }
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "analyses": [
+            {
+              "ciLowerLimit": "0.85",
+              "ciNumSides": "TWO_SIDED",
+              "ciPctValue": "95",
+              "ciUpperLimit": "0.97",
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityComment": "Time to first event",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.004",
+              "paramType": "Rate Ratio",
+              "paramValue": "0.91",
+              "statisticalMethod": "Log Rank"
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1640"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1803"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15225"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15224"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "description": "Primary assessment involves an intention-to-treat comparison among all randomized participants of the effects of allocation to anacetrapib versus placebo on major coronary events (defined as the occurrence of coronary death, myocardial infarction or coronary revascularization procedure) during the scheduled treatment period.\n\nData reported is for the first major coronary event.",
+          "groups": [
+            {
+              "description": "Anacetrapib: 100mg tablet daily",
+              "id": "OG000",
+              "title": "Anacetrapib"
+            },
+            {
+              "description": "Placebo anacetrapib: 1 tablet daily",
+              "id": "OG001",
+              "title": "Placebo Anacetrapib"
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years",
+          "title": "Number of Participants With Major Coronary Event",
+          "type": "PRIMARY",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "analyses": [
+            {
+              "ciLowerLimit": "0.86",
+              "ciNumSides": "TWO_SIDED",
+              "ciPctValue": "95",
+              "ciUpperLimit": "1",
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityComment": "Time to first event",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.052",
+              "paramType": "Rate Ratio",
+              "paramValue": "0.93",
+              "statisticalMethod": "Log Rank"
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1383"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1483"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15225"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15224"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "description": "Major atherosclerotic events (defined as coronary death, myocardial infarction or presumed ischaemic stroke; the key secondary outcome).\n\nSecondary assessments involve intention-to-treat comparisons among all randomized participants of the effects of allocation to anacetrapib versus placebo during the scheduled treatment period.",
+          "groups": [
+            {
+              "description": "Anacetrapib: 100mg daily",
+              "id": "OG000",
+              "title": "Anacetrapib"
+            },
+            {
+              "description": "Placebo anacetrapib: 1 tablet daily",
+              "id": "OG001",
+              "title": "Placebo Anacetrapib"
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years",
+          "title": "Number of Participants With Major Atherosclerotic Event",
+          "type": "SECONDARY",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "analyses": [
+            {
+              "ciLowerLimit": "0.87",
+              "ciNumSides": "TWO_SIDED",
+              "ciPctValue": "95",
+              "ciUpperLimit": "1.12",
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityComment": "Time to first event",
+              "nonInferiorityType": "OTHER",
+              "pValueComment": "In accordance with the data analysis plan, if the outcome of a major atherosclerotic event did not reach significance, there was no hypothesis testing for presumed ischemic stroke, so no P value is given.",
+              "paramType": "Rate Ratio",
+              "paramValue": "0.99"
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "485"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "489"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15225"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15224"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "description": "Presumed ischaemic stroke (i.e. not known to be haemorrhagic).\n\nSecondary assessments involve intention-to-treat comparisons among all randomized participants of the effects of allocation to anacetrapib versus placebo during the scheduled treatment period.",
+          "groups": [
+            {
+              "description": "Anacetrapib: 100mg tablet daily",
+              "id": "OG000",
+              "title": "Anacetrapib"
+            },
+            {
+              "description": "Placebo anacetrapib: 1 tablet daily",
+              "id": "OG001",
+              "title": "Placebo Anacetrapib"
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years",
+          "title": "Number of Participants With Presumed Ischaemic Stroke",
+          "type": "SECONDARY",
+          "unitOfMeasure": "Participants"
+        },
+        {
+          "analyses": [
+            {
+              "ciLowerLimit": "0.88",
+              "ciNumSides": "TWO_SIDED",
+              "ciPctValue": "95",
+              "ciUpperLimit": "0.99",
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityComment": "Time to first event",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.02",
+              "paramType": "Rate Ratio",
+              "paramValue": "0.93",
+              "statisticalMethod": "Log Rank"
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2068"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2214"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15225"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "15224"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "description": "Major vascular events (defined as coronary death, myocardial infarction, coronary revascularization or presumed ischaemic stroke).\n\nSecondary assessments involve intention-to-treat comparisons among all randomized participants of the effects of allocation to anacetrapib versus placebo during the scheduled treatment period",
+          "groups": [
+            {
+              "description": "Anacetrapib: 100mg daily",
+              "id": "OG000",
+              "title": "Anacetrapib"
+            },
+            {
+              "description": "Placebo anacetrapib: 1 tablet daily",
+              "id": "OG001",
+              "title": "Placebo Anacetrapib"
+            }
+          ],
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Randomized treatment phase during median follow-up period of 4.1years",
+          "title": "Number of Participants With Major Vascular Event",
+          "type": "SECONDARY",
+          "unitOfMeasure": "Participants"
+        }
+      ]
+    },
+    "participantFlowModule": {
+      "groups": [
+        {
+          "description": "Anacetrapib: 100mg tablet daily",
+          "id": "FG000",
+          "title": "Anacetrapib"
+        },
+        {
+          "description": "Placebo anacetrapib: 1 tablet daily",
+          "id": "FG001",
+          "title": "Placebo Anacetrapib"
+        }
+      ],
+      "periods": [
+        {
+          "dropWithdraws": [
+            {
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "16"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "17"
+                }
+              ],
+              "type": "Withdrawal by Subject"
+            },
+            {
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "21"
+                }
+              ],
+              "type": "Lost to Follow-up"
+            }
+          ],
+          "milestones": [
+            {
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15225"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "15224"
+                }
+              ],
+              "type": "STARTED"
+            },
+            {
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15187"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "15186"
+                }
+              ],
+              "type": "COMPLETED"
+            },
+            {
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "38"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "38"
+                }
+              ],
+              "type": "NOT COMPLETED"
+            }
+          ],
+          "title": "Overall Study"
+        }
+      ],
+      "preAssignmentDetails": "Successfully screened participants were entered into a run-in period. Attendees were discouraged from continuing to randomization if it was thought unlikely they would be able to continue attending follow-up visits for at least 4-5years. During run-in participants were issued atorvastatin (1 tablet/day) and placebo anacetrapib (1 tablet/day).",
+      "recruitmentDetails": "Participants were randomized between August 2011 and October 2013. Follow-up continued until 31st January 2017."
+    }
+  }
+}

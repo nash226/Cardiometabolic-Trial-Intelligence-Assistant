@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06281665:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06281665\nBrief title: Treatment With Aspirin After Preeclampsia: TAP Trial\nOfficial title: Treatment With Aspirin After Preeclampsia: TAP Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06281665"
+    },
+    {
+      "chunk_id": "NCT06281665:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hypertensive Disorder of Pregnancy; Pre-Eclampsia; Hypertension; Eclampsia; Gestational Hypertension; Cardiovascular Diseases; Toxemia; Pregnancy Complications; Vascular Diseases; Hypertension, Pregnancy Induced; Hypertension;Pre-Eclamptic\nIntervention labels: Low-dose aspirin; Placebo\nDrug class labels: \nArms: Placebo Group; Intervention Group\nKeywords: Hypertension",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT06281665"
+    },
+    {
+      "chunk_id": "NCT06281665:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The objective of this research project is to conduct a single-site pilot trial to assess the feasibility and effect of low-dose aspirin to augment vascular recovery in the immediate postpartum period after preeclampsia through two specific aims: 1) to pilot test the feasibility of conducting a randomized controlled trial of postpartum low dose aspirin vs. placebo, and 2) to assess the effect of postpartum aspirin on endothelial function and blood pressure. Our central hypothesis is that postpartum administration of low-dose aspirin following preeclampsia will be feasible, improve endothelial function, and lower BP at 6 months postpartum. Subjects will undergo 3 study visits involving BP measurements, blood draws, questionnaires, and/or microiontophoresis. Up to 60 adult subjects will be enrolled at Magee-Women's Hospital.\nDetailed description: This is a pilot randomized, single-center, double-blind placebo-control study of low dose aspirin in postpartum individuals with preeclampsia. Individuals will be randomized at the time of delivery 1:1 to 81mg of low-dose aspirin or identical appearing placebo daily for six months postpartum. Treatment and control groups will monitor home blood pressure throughout the study period and undergo two study visits. At each study visit, participants will undergo a blood draw, blood pressure measurement and assessment of endothelial function with microiontophoresis. Participant adherence will be monitored through pill counts, text message check-ins, patient diary and biochemical monitoring.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 221,
+      "trial_nct_id": "NCT06281665"
+    },
+    {
+      "chunk_id": "NCT06281665:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 18 Years\nMaximum age: 55 Years\nAge groups: ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Postpartum individuals \u226518 years old\n* Preeclampsia diagnosis\n\nExclusion Criteria:\n\n* Fetal anomaly\n* Multiple gestation\n* Pre-pregnancy hypertension\n* Allergy or contraindication to low-dose aspirin\n* Pre-pregnancy diabetes",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT06281665"
+    },
+    {
+      "chunk_id": "NCT06281665:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percent of participants eligible, enrolled and retained (feasibility) | time_frame=Baseline to approximately 6 months postpartum | description=To determine the feasibility of conducting a single-site randomized controlled trial of 6 months of postpartum low-dose aspirin vs. placebo in women with preeclampsia.\ntype=secondary | measure=Study visit systolic BP | time_frame=2 months postpartum | description=Mean study visit systolic BP\ntype=secondary | measure=Study visit diastolic BP | time_frame=2 months postpartum | description=Mean study visit diastolic BP\ntype=secondary | measure=Study visit systolic BP | time_frame=6 months postpartum | description=Mean study visit systolic BP\ntype=secondary | measure=Study visit diastolic BP | time_frame=6 months postpartum | description=Mean study visit diastolic BP\ntype=secondary | measure=Study visit mean arterial pressure | time_frame=2 months postpartum | description=Mean study visit mean arterial pressure ((2\\*diastolic BP + systolic BP / 3))\ntype=secondary | measure=Study visit mean arterial pressure | time_frame=6 months postpartum | description=Mean study visit mean arterial pressure ((2\\*diastolic BP + systolic BP / 3))\ntype=secondary | measure=Anti-hypertensive medication use | time_frame=2 months postpartum | description=Use of anti-hypertensive medication (percent of participants)\ntype=secondary | measure=Anti-hypertensive medication use | time_frame=6 months postpartum | description=Use of anti-hypertensive medication (percent of participants)\ntype=secondary | measure=Therapeutic intensity score | time_frame=2 months postpartum | description=Therapeutic intensity score for those on anti-hypertensive medications. Range of scores 0 to 5 (higher number indicates higher doses and number of anti-hypertensive medications; worse outcome)\ntype=secondary | measure=Therapeutic intensity score | time_frame=6 months postpartum | description=Therapeutic intensity score for those on anti-hypertensive medications. Range of scores 0 to 5 (higher number indicates higher doses and number of anti-hypertensive medications; worse outcome)\ntype=secondary | measure=Mean home systolic blood pressure | time_frame=delivery through 6 months postpartum | description=Mean home systolic blood pressure\ntype=secondary | measure=Mean home diastolic blood pressure | time_frame=delivery through 6 months postpartum | description=Mean home diastolic blood pressure\ntype=secondary | measure=Mean home mean arterial pressure | time_frame=delivery through 6 months postpartum | description=Mean home mean arterial pressure\ntype=secondary | measure=Mean daytime systolic blood pressure | time_frame=6 months postpartum | description=Mean daytime systolic blood pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean nocturnal systolic blood pressure | time_frame=6 months postpartum | description=Mean nocturnal systolic blood pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean daytime diastolic blood pressure | time_frame=6 months postpartum | description=Mean daytime diastolic blood pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean nocturnal diastolic blood pressure | time_frame=6 months postpartum | description=Mean nocturnal diastolic blood pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean nocturnal mean arterial pressure | time_frame=6 months postpartum | description=Mean nocturnal mean arterial pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean daytime mean arterial pressure | time_frame=6 months postpartum | description=Mean daytime mean arterial pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean overall mean arterial pressure | time_frame=6 months postpartum | description=Mean overall mean arterial pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean overall systolic blood pressure | time_frame=6 months postpartum | description=Mean overall systolic blood pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Mean overall diastolic blood pressure | time_frame=6 months postpartum | description=Mean overall diastolic blood pressure on ambulatory blood pressure monitoring\ntype=secondary | measure=Classification of hypertension | time_frame=2 months postpartum | description=Stage 1, stage 2 hypertension (percent of participants with each stage)\ntype=secondary | measure=Classification of hypertension | time_frame=6 months postpartum | description=Stage 1, stage 2 hypertension (percent of participants with each stage)\ntype=secondary | measure=Endothelial function EC50% | time_frame=2 months postpartum | description=EC50% from microiontophoresis\ntype=secondary | measure=Endothelial function EC50% | time_frame=6 months postpartum | description=EC50% from microiontophoresis\ntype=secondary | measure=Endothelial function Emax | time_frame=2 months postpartum | description=Emax from microiontophoresis\ntype=secondary | measure=Endothelial function Emax | time_frame=6 months postpartum | description=Emax from microiontophoresis\ntype=secondary | measure=Endothelial function change in Emax | time_frame=2 to 6 months postpartum | description=Change in Emax between visits\ntype=secondary | measure=Endothelial function change in EC50% | time_frame=2 to 6 months postpartum | description=Change in EC50% between visits\ntype=secondary | measure=Change in systolic blood pressure | time_frame=2 to 6 months postpartum | description=Change in study visit mean systolic blood pressure between visits\ntype=secondary | measure=Change in diastolic blood pressure | time_frame=2 to 6 months postpartum | description=Change in study visit mean diastolic blood pressure between visits\ntype=secondary | measure=Change in mean arterial pressure | time_frame=2 to 6 months postpartum | description=Change in study visit mean arterial pressure between visits",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 720,
+      "trial_nct_id": "NCT06281665"
+    },
+    {
+      "chunk_id": "NCT06281665:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-05-29\nPrimary completion date: 2026-06-01\nCompletion date: 2027-06-01\nStudy first posted: 2024-02-28\nResults first posted: None\nLast update posted: 2026-02-05\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06281665"
+    },
+    {
+      "chunk_id": "NCT06281665:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Malamo Countouris\nLead sponsor class: OTHER\nCollaborators: National Heart, Lung, and Blood Institute (NHLBI)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT06281665"
+    }
+  ],
+  "trial_nct_id": "NCT06281665"
+}

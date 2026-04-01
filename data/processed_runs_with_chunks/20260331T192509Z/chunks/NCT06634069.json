@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06634069:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06634069\nBrief title: Study SOLACE SEPSIS\nOfficial title: A Pilot, Randomized, Double-Blinded, Controlled Study of Hemodynamic and Acid Base Effects of 0.5M Sodium Lactate and 3% Saline Solutions in Septic Shock Patients\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT06634069"
+    },
+    {
+      "chunk_id": "NCT06634069:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Septic Shock; Intracranial Hypertension\nIntervention labels: Sodium Lactate; 3% NaCl\nDrug class labels: \nArms: Group 1; Group 2\nKeywords: intracranial hypertension; septic shock",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT06634069"
+    },
+    {
+      "chunk_id": "NCT06634069:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A Pilot, Randomized, Double-Blinded, Controlled Study of Hemodynamic and Acid Base Effects of 0.5M Sodium Lactate and 3% Saline Solutions in Septic Shock Patients\nDetailed description: This study investigates two resuscitation fluids that are being used off label for the treatment of patients suffering from septic shock and also in patients with intracranial hypertension in intensive care.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 59,
+      "trial_nct_id": "NCT06634069"
+    },
+    {
+      "chunk_id": "NCT06634069:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 90 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Subjects will be eligible for the trial if they meet all of the following criteria:\n\n  1. Age criteria: 18 - 90 years\n  2. Septic shock - Sepsis 3 criteria :\n\n     1. acute change in total SOFA score \u2265 2 due to infection\n     2. use of vasopressor drug to maintain target mean arterial pressure \u2265 65 mmHg\n     3. blood lactate level \u2265 2 mmol/L within last 24 hours\n  3. Likely need for fluid resuscitation\n\n     1. poor peripheral perfusion as evidenced by 2 out of 4: i. peripheral cyanosis with delayed capillary refill \u2265 3 seconds ii. low urinary output (\\< 0.5 ml/kg/hour for at least 6 hours) iii. central venous O2 saturation \\< 70% iv. clouded sensorium/poor mentation\n     2. dynamic assessment of preload responsiveness as evidenced by 1 out of 3: i. positive passive leg raising test ii. pulse pressure variation and / or stroke volume variation2, both \\> 12% iii. distensibility index of inferior vena caval diameter \\> 12%\n  4. Signed the relevant informed consent form\n\nExclusion Criteria:\n\n* Subjects will not be eligible for the trial if they meet any of the following criteria:\n\n  1. Poor transthoracic echo windows\n  2. Actual body weight \\> 160 kg\n  3. Hypernatremia: \\[Na\\] \\> 150 mEq/L\n  4. Cardiac tamponade\n  5. Uncorrected severe valvular heart disease or life-threatening arrhythmia\n  6. Moribund patients likely to die before the study protocol is completed\n  7. Patients with absolute indication for immediate acute hemodialysis/hemofiltration (within 2 hrs) based on pH \\< 7.0, K \\> 7.0mmol/L\n  8. Severe liver dysfunction defined by total serum bilirubin \\> 120 umol/l\n  9. Pregnancy and lactation",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 284,
+      "trial_nct_id": "NCT06634069"
+    },
+    {
+      "chunk_id": "NCT06634069:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=haemodynamic effects | time_frame=at time of start of infusion, at 30 minutes and at 60 minutes from the start of the respective fluid bolus | description=SV is the amount of blood that leaves the left ventricle with every beat cycle and is calculated by measuring the Doppler flow in the aortic valve.\n\nUnit: ml\ntype=secondary | measure=acid-base effect | time_frame=at time of start of infusion, at 30 minutes and at 60 minutes from the start of the respective fluid bolus | description=Diagnostic approach to acid-base changes is based on the assessment of bicarbonate buffer system, in which pH is determined by the ratio of \\[HCO3-\\] to pCO2 meassured by a POC whole-blood analyzer system\n\nUnit: \\[HCO3-\\] - mmol/l, pCO2 - kPa\ntype=secondary | measure=anti-inflammatory effect | time_frame=parameters measured within the last 24 hours prior to start of infusion and within 24 hours after the study fluid infusion. | description=Inflammatory markers as CRP, procalcitonin, interleukin-6 and feritin are sepcific indicators linked to degree of inflammation and determined by regular biochemical analysis. The dynamics of parameters after the study fluid administration will be evaluated.\n\nUnit: CRP - mg/l, procalcitonin - ug/l, interleukin-6 - ng/l, ferritin - ug/l\ntype=secondary | measure=Safety - Incidence of adverse events and reactions | time_frame=30 days after intervention | description=Incidence of adverse events and reactions according to following Adverse Events of Special Interest (AESI) and descriptive analysis of the incidence of any adverse events and reactions during participation in the study in both study arms. AEs are defined according to the valid definitions for clinical trials as imposed by legislation (Directive 2001/20/EG).",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 266,
+      "trial_nct_id": "NCT06634069"
+    },
+    {
+      "chunk_id": "NCT06634069:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-11-24\nPrimary completion date: 2027-10\nCompletion date: 2027-10\nStudy first posted: 2024-10-09\nResults first posted: None\nLast update posted: 2025-04-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06634069"
+    },
+    {
+      "chunk_id": "NCT06634069:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University Hospital Pilsen\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06634069"
+    }
+  ],
+  "trial_nct_id": "NCT06634069"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04967989:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04967989\nBrief title: Clarifying the Optimal Application of SLT Therapy Trial\nOfficial title: Clarifying the Optimal Application of SLT Therapy Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT04967989"
+    },
+    {
+      "chunk_id": "NCT04967989:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Glaucoma and Ocular Hypertension\nIntervention labels: Low Energy SLT; Standard Energy SLT\nDrug class labels: \nArms: Trial 1: Initial standard energy SLT; Trial 2: Month 12 Randomization: Annual Low Energy Repeat SLT; Trial 2: Month 12 Randomization: As-Needed Repeat SLT at Standard Energy; Trial 1: Initial Low Energy SLT\nKeywords: glaucoma; selective laser trabeculoplasty; clinical trial",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 60,
+      "trial_nct_id": "NCT04967989"
+    },
+    {
+      "chunk_id": "NCT04967989:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this study is to understand if SLT performed at low energy is as effective as SLT performed at standard energy, and also to see if repeating SLT at low energy once a year will prevent or delay the need for daily eye drop medications better than waiting for SLT to wear off before repeating it.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 63,
+      "trial_nct_id": "NCT04967989"
+    },
+    {
+      "chunk_id": "NCT04967989:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Age 18 or older and in good health\n2. Each eye with one of the following qualifying diagnoses (diagnoses may differ between eyes):\n\n   1. High-risk ocular hypertension (OHT): IOP \\> 21 mmHg without glaucomatous optic neuropathy (excavation, diffuse or focal thinning or notching of the neuroretinal rim, visible nerve fiber layer defects, or asymmetry of the vertical cup-to-disc ratio of \\>0.2 between eyes)\n   2. Mild primary open-angle glaucoma: glaucomatous optic neuropathy, visual field mean deviation better than -6.0 dB with no points in the central 5\u00b0 \\<15 dB (see figure on next page)\n   3. Moderate primary open-angle glaucoma: glaucomatous optic neuropathy, visual field mean deviation equal to or worse than -6.0 dB but no worse than -12.0 dB and no central 5\u00b0 points \\<15 dB or mean deviation -12.0 dB or better with 1 central 5\u00b0 points \\<15 dB (see figure on next page).\n3. Each eye with BCVA 20/200 (UK 6/60) or better\n\nExclusion Criteria:\n\n1. Use of topical IOP-lowering medications for more than 6 cumulative months at any time in the past 5 years (this is a modification implemented during active enrollment)\n2. Any history of IOP-lowering laser (prophylactic iridotomy not included) or surgical procedure\n3. Advanced POAG in either eye (worse than moderate POAG as defined above)\n4. Glaucoma other than POAG (including pigmentary and pseudoexfoliation glaucoma) in either eye\n5. Mean IOP \\> 35 mmHg at either the screening or baseline visit in either eye\n6. Narrow or closed angle (Shaffer Grade 0, 1, or 2) in either eye\n7. Contraindications to SLT or any other study intervention\n8. Any corneal pathology that would preclude accurate assessment of IOP by Goldmann tonometry in either eye\n9. Any intraocular surgical procedure within the past 6 months in either eye\n10. Inability to attend all scheduled study visits\n11. Pregnant or planning to become pregnant in the next 4 years",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 332,
+      "trial_nct_id": "NCT04967989"
+    },
+    {
+      "chunk_id": "NCT04967989:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=12-month survival | time_frame=12 months | description=Survival of first SLT through Month 12\ntype=primary | measure=48-month survival | time_frame=48 months | description=At Month 12, subjects are randomized to repeat SLT either annually at low energy or PRN at standard energy. The proportion controlled with SLT alone at Month 48 will be compared between groups\ntype=secondary | measure=Mean IOP | time_frame=12 months | description=Mean IOP at month 12\ntype=secondary | measure=Long-term mean IOP | time_frame=12, 24, 36, and 48 months | description=Mean IOP at each study visit\ntype=secondary | measure=Incidence of IOP spikes | time_frame=0, 12, 24, 36, and 48 months | description=IOP spikes \\> 5 mmHg on day of SLT",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 112,
+      "trial_nct_id": "NCT04967989"
+    },
+    {
+      "chunk_id": "NCT04967989:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-09-07\nPrimary completion date: 2027-06-30\nCompletion date: 2027-08-31\nStudy first posted: 2021-07-20\nResults first posted: None\nLast update posted: 2025-10-02\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04967989"
+    },
+    {
+      "chunk_id": "NCT04967989:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Pittsburgh\nLead sponsor class: OTHER\nCollaborators: National Eye Institute (NEI); West Virginia University\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT04967989"
+    }
+  ],
+  "trial_nct_id": "NCT04967989"
+}

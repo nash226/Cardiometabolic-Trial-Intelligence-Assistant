@@ -1,0 +1,758 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000013",
+          "term": "Congenital Abnormalities"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        },
+        {
+          "id": "D006548",
+          "term": "Hernia, Diaphragmatic"
+        },
+        {
+          "id": "D000082122",
+          "term": "Internal Hernia"
+        },
+        {
+          "id": "D006547",
+          "term": "Hernia"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D065630",
+          "term": "Hernias, Diaphragmatic, Congenital"
+        },
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D007288",
+          "term": "Inosine"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "The center will use iNO per their usual protocol in the initial resuscitation period (defined as birth through stabilization and CDH repair). No center will alter any component of their standard clinical practice guideline or protocol governing CDH care.",
+          "interventionNames": [
+            "Drug: Inhaled Nitric Oxide (iNO) use"
+          ],
+          "label": "Inhaled Nitric Oxide (iNO) use",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "The center will stop using iNO in the initial resuscitation period (defined as birth through stabilization and CDH repair).",
+          "interventionNames": [
+            "Other: De-implementation of Inhaled Nitric Oxide (iNO) use"
+          ],
+          "label": "De-implementation of Inhaled Nitric Oxide (iNO) use",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Inhaled Nitric Oxide (iNO) use"
+          ],
+          "description": "The center will use iNO per their usual protocol in the initial resuscitation period (defined as birth through stabilization and CDH repair). No center will alter any component of their standard clinical practice guideline or protocol governing CDH care.",
+          "name": "Inhaled Nitric Oxide (iNO) use",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "De-implementation of Inhaled Nitric Oxide (iNO) use"
+          ],
+          "description": "The center will stop using iNO in the initial resuscitation period (defined as birth through stabilization and CDH repair).",
+          "name": "De-implementation of Inhaled Nitric Oxide (iNO) use",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Congenital Diaphragmatic Hernia"
+      ],
+      "keywords": [
+        "CDH",
+        "Inhaled Nitric Oxide",
+        "Pulmonary Hypertension"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Matthew.T.Harting@uth.tmc.edu",
+          "name": "Matthew Harting, MD, MS, FACS",
+          "phone": "(713) 500-7398",
+          "role": "CONTACT"
+        },
+        {
+          "email": "Ashley.Harmon@uth.tmc.edu",
+          "name": "Ashley Ebanks",
+          "phone": "(832) 325-7234",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Birmingham",
+          "contacts": [
+            {
+              "email": "Scott.Anderson@childrensal.org",
+              "name": "Scott Anderson, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Alabama & Children's Hospital of Alabama (UAB-CoA)",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          },
+          "state": "Alabama",
+          "status": "RECRUITING",
+          "zip": "35233"
+        },
+        {
+          "city": "Little Rock",
+          "contacts": [
+            {
+              "email": "dassingermelvins@uams.edu",
+              "name": "Sid Dassinger, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Arkansas & Arkansas Children's Hospital (UA-ACH)",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          },
+          "state": "Arkansas",
+          "status": "RECRUITING",
+          "zip": "72202"
+        },
+        {
+          "city": "Irvine",
+          "contacts": [
+            {
+              "email": "YGuner@choc.org",
+              "name": "Yigit S Guner, MD, MS",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of California-Irvine & Children's Hospital of Orange County (UC-CHOC)",
+          "geoPoint": {
+            "lat": 33.66946,
+            "lon": -117.82311
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92868"
+        },
+        {
+          "city": "Los Angeles",
+          "contacts": [
+            {
+              "email": "rachapman@chla.usc.edu",
+              "name": "Rachel Chapman, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Southern California & Children's Hospital Los Angeles (USC-CHLA)",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "90027"
+        },
+        {
+          "city": "Palo Alto",
+          "contacts": [
+            {
+              "email": "vanmeurs@stanford.edu",
+              "name": "Krisa Van Meurs, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Stanford University & Lucile Packard Children's Hospital (Stanford-LPCH)",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "94304"
+        },
+        {
+          "city": "San Diego",
+          "contacts": [
+            {
+              "email": "dsuttner@rchsd.org",
+              "name": "Denise Suttner, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of California, San Diego & Rady Children's Hospital (UCSD-Rady)",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92123"
+        },
+        {
+          "city": "Aurora",
+          "contacts": [
+            {
+              "email": "Jason.Gien@childrenscolorado.org",
+              "name": "Jason Gien, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Colorado & Children's Hospital of Colorado (CU-CHC)",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          },
+          "state": "Colorado",
+          "status": "RECRUITING",
+          "zip": "80045"
+        },
+        {
+          "city": "Atlanta",
+          "contacts": [
+            {
+              "email": "skeene@emory.edu",
+              "name": "Sarah Keene, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Emory University & Children's Healthcare of Atlanta (CHOA)",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          },
+          "state": "Georgia",
+          "status": "RECRUITING",
+          "zip": "30322"
+        },
+        {
+          "city": "Indianapolis",
+          "contacts": [
+            {
+              "email": "graybw@iupui.edu",
+              "name": "Brian W Gray, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Indiana University & Riley Children's Hospital (IU-RiCH)",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          },
+          "state": "Indiana",
+          "status": "RECRUITING",
+          "zip": "46202"
+        },
+        {
+          "city": "Louisville",
+          "contacts": [
+            {
+              "email": "tiffany.wright.1@louisville.edu",
+              "name": "Tiffany Wright, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Louisville & Norton Children's Hospital (UL-NCH)",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          },
+          "state": "Kentucky",
+          "status": "RECRUITING",
+          "zip": "40202"
+        },
+        {
+          "city": "Boston",
+          "contacts": [
+            {
+              "email": "Jill.Zalieckas@childrens.harvard.edu",
+              "name": "Jill Zalieckas, MD, MPH",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Harvard University & Boston Children's Hospital (Harvard-BCH)",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "status": "RECRUITING",
+          "zip": "02115"
+        },
+        {
+          "city": "Ann Arbor",
+          "contacts": [
+            {
+              "email": "eperrone@med.umich.edu",
+              "name": "Erin Perrone, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Michigan & CS Mott Children's Hospital (UM-CSMott)",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48109"
+        },
+        {
+          "city": "Portland",
+          "contacts": [
+            {
+              "email": "cgingale@lhs.org",
+              "name": "Cynthia Gindalewski, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Randall Children's Hospital-Portland (RCH)",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          },
+          "state": "Oregon",
+          "status": "RECRUITING",
+          "zip": "97227"
+        },
+        {
+          "city": "Charleston",
+          "contacts": [
+            {
+              "email": "hollingl@musc.edu",
+              "name": "Laura E Hollinger, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Medical University of South Carolina Children's Health (MUSC)",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          },
+          "state": "South Carolina",
+          "status": "RECRUITING",
+          "zip": "29425"
+        },
+        {
+          "city": "Memphis",
+          "contacts": [
+            {
+              "email": "mweems@uthsc.edu",
+              "name": "Mark F Weems, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Tennessee & LeBonheur Children's Hospital (UT-LBCH)",
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          },
+          "state": "Tennessee",
+          "status": "RECRUITING",
+          "zip": "38105"
+        },
+        {
+          "city": "Nashville",
+          "contacts": [
+            {
+              "email": "emily.a.morris@vumc.org",
+              "name": "Emily A Morris, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Vanderbilt University & Vanderbilt University Medical Center (VUMC)",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "status": "RECRUITING",
+          "zip": "37232"
+        },
+        {
+          "city": "Houston",
+          "contacts": [
+            {
+              "email": "Matthew.T.Harting@uth.tmc.edu",
+              "name": "Matthew Harting, MD, MS, FACS",
+              "phone": "(713) 500-7398",
+              "role": "CONTACT"
+            },
+            {
+              "email": "Ashley.Harmon@uth.tmc.edu",
+              "name": "Ashley Ebanks",
+              "phone": "(832) 325-7234",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "The University of Texas Health Science Center at Houston",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77030"
+        },
+        {
+          "city": "Salt Lake City",
+          "contacts": [
+            {
+              "email": "Katie.Russell@hsc.utah.edu",
+              "name": "Katie W Russell, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Utah & Primary Children's Hospital (Utah-PCH)",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          },
+          "state": "Utah",
+          "status": "RECRUITING",
+          "zip": "84108"
+        },
+        {
+          "city": "Seattle",
+          "contacts": [
+            {
+              "email": "Rebecca.stark@seattlechildrens.org",
+              "name": "Rebecca Stark, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Washington & Seattle Children's Hospital (UW-SCH)",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          },
+          "state": "Washington",
+          "status": "RECRUITING",
+          "zip": "98105"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "The University of Texas Health Science Center, Houston",
+          "name": "Matthew Harting, MD, MS, FACS",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if de-implementation of inhaled nitric oxide (iNO) in the post-natal resuscitation/stabilization phase affects the composite outcome of extracorporeal life support (ECLS) use and/or mortality, as well as ECLS use, mortality, and/or oxygenation in congenital diaphragmatic hernia (CDH) newborns and to establish the cost-effectiveness of de-implementing iNO as a therapy in the postnatal resuscitation/stabilization phase of CDH management, which will be assessed as the incremental health system costs (savings) per prevented ECLS use and/or death.",
+      "detailedDescription": "In this multi-center study, centers will use iNO per their usual protocol, and centers will then crossover to iNO de-implementation (that is, at the time of crossover, centers will stop using iNO in the initial resuscitation period). A stepped-wedge crossover study design will be used, and the timing of crossover will be cluster randomized at the level of the center."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "In this multi-center study, centers will use iNO per their usual protocol, and centers will then crossover to iNO de-implementation (that is, at the time of crossover, centers will stop using iNO in the initial resuscitation period). A stepped-wedge crossover study design will be used, and the timing of crossover will be cluster randomized at the level of the center.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 600,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Postnatal, live born neonates with CDH\n\n  a. Presence of associated or additional anomalies is acceptable for inclusion\n* Bochdalek hernia location (right or left)\n* Diagnosed prior to 1 month of life\n* Born within or transferred to (within 1 week of life) a CDHSG member center participating in the trial\n\nExclusion Criteria:\n\n* CDH diagnosis after 1 month of age\n* Morgagni diaphragmatic hernia (central / anterior-medial diaphragmatic defect location)\n* Transferred to a CDH Study Group (CDHSG) member center after 1 week of life\n* Patients without potential access to iNO",
+      "healthyVolunteers": false,
+      "maximumAge": "1 Month",
+      "minimumAge": "0 Months",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "De-implementing Inhaled Nitric Oxide for Congenital Diaphragmatic Hernia",
+      "nctId": "NCT05213676",
+      "officialTitle": "Inhaled Nitric Oxide (iNO) for Congenital Diaphragmatic Hernia (CDH) - The \"NoNO Trial\" - a Multi-center, De-implementation, Stepped-wedge, Cluster-randomized Trial Within an Established Collaborative",
+      "orgStudyIdInfo": {
+        "id": "HSC-MS-21-0603"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "The University of Texas Health Science Center, Houston"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "The primary outcome is the composite outcome of ECLS use and/or mortality.",
+          "measure": "Number of participants who require Extracorporeal Life Support (ECLS) and/or who die prior to discharge",
+          "timeFrame": "from birth through hospital discharge (up to 12 months from birth)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of participants who require Extracorporeal Life Support (ECLS) prior to discharge",
+          "timeFrame": "from birth through hospital discharge (up to 12 months from birth)"
+        },
+        {
+          "measure": "Number of participants who die prior to discharge",
+          "timeFrame": "from birth through hospital discharge (up to 12 months from birth)"
+        },
+        {
+          "description": "For the iNO de-implementation arm, participants will be assessed 1 hour after the time when iNO would have been initiated, per the protocol of the center.",
+          "measure": "Change in oxygenation",
+          "timeFrame": "1 hour after initiation of iNO use"
+        },
+        {
+          "description": "For the iNO de-implementation arm, participants will be assessed 6 hours after the time when iNO would have been initiated, per the protocol of the center.",
+          "measure": "Change in oxygenation",
+          "timeFrame": "6 hours after initiation of iNO use"
+        },
+        {
+          "measure": "Total cost of initial inpatient care from birth through hospital discharge, per center",
+          "timeFrame": "from birth through hospital discharge (up to 12 months from birth)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "UNKNOWN",
+          "name": "University of Tennessee & LeBonheur Children's Hospital (UT-LBCH)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of California-Irvine & Children's Hospital of Orange County (UC-CHOC)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Medical University of South Carolina Children's Health (MUSC)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of Michigan & CS Mott Children's Hospital (UM-CSMott)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Randall Children's Hospital-Portland (RCH)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Stanford University & Lucile Packard Children's Hospital (Stanford-LPCH)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of California, San Diego & Rady Children's Hospital (UCSD-Rady)"
+        },
+        {
+          "class": "OTHER",
+          "name": "Boston Children's Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Indiana University & Riley Children's Hospital (IU-RiCH)"
+        },
+        {
+          "class": "OTHER",
+          "name": "Norton Children's Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of Utah & Primary Children's Hospital (Utah-PCH)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of Washington & Seattle Children's Hospital (UW-SCH)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of Alabama & Children's Hospital of Alabama (UAB-CoA)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of Arkansas & Arkansas Children's Hospital (UA-ACH)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Vanderbilt University & Vanderbilt University Medical Center (VUMC)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of Southern California & Children's Hospital Los Angeles (USC-CHLA)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Emory University & Children's Healthcare of Atlanta (CHOA)"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "University of Colorado & Children's Hospital of Colorado (CU-CHC)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "The University of Texas Health Science Center, Houston"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "The University of Texas Health Science Center, Houston",
+        "investigatorFullName": "Matthew T Harting",
+        "investigatorTitle": "Associate Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2031-04-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-04",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2030-10-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-11-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-02",
+      "studyFirstPostDateStruct": {
+        "date": "2022-01-28",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-01-27",
+      "studyFirstSubmitQcDate": "2022-01-27"
+    }
+  }
+}

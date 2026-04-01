@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07218783:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07218783\nBrief title: Evaluation of the Safety and Efficacy of the Bimatoprost Implant System Used in Combination With the SpyGlass IOL Compared to Timolol Ophthalmic Solution (Rhine)\nOfficial title: A Prospective, Multicenter, Randomized, Masked, Controlled Study to Evaluate the Safety and Efficacy of the Bimatoprost Implant System (78 mcg) Used in Combination With the SpyGlass IOL Compared to Timolol Maleate Ophthalmic Solution, USP, 0.5%,\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 74,
+      "trial_nct_id": "NCT07218783"
+    },
+    {
+      "chunk_id": "NCT07218783:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Cataract; Glaucoma; Ocular Hypertension\nIntervention labels: Bimatoprost Implant System; SpyGlass IOL; Timolol Maleate Ophthalmic Solution, 0.5%; Commercial IOL\nDrug class labels: \nArms: Bimatoprost Implant System / IOL Combination; Timolol Maleate Ophthalmic Solution 0.5%\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT07218783"
+    },
+    {
+      "chunk_id": "NCT07218783:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This trial is a randomized study to evaluate the Bimatoprost Implant System used in combination with the SpyGlass IOL to Timolol Ophthalmic Solution in participants with mild to moderate open-angle glaucoma or ocular hypertension undergoing cataract surgery.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT07218783"
+    },
+    {
+      "chunk_id": "NCT07218783:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 22 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Diagnosis of mild to moderate open-angle glaucoma or ocular hypertension\n* Planned removal of cataract\n* Female participants of childbearing potential must have a negative urine pregnancy test at the baseline visit and agree to the use of contraception\n\nExclusion Criteria:\n\n* Uncontrolled systemic disease\n* History of incisional/refractive corneal surgery\n* Any glaucoma diagnosis other than OHT, open-angle, pseudoexfoliative, or pigmentary glaucoma\n* History of incisional glaucoma surgery or intraocular injections\n* Other ocular diseases, pathology, or conditions",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 99,
+      "trial_nct_id": "NCT07218783"
+    },
+    {
+      "chunk_id": "NCT07218783:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Mean IOP Reduction from Baseline (mmHg) | time_frame=Weeks 2 and 6, and Month 3 | description=Time-matched mean IOP change from Baseline in the study eyes at all the individual IOP timepoints\ntype=primary | measure=BCDVA 20/40 or better | time_frame=Month 6 | description=Study eyes achieving best corrected distance visual acuity (BCDVA) of 20/40 or better\ntype=secondary | measure=Mean IOP Reduction from Baseline (mmHg) | time_frame=Month 6, 9 and 12 | description=Time matched mean IOP reduction from Baseline (mmHg) in the study eyes at all the individual IOP timepoints",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 89,
+      "trial_nct_id": "NCT07218783"
+    },
+    {
+      "chunk_id": "NCT07218783:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-10-15\nPrimary completion date: 2029-03-31\nCompletion date: 2031-03-31\nStudy first posted: 2025-10-20\nResults first posted: None\nLast update posted: 2025-10-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07218783"
+    },
+    {
+      "chunk_id": "NCT07218783:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: SpyGlass Pharma, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07218783"
+    }
+  ],
+  "trial_nct_id": "NCT07218783"
+}

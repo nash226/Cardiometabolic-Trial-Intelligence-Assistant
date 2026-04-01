@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07058077:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07058077\nBrief title: A Study of Enlicitide Decanoate (MK-0616, an Oral PCSK9 Inhibitor) in Children and Adolescents With Heterozygous Familial Hypercholesterolemia (MK-0616-029)\nOfficial title: An Operationally Seamless Phase 2/3 Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of Enlicitide Decanoate in Pediatric Participants With Heterozygous Familial Hypercholesterolemia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 58,
+      "trial_nct_id": "NCT07058077"
+    },
+    {
+      "chunk_id": "NCT07058077:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heterozygous Familial Hypercholesterolemia (HeFH)\nIntervention labels: Enlicitide Decanoate; Placebo\nDrug class labels: \nArms: Part A: Enlicitide Decanoate; Part B: Enlicitide Decanoate; Part B: Placebo; Open-Label Extension: Enlicitide Decanoate\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT07058077"
+    },
+    {
+      "chunk_id": "NCT07058077:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study is designed to learn if enlicitide decanoate is safe and effective to treat children and adolescents with heterozygous familial hypercholesterolemia (HeFH) and high amounts of low-density lipoprotein cholesterol (LDL-C) in the blood.\n\nThe goals of this study are to learn about the safety of enlicitide and if children tolerate it, what happens to enlicitide in a child's body over time, and if enlicitide works to lower cholesterol levels in children more than a placebo.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 81,
+      "trial_nct_id": "NCT07058077"
+    },
+    {
+      "chunk_id": "NCT07058077:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 6 Years\nMaximum age: 17 Years\nAge groups: CHILD\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\nInclusion criteria include, but are not limited to:\n\n* Has possible or definite diagnosis of HeFH based on a locally accepted diagnostic algorithm or diagnosis by genetic testing results\n* Has a fasted LDL-C value (evaluated by the central laboratory) that is \u2265130 mg/dL\n* Is receiving either an optimized daily dose of statin (\u00b1 nonstatin LLT); or a nonstatin LLT with documented intolerance to at least 2 different statins or refusal of statin therapy by the participant or legally acceptable representative\n* Is on a stable dose of all background LLTs for at least 30 days prior to screening, with no medication or dose changes planned during participation in Part A or Part B\n\nExclusion Criteria:\n\nExclusion criteria include, but are not limited to:\n\n* Has a history of homozygous FH based on genetic or clinical criteria, or history of known compound heterozygous FH, or double heterozygous FH\n* Has a history of nephrotic syndrome\n* Has any clinically significant malabsorption condition based on principal investigator assessment\n* Was previously treated/is being treated with certain other cholesterol lowering medications, including proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors without adequate washout",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 210,
+      "trial_nct_id": "NCT07058077"
+    },
+    {
+      "chunk_id": "NCT07058077:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Part A: Maximum Plasma Concentration (Cmax) of Enlicitide | time_frame=At designated timepoints (up to 24 hours postdose on day 14) | description=Blood samples will be collected to determine the Cmax of enlicitide.\ntype=primary | measure=Part A: Area Under the Concentration-Time Curve from 0 to 24 Hours (AUC0-24) of Enlicitide | time_frame=At designated timepoints (up to 24 hours postdose on day 14) | description=Blood samples will be collected to determine the AUC0-24 of enlicitide.\ntype=primary | measure=Part B: Percent Change from Baseline in Low-Density Lipoprotein Cholesterol (LDL-C) | time_frame=Baseline and Week 24 | description=Blood samples will be collected to determine the percent change from baseline in LDL-C.\ntype=primary | measure=Number of Participants Who Experience an Adverse Event (AE) | time_frame=Up to approximately 188 weeks | description=An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention.\ntype=primary | measure=Number of Participants Who Discontinue Study Treatment Due to an AE | time_frame=Up to approximately 180 weeks | description=An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention.\ntype=secondary | measure=Part B: Percent Change from Baseline in Apolipoprotein B (ApoB) | time_frame=Baseline and week 24 | description=Blood samples will be collected to determine the percent change from baseline in apolipoprotein B.\ntype=secondary | measure=Part B: Percent Change from Baseline in Non-High-Density Lipoprotein Cholesterol (non-HDL-C) | time_frame=Baseline and week 24 | description=Blood samples will be collected to determine the percent change from baseline in non-HDL-C.\ntype=secondary | measure=Part B: Percent Change from Baseline in Lipoprotein (a) (Lp(a)) | time_frame=Baseline and week 24 | description=Blood samples will be collected to determine the percent change from baseline in Lp(a).\ntype=secondary | measure=Part B: Percentage of Participants With LDL-C <130 mg/dL at Week 24 | time_frame=Week 24 | description=The percentage of participants with LDL-C \\<130 mg/dL at week 24 will be reported.\ntype=secondary | measure=Part B: Percentage of Participants With \u226550% LDL-C LDL-C Reduction from Baseline at Week 24 | time_frame=Baseline and week 24 | description=The percentage of participants with \u226550% LDL-C reduction from baseline at week 24 will be reported.\ntype=secondary | measure=Part B: Percentage of Participants With LDL-C <100 mg/dL at Week 24 | time_frame=Week 24 | description=The percentage of participants with LDL-C \\<100 mg/dL at week 24 will be reported.\ntype=secondary | measure=Change in Carotid Intima-media Thickness (cIMT) | time_frame=Baseline and week 24 | description=Ultrasound measurements will be performed to determine the change from baseline in cIMT.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 432,
+      "trial_nct_id": "NCT07058077"
+    },
+    {
+      "chunk_id": "NCT07058077:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-08-21\nPrimary completion date: 2033-12-04\nCompletion date: 2037-01-23\nStudy first posted: 2025-07-10\nResults first posted: None\nLast update posted: 2026-03-13\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07058077"
+    },
+    {
+      "chunk_id": "NCT07058077:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Merck Sharp & Dohme LLC\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07058077"
+    }
+  ],
+  "trial_nct_id": "NCT07058077"
+}

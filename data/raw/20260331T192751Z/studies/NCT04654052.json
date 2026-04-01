@@ -1,0 +1,530 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        },
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013988",
+          "term": "Ticlopidine"
+        },
+        {
+          "id": "D058924",
+          "term": "Thienopyridines"
+        },
+        {
+          "id": "D013876",
+          "term": "Thiophenes"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011725",
+          "term": "Pyridines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000077144",
+          "term": "Clopidogrel"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients with ACS on Prasugrel or Ticagrelor and PRU \u2264 30 at the end of the first month will be de-escalated to Clopidogrel 75 mg q.d during 11 months.",
+          "interventionNames": [
+            "Drug: Clopidogrel"
+          ],
+          "label": "VerifyNow\u00ae PRUTest \u226430 (De-escalated Prasugrel Ticagrelor )",
+          "type": "OTHER"
+        },
+        {
+          "description": "Active comparator: Patients with ACS on Prasugrel or Ticagrelor and PRU \u2264 30 at the end of the first month will continue with these previous treatment during 11 months.",
+          "interventionNames": [
+            "Drug: Previous treatment"
+          ],
+          "label": "VerifyNow\u00ae PRUTest \u226430 (Prasugrel or Ticagrelor )",
+          "type": "OTHER"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "VerifyNow\u00ae PRUTest \u226430 (De-escalated Prasugrel Ticagrelor )"
+          ],
+          "description": "Clopidogrel during 11 months",
+          "name": "Clopidogrel",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "VerifyNow\u00ae PRUTest \u226430 (Prasugrel or Ticagrelor )"
+          ],
+          "description": "non-intervention",
+          "name": "Previous treatment",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Coronary Syndrome",
+        "Acute Myocardial Infarction",
+        "Coronary Artery Disease",
+        "Percutaneous Coronary Intervention"
+      ],
+      "keywords": [
+        "Antiplatelet therapy",
+        "Platelet Aggregation Inhibitors",
+        "Platelet Function Test",
+        "Ticagrelor",
+        "Clopidogrel",
+        "Prasugrel"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "El Palmar",
+          "country": "Spain",
+          "facility": "Hospital Universitario Virgen de La Arrixaca",
+          "geoPoint": {
+            "lat": 37.93939,
+            "lon": -1.16095
+          },
+          "state": "Murcia",
+          "zip": "30120"
+        },
+        {
+          "city": "Albacete",
+          "country": "Spain",
+          "facility": "Hospital General Universitario de Albacete",
+          "geoPoint": {
+            "lat": 38.99424,
+            "lon": -1.85643
+          },
+          "zip": "02006"
+        },
+        {
+          "city": "Barcelona",
+          "country": "Spain",
+          "facility": "Hospital Del Mar",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "zip": "08003"
+        },
+        {
+          "city": "Barcelona",
+          "country": "Spain",
+          "facility": "Hospital Universitari Vall D Hebron",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "zip": "08035"
+        },
+        {
+          "city": "C\u00e1ceres",
+          "country": "Spain",
+          "facility": "Hospital San Pedro de Alcantara",
+          "geoPoint": {
+            "lat": 39.47649,
+            "lon": -6.37224
+          },
+          "zip": "10003"
+        },
+        {
+          "city": "Ciudad Real",
+          "country": "Spain",
+          "facility": "Hospital General Universitario de Ciudad Real",
+          "geoPoint": {
+            "lat": 38.98626,
+            "lon": -3.92907
+          },
+          "zip": "13005"
+        },
+        {
+          "city": "Galdakao",
+          "country": "Spain",
+          "facility": "Hospital Universitario de Galdakao-Usansolo",
+          "geoPoint": {
+            "lat": 43.23073,
+            "lon": -2.8429
+          },
+          "zip": "48960"
+        },
+        {
+          "city": "Gij\u00f3n",
+          "country": "Spain",
+          "facility": "Hospital Universitario de Cabue\u00f1es",
+          "geoPoint": {
+            "lat": 43.53573,
+            "lon": -5.66152
+          },
+          "zip": "33394"
+        },
+        {
+          "city": "Granada",
+          "country": "Spain",
+          "facility": "Hospital Universitario Virgen de Las Nieves",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          },
+          "zip": "18014"
+        },
+        {
+          "city": "Huelva",
+          "country": "Spain",
+          "facility": "Hospital Universitario Juan Ramon Jimenez",
+          "geoPoint": {
+            "lat": 37.26638,
+            "lon": -6.94004
+          },
+          "zip": "21005"
+        },
+        {
+          "city": "L'Hospitalet de Llobregat",
+          "country": "Spain",
+          "facility": "Hospital Universitari de Bellvitge",
+          "geoPoint": {
+            "lat": 41.35967,
+            "lon": 2.10028
+          },
+          "zip": "08907"
+        },
+        {
+          "city": "Le\u00f3n",
+          "country": "Spain",
+          "facility": "Hospital de Le\u00f3n",
+          "geoPoint": {
+            "lat": 42.60003,
+            "lon": -5.57032
+          },
+          "zip": "24080"
+        },
+        {
+          "city": "Lugo",
+          "country": "Spain",
+          "facility": "Hospital Universitario Lucus Agusti",
+          "geoPoint": {
+            "lat": 43.00992,
+            "lon": -7.55602
+          },
+          "zip": "27003"
+        },
+        {
+          "city": "M\u00e1laga",
+          "country": "Spain",
+          "facility": "Hospital Universitario Regional de Malaga",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          },
+          "zip": "29010"
+        },
+        {
+          "city": "Salamanca",
+          "country": "Spain",
+          "facility": "Hospital Universitario de Salamanca",
+          "geoPoint": {
+            "lat": 40.96882,
+            "lon": -5.66388
+          },
+          "zip": "37007"
+        },
+        {
+          "city": "Santander",
+          "country": "Spain",
+          "facility": "Hospital Universitario Marques de Valdecilla",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          },
+          "zip": "39008"
+        },
+        {
+          "city": "Valladolid",
+          "country": "Spain",
+          "facility": "Hospital Clinico Universitario de Valladolid",
+          "geoPoint": {
+            "lat": 41.65541,
+            "lon": -4.72353
+          },
+          "zip": "47003"
+        },
+        {
+          "city": "Zaragoza",
+          "country": "Spain",
+          "facility": "Hospital Universitario Lozano Blesa",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          },
+          "zip": "50009"
+        },
+        {
+          "city": "Zaragoza",
+          "country": "Spain",
+          "facility": "Hospital Universitario Miguel Servet",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          },
+          "zip": "50009"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of the study is to establish a de-scaling strategy of P2Y12 inhibitors (P2Y12 i) with a decrease in hemorrhagic events without increasing ischemic complications based on a Platelet Function Test (PFT).",
+      "detailedDescription": "Clinical practice guidelines recommend the use of double anti-aggregation with acetylsalicylic acid and a P2Y12 receptor inhibitor (P2Y12 i) in acute coronary syndrome (ACS) and in the choice of the latter it is very important to consider two opposing risks, Ischemia and hemorrhage. In the era of clopidogrel, platelet function tests (PFT) attempted to determine which patients were at risk of thrombotic events, but after the publication of 3 randomized studies, the absence of benefit from the use of PFT was proven except in very selected cases. The TOPIC trial opened the door to the descaling strategy of P2Y12 i with a decrease in hemorrhagic events without increasing ischemic complications. In that study, where the randomization was not based on PFT, it was demonstrated that there is a subgroup of patients who with prasugrel and ticagrelor pose an excessive level of antiaggregation and carry a high rate of complications, as high as 33 % in the net clinical end-point of ischemia and bleeding BARC \u2265 2 at 1 year. Based on that data, the recently published guidelines of the non-ST acute coronary syndrome of the European Society of Cardiology recommend with class IIB that de-escalation of P2Y12 i maybe considered an alternative strategy, especially in ACS patients deemed unsuitable for potent platelet inhibition. De-escalation may be done based on clinical judgment, or guided by platelet function testing, or CYP2C19 genotyping depending on the patient's risk profile and availability of respective assays. In VERONICA, The researchers try to demonstrate with the current study the usefulness of PFT to diagnose patients with excessive level of antiaggregation and to see if in them a descaling strategy similar to that of TOPIC could be associated with a decrease in the combined ischemia and hemorrhage events. We propose a prospective, randomized and multicentre trial in patients with ACS who have been treated with acetylsalicylic acid (AAS) + ticagrelor or prasugrel. After 1 month of discharge, antiaggregation measurement will be carried out with the VerifyNow\u00ae device (Werfen, Spain) and those with PRU \u226430 will be randomized 1:1 to continue with ticagrelor or prasugrel(control branch) vs. de-escalation to clopidogrel (intervention branch) for the remaining 11 months. The primary end-point will be the rate of the combined net clinical benefit consisting of cardiovascular death, nonfatal acute myocardial infarction (AMI), nonfatal stroke and bleeding BARC \u22652 at 12 months. The total number of randomized patients will be 634 and there will be subgroup analysis of the primary end-point by diabetes, type of acute coronary syndrome or type of drug (ticagrelor or prasugrel)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 634,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with age 18 years or above.\n* Patient is able to understand the nature of study and has provided written informed consent.\n* Patients with Acute Coronary Syndrome and who underwent PCI during the admission, who have been discharged on double. antiplatelet therapy with Acetylsalicylic Acid and Ticagrelor or Prasugrel.\n\nExclusion Criteria:\n\n* Patients with history of intracranial bleeding.\n* Patients with contraindication for the use of Acetylsalicylic Acid or Clopidogrel or Ticagrelor or Prasugrel.\n* Patients with major ischemic or hemorrhagic events during the first month.\n* Patients with Thrombocytopenia \\<50,000 /\u00b5L.\n* Patients with permanent oral anticoagulation.\n* Patient is pregnant or breast feeding.\n* Patients with impossibility to complete 1 year of follow-up.\n* Patient\u00b4s life-expectancy is less than 24 months.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "VERONICA",
+      "briefTitle": "VerifyNow to Optimise Platelet Inhibition in Coronary Acute Syndrome",
+      "nctId": "NCT04654052",
+      "officialTitle": "VerifyNow to Optimise Platelet Inhibition in Coronary Acute Syndrome (VERONICA Trial)",
+      "orgStudyIdInfo": {
+        "id": "EPIC17- VERONICA"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Fundaci\u00f3n EPIC"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Net Adverse Cardiac Events, defined as a composite of: death from vascular causes (death from cardiovascular causes or cerebrovascular causes and any death without another known cause), non fatal MI, or non fatal stroke, Bleeding BARC type \u2265 2.",
+          "measure": "Incidence of Net Adverse Cardiac Events (NACE)",
+          "timeFrame": "12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Death (Cardiovascular)",
+          "measure": "Incidence of Death (Cardiovascular)",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Death",
+          "measure": "Incidence of Death",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Non fatal Myocardial Infarction",
+          "measure": "Incidence of Non fatal Myocardial Infarction (MI)",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Ischemic Stroke",
+          "measure": "Incidence of Stroke",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Stent Thrombosis in target lesion",
+          "measure": "Incidence of Thrombosis in target lesion",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "New revascularization on target lesion",
+          "measure": "Incidence of revascularization on target lesion",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Bleeding (BARC criteria \u2265 2)",
+          "measure": "Incidence of (BARC criteria \u2265 2)",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Sibbing D, Aradi D, Jacobshagen C, Gross L, Trenk D, Geisler T, Orban M, Hadamitzky M, Merkely B, Kiss RG, Komocsi A, Dezsi CA, Holdt L, Felix SB, Parma R, Klopotowski M, Schwinger RHG, Rieber J, Huber K, Neumann FJ, Koltowski L, Mehilli J, Huczek Z, Massberg S; TROPICAL-ACS Investigators. Guided de-escalation of antiplatelet treatment in patients with acute coronary syndrome undergoing percutaneous coronary intervention (TROPICAL-ACS): a randomised, open-label, multicentre trial. Lancet. 2017 Oct 14;390(10104):1747-1757. doi: 10.1016/S0140-6736(17)32155-4. Epub 2017 Aug 28.",
+          "pmid": "28855078",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Cuisset T, Deharo P, Quilici J, Johnson TW, Deffarges S, Bassez C, Bonnet G, Fourcade L, Mouret JP, Lambert M, Verdier V, Morange PE, Alessi MC, Bonnet JL. Benefit of switching dual antiplatelet therapy after acute coronary syndrome: the TOPIC (timing of platelet inhibition after acute coronary syndrome) randomized study. Eur Heart J. 2017 Nov 1;38(41):3070-3078. doi: 10.1093/eurheartj/ehx175.",
+          "pmid": "28510646",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Deharo P, Quilici J, Camoin-Jau L, Johnson TW, Bassez C, Bonnet G, Fernandez M, Ibrahim M, Suchon P, Verdier V, Fourcade L, Morange PE, Bonnet JL, Alessi MC, Cuisset T. Benefit of Switching Dual Antiplatelet Therapy After Acute Coronary Syndrome According to On-Treatment Platelet Reactivity: The TOPIC-VASP Pre-Specified Analysis of the TOPIC Randomized Study. JACC Cardiovasc Interv. 2017 Dec 26;10(24):2560-2570. doi: 10.1016/j.jcin.2017.08.044.",
+          "pmid": "29268886",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Lozano I, Robles V, Vegas JM, Rondan J. De-Escalation of the P2Y12 Inhibitor After Acute Coronary Syndromes According to On-Treatment Platelet Reactivity: A Promising Step of Enormous Magnitude That Should Be Explored. JACC Cardiovasc Interv. 2018 Mar 12;11(5):507-508. doi: 10.1016/j.jcin.2018.01.246. No abstract available.",
+          "pmid": "29519387",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kirtane AJ, Parikh PB, Stuckey TD, Xu K, Witzenbichler B, Weisz G, Rinaldi MJ, Neumann FJ, Metzger DC, Henry TD, Cox DA, Duffy PL, Brodie BR, Mazzaferri EL Jr, Parvataneni R, Maehara A, Genereux P, Mehran R, Stone GW. Is There an Ideal Level of Platelet P2Y12-Receptor Inhibition in Patients Undergoing Percutaneous Coronary Intervention?: \"Window\" Analysis From the ADAPT-DES Study (Assessment of Dual AntiPlatelet Therapy With Drug-Eluting Stents). JACC Cardiovasc Interv. 2015 Dec 28;8(15):1978-1987. doi: 10.1016/j.jcin.2015.08.032.",
+          "pmid": "26738669",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Kerneis M, Silvain J, Abtan J, Cayla G, O'Connor SA, Barthelemy O, Vignalou JB, Beygui F, Brugier D, Martin R, Collet JP, Montalescot G. Switching acute coronary syndrome patients from prasugrel to clopidogrel. JACC Cardiovasc Interv. 2013 Feb;6(2):158-65. doi: 10.1016/j.jcin.2012.09.012.",
+          "pmid": "23428007",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Cayla G, Cuisset T, Silvain J, Leclercq F, Manzo-Silberman S, Saint-Etienne C, Delarche N, Bellemain-Appaix A, Range G, El Mahmoud R, Carrie D, Belle L, Souteyrand G, Aubry P, Sabouret P, du Fretay XH, Beygui F, Bonnet JL, Lattuca B, Pouillot C, Varenne O, Boueri Z, Van Belle E, Henry P, Motreff P, Elhadad S, Salem JE, Abtan J, Rousseau H, Collet JP, Vicaut E, Montalescot G; ANTARCTIC investigators. Platelet function monitoring to adjust antiplatelet therapy in elderly patients stented for an acute coronary syndrome (ANTARCTIC): an open-label, blinded-endpoint, randomised controlled superiority trial. Lancet. 2016 Oct 22;388(10055):2015-2022. doi: 10.1016/S0140-6736(16)31323-X. Epub 2016 Aug 28.",
+          "pmid": "27581531",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Lozano I, Rumoroso JR, Perez de Prado A, Moreno R, Hernandez F. Antiplatelet Therapy After Stenting at the Crossroads: Easiest or Personalized Therapy? JACC Cardiovasc Interv. 2021 Apr 26;14(8):929-930. doi: 10.1016/j.jcin.2021.03.019. No abstract available.",
+          "pmid": "33888241",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Fundaci\u00f3n EPIC"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-04",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-22",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-07-02",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2020-12-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-09-20",
+      "studyFirstSubmitQcDate": "2020-11-29"
+    }
+  }
+}

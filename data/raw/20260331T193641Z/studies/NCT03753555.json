@@ -1,0 +1,394 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D020521",
+          "term": "Stroke"
+        },
+        {
+          "id": "D002561",
+          "term": "Cerebrovascular Disorders"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D020765",
+          "term": "Intracranial Arterial Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000083242",
+          "term": "Ischemic Stroke"
+        },
+        {
+          "id": "D002537",
+          "term": "Intracranial Arteriosclerosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011758",
+          "term": "Pyrroles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006538",
+          "term": "Heptanoic Acids"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000069059",
+          "term": "Atorvastatin"
+        },
+        {
+          "id": "D011341",
+          "term": "Probucol"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Routine-dose statin group will be gaven the treatment of atorvastatin 20mg Qd for 12 months",
+          "interventionNames": [
+            "Drug: Atorvastatin Calcium"
+          ],
+          "label": "Routine-dose statin group",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "high-dose statin group will be gaven the treatment of atorvastatin 40-80mg Qd till 6 months at the moment the subjects will be followed up to determine plaques status by HRMRI examination, among which the subjects presenting culprit plaque progression with the significant increasing of plaque burden including intraplaque hemorrhage will be again randomized into two groups at a ratio of 1:1 as followed: atorvastatin-probucol group will be administrated atorvastatin 40-80mg Qd plus probucol 0.5g Bid till 12 months, the other group will maintain the original scheme till 12 months.\n\nPCSK9 inhibitor group will receive the subcutaneous injection of Evolocumab (140mg, 2 / month) for one year.",
+          "interventionNames": [
+            "Drug: Atorvastatin Calcium",
+            "Drug: Probucol",
+            "Drug: PCSK9 inhibitor"
+          ],
+          "label": "high-dose statin or PCSK9 inhibitor group",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Routine-dose statin group"
+          ],
+          "description": "20mg Qd for 12 months",
+          "name": "Atorvastatin Calcium",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "high-dose statin or PCSK9 inhibitor group"
+          ],
+          "description": "40-80mg Qd for 6 months",
+          "name": "Atorvastatin Calcium",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "high-dose statin or PCSK9 inhibitor group"
+          ],
+          "description": "0.5g Bid for 6 months",
+          "name": "Probucol",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "high-dose statin or PCSK9 inhibitor group"
+          ],
+          "description": "Evolocumab 140mg subcutaneously injected, twice each month",
+          "name": "PCSK9 inhibitor",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Stroke, Ischemic",
+        "Atherosclerosis, Cerebral"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "450341972@qq.com",
+          "name": "Xinhong Wang, Doctor",
+          "phone": "15309885658",
+          "phoneExt": "024-28897512",
+          "role": "CONTACT"
+        },
+        {
+          "email": "314486939@qq.com",
+          "name": "Yu Cui, Master",
+          "phone": "18842398646",
+          "phoneExt": "024-28897512",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Shenyang",
+          "contacts": [
+            {
+              "email": "xiacheng1975@sina.com",
+              "name": "Cheng Xia, Ph.D",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "China",
+          "facility": "General Hospital of ShenYang Military Region",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Neurology Department",
+          "name": "Huisheng Chen, Doctor",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Intracranial atherosclerotic disease is the most common cause of ischemic stroke that is directly attributed to the progression or rupture of intracranial high-risk plaque in Asia. Many studies mainly from Euro-American population with a focus on extracranial carotid plaque have fully demonstrated the advantages of intensive statin therapy on stabilizing or reversing plaque burden, reversing plaque composition presenting that lipid-rich necrotic core (LRNC) is gradually replaced by fibrous tissue, and even reversing pattern of arterial remodeling to reduce the occurrence of cerebrovascular events. Yet, direct evidence of the effect of intensive statin therapy on intracranial atherosclerotic plaques is lacking and the effect of statin intensity and duration on intracranial plaque burden and composition is still unclear. High resolution magnetic resonance imaging (HRMRI) is a new and non-invasive technique that enable to assess the morphologic characteristics of vascular wall and plaque composition of intracranial artery. Based on above discussion, the investigators conduct this study to further determine the effect of intensive statin in ischemic stroke with intracranial atherosclerotic plaques."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patient age between 18-80 years\n2. Time of onset: within 1 week\n3. NIHSS score \u226412\n4. Acute ischemic stroke confirmed by head CT or MRI\n5. Premorbid mRS \u22641\n6. The degree of stenosis of carotid artery, vertebral artery and intracranial portion of internal carotid artery on the lesion side \\<50%\n7. The culprit plaque or possible culprit plaque with plaque burden of 40% or more found by HRMRI in the proximal part of the middle cerebral artery M1 segment or basilar artery of ipsilateral lesion\n8. Signed informed consent\n\nExclusion Criteria:\n\n1. Intracranial hemorrhage found by head CT\n2. Stroke attributable to cardioembolic origin (atrial fibrillation, valvular heart disease, aortic arch atherosclerosis)\n3. Severe hepatic or renal dysfunction\n4. Pregnant females\n5. Abnormal elevation of creatine phosphokinase\n6. Expected stent angioplasty\n7. Blood sugar is out of control\n8. Receiving statins within 1 month before onset\n9. Obstinate hypertension with more than 140/90 mmHg after medication\n10. Not willing and able to comply with scheduled visits, lifestyle guidelines, treatment plan, laboratory tests, and other study procedures\n11. Unsuitable for this clinical studies assessed by researcher",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "INSIST-HRMRI",
+      "briefTitle": "The Effect of InTensive Statin in Ischemic Stroke With inTracranial Atherosclerotic Plaques",
+      "nctId": "NCT03753555",
+      "officialTitle": "The Effect of InTensive Statin in Ischemic Stroke With inTracranial Atherosclerotic Plaques: a Prospective, Random, Single-center Study Based on High Resolution Magnetic Resonance Imaging",
+      "orgStudyIdInfo": {
+        "id": "k\uff082018\uff0944"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "General Hospital of Shenyang Military Region"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "remodeling index: crimed vessel area/normal vessel area on high-resolution MRI",
+          "measure": "Changes in remodeling index after the statin treatment",
+          "timeFrame": "baseline, 6 months, 12 months after treatment"
+        },
+        {
+          "description": "plaque burden: crimed vessel wall area/crimed vessel area on high-resolution MRI",
+          "measure": "Changes in plaque burden after the statin treatment",
+          "timeFrame": "baseline, 6 months, 12 months after treatment"
+        },
+        {
+          "description": "plaque composition: lipid core and fiber tissue of plaque on high-resolution MRI",
+          "measure": "Changes plaque composition in after the statin treatment",
+          "timeFrame": "baseline, 6 months, 12 months after treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Serum level of LDL\u3001hs-CRP\u3001sLOX1 and oxLDL",
+          "measure": "level of serum bio-markers compared with baseline",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Serum level of LDL\u3001hs-CRP\u3001sLOX1 and oxLDL",
+          "measure": "level of serum bio-markers compared with baseline",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "proportion of mRS (0-2)",
+          "measure": "mRS (0-2)",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "proportion of mRS (0-2)",
+          "measure": "mRS (0-2)",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "incidence of Transient ischemic attack, stroke or other vascular events",
+          "measure": "vascular events",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "incidence of Transient ischemic attack, stroke or other vascular events",
+          "measure": "vascular events",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "incidence of abnormal liver function or muscle enzyme levels",
+          "measure": "abnormal test data",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "incidence of adverse event",
+          "measure": "any adverse event",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "proportion of death",
+          "measure": "death of any causes",
+          "timeFrame": "12months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "General Hospital of Shenyang Military Region"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "General Hospital of Shenyang Military Region",
+        "investigatorFullName": "Hui-Sheng Chen",
+        "investigatorTitle": "Department Chairman",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-11-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-14",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-11-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2018-12-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-03",
+      "studyFirstPostDateStruct": {
+        "date": "2018-11-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-11-13",
+      "studyFirstSubmitQcDate": "2018-11-22"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06696235:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06696235\nBrief title: Accelerated vs. Standard Continuous Renal Replacement Therapy for Patients With Cardiogenic Shock Undergoing Veno-arterial ExtraCorporeal Membrane Oxygenator\nOfficial title: AcceleRatEd vs. StandarD ContinUous Renal ReplaCement ThErapy for Patients With Cardiogenic Shock Undergoing Veno-arterial ExtraCorporeal Membrane Oxygenator: Randomized-Controlled Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT06696235"
+    },
+    {
+      "chunk_id": "NCT06696235:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Cardiogenic Shock; Acute Kidney Injury\nIntervention labels: Early initiation of continuous renal replacement therapy; Standard initiation of continuous renal replacement therapy\nDrug class labels: \nArms: Accelerated initiation of CRRT; Standard initiation of CRRT\nKeywords: Extracorporeal Membrane Oxygenator; Cardiogenic Shock; Acute Kidney Injury; Continuous Renal Replacement Therapy",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT06696235"
+    },
+    {
+      "chunk_id": "NCT06696235:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study was designed to compare the safety and efficacy of early continuous renal replacement therapy with standard continuous renal replacement therapy in the presence of acute kidney injury (stage 2 or greater acute kidney injury according to the KDIGO \\[The Kidney Disease: Improving Global Outcomes\\] classification) in patients with advanced cardiogenic shock on extracorporeal membrane oxygenation.\nDetailed description: Patients with cardiogenic shock who are placed on extracorporeal membrane oxygenation devices often have increased afterload due to the retrograde arterial flow of the device, resulting in increased left ventricular filling pressures, and optimal full-load management in these patients may be important to improve prognosis. Previous observational studies have reported that the use of renal replacement therapy for full-load management in patients with cardiogenic shock on extracorporeal membrane oxygenation is effective and improves patient survival in cases of severe renal dysfunction when fluid volume reduction is maintained. However, to date, there have been no randomized controlled studies to identify the optimal timing of renal replacement therapy in patients with cardiogenic shock on extracorporeal membrane oxygenation.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 176,
+      "trial_nct_id": "NCT06696235"
+    },
+    {
+      "chunk_id": "NCT06696235:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* The subject must be at least 19 years of age.\n* Patients presented with CS (Society for Cardiovascular Angiography and Interventions \\[SCAI\\] Shock classification C, D or E) \\* who requiring VA-ECMO.\n* Classic CS (Stage C) was defined as the following criteria. A. Systolic blood pressure less than 90 mmHg for more than 30 min or catecholamines required to maintain pressure more than 90 mmHg during systole. B. Sign of pulmonary congestion\n\nC. Sign of impaired organ perfusion with at least one of the following:\n\n1. altered mental status.\n2. cold, clammy skin and extremities.\n3. oliguria with urine output \\< 30ml/h.\n4. serum lactate \\> 2.0 mmol/l.\n\n   * SCAI Shock classification D is defined as failure to respond to initial interventions with clinical deterioration of classic CS or SCAI Shock classification E is defined as cardiac arrest with ongoing cardiopulmonary resuscitation requiring VA-ECMO\n   * Patients in the first 48 hours of CS developing AKI with at least one criterion (Characteristic of the stage 2 AKI according to Kidney Disease: Improving Global Outcomes \\[KDIGO\\] classification)\n   * A 2-fold or over increase in serum creatinine relative to baseline\n   * A reduction in urine output of \u22640.5 ml/kg/h for \u2265 12 hours\n\nExclusion Criteria:\n\n* Other causes of shock (hypovolemia, sepsis, obstructive shock).\n* Criteria mandating CRRT initiation: acute kidney injury prior to enrollment caused by any reason, at least one of the following criteria is met.\n* serum potassium \\> 6.5 mmol/L\n* serum potassium\\> 6.0 mmol/L persisting despite medical treatment.\n* metabolic acidosis (pH \\< 7.15 and PaCO2 \\< 35 mmHg or serum bicarbonate \\< 12 mmol/L)\n* blood urea nitrogen level \u2265100 mg/dL.\n* diuretics refractory volume overload or pulmonary edema\n* Unwitnessed out-of-hospital cardiac arrest with persistent Glasgow coma scale \\<8 after the return of spontaneous circulation.\n* Chronic kidney disease (CKD) with estimated glomerular filtration rate (eGFR)\\<30 mL/min/1.73m2 or end-stage kidney disease under dialysis\n* Kidney transplant within the past 365 days\n* Receipt of any RRT in the preceding 2 months\n* Known heparin intolerance.\n* Other severe concomitant disease with limited life expectancy \\< 6 months\n* Pregnancy or breastfeeding\n* Do not resuscitate wish.\n* Presence of a drug overdose or dialyzable toxin that necessitates RRT.\n* Presence or strong clinical suspicion of post-renal AKI duet to obstruction, rapidly progressive glomerulonephritis, vasculitis, thrombotic microangiopathy or acute interstitial nephritis\n* Clinical decision by a responsible physician to immediately start RRT.\n* Clinical decision by a responsible physician to defer RRT.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 436,
+      "trial_nct_id": "NCT06696235"
+    },
+    {
+      "chunk_id": "NCT06696235:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=all-cause mortality or RRT dependence | time_frame=90 days after patient enrollment\ntype=secondary | measure=In-hospital mortality | time_frame=Up to 30 days\ntype=secondary | measure=In-hospital cardiac mortality | time_frame=Up to 30 days\ntype=secondary | measure=VA-ECMO weaning success | time_frame=Up to 30 days\ntype=secondary | measure=Time to VA-ECMO weaning | time_frame=Up to 30 days\ntype=secondary | measure=Critical limb ischemia | time_frame=Up to 30 days\ntype=secondary | measure=Access site major bleeding | time_frame=Up to 30 days | description=Bleeding Academic Research Consortium \\[BARC\\] type 3-5\ntype=secondary | measure=CPC 3-5 | time_frame=Up to 30 days | description=Cerebral Performance Category\ntype=secondary | measure=Length of intensive-care unit stay | time_frame=Up to 30 days | description=ICU Stay\ntype=secondary | measure=Length of hospital stay | time_frame=Up to 30 days | description=Hospital stay\ntype=secondary | measure=Duration of mechanical ventilation | time_frame=Up to 30 days | description=Mechanical Ventilation Maintenance\ntype=secondary | measure=Duration of RRT | time_frame=Up to 30 days | description=Renal Replacement Therapy\ntype=secondary | measure=all-cause mortality | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=cardiac mortality | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=Requirement of cardiac replacement therapy | time_frame=90 days & 12 months after patient enrollment | description=Left ventricular assisted device implantation or heart transplantation\ntype=secondary | measure=re-hospitalization due to heart failure | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=re-hospitalization due to any cause | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=cerebrovascular accident | time_frame=90 days & 12 months after patient enrollment | description=ischemic or hemorrhagic\ntype=secondary | measure=RRT dependence | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=Serum creatinine and eGFR | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=major bleeding (BARC type 3, or 5) | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=clinically meaningful bleeding (BARC type 2, 3, or 5) | time_frame=90 days & 12 months after patient enrollment\ntype=secondary | measure=Patients in the standard strategy group who received emergency RRT before 48 hours, according to criterion | time_frame=Up to 48 hours",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 342,
+      "trial_nct_id": "NCT06696235"
+    },
+    {
+      "chunk_id": "NCT06696235:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-12-31\nPrimary completion date: 2028-12-31\nCompletion date: 2029-06-30\nStudy first posted: 2024-11-20\nResults first posted: None\nLast update posted: 2026-01-05\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06696235"
+    },
+    {
+      "chunk_id": "NCT06696235:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Samsung Medical Center\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; NOT_YET_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06696235"
+    }
+  ],
+  "trial_nct_id": "NCT06696235"
+}

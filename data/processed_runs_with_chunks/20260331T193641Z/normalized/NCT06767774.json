@@ -1,0 +1,215 @@
+{
+  "arms": [
+    {
+      "description": "fixed dose single-pill combination of pitavastatin 4mg plus ezetimibe 10mg",
+      "intervention_names": [
+        "Drug: Combination therapy"
+      ],
+      "label": "Combination therapy",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Rosuvastatin 20mg",
+      "intervention_names": [
+        "Drug: High intensity statin monotherapy"
+      ],
+      "label": "High intensity statin monotherapy",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "ASCVD",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Diabetes",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Statin",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Age Requirement:\n\n  * Patients aged 18 years or older.\n\nGlycemic Status:\n\n* Patients who are not taking oral hypoglycemic agents (OHAs) and meet all of the following criteria:\n\n  * Fasting glucose less than 126 mg/dL.\\*\n  * HbA1c less than 6.5%.\n  * Plasma glucose less than 200 mg/dL after 2 hours during a 75 g oral glucose tolerance test (OGTT).\\*Note: For fasting glucose, two measurements of 126 mg/dL or greater within 3 months are required for a diagnosis of diabetes.\n\nCardiovascular Disease:\n\n* Patients with established atherosclerotic cardiovascular disease, defined as having at least one of the following:\n\n  * Coronary Heart Disease (CHD):\n\n    * Documented history of myocardial infarction (MI).\n    * History of coronary revascularization.\n\n      * 50% stenosis of a major epicardial coronary artery confirmed by cardiac catheterization, computed tomography (CT), or coronary angiography.\n  * Cerebrovascular Disease:\n\n    \\>History of stroke of atherosclerotic origin.\n    * History of carotid revascularization.\n\n      \\>\u226550% stenosis of the carotid artery confirmed by X-ray angiography, magnetic resonance (MR) angiography, CT angiography, or Doppler ultrasound.\n  * Symptomatic Peripheral Arterial Disease (PAD):\n\n    \\>Intermittent claudication with an ankle-brachial index (ABI) of 0.90 at rest.\n    * Intermittent claudication with \u226550% stenosis of a peripheral artery (excluding the carotid artery) confirmed by X-ray angiography, MR angiography, CT angiography, or Doppler ultrasound.\n    * History of revascularization of peripheral arteries (excluding carotid arteries).\n    * Lower extremity amputation at or above the ankle due to atherosclerotic disease (excluding trauma or osteomyelitis).\n\nDietary Requirements:\n\n* Patients must be on a stable diet prior to randomization and able to adhere to the National Cholesterol Education Program (NCEP) Therapeutic Lifestyle Change (TLC) diet or an equivalent throughout the study.\n\nInformed Consent:\n\n* Subjects or their legal representatives must provide written informed consent to the study protocol and clinical follow-up schedule.\n* An informed consent form approved by the institutional review board (IRB)/ethics committee of the study site must be signed.\n\nExclusion Criteria:\n\n* Patient is pregnant or breastfeeding or of childbearing potential.\n* Requires concomitant administration of strong inhibitors of CYP3A4 (itraconazole, ketoconazole, protease inhibitors, erythromycin, clarithromycin, telithromycin, and nefazodone) or CYP2C9 (relative contraindication not dependent on CYP450 statins).\n* Chronic kidney disease (eGFR \\< 30 ml/min/1.73m\u00b2) or dialysis-dependent renal failure.\n* Uncontrolled hypothyroidism.\n* Personal or family history of an inherited muscle disorder.\n* History of statin-induced muscle toxicity.\n* Alcohol-dependent person.\n* Hypersensitivity to statins and ezetimibe.\n* Hemodynamic instability at the time of enrollment: cardiogenic shock, refractory ventricular arrhythmia, or congestive heart failure (New York Heart Association class IV) at randomization.\n* History of hemorrhagic stroke or intracranial hemorrhage, TIA, or ischemic stroke within the past 6 months.\n* Planned surgery requiring discontinuation of statins or ezetimibe within 6 months of randomization.\n* Current treatment for active cancer.\n* Clinically significant abnormal findings identified at the screening visit, physical examination, laboratory tests, or electrocardiogram that, in the investigator's judgment, may interfere with safe completion of the study.\n* Liver disease or biliary obstruction, elevated liver enzymes (ALT or AST \\> the upper limit of normal) or elevated total bilirubin (total bilirubin \\> 2 times the upper limit of normal) at screening.\n* Life expectancy for noncardiac or cardiac causes \\< 1 year.\n* Unwillingness or inability to comply with the procedures described in this protocol.\n* Previously diagnosed with diabetes mellitus and compliant with lifestyle modification and taking oral hypoglycemic agents (OHAs) or insulin.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Combination therapy"
+      ],
+      "description": "* pitavastatin 4mg\n* ezetimibe 10mg",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Combination therapy",
+      "normalized_name": "combination therapy"
+    },
+    {
+      "arm_group_labels": [
+        "High intensity statin monotherapy"
+      ],
+      "description": "rosuvastatin 20mg",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "High intensity statin monotherapy",
+      "normalized_name": "high intensity statin monotherapy"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "new-onset diabetes mellitus meeting diagnostic criteria for conventional diabetes during the treatment period",
+      "outcome_type": "primary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "1. Composite of major clinical events of cardiovascular disease (death from cardiovascular disease, nonfatal myocardial infarction or nonfatal stroke)",
+      "outcome_type": "secondary",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Reperfusion procedure for any type of artery",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "3. Individual components of the composite of major clinical events of cardiovascular disease",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Death from any cause",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "An element of the criteria met at diagnosis of diabetes mellitus",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "HOMA-IR",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Incidence of statin side effect",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": "Proportion of patients achieving \u226580% adherence to prescribed medication from baseline to 3 years",
+      "measure": "Drug Adherence",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Change in LDL cholesterol during follow-up",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Change in HbA1c during follow-up",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Change in Fasting glucose during follow-up",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    },
+    {
+      "description": null,
+      "measure": "Change in Insulin during follow-up",
+      "outcome_type": "other",
+      "time_frame": "3 years"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The AVOID-DM trial is a multicenter, prospective, randomized study comparing the risk of new-onset diabetes mellitus (DM) between two cholesterol-lowering strategies in patients with prediabetes and established atherosclerotic cardiovascular disease (ASCVD). The study evaluates pitavastatin plus ezetimibe combination therapy versus high-intensity statin monotherapy (rosuvastatin 20 mg). Enrolling 2,000 non-diabetic participants with ASCVD, subjects are randomized 1:1 into the two treatment arms. The primary outcome is the incidence of new-onset DM over a follow-up period of up to 36 months. Secondary outcomes include cardiovascular events, changes in LDL cholesterol, fasting glucose, HbA1c, and insulin resistance. This trial hypothesizes that the combination therapy will achieve LDL targets with a lower risk of new-onset DM compared to high-intensity statin monotherapy.",
+    "brief_title": "Comparison of Pitavastatin Plus Ezetimibe Versus High-Intensity Statin Therapy on Risk of New-Onset Diabetes Mellitus",
+    "collaborator_names": [
+      "Daewon Pharmaceutical Co., Ltd.",
+      "Samjin Pharmaceutical Co., Ltd."
+    ],
+    "completion_date": "2030-01-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Age Requirement:\n\n  * Patients aged 18 years or older.\n\nGlycemic Status:\n\n* Patients who are not taking oral hypoglycemic agents (OHAs) and meet all of the following criteria:\n\n  * Fasting glucose less than 126 mg/dL.\\*\n  * HbA1c less than 6.5%.\n  * Plasma glucose less than 200 mg/dL after 2 hours during a 75 g oral glucose tolerance test (OGTT).\\*Note: For fasting glucose, two measurements of 126 mg/dL or greater within 3 months are required for a diagnosis of diabetes.\n\nCardiovascular Disease:\n\n* Patients with established atherosclerotic cardiovascular disease, defined as having at least one of the following:\n\n  * Coronary Heart Disease (CHD):\n\n    * Documented history of myocardial infarction (MI).\n    * History of coronary revascularization.\n\n      * 50% stenosis of a major epicardial coronary artery confirmed by cardiac catheterization, computed tomography (CT), or coronary angiography.\n  * Cerebrovascular Disease:\n\n    \\>History of stroke of atherosclerotic origin.\n    * History of carotid revascularization.\n\n      \\>\u226550% stenosis of the carotid artery confirmed by X-ray angiography, magnetic resonance (MR) angiography, CT angiography, or Doppler ultrasound.\n  * Symptomatic Peripheral Arterial Disease (PAD):\n\n    \\>Intermittent claudication with an ankle-brachial index (ABI) of 0.90 at rest.\n    * Intermittent claudication with \u226550% stenosis of a peripheral artery (excluding the carotid artery) confirmed by X-ray angiography, MR angiography, CT angiography, or Doppler ultrasound.\n    * History of revascularization of peripheral arteries (excluding carotid arteries).\n    * Lower extremity amputation at or above the ankle due to atherosclerotic disease (excluding trauma or osteomyelitis).\n\nDietary Requirements:\n\n* Patients must be on a stable diet prior to randomization and able to adhere to the National Cholesterol Education Program (NCEP) Therapeutic Lifestyle Change (TLC) diet or an equivalent throughout the study.\n\nInformed Consent:\n\n* Subjects or their legal representatives must provide written informed consent to the study protocol and clinical follow-up schedule.\n* An informed consent form approved by the institutional review board (IRB)/ethics committee of the study site must be signed.\n\nExclusion Criteria:\n\n* Patient is pregnant or breastfeeding or of childbearing potential.\n* Requires concomitant administration of strong inhibitors of CYP3A4 (itraconazole, ketoconazole, protease inhibitors, erythromycin, clarithromycin, telithromycin, and nefazodone) or CYP2C9 (relative contraindication not dependent on CYP450 statins).\n* Chronic kidney disease (eGFR \\< 30 ml/min/1.73m\u00b2) or dialysis-dependent renal failure.\n* Uncontrolled hypothyroidism.\n* Personal or family history of an inherited muscle disorder.\n* History of statin-induced muscle toxicity.\n* Alcohol-dependent person.\n* Hypersensitivity to statins and ezetimibe.\n* Hemodynamic instability at the time of enrollment: cardiogenic shock, refractory ventricular arrhythmia, or congestive heart failure (New York Heart Association class IV) at randomization.\n* History of hemorrhagic stroke or intracranial hemorrhage, TIA, or ischemic stroke within the past 6 months.\n* Planned surgery requiring discontinuation of statins or ezetimibe within 6 months of randomization.\n* Current treatment for active cancer.\n* Clinically significant abnormal findings identified at the screening visit, physical examination, laboratory tests, or electrocardiogram that, in the investigator's judgment, may interfere with safe completion of the study.\n* Liver disease or biliary obstruction, elevated liver enzymes (ALT or AST \\> the upper limit of normal) or elevated total bilirubin (total bilirubin \\> 2 times the upper limit of normal) at screening.\n* Life expectancy for noncardiac or cardiac causes \\< 1 year.\n* Unwillingness or inability to comply with the procedures described in this protocol.\n* Previously diagnosed with diabetes mellitus and compliant with lifestyle modification and taking oral hypoglycemic agents (OHAs) or insulin.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 2000,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Combination therapy",
+      "High intensity statin monotherapy"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-04-27",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Korea University Anam Hospital",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06767774",
+    "official_title": "Comparison of Pitavastatin Plus Ezetimibe Versus High-Intensity Statin Therapy on Risk of New-Onset Diabetes Mellitus in Prediabetic Patients With Atherosclerotic Cardiovascular Disease",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2029-08-31",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06767774",
+    "start_date": "2025-04-25",
+    "study_first_posted_at": "2025-01-10",
+    "study_type": "INTERVENTIONAL"
+  }
+}

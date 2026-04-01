@@ -1,0 +1,161 @@
+{
+  "arms": [
+    {
+      "description": "Aspirin and Clopidogrel (Plavix) for 1-month post-procedure followed by Aspirin indefinitely.\n\nDual antiplatelet therapy (DAPT), defined as the use of Clopidogrel (75 mg/day) (Plavix) and aspirin (81 mg or more/day). Single antiplatelet therapy (SAPT), defined as the use of aspirin (81 mg or more/day).",
+      "intervention_names": [
+        "Drug: Clopidogrel (Plavix) Pharmacogenetic Test Reagents"
+      ],
+      "label": "Dual antiplatelet therapy 1-Month followed by single antiplatelet therapy indefinitely",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Aspirin and Clopidogrel (Plavix) for 6-months post-procedure followed by Aspirin indefinitely.\n\nDual antiplatelet therapy (DAPT), defined as the use of Clopidogrel (75 mg/day) (Plavix) and aspirin (81 mg or more/day). Single antiplatelet therapy (SAPT), defined as the use of aspirin (81 mg or more/day).",
+      "intervention_names": [
+        "Drug: Clopidogrel (Plavix) Pharmacogenetic Test Reagents"
+      ],
+      "label": "Dual antiplatelet therapy 6-Month followed by single antiplatelet therapy indefinitely",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Peripheral Arterial Disease",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Age greater than or equal to 45 at time of enrollment\n* Patient is scheduled for a PVI or has recently had a PVI in the last 30 days\n* Patient data is being submitted to Fivos, who is acting as the data collection subcontractor for the VQI-PVI registry.\n* Atherosclerotic vascular disease\n\nExclusion Criteria:\n\n* Patients who cannot consent for themselves\n* Allergy to Clopidogrel\n* Patients unable to stop clopidogrel for other medical reasons\n* Patients on dual pathway inhibition (DPI) with low dose rivaroxaban (2.5mg twice a day) that are unable to stop these medications\n* Allergy to aspirin\n* Nonatherosclerotic vascular disease\n* Patients undergoing open bypass at the same time as the peripheral transcutaneous angioplasty\n* Patients with high bleeding risk (HBR) defined as:\n\n  * History of major bleeding, active bleeding disorder, severe renal impairment (CrCl \\<30), concurrent anticoagulation, platelet count \\<100,000\n  * Recent stroke (within 6 months)\n  * Current warfarin therapy or full dose therapeutic direct oral anticoagulants (DOAC).\n* Patients unwilling or unable to comply with standard of care follow-up visits\n* Pregnant women\n* Prisoners",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "45 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Dual antiplatelet therapy 1-Month followed by single antiplatelet therapy indefinitely",
+        "Dual antiplatelet therapy 6-Month followed by single antiplatelet therapy indefinitely"
+      ],
+      "description": "Dual antiplatelet therapy (DAPT), defined as the use of Clopidogrel (75 mg/day) (clopidogrel) and aspirin (81 mg or more/day). Single antiplatelet therapy (SAPT), defined as the use of aspirin (81 mg or more/day).",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Clopidogrel (Plavix) Pharmacogenetic Test Reagents",
+      "normalized_name": "clopidogrel (plavix) pharmacogenetic test reagents"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "NOT_YET_RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Patients who undergo PVI that meet inclusion criteria and are offered enrollment.",
+      "measure": "The proportion of patients eligible who are offered study enrollment",
+      "outcome_type": "primary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Patients who meet inclusion criteria and agree to participate in trial vs those that do not agree to participate in trial",
+      "measure": "The proportion of eligible patients who consent to enrollment and randomization",
+      "outcome_type": "primary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The number of enrolled patients that have the occurrence of one of the following stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.",
+      "measure": "The proportion of enrolled patients who have the primary (composite) event of interest defined at 6 months",
+      "outcome_type": "primary",
+      "time_frame": "6-months"
+    },
+    {
+      "description": "The number of enrolled patients that have the occurrence of one of the following stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.",
+      "measure": "The proportion of enrolled patients who have the primary (composite) event of interest defined at 12 months",
+      "outcome_type": "primary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Of the enrolled patients that have a medical primary event how many individuals were in each category stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.",
+      "measure": "The numbers and proportions of patients who have each type of major event",
+      "outcome_type": "primary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Major event status at 1, 6-months post PVI and 12-month post PVI",
+      "measure": "The proportions of patients who have major event status recorded at each observation time",
+      "outcome_type": "primary",
+      "time_frame": "1 year"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The purpose of this investigator-initiated, multicenter, open label, randomized trial is to evaluate 1 month vs. 6 months of dual antiplatelet therapy (DAPT) in patients undergoing lower extremity endovascular revascularization. We hypothesize that extending dual antiplatelet therapy (DAPT) to six months, compared to one month, will improve patency rates of target vessels following peripheral vascular intervention (PVI) without significantly increasing complications, particularly bleeding events.",
+    "brief_title": "Vascular Trial Associated Registry Pilot",
+    "collaborator_names": [
+      "Henry Ford Hospital"
+    ],
+    "completion_date": "2028-10-30",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Age greater than or equal to 45 at time of enrollment\n* Patient is scheduled for a PVI or has recently had a PVI in the last 30 days\n* Patient data is being submitted to Fivos, who is acting as the data collection subcontractor for the VQI-PVI registry.\n* Atherosclerotic vascular disease\n\nExclusion Criteria:\n\n* Patients who cannot consent for themselves\n* Allergy to Clopidogrel\n* Patients unable to stop clopidogrel for other medical reasons\n* Patients on dual pathway inhibition (DPI) with low dose rivaroxaban (2.5mg twice a day) that are unable to stop these medications\n* Allergy to aspirin\n* Nonatherosclerotic vascular disease\n* Patients undergoing open bypass at the same time as the peripheral transcutaneous angioplasty\n* Patients with high bleeding risk (HBR) defined as:\n\n  * History of major bleeding, active bleeding disorder, severe renal impairment (CrCl \\<30), concurrent anticoagulation, platelet count \\<100,000\n  * Recent stroke (within 6 months)\n  * Current warfarin therapy or full dose therapeutic direct oral anticoagulants (DOAC).\n* Patients unwilling or unable to comply with standard of care follow-up visits\n* Pregnant women\n* Prisoners",
+    "detailed_description": "The Main Objective of this study is to create an investigator-initiated, multicenter, open label, randomized trial to evaluate 1 month vs. 6 months of DAPT in patients undergoing lower extremity endovascular revascularization. The randomization will be 1:1 within one strata (diabetes yes/no), using blocks of varying sizes. All patients will be on DAPT for one month. At the time of the one-month visit, eligible patients who consent will be randomized to single antiplatelet therapy (SAPT) indefinitely (Arm 1) or to DAPT for 5 more months (followed by SAPT) (Arm 2). Follow-up will continue for 12-months post-procedure and will include assessment of MACE and MALE, as well as adverse bleeding events. Data for this trial will be collected via nested participation in the VQI Peripheral Vascular Intervention (PVI) registry's existing Procedural and Follow-up data collection modules.",
+    "drug_class_labels": [],
+    "enrollment_count": 350,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Clopidogrel (Plavix) Pharmacogenetic Test Reagents"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Peripheral Vascular Disease (PVD), Peripheral Vascular Intervention (PVI), Dual Antiplatelet therapy (DAPT), Peripheral Arterial Disease (PAD)"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-07",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Corewell Health West",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "45 Years",
+    "nct_id": "NCT07076082",
+    "official_title": "Vascular Trial Associated Registry Pilot: Antiplatelet Therapies for Patients Undergoing Lower Extremity Endovascular Revascularization",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2027-10-30",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07076082",
+    "start_date": "2025-10-15",
+    "study_first_posted_at": "2025-07-21",
+    "study_type": "INTERVENTIONAL"
+  }
+}

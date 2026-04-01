@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06597006:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06597006\nBrief title: Study to Evaluate Safety, Tolerability and Efficacy of Inclisiran in Children With Homozygous Familial Hypercholesterolemia\nOfficial title: Two Part (Double-blind Inclisiran Versus Placebo [Year 1] Followed by Open-label Inclisiran [Year 2]) Randomized Multicenter Study to Evaluate Safety, Tolerability, and Efficacy of Inclisiran in Children (2 to Less Than 12 Years) With Homozygous Familial Hypercholesterolemia and Elevated LDL-cholesterol\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 70,
+      "trial_nct_id": "NCT06597006"
+    },
+    {
+      "chunk_id": "NCT06597006:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Familial Hypercholesterolemia - Homozygous\nIntervention labels: Inclisiran; Placebo\nDrug class labels: \nArms: Inclisiran; Placebo\nKeywords: Homozygous familial hypercholesterolemia (HoFH),; LDL-cholesterol (LDL-C), children, pediatric,; small interfering ribonucleic acid (siRNA),; inclisiran,; Familial Hypercholesterolemia,; Homozygous FH,; Hypercholesterolemia,; Lipoprotein(a),; Hyperlipidemia,; Dyslipidemia,; Cardiovascular Diseases,; Heart Failure,; Cholesterol,; Aortic Stenosis",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 48,
+      "trial_nct_id": "NCT06597006"
+    },
+    {
+      "chunk_id": "NCT06597006:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a pivotal phase III study designed to evaluate safety, tolerability, and efficacy of inclisiran in children (aged 2 to \\<12 years) with homozygous familial hypercholesterolemia (HoFH) and elevated low density lipoprotein cholesterol (LDLC).\nDetailed description: This is a two-part (1 year double-blind inclisiran versus placebo / 1 year open-label inclisiran) multicenter study designed to evaluate safety, tolerability, and efficacy of inclisiran in children (aged 2 to \\<12 years) with homozygous familial hypercholesterolemia (HoFH) and elevated low density lipoprotein cholesterol (LDL-C) on stable standard of care background lipid-lowering therapy.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 92,
+      "trial_nct_id": "NCT06597006"
+    },
+    {
+      "chunk_id": "NCT06597006:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 2 Years\nMaximum age: 11 Years\nAge groups: CHILD\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Male or female participants, 2 to \\<12 years of age at screening\n* HoFH diagnosed by genetic confirmation\n\n  \\- Note: Participants with known null (negative) mutations in both LDLR alleles are not eligible (see also exclusion criteria)\n* Fasting LDL-C \\>130 mg/dL (3.4 mmol/L) at screening\n* On an optimal dose of statin (investigator's discretion), unless statin intolerant, with or without other lipid-lowering therapy (e.g. ezetimibe)\n* Participants on lipid-lowering therapies (such as e.g. statins, ezetimibe) must be on a stable dose for \u226530 days before screening with no planned medication or dose changes during study participation\n* Participants on a documented regimen of LDL-apheresis for \u2265 3 months before screening will be allowed to continue the apheresis during the study, if needed. The apheresis schedule/settings/duration must be stable prior to screening, are not allowed to change during the double-blind period of the trial and must permit that an apheresis coincides with each study visit.\n\nExclusion Criteria:\n\n* Documented evidence of a null (negative) mutation in both LDLR alleles\n* Previous treatment (within 90 days of screening) with monoclonal antibodies directed towards PCSK9\n* History of poor response to therapy with any monoclonal antibody directed towards PCSK9 (e.g. \\<15% reduction in LDL-C)\n* Treatment with mipomersen or lomitapide (within 5 months of screening)\n* Secondary hypercholesterolemia, e.g. hypothyroidism or nephrotic syndrome\n* Heterozygous familial hypercholesterolemia (HeFH)\n* Body weight (at the screening and/or randomization (Day 1) visit) \\<16 kg for participants 6 to \\<12 years (at screening) or \\<11 kg for participants 2 to \\<6 years (at screening)\n* Active liver disease defined as any known current infectious, neoplastic, or metabolic pathology of the liver or unexplained alanine aminotransferase (ALT), aspartate aminotransferase (AST) elevation \\>3x ULN, or total bilirubin elevation \\>2x ULN (except patients with Gilbert's syndrome)\n* Pregnant or nursing females\n* Recent and/or planned use of other investigational medicinal products or devices",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 334,
+      "trial_nct_id": "NCT06597006"
+    },
+    {
+      "chunk_id": "NCT06597006:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Percentage change in LDL-C from baseline to Day 330 (Year 1) | time_frame=Baseline and Day 330 | description=Evaluate the effect of inclisiran compared to placebo on reducing LDL-C \\[percent change\\] at Day 330\ntype=secondary | measure=Time-adjusted percent change in LDL-C from baseline after Day 90 and up to Day 330 (Year 1) | time_frame=Baseline, after Day 90 up to Day 330 | description=Evaluate the effect of inclisiran compared to placebo on reducing LDL-C \\[time-adjusted percent change\\] over Year 1\ntype=secondary | measure=Percent change in LDL-C, total cholesterol, non-HDL-C, triglycerides, HDL-C, VLDL-C from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time\ntype=secondary | measure=Percent change in PCSK9 from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time\ntype=secondary | measure=Percent change in Apo B, Apo A1 from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time\ntype=secondary | measure=Absolute change in LDL-C, total cholesterol, non-HDL-C, triglycerides, HDL-C, VLDL-C from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time\ntype=secondary | measure=Absolute change in PCSK9 from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time\ntype=secondary | measure=Absolute change in Apo B, Apo A1 from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time\ntype=secondary | measure=Percent change in Lp(a) from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time\ntype=secondary | measure=Absolute change in Lp(a) from baseline to each assessment time up to Day 720 (Year 2) | time_frame=Baseline, up to Day 720 | description=Evaluate the effect of inclisiran, compared to placebo (for Year 1) and long-term (up to Day 720), on lowering LDL-C, other lipoprotein and lipid parameters, and PCSK9 over time",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 531,
+      "trial_nct_id": "NCT06597006"
+    },
+    {
+      "chunk_id": "NCT06597006:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-02-28\nPrimary completion date: 2028-03-23\nCompletion date: 2029-04-15\nStudy first posted: 2024-09-19\nResults first posted: None\nLast update posted: 2026-02-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06597006"
+    },
+    {
+      "chunk_id": "NCT06597006:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT06597006"
+    }
+  ],
+  "trial_nct_id": "NCT06597006"
+}

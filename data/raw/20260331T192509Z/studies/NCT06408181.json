@@ -1,0 +1,357 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D046110",
+          "term": "Hypertension, Pregnancy-Induced"
+        },
+        {
+          "id": "D011248",
+          "term": "Pregnancy Complications"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D011225",
+          "term": "Pre-Eclampsia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will take 2 81mg aspirin tablets daily from entrance into the trial until delivery.",
+          "interventionNames": [
+            "Drug: Aspirin 162 mg"
+          ],
+          "label": "Double low-dose aspirin",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Participants will take 2 placebo pills from entrance into the study until 12 weeks gestational age, they will then take 1 placebo pill and 1 81mg aspirin until delivery.",
+          "interventionNames": [
+            "Drug: Aspirin 81mg"
+          ],
+          "label": "Standard of Care",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Double low-dose aspirin"
+          ],
+          "description": "Aspirin is a nonsteroidal anti-inflammatory drug.",
+          "name": "Aspirin 162 mg",
+          "otherNames": [
+            "acetylsalicylic acid",
+            "ASA"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Standard of Care"
+          ],
+          "description": "Aspirin is a nonsteroidal anti-inflammatory drug.",
+          "name": "Aspirin 81mg",
+          "otherNames": [
+            "acetylsalicylic acid",
+            "ASA"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pre-Eclampsia",
+        "Pregnancy Loss"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "kbarnhart@pennmedicine.upenn.edu",
+          "name": "Kurt T Barnhart, MD",
+          "phone": "215-662-2974",
+          "role": "CONTACT"
+        },
+        {
+          "email": "enrique.schisterman@pennmedicine.upenn.edu",
+          "name": "Enrique Schisterman, PhD",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Philadelphia",
+          "contacts": [
+            {
+              "email": "theresa.delahanty@pennmedicine.upenn.edu",
+              "name": "Theresa Delahanty",
+              "role": "CONTACT"
+            },
+            {
+              "email": "andrea.morley@pennmedicine.upenn.edu",
+              "name": "Andrea Morley",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Pennsylvania",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "19104"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Pennsylvania",
+          "name": "Enrique Schisterman, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "University of Pennsylvania",
+          "name": "Kurt Barnhart, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to investigate the effects of early initiation of double low-dose aspirin in pregnant women. The main questions it aims to answer are:\n\nDoes this dose and timing of aspirin reduce the risk of pre-eclampsia compared to standard recommendations? Does this dose and timing of aspirin reduce the risk of pregnancy loss compared to standard recommendations? Participants will begin taking at no later than 6 weeks 6 days gestational age, either 162mg of aspirin through delivery or placebo until 12 weeks and then 81mg of aspirin through delivery."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 1150,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n1. Provision of signed and dated informed consent form.\n2. Stated willingness to comply with all study procedures and availability for the duration of the study.\n3. Ability to take oral medication and be willing to adhere to the prescribed aspirin regimen.\n4. Patients with a gestation less than or equal to 6 weeks, 6 days (as determined by patient record of LMP or ART date).\n5. Patients between 18-45-year old who have one or more risk factors for preeclampsia and/or pregnancy loss, including:\n\n   1. preeclampsia in a previous pregnancy,\n   2. gestational diabetes in a previous pregnancy,\n   3. any documentation of fetal growth restriction or low birth weight in a prior pregnancy,\n   4. preterm birth in a previous pregnancy,\n   5. known multifetal gestation at enrollment,\n   6. chronic hypertension,\n   7. pregestational diabetes,\n   8. kidney disease,\n   9. systemic lupus erythematosus,\n   10. nulliparity,\n   11. pre-pregnancy body mass index \\>30,\n   12. family history of preeclampsia (i.e., mother or sister),\n   13. Black persons (due to social, not biological reasons),\n   14. Maternal age 35 years or older,\n   15. lower income (will be determined by qualification of public health insurance),\n   16. conceived with fertility treatment (including in vitro fertilization, ovulation induction, or intrauterine insemination),\n   17. history of one or more prior pregnancy losses \\<20 weeks gestation,\n   18. history of stillbirth in a prior pregnancy,\n   19. An interval of greater than 10 years since the last pregnancy.\n\nExclusion Criteria\n\n1. Known allergies to aspirin or non-steroidal anti-inflammatory agents (NSAID);\n2. Clinical indication for anticoagulant therapy, including prior or current thrombosis, antiphospholipid syndrome, or known major thrombophilia;\n3. Clinical indication for chronic use of NSAIDS during pregnancy;\n4. Medical contraindication to aspirin therapy, including untreated uncontrolled asthma, untreated symptomatic nasal polyps, bleeding disorders, or history of gastrointestinal ulcer.\n5. Patients with pelvic pain or bleeding who require urgent care (i.e., active vaginal bleeding greater than or equal to expected menses, open cervical os suggesting active miscarriage or severe pain requiring evaluation for ectopic pregnancy)",
+      "healthyVolunteers": false,
+      "maximumAge": "45 Years",
+      "minimumAge": "18 Years",
+      "sex": "FEMALE",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "APPLE",
+      "briefTitle": "APPLE: Aspirin to Prevent Pregnancy Loss and Preeclampsia",
+      "nctId": "NCT06408181",
+      "officialTitle": "APPLE: Aspirin to Prevent Pregnancy Loss and Preeclampsia",
+      "orgStudyIdInfo": {
+        "id": "854886"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Pennsylvania"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1R01HD112308-01",
+          "link": "https://reporter.nih.gov/quickSearch/1R01HD112308-01",
+          "type": "NIH"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "defined as two blood pressures (BPs) \u2265 140/90 mmHg at least 4 hours apart with proteinuria",
+          "measure": "Preeclampsia with or without severe features",
+          "timeFrame": "from 20 weeks pregnancy to delivery, approximately 20 weeks"
+        },
+        {
+          "description": "Pregnancy loss prior to 24 weeks gestation",
+          "measure": "Pregnancy Loss",
+          "timeFrame": "from enrollment to time of pregnancy loss, up to 24 weeks gestation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "This composite outcome will include the diagnosis of any of the following: preterm preeclampsia, term preeclampsia, gestational hypertension, preeclampsia with severe features, preeclampsia without severe features, biochemical pregnancy loss, clinical pregnancy loss",
+          "measure": "Composite outcome of hypertensive disorders of pregnancy or pregnancy loss",
+          "timeFrame": "From enrollment to end of pregnancy, up to 38 weeks"
+        },
+        {
+          "description": "Diagnosis of preterm preeclampsia, occurring prior to 37 weeks in pregnancy",
+          "measure": "Preterm preeclampsia",
+          "timeFrame": "From enrollment up to 37 weeks of pregnancy, up to 37 weeks of pregnancy"
+        },
+        {
+          "description": "Diagnosis of term preeclampsia, occurring at 37 weeks or later in pregnancy",
+          "measure": "Term preeclampsia",
+          "timeFrame": "From 37 weeks until delivery, up to 3 weeks"
+        },
+        {
+          "description": "Defined as two BPs \u2265 140/90 mmHg at least 4 hours apart without proteinuria",
+          "measure": "Gestational Hypertension",
+          "timeFrame": "From 20 weeks of pregnancy to delivery, approximately 20 weeks"
+        },
+        {
+          "description": "Diagnosis of preeclampsia with severe hypertension and/or specific signs or symptoms of significant end-organ dysfunction",
+          "measure": "Preeclampsia with severe features",
+          "timeFrame": "From 20 weeks of pregnancy to delivery, up to 20 weeks"
+        },
+        {
+          "description": "defined as two BPs \u2265160/110 mmHg at least 4 hours apart or any of the following lab abnormalities or symptoms: platelets \\<100,000/microliter, liver enzymes at least twice the normal concentration, and/or severe right upper quadrant/epigastric pain, serum creatinine \\> 1.1 mg/dL or a doubling of baseline serum creatinine, pulmonary edema, or new-onset cerebral or visual disturbances (headache, blurry vision). Preeclampsia super-imposed on chronic hypertension will also be considered as part of this outcome.",
+          "measure": "Preeclampsia without severe features",
+          "timeFrame": "From 20 weeks of pregnancy to delivery, up to 20 weeks"
+        },
+        {
+          "description": "Defined as losses that occur prior to identification of a gestational sac via ultrasound",
+          "measure": "Biochemical pregnancy loss",
+          "timeFrame": "From enrollment to time of pregnancy loss, up to approximately 20 weeks"
+        },
+        {
+          "description": "Defined as any pregnancy loss occurring following ultrasound confirmation of pregnancy",
+          "measure": "Clinical pregnancy loss",
+          "timeFrame": "From time of first ultrasound to 20 weeks pregnancy"
+        },
+        {
+          "description": "Defined as delivery at less than 37 weeks gestation",
+          "measure": "Preterm birth",
+          "timeFrame": "From enrollment to 36 weeks 6 days of pregnancy, up to delivery"
+        },
+        {
+          "description": "Defined as a birth weight less than 10th percentile for gestational age",
+          "measure": "Small for gestational age",
+          "timeFrame": "At time of delivery"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Pennsylvania"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-16",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2029-06",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-06-12",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2024-05-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-05-01",
+      "studyFirstSubmitQcDate": "2024-05-07"
+    }
+  }
+}

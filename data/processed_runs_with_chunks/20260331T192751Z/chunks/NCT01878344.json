@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT01878344:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT01878344\nBrief title: Effects of N-acetyl Cysteine During Primary Percutaneous Coronary Intervention\nOfficial title: Effects of N-acetyl Cysteine on Major Cardiac and Cerebral Events in Patients Undergoing Primary Percutaneous Coronary Intervention Who Have Moderate to High Risk For Contrast Induced Nephropathy\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT01878344"
+    },
+    {
+      "chunk_id": "NCT01878344:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Acute ST Segment Elevation Myocardial Infarction\nIntervention labels: NAC; Saline\nDrug class labels: \nArms: n-acetyl cysteine; Saline\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT01878344"
+    },
+    {
+      "chunk_id": "NCT01878344:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of this study is to evaluate the effects of N-acetyl cysteine on major cardiac and cerebral events in patients undergoing primary percutaneous coronary intervention who have moderate to high risk for contrast induced nephropathy.\n\nIn a sub-group of patients coronary flow reserve will be evaluated.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT01878344"
+    },
+    {
+      "chunk_id": "NCT01878344:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 85 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients with Acute ST Elevation Myocardial Infarction undergoing Primary Percutaneous Coronary intervention Who Have Moderate to High Risk For Contrast Induced Nephropathy (Mehran Score \u22655)\n\nExclusion Criteria:\n\n* Patients \\>18 years old with moderate to high risk for contrast induced nephropathy undergoing percutaneous coronary intervention\n* Low risk for contrast induced nephropathy (Mehran Score \\<5)\n* Use of nephrotoxic agents (NSAIDs, aminoglycosides,recent contrast injection...)\n* Infection\n* Pregnancy, Lactation\n* Renal failure requiring dialysis\n* Hepatic failure\n* Allergy to NAC\n* History of Asthma\n* Chronic nitrate usage\n* Malignancy\n* Use of corticosteroids\n* Leucocytosis,Thrombocytosis,Anemia\n* Blood pressure of \\>180/100mmHg despite anti-hypertensive therapy",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 126,
+      "trial_nct_id": "NCT01878344"
+    },
+    {
+      "chunk_id": "NCT01878344:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Major cardiac and cerebral events | time_frame=1 year\ntype=secondary | measure=NAC side effects (Asthma exacerbation, Pruritus, Dyspnea) | time_frame=during hospitalization at 48 hours",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT01878344"
+    },
+    {
+      "chunk_id": "NCT01878344:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2013-01\nPrimary completion date: 2018-01\nCompletion date: 2026-12\nStudy first posted: 2013-06-14\nResults first posted: None\nLast update posted: 2025-05-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT01878344"
+    },
+    {
+      "chunk_id": "NCT01878344:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Suleyman Demirel University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT01878344"
+    }
+  ],
+  "trial_nct_id": "NCT01878344"
+}

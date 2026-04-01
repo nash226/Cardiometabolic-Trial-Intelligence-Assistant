@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06408181:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06408181\nBrief title: APPLE: Aspirin to Prevent Pregnancy Loss and Preeclampsia\nOfficial title: APPLE: Aspirin to Prevent Pregnancy Loss and Preeclampsia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06408181"
+    },
+    {
+      "chunk_id": "NCT06408181:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Pre-Eclampsia; Pregnancy Loss\nIntervention labels: Aspirin 162 mg; Aspirin 81mg\nDrug class labels: \nArms: Double low-dose aspirin; Standard of Care\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06408181"
+    },
+    {
+      "chunk_id": "NCT06408181:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to investigate the effects of early initiation of double low-dose aspirin in pregnant women. The main questions it aims to answer are:\n\nDoes this dose and timing of aspirin reduce the risk of pre-eclampsia compared to standard recommendations? Does this dose and timing of aspirin reduce the risk of pregnancy loss compared to standard recommendations? Participants will begin taking at no later than 6 weeks 6 days gestational age, either 162mg of aspirin through delivery or placebo until 12 weeks and then 81mg of aspirin through delivery.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 99,
+      "trial_nct_id": "NCT06408181"
+    },
+    {
+      "chunk_id": "NCT06408181:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 18 Years\nMaximum age: 45 Years\nAge groups: ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria\n\n1. Provision of signed and dated informed consent form.\n2. Stated willingness to comply with all study procedures and availability for the duration of the study.\n3. Ability to take oral medication and be willing to adhere to the prescribed aspirin regimen.\n4. Patients with a gestation less than or equal to 6 weeks, 6 days (as determined by patient record of LMP or ART date).\n5. Patients between 18-45-year old who have one or more risk factors for preeclampsia and/or pregnancy loss, including:\n\n   1. preeclampsia in a previous pregnancy,\n   2. gestational diabetes in a previous pregnancy,\n   3. any documentation of fetal growth restriction or low birth weight in a prior pregnancy,\n   4. preterm birth in a previous pregnancy,\n   5. known multifetal gestation at enrollment,\n   6. chronic hypertension,\n   7. pregestational diabetes,\n   8. kidney disease,\n   9. systemic lupus erythematosus,\n   10. nulliparity,\n   11. pre-pregnancy body mass index \\>30,\n   12. family history of preeclampsia (i.e., mother or sister),\n   13. Black persons (due to social, not biological reasons),\n   14. Maternal age 35 years or older,\n   15. lower income (will be determined by qualification of public health insurance),\n   16. conceived with fertility treatment (including in vitro fertilization, ovulation induction, or intrauterine insemination),\n   17. history of one or more prior pregnancy losses \\<20 weeks gestation,\n   18. history of stillbirth in a prior pregnancy,\n   19. An interval of greater than 10 years since the last pregnancy.\n\nExclusion Criteria\n\n1. Known allergies to aspirin or non-steroidal anti-inflammatory agents (NSAID);\n2. Clinical indication for anticoagulant therapy, including prior or current thrombosis, antiphospholipid syndrome, or known major thrombophilia;\n3. Clinical indication for chronic use of NSAIDS during pregnancy;\n4. Medical contraindication to aspirin therapy, including untreated uncontrolled asthma, untreated symptomatic nasal polyps, bleeding disorders, or history of gastrointestinal ulcer.\n5. Patients with pelvic pain or bleeding who require urgent care (i.e., active vaginal bleeding greater than or equal to expected menses, open cervical os suggesting active miscarriage or severe pain requiring evaluation for ectopic pregnancy)",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 344,
+      "trial_nct_id": "NCT06408181"
+    },
+    {
+      "chunk_id": "NCT06408181:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Preeclampsia with or without severe features | time_frame=from 20 weeks pregnancy to delivery, approximately 20 weeks | description=defined as two blood pressures (BPs) \u2265 140/90 mmHg at least 4 hours apart with proteinuria\ntype=primary | measure=Pregnancy Loss | time_frame=from enrollment to time of pregnancy loss, up to 24 weeks gestation | description=Pregnancy loss prior to 24 weeks gestation\ntype=secondary | measure=Composite outcome of hypertensive disorders of pregnancy or pregnancy loss | time_frame=From enrollment to end of pregnancy, up to 38 weeks | description=This composite outcome will include the diagnosis of any of the following: preterm preeclampsia, term preeclampsia, gestational hypertension, preeclampsia with severe features, preeclampsia without severe features, biochemical pregnancy loss, clinical pregnancy loss\ntype=secondary | measure=Preterm preeclampsia | time_frame=From enrollment up to 37 weeks of pregnancy, up to 37 weeks of pregnancy | description=Diagnosis of preterm preeclampsia, occurring prior to 37 weeks in pregnancy\ntype=secondary | measure=Term preeclampsia | time_frame=From 37 weeks until delivery, up to 3 weeks | description=Diagnosis of term preeclampsia, occurring at 37 weeks or later in pregnancy\ntype=secondary | measure=Gestational Hypertension | time_frame=From 20 weeks of pregnancy to delivery, approximately 20 weeks | description=Defined as two BPs \u2265 140/90 mmHg at least 4 hours apart without proteinuria\ntype=secondary | measure=Preeclampsia with severe features | time_frame=From 20 weeks of pregnancy to delivery, up to 20 weeks | description=Diagnosis of preeclampsia with severe hypertension and/or specific signs or symptoms of significant end-organ dysfunction\ntype=secondary | measure=Preeclampsia without severe features | time_frame=From 20 weeks of pregnancy to delivery, up to 20 weeks | description=defined as two BPs \u2265160/110 mmHg at least 4 hours apart or any of the following lab abnormalities or symptoms: platelets \\<100,000/microliter, liver enzymes at least twice the normal concentration, and/or severe right upper quadrant/epigastric pain, serum creatinine \\> 1.1 mg/dL or a doubling of baseline serum creatinine, pulmonary edema, or new-onset cerebral or visual disturbances (headache, blurry vision). Preeclampsia super-imposed on chronic hypertension will also be considered as part of this outcome.\ntype=secondary | measure=Biochemical pregnancy loss | time_frame=From enrollment to time of pregnancy loss, up to approximately 20 weeks | description=Defined as losses that occur prior to identification of a gestational sac via ultrasound\ntype=secondary | measure=Clinical pregnancy loss | time_frame=From time of first ultrasound to 20 weeks pregnancy | description=Defined as any pregnancy loss occurring following ultrasound confirmation of pregnancy\ntype=secondary | measure=Preterm birth | time_frame=From enrollment to 36 weeks 6 days of pregnancy, up to delivery | description=Defined as delivery at less than 37 weeks gestation\ntype=secondary | measure=Small for gestational age | time_frame=At time of delivery | description=Defined as a birth weight less than 10th percentile for gestational age",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 441,
+      "trial_nct_id": "NCT06408181"
+    },
+    {
+      "chunk_id": "NCT06408181:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-06-12\nPrimary completion date: 2029-06\nCompletion date: 2029-06\nStudy first posted: 2024-05-10\nResults first posted: None\nLast update posted: 2026-01-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06408181"
+    },
+    {
+      "chunk_id": "NCT06408181:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Pennsylvania\nLead sponsor class: OTHER\nCollaborators: Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06408181"
+    }
+  ],
+  "trial_nct_id": "NCT06408181"
+}

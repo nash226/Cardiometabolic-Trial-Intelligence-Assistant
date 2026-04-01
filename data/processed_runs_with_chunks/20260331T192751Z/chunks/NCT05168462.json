@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05168462:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05168462\nBrief title: Clinical Outcome and Cost-effectiveness of Reduced Noradrenaline by Using a Lower Blood Pressure Target in Patients With Cardiogenic Shock From Acute Myocardial Infarction\nOfficial title: Clinical Outcome and Cost-effectiveness of Reduced Noradrenaline by Using a Lower Blood Pressure Target in Patients With Cardiogenic Shock From Acute Myocardial Infarction\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 61,
+      "trial_nct_id": "NCT05168462"
+    },
+    {
+      "chunk_id": "NCT05168462:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Cardiogenic Shock; Myocardial Infarction\nIntervention labels: Reduced noradrenaline use\nDrug class labels: \nArms: Reduced noradrenaline (MAP \u2265 55 mmHg); Usual care (MAP \u2265 65 mmHg)\nKeywords: Noradrenaline; Blood pressure target; Cardiogenic shock; Myocardial infarction",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT05168462"
+    },
+    {
+      "chunk_id": "NCT05168462:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Rationale: Pump failure due to acute myocardial infarction (AMI) can lead to cardiogenic shock (CS): a state of low blood flow to end-organs with subsequent multi-organ failure that is associated with high mortality rated. The first line pharmacologic treatment strategy in CS is noradrenaline. This vasopressor drug is used to maintain adequate blood pressures. The assumption is that a mean arterial blood pressure (MAP) \u2265 65 mmHg will improve flow and thereby tissue perfusion of myocardium and other tissues (e.g. renal). However, there is no evidence that an increase in MAP, if achieved by noradrenaline, leads to greater end-organ blood flow and better outcomes.\n\nObjective: With this study the investigators aim to investigate the (cost-)effectiveness of reduced noradrenaline in patients with CS by using a lower MAP target of \u2265 55 mmHg, compared to \u2265 65 mmHg. The investigators hypothesize that reduced use of noradrenaline will improve overall survival and decrease renal failure requiring renal replacement therapy.\n\nStudy design: Open label, randomized controlled multicenter trial\n\nStudy population: Adults patients with CS due to AMI\n\nIntervention: Treatment strategy of reduced noradrenaline, by using a lower MAP target ( \u2265 55 mmHg).\n\nMain study endpoint: composite of all-cause mortality and severe renal failure leading to renal replacement therapy within 30-days after randomization.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 215,
+      "trial_nct_id": "NCT05168462"
+    },
+    {
+      "chunk_id": "NCT05168462:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion criteria:\n\n1. Acute myocardial infarction, STEMI or NSTEMI\n2. Early revascularization by PCI\n3. Cardiogenic shock, characterized by:\n\nI. a. Systolic blood pressure (SBP) \u2264 90 mmHg for \\> 30 minutes, OR b. Use of drugs to maintain SBP \\> 90 mmHg at randomization.\n\nII. Clinical signs of impaired organ perfusion with at least one of the following criteria:\n\n1. Altered mental status\n2. Cold, clammy skin and extremities\n3. Oliguria with urine output \\< 30ml/hour\n4. Serum lactate \\> 2.0 mmol/L\n\nIII. Clinical signs of pulmonary congestion\n\nExclusion Criteria:\n\n1. Resuscitation \\> 30 minutes\n2. Mechanical cause of cardiogenic shock (e.g. papillary muscle rupture, ventricular septal rupture)\n3. Onset of shock \\> 12 hours\n4. Imminent need for mechanical circulatory support (i.e. ECPR)\n5. Women \\<45 years",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 146,
+      "trial_nct_id": "NCT05168462"
+    },
+    {
+      "chunk_id": "NCT05168462:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Mortality and renal failure | time_frame=30-days | description=Composite of all-cause mortality and severe renal failure leading to renal replacement therapy\ntype=secondary | measure=Blood pressure (systolic and diastolic) | time_frame=The first 24 hours | description=Blood pressure measured hourly during the first 24 hours of ICU/CCU admission\ntype=secondary | measure=Heart rate | time_frame=The first 24 hours | description=Heart rate, measured hourly during the first 24 hours of ICU/CCU admission\ntype=secondary | measure=Enzymatic infarct size, measured by hs-Troponin T | time_frame=0, 6, 12, 24, 36 and 72 hours | description=Size of myocardial infarction, measured by hs-Troponin T\ntype=secondary | measure=Enzymatic infarct size, measured by CK-MB | time_frame=0, 6, 12, 24, 36 and 72 hours | description=Size of myocardial infarction, measured by CK-MB\ntype=secondary | measure=Need for mechanical circulatory support | time_frame=Recorded after ICU/CCU discharge, assessed up to 60 days | description=Type of mechanical circulatory support device\ntype=secondary | measure=Duration of mechanical ventilation | time_frame=Recorded after ICU/CCU discharge, assessed up to 60 days | description=Duration of mechanical ventilation, expressed in days\ntype=secondary | measure=Need for vasopressors / inotropes | time_frame=Recorded after ICU/CCU discharge, assessed up to 60 days | description=The type of vasopressors / inotropes that were administrered\ntype=secondary | measure=Ejection fraction, percent | time_frame=72 hours and 1 year | description=As measured by echocardiography and/or MRI\ntype=secondary | measure=Renal function | time_frame=1 year | description=Renal function, measured by serum creatinin\ntype=secondary | measure=Cost-effectiveness | time_frame=1-year | description=Cost per patients alive without severe renal failure and costs per QALY (quality-adjusted life year)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 249,
+      "trial_nct_id": "NCT05168462"
+    },
+    {
+      "chunk_id": "NCT05168462:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-10-01\nPrimary completion date: 2027-04-01\nCompletion date: 2028-04-01\nStudy first posted: 2021-12-23\nResults first posted: None\nLast update posted: 2026-03-27\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05168462"
+    },
+    {
+      "chunk_id": "NCT05168462:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT05168462"
+    }
+  ],
+  "trial_nct_id": "NCT05168462"
+}

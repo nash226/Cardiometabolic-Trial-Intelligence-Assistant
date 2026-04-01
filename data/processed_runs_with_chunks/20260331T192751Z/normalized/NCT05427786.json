@@ -1,0 +1,194 @@
+{
+  "arms": [
+    {
+      "description": "If the lipid core burden index at the main lesion site on vascular ultrasound exceeds 353, randomization was performed.\n\nNicorandil group will be administrated 8cc or more of the prescribed drug (Nicroandil) according to randomization into the coronary artery before starting balloon therapy.",
+      "intervention_names": [
+        "Drug: Nicorandil"
+      ],
+      "label": "Pre-PCI IC Nicorandil",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "If the lipid core burden index at the main lesion site on vascular ultrasound exceeds 353, randomization was performed.\n\nStandard PCI group will be performed coronary intervention including starting balloon therapy without pre-administrated nicorandil.",
+      "intervention_names": [],
+      "label": "Standard PCI",
+      "type": "NO_INTERVENTION"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "No-Reflow Phenomenon",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Coronary Artery Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Percutaneous Coronary Intervention",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Over 19 years old\n2. Patients who agree to the study plan and clinical follow-up plan, voluntarily decide to participate in this study, and consent in writing to the consent to use information\n3. Patients who underwent NIRS-IVUS guided coronary stent surgery for coronary artery disease\n\nExclusion Criteria:\n\n1. Patients with TIMI \u2264 2 before coronary intervention\n2. Subjects with known hypersensitivity or contraindications to the following drugs or substances: heparin, aspirin, clopidogrel, ticagrelor, prasugrel, rosuvastatin, ezetimibe, evolocumab, lansoprazole, cobalt chromium, stainless steel nickel And contrast agents (however, even a subject who is hypersensitive to contrast agents can register if they can be controlled by steroids and pheniramine, except for known anaphylaxis.)\n3. Pregnant women, lactating women, or women of childbearing age who plan to become pregnant during this study\n4. Subjects who plan to have surgery to stop antiplatelet drugs within 6 months from registration\n5. Those whose surviving life is expected to be less than 1 year\n6. Subjects who visited the hospital due to cardiogenic shock and are predicted to have low survival probability based on medical judgment",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Pre-PCI IC Nicorandil"
+      ],
+      "description": "Administer 8cc or more of the prescribed drug according to randomization into the coronary artery before starting balloon therapy. The stent treatment method follows the standard treatment method.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Nicorandil",
+      "normalized_name": "nicorandil"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "occurrence of decreased TIMI flow (0,1,2) during the index procedure\n\nGrade 0-No perfusion\n\nGrade 1-Penetration without perfusion\n\nGrade 2-Partial perfusion but not reach complete perfusion\n\nGrade 3-Complete perfusion;; antegrade flow into the bed distal to the obstruction occurs as promptly as antegrade flow into the bed proximal to the obstruction, and clearance of contrast material from the involved bed is as rapid as clearance from an uninvolved bed in the same vessel or the opposite artery.",
+      "measure": "Occurrence of decreased TIMI flow",
+      "outcome_type": "primary",
+      "time_frame": "during procedure"
+    },
+    {
+      "description": "level change of CPK",
+      "measure": "Change of cardiac biomarker level after intervention",
+      "outcome_type": "secondary",
+      "time_frame": "1 month"
+    },
+    {
+      "description": "level change of CK-MB",
+      "measure": "Change of cardiac biomarker level after intervention",
+      "outcome_type": "secondary",
+      "time_frame": "1 month"
+    },
+    {
+      "description": "level change of Troponin T",
+      "measure": "Change of cardiac biomarker level after intervention",
+      "outcome_type": "secondary",
+      "time_frame": "1 month"
+    },
+    {
+      "description": "level change of Troponin I",
+      "measure": "Change of cardiac biomarker level after intervention",
+      "outcome_type": "secondary",
+      "time_frame": "1 month"
+    },
+    {
+      "description": "composite of all cause mortality, any myocardial infarction, and any revascularization",
+      "measure": "patient-oriented composite end point",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of All cause mortality",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of cardiac death",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": null,
+      "measure": "Percentage of revascularization",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Correlation among LDL-cholesterol, lipoprotein(a), pre-procedural LCBi max, Post-procedural LCBi, LCBi total burden",
+      "measure": "Association between lipid profile and lipid core burden index",
+      "outcome_type": "other",
+      "time_frame": "6 month"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The aim of this study was to determine the effect of intra-coronary administration of nicorandil on the prevention of lowering of coronary blood flow for high-risk plaque lesions defined as the high value of lipid core burden index in patients with coronary artery disease who require stent treatment.",
+    "brief_title": "A Study to Evaluate the Impact of Pre-procedural Intracoronary Nicorandil Injection to PREVENT ReductioN of DecREased TIMI FLOW in Patients Who Undergoing Percutaneous Coronary Intervention for the Coronary Artery Disease",
+    "collaborator_names": [],
+    "completion_date": "2026-12",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Over 19 years old\n2. Patients who agree to the study plan and clinical follow-up plan, voluntarily decide to participate in this study, and consent in writing to the consent to use information\n3. Patients who underwent NIRS-IVUS guided coronary stent surgery for coronary artery disease\n\nExclusion Criteria:\n\n1. Patients with TIMI \u2264 2 before coronary intervention\n2. Subjects with known hypersensitivity or contraindications to the following drugs or substances: heparin, aspirin, clopidogrel, ticagrelor, prasugrel, rosuvastatin, ezetimibe, evolocumab, lansoprazole, cobalt chromium, stainless steel nickel And contrast agents (however, even a subject who is hypersensitive to contrast agents can register if they can be controlled by steroids and pheniramine, except for known anaphylaxis.)\n3. Pregnant women, lactating women, or women of childbearing age who plan to become pregnant during this study\n4. Subjects who plan to have surgery to stop antiplatelet drugs within 6 months from registration\n5. Those whose surviving life is expected to be less than 1 year\n6. Subjects who visited the hospital due to cardiogenic shock and are predicted to have low survival probability based on medical judgment",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 460,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Nicorandil"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Nicorandil",
+      "No-reflow phenomenon",
+      "lipid core burden index",
+      "near-infrared spectroscopy"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-10-10",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Korea University Anam Hospital",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "nct_id": "NCT05427786",
+    "official_title": "A Randomized, Open Label, Parallel-group Study to Evaluate the Impact of Pre-procedural Intracoronary Nicorandil Injection to PREVENT ReductioN of DecREased TIMI FLOW in Patients Who Undergoing Percutaneous Coronary Intervention for the Coronary Artery Disease",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-07",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05427786",
+    "start_date": "2022-12-14",
+    "study_first_posted_at": "2022-06-22",
+    "study_type": "INTERVENTIONAL"
+  }
+}

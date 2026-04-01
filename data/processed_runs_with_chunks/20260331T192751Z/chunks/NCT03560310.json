@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT03560310:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT03560310\nBrief title: Ticagrelor and ASA vs. ASA Only After Isolated Coronary Artery Bypass Grafting in Patients With Acute Coronary Syndrome\nOfficial title: Dual Antiplatelet Therapy With Ticagrelor and Acetylsalicylic Acid (ASA) vs. ASA Only After Isolated Coronary Artery Bypass Grafting in Patient With Acute Coronary Syndrome\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 57,
+      "trial_nct_id": "NCT03560310"
+    },
+    {
+      "chunk_id": "NCT03560310:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Acute Coronary Syndrome\nIntervention labels: Ticagrelor 90mg twice daily and ASA 75-100 mg daily; ASA 75-160 mg daily\nDrug class labels: \nArms: Dual antiplatelet therapy; Acetylsalicylic acid\nKeywords: Coronary Bypass Grafting; Antiplatelet treatment",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 37,
+      "trial_nct_id": "NCT03560310"
+    },
+    {
+      "chunk_id": "NCT03560310:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The study is a Randomised Registry-based Clinical Trial (RRCT) to assess whether dual antiplatelet therapy with ticagrelor and ASA compared to ASA alone improves outcome after isolated CABG in patients with acute coronary syndrome.\nDetailed description: The trial is a 1:1 randomized, interventional, multi-national, multi-center, safety/efficacy, parallel assignment, open-label treatment study and will use the RRCT methodology. A RRCT study utilizes existing health care registry platforms to conduct a pragmatic prospective randomized trial.\n\nAfter the CABG, eligible patients that have consented to the study, will be randomized to either treatment arms. In the intervention arm, patients will be treated with ticagrelor 90 mg twice daily and ASA 75-100 mg daily for 12 months and patients in the control arm will get ASA only (75-160 mg daily according to local guidelines) during the same time period.\n\nThe patients will be followed by telephone interviews at 30 days and 365 days after inclusion. After the treatment period patients will be followed during an observation period by collection of outcome data from registries or medical records, 24, 36, 60 and 120 months after inclusion of the patient. No other data but the registry data or data from medical records will be collected.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 201,
+      "trial_nct_id": "NCT03560310"
+    },
+    {
+      "chunk_id": "NCT03560310:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Written informed consent\n2. Age \u226518 years\n3. Has undergone first time isolated CABG due to an episode of acute coronary syndrome (STEMI, NSTEMI, unstable angina) within 6 weeks before surgery\n\nExclusion Criteria:\n\n1. Previously enrolled in this study (i.e. patient now at repeat encounter)\n2. Concomitant surgical procedure other than CABG\n3. Anticoagulant treatment after the operation (e.g. warfarin, direct thrombin inhibitors (dabigatran), FXa inhibitors (rivaroxaban, apixaban, heparin, low-molecular weight heparin, fondaparinux)\n4. Discharge from the operating hospital to an ICU at another hospital\n5. Pregnancy or lactation\n6. Known intolerance or contraindication to ticagrelor or ASA\n7. Any disorder that may interfere with drug absorption\n8. Any condition other than coronary artery disease with a life expectancy \\<12 months\n9. Known chronic liver disease, renal disease requiring dialysis or bleeding disorder\n10. Atrioventricular block II and III in patients without pacemaker\n11. Any other indication for dual antiplatelet therapy, i.e. recent stent implantation\n12. Debilitating stroke within 90 days before inclusion\n13. Previous intracranial bleeding\n14. Treatment with immunosuppressants (e.g. cyclosporine and tacrolimus)\n15. Treatment with strong CYP3A4-inhibitors (e.g. ketoconazole, clarithromycin, nefazodone, ritonavir or atazanavir)\n16. Any condition that in the opinion of the investigator may interfere with adherence to trial protocol\n17. Participation in any other clinical trial evaluating investigational products at the time for enrollment in this study",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 242,
+      "trial_nct_id": "NCT03560310"
+    },
+    {
+      "chunk_id": "NCT03560310:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to major adverse cardiovascular events (MACE) | time_frame=within12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone improves 12 months outcome defined as time to major adverse cardiovascular events (MACE) after isolated CABG in ACS patients. MACE includes all-cause mortality, myocardial infarction, stroke and new revascularization.\ntype=secondary | measure=Time to all cause death | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences all cause death within 12 months after randomization\ntype=secondary | measure=Time to all cause death, myocardial infarction or stroke | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone improves 12 months outcome defined as time to a composite endpoint of all cause death, myocardial infarction or stroke after isolated CABG in ACS patients.\ntype=secondary | measure=Time to cardiovascular death | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences cardiovascular death within 12 months after randomization\ntype=secondary | measure=Time to first myocardial infarction | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences myocardial infarction within 12 months after randomization\ntype=secondary | measure=Time to first stroke | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of stroke within 12 months after randomization\ntype=secondary | measure=Time to new revascularization | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of new revascularization within 12 months after randomization\ntype=secondary | measure=Time to coronary angiography | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of coronary angiography within 12 months after randomization\ntype=secondary | measure=Time to hospitalization for heart failure | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of heart failure within 12 months after randomization\ntype=secondary | measure=Time to cardiovascular hospitalization | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of cardiovascular hospitalization within 12 months after randomization\ntype=secondary | measure=Time to sudden death or aborted cardiac arrest | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of sudden death or aborted cardiac arrest within 12 months after randomization\ntype=secondary | measure=Time to new-onset atrial fibrillation | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of new-onset atrial fibrillation within 12 months after randomization\ntype=secondary | measure=Time to major bleeding defined as bleeding requiring hospitalization | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of major bleeding within 12 months after randomization\ntype=secondary | measure=Time to minor bleeding | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of minor bleeding within 12 months after randomization\ntype=secondary | measure=Time to any bleeding | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of any bleeding within 12 months after randomization\ntype=secondary | measure=Time to dyspnea | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of dyspnea within 12 months after randomization\ntype=secondary | measure=Time to dyspnea causing drug interruption | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of dyspnea causing drug interruption within 12 months after randomization\ntype=secondary | measure=Time to new onset renal failure | time_frame=within 12 months | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone influences the incidence of new onset renal failure within 12 months after randomization\ntype=secondary | measure=Time to major adverse cardiovascular events (MACE) | time_frame=2, 3, 5 and 10 years after the patient has been included in the study | description=To assess whether dual antiplatelet therapy (DAPT) with ticagrelor and ASA compared to single antiplatelet therapy with ASA alone improves long-term outcome defined as time to major adverse cardiovascular events (MACE) after isolated CABG in ACS patients. MACE includes all-cause mortality, myocardial infarction, stroke and new revascularization.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 866,
+      "trial_nct_id": "NCT03560310"
+    },
+    {
+      "chunk_id": "NCT03560310:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2018-06-29\nPrimary completion date: 2025-03-13\nCompletion date: 2035-02-15\nStudy first posted: 2018-06-18\nResults first posted: None\nLast update posted: 2025-09-02\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT03560310"
+    },
+    {
+      "chunk_id": "NCT03560310:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Vastra Gotaland Region\nLead sponsor class: OTHER_GOV\nCollaborators: Gothia Forum - Center for Clinical Trial; G\u00f6teborg University\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT03560310"
+    }
+  ],
+  "trial_nct_id": "NCT03560310"
+}

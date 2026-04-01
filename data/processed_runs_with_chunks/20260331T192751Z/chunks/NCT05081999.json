@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05081999:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05081999\nBrief title: De-Adoption of Beta-Blockers in Patients With Stable Ischemic Heart Disease\nOfficial title: De-Adoption \u03b2eta-Blockers in Patients With Stable Ischemic Heart Disease Without REduced LV Ejection Fraction, Ongoing Ischemia, or Arrhythmias: a pragmaTic randomizEd Trial With Blinded Endpoints\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT05081999"
+    },
+    {
+      "chunk_id": "NCT05081999:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Stable Ischemic Heart Disease; Coronary Artery Disease; Beta-blocker Therapy\nIntervention labels: Medical Assessment; Quality of Life Assessment\nDrug class labels: \nArms: Continuation of Beta-Blockers; De-Adoption of Beta-Blockers\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT05081999"
+    },
+    {
+      "chunk_id": "NCT05081999:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Patients with heart disease are often prescribed many medications and these patients may experience drug interactions or negative drug related side effects. With newer medications and treatments available, it is not well known whether older drugs, such as beta-blockers, are still an effective and safe option for treating heart disease. Some evidence suggests beta-blockers should be continued, whereas other evidence suggests beta-blockers might cause unnecessary harm. The study hopes to determine whether continuation or discontinuation of beta-blockers will affect long term cardiovascular outcomes. The study investigators will also examine how beta-blockers continuation or discontinuation affects several quality of life measures.\nDetailed description: Patients will be randomized to continue \u03b2-blocker therapy or discontinue \u03b2-blocker therapy. Patients will be followed remotely for approximately four years for adherence, events and outcomes assessments, and completion of multiple web-based quality of life questionnaires.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 140,
+      "trial_nct_id": "NCT05081999"
+    },
+    {
+      "chunk_id": "NCT05081999:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 21 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Age \\>21 years\n2. Documented Coronary Artery Disease (CAD) defined as:\n\n   * Myocardial Infarction at least 6 months prior; or\n   * Stable ischemic heart disease (defined using one of the following tests suggestive of significant coronary artery disease):\n\n     i. Positive exercise stress test ii. Positive Nuclear perfusion scan iii. Positive exercise or pharmacologic echocardiographic stress test iv. Positive magnetic resonance imaging coronary perfusion scan v. Coronary computed tomographic angiography Angiogram with stenosis \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing by CT (FFRCT); vi. Invasive coronary angiography with \u2265 70% (or left main coronary artery \u2265 50%) or significant function disease based or positive fractional flow reserve testing (FFR) or instant wave free ratio (IFR),\n   * Previous Percutaneous Coronary Intervention (PCI, at least 6 months prior if revascularization is performed for an MI); or\n   * Previous Coronary Artery Bypass Grafting (CABG, at least 6 months prior if revascularization is performed for an MI)\n3. Able and willing to provide informed consent\n\nExclusion Criteria:\n\n1. Left Ventricular Ejection Fraction \\< 40% or current hospitalization for heart failure\n2. Myocardial infarction \\<6 months prior to randomization\n3. Indication for \u03b2-blocker as determined by the treating physician (such as atrial or ventricular arrhythmias or ongoing angina not controlled by another agent)\n4. Uncontrolled hypertension or uncontrolled angina symptoms (per the Investigator's discretion)\n5. Non-compliance with medical therapy\n6. Life expectancy \\<1 year\n7. Participation in another trial related to \u03b2-blockers or other anti-anginal drugs",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 273,
+      "trial_nct_id": "NCT05081999"
+    },
+    {
+      "chunk_id": "NCT05081999:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Composite of time to first all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or heart failure over an estimated four years | time_frame=4 years post randomization | description=Composite of time to first all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or heart failure over an estimated four years\ntype=secondary | measure=individual components of the primary objective (including all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or HF) | time_frame=4 years post randomization | description=individual components of the primary objective (including all-cause death, non-fatal MI, or hospitalization for resuscitated cardiac arrest, unstable angina requiring urgent revascularization or HF)\ntype=secondary | measure=stroke | time_frame=4 years post randomization | description=stroke\ntype=secondary | measure=angina related quality of life | time_frame=4 years post randomization | description=angina related quality of life as measured by the Seattle Angina Questionnaire\ntype=secondary | measure=sexual function | time_frame=4 years post randomization | description=sexual function as measured by the IIEF-5 and FSFI\ntype=secondary | measure=new onset diabetes | time_frame=4 years post randomization | description=new onset diabetes\ntype=secondary | measure=drug withdrawal | time_frame=4 years post randomization | description=stop/re-start dates\ntype=secondary | measure=health care costs in each arm | time_frame=4 years post randomization | description=health care costs in each arm",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 220,
+      "trial_nct_id": "NCT05081999"
+    },
+    {
+      "chunk_id": "NCT05081999:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-01-30\nPrimary completion date: 2026-01-31\nCompletion date: 2026-12-31\nStudy first posted: 2021-10-18\nResults first posted: None\nLast update posted: 2026-03-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05081999"
+    },
+    {
+      "chunk_id": "NCT05081999:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Alberta\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT05081999"
+    }
+  ],
+  "trial_nct_id": "NCT05081999"
+}

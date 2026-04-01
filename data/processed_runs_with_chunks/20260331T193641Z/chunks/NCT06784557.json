@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06784557:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06784557\nBrief title: Effect of Ezetimibe on Gut Microbiota\nOfficial title: Gut Microbiota Alteration With Atorvastatin/Ezetimibe Combination in Patients With Atherosclerotic Cardiovascular Disease\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT06784557"
+    },
+    {
+      "chunk_id": "NCT06784557:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atherosclerotic Cardiovascular Disease With Dyslipidemia\nIntervention labels: Atorvastatin 40mg; Atorvastatin 20mg+Ezetimibe 10mg\nDrug class labels: \nArms: Atorvastatin 40mg; Atorvastatin 20mg+Ezetimibe 10mg\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06784557"
+    },
+    {
+      "chunk_id": "NCT06784557:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Ezetimibe exerts its primary effects by inhibiting intestinal cholesterol absorption through the NPC1L1 protein. Beyond this, its impact on gut microbiota remains an area of interest. Gut microbiota has been implicated in cholesterol metabolism and CVD pathogenesis through metabolic and non-metabolic pathways. Modulating gut microbiota has been explored as a potential strategy to prevent CVDs.\n\nDespite its intestinal mechanism, the influence of ezetimibe on gut microbiota composition has not been thoroughly investigated. Future studies are needed to elucidate its potential interactions with gut microbial communities and their implications for cholesterol metabolism and cardiovascular health.\nDetailed description: 1. Study Period The clinical trial spans 12 weeks to analyze baseline data and changes after treatment.\n\n   The study starts upon IRB approval, with participant recruitment concluding within 24 months and the entire study wrapping up within 48 months.\n2. Study Design This is an investigator-initiated, prospective, single-center, open-label, randomized clinical trial.\n\n   It involves 110 coronary artery disease (CAD) patients in need of lipid-lowering therapy, divided into two groups:\n\n   Experimental Group (n=55): Moderate-intensity statin (Atorvastatin 20 mg) combined with Ezetimibe 10 mg.\n\n   Control Group (n=55): High-intensity statin monotherapy (Atorvastatin 40 mg). Primary Outcome: Changes in gut microbiota composition. Secondary Outcomes: Changes in blood lipid levels and inflammatory biomarkers.\n3. Methods 3.1. Screening and Enrollment Participants are screened for eligibility based on inclusion and exclusion criteria.\n\n   After providing informed consent, participants are randomized into two groups (1:1 ratio) using a permuted block randomization method.\n\n   For those on prior statin or Ezetimibe therapy, a 2-week washout period is required before enrollment.\n\n   3.2. Study Medication\n\n   Participants receive their assigned treatment for 12 weeks, with medications administered orally once daily at consistent times, irrespective of meals:\n\n   High-Intensity Statin Group: Atorvastatin 40 mg. Combination Therapy Group: Atorvastatin 20 mg + Ezetimibe 10 mg. 3.3. Follow-Up Baseline data, including demographic details, blood tests, and stool samples, are collected at enrollment.\n\n   After 12 weeks of treatment, follow-up includes clinical evaluations, blood tests, and stool sample collection for post-treatment analysis.\n4. Efficacy Evaluation 4.1. Primary Endpoint\n\nGut Microbiota Analysis:\n\nStool samples are analyzed using 16S rRNA sequencing.\n\nStatistical tests compare microbiota differences:\n\nBetween groups at baseline (T-test or Mann-Whitney test). Pre- and post-treatment within groups (Paired t-test or Wilcoxon test). Intergroup changes over time (ANOVA test). 4.2. Secondary Endpoint Similar statistical methods are applied to assess changes in blood lipid levels and inflammatory biomarkers.\n\n4.3. Subgroup Analysis\n\nSpecific subgroups undergo additional analysis:\n\nSubgroup 1: Low-risk CAD patients (10-year ASCVD risk \\<7.5%). Subgroup 2: Patients with poor response to therapy (LDL \\>70 mg/dL after 12 weeks).\n\nSubgroup 3: Recurrent CAD patients despite optimal therapy. Subgroup stool samples are analyzed using shotgun metagenomic sequencing for detailed microbial insights.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 446,
+      "trial_nct_id": "NCT06784557"
+    },
+    {
+      "chunk_id": "NCT06784557:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age: 19 to 80 years old\n* Criteria for Diagnosis of Coronary Artery Disease:\n\nPatients diagnosed with coronary artery disease through coronary angiography, or\n\nPatients who require high-intensity lipid-lowering therapy according to current guidelines:\n\nClinical atherosclerotic cardiovascular disease, LDL cholesterol \u2265 190 mg/dL, LDL 70-189 mg/dL in diabetic patients, 10-year calculated atherosclerotic cardiovascular disease risk \u2265 7.5%\n\n\\- Voluntary Consent: Individuals who have voluntarily agreed to participate in the study and signed the consent form.\n\nExclusion Criteria:\n\n* Patients with active liver disease or liver disease with AST/ALT levels elevated more than twice the upper limit of normal.\n* Individuals with allergies or hypersensitivity to HMG-CoA reductase inhibitors or ezetimibe.\n* Individuals with a history of adverse reactions to HMG-CoA reductase inhibitors or ezetimibe.\n* Pregnant, breastfeeding, or women of childbearing potential.\n* Organ transplant recipients or individuals scheduled for organ transplantation.\n* Patients with active malignant tumors.\n* Patients with inflammatory bowel disease.\n* Patients with wasting diseases, autoimmune diseases (e.g., systemic lupus erythematosus, rheumatoid arthritis), or connective tissue diseases (e.g., systemic sclerosis, polymyositis, and dermatomyositis).\n* Patients with a history of taking antibiotics, probiotics, or ezetimibe within 3 months prior to study screening.\n* Patients who have undergone gastrointestinal surgery within the past year.\n* Patients who do not understand the study content or are unable to provide consent.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 242,
+      "trial_nct_id": "NCT06784557"
+    },
+    {
+      "chunk_id": "NCT06784557:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Changes in Gut Microbiota After 12 Weeks of Treatment | time_frame=12 weeks | description=Gut Microbiota difference after intervention Stool samples are analyzed using 16S rRNA sequencing.\n\nStatistical tests compare microbiota differences:\n\nBetween groups at baseline (T-test or Mann-Whitney test). Pre- and post-treatment within groups (Paired t-test or Wilcoxon test). Intergroup changes over time (ANOVA test).\ntype=secondary | measure=Changes in Blood Lipid Levels and Inflammatory Biomarker Levels After 12 Weeks of Treatment | time_frame=12 weeks | description=Similar statistical methods are applied to assess changes in blood lipid levels and inflammatory biomarkers.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 92,
+      "trial_nct_id": "NCT06784557"
+    },
+    {
+      "chunk_id": "NCT06784557:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-28\nPrimary completion date: 2025-07-01\nCompletion date: 2025-10-01\nStudy first posted: 2025-01-20\nResults first posted: None\nLast update posted: 2025-01-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06784557"
+    },
+    {
+      "chunk_id": "NCT06784557:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Yonsei University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT06784557"
+    }
+  ],
+  "trial_nct_id": "NCT06784557"
+}

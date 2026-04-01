@@ -1,0 +1,315 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients will take aspirin 100 mg/day and high-intensity statin therapy. Statin intensity is defined as 2018 Cholesterol Clinical Practice Guidelines.",
+          "interventionNames": [
+            "Drug: Aspirin",
+            "Drug: High-intensity statin"
+          ],
+          "label": "Aspirin and High-intensity statin",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients will take no aspirin and high-intensity statin therapy. Statin intensity is defined as 2018 Cholesterol Clinical Practice Guidelines.",
+          "interventionNames": [
+            "Drug: High-intensity statin"
+          ],
+          "label": "No aspirin and High-intensity statin",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients will take no aspirin and guideline-directed statin therapy.",
+          "interventionNames": [
+            "Drug: Guideline-directed statin therapy"
+          ],
+          "label": "No aspirin and guideline-directed statin",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients will take aspirin 100 mg/day and guideline-directed statin therapy.",
+          "interventionNames": [
+            "Drug: Aspirin",
+            "Drug: Guideline-directed statin therapy"
+          ],
+          "label": "Aspirin and guideline-directed statin",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Aspirin and High-intensity statin",
+            "Aspirin and guideline-directed statin"
+          ],
+          "description": "Patients will take aspirin 100 mg/day.",
+          "name": "Aspirin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Aspirin and High-intensity statin",
+            "No aspirin and High-intensity statin"
+          ],
+          "description": "Statin intensity is defined as 2018 Cholesterol Clinical Practice Guidelines.",
+          "name": "High-intensity statin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Aspirin and guideline-directed statin",
+            "No aspirin and guideline-directed statin"
+          ],
+          "description": "as 2018 Cholesterol Clinical Practice Guidelines.",
+          "name": "Guideline-directed statin therapy",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "atherosclerotic cardiovascular disease",
+        "aspirin",
+        "high-intensity statin"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "drjmahn@gmail.com",
+          "name": "Jung-min Ahn, MD",
+          "phone": "82230104728",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Jung-min Ahn, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jung-min Ahn, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Asan Medical Center",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of the ASA-3C trial is to evaluate the role of aspirin and high-intensity statin therapy, respectively, in individuals with severe coronary calcification (coronary calcium score \u2265300) to prevent atherosclerotic cardiovascular disease (ASCVD) events with severe coronary calcification (CAC \u2265300)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 5000,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The subject must be aged between 40 and 70 years.\n2. Patients who have coronary artery calcium score \u2265300 Agatston Unit on coronary calcium computed tomography.\n3. Patients who have 1 or more CVD risk factors in below;\n\n   * dyslipidemia or,\n   * diabetes or,\n   * hypertension or,\n   * family history of CVD or,\n   * smoking\n4. Patients agree to the study protocol and the schedule of clinical follow-up, and provides informed, written consent, as approved by the appropriate Institutional Review Board/Ethical Committee of the respective clinical site.\n\nExclusion Criteria:\n\n1. Individuals who have symptomatic coronary artery disease or heart failure.\n2. Patients who have documented clinical Atherosclerotic Cardiovascular Disease: previous myocardial infarction, acute coronary syndrome, stable angina, coronary revascularization and other arterial revascularization procedures, stroke and Transient ischaemic attack (TIA), \\>50% carotid stenosis or previous carotid endarterectomy or stenting, aortic aneurysm and peripheral artery disease.\n3. Patients who have evidence of myocardial ischemia on non-invasive stress test including stress single photon emission CT myocardial perfusion imaging (SPECT MPI), cardiovascular magnetic resonance (CMR) imaging, stress echocardiography, or treadmill test, or on invasive stress test including Fractional flow reserve (FFR) \\< 0.80 on invasive coronary angiography (diameter stenosis\\>50% without objective evidence of ischemia could be enrolled).\n4. Patients at high risk of bleeding: gastrointestinal hemorrhage or peptic ulcer within the previous 6 months; active hepatic disease such as cirrhosis or active hepatitis; use of warfarin, or other anticoagulant therapy; or has a history of aspirin allergy.\n5. Patients with atrial fibrillation and flutter.\n6. Patients with severe left ventricular dysfunction (ejection fraction \u226430%) or severe valvular heart disease who experience dyspnea on exertion (The NYHA (New York Heart Association) Functional Classification III-IV).\n7. History of allergy or severe adverse reaction to aspirin or statin or ezetimibe.\n8. History of myositis or myopathy with active disease in the 180 days prior to study entry.\n9. Patients with active liver disease or persistent unexplained serum transaminase elevation.\n10. Patients who have significantly abnormal findings which identified violation for safety by investigator on physical examination, blood test and electrocardiogram.\n11. History of alcohol or drug abuse.\n12. Concurrent medical condition with a life expectancy of less than 1 years.\n13. Pregnant and/or lactating women.\n14. Patient was unable to provide written informed consent or participate in log-term follow up.",
+      "healthyVolunteers": false,
+      "maximumAge": "70 Years",
+      "minimumAge": "40 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "ASA-3C",
+      "briefTitle": "ASpirin Use and stAtin Strategy for Primary Prevention in Severe Coronary Calcium Score on Computed Tomography",
+      "nctId": "NCT06676280",
+      "officialTitle": "an Investigator-initiated, Multicenter, Open-label, 2-by-2 Factorial, and Randomized Trial to Evaluate the Role of Aspirin and High-intensity Statin Therapy, Respectively, in Individuals With Severe Coronary Calcification (Coronary Calcium Score \u2265300) to Prevent Atherosclerotic Cardiovascular Disease (ASCVD) Events With Severe Coronary Calcification (CAC \u2265300)",
+      "orgStudyIdInfo": {
+        "id": "AMCCV 2024-01"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Asan Medical Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "cardiovascular death; myocardial infarction ; hospitalization for Acute coronary syndrome; stroke; Transient ischaemic attack; peripheral arterial ischemia ;revascularization of coronary, carotid, or peripheral artery ;or death from an undetermined cause",
+          "measure": "Event rate of a composite of atherosclerotic cardiovascular disease event",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Event rate of Each individual component of primary composite outcome",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Event rate of Death from any causes",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Event rate of Hospitalization for heart failure",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "\\[Safety secondary endpoint\\] major bleeding is defined as a composite of intracranial hemorrhage, site-threatening bleeding event in the eye, gastrointestinal bleeding, or any other serious bleeding that resulted in hospitalization, transfusion, or that was fatal.",
+          "measure": "Event rate of the first occurrence of any major bleeding",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "Safety secondary endpoint:\n\nAspirin the first occurrence of any major bleeding; a composite of intracranial hemorrhage, site-threatening bleeding event in the eye, gastrointestinal bleeding, or any other serious bleeding that resulted in hospitalization, transfusion, or that was fatal.\n\nStatin\n\n* Muscle related adverse events; myalgia, myositis, myopathy, myonecrosis, rhabdomyolysis\n* New onset diabetes mellitus\n* Gall bladder-related adverse events\n* Cancer diagnosis\n* Cataract operation\n* New-onset neurocognitive disorder\n* Discontinuation or dose-reduction of statin therapy by intolerance",
+          "measure": "Event rate of the Safety secondary endpoint",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Jung-min Ahn"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Asan Medical Center",
+        "investigatorFullName": "Jung-min Ahn",
+        "investigatorTitle": "Professor, Cardiology, Aortic Disease Center, Cardiovascular Disease Prevention & Rehabilitation Center, Asan Medical Center Heart Institute, Valvular Heart Disease Center, Ischemic Heart Disease Center",
+        "type": "SPONSOR_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2035-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-27",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2035-03-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-07-24",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-11-04",
+      "studyFirstSubmitQcDate": "2024-11-04"
+    }
+  }
+}

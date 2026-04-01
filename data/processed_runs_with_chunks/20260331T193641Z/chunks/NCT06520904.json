@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06520904:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06520904\nBrief title: Effect of PCSK9 Inhibitors on Coronary Atherosclerotic Plaques Derived From Optical Coherence Tomography\nOfficial title: Effect of PCSK9 Inhibitors on Coronary Atherosclerotic Plaques Derived From Optical Coherence Tomography in Patients With Premature Coronary Artery Disease: a Randomized Controlled Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 52,
+      "trial_nct_id": "NCT06520904"
+    },
+    {
+      "chunk_id": "NCT06520904:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Coronary Artery Disease; Optical Coherence Tomography\nIntervention labels: PCSK9 inhibitor; Statin\nDrug class labels: \nArms: PCSK9 inhibitor group; Intensive statin group\nKeywords: Coronary Artery Disease; Lipid-lowering Therapy; PCSK9; Optical Coherence Tomography",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 35,
+      "trial_nct_id": "NCT06520904"
+    },
+    {
+      "chunk_id": "NCT06520904:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The presence of coronary atherosclerotic vulnerable plaque significantly impacts the clinical outcomes of patients diagnosed with coronary artery disease (CAD). However, the influence of PCSK9 inhibitors on stabilizing coronary atherosclerotic plaques in individuals with early-onset CAD, evaluated through optical coherence tomography (OCT), remains inadequately understood. Moreover, there is a notable absence of relevant randomized controlled trials investigating this phenomenon. This current study represents a single-center, randomized, controlled, open-label trial conducted among Asian patients with early-onset CAD. Its principal objective was to explore the effects of PCSK9 inhibitors on coronary atherosclerotic plaque morphology as assessed by OCT.\nDetailed description: Following initial percutaneous coronary intervention (PCI) for culprit lesions in patients with early-onset coronary artery disease (CAD) and \u22652 additional lesions meeting baseline lipid criteria, optical coherence tomography (OCT) was employed to evaluate non-culprit lesion sites for detailed characterization of plaque features including calcification, fibrosis, fibrolipid deposition, necrosis, minimum fibrous cap thickness (mFCT), and maximum lipid arc (MLA). Subsequently, patients were randomized in a 1:1 ratio to receive either intensive statin therapy alone or a combination of PCSK9 inhibitor with moderate-intensity statin therapy, using a random number allocation method. After 1 year of treatment and follow-up, OCT reassessment of non-culprit vessel critical lesions was conducted, documenting plaque characteristics such as calcification, fibrosis, fibrolipid content, necrosis, as well as stability parameters like mFCT and MLA at lesion sites. OCT findings were compared longitudinally within each treatment group and between groups receiving PCSK9 inhibitor combined with statin therapy versus intensive statin therapy alone. Baseline clinical profiles, biochemical markers, imaging findings, and incidence of adverse cardiovascular events during the follow-up period were also meticulously recorded for all enrolled early-onset CAD patients.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 278,
+      "trial_nct_id": "NCT06520904"
+    },
+    {
+      "chunk_id": "NCT06520904:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Men aged 18-55 years and women aged 18-65 years;\n* CAD patients with coronary angiographically confirmed lesions in \u22652 vessels; at least one vessel was critically diseased (50-70% stenosis level);\n* LDL-C \\>3.4 mmol/L without regular statin therapy or LDL-C \\>1.8 mmol/L after 4 weeks of statin lipid-lowering therapy.\n\nExclusion Criteria:\n\n* Known allergies or contraindications to PCSK9 inhibitors and/or statin therapy;\n* Prior use of PCSK9 inhibitors;\n* Prior history of hemorrhagic stroke;\n* Prior coronary artery bypass grafting or coronary intervention;\n* Inability to perform OCT imaging or unclear imaging;\n* Severe renal insufficiency (creatinine clearance \\< 30 mL/min);\n* Severe hepatic dysfunction;\n* Baseline triglycerides \\> 5.6 mmol/L;\n* Pregnant or lactating women;\n* Life expectancy not exceeding 1 year;\n* In the judgment of the investigator, unsuitable for this study for any reason.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 158,
+      "trial_nct_id": "NCT06520904"
+    },
+    {
+      "chunk_id": "NCT06520904:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=mFCT | time_frame=Immediate and 1 year after PCI | description=minimum fibrous cap thickness\ntype=primary | measure=MLA | time_frame=Immediate and 1 year after PCI | description=maximum lipid arc\ntype=primary | measure=Calcification | time_frame=Immediate and 1 year after PCI | description=calcification\ntype=primary | measure=Fibrosis | time_frame=Immediate and 1 year after PCI | description=fibrosis\ntype=primary | measure=Fibrolipid deposition | time_frame=Immediate and 1 year after PCI | description=fibrolipid deposition\ntype=primary | measure=Necrosis | time_frame=Immediate and 1 year after PCI | description=necrosis",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 79,
+      "trial_nct_id": "NCT06520904"
+    },
+    {
+      "chunk_id": "NCT06520904:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-07-01\nPrimary completion date: 2026-09-30\nCompletion date: 2026-12-31\nStudy first posted: 2024-07-25\nResults first posted: None\nLast update posted: 2024-08-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06520904"
+    },
+    {
+      "chunk_id": "NCT06520904:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: First Affiliated Hospital of Xinjiang Medical University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT06520904"
+    }
+  ],
+  "trial_nct_id": "NCT06520904"
+}

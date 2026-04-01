@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06434753:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06434753\nBrief title: Zinc Supplementation to Improve Prognosis in Patients With Compensated Advanced Chronic Liver Disease.\nOfficial title: Zinc Supplementation to Improve Prognosis in Patients With Compensated Advanced Chronic Liver Disease: A Multicenter, Randomized, Double-blind, Placebo Controlled Clinical Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT06434753"
+    },
+    {
+      "chunk_id": "NCT06434753:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Advanced Chronic Liver Disease; Portal Hypertension; Hepatocellular Carcinoma\nIntervention labels: Zinc Acexamate\nDrug class labels: \nArms: Zinc Acexamate; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT06434753"
+    },
+    {
+      "chunk_id": "NCT06434753:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Zinc homeostasis could play a role in advanced chronic liver disease (cACLD) and its supplementation has been linked with improvement in liver function, decrease of hepatic complications and reduction in hepatocellular carcinoma (HCC) incidence. cACLD encompasses a heterogeneous group of patients with a variable risk of clinically significant portal hypertension (CSPH) and clinical events. The ANTICIPATE model is a validated model for stratifying these risks. Our aim is to demonstrate that the administration of zinc can reduce the rate and risk of presenting clinical events (first decompensation, HCC, death and liver transplantation). This study protocol describes an ongoing phase III, national, multicentre, randomized, double-blind clinical trial that will enroll 300 patients to receive either the trial treatment (zinc acexamate) or placebo. An inclusion period of 42 months is planned, with a minimal duration of follow up of 2 years. Our principal hypothesis is that zinc could modify the natural history of cACLD patients, with an overall improvement in prognosis\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 164,
+      "trial_nct_id": "NCT06434753"
+    },
+    {
+      "chunk_id": "NCT06434753:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients of both sexes with diagnosed compensated advanced chronic liver disease (cACLD) determined by hepatic stiffness on transient elastography \\>15 kPa.\n* Age between 18 and 80 years, inclusive.\n* Absence of prior or current decompensation.\n* For women of childbearing age, a possible pregnancy will be ruled out by a pregnancy test prior to the start of the study. Following the test, the woman must use an effective contraceptive method during sexual intercourse (see Appendix I) in the days leading up to the start of treatment, and continue to use it throughout the treatment period, as well as for several days after its completion.\n* Signing of informed consent.\n\nExclusion Criteria:\n\n* History or current presence of hepatocellular carcinoma.\n* Concomitant systemic disease with a short-term poor prognosis.\n* Pregnancy, breastfeeding, or refusal to use contraceptive measures during participation in the study.\n* Patients with compensated advanced chronic liver disease (cACLD) due to hepatitis B virus (HBV) under antiviral treatment, and those with cACLD due to hepatitis C virus (HCV) cured with antiviral treatment.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 196,
+      "trial_nct_id": "NCT06434753"
+    },
+    {
+      "chunk_id": "NCT06434753:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Values 1-6. Ordinal scale to assess efficacy of the intervention. | time_frame=24 months | description=Ordinal scale to assess efficacy of the intervention, with expected distribution of patients on each study arm at the 2-year mark, based on an effect size of an OR of 0.55.The most severe category (Value 6) will be the development of clinical events:First decompensation,hepatocellular carcinoma, liver related-death (non-liver-related deaths as competing events), and liver transplantation.Those patients free of a liver-related event at 2 years,will be classified according to the risk of CSPH (ANTICIPATE model value), distributing patients in the ordinal scale with ascending hierarchy of CSPH risk: Level 1,\\<0.30 risk;Level 2,0.30-0.45 risk;Level 3, 0.45-0.60 risk;Level 4, 0.60-0.85 risk;and Level 5, \\>0.85 risk.\n\nExpected clinical events at 2 years of follow-up (PREDESCI study and others on natural history of liver cirrhosis) with added effect of decompensation, HCC and death:20% of clinical events at 2 years (16% decompensations,2% hepatocellular carcinomas and 2% deaths).\ntype=primary | measure=Time-dependent composite clinical endpoint | time_frame=End of Follow-up | description=Time to occurrence of the composite endpoint of only clinical events until study termination.\ntype=secondary | measure=Evaluate if the administration of zinc decreases the risk of having the first decompensation and what type. | time_frame=24 months | description=Number of descompensations: First descompensation, hepatocellular carcinoma, liver related-death, liver transplantation.\ntype=secondary | measure=Evaluate if the administration of zinc decreases the risk of CSPH estimated by the ANTICIPATE model. | time_frame=24 months | description=Odds Ratio\ntype=secondary | measure=Evaluate if the administration of zinc reduces the risk of hepatocellular carcinoma. | time_frame=24 months | description=Odds Ratio\ntype=secondary | measure=Evaluate if the administration of zinc reduces the risk of bacterial infections. | time_frame=24 months | description=Odds Ratio\ntype=secondary | measure=Evaluate if the administration of zinc improves overall transplant-free survival and the risk of liver-related death. | time_frame=24 months | description=Odds Ratio\ntype=secondary | measure=Evaluate if the administration of zinc improves liver function as measured by Child-Pugh and End-stage Liver Disease (MELD) score. | time_frame=24 months | description=Child-Pugh: 5 (better outcome) to 15 (worse outcome). Child- Pugh has not an unabbreviated title. MELD: 6 (better outcome) to 40 (worse outcome)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 352,
+      "trial_nct_id": "NCT06434753"
+    },
+    {
+      "chunk_id": "NCT06434753:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-10-02\nPrimary completion date: 2026-03-02\nCompletion date: 2026-03-02\nStudy first posted: 2024-05-30\nResults first posted: None\nLast update posted: 2024-06-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06434753"
+    },
+    {
+      "chunk_id": "NCT06434753:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Hospital Universitari Vall d'Hebron Research Institute\nLead sponsor class: OTHER\nCollaborators: Hospital General Universitario Gregorio Mara\u00f1on; Hospital Vall d'Hebron; Hospital Universitario Puerta del Hierro; Hospital Clinic of Barcelona; Hospital Universitario Central de Asturias; Complejo Hospitalario de Toledo; Germans Trias i Pujol Hospital; Hospital Universitario Marqu\u00e9s de Valdecilla; Hospital Miguel Servet; Parc Taul\u00ed Hospital Universitari; Hospital de la Santa creu i Sant Pau - Barcelona; Hospital Universitari de Bellvitge; Hospital del Mar; University Hospital of Girona Dr. Josep Trueta\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 88,
+      "trial_nct_id": "NCT06434753"
+    }
+  ],
+  "trial_nct_id": "NCT06434753"
+}

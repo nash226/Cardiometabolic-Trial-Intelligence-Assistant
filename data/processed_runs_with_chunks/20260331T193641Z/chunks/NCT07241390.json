@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07241390:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07241390\nBrief title: A Study of Orforglipron (LY3502970) on Cardiovascular Outcomes in Adults With Atherosclerotic Cardiovascular Disease and/or Chronic Kidney Disease (ATTAIN-Outcomes)\nOfficial title: A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Event-Driven Study to Investigate the Effect of Orforglipron on the Incidence of Major Adverse Cardiovascular Events in Participants With Established Atherosclerotic Cardiovascular Disease and/or Chronic Kidney Disease\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 67,
+      "trial_nct_id": "NCT07241390"
+    },
+    {
+      "chunk_id": "NCT07241390:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atherosclerosis Cardiovascular Disease; Chronic Kidney Disease\nIntervention labels: Orforglipron; Placebo\nDrug class labels: \nArms: Orforglipron; Placebo\nKeywords: Heart Disease; Kidney Disease; Outcomes; Stroke",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT07241390"
+    },
+    {
+      "chunk_id": "NCT07241390:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to measure cardiovascular outcomes with orforglipron compared with placebo in participants with atherosclerotic cardiovascular disease (ASCVD) and/or chronic kidney disease (CKD). Participation in the study will last about 5 years.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT07241390"
+    },
+    {
+      "chunk_id": "NCT07241390:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 50 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Have established ASCVD and/or CKD\n\nExclusion Criteria:\n\n* Have type 1 diabetes\n* Have had a major heart condition within 60 days prior to screening\n* Have New York Heart Association Functional Classification Class IV heart failure",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 57,
+      "trial_nct_id": "NCT07241390"
+    },
+    {
+      "chunk_id": "NCT07241390:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to First Occurrence of Composite Endpoint of Major Cardiovascular Events | time_frame=Baseline up to end of study (about 5 years) | description=Composite endpoint includes nonfatal myocardial infarction, nonfatal stroke, hospitalization or urgent visit due to heart failure, coronary revascularization, or all-cause death\ntype=secondary | measure=Time to First Occurrence of Composite Endpoint of Major Cardiovascular and Kidney Events | time_frame=Baseline up to end of study (about 5 years) | description=Composite endpoint includes nonfatal myocardial infarction, nonfatal stroke, hospitalization or urgent visit due to heart failure, coronary revascularization, \u226540% sustained decline in estimated glomerular filtration rate (eGFR), end-stage kidney disease, or all-cause death\ntype=secondary | measure=Change from Baseline in Total eGFR Slope | time_frame=Baseline up to end of study (about 5 years)\ntype=secondary | measure=Time to Onset of Type 2 Diabetes | time_frame=Baseline up to end of study (about 5 years)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 142,
+      "trial_nct_id": "NCT07241390"
+    },
+    {
+      "chunk_id": "NCT07241390:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-01\nPrimary completion date: 2031-08\nCompletion date: 2031-08\nStudy first posted: 2025-11-21\nResults first posted: None\nLast update posted: 2026-03-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07241390"
+    },
+    {
+      "chunk_id": "NCT07241390:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eli Lilly and Company\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07241390"
+    }
+  ],
+  "trial_nct_id": "NCT07241390"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT02682511:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT02682511\nBrief title: Oral Ifetroban to Treat Diffuse Cutaneous Systemic Sclerosis (SSc) or SSc-associated Pulmonary Arterial Hypertension\nOfficial title: A Phase 2 Multicenter, Randomized, Double-blind, Placebo-controlled Study to Assess the Safety and Efficacy of Ifetroban in Patients With Diffuse Cutaneous Systemic Sclerosis (SSc) or SSc-associated Pulmonary Arterial Hypertension (SSc-PAH)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 59,
+      "trial_nct_id": "NCT02682511"
+    },
+    {
+      "chunk_id": "NCT02682511:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Scleroderma, Diffuse; Scleroderma, Systemic; Scleroderma, Limited; Sclerosis, Progressive Systemic; Skin Diseases; Connective Tissue Diseases; Pathologic Processes; Autoimmune Diseases\nIntervention labels: Oral Ifetroban; Oral Placebo\nDrug class labels: \nArms: Patients with dcSSc; Patients with SSc-PAH\nKeywords: Ifetroban; Scleroderma; Systemic Sclerosis",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT02682511"
+    },
+    {
+      "chunk_id": "NCT02682511:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this phase 2 multicenter, randomized, double-blind, placebo-controlled, study is to assess the safety and efficacy of ifetroban in patients with diffuse cutaneous systemic SSc (dcSSc) or SSc-associated pulmonary arterial hypertension (SSc-PAH).\nDetailed description: This study is a randomized, placebo-controlled, double-blind phase 2 trial of patients with dcSSc or SSc-PAH. Twenty participants with SSc-PAH and 14 participants with dcSSc will be randomized to receive either oral ifetroban daily or matching placebo. Study participants will be treated for 12 months, followed by a 30-day follow-up period. The study will test whether ifetroban is safe and statistically superior to placebo in reducing the effects of their disease at month 12 and explore the ability of ifetroban to prevent or reverse progression in patients with early disease duration and reverse established disease in patients with longer disease duration.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 139,
+      "trial_nct_id": "NCT02682511"
+    },
+    {
+      "chunk_id": "NCT02682511:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\nDiffuse Cutaneous Criterion:\n\n1\\. Systematic Sclerosis (SSc), as defined using the 2013 American College of Rheumatology/ European Union League Against Rheumatism Classification Criteria and dcSSc within 7 years following initial diagnosis as defined by the onset of the first non-Raynaud symptom.\n\nSSc-PAH Criteria:\n\n1. Adults fulfilling the 2013 American College of Rheumatology/ European Union League Against Rheumatism Classification Criteria with confirmed SSc-PAH (limited or dcSSc) confirmed via previous cardiac catheterization\n2. Stable oral therapy for PAH for at least 30 days (monotherapy or combination)\n3. New York Heart Association (NYHA) Class I-III Heart Failure\n\nExclusion Criteria:\n\n1. Have a diagnosis of systemic sclerosis sine scleroderma;\n2. Be less than 18 years of age or greater than or equal to 80 years of age;\n3. Be pregnant, nursing, or planning to become pregnant;\n4. Current or planned treatment with prostanoid therapy;\n5. Current or planned treatment with pirfenidone;\n6. Use of rituximab in the last 3 months;\n7. Use of mycophenolic acid (Myfortic, CellCept) at a stable dose for less than 3 months;\n8. Current or planned corticosteroid therapy greater than 15mg per day of prednisone or prednisone equivalent;\n9. Significant lung disease, defined as FVC \\< 50% predicted or DLCO \\<40% predicted;\n10. Significant kidney disease, defined as Glomerular Filtration Rate (GFR) \\< 60 ml/min;\n11. Have moderate or severe hepatic impairment;\n12. Contraindication to MRI (e.g., implanted magnetic material, claustrophobia);\n13. Known hypersensitivity to gadolinium;\n14. Any cause of pulmonary hypertension other than World Health Organization (WHO) Group I associated with SSc;\n15. Use of aspirin \\> 81 mg per day in the last two weeks;\n16. Use of warfarin, heparin or other anticoagulants in the last 30 days;\n17. Recent (within 6 weeks) myocardial infarction or persistent atrial arrhythmias;\n18. Have a history of allergy or hypersensitivity to ifetroban;\n19. Have taken investigational drugs within 30 days before study treatment administration;\n20. Inability to understand the requirements of the study, inability to understand spoken English and abide by the study restrictions and to return for the required treatments and assessments;\n21. Be otherwise unsuitable for the study, in the opinion of the investigator.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 375,
+      "trial_nct_id": "NCT02682511"
+    },
+    {
+      "chunk_id": "NCT02682511:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Incidence of adverse events (AEs) and Serious AEs (SAEs) | time_frame=56 weeks | description=Safety is measured using AEs, including clinical significant changes in vital signs, laboratory test abnormalities and clinical tolerability of ifetroban.\ntype=secondary | measure=Change from baseline in forced vital capacity (FVC) | time_frame=Baseline, 12, 26, and 52 weeks | description=To determine if ifetroban improves pulmonary function in subjects with diffuse cutaneous SSc or SSc-PAH compared to placebo as measured by a change from baseline FVC.\ntype=secondary | measure=Change from baseline in diffusion capacity for carbon monoxide (DLCO) | time_frame=Baseline, 12, 26, and 52 weeks | description=To determine if ifetroban improves pulmonary function in subjects with diffuse cutaneous SSc or SSc-PAH compared to placebo as measured by a change from baseline diffusion capacity for carbon monoxide (DLCO)\ntype=secondary | measure=Change from baseline in the modified Rodnan skin score (mRSS) | time_frame=Baseline, 12, 26, 39, and 52 weeks | description=The efficacy of treatment on skin fibrosis will be measured by changes from baseline in mRSS, a measure of skin thickness, at 52 weeks.\ntype=other | measure=Change from baseline in ventricular function as determined by cardiac MRI | time_frame=Baseline, 26, and 52 weeks\ntype=other | measure=Change from baseline in ventricular function as determined by echocardiography | time_frame=Baseline, 26, and 52 weeks\ntype=other | measure=Improve skin and peripheral vascular disease as measured by active digital ulcer count | time_frame=Baseline, 12, 26, 39, and 52 weeks\ntype=other | measure=Improve skin and peripheral vascular disease as measured by the subject's self-assessment of pain in digits by a visual analog scale (VAS), if active digital ulcers are present. | time_frame=Baseline, 12, 26, 39, and 52 weeks\ntype=other | measure=Change from baseline in blood biomarkers | time_frame=Baseline, 26, and 52 weeks\ntype=other | measure=Change from baseline in skin biomarkers | time_frame=Baseline, 26, and 52 weeks\ntype=other | measure=Change from baseline in erythrocyte sedimentation rate | time_frame=Baseline, 26, and 52 weeks\ntype=other | measure=Change from baseline in subject-reported health status assessed by the Scleroderma Health Assessment Questionnaire (SHAQ) | time_frame=Baseline, 12, 26, 39, and 52 weeks\ntype=other | measure=Change from baseline in subject health and disability measurements as assessed by the World Health Organization Disability Assessment Assessment Schedule 2.0 (WHODAS 2.0) | time_frame=Baseline, 12, 26, 39, and 52 weeks\ntype=other | measure=Change from baseline in subject-reported gastro-intestinal tract symptoms as assessed by the University of California, Los Angles (UCLA) Scleroderma Clinical Trial Consortium (SCTC) Gastrointestinal Tract (GIT) Questionnaire | time_frame=Baseline, 12, 26, 39, and 52 weeks\ntype=other | measure=Change from baseline in subject-reported outcomes as assessed by the short-form health survey (SF-36) | time_frame=Baseline, 12, 26, 39, and 52 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 435,
+      "trial_nct_id": "NCT02682511"
+    },
+    {
+      "chunk_id": "NCT02682511:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2017-01\nPrimary completion date: 2026-02\nCompletion date: 2026-05\nStudy first posted: 2016-02-15\nResults first posted: None\nLast update posted: 2025-07-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT02682511"
+    },
+    {
+      "chunk_id": "NCT02682511:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Cumberland Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT02682511"
+    }
+  ],
+  "trial_nct_id": "NCT02682511"
+}

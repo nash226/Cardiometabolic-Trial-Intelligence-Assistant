@@ -1,0 +1,179 @@
+{
+  "arms": [
+    {
+      "description": "Participants randomized to this arm will receive vasopressin intravenously in a blinded solution prepared by the pharmacy (final concentration: 0.12 U/mL in 250 mL of 5% glucose solution). The infusion will start at 5 mL/h and will be titrated by 2.5 mL/h every 10 minutes up to a maximum of 30 mL/h, corresponding to doses between 0.01 and 0.06 U/min. The infusion will be maintained until the target mean arterial pressure (MAP) \u226565 mmHg is achieved. If this target is not reached, open-label norepinephrine may be initiated. Hemodynamic and laboratory parameters will be collected at the start (T0) and after achieving target pressure (T1).",
+      "intervention_names": [
+        "Drug: Vasopressin intravenous infusion"
+      ],
+      "label": "Vasopressin",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Participants randomized to this arm will receive norepinephrine intravenously in a blinded solution prepared by the pharmacy (final concentration: 120 \u00b5g/mL in 250 mL of 5% glucose solution). The infusion will start at 5 mL/h and will be titrated by 2.5 mL/h every 10 minutes up to a maximum of 30 mL/h, corresponding to doses between 10 and 60 \u00b5g/min. The infusion will be maintained until the target mean arterial pressure (MAP) \u226565 mmHg is achieved. If this target is not reached, additional open-label norepinephrine may be started. Hemodynamic and laboratory parameters will be collected at the start (T0) and after achieving target pressure (T1).",
+      "intervention_names": [
+        "Drug: Norepinephrine intravenous infusion"
+      ],
+      "label": "Noradrenaline",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Vasoplegic Syndrome of Cardiac Surgery",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Age over 18.\n* Patients undergoing coronary artery bypass grafting, valve surgery or both, with a diagnosis of vasoplegic syndrome in the immediate postoperative period (\\<24 hours), defined as mean arterial pressure \\< 65 mmHg (measured using an invasive blood pressure catheter) and resistance to fluid replacement - at least 1000ml of crystalloids.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding.\n* Aortic surgery.\n* Surgeries to correct congenital heart disease.\n* Heart transplants.\n* Emergency surgery.\n* Use of vasopressor therapy in the preoperative period.\n* Presence of a ventricular assist device other than an intra-aortic balloon in the postoperative period.\n* Severe hyponatremia in the postoperative period (serum sodium less than 130mEq/l).\n* Postoperative acute coronary syndrome.\n* Mesenteric ischemia in the postoperative period.\n* History of Raynaud's disease.\n* History of neoplasia.",
+    "healthy_volunteers": true,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Vasopressin"
+      ],
+      "description": "Vasopressin will be administered intravenously in a blinded 250 mL bag of 5% glucose solution, at a final concentration of 0.12 U/mL. The infusion will begin at 5 mL/h and be increased by 2.5 mL/h every 10 minutes during the first hour, up to a maximum rate of 30 mL/h (equivalent to doses from 0.01 to 0.06 U/min). The target is to reach and maintain mean arterial pressure (MAP) \u226565 mmHg. If this is not achieved, open-label norepinephrine may be added. Hemodynamic and echocardiographic parameters will be measured before and after the target MAP is reached.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Vasopressin intravenous infusion",
+      "normalized_name": "vasopressin intravenous infusion"
+    },
+    {
+      "arm_group_labels": [
+        "Noradrenaline"
+      ],
+      "description": "Norepinephrine will be administered intravenously in a blinded 250 mL bag of 5% glucose solution, at a final concentration of 120 \u00b5g/mL. The infusion will begin at 5 mL/h and be increased by 2.5 mL/h every 10 minutes during the first hour, up to a maximum rate of 30 mL/h (equivalent to doses from 10 to 60 \u00b5g/min). The goal is to reach and maintain MAP \u226565 mmHg. If the MAP target is not reached, open-label norepinephrine may be initiated. Clinical and hemodynamic parameters will be collected at baseline and after MAP stabilization.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Norepinephrine intravenous infusion",
+      "normalized_name": "norepinephrine intravenous infusion"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "The primary outcome is the variation in cardiac output (CO), measured by transthoracic echocardiography, from the beginning of the vasopressor infusion (T0) until the achievement of target mean arterial pressure \u226565 mmHg (T1), in patients with vasoplegic syndrome after cardiac surgery. This measurement reflects the inotropic effect of vasopressin versus norepinephrine",
+      "measure": "Change in inotropic function assessed by cardiac output between T0 and T1",
+      "outcome_type": "primary",
+      "time_frame": "Up to 1 hour after initiation of vasopressor therapy"
+    },
+    {
+      "description": "LVEF will be measured using transthoracic echocardiography at T0 (baseline) and T1 (after achieving MAP \u226565 mmHg), to assess changes in left ventricular systolic function.",
+      "measure": "Change in left ventricular ejection fraction (LVEF) between T0 and T1",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 1 hour after vasopressor initiation"
+    },
+    {
+      "description": "Time (in minutes) between the start of vasopressor infusion (T0) and the point at which MAP \u226565 mmHg is reached (T1), indicating hemodynamic stabilization.",
+      "measure": "Time to achieve target mean arterial pressure (MAP \u226565 mmHg)",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 1 hour"
+    },
+    {
+      "description": "Heart rate will be measured at baseline (T0) and after stabilization (T1) to assess the chronotropic effect of each drug.",
+      "measure": "Change in heart rate (HR) between T0 and T1",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 1 hour"
+    },
+    {
+      "description": "Arterial lactate will be used as a marker of tissue perfusion, measured at T0 and T1, to evaluate response to vasopressor therapy.",
+      "measure": "Change in arterial lactate levels between T0 and T1",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 1 hour"
+    },
+    {
+      "description": "SvO\u2082 will be measured at T0 and T1 as an indirect marker of oxygen delivery and cardiac output adequacy.",
+      "measure": "Change in central venous oxygen saturation (SvO\u2082)",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 1 hour"
+    },
+    {
+      "description": "The CO\u2082 gap will be evaluated at T0 and T1 to assess tissue hypoperfusion and response to vasopressor use.",
+      "measure": "Change in CO\u2082 gap (central venous-to-arterial CO\u2082 difference)",
+      "outcome_type": "secondary",
+      "time_frame": "Up to 1 hour"
+    },
+    {
+      "description": "Number of participants in each arm requiring additional norepinephrine outside the study drug to reach MAP \u226565 mmHg.",
+      "measure": "Need for additional open-label norepinephrine",
+      "outcome_type": "secondary",
+      "time_frame": "During initial vasopressor titration (up to 1 hour)"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This is a randomized, double-blind clinical trial designed to compare the inotropic effects of vasopressin versus norepinephrine in patients who develop vasoplegic syndrome in the immediate postoperative period following cardiac surgery.\n\nVasoplegic syndrome is characterized by severe hypotension due to systemic vasodilation, despite adequate fluid resuscitation and preserved or elevated cardiac output. Vasopressors are essential in restoring hemodynamic stability in this context; however, their impact on myocardial performance remains uncertain. While norepinephrine is the standard first-line agent, vasopressin has shown potential benefits, including reduced catecholamine exposure and fewer adverse cardiovascular effects.\n\nThis study aims to assess changes in cardiac output and other echocardiographic and hemodynamic parameters after administration of either vasopressin or norepinephrine. The findings are expected to contribute to optimizing vasopressor selection in vasoplegic patients after cardiac surgery and improving clinical outcomes.",
+    "brief_title": "Inotropic Effects of Vasopressin Versus Noradrenaline In Patients With Vasoplegic Syndrome After Cardiac Surgery",
+    "collaborator_names": [
+      "Hospital Universit\u00e1rio Cassiano Ant\u00f4nio de Moraes/HUCAM",
+      "Hospital Santa Casa de Miseric\u00f3rdia de Vit\u00f3ria"
+    ],
+    "completion_date": "2025-07-30",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Age over 18.\n* Patients undergoing coronary artery bypass grafting, valve surgery or both, with a diagnosis of vasoplegic syndrome in the immediate postoperative period (\\<24 hours), defined as mean arterial pressure \\< 65 mmHg (measured using an invasive blood pressure catheter) and resistance to fluid replacement - at least 1000ml of crystalloids.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding.\n* Aortic surgery.\n* Surgeries to correct congenital heart disease.\n* Heart transplants.\n* Emergency surgery.\n* Use of vasopressor therapy in the preoperative period.\n* Presence of a ventricular assist device other than an intra-aortic balloon in the postoperative period.\n* Severe hyponatremia in the postoperative period (serum sodium less than 130mEq/l).\n* Postoperative acute coronary syndrome.\n* Mesenteric ischemia in the postoperative period.\n* History of Raynaud's disease.\n* History of neoplasia.",
+    "detailed_description": "This prospective, randomized, double-blind clinical trial investigates the inotropic effects of vasopressin versus norepinephrine in patients who develop vasoplegic syndrome (VS) in the immediate postoperative period following cardiac surgery.\n\nVasoplegic syndrome is characterized by severe hypotension with low systemic vascular resistance despite adequate cardiac output, often unresponsive to standard fluid resuscitation and catecholamine vasopressors. It is associated with significant morbidity and mortality, especially in cardiac surgery patients. In recent years, vasopressin has been explored as an alternative or adjunctive treatment due to its different mechanism of action and potentially fewer adverse effects compared to catecholamines.\n\nEligible patients (\u226518 years) undergoing coronary artery bypass grafting or valve surgery, who develop vasoplegic syndrome within 24 hours postoperatively, will be randomized in a 1:1 ratio to receive vasopressin or norepinephrine. Drug allocation will be blinded to the clinical and research teams, with identically prepared infusion bags.\n\nThe study protocol includes a detailed vasopressor infusion regimen, beginning at 5 mL/h with titration every 10 minutes to a maximum of 30 mL/h, aiming for a target mean arterial pressure (MAP) \u226565 mmHg. Hemodynamic parameters (SBP, DBP, MAP, HR, lactate, SVO\u2082, CO\u2082 gap) and echocardiographic indices (LVEF, TAPSE, VTI, CO, SVR) will be collected at baseline (T0) and upon reaching the MAP goal (T1).\n\nPrimary endpoint: Comparative assessment of the inotropic effects between the two vasopressors based on echocardiographic and hemodynamic changes from T0 to T1.\n\nSample size: 175 patients per arm, considering a 30% effect size and 5% attrition rate, powered at 80% with a 5% type I error.\n\nStatistical analysis will follow an intention-to-treat approach using appropriate parametric and non-parametric tests, with p-values \\<0.05 considered statistically significant.\n\nThis trial is expected to provide clinically relevant data on the efficacy and safety of vasopressin in improving myocardial performance in vasoplegic patients, potentially supporting its use as a first-line vasopressor in this context",
+    "drug_class_labels": [],
+    "enrollment_count": 350,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": true,
+    "intervention_labels": [
+      "Vasopressin intravenous infusion",
+      "Norepinephrine intravenous infusion"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Shock Cardiogenic",
+      "Postoperative Complications",
+      "Cardiac Surgical Procedures"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-04-30",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Sao Paulo",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06934798",
+    "official_title": "Inotropic Effects of Vasopressin Versus Noradrenaline In Patients With Vasoplegic Syndrome After Cardiac Surgery",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2025-07-30",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06934798",
+    "start_date": "2024-04-01",
+    "study_first_posted_at": "2025-04-18",
+    "study_type": "INTERVENTIONAL"
+  }
+}

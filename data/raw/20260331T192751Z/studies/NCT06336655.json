@@ -1,0 +1,310 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients on VA ECMO who randomize to receive LV unloading",
+          "interventionNames": [
+            "Device: IABP"
+          ],
+          "label": "With LV Unloading",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients on VA ECMO who randomize to receive no LV unloading",
+          "label": "Without LV Unloading",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "With LV Unloading"
+          ],
+          "description": "LV unloading via intra-aortic balloon pump (IABP)",
+          "name": "IABP",
+          "otherNames": [
+            "LV unloading"
+          ],
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock"
+      ],
+      "keywords": [
+        "cardiogenic shock",
+        "extracorporeal membrane oxygenation",
+        "left ventricular unloading"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Salt Lake City",
+          "contacts": [
+            {
+              "email": "joseph.tonna@hsc.utah.edu",
+              "name": "Joseph E. Tonna, MD, FAAEM",
+              "phone": "801.587.9373",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Utah",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          },
+          "state": "Utah",
+          "status": "RECRUITING",
+          "zip": "84132"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to compare the use of veno-arterial extracorporeal membrane oxygenation (VA ECMO) with and without left ventricular (LV) unloading in patients being treated for cardiogenic shock (CS). The main aims of the study are:\n\n1. To determine the physiologic effects on cardiopulmonary congestion of adding LV unloading to VA ECMO\n2. To determine the effects on myocardial function of adding LV unloading to ECMO\n3. To test the effects on myocardial recovery of adding LV unloading to VA ECMO\n\nParticipants who are being treated with VA ECMO will be randomized to receive or not receive LV unloading in the form of an intra-aortic balloon pump (IABP). Over the course of the study, the investigators will obtain measurements via lab work, echocardiography, and pulmonary artery catheter that will allow comparison of the two groups.",
+      "detailedDescription": "Although extracorporeal membrane oxygenation (ECMO) for cardiogenic shock (CS) is used in over 3,000 patients per year, the best management strategies are not known. Identifying and improving treatment of CS is critically important, as CS occurs in 160,000 patients per year in the US with a 50% mortality rate. VA ECMO is an increasingly used method of mechanical circulatory support (MCS) for patients with CS refractory to medical therapy. Despite the benefit of full cardiopulmonary support ECMO is also thought to increase after load in the failing heart- which paradoxically reduces cardiac output and may lead to myocardial injury and cardiac congestion. A potential solution is to add a device to VA ECMO that decreases after-load - known as left ventricular (LV) unloading. LV unloading can be achieved with different approaches, directly with transvalvular pumps (known as a peripheral ventricular assist device (pVAD)), or indirectly with an intra-aortic balloon pump (IABP)\n\nPreliminary data suggests that unloading the LV is associated with improved survival. Results from a cohort of VA ECMO patients with medical CS, showed a hospital survival benefit LV unloading (aOR 0.87 (0.79, 094); p=0.001). Data has also shown that the survival benefit of LV unloading was much larger with pVAD (HR 0.6), but with higher complications, including limb ischemia - a potentially catastrophic complication. However, results also show that different unloading approaches have different physiologic effects on the myocardium and on peripheral perfusion - highlighting the uncomfortable observation that it is not known how (physiologically) these unloading devices lead to changes in survival.\n\nThere are two potential pathways whereby LV unloading could influence survival, including myocardial effects (distension, injury, ejection fraction ) and peripheral effects (peripheral pulse pressure, lactate clearance, CO2 gap). Determining the physiologic effects from LV unloading according to device type and patient etiology will allow us to match the intervention with the patient's physiology. Data suggests that ECMO patients with acute myocardial infarction (AMI) have different mortality and different physiologic changes than patients with decompensated chronic heart failure (CHF) when unloaded.\n\nThe ultimate goal is to reduce morbidity and mortality in cardiogenic shock. This study will define the physiologic benefit of LV unloading during CS."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 104,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients (age 18 years or older)\n* Diagnosis of acute cardiogenic shock (CS)\n* Patients failing medical therapy, defined as 1 or more of the following:\n\n  1. Society for Coronary Angiography and Interventions (SCAI) Stage C or greater\n  2. 2 or more inotropic medications and not improving\n  3. IABP in place and clinically worsening\n  4. Placed on VA ECMO for CS\n  5. In the opinion of the attending physician, patient has worsening CS and could require VA ECMO support in the near-term\n\nExclusion Criteria:\n\n* Metastatic or stage 4 cancer\n* Atrial septostomy\n* Planned LV unloading on ECMO\n* Anticipated death \\<72 hours\n* Existing durable left ventricular assist device (dLVAD)\n* Unwillingness to randomize\n* Patients who are pregnant",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Physiology of Unloading VA ECMO Trial",
+      "nctId": "NCT06336655",
+      "officialTitle": "Physiology of Unloading VA ECMO Trial",
+      "orgStudyIdInfo": {
+        "id": "153309"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Utah"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Change in pulmonary capillary wedge pressure (PCWP) from ECMO start to ECMO day 5 (Day 5 - Baseline) with and without LV unloading",
+          "measure": "Change in pulmonary capillary wedge pressure",
+          "timeFrame": "ECMO start, ECMO day 5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change in pulmonary artery diastolic pressure (PADP) from ECMO start to ECMO day 5 (Day 5 - baseline) with and without LV unloading",
+          "measure": "Change in pulmonary artery diastolic pressure",
+          "timeFrame": "ECMO start, ECMO days 1-5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Change in left ventricular end diastolic diameter (LVEDd) from ECMO start to ECMO day 5 (Day 5 - baseline) with and without LV unloading",
+          "measure": "Change in left ventricular end diastolic diameter",
+          "timeFrame": "ECMO start, ECMO day 5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Change in N-terminal pro b-type natriuretic peptide (NT-pro BNP) from ECMO start to ECMO day 5 (Day 5 - baseline) with and without LV unloading",
+          "measure": "Change in N-terminal pro b-type natriuretic peptide",
+          "timeFrame": "ECMO start, ECMO days 1-5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Hemodynamic stability (defined as a change in mean arterial pressure \\[MAP\\] from prior to turn down until 2 minutes of wean) at ECMO day 5 with and without LV unloading",
+          "measure": "Hemodynamic stability",
+          "timeFrame": "ECMO start, ECMO day 5"
+        },
+        {
+          "description": "Global cardiovascular function is defined as arterial pulse pressure during the protocoled wean. To assess this outcome, the investigators will calculate the change in pulse pressure from prior to wean to 2 minutes during wean.",
+          "measure": "Global cardiovascular function",
+          "timeFrame": "ECMO start, ECMO days 1-5"
+        },
+        {
+          "description": "As part of assessing global cardiovascular function, the investigators will measure, via lab draw, pCO2, which is the difference in CO2 between arterial and central venous blood. This is a marker of peripheral perfusion.",
+          "measure": "Difference in partial pressure of carbon dioxide (pCO2)",
+          "timeFrame": "ECMO start, q12 hours ECMO days 1-3, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "As part of assessing global cardiovascular function, the investigators will measure, via lab draw, arterial lactate. This is a marker of peripheral perfusion.",
+          "measure": "Lactate",
+          "timeFrame": "ECMO start, ECMO days 1-5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Change in Cardiac BIN1 (cBIN1) serum level from Baseline to Day 5 (Day 5 - Baseline). cBIN1is a validated marker of myocardial recovery in heart failure.",
+          "measure": "Cardiac BIN1",
+          "timeFrame": "ECMO start, ECMO day 5, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Change in troponin I from ECMO start to ECMO day 5 (Day 5 - Baseline)",
+          "measure": "Troponin I",
+          "timeFrame": "ECMO start, ECMO days 1-5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Change in tumor necrosis factor alpha (TNFa) from ECMO start to ECMO day 5 (Day 5 - Baseline)",
+          "measure": "Tumor necrosis factor alpha",
+          "timeFrame": "ECMO start, ECMO day 5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Assessment of heart function via echocardiography",
+          "measure": "Ejection fraction percentage",
+          "timeFrame": "ECMO start, ECMO day 5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Predictor of myocardial recovery assessed from baseline through ICU discharge",
+          "measure": "Interferon gamma",
+          "timeFrame": "ECMO start, ECMO day 5, ECMO decannulation up to 3 months, day of ICU discharge up to 6 months"
+        },
+        {
+          "description": "Ischemia in the ipsilateral limb as the IABP will be tracked from baseline until 48 hours after the intervention is removed.",
+          "measure": "Limb ischemia",
+          "timeFrame": "Randomization, 48 hours post-device removal"
+        },
+        {
+          "description": "Assessment of patient mortality status at hospital discharge",
+          "measure": "Mortality",
+          "timeFrame": "Hospital discharge up to 6 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": true,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "University of Minnesota"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Utah"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Utah",
+        "investigatorFullName": "Joseph Tonna",
+        "investigatorTitle": "Associate Professor, Division of Cardiothoracic Surgery",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-02-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-05",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-02-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-10-02",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-11",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-08",
+      "studyFirstSubmitQcDate": "2024-03-27"
+    }
+  }
+}

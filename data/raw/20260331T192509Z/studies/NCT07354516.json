@@ -1,0 +1,292 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D005902",
+          "term": "Glaucoma, Open-Angle"
+        },
+        {
+          "id": "D009798",
+          "term": "Ocular Hypertension"
+        },
+        {
+          "id": "D005901",
+          "term": "Glaucoma"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D011461",
+          "term": "Prostaglandins F, Synthetic"
+        },
+        {
+          "id": "D011465",
+          "term": "Prostaglandins, Synthetic"
+        },
+        {
+          "id": "D011453",
+          "term": "Prostaglandins"
+        },
+        {
+          "id": "D015777",
+          "term": "Eicosanoids"
+        },
+        {
+          "id": "D005231",
+          "term": "Fatty Acids, Unsaturated"
+        },
+        {
+          "id": "D005227",
+          "term": "Fatty Acids"
+        },
+        {
+          "id": "D008055",
+          "term": "Lipids"
+        },
+        {
+          "id": "D012898",
+          "term": "Autacoids"
+        },
+        {
+          "id": "D018836",
+          "term": "Inflammation Mediators"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000077338",
+          "term": "Latanoprost"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "QLS-111-FDC, PF FDC",
+          "interventionNames": [
+            "Combination Product: QLS-111-FDC"
+          ],
+          "label": "QLS-111-FDC ophthalmic solution",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "PF latanoprost 0.005%",
+          "interventionNames": [
+            "Drug: Latanoprost (0.005%)"
+          ],
+          "label": "Latanoprost ophthalmic solution",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "QLS-111-FDC ophthalmic solution"
+          ],
+          "description": "QLS-111-FDC, a PF FDC administered by topical ophthalmic (TO) application for 14 days in the evening (QPM) in both eyes (OU).",
+          "name": "QLS-111-FDC",
+          "type": "COMBINATION_PRODUCT"
+        },
+        {
+          "armGroupLabels": [
+            "Latanoprost ophthalmic solution"
+          ],
+          "description": "PF latanoprost administered by TO application for 14 days QPM OU.",
+          "name": "Latanoprost (0.005%)",
+          "otherNames": [
+            "latanoprost ophthalmic solution 0.005%, PF"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "OAG - Open-Angle Glaucoma",
+        "OHT - Ocular Hypertension"
+      ],
+      "keywords": [
+        "glaucoma",
+        "intraocular pressure (IOP)",
+        "eye drops"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "lbrandano@qlaris.bio",
+          "name": "Lisa Brandano",
+          "phone": "9789302103",
+          "role": "CONTACT"
+        },
+        {
+          "email": "lhargreaves@qlaris.bio",
+          "name": "Lauryl Hargreaves",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Largo",
+          "country": "United States",
+          "facility": "Shettle Eye Research",
+          "geoPoint": {
+            "lat": 27.90979,
+            "lon": -82.78842
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33773"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Qlaris Bio, Inc.",
+          "name": "Barbara M Wirostko, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Firecrest study is evaluating the intraocular pressure (IOP)-lowering effect, safety, and tolerability of Qlaris' preservative free \\[PF\\], fixed-dose combination \\[FDC\\] investigational product (IP) in subjects with open-angle glaucoma (OAG) or ocular hypertension (OHT).",
+      "detailedDescription": "14-day prospective, double-masked, active-controlled, randomized multicenter study comparing QLS-111-FDC and PF latanoprost. Study is comprised of 5 visits."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "IP is packaged and labeled in a masked fashion",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BCVA 1.0 logMAR or better in each eye (equivalent to 20/200)\n* Diagnosis of mild to moderate OAG or OHT in at least one eye\n* IOP \u226519 mmHg at 08:00 hour (H) at Qualification Visits following a run-in with PF latanoprost\n\nExclusion Criteria:\n\n* History of active ocular disease other than mild to moderate OAG/OHT\n* Prior use of any topical PGA without a clinically meaningful response\n* Noncompliant with current ocular anti-hypertensive medications or unwilling to be compliant throughout the study\n* Use of other topical ocular concomitant medications 30 days prior\n* History of angle closure or a narrow angle, significant ocular trauma, ocular infection, uveitis, intraocular surgery in either eye.\n* Central corneal thickness in either eye \\<470 or \\>630 \u03bcm\n* Clinically significant systemic or psychiatric disease, chronic kidney disease, or hypertension, hypotension, or diabetes that is uncontrolled.\n* Participation in any investigational study within 30 days prior to Screening\n* Females who are pregnant, nursing, or not using birth control.",
+      "healthyVolunteers": false,
+      "minimumAge": "12 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "Firecrest",
+      "briefTitle": "Study of QLS-111-FDC in Open-Angle Glaucoma or Ocular Hypertension",
+      "nctId": "NCT07354516",
+      "officialTitle": "A Masked, Randomized, Prospective Study of QLS-111-FDC in Subjects With Open-Angle Glaucoma or Ocular Hypertension",
+      "orgStudyIdInfo": {
+        "id": "QC-300"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Qlaris Bio, Inc."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Change from baseline in IOP, lowering of IOP compared to baseline is desirable outcome.",
+          "measure": "Change from baseline in IOP",
+          "timeFrame": "Over 15 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Incidence of ocular adverse events",
+          "measure": "Ocular safety and tolerability",
+          "timeFrame": "Over 15 days"
+        },
+        {
+          "description": "Ocular comfort following study treatment as assessed by subject and using a visual analog scale (VAS) provided by the site at the treatment period visits. Subjects will grade their ocular comfort on a scale of 0 (extremely comfortable) to 100 (extremely uncomfortable) by placing a vertical mark on the horizontal line.",
+          "measure": "Ocular comfort",
+          "timeFrame": "Over 15 days"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Qlaris Bio, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-07-15",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-18",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2026-03-18",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-17",
+      "studyFirstSubmitQcDate": "2026-01-20"
+    }
+  }
+}

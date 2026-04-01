@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05365425:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05365425\nBrief title: Choline Fenofibrate and Carotid Atherosclerosis in Patients With Type 2 Diabetes and Combined Dyslipidemia\nOfficial title: Effect of Choline Fenofibrate on Carotid Atherosclerosis Estimated by 3D Ultrasound in Patients With Type 2 Diabetes and Combined Dyslipidemia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT05365425"
+    },
+    {
+      "chunk_id": "NCT05365425:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Dyslipidemia; Atherosclerosis; Diabetes Mellitus, Type 2\nIntervention labels: Choline fenofibrate; Policosanol\nDrug class labels: \nArms: Tgfenon; Policosanol 10\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 23,
+      "trial_nct_id": "NCT05365425"
+    },
+    {
+      "chunk_id": "NCT05365425:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a randomized controlled study to assess the effect of choline fenofibrate compared with policosanol in Korean T2DM patients with asymptomatic atherosclerosis.\nDetailed description: In patients with type 2 diabetes with atherosclerotic combined dyslipidemia, the effect of choline fenofibrate on the progression of carotid intima media thickness and carotid artery plaque will be evaluated by 3D carotid ultrasound.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 61,
+      "trial_nct_id": "NCT05365425"
+    },
+    {
+      "chunk_id": "NCT05365425:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 20 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Type 2 diabetes under treatment with HbA1c 6.0-10.0% at screening visit\n* Male or female of 20 years or over\n* Mixed dyslipidemia: triglyceride 200\\~499 mg/dL, HDL-cholesterol male \u226445 mg/dL or female \u226450 mg/dL\n* Identified carotid artery plaque: carotid intima-media thickness (cIMT) \u2265 1.0 mm\n* Creatinine \u22641.8 mg/dL\n\nExclusion Criteria:\n\n* Dyslipidemia which requires other therapy: triglyceride \u2265500 mg/dL or LDL-cholesterol \u2265190 mg/dL\n* Uncontrolled hypertension\n* Severe renal dysfunction\n* GOT/GPT \\>120/120 or chronic liver disease\n* Pregnant or childbearing woman who does not have enough contraception\n* Changes of medication related to chronic diseases (diabetes, hypertension, dyslipidemia, etc.) within 3 months\n* Other antiplatlet medication such as cilostazol, clopidogrel (except aspirin)",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 135,
+      "trial_nct_id": "NCT05365425"
+    },
+    {
+      "chunk_id": "NCT05365425:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Carotid intima media thickness | time_frame=24 week | description=Maximum carotid IMT (mm)\ntype=secondary | measure=Area of carotid artery plaque | time_frame=24 week | description=measured by ultrasound\ntype=secondary | measure=Plaque characteristics | time_frame=24 week | description=changes of non-calcified plaque volume (mm3)\ntype=secondary | measure=Glucose homeostasis | time_frame=24 week | description=changes of HbA1c (%)\ntype=secondary | measure=Lipid metabolism | time_frame=24 week | description=TG concentration, HDL-cholesterol concentration\ntype=secondary | measure=Bioelectrical Impedance Analysis | time_frame=24 week | description=Body composition of fat mass (kg)\ntype=secondary | measure=Proteinuria | time_frame=24 week | description=albumin-to-creatinine ratio (mg/g)\ntype=secondary | measure=changes of gut microbiota | time_frame=24 week | description=measured by 16S rRNA or metagenome sequencing, comparing the composition or each phylum/genus/species",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 114,
+      "trial_nct_id": "NCT05365425"
+    },
+    {
+      "chunk_id": "NCT05365425:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-06-01\nPrimary completion date: 2025-12-31\nCompletion date: 2026-12-31\nStudy first posted: 2022-05-09\nResults first posted: None\nLast update posted: 2024-05-01\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05365425"
+    },
+    {
+      "chunk_id": "NCT05365425:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Seoul National University Bundang Hospital\nLead sponsor class: OTHER\nCollaborators: Daewon Pharmaceutical Co., Ltd.\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 24,
+      "trial_nct_id": "NCT05365425"
+    }
+  ],
+  "trial_nct_id": "NCT05365425"
+}

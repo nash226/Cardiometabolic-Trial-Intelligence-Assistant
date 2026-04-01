@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07230730:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07230730\nBrief title: A Trial to Evaluate the Efficacy and Safety of SHR-1918 in Patients With Hyperlipidemia\nOfficial title: A Multicenter, Randomized, Double-blind, Placebo-controlled Phase III Clinical Study to Evaluate the Efficacy and Safety of SHR-1918 in Patients With Hyperlipidemia\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT07230730"
+    },
+    {
+      "chunk_id": "NCT07230730:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hyperlipidemia\nIntervention labels: SHR-1918; SHR-1918 placebo\nDrug class labels: \nArms: SHR-1918 low dose; SHR-1918 placebo low dose; SHR-1918 high dose; SHR-1918 placebo high dose\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07230730"
+    },
+    {
+      "chunk_id": "NCT07230730:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The study is being conducted to evaluate the efficacy, and safety of SHR-1918 in reducing serum low-density lipoprotein cholesterol (LDL-C) and total triglycerides (TG) in patients with hyperlipidemia compared with placebo, and also includes To evaluate the effectiveness of SHR-1918 in reducing other lipid indicators in patients with mixed hyperlipidemia and to assess the safety of SHR-1918 in patients with mixed hyperlipidemia.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 67,
+      "trial_nct_id": "NCT07230730"
+    },
+    {
+      "chunk_id": "NCT07230730:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. the age must be at least 18 years old, and both men and women are eligible;\n2. the patient was receiving a stable dose of statins at the time of screening,, and the fasting LDL-C met: For individuals with extremely high risk of ASCVD, LDL-C\u22651.4 mmol/L; for those with very high risk of ASCVD, LDL-C\u22651.8 mmol/L; and for those with medium and high risk of ASCVD, \u22652.6 mol/L;\n3. Fasting TG\u22652.3\uff0cand \u22645.6 mmol/L;\n4. Understand the research procedures and methods, voluntarily participate in this trial and sign the informed consent form in person\uff1b\n\nExclusion Criteria:\n\n1. poorly controlled hypertension (systolic blood pressure \u2265160 mmHg and/or diastolic blood pressure \u2265100 mmHg) at the time of screening or before randomization\uff1b\n2. Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) or \u03b3 -glutamyl transferase (GGT) \\> 3\u00d7 upper limit of normal (ULN), or total bilirubin \\> 2\u00d7ULN\uff1b\n3. Thyroid stimulating hormone (TSH) is lower than the lower limit of normal (LLN) or greater than 1.5\u00d7ULN\uff1b\n4. The estimated glomerular filtration rate (eGFR) is less than 30 mL/min/1.73m2\uff1b\n5. Previously suffering from diseases that have a significant impact on blood lipid levels, such as nephrotic syndrome, severe liver diseases, Cushing's syndrome, etc",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 217,
+      "trial_nct_id": "NCT07230730"
+    },
+    {
+      "chunk_id": "NCT07230730:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The percentage change of serum LDL-C from baseline; | time_frame=Baseline and Week 24\ntype=primary | measure=The percentage change in serum TG from baseline; | time_frame=Baseline and Week 24\ntype=secondary | measure=Percentage change of serum non-high-density lipoprotein cholesterol (non-HDL-C) from baseline; | time_frame=Baseline and Week 24\ntype=secondary | measure=The percentage change in serum total cholesterol (TC) from baseline; | time_frame=Baseline and Week 24\ntype=secondary | measure=The percentage change of serum apolipoprotein B (ApoB) from baseline at week 24; | time_frame=Baseline and Week 24\ntype=secondary | measure=The percentage change of serum apolipoprotein A1 (ApoA1) from baseline; | time_frame=Baseline and Week 24\ntype=secondary | measure=The change from baseline in serum LDL-C\uff1b | time_frame=Baseline and Week 24\ntype=secondary | measure=The change from baseline in serum TG\uff1b | time_frame=Baseline and Week 24\ntype=secondary | measure=The change from baseline in serum non-HDL-C\uff1b | time_frame=Baseline and Week 24\ntype=secondary | measure=The change from baseline in serum TC\uff1b | time_frame=Baseline and Week 24\ntype=secondary | measure=The change from baseline in serum ApoB\uff1b | time_frame=Baseline and Week 24\ntype=secondary | measure=The change from baseline in serum ApoA1\uff1b | time_frame=Baseline and Week 24\ntype=secondary | measure=Absolute and relative percent change from baseline in serum lipoprotein(a) (Lp(a)); | time_frame=Baseline and Week 24\ntype=secondary | measure=Absolute and relative percent change from baseline in serum high-density lipoprotein cholesterol (HDL-C); | time_frame=Baseline and Week 24\ntype=secondary | measure=LDL-C goal attainment rates at Week 24, overall and by risk subgroup; | time_frame=Baseline and Week 24\ntype=secondary | measure=Absolute and percentage change from baseline in serum non-HDL-C at Week 48; | time_frame=Baseline and Week 48\ntype=secondary | measure=Absolute and percentage change from baseline in serum ApoB at Week 48; | time_frame=Baseline and Week 48\ntype=secondary | measure=Absolute and percentage change from baseline in serum Lp(a) at Week 48; | time_frame=Baseline and Week 48\ntype=secondary | measure=Absolute and percentage change from baseline in serum TC at Week 48; | time_frame=Baseline and Week 48\ntype=secondary | measure=Absolute and percentage change from baseline in serum TG at Week 48; | time_frame=Baseline and Week 48\ntype=secondary | measure=Absolute and percentage change from baseline in serum HDL-C at Week 48; | time_frame=Baseline and Week 48\ntype=secondary | measure=Absolute and percentage change from baseline in serum ApoA1 at Week 48; | time_frame=Baseline and Week 48\ntype=secondary | measure=LDL-C goal attainment rates at Week 48, overall and by risk subgroup | time_frame=Baseline and Week 48\ntype=secondary | measure=The incidence and severity of adverse events (AEs) throughout the study; | time_frame=up to week 52\ntype=secondary | measure=Injection site reactions (pain, pruritus, erythema, swelling, induration, and rash) throughout the study; | time_frame=up to week 52\ntype=secondary | measure=Major adverse cardiovascular events (Cardiovascular death, Non-fatal myocardial infarction, Non-fatal stroke and Coronary revascularization) throughout the study; | time_frame=up to week 52",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 456,
+      "trial_nct_id": "NCT07230730"
+    },
+    {
+      "chunk_id": "NCT07230730:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-01-13\nPrimary completion date: 2027-10\nCompletion date: 2027-10\nStudy first posted: 2025-11-17\nResults first posted: None\nLast update posted: 2026-02-02\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07230730"
+    },
+    {
+      "chunk_id": "NCT07230730:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Beijing Suncadia Pharmaceuticals Co., Ltd\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT07230730"
+    }
+  ],
+  "trial_nct_id": "NCT07230730"
+}

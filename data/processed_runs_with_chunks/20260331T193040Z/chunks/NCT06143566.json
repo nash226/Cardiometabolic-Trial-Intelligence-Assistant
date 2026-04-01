@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06143566:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06143566\nBrief title: Polypill for Prevention of Cardiomyopathy\nOfficial title: Polypill Strategy for Prevention of Cardiomyopathy Among Patients With Diabetes at Risk of Heart Failure\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT06143566"
+    },
+    {
+      "chunk_id": "NCT06143566:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Type 2 Diabetes; High Blood Pressure\nIntervention labels: Polypill; Combined prescription of the individual medications\nDrug class labels: \nArms: Polypill; Combined prescription of the individual medications\nKeywords: Type 2 Diabetes; Diabetic Cardiomyopathy; Hypertension; Polypill",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT06143566"
+    },
+    {
+      "chunk_id": "NCT06143566:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study will investigate the utility of a polypill-based strategy for patients with type 2 diabetes mellitus and high risk of heart failure (HF), as assessed via the WATCH-DM risk score. Polypill therapy will consist of empagliflozin 12.5 mg, losartan 25, 50 or 100 mg, and finerenone 10 mg daily. The study duration is 6 months, and participants will be randomized to either polypill therapy or simultaneous prescription of the individual drugs. The primary outcome is change in peak VO2 and adherence to usual care. The investigators hypothesize that the use of a polypill is feasible and improves medication adherence and peak VO2 as compared to those receiving usual care.\nDetailed description: Heart failure (HF) is a major cause of cardiovascular morbidity and mortality. One of the risk factors for HF is diabetes mellitus (DM). Altered glucose and lipid metabolism in DM leads to fibrosis and cardiac remodeling, ultimately causing ventricular dysfunction. While there is no consensus on the definition of \"diabetic cardiomyopathy\", broadly it can be defined as presence of pathological left ventricular hypertrophy, fibrosis and left ventricular diastolic/systolic dysfunction. A risk prediction score called \"WATCH-DM\" that includes clinical, laboratory and echocardiographic data has been developed to predict HF risk in those with type 2 DM. Every unit increase was associated with a 24% increase in relative risk of HF within 5 years. Drugs that decrease HF incidence could potentially be used in patients with Type 2 DM to alleviate HF burden. This many also improve medication adherence, which is poor for patients with polypharmacy. The rationale for the study is as follows:\n\n* Heart failure represents a major contributor to mortality, morbidity, and healthcare costs\n* Adherence to medications that prevent heart failure is low.\n* A polypill strategy is an innovative approach to heart failure prevention that also promotes adherence, especially in underserved population.\n\nThe investigators propose a single-center, open-label, pragmatic, randomized study of 200 participants with T2DM and high risk of heart failure, as determined by a WATCH-DM risk score greater than or equal to 11. Duration of follow up will be 6 months. The target population is patients receiving care at UT Southwestern Medical Center or Parkland Health for Type 2 Diabetes Mellitus and high risk of heart failure. 100 participants will receive polypill and 100 will receive simultaneous individual prescriptions.The polypill will contain empagliflozin 12.5 mg, losartan 50 or 100 mg, and finerenone 10 mg and is dosed once daily. Our primary outcome will be the change in peak VO2 during a cardiopulmonary exercise test from baseline to 6 months. Secondary outcomes will include change in urine albumin creatine ratio, adherence, which will be assessed by the Morisky Medication Adherence Score - 8 (MMAS-8), pill count at baseline, 1 month and 3 months, and 6 months.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 464,
+      "trial_nct_id": "NCT06143566"
+    },
+    {
+      "chunk_id": "NCT06143566:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 100 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Patients with Type 2 DM\n* History of chronic kidney disease, defined as an estimated glomerular filtration rate (eGFR) of 25 to 90 per minute per 1.73 m2 of body-surface area (stage 2 to 4 CKD) with a urinary albumin-to-creatinine ratio (with albumin measured in milligrams and creatinine measured in grams) of less than 5000\n* With either a: High risk of HF as defined by High Watch-DM score (\u226511) or Elevated natriuretic peptides or Diastolic dysfunction or left ventricular hypertrophy on echocardiography\n\nExclusion Criteria:\n\n* eGFR \\< 25\n* Congestive heart failure\n* Hyperkalemia \\> 5.0\n* Contraindication to any component of polypill\n* Pregnancy\n* Creatinine \\>2.0mg/dL in men and \\>1.8mg/dL in women\n* Inability to calculate WATCH-DM score\n* Inability to undergo exercise testing",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 148,
+      "trial_nct_id": "NCT06143566"
+    },
+    {
+      "chunk_id": "NCT06143566:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Oxygen uptake during peak exercise (Peak VO2) | time_frame=Baseline, 3-month, and 6-month | description=The ability of a polypill to improve or prevent declines in exercise capacity as measured by changes in peak oxygen uptake at exercise will be assessed.\ntype=secondary | measure=Urine albumin to creatinine ratio | time_frame=Baseline, 3 month, and 6 month | description=The ratio of urinary albumin to creatinine will be measured.\ntype=other | measure=Medication Adherence | time_frame=Baseline, 1 month, 3 month, and 6 month | description=Assessed via the Morisky Medication Adherence Score - 8. The score ranges from 0 to 8, with 8 meaning highest adherence.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 101,
+      "trial_nct_id": "NCT06143566"
+    },
+    {
+      "chunk_id": "NCT06143566:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-03-11\nPrimary completion date: 2027-09-01\nCompletion date: 2027-12-01\nStudy first posted: 2023-11-22\nResults first posted: None\nLast update posted: 2025-06-17\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06143566"
+    },
+    {
+      "chunk_id": "NCT06143566:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Texas Southwestern Medical Center\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT06143566"
+    }
+  ],
+  "trial_nct_id": "NCT06143566"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04396899:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04396899\nBrief title: Safety and Efficacy of Induced Pluripotent Stem Cell-derived Engineered Human Myocardium as Biological Ventricular Assist Tissue in Terminal Heart Failure\nOfficial title: Safety and Efficacy of Induced Pluripotent Stem Cell-derived Engineered Human Myocardium as Biological Ventricular Assist Tissue in Terminal Heart Failure\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT04396899"
+    },
+    {
+      "chunk_id": "NCT04396899:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heart Failure\nIntervention labels: EHM implantation\nDrug class labels: \nArms: EHM Implantation\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 17,
+      "trial_nct_id": "NCT04396899"
+    },
+    {
+      "chunk_id": "NCT04396899:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The BioVAT-HF trial will test the hypothesis that cardiomyocyte implantation via engineered heart muscle (EHM), the proposed investigational medicinal product (IMP; designated \"Biological Ventricular Assist Tissue\" or BioVAT), results in sustainable remuscularization and biological enhancement of myocardial performance in the failing heart. EHM are constructed from defined mixtures of induced pluripotent stem cell (iPSC)-derived cardiomyocytes and stromal cells in a bovine collagen type I hydrogel. Comprehensive preclinical testing confirmed the rationale for the clinical translation of the myocardial remuscularization strategy by EHM implantation. The patient target population for EHM therapy is patients suffering from advanced heart failure with reduced ejection fraction (HFrEF; EF: \u226435%) and no realistic option for heart transplantation.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 116,
+      "trial_nct_id": "NCT04396899"
+    },
+    {
+      "chunk_id": "NCT04396899:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Symptomatic heart failure (NYHA II-IV) with reduced ejection fraction (HFrEF with LVEF \u226435%) as assessed by echocardiography.\n2. Patients on guideline-directed medical therapy\n3. NT-proBNP \\>300 pg/mL for patients in sinus rhythm or \\>900 pg/mL if in atrial fibrillation\n4. History of previous heart failure hospitalization in the past 12 months\n5. At least one hypo- or dyskinetic segment or dilated heart chamber to demark the implant target area\n6. (A) Stable disease condition allowing for an elective left-lateral mini-thoracotomy (for LV applications) or (B) open-chest surgery (for RV applications) for a clinically indicated intervention on the LV (e.g., coronary bypass surgery, valve repair, mechanical circulatory support device implantation) with concomitant RV dysfunction, diagnosed using the Tricuspid Annular Plane Systolic Excursion (TAPSE) index \\<16 mm (Rudski et al. 2010).\n7. 18-80 years of age\n8. Willingness and ability to give written informed consent\n9. Female subjects of childbearing potential must agree to use acceptable method(s) of contraception for the full study duration.\n\nExclusion Criteria:\n\n1. Contraindication to immunosuppressive drugs (e.g. known history of unresolved cancer, hepatitis B/C, HIV, HTLV1)\n2. Contraindication to TachoSil\u00ae (e.g. hypersensitivity to human fibrinogen, human thrombin, horse collagen, human albumin, Riboflavin, Natriumchloride, Natriumcitrate, L-Arginin-Hydrochloride)\n3. Hypertrophic cardiomyopathy (HCM)\n4. Terminal kidney failure (stage 4; GFR \\<30 ml/min) at the time of enrolment\n5. Terminal liver failure (Child-Pugh stage C; score \\>10) at the time of enrolment\n6. History of disabling stroke\n7. Reduced life expectancy in the short term due to non-cardiac disease\n8. Any condition that excludes adherence to study protocol (in particular lack of adherence to prescribed medication)\n9. Simultaneous participation in another interventional trial\n10. Pregnant or breastfeeding females\n11. Known or suspected alcohol and/or drug abuse",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 305,
+      "trial_nct_id": "NCT04396899"
+    },
+    {
+      "chunk_id": "NCT04396899:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Adverse events | time_frame=12 months | description=Number of Adverse events related to the procedure, including in particular arrhythmic events and worsening of disease progression within 28 days (Part A) and the whole study duration (Part B)\ntype=primary | measure=Heart target heart wall thickness | time_frame=12 months | description=Change of target heart wall thickness (TWTh in mm) Echo or cCT or cMRI\ntype=primary | measure=LV/RV-ejection fraction | time_frame=12 months | description=Change of LV/RV-ejection fraction (LV/RV-EF in %) Echo or cCT or cMRI\ntype=primary | measure=Patient reported outcome | time_frame=12 months | description=Patient reported outcome Change of KCCQ-23 OSS (Overall Summary Score)\ntype=secondary | measure=Major adverse cardiac events | time_frame=12 months | description=Frequency of major adverse cardiac events (MACE; non-fatal myocardial infarction, non-fatal stroke, and cardiovascular death)\ntype=secondary | measure=Arrhythmic events | time_frame=12 months | description=Frequency and severity of arrhythmic events\ntype=secondary | measure=Immune rejection | time_frame=12 months | description=Incidence of immune rejection (DSA, CK/CK-MB, hs-cTnT, circulating cell-free allograft DNA)\ntype=secondary | measure=Mechanical perturbation of ventricular function | time_frame=12 months | description=Incidence of mechanical perturbation of ventricular function by EHM graft\ntype=secondary | measure=Recurrent hospitalizations for heart failure | time_frame=12 months | description=Frequency of recurrent hospitalizations for heart failure\ntype=secondary | measure=Mechanical circulatory assist device implantation | time_frame=12 months | description=Time to mechanical circulatory assist device implantation\ntype=secondary | measure=Heart transplantation | time_frame=12 months | description=Time to heart transplantation.\ntype=secondary | measure=Cardiopulmonary stress testing (VO2max) | time_frame=12 months | description=Functional status in patients as determined by cardiopulmonary stress testing (VO2max)\ntype=secondary | measure=Cardiopulmonary stress testing six-minute walk test (6MWT) | time_frame=12 months | description=Functional status in patients as determined by cardiopulmonary stress testing six-minute walk test (6MWT) - distance (in m)\ntype=secondary | measure=Hand-grip strength | time_frame=12 months | description=Functional status in patients as determined by and hand-grip strength measurements\ntype=secondary | measure=NYHA classification | time_frame=12 months | description=Patient reported outcomes assessed by NYHA classification\ntype=secondary | measure=Quality of life score (EQ-5D-5L) | time_frame=12 months | description=Patient reported outcomes assessed by quality of life score (EQ-5D-5L)\ntype=secondary | measure=Hospital Anxiety and Depression Scale (HADS) | time_frame=12 months | description=Patient reported outcomes assessed by study adherence motivation according to following questionnaire: HADS\ntype=secondary | measure=Mortality | time_frame=12 months | description=All-cause and cardiovascular mortality\ntype=secondary | measure=Montreal Cognitive Assessment (MoCA) | time_frame=12 months | description=Patient reported outcomes assessed by study adherence motivation according to following questionnaire: MoCA\ntype=secondary | measure=Medication adherence | time_frame=12 months | description=Patient reported outcomes assessed by study adherence motivation according to medication adherence questionnaire.\ntype=secondary | measure=Brief Illness Perception Questionnaire (B-IPQ) | time_frame=12 months | description=Patient reported outcomes assessed by study adherence motivation according to following questionnaire: B-IPQ\ntype=secondary | measure=Treatment Expectation Questionnaire (TEX-Q) | time_frame=12 months | description=Patient reported outcomes assessed by study adherence motivation according to following questionnaire: TEX-Q",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 463,
+      "trial_nct_id": "NCT04396899"
+    },
+    {
+      "chunk_id": "NCT04396899:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2020-02-03\nPrimary completion date: 2027-12\nCompletion date: 2027-12\nStudy first posted: 2020-05-21\nResults first posted: None\nLast update posted: 2026-02-20\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04396899"
+    },
+    {
+      "chunk_id": "NCT04396899:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University Medical Center Goettingen\nLead sponsor class: OTHER\nCollaborators: Deutsches Zentrum f\u00fcr Herz-Kreislauf-Forschung (DZHK); University Medical Center Freiburg; Repairon GmbH\nCountries: \nHas US sites: False\nLocation sample: RECRUITING; NOT_YET_RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT04396899"
+    }
+  ],
+  "trial_nct_id": "NCT04396899"
+}

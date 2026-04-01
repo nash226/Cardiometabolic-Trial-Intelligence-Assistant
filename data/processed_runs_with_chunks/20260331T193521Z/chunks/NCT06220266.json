@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06220266:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06220266\nBrief title: Effects of Phytoestrogen From Pueraria Mirifica in Improvement of Serum Lipid Parameters in Postmenopausal Women\nOfficial title: Effects of Phytoestrogen From Pueraria Mirifica in Improvement of Serum Lipid Parameters in Postmenopausal Women\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 46,
+      "trial_nct_id": "NCT06220266"
+    },
+    {
+      "chunk_id": "NCT06220266:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Dyslipidemias; Hypertriglyceridemia; Hypercholesterolemia; Hyper-LDL-cholesterolemia; Hypo HDL Cholesterolaemia; Postmenopausal Symptoms\nIntervention labels: Phytoestrogen; Diet control & life style modification\nDrug class labels: \nArms: Diet control & life style modification; PM\nKeywords: Phytoestrogens; Pueraria Mirifica; Postmenopausal women; Dyslipidemia; Hypertriglyceridemia; Hypercholesterolemia; Hyper-LDL-cholesterolemia; Hypo HDL Cholesterolaemia; Postmenopausal Symptoms; Randomized clinical trail",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT06220266"
+    },
+    {
+      "chunk_id": "NCT06220266:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to learn about the effects of phytoestrogen from Pueraria Mirifica in improvement of serum lipid parameters. The primary question it aims to answer are:\n\n\u2022 phytoestrogen from Pueraria Mirifica can reduce serum triglyceride, total cholesterol, LDL and increase HDL or not\n\nParticipants will receive capsules which composed of dry weight 50 mg of Pueraria Mirifica twice a day for 2 months. Researchers will compare with diet control\\&life style modification to see if there is the improvement of serum lipid parameters\nDetailed description: The secondary question it aims to answer are:\n\n* phytoestrogen from Pueraria Mirifica can reduce menopausal symptom score or not\n* phytoestrogen from Pueraria Mirifica can reduce body mass index(BMI) or not\n* phytoestrogen from Pueraria Mirifica can reduce waist circumference or not\n* phytoestrogen from Pueraria Mirifica can reduce blood pressure or not\n* phytoestrogen from Pueraria Mirifica effects to creatinine, BUN, eGFR or not\n* phytoestrogen from Pueraria Mirifica effects liver function enzymes or not",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 168,
+      "trial_nct_id": "NCT06220266"
+    },
+    {
+      "chunk_id": "NCT06220266:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: None\nMaximum age: None\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n1. Natural menopause, last menstrual period more than one year ago.\n2. Abnormal lipid profile parameters The criteria set for this research are:\n\n   * LDL\\>130 mg/Dl or\n   * TG\\>150 mg/Dl or\n   * Total cholesterol\\>200 mg/Dl or\n   * HDL-C less than 50 mg/Dl. (Latest blood results not more than 6 months)\n3. Willing to participate in the project\n\nExclusion Criteria:\n\n1. Have ever received lipid-lowering medication or hormone replacement therapy or SERMs. During the past 6 weeks\n2. have had surgery on the ovaries or uterus before\n3. have a history of cancer within a 5-year period\n4. have diabetes or uncontrolled high blood pressure, including HbA1c \\>9, Systolic blood pressure \\>180 or Diastolic blood pressure \\>110\n5. Endocrine system disease such as thyroid\n6. Ever had an organ transplant\n7. Regularly use drugs, marijuana, or drink alcohol.\n8. has a psychiatric disorder\n9. have other serious medical conditions that require close monitoring\n10. Inconvenient to follow up until the end of the research.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 182,
+      "trial_nct_id": "NCT06220266"
+    },
+    {
+      "chunk_id": "NCT06220266:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Serum lipid parameters | time_frame=2 months | description=serum triglyceride, total cholesterol, LDL, HDL\ntype=secondary | measure=Menopause symptom score | time_frame=2 months | description=Greene Climacteric Scale(GCS) minimum values= 0 , maximum values=63 , higher scores mean higher menopause symptom(worse outcome).\ntype=secondary | measure=Blood Pressure | time_frame=2 months | description=mmHg\ntype=secondary | measure=Body mass index(BMI) or body weight | time_frame=2 months\ntype=secondary | measure=waist circumference | time_frame=2 months | description=cm\ntype=secondary | measure=kidney function | time_frame=2 months | description=Creatinine, BUN, eGFR\ntype=secondary | measure=liver enzymes | time_frame=2 months | description=AST, ALT",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 91,
+      "trial_nct_id": "NCT06220266"
+    },
+    {
+      "chunk_id": "NCT06220266:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-03-02\nPrimary completion date: 2024-08\nCompletion date: 2024-11\nStudy first posted: 2024-01-23\nResults first posted: None\nLast update posted: 2024-05-24\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06220266"
+    },
+    {
+      "chunk_id": "NCT06220266:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Dhurakij Pundit University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06220266"
+    }
+  ],
+  "trial_nct_id": "NCT06220266"
+}

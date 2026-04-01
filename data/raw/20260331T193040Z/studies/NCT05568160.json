@@ -1,0 +1,338 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D011183",
+          "term": "Postoperative Complications"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D056987",
+          "term": "Vasoplegia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D010909",
+          "term": "Pituitary Hormones, Posterior"
+        },
+        {
+          "id": "D010907",
+          "term": "Pituitary Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D015306",
+          "term": "Biogenic Monoamines"
+        },
+        {
+          "id": "D001679",
+          "term": "Biogenic Amines"
+        },
+        {
+          "id": "D002395",
+          "term": "Catecholamines"
+        },
+        {
+          "id": "D002396",
+          "term": "Catechols"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D014667",
+          "term": "Vasopressins"
+        },
+        {
+          "id": "D009638",
+          "term": "Norepinephrine"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Vasopressin",
+            "Other: Collection of clinical data",
+            "Other: Quality of Life Questionnaire EQ-5D"
+          ],
+          "label": "Intervention",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "interventionNames": [
+            "Drug: Norepinephrine",
+            "Other: Collection of clinical data",
+            "Other: Quality of Life Questionnaire EQ-5D"
+          ],
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Intervention"
+          ],
+          "description": "The infusion is started at 5 ml hr-1, increased in increments of 1 ml hr-1 every 5 minutes to reach a maximum target rate of 30 ml hr-1",
+          "name": "Vasopressin",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Control"
+          ],
+          "description": "The infusion is started at 5 ml h-1, increased in increments of 1 ml h-1 every 5 minutes to a maximum target rate of 30 ml h-1",
+          "name": "Norepinephrine",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Control",
+            "Intervention"
+          ],
+          "description": "At D1, D2, D7, D30 or D60 and D90",
+          "name": "Collection of clinical data",
+          "type": "OTHER"
+        },
+        {
+          "armGroupLabels": [
+            "Control",
+            "Intervention"
+          ],
+          "description": "At the anesthesia consultation, discharge from intensive care, D7, D30 and D90",
+          "name": "Quality of Life Questionnaire EQ-5D",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Scheduled Cardiac Surgery With Extracorporeal Circulation",
+        "Vasoplegic Syndrome"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Dijon",
+          "country": "France",
+          "facility": "Chu Dijon Bourgogne",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomized, double blind, multicenter study following surgery with extracorporeal circulation to compare blood pressure optimization with vasopressin versus noradrenaline. It is planned to include 840 patients in order to have 420 patients with vasoplegic syndrome.\n\nThe primary objective of this study is to determine whether the use of vasopressin to maintain blood pressure following cardiac surgery decreases the number of patients with acute renal failure and/or death compared with the usual use of norepinephrine.\n\nParticipation in the study involves daily follow-up at D1, D2, and D7 of the onset of the syndrome and then follow-up at D30 and D90."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 840,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient who has given free, written and informed consent\n* Patient of legal age.\n* Negative pregnancy test for women of childbearing age\n* Patient requiring cardiac surgery:\n\n  * Scheduled (\\> 24h)\n  * With extracorporeal circulation (ECC)\n  * Myocardial revascularization (coronary bypass), and/or surgical correction of valvulopathy (aortic, mitral, pulmonary, tricupsidian), and/or of the ascending aorta and/or removal of an intracardiac tumor, and/or closure of a PFO/ASD\n* Patient with at least 3 risk factors for acute kidney failure including:\n\n  * age \\> 70 years, combined surgery (more than two procedures), common trunk lesion, preoperative anemia, chronic respiratory failure, obliterative arterial disease of the lower extremities, diabetes, glomerular filtration \\< 60 ml min-1 m\u00b2, LVEF \\<40%, redux, intra-aortic counterpulsation balloon, expected duration of bypass surgery \\> 100 min, albuminuria\n\nExclusion Criteria:\n\n* Patient not affiliated to national health insurance or not beneficiary of a social security system,\n* Patient subject to a measure of legal protection (curatorship, guardianship),\n* Pregnant, parturient or breastfeeding women,\n* Patients of legal age who are incapable or unable to express their consent,\n* Patients who have already been included in this study\n* Patients requiring emergency surgery (less than 24 hours)\n* Patient with chronic kidney failure on dialysis,\n* Patient with a cardiac transplant,\n* Patient on left-sided monoventricular assistance,\n* Patient on ECMO/ECLS,\n* Patient with acute circulatory failure in the immediate preoperative period (sepsis, hemorrhage),\n* Patients with known hypersensitivity to the active ingredient (argipressin) or to one of the excipients of REVERPLEG\u00ae.\n\nSecondary exclusion criteria:\n\n* Patient not developing persistent arterial hypotension (vasoplegic syndrome), within 12 hours after completion of surgery, defined as persistent mean arterial pressure (MAP) \\<65 mmHg despite correction of preload and inotropism, with a cardiac index \\>2.2 l min-1 m-2, and not responding to 30 mg cumulative of ephedrine in bolus\n* Patient with hemorrhagic shock perioperatively before receiving vasopressor therapy (treatment under study)",
+      "healthyVolunteers": false,
+      "minimumAge": "70 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "NOVACC",
+      "briefTitle": "Evaluation of the Superiority of VAsopressin Versus NOradrenaline in the Management of Patients at Risk of Kidney Failure Undergoing Cardiac Surgery With Extracorporeal Circulation",
+      "nctId": "NCT05568160",
+      "officialTitle": "Prospective Randomized Double-blind Study Evaluating the Superiority of VAsopressin Versus NOradrenaline in the Management of Patients at Risk of Kidney Failure Undergoing Cardiac Surgery With Extracorporeal Circulation",
+      "orgStudyIdInfo": {
+        "id": "GUINOT PHRCI 2019"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Centre Hospitalier Universitaire Dijon"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Occurrence of a renal complication or death",
+          "timeFrame": "From the onset of the vasoplegic syndrome until 7 days after"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Guinot PG, Desebbe O, Besch G, Guerci P, Gaudard P, Lena D, Mertes PM, Abou-Arab O, Bouhemad B; NOVACC study group. Prospective randomized double-blind study to evaluate the superiority of Vasopressin versus Norepinephrine in the management of the patient at renal risk undergoing cardiac surgery with cardiopulmonary bypass (NOVACC trial). Am Heart J. 2024 Jun;272:86-95. doi: 10.1016/j.ahj.2024.03.008. Epub 2024 Mar 16.",
+          "pmid": "38492626",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Centre Hospitalier Universitaire Dijon"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-16",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-01-02",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-10-03",
+      "studyFirstSubmitQcDate": "2022-10-03"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07219602:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07219602\nBrief title: A Study to Evaluate the Effect of Obicetrapib/Ezetimibe 10 mg Fixed-Dose Combination or Obicetrapib 10 mg Daily on Top of Guideline-Recommended Lipid-Lowering Therapy in Participants With Type 2 Diabetes and/or Metabolic Syndrome\nOfficial title: A Placebo-Controlled, Double-Blind, Randomized, Phase 3 Study to Evaluate the Effect of Obicetrapib 10 mg and Ezetimibe 10 mg Fixed-Dose Combination or Obicetrapib 10 mg Daily on Top of Guideline-Recommended Lipid-Lowering Therapy in Participants With Type 2 Diabetes and/or Metabolic Syndrome (RUBENS Trial)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 90,
+      "trial_nct_id": "NCT07219602"
+    },
+    {
+      "chunk_id": "NCT07219602:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: type_2_diabetes\nRaw conditions: Lipidemia; Type 2 Diabetes (T2DM); Metabolic Syndrome (MetS)\nIntervention labels: obicetrapib 10 mg + ezetimibe 10 mg FDC daily; Obicetrapib 10 mg; Placebo\nDrug class labels: \nArms: Obicetrapib/Ezetimibe; Obicetrapib; Placebo; Open-Label Extension\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 38,
+      "trial_nct_id": "NCT07219602"
+    },
+    {
+      "chunk_id": "NCT07219602:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study will be a placebo-controlled, double-blind, randomized, Phase 3 study to evaluate the efficacy, safety, and tolerability of obicetrapib 10 mg, both as a fixed-dose combination (FDC) with ezetimibe 10 mg and as monotherapy, on top of guideline-recommended lipid-lowering therapy in patients with metabolic syndrome and/or Type 2 Diabetes Mellitus.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 56,
+      "trial_nct_id": "NCT07219602"
+    },
+    {
+      "chunk_id": "NCT07219602:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* fasting serum LDL-C \u2265 70 mg/dL (\u22651.81 mmol/L)\n* Have fasting TG \u2265150 mg/dL (\u22651.7 mmol/L) and \\<400 mg/dL (\\<4.5 mmol/L)\n* Know diagnosis of T2DM OR have metabolic syndrome defined as fasting TG \u2265150 mg/dL (\u22651.7mmol/L) and \\<400 mg/dL (\\<4.5 mmol/L) and at least 2 risk factors\n* Are on stable guideline-recommended lipid-lowering therapy\n* Estimated glomerular filtration rate \u226515 mL/min/1.73 m2\n\nExclusion Criteria:\n\n* Have current or any previous history of New York Heart Association class III or IV heart failure or left ventricular ejection fraction \\<30%\n* Have been hospitalized for heart failure within 5 years prior to Screening\n* Have uncontrolled severe hypertension\n* Have a formal diagnosis of homozygous familial hypercholesterolemia\n* HbA1c \u226510.0% (\u22650.100 hemoglobin fraction) or a fasting glucose \u2265270 mg/dL (\u226515.0 mmol/L) at Screening\n* active liver disease",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 156,
+      "trial_nct_id": "NCT07219602"
+    },
+    {
+      "chunk_id": "NCT07219602:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The percent change from Baseline to Day 84 in LDL-C compared with placebo for the following treatment groups: - obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group; and - obicetrapib 10 mg monotherapy treatment group | time_frame=84 days\ntype=secondary | measure=Percent change from Baseline to Day 84 in non-HDL-C for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group | time_frame=Day 84\ntype=secondary | measure=Percent change from Baseline to Day 84 in HDL-C for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group | time_frame=84 days\ntype=secondary | measure=Percent change from Baseline to Day 84 in ApoB for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group | time_frame=84 days\ntype=secondary | measure=Percent change from Baseline to Day 84 in ApoA1 for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group | time_frame=84 days\ntype=secondary | measure=Percent change from Baseline to Day 84 in non-HDL-C for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group; | time_frame=84 days\ntype=secondary | measure=Percent change from Baseline to Day 84 in HDL-C for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group | time_frame=Day 84\ntype=secondary | measure=Percent change from Baseline to Day 84 in ApoB for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group | time_frame=Day 84\ntype=secondary | measure=Percent change from Baseline to Day 84 in ApoA1 for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group | time_frame=Day 84\ntype=secondary | measure=Percent change from Baseline to Day 84 in lipoprotein (a) (Lp[a]) for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group | time_frame=Day 84\ntype=secondary | measure=Percent change from Baseline to Day 84 in Lp(a) for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group | time_frame=Day 84\ntype=other | measure=Percent change from Baseline over time in LDL-C | time_frame=40 weeks | description=The percent change from Baseline at every visit for LDL-C\ntype=other | measure=Proportion of participants that achieve LDL-C <100 mg/dL (<2.6 mmol/L), LDL-C <70 mg/dL (<1.8 mmol/L), and LDL-C <55 mg/dL (<1.4 mmol/L) | time_frame=40 weeks | description=The percent change from Baseline at every visit in the proportion of participants that achieve LDL-C \\<100 mg/dL (\\<2.6 mmol/L), LDL-C \\<70 mg/dL (\\<1.8 mmol/L), and LDL-C \\<55 mg/dL (\\<1.4 mmol/L)\ntype=other | measure=Percent change from Baseline over time in non-HDL-C | time_frame=40 weeks | description=The percent change from Baseline at every visit for non-HDL-C\ntype=other | measure=Percent change from Baseline over time in ApoB | time_frame=40 weeks | description=The percent change from Baseline at every visit in ApoB\ntype=other | measure=Percent change from Baseline over time in total cholesterol | time_frame=40 weeks | description=The percent change from Baseline at every visit for total cholesterol\ntype=other | measure=Percent change from Baseline over time in triglycerides | time_frame=40 weeks | description=The percent change from baseline at every visit for triglycerides\ntype=other | measure=Percent change from Baseline over time in HDL-C | time_frame=40 weeks | description=the percent change from Baseline at every visit for HDL-C\ntype=other | measure=Percent change from Baseline over time in Lp(a) | time_frame=40 weeks | description=the percent change from Baseline at every visit for Lp(a)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 562,
+      "trial_nct_id": "NCT07219602"
+    },
+    {
+      "chunk_id": "NCT07219602:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-11\nPrimary completion date: 2028-03\nCompletion date: 2028-06\nStudy first posted: 2025-10-22\nResults first posted: None\nLast update posted: 2026-03-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07219602"
+    },
+    {
+      "chunk_id": "NCT07219602:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: NewAmsterdam Pharma\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT07219602"
+    }
+  ],
+  "trial_nct_id": "NCT07219602"
+}

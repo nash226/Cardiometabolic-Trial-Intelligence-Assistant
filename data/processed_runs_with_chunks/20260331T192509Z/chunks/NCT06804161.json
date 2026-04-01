@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06804161:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06804161\nBrief title: SGLT2 Inhibition for Cardiovascular Endpoint Reduction in Hypertension\nOfficial title: SGLT2 Inhibition for Cardiovascular Endpoint Reduction in Hypertension\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06804161"
+    },
+    {
+      "chunk_id": "NCT06804161:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atrial Hypertension\nIntervention labels: SGLT2; Placebo\nDrug class labels: \nArms: SGLT2 Arm; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06804161"
+    },
+    {
+      "chunk_id": "NCT06804161:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Hypertension (HTN) is a leading cause of cardiovascular disease (CVD). Despite existing therapies, patients with HTN still face substantial risks, due to pre-existing and ongoing end-organ damage due, in part, to inadequate blood pressure (BP) control. SGLT2 inhibitors (SGLT2i) are recommended for both type-2 diabetes and heart failure to reduce morbidity and mortality. SGLT2i reduce BP and might also improve outcomes for HTN by reducing end-organ damage through diverse other actions. However, confirmation that SGLT2i are clinically useful for the management of HTN is required to change guidelines and clinical practice.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 96,
+      "trial_nct_id": "NCT06804161"
+    },
+    {
+      "chunk_id": "NCT06804161:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 60 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Age \u226560 years\n2. Systolic blood pressure \\>140 mmHg or diastolic blood pressure \\>90 mmHg in two measurements on different days for newly diagnosed hypertension, or through one measurement at the screening visit for patients with an existing diagnosis of hypertension.\n3. A history of at least one CV event (myocardial infarction\\* or stroke\\*; stable angina or clinical evidence of coronary heart disease; peripheral arterial disease; transient ischemic attack)\n\nor\n\nThe presence of at least one cardiovascular risk factor (current smoking of more than one cigarette per day during at least 1 year; LDL-cholesterol \\> 4,0 mmol/l, Age \u2265 75 years, ESC HeartScore \\> 15%, BMI \\> 32 kg/m2)\n\n\\*excluding patients with myocardial infarction or stroke within preceding 3 months\n\nExclusion Criteria:- Known secondary cause of hypertension\n\n* Myocardial infarction or stroke within the previous 3 months\n* Symptomatic heart failure (including HFrEF, HFmEF, HFpEF)\n* History of Diabetes mellitus\n* History of ketoacidosis\n* Hepatic impairment (aspartate transaminase \\[AST\\] or alanine transaminase \\[ALT\\] \\>3x the upper limit of normal \\[ULN\\])\n* eGFR \\<25 mL/min/1.73 m2 (CKD-EPICr 2021 formula) at Visit 1\n* Receiving therapy with an SGLT2i within 8 weeks prior to randomization or previous intolerance to an SGLT2i\n* Participation in another clinical study with an investigational product during the last month prior to enrolment\n* Known allergy or hypersensitivity to SGLT2i\n* Women who are pregnant, nursing, or who plan to become pregnant while in the trial\n* Any medical condition - outside the renal and CV disease area - with a life expectancy of less than 2 years based on investigator's clinical judgement\n* Active malignancy requiring treatment at the time of visit 1 (with the exception of successfully treated basal cell or treated squamous cell carcinoma)\n* Inability to give informed consent",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 317,
+      "trial_nct_id": "NCT06804161"
+    },
+    {
+      "chunk_id": "NCT06804161:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time until first occurrence of | time_frame=7 Years\ntype=other | measure=Safety endpoints | time_frame=7 Years | description=* AE (general)\n* AE leading to treatment discontinuation\n* SAE\n* AE of special interest (AESI): including volume depletion, hypotension, metabolic acidosis and ketoacidosis",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT06804161"
+    },
+    {
+      "chunk_id": "NCT06804161:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-10\nPrimary completion date: 2032-05-30\nCompletion date: 2032-05-30\nStudy first posted: 2025-02-03\nResults first posted: None\nLast update posted: 2025-12-22\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06804161"
+    },
+    {
+      "chunk_id": "NCT06804161:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Prof. Dr. med. Ingo Eitel\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06804161"
+    }
+  ],
+  "trial_nct_id": "NCT06804161"
+}

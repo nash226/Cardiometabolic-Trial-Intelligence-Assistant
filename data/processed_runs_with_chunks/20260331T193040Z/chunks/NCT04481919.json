@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04481919:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04481919\nBrief title: Randomized Controlled Trial of urinE chemiStry Guided aCute heArt faiLure treATmEnt (ESCALATE)\nOfficial title: A Randomized Trial of Protocolized Diuretic Therapy Compared to Standard Care in Emergency Department Patients With Acute Heart Failure\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 46,
+      "trial_nct_id": "NCT04481919"
+    },
+    {
+      "chunk_id": "NCT04481919:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heart Failure; Acute Heart Failure\nIntervention labels: Protocolized diuretic therapy\nDrug class labels: \nArms: Protocolized spot urine sodium guided diuretic therapy; Guideline-based care\nKeywords: Diuretic Therapy; Emergency Department",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT04481919"
+    },
+    {
+      "chunk_id": "NCT04481919:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This is a randomized trial of protocolized diuretic therapy guided by urinary sodium compared to structured usual care in ED patients with AHF. Participants will be recruited following an initial standard evaluation in the ED and randomized in a 1:1 fashion to structured usual care or protocolized diuretic therapy guided by urinary sodium.\nDetailed description: A standardized protocol driven treatment pathway for hospitalized patients started in the first few hours of ED evaluation and utilizing objective measures of diuretic response is needed. The investigators believe this would maximize diuretic efficiency, facilitate quicker resolution of congestion, avoid WHF and prolonged LOS, and reduce AHF readmissions. Propr data suggests low urine sodium predicts length of stay and outcomes after initial diuretic dosing in the outpatient and inpatient setting. Further, use of our pathway using spot urine sodium to titrate subsequent loop diuretic doses and maximize response in inpatients with AHF has shown compelling improvements in congestion and weight loss. However, a randomized trial is necessary to determine if initiating this protocol ,started in the ED, will improve AHF outcomes relative to structured usual care. Specifically, the investigators hypothesize use of spot urine sodium guided diuretic therapy will result in significant improvement in days of benefit over the 14 days after randomization. Days of benefit combines patient symptoms captured by global clinical status with clinical state quantifying the need for hospitalization and IV diuresis.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 233,
+      "trial_nct_id": "NCT04481919"
+    },
+    {
+      "chunk_id": "NCT04481919:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age \\> 18\n* Emergency Department diagnosis of Acute Heart Failure (AHF)\n* Any one of the following:\n\n  i. Chest radiograph or lung ultrasound consistent with AHF ii. Jugular venous distension iii. Pulmonary rales on auscultation iv. Lower extremity edema v. S3 gallop\n* \\> 10 pounds of volume overload physician estimate or historical dry weight\n* IV diuretic ordered or planned to be during first 24 hours of ED or inpatient stay\n\nExclusion Criteria:\n\n* End Stage Renal Disease (ESRD) requiring dialysis\n* Need for immediate intubation\n* Acute Coronary Syndrome - presentation consistent with myocardial ischemia AND new ST-Segment elevation/depression\n* Temperature \\> 100.5\u00baF\n* End Stage Heart Failure: transplant list or ventricular assist device\n* Concurrent use of ototoxic medications including intravenous aminoglycosides and cisplatin\n* Systolic Blood Pressure \\< 90 mmHg at time of consent\n* LV outflow obstruction, severe uncorrected stenotic valvular disease or severe restrictive cardiomyopathy\n* Greater than 2 doses of IV diuretic administered at the time of screening from the time of the hospital presentation leading to this admission (outside hospital time is included)\n* Severe, uncorrected serum electrolyte abnormalities at the time of consent (serum potassium \\<3.0 mEq/L, magnesium \\<1.0 mEq/L or sodium \\<125 or \\>150 mEq/l)\n* Lack of informed consent",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 231,
+      "trial_nct_id": "NCT04481919"
+    },
+    {
+      "chunk_id": "NCT04481919:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Clinical Status Score | time_frame=From the time of randomization through day 14 | description=Daily composite of the clinical state and global clinical status (GCS), expressed as an integer ranging in value from 0 (deceased) to 15 (outpatient; best possible GCS).\ntype=secondary | measure=Inpatient clinical congestion | time_frame=from the time of randomization through the end of protocolized IV diuretics, approximately 14 days | description=Daily orthodema score\ntype=secondary | measure=Cardiorenal Death and AHF Readmission | time_frame=within 30 days of hospital discharge | description=Cardiorenal death and Acute Heart Failure Readmission\ntype=secondary | measure=Global clinical status (GCS) | time_frame=from the time of randomization through 14 days after randomization | description=measured daily using a continuous scale of 1-100\ntype=secondary | measure=Change in natriuretic peptides | time_frame=from the time of randomization through the end of protocolized IV diuretics, approximately 14 days | description=Blood measurement\ntype=secondary | measure=Net fluid loss | time_frame=from the time of randomization through the end of protocolized IV diuretics, approximately 14 days | description=difference between fluid input and urine output in ml\ntype=secondary | measure=Total urine output | time_frame=from the time of randomization through the end of protocolized IV diuretics, approximately 14 days | description=cumulative urine output in ml\ntype=secondary | measure=Weight Loss | time_frame=from the time of randomization through the end of protocolized IV diuretics, approximately 14 days | description=cumulative weight loss in pounds\ntype=secondary | measure=Home days | time_frame=within 30 days from randomization | description=Those days not in the hospital, rehab or a skilled nursing facility from the time of randomization through day 30\ntype=secondary | measure=Subclinical ototoxicity | time_frame=at two time points: 1) the day of randomization and 2) the next calendar day after protocolized IV diuretics are stopped | description=As measured by shoebox audiometry with a significant change in hearing threshold (dB) across frequencies from 250-8000 Hz\ntype=secondary | measure=Cumulative natriuresis | time_frame=from the time of randomization through the end of protocolized diuretics, approximately 14 days | description=cumulative sodium excretion estimated using the NRPE (based on spot urine creatinine and sodium)\ntype=secondary | measure=Average daily natriuresis | time_frame=from the time of randomization through the end of protocolized diuretics, approximately 14 days | description=mean daily sodium excretion estimated using the NRPE (based on spot urine creatinine and sodium)\ntype=other | measure=Dyspnea score | time_frame=from the time of randomization through the end of protocolized IV diuretics, approximately 14 days | description=measured daily using a continuous scale from 1-100\ntype=other | measure=Change in Kidney injury biomarkers | time_frame=from the time of randomization through the end of protocolized IV diuretics, approximately 14 days | description=changes in the urinary tubular injury markers such as KIM-1 and NGAL\ntype=other | measure=Hospital Length of stay | time_frame=from the ED presentation to hospital discharge, approximately 7 days | description=number of days in the hospital\ntype=other | measure=180-day all cause death | time_frame=within 180 days of hospital discharge | description=all-cause death\ntype=other | measure=Hypotension | time_frame=from the time of randomization through 7 days off protocolized IV diuretics, or discharge | description=Incidence of symptomatic (lightheaded, chest pain) hypotension (SBP \\< 80 mmHg confirmed on 2 successive measurements at least 30 minutes apart)\ntype=other | measure=Acute Kidney Injury Differences in Epithelial sodium channel (ENaC) levels | time_frame=from the time of randomization through 7 days off protocolized IV diuretics, or discharge | description=AKI (defined as a need for renal replacement therapy or KDIGO stage 2 or greater from a serum creatinine at randomization)\ntype=other | measure=Cardiorenal death or Myocardial Infarction (MI) during hospitalization | time_frame=from the time of randomization through 7 days off protocolized IV diuretics, or discharge | description=Cardiorenal death or MI as adjudicated by a clinical events committee\ntype=other | measure=Ototoxicity or tinnitus | time_frame=from the time of randomization through 7 days off protocolized IV diuretics, or discharge | description=Clinically significant ototoxicity or tinnitus as determined by the study team",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 633,
+      "trial_nct_id": "NCT04481919"
+    },
+    {
+      "chunk_id": "NCT04481919:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-05-01\nPrimary completion date: 2026-09-30\nCompletion date: 2026-12-31\nStudy first posted: 2020-07-22\nResults first posted: None\nLast update posted: 2025-12-19\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT04481919"
+    },
+    {
+      "chunk_id": "NCT04481919:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Vanderbilt University Medical Center\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT04481919"
+    }
+  ],
+  "trial_nct_id": "NCT04481919"
+}

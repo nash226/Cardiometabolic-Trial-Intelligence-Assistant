@@ -1,0 +1,292 @@
+{
+  "arms": [
+    {
+      "description": "The patients randomised into this arm of the trial will receive 500 mg Nicotinamide Riboside b.i.d. The duration of blinded therapy will depend on the duration of anthracycline therapy, and will for some patients last for 3 months, others for 6 months.",
+      "intervention_names": [
+        "Dietary Supplement: Nicotinamide Riboside"
+      ],
+      "label": "Treatment Arm",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "The patients randomised into this arm of the trial will receive a matching placebo b.i.d. The duration of treatment is equivalent to the description in the treatment arm.",
+      "intervention_names": [
+        "Dietary Supplement: Placebo"
+      ],
+      "label": "Placebo Control Arm",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Breast Cancer",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Metastatic Breast Cancer",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Cancer Therapy-Related Cardiac Dysfunction",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Cardiotoxicity",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Heart Failure",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Women with metastatic breast cancer (stage IV breast cancer) scheduled for anthracycline-containing chemotherapy\n* Eastern Cooperative Oncology Group performance status 0-2\n\nExclusion Criteria\n\n* Age \\<18 years\n* Acute myocardial infarction within the last three months\n* Participation in another pharmaceutical clinical trial of an investigational medicinal product (IMP) less than 4 weeks prior to inclusion or use of other investigational drugs within 5 half-lives of enrollment, whichever is longer\n* Conditions that would affect the participants to comply with the study protocol as psychiatric or mental disorders, alcohol abuse or other substance abuse, suspected poor drug compliance, language barriers\n* Life expectancy \\< 6 months\n* Known allergy to any of the components in the Nicotinamide Riboside (Niagen\u00ae) tablet\n* Contraindications or inability to undergo CMR examination",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "FEMALE"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Treatment Arm"
+      ],
+      "description": "Nicotinamide Riboside 500mg b.i.d as long as the patient is receiving anthracycline therapy",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Nicotinamide Riboside",
+      "normalized_name": "nicotinamide riboside"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo Control Arm"
+      ],
+      "description": "Matching placebo b.i.d as long as the patient is receiving anthracycline therapy",
+      "drug_class": null,
+      "intervention_type": "DIETARY_SUPPLEMENT",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Change in left ventricular ejection fraction (LVEF), as determined by CMR from randomization to end of blinded therapy.",
+      "measure": "Whether the administration of nicotinamide riboside can prevent the reduction in left ventricular systolic function measured by cardiovascular magnetic resonance (CMR), compared to placebo.",
+      "outcome_type": "primary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in LVEF, as determined by echocardiography",
+      "measure": "Assess whether the administration of nicotinamide riboside is associated with less reduction in left ventricular systolic function measured by echocardiography",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in left ventricular global longitudinal strain (GLS), as determined by echocardiography",
+      "measure": "Assess whether the administration of nicotinamide riboside is associated with less reduction in left ventricular systolic function measured by echocardiography",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in left ventricular global circumferential strain (GCS) and GLS, as determined by CMR",
+      "measure": "Assess whether the administration of nicotinamide riboside is associated with less reduction in left ventricular systolic function measured by CMR",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in left ventricular end-systolic volume measured by CMR",
+      "measure": "Assess whether the administration of nicotinamide riboside is associated with less reduction in left ventricular systolic function measured by CMR",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in circulating hs-cTnT",
+      "measure": "To assess whether the administration of nicotinamide riboside is associated with less myocardial injury measured by high-sensitive cardiac troponin T (hs-cTnT)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in circulating hs-cTnI",
+      "measure": "To assess whether the administration of nicotinamide riboside is associated with less myocardial injury measured by high-sensitive cardiac troponin I (hs-cTnI)",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in distance in meters during 6-minute walk test",
+      "measure": "To assess whether the administration of nicotinamide riboside is associated with less worsening in functional capacity",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "From randomization to the end of blinded therapy:\n\nChange in force generated by handgrip strength test",
+      "measure": "To assess whether the administration of nicotinamide riboside is associated with less worsening in functional capacity",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Changes in the amount of circulating NAD+ will be measured using commercial kits and Liquid chromatography-mass spectrometry analyses (LC-MS analyses)",
+      "measure": "Pharmacological endpoint: Change in circulating Nicotinamide adenine dinucleotide (NAD+) concentration from baseline to end of blinded therapy.",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Change in transverse relaxation time (T2) measured by CMR",
+      "measure": "Tertiary objective: Less myocardial injury expressed as oedema or fibrosis by CMR",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Change in longitudinal relaxation time (T1) measured by CMR",
+      "measure": "Tertiary objective: Less myocardial injury expressed as oedema or fibrosis by CMR",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Change in T1 rho measured by CMR",
+      "measure": "Tertiary objective: Less myocardial injury expressed as oedema or fibrosis by CMR",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Change in left ventricular diastolic function as measured by echocardiography",
+      "measure": "Tertiary objective: Less reduction in left ventricular diastolic function measured by echocardiography",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Change in the aortic pulse wave velocity measured by CMR",
+      "measure": "Tertiary objective: Less aortic stiffness measured by CMR",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Chance in circulating N-terminal pro b-type natriuretic peptide (NT-proBNP)",
+      "measure": "Tertiary objective: Less myocardial injury and dysfunction measured by cardiac biomarkers other than troponin",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Chance in circulating cardiac myosin binding protein C (cMyC)",
+      "measure": "Tertiary objective: Less myocardial injury and dysfunction measured by cardiac biomarkers other than troponin",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Change in circulating creatine kinase (CK)",
+      "measure": "Tertiary objective: Less skeletal muscle injury",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Change in circulating myoglobin",
+      "measure": "Tertiary objective: Less skeletal muscle injury",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Quality of life measured by Chalder Fatigue Scale. Items are rated on a 4-point Likert scale (0 = better than usual, 1 = no more than usual, 2 = worse than usual, 3 = much worse than usual), with higher scores indicating greater fatigue.",
+      "measure": "Tertiary objective: Less worsening in health-related quality of life",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Quality of life measured by European Organization for the Research and Treatment of Cancer Quality of Life Questionnaire (EORTC QLQ-C30). Range in score from 0 to 100. A high scale score represents a higher response level.\n\nThus a high score for a functional scale represents a high / healthy level of functioning, a high score for the global health status / Quality of life (QoL) represents a high QoL, but a high score for a symptom scale / item represents a high level of symptomatology / problems.",
+      "measure": "Tertiary objective: Less worsening in health-related quality of life",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    },
+    {
+      "description": "Quality of life measured by European Quality of Life 5 Dimensions 5 Level Version (EQ-5D-5L). Each dimension in the EQ-5D-5L has five response levels: no problems (Level 1); slight; moderate; severe; and extreme problems (Level 5). There are 3,125 possible health states defined by combining one level from each dimension, ranging from 11111 (full health) to 55555 (worst health).",
+      "measure": "Tertiary objective: Less worsening in health-related quality of life",
+      "outcome_type": "other",
+      "time_frame": "Baseline, 3 months, 6 months for patients receiving extended chemotherapy, and extended follow up 12 months after initiation of chemotherapy"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Breast cancer is the most common form of cancer in women. Modern breast cancer treatments have led to increased survival, but at the same time, increased risk for cardiotoxicity and development of heart failure. In this study, the investigators want to evaluate whether nicotinamide riboside can prevent cancer-related cardiac dysfunction in metastatic breast cancer patients scheduled for anthracycline therapy. Further, the investigators will evaluate change in signs of skeletal muscle injury and functional capacity.",
+    "brief_title": "Nicotinamide Riboside and Prevention of Cancer Therapy Related Cardiac Dysfunction in Breast Cancer Patients",
+    "collaborator_names": [
+      "ChromaDex, Inc.",
+      "Norwegian Cancer Society",
+      "Norwegian Breast Cancer Association",
+      "Helse Sor-Ost"
+    ],
+    "completion_date": "2035-09-30",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Women with metastatic breast cancer (stage IV breast cancer) scheduled for anthracycline-containing chemotherapy\n* Eastern Cooperative Oncology Group performance status 0-2\n\nExclusion Criteria\n\n* Age \\<18 years\n* Acute myocardial infarction within the last three months\n* Participation in another pharmaceutical clinical trial of an investigational medicinal product (IMP) less than 4 weeks prior to inclusion or use of other investigational drugs within 5 half-lives of enrollment, whichever is longer\n* Conditions that would affect the participants to comply with the study protocol as psychiatric or mental disorders, alcohol abuse or other substance abuse, suspected poor drug compliance, language barriers\n* Life expectancy \\< 6 months\n* Known allergy to any of the components in the Nicotinamide Riboside (Niagen\u00ae) tablet\n* Contraindications or inability to undergo CMR examination",
+    "detailed_description": "The trial is prospective, randomised, double-blind and placebo-controlled. The primary objective is change in left ventricular ejection fraction (LVEF), determined by cardiac MRI (CMR). Secondary objectives are change in circulating high-sensitivity cardiac troponin I and T (hs-TnI and hs-TnT), Creatine Kinase (CK) and myoglobin, and various measurements of change in left ventricular systolic function determined by CMR and echocardiography. Additional assessments are evaluation of the patient's functional capacity and the patients will be asked to fill out questionnaires to assess quality of life.\n\n60 patients will be randomised in a 1:1 ratio. The duration of blinded therapy will depend on the duration of anthracycline therapy. All patients will be examined at baseline and 3 months, and if the patient is scheduled for extended anthracycline therapy, an additional examination will be performed at 6 months.",
+    "drug_class_labels": [],
+    "enrollment_count": 60,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Nicotinamide Riboside",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Breast Cancer",
+      "Anthracyclines",
+      "Niagen",
+      "Nicotinamide riboside",
+      "Nicotinamide adenine dinucleotide",
+      "Reactive oxygen species",
+      "Cardiac Dysfunction",
+      "Cardio-oncology",
+      "Cardiotoxicity",
+      "Cancer Therapy-Related Cardiac Dysfunction"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2023-03-17",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University Hospital, Akershus",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05732051",
+    "official_title": "Effect of Nicotinamide Riboside on Myocardial and Skeletal Muscle Injury and Function in Patients With Metastatic Breast Cancer Receiving Anthracyclines",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2025-08-01",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "FEMALE",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05732051",
+    "start_date": "2023-03-16",
+    "study_first_posted_at": "2023-02-16",
+    "study_type": "INTERVENTIONAL"
+  }
+}

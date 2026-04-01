@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06292013:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06292013\nBrief title: A Study to Investigate the Effect of Lepodisiran on the Reduction of Major Adverse Cardiovascular Events in Adults With Elevated Lipoprotein(a) - ACCLAIM-Lp(a)\nOfficial title: A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Effect of Lepodisiran on the Reduction of Major Adverse Cardiovascular Events in Adults With Elevated Lipoprotein(a) Who Have Established Atherosclerotic Cardiovascular Disease or Are at Risk for a First Cardiovascular Event - ACCLAIM-Lp(a)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 81,
+      "trial_nct_id": "NCT06292013"
+    },
+    {
+      "chunk_id": "NCT06292013:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atherosclerotic Cardiovascular Disease (ASCVD); Elevated Lp(a)\nIntervention labels: Lepodisiran Sodium; Placebo\nDrug class labels: \nArms: Lepodisiran Sodium; Placebo\nKeywords: ASCVD; LY3819469; lepodisiran",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 26,
+      "trial_nct_id": "NCT06292013"
+    },
+    {
+      "chunk_id": "NCT06292013:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to evaluate the efficacy of lepodisiran in reducing cardiovascular risk in participants with high lipoprotein(a) who have cardiovascular disease or are at risk of a heart attack or stroke. The study drug will be administered subcutaneously (SC) (under the skin). Approximately 1700 additional participants will be enrolled in an addendum to explore Lp(a) lowering with an alternative dosing schema.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 70,
+      "trial_nct_id": "NCT06292013"
+    },
+    {
+      "chunk_id": "NCT06292013:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Have Lipoprotein(a) \\[Lp(a)\\] \u2265175 nanomoles per liter (nmol/L).\n* Meet criteria of either 2a or 2b:\n\n  2a: Individuals 18 years of age or older with established atherosclerotic cardiovascular disease (ASCVD) with an event or revascularization.\n\n  2b: Individuals 55 years of age or older who are at risk for a first cardiovascular (CV) event and either: Documented coronary artery disease (CAD), carotid stenosis, or peripheral artery disease (PAD) without history of event or revascularization; known familial hypercholesteremia; or a combination of high-risk factors.\n\nExclusion Criteria:\n\n* Have had a major cardiovascular event or surgery, such as myocardial infarction (MI), stroke or coronary or peripheral revascularization, \\< 60 days before screening\n* Have uncontrolled hypertension\n* Have New York Heart Association class IV heart failure.\n* Have lipoprotein apheresis within 90 days of screening, or planned lipoprotein apheresis during the study.\n* Have severe renal failure, defined as\n\n  * Estimated glomerular rate (eGFR) \\<15 milliliters per minute per 1.73 meters squared (mL/min/1.73m2) at screening Visit 1, or ongoing dialysis.\n* Have a diagnosis of active nephrotic syndrome, or urine albumin-creatinine ratio (UACR) of \u22655000 mg/g at screening Visit 1.\n* Have acute or chronic hepatitis, known cirrhosis, signs and symptoms of any other liver disease other than metabolic-associated steatotic liver disease, or exclusionary laboratory results as determined by the central laboratory during screening.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 241,
+      "trial_nct_id": "NCT06292013"
+    },
+    {
+      "chunk_id": "NCT06292013:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to First Occurrence of Any Component of the Major Adverse Cardiac Event (MACE)-4 Composite Endpoint | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first event in a MACE-4 composite endpoint, comprised of cardiovascular death, nonfatal myocardial infarction, nonfatal ischemic stroke, and urgent coronary revascularization.\ntype=secondary | measure=Change from Baseline in Lipoprotein(a) [Lp(a)] at Week 4 | time_frame=Baseline, Week 4 | description=Change from Baseline in Lp(a)\ntype=secondary | measure=Time to First Occurrence of Any of the Component of MACE-3 Composite Endpoint | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first occurrence MACE-3\ntype=secondary | measure=Time to First Occurrence of Fatal or Non-Fatal Myocardial Infarction | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first occurrence of fatal or non-fatal myocardial infarction.\ntype=secondary | measure=Time to Cardiovascular Death | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to cardiovascular death.\ntype=secondary | measure=Time to Occurrence of All-Cause Death | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to occurrence of all-cause death\ntype=secondary | measure=Time to First Occurrence of Any Component of the MACE-4 Composite Endpoint (In the Population with Established ASCVD and CV Event, or Revascularization) | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first occurrence of any component of the MACE-4 composite endpoint.\ntype=secondary | measure=Time to First Occurrence of any Component of the MACE-4 Composite Endpoint (In the Population At Risk for First CV event) | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first occurrence of any component of the MACE-4 composite endpoint.\ntype=secondary | measure=Time to First Occurrence of any Component of the MACE-4 Composite Endpoint (In the Population with Lp(a) \u2265 200 nmol/L) | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first occurrence of any component of the MACE-4 composite endpoint.\ntype=secondary | measure=Time to First Occurrence of Any Component of MACE-3 + MALE Composite Endpoint | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first occurrence of any component of MACE-3 + MALE composite endpoint.\ntype=secondary | measure=Time to First Occurrence of Any Component of Coronary MACE-3 Composite Endpoint | time_frame=Baseline up to End of Study (About 4.5 Years) | description=Time to first Occurrence of any component of coronary MACE-3 composite endpoint.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 398,
+      "trial_nct_id": "NCT06292013"
+    },
+    {
+      "chunk_id": "NCT06292013:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-03-05\nPrimary completion date: 2029-03\nCompletion date: 2029-03\nStudy first posted: 2024-03-04\nResults first posted: None\nLast update posted: 2026-03-24\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06292013"
+    },
+    {
+      "chunk_id": "NCT06292013:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eli Lilly and Company\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT06292013"
+    }
+  ],
+  "trial_nct_id": "NCT06292013"
+}

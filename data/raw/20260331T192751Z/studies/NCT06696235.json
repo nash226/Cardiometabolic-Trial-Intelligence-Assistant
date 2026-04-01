@@ -1,0 +1,403 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        },
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        },
+        {
+          "id": "D058186",
+          "term": "Acute Kidney Injury"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "In the accelerated-strategy group, RRT is initiated as soon as possible and within 6 hours after patients have met full eligibility criteria.",
+          "interventionNames": [
+            "Device: Early initiation of continuous renal replacement therapy"
+          ],
+          "label": "Accelerated initiation of CRRT",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Clinicians were discouraged from initiating RRT until the development of one or more of the following criteria.\n\n* Serum potassium \\> 6.5 mmol/L\n* Serum potassium\\> 6.0 mmol/L persisting despite medical treatment\n* Metabolic acidosis (pH \\< 7.15 and PaCO2 \\< 35 mmHg or serum bicarbonate \\< 12 mmol/L)\n* Blood urea nitrogen level \u2265100 mg/dL\n* Oliguria (\u22640.3 ml/kg/hour) or anuria for 48h or more\n* Diuretics refractory fluid overload or pulmonary edema",
+          "interventionNames": [
+            "Device: Standard initiation of continuous renal replacement therapy"
+          ],
+          "label": "Standard initiation of CRRT",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Accelerated initiation of CRRT"
+          ],
+          "description": "Patients will be randomized to either the standard initiation of the CRRT group or the accelerated initiation of the CRRT group with a 1:1 ratio.",
+          "name": "Early initiation of continuous renal replacement therapy",
+          "type": "DEVICE"
+        },
+        {
+          "armGroupLabels": [
+            "Standard initiation of CRRT"
+          ],
+          "description": "Patients will be randomized to either the standard initiation of the CRRT group or the accelerated initiation of the CRRT group with a 1:1 ratio.",
+          "name": "Standard initiation of continuous renal replacement therapy",
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock",
+        "Acute Kidney Injury"
+      ],
+      "keywords": [
+        "Extracorporeal Membrane Oxygenator",
+        "Cardiogenic Shock",
+        "Acute Kidney Injury",
+        "Continuous Renal Replacement Therapy"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "jhysmc@gmail.com",
+          "name": "Jeong Hoon Yang, MD, PhD",
+          "phone": "82-2-3410-3419",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "email": "cardiokh@gmail.com",
+              "name": "Ki Hong Choi",
+              "phone": "01088751648",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Samsung Medical Center",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING",
+          "zip": "06351"
+        },
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "email": "jhysmc@gmail.com",
+              "name": "Jeong Hoon Yang, MD, PhD",
+              "phone": "82-2-3410-3419",
+              "role": "CONTACT"
+            },
+            {
+              "email": "cardiokh@gmail.com",
+              "name": "Ki Hong Choi, MD, PhD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Samsung Medical Center",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "NOT_YET_RECRUITING"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study was designed to compare the safety and efficacy of early continuous renal replacement therapy with standard continuous renal replacement therapy in the presence of acute kidney injury (stage 2 or greater acute kidney injury according to the KDIGO \\[The Kidney Disease: Improving Global Outcomes\\] classification) in patients with advanced cardiogenic shock on extracorporeal membrane oxygenation.",
+      "detailedDescription": "Patients with cardiogenic shock who are placed on extracorporeal membrane oxygenation devices often have increased afterload due to the retrograde arterial flow of the device, resulting in increased left ventricular filling pressures, and optimal full-load management in these patients may be important to improve prognosis. Previous observational studies have reported that the use of renal replacement therapy for full-load management in patients with cardiogenic shock on extracorporeal membrane oxygenation is effective and improves patient survival in cases of severe renal dysfunction when fluid volume reduction is maintained. However, to date, there have been no randomized controlled studies to identify the optimal timing of renal replacement therapy in patients with cardiogenic shock on extracorporeal membrane oxygenation."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Accelerated initiation of CRRT and Standard initiation of CRRT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open Label Trial"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 408,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* The subject must be at least 19 years of age.\n* Patients presented with CS (Society for Cardiovascular Angiography and Interventions \\[SCAI\\] Shock classification C, D or E) \\* who requiring VA-ECMO.\n* Classic CS (Stage C) was defined as the following criteria. A. Systolic blood pressure less than 90 mmHg for more than 30 min or catecholamines required to maintain pressure more than 90 mmHg during systole. B. Sign of pulmonary congestion\n\nC. Sign of impaired organ perfusion with at least one of the following:\n\n1. altered mental status.\n2. cold, clammy skin and extremities.\n3. oliguria with urine output \\< 30ml/h.\n4. serum lactate \\> 2.0 mmol/l.\n\n   * SCAI Shock classification D is defined as failure to respond to initial interventions with clinical deterioration of classic CS or SCAI Shock classification E is defined as cardiac arrest with ongoing cardiopulmonary resuscitation requiring VA-ECMO\n   * Patients in the first 48 hours of CS developing AKI with at least one criterion (Characteristic of the stage 2 AKI according to Kidney Disease: Improving Global Outcomes \\[KDIGO\\] classification)\n   * A 2-fold or over increase in serum creatinine relative to baseline\n   * A reduction in urine output of \u22640.5 ml/kg/h for \u2265 12 hours\n\nExclusion Criteria:\n\n* Other causes of shock (hypovolemia, sepsis, obstructive shock).\n* Criteria mandating CRRT initiation: acute kidney injury prior to enrollment caused by any reason, at least one of the following criteria is met.\n* serum potassium \\> 6.5 mmol/L\n* serum potassium\\> 6.0 mmol/L persisting despite medical treatment.\n* metabolic acidosis (pH \\< 7.15 and PaCO2 \\< 35 mmHg or serum bicarbonate \\< 12 mmol/L)\n* blood urea nitrogen level \u2265100 mg/dL.\n* diuretics refractory volume overload or pulmonary edema\n* Unwitnessed out-of-hospital cardiac arrest with persistent Glasgow coma scale \\<8 after the return of spontaneous circulation.\n* Chronic kidney disease (CKD) with estimated glomerular filtration rate (eGFR)\\<30 mL/min/1.73m2 or end-stage kidney disease under dialysis\n* Kidney transplant within the past 365 days\n* Receipt of any RRT in the preceding 2 months\n* Known heparin intolerance.\n* Other severe concomitant disease with limited life expectancy \\< 6 months\n* Pregnancy or breastfeeding\n* Do not resuscitate wish.\n* Presence of a drug overdose or dialyzable toxin that necessitates RRT.\n* Presence or strong clinical suspicion of post-renal AKI duet to obstruction, rapidly progressive glomerulonephritis, vasculitis, thrombotic microangiopathy or acute interstitial nephritis\n* Clinical decision by a responsible physician to immediately start RRT.\n* Clinical decision by a responsible physician to defer RRT.",
+      "healthyVolunteers": false,
+      "minimumAge": "19 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "REDUCE-ECMO",
+      "briefTitle": "Accelerated vs. Standard Continuous Renal Replacement Therapy for Patients With Cardiogenic Shock Undergoing Veno-arterial ExtraCorporeal Membrane Oxygenator",
+      "nctId": "NCT06696235",
+      "officialTitle": "AcceleRatEd vs. StandarD ContinUous Renal ReplaCement ThErapy for Patients With Cardiogenic Shock Undergoing Veno-arterial ExtraCorporeal Membrane Oxygenator: Randomized-Controlled Trial",
+      "orgStudyIdInfo": {
+        "id": "REDUCE-ECMO"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Samsung Medical Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "all-cause mortality or RRT dependence",
+          "timeFrame": "90 days after patient enrollment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "In-hospital mortality",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "measure": "In-hospital cardiac mortality",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "measure": "VA-ECMO weaning success",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "measure": "Time to VA-ECMO weaning",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "measure": "Critical limb ischemia",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "description": "Bleeding Academic Research Consortium \\[BARC\\] type 3-5",
+          "measure": "Access site major bleeding",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "description": "Cerebral Performance Category",
+          "measure": "CPC 3-5",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "description": "ICU Stay",
+          "measure": "Length of intensive-care unit stay",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "description": "Hospital stay",
+          "measure": "Length of hospital stay",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "description": "Mechanical Ventilation Maintenance",
+          "measure": "Duration of mechanical ventilation",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "description": "Renal Replacement Therapy",
+          "measure": "Duration of RRT",
+          "timeFrame": "Up to 30 days"
+        },
+        {
+          "measure": "all-cause mortality",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "cardiac mortality",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "description": "Left ventricular assisted device implantation or heart transplantation",
+          "measure": "Requirement of cardiac replacement therapy",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "re-hospitalization due to heart failure",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "re-hospitalization due to any cause",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "description": "ischemic or hemorrhagic",
+          "measure": "cerebrovascular accident",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "RRT dependence",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "Serum creatinine and eGFR",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "major bleeding (BARC type 3, or 5)",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "clinically meaningful bleeding (BARC type 2, 3, or 5)",
+          "timeFrame": "90 days & 12 months after patient enrollment"
+        },
+        {
+          "measure": "Patients in the standard strategy group who received emergency RRT before 48 hours, according to criterion",
+          "timeFrame": "Up to 48 hours"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Samsung Medical Center"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Samsung Medical Center",
+        "investigatorFullName": "Jeong Hoon Yang",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-31",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-12-31",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-11-05",
+      "studyFirstSubmitQcDate": "2024-11-17"
+    }
+  }
+}

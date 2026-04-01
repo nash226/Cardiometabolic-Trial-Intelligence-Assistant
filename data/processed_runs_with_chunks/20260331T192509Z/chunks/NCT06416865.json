@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06416865:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06416865\nBrief title: Efficacy and Safety of AJU-C52 in Essential Hypertension Patients\nOfficial title: A Randomized, Double-blind, Multi-center, Phase III Trial to Evaluate the Efficacy and Safety of AJU-C52 in Compared With C52R1M for Essential Hypertension Patients in Inappropriately Controlled on C52R1L Treatment\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT06416865"
+    },
+    {
+      "chunk_id": "NCT06416865:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Essential Hypertension\nIntervention labels: AJU-C52L, AJU-C52; C52R1L, C52R1M\nDrug class labels: \nArms: AJU-C52L, AJU-C52; C52R1L, C52R1M\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT06416865"
+    },
+    {
+      "chunk_id": "NCT06416865:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A Randomized, Double-blind, Multi-center, Phase III study to evaluate the efficacy and safety of the AJU-C52 compared with the combination of C52R1M in patients with essential Hypertension Patients who have inappropriately controlled on C52R1L treament\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT06416865"
+    },
+    {
+      "chunk_id": "NCT06416865:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Adults aged \u226419 years.\n* Those who voluntarily signed the informed consent to participate in this study.\n* A patient diagnosed with essential hypertension or Patients taking hypertension medication\n* Those who are eligible for adequate blood pressure criteria during screening tests: Na\u00efve patient-160 mmHg\u2264MSSBP\\<200 mmHg and MSDBP\\<110 mmHg/Patients taking hypertension medication-140 mmHg\u2264MSSBP\\<200 mmHg and MSDBP\\<110 mmHg\n\nExclusion Criteria:\n\n* At the screening visit (Visit 1), patients had 3 blood pressure measurements in the arm with the higher average MSSBP, those whose maximum and minimum blood pressure differences are MSSBP 20 mmHg and MSDBP 10 mmHg\n* Secondary hypertension patients or those with a history of suspected secondary hypertension\n* Cardiovascular/cerebrovascular disease\n* Those with a history of malignant tumor within 5 years",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 143,
+      "trial_nct_id": "NCT06416865"
+    },
+    {
+      "chunk_id": "NCT06416865:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Changes in MSSBP(mean sitting systolic blood pressure) | time_frame=8th week | description=Changes in MSSBP(mean sitting systolic blood pressure) at the 8th week afeter administration of investigational products from the baseline.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT06416865"
+    },
+    {
+      "chunk_id": "NCT06416865:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-06-27\nPrimary completion date: 2022-12-12\nCompletion date: 2024-08-31\nStudy first posted: 2024-05-16\nResults first posted: None\nLast update posted: 2024-05-22\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06416865"
+    },
+    {
+      "chunk_id": "NCT06416865:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: AJU Pharm Co., Ltd.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06416865"
+    }
+  ],
+  "trial_nct_id": "NCT06416865"
+}

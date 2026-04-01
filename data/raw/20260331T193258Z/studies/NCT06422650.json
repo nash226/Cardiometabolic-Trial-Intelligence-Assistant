@@ -1,0 +1,240 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000723271",
+          "term": "Nigella sativa oil"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients will receive Nigella Sativa (500mg) capsule twice daily for 8 weeks.",
+          "interventionNames": [
+            "Drug: Nigella Sativa capsule 500mg"
+          ],
+          "label": "Nigella Sativa",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients will receive capsules of placebo twice daily for 8 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Nigella Sativa"
+          ],
+          "description": "Nigella Sativa capsule 500mg twice daily for 8 weeks",
+          "name": "Nigella Sativa capsule 500mg",
+          "otherNames": [
+            "Black seed oil"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Control"
+          ],
+          "description": "Oral placebo identical to astaxanthin",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hyperlipidemia"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "farzanamony12@gmail.com",
+          "name": "Farzana Siddiqua, MBBS",
+          "phone": "01842378736",
+          "role": "CONTACT"
+        },
+        {
+          "name": "Adhir K Das",
+          "phone": "01711961097",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Dhaka",
+          "contacts": [
+            {
+              "email": "farzanamony12@gmail.com",
+              "name": "Farzana Siddiqua, MBBS",
+              "phone": "01842378736",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Bangladesh",
+          "facility": "BSMMU",
+          "geoPoint": {
+            "lat": 23.7104,
+            "lon": 90.40744
+          },
+          "status": "RECRUITING",
+          "zip": "1000"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",
+          "name": "Farzana Siddiqua, MBBS",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will be 8 weeks randomized, double-blind, placebo-controlled trail to assess the effect of Nigella Sativa in 84 Hyperlipidaemic patients. Participants will be assessed at baseline and after 8 weeks of intervention. Subjects will be randomized to receive either Nigella Sativa 500 mg capsule daily or placebo capsule identical to Nigella Sativa twice daily for 8 weeks. Evaluation of lipid profile, SGPT, S.Creatinine will be before and after 8 weeks of intervention. Nigella Sativa related adverse events will be identified. Study outcome will establish safety and efficacy of Nigella Sativa in atorvastatin treated hyperlipidaemic patients",
+      "detailedDescription": "Hyperlipidemia is one of the most important risk factors to cause atherosclerosis that ultimately triggers cardiovascular complications like myocardial infarction, ischemic stroke, peripheral vascular disease etc. These are considered as the leading cause of mortality and morbidity worldwide. Nigella sativa has both lipid lowering and anti-oxidant potentials. In this regard Nigella Sativa can be given with standard therapy to regulate blood lipids.\n\nAim of this study: This proposed study is therefore an effort to find out the safety and efficacy of Nigella Sativa in patient with hyperlipidemia.This study will be a single center study, utilizing a randomized, double-blind, placebo controlled trial. It will be conducted in the department of pharmacology, BSMMU in collaboration with the department of cardiology, BSMMU from the day of approval by the Institutional Review Board to June, 2024. The study will involve a total of Eighty four (84) patients attended in the outpatient department of cardiology, BSMMU, diagnosed as hyperlipidemia, with 42 of them receiving standard treatment along with a twice daily dose of 500mg of Nigella Sativa capsule for 8 weeks. The remaining 42 patients will undergo standard treatment along with a placebo over the same duration. The data collected will be analyzed through descriptive statistical techniques, offering a comprehensive summary of the results. In this study we will assess various sociodemographic characteristics of all the participants, including like age, sex, body mass index (BMI).In addition to these factors we will also evaluate their lipid profile, serum glutamic pyruvic transaminase (SGPT), serum creatinine level at baseline and after 8 weeks of interventions. Addition of Nigella Sativa with the conventional treatment of Statin could potentially reduce blood lipids in patients with hyperlipidemia."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 84,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Newly diagnosed hyperlipidaemic patient.\n2. Both male and female\n3. Hyperlipidemic patients suffering from ischemic heart disease, diabetes mellitus, hypertension\n4. Diagnostic criteria for dyslipidemic patients\n\n   1. Total cholesterol 200mg/dl\n   2. LDL-C 140mg/dl\n   3. Triglyceride 150mg/dl\n   4. HDL \\<40mg/dl\n\nExclusion Criteria:\n\n1. Patients with renal impairment\n2. Patients with active liver disease\n3. Patients having history of hypersensitivity on any member of statins\n4. Pregnant woman.\n5. lactating mother",
+      "healthyVolunteers": true,
+      "maximumAge": "75 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Effect of Nigella Sativa in Atorvastatin Treated Hyperlipidaemia",
+      "nctId": "NCT06422650",
+      "officialTitle": "Effect of Nigella Sativa on Blood Lipids as an add-on Therapy in Atorvastatin Treated Hyperlipidaemic Patients. A Randomized Controlled Trial",
+      "orgStudyIdInfo": {
+        "id": "BSMMU/2023/11004"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "84 atorvastatin treated hyperlipidaemic patients will randomly receive 8 weeks oral twice daily course of either Nigella Sativa 500 mg capsule or placebo.Change in blood lipids will be measured by spectrophotometer.",
+          "measure": "Change in blood lipids",
+          "timeFrame": "8 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",
+        "investigatorFullName": "Farzana Siddiqua",
+        "investigatorTitle": "Resident, MD, Pharmacology",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2024-08-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-05-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-05-20",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2024-08-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-08-24",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-05",
+      "studyFirstPostDateStruct": {
+        "date": "2024-05-21",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-05-15",
+      "studyFirstSubmitQcDate": "2024-05-20"
+    }
+  }
+}

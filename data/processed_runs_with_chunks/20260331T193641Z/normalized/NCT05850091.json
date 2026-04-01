@@ -1,0 +1,235 @@
+{
+  "arms": [
+    {
+      "description": "Participants will receive placebo daily",
+      "intervention_names": [
+        "Drug: Placebo"
+      ],
+      "label": "Group A",
+      "type": "PLACEBO_COMPARATOR"
+    },
+    {
+      "description": "Participants will receive rosuvastatin 20mg daily and placebo daily",
+      "intervention_names": [
+        "Drug: Rosuvastatin",
+        "Drug: Placebo"
+      ],
+      "label": "Group B",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Participants will receive colchicine 0.6mg daily and placebo daily",
+      "intervention_names": [
+        "Drug: Colchicine",
+        "Drug: Placebo"
+      ],
+      "label": "Group C",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Participants will receive rosuvastatin 20mg daily and colchicine 0.6mg daily",
+      "intervention_names": [
+        "Drug: Rosuvastatin",
+        "Drug: Colchicine"
+      ],
+      "label": "Group D",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Coronary Artery Disease",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Males and females between 40 and 75 years of age capable and willing to provide informed consent\n* Participant has high CAD PRS as defined on a clinical test\n* Participant with subclinical atherosclerosis defined as plaque visible on CCTA and causing \\<70% luminal stenosis\n\nExclusion Criteria:\n\n* Participant with a history of cardiovascular disease, defined by a diagnosis of coronary artery disease, peripheral artery disease, or cerebrovascular disease\n* Participant with a history of Liver disease (cirrhosis, active hepatitis, or severe hepatic disease) or any of the following recent lab results and determined to be non-transient: alanine aminotransferase greater than 3 times the upper limit of normal or total bilirubin greater than 2 times the upper limit of normal (unless due to Gilbert syndrome)\n* Participant with estimated glomerular filtration rate \\<60 mL/min/1.73 m2 or creatinine greater than 2 times the upper limit of normal\n* Patient with history of an allergic reaction or significant sensitivity to iodinated contrast, colchicine, or statins\n* Patient currently taking LDL cholesterol lowering or anti- inflammatory medications including colchicine\n* Participants requiring regular drugs known to be potent CY2P inhibitors (eg. ketoconazole, clarithromycin)\n* Female patient who is pregnant, or breast-feeding or is considering becoming pregnant during the study\n* Participant with BMI \u2265 40 kg/m2\n* Participant unable to provide informed consent\n* Participant unable to hold breath for 10 seconds",
+    "healthy_volunteers": false,
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "40 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Group B",
+        "Group D"
+      ],
+      "description": "Pharmacotherapy for reduction in LDL cholesterol level",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Rosuvastatin",
+      "normalized_name": "rosuvastatin"
+    },
+    {
+      "arm_group_labels": [
+        "Group C",
+        "Group D"
+      ],
+      "description": "Pharmacotherapy for inflammation inhibition",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Colchicine",
+      "normalized_name": "colchicine"
+    },
+    {
+      "arm_group_labels": [
+        "Group A",
+        "Group B",
+        "Group C"
+      ],
+      "description": "Capsule with sugar pill that mimics active study drugs",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "The primary outcome of this study is the change in total non-calcified plaque volume between the two groups from baseline to one year. This outcome will be measured using coronary computed tomography angiography (CCTA) and reported in cubic millimeters (mm\u00b3). The comparison of the changes in non-calcified plaque volume will help assess the effectiveness of the intervention on plaque progression and composition.",
+      "measure": "Change in total non-calcified plaque volume from baseline to one year",
+      "outcome_type": "primary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in the following plaque volumes will be compared between the two groups from baseline to one year: total plaque volume, total calcified plaque volume, and total low attenuation plaque volume. These volumes will be analyzed individually and reported in cubic millimeters (mm\u00b3).",
+      "measure": "Change in total plaque volumes from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in maximal luminal stenosis will be compared between the two groups from baseline to one year, reported as a percentage (%).",
+      "measure": "Change in maximal luminal stenosis from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in calcium score will be compared between the two groups from baseline to one year, reported in Agatston units.",
+      "measure": "Change in calcium score from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in the number of high-risk features will be compared between the two groups from baseline to one year, reported as a count (number of features).",
+      "measure": "Change in number of high-risk features from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in fat attenuation index will be compared between the two groups from baseline to one year, reported in Hounsfield units (HU).",
+      "measure": "Change in fat attenuation index from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The proportion of participants who had progression in non-calcified plaque volume from baseline to one year (%)",
+      "measure": "Progression in non-calcified plaque volume from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in low-density lipoprotein cholesterol (LDL-C) will be compared between the two groups from baseline to one year, reported in milligrams per deciliter (mg/dL).",
+      "measure": "Change in low-density lipoprotein cholesterol (LDL-C) from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in C-reactive protein (CRP) will be compared between the two groups from baseline to one year, reported in milligrams per liter (mg/L).",
+      "measure": "Change in C-reactive protein (CRP) from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "The change in Interleukin-6 (IL-6) and Interleukin-1 beta (IL-1\u00df) will be compared between the two groups from baseline to one year. Both biomarkers will be analyzed individually and reported in picograms per milliliter (pg/mL).",
+      "measure": "Change in Interleukin-6 and Interleukin-1 beta (IL-1\u00df) from baseline to one year",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The goal of this double-blind randomized controlled trial is to determine how treatment with high intensity statin, low-dose colchicine, and their combination modulates progression and composition of coronary atherosclerosis in individuals with high polygenic risk for coronary artery disease.",
+    "brief_title": "Polygenic Risk-based Detection of Subclinical Coronary Atherosclerosis and Intervention With Statin and Colchicine",
+    "collaborator_names": [
+      "National Heart, Lung, and Blood Institute (NHLBI)"
+    ],
+    "completion_date": "2027-05-01",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Males and females between 40 and 75 years of age capable and willing to provide informed consent\n* Participant has high CAD PRS as defined on a clinical test\n* Participant with subclinical atherosclerosis defined as plaque visible on CCTA and causing \\<70% luminal stenosis\n\nExclusion Criteria:\n\n* Participant with a history of cardiovascular disease, defined by a diagnosis of coronary artery disease, peripheral artery disease, or cerebrovascular disease\n* Participant with a history of Liver disease (cirrhosis, active hepatitis, or severe hepatic disease) or any of the following recent lab results and determined to be non-transient: alanine aminotransferase greater than 3 times the upper limit of normal or total bilirubin greater than 2 times the upper limit of normal (unless due to Gilbert syndrome)\n* Participant with estimated glomerular filtration rate \\<60 mL/min/1.73 m2 or creatinine greater than 2 times the upper limit of normal\n* Patient with history of an allergic reaction or significant sensitivity to iodinated contrast, colchicine, or statins\n* Patient currently taking LDL cholesterol lowering or anti- inflammatory medications including colchicine\n* Participants requiring regular drugs known to be potent CY2P inhibitors (eg. ketoconazole, clarithromycin)\n* Female patient who is pregnant, or breast-feeding or is considering becoming pregnant during the study\n* Participant with BMI \u2265 40 kg/m2\n* Participant unable to provide informed consent\n* Participant unable to hold breath for 10 seconds",
+    "detailed_description": "The main question PROACT 2 aims to answer is whether and how single or dual targeting of cholesterol-lowering and inflammation modulates coronary plaque in individuals with high polygenic risk and subclinical coronary atherosclerosis.\n\nThis is a double-blind randomized controlled trial of 200 individuals with high polygenic risk for coronary artery disease and subclinical plaque on coronary computed tomography angiography. Participants will be randomized into four equal treatment groups: group A receiving a placebo daily, group B receiving rosuvastatin 20mg daily, group C receiving colchicine 0.6mg daily, and group D receiving both rosuvastatin 20mg daily and colchicine 0.6mg daily. The primary outcome is change in total non-calcified plaque volume on coronary computed tomography angiography from baseline to one year. Multiple secondary plaque imaging and biomarker outcomes will be explored in this pilot mechanistic trial.",
+    "drug_class_labels": [],
+    "enrollment_count": 200,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Rosuvastatin",
+      "Colchicine",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Polygenic risk",
+      "Atherosclerosis",
+      "Genetics",
+      "Genomic medicine",
+      "Polygenic score",
+      "Precision medicine",
+      "Preventive cardiology",
+      "Coronary plaque",
+      "Inflammation",
+      "Cholesterol",
+      "Lipids",
+      "Colchicine",
+      "Statin"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-23",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Massachusetts General Hospital",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "40 Years",
+    "nct_id": "NCT05850091",
+    "official_title": "Polygenic Risk-based Detection of Subclinical Coronary Atherosclerosis and Intervention With Statin and Colchicine",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-05-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05850091",
+    "start_date": "2023-12-07",
+    "study_first_posted_at": "2023-05-09",
+    "study_type": "INTERVENTIONAL"
+  }
+}

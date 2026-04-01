@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05551104:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05551104\nBrief title: Safest Choice of Antihypertensive Regimen for Postpartum Hypertension\nOfficial title: Safest Choice of Antihypertensive Regimen for Postpartum Hypertension: A Randomized Control Trial (SCARPH)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT05551104"
+    },
+    {
+      "chunk_id": "NCT05551104:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Postpartum Complication; Maternal Hypertension; High Blood Pressure\nIntervention labels: Oral Nifedipine; Oral Labetalol\nDrug class labels: \nArms: Oral Nifedipine; Oral Labetalol\nKeywords: Postpartum Hypertension",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05551104"
+    },
+    {
+      "chunk_id": "NCT05551104:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this investigator-initiated randomized control trial is to determine whether oral Nifedipine versus oral Labetalol is superior in controlling high blood pressures in the postpartum period.\nDetailed description: High blood pressure (hypertension) is one of the most common medical disorders in pregnancy and affects 10% of all pregnancies in the United States, with possible short-term and long-term health complications including increased risk of stroke, and liver, kidney, and heart disease. Management of severe high blood pressure after delivery involves medications to lower blood pressure, strict discharge instructions and close follow- up after delivery. Both oral Nifedipine and oral Labetalol are considered safe agents for the treatment of postpartum high blood pressure, however few studies exist that directly compare the two. The investigators want to conduct this study because they want to compare the effects of oral Nifedipine or oral Labetalol on postpartum hypertension. In this study, subjects will get either oral Nifedipine or oral Labetalol. Subjects will not get both. No experimental drugs or devices will be used.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 172,
+      "trial_nct_id": "NCT05551104"
+    },
+    {
+      "chunk_id": "NCT05551104:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: FEMALE\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Female\n* Women who develop postpartum hypertension\\* after delivery of the placenta or chronic hypertensive postpartum women who require medication for blood pressure control.\n\n  * Postpartum hypertension requiring treatment are defined as systolic blood pressure greater than or equal to 140mmHg or diastolic blood pressure greater than or equal to 90mmHg on at least 2 occasions at least 4 hours apart, or systolic blood pressure greater than or equal to 160mmHg or diastolic blood pressure greater than 110mmHg sustained for more than 15 minutes.\n\nExclusion Criteria:\n\n* History of moderate persistent asthma, coronary artery disease, heart failure, AV heart block, pulmonary edema\n* Contraindication to either Nifedipine or Labetalol\n* HR \\<60 or \\>110\n* Native language other than English or Spanish",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 142,
+      "trial_nct_id": "NCT05551104"
+    },
+    {
+      "chunk_id": "NCT05551104:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Composite maternal morbidity | time_frame=0-6 weeks following delivery | description=Requiring antihypertensive medication in the postpartum period, readmission for high blood pressure\ntype=secondary | measure=Length of hospital stay of mothers | time_frame=Number of hours between time of admission to time of discharge, up to 4 weeks from time of admission. | description=The length of hospital stay for mothers will be measured in hours from the time of admission to labor and delivery unit to the time of discharge from the post-partum unit.\ntype=secondary | measure=Total number of participants who have need for second antihypertensive agent | time_frame=0-6 weeks following delivery | description=The need to use a second (alternative) antihypertensive medication.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 111,
+      "trial_nct_id": "NCT05551104"
+    },
+    {
+      "chunk_id": "NCT05551104:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-05-08\nPrimary completion date: 2027-12\nCompletion date: 2027-12\nStudy first posted: 2022-09-22\nResults first posted: None\nLast update posted: 2026-02-04\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05551104"
+    },
+    {
+      "chunk_id": "NCT05551104:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Loma Linda University\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT05551104"
+    }
+  ],
+  "trial_nct_id": "NCT05551104"
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05238519:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05238519\nBrief title: Improved Diagnosis of Familial Hypercholesterolemia Across the Northland (ID-FH)\nOfficial title: Improved Diagnosis of Familial Hypercholesterolemia Across the Northland (ID-FH)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT05238519"
+    },
+    {
+      "chunk_id": "NCT05238519:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Familial Hypercholesterolemia; Cholesterol, Elevated; Genetic Disease\nIntervention labels: Motivational interview (MI)\nDrug class labels: \nArms: Motivational Interview; Usual Care\nKeywords: cholesterol; motivational interview; survey; cascade screening",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05238519"
+    },
+    {
+      "chunk_id": "NCT05238519:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The overall goal of this study is to promote awareness of Familial Hypercholesterolemia (FH). The investigators aim to enroll patients with suspected FH into the study and will randomize them to receive usual care or motivational interview. Primary study outcomes include knowledge of FH, as well as clinical and patient-reported outcomes. This study aims to promote optimal disease management and improve outcomes of FH patients.\nDetailed description: This is a randomized 2-arm study designed to examine the impact of a personalized remote intervention that includes evidence-based risk communication and behavior change techniques with navigation. Patients who meet the inclusion criteria from both Essentia Health (Site A) and Aspirus St. Luke's Hospital (Site B) will be invited to complete the baseline survey. Participants will be randomized to one of two study arms: usual care (UC) and motivational interview (MI). Participant assignment occurs after completion of the baseline survey. Participants randomized to receive a MI will be contacted via telephone or email to schedule a date and time when they are available to receive a video or phone call from the study coordinator. During the MI, participants will be assessed on their readiness to communicate risk with family members. A letter will be sent to the participants physician for notice of the participation in the study. A follow-up survey will be sent to participants approximately 6 months after completion of the baseline survey, in both arms of the study. The study arms will be compared with regard to awareness and treatment of FH (aim 1), as well as the uptake of cascade screening in first- and second-degree relatives (aim 2).",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 270,
+      "trial_nct_id": "NCT05238519"
+    },
+    {
+      "chunk_id": "NCT05238519:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 2 Years\nMaximum age: 75 Years\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\n* Age 2-75 years\n* patients with existing clinical diagnosis or suspected FH\n* known genetic mutation of FH\n* patients with an initial (pretreatment) LDL level \\>190 mg/dL or total cholesterol \\>300 mg/dL (age \\>19 years) or LDL-c \\> 160mg/dL or total cholesterol \\>260 mg/dL in children age 2-19 years\n* patients currently taking a lipid-lowering medication and have an LDL \\>124 mg/dL or total cholesterol \\>195 mg/dL\n* capable of providing informed consent\n* Patients should reside in Minnesota, Wisconsin or North Dakota.\n\nExclusion Criteria:\n\n* Lack of research authorization\n* unable to provide informed consent (including non-English speaking individuals)\n* known medical condition other than FH that is thought to contribute to hyperlipidemia (i.e., untreated hypothyroidism, nephrotic syndrome, cholestasis hypopituitarism)\n* Pregnant women and prisoners will also be excluded.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 153,
+      "trial_nct_id": "NCT05238519"
+    },
+    {
+      "chunk_id": "NCT05238519:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Knowledge of familial hypercholesterolemia | time_frame=12 months post intervention | description=Self-report of knowledge of personal history of FH will be assessed at baseline and follow up\ntype=primary | measure=Cascade screening of 1st degree family members | time_frame=6 months post intervention | description=Cascade screening will be assessed using self-report of either a) discussion about lipid screening with at least one first-degree relative or b) discussion about genetic testing for FH (in the patient's first-degree relatives) within 6 months of the intervention\ntype=secondary | measure=Proportion of participants with LDL<100 | time_frame=12 months post enrollment | description=Percent change in proportion of participants with LDL\\<100 from pre-enrollment LDL-c to follow up.\ntype=secondary | measure=Proportion of participants with LDL<70 | time_frame=12 months post enrollment | description=Percent change in proportion of participants with LDL\\<70 from pre-enrollment LDL-c to follow up.\ntype=secondary | measure=Absolute change in LDL from baseline to follow up | time_frame=12 months post enrollment | description=Compared absolute and percent lowering of LDL from pre-enrollment LDL-c to follow up.\ntype=secondary | measure=Proportion of patients with self-report of genetic testing | time_frame=12 months post enrollment | description=Self-report of completion of a genetic test for familial hypercholesterolemia within 12 months of enrollment",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 197,
+      "trial_nct_id": "NCT05238519"
+    },
+    {
+      "chunk_id": "NCT05238519:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-02-15\nPrimary completion date: 2024-11-06\nCompletion date: 2026-06\nStudy first posted: 2022-02-14\nResults first posted: None\nLast update posted: 2026-01-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT05238519"
+    },
+    {
+      "chunk_id": "NCT05238519:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Essentia Health\nLead sponsor class: OTHER\nCollaborators: WHITESIDE Institute for Clinical Research; Aspirus St. Luke's Hospital\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT05238519"
+    }
+  ],
+  "trial_nct_id": "NCT05238519"
+}

@@ -1,0 +1,340 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000603960",
+          "term": "vericiguat"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "A starting dose of 2.5 mg of vericiguat taken orally once daily with food, on a background of HF standard of care. Uptitrated gradually every 2 weeks to 5 mg daily and then to the target dose of 10 mg daily.",
+          "interventionNames": [
+            "Drug: Vericiguat"
+          ],
+          "label": "Vericiguat",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Conventional management of heart failure and mild-to-moderate cognitive impairment.",
+          "label": "Standard of Care",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Vericiguat"
+          ],
+          "description": "Tablet - 2.5 mg, 5 mg, 10 mg",
+          "name": "Vericiguat",
+          "otherNames": [
+            "Verquvo"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Cognitive Impairment"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Cognitive Impairment",
+        "Vericiguat"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "jae2@ualberta.ca",
+          "name": "Justin Ezekowitz, MBBCh, MSc",
+          "phone": "780-492-0712",
+          "role": "CONTACT"
+        },
+        {
+          "email": "aperreau@ualberta.ca",
+          "name": "Amanda Perreault, MSc",
+          "phone": "780-492-5484",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Calgary",
+          "country": "Canada",
+          "facility": "University of Calgary",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          },
+          "state": "Alberta",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Edmonton",
+          "country": "Canada",
+          "facility": "University of Alberta",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          },
+          "state": "Alberta",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Ottawa",
+          "country": "Canada",
+          "facility": "University of Ottawa",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          },
+          "state": "Ontario",
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Montreal",
+          "country": "Canada",
+          "facility": "McGill University Health Center",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          },
+          "state": "Quebec",
+          "status": "NOT_YET_RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Alberta",
+          "name": "Justin Ezekowitz, MBBCh, MSc",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "CONVERGE-HF is a 4-center pilot phase IIb randomized control trial in ambulatory patients with chronic heart failure (\u2265 6 months) and mild-to-moderate cognitive impairment.",
+      "detailedDescription": "CONVERGE-HF is a randomized, open label, phase IIb trial evaluating the effect of sGC stimulator, Vericiguat versus standard of care on imaging markers and blood markers of cerebral and coronary small vessel diseases, function status, cognitive status, quality of life and clinical events in patients with heart failure and mild-to-moderate cognitive impairment. Patients will be randomized and allocated to either vericiguat or standard of care, for 26 weeks including the greater than 4 weeks timeframe for the uptitrations to the target dose."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adult patients\n2. Established chronic heart failure (\u2265 6 months)\n3. Mild-to-moderate cognitive impairment (as per the diagnosis of cognitive impairment or a Montreal Cognitive Assessment (MoCA) score 10-25).\n\nExclusion Criteria:\n\n1. Patients who have contraindications for sGC stimulator and vericiguat therapy (i.e. use of long-acting nitrates, other soluble guanylate cyclase stimulators (e.g., riociguat), or phosphodiesterase type 5 (PDE-5), pregnancy or breast-feeding)\n2. Unable to undergo CMR imaging or brain MRI.\n3. CMR exclusions: incompatible implantable cardiac device (ICD or CRT), uncontrolled atrial fibrillation or recurrent ventricular arrhythmias).\n4. General medical conditions: uncontrolled thyroid disorders, hepatic failure, or myocardial revascularization procedures \\[coronary angioplasty and/or surgical revascularization in the previous 3 months\\], cancer/malignancy, or with severe dementia).\n5. Patients with allergies to the study products.\n6. Patients currently hospitalized.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "CONVERGE-HF",
+      "briefTitle": "COgnitioN With VERiciGuat Evaluation in Heart Failure",
+      "nctId": "NCT06601465",
+      "officialTitle": "CONVERGE-HF: COgnitioN With VERiciGuat Evaluation in Heart Failure",
+      "orgStudyIdInfo": {
+        "id": "CONVERGE-HF-2023-6"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Alberta"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "There are no plans to share IPD at this time.",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "To determine whether in patients with heart failure and mild-to-moderate cognitive impairment, the 26 weeks of treatment with sGC stimulator, vericiguat versus standard of care lead to greater reduction (or smaller increase) in lateral ventricular volume in brain MRI as a proxy for the preservation of brain microvasculature and preventing brain tissue loss.",
+          "measure": "Change in the lateral ventricular volumes.",
+          "timeFrame": "26 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "To determine the difference in the change in cardiac ischemia and strain markers measured by cardiac troponin, IGFBP-7, and NT-proBNP between patients with heart failure and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat versus standard of care.",
+          "measure": "Blood Biomarkers (a)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "To determine the difference in the change of brain-related marker of cis p-tau between patients with chronic CV disease and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat versus standard of care.",
+          "measure": "Blood Biomarkers (b)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "To determine the difference between patients with heart failure and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat, versus standard of care in terms of the change in CMR perfusion test results for perfusion deficits indicative of coronary microvascular impairment.",
+          "measure": "Imaging Biomarkers (Cardiac)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "To determine the difference between patients with heart failure and mild-to-moderate cognitive impairment who were treated for 26 weeks with sGC stimulator, vericiguat versus standard of care in terms of the change in brain MRI peak skeletonized mean diffusivity of the white matter and change in white matter hypersensitivity volume indicative of cerebral small vessel disease.",
+          "measure": "Imaging Biomarkers (Brain)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "To compare the change of MoCA scores in 26 weeks between groups who were treated with vericiguat versus standard of care.",
+          "measure": "Clinical and patient-reported outcomes (MoCA)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "To compare the change of health-related quality of life (assessed via KCCQ-12) in 26 weeks between groups who were treated with vericiguat versus standard of care. The KCCQ-12 has a standardized format and has been validated for paper, electronic or telephone delivery.",
+          "measure": "Clinical and patient-reported outcomes (KCCQ-12)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "To compare the change of functional status assessed via 6-minute walk test (6MWT) in 26 weeks between groups who were treated with vericiguat versus standard of care. The 6MWT will be performed as outlined by the American Thoracic Society by an assessor blinded to treatment allocation.61 6MWT will be assessed both in-person and using the validated virtual approach utilizing Walk.Talk.Track app.",
+          "measure": "Clinical and patient-reported outcomes (6MWT)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "To compare the change of Repeatable Battery for the Assessment of Neuropsychological Status (RBANS) scores between groups. The RBANS is a widely-used battery for identifying and characterizing abnormal cognitive decline in elderly adults. Its level of difficulty is appropriate for the range from normal cognition to moderately severe dementia.",
+          "measure": "Clinical and patient-reported outcomes (RBANS)",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "(all cause)",
+          "measure": "Clinical events - Death",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "(all cause)",
+          "measure": "Clinical events - Hospitalizations",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "description": "(all cause)",
+          "measure": "Clinical events - Emergency Department Visits",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Clinical events - Stroke",
+          "timeFrame": "26 weeks"
+        },
+        {
+          "measure": "Clinical events - Other",
+          "timeFrame": "26 weeks"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Ottawa Heart Institute Research Corporation"
+        },
+        {
+          "class": "OTHER",
+          "name": "Heart and Stroke Foundation of Canada"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Alberta"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-05",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-30",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-06-03",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-09-06",
+      "studyFirstSubmitQcDate": "2024-09-13"
+    }
+  }
+}

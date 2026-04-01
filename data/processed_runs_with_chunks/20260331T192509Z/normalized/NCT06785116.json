@@ -1,0 +1,195 @@
+{
+  "arms": [
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: Placebo"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    },
+    {
+      "description": "10 Milligram (mg) orally",
+      "intervention_names": [
+        "Drug: Dapagliflozin 10mg Tab"
+      ],
+      "label": "Dapagliflozin",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Gestational Hypertension",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hypertension in Pregnancy",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Pre-Eclampsia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Superimposed Pre-Eclampsia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Cardiovascular Complication",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Admitted for delivery at the University of Michigan (UM) Labor and Delivery (L\\&D) unit or enrolled in the UM postpartum blood pressure monitoring program following a delivery at the UM L\\&D unit\n* Determined to be at least 23 and 0/7 weeks of gestation based on a clinically acceptable dating method (can be a single or multifetal gestation with or without the presence of fetal anomalies) at the time of delivery\n* Consents to participation and must understand/read/speak English with the ability to understand and willingness to sign a written informed consent in English\n* Diagnosed with a hypertensive pregnancy by either of the following criteria:\n\n  * Taking an antihypertensive medication for the diagnosis of chronic or essential hypertension at the time of admission\n  * Hypertension, chronic hypertension, or essential hypertension must be present in the prospective participant's medical record\n  * Antihypertensive\" can be any medication taken for the purpose of blood pressure control per the medical record\n  * A documented hypertensive disorder of pregnancy (gestational hypertension, preeclampsia without severe features, preeclampsia with severe features, superimposed preeclampsia, or eclampsia) prior to delivery\n* Eligible participants must report a planned contraceptive method as part of the consent process, to be noted on their consent document.\n* Has two or more blood pressures \u2265160/110 Millimeters of mercury (mmHg) at least 60 minutes apart\n\n  * If an admitted patient does not meet this blood pressure criterion but is otherwise eligible, participants can consent to have a BNP drawn within 12 hours of delivery as an alternative measure of cardiovascular risk (if the brain natriuretic peptide (BNP) is \u2265100 Picograms per milliliter (pg/ml), participants are eligible to participate)\n\nExclusion Criteria:\n\n* Non-English speaking\n* Ongoing pregnancy\n* Stated desire to become pregnant within 8 months post-delivery\n* Intention to breastfeed after enrollment\n* BNP \u22651000 pg/ml within 12 hours of delivery, clinical team to be notified of result\n* Comorbidities that may affect cardiovascular risk assessment (per protocol)\n* Contraindication to dapagliflozin (per protocol)",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "FEMALE"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Placebo"
+      ],
+      "description": "Participants will take this daily for 6-months. Additionally, during the study participants will have 4 study visits and be asked to complete study specific activities (i.e. daily blood pressure, weekly weights, laboratory draws, echocardiograms, etc.) Participants will be followed remotely for 1-month after the 6-month visit.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    },
+    {
+      "arm_group_labels": [
+        "Dapagliflozin"
+      ],
+      "description": "Participants will take this daily for 6-months. Additionally, during the study participants will have 4 study visits and be asked to complete study specific activities (i.e. daily blood pressure, weekly weights, laboratory draws, echocardiograms, etc.) Participants will be followed remotely for 1-month after the 6-month visit.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Dapagliflozin 10mg Tab",
+      "normalized_name": "dapagliflozin 10mg tab"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "The score will be summed and compared between groups.The components with outcome-based binary assessments by the following:\n\n* Biometric: change in systolic blood pressure (scores of 0 or 1) and change in body weight (scores of 0 or 1)\n* Echocardiogram: change in left ventricle wall thickness (scores of 0 or 1) and change in left ventricle mass (scores of 0 or 1)\n* Clinical: Non-hospitalization (scores of 0 or 1) and return to baseline antihypertensive needs (scores of 0 or 1) The total scores range from 0-6 with a higher score indicating greater cardiovascular risk reduction.",
+      "measure": "Cardiovascular risk reduction score",
+      "outcome_type": "primary",
+      "time_frame": "Baseline, 6 months"
+    },
+    {
+      "description": null,
+      "measure": "The number of patients screened",
+      "outcome_type": "secondary",
+      "time_frame": "2-year recruitment period"
+    },
+    {
+      "description": "These will be the participants that qualify either by blood pressure or laboratory parameter (BNP) (screen-ins) or if not eligible (screen-outs).",
+      "measure": "The number of patients screen-outs vs screen-ins",
+      "outcome_type": "secondary",
+      "time_frame": "2-year recruitment period"
+    },
+    {
+      "description": null,
+      "measure": "Reasons for ineligibility and refusal to participate",
+      "outcome_type": "secondary",
+      "time_frame": "2-year recruitment period"
+    },
+    {
+      "description": "This will be collected by the patient medication diary and study visit questionnaire.",
+      "measure": "Patient-stated adherence",
+      "outcome_type": "secondary",
+      "time_frame": "baseline to 6 months"
+    },
+    {
+      "description": "Participants will answer 2 questions regarding missed doses of medications. These will be summarized.",
+      "measure": "Patient reported barriers to adherence",
+      "outcome_type": "secondary",
+      "time_frame": "baseline to 6 months"
+    },
+    {
+      "description": "Information on loss to follow-up (where available) will be reported to inform future work.",
+      "measure": "Loss to follow-up rates",
+      "outcome_type": "secondary",
+      "time_frame": "Baseline to 6 months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "This trial is a pilot-scale, single institution randomized, placebo-controlled trial to assess the feasibility, acceptability, and efficacy of administering dapagliflozin for cardiovascular risk reduction in the postpartum period. The target population is patients at high risk of adverse cardiovascular outcomes within five years post-delivery.\n\nEligible participants will be randomized to receive either: 1) dapagliflozin (10mg daily) for six months (DAPA group) or 2) an orally administered, daily placebo (Control group).\n\nThe study hypothesizes:\n\nThe dapagliflozin group will have higher cardiovascular risk reduction scores than the Control Group.",
+    "brief_title": "A Randomized, Placebo-controlled Trial of DAPAgliflozin (DAPA) for Cardiovascular Risk Reduction in the Postpartum Period of Hypertensive Pregnancies (HP)",
+    "collaborator_names": [
+      "Society for Maternal-Fetal Medicine Foundation",
+      "American Association of Obstetricians and Gynecologists Foundation"
+    ],
+    "completion_date": "2028-08",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Admitted for delivery at the University of Michigan (UM) Labor and Delivery (L\\&D) unit or enrolled in the UM postpartum blood pressure monitoring program following a delivery at the UM L\\&D unit\n* Determined to be at least 23 and 0/7 weeks of gestation based on a clinically acceptable dating method (can be a single or multifetal gestation with or without the presence of fetal anomalies) at the time of delivery\n* Consents to participation and must understand/read/speak English with the ability to understand and willingness to sign a written informed consent in English\n* Diagnosed with a hypertensive pregnancy by either of the following criteria:\n\n  * Taking an antihypertensive medication for the diagnosis of chronic or essential hypertension at the time of admission\n  * Hypertension, chronic hypertension, or essential hypertension must be present in the prospective participant's medical record\n  * Antihypertensive\" can be any medication taken for the purpose of blood pressure control per the medical record\n  * A documented hypertensive disorder of pregnancy (gestational hypertension, preeclampsia without severe features, preeclampsia with severe features, superimposed preeclampsia, or eclampsia) prior to delivery\n* Eligible participants must report a planned contraceptive method as part of the consent process, to be noted on their consent document.\n* Has two or more blood pressures \u2265160/110 Millimeters of mercury (mmHg) at least 60 minutes apart\n\n  * If an admitted patient does not meet this blood pressure criterion but is otherwise eligible, participants can consent to have a BNP drawn within 12 hours of delivery as an alternative measure of cardiovascular risk (if the brain natriuretic peptide (BNP) is \u2265100 Picograms per milliliter (pg/ml), participants are eligible to participate)\n\nExclusion Criteria:\n\n* Non-English speaking\n* Ongoing pregnancy\n* Stated desire to become pregnant within 8 months post-delivery\n* Intention to breastfeed after enrollment\n* BNP \u22651000 pg/ml within 12 hours of delivery, clinical team to be notified of result\n* Comorbidities that may affect cardiovascular risk assessment (per protocol)\n* Contraindication to dapagliflozin (per protocol)",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 200,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Placebo",
+      "Dapagliflozin 10mg Tab"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Medication",
+      "Placebo",
+      "Postpartum period",
+      "Cardiovascular risk reduction",
+      "Echocardiogram"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-04",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "University of Michigan",
+    "masking": "QUADRUPLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06785116",
+    "official_title": "A Randomized, Placebo-controlled Trial of DAPAgliflozin for Cardiovascular Risk Reduction in the Postpartum Period of Hypertensive Pregnancies",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2028-08",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "FEMALE",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06785116",
+    "start_date": "2025-03-02",
+    "study_first_posted_at": "2025-01-21",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "arms": [
+    {
+      "description": "38 STEMI patients undergoing PCI who will receive the standard of care for 4 weeks and will include the required antiplatelet (Dual Antiplatelet Therapy; DAPT), anticoagulants and anti-ischemic measures (high intensity statin, ACEI or aldosterone) as per latest guidelines recommendations.",
+      "intervention_names": [
+        "Drug: The standard care for the management of myocardial infarction post PCI"
+      ],
+      "label": "Control group",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "38 STEMI patients undergoing PCI who will receive the standard of care in addition to L-Carnitine 5 g intravenous administered as slow Iv push over 2-3 minutes (L-Carnitine 1 gm / 5 mL Injection\u00ae, MEPACO, Egypt) prior to PCI and then 2 g orally (Carnitol 500 mg\u00ae, Global Napi, Egypt) daily for 4 weeks after PCI",
+      "intervention_names": [
+        "Drug: L-Carnitine",
+        "Drug: The standard care for the management of myocardial infarction post PCI"
+      ],
+      "label": "Test group",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Reperfusion Injury, Myocardial",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Myocardial Infarction",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Female or male aged \\>18 and \\< 75 years.\n* STEMI patients undergoing PCI.\n\nExclusion Criteria:\n\n* Patients with a recent history of myocardial infarction (MI), a previous PCI, a previous coronary artery bypass graft, or any cardiac surgery.\n* A late presentation (\\>12 h), unsuccessful primary PCI (residual stenosis \\>50% in the culprit lesion after procedure),\n* Pretreatment with thrombolytic or glycoprotein IIb/IIIa inhibitor therapy before primary PCI,\n* Concurrent Infectious or active inflammatory disease,\n* Severe liver or renal disease, (aspartate aminotransferase (AST) or alanine transaminase (ALT) \\> 3x ULN or Total bilirubin \\> 3 x ULN), (CrCl \\< 60 ml/min (based on the Cockroft-Gault equation)\n* Neoplasm, or hematological disorders\n* Pregnant or breast-feeding patients\n* Active participation in another clinical study\n* Patients taking antioxidant drugs.\n* History of or known allergy or intolerability to the study medications",
+    "healthy_volunteers": false,
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Test group"
+      ],
+      "description": "L-Carnitine 5 g intravenous administered as slow IV push over 2-3 minutes (L-Carnitine 1 gm / 5 mL Injection\u00ae, MEPACO, Egypt) and Carnitol 500 mg\u00ae Oral, Global Napi, Egypt)",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "L-Carnitine",
+      "normalized_name": "l-carnitine"
+    },
+    {
+      "arm_group_labels": [
+        "Control group",
+        "Test group"
+      ],
+      "description": "include the required antiplatelet (Dual Antiplatelet Therapy; DAPT), anticoagulants, and anti-ischemic measures (high-intensity statin, ACEI, or aldosterone) as per latest guidelines recommendations.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "The standard care for the management of myocardial infarction post PCI",
+      "normalized_name": "the standard care for the management of myocardial infarction post pci"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Measuring serum concentration of nitrotyrosine as an oxidative stress marker",
+      "measure": "Evaluation of the marker nitrotyrosine",
+      "outcome_type": "primary",
+      "time_frame": "24 hours post PCI"
+    },
+    {
+      "description": "Measuring serum concentration of Matrix metallopeptidase-2 (MMP-2) as a cardiac fibrosis marker.",
+      "measure": "Evaluation of the marker (MMP-2)",
+      "outcome_type": "primary",
+      "time_frame": "24 hours post PCI"
+    },
+    {
+      "description": "Grade 0: No perfusion Grade 1: Penetration without perfusion Grade 2: Partial perfusion Grade 3: Complete perfusion",
+      "measure": "Assessment of Thrombolysis in Myocardial Infarction (TIMI) flow",
+      "outcome_type": "secondary",
+      "time_frame": "0-1 hour at the end of PCI"
+    },
+    {
+      "description": "Grade 0: No myocardial blush Grade 1: Minimal myocardial blush Grade 2: Moderate myocardial blush Grade 3: Normal myocardial blush",
+      "measure": "Assessment of Myocardial Blush Grade",
+      "outcome_type": "secondary",
+      "time_frame": "0-1 hour at the end of PCI"
+    },
+    {
+      "description": null,
+      "measure": "Incidence of ST-segment resolution >70 by ECG",
+      "outcome_type": "secondary",
+      "time_frame": "60 minutes post PCI"
+    },
+    {
+      "description": "Assessment of Left Ventricular Ejection Fraction (LVEF) and left ventricular diastolic and systolic volumes",
+      "measure": "Echocardiography",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    },
+    {
+      "description": "mortality, rehospitalization, reinfarction, arrhythmias, arrest, etc",
+      "measure": "Occurrence of Major Adverse Cardiac Events (MACE)",
+      "outcome_type": "secondary",
+      "time_frame": "4 weeks"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The study aims is to evaluate the efficacy and tolerability of L-Carnitine on biomarkers of myocardial reperfusion injury in patients with ST-segment elevation myocardial infarction (STEMI) undergoing primary PCI by the assessment of nitrotyrosine as an oxidative stress marker and Matrix metallopeptidase-2 (MMP-2) as a cardiac fibrosis marker",
+    "brief_title": "Effect of L-Carnitine on Biomarkers of Myocardial Reperfusion Injury in Patients With STEMI",
+    "collaborator_names": [],
+    "completion_date": "2026-03",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Female or male aged \\>18 and \\< 75 years.\n* STEMI patients undergoing PCI.\n\nExclusion Criteria:\n\n* Patients with a recent history of myocardial infarction (MI), a previous PCI, a previous coronary artery bypass graft, or any cardiac surgery.\n* A late presentation (\\>12 h), unsuccessful primary PCI (residual stenosis \\>50% in the culprit lesion after procedure),\n* Pretreatment with thrombolytic or glycoprotein IIb/IIIa inhibitor therapy before primary PCI,\n* Concurrent Infectious or active inflammatory disease,\n* Severe liver or renal disease, (aspartate aminotransferase (AST) or alanine transaminase (ALT) \\> 3x ULN or Total bilirubin \\> 3 x ULN), (CrCl \\< 60 ml/min (based on the Cockroft-Gault equation)\n* Neoplasm, or hematological disorders\n* Pregnant or breast-feeding patients\n* Active participation in another clinical study\n* Patients taking antioxidant drugs.\n* History of or known allergy or intolerability to the study medications",
+    "detailed_description": "This study aims to investigate the effects of L-Carnitine on biomarkers of myocardial reperfusion injury in patients with ST-segment elevation myocardial infarction (STEMI) undergoing primary PCI by the assessment of the following:\n\n1. Measurement of nitrotyrosine as an oxidative stress marker and Matrix metallopeptidase-2 (MMP-2) as a cardiac fibrosis marker.\n2. Assessment of The TIMI (thrombolysis in myocardial infarction) grade and Myocardial Blush Grade (MBG).\n3. Echocardiography parameters\n\nPatients and Methods:\n\nDesign: Prospective, randomized, open label, controlled clinical trial\n\nPatients: A total of 76 STEMI patients undergoing primary PCI will be enrolled in the study and will be randomly assigned into one of 2 arms:\n\nGroup 1 (Control group) (n=38): STEMI patients undergoing PCI who will receive the standard of care Group 2 (Test group) (n= 38): STEMI patients undergoing PCI who will receive the standard of care in addition to L-Carnitine 5 g intravenous administered as slow Iv push over 2-3 minutes (L-Carnitine 1 gm / 5 mL Injection\u00ae, MEPACO, Egypt) prior to PCI and then 2 g orally (Carnitol 500 mg\u00ae, Global Napi, Egypt) daily for 4 weeks after PCI",
+    "drug_class_labels": [],
+    "enrollment_count": 76,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "L-Carnitine",
+      "The standard care for the management of myocardial infarction post PCI"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-06-26",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Ain Shams University",
+    "masking": "NONE",
+    "maximum_age_text": "75 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06564909",
+    "official_title": "Effect of L-Carnitine on Biomarkers of Myocardial Reperfusion Injury in Patients With ST-Segment Elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2026-02",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06564909",
+    "start_date": "2025-06-01",
+    "study_first_posted_at": "2024-08-21",
+    "study_type": "INTERVENTIONAL"
+  }
+}

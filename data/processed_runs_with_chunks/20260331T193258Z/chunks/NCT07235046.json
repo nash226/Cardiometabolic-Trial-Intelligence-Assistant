@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07235046:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07235046\nBrief title: A Study of DII235 in Adults With Elevated Lipoprotein(a)\nOfficial title: A Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel-group, Dose-finding Study to Evaluate Efficacy, Safety, and Tolerability of DII235 in Adults With Elevated Lipoprotein(a)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 45,
+      "trial_nct_id": "NCT07235046"
+    },
+    {
+      "chunk_id": "NCT07235046:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Lipoprotein Disorder\nIntervention labels: DII235; Saline\nDrug class labels: \nArms: Arm 1; Arm 2; Arm 3; Arm 4; Arm 5\nKeywords: Lipoprotein(a); cardiovascular disease; atherosclerotic cardiovascular disease (ASCVD); lipoprotein disorder; cardiovascular; cholesterol; hyperlipidemia; dyslipidemia; DII235",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT07235046"
+    },
+    {
+      "chunk_id": "NCT07235046:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The main purpose of this study is to determine the safety and efficacy of DII235 in adults with elevated lipoprotein(a).\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT07235046"
+    },
+    {
+      "chunk_id": "NCT07235046:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Signed informed consent must be obtained prior to participation in the study.\n* Male or female participants 18 to 80 years of age (inclusive) at the screening.\n* Lp(a) \u2265 150 nmol/L at screening, measured at the central laboratory.\n* Participants with evidence of atherosclerotic cardiovascular disease and/or type 2 diabetes mellitus.\n\nExclusion Criteria:\n\n* Severe renal dysfunction\n* Hepatic dysfunction\n* Malignancy within the last 5 years\n* Use of investigational medications as defined in the protocol\n* History or presence at screening of an underlying disease, or surgical, physical, medical, or psychiatric condition that, in the opinion of the Investigator, or sponsor if consulted, would potentially affect participant safety within the study or interfere with participating in or completing the study or with the interpretation of data\n\nOther protocol-defined inclusion/exclusion criteria may apply",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 156,
+      "trial_nct_id": "NCT07235046"
+    },
+    {
+      "chunk_id": "NCT07235046:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time averaged percentage change from baseline between Day 60 and Day 180 | time_frame=baseline to day 60 and day 180 | description=Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 180, defined as the area under the curve (AUC) between the Day 60 Visit date and the Day 180 Visit date, divided by the duration between the two visit dates.\ntype=primary | measure=Difference between DII235 dose 2 and placebo in time-averaged percent change from baseline in Lp(a) measured between Day 60 and Day 360 | time_frame=baseline to day 60 and day 360 | description=Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 360, defined as the area under the curve (AUC) between the Day 60 visit date and the Day 360 visit date, divided by the duration between the two visit dates.\ntype=primary | measure=Difference between DII235 dose 4 and placebo in time-averaged percent change from baseline in Lp(a) measured between Day 60 and Day 360 | time_frame=baseline to day 60 and day 360 | description=Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 360, defined as the area under the curve (AUC) between the Day 60 visit date and the Day 360 visit date, divided by the duration between the two visit dates.\ntype=secondary | measure=Difference between DII235 dose 1, dose 3 and placebo versus placebo in time-averaged percent change from baseline in Lp(a) measured between Day 60 and Day 360 | time_frame=baseline to day 60 and 360 | description=Time averaged change from baseline in log Lp(a) measured between Day 60 and Day 360, defined as the area under the curve (AUC) between the Day 60 visit date and the Day 360 visit date, divided by the duration between the two visit dates.\ntype=secondary | measure=Difference between DII235 doses versus placebo in time-averaged percent change from baseline in Lp(a) measured between Day 240 and Day 360 | time_frame=baseline to day 240 and Day 360 | description=Time averaged change from baseline in log Lp(a) measured between Day 240 and Day 360, defined as the area under the curve (AUC) between the Day 240 Visit date and the Day 360 Visit date, divided by the duration between the two visit dates.\ntype=secondary | measure=Difference between DII235 doses versus placebo with respect to the proportion of participants in achieving Lp(a) < 125 nmol/L at Day 180 and Day 360 | time_frame=Day 180 and Day 360 | description=Participant's status of achieving Lp(a) \\< 125 nmol/L at Day 180 and at Day 360 (Yes, No), without having any defined intercurrent events.\ntype=secondary | measure=Difference between DII235 doses versus placebo with respect to the proportion of participants in achieving Lp(a) < 75 nmol/L at Day 180 and Day 360 | time_frame=Day 180 and Day 360 | description=Participant's status of achieving Lp(a) \\< 75 nmol/L at Day 180 and at Day 360 (Yes, No), without having any defined intercurrent events.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 491,
+      "trial_nct_id": "NCT07235046"
+    },
+    {
+      "chunk_id": "NCT07235046:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-05\nPrimary completion date: 2027-09-08\nCompletion date: 2028-09-08\nStudy first posted: 2025-11-19\nResults first posted: None\nLast update posted: 2026-03-03\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07235046"
+    },
+    {
+      "chunk_id": "NCT07235046:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 41,
+      "trial_nct_id": "NCT07235046"
+    }
+  ],
+  "trial_nct_id": "NCT07235046"
+}

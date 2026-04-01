@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT03753555:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT03753555\nBrief title: The Effect of InTensive Statin in Ischemic Stroke With inTracranial Atherosclerotic Plaques\nOfficial title: The Effect of InTensive Statin in Ischemic Stroke With inTracranial Atherosclerotic Plaques: a Prospective, Random, Single-center Study Based on High Resolution Magnetic Resonance Imaging\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT03753555"
+    },
+    {
+      "chunk_id": "NCT03753555:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Stroke, Ischemic; Atherosclerosis, Cerebral\nIntervention labels: Atorvastatin Calcium; Probucol; PCSK9 inhibitor\nDrug class labels: \nArms: Routine-dose statin group; high-dose statin or PCSK9 inhibitor group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT03753555"
+    },
+    {
+      "chunk_id": "NCT03753555:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Intracranial atherosclerotic disease is the most common cause of ischemic stroke that is directly attributed to the progression or rupture of intracranial high-risk plaque in Asia. Many studies mainly from Euro-American population with a focus on extracranial carotid plaque have fully demonstrated the advantages of intensive statin therapy on stabilizing or reversing plaque burden, reversing plaque composition presenting that lipid-rich necrotic core (LRNC) is gradually replaced by fibrous tissue, and even reversing pattern of arterial remodeling to reduce the occurrence of cerebrovascular events. Yet, direct evidence of the effect of intensive statin therapy on intracranial atherosclerotic plaques is lacking and the effect of statin intensity and duration on intracranial plaque burden and composition is still unclear. High resolution magnetic resonance imaging (HRMRI) is a new and non-invasive technique that enable to assess the morphologic characteristics of vascular wall and plaque composition of intracranial artery. Based on above discussion, the investigators conduct this study to further determine the effect of intensive statin in ischemic stroke with intracranial atherosclerotic plaques.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 173,
+      "trial_nct_id": "NCT03753555"
+    },
+    {
+      "chunk_id": "NCT03753555:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 80 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Patient age between 18-80 years\n2. Time of onset: within 1 week\n3. NIHSS score \u226412\n4. Acute ischemic stroke confirmed by head CT or MRI\n5. Premorbid mRS \u22641\n6. The degree of stenosis of carotid artery, vertebral artery and intracranial portion of internal carotid artery on the lesion side \\<50%\n7. The culprit plaque or possible culprit plaque with plaque burden of 40% or more found by HRMRI in the proximal part of the middle cerebral artery M1 segment or basilar artery of ipsilateral lesion\n8. Signed informed consent\n\nExclusion Criteria:\n\n1. Intracranial hemorrhage found by head CT\n2. Stroke attributable to cardioembolic origin (atrial fibrillation, valvular heart disease, aortic arch atherosclerosis)\n3. Severe hepatic or renal dysfunction\n4. Pregnant females\n5. Abnormal elevation of creatine phosphokinase\n6. Expected stent angioplasty\n7. Blood sugar is out of control\n8. Receiving statins within 1 month before onset\n9. Obstinate hypertension with more than 140/90 mmHg after medication\n10. Not willing and able to comply with scheduled visits, lifestyle guidelines, treatment plan, laboratory tests, and other study procedures\n11. Unsuitable for this clinical studies assessed by researcher",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 208,
+      "trial_nct_id": "NCT03753555"
+    },
+    {
+      "chunk_id": "NCT03753555:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Changes in remodeling index after the statin treatment | time_frame=baseline, 6 months, 12 months after treatment | description=remodeling index: crimed vessel area/normal vessel area on high-resolution MRI\ntype=primary | measure=Changes in plaque burden after the statin treatment | time_frame=baseline, 6 months, 12 months after treatment | description=plaque burden: crimed vessel wall area/crimed vessel area on high-resolution MRI\ntype=primary | measure=Changes plaque composition in after the statin treatment | time_frame=baseline, 6 months, 12 months after treatment | description=plaque composition: lipid core and fiber tissue of plaque on high-resolution MRI\ntype=secondary | measure=level of serum bio-markers compared with baseline | time_frame=6 months | description=Serum level of LDL\u3001hs-CRP\u3001sLOX1 and oxLDL\ntype=secondary | measure=level of serum bio-markers compared with baseline | time_frame=12 months | description=Serum level of LDL\u3001hs-CRP\u3001sLOX1 and oxLDL\ntype=secondary | measure=mRS (0-2) | time_frame=6 months | description=proportion of mRS (0-2)\ntype=secondary | measure=mRS (0-2) | time_frame=12 months | description=proportion of mRS (0-2)\ntype=secondary | measure=vascular events | time_frame=6 months | description=incidence of Transient ischemic attack, stroke or other vascular events\ntype=secondary | measure=vascular events | time_frame=12 months | description=incidence of Transient ischemic attack, stroke or other vascular events\ntype=secondary | measure=abnormal test data | time_frame=12 months | description=incidence of abnormal liver function or muscle enzyme levels\ntype=secondary | measure=any adverse event | time_frame=12 months | description=incidence of adverse event\ntype=secondary | measure=death of any causes | time_frame=12months | description=proportion of death",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 231,
+      "trial_nct_id": "NCT03753555"
+    },
+    {
+      "chunk_id": "NCT03753555:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2018-12-01\nPrimary completion date: 2026-11-30\nCompletion date: 2026-11-30\nStudy first posted: 2018-11-27\nResults first posted: None\nLast update posted: 2025-03-18\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT03753555"
+    },
+    {
+      "chunk_id": "NCT03753555:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: General Hospital of Shenyang Military Region\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT03753555"
+    }
+  ],
+  "trial_nct_id": "NCT03753555"
+}

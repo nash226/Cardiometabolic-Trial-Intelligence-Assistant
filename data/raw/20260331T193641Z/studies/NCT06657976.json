@@ -1,0 +1,445 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050197",
+          "term": "Atherosclerosis"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D016491",
+          "term": "Peripheral Vascular Diseases"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D058729",
+          "term": "Peripheral Arterial Disease"
+        },
+        {
+          "id": "D009043",
+          "term": "Motor Activity"
+        },
+        {
+          "id": "D007383",
+          "term": "Intermittent Claudication"
+        },
+        {
+          "id": "D051346",
+          "term": "Mobility Limitation"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "This group will be participating in supervised treadmill exercise for 12 weeks. Participants will walk for exercise on a treadmill 3 times per week at a center while supervised by healthcare personnel.",
+          "interventionNames": [
+            "Behavioral: Supervised Treadmill Exercise"
+          ],
+          "label": "Supervised Treadmill Exercise",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "This group will attend weekly one-hour educational sessions either on Zoom or in-person for 12 weeks. These sessions are on topics of interest to the typical PAD patient and may be led by study staff, physicians, or other health care workers.",
+          "interventionNames": [
+            "Behavioral: Attention Control"
+          ],
+          "label": "Attention Control Group",
+          "type": "SHAM_COMPARATOR"
+        },
+        {
+          "description": "This group for \"non-responders\" will receive supervised exercise supplementation with nitrate-rich beetroot juice for an additional 12 weeks.",
+          "interventionNames": [
+            "Combination Product: Nitrate-Rich Beetroot Juice + supervised exercise therapy"
+          ],
+          "label": "Exercise Supplementation with Nitrate-Rich Beetroot Juice",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "This group for \"non-responders\" will received supervised exercise supplementation with placebo beetroot juice for the additional 12 weeks.",
+          "interventionNames": [
+            "Combination Product: Placebo + supervised exercise therapy"
+          ],
+          "label": "Exercise Supplementation with Placebo Beetroot Juice",
+          "type": "PLACEBO_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Supervised Treadmill Exercise"
+          ],
+          "description": "This is a 12 week intervention where participants will walk for exercise 3 times a week on a treadmill at a center while being supervised by healthcare personnel.",
+          "name": "Supervised Treadmill Exercise",
+          "otherNames": [
+            "Supervised Exercise Therapy"
+          ],
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Attention Control Group"
+          ],
+          "description": "This group will attend weekly one-hour educational sessions either on Zoom or in-person for 12 weeks. These sessions are on topics of interest to the typical PAD patient and may be led by study staff, physicians, or other health care workers.",
+          "name": "Attention Control",
+          "otherNames": [
+            "Control"
+          ],
+          "type": "BEHAVIORAL"
+        },
+        {
+          "armGroupLabels": [
+            "Exercise Supplementation with Nitrate-Rich Beetroot Juice"
+          ],
+          "description": "Participants randomized to this group will drink nitrate-rich beetroot juice while engaged in supervised exercise.",
+          "name": "Nitrate-Rich Beetroot Juice + supervised exercise therapy",
+          "type": "COMBINATION_PRODUCT"
+        },
+        {
+          "armGroupLabels": [
+            "Exercise Supplementation with Placebo Beetroot Juice"
+          ],
+          "description": "Participants randomized to this group will drink placebo while engaged in supervised exercise.",
+          "name": "Placebo + supervised exercise therapy",
+          "type": "COMBINATION_PRODUCT"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Peripheral Artery Disease",
+        "Exercise",
+        "Intermittent Claudication",
+        "Nitric Oxide"
+      ],
+      "keywords": [
+        "Peripheral artery disease",
+        "Claudication",
+        "Walking difficulty"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mdm608@northwestern.edu",
+          "name": "Mary M McDermott, MD",
+          "phone": "312-503-6419",
+          "role": "CONTACT"
+        },
+        {
+          "email": "k-domanchuk@northwestern.edu",
+          "name": "Kathryn Domanchuk, BS",
+          "phone": "312-503-6438",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Chicago",
+          "contacts": [
+            {
+              "email": "k-domanchuk@northwestern.edu",
+              "name": "Kathryn Domanchuk",
+              "phone": "312-503-6438",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mary M McDermott, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Northwestern University Feinberg School of Medicine",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "status": "RECRUITING",
+          "zip": "60611"
+        },
+        {
+          "city": "Chicago",
+          "contacts": [
+            {
+              "email": "tpolonsky@bsd.uchicago.edu",
+              "name": "Tamar Polonsky, MD",
+              "phone": "773-702-6153",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tamar Polonsky, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Chicago",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "status": "NOT_YET_RECRUITING",
+          "zip": "60637"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "RESIST PAD is a randomized trial of 200 PAD patients to establish: 1) whether a 12-week exercise intervention significantly increases \u0394 nitrite at 12-week follow-up, compared to control; 2) whether exercise \"responders\" have greater \u0394 nitrite increases compared to \"non-responders\"; 3) among non-responders, whether supplementing exercise with nitrate-rich beetroot juice between weeks 13-24 increases \u0394 nitrite and improves 6-minute walk at 24-week follow-up.",
+      "detailedDescription": "Walking exercise is the only highly effective medical therapy for improving walking impairment in people disabled by lower extremity peripheral artery disease (PAD). However, approximately 45% of people with PAD do not meaningfully improve after an exercise intervention. Biologic pathways that mediate exercise response and biologic pathways that explain exercise non-response in PAD are unknown. Based on preliminary evidence, it is hypothesized that in PAD, exercise-induced arterial shear stress stimulates nitric oxide synthase (NOS) activity to increase nitric oxide bioavailability and improve leg perfusion, skeletal muscle mitochondrial activity, and walking ability. It is further hypothesized that exercise increases plasma nitric oxide during exercise in \"responders\" but does not meaningfully increase nitric oxide during exercise in \"non-responders\".\n\nRESIST PAD is a randomized trial of 200 PAD patients that will establish: 1) whether a 12-week exercise intervention significantly increases \u0394 nitrite at 12-week follow-up, compared to control; 2) whether exercise \"responders\" have greater \u0394 nitrite increases compared to \"non-responders\"; 3) among non-responders, whether supplementing exercise with nitrate-rich beetroot juice between weeks 13-24 increases \u0394 nitrite and improves 6-minute walk at 24-week follow-up."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. An ABI less than or equal to 0.90 at baseline.\n2. Vascular lab evidence of PAD (such as a toe brachial pressure less than or equal to 0.70 or an ankle brachial index less than or equal to 0.90), or angiographic evidence of PAD defined as at least 70% stenosis of an artery supplying the lower extremities.\n3. An ABI of more than 0.90 and less than 1.00 who experience a 20% or greater drop in ABI in either leg after the heel-rise test.\n\nExclusion Criteria:\n\n1. Above- or below-knee amputation\n2. Limb-threatening ischemia defined as an ABI less than 0.40 with symptoms of rest pain\n3. Wheelchair confinement or requiring a walker to ambulate\n4. Walking is limited by a condition other than PAD\n5. Current foot ulcer on bottom of foot\n6. Failure to complete study-run\n7. Unwilling to accept randomization into either group (supervised exercise or attention control)\n8. Planning to engage in new walking exercise outside of the study or unwilling to refrain from new walking exercise activity during the trial.\n9. Already exercising at a level consistent with exercise intervention, using investigator discretion.\n10. End-stage kidney disease (ESKD) that is treated with hemodialysis.\n11. Planned major surgery, coronary or leg revascularization during the next six months\n12. Major surgery, coronary or leg revascularization or major cardiovascular event in the previous three months\n13. Major medical illness including lung disease requiring oxygen, Parkinson's disease, a life-threatening illness with life expectancy less than six months, or cancer requiring treatment in the previous two years. \\[NOTE: potential participants may still qualify if they have had treatment for an early stage cancer in the past two years and the prognosis is excellent. Participants who require oxygen only at night may still qualify.\\]\n14. Mini-Mental Status Examination (MMSE) score less than 23 or dementia. If the MMSE is less than 23 and the Principal Investigator evaluation determines that the lower score is related to language barriers or education level, the Principal Investigator has discretion to allow a participant with MMSE less than 23 to participate, as appropriate. Dementia with sufficient impairment to prevent full engagement in all aspects of the trial will be an exclusion per the investigator's discretion.\n15. Allergy to beetroot juice\n16. Currently consuming beetroot juice, oral nitrate or nitrite, or a beetroot supplement and/or unwilling to avoid beetroot juice during the study. Participants will be asked to discontinue these items for 30 days before baseline testing and throughout the clinical trial. If the potential participant is unwilling to refrain from taking these items, they will not be eligible for the clinical trial.\n17. Currently consuming one cup or more of beets daily. Participants will be asked to discontinue beet ingestion of one cup or more of beets for 30 days before baseline testing and throughout the clinical trial. If the potential participant is unwilling to refrain from daily beet consumption of one cup or more for 30 days before the trial and during the trial, they will not be eligible for the clinical trial.\n18. Unstable angina\n19. Abnormal baseline stress test without subsequent clearance for exercise by physician\n20. Non-English speaking. The RESIST PAD interventions are delivered by interventionists who do not speak non-English languages. The integrity of the clinical trial requires clear and effective communication for data collection and intervention delivery. The trial does not have staff members who are fluent in non-English languages nor does it have the ability to translate all study materials into other languages.\n21. Participation in or completion of a clinical trial in the previous three months. \\[NOTE: after completing a stem cell or gene therapy intervention, participants will become eligible after the final study follow-up visit of the stem cell or gene therapy study so long as at least six months have passed since the final intervention administration. After completing a supplement or drug therapy (other than stem cell or gene therapy), participants will be eligible after the final study follow-up visit as long as at least three months have passed since the final intervention of the trial.\\] Participants in a study that involved up to three single doses of nitrate-rich beetroot juice administered on separate days may participate if a month has passed since their last dose of nitrate-rich beetroot juice.\n22. Visual impairment that limits walking ability.\n23. Baseline blood pressure less than 100/45.\n24. Participation in a supervised treadmill exercise program in previous three months or planning to begin a supervised treadmill exercise program in the next six months.\n25. In addition to the above criteria, investigator discretion will be used to determine if the trial is unsafe or not a good fit for the potential participant.",
+      "healthyVolunteers": false,
+      "minimumAge": "50 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "RESIST",
+      "briefTitle": "Response to Exercise and Nitric Oxide in PAD",
+      "nctId": "NCT06657976",
+      "officialTitle": "Response to Exercise and Nitric Oxide in Peripheral Artery Disease: The RESIST PAD Trial",
+      "orgStudyIdInfo": {
+        "id": "STU00220419"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Northwestern University"
+      }
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "Change in plasma levels of BH2",
+          "measure": "Dihydrobiopterin (BH2)",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in plasma levels of BH2",
+          "measure": "Dihydrobiopterin (BH2)",
+          "timeFrame": "From 12 week to 24-week follow-up"
+        },
+        {
+          "description": "Change in plasma levels of BH4",
+          "measure": "Tetrahydrobiopterin (BH4)",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in plasma levels of BH4",
+          "measure": "Tetrahydrobiopterin (BH4)",
+          "timeFrame": "From 12 week to 24-week follow-up"
+        },
+        {
+          "description": "Change in ratio of plasma levels of BH4 to plasma levels of BH2",
+          "measure": "BH4/BH2",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in ratio of plasma levels of BH4 to plasma levels of BH2",
+          "measure": "BH4/BH2",
+          "timeFrame": "From 12 week to 24-week follow-up"
+        },
+        {
+          "description": "Change in plasma levels of cGMP",
+          "measure": "Cyclic Guanosine Monophosphate (cGMP)",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in plasma levels of cGMP",
+          "measure": "Cyclic Guanosine Monophosphate (cGMP)",
+          "timeFrame": "From 12 week to 24-week follow-up"
+        },
+        {
+          "description": "Change in plasma levels of 4HNE",
+          "measure": "4 hydroxynonenal (4HNE)",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in plasma levels of 4HNE",
+          "measure": "4 hydroxynonenal (4HNE)",
+          "timeFrame": "From 12 week to 24-week follow-up"
+        },
+        {
+          "description": "Change in gastrocnemius (calf) muscle levels of nitrite, obtained from participants who undergo gastrocnemius muscle biopsy",
+          "measure": "Nitrite",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in gastrocnemius (calf) muscle levels of mitochondrial activity (measured with respirometry), obtained from participants who undergo gastrocnemius muscle biopsy",
+          "measure": "Mitochondrial Activity",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in gastrocnemius muscle capillary density, obtained from participants who undergo gastrocnemius muscle biopsy",
+          "measure": "Capillary Density",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in gastrocnemius muscle myofiber size, obtained from participants who undergo gastrocnemius muscle biopsy",
+          "measure": "Myofiber Size",
+          "timeFrame": "From baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in gastrocnemius muscle levels of satellite cell abundance, obtained from participants who undergo gastrocnemius muscle biopsy",
+          "measure": "Satellite Cell Abundance",
+          "timeFrame": "From baseline to 12-week follow-up"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "Change in plasma nitrite from the beginning to the end of a maximal exercise stress test",
+          "measure": "Delta nitrite",
+          "timeFrame": "Baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in six-minute walk distance",
+          "measure": "Six-minute walk",
+          "timeFrame": "From 12-weeks to 24-week follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Change in calf muscle perfusion, measured with arterial spin labeling MRI",
+          "measure": "Calf muscle perfusion",
+          "timeFrame": "Baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in calf muscle perfusion, measured with arterial spin labeling MRI",
+          "measure": "Calf muscle perfusion",
+          "timeFrame": "From 12-weeks to 24-week follow-up"
+        },
+        {
+          "description": "Change in brachial artery diameter in response to post-cuff occlusion hyperemia",
+          "measure": "Brachial artery flow-mediated dilation (FMD)",
+          "timeFrame": "Baseline to 12-week follow-up"
+        },
+        {
+          "description": "Change in brachial artery diameter in response to post-cuff occlusion hyperemia",
+          "measure": "Brachial artery flow-mediated dilation (FMD)",
+          "timeFrame": "From 12 weeks to 24-week follow-up"
+        },
+        {
+          "description": "Change in plasma nitrite between the beginning and end of an exercise stress test.",
+          "measure": "Delta nitrite",
+          "timeFrame": "From 12 weeks to 24-week follow-up"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Institute on Aging (NIA)"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Northwestern University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Northwestern University",
+        "investigatorFullName": "Mary McDermott",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-10-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-09",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2029-07-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-01-23",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-10-23",
+      "studyFirstSubmitQcDate": "2024-10-23"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05631769:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05631769\nBrief title: HOST - DAPT Duration According the Bleeding Risk\nOfficial title: Harmonizing Optimal Strategy for Treatment of Coronary Artery Diseases - DAPT Duration According the Bleeding Risk\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT05631769"
+    },
+    {
+      "chunk_id": "NCT05631769:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Coronary Artery Disease; Acute Myocardial Infarction; Stable Angina\nIntervention labels: Dual antiplatelet agent duration\nDrug class labels: \nArms: HBR - 1M DAPT; HBR - 3M DAPT; LBR - 12M DAPT; LBR - 3M DAPT\nKeywords: percutenous coronary intervention; dual antiplatelet therapy; bleeding risk",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT05631769"
+    },
+    {
+      "chunk_id": "NCT05631769:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: * Dual antiplatelet agent therapy (DAPT) is essential in treating PCI patients. DAPT can minimize thrombotic adverse events that occur not only at the stented lesion, but along the whole coronary tree. However, DAPT has a critical side effect of increasing bleeding complications. Addressing the clinical imperatives of lowering bleeding while preserving ischemic benefit requires therapeutic strategies that decouple thrombotic from hemorrhagic risk.\n* Recently, the ARC definition of high bleeding risk (HBR) has been published, so as to stress the need of optimal DAPT treatment in HBR patients. Due to the definitely higher bleeding risk in HBR patients, it would be rather more straight forward to titrate the optimal DAPT duration in these patients. In this line, many studies are in progress on HBR patients, with an ultra-short DAPT duration (i.e. Leaders free, Onyx ONE, Master DAPT, Xience 28, Xience 90, Evolve short DAPT trial, etc.).\n* As a counteract to the definition of HBR, there is a concept of LBR. Due to the relatively vague ischemic/bleeding risk in LBR patients, balancing ischemic and bleeding complications post-PCI is more difficult in LBR patients, which may be a more important dilemma for clinicians. In this regards, limited evidence exists on the optimal duration of DAPT in LBR patients. Various previous studies that have evaluated the optimal DAPT in PCI populations, did not have the concept of HBR or LBR, making interpretation difficult.\n* Therefore, this study is planning to compare the efficacy and safety of different DAPT durations, in patients stratified according to the ARB-HBR definition.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 261,
+      "trial_nct_id": "NCT05631769"
+    },
+    {
+      "chunk_id": "NCT05631769:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: * Inclusion Criteria:\n\n  1. The patient agrees to participate in this study by signing the informed consent form. Alternatively, a legally authorized patient representative may agree to the patient's participation in this study and sign the informed consent form.\n  2. The patient in whom the Bleeding Risk (according to the ARC-HBR classification) can be calculated.\n  3. The patient has a working diagnosis of coronary artery disease which has been treated with percutaneous coronary intervention.\n* Exclusion Criteria:\n\n  1. Hypersensitivity to aspirin or P2Y12 inhibitors\n  2. Patients in whom coroanry artery disease has been decided to be medically managed without a coronary stent.\n  3. Positive pregnancy test or is known to be pregnant\n  4. Any other reason the investigator deems the subject to be unsuitable for the study (e.g., Any life-threatening condition with life expectancy less than 6months, etc.)",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 155,
+      "trial_nct_id": "NCT05631769"
+    },
+    {
+      "chunk_id": "NCT05631769:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Net Adverse Clinical Events | time_frame=1-year after percutaneous coronary intervention | description=NACE; the composite of All-cause Death, Myocardial Infarction (MI), Stent thrombosis, Stroke, or Major Bleeding event\ntype=primary | measure=Any bleeding event | time_frame=1-year after percutaneous coronary intervention | description=Bleeding events, defined by the BARC (Bleeding Academic Research Consortium) or ISTH (International Society on Thrombosis and Haemostasis) classification\ntype=primary | measure=Major-Adverse Cardiac or Cerebral Events | time_frame=1-year after percutaneous coronary intervention | description=MACCE; the composite of Cardiac Death, Myocardial Infarction (MI), Stent thrombosis, Ischemic Stroke\ntype=secondary | measure=Medication compliance | time_frame=1-year after percutaneous coronary intervention | description=Medication compliance to the allocated DAPT regimen: A 'Pill count adherence' will be used to calculate medication compliance. This will be calculated by the following formula: '\\[(quantity dispensed)-(quantity remaining)\\] over (Prescribed number of tablets between dates of interview)'.\ntype=secondary | measure=Coronary thrombotic event | time_frame=1-year after percutaneous coronary intervention | description=Myocardial Infarction, Stent thrombosis\ntype=secondary | measure=All-cause death | time_frame=1-year after percutaneous coronary intervention | description=Death due to any cause\ntype=secondary | measure=Cardiac death | time_frame=1-year after percutaneous coronary intervention | description=Death due to cardiac cause\ntype=secondary | measure=Non-cardiac death | time_frame=1-year after percutaneous coronary intervention | description=Death due to non-cardiac cause\ntype=secondary | measure=Cardiovascular death | time_frame=1-year after percutaneous coronary intervention | description=Death due to cardiovascular cause\ntype=secondary | measure=Non-cardiovascular death | time_frame=1-year after percutaneous coronary intervention | description=Death due to non-cardiovascular cause\ntype=secondary | measure=Any myocardial infarction | time_frame=1-year after percutaneous coronary intervention | description=Any myocardial infarction event (Clinically irrelevant periprocedural myocardial infarction will NOT be added to analysis)\ntype=secondary | measure=Target vessel related myocardial infarction | time_frame=1-year after percutaneous coronary intervention | description=Any myocardial infarction related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'\ntype=secondary | measure=Non-Target vessel related myocardial infarction | time_frame=1-year after percutaneous coronary intervention | description=Any myocardial infarction NOT related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'\ntype=secondary | measure=Any revascularization | time_frame=1-year after percutaneous coronary intervention | description=Any coronary revascularization event\ntype=secondary | measure=Non-Target vessel revascularization | time_frame=1-year after percutaneous coronary intervention | description=Any revascularization event NOT related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'\ntype=secondary | measure=Target vessel revascularization | time_frame=1-year after percutaneous coronary intervention | description=Any revascularization event related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'\ntype=secondary | measure=Any stroke | time_frame=1-year after percutaneous coronary intervention | description=Any cerebrovascular event\ntype=secondary | measure=Any ischemic stroke | time_frame=1-year after percutaneous coronary intervention | description=Any ischemic cerebrovascular event\ntype=secondary | measure=Any hemorrhagic stroke | time_frame=1-year after percutaneous coronary intervention | description=Any hemorrhagic cerebrovascular event\ntype=secondary | measure=Major bleeding | time_frame=1-year after percutaneous coronary intervention | description=Major bleeding events, defined by the ISTH (International Society on Thrombosis and Haemostasis) classification",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 459,
+      "trial_nct_id": "NCT05631769"
+    },
+    {
+      "chunk_id": "NCT05631769:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2020-07-24\nPrimary completion date: 2024-12-31\nCompletion date: 2027-12-31\nStudy first posted: 2022-11-30\nResults first posted: None\nLast update posted: 2025-07-23\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05631769"
+    },
+    {
+      "chunk_id": "NCT05631769:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Seoul National University Hospital\nLead sponsor class: OTHER\nCollaborators: Hanyang University Seoul Hospital\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT05631769"
+    }
+  ],
+  "trial_nct_id": "NCT05631769"
+}

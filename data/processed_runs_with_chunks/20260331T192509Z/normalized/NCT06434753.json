@@ -1,0 +1,189 @@
+{
+  "arms": [
+    {
+      "description": "The experimental group will receive ACZ at a daily dose of 600 mg, equivalent to 100mg of elemental zinc (one hard gelatin capsule of 300 mg of ACZ twice a day). Treatment will be stopped when the patient presents any of the events that define the main endpoint of the study.",
+      "intervention_names": [
+        "Drug: Zinc Acexamate"
+      ],
+      "label": "Zinc Acexamate",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "The control group will receive twice a day orally hard gelatin capsules, identical to those of ACZ, in color, weight and nature, but containing an inert preparation (isomaltose).",
+      "intervention_names": [
+        "Drug: Zinc Acexamate"
+      ],
+      "label": "Placebo",
+      "type": "PLACEBO_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Advanced Chronic Liver Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Portal Hypertension",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hepatocellular Carcinoma",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Patients of both sexes with diagnosed compensated advanced chronic liver disease (cACLD) determined by hepatic stiffness on transient elastography \\>15 kPa.\n* Age between 18 and 80 years, inclusive.\n* Absence of prior or current decompensation.\n* For women of childbearing age, a possible pregnancy will be ruled out by a pregnancy test prior to the start of the study. Following the test, the woman must use an effective contraceptive method during sexual intercourse (see Appendix I) in the days leading up to the start of treatment, and continue to use it throughout the treatment period, as well as for several days after its completion.\n* Signing of informed consent.\n\nExclusion Criteria:\n\n* History or current presence of hepatocellular carcinoma.\n* Concomitant systemic disease with a short-term poor prognosis.\n* Pregnancy, breastfeeding, or refusal to use contraceptive measures during participation in the study.\n* Patients with compensated advanced chronic liver disease (cACLD) due to hepatitis B virus (HBV) under antiviral treatment, and those with cACLD due to hepatitis C virus (HCV) cured with antiviral treatment.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Placebo",
+        "Zinc Acexamate"
+      ],
+      "description": "The experimental group will receive ACZ at a daily dose of 600 mg, equivalent to 100mg of elemental zinc (one hard gelatin capsule of 300 mg of ACZ twice a day). Treatment will be stopped when the patient presents any of the events that define the main endpoint of the study.\n\nThe control group will receive twice a day orally hard gelatin capsules, identical to those of ACZ, in color, weight and nature, but containing an inert preparation (isomaltose).",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Zinc Acexamate",
+      "normalized_name": "zinc acexamate"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Ordinal scale to assess efficacy of the intervention, with expected distribution of patients on each study arm at the 2-year mark, based on an effect size of an OR of 0.55.The most severe category (Value 6) will be the development of clinical events:First decompensation,hepatocellular carcinoma, liver related-death (non-liver-related deaths as competing events), and liver transplantation.Those patients free of a liver-related event at 2 years,will be classified according to the risk of CSPH (ANTICIPATE model value), distributing patients in the ordinal scale with ascending hierarchy of CSPH risk: Level 1,\\<0.30 risk;Level 2,0.30-0.45 risk;Level 3, 0.45-0.60 risk;Level 4, 0.60-0.85 risk;and Level 5, \\>0.85 risk.\n\nExpected clinical events at 2 years of follow-up (PREDESCI study and others on natural history of liver cirrhosis) with added effect of decompensation, HCC and death:20% of clinical events at 2 years (16% decompensations,2% hepatocellular carcinomas and 2% deaths).",
+      "measure": "Values 1-6. Ordinal scale to assess efficacy of the intervention.",
+      "outcome_type": "primary",
+      "time_frame": "24 months"
+    },
+    {
+      "description": "Time to occurrence of the composite endpoint of only clinical events until study termination.",
+      "measure": "Time-dependent composite clinical endpoint",
+      "outcome_type": "primary",
+      "time_frame": "End of Follow-up"
+    },
+    {
+      "description": "Number of descompensations: First descompensation, hepatocellular carcinoma, liver related-death, liver transplantation.",
+      "measure": "Evaluate if the administration of zinc decreases the risk of having the first decompensation and what type.",
+      "outcome_type": "secondary",
+      "time_frame": "24 months"
+    },
+    {
+      "description": "Odds Ratio",
+      "measure": "Evaluate if the administration of zinc decreases the risk of CSPH estimated by the ANTICIPATE model.",
+      "outcome_type": "secondary",
+      "time_frame": "24 months"
+    },
+    {
+      "description": "Odds Ratio",
+      "measure": "Evaluate if the administration of zinc reduces the risk of hepatocellular carcinoma.",
+      "outcome_type": "secondary",
+      "time_frame": "24 months"
+    },
+    {
+      "description": "Odds Ratio",
+      "measure": "Evaluate if the administration of zinc reduces the risk of bacterial infections.",
+      "outcome_type": "secondary",
+      "time_frame": "24 months"
+    },
+    {
+      "description": "Odds Ratio",
+      "measure": "Evaluate if the administration of zinc improves overall transplant-free survival and the risk of liver-related death.",
+      "outcome_type": "secondary",
+      "time_frame": "24 months"
+    },
+    {
+      "description": "Child-Pugh: 5 (better outcome) to 15 (worse outcome). Child- Pugh has not an unabbreviated title. MELD: 6 (better outcome) to 40 (worse outcome)",
+      "measure": "Evaluate if the administration of zinc improves liver function as measured by Child-Pugh and End-stage Liver Disease (MELD) score.",
+      "outcome_type": "secondary",
+      "time_frame": "24 months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Zinc homeostasis could play a role in advanced chronic liver disease (cACLD) and its supplementation has been linked with improvement in liver function, decrease of hepatic complications and reduction in hepatocellular carcinoma (HCC) incidence. cACLD encompasses a heterogeneous group of patients with a variable risk of clinically significant portal hypertension (CSPH) and clinical events. The ANTICIPATE model is a validated model for stratifying these risks. Our aim is to demonstrate that the administration of zinc can reduce the rate and risk of presenting clinical events (first decompensation, HCC, death and liver transplantation). This study protocol describes an ongoing phase III, national, multicentre, randomized, double-blind clinical trial that will enroll 300 patients to receive either the trial treatment (zinc acexamate) or placebo. An inclusion period of 42 months is planned, with a minimal duration of follow up of 2 years. Our principal hypothesis is that zinc could modify the natural history of cACLD patients, with an overall improvement in prognosis",
+    "brief_title": "Zinc Supplementation to Improve Prognosis in Patients With Compensated Advanced Chronic Liver Disease.",
+    "collaborator_names": [
+      "Hospital General Universitario Gregorio Mara\u00f1on",
+      "Hospital Vall d'Hebron",
+      "Hospital Universitario Puerta del Hierro",
+      "Hospital Clinic of Barcelona",
+      "Hospital Universitario Central de Asturias",
+      "Complejo Hospitalario de Toledo",
+      "Germans Trias i Pujol Hospital",
+      "Hospital Universitario Marqu\u00e9s de Valdecilla",
+      "Hospital Miguel Servet",
+      "Parc Taul\u00ed Hospital Universitari",
+      "Hospital de la Santa creu i Sant Pau - Barcelona",
+      "Hospital Universitari de Bellvitge",
+      "Hospital del Mar",
+      "University Hospital of Girona Dr. Josep Trueta"
+    ],
+    "completion_date": "2026-03-02",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Patients of both sexes with diagnosed compensated advanced chronic liver disease (cACLD) determined by hepatic stiffness on transient elastography \\>15 kPa.\n* Age between 18 and 80 years, inclusive.\n* Absence of prior or current decompensation.\n* For women of childbearing age, a possible pregnancy will be ruled out by a pregnancy test prior to the start of the study. Following the test, the woman must use an effective contraceptive method during sexual intercourse (see Appendix I) in the days leading up to the start of treatment, and continue to use it throughout the treatment period, as well as for several days after its completion.\n* Signing of informed consent.\n\nExclusion Criteria:\n\n* History or current presence of hepatocellular carcinoma.\n* Concomitant systemic disease with a short-term poor prognosis.\n* Pregnancy, breastfeeding, or refusal to use contraceptive measures during participation in the study.\n* Patients with compensated advanced chronic liver disease (cACLD) due to hepatitis B virus (HBV) under antiviral treatment, and those with cACLD due to hepatitis C virus (HCV) cured with antiviral treatment.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 300,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Zinc Acexamate"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2024-06-04",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Hospital Universitari Vall d'Hebron Research Institute",
+    "masking": "DOUBLE",
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06434753",
+    "official_title": "Zinc Supplementation to Improve Prognosis in Patients With Compensated Advanced Chronic Liver Disease: A Multicenter, Randomized, Double-blind, Placebo Controlled Clinical Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE3"
+    ],
+    "primary_completion_date": "2026-03-02",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06434753",
+    "start_date": "2022-10-02",
+    "study_first_posted_at": "2024-05-30",
+    "study_type": "INTERVENTIONAL"
+  }
+}

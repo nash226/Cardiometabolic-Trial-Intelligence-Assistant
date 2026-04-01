@@ -1,0 +1,283 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        },
+        {
+          "id": "D012769",
+          "term": "Shock"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D012770",
+          "term": "Shock, Cardiogenic"
+        },
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "interventionNames": [
+            "Drug: Reduced noradrenaline use"
+          ],
+          "label": "Reduced noradrenaline (MAP \u2265 55 mmHg)",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "label": "Usual care (MAP \u2265 65 mmHg)",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Reduced noradrenaline (MAP \u2265 55 mmHg)"
+          ],
+          "description": "Reduced noradrenaline by using a lower MAP target",
+          "name": "Reduced noradrenaline use",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiogenic Shock",
+        "Myocardial Infarction"
+      ],
+      "keywords": [
+        "Noradrenaline",
+        "Blood pressure target",
+        "Cardiogenic shock",
+        "Myocardial infarction"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "e.j.peters@amsterdamumc.nl",
+          "name": "Elma Peters",
+          "phone": "0205668380",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Amsterdam",
+          "contacts": [
+            {
+              "email": "j.p.henriques@amsterdamumc.nl",
+              "name": "Jose Henriques",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "Amsterdam UMC, location AMC",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          },
+          "status": "RECRUITING",
+          "zip": "1105AZ"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Rationale: Pump failure due to acute myocardial infarction (AMI) can lead to cardiogenic shock (CS): a state of low blood flow to end-organs with subsequent multi-organ failure that is associated with high mortality rated. The first line pharmacologic treatment strategy in CS is noradrenaline. This vasopressor drug is used to maintain adequate blood pressures. The assumption is that a mean arterial blood pressure (MAP) \u2265 65 mmHg will improve flow and thereby tissue perfusion of myocardium and other tissues (e.g. renal). However, there is no evidence that an increase in MAP, if achieved by noradrenaline, leads to greater end-organ blood flow and better outcomes.\n\nObjective: With this study the investigators aim to investigate the (cost-)effectiveness of reduced noradrenaline in patients with CS by using a lower MAP target of \u2265 55 mmHg, compared to \u2265 65 mmHg. The investigators hypothesize that reduced use of noradrenaline will improve overall survival and decrease renal failure requiring renal replacement therapy.\n\nStudy design: Open label, randomized controlled multicenter trial\n\nStudy population: Adults patients with CS due to AMI\n\nIntervention: Treatment strategy of reduced noradrenaline, by using a lower MAP target ( \u2265 55 mmHg).\n\nMain study endpoint: composite of all-cause mortality and severe renal failure leading to renal replacement therapy within 30-days after randomization."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 776,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n1. Acute myocardial infarction, STEMI or NSTEMI\n2. Early revascularization by PCI\n3. Cardiogenic shock, characterized by:\n\nI. a. Systolic blood pressure (SBP) \u2264 90 mmHg for \\> 30 minutes, OR b. Use of drugs to maintain SBP \\> 90 mmHg at randomization.\n\nII. Clinical signs of impaired organ perfusion with at least one of the following criteria:\n\n1. Altered mental status\n2. Cold, clammy skin and extremities\n3. Oliguria with urine output \\< 30ml/hour\n4. Serum lactate \\> 2.0 mmol/L\n\nIII. Clinical signs of pulmonary congestion\n\nExclusion Criteria:\n\n1. Resuscitation \\> 30 minutes\n2. Mechanical cause of cardiogenic shock (e.g. papillary muscle rupture, ventricular septal rupture)\n3. Onset of shock \\> 12 hours\n4. Imminent need for mechanical circulatory support (i.e. ECPR)\n5. Women \\<45 years",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "NORSHOCK",
+      "briefTitle": "Clinical Outcome and Cost-effectiveness of Reduced Noradrenaline by Using a Lower Blood Pressure Target in Patients With Cardiogenic Shock From Acute Myocardial Infarction",
+      "nctId": "NCT05168462",
+      "officialTitle": "Clinical Outcome and Cost-effectiveness of Reduced Noradrenaline by Using a Lower Blood Pressure Target in Patients With Cardiogenic Shock From Acute Myocardial Infarction",
+      "orgStudyIdInfo": {
+        "id": "NL79416.018.21"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Composite of all-cause mortality and severe renal failure leading to renal replacement therapy",
+          "measure": "Mortality and renal failure",
+          "timeFrame": "30-days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Blood pressure measured hourly during the first 24 hours of ICU/CCU admission",
+          "measure": "Blood pressure (systolic and diastolic)",
+          "timeFrame": "The first 24 hours"
+        },
+        {
+          "description": "Heart rate, measured hourly during the first 24 hours of ICU/CCU admission",
+          "measure": "Heart rate",
+          "timeFrame": "The first 24 hours"
+        },
+        {
+          "description": "Size of myocardial infarction, measured by hs-Troponin T",
+          "measure": "Enzymatic infarct size, measured by hs-Troponin T",
+          "timeFrame": "0, 6, 12, 24, 36 and 72 hours"
+        },
+        {
+          "description": "Size of myocardial infarction, measured by CK-MB",
+          "measure": "Enzymatic infarct size, measured by CK-MB",
+          "timeFrame": "0, 6, 12, 24, 36 and 72 hours"
+        },
+        {
+          "description": "Type of mechanical circulatory support device",
+          "measure": "Need for mechanical circulatory support",
+          "timeFrame": "Recorded after ICU/CCU discharge, assessed up to 60 days"
+        },
+        {
+          "description": "Duration of mechanical ventilation, expressed in days",
+          "measure": "Duration of mechanical ventilation",
+          "timeFrame": "Recorded after ICU/CCU discharge, assessed up to 60 days"
+        },
+        {
+          "description": "The type of vasopressors / inotropes that were administrered",
+          "measure": "Need for vasopressors / inotropes",
+          "timeFrame": "Recorded after ICU/CCU discharge, assessed up to 60 days"
+        },
+        {
+          "description": "As measured by echocardiography and/or MRI",
+          "measure": "Ejection fraction, percent",
+          "timeFrame": "72 hours and 1 year"
+        },
+        {
+          "description": "Renal function, measured by serum creatinin",
+          "measure": "Renal function",
+          "timeFrame": "1 year"
+        },
+        {
+          "description": "Cost per patients alive without severe renal failure and costs per QALY (quality-adjusted life year)",
+          "measure": "Cost-effectiveness",
+          "timeFrame": "1-year"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+        "investigatorFullName": "J.P.S Henriques",
+        "investigatorTitle": "Prof. dr.",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-04-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-24",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-04-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-10-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-23",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-11-08",
+      "studyFirstSubmitQcDate": "2021-12-07"
+    }
+  }
+}

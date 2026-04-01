@@ -1,0 +1,962 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D054058",
+          "term": "Acute Coronary Syndrome"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Patients will be treated with the Pressure Microcatheter during PCI. After completing an angiographically successful PCI, patients will be randomized to FFR-guided stent optimization (PIOS).",
+          "interventionNames": [
+            "Procedure: Pressure Microcatheter guided strategy - PIOS MC"
+          ],
+          "label": "Pressure Microcatheter guided strategy - PIOS-MC",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients will be treated with the Pressure Wire during PCI. After completing an angiographically successful PCI, patients will be randomized to FFR-guided stent optimization (PIOS).",
+          "interventionNames": [
+            "Procedure: Pressure Wire guided strategy - PIOS - PW"
+          ],
+          "label": "Pressure Wire guided strategy - PIOS-PW",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Patients will be treated with the Pressure Microcatheter during PCI. After completing an angiographically successful PCI, patients will receive the standard of care treatment.",
+          "interventionNames": [
+            "Procedure: Pressure Microcatheter guided strategy - Standard of care"
+          ],
+          "label": "Pressure Microcatheter guided strategy - Standard of care",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Patients will be treated with the Pressure Wire during PCI. After completing an angiographically successful PCI, patients will receive the standard of care treatment.",
+          "interventionNames": [
+            "Procedure: Pressure Wire guided strategy - Standard of care"
+          ],
+          "label": "Pressure Wire guided strategy - Standard of care",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Pressure Microcatheter guided strategy - PIOS-MC"
+          ],
+          "description": "Use of Pressure Microcatheter during PCI. After the PCI, the patient will receive treatment according to the incremental optimization strategy (PIOS) .",
+          "name": "Pressure Microcatheter guided strategy - PIOS MC",
+          "type": "PROCEDURE"
+        },
+        {
+          "armGroupLabels": [
+            "Pressure Wire guided strategy - PIOS-PW"
+          ],
+          "description": "Use of Pressure Wire during PCI. After the PCI, the patient will receive treatment according to the incremental optimization strategy (PIOS) .",
+          "name": "Pressure Wire guided strategy - PIOS - PW",
+          "type": "PROCEDURE"
+        },
+        {
+          "armGroupLabels": [
+            "Pressure Microcatheter guided strategy - Standard of care"
+          ],
+          "description": "Use of Pressure Microcatheter during PCI. After the PCI, the patient will receive standard of care treatment.",
+          "name": "Pressure Microcatheter guided strategy - Standard of care",
+          "type": "PROCEDURE"
+        },
+        {
+          "armGroupLabels": [
+            "Pressure Wire guided strategy - Standard of care"
+          ],
+          "description": "Use of Pressure Wire during PCI. After the PCI, the patient will receive standard of care treatment.",
+          "name": "Pressure Wire guided strategy - Standard of care",
+          "type": "PROCEDURE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease",
+        "Acute Coronary Syndrome"
+      ],
+      "keywords": [
+        "Percutaneous Coronary intervention (PCI)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "sofiepardaens@coreaalst.com",
+          "name": "Sofie Pardaens",
+          "phone": "0032 53 72 42 30",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Aalst",
+          "contacts": [
+            {
+              "email": "hilde.delacroix@olvz-aalst.be",
+              "name": "Hilde Delacroix",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Carlos Collet, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Bernard De Bruyne, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Belgium",
+          "facility": "OLV Aalst",
+          "geoPoint": {
+            "lat": 50.93604,
+            "lon": 4.0355
+          },
+          "state": "Oost-Vlaanderen",
+          "status": "RECRUITING",
+          "zip": "9300"
+        },
+        {
+          "city": "Brussels",
+          "contacts": [
+            {
+              "name": "Marnix von Kemp, Md",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marnix von Kemp, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Belgium",
+          "facility": "Universitair ziekenhuis Brussel",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Genk",
+          "contacts": [
+            {
+              "name": "Daan Cottens, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Daan Cottens, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Belgium",
+          "facility": "ZOL",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Shanghai",
+          "country": "China",
+          "facility": "Zhongshan Hospital of Fudan University",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "state": "Xuhui District",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "zip": "200031"
+        },
+        {
+          "city": "Shandong",
+          "country": "China",
+          "facility": "QILU Hospital of Shandong University",
+          "geoPoint": {
+            "lat": 26.82656,
+            "lon": 114.95747
+          },
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "city": "Sichuan",
+          "country": "China",
+          "facility": "West China Hospital of Sichuan University",
+          "geoPoint": {
+            "lat": 35.1221,
+            "lon": 105.48032
+          },
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "city": "Lille",
+          "contacts": [
+            {
+              "name": "Eric Van Belle, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Eric Van Belle, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "France",
+          "facility": "CHU Lille",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Lyon",
+          "country": "France",
+          "facility": "Claude Bernard University",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          },
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "city": "Paris",
+          "contacts": [
+            {
+              "name": "Nicolas Amabile, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Nicolas Amabile, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "France",
+          "facility": "ICPS",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Dresden",
+          "contacts": [
+            {
+              "name": "Felix Woitek, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Felix Woitek",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Herzzentrum Dresden",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "F\u00fcrth",
+          "contacts": [
+            {
+              "name": "Stylianos Pyxaras, MD,PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Stylianos Pyxaras, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Klinikum F\u00fcrth",
+          "geoPoint": {
+            "lat": 49.47593,
+            "lon": 10.98856
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Herford",
+          "contacts": [
+            {
+              "name": "Dominik Gorski, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dominik Gorski, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Klinikum Herford",
+          "geoPoint": {
+            "lat": 52.11457,
+            "lon": 8.67343
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Koblenz",
+          "country": "Germany",
+          "facility": "Catholic Medical Center Koblenz-Montabaur",
+          "geoPoint": {
+            "lat": 50.35357,
+            "lon": 7.57883
+          },
+          "status": "ACTIVE_NOT_RECRUITING"
+        },
+        {
+          "city": "Lahr",
+          "contacts": [
+            {
+              "name": "Kambis Mashayekhi, MD, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Kambis Mashayekhi, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Herzzentrum Lahr",
+          "geoPoint": {
+            "lat": 48.34042,
+            "lon": 7.86886
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Mainz",
+          "contacts": [
+            {
+              "name": "Tommaso Gori, MD, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tommaso Gori, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Germany",
+          "facility": "Universit\u00e4tsklinik",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Ferrara",
+          "contacts": [
+            {
+              "name": "Gianluca Campo, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Gianluca Campo, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Nuovo Arcispedale S.Anna Di Ferrara",
+          "geoPoint": {
+            "lat": 44.83804,
+            "lon": 11.62057
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "La Spezia",
+          "contacts": [
+            {
+              "name": "Marco Arena, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marco Arena",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Ospedale Civile Sant'Andrea",
+          "geoPoint": {
+            "lat": 44.103,
+            "lon": 9.82375
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Latina",
+          "contacts": [
+            {
+              "name": "Iginio Colaiori, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Iginio Colaiori, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Ospedale Santa Maria Goretti",
+          "geoPoint": {
+            "lat": 41.46614,
+            "lon": 12.9043
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Naples",
+          "contacts": [
+            {
+              "name": "Giovanni Esposito, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Giovanni Esposito, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Universitaria Federico II",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Rome",
+          "contacts": [
+            {
+              "name": "Emanuele Barbato, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Emanuele Barbato, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Azienda Ospedaliera Universitaria Sant'Andrea",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Amsterdam",
+          "contacts": [
+            {
+              "name": "Marcel Beijk, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Marcel Beijk, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "Amsterdam UMC",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Eindhoven",
+          "contacts": [
+            {
+              "name": "Pim Tonino, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pim Tonino, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "Catharina Ziekenhuis",
+          "geoPoint": {
+            "lat": 51.44083,
+            "lon": 5.47778
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Nijmegen",
+          "contacts": [
+            {
+              "name": "Lokien Van Nunen, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lokien Van Nunen, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Netherlands",
+          "facility": "UMCN Radboud",
+          "geoPoint": {
+            "lat": 51.8425,
+            "lon": 5.85278
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Bydgoszcz",
+          "contacts": [
+            {
+              "name": "Adam Sukiennik, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Adam Sukiennik",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Poland",
+          "facility": "Dr. Jurasz University Hospital No. 1",
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Krakow",
+          "contacts": [
+            {
+              "name": "Jacek Legutko, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jacek Legutko, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Poland",
+          "facility": "John Paul II Specialistic Hospital",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Warsaw",
+          "contacts": [
+            {
+              "name": "Adam Witkowski, MD, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Adam Witkowski, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Poland",
+          "facility": "National Cardiac Institute",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Barcelona",
+          "contacts": [
+            {
+              "name": "Salvatore Brugaletta, MD, PhD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Salvatore Brugaletta, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital Cl\u00ednic Barcelona",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING",
+          "zip": "08036"
+        },
+        {
+          "city": "Barcelona",
+          "contacts": [
+            {
+              "name": "Oriol Rodriguez, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Oriol Rodriguez, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Germans Trias i Pujol Hopital",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Barcelona",
+          "contacts": [
+            {
+              "name": "Josep Gomez Lara, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Josep Gomez Lara",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Spain",
+          "facility": "Hospital de Belvitge",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          },
+          "status": "RECRUITING"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Azienda Ospedaliera Universitaria Sant'Andrea, Roma",
+          "name": "Emanuele Barbato, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "CoreAalst BV",
+          "name": "Carlos Collet, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Zhongshan Hospital, Fudan University, Shanghai",
+          "name": "Junbo Ge, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Hospital Clinic of Barcelona",
+          "name": "Salvatore Brugaletta, MD, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Recently, a new device for measuring physiological lesion severity, the pressure microcatheter, was introduced. The pressure microcatheter provides similar information to the conventional measurement technique but differs as it is easily advanced on a customary coronary wire and simplifies pullback maneuvers. The pressure microcatheter has been shown to provide comparable FFR results to pressure wires.\n\nInsightful-FFR is an investigator-driven, multicenter, randomized, open-label and prospective trial of patients with stable coronary artery disease or stabilised non-ST elevation acute coronary syndrome (ACS) with epicardial stenosis considered for PCI aiming at comparing clinical outcomes between pressure microcatheter and pressure wire-guided strategies. The study hypothesis states that the use of a Pressure Microcatheter for clinical decision making would be non-inferior to pressure wire-based strategy\n\nAfter determining the presence of a coronary artery disease/ stabilized acute coronary syndrome, patients will be randomized to use a pressure microcatheter (investigational device) or a pressure wire (comparator) to guide and optimize percutaneous coronary intervention (PCI). Patients will be followed up in hospital at 12 months and yearly until five years."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients with one or more coronary stenoses will be randomized to either pressure microcatheter or pressure wire-based strategies for clinical decision making. Clinical decision making for PCI could be based either on FFR or NHPR. FFR or NHPR will support clinical decisions to defer or treat at the operator discretion. In cases with a positive FFR (\u2264 0.80) or NHPR (\u22640.89), patients will undergo a hyperemic FFR pullback to guide the PCI procedure further. PCI will be performed using last-generation drug-eluting stents (DES) at operator's discretion. After completing an angiographically successful PCI, patients will be randomized to FFR-guided stent optimization (PIOS) or standard of care (SOC).\n\nThe one-step randomization process in four groups permits an uninterrupted invasive procedure avoiding the logistic issues related to a second randomization during the invasive procedure while preserving the statistical power and balance between groups.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 2500,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The subject must be at least 18 years of age and younger than 85 years old.\n2. Eligible for elective PCI.\n3. Stable angina or ACS (non-culprit vessels only and outside of primary intervention during acute STEMI)\n4. Subject willing to participate and able to understand, read and sign the Informed Consent.\n\nExclusion Criteria:\n\n1. STEMI as clinical presentation.\n2. Chronic total occlusion as a target vessel.\n3. Significant contraindication to adenosine administration (e.g. heart block, severe asthma)\n4. Uncontrolled or recurrent ventricular tachycardia.\n5. Hemodynamic instability.\n6. Severe valvular disease.\n7. Severe renal dysfunction defined as an eGFR \u226430 mL/min/1.73 m2.\n8. Comorbidity with life expectancy \u2264 2 years.\n9. Inability to take DAPT (both aspirin and a P2Y12 inhibitor) for at least 12 months in the patient presenting with an ACS, or at least six months in the patient presenting with stable CAD, unless the patient is also taking chronic oral anticoagulation in which case a shorter duration of DAPT may be prescribed per local standard of care.\n10. Planned major cardiac or non-cardiac surgery within 24 months after the index procedure. Note: major surgery is any invasive procedure in which an extensive resection is performed, e.g., a body cavity is entered, organs are removed, or normal anatomy is altered. Note: minor surgery is an operation on the superficial structures of the body or a manipulative procedure that does not involve a serious risk. Planned minor surgery is not excluded.\n11. Subject has known hypersensitivity or contraindication to any of the study drugs (including all P2Y12 inhibitors, one or more components of the study devices, including everolimus, zotarolimus, biolimus, sirolimus, cobalt, chromium, nickel, platinum, tungsten, acrylic, and fluoropolymers, or radiocontrast dye that cannot be adequately pre- medicated.\n12. The subject has received a functioning solid organ transplant or is active on a waiting list for any solid organ transplants with expected transplantation within 24 months.\n13. The subject receives immunosuppressant therapy or has known immunosuppressive or severe autoimmune disease that requires chronic immunosuppressive therapy (e.g., human immunodeficiency virus, systemic lupus erythematosus, etc.). Note: corticosteroids are not included as immunosuppressant therapy.\n14. The subject has previously received or is scheduled to receive radiotherapy to a coronary artery (vascular brachytherapy) or the chest/mediastinum.\n15. Subject has a platelet count \\<100,000 cells/mm3 or \\>700,000 cells/mm3.\n16. The subject has a documented or suspected hepatic disorder defined as cirrhosis or Child-Pugh \u2265 Class B.\n17. The subject has a history of bleeding diathesis or coagulopathy or has had a significant gastro-intestinal or significant urinary bleed within the past six months. The subject has had a cerebrovascular accident or transient ischemic neurological attack (TIA) within the past six months, any prior intracranial bleed, any permanent neurologic defect, or any known intracranial pathology (e.g., aneurysm, arteriovenous malformation, etc. The subject has a life expectancy of \\<2 years for any non-cardiac cause.\n18. The subject is currently participating in another investigational drug or device clinical study.\n19. Pregnancy or nursing.\n20. Presence of other anatomic or comorbid conditions or other medical, social, or psychological conditions that, in the investigator's opinion, could limit the subject's ability to participate in the clinical investigation or to comply with follow-up requirements or impact the scientific soundness of the clinical investigation results.",
+      "healthyVolunteers": false,
+      "maximumAge": "85 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "INSIGHTFUL-FFR Clinical Trial",
+      "nctId": "NCT05437900",
+      "officialTitle": "Pressure Microcatheter vs Pressure Wire for Clinical Decision Making and PCI Optimization",
+      "orgStudyIdInfo": {
+        "id": "CA-053"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "CoreAalst BV"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Compare the rate of major adverse cardiovascular events (MACE) defined as the combined rate of all cause death, myocardial infarction (MI), and unplanned revascularization between pressure microcatheter and pressure wire strategies at 12-months follow-up.",
+          "measure": "Compare the rate of MACE between pressure microcatheter and pressure wire strategies.",
+          "timeFrame": "12 Months follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "In patients undergoing PCI, compare the rate of target vessel failure (TVF) defined as the composite of cardiac death, target vessel MI and ischemia-driven target vessel revascularisation (ID-TVR) between PIOS and SOC.",
+          "measure": "Compare the rate of target vessel failure (TVF) between PIOS and SOC.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare in-hospital resource utilisation (cost from all the procedures during the hospitalisation to discharge in Euros) between microcatheter and pressure wire strategies i.e.number of pressure catheters/wires and procedural time needed to complete the procedure.",
+          "measure": "Compare in-hospital resource utilization between pressure microcatheter and pressure wire strategies.",
+          "timeFrame": "During the hospitalisation (from admission to the hospital until discharge after the procedure)"
+        },
+        {
+          "description": "Compare the procedure time between pressure microcatheter and pressure-wire guided strategies in minutes. This is the time from first to the last angiography in minutes.",
+          "measure": "Compare the procedure time between pressure microcatheter and pressure-wire guided strategies in minutes.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "In patients undergoing PCI, compare resource utilisation (cost from all the procedures during the hospitalisation to discharge in Euros, e.g. number of catheters/wires) between a pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI.",
+          "measure": "Compare in-hospital resource utilisation between PIOS-MC and PIOS-PW.",
+          "timeFrame": "During the hospitalisation (from admission to the hospital until discharge after the procedure)"
+        },
+        {
+          "description": "In patients undergoing PCI, compare the procedural time in minutes between a pressure PIOS-MC and PIOS-PW strategies.",
+          "measure": "In patients undergoing PCI, compare the procedural time in minutes between pressure PIOS-MC and PIOS-PW strategies.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "measure": "Compare the post-PCI FFR between the pressure microcatheter and pressure-wire guided strategies in patients undergoing PCI.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "measure": "Compare the post-PCI FFR between pressure PIOS and SOC strategies in patients undergoing PCI.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "measure": "Compare the post-PCI FFR between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "Compare the proportion of FFR \\> 0.90 (in percentage) between pressure microcatheter (MC) PIOS and SOC strategies in patients undergoing PCI.",
+          "measure": "Compare the proportion of FFR > 0.90 between pressure microcatheter (MC) PIOS and SOC strategies in patients undergoing PCI.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "Compare the proportion of FFR \\> 0.80 (in percentage) between pressure PIOS and SOC strategies in patients undergoing PCI.",
+          "measure": "Compare the proportion of FFR > 0.80 between pressure PIOS and SOC strategies in patients undergoing PCI.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "Compare the proportion of FFR \\> 0.80 (in percentage) between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI",
+          "measure": "Compare the proportion of FFR > 0.80 between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "Compare the proportion of FFR \\> 0.90 (in percentage) between pressure PIOS-MC and PIOS-PW",
+          "measure": "Compare the proportion of FFR > 0.90 between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "Compare the rate of symptoms-free status assessed by the Seattle Angina Questionnaire (SAQ-7) between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up.",
+          "measure": "Compare the rate of symptoms-free status between pressure microcatheter and pressure wire strategies.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare the rate of all-cause death between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up",
+          "measure": "Compare the rate of all-cause death between pressure microcatheter and pressure-wire guided strategies.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare the rate of myocardial infarction between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up",
+          "measure": "Compare the rate of myocardial infarction between pressure microcatheter and pressure-wire guided strategies.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare the rate of unplanned revascularisation between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up",
+          "measure": "Compare the rate of unplanned revascularisation between pressure microcatheter and pressure-wire guided strategies.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "In patients undergoing PCI, compare the rate of cardiac death between PIOS and SOC at 12 months follow-up",
+          "measure": "In patients undergoing PCI, compare the rate of cardiac death between PIOS and SOC.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "In patients undergoing PCI, compare the rate of target vessel myocardial infarction (MI) between PIOS and SOC at 12 months follow-up.",
+          "measure": "In patients undergoing PCI, compare the rate of target vessel myocardial infarction (MI) between PIOS and SOC.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "In patients undergoing PCI, compare the rate of ischemia-driven target-vessel revascularization (ID-TVR) between PIOS and SOC at 12 months follow-up",
+          "measure": "In patients undergoing PCI, compare the rate of ischemia-driven target-vessel revascularization (ID-TVR) between PIOS and SOC.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "measure": "Compare the rate of PCI-related myocardial infarction (MI) (type 4a) between pressure PIOS and SOC.",
+          "timeFrame": "During the procedure"
+        },
+        {
+          "description": "Compare the rate of angiographic complications related to vessel wiring (i.e., Angiographic dissection \u2265 NHLBI type B, perforations (Ellis classification), intra-procedural thrombotic events (including slow-flow, no-reflow, side branch closure, distal embolization, and intra-procedural stent thrombosis, as per the standard angiographic core laboratory definitions) between pressure microcatheter and pressure-wire guided strategies.",
+          "measure": "Compare the rate of angiographic complications between pressure microcatheter and pressure-wire guided strategies.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the actual measure post-PCI FFR value.",
+          "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for post-PCI FFR.",
+          "timeFrame": "Periprocedural time frame"
+        },
+        {
+          "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the occurence of target vessel failure (TVF).",
+          "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for target vessel failure (TVF).",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the occurence of target myocardial infarction.",
+          "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for target-vessel myocardial infarction (MI).",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the occurence of ischemia-driven target-vessel revascularization (ID-TVR).",
+          "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for ischemia-driven target-vessel revascularization (ID-TVR).",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare how close the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire corresponds to the occurence of target-vessel myocardial infarction (MI).",
+          "measure": "Compare the predictive capacity of the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire for target-vessel myocardial infarction (MI).",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "description": "Compare how close the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire corresponds to the occurence of target-vessel revascularization.",
+          "measure": "Compare the predictive capacity of the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire for target vessel revascularization.",
+          "timeFrame": "12 Months follow-up"
+        },
+        {
+          "measure": "Compare the rate of peri-procedural myocardial infarction stratified by PPG derived from pressure microcatheter versus pressure wire.",
+          "timeFrame": "Periprocedural timeframe"
+        },
+        {
+          "measure": "Compare the rate of peri-procedural myocardial injury stratified by PPG derived from pressure microcatheter versus pressure wire.",
+          "timeFrame": "Periprocedural timeframe"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": false
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Stalikas N, Mizukami T, Bouisset F, Ikeda K, Tajima A, Munhoz D, Mahendiran T, Wilgenhof A, Sakai K, Noorgard B, Engstroem T, Leipsic J, Stefanini G, Bartorelli A, Fairbairn T, Bagnall A, Ko B, Johnson NP, Berry C, Perera D, Christiansen EH, Shinke T, Otake H, Koo BK, Barbato E, Brugaletta S, Collison D, Campo G, Van Belle E, Goori T, Van Nunen L, Witkowski A, Astudillo P, Spratt J, Amano T, Ando H, Sianos G, Sonck J, Andreini D, De Bruyne B, Collet C. Vessel-Specific Myocardial Mass in Patients With Stable Coronary Artery Disease. J Am Heart Assoc. 2025 Nov 18;14(22):e039013. doi: 10.1161/JAHA.124.039013. Epub 2025 Nov 6.",
+          "pmid": "41195772",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Insight Lifetech Co., Ltd."
+        }
+      ],
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "CoreAalst BV"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2030-06-30",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-09",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2022-09-22",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2022-06-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-02",
+      "studyFirstSubmitQcDate": "2022-06-23"
+    }
+  }
+}

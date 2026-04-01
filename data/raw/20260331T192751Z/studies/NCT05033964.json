@@ -1,0 +1,563 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D057510",
+          "term": "Endovascular Procedures"
+        },
+        {
+          "id": "D014656",
+          "term": "Vascular Surgical Procedures"
+        },
+        {
+          "id": "D013504",
+          "term": "Cardiovascular Surgical Procedures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D019060",
+          "term": "Minimally Invasive Surgical Procedures"
+        },
+        {
+          "id": "D015607",
+          "term": "Stents"
+        },
+        {
+          "id": "D019736",
+          "term": "Prostheses and Implants"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D062645",
+          "term": "Percutaneous Coronary Intervention"
+        },
+        {
+          "id": "D054855",
+          "term": "Drug-Eluting Stents"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "DESyne BDS Plus Drug Eluting Coronary Stent System (DESyne BDS Plus DECSS; DESyne BDS Plus) is loaded with Sirolimus, Rivaroxaban and Argatroban",
+          "interventionNames": [
+            "Combination Product: Percutaneous Coronary Intervention with drug eluting stents"
+          ],
+          "label": "DESyne BDS Plus Arm",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "The DESyne X2 Novolimus Eluting Coronary Stent System (DESyne X2 NECSS; DESyne X2) is loaded with Novolimus",
+          "interventionNames": [
+            "Combination Product: Percutaneous Coronary Intervention with drug eluting stents"
+          ],
+          "label": "DESyne X2 Arm",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "DESyne BDS Plus Arm",
+            "DESyne X2 Arm"
+          ],
+          "description": "Coronary drug eluting stent implantation",
+          "name": "Percutaneous Coronary Intervention with drug eluting stents",
+          "type": "COMBINATION_PRODUCT"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "Drug Eluting Coronary Stent"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Antwerp",
+          "country": "Belgium",
+          "facility": "ZNA Middelheim",
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          },
+          "zip": "2020"
+        },
+        {
+          "city": "Bruges",
+          "country": "Belgium",
+          "facility": "AZ Sint Jan Brugge Oostende AV",
+          "geoPoint": {
+            "lat": 51.20892,
+            "lon": 3.22424
+          },
+          "zip": "8000"
+        },
+        {
+          "city": "Genk",
+          "country": "Belgium",
+          "facility": "Ziekenhuis Oost-Limburg, Campus Sint Jan",
+          "geoPoint": {
+            "lat": 50.965,
+            "lon": 5.50082
+          },
+          "zip": "3600"
+        },
+        {
+          "city": "Leuven",
+          "country": "Belgium",
+          "facility": "Universitaire Ziekenhuizen Leuven",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          },
+          "zip": "3000"
+        },
+        {
+          "city": "S\u00e3o Paulo",
+          "country": "Brazil",
+          "facility": "Instituto Dante Pazzanese",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          },
+          "zip": "04012-909"
+        },
+        {
+          "city": "S\u00e3o Paulo",
+          "country": "Brazil",
+          "facility": "Instituto do Cora\u00e7\u00e3o da Faculdade",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          },
+          "zip": "05403"
+        },
+        {
+          "city": "Prague",
+          "country": "Czechia",
+          "facility": "General University Hospital",
+          "geoPoint": {
+            "lat": 50.08804,
+            "lon": 14.42076
+          },
+          "zip": "12808"
+        },
+        {
+          "city": "Eindhoven",
+          "country": "Netherlands",
+          "facility": "Catharina Hospital",
+          "geoPoint": {
+            "lat": 51.44083,
+            "lon": 5.47778
+          },
+          "zip": "5623 EJ"
+        },
+        {
+          "city": "Auckland",
+          "country": "New Zealand",
+          "facility": "North Shore Hospital",
+          "geoPoint": {
+            "lat": -36.84853,
+            "lon": 174.76349
+          },
+          "zip": "0622"
+        },
+        {
+          "city": "Auckland",
+          "country": "New Zealand",
+          "facility": "Auckland City Hospital",
+          "geoPoint": {
+            "lat": -36.84853,
+            "lon": 174.76349
+          },
+          "zip": "1023"
+        },
+        {
+          "city": "Auckland",
+          "country": "New Zealand",
+          "facility": "Middlemore Hospital",
+          "geoPoint": {
+            "lat": -36.84853,
+            "lon": 174.76349
+          },
+          "zip": "2025"
+        },
+        {
+          "city": "Christchurch",
+          "country": "New Zealand",
+          "facility": "Christchurch Hospital",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          },
+          "zip": "8011"
+        },
+        {
+          "city": "Dunedin",
+          "country": "New Zealand",
+          "facility": "Dunedin Hospital",
+          "geoPoint": {
+            "lat": -45.87416,
+            "lon": 170.50361
+          },
+          "zip": "9016"
+        },
+        {
+          "city": "Hamilton",
+          "country": "New Zealand",
+          "facility": "Waikato Hospital",
+          "geoPoint": {
+            "lat": -37.78333,
+            "lon": 175.28333
+          },
+          "zip": "3240"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Ziekenhuis Netwerk Antwerpen (ZNA) Middelheim, Antwerp, Belgium",
+          "name": "Stefan Verheye, MD, PHD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Auckland City Hospital",
+          "name": "Mark Webster, MBChB",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this clinical trial is to confirm the safety, effectiveness and performance of the DESyne BDS Plus Drug Eluting Coronary Stent System (DESyne BDS Plus DECSS) (Test) as compared to the CE Mark approved DESyne X2 Novolimus Eluting Coronary Stent System (DESyne X2 NECSS; DESyne X2) (Control) in the treatment of de novo native coronary artery lesions.",
+      "detailedDescription": "The DESyne BDS Plus Randomized Clinical Trial is a prospective, multi-center, single blind, randomized clinical study. Randomization (1:1; DESyne BDS Plus : DESyne X2) of up to 200 patients (100 in each arm) requiring treatment of up to two de novo coronary artery lesions \u2264 34 mm in length in vessels \u2265 2.25 mm and \u2264 3.5 mm in diameter will be conducted. The study will be conducted in two parts, with randomization of the first 100 subjects (Cohort 1) followed by the randomization of an additional 100 subjects (Cohort 2).\n\nIn an imaging subset of approximately 60 subjects (30 per arm), Angiography and OCT will be performed at index procedure, and again at 6-month follow-up.\n\nThe PK sub-study will enroll up to 10 non-randomized subjects treated only with the DESyne BDS Plus device, with a maximum of three DESyne BDS Plus stents implanted. The PK sub-study is being conducted to assess the blood pharmacokinetics of the three drugs (Sirolimus, Rivaroxaban, Argatroban) eluted from the DESyne BDS Plus after implantation. PK measurements will be conducted at 10 minutes, 30 minutes, 1, 2, 4, 6, 12, 24, 72 hours, and 7 days. In addition, all PK subjects will undergo clinical assessments/follow-up at 3 days or hospital discharge (whichever comes first), 1 month, 6 months, 12 months, 2 years, and 3 years."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "prospective, multi-center, single blind, randomized clinical study. Randomization is 1:1",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "single blind",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patient must be at least 18 years of age\n2. Patient is able to understand the risks, benefits and treatment alternatives of receiving the DESyne BDS Plus DECSS or the DESyne X2 NECSS and provide written informed consent or oral consent (in urgent PCI) as allowed per hospital standard and as approved by the local Ethics Committee, prior to any clinical study-related procedure\n3. Indication for a percutaneous intervention with stent implantation in native epicardial arteries including patients with stable coronary artery disease and acute coronary syndromes including NSTEMI and STEMI.\n4. Patient must be an acceptable candidate for coronary artery bypass graft (CABG) surgery\n5. Patient agrees to undergo all clinical study required follow up visits, angiograms, and imaging testing (as applicable)\n6. Patient agrees not to participate in any other clinical research study for a period of one year following the index procedure (long term follow-up or observational studies are permitted)\n\n   Angiographic Inclusion Criteria\n7. Target lesion(s) must be de novo coronary artery lesion(s) and must be located in a separate\\* vessel from other target or non-target lesions.\n8. Target lesion(s) must have a reference vessel diameter (RVD) of \u2265 2.25 and \u2264 3.5 mm by visual estimation\n9. Target lesion(s) must measure \u2264 34 mm in length, and able to be covered by a single device with 2 mm of healthy vessel on either side of planned implantation site\n10. Target lesion(s) must be in a major artery or branch with a visually estimated stenosis of \u2265 50% and \\<100%. When two target lesions are treated, they must be located in separate major epicardial vessels\n\n    Additional Inclusion Criteria for PK study:\n11. Patients participating in PK study must meet all general and angiographic inclusion/exclusion criteria and may be treated with only the DESyne BDS Plus during Index Procedure.\n\nExclusion Criteria:\n\n1. Acute myocardial infarction with Killip Class III and IV\n2. Acute myocardial infarction requiring resuscitation\n3. Acute myocardial infarction requiring IABP or ventilation support\n4. Patient had fibrinolysis prior to PCI\n5. Patient has current unstable ventricular arrhythmias\n6. Patient has a known left ventricular ejection fraction (LVEF) \\< 30%\n7. Patient has received a heart transplant or any other organ transplant or is on a waiting list for an organ transplant\n8. Patient is receiving or scheduled to receive chemotherapy for malignancy within 30 days prior to or after the procedure\n9. Patient is receiving immunosuppression therapy, other than steroids or has known immunosuppressive or autoimmune disease (e.g., human immunodeficiency virus, systemic lupus erythematosus, etc.)\n10. Patient has a known hypersensitivity or contraindication to aspirin, both heparin and bivalirudin, clopidogrel, prasugrel or ticagrelor, Novolimus, Sirolimus, Rivaroxaban, Argatroban, CoCr alloys, PLLA polymers or contrast sensitivity that cannot be adequately pre-medicated\n11. Elective surgery is planned within the first 6 months after the procedure that will require discontinuing either aspirin or clopidogrel or other P2Y12 inhibitors\n12. Patient has severe renal dysfunction (CKD IV or V, eGFR \\<30) or is on dialysis\n13. Patient has had a cerebrovascular accident (CVA) or transient ischemic neurological attack (TIA) within the past six months\n14. Patient has had a significant GI or urinary bleed within the past six months\n15. Women of childbearing potential (unless they have a negative pregnancy test within 7 days of index procedure), or women who are pregnant or nursing\n16. Patient has other medical conditions or known history of substance abuse (alcohol, cocaine, heroin, etc.) that may cause non-compliance with the clinical study plan, confound the data interpretation, or be associated with a limited life expectancy (i.e., less than one year)\n17. Patient is already participating in another clinical study which has not reached the primary endpoint (long-term follow-up or observational studies are permitted)\n\n    Angiographic Exclusion Criteria\n18. Patient with vessel rupture and/or visible pericardial effusion\n19. Target lesion aorto-ostial location or within 5mm of the origin of the vessel (LAD, LCX, RCA)\n20. Target lesion is severely calcified and/or requires use of rotational atherectomy or cutting balloon, the use of shockwave or scoring balloon is allowed\n21. Target Lesion located in the Left Main artery\n22. Target Lesion located within an arterial or saphenous vein graft or distal to a diseased arterial or saphenous vein graft\n23. Target Lesion involves a bifurcation \\>2.5 mm, or which requires a planned 2 or more stent technique\n24. Previous placement of a stent within 10 mm of a target lesion\n25. Another clinically-significant lesion (\\> 50%) is located in the same major epicardial vessel as a target lesion\n26. Target vessel was previously treated with any type of PCI \\< 6 months prior to index procedure\n27. Unsuccessful or complicated PCI in a non-target vessel \\< 48 hours prior to index procedure\n28. Target vessel has a planned staged PCI \u2264 6 months after the index procedure\n\n    Additional Exclusion Criteria for PK study:\n29. Target vessel was previously treated with any type of PCI \\< 6 months prior to index procedure\n30. Patient with planned staged PCI within 90 days after study procedure\n31. Patients who have a non-target lesion treated during the study procedure",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "The DESyne BDS Plus RCT: A Randomized Clinical Trial to Assess the Elixir DESyne BDS Plus Drug Eluting Coronary Stent System for the Treatment of de Novo Native Coronary Artery Lesions",
+      "nctId": "NCT05033964",
+      "officialTitle": "The DESyne BDS Plus RCT: A Randomized Clinical Trial to Assess the Elixir DESyne BDS Plus Drug Eluting Coronary Stent System for the Treatment of de Novo Native Coronary Artery Lesions",
+      "orgStudyIdInfo": {
+        "id": "ELX-CL-2005"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Elixir Medical Corporation"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "defined as a per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target lesion revascularization",
+          "measure": "Target lesion failure",
+          "timeFrame": "3 days or through hospital discharge, whichever comes first"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "defined as the successful delivery of the designated device and a final residual stenosis \\< 30% by QCA without TLF",
+          "measure": "Acute success",
+          "timeFrame": "during hospital stay with a maximum of first seven days post index procedure"
+        },
+        {
+          "description": "defined as a per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target lesion revascularization",
+          "measure": "Target lesion failure",
+          "timeFrame": "30 days"
+        },
+        {
+          "description": "defined as a per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target lesion revascularization",
+          "measure": "Target lesion failure",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "defined as a per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target lesion revascularization",
+          "measure": "Target lesion failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "defined as a per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target lesion revascularization",
+          "measure": "Target lesion failure",
+          "timeFrame": "2 years"
+        },
+        {
+          "description": "defined as a per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target lesion revascularization",
+          "measure": "Target lesion failure",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "Cardiovascular and Non-cardiovascular",
+          "measure": "Death",
+          "timeFrame": "3 days or through hospital discharge, whichever comes first"
+        },
+        {
+          "description": "Cardiovascular and Non-cardiovascular",
+          "measure": "Death",
+          "timeFrame": "30 days"
+        },
+        {
+          "description": "Cardiovascular and Non-cardiovascular",
+          "measure": "Death",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Cardiovascular and Non-cardiovascular",
+          "measure": "Death",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Cardiovascular and Non-cardiovascular",
+          "measure": "Death",
+          "timeFrame": "2 years"
+        },
+        {
+          "description": "Cardiovascular and Non-cardiovascular",
+          "measure": "Death",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "Q-wave and non-Q-wave; Target vessel and non-target vessel",
+          "measure": "Myocardial Infarction",
+          "timeFrame": "3 days or through hospital discharge, whichever comes first"
+        },
+        {
+          "description": "Q-wave and non-Q-wave; Target vessel and non-target vessel",
+          "measure": "Myocardial Infarction",
+          "timeFrame": "30 days"
+        },
+        {
+          "description": "Q-wave and non-Q-wave; Target vessel and non-target vessel",
+          "measure": "Myocardial Infarction",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Q-wave and non-Q-wave; Target vessel and non-target vessel",
+          "measure": "Myocardial Infarction",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Q-wave and non-Q-wave; Target vessel and non-target vessel",
+          "measure": "Myocardial Infarction",
+          "timeFrame": "2 years"
+        },
+        {
+          "description": "Q-wave and non-Q-wave; Target vessel and non-target vessel",
+          "measure": "Myocardial Infarction",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "Clinically indicated and non-clinically indicated",
+          "measure": "Target Lesion Revascularization",
+          "timeFrame": "3 days or through hospital discharge, whichever comes first"
+        },
+        {
+          "description": "Clinically indicated and non-clinically indicated",
+          "measure": "Target Lesion Revascularization",
+          "timeFrame": "30 days"
+        },
+        {
+          "description": "Clinically indicated and non-clinically indicated",
+          "measure": "Target Lesion Revascularization",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "Clinically indicated and non-clinically indicated",
+          "measure": "Target Lesion Revascularization",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Clinically indicated and non-clinically indicated",
+          "measure": "Target Lesion Revascularization",
+          "timeFrame": "2 Years"
+        },
+        {
+          "description": "Clinically indicated and non-clinically indicated",
+          "measure": "Target Lesion Revascularization",
+          "timeFrame": "3 Years"
+        },
+        {
+          "description": "per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target vessel revascularization",
+          "measure": "Target Vessel Failure",
+          "timeFrame": "3 days or through hospital discharge, whichever comes first"
+        },
+        {
+          "description": "per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target vessel revascularization",
+          "measure": "Target Vessel Failure",
+          "timeFrame": "30 days"
+        },
+        {
+          "description": "per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target vessel revascularization",
+          "measure": "Target Vessel Failure",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target vessel revascularization",
+          "measure": "Target Vessel Failure",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target vessel revascularization",
+          "measure": "Target Vessel Failure",
+          "timeFrame": "2 years"
+        },
+        {
+          "description": "per-subject composite endpoint of cardiovascular death, target vessel MI, and clinically-indicated target vessel revascularization",
+          "measure": "Target Vessel Failure",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "powered secondary endpoint assessed by QCA in a subset of patients",
+          "measure": "Late Lumen Loss",
+          "timeFrame": "6 months"
+        },
+        {
+          "description": "assessment of the lesion and stent in a subset of patients.",
+          "measure": "Optical Coherence Tomography (OCT) imaging",
+          "timeFrame": "Post procedure and 6 months"
+        },
+        {
+          "description": "assessment of the blood pharmacokinetics of the three drugs eluted from the DESyne BDS Plus after implantation",
+          "measure": "Pharmacokinetic profile of the drugs on the DESyne BDS Plus Stent",
+          "timeFrame": "pre-treatment, and post-treatment at 10 minutes, 30 minutes, 1, 2, 4, 6, 12, 24, 72 hours, and 7 days"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": true,
+      "isFdaRegulatedDrug": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Elixir Medical Corporation"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-08-26",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-02",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2021-12-15",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-08",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-08-17",
+      "studyFirstSubmitQcDate": "2021-08-27"
+    }
+  }
+}

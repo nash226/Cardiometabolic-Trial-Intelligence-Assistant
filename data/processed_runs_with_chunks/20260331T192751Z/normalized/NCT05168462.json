@@ -1,0 +1,187 @@
+{
+  "arms": [
+    {
+      "description": null,
+      "intervention_names": [
+        "Drug: Reduced noradrenaline use"
+      ],
+      "label": "Reduced noradrenaline (MAP \u2265 55 mmHg)",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": null,
+      "intervention_names": [],
+      "label": "Usual care (MAP \u2265 65 mmHg)",
+      "type": "NO_INTERVENTION"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Cardiogenic Shock",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Myocardial Infarction",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion criteria:\n\n1. Acute myocardial infarction, STEMI or NSTEMI\n2. Early revascularization by PCI\n3. Cardiogenic shock, characterized by:\n\nI. a. Systolic blood pressure (SBP) \u2264 90 mmHg for \\> 30 minutes, OR b. Use of drugs to maintain SBP \\> 90 mmHg at randomization.\n\nII. Clinical signs of impaired organ perfusion with at least one of the following criteria:\n\n1. Altered mental status\n2. Cold, clammy skin and extremities\n3. Oliguria with urine output \\< 30ml/hour\n4. Serum lactate \\> 2.0 mmol/L\n\nIII. Clinical signs of pulmonary congestion\n\nExclusion Criteria:\n\n1. Resuscitation \\> 30 minutes\n2. Mechanical cause of cardiogenic shock (e.g. papillary muscle rupture, ventricular septal rupture)\n3. Onset of shock \\> 12 hours\n4. Imminent need for mechanical circulatory support (i.e. ECPR)\n5. Women \\<45 years",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Reduced noradrenaline (MAP \u2265 55 mmHg)"
+      ],
+      "description": "Reduced noradrenaline by using a lower MAP target",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Reduced noradrenaline use",
+      "normalized_name": "reduced noradrenaline use"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Composite of all-cause mortality and severe renal failure leading to renal replacement therapy",
+      "measure": "Mortality and renal failure",
+      "outcome_type": "primary",
+      "time_frame": "30-days"
+    },
+    {
+      "description": "Blood pressure measured hourly during the first 24 hours of ICU/CCU admission",
+      "measure": "Blood pressure (systolic and diastolic)",
+      "outcome_type": "secondary",
+      "time_frame": "The first 24 hours"
+    },
+    {
+      "description": "Heart rate, measured hourly during the first 24 hours of ICU/CCU admission",
+      "measure": "Heart rate",
+      "outcome_type": "secondary",
+      "time_frame": "The first 24 hours"
+    },
+    {
+      "description": "Size of myocardial infarction, measured by hs-Troponin T",
+      "measure": "Enzymatic infarct size, measured by hs-Troponin T",
+      "outcome_type": "secondary",
+      "time_frame": "0, 6, 12, 24, 36 and 72 hours"
+    },
+    {
+      "description": "Size of myocardial infarction, measured by CK-MB",
+      "measure": "Enzymatic infarct size, measured by CK-MB",
+      "outcome_type": "secondary",
+      "time_frame": "0, 6, 12, 24, 36 and 72 hours"
+    },
+    {
+      "description": "Type of mechanical circulatory support device",
+      "measure": "Need for mechanical circulatory support",
+      "outcome_type": "secondary",
+      "time_frame": "Recorded after ICU/CCU discharge, assessed up to 60 days"
+    },
+    {
+      "description": "Duration of mechanical ventilation, expressed in days",
+      "measure": "Duration of mechanical ventilation",
+      "outcome_type": "secondary",
+      "time_frame": "Recorded after ICU/CCU discharge, assessed up to 60 days"
+    },
+    {
+      "description": "The type of vasopressors / inotropes that were administrered",
+      "measure": "Need for vasopressors / inotropes",
+      "outcome_type": "secondary",
+      "time_frame": "Recorded after ICU/CCU discharge, assessed up to 60 days"
+    },
+    {
+      "description": "As measured by echocardiography and/or MRI",
+      "measure": "Ejection fraction, percent",
+      "outcome_type": "secondary",
+      "time_frame": "72 hours and 1 year"
+    },
+    {
+      "description": "Renal function, measured by serum creatinin",
+      "measure": "Renal function",
+      "outcome_type": "secondary",
+      "time_frame": "1 year"
+    },
+    {
+      "description": "Cost per patients alive without severe renal failure and costs per QALY (quality-adjusted life year)",
+      "measure": "Cost-effectiveness",
+      "outcome_type": "secondary",
+      "time_frame": "1-year"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Rationale: Pump failure due to acute myocardial infarction (AMI) can lead to cardiogenic shock (CS): a state of low blood flow to end-organs with subsequent multi-organ failure that is associated with high mortality rated. The first line pharmacologic treatment strategy in CS is noradrenaline. This vasopressor drug is used to maintain adequate blood pressures. The assumption is that a mean arterial blood pressure (MAP) \u2265 65 mmHg will improve flow and thereby tissue perfusion of myocardium and other tissues (e.g. renal). However, there is no evidence that an increase in MAP, if achieved by noradrenaline, leads to greater end-organ blood flow and better outcomes.\n\nObjective: With this study the investigators aim to investigate the (cost-)effectiveness of reduced noradrenaline in patients with CS by using a lower MAP target of \u2265 55 mmHg, compared to \u2265 65 mmHg. The investigators hypothesize that reduced use of noradrenaline will improve overall survival and decrease renal failure requiring renal replacement therapy.\n\nStudy design: Open label, randomized controlled multicenter trial\n\nStudy population: Adults patients with CS due to AMI\n\nIntervention: Treatment strategy of reduced noradrenaline, by using a lower MAP target ( \u2265 55 mmHg).\n\nMain study endpoint: composite of all-cause mortality and severe renal failure leading to renal replacement therapy within 30-days after randomization.",
+    "brief_title": "Clinical Outcome and Cost-effectiveness of Reduced Noradrenaline by Using a Lower Blood Pressure Target in Patients With Cardiogenic Shock From Acute Myocardial Infarction",
+    "collaborator_names": [],
+    "completion_date": "2028-04-01",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion criteria:\n\n1. Acute myocardial infarction, STEMI or NSTEMI\n2. Early revascularization by PCI\n3. Cardiogenic shock, characterized by:\n\nI. a. Systolic blood pressure (SBP) \u2264 90 mmHg for \\> 30 minutes, OR b. Use of drugs to maintain SBP \\> 90 mmHg at randomization.\n\nII. Clinical signs of impaired organ perfusion with at least one of the following criteria:\n\n1. Altered mental status\n2. Cold, clammy skin and extremities\n3. Oliguria with urine output \\< 30ml/hour\n4. Serum lactate \\> 2.0 mmol/L\n\nIII. Clinical signs of pulmonary congestion\n\nExclusion Criteria:\n\n1. Resuscitation \\> 30 minutes\n2. Mechanical cause of cardiogenic shock (e.g. papillary muscle rupture, ventricular septal rupture)\n3. Onset of shock \\> 12 hours\n4. Imminent need for mechanical circulatory support (i.e. ECPR)\n5. Women \\<45 years",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 776,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Reduced noradrenaline use"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Noradrenaline",
+      "Blood pressure target",
+      "Cardiogenic shock",
+      "Myocardial infarction"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-03-27",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05168462",
+    "official_title": "Clinical Outcome and Cost-effectiveness of Reduced Noradrenaline by Using a Lower Blood Pressure Target in Patients With Cardiogenic Shock From Acute Myocardial Infarction",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2027-04-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05168462",
+    "start_date": "2022-10-01",
+    "study_first_posted_at": "2021-12-23",
+    "study_type": "INTERVENTIONAL"
+  }
+}

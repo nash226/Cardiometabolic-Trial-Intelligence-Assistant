@@ -1,0 +1,192 @@
+{
+  "arms": [
+    {
+      "description": "Patients with moderate to high risk CMV risk will get letermovir for prophylaxis for 6 months for moderate risk and 1 year for high risk",
+      "intervention_names": [
+        "Drug: Letermovir"
+      ],
+      "label": "Letermovir",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Patients with moderate to high risk CMV risk will get valganciclovir for prophylaxis for 6 months for moderate risk and 1 year for high risk. This is standard of care",
+      "intervention_names": [
+        "Drug: Valganciclovir"
+      ],
+      "label": "Valganciclovir",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Low risk CMV patients who do not have an indication for CMV prophylaxis will be monitored",
+      "intervention_names": [],
+      "label": "No treatment",
+      "type": "NO_INTERVENTION"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "CMV Viremia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Heart Transplant Infection",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Heart Transplant Failure and Rejection",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\nPatients who are \\>18 years of age who have received a heart transplant and have not started their CMV prophylaxis regimen will be included.\n\nExclusion Criteria:\n\nHistory of or suspected CMV disease within 6 months prior is excluded.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "99 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Letermovir"
+      ],
+      "description": "CMV prophylaxis",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Letermovir",
+      "normalized_name": "letermovir"
+    },
+    {
+      "arm_group_labels": [
+        "Valganciclovir"
+      ],
+      "description": "Standard therapy for CMV prophylaxis",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Valganciclovir",
+      "normalized_name": "valganciclovir"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Number of patients with leukopenia (white blood cell count \\<3000 cells \u00b5L)",
+      "measure": "Occurrence of leukopenia",
+      "outcome_type": "primary",
+      "time_frame": "During the duration of CMV prophylaxis (6 months for moderate risk and 12 months for high risk from start of therapy)"
+    },
+    {
+      "description": "Number of patients with neutropenia (absolute neutrophil count \\<1500 cells/\u00b5L)",
+      "measure": "Occurrence of neutropenia",
+      "outcome_type": "primary",
+      "time_frame": "During the duration of CMV prophylaxis (Up to 6 months for moderate risk and up to 12 months for high risk from start of therapy)"
+    },
+    {
+      "description": "Number of patients with any positive CMV viral load detected by polymerase chain reaction (PCR)",
+      "measure": "Number of patients with any detectable CMV viremia after initiation of CMV prophylaxis",
+      "outcome_type": "secondary",
+      "time_frame": "6 months after initiation of CMV prophylaxis"
+    },
+    {
+      "description": "Number of patients with any positive CMV viral load detected by PCR.",
+      "measure": "Number of patients with any detectable CMV viremia while on CMV prophylaxis",
+      "outcome_type": "secondary",
+      "time_frame": "During the duration of CMV prophylaxis (Up to 6 months for moderate risk and up to 12 months for high risk patients)"
+    },
+    {
+      "description": "Number of patients with any positive CMV viral load detected by PCR.",
+      "measure": "Number of patients with any detectable CMV viremia after completing CMV prophylaxis",
+      "outcome_type": "secondary",
+      "time_frame": "Within 6 months after completing CMV prophylaxis"
+    },
+    {
+      "description": "Exploratory: looking at T cell unity against CMV. Assessing the predictive attributes of a positive test on the chance of future CMV viremia or disease.",
+      "measure": "Percent of CD4 and CD8 T cells that respond to CMV antigen",
+      "outcome_type": "other",
+      "time_frame": "6 months to 1 year after initiating CMV prophylaxis"
+    },
+    {
+      "description": "Exploratory: TTV activity will be measured by the TTV assay. This will be used to assess the immunogenicity of heart transplant patients that are identified as being at increased risk of infection or rejection.",
+      "measure": "Viral load of the torque teno virus (TTV)",
+      "outcome_type": "other",
+      "time_frame": "6 months to 1 year after initiating CMV prophylaxis"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The purpose of this study is to compare the safety and efficacy of letermovir with valganciclovir for prevention of Cytomegalovirus (CMV) viremia in moderate to high risk serostatus heart transplant recipients.",
+    "brief_title": "Valganciclovir vs. Letermovir for CMV Prophylaxis in Heart Transplant",
+    "collaborator_names": [
+      "Cornell University"
+    ],
+    "completion_date": "2029-01-17",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\nPatients who are \\>18 years of age who have received a heart transplant and have not started their CMV prophylaxis regimen will be included.\n\nExclusion Criteria:\n\nHistory of or suspected CMV disease within 6 months prior is excluded.",
+    "detailed_description": "This trial is a multi-center prospective, two-arm randomized study designed to assess the safety of letermovir use as the primary prophylaxis for CMV in patients recently transplanted with a heart. Although there are findings to support the safety and efficacy profiles of letermovir in certain patient populations (kidney transplant, lung transplant, and hematopoetic stem cell transplant), there is a clear lack of prospective data to support use of letermovir at the primary prevention of CMV for patients recently transplanted with a heart. Thus, despite numerous studies showing letermovir to be non-inferior to valganciclovir with a substantial reduction in leukopenia and neutropenia, valganciclovir continues to be the initial CMV prophylaxis in heart transplant recipients. This study aims to either confirm the findings about letermovir as seen in other patient populations, or to highlight potential concerns about using letermovir in heart transplant patients. Patients who get letermovir will also be given acyclovir for HSV (Herpes Simplex Virus) prophylaxis for 6 months. Those taking valganciclovir will not need this as HSV is covered by valganciclovir. Low risk patients will also be monitored during this period for a better understanding of CMV disease in this population.",
+    "drug_class_labels": [],
+    "enrollment_count": 150,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Letermovir",
+      "Valganciclovir"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-09-25",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Columbia University",
+    "masking": "NONE",
+    "maximum_age_text": "99 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07079735",
+    "official_title": "VALganciclovir vs. LETermovir for Primary Prevention of CMV in Moderate to High-Risk Heart Transplant Recipients (The VALET-CMV Study)",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2",
+      "PHASE3"
+    ],
+    "primary_completion_date": "2028-01-17",
+    "primary_purpose": "PREVENTION",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07079735",
+    "start_date": "2025-09-12",
+    "study_first_posted_at": "2025-07-23",
+    "study_type": "INTERVENTIONAL"
+  }
+}

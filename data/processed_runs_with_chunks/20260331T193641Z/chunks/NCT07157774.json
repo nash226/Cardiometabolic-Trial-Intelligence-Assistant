@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07157774:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07157774\nBrief title: Assessing the Impact of Muvalaplin on Major Cardiovascular Events in Adults With Elevated Lipoprotein(a)\nOfficial title: A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Effect of Muvalaplin on the Reduction of Major Adverse Cardiovascular Events in Adults With Elevated Lipoprotein(a) Who Have Had a Prior Atherosclerotic Cardiovascular Event or Are at Risk for a First Atherosclerotic Cardiovascular Event\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 73,
+      "trial_nct_id": "NCT07157774"
+    },
+    {
+      "chunk_id": "NCT07157774:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Elevated Lp(a); Atherosclerotic Cardiovascular Disease (ASCVD)\nIntervention labels: Muvalaplin; Placebo\nDrug class labels: \nArms: Muvalaplin; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT07157774"
+    },
+    {
+      "chunk_id": "NCT07157774:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to evaluate the efficacy of muvalaplin in reducing cardiovascular risk in participants with high lipoprotein(a) who have cardiovascular disease or are at risk of a heart attack or stroke.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT07157774"
+    },
+    {
+      "chunk_id": "NCT07157774:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Have Lp(a) \u2265175 nanomoles per liter (nmol/L)\n* Meet one of the following criteria:\n\n  * Have had a prior atherosclerotic cardiovascular disease (ASCVD) event (such as heart attack, stroke, or procedure to restore blood flow to the heart or other parts of the body) within 10 years prior to screening\n  * Are at risk for a first ASCVD event, defined as one or more of the following:\n\n    * Documented coronary artery disease (CAD), carotid stenosis, or peripheral artery disease (PAD) without a history of ASCVD event\n    * A high coronary artery calcium (CAC) score\n    * Reduced kidney function with diabetes\n    * Combination(s) of high risk factors\n\nExclusion Criteria:\n\n* Have experienced a major cardiovascular event or surgery, such as heart attack, stroke, or procedure to restore blood flow to the heart or other parts of the body, within 90 days prior to screening or occurring between screening and randomization\n* Are planning or expected to undergo a procedure to restore blood flow in the arteries or a major heart surgery during the study\n* Have uncontrolled high blood pressure\n* Have New York Heart Association (NYHA) class III or IV heart failure\n* Have undergone a procedure to remove cholesterol from the blood within 90 days of screening, or have a planned procedure during the study\n* Have severe kidney impairment\n* Have had cancer within 5 years prior to screening",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 251,
+      "trial_nct_id": "NCT07157774"
+    },
+    {
+      "chunk_id": "NCT07157774:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to First Occurrence of Any Component of the Major Adverse Cardiac Event (MACE)-4 Composite Endpoint | time_frame=Baseline up to End of Study (About 5.25 Years) | description=Time to first event in a MACE-4 composite endpoint, comprised of cardiovascular death, nonfatal myocardial infarction, nonfatal ischemic stroke, and urgent coronary revascularization.\ntype=secondary | measure=Percent Change from Baseline in Lipoprotein(a) (Lp(a)) at Week 4 | time_frame=Baseline, Week 4\ntype=secondary | measure=Time to First Occurrence of Any Component of the MACE-3 Composite Endpoint | time_frame=Baseline up to End of Study (About 5.25 Years)\ntype=secondary | measure=Time to First Occurrence of Any Component of the Modified MACE-3 Composite Endpoint | time_frame=Baseline up to End of Study (About 5.25 Years)\ntype=secondary | measure=Time to First Occurrence of Any Component of the Coronary MACE-3 Composite Endpoint | time_frame=Baseline up to End of Study (About 5.25 Years)\ntype=secondary | measure=Time to First Occurrence of Any Component of MACE-3 + Major Adverse Limb Event (MALE) Composite Endpoint | time_frame=Baseline up to End of Study (About 5.25 Years)\ntype=secondary | measure=Time to Occurrence of All-Cause Mortality | time_frame=Baseline up to End of Study (About 5.25 Years)\ntype=secondary | measure=Time to First Occurrence of Each Individual Component of the MACE-4 Composite Endpoint | time_frame=Baseline up to End of Study (About 5.25 Years)\ntype=secondary | measure=Change from Baseline to Each Annual Visit for Health-Care Resource Utilization (HCRU) | time_frame=Baseline up to End of Study (About 5.25 Years)\ntype=secondary | measure=Pharmacokinetics (PK): Trough Concentration at Steady State (C-trough, ss) of Muvalaplin | time_frame=Predose through Week 96",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 256,
+      "trial_nct_id": "NCT07157774"
+    },
+    {
+      "chunk_id": "NCT07157774:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-09-02\nPrimary completion date: 2031-03\nCompletion date: 2031-03\nStudy first posted: 2025-09-05\nResults first posted: None\nLast update posted: 2026-03-24\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07157774"
+    },
+    {
+      "chunk_id": "NCT07157774:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Eli Lilly and Company\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07157774"
+    }
+  ],
+  "trial_nct_id": "NCT07157774"
+}

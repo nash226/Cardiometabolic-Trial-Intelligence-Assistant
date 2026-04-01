@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06174766:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06174766\nBrief title: A Study to Evaluate Efficacy and Safety of HGP2102 in Essential Hypertension Patients\nOfficial title: A Multicenter, Randomized, Double-blind, Phase 3 Study to Evaluate Efficacy and Safety of HGP2102 in Patients With Essential Hypertension\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06174766"
+    },
+    {
+      "chunk_id": "NCT06174766:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hypertension\nIntervention labels: HGP2102-1; HGP2102-2; RLD2209-1; RLD2209-2\nDrug class labels: \nArms: Experimental1; Experimental2; Active Comparator\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06174766"
+    },
+    {
+      "chunk_id": "NCT06174766:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A Multicenter, Randomized, Double-blind, Phase 3 Study to Evaluate the Efficacy and Safety of HGP2102 in patients with Essential Hypertension\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 25,
+      "trial_nct_id": "NCT06174766"
+    },
+    {
+      "chunk_id": "NCT06174766:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Subjects whose clinic blood pressure measured in visit 1 corresponds to the following conditions\n\n   * sitSBP\\<180 mmHg and sitDBP\\<110mg for patients receiving any BP-lowering drug within 1 month prior to Visit 1\n   * 140mmHG\u2264sitSBP\\<180mmHg and 60mmHg\u2264sitDBP\\<110mmHg\n2. Subjects whose clinic and ambulatory blood pressure measured in visit 2 corresponds to the following conditions\n\n   * 24h-ABPM: 130mmHg\u2264 SBP \\<170mmHg\n   * clinic BP: 140 mmHg \u2264 sitSBP \\< 180 mmHg and 60 mmHg \u2264 sitDBP \\< 110 mmHg\n\nExclusion Criteria:\n\n1. Difference between arms greater than 20 mmHg for mean sitSBP or 10mmHg for mean sitDBP at Visit 1\n2. Patients who have taken more than three components of Blood pressure medication within 3 months prior to Visit 1\n3. Orthostatic hypotension with symptoms within 3 months prior to visit 1\n4. Secondary hypertension patient or suspected to be\n5. Uncontrolled type II diabetes mellitus (HbA1c \\> 9%) or type I diabetes mellitus\n6. Severe heart disease or severe neurovascular disease\n7. Moderate or malignant retinopathy\n8. Severe renal diseases (eGFR\\<30mL/min/1.73m2)\n9. Severe or active hepatopathy (AST or ALT \u2265 2 times of normal range)\n10. Hypokalemia or Hyperkalemia (K\\<3.5mmol/L or K \u2265 5.5mmol/L)\n11. Hyponatremia or Hypernatremia (Na\\<135mmol/L or Na \u2265 155mmol/L)\n12. History of malignancy tumor\n13. History of alcohol or drug abuse\n14. Positive to pregnancy test, nursing mother, intention on pregnancy\n15. Considered by investigator as not appropriate to participate in the clinical study with other reason",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 259,
+      "trial_nct_id": "NCT06174766"
+    },
+    {
+      "chunk_id": "NCT06174766:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change from baseline in 24 hours ambulatory systolic blood pressure | time_frame=baseline, 10 weeks\ntype=secondary | measure=Change from baseline in 24 hours ambulatory systolic blood pressure | time_frame=baseline, 4 weeks\ntype=secondary | measure=Change from baseline in 24 hours ambulatory diastolic blood pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in 24 hours ambulatory pulse pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in diurnal ambulatory systolic blood pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in diurnal ambulatory diastolic blood pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in diurnal ambulatory pulse pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in nocturnal ambulatory systolic blood pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in nocturnal ambulatory diastolic blood pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in nocturnal ambulatory pulse pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in sitting systolic blood pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in sitting diastolic blood pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Change from baseline in sitting pulse pressure | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Proportion of subjects achieving blood pressure control | time_frame=baseline, 4 weeks, 10 weeks\ntype=secondary | measure=Blood pressure response rate | time_frame=baseline, 4 weeks, 10 weeks",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 241,
+      "trial_nct_id": "NCT06174766"
+    },
+    {
+      "chunk_id": "NCT06174766:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-05-10\nPrimary completion date: 2026-12-31\nCompletion date: 2026-12-31\nStudy first posted: 2023-12-18\nResults first posted: None\nLast update posted: 2025-06-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06174766"
+    },
+    {
+      "chunk_id": "NCT06174766:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Hanmi Pharmaceutical Company Limited\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06174766"
+    }
+  ],
+  "trial_nct_id": "NCT06174766"
+}

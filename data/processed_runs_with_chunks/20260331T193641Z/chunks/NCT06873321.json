@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06873321:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06873321\nBrief title: VTE Incidence After Rivaroxaban + Aspirin or SAPT After Lower-limb Revascularization\nOfficial title: Incidence of Venous Thromboembolism After Lower Limb Revascularization in Patients Receiving Rivaroxaban 2.5 Mg Bid + Aspirin 100 Mg Versus Single Antiplatelet Treatment - a Randomized Clinical Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 54,
+      "trial_nct_id": "NCT06873321"
+    },
+    {
+      "chunk_id": "NCT06873321:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Peripheral Arterial Disease; Venous Thormboembolism; Cardiovascular Diseases; Vascular Surgery Patient with PAD / Carotid Stenosis\nIntervention labels: rivaroxaban 2.5 mg bid + aspirin 100 mg; clopidogrel 75 mg od for 3 months followed by aspirin 100 mg od for endovascular procedures or aspirin for open procedures\nDrug class labels: \nArms: study arm; comparator\nKeywords: Peripheral Arterial Disease; chronic limb-threatening ischemia; Deep Vein Thrombosis; venous thromboembolism; Factor Xa Inhibitors; rivaroxaban",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 73,
+      "trial_nct_id": "NCT06873321"
+    },
+    {
+      "chunk_id": "NCT06873321:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Venous thromboembolism (VTE) has a high prevalence in patients with multiple comorbidities undergoing complex surgical procedures. Sometimes, extended prophylaxis for VTE with KLMWH or direct oral anticoagulants (DOACs) is necessary. Currently, there is no consensus in the literature regarding the use of DOACs for extended VTE prophylaxis in patients undergoing lower limb revascularization (LLR). Objective: To evaluate the use of DOACs (already approved to reduce MACE and MALE) in VTE prophylaxis in patients undergoing LLR.\nDetailed description: The goal of this clinical trial is to evaluate the 30-day VTE incidence in patients submitted to endovascular or open surgery for lower limbs revascularization treated with either rivaroxaban 2.5 mg bid + aspirin 100 mg or single antiplatelet agents (SoC). The main questions it aims to answer are:\n\nDoes rivaroxaban 2.5 mg + aspirin reduce the incidence of 30-day VTE?\n\nResearchers will compare rivaroxaban 2.5 mg bid + aspirin 100 mg to a single antiplatelet agent to check comparative VTE incidence.\n\nParticipants will:\n\nTake either rivaroxaban 2.5 mg bid + aspirin continuously or single antiplatelet agent (clopidogrel for 3 months followed by aspirin 100 mg for endovascular procedures or aspirin for oper procedures) Visit the clinic once every 2 weeks for checkups and tests, and a mandatory Doppler ultrasound at day 30 Keep a diary of their symptoms\n\nStudy Population The study population will consist of patients hospitalized in the vascular surgery ward at the Hospital das Cl\u00ednicas/Brazilian Hospital Services Company-Federal University of Pernambuco (HC/EBSERH-UFPE) who undergo arterial revascularization surgery of the lower limbs (LL) via angioplasty (ATP) or bypass surgery.\n\nThe study will determine the sample size by the criteria established by Resolution 466/12 of the National Health Council. The estimated sample size is 200 research participants, with 100 in the study group and 100 in the control group. If the degree of dispersion is high, the number of research participants may be adjusted.\n\nStudy Design A single-center randomized clinical trial. Randomization will be performed using the REDCap platform. Due to the nature of the procedure, blinding will not be possible.\n\nConsidering an acceptable margin of error (5%), a confidence level of 95%, and a prevalence of 50% for venous diseases, with a heterogeneity level of 50%.\n\nSelection of Research Participants The selection of research participants will follow specific inclusion and exclusion criteria. After selection, participants will be randomly assigned to the Study Group (SG) or the Control Group (CG).\n\nCG (Control Group): Will receive standard treatment as described in the literature: Aspirin (ASA) 100 mg once daily for patients undergoing lower limb bypass revascularization, and ASA 100 mg once daily combined with Clopidogrel 75 mg once daily for patients undergoing lower limb angioplasty.\n\nSG (Study Group): Will receive ASA 100 mg once daily plus Rivaroxaban 2.5 mg twice daily for patients undergoing bypass or angioplasty revascularization.\n\nA total of 100 patients will be included in the study, equally divided between the control and study groups. Randomization will be performed via the REDCap platform.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 495,
+      "trial_nct_id": "NCT06873321"
+    },
+    {
+      "chunk_id": "NCT06873321:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: None\nMaximum age: None\nAge groups: CHILD; ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Be adults of any age and gender.\n2. Have critical limb ischemia with a proposed revascularization treatment (either via ATP or bypass surgery) at the Vascular Surgery Service of HC/EBSERH - UFPE.\n3. Sign the informed consent form (ICF) (Appendix 2).\n\nExclusion Criteria:\n\n1. Experience a symptomatic VTE event during hospitalization, as they will require full anticoagulation rather than prophylactic anticoagulation.\n2. Have any contraindications to Rivaroxaban.\n3. Do not return for the 30-day postoperative follow-up visit.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 97,
+      "trial_nct_id": "NCT06873321"
+    },
+    {
+      "chunk_id": "NCT06873321:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=primary efficacy outcome | time_frame=30 days | description=Incidence of symptomatic + asymptomatic deep vein thrombosis (DVT) or pulmonary embolism (PE) 30 days post-hospital discharge.\ntype=primary | measure=primary safety outcome | time_frame=30 days | description=Combination of clinically relevant non-major bleeding + major bleeding defined by the ISTH criteria",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT06873321"
+    },
+    {
+      "chunk_id": "NCT06873321:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-02-24\nPrimary completion date: 2025-07-20\nCompletion date: 2025-07-30\nStudy first posted: 2025-03-12\nResults first posted: None\nLast update posted: 2025-03-12\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06873321"
+    },
+    {
+      "chunk_id": "NCT06873321:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Science Valley Research Institute\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06873321"
+    }
+  ],
+  "trial_nct_id": "NCT06873321"
+}

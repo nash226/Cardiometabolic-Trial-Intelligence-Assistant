@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07288398:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07288398\nBrief title: LEVEL-2: LEVosimendan to Improve Exercise Limitation in Patients With PH-HFpEF-2\nOfficial title: A Phase 3, Double-Blind, Randomized, Placebo-Controlled Study of Levosimendan in Pulmonary Hypertension Patients With Heart Failure With Preserved Left Ventricular Ejection Fraction\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT07288398"
+    },
+    {
+      "chunk_id": "NCT07288398:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Pulmonary Hypertension Associated With HFpEF\nIntervention labels: TNX-103; Placebo\nDrug class labels: \nArms: Placebo; TNX-103\nKeywords: PH-HFpEF; levosimendan; HFpEF; Heart Failure; Pulmonary Hypertension Group 2",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT07288398"
+    },
+    {
+      "chunk_id": "NCT07288398:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to assess the efficacy and safety of the study drug, levosimendan (given orally), compared to placebo in participants with pulmonary hypertension with heart failure with preserved left ventricular ejection fraction (PH-HFpEF) as measured by the change in 6-Minute Walk Distance.\nDetailed description: Approximately 540 participants will be randomized in a 2:1 ratio to receive an oral dose of levosimendan or placebo. Participants will be eligible for an open label extension (OLE) of 52-weeks.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 81,
+      "trial_nct_id": "NCT07288398"
+    },
+    {
+      "chunk_id": "NCT07288398:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: 85 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Men or women, \u226518 to 85 years of age\n2. NYHA Class II or III or ambulatory NYHA Class IV symptoms\n3. A diagnosis of World Health Organization (WHO) Group 2 PH-HFpEF with qualifying hemodynamics verified by right heart catheterization (RHC)\n4. A qualifying baseline RHC\n5. A qualifying echocardiogram\n6. A qualifying 6-MWD\n7. A 48-hour ambulatory cardiac rhythm monitor during the Screening Period\n8. Requirements related to child bearing potential, contraception, and egg/sperm donation)\n\nExclusion Criteria:\n\n1. A diagnosis of PH WHO Groups 1, 3, 4, or 5\n2. Echocardiographic evidence for hypertrophic cardiomyopathy, restrictive cardiomyopathy, constrictive pericarditis, cardiac amyloidosis, or infiltrative cardiomyopathy\n3. Structural heart repair or replacement of the aortic valve or mitral valve (surgical or percutaneous) OR, planned valve intervention OR, the presence of significant valve disease\n4. A diagnosis of pre-existing lung disease\n5. History of severe allergic or anaphylactic reaction or hypersensitivity to the excipients in the investigational product\n6. Major surgery within 60 days\n7. Prior heart, lung, or heart-lung transplants or life expectancy of \\<12 months\n8. History of clinically significant other diseases that may limit or complicate participation in the study",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 212,
+      "trial_nct_id": "NCT07288398"
+    },
+    {
+      "chunk_id": "NCT07288398:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=6-Minute Walk Distance (6MWD) | time_frame=26 weeks | description=Change in 6-minute walk distance\ntype=secondary | measure=KCCQ (Kansas City Cardiomyopathy Questionnaire) score is a standardized measure that ranges from 0 to 100, where a higher score indicates better health. | time_frame=26 weeks | description=Change in KCCQ Total Symptom Score\ntype=secondary | measure=Clinical Worsening Events | time_frame=26 weeks | description=Number of Clinical Worsening Events\ntype=secondary | measure=Clinical Worsening Event | time_frame=26 weeks | description=Time to first occurrence of a Clinical Worsening Event\ntype=secondary | measure=NYHA (New York Heart Association) classification assesses and categorizes a patient's physical ability and symptoms into four classes, the lower the classification, the least impact on physical activity. | time_frame=26 weeks | description=Change in NYHA Functional Class",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 121,
+      "trial_nct_id": "NCT07288398"
+    },
+    {
+      "chunk_id": "NCT07288398:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2026-03-03\nPrimary completion date: 2028-06-30\nCompletion date: 2029-06-30\nStudy first posted: 2025-12-17\nResults first posted: None\nLast update posted: 2026-03-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07288398"
+    },
+    {
+      "chunk_id": "NCT07288398:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Tenax Therapeutics, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 42,
+      "trial_nct_id": "NCT07288398"
+    }
+  ],
+  "trial_nct_id": "NCT07288398"
+}

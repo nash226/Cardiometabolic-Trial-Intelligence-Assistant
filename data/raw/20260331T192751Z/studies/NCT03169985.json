@@ -1,0 +1,395 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D020763",
+          "term": "Pathological Conditions, Anatomical"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        },
+        {
+          "id": "D058226",
+          "term": "Plaque, Atherosclerotic"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013449",
+          "term": "Sulfonamides"
+        },
+        {
+          "id": "D000577",
+          "term": "Amides"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D005464",
+          "term": "Fluorobenzenes"
+        },
+        {
+          "id": "D006845",
+          "term": "Hydrocarbons, Fluorinated"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D013450",
+          "term": "Sulfones"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D001384",
+          "term": "Azetidines"
+        },
+        {
+          "id": "D001385",
+          "term": "Azetines"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000068718",
+          "term": "Rosuvastatin Calcium"
+        },
+        {
+          "id": "D000069438",
+          "term": "Ezetimibe"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "In patients who have moderate stenosis(30-70%) in coronary artery and deferred to medical treatment by intracoronary physiologic or radiologic test, this arm will be received rosuvastatin 10 mg plus ezetimibe 10 mg qd during 12 months after randomization.",
+          "interventionNames": [
+            "Drug: Rosuvastatin 10 mg plus ezetimibe 10 mg orally once a day"
+          ],
+          "label": "Rosuvastatin plus ezetimibe arm",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "In patients who have moderate stenosis(30-70%) in coronary artery and deferred to medical treatment by intracoronary physiologic or radiologic test, this arm will be received rosuvastatin 20 mg qd during 12 months after randomization.",
+          "interventionNames": [
+            "Drug: Rosuvastatin 20 mg orally once a day"
+          ],
+          "label": "High-dose rosuvastatin monotherapy arm",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Rosuvastatin plus ezetimibe arm"
+          ],
+          "description": "After the initial 12 months, randomized intervention will be stopped and then this arm will be received either usual dose rosuvastatin plus ezetimibe or high-dose rosuvastatin during the next 24 months by clinical judgement.",
+          "name": "Rosuvastatin 10 mg plus ezetimibe 10 mg orally once a day",
+          "otherNames": [
+            "Rosuzet tablet 10/10 mg"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "High-dose rosuvastatin monotherapy arm"
+          ],
+          "description": "After the initial 12 months, randomized intervention will be stopped and then this arm will be received either usual dose rosuvastatin plus ezetimibe or high-dose rosuvastatin during the next 24 months based by clinical judgement.",
+          "name": "Rosuvastatin 20 mg orally once a day",
+          "otherNames": [
+            "Crestor tablet 20 mg"
+          ],
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "Rosuvastatin",
+        "Ezetimibe",
+        "Atherosclerotic plaque",
+        "Intravascular ultrasound"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "Samsung Medical Center",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "zip": "06351"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Samsung Medical Center",
+          "name": "Joo-Yong Hahn, MD, PhD",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this prospective, open-label, randomized, single center study is to compare the effect of usual dose rosuvastatin plus ezetimibe and high-dose rosuvastatin on modifying atherosclerotic plaque.",
+      "detailedDescription": "High-intensity statin therapy have shown improved clinical outcomes compared to placebo or moderate-intensity statin therapy. Based on these results, 2013 American College of Cardiology/American Heart Association(ACC/AHA) guideline on treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults recommended high-intensity statin therapy to patient with coronary artery disease for secondary prevention. However, high-intensity statin therapy was known to increase risk of diabetes mellitus and complication such as hepatotoxicity and myalgia. An alternative to high-intensity statin therapy is reducing the dose of statin and using drug that can improve blood cholesterol level by a different mechanism than statin. Ezetimibe acts on Niemann-Pick C1-like protein then inhibits cholesterol absorption in the intestine, which can reduce low-density lipoprotein(LDL) cholesterol more effectively when administered with statin. In IMPROVE-IT study, simvastatin plus ezetimibe decreased ischemic events more than simvastatin alone in patients with acute coronary syndrome. Although this study could confirm the additional effect of ezetimibe by using the same amount of simvastatin in both groups, it could not compare the effect of statin plus ezetimibe and high dose statin monotherapy. Moreover, there were few data on the efficacy of ezetimibe added to rosuvastatin which is one of the effective statin recommended by various guidelines. One study reported that rosuvastatin 2.5 mg plus ezetimibe 10 mg was superior to rosuvastatin 5 mg monotherapy in reducing LDL cholesterol. Another study reported that adding rosuvastatin 5 mg to ezetimibe 10 mg was more effective than rosuvastatin 5 mg alone in reducing coronary atherosclerotic lesions as measured by intravascular ultrasound. However, the previous studies did not compare the efficacy of combination therapy of usual dose rosuvastatin and ezetimibe to high-dose statin monotherapy. Therefore, investigators aimed to compare the effect of rosuvastatin 10 mg plus ezetimibe 10 mg to rosuvastatin 20 mg alone on the reduction of coronary atherosclerosis in patient with coronary artery disease. If this study shows that the combination of usual dose rosuvastatin and ezetimibe is not inferior to high dose rosuvastatin monotherapy in anti-atherosclerotic effect and safety, it would provide a basis for effective and safe cholesterol treatment."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, open label, two-arm, randomized controlled trial",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The obtained intravascular ultrasound(IVUS) data will be stored through the storage device in the core lab of Heart Center of Heart Vascular Stroke Institute in Samsung Medical Center, and the treatment group to which the patient belongs would not be known. Subsequent baseline and follow-up IVUS data will be analyzed together by independent experts without knowledge of the patient's treatment group.",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 280,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject must be at least 19 years of age\n* Subject with suspected ischemic heart disease undergoing coronary angiography and have intermediate coronary artery stenosis (30-70% by visual estimation) whose revascularization was deferred based on invasive physiologic assessment using fractional flow reserve (\\>0.80) or intravascular ultrasound (minimum lumen area\\> 4mm2)\n* Subject can verbally confirm understandings of risks, benefits and treatment alternatives of receiving statin or ezetimibe and he/she or his/her legally authorized representative provides written informed consent prior to any study related procedure.\n\nExclusion Criteria:\n\n* Subject has calculated creatinine clearance \\<30 mL/min or dialysis within 30 days.\n* Subject has active liver disease or persistent unexplained serum transaminase elevations (x2 x upper limit of normal \\[ULN\\]).\n* Subject requires the following concomitant medications: cyclosporine, danazol, niacin, fibrates as concomitant medications\n* Subject requires any of the potent CYP3A4 inhibitors, itraconazole, ketoconazole, erythromycin, clarithromycin, and telithromycin, HIV protease inhibitors, nefazodone, probucol, resins, and any investigational drugs.\n* Subject has an allergy/sensitivity to any statin, ezetimibe, and/or their excipients.\n* Subject with history of myopathy or family history of myopathy\n* Untreated hypothyroidism\n* Subject has a history of alcohol and/or drug abuse.\n* Subject is a pregnant or lactating woman, or woman intending to become pregnant.\n* Non-cardiac co-morbid conditions are present with life expectancy \\<2 year or that may result in protocol non-compliance (per site investigator's medical judgment).\n* Unwillingness or inability to comply with the procedures described in this protocol.\n\n  * Eligible patients will be randomly assigned to treatment arms, stratified by diagnosis on admission(acute coronary syndrome or stable ischemic heart disease) and presence of chronic statin use (more than one month)",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "Rosuzet-IVUS",
+      "briefTitle": "Randomized Controlled Trial of Moderate-Intensity Rosuvastatin With Ezetimibe Combination Therapy Versus High-Intensity Rosuvastatin on Progression of Coronary Atherosclerotic Plaque",
+      "nctId": "NCT03169985",
+      "officialTitle": "The Effect of Moderate-intensity Rosuvastatin Plus Ezetimibe Versus High-intensity Rosuvastatin on Coronary Atherosclerotic Plaque by Intravascular Ultrasound (ROSUZET-IVUS Trial)",
+      "orgStudyIdInfo": {
+        "id": "Rosuzet-IVUS16453143"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Samsung Medical Center"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "After publication of first manuscript and trial results, the de-identified data will be shared by permission of principle investigator, when asked.",
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "PAV is calculated as the percentage of the sum of external elastic membrane(EEM) cross sectional areas(CSA) occupied by total atheroma volume(TAV). TAV was determined by summation of the plaque area, defined as the difference between EEM and lumen CSA, for all evaluable images. These values could be expressed as follows:\n\nTAV = \u2211(EEM CSA - lumen CSA), PAV = 100 X \u2211(EEM CSA - lumen CSA) / \u2211EEM CSA",
+          "measure": "Change in percent atheroma volume(PAV) in non-culprit lesions",
+          "timeFrame": "12 months after index coronary angiography(CAG)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The TAV is normalized to the length corresponding to the median number of comparable slices for each treatment group in view of the variability in the length of pullback analyzed between subjects. This value could be expressed as follows:\n\nnormalized TAV = \\[\u2211(EEM CSA - lumen CSA) / number of images in pullback\\] X median number of images in cohort",
+          "measure": "Change in normalized TAV in non-culprit lesions",
+          "timeFrame": "12 months after index CAG"
+        },
+        {
+          "description": "Indexed TAV is calculated as TAV divided by the length of plaque in each subject. This value could be expressed as follows:\n\nIndexed TAV = \u2211(EEM CSA - lumen CSA) / plaque length",
+          "measure": "Change in indexed TAV",
+          "timeFrame": "12 months after index CAG"
+        },
+        {
+          "description": "In case that OCT is conducted",
+          "measure": "Change in fibrous cap thickness by OCT(optical coherence tomography)",
+          "timeFrame": "12 months after index CAG"
+        },
+        {
+          "description": "Physiologic index",
+          "measure": "Change in fractional flow reserve(FFR)",
+          "timeFrame": "12 months after index CAG"
+        },
+        {
+          "description": "Physiologic index",
+          "measure": "Change in coronary flow reserve(CFR)",
+          "timeFrame": "12 months after index CAG"
+        },
+        {
+          "description": "Physiologic index",
+          "measure": "Change in index of microcirculatory resistance(IMR)",
+          "timeFrame": "12 months after index CAG"
+        },
+        {
+          "description": "TAV which is measured in CT angiography",
+          "measure": "Change in TAV in coronary computed tomography(CT) angiography",
+          "timeFrame": "24 months after index CAG"
+        },
+        {
+          "description": "MACE is defined as a composite of death, myocardial infarction, stroke and revascularization.",
+          "measure": "Major adverse cardiovascular events(MACE)",
+          "timeFrame": "12, 24 and 36 months after index CAG"
+        },
+        {
+          "description": "HOMA index is a method used to quantify insulin resistance. This values could be calculated with fasting plasma glucose and insulin, as follows:\n\nHOMA index = glucose X insulin (mg/dL) / 405",
+          "measure": "Change in homeostatic model assessment(HOMA) index",
+          "timeFrame": "6 months after index CAG"
+        },
+        {
+          "description": "For risk of developing diabetes mellitus by statin therapy",
+          "measure": "Change in fasting glucose",
+          "timeFrame": "6 and 12 months after index CAG"
+        },
+        {
+          "description": "For risk of developing diabetes mellitus by statin therapy",
+          "measure": "Change in hemoglobin A1c",
+          "timeFrame": "6 and 12 months after index CAG"
+        },
+        {
+          "description": "Fasting plasma triglyceride(TG), high-density lipoprotein(HDL), LDL and total cholesterol. These items will be compared separately, and described as a group of lipid profile.",
+          "measure": "Change in lipid profile",
+          "timeFrame": "1, 6 and 12 months after index CAG"
+        },
+        {
+          "description": "hs-CRP",
+          "measure": "Change in high-sensitivity C-reactive protein(hs-CRP)",
+          "timeFrame": "1 and 12 months after index CAG"
+        },
+        {
+          "description": "1. Creatine kinase(CK) elevation \\> 10 times upper limit of normal(ULN)\n2. CK elevation \\> 10 times ULN on two consecutive visits\n3. Hepatic transaminases \\> 3 times ULN\n4. Hepatic transaminases \\> 3 times ULN on two consecutive visits\n5. Document reason for discontinuation of study medication\n\nThese items will be described together as a group of safety endpoint, such as number of participants with abnormal laboratory values and adverse events.",
+          "measure": "Safety endpoint: Number of participants with abnormal laboratory values and adverse events",
+          "timeFrame": "1 and 12 months after index CAG"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Hanmi Pharmaceutical co., ltd."
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Samsung Medical Center"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Samsung Medical Center",
+        "investigatorFullName": "Joo-Yong Hahn",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-01-28",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-07-13",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-01-28",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2017-07-12",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-07",
+      "studyFirstPostDateStruct": {
+        "date": "2017-05-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-05-24",
+      "studyFirstSubmitQcDate": "2017-05-26"
+    }
+  }
+}

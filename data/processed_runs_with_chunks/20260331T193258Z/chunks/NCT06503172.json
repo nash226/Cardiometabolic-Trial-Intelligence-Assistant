@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06503172:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06503172\nBrief title: Whole Grain Job's Tear, Muscle Health, Blood Glucose and Lipid Level\nOfficial title: The Clinical Effectiveness of Taiwanese Whole Grain Job's Tear on Muscle Health, Blood Glucose and Lipid Levels- a Randomized Controlled Trial\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06503172"
+    },
+    {
+      "chunk_id": "NCT06503172:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Sarcopenia; Frailty; Hyperglycemia; Hyperlipidemia\nIntervention labels: Taiwanese whole grain job's tear (red job's tear); White job's tear\nDrug class labels: \nArms: Taiwanese whole grain job's tear (Red job's tear); White job's tear; Active comparator group\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 40,
+      "trial_nct_id": "NCT06503172"
+    },
+    {
+      "chunk_id": "NCT06503172:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Background: This investigation aims to explore efficacy of Taiwanese whole grain job's tear on muscle health and blood glucose and lipid levels in community-dwelling older adults.\n\nMethods: An open-label, 16-week, randomized controlled, cross-over trial involving participants with subject complaint of slower gait or weakness or fall in last year were recruited. The intervention group consumed Taiwanese whole grain job's tear (red job's tear) or white job's tear. Assessments included laboratory tests, functional assessments, and body composition.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 81,
+      "trial_nct_id": "NCT06503172"
+    },
+    {
+      "chunk_id": "NCT06503172:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 60 Years\nMaximum age: 95 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: True\nCriteria: Inclusion Criteria:\n\nPeople who aged 60-95 years\n\nPatients with following characteristics:\n\nfeeling loss in activity detecting decline in self's walking speed. feeling tired of doing everything. having fall event in last year. People willing to follow the program and cooperate with us for following tracking.\n\nPeople who are neither vegan nor vegetarian People agree and be able to sign the informed consent.\n\nExclusion Criteria:\n\nPeople with any disease affecting their limbs, including:\n\nhaving fracture on limbs in the past 6 months having severe arthritis in the past 6 months any other whom PI recognized as weak control of their nervous system( e.g.: Parkinson's disease and stroke).\n\nPeople with intermittent limp caused by peripheral artery diseases People with weak control of mental disorder People with weak control of Cardiopulmonary disease People with weak control of Malignant tumor People with weak control of kidney diseases (eGFR \\<60ml/min/1.73) People with Visual impairment and Hearing disorder which cannot help to complete the program.\n\nPeople who have underwent hormone treatment and planned to undergo hormone treatment during program session.\n\nAny other condition that PI recognized as not suitable",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 201,
+      "trial_nct_id": "NCT06503172"
+    },
+    {
+      "chunk_id": "NCT06503172:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Changes of appendicular skeletal muscle index(ASMI) | time_frame=0, 8, 16 week | description=ASMI=appendicular skeletal muscle mass(kg)/(height(m)2)\ntype=primary | measure=Changes of handgrip strength | time_frame=0, 8, 16 week | description=Maximal handgrip strength of dominant hand (kg)\ntype=primary | measure=Changes of gait speed | time_frame=0, 8, 16 week | description=Usual gait speed measured by 6-meter walking (m/s)\ntype=primary | measure=Changes of time required to finish timed up and go(TUG) test | time_frame=0, 8, 16 week | description=Changes of time required to finish timed up and go(TUG) test\ntype=secondary | measure=Changes of inflammation marker | time_frame=0, 8, 16 week | description=defined by hsCRP\ntype=secondary | measure=Changes of insulin resistance | time_frame=0, 8, 16 week | description=Measured by HOMA-IR\ntype=secondary | measure=Changes of LDL | time_frame=0, 8, 16 week | description=Changes of LDL\ntype=secondary | measure=Changes of muscle biomarker 1 | time_frame=0, 8 week | description=Measured by serum myostatin\ntype=secondary | measure=Changes of muscle biomarker 2 | time_frame=0, 8 week | description=Measured by serum follistatin\ntype=secondary | measure=Changes of muscle biomarker 3 | time_frame=0, 8 week | description=Measured by serum activin A",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 180,
+      "trial_nct_id": "NCT06503172"
+    },
+    {
+      "chunk_id": "NCT06503172:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-06-14\nPrimary completion date: 2024-12\nCompletion date: 2024-12\nStudy first posted: 2024-07-16\nResults first posted: None\nLast update posted: 2024-07-16\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06503172"
+    },
+    {
+      "chunk_id": "NCT06503172:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Taipei Veterans General Hospital, Taiwan\nLead sponsor class: OTHER_GOV\nCollaborators: Taichung District Agricultural Research and Extension Station, Ministry of Agriculture, Taiwan\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 31,
+      "trial_nct_id": "NCT06503172"
+    }
+  ],
+  "trial_nct_id": "NCT06503172"
+}

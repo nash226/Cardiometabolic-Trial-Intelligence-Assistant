@@ -1,0 +1,191 @@
+{
+  "arms": [
+    {
+      "description": "will include 22 patients who will receive 10 mg oral empagliflozin administered simultaneously with the first dose of loop diuretics each day for 3 days",
+      "intervention_names": [
+        "Drug: empagliflozin"
+      ],
+      "label": "Empagliflozin group",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "will include 22 patients who will receive 500 mg oral acetazolamide administered simultaneously with the first dose of loop diuretics each day for 3 days",
+      "intervention_names": [
+        "Drug: Acetazolamide"
+      ],
+      "label": "Acetazolamide group",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "will include 22 patients who will receive 5 mg oral metolazone administered simultaneously with the first dose of loop diuretics each day for 3 days",
+      "intervention_names": [
+        "Drug: metolazone"
+      ],
+      "label": "Metolazone group",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Acute Decompensated Heart Failure",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Male or female patients older than 18 years.\n2. Hospital admission with clinical diagnosis of acute decompensated heart failure with at least one clinical sign of volume overload (e.g. edema, ascites confirmed by echography or pleural effusion confirmed by chest X-ray or echography).\n\nExclusion Criteria:\n\n1. Type 1 diabetes.\n2. Chronic kidney disease with estimated glomerular filtration rate (eGFR) \\<30 mL/min per 1.73 m\u00b2 or end-stage kidney failure with the need for chronic dialysis treatment.\n3. A systolic blood pressure of less than 90 mmHg.\n4. Cardiogenic shock.\n5. Receipt of acetazolamide maintenance therapy.\n6. Receipt of an SGLT2 inhibitor, thiazide, or thiazide-like diuretic in the 48 hrs before randomization.\n7. Any cause of heart failure leading to decompensation that will need urgent management (eg, acute coronary syndrome, unstable arrhythmias, acute pulmonary embolism).\n8. Pregnant or breastfeeding women.\n9. Moderate to severe anemia.",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Empagliflozin group"
+      ],
+      "description": "Empagliflozin may augment the natriuretic and aquaretic actions of loop diuretics in patients with acute decompensated heart failure and it does not typically cause electrolyte disturbances and has been shown to improve outcomes in patients with heart failure",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "empagliflozin",
+      "normalized_name": "empagliflozin"
+    },
+    {
+      "arm_group_labels": [
+        "Acetazolamide group"
+      ],
+      "description": "Acetazolamide can augment the action of loop diuretics in patients with acute decompensated heart failure",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Acetazolamide",
+      "normalized_name": "acetazolamide"
+    },
+    {
+      "arm_group_labels": [
+        "Metolazone group"
+      ],
+      "description": "Metolazone can augment the action of loop diuretics in patients with acute decompensated heart failure",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "metolazone",
+      "normalized_name": "metolazone"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": null,
+      "measure": "The cumulative urine output measured over 3 days",
+      "outcome_type": "primary",
+      "time_frame": "3 days"
+    },
+    {
+      "description": "Blood samples will be collected at baseline and after 4 days",
+      "measure": "- The change in serum level of N-terminal pro-brain natriuretic peptide (NT-proBNP)",
+      "outcome_type": "secondary",
+      "time_frame": "4 days"
+    },
+    {
+      "description": "Blood samples will be collected at baseline and after 4 days",
+      "measure": "The change in serum level of Soluble suppression of tumorigenicity 2 (sST2)",
+      "outcome_type": "secondary",
+      "time_frame": "4 days"
+    },
+    {
+      "description": "Urine samples will be collected at baseline and after 3 days",
+      "measure": "The change in urinary level of Tissue inhibitor of metalloproteinases-2 (TIMP-2 )",
+      "outcome_type": "secondary",
+      "time_frame": "3 days"
+    },
+    {
+      "description": "Urine samples will be collected at baseline and after 3 days",
+      "measure": "The change in urinary level of Insulin-like growth factor-binding protein 7 (IGFBP7)",
+      "outcome_type": "secondary",
+      "time_frame": "3 days"
+    },
+    {
+      "description": "Proportion of patients who die within 30 days of randomization",
+      "measure": "30-day mortality",
+      "outcome_type": "secondary",
+      "time_frame": "up to 30 days"
+    },
+    {
+      "description": "the treating physician will calculate the congestion score, on a scale from 0 to 10 on the basis of the sum of scores for the degree of edema (0 to 4), pleural effusion (0 to 3), and ascites (0 to 3), with higher scores indicating a worse condition on all scales",
+      "measure": "Proportion of patients achieving an ADVOR Score \u2264 1 without the need for escalating diuretic strategy",
+      "outcome_type": "secondary",
+      "time_frame": "3 days"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The aim of this study is to compare the efficacy and safety of empagliflozin, acetazolamide, and metolazone as add-on therapies to loop diuretics in patients with acute decompensated heart failure.",
+    "brief_title": "Add-on Diuretics in Acute Decompensated Heart Failure",
+    "collaborator_names": [],
+    "completion_date": "2027-02-01",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Male or female patients older than 18 years.\n2. Hospital admission with clinical diagnosis of acute decompensated heart failure with at least one clinical sign of volume overload (e.g. edema, ascites confirmed by echography or pleural effusion confirmed by chest X-ray or echography).\n\nExclusion Criteria:\n\n1. Type 1 diabetes.\n2. Chronic kidney disease with estimated glomerular filtration rate (eGFR) \\<30 mL/min per 1.73 m\u00b2 or end-stage kidney failure with the need for chronic dialysis treatment.\n3. A systolic blood pressure of less than 90 mmHg.\n4. Cardiogenic shock.\n5. Receipt of acetazolamide maintenance therapy.\n6. Receipt of an SGLT2 inhibitor, thiazide, or thiazide-like diuretic in the 48 hrs before randomization.\n7. Any cause of heart failure leading to decompensation that will need urgent management (eg, acute coronary syndrome, unstable arrhythmias, acute pulmonary embolism).\n8. Pregnant or breastfeeding women.\n9. Moderate to severe anemia.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 66,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "empagliflozin",
+      "Acetazolamide",
+      "metolazone"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Empagliflozin",
+      "Acetazolamide",
+      "Metolazone",
+      "Acute heart failure",
+      "Add-on therapies to Loop diuretics"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-02-04",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Tanta University",
+    "masking": "NONE",
+    "maximum_age_text": null,
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT07372040",
+    "official_title": "Clinical Study Comparing Empagliflozin, Acetazolamide, and Metolazone as Add-on Therapies to Loop Diuretics in Acute Decompensated Heart Failure",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE2"
+    ],
+    "primary_completion_date": "2027-02-01",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT07372040",
+    "start_date": "2026-02-01",
+    "study_first_posted_at": "2026-01-28",
+    "study_type": "INTERVENTIONAL"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07076082:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07076082\nBrief title: Vascular Trial Associated Registry Pilot\nOfficial title: Vascular Trial Associated Registry Pilot: Antiplatelet Therapies for Patients Undergoing Lower Extremity Endovascular Revascularization\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT07076082"
+    },
+    {
+      "chunk_id": "NCT07076082:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Peripheral Arterial Disease\nIntervention labels: Clopidogrel (Plavix) Pharmacogenetic Test Reagents\nDrug class labels: \nArms: Dual antiplatelet therapy 1-Month followed by single antiplatelet therapy indefinitely; Dual antiplatelet therapy 6-Month followed by single antiplatelet therapy indefinitely\nKeywords: Peripheral Vascular Disease (PVD), Peripheral Vascular Intervention (PVI), Dual Antiplatelet therapy (DAPT), Peripheral Arterial Disease (PAD)",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 55,
+      "trial_nct_id": "NCT07076082"
+    },
+    {
+      "chunk_id": "NCT07076082:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this investigator-initiated, multicenter, open label, randomized trial is to evaluate 1 month vs. 6 months of dual antiplatelet therapy (DAPT) in patients undergoing lower extremity endovascular revascularization. We hypothesize that extending dual antiplatelet therapy (DAPT) to six months, compared to one month, will improve patency rates of target vessels following peripheral vascular intervention (PVI) without significantly increasing complications, particularly bleeding events.\nDetailed description: The Main Objective of this study is to create an investigator-initiated, multicenter, open label, randomized trial to evaluate 1 month vs. 6 months of DAPT in patients undergoing lower extremity endovascular revascularization. The randomization will be 1:1 within one strata (diabetes yes/no), using blocks of varying sizes. All patients will be on DAPT for one month. At the time of the one-month visit, eligible patients who consent will be randomized to single antiplatelet therapy (SAPT) indefinitely (Arm 1) or to DAPT for 5 more months (followed by SAPT) (Arm 2). Follow-up will continue for 12-months post-procedure and will include assessment of MACE and MALE, as well as adverse bleeding events. Data for this trial will be collected via nested participation in the VQI Peripheral Vascular Intervention (PVI) registry's existing Procedural and Follow-up data collection modules.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 203,
+      "trial_nct_id": "NCT07076082"
+    },
+    {
+      "chunk_id": "NCT07076082:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 45 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Age greater than or equal to 45 at time of enrollment\n* Patient is scheduled for a PVI or has recently had a PVI in the last 30 days\n* Patient data is being submitted to Fivos, who is acting as the data collection subcontractor for the VQI-PVI registry.\n* Atherosclerotic vascular disease\n\nExclusion Criteria:\n\n* Patients who cannot consent for themselves\n* Allergy to Clopidogrel\n* Patients unable to stop clopidogrel for other medical reasons\n* Patients on dual pathway inhibition (DPI) with low dose rivaroxaban (2.5mg twice a day) that are unable to stop these medications\n* Allergy to aspirin\n* Nonatherosclerotic vascular disease\n* Patients undergoing open bypass at the same time as the peripheral transcutaneous angioplasty\n* Patients with high bleeding risk (HBR) defined as:\n\n  * History of major bleeding, active bleeding disorder, severe renal impairment (CrCl \\<30), concurrent anticoagulation, platelet count \\<100,000\n  * Recent stroke (within 6 months)\n  * Current warfarin therapy or full dose therapeutic direct oral anticoagulants (DOAC).\n* Patients unwilling or unable to comply with standard of care follow-up visits\n* Pregnant women\n* Prisoners",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 203,
+      "trial_nct_id": "NCT07076082"
+    },
+    {
+      "chunk_id": "NCT07076082:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The proportion of patients eligible who are offered study enrollment | time_frame=1 year | description=Patients who undergo PVI that meet inclusion criteria and are offered enrollment.\ntype=primary | measure=The proportion of eligible patients who consent to enrollment and randomization | time_frame=1 year | description=Patients who meet inclusion criteria and agree to participate in trial vs those that do not agree to participate in trial\ntype=primary | measure=The proportion of enrolled patients who have the primary (composite) event of interest defined at 6 months | time_frame=6-months | description=The number of enrolled patients that have the occurrence of one of the following stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.\ntype=primary | measure=The proportion of enrolled patients who have the primary (composite) event of interest defined at 12 months | time_frame=1 year | description=The number of enrolled patients that have the occurrence of one of the following stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.\ntype=primary | measure=The numbers and proportions of patients who have each type of major event | time_frame=1 year | description=Of the enrolled patients that have a medical primary event how many individuals were in each category stroke, myocardial infarction, major amputation (above ankle), urgent revascularization (thrombolysis, endovascular therapy, or surgical bypass), or loss of patency of the target vessel.\ntype=primary | measure=The proportions of patients who have major event status recorded at each observation time | time_frame=1 year | description=Major event status at 1, 6-months post PVI and 12-month post PVI",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 276,
+      "trial_nct_id": "NCT07076082"
+    },
+    {
+      "chunk_id": "NCT07076082:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-10-15\nPrimary completion date: 2027-10-30\nCompletion date: 2028-10-30\nStudy first posted: 2025-07-21\nResults first posted: None\nLast update posted: 2026-01-07\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07076082"
+    },
+    {
+      "chunk_id": "NCT07076082:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Corewell Health West\nLead sponsor class: OTHER\nCollaborators: Henry Ford Hospital\nCountries: \nHas US sites: False\nLocation sample: NOT_YET_RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT07076082"
+    }
+  ],
+  "trial_nct_id": "NCT07076082"
+}

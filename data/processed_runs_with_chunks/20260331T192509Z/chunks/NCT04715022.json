@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04715022:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04715022\nBrief title: Sympathetic-vascular Dysfunction in Obesity and Insulin Resistance (Vitamin C Study)\nOfficial title: Sympathetic-vascular Dysfunction in Obesity and Insulin Resistance\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE1; PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT04715022"
+    },
+    {
+      "chunk_id": "NCT04715022:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hypertension; Cardiovascular Diseases\nIntervention labels: Ascorbic acid solution (American Regent Laboratories Inc.); Saline\nDrug class labels: \nArms: Placebo infusion; Ascorbic acid infusion\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 27,
+      "trial_nct_id": "NCT04715022"
+    },
+    {
+      "chunk_id": "NCT04715022:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The main purpose of research is to examine and understanding the development of hypertension in obese adults with insulin resistance. Findings from our studies will identify unique mechanisms that can be targeted to limit increases in vascular dysfunction and reduce the excessively high prevalence of hypertension and risk for cardiovascular disease (CVD).\n\nThis study is testing the health of the blood vessels and the activity of the nerves that control the blood vessels in adults with insulin resistance. The extent to which ascorbic acid (Vitamin C) improves the function of the blood vessels will be determined. The primary outcome is blood pressure, which is the result of blood vessel health and activity of the nerves, and the reduction in blood pressure that is observed with ascorbic acid.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 132,
+      "trial_nct_id": "NCT04715022"
+    },
+    {
+      "chunk_id": "NCT04715022:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 35 Years\nMaximum age: 65 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Obese: BMI \\>30 m/kg2\n2. Middle-aged: 35-65 years\n3. Participants must be willing and able to discontinue taking any vitamin C or E supplements or omega-3 fatty acids beginning 2 weeks prior.\n4. Able and willing to provide written informed consent\n\nExclusion Criteria:\n\n1. Diabetes mellitus: fasting glucose \\< 1267 mg/dL and/or HbA1c \\< 6.5%\n2. Currently taking a statin or antihypertension medication\n3. Hyperlipidemia: Fasting triglycerides \\< 250 mg/dL\n4. Hypertension: \\<130/80 mmHg\n5. History of heart disease (e.g., myocardial infarction, stent)\n6. History of vascular disease (e.g., bypass, stroke)",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 112,
+      "trial_nct_id": "NCT04715022"
+    },
+    {
+      "chunk_id": "NCT04715022:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Efficacy of infusion of ascorbic acid | time_frame=30 minutes | description=The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.\ntype=primary | measure=Efficacy of infusion of ascorbic acid | time_frame=60 minutes | description=The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.\ntype=primary | measure=Efficacy of infusion of ascorbic acid | time_frame=90 minutes | description=The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.\ntype=primary | measure=Efficacy of infusion of ascorbic acid | time_frame=120 minutes | description=The difference in sympathetic-vascular transduction (mmHg) between ascorbic acid and placebo infusion will be taken as a measure of the modulation of SVT by oxidative stress.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 152,
+      "trial_nct_id": "NCT04715022"
+    },
+    {
+      "chunk_id": "NCT04715022:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-06-17\nPrimary completion date: 2026-08-01\nCompletion date: 2027-08-01\nStudy first posted: 2021-01-20\nResults first posted: None\nLast update posted: 2025-06-08\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT04715022"
+    },
+    {
+      "chunk_id": "NCT04715022:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: University of Kansas Medical Center\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT04715022"
+    }
+  ],
+  "trial_nct_id": "NCT04715022"
+}

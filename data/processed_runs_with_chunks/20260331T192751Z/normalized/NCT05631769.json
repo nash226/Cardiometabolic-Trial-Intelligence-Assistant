@@ -1,0 +1,268 @@
+{
+  "arms": [
+    {
+      "description": "Patients who receive percutaneous coronary intervention for coronary artery disease, and who have High bleeding risk (defined according to the ARC-HBR criteria) will be randomized to 1 month or 3 month DAPT duration.",
+      "intervention_names": [
+        "Drug: Dual antiplatelet agent duration"
+      ],
+      "label": "HBR - 1M DAPT",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Patients who receive percutaneous coronary intervention for coronary artery disease, and who have High bleeding risk (defined according to the ARC-HBR criteria) will be randomized to 1 month or 3 month DAPT duration.",
+      "intervention_names": [
+        "Drug: Dual antiplatelet agent duration"
+      ],
+      "label": "HBR - 3M DAPT",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Patients who receive percutaneous coronary intervention for coronary artery disease, and who do NOT have High bleeding risk (defined according to the ARC-HBR criteria) will be randomized to 3 month or 12 month DAPT duration.",
+      "intervention_names": [
+        "Drug: Dual antiplatelet agent duration"
+      ],
+      "label": "LBR - 12M DAPT",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Patients who receive percutaneous coronary intervention for coronary artery disease, and who do NOT have High bleeding risk (defined according to the ARC-HBR criteria) will be randomized to 3 month or 12 month DAPT duration.",
+      "intervention_names": [
+        "Drug: Dual antiplatelet agent duration"
+      ],
+      "label": "LBR - 3M DAPT",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Coronary Artery Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Acute Myocardial Infarction",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Stable Angina",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "* Inclusion Criteria:\n\n  1. The patient agrees to participate in this study by signing the informed consent form. Alternatively, a legally authorized patient representative may agree to the patient's participation in this study and sign the informed consent form.\n  2. The patient in whom the Bleeding Risk (according to the ARC-HBR classification) can be calculated.\n  3. The patient has a working diagnosis of coronary artery disease which has been treated with percutaneous coronary intervention.\n* Exclusion Criteria:\n\n  1. Hypersensitivity to aspirin or P2Y12 inhibitors\n  2. Patients in whom coroanry artery disease has been decided to be medically managed without a coronary stent.\n  3. Positive pregnancy test or is known to be pregnant\n  4. Any other reason the investigator deems the subject to be unsuitable for the study (e.g., Any life-threatening condition with life expectancy less than 6months, etc.)",
+    "healthy_volunteers": false,
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "HBR - 1M DAPT",
+        "HBR - 3M DAPT",
+        "LBR - 12M DAPT",
+        "LBR - 3M DAPT"
+      ],
+      "description": "Patients who receive percutaneous coronary intervention for coronary artery disease will be randomized to arms with different DAPT strategies.\n\nThe randomization will be stratified according to the High bleeding risk (defined according to the ARC-HBR criteria).",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Dual antiplatelet agent duration",
+      "normalized_name": "dual antiplatelet agent duration"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": null
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "NACE; the composite of All-cause Death, Myocardial Infarction (MI), Stent thrombosis, Stroke, or Major Bleeding event",
+      "measure": "Net Adverse Clinical Events",
+      "outcome_type": "primary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Bleeding events, defined by the BARC (Bleeding Academic Research Consortium) or ISTH (International Society on Thrombosis and Haemostasis) classification",
+      "measure": "Any bleeding event",
+      "outcome_type": "primary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "MACCE; the composite of Cardiac Death, Myocardial Infarction (MI), Stent thrombosis, Ischemic Stroke",
+      "measure": "Major-Adverse Cardiac or Cerebral Events",
+      "outcome_type": "primary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Medication compliance to the allocated DAPT regimen: A 'Pill count adherence' will be used to calculate medication compliance. This will be calculated by the following formula: '\\[(quantity dispensed)-(quantity remaining)\\] over (Prescribed number of tablets between dates of interview)'.",
+      "measure": "Medication compliance",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Myocardial Infarction, Stent thrombosis",
+      "measure": "Coronary thrombotic event",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Death due to any cause",
+      "measure": "All-cause death",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Death due to cardiac cause",
+      "measure": "Cardiac death",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Death due to non-cardiac cause",
+      "measure": "Non-cardiac death",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Death due to cardiovascular cause",
+      "measure": "Cardiovascular death",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Death due to non-cardiovascular cause",
+      "measure": "Non-cardiovascular death",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any myocardial infarction event (Clinically irrelevant periprocedural myocardial infarction will NOT be added to analysis)",
+      "measure": "Any myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any myocardial infarction related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'",
+      "measure": "Target vessel related myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any myocardial infarction NOT related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'",
+      "measure": "Non-Target vessel related myocardial infarction",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any coronary revascularization event",
+      "measure": "Any revascularization",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any revascularization event NOT related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'",
+      "measure": "Non-Target vessel revascularization",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any revascularization event related to the target vessel; according to the 'Academic Research Consortium-2 Consensus'",
+      "measure": "Target vessel revascularization",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any cerebrovascular event",
+      "measure": "Any stroke",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any ischemic cerebrovascular event",
+      "measure": "Any ischemic stroke",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Any hemorrhagic cerebrovascular event",
+      "measure": "Any hemorrhagic stroke",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    },
+    {
+      "description": "Major bleeding events, defined by the ISTH (International Society on Thrombosis and Haemostasis) classification",
+      "measure": "Major bleeding",
+      "outcome_type": "secondary",
+      "time_frame": "1-year after percutaneous coronary intervention"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "* Dual antiplatelet agent therapy (DAPT) is essential in treating PCI patients. DAPT can minimize thrombotic adverse events that occur not only at the stented lesion, but along the whole coronary tree. However, DAPT has a critical side effect of increasing bleeding complications. Addressing the clinical imperatives of lowering bleeding while preserving ischemic benefit requires therapeutic strategies that decouple thrombotic from hemorrhagic risk.\n* Recently, the ARC definition of high bleeding risk (HBR) has been published, so as to stress the need of optimal DAPT treatment in HBR patients. Due to the definitely higher bleeding risk in HBR patients, it would be rather more straight forward to titrate the optimal DAPT duration in these patients. In this line, many studies are in progress on HBR patients, with an ultra-short DAPT duration (i.e. Leaders free, Onyx ONE, Master DAPT, Xience 28, Xience 90, Evolve short DAPT trial, etc.).\n* As a counteract to the definition of HBR, there is a concept of LBR. Due to the relatively vague ischemic/bleeding risk in LBR patients, balancing ischemic and bleeding complications post-PCI is more difficult in LBR patients, which may be a more important dilemma for clinicians. In this regards, limited evidence exists on the optimal duration of DAPT in LBR patients. Various previous studies that have evaluated the optimal DAPT in PCI populations, did not have the concept of HBR or LBR, making interpretation difficult.\n* Therefore, this study is planning to compare the efficacy and safety of different DAPT durations, in patients stratified according to the ARB-HBR definition.",
+    "brief_title": "HOST - DAPT Duration According the Bleeding Risk",
+    "collaborator_names": [
+      "Hanyang University Seoul Hospital"
+    ],
+    "completion_date": "2027-12-31",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "* Inclusion Criteria:\n\n  1. The patient agrees to participate in this study by signing the informed consent form. Alternatively, a legally authorized patient representative may agree to the patient's participation in this study and sign the informed consent form.\n  2. The patient in whom the Bleeding Risk (according to the ARC-HBR classification) can be calculated.\n  3. The patient has a working diagnosis of coronary artery disease which has been treated with percutaneous coronary intervention.\n* Exclusion Criteria:\n\n  1. Hypersensitivity to aspirin or P2Y12 inhibitors\n  2. Patients in whom coroanry artery disease has been decided to be medically managed without a coronary stent.\n  3. Positive pregnancy test or is known to be pregnant\n  4. Any other reason the investigator deems the subject to be unsuitable for the study (e.g., Any life-threatening condition with life expectancy less than 6months, etc.)",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 4900,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Dual antiplatelet agent duration"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "percutenous coronary intervention",
+      "dual antiplatelet therapy",
+      "bleeding risk"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-07-23",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Seoul National University Hospital",
+    "masking": "SINGLE",
+    "maximum_age_text": null,
+    "minimum_age_text": "19 Years",
+    "nct_id": "NCT05631769",
+    "official_title": "Harmonizing Optimal Strategy for Treatment of Coronary Artery Diseases - DAPT Duration According the Bleeding Risk",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2024-12-31",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05631769",
+    "start_date": "2020-07-24",
+    "study_first_posted_at": "2022-11-30",
+    "study_type": "INTERVENTIONAL"
+  }
+}

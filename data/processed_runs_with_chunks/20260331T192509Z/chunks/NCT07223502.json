@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07223502:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07223502\nBrief title: A Study Comparing the Clinical Benefit of Finerenone Versus a Fixed Dose Combination (FDC) of Extended-Release Torsemide and Spironolactone in Patients With Hypertension and Chronic Kidney Disease\nOfficial title: A Randomized, Parallel, Two Arm Study Comparing the Net Clinical Benefit of Finerenone Versus a Fixed Dose Combination of Extended-Release Torsemide and Spironolactone in Patients With Hypertension and PRoteinuric ChrOnic KidNey Disease\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 74,
+      "trial_nct_id": "NCT07223502"
+    },
+    {
+      "chunk_id": "NCT07223502:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hypertension (HTN)\nIntervention labels: Combination Product: FDC of spironolactone and ER torsemide; Combination Product: Stabilized doses of loop diuretic and finerenone\nDrug class labels: \nArms: Active Comparator: Fixed-dose combination (FDC) of ER Torsemide and Spironolactone tablet; Active Comparator: Continued on stabilized doses of loop diuretic and finerenone\nKeywords: radomized; two arm; parallel; torsemide; finerenone; spironolactone; fixed-dose combination; extended-release",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 62,
+      "trial_nct_id": "NCT07223502"
+    },
+    {
+      "chunk_id": "NCT07223502:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: A study Comparing the Clinical Benefit of Finerenone Versus a Fixed-Dose Combination (FDC) of Extended-Release Torsemide and Spironolactone in Patients with Hypertension and Chronic Kidney Disease.\nDetailed description: SAR-ERTSP-01P, A Randomized, Parallel, Two-Arm Study Comparing the Net Clinical Benefit of Finerenone Versus a Fixed-Dose Combination of Extended-Release Torsemide and Spironolactone in Patients with Hypertension and PRoteinuric ChrOnic KidNey Disease (NEPHRON).",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 62,
+      "trial_nct_id": "NCT07223502"
+    },
+    {
+      "chunk_id": "NCT07223502:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Adult male and female patients aged \u226518 years;\n2. Are diagnosed with a CKD;\n3. Have an eGFR of \u226525 and \u226460 mL/min/1.72 m2;\n4. Have an UACR 150-3500 mg/g and Sk 4.5 to 5.0 mmol/L;\n5. Have an observed clinic seated systolic blood pressure (SBP) of \u2265130 and \u2264170 mmHg;\n6. Are receiving up to an 80 mg daily dose of furosemide or an equivalent dose of other loop diuretics and and 10 mg daily dose of finerenone for 30 days;\n7. Willing and able to comply with all aspects of the protocol and to provide written informed consent from the patient or patient's legally acceptable representative (LAR);\n8. Willing to use effective methods of contraception during sexual intercourse with an opposite sex throughout the study.\n\nExclusion Criteria:\n\n1. Have a diagnosis of type I diabetes mellitus (T1DM);\n2. Have uncontrolled hypertension (SBP \\>170 mmHg);\n3. Have primary aldosteronism or endocrine disorders;\n4. Have serum potassium \\>5.0 or \\<4.5 mmol/L at screening;\n5. Unable to continue on 10 mg finerenone or require daily dose of more than 80mg furosemide or equivalent doses of other loop diuretics\n6. Have a recent diagnosis of acute kidney injury (\u22643 months);\n7. Had a cardiovascular event within 3 months prior to screening (e.g., myocardial infarction, stroke, transient ischemic attack, pulmonary embolism, elective coronary artery bypass grafting) or elective percutaneous coronary intervention within 1 month prior to screening;\n8. Had hospitalized for worsening heart failure in last 30 days;\n9. Have an autosomal dominant or recessive polycystic kidney disease;\n10. Have an Addison's disease;\n11. Have Hepatic insufficiency classified as Child-Pugh;\n12. Have a diagnosis of Lupus nephritis or anti-neutrophil cytoplasmic autoantibody (ANCA)-associated vasculitis or any other kidney diseases requiring immunosuppressive therapy;\n13. Have a history of organ transplant;\n14. Require treatment with potassium-sparing diuretics;\n15. Have an active malignancy;\n16. Currently taking potassium supplement or potassium binders;\n17. Have known hypersensitivity to sulfonamides or related compounds or spironolactone or finerenone;\n18. Is pregnant, breastfeeding, or planning to become pregnant during the study;\n19. Have participated in another clinical study involving any investigational drug within 30 days prior to Screening;\n20. Is considered to be unsuitable for any other reason that may either place the patient at increased risk during participation or interfere with the interpretation of the study outcomes by the Investigator, after reviewing medical and psychiatric history, physical examination, and laboratory evaluation.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 420,
+      "trial_nct_id": "NCT07223502"
+    },
+    {
+      "chunk_id": "NCT07223502:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with SBP reduction | time_frame=12 weeks | description=SBP \u226510 mmHg reduction from baseline (binary: yes/no).\ntype=primary | measure=Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with UACR reduction | time_frame=12 weeks | description=NCB is defined as UACR \u226530% reduction from baseline (binary: yes/no).\ntype=primary | measure=Comparing Net Clinical Benefit (NBC) of the FDC to finerenone with Serum K\u207a reduction | time_frame=12 weeks | description=Serum K\u207a \u22645.0 mmol/L at end of treatment (binary: y/no)",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 87,
+      "trial_nct_id": "NCT07223502"
+    },
+    {
+      "chunk_id": "NCT07223502:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-12-01\nPrimary completion date: 2026-07\nCompletion date: 2026-10\nStudy first posted: 2025-10-31\nResults first posted: None\nLast update posted: 2026-03-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT07223502"
+    },
+    {
+      "chunk_id": "NCT07223502:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Sarfez Pharmaceuticals, Inc.\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 18,
+      "trial_nct_id": "NCT07223502"
+    }
+  ],
+  "trial_nct_id": "NCT07223502"
+}

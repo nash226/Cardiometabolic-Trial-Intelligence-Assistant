@@ -1,0 +1,228 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D054143",
+          "term": "Heart Failure, Systolic"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Phase I of the study will utilize a dose escalation study design with three patients at 20 million MSCs, three patients at 100 million MSC, and three patients at 200 million MSC to identify dose for Phase II. The study treatment (active comparator) is comprised of left ventricular catheterization and treatment with allogeneic hMSC using the Helix transendocardial delivery catheter.",
+          "interventionNames": [
+            "Combination Product: CardiALLO\u2122 Human Allogenic Culture-expanded Bone marrow-derived Mesenchymal Stem Cells (hMSCs)"
+          ],
+          "label": "Study Treatment",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "In Phase II of the study, the control group will undergo left ventricular catheterization with introduction of an iliofemoral sheath but no introduction of the Helix transendocardial delivery catheter but no administration of allogeneic hMSC with the Helix transendocardial delivery catheter.",
+          "interventionNames": [
+            "Diagnostic Test: Diagnostic Catheterization"
+          ],
+          "label": "Control",
+          "type": "SHAM_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Study Treatment"
+          ],
+          "description": "CardiALLO\u2122 Human Allogenic Culture-expanded Bone marrow-derived Mesenchymal Stem Cells (hMSCs) delivered with the Helix transendocardial delivery catheter (treatment)",
+          "name": "CardiALLO\u2122 Human Allogenic Culture-expanded Bone marrow-derived Mesenchymal Stem Cells (hMSCs)",
+          "type": "COMBINATION_PRODUCT"
+        },
+        {
+          "armGroupLabels": [
+            "Control"
+          ],
+          "description": "Left ventricular catheterization with no active therapy",
+          "name": "Diagnostic Catheterization",
+          "type": "DIAGNOSTIC_TEST"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure, Systolic"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Gainesville",
+          "country": "United States",
+          "facility": "University of Florida",
+          "geoPoint": {
+            "lat": 29.65163,
+            "lon": -82.32483
+          },
+          "state": "Florida",
+          "zip": "36210"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "University of Florida",
+          "name": "Carl Pepine, MD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical study will utilize allogenic bone marrow-derived culture-expanded MSC that are expanded from mesenchymal stem cells and delivered using the investigational Helix transendocardial delivery catheter as a therapy for ischemic HFrEF with reduced ejection fraction.",
+      "detailedDescription": "Chronic heart failure is in need of new therapies. Over the past few years, cardiovascular regenerative medicine using bone marrow-derived cells has emerged as a new treatment strategy that could have tremendous benefit in treating heart failure. At present, several types of adult bone marrow derived stem cells hold great promise to treat heart failure. Allogenic culture-expanded bone marrow-derived human mesenchymal stem cells (MSC) are the subject of the current study as having potential to provide a safe and effective treatment for patients with ischemic heart failure. Mesenchymal stem cells are multipotent stromal cells that can differentiate into a variety of cell types, including osteoblasts (bone cells), chondrocytes (cartilage cells), myocytes (muscle cells) and adipocytes (fat cells which give rise to marrow adipose tissue). The CardiALLO cell therapy is an allogenic bone marrow-derived cell treatment which is delivered intramyocardially using the investigational Helix delivery catheter. The purpose of this study is to determine the safety, optimal dose and efficacy of CardiALLO cell therapy system in patients with ischemic heart failure with reduced ejection fraction (HFrEF). Phase I is designed to determine effective dose and Phase II is designed to evaluate effectiveness for improving clinical outcomes."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Phase I: Dose escalation, safety study consisting of 3 cell doses of 20million, 100 million and 200 million allogeneic hMSC. Each dose cohort will consist of 3 patients. Phase II: Randomized, controlled trial to evaluate the treatment.",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Phase I requires no masking as all participants will receive one of the three cell doses. Phase II requires masking in order to evaluate treatment effect. Patients will randomized 2:1 to either the treatment or control groups.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 39,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* New York Heart Association (NYHA) Class II or III\n* Diagnosis of chronic ischemic left ventricular dysfunction secondary to myocardial infarction\n* Left ventricular ejection fraction between 20% and 40%\n* On stable, guideline-directed medical and device therapy, as appropriate\n* NTproBNP level of \\>500 pg/ml.\n* Have inflammation \\> 2 mg/L as measured by high-sensitivity C-reactive protein (hs-CRP) test.\n\nExclusion Criteria:\n\n* Other cardiovascular or medical history parameters, as appropriate, that may preclude safe administration of the study treatment.",
+      "healthyVolunteers": false,
+      "maximumAge": "80 Years",
+      "minimumAge": "21 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "CardiALLO",
+      "briefTitle": "Clinical Trial of Human Allogenic Culture-expanded Bone Marrow-derived Mesenchymal Stem Cells",
+      "nctId": "NCT05925608",
+      "officialTitle": "Phase I/II Clinical Trial of Human Allogenic Culture-expanded Bone Marrow-derived Mesenchymal Stem Cells (hMSCs) in Patients With Ischemic Heart Failure With Reduced Ejection Fraction (HFrEF)",
+      "orgStudyIdInfo": {
+        "id": "05694"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "BioCardia, Inc."
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Incidence of TE-SAE defined as a composite of death, non-fatal MI, stroke, worsening HF (requiring admission, iv diuretics and/or inotropics), myocardial perforation (with tamponade), ventricular arrythmias \\>15 seconds",
+          "measure": "Treatment-emergent serious adverse events",
+          "timeFrame": "Through 30 days post-procedure."
+        },
+        {
+          "description": "The primary efficacy endpoint is a composite endpoint based on a 3-tiered Finkelstein-Schoenfeld (FS) hierarchical analysis. The tiers, starting with the most serious events, would be (1) all cause death, including cardiac death equivalents such as heart transplant or left ventricular assist device placement, ordered by time to event; (2) non-fatal MACCE events excluding those deemed procedure related occurring within the first 7 days (heart failure hospitalization, stroke or MI) ordered by time to event, and (3) change for 6MWD.",
+          "measure": "Composite endpoint consisting of all cause or cardiac death, non-fatal cardiac-related hospitalizations and functional capacity measured using the 6 minute walk distance.",
+          "timeFrame": "Through Month 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Overall survival time",
+          "measure": "Overall survival",
+          "timeFrame": "Through 12 months"
+        },
+        {
+          "description": "A composite of all-cause death, hospitalization for worsening heart failure, nonfatal recurrent myocardial infarction, placement of a left ventricular assist device \\[LVAD\\], or heart transplantation)",
+          "measure": "Major Adverse Cardiac Events (MACE)",
+          "timeFrame": "Through 12 months"
+        },
+        {
+          "description": "Self-reported questionnaire asking about heart failure symptoms with lower score being better",
+          "measure": "Minnesota Living with Heart Failure Questionnaire",
+          "timeFrame": "Through 12 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": true,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "BioCardia, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2023-08-23",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-06-22",
+      "studyFirstSubmitQcDate": "2023-06-22"
+    }
+  }
+}

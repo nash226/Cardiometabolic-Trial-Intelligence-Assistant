@@ -1,0 +1,602 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D007333",
+          "term": "Insulin Resistance"
+        },
+        {
+          "id": "D006946",
+          "term": "Hyperinsulinism"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        },
+        {
+          "id": "D024821",
+          "term": "Metabolic Syndrome"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D001384",
+          "term": "Azetidines"
+        },
+        {
+          "id": "D001385",
+          "term": "Azetines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000069438",
+          "term": "Ezetimibe"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "obicetrapib 10 mg + ezetimibe 10 mg FDC daily",
+          "interventionNames": [
+            "Drug: obicetrapib 10 mg + ezetimibe 10 mg FDC daily"
+          ],
+          "label": "Obicetrapib/Ezetimibe",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "obicetrapib 10 mg daily",
+          "interventionNames": [
+            "Drug: Obicetrapib 10 mg"
+          ],
+          "label": "Obicetrapib",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Placebo on top of guideline-recommended lipid-lowering therapy",
+          "interventionNames": [
+            "Other: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR"
+        },
+        {
+          "description": "Open-Label Extension (OLE) with the FDC of Obicetrapib 10 mg and Ezetimibe 10 mg",
+          "interventionNames": [
+            "Drug: obicetrapib 10 mg + ezetimibe 10 mg FDC daily"
+          ],
+          "label": "Open-Label Extension",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Obicetrapib/Ezetimibe",
+            "Open-Label Extension"
+          ],
+          "description": "FDC",
+          "name": "obicetrapib 10 mg + ezetimibe 10 mg FDC daily",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Obicetrapib"
+          ],
+          "description": "monotherapy",
+          "name": "Obicetrapib 10 mg",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "placebo on top of guideline-recommended lipid modifying therapy",
+          "name": "Placebo",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Lipidemia",
+        "Type 2 Diabetes (T2DM)",
+        "Metabolic Syndrome (MetS)"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "Gagandeep.dhillon@fortrea.com",
+          "name": "Gagandeep Dhillon",
+          "phone": "519-209-2341",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Sun City West",
+          "country": "United States",
+          "facility": "Clinical Research Institute of Arizona",
+          "geoPoint": {
+            "lat": 33.66198,
+            "lon": -112.34127
+          },
+          "state": "Arizona",
+          "status": "RECRUITING",
+          "zip": "85375"
+        },
+        {
+          "city": "La Jolla",
+          "country": "United States",
+          "facility": "Scripps Health - Whittier Diabetes Institute",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92037"
+        },
+        {
+          "city": "Jacksonville",
+          "country": "United States",
+          "facility": "UF Health Jackson",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32209"
+        },
+        {
+          "city": "Jacksonville",
+          "country": "United States",
+          "facility": "East Coast Institute of Research LLC",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32216"
+        },
+        {
+          "city": "Lake City",
+          "country": "United States",
+          "facility": "East Coast Institute of Research LLC",
+          "geoPoint": {
+            "lat": 30.18968,
+            "lon": -82.63929
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "32055"
+        },
+        {
+          "city": "Miami Lakes",
+          "country": "United States",
+          "facility": "Floridian Clinical Research",
+          "geoPoint": {
+            "lat": 25.90871,
+            "lon": -80.30866
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33016"
+        },
+        {
+          "city": "Louisville",
+          "country": "United States",
+          "facility": "Louisville Metabolic and Atherosclerosis Research Center (L-MARC)",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          },
+          "state": "Kentucky",
+          "status": "RECRUITING",
+          "zip": "40213"
+        },
+        {
+          "city": "Oxon Hill",
+          "country": "United States",
+          "facility": "MD Medical Research",
+          "geoPoint": {
+            "lat": 38.80345,
+            "lon": -76.9897
+          },
+          "state": "Maryland",
+          "status": "RECRUITING",
+          "zip": "20745"
+        },
+        {
+          "city": "Jefferson City",
+          "country": "United States",
+          "facility": "Jefferson City Medical Group",
+          "geoPoint": {
+            "lat": 38.5767,
+            "lon": -92.17352
+          },
+          "state": "Missouri",
+          "status": "RECRUITING",
+          "zip": "65109"
+        },
+        {
+          "city": "Missoula",
+          "country": "United States",
+          "facility": "Montana Medical Research",
+          "geoPoint": {
+            "lat": 46.87215,
+            "lon": -113.994
+          },
+          "state": "Montana",
+          "status": "RECRUITING",
+          "zip": "59808"
+        },
+        {
+          "city": "Bridgeton",
+          "country": "United States",
+          "facility": "Inspira Health - Internal Medicine Associates",
+          "geoPoint": {
+            "lat": 39.42734,
+            "lon": -75.23408
+          },
+          "state": "New Jersey",
+          "status": "RECRUITING",
+          "zip": "08302"
+        },
+        {
+          "city": "Manlius",
+          "country": "United States",
+          "facility": "Central New York Clinical Research",
+          "geoPoint": {
+            "lat": 43.00201,
+            "lon": -75.97686
+          },
+          "state": "New York",
+          "status": "RECRUITING",
+          "zip": "13104"
+        },
+        {
+          "city": "Durham",
+          "country": "United States",
+          "facility": "Velocity Clinical Research",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "27710"
+        },
+        {
+          "city": "Greensboro",
+          "country": "United States",
+          "facility": "Floridian Clinical Research",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "27408"
+        },
+        {
+          "city": "Morehead City",
+          "country": "United States",
+          "facility": "Centricity Research dba Lucas Research",
+          "geoPoint": {
+            "lat": 34.72294,
+            "lon": -76.72604
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "28557"
+        },
+        {
+          "city": "Munroe Falls",
+          "country": "United States",
+          "facility": "Summit Research Group",
+          "geoPoint": {
+            "lat": 41.1445,
+            "lon": -81.43983
+          },
+          "state": "Ohio",
+          "status": "RECRUITING",
+          "zip": "44262"
+        },
+        {
+          "city": "Houston",
+          "country": "United States",
+          "facility": "Juno Research LLC - Medical Center",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "77054"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Clinical Trials of Texas dba Flourish Research",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78229"
+        },
+        {
+          "city": "Burke",
+          "country": "United States",
+          "facility": "Burke Internal Medicine",
+          "geoPoint": {
+            "lat": 38.79345,
+            "lon": -77.27165
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "22015-2234"
+        },
+        {
+          "city": "Manassas",
+          "country": "United States",
+          "facility": "Burke International Medicine DBA Manassas Clinical Research Center",
+          "geoPoint": {
+            "lat": 38.75095,
+            "lon": -77.47527
+          },
+          "state": "Virginia",
+          "status": "RECRUITING",
+          "zip": "20110"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will be a placebo-controlled, double-blind, randomized, Phase 3 study to evaluate the efficacy, safety, and tolerability of obicetrapib 10 mg, both as a fixed-dose combination (FDC) with ezetimibe 10 mg and as monotherapy, on top of guideline-recommended lipid-lowering therapy in patients with metabolic syndrome and/or Type 2 Diabetes Mellitus."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This protocol includes a 12-week, 3-arm, placebo-controlled, double-blind treatment section, followed by a 40-week open-label extension period. All patients receive the FDC of obicetrapib 10mg and ezetimibe 10 mg, regardless of the intervention received in the double-blind treatment section of this trial.",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 300,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* fasting serum LDL-C \u2265 70 mg/dL (\u22651.81 mmol/L)\n* Have fasting TG \u2265150 mg/dL (\u22651.7 mmol/L) and \\<400 mg/dL (\\<4.5 mmol/L)\n* Know diagnosis of T2DM OR have metabolic syndrome defined as fasting TG \u2265150 mg/dL (\u22651.7mmol/L) and \\<400 mg/dL (\\<4.5 mmol/L) and at least 2 risk factors\n* Are on stable guideline-recommended lipid-lowering therapy\n* Estimated glomerular filtration rate \u226515 mL/min/1.73 m2\n\nExclusion Criteria:\n\n* Have current or any previous history of New York Heart Association class III or IV heart failure or left ventricular ejection fraction \\<30%\n* Have been hospitalized for heart failure within 5 years prior to Screening\n* Have uncontrolled severe hypertension\n* Have a formal diagnosis of homozygous familial hypercholesterolemia\n* HbA1c \u226510.0% (\u22650.100 hemoglobin fraction) or a fasting glucose \u2265270 mg/dL (\u226515.0 mmol/L) at Screening\n* active liver disease",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "RUBENS",
+      "briefTitle": "A Study to Evaluate the Effect of Obicetrapib/Ezetimibe 10 mg Fixed-Dose Combination or Obicetrapib 10 mg Daily on Top of Guideline-Recommended Lipid-Lowering Therapy in Participants With Type 2 Diabetes and/or Metabolic Syndrome",
+      "nctId": "NCT07219602",
+      "officialTitle": "A Placebo-Controlled, Double-Blind, Randomized, Phase 3 Study to Evaluate the Effect of Obicetrapib 10 mg and Ezetimibe 10 mg Fixed-Dose Combination or Obicetrapib 10 mg Daily on Top of Guideline-Recommended Lipid-Lowering Therapy in Participants With Type 2 Diabetes and/or Metabolic Syndrome (RUBENS Trial)",
+      "orgStudyIdInfo": {
+        "id": "OBEZ-303"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "NewAmsterdam Pharma"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "The percent change from Baseline at every visit for LDL-C",
+          "measure": "Percent change from Baseline over time in LDL-C",
+          "timeFrame": "40 weeks"
+        },
+        {
+          "description": "The percent change from Baseline at every visit in the proportion of participants that achieve LDL-C \\<100 mg/dL (\\<2.6 mmol/L), LDL-C \\<70 mg/dL (\\<1.8 mmol/L), and LDL-C \\<55 mg/dL (\\<1.4 mmol/L)",
+          "measure": "Proportion of participants that achieve LDL-C <100 mg/dL (<2.6 mmol/L), LDL-C <70 mg/dL (<1.8 mmol/L), and LDL-C <55 mg/dL (<1.4 mmol/L)",
+          "timeFrame": "40 weeks"
+        },
+        {
+          "description": "The percent change from Baseline at every visit for non-HDL-C",
+          "measure": "Percent change from Baseline over time in non-HDL-C",
+          "timeFrame": "40 weeks"
+        },
+        {
+          "description": "The percent change from Baseline at every visit in ApoB",
+          "measure": "Percent change from Baseline over time in ApoB",
+          "timeFrame": "40 weeks"
+        },
+        {
+          "description": "The percent change from Baseline at every visit for total cholesterol",
+          "measure": "Percent change from Baseline over time in total cholesterol",
+          "timeFrame": "40 weeks"
+        },
+        {
+          "description": "The percent change from baseline at every visit for triglycerides",
+          "measure": "Percent change from Baseline over time in triglycerides",
+          "timeFrame": "40 weeks"
+        },
+        {
+          "description": "the percent change from Baseline at every visit for HDL-C",
+          "measure": "Percent change from Baseline over time in HDL-C",
+          "timeFrame": "40 weeks"
+        },
+        {
+          "description": "the percent change from Baseline at every visit for Lp(a)",
+          "measure": "Percent change from Baseline over time in Lp(a)",
+          "timeFrame": "40 weeks"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "The percent change from Baseline to Day 84 in LDL-C compared with placebo for the following treatment groups: - obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group; and - obicetrapib 10 mg monotherapy treatment group",
+          "timeFrame": "84 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percent change from Baseline to Day 84 in non-HDL-C for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group",
+          "timeFrame": "Day 84"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in HDL-C for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group",
+          "timeFrame": "84 days"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in ApoB for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group",
+          "timeFrame": "84 days"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in ApoA1 for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group",
+          "timeFrame": "84 days"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in non-HDL-C for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group;",
+          "timeFrame": "84 days"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in HDL-C for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group",
+          "timeFrame": "Day 84"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in ApoB for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group",
+          "timeFrame": "Day 84"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in ApoA1 for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group",
+          "timeFrame": "Day 84"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in lipoprotein (a) (Lp[a]) for the obicetrapib 10 mg + ezetimibe 10 mg FDC treatment group compared with the placebo group",
+          "timeFrame": "Day 84"
+        },
+        {
+          "measure": "Percent change from Baseline to Day 84 in Lp(a) for the obicetrapib 10 mg monotherapy treatment group compared with the placebo group",
+          "timeFrame": "Day 84"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": false
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "NewAmsterdam Pharma"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-06",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2028-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-11",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-10-20",
+      "studyFirstSubmitQcDate": "2025-10-20"
+    }
+  }
+}

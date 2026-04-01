@@ -1,0 +1,403 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "fixed dose single-pill combination of pitavastatin 4mg plus ezetimibe 10mg",
+          "interventionNames": [
+            "Drug: Combination therapy"
+          ],
+          "label": "Combination therapy",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Rosuvastatin 20mg",
+          "interventionNames": [
+            "Drug: High intensity statin monotherapy"
+          ],
+          "label": "High intensity statin monotherapy",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Combination therapy"
+          ],
+          "description": "* pitavastatin 4mg\n* ezetimibe 10mg",
+          "name": "Combination therapy",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "High intensity statin monotherapy"
+          ],
+          "description": "rosuvastatin 20mg",
+          "name": "High intensity statin monotherapy",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ASCVD",
+        "Diabetes",
+        "Statin"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "ycw717@naver.com",
+          "name": "Cheol Woong Yu",
+          "phone": "+82-2-920-5445",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Seoul",
+          "contacts": [
+            {
+              "name": "Korea Hospital",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "South Korea",
+          "facility": "Korea University Anam Hospital",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING",
+          "zip": "02841"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The AVOID-DM trial is a multicenter, prospective, randomized study comparing the risk of new-onset diabetes mellitus (DM) between two cholesterol-lowering strategies in patients with prediabetes and established atherosclerotic cardiovascular disease (ASCVD). The study evaluates pitavastatin plus ezetimibe combination therapy versus high-intensity statin monotherapy (rosuvastatin 20 mg). Enrolling 2,000 non-diabetic participants with ASCVD, subjects are randomized 1:1 into the two treatment arms. The primary outcome is the incidence of new-onset DM over a follow-up period of up to 36 months. Secondary outcomes include cardiovascular events, changes in LDL cholesterol, fasting glucose, HbA1c, and insulin resistance. This trial hypothesizes that the combination therapy will achieve LDL targets with a lower risk of new-onset DM compared to high-intensity statin monotherapy."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 2000,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age Requirement:\n\n  * Patients aged 18 years or older.\n\nGlycemic Status:\n\n* Patients who are not taking oral hypoglycemic agents (OHAs) and meet all of the following criteria:\n\n  * Fasting glucose less than 126 mg/dL.\\*\n  * HbA1c less than 6.5%.\n  * Plasma glucose less than 200 mg/dL after 2 hours during a 75 g oral glucose tolerance test (OGTT).\\*Note: For fasting glucose, two measurements of 126 mg/dL or greater within 3 months are required for a diagnosis of diabetes.\n\nCardiovascular Disease:\n\n* Patients with established atherosclerotic cardiovascular disease, defined as having at least one of the following:\n\n  * Coronary Heart Disease (CHD):\n\n    * Documented history of myocardial infarction (MI).\n    * History of coronary revascularization.\n\n      * 50% stenosis of a major epicardial coronary artery confirmed by cardiac catheterization, computed tomography (CT), or coronary angiography.\n  * Cerebrovascular Disease:\n\n    \\>History of stroke of atherosclerotic origin.\n    * History of carotid revascularization.\n\n      \\>\u226550% stenosis of the carotid artery confirmed by X-ray angiography, magnetic resonance (MR) angiography, CT angiography, or Doppler ultrasound.\n  * Symptomatic Peripheral Arterial Disease (PAD):\n\n    \\>Intermittent claudication with an ankle-brachial index (ABI) of 0.90 at rest.\n    * Intermittent claudication with \u226550% stenosis of a peripheral artery (excluding the carotid artery) confirmed by X-ray angiography, MR angiography, CT angiography, or Doppler ultrasound.\n    * History of revascularization of peripheral arteries (excluding carotid arteries).\n    * Lower extremity amputation at or above the ankle due to atherosclerotic disease (excluding trauma or osteomyelitis).\n\nDietary Requirements:\n\n* Patients must be on a stable diet prior to randomization and able to adhere to the National Cholesterol Education Program (NCEP) Therapeutic Lifestyle Change (TLC) diet or an equivalent throughout the study.\n\nInformed Consent:\n\n* Subjects or their legal representatives must provide written informed consent to the study protocol and clinical follow-up schedule.\n* An informed consent form approved by the institutional review board (IRB)/ethics committee of the study site must be signed.\n\nExclusion Criteria:\n\n* Patient is pregnant or breastfeeding or of childbearing potential.\n* Requires concomitant administration of strong inhibitors of CYP3A4 (itraconazole, ketoconazole, protease inhibitors, erythromycin, clarithromycin, telithromycin, and nefazodone) or CYP2C9 (relative contraindication not dependent on CYP450 statins).\n* Chronic kidney disease (eGFR \\< 30 ml/min/1.73m\u00b2) or dialysis-dependent renal failure.\n* Uncontrolled hypothyroidism.\n* Personal or family history of an inherited muscle disorder.\n* History of statin-induced muscle toxicity.\n* Alcohol-dependent person.\n* Hypersensitivity to statins and ezetimibe.\n* Hemodynamic instability at the time of enrollment: cardiogenic shock, refractory ventricular arrhythmia, or congestive heart failure (New York Heart Association class IV) at randomization.\n* History of hemorrhagic stroke or intracranial hemorrhage, TIA, or ischemic stroke within the past 6 months.\n* Planned surgery requiring discontinuation of statins or ezetimibe within 6 months of randomization.\n* Current treatment for active cancer.\n* Clinically significant abnormal findings identified at the screening visit, physical examination, laboratory tests, or electrocardiogram that, in the investigator's judgment, may interfere with safe completion of the study.\n* Liver disease or biliary obstruction, elevated liver enzymes (ALT or AST \\> the upper limit of normal) or elevated total bilirubin (total bilirubin \\> 2 times the upper limit of normal) at screening.\n* Life expectancy for noncardiac or cardiac causes \\< 1 year.\n* Unwillingness or inability to comply with the procedures described in this protocol.\n* Previously diagnosed with diabetes mellitus and compliant with lifestyle modification and taking oral hypoglycemic agents (OHAs) or insulin.",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "Comparison of Pitavastatin Plus Ezetimibe Versus High-Intensity Statin Therapy on Risk of New-Onset Diabetes Mellitus",
+      "nctId": "NCT06767774",
+      "officialTitle": "Comparison of Pitavastatin Plus Ezetimibe Versus High-Intensity Statin Therapy on Risk of New-Onset Diabetes Mellitus in Prediabetic Patients With Atherosclerotic Cardiovascular Disease",
+      "orgStudyIdInfo": {
+        "id": "AVOIDM"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Korea University Anam Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "The corresponding author had full access to all the data in the study and takes responsibility for its integrity and the data analysis. The data are available upon reasonable request.",
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "measure": "Reperfusion procedure for any type of artery",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "3. Individual components of the composite of major clinical events of cardiovascular disease",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Death from any cause",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "An element of the criteria met at diagnosis of diabetes mellitus",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "HOMA-IR",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Incidence of statin side effect",
+          "timeFrame": "3 years"
+        },
+        {
+          "description": "Proportion of patients achieving \u226580% adherence to prescribed medication from baseline to 3 years",
+          "measure": "Drug Adherence",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Change in LDL cholesterol during follow-up",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Change in HbA1c during follow-up",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Change in Fasting glucose during follow-up",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Change in Insulin during follow-up",
+          "timeFrame": "3 years"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "measure": "new-onset diabetes mellitus meeting diagnostic criteria for conventional diabetes during the treatment period",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "1. Composite of major clinical events of cardiovascular disease (death from cardiovascular disease, nonfatal myocardial infarction or nonfatal stroke)",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Mach F, Ray KK, Wiklund O, Corsini A, Catapano AL, Bruckert E, De Backer G, Hegele RA, Hovingh GK, Jacobson TA, Krauss RM, Laufs U, Leiter LA, Marz W, Nordestgaard BG, Raal FJ, Roden M, Santos RD, Stein EA, Stroes ES, Thompson PD, Tokgozoglu L, Vladutiu GD, Gencer B, Stock JK, Ginsberg HN, Chapman MJ; European Atherosclerosis Society Consensus Panel. Adverse effects of statin therapy: perception vs. the evidence - focus on glucose homeostasis, cognitive, renal and hepatic function, haemorrhagic stroke and cataract. Eur Heart J. 2018 Jul 14;39(27):2526-2539. doi: 10.1093/eurheartj/ehy182.",
+          "pmid": "29718253",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Lakatos E. Sample sizes based on the log-rank statistic in complex clinical trials. Biometrics. 1988 Mar;44(1):229-41.",
+          "pmid": "3358991",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Stone NJ, Robinson JG, Lichtenstein AH, Bairey Merz CN, Blum CB, Eckel RH, Goldberg AC, Gordon D, Levy D, Lloyd-Jones DM, McBride P, Schwartz JS, Shero ST, Smith SC Jr, Watson K, Wilson PW; American College of Cardiology/American Heart Association Task Force on Practice Guidelines. 2013 ACC/AHA guideline on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol. 2014 Jul 1;63(25 Pt B):2889-934. doi: 10.1016/j.jacc.2013.11.002. Epub 2013 Nov 12. No abstract available.",
+          "pmid": "24239923",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Pasternak RC, Smith SC Jr, Bairey-Merz CN, Grundy SM, Cleeman JI, Lenfant C; American College of Cardiology; American Heart Association; National Heart, Lung and Blood Institute. ACC/AHA/NHLBI Clinical Advisory on the Use and Safety of Statins. Circulation. 2002 Aug 20;106(8):1024-8. doi: 10.1161/01.cir.0000032466.44170.44. No abstract available.",
+          "pmid": "12186811",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "American Diabetes Association. 2. Classification and Diagnosis of Diabetes: Standards of Medical Care in Diabetes-2019. Diabetes Care. 2019 Jan;42(Suppl 1):S13-S28. doi: 10.2337/dc19-S002.",
+          "pmid": "30559228",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Wilson PWF, Polonsky TS, Miedema MD, Khera A, Kosinski AS, Kuvin JT. Systematic Review for the 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation. 2019 Jun 18;139(25):e1144-e1161. doi: 10.1161/CIR.0000000000000626. Epub 2018 Nov 10.",
+          "pmid": "30586775",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Giugliano RP, Cannon CP, Blazing MA, Nicolau JC, Corbalan R, Spinar J, Park JG, White JA, Bohula EA, Braunwald E; IMPROVE-IT (Improved Reduction of Outcomes: Vytorin Efficacy International Trial) Investigators. Benefit of Adding Ezetimibe to Statin Therapy on Cardiovascular Outcomes and Safety in Patients With Versus Without Diabetes Mellitus: Results From IMPROVE-IT (Improved Reduction of Outcomes: Vytorin Efficacy International Trial). Circulation. 2018 Apr 10;137(15):1571-1582. doi: 10.1161/CIRCULATIONAHA.117.030950. Epub 2017 Dec 20.",
+          "pmid": "29263150",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Morrone D, Weintraub WS, Toth PP, Hanson ME, Lowe RS, Lin J, Shah AK, Tershakovec AM. Lipid-altering efficacy of ezetimibe plus statin and statin monotherapy and identification of factors associated with treatment response: a pooled analysis of over 21,000 subjects from 27 clinical trials. Atherosclerosis. 2012 Aug;223(2):251-61. doi: 10.1016/j.atherosclerosis.2012.02.016. Epub 2012 Feb 16.",
+          "pmid": "22410123",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Ibanez B, James S, Agewall S, Antunes MJ, Bucciarelli-Ducci C, Bueno H, Caforio ALP, Crea F, Goudevenos JA, Halvorsen S, Hindricks G, Kastrati A, Lenzen MJ, Prescott E, Roffi M, Valgimigli M, Varenhorst C, Vranckx P, Widimsky P; ESC Scientific Document Group. 2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation: The Task Force for the management of acute myocardial infarction in patients presenting with ST-segment elevation of the European Society of Cardiology (ESC). Eur Heart J. 2018 Jan 7;39(2):119-177. doi: 10.1093/eurheartj/ehx393. No abstract available.",
+          "pmid": "28886621",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Saeedi P, Petersohn I, Salpea P, Malanda B, Karuranga S, Unwin N, Colagiuri S, Guariguata L, Motala AA, Ogurtsova K, Shaw JE, Bright D, Williams R; IDF Diabetes Atlas Committee. Global and regional diabetes prevalence estimates for 2019 and projections for 2030 and 2045: Results from the International Diabetes Federation Diabetes Atlas, 9th edition. Diabetes Res Clin Pract. 2019 Nov;157:107843. doi: 10.1016/j.diabres.2019.107843. Epub 2019 Sep 10.",
+          "pmid": "31518657",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Hu FB, Stampfer MJ, Haffner SM, Solomon CG, Willett WC, Manson JE. Elevated risk of cardiovascular disease prior to clinical diagnosis of type 2 diabetes. Diabetes Care. 2002 Jul;25(7):1129-34. doi: 10.2337/diacare.25.7.1129.",
+          "pmid": "12087009",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Gerstein HC, Santaguida P, Raina P, Morrison KM, Balion C, Hunt D, Yazdi H, Booker L. Annual incidence and relative risk of diabetes in people with various categories of dysglycemia: a systematic overview and meta-analysis of prospective studies. Diabetes Res Clin Pract. 2007 Dec;78(3):305-12. doi: 10.1016/j.diabres.2007.05.004. Epub 2007 Jun 29.",
+          "pmid": "17601626",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Yip WCY, Sequeira IR, Plank LD, Poppitt SD. Prevalence of Pre-Diabetes across Ethnicities: A Review of Impaired Fasting Glucose (IFG) and Impaired Glucose Tolerance (IGT) for Classification of Dysglycaemia. Nutrients. 2017 Nov 22;9(11):1273. doi: 10.3390/nu9111273.",
+          "pmid": "29165385",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Coutinho M, Gerstein HC, Wang Y, Yusuf S. The relationship between glucose and incident cardiovascular events. A metaregression analysis of published data from 20 studies of 95,783 individuals followed for 12.4 years. Diabetes Care. 1999 Feb;22(2):233-40. doi: 10.2337/diacare.22.2.233.",
+          "pmid": "10333939",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Rhee EJ, Kim HC, Kim JH, Lee EY, Kim BJ, Kim EM, Song Y, Lim JH, Kim HJ, Choi S, Moon MK, Na JO, Park KY, Oh MS, Han SY, Noh J, Yi KH, Lee SH, Hong SC, Jeong IK; Committee of Clinical Practice Guideline of Korean Society of Lipid and Atherosclerosis. 2018 Guidelines for the management of dyslipidemia in Korea. Korean J Intern Med. 2019 Sep;34(5):1171. doi: 10.3904/kjim.2019.188.e1. Epub 2019 Aug 28. No abstract available.",
+          "pmid": "31466435",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Preiss D, Seshasai SR, Welsh P, Murphy SA, Ho JE, Waters DD, DeMicco DA, Barter P, Cannon CP, Sabatine MS, Braunwald E, Kastelein JJ, de Lemos JA, Blazing MA, Pedersen TR, Tikkanen MJ, Sattar N, Ray KK. Risk of incident diabetes with intensive-dose compared with moderate-dose statin therapy: a meta-analysis. JAMA. 2011 Jun 22;305(24):2556-64. doi: 10.1001/jama.2011.860.",
+          "pmid": "21693744",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Carter AA, Gomes T, Camacho X, Juurlink DN, Shah BR, Mamdani MM. Risk of incident diabetes among patients treated with statins: population based study. BMJ. 2013 May 23;346:f2610. doi: 10.1136/bmj.f2610.",
+          "pmid": "23704171",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Sattar N, Preiss D, Murray HM, Welsh P, Buckley BM, de Craen AJ, Seshasai SR, McMurray JJ, Freeman DJ, Jukema JW, Macfarlane PW, Packard CJ, Stott DJ, Westendorp RG, Shepherd J, Davis BR, Pressel SL, Marchioli R, Marfisi RM, Maggioni AP, Tavazzi L, Tognoni G, Kjekshus J, Pedersen TR, Cook TJ, Gotto AM, Clearfield MB, Downs JR, Nakamura H, Ohashi Y, Mizuno K, Ray KK, Ford I. Statins and risk of incident diabetes: a collaborative meta-analysis of randomised statin trials. Lancet. 2010 Feb 27;375(9716):735-42. doi: 10.1016/S0140-6736(09)61965-6. Epub 2010 Feb 16.",
+          "pmid": "20167359",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Armitage J. The safety of statins in clinical practice. Lancet. 2007 Nov 24;370(9601):1781-90. doi: 10.1016/S0140-6736(07)60716-8.",
+          "pmid": "17559928",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Grundy SM, Stone NJ, Bailey AL, Beam C, Birtcher KK, Blumenthal RS, Braun LT, de Ferranti S, Faiella-Tommasino J, Forman DE, Goldberg R, Heidenreich PA, Hlatky MA, Jones DW, Lloyd-Jones D, Lopez-Pajares N, Ndumele CE, Orringer CE, Peralta CA, Saseen JJ, Smith SC Jr, Sperling L, Virani SS, Yeboah J. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation. 2019 Jun 18;139(25):e1082-e1143. doi: 10.1161/CIR.0000000000000625. Epub 2018 Nov 10. Erratum In: Circulation. 2019 Jun 18;139(25):e1182-e1186. doi: 10.1161/CIR.0000000000000698. Circulation. 2023 Aug 15;148(7):e5. doi: 10.1161/CIR.0000000000001172.",
+          "pmid": "30586774",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Mach F, Baigent C, Catapano AL, Koskinas KC, Casula M, Badimon L, Chapman MJ, De Backer GG, Delgado V, Ference BA, Graham IM, Halliday A, Landmesser U, Mihaylova B, Pedersen TR, Riccardi G, Richter DJ, Sabatine MS, Taskinen MR, Tokgozoglu L, Wiklund O; ESC Scientific Document Group. 2019 ESC/EAS Guidelines for the management of dyslipidaemias: lipid modification to reduce cardiovascular risk. Eur Heart J. 2020 Jan 1;41(1):111-188. doi: 10.1093/eurheartj/ehz455. No abstract available.",
+          "pmid": "31504418",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Davidson MH. Safety profiles for the HMG-CoA reductase inhibitors: treatment and trust. Drugs. 2001;61(2):197-206. doi: 10.2165/00003495-200161020-00005.",
+          "pmid": "11270938",
+          "type": "BACKGROUND"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "INDUSTRY",
+          "name": "Daewon Pharmaceutical Co., Ltd."
+        },
+        {
+          "class": "INDUSTRY",
+          "name": "Samjin Pharmaceutical Co., Ltd."
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Korea University Anam Hospital"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Korea University Anam Hospital",
+        "investigatorFullName": "Dr. Cheol Woong Yu",
+        "investigatorTitle": "Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2030-01-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-27",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-24",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2029-08-31",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-04-25",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-04",
+      "studyFirstPostDateStruct": {
+        "date": "2025-01-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-01-05",
+      "studyFirstSubmitQcDate": "2025-01-05"
+    }
+  }
+}

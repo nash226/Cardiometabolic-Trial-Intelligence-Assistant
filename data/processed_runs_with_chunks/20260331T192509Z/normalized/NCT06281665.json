@@ -1,0 +1,381 @@
+{
+  "arms": [
+    {
+      "description": "Similar appearing placebo pill daily for 6 months will be given to subjects.",
+      "intervention_names": [
+        "Drug: Placebo"
+      ],
+      "label": "Placebo Group",
+      "type": "PLACEBO_COMPARATOR"
+    },
+    {
+      "description": "Low-dose \\[81 mg\\] aspirin pill daily for 6 months will be given to subjects",
+      "intervention_names": [
+        "Drug: Low-dose aspirin"
+      ],
+      "label": "Intervention Group",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Hypertensive Disorder of Pregnancy",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Pre-Eclampsia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hypertension",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Eclampsia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Gestational Hypertension",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Cardiovascular Diseases",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Toxemia",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Pregnancy Complications",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Vascular Diseases",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hypertension, Pregnancy Induced",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Hypertension;Pre-Eclamptic",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n* Postpartum individuals \u226518 years old\n* Preeclampsia diagnosis\n\nExclusion Criteria:\n\n* Fetal anomaly\n* Multiple gestation\n* Pre-pregnancy hypertension\n* Allergy or contraindication to low-dose aspirin\n* Pre-pregnancy diabetes",
+    "healthy_volunteers": false,
+    "maximum_age_text": "55 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "FEMALE"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Intervention Group"
+      ],
+      "description": "The intervention group will receive low-dose \\[81 mg\\] aspirin pill daily for 6 months.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Low-dose aspirin",
+      "normalized_name": "low-dose aspirin"
+    },
+    {
+      "arm_group_labels": [
+        "Placebo Group"
+      ],
+      "description": "The control group will receive similar appearing placebo daily for 6 months.",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Placebo",
+      "normalized_name": "placebo"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "To determine the feasibility of conducting a single-site randomized controlled trial of 6 months of postpartum low-dose aspirin vs. placebo in women with preeclampsia.",
+      "measure": "Percent of participants eligible, enrolled and retained (feasibility)",
+      "outcome_type": "primary",
+      "time_frame": "Baseline to approximately 6 months postpartum"
+    },
+    {
+      "description": "Mean study visit systolic BP",
+      "measure": "Study visit systolic BP",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "Mean study visit diastolic BP",
+      "measure": "Study visit diastolic BP",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "Mean study visit systolic BP",
+      "measure": "Study visit systolic BP",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean study visit diastolic BP",
+      "measure": "Study visit diastolic BP",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean study visit mean arterial pressure ((2\\*diastolic BP + systolic BP / 3))",
+      "measure": "Study visit mean arterial pressure",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "Mean study visit mean arterial pressure ((2\\*diastolic BP + systolic BP / 3))",
+      "measure": "Study visit mean arterial pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Use of anti-hypertensive medication (percent of participants)",
+      "measure": "Anti-hypertensive medication use",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "Use of anti-hypertensive medication (percent of participants)",
+      "measure": "Anti-hypertensive medication use",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Therapeutic intensity score for those on anti-hypertensive medications. Range of scores 0 to 5 (higher number indicates higher doses and number of anti-hypertensive medications; worse outcome)",
+      "measure": "Therapeutic intensity score",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "Therapeutic intensity score for those on anti-hypertensive medications. Range of scores 0 to 5 (higher number indicates higher doses and number of anti-hypertensive medications; worse outcome)",
+      "measure": "Therapeutic intensity score",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean home systolic blood pressure",
+      "measure": "Mean home systolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "delivery through 6 months postpartum"
+    },
+    {
+      "description": "Mean home diastolic blood pressure",
+      "measure": "Mean home diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "delivery through 6 months postpartum"
+    },
+    {
+      "description": "Mean home mean arterial pressure",
+      "measure": "Mean home mean arterial pressure",
+      "outcome_type": "secondary",
+      "time_frame": "delivery through 6 months postpartum"
+    },
+    {
+      "description": "Mean daytime systolic blood pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean daytime systolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean nocturnal systolic blood pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean nocturnal systolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean daytime diastolic blood pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean daytime diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean nocturnal diastolic blood pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean nocturnal diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean nocturnal mean arterial pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean nocturnal mean arterial pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean daytime mean arterial pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean daytime mean arterial pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean overall mean arterial pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean overall mean arterial pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean overall systolic blood pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean overall systolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Mean overall diastolic blood pressure on ambulatory blood pressure monitoring",
+      "measure": "Mean overall diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Stage 1, stage 2 hypertension (percent of participants with each stage)",
+      "measure": "Classification of hypertension",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "Stage 1, stage 2 hypertension (percent of participants with each stage)",
+      "measure": "Classification of hypertension",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "EC50% from microiontophoresis",
+      "measure": "Endothelial function EC50%",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "EC50% from microiontophoresis",
+      "measure": "Endothelial function EC50%",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Emax from microiontophoresis",
+      "measure": "Endothelial function Emax",
+      "outcome_type": "secondary",
+      "time_frame": "2 months postpartum"
+    },
+    {
+      "description": "Emax from microiontophoresis",
+      "measure": "Endothelial function Emax",
+      "outcome_type": "secondary",
+      "time_frame": "6 months postpartum"
+    },
+    {
+      "description": "Change in Emax between visits",
+      "measure": "Endothelial function change in Emax",
+      "outcome_type": "secondary",
+      "time_frame": "2 to 6 months postpartum"
+    },
+    {
+      "description": "Change in EC50% between visits",
+      "measure": "Endothelial function change in EC50%",
+      "outcome_type": "secondary",
+      "time_frame": "2 to 6 months postpartum"
+    },
+    {
+      "description": "Change in study visit mean systolic blood pressure between visits",
+      "measure": "Change in systolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "2 to 6 months postpartum"
+    },
+    {
+      "description": "Change in study visit mean diastolic blood pressure between visits",
+      "measure": "Change in diastolic blood pressure",
+      "outcome_type": "secondary",
+      "time_frame": "2 to 6 months postpartum"
+    },
+    {
+      "description": "Change in study visit mean arterial pressure between visits",
+      "measure": "Change in mean arterial pressure",
+      "outcome_type": "secondary",
+      "time_frame": "2 to 6 months postpartum"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "The objective of this research project is to conduct a single-site pilot trial to assess the feasibility and effect of low-dose aspirin to augment vascular recovery in the immediate postpartum period after preeclampsia through two specific aims: 1) to pilot test the feasibility of conducting a randomized controlled trial of postpartum low dose aspirin vs. placebo, and 2) to assess the effect of postpartum aspirin on endothelial function and blood pressure. Our central hypothesis is that postpartum administration of low-dose aspirin following preeclampsia will be feasible, improve endothelial function, and lower BP at 6 months postpartum. Subjects will undergo 3 study visits involving BP measurements, blood draws, questionnaires, and/or microiontophoresis. Up to 60 adult subjects will be enrolled at Magee-Women's Hospital.",
+    "brief_title": "Treatment With Aspirin After Preeclampsia: TAP Trial",
+    "collaborator_names": [
+      "National Heart, Lung, and Blood Institute (NHLBI)"
+    ],
+    "completion_date": "2027-06-01",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n* Postpartum individuals \u226518 years old\n* Preeclampsia diagnosis\n\nExclusion Criteria:\n\n* Fetal anomaly\n* Multiple gestation\n* Pre-pregnancy hypertension\n* Allergy or contraindication to low-dose aspirin\n* Pre-pregnancy diabetes",
+    "detailed_description": "This is a pilot randomized, single-center, double-blind placebo-control study of low dose aspirin in postpartum individuals with preeclampsia. Individuals will be randomized at the time of delivery 1:1 to 81mg of low-dose aspirin or identical appearing placebo daily for six months postpartum. Treatment and control groups will monitor home blood pressure throughout the study period and undergo two study visits. At each study visit, participants will undergo a blood draw, blood pressure measurement and assessment of endothelial function with microiontophoresis. Participant adherence will be monitored through pill counts, text message check-ins, patient diary and biochemical monitoring.",
+    "drug_class_labels": [],
+    "enrollment_count": 60,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Low-dose aspirin",
+      "Placebo"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Hypertension"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-02-05",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "Malamo Countouris",
+    "masking": "TRIPLE",
+    "maximum_age_text": "55 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT06281665",
+    "official_title": "Treatment With Aspirin After Preeclampsia: TAP Trial",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-06-01",
+    "primary_purpose": "OTHER",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "FEMALE",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT06281665",
+    "start_date": "2024-05-29",
+    "study_first_posted_at": "2024-02-28",
+    "study_type": "INTERVENTIONAL"
+  }
+}

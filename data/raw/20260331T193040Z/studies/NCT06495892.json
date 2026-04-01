@@ -1,0 +1,677 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2021-07-02",
+          "filename": "Prot_SAP_003.pdf",
+          "hasIcf": false,
+          "hasProtocol": true,
+          "hasSap": true,
+          "label": "Study Protocol and Statistical Analysis Plan: The main protocol",
+          "size": 970044,
+          "typeAbbrev": "Prot_SAP",
+          "uploadDate": "2024-07-29T12:57"
+        },
+        {
+          "date": "2024-07-01",
+          "filename": "Prot_005.pdf",
+          "hasIcf": false,
+          "hasProtocol": true,
+          "hasSap": false,
+          "label": "Study Protocol: Study parameters (RedCap form printout)",
+          "size": 156954,
+          "typeAbbrev": "Prot",
+          "uploadDate": "2024-12-01T12:36"
+        },
+        {
+          "date": "2021-07-21",
+          "filename": "ICF_004.pdf",
+          "hasIcf": true,
+          "hasProtocol": false,
+          "hasSap": false,
+          "label": "Informed Consent Form",
+          "size": 98337,
+          "typeAbbrev": "ICF",
+          "uploadDate": "2024-07-29T12:57"
+        }
+      ]
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Peripheral venous pressure guided diuretic therapy arm",
+          "interventionNames": [
+            "Drug: Diuretic therapy"
+          ],
+          "label": "PVP-Guided",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Standard d\u0131uretic therapy arm",
+          "interventionNames": [
+            "Drug: Diuretic therapy"
+          ],
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Control",
+            "PVP-Guided"
+          ],
+          "description": "Diuretic therapy will be tailored according to peripheral venous pressure targets or standard approach",
+          "name": "Diuretic therapy",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure",
+        "Congestion",
+        "Congestive Heart Failure"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "mr_aslanger@hotmail.com",
+          "name": "Emre K Aslanger, Prof",
+          "phone": "+90 (212) 909 60 00",
+          "phoneExt": "21067\u202c",
+          "role": "CONTACT"
+        },
+        {
+          "email": "ozlemyt@gmail.com",
+          "name": "\u00d6zlem Y\u0131ld\u0131r\u0131mt\u00fcrk, Prof",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Ankara",
+          "contacts": [
+            {
+              "email": "drbelma@hotmail.com",
+              "name": "Belma Kalayc\u0131, Assoc. Prof.",
+              "phone": "0312 797 00 00",
+              "role": "CONTACT"
+            },
+            {
+              "name": "\u00c7a\u011fatay Tunca, MD",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Ankara Etlik City Hospital",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          },
+          "status": "RECRUITING",
+          "zip": "6010"
+        },
+        {
+          "city": "Antalya",
+          "contacts": [
+            {
+              "email": "ozgurcagac@yahoo.com",
+              "name": "\u00d6zg\u00fcr \u00c7a\u011fa\u00e7, MD",
+              "phone": "+90 242 3454550",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Antalya Atat\u00fcrk State Hospital",
+          "geoPoint": {
+            "lat": 36.90812,
+            "lon": 30.69556
+          },
+          "status": "RECRUITING",
+          "zip": "07040"
+        },
+        {
+          "city": "Antalya",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Akdeniz University",
+          "geoPoint": {
+            "lat": 36.90812,
+            "lon": 30.69556
+          },
+          "status": "ACTIVE_NOT_RECRUITING",
+          "zip": "07070"
+        },
+        {
+          "city": "Edirne",
+          "contacts": [
+            {
+              "email": "dr.cihanozturk@gmail.com",
+              "name": "Cihan \u00d6zt\u00fcrk, Asist. Prof.",
+              "phone": "+90 (284) 235 76 41",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Trakya University",
+          "geoPoint": {
+            "lat": 41.67719,
+            "lon": 26.55597
+          },
+          "status": "RECRUITING",
+          "zip": "22030"
+        },
+        {
+          "city": "Erzurum",
+          "contacts": [
+            {
+              "email": "droguzhanbirdal@gmail.com",
+              "name": "O\u011fuzhan Birdal, Assoc. Prof.",
+              "phone": "+90 (442) 344 66 66",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Erzurum Atat\u00fcrk University Hospital",
+          "geoPoint": {
+            "lat": 39.90861,
+            "lon": 41.27694
+          },
+          "status": "RECRUITING",
+          "zip": "25040"
+        },
+        {
+          "city": "Eski\u015fehir",
+          "contacts": [
+            {
+              "email": "ezgi_iel@hotmail.com",
+              "name": "Ezgi \u00c7aml\u0131 Babayi\u011fit",
+              "phone": "+90 (222) 611 40 00",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Eski\u015fehir City Hospital",
+          "geoPoint": {
+            "lat": 39.77667,
+            "lon": 30.52056
+          },
+          "status": "RECRUITING",
+          "zip": "26080"
+        },
+        {
+          "city": "Istanbul",
+          "contacts": [
+            {
+              "email": "drakkalkan@gmail.com",
+              "name": "Ali K Kalkan, Prof",
+              "phone": "+90 (212) 692 20 00",
+              "role": "CONTACT"
+            },
+            {
+              "name": "\u0130rem T\u00fcrkmen, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Mehmet Akif Ersoy Training and Research Hospital",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          },
+          "status": "RECRUITING",
+          "zip": "34303"
+        },
+        {
+          "city": "Istanbul",
+          "contacts": [
+            {
+              "email": "mr_aslanger@hotmail.com",
+              "name": "Emre Aslanger, Prof",
+              "phone": "+902129096000",
+              "phoneExt": "21067",
+              "role": "CONTACT"
+            },
+            {
+              "email": "kof.12@hotmail.com",
+              "name": "\u00d6zlem F Pamuk, MD",
+              "phone": "+902129096000",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yelda Saltan, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Yaser \u0130slamo\u011flu, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Basaksehir Cam and Sakura City Hospital",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          },
+          "status": "RECRUITING",
+          "zip": "3440"
+        },
+        {
+          "city": "Istanbul",
+          "contacts": [
+            {
+              "email": "ozlemyt@gmail.com",
+              "name": "\u00d6zlem Y\u0131ld\u0131r\u0131mt\u00fcrk, Prof.",
+              "phone": "+902165424444",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Dr. Siyami Ersek Thoracic and Cardiovascular Surgery Training and Research Hospital",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          },
+          "status": "RECRUITING",
+          "zip": "34668"
+        },
+        {
+          "city": "Istanbul",
+          "contacts": [
+            {
+              "email": "dresradonmez@yahoo.com",
+              "name": "Esra D\u00f6nmez, MD",
+              "phone": "0 (212) 440 40 00",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sevgi \u00d6zcan, MD",
+              "phone": "0 (212) 440 40 00",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Ba\u011fc\u0131lar Training and Research Hospital",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          },
+          "status": "RECRUITING"
+        },
+        {
+          "city": "Izmir",
+          "contacts": [
+            {
+              "email": "dr.saadetaydin@gmail.com",
+              "name": "Saadet Ayd\u0131n, MD",
+              "phone": "+90(232) 493 00 00",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Bak\u0131r\u00e7ay University, Faculty of Medicine",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          },
+          "status": "RECRUITING",
+          "zip": "35665"
+        },
+        {
+          "city": "Kahramanmara\u015f",
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Pazarc\u0131k State Hospital",
+          "geoPoint": {
+            "lat": 37.5847,
+            "lon": 36.92641
+          },
+          "status": "TERMINATED",
+          "zip": "46700"
+        },
+        {
+          "city": "Kars",
+          "contacts": [
+            {
+              "email": "ilisdogan@hotmail.com",
+              "name": "Do\u011fan \u0130li\u015f, Asist. Prof.",
+              "phone": "+90 (474) 225 21 06",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Kafkas University Health Research and Application Hospital",
+          "geoPoint": {
+            "lat": 40.59825,
+            "lon": 43.08548
+          },
+          "status": "RECRUITING",
+          "zip": "36100"
+        },
+        {
+          "city": "K\u00fctahya",
+          "contacts": [
+            {
+              "email": "medicineman_tr@hotmail.com",
+              "name": "Taner \u015een, Prof",
+              "phone": "+90 (274) 260 00 43",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mevl\u00fct Demir, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Emre B Erkip, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Fevzican Do\u011fru, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Ahmet F \u015eahin, MD",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "K\u00fctahya Health Sciences University",
+          "geoPoint": {
+            "lat": 39.42417,
+            "lon": 29.98333
+          },
+          "status": "RECRUITING",
+          "zip": "43100"
+        },
+        {
+          "city": "\u015e\u0131rnak",
+          "contacts": [
+            {
+              "email": "guvenbariss@gmail.com",
+              "name": "Bar\u0131\u015f G\u00fcven",
+              "phone": "+90 (486) 551 36 36",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "\u0130dil State Hospital",
+          "geoPoint": {
+            "lat": 37.51393,
+            "lon": 42.45432
+          },
+          "status": "RECRUITING",
+          "zip": "73300"
+        },
+        {
+          "city": "Tokat Province",
+          "contacts": [
+            {
+              "email": "zorlufb@hotmail.com",
+              "name": "\u00c7a\u011fr\u0131 Zorlu, Asist. Prof.",
+              "phone": "+90 (356) 212 95 00",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "Turkey (T\u00fcrkiye)",
+          "facility": "Tokat Gaziosmanpa\u015fa University",
+          "geoPoint": {
+            "lat": 40.31389,
+            "lon": 36.55444
+          },
+          "status": "RECRUITING",
+          "zip": "60030"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Basaksehir Pine and Sakura City Hospital",
+          "name": "Emre K Aslanger, Prof",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Dr. Siyami Ersek Thoracic and Cardiovascular Surgery Training and Research Hospital",
+          "name": "\u00d6zlem Y\u0131ld\u0131r\u0131mt\u00fcrk, Prof",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators hypothesize that a simple assessment of peripheral venous pressure (PVP) will better predict the diuretic need and long-term outcomes (all cause mortality, all cause rehospitalization, emergency department visits) compared to standard evaluation.",
+      "detailedDescription": "I. BACKGROUND AND SIGNIFICANCE\n\nPrecise assessment of volume status is essential in diagnosis and management of diuretic therapy in patients hospitalized for heart failure (HF). Unfortunately, no clear guidelines are present for in-hospital management of congestion. Consequently, nearly half of the patients hospitalized for congestive HF are discharged with persistent congestion. This contributes to high rates of readmission and mortality.\n\nRecently, it has been shown that a simple assessment of peripheral venous pressure (PVP) demonstrates a high correlation with central venous pressure (CVP), indicating that PVP may be useful in the standard bedside clinical assessment of volume status in HF patients to help guiding decongestive therapy.\n\nII. THE HYPOTHESIS\n\nThe main hypothesis is as follows: A simple assessment of peripheral venous pressure (PVP) will better guide the diuretic need and long-term outcomes (all-cause mortality, all cause re-hospitalization, emergency department visits) compared to standard evaluation.\n\nIII. METHODS\n\n1. Application for Institutional Review Board (IRB)/Ethics board approval The study will be at participating centers. An IRB/Ethics board approval has been obtained from Marmara University, Pendik Training and Research Hospital local ethics board.\n2. Study population Patients 18-99 years old who were admitted with a de novo or decompensated chronic HF and accept to participate in the study will be enrolled. Patients will be included regardless of ejection fraction or etiology of HF, but these will be noted as baseline variables. All patients or legal surrogate decision makers will be requested to provide a written informed consent prior to enrollment. Patients who withdraw their consent, those with upper extremity venous pathology, those with a baseline creatinine level equal to or above 3.5 mg/dL, those with severe stenotic valvular disease and hypertrophic cardiomyopathy will be excluded.\n3. Data Collection The study will start at participating centers on July 1, 2024.\n\nBaseline variables Baseline variables will be entered to the electronic study form (RedCap).\n\nProcedures A peripheral intravenous (IV) access, using an 18 to 22-gauge IV line, will be placed preferably to an upper extremity vein before enrollment. This line will be used to draw blood samples first. After blood samples were collected the subjects will be randomized to standard or PVP guided therapy groups. Randomization will be done using a computer-generated random allocation list via RedCap randomization module. The details of demographic characteristics, symptoms, physical examination findings and drug list will be noted to a standard electronic study form (see appendix). A routine electrocardiogram and echocardiogram will be performed at the earliest convenience.\n\nAfter the blood samples were collected, line will be flushed carefully. PVP will be obtained by transducing a peripheral intravenous line after zeroing at the phlebostatic axis. The phlebostatic axis will be accepted as the midpoint between the anterior and posterior surfaces of the chest at the level of the fourth intercostal space meets with sternum, which is assumed to be correlated with the mid-level of the right atrium. The patient's arm will be placed parallel to the patient such that the position of the peripheral IV to be at the phlebostatic axis. Continuity of the peripheral IV line with the central venous system will be confirmed by demonstrating augmentation of the venous pressure waveform using manual or tourniquet circumferential occlusion of the extremity proximal to the catheter and modified Valsalva maneuver. If the pressure waveform failed to augment appropriately, data will not be collected, and the patient will be documented for study purposes as a technique failure. Daily fluid intake and output, weight, and biochemistry measurements, as required, will be done.\n\nThe patients in whom the first and the predischarge PVP cannot be measured due to technical issues (unable to provide upper extremity IV access, unable to confirm augmentation or Valsalva test) will be excluded from the study. Also, the patients requiring in-hospital intubation, high-dose inotrope or vasopressor infusion (\u226510 mcg.kg-1.min-1 dopamine, dobutamine or equivalent), intraaortic balloon support, dialysis or veno-venous ultrafiltration will be excluded from the study (but these patients will be included in the in-hospital analyses).\n\nIn hospital diuretic treatment will be guided by ESC guidelines (see references). In the standard therapy arm, the treatment and the decision of discharge will be left to physicians' discretion. In the PVP-guided arm, a PVP \\< 9 mmHg will be targeted before discharge.\n\nOutcomes The primary outcome of the study is the composite endpoint of all-cause mortality, all-cause hospitalization and all-cause emergency department visits. The secondary outcomes will include cardiovascular mortality, HF-related hospitalization, HF-related emergency department visits. This information on these outcomes will be obtained from the national electronic database. The follow-up duration is planned to be limited to one year.\n\nPredefined secondary analyses\n\nThere will be subanalyses from the same cohort, as defined below:\n\n* The correlation between predischarge PVP and long-term outcomes. A multivariable analysis will also be executed for predicting the primary end point.\n* The correlation between the change in PVP during hospital stay and long-term outcomes. A multivariable analysis will also be executed for predicting the primary end point.\n* The correlation between the change in PVP during hospital stay and worsening renal function, renal injury, need for dialysis or veno-venous ultrafiltration.\n* The comparison of the two arms in terms of worsening renal function, need for dialysis or veno-venous ultrafiltration.\n* The comparison of the two arms in terms of EVEREST congestion score.\n* The comparison of the two arms in terms of the days in hospital.\n* The comparison of the two arms in terms of the number of repeat hospitalizations.\n* Usual patterns of diuretic use\n\nEstimated number of subjects to be submitted:\n\nWe estimated that the enrollment of 621 participants would provide the study with a statistical power of 95% to detect a relative risk reduction of 26% (hazard ratio \\[HR\\] = 0.74) for the composite primary outcome (PVP-guided group: 40%, standard approach: 50%), using a two-sided test at the 0.05 significance level. This calculation assumes a 10% censoring rate and a 1-year follow-up period. The weighted event rate (\u03c0e=45%) was used to estimate the required number of events. To account for potential loss to follow-up and ensure robust analysis, the sample size was increased to 650 participants, maintaining equal allocation between groups (1:1 randomization).\n\nStatistical Analysis Baseline characteristics will be summarized using standard descriptive statistics. Comparisons of relevant parameters between groups will be performed by chi-square, Fisher's exact test, Mann-Whitney U and student t-test, as appropriate. Kaplan-Meier analysis will be performed to determine the cumulative long-term mortality and composite outcome rates in subgroups. The mortality across groups will be compared using log-rank test. A Cox-regression model will be used to perform a survival analysis according to pre-discharge peripheral venous pressure and composite outcome. Baseline characteristics with a P value of 0.05 or less in the univariate analysis will be included and a step-down procedure will be applied for selection of final covariates. Statistical analyses will be performed with SPSS (version 24.0; SPSS Inc., Chicago, IL) and MedCalc Software (version 18.2.1 \\[Evaluation version\\]; MedCalc Software, Ostend, Belgium)."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two arms with a standard care control group and a peripheral pressure guided intervention group",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 650,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria\n\n* Hospitalization for heart failure (de novo or decompensated chronic heart failure) irrespective of left ventricular ejection fraction\n* Age 18-99\n* Accept to participate\n\nExclusion criteria\n\n* A prior history of upper extremity venous disease\n* Serum creatinine \u2265 3.5 mg/dL\n* Severe stenotic valvular disease\n* Hypertrophic obstructive cardiomyopathy\n* Withdrawal of consent\n* Indwelling central venous catheter,\n* Implanted left ventricular assist device\n* History of heart transplantation\n* Clinical diagnosis of cardiogenic shock\n* Any right-to-left shunt",
+      "healthyVolunteers": false,
+      "maximumAge": "99 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "PERIPHERAL-HF2",
+      "briefTitle": "PVP-Guided Decongestive Therapy in HF 2",
+      "nctId": "NCT06495892",
+      "officialTitle": "Peripheral Venous Pressure-Guided Decongestive Therapy in Heart Failure 2",
+      "orgStudyIdInfo": {
+        "id": "BC&SSH-001"
+      },
+      "organization": {
+        "class": "OTHER_GOV",
+        "fullName": "Ba\u015fak\u015fehir \u00c7am & Sakura City Hospital"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "description": "IPD sharing may be considered upon personal application",
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "otherOutcomes": [
+        {
+          "description": "The correlation between predischarge the absolute amount of pre-discharge peripheral venous pressure (PVP in mmHg) and the change in PVP (in mmHg) during hospital stay and the rate of adverse long-term primary outcomes. (The higher the absolute PVP, more adverse outcomes is hypothesized. The higher the change in PVP during hospital stay, less the rate of adverse events is hypothesized). A multivariable analysis will also be executed for predicting the primary end point.",
+          "measure": "PVP (discharge and delta) and long term outcomes",
+          "timeFrame": "One year"
+        },
+        {
+          "description": "The correlation between the change in PVP during hospital stay (in mmHg) and the rate of worsening renal function, renal injury, need for dialysis or veno-venous ultrafiltration.",
+          "measure": "PVP (delta and cohort) and in-hospital renal outcomes",
+          "timeFrame": "One year"
+        },
+        {
+          "description": "The comparison of the two arms in terms of EVEREST congestion score (EVEREST congestion score, range 0-18, the higher the score, the higher the congestion (worse outcome))",
+          "measure": "Congestion",
+          "timeFrame": "One year"
+        },
+        {
+          "description": "The comparison of the two arms in terms of hospital stay (in days). Longer hospital stay duration is deemed as worse outome.",
+          "measure": "Hospital stay",
+          "timeFrame": "One year"
+        }
+      ],
+      "primaryOutcomes": [
+        {
+          "description": "The difference in the combined rate of all-cause mortality, all-cause hospitalization and all-cause emergency department visits",
+          "measure": "Primary end point: Major adverse events (Mortality and rehospitalization)",
+          "timeFrame": "One year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "The difference in the combined rate of cardiovascular mortality, HF-related hospitalization, HF-related emergency department visits.",
+          "measure": "Secondary combined end point:Major cardiac adverse events (Cardiac mortality and hospitalization)",
+          "timeFrame": "One year"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Mullens W, Damman K, Harjola VP, Mebazaa A, Brunner-La Rocca HP, Martens P, Testani JM, Tang WHW, Orso F, Rossignol P, Metra M, Filippatos G, Seferovic PM, Ruschitzka F, Coats AJ. The use of diuretics in heart failure with congestion - a position statement from the Heart Failure Association of the European Society of Cardiology. Eur J Heart Fail. 2019 Feb;21(2):137-155. doi: 10.1002/ejhf.1369. Epub 2019 Jan 1.",
+          "pmid": "30600580",
+          "type": "BACKGROUND"
+        },
+        {
+          "citation": "Aslanger EK, Pamuk FO, Islamoglu Y, Ozates YS, Ilis D, Donmez E, Ozcan S, Babayigit EC, Demir M, Sen T, Yildirimturk O; PERIPHERAL-HF2 Investigators. Peripheral Venous Pressure-Guided Decongestive Therapy in Heart Failure 2 (PERIPHERAL-HF2). Am J Cardiol. 2025 Apr 15;241:37-42. doi: 10.1016/j.amjcard.2025.01.018. Epub 2025 Jan 22.",
+          "pmid": "39855451",
+          "type": "DERIVED"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "A preliminary study with a similar protocol from the same principal investigator (Akaslan, D., Aslanger, E., Saltan, Y., et al. Peripheral venous pressure guided decongestive therapy in HF. Eur J Heart F 2023; 125)",
+          "url": "https://esc365.escardio.org/presentation/263690"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER_GOV",
+          "name": "Ankara Etlik City Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Akdeniz University"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Ba\u011fc\u0131lar Training and Research Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Bak\u0131r\u00e7ay University, Faculty of Medicine"
+        },
+        {
+          "class": "OTHER",
+          "name": "Dr. Siyami Ersek Thoracic and Cardiovascular Surgery Training and Research Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Eski\u015fehir City Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "\u0130dil State Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Kafkas University Health Research and Application Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Kutahya Health Sciences University"
+        },
+        {
+          "class": "OTHER_GOV",
+          "name": "Istanbul Mehmet Akif Ersoy Educational and Training Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Pazarc\u0131k State Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Tokat Gaziosmanpa\u015fa University, Faculty of Medicine"
+        },
+        {
+          "class": "OTHER",
+          "name": "Trakya University"
+        },
+        {
+          "class": "OTHER",
+          "name": "Ataturk University"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER_GOV",
+        "name": "Ba\u015fak\u015fehir \u00c7am & Sakura City Hospital"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-07-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-01",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-07-01",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-07-01",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2024-12",
+      "studyFirstPostDateStruct": {
+        "date": "2024-07-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-06-25",
+      "studyFirstSubmitQcDate": "2024-07-03"
+    }
+  }
+}

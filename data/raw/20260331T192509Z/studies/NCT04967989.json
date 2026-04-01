@@ -1,0 +1,971 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D005128",
+          "term": "Eye Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D005901",
+          "term": "Glaucoma"
+        },
+        {
+          "id": "D009798",
+          "term": "Ocular Hypertension"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "removedCountries": [
+        "United Kingdom"
+      ],
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Standard energy SLT is performed as follows: beginning at 0.8 mJ, energy will be titrated up or down within the first 5-10 spots until champagne bubbles are visualized with every 2nd or 3rd spot. Energy can be titrated throughout the procedure, in response to variations in pigmentation, to ensure the appearance of champagne bubbles with every 2nd or 3rd spot throughout the full 360\u00b0 treatment. Energy should be increased if no bubbles are seen with 5 consecutive spots and decreased if bubbles are seen with 5 consecutive spots.",
+          "interventionNames": [
+            "Procedure: Standard Energy SLT"
+          ],
+          "label": "Trial 1: Initial standard energy SLT",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "At month 12, eligible subjects will be randomized to undergo repeat SLT either annually at low energy or as needed at standard energy.\n\nLow energy SLT will consist of 100 treatment spots delivered at 0.4 mJ per spot throughout the full 360\u00b0 treatment, with the exception that energy can be reduced to 0.3 mJ if bubbles are seen with 5 consecutive spots and can be increased back to a maximum of 0.4mJ is no bubbles are seen with 5 consecutive spots.",
+          "interventionNames": [
+            "Procedure: Low Energy SLT"
+          ],
+          "label": "Trial 2: Month 12 Randomization: Annual Low Energy Repeat SLT",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "At month 12, eligible subjects will be randomized to undergo repeat SLT either annually at low energy or as needed at standard energy.\n\nStandard SLT will be performed as follows: beginning at 0.8 mJ, energy will be titrated up or down within the first 5-10 spots until champagne bubbles are visualized with every 2nd or 3rd spot. Energy can be titrated throughout the procedure, in response to variations in pigmentation, to ensure the appearance of champagne bubbles with every 2nd or 3rd spot throughout the full 360\u00b0 treatment. Energy should be increased if no bubbles are seen with 5 consecutive spots and decreased if bubbles are seen with 5 consecutive spots.",
+          "interventionNames": [
+            "Procedure: Standard Energy SLT"
+          ],
+          "label": "Trial 2: Month 12 Randomization: As-Needed Repeat SLT at Standard Energy",
+          "type": "ACTIVE_COMPARATOR"
+        },
+        {
+          "description": "Note: This arm was discontinued following a planned interim analysis.\n\nLow energy SLT will consist of 100 treatment spots delivered at 0.4 mJ per spot throughout the full 360\u00b0 treatment, with the exception that energy can be reduced to 0.3 mJ if bubbles are seen with 5 consecutive spots and can be increased back to a maximum of 0.4mJ if no bubbles are seen with 5 consecutive spots.",
+          "interventionNames": [
+            "Procedure: Low Energy SLT"
+          ],
+          "label": "Trial 1: Initial Low Energy SLT",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Trial 1: Initial Low Energy SLT",
+            "Trial 2: Month 12 Randomization: Annual Low Energy Repeat SLT"
+          ],
+          "description": "SLT performed at low energy",
+          "name": "Low Energy SLT",
+          "type": "PROCEDURE"
+        },
+        {
+          "armGroupLabels": [
+            "Trial 1: Initial standard energy SLT",
+            "Trial 2: Month 12 Randomization: As-Needed Repeat SLT at Standard Energy"
+          ],
+          "description": "SLT performed at standard energy",
+          "name": "Standard Energy SLT",
+          "type": "PROCEDURE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Glaucoma and Ocular Hypertension"
+      ],
+      "keywords": [
+        "glaucoma",
+        "selective laser trabeculoplasty",
+        "clinical trial"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "hypotonywvu@gmail.com",
+          "name": "Tony Realini, MD, MPH",
+          "phone": "3045986926",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Laguna Hills",
+          "contacts": [
+            {
+              "email": "jkaur@harvardeye.com",
+              "name": "Jasmin Kaur",
+              "phone": "949-951-2020",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ye Elaine Wang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Harvard Eye Associates",
+          "geoPoint": {
+            "lat": 33.61252,
+            "lon": -117.71283
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "92653"
+        },
+        {
+          "city": "Pasadena",
+          "contacts": [
+            {
+              "email": "MRaygoza@mednet.ucla.edu",
+              "name": "Mayra Raygoza",
+              "phone": "(626) 817-4747",
+              "phoneExt": "19093",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Judy L Chen, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Doheny Eye Center UCLA",
+          "geoPoint": {
+            "lat": 34.14778,
+            "lon": -118.14452
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "91105"
+        },
+        {
+          "city": "Sacramento",
+          "contacts": [
+            {
+              "email": "ldlopez@ucdavis.edu",
+              "name": "Leslie Valverde",
+              "phone": "916-734-6302",
+              "role": "CONTACT"
+            },
+            {
+              "name": "James Brandt, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of California, Davis",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "95817"
+        },
+        {
+          "city": "San Francisco",
+          "contacts": [
+            {
+              "email": "jenny.lu@ucsf.edu",
+              "name": "Jenny Lu",
+              "phone": "(415) 476-5321",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ying Han, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of California, San Francisco",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "94158"
+        },
+        {
+          "city": "Sheridan",
+          "contacts": [
+            {
+              "email": "michelle@mhei.com",
+              "name": "Michelle Lopez Galindo",
+              "phone": "303-241-7310",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Zachary Vest, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Mile High Eye Institute",
+          "geoPoint": {
+            "lat": 39.64693,
+            "lon": -105.02526
+          },
+          "state": "Colorado",
+          "status": "RECRUITING",
+          "zip": "80110"
+        },
+        {
+          "city": "Lakeworth",
+          "contacts": [
+            {
+              "email": "michelle@clearvuenow.com",
+              "name": "Michelle Hill",
+              "phone": "561-432-4141",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Monique Barbour, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Clear Vue Laser Eye Center",
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "33467"
+        },
+        {
+          "city": "Chicago",
+          "contacts": [
+            {
+              "email": "angela.giliana@northwestern.edu",
+              "name": "Angela Giliana",
+              "phone": "312-695-0252",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Angelo Tanna, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Northwestern Medical Group",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          },
+          "state": "Illinois",
+          "status": "RECRUITING",
+          "zip": "60615"
+        },
+        {
+          "city": "Orland Park",
+          "contacts": [
+            {
+              "email": "lorenerafol@arboreyecare.com",
+              "name": "Lorene Rafol",
+              "phone": "708-249-1026",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Richard Quinones, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Chicago Arbor Eye Institute",
+          "geoPoint": {
+            "lat": 41.63031,
+            "lon": -87.85394
+          },
+          "state": "Illinois",
+          "status": "RECRUITING",
+          "zip": "60467"
+        },
+        {
+          "city": "Peoria",
+          "contacts": [
+            {
+              "email": "lhendershott@illinoiseyecenter.com",
+              "name": "Lori Hendershott",
+              "phone": "309-213-0664",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Sachin Kalarn, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Illinois Eye Center",
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          },
+          "state": "Illinois",
+          "status": "RECRUITING",
+          "zip": "61615"
+        },
+        {
+          "city": "Baltimore",
+          "contacts": [
+            {
+              "email": "rthaker2@jh.edu",
+              "name": "Rucha Thaker",
+              "phone": "908- 616-1807",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Pradeep Ramulu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Wilmer Eye Institute Johns Hopkins",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          },
+          "state": "Maryland",
+          "status": "RECRUITING",
+          "zip": "21287"
+        },
+        {
+          "city": "Boston",
+          "contacts": [
+            {
+              "email": "mcheung0@meei.harvard.edu",
+              "name": "Michael Cheung",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Michael Lin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Massachusetts Eye and Ear",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "status": "RECRUITING",
+          "zip": "02114"
+        },
+        {
+          "city": "Boston",
+          "contacts": [
+            {
+              "email": "tkaur@eyeboston.com",
+              "name": "Tejinder Kaur",
+              "phoneExt": "617-314-2687",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Theodor Sauer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Ophthalmic Consultants of Boston",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          },
+          "state": "Massachusetts",
+          "status": "RECRUITING",
+          "zip": "02451"
+        },
+        {
+          "city": "Reading",
+          "contacts": [
+            {
+              "email": "anngardikas76@gmail.com",
+              "name": "Ann Gardikas",
+              "phone": "781-942-9876",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mark Latina, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Mark Latina, LLC",
+          "geoPoint": {
+            "lat": 42.52565,
+            "lon": -71.09533
+          },
+          "state": "Massachusetts",
+          "status": "RECRUITING",
+          "zip": "01867"
+        },
+        {
+          "city": "Ann Arbor",
+          "contacts": [
+            {
+              "email": "rulindsa@med.umich.edu",
+              "name": "Lindsay Rudberg",
+              "phone": "734-647-9196",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Amanda Bicket, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Michigan Kellogg Eye Center",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48105"
+        },
+        {
+          "city": "Detroit",
+          "contacts": [
+            {
+              "email": "bayan.el-haik@wayne.edu",
+              "name": "Bayan El-Haik",
+              "phone": "313-515-5487",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Bret Hughes, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Kresge Eye Institute Wayne State University",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          },
+          "state": "Michigan",
+          "status": "RECRUITING",
+          "zip": "48201"
+        },
+        {
+          "city": "The Bronx",
+          "contacts": [
+            {
+              "email": "kfeliciano@nyeye.com",
+              "name": "Krystina Tavarez-Feliciano",
+              "phone": "347-860-4474",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Nathan Radcliffe, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "New York Eye Surgery Associates",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          },
+          "state": "New York",
+          "status": "RECRUITING",
+          "zip": "10469"
+        },
+        {
+          "city": "Cleveland",
+          "contacts": [
+            {
+              "email": "Sangeetha.Raghupathy@uhhospitals.org",
+              "name": "Sangeetha Raghupathy",
+              "phone": "216-844-8552",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Douglas Rhee, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University Hospitals Eye Institute",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          },
+          "state": "Ohio",
+          "status": "RECRUITING",
+          "zip": "44106"
+        },
+        {
+          "city": "Cleveland",
+          "contacts": [
+            {
+              "email": "vasicd@ccf.org",
+              "name": "Dusica Vasic",
+              "phone": "216-445-3840",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ang Li, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Cleveland Clinic Cole Eye Institute",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          },
+          "state": "Ohio",
+          "status": "RECRUITING",
+          "zip": "44195"
+        },
+        {
+          "city": "Portland",
+          "contacts": [
+            {
+              "email": "jrees@deverseye.org",
+              "name": "Jack Rees",
+              "phone": "503-413-8495",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Robert Kinast, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Devers Eye Institute",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          },
+          "state": "Oregon",
+          "status": "RECRUITING",
+          "zip": "97210"
+        },
+        {
+          "city": "Kingston",
+          "contacts": [
+            {
+              "email": "cheryl.bayley@vipeyes.com",
+              "name": "Cheryl Bayley",
+              "phone": "570-714-5915",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Daniel Lutz, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Eye Care Specialists",
+          "geoPoint": {
+            "lat": 41.26175,
+            "lon": -75.89686
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "18704"
+        },
+        {
+          "city": "Philadelphia",
+          "contacts": [
+            {
+              "email": "Criston.Young@pennmedicine.upenn.edu",
+              "name": "Criston Young",
+              "phone": "856-519-8295",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Ahmara Ross, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Scheie Eye Institute",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "19104"
+        },
+        {
+          "city": "Philadelphia",
+          "contacts": [
+            {
+              "email": "MDivers@willseye.org",
+              "name": "Meskerem Divers",
+              "phone": "215-825-4712",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Lauren Hock, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Wills Eye Hospital",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "19107"
+        },
+        {
+          "city": "Pittsburgh",
+          "country": "United States",
+          "facility": "UPMC Eye Center",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          },
+          "state": "Pennsylvania",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "zip": "15213"
+        },
+        {
+          "city": "Nashville",
+          "contacts": [
+            {
+              "email": "marybeth.l.carter@vumc.org",
+              "name": "Marybeth Carter",
+              "phone": "616-936-1639",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rachel Kuchtey, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Vanderbilt Eye Institute",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          },
+          "state": "Tennessee",
+          "status": "RECRUITING",
+          "zip": "37232"
+        },
+        {
+          "city": "Fort Worth",
+          "contacts": [
+            {
+              "email": "ksinclair@oafw2020.com",
+              "name": "Kaitlin Sinclair",
+              "phone": "940-452-1173",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Brian Flowers, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Ophthalmology Associates",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "76102"
+        },
+        {
+          "city": "Spokane",
+          "contacts": [
+            {
+              "email": "dwaidelich@spokaneeye.com",
+              "name": "Dylan Waidelich",
+              "phone": "509-623-9768",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Rory Allar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "Spokane Eye Clinical Research",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          },
+          "state": "Washington",
+          "status": "RECRUITING",
+          "zip": "99204"
+        },
+        {
+          "city": "Morgantown",
+          "contacts": [
+            {
+              "email": "athena.sparks@wvumedicine.org",
+              "name": "Athena Echols, LPN",
+              "phone": "304-598-6977",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Tony Realini, MD, MPH",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "West Virginia University",
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          },
+          "state": "West Virginia",
+          "status": "RECRUITING",
+          "zip": "26505"
+        },
+        {
+          "city": "Madison",
+          "contacts": [
+            {
+              "email": "kmboyd@wisc.edu",
+              "name": "Kelly Boyd",
+              "phone": "608-265-4589",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Yao Liu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "United States",
+          "facility": "University of Wisconsin-Madison",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          },
+          "state": "Wisconsin",
+          "status": "RECRUITING",
+          "zip": "53705"
+        },
+        {
+          "city": "Kitchener",
+          "country": "Canada",
+          "facility": "Ocular Health Centre",
+          "geoPoint": {
+            "lat": 43.42537,
+            "lon": -80.5112
+          },
+          "state": "Ontario",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "zip": "N2A0K5"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "West Virginia University",
+          "name": "Tony Realini, MD, MPH",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "affiliation": "University of Pittsburgh",
+          "name": "Goundappa K Balasubramani, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "University of Pittsburgh",
+          "name": "Stephen Wisniewski, PhD",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this study is to understand if SLT performed at low energy is as effective as SLT performed at standard energy, and also to see if repeating SLT at low energy once a year will prevent or delay the need for daily eye drop medications better than waiting for SLT to wear off before repeating it."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The COAST trial underwent a design modification in response to a planned interim analysis. The original and current designs are described here.\n\nInitial Design: Subjects are randomized at study entry to initial SLT at standard or low energy. Subjects who reach Month 12 without discontinuing study treatment are randomized a second time to annual low-energy repeat SLT or as-needed standard energy repeat SLT. There are 2 arms in the first 12 months of the study and 2 arms in Months 13-48.\n\nCurrent deign: Subjects receive standard at SLT at study entry. Subjects who reach Month 12 without discontinuing study treatment are randomized to annual low-energy repeat SLT or as-needed standard energy repeat SLT. There are 2 arms in the first 12 months of the study and 2 arms in Months 13-48.",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 790,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18 or older and in good health\n2. Each eye with one of the following qualifying diagnoses (diagnoses may differ between eyes):\n\n   1. High-risk ocular hypertension (OHT): IOP \\> 21 mmHg without glaucomatous optic neuropathy (excavation, diffuse or focal thinning or notching of the neuroretinal rim, visible nerve fiber layer defects, or asymmetry of the vertical cup-to-disc ratio of \\>0.2 between eyes)\n   2. Mild primary open-angle glaucoma: glaucomatous optic neuropathy, visual field mean deviation better than -6.0 dB with no points in the central 5\u00b0 \\<15 dB (see figure on next page)\n   3. Moderate primary open-angle glaucoma: glaucomatous optic neuropathy, visual field mean deviation equal to or worse than -6.0 dB but no worse than -12.0 dB and no central 5\u00b0 points \\<15 dB or mean deviation -12.0 dB or better with 1 central 5\u00b0 points \\<15 dB (see figure on next page).\n3. Each eye with BCVA 20/200 (UK 6/60) or better\n\nExclusion Criteria:\n\n1. Use of topical IOP-lowering medications for more than 6 cumulative months at any time in the past 5 years (this is a modification implemented during active enrollment)\n2. Any history of IOP-lowering laser (prophylactic iridotomy not included) or surgical procedure\n3. Advanced POAG in either eye (worse than moderate POAG as defined above)\n4. Glaucoma other than POAG (including pigmentary and pseudoexfoliation glaucoma) in either eye\n5. Mean IOP \\> 35 mmHg at either the screening or baseline visit in either eye\n6. Narrow or closed angle (Shaffer Grade 0, 1, or 2) in either eye\n7. Contraindications to SLT or any other study intervention\n8. Any corneal pathology that would preclude accurate assessment of IOP by Goldmann tonometry in either eye\n9. Any intraocular surgical procedure within the past 6 months in either eye\n10. Inability to attend all scheduled study visits\n11. Pregnant or planning to become pregnant in the next 4 years",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "COAST",
+      "briefTitle": "Clarifying the Optimal Application of SLT Therapy Trial",
+      "nctId": "NCT04967989",
+      "officialTitle": "Clarifying the Optimal Application of SLT Therapy Trial",
+      "orgStudyIdInfo": {
+        "id": "STUDY21060171"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "University of Pittsburgh"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "UG1EY031651",
+          "link": "https://reporter.nih.gov/quickSearch/UG1EY031651",
+          "type": "NIH"
+        },
+        {
+          "id": "UG1EY031654",
+          "link": "https://reporter.nih.gov/quickSearch/UG1EY031654",
+          "type": "NIH"
+        },
+        {
+          "domain": "University of Pittsburgh",
+          "id": "STUDY21080018",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "accessCriteria": "See above",
+      "description": "All study data will be de-identified. We will invite other investigators to submit secondary data requests using the data from the study and will work with those investigators to foster additional research studies and manuscripts. The investigators agree to abide by the principles for sharing research resources as described by \"Principles and Guidelines for Recipients of NIH Research Grants and Contracts on Obtaining and Disseminating Biomedical Research Resources.\" All publications based on the study will adhere to the NIH Public Access Policy (Notice NOT-OD-08-033). At the end of the study, all study data will be submitted for permanent archive per the notice of grant award.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "At study completion"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Survival of first SLT through Month 12",
+          "measure": "12-month survival",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "At Month 12, subjects are randomized to repeat SLT either annually at low energy or PRN at standard energy. The proportion controlled with SLT alone at Month 48 will be compared between groups",
+          "measure": "48-month survival",
+          "timeFrame": "48 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Mean IOP at month 12",
+          "measure": "Mean IOP",
+          "timeFrame": "12 months"
+        },
+        {
+          "description": "Mean IOP at each study visit",
+          "measure": "Long-term mean IOP",
+          "timeFrame": "12, 24, 36, and 48 months"
+        },
+        {
+          "description": "IOP spikes \\> 5 mmHg on day of SLT",
+          "measure": "Incidence of IOP spikes",
+          "timeFrame": "0, 12, 24, 36, and 48 months"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Realini T, Gazzard G, Latina M, Kass M. Low-energy Selective Laser Trabeculoplasty Repeated Annually: Rationale for the COAST Trial. J Glaucoma. 2021 Jul 1;30(7):545-551. doi: 10.1097/IJG.0000000000001788.",
+          "pmid": "33428350",
+          "type": "BACKGROUND"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Study website",
+          "url": "http://www.COASTtrial.org"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "NIH",
+          "name": "National Eye Institute (NEI)"
+        },
+        {
+          "class": "OTHER",
+          "name": "West Virginia University"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "University of Pittsburgh"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "University of Pittsburgh",
+        "investigatorFullName": "Balasubramani Goundappa",
+        "investigatorTitle": "Research Associate Professor",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2027-08-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-26",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2027-06-30",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2021-09-07",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-09",
+      "studyFirstPostDateStruct": {
+        "date": "2021-07-20",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-06-27",
+      "studyFirstSubmitQcDate": "2021-07-19"
+    }
+  }
+}

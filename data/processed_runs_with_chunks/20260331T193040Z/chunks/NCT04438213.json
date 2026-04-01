@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT04438213:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT04438213\nBrief title: Ertugliflozin in Chronic Heart Failure\nOfficial title: Ertugliflozin in Chronic Heart Failure: Cardio-renal and Diuretic Effects\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT04438213"
+    },
+    {
+      "chunk_id": "NCT04438213:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Heart Failure\nIntervention labels: Ertugliflozin; Metolazone; Placebo\nDrug class labels: \nArms: Ertugliflozin; Metolazone; Placebo\nKeywords: Ertugliflozin; Metolazone",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT04438213"
+    },
+    {
+      "chunk_id": "NCT04438213:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to determine the effects on heart failure signs and symptoms of the use of either ertugliflozin, metolazone or placebo, in conjunction with intravenous loop diuretic use in acute settings and chronic oral loop diuretic therapy.\n\nThere are two general purposes for this study. The proposed study is both larger and more rigorous than essentially all PK/PD studies that form the basis of current practice with loop diuretics as well as all studies looking at add-on thiazide therapy (current guideline-recommended adjuvant). The second is to generate a mechanistic understanding of the pleotropic cardio-renal factors with chronic therapy that differentiate ertugliflozin from traditional diuretics particularly in how they maintain reduced blood volume without the complication of over-diuresis and volume depletion.\nDetailed description: This is a randomized placebo controlled mechanistic study to understand the utility of ertugliflozin in heart failure patients with or without diabetes, compared to both placebo and the active control metolazone. The broad study design will be designed around evaluation of change in gold standard determined body fluid spaces (blood volume, extracellular fluid, total body water), administering a sodium chloride challenge, and collecting the necessary biospecimens to test our hypotheses. The general study design will randomize to ertugliflozin vs. placebo for a total therapy of 6 weeks.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 215,
+      "trial_nct_id": "NCT04438213"
+    },
+    {
+      "chunk_id": "NCT04438213:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. A clinical diagnosis of chronic heart failure (either systolic or diastolic)\n2. Chronic daily oral loop diuretic dose use\n3. eGFR \u226520 mL/min/1.73 m2\n4. English speaking participants only\n5. Signed informed consent\n\nExclusion Criteria:\n\n1. Current use or plan to initiate renal replacement therapy or ultrafiltration\n2. Significant bladder dysfunction or urinary incontinence\n3. Inability to comply with the serial urine collection procedures\n4. Current use of a thiazide or thiazide like diuretics or use within 5 half-lives of the drug, including metolazone\n5. Current use of a SGLT-2 inhibitor, or in the treating provider's judgement, contraindication to be withdrawn from current use of an SGLT-2 inhibitor\n6. Prior heart transplant, critical stenotic valvular disease or complex congenital heart\n7. History of type 1 diabetes, diabetic ketoacidosis, \"brittle\" diabetes or frequent hypoglycemia or severe hypoglycemic episodes requiring emergent intervention (ER visit or EMS response, glucagon administration or forced oral carbs) in the last 3 months\n8. History of or current urosepsis or frequent urinary tract infections\n9. Anemia with hemoglobin \\<8g/dL (due to required phlebotomy for the study)\n10. Pregnancy or breastfeeding\n11. Appears unlikely or unable to participate in the required study procedures, as assessed by the study PI, study coordinator, or designee (ex: clinically-significant psychiatric, addictive, or neurological disease)\n12. Inability to give written informed consent or follow study protocol\n13. Severe peripheral artery disease, previous amputation, or threatened amputation\n14. Life expectancy \\< 3 months",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 259,
+      "trial_nct_id": "NCT04438213"
+    },
+    {
+      "chunk_id": "NCT04438213:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Change from baseline to day 7 of plasma volume by add-on to loop diuretic therapy | time_frame=7 days | description=The primary outcome of the chronic effects of add-on placebo, thiazide-like diuretic, or SGLT2 inhibitor is to determine the change in plasma volume from baseline to day 7\ntype=primary | measure=Change from baseline to 6 weeks of plasma volume by add-on to loop diuretic therapy | time_frame=6 weeks | description=The primary outcome of the chronic effects of add-on placebo, thiazide-like diuretic, or SGLT2 inhibitor is to determine the change in plasma volume from baseline to 6 weeks\ntype=primary | measure=Natriuretic effect of adjuvant to loop diuretic therapy | time_frame=1 day | description=The natriuretic effect of each arm with loop diuretic therapy will be measured by the urine sodium output and FeNa.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 132,
+      "trial_nct_id": "NCT04438213"
+    },
+    {
+      "chunk_id": "NCT04438213:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-03-10\nPrimary completion date: 2025-12-30\nCompletion date: 2025-12-30\nStudy first posted: 2020-06-18\nResults first posted: None\nLast update posted: 2025-10-08\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT04438213"
+    },
+    {
+      "chunk_id": "NCT04438213:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Yale University\nLead sponsor class: OTHER\nCollaborators: Merck Sharp & Dohme LLC\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 22,
+      "trial_nct_id": "NCT04438213"
+    }
+  ],
+  "trial_nct_id": "NCT04438213"
+}

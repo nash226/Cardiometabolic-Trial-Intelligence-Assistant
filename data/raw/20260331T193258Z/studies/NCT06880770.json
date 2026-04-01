@@ -1,0 +1,940 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D006949",
+          "term": "Hyperlipidemias"
+        },
+        {
+          "id": "D050171",
+          "term": "Dyslipidemias"
+        },
+        {
+          "id": "D052439",
+          "term": "Lipid Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D015228",
+          "term": "Hypertriglyceridemia"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000731231",
+          "term": "plozasiran"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Plozasiran by SC injection every 3 months (Q3M) through completion of the randomized period\n\nPlozasiran by SC injection Q3M through completion of the OLE period",
+          "interventionNames": [
+            "Drug: Plozasiran"
+          ],
+          "label": "Plozasiran Injection",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "calculated volume to match active treatment by SC injection (randomized period)",
+          "interventionNames": [
+            "Drug: Placebo"
+          ],
+          "label": "Placebo",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Plozasiran Injection"
+          ],
+          "description": "ARO-APOC3 injection",
+          "name": "Plozasiran",
+          "otherNames": [
+            "ARO-APOC3"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "description": "sterile normal saline (0.9% NaCl)",
+          "name": "Placebo",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Severe Hypertriglyceridemia"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "plozasiran@arrowheadpharma.com",
+          "name": "Medical Monitor",
+          "phone": "626-304-3400",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Los Angeles",
+          "country": "United States",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "90027"
+        },
+        {
+          "city": "Santa Clarita",
+          "country": "United States",
+          "facility": "Clinical Research Site 4",
+          "geoPoint": {
+            "lat": 34.39166,
+            "lon": -118.54259
+          },
+          "state": "California",
+          "status": "RECRUITING",
+          "zip": "91321"
+        },
+        {
+          "city": "Springfield",
+          "country": "United States",
+          "facility": "Clinical Research Site 6",
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          },
+          "state": "Illinois",
+          "status": "RECRUITING",
+          "zip": "62702"
+        },
+        {
+          "city": "Indianapolis",
+          "country": "United States",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          },
+          "state": "Indiana",
+          "status": "RECRUITING",
+          "zip": "46202"
+        },
+        {
+          "city": "Kansas City",
+          "country": "United States",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          },
+          "state": "Kansas",
+          "status": "RECRUITING",
+          "zip": "66160"
+        },
+        {
+          "city": "St Louis",
+          "country": "United States",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          },
+          "state": "Missouri",
+          "status": "RECRUITING",
+          "zip": "63110"
+        },
+        {
+          "city": "North Platte",
+          "country": "United States",
+          "facility": "Clinical Research Site 5",
+          "geoPoint": {
+            "lat": 41.12389,
+            "lon": -100.76542
+          },
+          "state": "Nebraska",
+          "status": "RECRUITING",
+          "zip": "69101"
+        },
+        {
+          "city": "Greensboro",
+          "country": "United States",
+          "facility": "Clinical Research Site 3",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "27401"
+        },
+        {
+          "city": "Wilmington",
+          "country": "United States",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 34.23556,
+            "lon": -77.94604
+          },
+          "state": "North Carolina",
+          "status": "RECRUITING",
+          "zip": "28412"
+        },
+        {
+          "city": "Philadelphia",
+          "country": "United States",
+          "facility": "Clinical Research Site 7",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          },
+          "state": "Pennsylvania",
+          "status": "RECRUITING",
+          "zip": "19107"
+        },
+        {
+          "city": "Mesquite",
+          "country": "United States",
+          "facility": "Clinical Research Site 1",
+          "geoPoint": {
+            "lat": 32.7668,
+            "lon": -96.59916
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "75149"
+        },
+        {
+          "city": "San Antonio",
+          "country": "United States",
+          "facility": "Clinical Research Site 2",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          },
+          "state": "Texas",
+          "status": "RECRUITING",
+          "zip": "78233"
+        },
+        {
+          "city": "Graz",
+          "country": "Austria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          },
+          "status": "RECRUITING",
+          "zip": "8036"
+        },
+        {
+          "city": "Fortaleza",
+          "country": "Brazil",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          },
+          "state": "Cear\u00e1",
+          "status": "RECRUITING",
+          "zip": "60430-370"
+        },
+        {
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          },
+          "state": "Minas Gerais",
+          "status": "RECRUITING",
+          "zip": "30150-274"
+        },
+        {
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          },
+          "state": "Minas Gerais",
+          "status": "RECRUITING",
+          "zip": "30150-320"
+        },
+        {
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          },
+          "state": "Minas Gerais",
+          "status": "RECRUITING",
+          "zip": "30220-140"
+        },
+        {
+          "city": "Porto Alegre",
+          "country": "Brazil",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          },
+          "state": "Rio Grande do Sul",
+          "status": "RECRUITING",
+          "zip": "90035-903"
+        },
+        {
+          "city": "P\u00f4rto Alegre",
+          "country": "Brazil",
+          "facility": "Research Site",
+          "state": "Rio Grande do Sul",
+          "status": "RECRUITING",
+          "zip": "90050-170"
+        },
+        {
+          "city": "Burgas",
+          "country": "Bulgaria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 42.50651,
+            "lon": 27.46886
+          },
+          "status": "RECRUITING",
+          "zip": "8000"
+        },
+        {
+          "city": "Pleven",
+          "country": "Bulgaria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 43.41791,
+            "lon": 24.61666
+          },
+          "status": "RECRUITING",
+          "zip": "5800"
+        },
+        {
+          "city": "Plovdiv",
+          "country": "Bulgaria",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 42.15387,
+            "lon": 24.75001
+          },
+          "status": "RECRUITING",
+          "zip": "4002"
+        },
+        {
+          "city": "Plovdiv",
+          "country": "Bulgaria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 42.15387,
+            "lon": 24.75001
+          },
+          "status": "RECRUITING",
+          "zip": "4003"
+        },
+        {
+          "city": "Rousse",
+          "country": "Bulgaria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 43.84872,
+            "lon": 25.9534
+          },
+          "status": "RECRUITING",
+          "zip": "7013"
+        },
+        {
+          "city": "Sofia",
+          "country": "Bulgaria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          },
+          "status": "RECRUITING",
+          "zip": "1404"
+        },
+        {
+          "city": "Sofia",
+          "country": "Bulgaria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 42.69751,
+            "lon": 23.32415
+          },
+          "status": "RECRUITING",
+          "zip": "1431"
+        },
+        {
+          "city": "Stara Zagora",
+          "country": "Bulgaria",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 42.43205,
+            "lon": 25.64262
+          },
+          "status": "RECRUITING",
+          "zip": "6000"
+        },
+        {
+          "city": "Beijing",
+          "country": "China",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "state": "Beijing Municipality",
+          "status": "RECRUITING",
+          "zip": "100730"
+        },
+        {
+          "city": "Guiyang",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 26.58333,
+            "lon": 106.71667
+          },
+          "state": "Guizhou",
+          "status": "RECRUITING",
+          "zip": "550000"
+        },
+        {
+          "city": "Harbin",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          },
+          "state": "Heilongjiang",
+          "status": "RECRUITING",
+          "zip": "150040"
+        },
+        {
+          "city": "Baotou",
+          "country": "China",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 40.6516,
+            "lon": 109.84389
+          },
+          "state": "Inner Mongolia",
+          "status": "RECRUITING",
+          "zip": "014010"
+        },
+        {
+          "city": "Chifeng",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 42.26833,
+            "lon": 118.96361
+          },
+          "state": "Inner Mongolia",
+          "status": "RECRUITING",
+          "zip": "024099"
+        },
+        {
+          "city": "Nanchang",
+          "country": "China",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          },
+          "state": "Jiangxi",
+          "status": "RECRUITING",
+          "zip": "330006"
+        },
+        {
+          "city": "Shanghai",
+          "country": "China",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          },
+          "state": "Shanghai Municipality",
+          "status": "RECRUITING",
+          "zip": "201620"
+        },
+        {
+          "city": "Hangzhou",
+          "country": "China",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          },
+          "state": "Zhejiang",
+          "status": "RECRUITING",
+          "zip": "310000"
+        },
+        {
+          "city": "Hangzhou",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          },
+          "state": "Zhejiang",
+          "status": "RECRUITING",
+          "zip": "310003"
+        },
+        {
+          "city": "Beijing",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          },
+          "status": "RECRUITING",
+          "zip": "100053"
+        },
+        {
+          "city": "Nanjing",
+          "country": "China",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          },
+          "status": "RECRUITING",
+          "zip": "210002"
+        },
+        {
+          "city": "Budapest",
+          "country": "Hungary",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          },
+          "status": "RECRUITING",
+          "zip": "1083"
+        },
+        {
+          "city": "Budapest",
+          "country": "Hungary",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          },
+          "status": "RECRUITING",
+          "zip": "1132"
+        },
+        {
+          "city": "Szeged",
+          "country": "Hungary",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 46.253,
+            "lon": 20.14824
+          },
+          "status": "RECRUITING",
+          "zip": "6725"
+        },
+        {
+          "city": "Amman",
+          "country": "Jordan",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 31.95522,
+            "lon": 35.94503
+          },
+          "status": "RECRUITING",
+          "zip": "11190"
+        },
+        {
+          "city": "Amman",
+          "country": "Jordan",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 31.95522,
+            "lon": 35.94503
+          },
+          "status": "RECRUITING",
+          "zip": "11821"
+        },
+        {
+          "city": "Amman",
+          "country": "Jordan",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 31.95522,
+            "lon": 35.94503
+          },
+          "status": "RECRUITING",
+          "zip": "11942"
+        },
+        {
+          "city": "Irbid",
+          "country": "Jordan",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 32.55556,
+            "lon": 35.85
+          },
+          "status": "RECRUITING",
+          "zip": "21166"
+        },
+        {
+          "city": "Irbid",
+          "country": "Jordan",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 32.55556,
+            "lon": 35.85
+          },
+          "status": "RECRUITING",
+          "zip": "22110"
+        },
+        {
+          "city": "Muscat",
+          "country": "Oman",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 23.58413,
+            "lon": 58.40778
+          },
+          "status": "RECRUITING",
+          "zip": "123"
+        },
+        {
+          "city": "Belgrade",
+          "country": "Serbia",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 44.80401,
+            "lon": 20.46513
+          },
+          "status": "RECRUITING",
+          "zip": "11000"
+        },
+        {
+          "city": "Belgrade",
+          "country": "Serbia",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 44.80401,
+            "lon": 20.46513
+          },
+          "status": "RECRUITING",
+          "zip": "11000"
+        },
+        {
+          "city": "Pan\u010devo",
+          "country": "Serbia",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 44.87177,
+            "lon": 20.64167
+          },
+          "status": "RECRUITING",
+          "zip": "26000"
+        },
+        {
+          "city": "Zaje\u010dar",
+          "country": "Serbia",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 43.90358,
+            "lon": 22.26405
+          },
+          "status": "RECRUITING",
+          "zip": "19000"
+        },
+        {
+          "city": "Jeonju",
+          "country": "South Korea",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 35.82194,
+            "lon": 127.14889
+          },
+          "state": "Jeollabuk-do",
+          "status": "RECRUITING",
+          "zip": "54907"
+        },
+        {
+          "city": "Busan",
+          "country": "South Korea",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 35.10168,
+            "lon": 129.03004
+          },
+          "status": "RECRUITING",
+          "zip": "49201"
+        },
+        {
+          "city": "Sejong",
+          "country": "South Korea",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 36.59245,
+            "lon": 127.29223
+          },
+          "status": "RECRUITING",
+          "zip": "30099"
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING",
+          "zip": "05505"
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          },
+          "status": "RECRUITING",
+          "zip": "06351"
+        },
+        {
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          },
+          "status": "RECRUITING",
+          "zip": "41345"
+        },
+        {
+          "city": "Stockholm",
+          "country": "Sweden",
+          "facility": "Research Center",
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          },
+          "status": "RECRUITING",
+          "zip": "14186"
+        },
+        {
+          "city": "Abu Dhabi",
+          "country": "United Arab Emirates",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 24.45118,
+            "lon": 54.39696
+          },
+          "status": "RECRUITING",
+          "zip": "133500"
+        },
+        {
+          "city": "Abu Dhabi",
+          "country": "United Arab Emirates",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 24.45118,
+            "lon": 54.39696
+          },
+          "status": "RECRUITING",
+          "zip": "51900"
+        },
+        {
+          "city": "Al Ain City",
+          "country": "United Arab Emirates",
+          "facility": "Research Site",
+          "geoPoint": {
+            "lat": 24.19167,
+            "lon": 55.76056
+          },
+          "status": "RECRUITING",
+          "zip": "15258"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the efficacy and safety of plozasiran in approximately 288 adult participants with severe hypertriglyceridemia (SHTG) and history of at least two prior acute pancreatitis (AP) events not attributed to other etiologies, with at least one occurring within the last 12 months prior to screening. Eligible participants will be randomly assigned in a double-blind manner to either receive plozasiran 25 mg by subcutaneous (SC) injection every three months (Q3M) or matching placebo. Enrolled participants will be counseled to remain on the specified low-fat diet and background medications throughout the study. Following completion of the double-blind treatment period, or if the participant has a positively adjudicated AP event (whichever occurs first), participants will transition to the 12-month Open-Label Extension (OLE) treatment period receiving plozasiran 25 mg by SC injection Q3M."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 288,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Males, or nonpregnant (who do not plan to become pregnant) nonlactating females\n* Established diagnosis of SHTG and prior documented evidence of fasting TG levels of \u2265 880 mg/dL (\u2265 10 mmol/L)\n* Documented evidence of at least 1 prior AP event not attributed to other etiologies occurring within the last 60 months prior to Screening.\n* Fasting low-density lipoprotein cholesterol (LDL-C) \u2264 130 mg/dL (\u2264 3.37 mmol/L) at Screening\n* Screening hemoglobin A1c (HbA1c) \u2264 9.5%\n* Willing to follow diet counseling and maintain a stable low-fat diet\n* Must be on standard of care lipid and TG-lowering medications per local guidelines (unless documented as intolerant, or a treatment failure as determined by the Investigator)\n\nExclusion Criteria:\n\n* Use of any hepatocyte-targeted small interfering ribonucleic acid (siRNA) that targets lipids and/or triglycerides within 365 days before Day 1, except inclisiran.\n* Use of any other hepatocyte targeted siRNA or antisense oligonucleotide molecule within 60 days or within 5 half-lives lives before day 1. Whichever is longer.\n* AP \u2264 4 weeks prior to Randomization/Day 1\n* Body mass index (BMI) \\> 45 kg/m\\^2\n* Any planned bariatric surgery or similar procedures to induce weight lost starting at consent through End of Study (EOS)\n* Planned coronary intervention (e.g. stent placement or heart bypass) during the study\n* History of arterial revascularization within 16 weeks of Screening\n* History of acute coronary syndrome event within 24 weeks of Screening\n* Recent atherosclerotic cardiovascular disease (ASCVD) event within 24 weeks of Screening\n* Recent unstable or symptomatic cardiac arrhythmia (including any associated medication changes) within 90 days of Screening. Individuals with stable well-controlled atrial arrhythmia will be allowed to participate in the study\n* History of pacemaker or automatic implantable cardioverter defibrillators implant within 30 days before Screening\n* New York Heart Association Class III-IV heart failure or last known ejection fraction of \\< 30%\n* Current diagnosis of nephrotic syndrome\n* Chronic kidney disease, defined by an estimated glomerular filtration rate (eGFR) \\< 20 mL/min/1.73 m\\^2\n* Liver disease defined as cirrhosis or Child-Pugh Class B and C, or alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\>2.5\u00d7 Upper Limit of Normal (ULN) at Screening\n\nNote: Additional Inclusion/Exclusion Criteria may apply per protocol",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "SHASTA-5",
+      "briefTitle": "Study of Plozasiran in Adults With Severe Hypertriglyceridemia at Risk of Acute Pancreatitis",
+      "nctId": "NCT06880770",
+      "officialTitle": "Double-Blind, Placebo-Controlled, Phase 3 Study to Evaluate the Efficacy and Safety of Plozasiran in Adults With Severe Hypertriglyceridemia at High Risk of Acute Pancreatitis (SHASTA-5 Study)",
+      "orgStudyIdInfo": {
+        "id": "AROAPOC3-3011"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Arrowhead Pharmaceuticals"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to First Occurrence of Positively Adjudicated AP Event (Event Occurring More Than 10 Days After First Dose of Study Drug)",
+          "timeFrame": "Randomization up to end of Double Blind Treatment Period compared to placebo (Approximate Maximum 50 Months)]"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percent Change from Baseline in Fasting Serum Triglyceride (TG) Levels",
+          "timeFrame": "Baseline up to end of Double Blind Treatment Period compared to placebo (Approximate Maximum 50 Months)"
+        },
+        {
+          "measure": "Proportion of Participants Who Achieve Average Fasting TG Levels of < 880 mg/dL (10 mmol/L)",
+          "timeFrame": "From Month 3 up to end of Double Blind Treatment Period compared to placebo (Approximate Maximum 50 Months)"
+        },
+        {
+          "measure": "Proportion of Participants Who Achieve Fasting TG Levels of < 500 mg/dL (5.65 mmol/L)",
+          "timeFrame": "From Month 3 up to end of Double Blind Treatment Period compared to placebo (Approximate Maximum 50 Months)"
+        },
+        {
+          "measure": "Time to First Occurrence of Major Abdominal Pain Event (Event Occurring More Than 10 Days After the First Dose of Study Drug).",
+          "timeFrame": "Randomization up to end of Double Blind Treatment Period compared to placebo (Approximate Maximum 50 Months)"
+        },
+        {
+          "measure": "Change from Baseline in Patient-Reported Productivity and Activity Impairment as Assessed by the Work Productivity and Activity Impairment Questionnaire - Specific Health Problem (WPAI-SHP) Score",
+          "timeFrame": "Baseline up to end of Double Blind Treatment Period Study compared to placebo (Approximate Maximum 50 Months)"
+        },
+        {
+          "measure": "Change from Baseline in Patient-Reported Health Status as Assessed by the EuroQol-5 Dimensions-5 Levels (EQ-5D-5L) Score",
+          "timeFrame": "Baseline up to end of Double Blind Treatment Period compared to placebo (Approximate Maximum 50 Months)"
+        },
+        {
+          "measure": "Number of Participants with Treatment-Emergent Adverse Events (TEAEs) compared to placebo",
+          "timeFrame": "From first dose of study drug up to Study Completion (Approximate Maximum 62 Months)"
+        },
+        {
+          "measure": "Rate of Occurrence of Adjudicated Major Cardiovascular Events (MACE)",
+          "timeFrame": "From first dose of study drug up to Study Completion (Approximate Maximum 62 Months)"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Arrowhead Pharmaceuticals"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2029-06",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-04",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2029-03",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-04-24",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-02",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-03-12",
+      "studyFirstSubmitQcDate": "2025-03-12"
+    }
+  }
+}

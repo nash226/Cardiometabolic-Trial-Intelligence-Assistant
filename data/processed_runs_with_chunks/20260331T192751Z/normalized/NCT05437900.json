@@ -1,0 +1,548 @@
+{
+  "arms": [
+    {
+      "description": "Patients will be treated with the Pressure Microcatheter during PCI. After completing an angiographically successful PCI, patients will be randomized to FFR-guided stent optimization (PIOS).",
+      "intervention_names": [
+        "Procedure: Pressure Microcatheter guided strategy - PIOS MC"
+      ],
+      "label": "Pressure Microcatheter guided strategy - PIOS-MC",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Patients will be treated with the Pressure Wire during PCI. After completing an angiographically successful PCI, patients will be randomized to FFR-guided stent optimization (PIOS).",
+      "intervention_names": [
+        "Procedure: Pressure Wire guided strategy - PIOS - PW"
+      ],
+      "label": "Pressure Wire guided strategy - PIOS-PW",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "Patients will be treated with the Pressure Microcatheter during PCI. After completing an angiographically successful PCI, patients will receive the standard of care treatment.",
+      "intervention_names": [
+        "Procedure: Pressure Microcatheter guided strategy - Standard of care"
+      ],
+      "label": "Pressure Microcatheter guided strategy - Standard of care",
+      "type": "EXPERIMENTAL"
+    },
+    {
+      "description": "Patients will be treated with the Pressure Wire during PCI. After completing an angiographically successful PCI, patients will receive the standard of care treatment.",
+      "intervention_names": [
+        "Procedure: Pressure Wire guided strategy - Standard of care"
+      ],
+      "label": "Pressure Wire guided strategy - Standard of care",
+      "type": "ACTIVE_COMPARATOR"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Coronary Artery Disease",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Acute Coronary Syndrome",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. The subject must be at least 18 years of age and younger than 85 years old.\n2. Eligible for elective PCI.\n3. Stable angina or ACS (non-culprit vessels only and outside of primary intervention during acute STEMI)\n4. Subject willing to participate and able to understand, read and sign the Informed Consent.\n\nExclusion Criteria:\n\n1. STEMI as clinical presentation.\n2. Chronic total occlusion as a target vessel.\n3. Significant contraindication to adenosine administration (e.g. heart block, severe asthma)\n4. Uncontrolled or recurrent ventricular tachycardia.\n5. Hemodynamic instability.\n6. Severe valvular disease.\n7. Severe renal dysfunction defined as an eGFR \u226430 mL/min/1.73 m2.\n8. Comorbidity with life expectancy \u2264 2 years.\n9. Inability to take DAPT (both aspirin and a P2Y12 inhibitor) for at least 12 months in the patient presenting with an ACS, or at least six months in the patient presenting with stable CAD, unless the patient is also taking chronic oral anticoagulation in which case a shorter duration of DAPT may be prescribed per local standard of care.\n10. Planned major cardiac or non-cardiac surgery within 24 months after the index procedure. Note: major surgery is any invasive procedure in which an extensive resection is performed, e.g., a body cavity is entered, organs are removed, or normal anatomy is altered. Note: minor surgery is an operation on the superficial structures of the body or a manipulative procedure that does not involve a serious risk. Planned minor surgery is not excluded.\n11. Subject has known hypersensitivity or contraindication to any of the study drugs (including all P2Y12 inhibitors, one or more components of the study devices, including everolimus, zotarolimus, biolimus, sirolimus, cobalt, chromium, nickel, platinum, tungsten, acrylic, and fluoropolymers, or radiocontrast dye that cannot be adequately pre- medicated.\n12. The subject has received a functioning solid organ transplant or is active on a waiting list for any solid organ transplants with expected transplantation within 24 months.\n13. The subject receives immunosuppressant therapy or has known immunosuppressive or severe autoimmune disease that requires chronic immunosuppressive therapy (e.g., human immunodeficiency virus, systemic lupus erythematosus, etc.). Note: corticosteroids are not included as immunosuppressant therapy.\n14. The subject has previously received or is scheduled to receive radiotherapy to a coronary artery (vascular brachytherapy) or the chest/mediastinum.\n15. Subject has a platelet count \\<100,000 cells/mm3 or \\>700,000 cells/mm3.\n16. The subject has a documented or suspected hepatic disorder defined as cirrhosis or Child-Pugh \u2265 Class B.\n17. The subject has a history of bleeding diathesis or coagulopathy or has had a significant gastro-intestinal or significant urinary bleed within the past six months. The subject has had a cerebrovascular accident or transient ischemic neurological attack (TIA) within the past six months, any prior intracranial bleed, any permanent neurologic defect, or any known intracranial pathology (e.g., aneurysm, arteriovenous malformation, etc. The subject has a life expectancy of \\<2 years for any non-cardiac cause.\n18. The subject is currently participating in another investigational drug or device clinical study.\n19. Pregnancy or nursing.\n20. Presence of other anatomic or comorbid conditions or other medical, social, or psychological conditions that, in the investigator's opinion, could limit the subject's ability to participate in the clinical investigation or to comply with follow-up requirements or impact the scientific soundness of the clinical investigation results.",
+    "healthy_volunteers": false,
+    "maximum_age_text": "85 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Pressure Microcatheter guided strategy - PIOS-MC"
+      ],
+      "description": "Use of Pressure Microcatheter during PCI. After the PCI, the patient will receive treatment according to the incremental optimization strategy (PIOS) .",
+      "drug_class": null,
+      "intervention_type": "PROCEDURE",
+      "name": "Pressure Microcatheter guided strategy - PIOS MC",
+      "normalized_name": "pressure microcatheter guided strategy - pios mc"
+    },
+    {
+      "arm_group_labels": [
+        "Pressure Wire guided strategy - PIOS-PW"
+      ],
+      "description": "Use of Pressure Wire during PCI. After the PCI, the patient will receive treatment according to the incremental optimization strategy (PIOS) .",
+      "drug_class": null,
+      "intervention_type": "PROCEDURE",
+      "name": "Pressure Wire guided strategy - PIOS - PW",
+      "normalized_name": "pressure wire guided strategy - pios - pw"
+    },
+    {
+      "arm_group_labels": [
+        "Pressure Microcatheter guided strategy - Standard of care"
+      ],
+      "description": "Use of Pressure Microcatheter during PCI. After the PCI, the patient will receive standard of care treatment.",
+      "drug_class": null,
+      "intervention_type": "PROCEDURE",
+      "name": "Pressure Microcatheter guided strategy - Standard of care",
+      "normalized_name": "pressure microcatheter guided strategy - standard of care"
+    },
+    {
+      "arm_group_labels": [
+        "Pressure Wire guided strategy - Standard of care"
+      ],
+      "description": "Use of Pressure Wire during PCI. After the PCI, the patient will receive standard of care treatment.",
+      "drug_class": null,
+      "intervention_type": "PROCEDURE",
+      "name": "Pressure Wire guided strategy - Standard of care",
+      "normalized_name": "pressure wire guided strategy - standard of care"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    },
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "Compare the rate of major adverse cardiovascular events (MACE) defined as the combined rate of all cause death, myocardial infarction (MI), and unplanned revascularization between pressure microcatheter and pressure wire strategies at 12-months follow-up.",
+      "measure": "Compare the rate of MACE between pressure microcatheter and pressure wire strategies.",
+      "outcome_type": "primary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "In patients undergoing PCI, compare the rate of target vessel failure (TVF) defined as the composite of cardiac death, target vessel MI and ischemia-driven target vessel revascularisation (ID-TVR) between PIOS and SOC.",
+      "measure": "Compare the rate of target vessel failure (TVF) between PIOS and SOC.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare in-hospital resource utilisation (cost from all the procedures during the hospitalisation to discharge in Euros) between microcatheter and pressure wire strategies i.e.number of pressure catheters/wires and procedural time needed to complete the procedure.",
+      "measure": "Compare in-hospital resource utilization between pressure microcatheter and pressure wire strategies.",
+      "outcome_type": "secondary",
+      "time_frame": "During the hospitalisation (from admission to the hospital until discharge after the procedure)"
+    },
+    {
+      "description": "Compare the procedure time between pressure microcatheter and pressure-wire guided strategies in minutes. This is the time from first to the last angiography in minutes.",
+      "measure": "Compare the procedure time between pressure microcatheter and pressure-wire guided strategies in minutes.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "In patients undergoing PCI, compare resource utilisation (cost from all the procedures during the hospitalisation to discharge in Euros, e.g. number of catheters/wires) between a pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI.",
+      "measure": "Compare in-hospital resource utilisation between PIOS-MC and PIOS-PW.",
+      "outcome_type": "secondary",
+      "time_frame": "During the hospitalisation (from admission to the hospital until discharge after the procedure)"
+    },
+    {
+      "description": "In patients undergoing PCI, compare the procedural time in minutes between a pressure PIOS-MC and PIOS-PW strategies.",
+      "measure": "In patients undergoing PCI, compare the procedural time in minutes between pressure PIOS-MC and PIOS-PW strategies.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": null,
+      "measure": "Compare the post-PCI FFR between the pressure microcatheter and pressure-wire guided strategies in patients undergoing PCI.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": null,
+      "measure": "Compare the post-PCI FFR between pressure PIOS and SOC strategies in patients undergoing PCI.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": null,
+      "measure": "Compare the post-PCI FFR between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "Compare the proportion of FFR \\> 0.90 (in percentage) between pressure microcatheter (MC) PIOS and SOC strategies in patients undergoing PCI.",
+      "measure": "Compare the proportion of FFR > 0.90 between pressure microcatheter (MC) PIOS and SOC strategies in patients undergoing PCI.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "Compare the proportion of FFR \\> 0.80 (in percentage) between pressure PIOS and SOC strategies in patients undergoing PCI.",
+      "measure": "Compare the proportion of FFR > 0.80 between pressure PIOS and SOC strategies in patients undergoing PCI.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "Compare the proportion of FFR \\> 0.80 (in percentage) between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI",
+      "measure": "Compare the proportion of FFR > 0.80 between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "Compare the proportion of FFR \\> 0.90 (in percentage) between pressure PIOS-MC and PIOS-PW",
+      "measure": "Compare the proportion of FFR > 0.90 between pressure PIOS-MC and PIOS-PW strategies in patients undergoing PCI.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "Compare the rate of symptoms-free status assessed by the Seattle Angina Questionnaire (SAQ-7) between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up.",
+      "measure": "Compare the rate of symptoms-free status between pressure microcatheter and pressure wire strategies.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare the rate of all-cause death between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up",
+      "measure": "Compare the rate of all-cause death between pressure microcatheter and pressure-wire guided strategies.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare the rate of myocardial infarction between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up",
+      "measure": "Compare the rate of myocardial infarction between pressure microcatheter and pressure-wire guided strategies.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare the rate of unplanned revascularisation between pressure microcatheter and pressure-wire guided strategies at 12 months follow-up",
+      "measure": "Compare the rate of unplanned revascularisation between pressure microcatheter and pressure-wire guided strategies.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "In patients undergoing PCI, compare the rate of cardiac death between PIOS and SOC at 12 months follow-up",
+      "measure": "In patients undergoing PCI, compare the rate of cardiac death between PIOS and SOC.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "In patients undergoing PCI, compare the rate of target vessel myocardial infarction (MI) between PIOS and SOC at 12 months follow-up.",
+      "measure": "In patients undergoing PCI, compare the rate of target vessel myocardial infarction (MI) between PIOS and SOC.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "In patients undergoing PCI, compare the rate of ischemia-driven target-vessel revascularization (ID-TVR) between PIOS and SOC at 12 months follow-up",
+      "measure": "In patients undergoing PCI, compare the rate of ischemia-driven target-vessel revascularization (ID-TVR) between PIOS and SOC.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": null,
+      "measure": "Compare the rate of PCI-related myocardial infarction (MI) (type 4a) between pressure PIOS and SOC.",
+      "outcome_type": "secondary",
+      "time_frame": "During the procedure"
+    },
+    {
+      "description": "Compare the rate of angiographic complications related to vessel wiring (i.e., Angiographic dissection \u2265 NHLBI type B, perforations (Ellis classification), intra-procedural thrombotic events (including slow-flow, no-reflow, side branch closure, distal embolization, and intra-procedural stent thrombosis, as per the standard angiographic core laboratory definitions) between pressure microcatheter and pressure-wire guided strategies.",
+      "measure": "Compare the rate of angiographic complications between pressure microcatheter and pressure-wire guided strategies.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the actual measure post-PCI FFR value.",
+      "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for post-PCI FFR.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural time frame"
+    },
+    {
+      "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the occurence of target vessel failure (TVF).",
+      "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for target vessel failure (TVF).",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the occurence of target myocardial infarction.",
+      "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for target-vessel myocardial infarction (MI).",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare how close the value of PPG derived from pressure microcatheter versus pressure wire corresponds to the occurence of ischemia-driven target-vessel revascularization (ID-TVR).",
+      "measure": "Compare the predictive capacity of the PPG derived from pressure microcatheter versus pressure wire for ischemia-driven target-vessel revascularization (ID-TVR).",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare how close the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire corresponds to the occurence of target-vessel myocardial infarction (MI).",
+      "measure": "Compare the predictive capacity of the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire for target-vessel myocardial infarction (MI).",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": "Compare how close the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire corresponds to the occurence of target-vessel revascularization.",
+      "measure": "Compare the predictive capacity of the post-PCI residual pressure gradients from pressure microcatheter versus pressure wire for target vessel revascularization.",
+      "outcome_type": "secondary",
+      "time_frame": "12 Months follow-up"
+    },
+    {
+      "description": null,
+      "measure": "Compare the rate of peri-procedural myocardial infarction stratified by PPG derived from pressure microcatheter versus pressure wire.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural timeframe"
+    },
+    {
+      "description": null,
+      "measure": "Compare the rate of peri-procedural myocardial injury stratified by PPG derived from pressure microcatheter versus pressure wire.",
+      "outcome_type": "secondary",
+      "time_frame": "Periprocedural timeframe"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Recently, a new device for measuring physiological lesion severity, the pressure microcatheter, was introduced. The pressure microcatheter provides similar information to the conventional measurement technique but differs as it is easily advanced on a customary coronary wire and simplifies pullback maneuvers. The pressure microcatheter has been shown to provide comparable FFR results to pressure wires.\n\nInsightful-FFR is an investigator-driven, multicenter, randomized, open-label and prospective trial of patients with stable coronary artery disease or stabilised non-ST elevation acute coronary syndrome (ACS) with epicardial stenosis considered for PCI aiming at comparing clinical outcomes between pressure microcatheter and pressure wire-guided strategies. The study hypothesis states that the use of a Pressure Microcatheter for clinical decision making would be non-inferior to pressure wire-based strategy\n\nAfter determining the presence of a coronary artery disease/ stabilized acute coronary syndrome, patients will be randomized to use a pressure microcatheter (investigational device) or a pressure wire (comparator) to guide and optimize percutaneous coronary intervention (PCI). Patients will be followed up in hospital at 12 months and yearly until five years.",
+    "brief_title": "INSIGHTFUL-FFR Clinical Trial",
+    "collaborator_names": [
+      "Insight Lifetech Co., Ltd."
+    ],
+    "completion_date": "2030-06-30",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. The subject must be at least 18 years of age and younger than 85 years old.\n2. Eligible for elective PCI.\n3. Stable angina or ACS (non-culprit vessels only and outside of primary intervention during acute STEMI)\n4. Subject willing to participate and able to understand, read and sign the Informed Consent.\n\nExclusion Criteria:\n\n1. STEMI as clinical presentation.\n2. Chronic total occlusion as a target vessel.\n3. Significant contraindication to adenosine administration (e.g. heart block, severe asthma)\n4. Uncontrolled or recurrent ventricular tachycardia.\n5. Hemodynamic instability.\n6. Severe valvular disease.\n7. Severe renal dysfunction defined as an eGFR \u226430 mL/min/1.73 m2.\n8. Comorbidity with life expectancy \u2264 2 years.\n9. Inability to take DAPT (both aspirin and a P2Y12 inhibitor) for at least 12 months in the patient presenting with an ACS, or at least six months in the patient presenting with stable CAD, unless the patient is also taking chronic oral anticoagulation in which case a shorter duration of DAPT may be prescribed per local standard of care.\n10. Planned major cardiac or non-cardiac surgery within 24 months after the index procedure. Note: major surgery is any invasive procedure in which an extensive resection is performed, e.g., a body cavity is entered, organs are removed, or normal anatomy is altered. Note: minor surgery is an operation on the superficial structures of the body or a manipulative procedure that does not involve a serious risk. Planned minor surgery is not excluded.\n11. Subject has known hypersensitivity or contraindication to any of the study drugs (including all P2Y12 inhibitors, one or more components of the study devices, including everolimus, zotarolimus, biolimus, sirolimus, cobalt, chromium, nickel, platinum, tungsten, acrylic, and fluoropolymers, or radiocontrast dye that cannot be adequately pre- medicated.\n12. The subject has received a functioning solid organ transplant or is active on a waiting list for any solid organ transplants with expected transplantation within 24 months.\n13. The subject receives immunosuppressant therapy or has known immunosuppressive or severe autoimmune disease that requires chronic immunosuppressive therapy (e.g., human immunodeficiency virus, systemic lupus erythematosus, etc.). Note: corticosteroids are not included as immunosuppressant therapy.\n14. The subject has previously received or is scheduled to receive radiotherapy to a coronary artery (vascular brachytherapy) or the chest/mediastinum.\n15. Subject has a platelet count \\<100,000 cells/mm3 or \\>700,000 cells/mm3.\n16. The subject has a documented or suspected hepatic disorder defined as cirrhosis or Child-Pugh \u2265 Class B.\n17. The subject has a history of bleeding diathesis or coagulopathy or has had a significant gastro-intestinal or significant urinary bleed within the past six months. The subject has had a cerebrovascular accident or transient ischemic neurological attack (TIA) within the past six months, any prior intracranial bleed, any permanent neurologic defect, or any known intracranial pathology (e.g., aneurysm, arteriovenous malformation, etc. The subject has a life expectancy of \\<2 years for any non-cardiac cause.\n18. The subject is currently participating in another investigational drug or device clinical study.\n19. Pregnancy or nursing.\n20. Presence of other anatomic or comorbid conditions or other medical, social, or psychological conditions that, in the investigator's opinion, could limit the subject's ability to participate in the clinical investigation or to comply with follow-up requirements or impact the scientific soundness of the clinical investigation results.",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 2500,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Pressure Microcatheter guided strategy - PIOS MC",
+      "Pressure Wire guided strategy - PIOS - PW",
+      "Pressure Microcatheter guided strategy - Standard of care",
+      "Pressure Wire guided strategy - Standard of care"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [
+      "Percutaneous Coronary intervention (PCI)"
+    ],
+    "last_known_status": null,
+    "last_update_posted_at": "2026-01-12",
+    "lead_sponsor_class": "INDUSTRY",
+    "lead_sponsor_name": "CoreAalst BV",
+    "masking": "NONE",
+    "maximum_age_text": "85 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT05437900",
+    "official_title": "Pressure Microcatheter vs Pressure Wire for Clinical Decision Making and PCI Optimization",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-06-30",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT05437900",
+    "start_date": "2022-09-22",
+    "study_first_posted_at": "2022-06-29",
+    "study_type": "INTERVENTIONAL"
+  }
+}

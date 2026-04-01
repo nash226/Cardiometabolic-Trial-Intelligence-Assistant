@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05427786:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05427786\nBrief title: A Study to Evaluate the Impact of Pre-procedural Intracoronary Nicorandil Injection to PREVENT ReductioN of DecREased TIMI FLOW in Patients Who Undergoing Percutaneous Coronary Intervention for the Coronary Artery Disease\nOfficial title: A Randomized, Open Label, Parallel-group Study to Evaluate the Impact of Pre-procedural Intracoronary Nicorandil Injection to PREVENT ReductioN of DecREased TIMI FLOW in Patients Who Undergoing Percutaneous Coronary Intervention for the Coronary Artery Disease\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 79,
+      "trial_nct_id": "NCT05427786"
+    },
+    {
+      "chunk_id": "NCT05427786:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: No-Reflow Phenomenon; Coronary Artery Disease; Percutaneous Coronary Intervention\nIntervention labels: Nicorandil\nDrug class labels: \nArms: Pre-PCI IC Nicorandil; Standard PCI\nKeywords: Nicorandil; No-reflow phenomenon; lipid core burden index; near-infrared spectroscopy",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 34,
+      "trial_nct_id": "NCT05427786"
+    },
+    {
+      "chunk_id": "NCT05427786:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The aim of this study was to determine the effect of intra-coronary administration of nicorandil on the prevention of lowering of coronary blood flow for high-risk plaque lesions defined as the high value of lipid core burden index in patients with coronary artery disease who require stent treatment.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT05427786"
+    },
+    {
+      "chunk_id": "NCT05427786:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 19 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Over 19 years old\n2. Patients who agree to the study plan and clinical follow-up plan, voluntarily decide to participate in this study, and consent in writing to the consent to use information\n3. Patients who underwent NIRS-IVUS guided coronary stent surgery for coronary artery disease\n\nExclusion Criteria:\n\n1. Patients with TIMI \u2264 2 before coronary intervention\n2. Subjects with known hypersensitivity or contraindications to the following drugs or substances: heparin, aspirin, clopidogrel, ticagrelor, prasugrel, rosuvastatin, ezetimibe, evolocumab, lansoprazole, cobalt chromium, stainless steel nickel And contrast agents (however, even a subject who is hypersensitive to contrast agents can register if they can be controlled by steroids and pheniramine, except for known anaphylaxis.)\n3. Pregnant women, lactating women, or women of childbearing age who plan to become pregnant during this study\n4. Subjects who plan to have surgery to stop antiplatelet drugs within 6 months from registration\n5. Those whose surviving life is expected to be less than 1 year\n6. Subjects who visited the hospital due to cardiogenic shock and are predicted to have low survival probability based on medical judgment",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 201,
+      "trial_nct_id": "NCT05427786"
+    },
+    {
+      "chunk_id": "NCT05427786:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Occurrence of decreased TIMI flow | time_frame=during procedure | description=occurrence of decreased TIMI flow (0,1,2) during the index procedure\n\nGrade 0-No perfusion\n\nGrade 1-Penetration without perfusion\n\nGrade 2-Partial perfusion but not reach complete perfusion\n\nGrade 3-Complete perfusion;; antegrade flow into the bed distal to the obstruction occurs as promptly as antegrade flow into the bed proximal to the obstruction, and clearance of contrast material from the involved bed is as rapid as clearance from an uninvolved bed in the same vessel or the opposite artery.\ntype=secondary | measure=Change of cardiac biomarker level after intervention | time_frame=1 month | description=level change of CPK\ntype=secondary | measure=Change of cardiac biomarker level after intervention | time_frame=1 month | description=level change of CK-MB\ntype=secondary | measure=Change of cardiac biomarker level after intervention | time_frame=1 month | description=level change of Troponin T\ntype=secondary | measure=Change of cardiac biomarker level after intervention | time_frame=1 month | description=level change of Troponin I\ntype=secondary | measure=patient-oriented composite end point | time_frame=1 year | description=composite of all cause mortality, any myocardial infarction, and any revascularization\ntype=secondary | measure=Percentage of All cause mortality | time_frame=1 year\ntype=secondary | measure=Percentage of cardiac death | time_frame=1 year\ntype=secondary | measure=Percentage of myocardial infarction | time_frame=1 year\ntype=secondary | measure=Percentage of revascularization | time_frame=1 year\ntype=other | measure=Association between lipid profile and lipid core burden index | time_frame=6 month | description=Correlation among LDL-cholesterol, lipoprotein(a), pre-procedural LCBi max, Post-procedural LCBi, LCBi total burden",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 241,
+      "trial_nct_id": "NCT05427786"
+    },
+    {
+      "chunk_id": "NCT05427786:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2022-12-14\nPrimary completion date: 2026-07\nCompletion date: 2026-12\nStudy first posted: 2022-06-22\nResults first posted: None\nLast update posted: 2024-10-10\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05427786"
+    },
+    {
+      "chunk_id": "NCT05427786:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Korea University Anam Hospital\nLead sponsor class: OTHER\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT05427786"
+    }
+  ],
+  "trial_nct_id": "NCT05427786"
+}

@@ -1,0 +1,268 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D006973",
+          "term": "Hypertension"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D006976",
+          "term": "Hypertension, Pulmonary"
+        },
+        {
+          "id": "D017563",
+          "term": "Lung Diseases, Interstitial"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D005355",
+          "term": "Fibrosis"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009330",
+          "term": "Nebulizers and Vaporizers"
+        },
+        {
+          "id": "D004864",
+          "term": "Equipment and Supplies"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D058995",
+          "term": "Dry Powder Inhalers"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Participants will receive inhaled mosliciguat daily for 16 weeks",
+          "interventionNames": [
+            "Drug: inhaled mosliciguat",
+            "Device: Dry Powder Inhaler"
+          ],
+          "label": "Active Comparator: inhaled mosliciguat",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "After Week 16, all participants will continue to receive inhaled mosliciguat through an Extension period",
+          "interventionNames": [
+            "Drug: inhaled mosliciguat",
+            "Device: Dry Powder Inhaler"
+          ],
+          "label": "Extension: inhaled mosliciguat",
+          "type": "EXPERIMENTAL"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Active Comparator: inhaled mosliciguat",
+            "Extension: inhaled mosliciguat"
+          ],
+          "description": "Dose level 1, 2, or 3 for inhalation",
+          "name": "inhaled mosliciguat",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Active Comparator: inhaled mosliciguat",
+            "Extension: inhaled mosliciguat"
+          ],
+          "description": "Dry powder inhaler for mosliciguat delivery",
+          "name": "Dry Powder Inhaler",
+          "type": "DEVICE"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pulmonary Hypertension",
+        "Interstitial Lung Disease (ILD)",
+        "Lung Diseases",
+        "Vascular Diseases",
+        "Cardiovascular Diseases",
+        "Fibrosis"
+      ],
+      "keywords": [
+        "PH",
+        "ILD",
+        "6 Minute Walk Test",
+        "mosliciguat"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "clinicaltrials@pulmovant.com",
+          "name": "Pulmovant",
+          "phone": "+1-919-462-1310",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Kissimmee",
+          "contacts": [
+            {
+              "email": "lusmelys@floridalungdoctors.com",
+              "name": "Guevara Lusmelys",
+              "phone": "407-507-2615",
+              "phoneExt": "8",
+              "role": "CONTACT"
+            }
+          ],
+          "country": "United States",
+          "facility": "Florida Lung, Asthma & Sleep Specialists/Clinical Research Specialists, LLC",
+          "geoPoint": {
+            "lat": 28.30468,
+            "lon": -81.41667
+          },
+          "state": "Florida",
+          "status": "RECRUITING",
+          "zip": "34746"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Pulmovant, Inc.",
+          "name": "Ubaldo Martin, MD",
+          "role": "STUDY_DIRECTOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 2, open-label, multi-center clinical study to evaluate the safety and efficacy of inhaled mosliciguat in participants with pulmonary hypertension associated with interstitial lung disease (PH-ILD) on a background inhaled treprostinil.",
+      "detailedDescription": "This study is an open-label study with an extension.\n\nThe study consists of 2 periods: an open label treatment period (16 weeks) and an extension (beyond 16 weeks).\n\nParticipants will receive mosliciguat in the 16-week treatment period.\n\nAll participants who complete the 16-week treatment period may continue to participate in the extension period where all participants will receive mosliciguat."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants willing and able to provide informed consent\n* Participants on inhaled treprostinil\n* Participants with diagnosis of Interstitial Lung Disease (ILD). Diagnosis will be confirmed by a high-resolution computerized tomography (HR-CT) scan showing diffuse parenchymal disease. Eligible diagnosed diseases include:\n\n  1. Idiopathic interstitial pneumonia (IIP)\n  2. Chronic hypersensitivity pneumonitis\n  3. ILD associated with connective tissue disease (CTD) with a forced vital capacity (FVC) \\< 70% of predicted\n* Confirmed pulmonary hypertension (PH) by right heart catheterization (RHC).\n* Ability to perform 6MWD \u2265100 meters.\n\nExclusion Criteria:\n\n* Diagnosis of PH Group 1 (eg. pulmonary arterial hypertension), Group 2 (related to left-heart dysfunction), Group 4 (eg, chronic thromboembolic pulmonary hypertension), or Group 5 (eg, unclassified).\n* Exacerbation of underlying lung disease within 28 days prior to randomization.\n* Initiation of pulmonary rehabilitation within 28 days prior to randomization.\n* Receiving \\>10 L/min of oxygen supplementation by any mode of delivery at rest at Baseline.\n* History or intolerance to or lack of efficacy with mosliciguat or sGC stimulators or activators.\n* Receipt of investigational, or experimental therapy within 42 days OR 5 half-lives prior to randomization.\n\nNote: Other inclusion and exclusion criteria may apply.",
+      "healthyVolunteers": false,
+      "maximumAge": "85 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "briefTitle": "A Study of Mosliciguat in Combination With Inhaled Treprostinil in PH-ILD",
+      "nctId": "NCT07333183",
+      "officialTitle": "An Open-Label, Phase 2 Study Evaluating the Safety of Mosliciguat in Combination With Inhaled Treprostinil in Participants With Pulmonary Hypertension Associated With Interstitial Lung Disease",
+      "orgStudyIdInfo": {
+        "id": "RVT-2301-202"
+      },
+      "organization": {
+        "class": "INDUSTRY",
+        "fullName": "Pulmovant, Inc."
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence and nature of participant TEAEs, SAEs, and AEs leading to discontinuation",
+          "timeFrame": "Baseline, Week 16"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": true,
+      "isFdaRegulatedDrug": true
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "INDUSTRY",
+        "name": "Pulmovant, Inc."
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2028-01",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-09",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2025-12-23",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2026-01",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2026-01-08",
+      "studyFirstSubmitQcDate": "2026-01-09"
+    }
+  }
+}

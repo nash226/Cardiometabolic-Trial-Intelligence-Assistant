@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06424834:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06424834\nBrief title: Efficacy of Targeted Medical Therapy in Angina and Nonobstructive Coronary Arteries\nOfficial title: A Randomized Controlled Study of Targeted Medical Therapy Versus Placebo for Angina and Non- Obstructive Coronary Arteries: The MVP-ANOCA Study\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE2; PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 47,
+      "trial_nct_id": "NCT06424834"
+    },
+    {
+      "chunk_id": "NCT06424834:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Angina Pectoris; Microvascular Angina; Vasospastic Angina; Myocardial Bridge of Coronary Artery\nIntervention labels: Amlodipine; Nebivolol; Placebo\nDrug class labels: \nArms: Targeted medical therapy; Placebo\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 29,
+      "trial_nct_id": "NCT06424834"
+    },
+    {
+      "chunk_id": "NCT06424834:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to learn if targeted medical therapy will improve symptoms and quality of life in patients with angina and non-obstructive coronary arteries compared to placebo, after the underlying cause of the chest pain has been ascertained by coronary function testing.\n\nParticipants will be treated with either medications that target the underlying cause of their chest pain or placebo for 4 weeks after a drug titration phase of 1-3 weeks. They will be asked to complete a series of questionnaires to evaluate their quality of life at the beginning and end of the study.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 104,
+      "trial_nct_id": "NCT06424834"
+    },
+    {
+      "chunk_id": "NCT06424834:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* All patients with stable angina referred to the Stanford University Hospital cardiac catheterization laboratory for clinically indicated coronary function testing are eligible for inclusion into the study.\n\nSpecific inclusion criteria for randomization:\n\n* Absence of significant epicardial coronary artery disease on angiography\n* Fractional flow reserve \\> 0.80\n\nAnd \u2265 1 of the following:\n\n* Epicardial coronary spasm on acetylcholine testing\n* Microvascular spasm on acetylcholine testing\n* Coronary flow reserve \\< 2.5\n* Index of microcirculatory resistance \u2265 25\n* Myocardial bridge on intravascular ultrasound with dobutamine resting full-cycle ratio \u2264 0.76\n\nExclusion Criteria:\n\n* Acute coronary syndrome less than one week prior to enrolment\n* Cardiomyopathy\n* Contraindications to beta-blockers or calcium channel blockers\n* Baseline systolic blood pressure \\< 95 mmHg\n* Baseline heart rate \\< 55 bpm",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 151,
+      "trial_nct_id": "NCT06424834"
+    },
+    {
+      "chunk_id": "NCT06424834:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Seattle Angina Questionnaire summary score | time_frame=5-7 weeks (depending on drug titration period) | description=Change in Seattle Angina Questionnaire summary score at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.\ntype=secondary | measure=EuroQol 5 dimension - 5L index score | time_frame=5-7 weeks (depending on drug titration period) | description=Change in EuroQol 5 dimension score - 5L index score at follow-up compared to baseline. The index ranges from -0.573 to 1.000, with a higher score indicating a better outcome.\ntype=secondary | measure=EuroQol 5 dimension - 5L visual analogue score | time_frame=5-7 weeks (depending on drug titration period) | description=Change in EuroQol 5 dimension score - 5L visual analogue score at follow-up compared to baseline. The index ranges from 0 - 100, with a higher score indicating a better outcome.\ntype=secondary | measure=PHQ-4 score | time_frame=5-7 weeks (depending on drug titration period) | description=Change in PHQ-4 at follow-up compared to baseline. The score ranges from 0 - 12, with a higher score indicating a worse outcome.\ntype=secondary | measure=Treatment Satisfaction Questionnaire for Medication score | time_frame=5-7 weeks (depending on drug titration period) | description=Change in Treatment Satisfaction Questionnaire for Medication score at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.\ntype=secondary | measure=Seattle Angina Questionnaire summary score stratified by specific chest pain endotypes | time_frame=5-7 weeks (depending on drug titration period) | description=Change in Seattle Angina Questionnaire summary score stratified by specific chest pain endotypes at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.\ntype=secondary | measure=EuroQol 5 dimension - 5L index score stratified by specific chest pain endotypes | time_frame=5-7 weeks (depending on drug titration period) | description=EuroQol 5 dimension - 5L index score stratified by specific chest pain endotypes at follow-up compared to baseline. The index ranges from -0.573 to 1.000, with a higher score indicating a better outcome.\ntype=secondary | measure=EuroQol 5 dimensions - 5L visual analogue score stratified by specific chest pain endotypes | time_frame=5-7 weeks (depending on drug titration period) | description=EuroQol 5 dimensions - 5L visual analogue score stratified by specific chest pain endotypes at follow-up compared to baseline. The index ranges from 0 - 100, with a higher score indicating a better outcome.\ntype=secondary | measure=PHQ-4 scores stratified by specific chest pain endotypes | time_frame=5-7 weeks (depending on drug titration period) | description=PHQ-4 score stratified by specific chest pain endotypes at follow-up compared to baseline. The score ranges from 0 - 12, with a higher score indicating a worse outcome.\ntype=secondary | measure=Treatment Satisfaction Questionnaire for Medication score stratified by specific chest pain endotypes | time_frame=5-7 weeks (depending on drug titration period) | description=Treatment Satisfaction Questionnaire for Medication scores stratified by specific chest pain endotypes at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.\ntype=secondary | measure=Seattle Angina Questionnaire summary score stratified by baseline angina frequency | time_frame=5-7 weeks (depending on drug titration period) | description=Change in Seattle Angina Questionnaire summary score stratified by baseline angina frequency at at follow-up compared to baseline. The score ranges from 0 - 100, with a higher score indicating a better outcome.\ntype=secondary | measure=Proportion of patients with good response, no angina, and excellent health status | time_frame=5-7 weeks (depending on drug titration period) | description=Difference between targeted medical therapy group and placebo group in proportion of patients with good response (Seattle Angina Questionnaire summary score \u2265 10), no angina (Seattle Angina Questionnaire angina frequency score = 100), and excellent health status (Seattle Angina Questionnaire summary score \u2265 75).\ntype=secondary | measure=Safety endpoints | time_frame=Baseline | description=Incidence of bleeding, coronary dissection, stroke, periprocedural myocardial infarction, non-self-limiting arrhythmias during the index coronary function testing procedure\ntype=secondary | measure=Major adverse cardiac events | time_frame=5-7 weeks (depending on drug titration period) | description=Difference between targeted medical therapy group and placebo group in incidence of cardiac death, myocardial infarction, and hospital presentation for unstable angina.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 678,
+      "trial_nct_id": "NCT06424834"
+    },
+    {
+      "chunk_id": "NCT06424834:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2024-10-10\nPrimary completion date: 2026-12\nCompletion date: 2026-12\nStudy first posted: 2024-05-22\nResults first posted: None\nLast update posted: 2024-11-27\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status; primary_completion_in_2026; completion_in_2026",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT06424834"
+    },
+    {
+      "chunk_id": "NCT06424834:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Stanford University\nLead sponsor class: OTHER\nCollaborators: American Heart Association\nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 20,
+      "trial_nct_id": "NCT06424834"
+    }
+  ],
+  "trial_nct_id": "NCT06424834"
+}

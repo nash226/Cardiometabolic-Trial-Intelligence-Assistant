@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05030428:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05030428\nBrief title: Study of Inclisiran to Prevent Cardiovascular (CV) Events in Participants With Established Cardiovascular Disease\nOfficial title: A Randomized, Double-blind, Placebo-controlled, Multicenter Trial, Assessing the Impact of Inclisiran on Major Adverse Cardiovascular Events in Participants With Established Cardiovascular Disease (VICTORION-2 PREVENT)\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 53,
+      "trial_nct_id": "NCT05030428"
+    },
+    {
+      "chunk_id": "NCT05030428:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Atherosclerotic Cardiovascular Disease\nIntervention labels: Inclisiran sodium 300 mg; Placebo\nDrug class labels: \nArms: Inclisiran sodium; Placebo\nKeywords: Atherosclerotic cardiovascular disease; Hypercholesterolemia; Dyslipidemia; high cholesterol; Hyperlipidemia; Inclisiran; siRNA; KJX839",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 33,
+      "trial_nct_id": "NCT05030428"
+    },
+    {
+      "chunk_id": "NCT05030428:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Study CKJX839B12302 is a pivotal Phase III trial to evaluate the benefits of inclisiran on major adverse cardiovascular (MACE) events in participants with established cardiovascular disease (CVD).\nDetailed description: Purpose of this study is to test the hypothesis that treatment with inclisiran sodium 300 mg s.c. administered on Day 1, Month 3 (Day 90), and every 6 months thereafter taken in addition to well-tolerated high-intensity statin therapy in participants with established ASCVD will significantly reduce the risk of 3-Point-Major Adverse Cardiovascular Events (3P-MACE) defined as a composite of CV death, non-fatal myocardial infarction (MI) and non-fatal ischemic stroke. This will be compared to placebo in adjunct to well-tolerated high-intensity statin therapy.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 113,
+      "trial_nct_id": "NCT05030428"
+    },
+    {
+      "chunk_id": "NCT05030428:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 40 Years\nMaximum age: 100 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n1. Fasting LDL-C \u2265 70 mg/dL at randomization visit\n2. Stable (greater than or equal to 4 weeks) and well-tolerated lipid-lowering regimen (including e.g. with or without Ezetimibe) that must include a high-intensity statin therapy with either atorvastatin greater than or equal to 40 mg QD or rosuvastatin greater than or equal to 20 mg QD\n3. Established CV disease defined as ANY of the following three conditions\n\n   1. Spontaneous Myocardial infarction \u2265 4 weeks from screening visit\n   2. History of ischemic stroke occurred \u2265 4 weeks prior to the Screening visit\n   3. Symptomatic peripheral arterial disease (PAD) evidenced by either intermittent claudication with ankle brachial index (ABI) \\< 0.85, prior peripheral arterial revascularization procedure, or, amputation due to atherosclerotic disease.\n\nExclusion Criteria:\n\n1. Acute coronary syndrome, stroke, peripheral arterial revascularization procedure or amputation due to atherosclerotic disease \\< 4 weeks before screening visit\n2. Treatment with PCSK9 inhibitors (e.g. evolocumab, alirocumab) within 90 days or planned use post first study visit\n3. Planned or expected cardiac, cerebrovascular or peripheral artery surgery or re-vascularization within the 6 months after the first study visit\n4. Heart failure NYHA class III or IV\n5. Active liver disease defined as any known current infectious, neoplastic, or metabolic pathology of the liver\n6. Previous exposure to inclisiran or any other non-mAb PCSK9-targeted therapy, either as an investigational or marketed drug within 2 years\n7. Severe concomitant non-CV disease that is expected to reduce life expectancy to less than 5 years\n8. History of malignancy that required surgery radiation therapy and/or systemic therapy during the 3 years prior to the first study visit\n9. Pregnant or nursing (lactating) women\n\nOther protocol-defined inclusion/exclusion criteria may apply.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 300,
+      "trial_nct_id": "NCT05030428"
+    },
+    {
+      "chunk_id": "NCT05030428:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to First Occurrence of 3P-MACE (3-Point Major Adverse Cardiovascular Events) | time_frame=From randomization to total follow-up time (up to 72 months) | description=3P-MACE is a confirmed composite endpoint which includes cardiovascular death, non-fatal myocardial infarction and non-fatal ischemic stroke.\ntype=secondary | measure=Time to Occurrence of Cardiovascular (CV) Death | time_frame=From randomization to total follow-up time (up to 72 months) | description=CV death is defined as death due to cardiovascular events\ntype=secondary | measure=Time to First Occurrence of 4P-MACE (4-Point Major Adverse Cardiovascular Events) | time_frame=From randomization to total follow-up time (up to 72 months) | description=A composite 4P- MACE is defined as CV death, non-fatal MI, non-fatal ischemic stroke and urgent coronary revascularization.\ntype=secondary | measure=Time to first occurrence of Major Limb Adverse Events (MALE) | time_frame=From randomization to total follow-up time (up to 72 months) | description=Major Limb Adverse Events including acute lower limb ischemia, lower limb amputation due to ischemia, or urgent lower limb revascularization for ischemia\ntype=secondary | measure=Time to occurrence of all-cause death | time_frame=From randomization to total follow-up time (up to 72 months) | description=All-Cause death is defined as: all deaths from randomization until up to 72 months",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 196,
+      "trial_nct_id": "NCT05030428"
+    },
+    {
+      "chunk_id": "NCT05030428:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-11-23\nPrimary completion date: 2027-10-13\nCompletion date: 2027-10-13\nStudy first posted: 2021-09-01\nResults first posted: None\nLast update posted: 2026-02-03\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05030428"
+    },
+    {
+      "chunk_id": "NCT05030428:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Novartis Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 16,
+      "trial_nct_id": "NCT05030428"
+    }
+  ],
+  "trial_nct_id": "NCT05030428"
+}

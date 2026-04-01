@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05473520:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05473520\nBrief title: Doxycycline Host-directed Therapy to Improve Lung Function and Decrease Tissue Destruction in Pulmonary Tuberculosis\nOfficial title: Doxycycline Host-directed Therapy to Improve Lung Function and Decrease Tissue Destruction in Pulmonary Tuberculosis: A Phase III Randomized Control Trial (Doxy-TB)\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 50,
+      "trial_nct_id": "NCT05473520"
+    },
+    {
+      "chunk_id": "NCT05473520:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Tuberculosis; Acute Coronary Syndrome; Pulmonary Hypertension (Diagnosis)\nIntervention labels: Doxycycline; Placebo\nDrug class labels: \nArms: Doxycycline + standard anti-tuberculous treatment; Placebo + standard anti-tuberculous treatment\nKeywords:",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 30,
+      "trial_nct_id": "NCT05473520"
+    },
+    {
+      "chunk_id": "NCT05473520:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: Tuberculosis (TB) is a global pandemic that despite successful treatment and bacterial eradication can cause chronic ill health, such as pulmonary impairment after tuberculosis (PIAT) and cardiovascular disease (CVD). A recent Phase 2b double-blind randomised-controlled clinical trial shows that adjunctive doxycycline therapy is safe, accelerates resolution of inflammation, suppresses tissue damaging enzyme activity and decreases pulmonary cavity volume (1). We aim to determine if adjunctive doxycycline can reduce PIAT and improve cardiovascular outcomes in a fully powered Phase III trial of 8 weeks of adjunctive doxycycline alongside standard pulmonary TB (PTB) treatment.\n\nThe investigators hypothesize that doxycycline inhibits tissue destruction in patients with PTB and thereby leads to improved lung function after treatment.\n\nSpecific aims\n\n1. To assess improvement in lung function as measured by forced expiratory volume (FEV1) predicted in PTB patients given doxycycline versus placebo.\n2. To investigate whether doxycycline will hasten the resolution of pulmonary cavities measured by CT thorax\n3. To investigate whether doxycycline can suppress inflammatory markers including matrix metalloproteinases\n4. To investigate whether doxycycline can accelerate time to sputum conversion\n5. To evaluate the effect of doxycycline on cardiovascular outcomes such as the incidence of acute coronary syndrome (ACS) and pulmonary hypertension\n6. To investigate whether doxycycline improves TB drug concentrations in sputum and plasma.\n7. To assess the safety profile of doxycycline with concurrent standard anti-tuberculous treatment.\nDetailed description: In this Phase 3 double-blind randomised-controlled trial, doxycycline or placebo shall be given to 75 PTB patients in each arm for two months with a further follow-up of twenty-two months. Study sites are National University Hospital and TB Control Unit in Singapore and Luyang Health Clinic, Menggatal Health Clinic, and Inanam Health Clinic in Sabah, Malaysia. Lung function tests, non-contrast CT thorax, electrocardiograms and transthoracic echocardiograms will be performed at various time intervals. Induced sputum and plasma samples from all PTB patients shall be analysed for matrix metalloproteinases (MMPs), tissue inhibitors of metalloproteinases (TIMPs) and monitored for sputum mycobacteria culture conversion. Whole blood will be analysed by transcriptomics for bulk RNAseq while a subset of patients' blood will be analysed using single-cell RNAsequencing. Blood tests will also be taken for Troponin-I and N-terminal pro-B-type natriuretic peptide. Accomplishing these specific aims will determine if doxycycline decreases PIAT by improving lung function, reducing pulmonary cavities and accelerating sputum culture conversion. We will also be able to assess the effect of doxycycline on development of pulmonary hypertension and acute coronary syndrome. The results will positively impact clinical practice and international guidelines including the World Health Organisation that we collaborate with, for the treatment of pulmonary TB.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 431,
+      "trial_nct_id": "NCT05473520"
+    },
+    {
+      "chunk_id": "NCT05473520:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 21 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: The recruitment target would be 150 patients, with 75 in each arm\n\nInclusion criteria: Patients should meet all criteria:\n\n1. Aged 21 years and above\n2. Patients receiving \u2264 7 days of TB treatment or about to start standard combination TB treatment\n3. Confirmed pulmonary TB with positive acid-fast bacilli smear and/or positive nucleic acid amplification test (NAAT) and/or TB culture results\n4. CXR demonstrating pulmonary involvement with cavity or cavities\n5. Able to provide informed consent\n\nExclusion criteria:\n\n1. HIV co-infection\n2. Previous pulmonary TB\n3. Severe, pre-existing lung disease such as pulmonary fibrosis, bronchiectasis, COPD and lung cancer\n4. Pregnant or breast feeding\n5. Allergies to tetracyclines\n6. Patients on retinoic acid, neuromuscular blocking agents and pimozide which may increase risk of drug toxicity\n7. Autoimmune disease and/or on systemic immunosuppressants\n8. Use of any investigational or non-registered drug, vaccine or medical device other than the study drug within 182 days preceding dosing of study drug, or planned use during the study period\n9. Enrolment in any other clinical trial involving a systemic drug or intervention involving the lung\n10. Evidence of severe depression, schizophrenia or mania\n11. ALT \\> 3 times upper limit of normal\n12. Creatinine \\> 2 times upper limit of normal\n13. Principal investigator assessment of lack of willingness to participate and comply with all requirements including follow-up of the protocol, or identification of any factor felt to significantly increase the participant's risk of suffering an adverse outcome",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 261,
+      "trial_nct_id": "NCT05473520"
+    },
+    {
+      "chunk_id": "NCT05473520:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Forced expiratory volume in 1 second (FEV1) at 26 weeks measured by spirometry | time_frame=week 0 to 26 | description=\\- FEV1 at 26 weeks, expressed as a percentage predicted for age, sex, height and race will be measured by spirometry and will be compared between the doxycycline and placebo group\ntype=secondary | measure=Forced expiratory volume in 1 second (FEV1) at 104 weeks measured by spirometry | time_frame=104 weeks | description=Forced expiratory volume, expressed as a percentage predicted for age, sex, height and race will be measured by spirometry and will be compared between the doxycycline and placebo group will be measured at D0, week 8, week 26, week 52, week 78 and week 104.\ntype=secondary | measure=Forced expiratory volume in 1 second divided by forced vital capacity (FEV1/FVC ratio) | time_frame=104 weeks | description=Forced expiratory volume in 1 second divided by forced vital capacity (FEV1/FVC ratio) measured by spirometry\ntype=secondary | measure=Safety profile | time_frame=week 0 to 12 | description=Incidence of Grade 3 or 4 adverse events and serious adverse events\ntype=secondary | measure=Resolution of pulmonary cavities on CT scan | time_frame=104 weeks | description=Proportion of patients in each study group with resolution of pulmonary cavities on CT scan done at 26, 52, 78, 104 weeks\ntype=secondary | measure=Cumulative lung cavity volume | time_frame=week 0 to 104 | description=Change in cumulative lung cavity volume (in cm3) measured on CT scan\ntype=secondary | measure=St George's Respiratory Questionnaire Score | time_frame=week 0 to 104 | description=Change in Quality-of-life score by the St George's Respiratory Questionnaire will be measured. Scores range from 0 to 100, with higher scores indicating more limitations.\ntype=secondary | measure=Sputum TB culture | time_frame=up to 8 weeks | description=Time taken in days for positivity of sputum TB culture using MGIT will be assessed\ntype=secondary | measure=Sputum culture conversion | time_frame=up to 8 weeks | description=Time taken for sputum culture conversion (time taken for sputum cultures to turn negative) by liquid cultures will be investigated\ntype=secondary | measure=Sputum matrix metalloproteinase (MMP) concentration | time_frame=up to 8 weeks | description=Change of sputum matrix metalloproteinase (MMP) concentration will be measured by Luminex array\ntype=secondary | measure=Sputum functional assays | time_frame=up to 8 weeks | description=Change in sputum functional assays by sputum collagenase and elastase assay will be assessed.\ntype=secondary | measure=Host transcriptome | time_frame=week 0 to 104 | description=Change of host transcriptome will be measured via bulk RNA sequencing. In addition, in the subset of patients recruited from Singapore, single-cell RNA sequencing (scRNAseq) will be performed for neutrophils and peripheral blood mononuclear cells on 10 patients each from the doxycycline and placebo arm, analysing 10,000 cells per sample.\ntype=secondary | measure=Host plasma matrix metalloproteinase (MMP) concentration | time_frame=week 0 to 104 | description=Change in host plasma matrix metalloproteinase (MMP) concentration will be measured by Luminex array\ntype=secondary | measure=Pharmacokinetics and pharmacodynamics of drug concentrations | time_frame=week 2 | description=Sputum and plasma drug concentration of rifampicin, isoniazid, ethambutol, pyrazinamide (if prescribed) and doxycycline for a subset PK/PD study\ntype=secondary | measure=Cardiac function and pulmonary hypertension | time_frame=week 0 to 104 | description=Cardiac function and pulmonary artery systolic pressure will be measured using 2D Echocardiogram and electrocardiogram at D0, week 26, week 52, week 78 and week 104. The time-to-development of pulmonary hypertension over 2 years follow-up will be calculated.\ntype=secondary | measure=Measurement of Troponin I and NT-proBNP | time_frame=week 0 to 104 | description=HsTnI and NT-proBNP will be measured sequentially at Day 0, Week 2, 8, 26, 52, 78 and 104 to screen for cardiotoxicity, which will then be ascertained by review of source documents.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 594,
+      "trial_nct_id": "NCT05473520"
+    },
+    {
+      "chunk_id": "NCT05473520:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2023-05-24\nPrimary completion date: 2030-01-31\nCompletion date: 2030-01-31\nStudy first posted: 2022-07-26\nResults first posted: None\nLast update posted: 2025-09-09\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05473520"
+    },
+    {
+      "chunk_id": "NCT05473520:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: National University Hospital, Singapore\nLead sponsor class: OTHER\nCollaborators: Tan Tock Seng Hospital; Hospital Queen Elizabeth, Malaysia; National University of Singapore; University Malaysia Sabah; Menggatal Health Clinic, Sabah, Malaysia; Luyang Health Clinic, Sabah, Malaysia\nCountries: \nHas US sites: False\nLocation sample: NOT_YET_RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; ACTIVE_NOT_RECRUITING; RECRUITING; RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 49,
+      "trial_nct_id": "NCT05473520"
+    }
+  ],
+  "trial_nct_id": "NCT05473520"
+}

@@ -1,0 +1,226 @@
+{
+  "arms": [
+    {
+      "description": "Routine-dose statin group will be gaven the treatment of atorvastatin 20mg Qd for 12 months",
+      "intervention_names": [
+        "Drug: Atorvastatin Calcium"
+      ],
+      "label": "Routine-dose statin group",
+      "type": "ACTIVE_COMPARATOR"
+    },
+    {
+      "description": "high-dose statin group will be gaven the treatment of atorvastatin 40-80mg Qd till 6 months at the moment the subjects will be followed up to determine plaques status by HRMRI examination, among which the subjects presenting culprit plaque progression with the significant increasing of plaque burden including intraplaque hemorrhage will be again randomized into two groups at a ratio of 1:1 as followed: atorvastatin-probucol group will be administrated atorvastatin 40-80mg Qd plus probucol 0.5g Bid till 12 months, the other group will maintain the original scheme till 12 months.\n\nPCSK9 inhibitor group will receive the subcutaneous injection of Evolocumab (140mg, 2 / month) for one year.",
+      "intervention_names": [
+        "Drug: Atorvastatin Calcium",
+        "Drug: Probucol",
+        "Drug: PCSK9 inhibitor"
+      ],
+      "label": "high-dose statin or PCSK9 inhibitor group",
+      "type": "EXPERIMENTAL"
+    }
+  ],
+  "conditions": [
+    {
+      "is_primary": true,
+      "name": "Stroke, Ischemic",
+      "normalized_name": null
+    },
+    {
+      "is_primary": true,
+      "name": "Atherosclerosis, Cerebral",
+      "normalized_name": null
+    }
+  ],
+  "eligibility": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "criteria_text": "Inclusion Criteria:\n\n1. Patient age between 18-80 years\n2. Time of onset: within 1 week\n3. NIHSS score \u226412\n4. Acute ischemic stroke confirmed by head CT or MRI\n5. Premorbid mRS \u22641\n6. The degree of stenosis of carotid artery, vertebral artery and intracranial portion of internal carotid artery on the lesion side \\<50%\n7. The culprit plaque or possible culprit plaque with plaque burden of 40% or more found by HRMRI in the proximal part of the middle cerebral artery M1 segment or basilar artery of ipsilateral lesion\n8. Signed informed consent\n\nExclusion Criteria:\n\n1. Intracranial hemorrhage found by head CT\n2. Stroke attributable to cardioembolic origin (atrial fibrillation, valvular heart disease, aortic arch atherosclerosis)\n3. Severe hepatic or renal dysfunction\n4. Pregnant females\n5. Abnormal elevation of creatine phosphokinase\n6. Expected stent angioplasty\n7. Blood sugar is out of control\n8. Receiving statins within 1 month before onset\n9. Obstinate hypertension with more than 140/90 mmHg after medication\n10. Not willing and able to comply with scheduled visits, lifestyle guidelines, treatment plan, laboratory tests, and other study procedures\n11. Unsuitable for this clinical studies assessed by researcher",
+    "healthy_volunteers": false,
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "sex": "ALL"
+  },
+  "interventions": [
+    {
+      "arm_group_labels": [
+        "Routine-dose statin group"
+      ],
+      "description": "20mg Qd for 12 months",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Atorvastatin Calcium",
+      "normalized_name": "atorvastatin calcium"
+    },
+    {
+      "arm_group_labels": [
+        "high-dose statin or PCSK9 inhibitor group"
+      ],
+      "description": "40-80mg Qd for 6 months",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Atorvastatin Calcium",
+      "normalized_name": "atorvastatin calcium"
+    },
+    {
+      "arm_group_labels": [
+        "high-dose statin or PCSK9 inhibitor group"
+      ],
+      "description": "0.5g Bid for 6 months",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "Probucol",
+      "normalized_name": "probucol"
+    },
+    {
+      "arm_group_labels": [
+        "high-dose statin or PCSK9 inhibitor group"
+      ],
+      "description": "Evolocumab 140mg subcutaneously injected, twice each month",
+      "drug_class": null,
+      "intervention_type": "DRUG",
+      "name": "PCSK9 inhibitor",
+      "normalized_name": "pcsk9 inhibitor"
+    }
+  ],
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "facility_name": null,
+      "state": null,
+      "status": "RECRUITING"
+    }
+  ],
+  "outcomes": [
+    {
+      "description": "remodeling index: crimed vessel area/normal vessel area on high-resolution MRI",
+      "measure": "Changes in remodeling index after the statin treatment",
+      "outcome_type": "primary",
+      "time_frame": "baseline, 6 months, 12 months after treatment"
+    },
+    {
+      "description": "plaque burden: crimed vessel wall area/crimed vessel area on high-resolution MRI",
+      "measure": "Changes in plaque burden after the statin treatment",
+      "outcome_type": "primary",
+      "time_frame": "baseline, 6 months, 12 months after treatment"
+    },
+    {
+      "description": "plaque composition: lipid core and fiber tissue of plaque on high-resolution MRI",
+      "measure": "Changes plaque composition in after the statin treatment",
+      "outcome_type": "primary",
+      "time_frame": "baseline, 6 months, 12 months after treatment"
+    },
+    {
+      "description": "Serum level of LDL\u3001hs-CRP\u3001sLOX1 and oxLDL",
+      "measure": "level of serum bio-markers compared with baseline",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "Serum level of LDL\u3001hs-CRP\u3001sLOX1 and oxLDL",
+      "measure": "level of serum bio-markers compared with baseline",
+      "outcome_type": "secondary",
+      "time_frame": "12 months"
+    },
+    {
+      "description": "proportion of mRS (0-2)",
+      "measure": "mRS (0-2)",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "proportion of mRS (0-2)",
+      "measure": "mRS (0-2)",
+      "outcome_type": "secondary",
+      "time_frame": "12 months"
+    },
+    {
+      "description": "incidence of Transient ischemic attack, stroke or other vascular events",
+      "measure": "vascular events",
+      "outcome_type": "secondary",
+      "time_frame": "6 months"
+    },
+    {
+      "description": "incidence of Transient ischemic attack, stroke or other vascular events",
+      "measure": "vascular events",
+      "outcome_type": "secondary",
+      "time_frame": "12 months"
+    },
+    {
+      "description": "incidence of abnormal liver function or muscle enzyme levels",
+      "measure": "abnormal test data",
+      "outcome_type": "secondary",
+      "time_frame": "12 months"
+    },
+    {
+      "description": "incidence of adverse event",
+      "measure": "any adverse event",
+      "outcome_type": "secondary",
+      "time_frame": "12 months"
+    },
+    {
+      "description": "proportion of death",
+      "measure": "death of any causes",
+      "outcome_type": "secondary",
+      "time_frame": "12months"
+    }
+  ],
+  "trial": {
+    "age_groups": [
+      "ADULT",
+      "OLDER_ADULT"
+    ],
+    "allocation": "RANDOMIZED",
+    "brief_summary": "Intracranial atherosclerotic disease is the most common cause of ischemic stroke that is directly attributed to the progression or rupture of intracranial high-risk plaque in Asia. Many studies mainly from Euro-American population with a focus on extracranial carotid plaque have fully demonstrated the advantages of intensive statin therapy on stabilizing or reversing plaque burden, reversing plaque composition presenting that lipid-rich necrotic core (LRNC) is gradually replaced by fibrous tissue, and even reversing pattern of arterial remodeling to reduce the occurrence of cerebrovascular events. Yet, direct evidence of the effect of intensive statin therapy on intracranial atherosclerotic plaques is lacking and the effect of statin intensity and duration on intracranial plaque burden and composition is still unclear. High resolution magnetic resonance imaging (HRMRI) is a new and non-invasive technique that enable to assess the morphologic characteristics of vascular wall and plaque composition of intracranial artery. Based on above discussion, the investigators conduct this study to further determine the effect of intensive statin in ischemic stroke with intracranial atherosclerotic plaques.",
+    "brief_title": "The Effect of InTensive Statin in Ischemic Stroke With inTracranial Atherosclerotic Plaques",
+    "collaborator_names": [],
+    "completion_date": "2026-11-30",
+    "condition_labels": [],
+    "country_codes": [],
+    "criteria_text": "Inclusion Criteria:\n\n1. Patient age between 18-80 years\n2. Time of onset: within 1 week\n3. NIHSS score \u226412\n4. Acute ischemic stroke confirmed by head CT or MRI\n5. Premorbid mRS \u22641\n6. The degree of stenosis of carotid artery, vertebral artery and intracranial portion of internal carotid artery on the lesion side \\<50%\n7. The culprit plaque or possible culprit plaque with plaque burden of 40% or more found by HRMRI in the proximal part of the middle cerebral artery M1 segment or basilar artery of ipsilateral lesion\n8. Signed informed consent\n\nExclusion Criteria:\n\n1. Intracranial hemorrhage found by head CT\n2. Stroke attributable to cardioembolic origin (atrial fibrillation, valvular heart disease, aortic arch atherosclerosis)\n3. Severe hepatic or renal dysfunction\n4. Pregnant females\n5. Abnormal elevation of creatine phosphokinase\n6. Expected stent angioplasty\n7. Blood sugar is out of control\n8. Receiving statins within 1 month before onset\n9. Obstinate hypertension with more than 140/90 mmHg after medication\n10. Not willing and able to comply with scheduled visits, lifestyle guidelines, treatment plan, laboratory tests, and other study procedures\n11. Unsuitable for this clinical studies assessed by researcher",
+    "detailed_description": null,
+    "drug_class_labels": [],
+    "enrollment_count": 100,
+    "enrollment_type": "ESTIMATED",
+    "has_us_sites": false,
+    "healthy_volunteers": false,
+    "intervention_labels": [
+      "Atorvastatin Calcium",
+      "Probucol",
+      "PCSK9 inhibitor"
+    ],
+    "intervention_model": "PARALLEL",
+    "is_2026_relevant": true,
+    "keyword_labels": [],
+    "last_known_status": null,
+    "last_update_posted_at": "2025-03-18",
+    "lead_sponsor_class": "OTHER",
+    "lead_sponsor_name": "General Hospital of Shenyang Military Region",
+    "masking": "NONE",
+    "maximum_age_text": "80 Years",
+    "minimum_age_text": "18 Years",
+    "nct_id": "NCT03753555",
+    "official_title": "The Effect of InTensive Statin in Ischemic Stroke With inTracranial Atherosclerotic Plaques: a Prospective, Random, Single-center Study Based on High Resolution Magnetic Resonance Imaging",
+    "overall_status": "RECRUITING",
+    "phases": [
+      "PHASE4"
+    ],
+    "primary_completion_date": "2026-11-30",
+    "primary_purpose": "TREATMENT",
+    "raw_has_results": false,
+    "relevance_reasons": [
+      "active_or_recruiting_status",
+      "primary_completion_in_2026",
+      "completion_in_2026"
+    ],
+    "results_first_posted_at": null,
+    "sex": "ALL",
+    "source": "clinicaltrials_gov",
+    "source_url": "https://clinicaltrials.gov/study/NCT03753555",
+    "start_date": "2018-12-01",
+    "study_first_posted_at": "2018-11-27",
+    "study_type": "INTERVENTIONAL"
+  }
+}

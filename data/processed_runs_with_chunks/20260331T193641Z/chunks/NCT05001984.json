@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT05001984:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT05001984\nBrief title: Trial of PCSK9 Inhibition in Patients with Acute Stroke and Symptomatic Intracranial Atherosclerosis\nOfficial title: Trial of PCSK9 Inhibition in Patients with Acute Stroke and Symptomatic Intracranial Atherosclerosis - a Prospective, Randomized, Open-label, Blinded End-point Study with High-resolution MR Vessel Wall Imaging\nStudy type: INTERVENTIONAL\nOverall status: ACTIVE_NOT_RECRUITING\nPhases: PHASE2",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 55,
+      "trial_nct_id": "NCT05001984"
+    },
+    {
+      "chunk_id": "NCT05001984:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Intracranial Atherosclerosis; Acute Ischemic Stroke; ICAS - Intracranial Atherosclerosis\nIntervention labels: Alirocumab\nDrug class labels: \nArms: Intervention group; Control group\nKeywords: Intracranial Atherosclerosis; Acute Ischemic Stroke; PCSK9 inhibitor",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 32,
+      "trial_nct_id": "NCT05001984"
+    },
+    {
+      "chunk_id": "NCT05001984:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: This study will evaluate whether low-density lipoprotein (LDL-C) lowering with alirocumab results in greater change from baseline in intracranial atherosclerotic plaque at week 26 than control in adults with acute ischemic stroke from intracranial atherosclerosis taking lipid lowering therapy.\nDetailed description: In this trial, we will conduct a prospective, randomized, open-label, blinded end-point study using high-resolution MRI in patients with acute ischemic stroke from intracranial atherosclerosis to evaluate the efficacy and safety of alirocumab. We hypothesis that additional alirocumab treatment on a background of statin therapy could result in greater stabilization of intracranial plaque and regression of arterial stenosis.",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 101,
+      "trial_nct_id": "NCT05001984"
+    },
+    {
+      "chunk_id": "NCT05001984:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 20 Years\nMaximum age: 100 Years\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Clinical diagnosis of ischemic stroke with National Institutes of Health Stroke Scale (NIHSS) score of 1-15\n* Ischemic lesions on diffuse-weighted imaging located in the territory of symptomatic intracranial atherosclerosis (ICAS).\n* Symptomatic ICAS (above 30%) at the M1 or M2 of the middle cerebral artery, basilar artery or at the intracranial portion of the internal carotid artery or vertebral artery.\n* Serum LDL-C \u226570 mg/dL for subjects on lipid-lowering therapies (such as a statin and/or ezetimibe) or LDL-C \u2265100 mg/dL for subjects without lipid-lowering therapies.\n* Ability to randomize within 7 days of time last known free of new ischemic symptoms.\n* Ability to receive alirocumab or statin treatment within 7 days of stroke onset.\n* Head CT or MRI ruling out hemorrhage or other pathology, such as vascular malformation, tumor, or abscess, that could explain symptoms or contraindicate therapy.\n* Pre-stroke modified Rankin Scale (mRS)\u22662\n\nExclusion Criteria:\n\n* Age \\<20 years.\n* Judged by clinical physician.\n* After endovascular intervention or endarterectomy for the symptomatic ICAS.\n* Patients with more than 50% stenosis of extra-cranial arteries the relevant arteries on magnetic resonance angiography (MRA), including extra-cranial carotid artery or vertebral arteries.\n* Patients with high risk of cardioembolic source, such as atrial fibrillation, acute myocardial infarction, severe heart failure or valvular heart disease.\n* Other determined stroke etiology, such as vasculitis, shock, antiphospholipid antibody syndrome, arterial dissection, CADASIL and etc.\n* Qualifying ischemic event induced by angiography or surgery.\n* Severe non-cardiovascular comorbidity with life expectancy \\<6 months.\n* Contraindication or allergy to alirocumab or Gadolinium\n* Severe renal (serum creatinine \\>2 mg/dL) or calculated glomerular filtration rate \\<30 mL/min/ 1.73 m2 by estimated glomerular filtration rate (eGFR) using Cockcroft Gault methodology.\n* Hepatic insufficiency (INR\\>1.2; ALT\\>40 U/L or any resultant complication, such as variceal bleeding, encephalopathy, or jaundice)\n* Hemostatic disorder or systemic bleeding in the past 3 months\n* Current thrombocytopenia (platelet count \\<100 x109/L) or leukopenia (\\<2 x109/L)\n* Anemia\uff08\\<10 mg/dL\uff09\n* History of drug-induced hematologic or hepatic abnormalities\n* History of malignancy that required surgery, radiation therapy or systemic therapy.\n* Females who are pregnant or nursing, or who are of childbearing potential and unwilling to use effective contraception.\n* Other neurological conditions that would complicate assessment of outcomes during follow-up.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 398,
+      "trial_nct_id": "NCT05001984"
+    },
+    {
+      "chunk_id": "NCT05001984:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=The changes of intracranial atherosclerotic plaque: stenosis degree | time_frame=26 weeks | description=The changes of intracranial atherosclerotic plaque in vessel-wall MRI before and after 6-month treatment, measured as stenosis degree.\n\nThe degree of stenosis was calculated as: (1-lumen area of stenotic lesion/reference lumen area)\u00d7100%.\ntype=primary | measure=The changes of intracranial atherosclerotic plaque: percent atheroma volume | time_frame=26 weeks | description=The changes of intracranial atherosclerotic plaque in vessel-wall MRI before and after 6-month treatment, measured as percent atheroma volume (PAV).\n\nThe PAV was calculated using the following equation:\n\nPAV = \u03a3(EEM area - Lumen area) / \u03a3EEM area \u00d7 100, where EEM area is the cross-sectional area of the external elastic membrane and Lumen area is the cross-sectional area of the lumen.\ntype=primary | measure=The changes of intracranial atherosclerotic plaque: enhancement volume | time_frame=26 weeks | description=The changes of intracranial atherosclerotic plaque in vessel-wall MRI before and after 6-month treatment, measured as enhancement volume.\n\nThe enhancement volume was measured as post-contrast plaque enhancement for intracranial arteries and intraplaque hemorrhage.\ntype=secondary | measure=Percentage of patients with major cardiovascular events | time_frame=26 weeks | description=Defined as the composite of cardiovascular death, myocardial infarction, transient ischemic attack, ischemic stroke and hemorrhagic stroke.\ntype=secondary | measure=Percentage of patients with myocardial infarction | time_frame=26 weeks | description=patients with myocardial infarction\ntype=secondary | measure=Percentage of patients with cardiovascular death | time_frame=26 weeks | description=patients with cardiovascular death\ntype=secondary | measure=Percentage of patients with stroke | time_frame=26 weeks | description=Include transient ischemic attack, ischemic and hemorrhagic stroke\ntype=secondary | measure=Percentage of patients with ischemic stroke or transient ischemic attack. | time_frame=26 weeks | description=Percentage of patients with ischemic stroke or transient ischemic attack.\ntype=secondary | measure=Percentage of patients with new ischemic lesions | time_frame=26 weeks | description=Defined as new ischemic lesions in the territory of ICAS between 2 MRIs\ntype=secondary | measure=Percentage of patients with favorable functional recovery | time_frame=3 months | description=Defined as a mRS \u22662 mRS. The Modified Rankin Scale (mRS) runs from 0-6, running from perfect health without symptoms(score 0) to death(score 6).\ntype=secondary | measure=Changes in serum biomarkers | time_frame=26 weeks | description=Include liver function tests, HbA1c and lipid profiles.",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 358,
+      "trial_nct_id": "NCT05001984"
+    },
+    {
+      "chunk_id": "NCT05001984:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2021-08-01\nPrimary completion date: 2025-04-15\nCompletion date: 2025-04-15\nStudy first posted: 2021-08-12\nResults first posted: None\nLast update posted: 2025-03-26\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT05001984"
+    },
+    {
+      "chunk_id": "NCT05001984:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Chang Gung Memorial Hospital\nLead sponsor class: OTHER\nCollaborators: Chang Gung University\nCountries: \nHas US sites: False\nLocation sample:",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 21,
+      "trial_nct_id": "NCT05001984"
+    }
+  ],
+  "trial_nct_id": "NCT05001984"
+}

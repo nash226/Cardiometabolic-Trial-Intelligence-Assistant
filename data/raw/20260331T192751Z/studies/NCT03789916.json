@@ -1,0 +1,374 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D003327",
+          "term": "Coronary Disease"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D001161",
+          "term": "Arteriosclerosis"
+        },
+        {
+          "id": "D001157",
+          "term": "Arterial Occlusive Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D003324",
+          "term": "Coronary Artery Disease"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D000241",
+          "term": "Adenosine"
+        },
+        {
+          "id": "D011684",
+          "term": "Purine Nucleosides"
+        },
+        {
+          "id": "D011687",
+          "term": "Purines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D012263",
+          "term": "Ribonucleosides"
+        },
+        {
+          "id": "D012459",
+          "term": "Salicylates"
+        },
+        {
+          "id": "D062385",
+          "term": "Hydroxybenzoates"
+        },
+        {
+          "id": "D010636",
+          "term": "Phenols"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000077486",
+          "term": "Ticagrelor"
+        },
+        {
+          "id": "D001241",
+          "term": "Aspirin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "\"Dual antiplatelet therapy\": acetylsalicylic acid 100 mg/die + ticagrelor 90 mg bis in die",
+          "interventionNames": [
+            "Drug: Ticagrelor",
+            "Drug: acetylsalicylic acid"
+          ],
+          "label": "DAPT",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "\"Single antiplatelet therapy\": acetylsalicylic acid 100 mg/die",
+          "interventionNames": [
+            "Drug: acetylsalicylic acid"
+          ],
+          "label": "SAPT",
+          "type": "ACTIVE_COMPARATOR"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "DAPT"
+          ],
+          "description": "90 mg bis in die",
+          "name": "Ticagrelor",
+          "otherNames": [
+            "Brilique"
+          ],
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "DAPT",
+            "SAPT"
+          ],
+          "description": "100 mg die",
+          "name": "acetylsalicylic acid",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronary Artery Disease"
+      ],
+      "keywords": [
+        "coronary artery bypass grafting",
+        "incomplete revascularization",
+        "coronary artery disease",
+        "dual antiplatelet therapy"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "email": "a.nenna@unicampus.it",
+          "name": "Antonio Nenna, MD",
+          "phone": "+393337014743",
+          "role": "CONTACT"
+        },
+        {
+          "email": "m.chello@unicampus.it",
+          "name": "Massimo Chello, MD",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Rome",
+          "contacts": [
+            {
+              "email": "a.nenna@unicampus.it",
+              "name": "Antonio Nenna, MD",
+              "phone": "+393337014743",
+              "role": "CONTACT"
+            },
+            {
+              "email": "m.chello@unicampus.it",
+              "name": "Massimo Chello, MD",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Antonio Nenna, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Massimo Chello, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "country": "Italy",
+          "facility": "Universit\u00e0 Campus Bio-Medico di Roma",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          },
+          "status": "RECRUITING",
+          "zip": "00128"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Universit\u00e0 Campus Bio-Medico di Roma, Rome, Italy",
+          "name": "Massimo Chello, MD",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The study aims to compare the efficacy of dual antiplatelet therapy (DAPT) over single antiplatelet therapy (SAPT) in patients with incomplete revascularization after coronary artery bypass graft surgery (CABG).\n\nBefore hospital discharge, patients will be 1:1 randomized to SAPT (acetylsalicylic acid 100 mg/die) or DAPT (acetylsalicylic acid 100 mg/die + ticagrelor 90 mg bis in die). DAPT will be continued for 12 months, and ticagrelor will be withdrawn thereafter. Primary endpoint is the evaluation of cardiac-related mortality at 5 years from hospital discharge."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 800,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patients undergoing CABG, \u00b1 cardiopulmonary bypass, \u00b1 any associated cardiac procedures (valve replacement,...)\n* incomplete myocardial revascularization, defined by anatomic or functional criteria\n* obtained informed consent\n\nExclusion Criteria:\n\n* acute coronary syndrome \\< 12 months from surgery\n* dual antiplatelet therapy at hospital admission\n* planned procedure to complete myocardial revascularization (e.g. hybrid approach)\n* intolerance / unable to take acetylsalicylic acid or ticagrelor\n* preoperative atrial fibrillation\n* impaired compliance\n* planned pregnancy\n* history of gastrointestinal bleeding\n* chronic kidney disease (eGFR \\< 30 mL/min/1.73 m2)\n* chronic liver disease\n* severe heart failure at hospital admission\n* active malignancy\n* alcohol abuse\n* any clinical condition not compatible with the treatment\n\nExit Criteria:\n\n* postoperative atrial fibrillation requiring anticoagulation\n* postoperative hemorrhagic events (stroke, GI bleeding)\n* occurrence of contraindications to acetylsalicylic acid or ticagrelor\n* surgical treatment requiring DAPT withdrawn\n* patient decision",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "SDAT-IRC",
+      "briefTitle": "SAPT Versus DAPT in Incomplete Revascularization After CABG",
+      "nctId": "NCT03789916",
+      "officialTitle": "Single Versus Dual Antiplatelet Therapy in Patients With Incomplete Revascularization After Coronary Artery Bypass Graft Surgery",
+      "orgStudyIdInfo": {
+        "id": "72.18"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Campus Bio-Medico University"
+      }
+    },
+    "ipdSharingStatementModule": {
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "ICF",
+        "CSR"
+      ],
+      "ipdSharing": "YES"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cardiac-related mortality",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Overall mortality and non-cardiac-related mortality",
+          "measure": "Mortality",
+          "timeFrame": "5 years"
+        },
+        {
+          "description": "cardiac-related mortality, myocardial infarction, repeated vessel revascularization, hospitalization for heart failure, major arrhythmias, stroke",
+          "measure": "Major adverse cardiac and cerebrovascular events (MACCEs)",
+          "timeFrame": "5 years"
+        },
+        {
+          "description": "stroke, gastrointestinal bleeding, life-threatening bleeding",
+          "measure": "Major adverse hemorrhagic events (MAHEs)",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Spadaccio C, Nappi F, Nenna A, Beattie G, Chello M, Sutherland FW. Is it time to change how we think about incomplete coronary revascularization? Int J Cardiol. 2016 Dec 1;224:295-298. doi: 10.1016/j.ijcard.2016.09.055. Epub 2016 Sep 18.",
+          "pmid": "27665400",
+          "type": "RESULT"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Campus Bio-Medico University"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Campus Bio-Medico University",
+        "investigatorFullName": "Antonio Nenna, MD",
+        "investigatorTitle": "Cardiovascular Surgery",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2022-07-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-07-19",
+      "overallStatus": "RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2021-08-01",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2019-01-02",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2022-07",
+      "studyFirstPostDateStruct": {
+        "date": "2018-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-12-27",
+      "studyFirstSubmitQcDate": "2018-12-28"
+    }
+  }
+}

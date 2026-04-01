@@ -1,0 +1,322 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D051437",
+          "term": "Renal Insufficiency"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D006333",
+          "term": "Heart Failure"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D059347",
+          "term": "Cardio-Renal Syndrome"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C529054",
+          "term": "dapagliflozin"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "A 10 mg oral dose of dapagliflozin will be administered daily for three days.",
+          "interventionNames": [
+            "Drug: Dapagliflozin"
+          ],
+          "label": "SGLT2i administration",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Subjects continue with usual care.",
+          "label": "Usual Care",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "SGLT2i administration"
+          ],
+          "description": "Receipt of 10mg oral dose of dapagliflozin once daily for three days",
+          "name": "Dapagliflozin",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cardiorenal Syndrome"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "New Haven",
+          "country": "United States",
+          "facility": "Yale New Haven Hospital",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          },
+          "state": "Connecticut",
+          "zip": "06520"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Yale University",
+          "name": "Abinet Aklilu",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "Yale University",
+          "name": "Perry Wilson",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The long-term objective of this study is to test whether the addition of SGLT2 inhibitors to usual care during acute heart failure management in patients who develop kidney injury shortens the time to achieving symptomatic improvement and kidney function recovery. The study aims to assess feasibility and acceptability of such a randomized clinical trial.",
+      "detailedDescription": "Acute heart failure is associated with a significant risk of acute kidney injury which is present in up to a third of patients at the time of hospitalization. As adequate kidney function is necessary for self-decongestion, kidney injury makes the treatment of acute heart failure particularly challenging. SGLT2i are drugs consistently shown to reduce hospitalizations in heart failure as well as progression of kidney disease but are frequently discontinued during acute kidney injury. Although they have been included in the armamentarium of heart failure care as guideline directed medical therapy, a concern about the efficacy and safety in patients with kidney dysfunction remains a limitation to their widespread uptake particularly during heart failure exacerbation.\n\nThis study aims to enroll adults hospitalized with acute congestive cardiorenal syndrome and develop acute kidney injury in a randomized clinical trial of SGLT2i versus usual care to compare markers of decongestion and biomarkers of kidney injury and health to inform a larger randomized clinical trial. The overall aim is to assess if SGLT2i improve diuretic efficiency in patients with heart failure associated kidney injury. The long-term goal of this study is to promote increased use of SGLT2i by demonstrating their safety and possible benefit in patients who develop heart failure associated kidney injury to avoid interruptions in this setting.\n\nThe primary objective of this is study is to test the feasibility and acceptability of randomizing adults hospitalized with acute heart failure complicated by acute kidney injury to SGLT2i or usual care.\n\nThe secondary objectives of this study are:\n\n1. To compare changes in biomarkers of kidney injury, repair and tubular function in order to test whether the SGLT2 inhibitor (dapagliflozin) improves response to standard treatment\n2. To compare markers of decongestion (weight, urine volume, symptom score, diuretic de-escalation) to test whether the addition of SGLT2i to standard of care improves heart failure symptoms faster.\n3. To compare possible adverse events such as: sodium or potassium derangements, metabolic acidosis, urinary tract infections (UTI) or genital mycotic infections in those exposed to the SGLT2i dapagliflozin vs usual care.\n4. To compare hospital length of stay, mortality, progression to a higher stage of AKI, and persistent AKI at discharge"
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of signed and dated informed consent form\n2. Stated willingness to comply with all study procedures and availability for the duration of the study\n3. Male or female, aged \u2265 18 and \u2264 85 years-old\n4. Diagnosed with heart failure of either preserved or reduced left ventricular function\n5. NT-proBNP \\> 300 pg/mL\n6. Ability to take an oral medication\n7. Willing to adhere to the SGLT2i + usual care regimen\n\nExclusion Criteria:\n\n1. Current use of SGLT2 inhibitor or use in the past 72 hours\n2. Pregnancy or lactation (a pregnancy test will be performed prior to enrollment in women of child-bearing age)\n3. Known allergic reactions to components of an SGLT2 inhibitor\n4. Treatment with another investigational drug for heart failure different from or in addition to usual care within the 72 hours preceding AKI\n5. Any individual who meets any of the following criteria will be excluded from participation in this study:\n\n   * Documented history of ileal conduit (neobladder)\n   * No means of collecting urine such as patients with documented incontinence without indwelling or external urinary catheter\n   * Advanced kidney disease at baseline defined as baseline eGFR \\< 25 ml/min/1.73m2\n   * Unexplained hypoglycemia in the past 30 days from enrollment\n   * History of Fournier's gangrene (pelvic necrotizing fasciitis)\n   * History of recurrent urinary tract infection (UTI): defined as documented UTI at least 2x in the past 6 months or 3 x in the past 12 months\n   * End-stage kidney disease with dialysis requirement\n   * Oliguria: defined as less than 30 ml urine output per hour for more than two consecutive hours or less than 500 ml over the preceding 24 hours\n   * Severe acute kidney injury with indications for dialysis\n   * Current dialysis receipt for acute kidney injury\n   * Comfort measures only\n   * Solid organ transplant on immunosuppression",
+      "healthyVolunteers": false,
+      "maximumAge": "85 Years",
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "SGLT2i in CRS",
+      "briefTitle": "Sodium-Glucose Cotransporter-2 Inhibitor for Acute Cardiorenal Syndrome: A Feasibility Study",
+      "nctId": "NCT06111768",
+      "officialTitle": "Sodium-Glucose Cotransporter-2 Inhibitor for Acute Cardiorenal Syndrome: A Feasibility Study",
+      "orgStudyIdInfo": {
+        "id": "2000036118"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Yale University"
+      },
+      "secondaryIdInfos": [
+        {
+          "domain": "CTGTY",
+          "id": "000",
+          "type": "OTHER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "description": "De-identified data for the primary and secondary outcomes will be made available.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "ipdSharing": "YES",
+      "timeFrame": "Upon publication; indefinitely."
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Number of patients deemed eligible after assessment of inclusion and exclusion criteria and number of patients who consent, which serves as a measure of feasibility of enrolling patients with acute cardiorenal syndrome in a randomized clinical trial of SGLT2i.",
+          "measure": "Percentage of eligible versus consented patients",
+          "timeFrame": "From study initiation to study close (about 2 years)"
+        },
+        {
+          "description": "Percentage of enrolled patients who have provided at least two days of urine samples and percentage of enrolled patients who have provided at least two days of blood samples, which serves as a measure of feasibility of enrolling and retaining patients with acute cardiorenal syndrome in a randomized clinical trial of SGLT2i.",
+          "measure": "Percentage of enrolled patients with completed sample collections",
+          "timeFrame": "From study initiation to study close (about 2 years)"
+        },
+        {
+          "description": "Total enrollment into the study over study duration, to serve as a measure of feasibility.",
+          "measure": "Enrollment rate",
+          "timeFrame": "From study initiation to study close (about 2 years)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Comparison between study arms of the slope of the serum biomarker creatinine over five days, as a measure of kidney function",
+          "measure": "Slope of creatinine",
+          "timeFrame": "5 days following randomization"
+        },
+        {
+          "description": "Comparison between study arms of the slope of the serum biomarker cystatin-C over five days, as a measure of kidney function",
+          "measure": "Slope of cystatin-C",
+          "timeFrame": "5 days following randomization"
+        },
+        {
+          "description": "Comparison between study arms of the slope of the serum biomarker NT-proBNP over five days, as a measure of decongestion.",
+          "measure": "Slope of NT-proBNP",
+          "timeFrame": "5 days following randomization"
+        },
+        {
+          "description": "Comparison between study arms of the slopes of the following urinary biomarkers of renal tubular kidney injury, inflammation and repair over five days: molecule-1 (KIM-1), neutrophil gelatinase-associated lipocalin (NGAL), interleukin-18 (IL-18), monocyte chemoattractant protein-1 (MCP-1), uromodulin (UMOD), chitinase-3-like protein (YKL-40).",
+          "measure": "Slope of kidney tubular injury and repair biomarkers",
+          "timeFrame": "5 days following randomization"
+        },
+        {
+          "description": "Comparison between study arms of 24 hour urine volume collection as a measure of decongestion",
+          "measure": "Slope of urine volume",
+          "timeFrame": "72 hours from randomization"
+        },
+        {
+          "description": "Weight of subjects at 72 hours post-randomization as a measure of decongestion.",
+          "measure": "Weight",
+          "timeFrame": "72 hours from randomization"
+        },
+        {
+          "description": "Based on the 3 item symptom scale questionnaire given to subjects. Breathlessness scores range from 1-5, with higher scores indicating higher breathlessness. This score serves as a measure of decongestion.",
+          "measure": "Breathlessness score",
+          "timeFrame": "72 hours from randomization"
+        },
+        {
+          "description": "Time from randomization to de-escalation of loop diuretic, serving as a measure of decongestion.",
+          "measure": "Loop diuretic dose de-escalation",
+          "timeFrame": "From randomization up to 72 hours from randomization"
+        },
+        {
+          "description": "Time to in-hospital death",
+          "measure": "Mortality",
+          "timeFrame": "Assessed from randomization to time of death up to 14 days post-randomization or discharge"
+        },
+        {
+          "description": "Time to in-hospital dialysis",
+          "measure": "Dialysis",
+          "timeFrame": "Assessed from point of randomization to the date of first documented dialysis order during index hospitalization, up to 14 days post-randomization or discharge"
+        },
+        {
+          "description": "Number of patients rehospitalized for heat failure after index hospitalization, wtihin 90 days of discharge",
+          "measure": "Rate of rehospitalization with heart failure",
+          "timeFrame": "90 days post-index discharge"
+        },
+        {
+          "description": "Time to prescription of any SGLT2 by patient's primary provider, up to 90 days post-randomization",
+          "measure": "Time-to-prescription of an SGLT2i",
+          "timeFrame": "90 days post-randomization"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": true,
+      "isUsExport": false,
+      "oversightHasDmc": true
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "American Heart Association"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Yale University"
+      },
+      "responsibleParty": {
+        "type": "SPONSOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-03",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2026-05",
+        "type": "ESTIMATED"
+      },
+      "startDateStruct": {
+        "date": "2024-05-30",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-12",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-10-23",
+      "studyFirstSubmitQcDate": "2023-10-26"
+    }
+  }
+}

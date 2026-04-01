@@ -1,0 +1,609 @@
+{
+  "derivedSection": {
+    "conditionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D009203",
+          "term": "Myocardial Infarction"
+        },
+        {
+          "id": "D017202",
+          "term": "Myocardial Ischemia"
+        },
+        {
+          "id": "D006331",
+          "term": "Heart Diseases"
+        },
+        {
+          "id": "D002318",
+          "term": "Cardiovascular Diseases"
+        },
+        {
+          "id": "D014652",
+          "term": "Vascular Diseases"
+        },
+        {
+          "id": "D007238",
+          "term": "Infarction"
+        },
+        {
+          "id": "D007511",
+          "term": "Ischemia"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009336",
+          "term": "Necrosis"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D000072658",
+          "term": "Non-ST Elevated Myocardial Infarction"
+        },
+        {
+          "id": "D000072657",
+          "term": "ST Elevation Myocardial Infarction"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "ancestors": [
+        {
+          "id": "D050198",
+          "term": "Phenoxypropanolamines"
+        },
+        {
+          "id": "D011412",
+          "term": "Propanolamines"
+        },
+        {
+          "id": "D000605",
+          "term": "Amino Alcohols"
+        },
+        {
+          "id": "D000438",
+          "term": "Alcohols"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D020005",
+          "term": "Propanols"
+        },
+        {
+          "id": "D000588",
+          "term": "Amines"
+        },
+        {
+          "id": "D002227",
+          "term": "Carbazoles"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D006575",
+          "term": "Heterocyclic Compounds, 3-Ring"
+        },
+        {
+          "id": "D004983",
+          "term": "Ethanolamines"
+        },
+        {
+          "id": "D001578",
+          "term": "Benzopyrans"
+        },
+        {
+          "id": "D011714",
+          "term": "Pyrans"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ],
+      "meshes": [
+        {
+          "id": "D008790",
+          "term": "Metoprolol"
+        },
+        {
+          "id": "D017298",
+          "term": "Bisoprolol"
+        },
+        {
+          "id": "D000077261",
+          "term": "Carvedilol"
+        },
+        {
+          "id": "D000068577",
+          "term": "Nebivolol"
+        }
+      ]
+    },
+    "miscInfoModule": {
+      "versionHolder": "2026-03-31"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "date": "2023-11-15",
+          "filename": "Prot_000.pdf",
+          "hasIcf": false,
+          "hasProtocol": true,
+          "hasSap": false,
+          "label": "Study Protocol",
+          "size": 596480,
+          "typeAbbrev": "Prot",
+          "uploadDate": "2023-11-24T07:23"
+        },
+        {
+          "date": "2025-03-18",
+          "filename": "SAP_002.pdf",
+          "hasIcf": false,
+          "hasProtocol": false,
+          "hasSap": true,
+          "label": "Statistical Analysis Plan",
+          "size": 553525,
+          "typeAbbrev": "SAP",
+          "uploadDate": "2025-03-24T09:24"
+        }
+      ]
+    }
+  },
+  "hasResults": false,
+  "protocolSection": {
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "description": "Treatment with beta blockers plus standard of care. Type and dosage according to treating cardiologist choice\n\n* Bisoprolol up to a total dose of 10 mg daily\n* Carvedilol up to a total dose of 50 mg daily\n* Metoprolol succinate up to a total dose of 200 mg daily\n* Nebivolol up to a total dose of 10 mg daily",
+          "interventionNames": [
+            "Drug: Metoprolol Succinate",
+            "Drug: Bisoprolol",
+            "Drug: Carvedilol",
+            "Drug: Nebivolol"
+          ],
+          "label": "Beta blocker treatment",
+          "type": "EXPERIMENTAL"
+        },
+        {
+          "description": "Standard care without beta blocker treatment",
+          "label": "No beta blocker treatment",
+          "type": "NO_INTERVENTION"
+        }
+      ],
+      "interventions": [
+        {
+          "armGroupLabels": [
+            "Beta blocker treatment"
+          ],
+          "description": "Eligible patients randomized to receive long-term therapy with oral beta-blockade",
+          "name": "Metoprolol Succinate",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Beta blocker treatment"
+          ],
+          "description": "Eligible patients randomized to receive long-term therapy with oral beta-blockade",
+          "name": "Bisoprolol",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Beta blocker treatment"
+          ],
+          "description": "Eligible patients randomized to receive long-term therapy with oral beta-blockade",
+          "name": "Carvedilol",
+          "type": "DRUG"
+        },
+        {
+          "armGroupLabels": [
+            "Beta blocker treatment"
+          ],
+          "description": "Eligible patients randomized to receive long-term therapy with oral beta-blockade",
+          "name": "Nebivolol",
+          "type": "DRUG"
+        }
+      ]
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Acute Myocardial Infarction",
+        "Non-ST Elevation Myocardial Infarction (nSTEMI)",
+        "ST Elevation Myocardial Infarction"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "facility": "Bispebjerg Hospital, Dept. of Cardiology Y builing 67, 1.floor, Bispebjerg Bakke 23",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          },
+          "zip": "2400"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "affiliation": "Bispebjerg Frederiksberg University Hospital",
+          "name": "Eva IB Prescott, MD, DMsC",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "affiliation": "University Hospital Bispebjerg and Frederiksberg",
+          "name": "Anna Meta D Kristensen, MD",
+          "role": "STUDY_CHAIR"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "To determine whether long-term treatment with oral betablocker therapy after myocardial infarction in patient with no heart failure reduces the composite outcome of recurrent MI, all-cause mortality, revascularisation with percutaneous coronary intervention or coronary artery bypass graft, ischemic stroke, incident heart failure, or malignant ventricular arrhythmia including resuscitated cardiac arrest of cardiac origin.",
+      "detailedDescription": "Aim: To determine whether long-term treatment with oral betablocker (BB) therapy after myocardial infarction (MI) in patient with no heart failure reduces the composite outcome of recurrent MI, all-cause mortality, revascularisation with percutaneous coronary intervention or coronary artery bypass graft, ischemic stroke, incident heart failure, or malignant ventricular arrhythmia including resuscitated cardiac arrest of cardiac origin.\n\nThe inclusion- and event rate in DANBLOCK have been continuously assessed since the first patient was randomized in December 2018. The inclusion- and event rate have been lower than expected, in part due to COVID-19. To enhance feasibility, the decision was made by the Steering Committees to combine the data from DANBLOCK with the data from the Norwegian BETAMI (NCT03646357) and publish the primary endpoint, key secondary endpoints and most other secondary endpoints together (presented below).\n\nThe trials have similar designs, only minor differences in study entry criteria, and were, from the very beginning, coordinated with the aim of conducting sub-studies on pooled data. The primary endpoint has been harmonized without knowledge of the distribution of events. BETAMI and DANBLOCK will remain separate trials until the end of follow-up, where data from the trials will be combined and main results published together.\n\nIntervention: BB therapy versus no therapy.\n\nMain Inclusion Criteria: Patient that have suffered a MI, both Non-ST elevation MI and ST elevation MI and can be randomized within 14 days of MI with no signs of heart failure and a left ventricular ejection fraction\\>40%.\n\nMain Exclusion Criteria: Any indication or contraindication for BB treatment other than secondary prevention according to the treating cardiologist\n\nPrimary study endpoint:\n\n\u2022 The composite of all-cause mortality, recurrent MI, revascularisation with PCI or CABG, ischemic stroke, incident heart failure, or malignant ventricular arrhythmia including resuscitated cardiac arrest of cardiac origin.\n\nKey secondary endpoints to be included in the main publication:\n\n* Each of the components of the primary endpoint, i.e.: All-cause mortality, recurrent MI, revascularisation with PCI or CABG, ischemic stroke, incident heart failure, malignant ventricular arrhythmia including resuscitated cardiac arrest of cardiac origin.\n* To study whether oral beta-blocker therapy increases the risk of hospitalization for 2 or 3rd degree AV-block, or implantation of pacemaker\n* To assess clinical outcomes linked to beta-blocker therapy in the following subgroups:\n\nage (\\> vs \\<70 years), sex (men vs. women), beta-blocker dosage, STEMI vs. NSTEMI, LVEF subgroups (preserved vs. mid-range), country, hypertension and diabetes.\n\nOther secondary endpoints are described in the Statistical Analysis Plan and under \"Outcome Measures\".\n\nOther secondary objectives (for BETAMI-DANBLOCK substudies unless specified otherwise):\n\n* To study whether oral beta-blocker therapy reduces the risk of cardiovascular death compared to no such therapy\n* To study whether oral beta-blocker therapy reduces the risk of stable and unstable angina compared to no such therapy\n* To study whether oral beta-blocker therapy reduces the risk of atrial fibrillation, atrial flutter or other tachyarrhythmias compared to no such therapy\n* To study whether oral beta-blocker therapy increases the risk of hospitalization for chronic obstructive pulmonary disease, asthma or peripheral artery disease.\n* To study whether oral beta-blocker therapy increases the risk of hospitalization or outpatient visit for new-onset or dysregulated diabetes (DANBLOCK only)\n* To study whether oral beta-blocker therapy affects the following patient related outcomes: Quality of life, angina, dyspnoea, anxiety, depression, sexual dysfunction or sleep disorders.\n* To conduct cost-utility analysis in relation to quality of life and a health economic evaluation including drug use, health care utilization, employment, income, and benefit take-up\n* To describe beta-blocker dosage and adherence\n* To assess study safety\n\nSafety endpoints:\n\nThe following safety endpoints will be reported in the main publication:\n\n* Primary safety endpoint: A composite of all-cause mortality, recurrent MI, incident HF, malignant ventricular arrhythmia including resuscitated cardiac arrest of cardiac origin at 30 days following randomization\n* Other safety endpoint: All-Cause Mortality: A table of all deaths within the follow-up period\n* Other safety endpoint: Suspected Unexpected Serious Adverse Reaction (SUSARs): A table of all SUSARs within the follow-up period with number and frequency in each group. Reported by local investigators and obtained from the study databases.\n\nAll serious adverse events, including potential endpoints, are captured in the study database to be used for safety assessments and are reported continuously to regulatory authorities.\n\nSample Size: A total of approximately 2760 patients will be recruited and randomized 1:1 to BB treatment (type and dosage according to treating physician) or no BB treatment. Treatment must be initiated within 14 days of MI.\n\nSample size considerations: The study is event driven and a power calculation for the combined DANBLOCK-BETAMI trial has been performed in which 950 events will provide a power of 80% to detect a true treatment effect equal to a hazard ratio of 1.2 for no beta-blocker therapy.\n\nLocation: All departments of cardiology in Denmark are invited to participate. All patients admitted to hospital for MI will be screened for in- and exclusion criteria and contacted if eligible.\n\nTreatment Duration: Estimated (non) treatment duration of a minimum of 6 months and a maximum of 6.25 years (anticipated).\n\nFollow-up: Patients will be followed from the randomization date until end of follow-up.\n\nIntervention and dosage of BB treatment: The intervention will be active treatment with BB, type and dosage according to treating cardiologist choice and control will be standard care (without BB treatment). The treating cardiologist is recommended to use the highest dose deemed tolerable for the patient at the time of randomization. Dosage, adherence and cross-over will be monitored through linkage to the Danish Register of Medical Product Statistics.\n\nOriginal sample size considerations: Assuming a hazard ratio of 1.2 for the non-treated group compared to the treated the DANBLOCK trial has 80% power to detect this effect with an accumulation of 900 events of the primary endpoint. With approximately 3570 patients randomized the investigators expect to reach 900 events within the study period.\n\nStatistical Analysis: Please see the Statistical Analysis Plan.\n\nData Safety Monitoring Board (DSMB): This committee consisting of two senior cardiologists and one trial-science statistician will overview safety and will have access to unblinded data. They will formally review the accumulating data every 6 months throughout the study period to ensure there is no avoidable increased harm to patients. The DSMB may recommend trial termination due to excess risk associated with no treatment with BB.\n\nRecruitment: All patients admitted to hospital for MI will be screened for in- and exclusion criteria and contacted if eligible. Logistics of identifying and contacting the patients will be organized locally; some hospitals will randomize patients before discharge, others will contact patients after discharge. Patients will be randomized 1:1.\n\nPublication policy: On study completion the results will be submitted for publication in an international medical journal. The results of this study will also be submitted to the Competent Authority and the Ethics Committee according to EU and Danish regulations.\n\nFurthermore, a joint analysis of the data from BETAMI-DANBLOCK with the REDUCE (NCT03278509), CAPITAL-RCT (NCT01155635), and REBOOT (NCT03596385) trials will be performed."
+    },
+    "designModule": {
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Prospective, randomized, controlled, open-label, blinded endpoint (PROBE design)",
+        "maskingInfo": {
+          "masking": "NONE"
+        },
+        "primaryPurpose": "TREATMENT"
+      },
+      "enrollmentInfo": {
+        "count": 2760,
+        "type": "ESTIMATED"
+      },
+      "phases": [
+        "PHASE4"
+      ],
+      "studyType": "INTERVENTIONAL"
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Left ventricular ejection fraction \\> 40%\n* Myocardial infarction (MI) within previous two weeks\n\nThe diagnosis of acute MI must meet the Universal European Society of Cardiology (ESC) definition of MI\n\nExclusion Criteria:\n\n* Clinical evidence of heart failure at the time of discharge\n* Pregnancy or of child bearing age not using safe anticonception throughout the study period\n* Lack of signed informed consent and expected cooperation during follow-up\n* Any medical condition where beta blocker treatment is indicated according to the treating physician",
+      "healthyVolunteers": false,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "identificationModule": {
+      "acronym": "DANBLOCK",
+      "briefTitle": "Danish Trial of Beta Blocker Treatment After Myocardial Infarction Without Reduced Ejection Fraction",
+      "nctId": "NCT03778554",
+      "officialTitle": "Danish Trial of Beta Blocker Treatment After Myocardial Infarction Without Reduced Ejection Fraction (DANBLOCK)",
+      "orgStudyIdInfo": {
+        "id": "2018-002699-42"
+      },
+      "organization": {
+        "class": "OTHER",
+        "fullName": "Bispebjerg Hospital"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2018-002699-42",
+          "type": "EUDRACT_NUMBER"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "description": "Time to the composite of all-cause mortality, recurrent MI, revascularisation with PCI or CABG, ischemic stroke, incident heart failure, or malignant ventricular arrhythmia including resuscitated cardiac arrest of cardiag origin on an intention to treat analysis. The composite outcome will be assessed through nationwide registries and adjudicated by an independent Clinical Endpoint Adjudication Committee.",
+          "measure": "A composite of all-cause mortality, recurrent MI, revascularisation with PCI or CABG, ischemic stroke, incident heart failure, or malignant ventricular arrhythmia including resuscitated cardiac arrest of cardiac origin.",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "description": "Key secondary endpoint. Assessed through nationwide registries.",
+          "measure": "Recurrent myocardial infarction",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Key secondary endpoint. Assessed through nationwide registries.",
+          "measure": "All-cause mortality",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Key secondary endpoint. Assessed through nationwide registries.",
+          "measure": "Malignant ventricular arrhythmias",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Key secondary endpoint. Assessed through nationwide registries.",
+          "measure": "Incident heart failure (diagnosed at hospitalization or at out-patient visits)",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Key secondary endpoint. Assessed through nationwide registries.",
+          "measure": "Unplanned coronary revascularization",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Key secondary endpoint. Assessed through nationwide registries.",
+          "measure": "Ischemic stroke",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Key secondary endpoint. Assessed through nationwide registries.",
+          "measure": "Resuscitated cardiac arrest of cardiac origin",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Cardiovascular mortality",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Hospitalization for stable and unstable angina pectoris",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Hospitalization for atrial fibrillation, atrial flutter or other tachyarrhythmias",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Hospitalization for bradycardia, AV-block, syncope, or need for pacemaker",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Hospitalization for asthma and chronic obstructive pulmonary disease symptoms",
+          "timeFrame": "Estimated maximal follow-up 6 months - 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Hospitalization or outpatient visit for peripheral artery disease",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Hospitalization or outpatient visit for new-onset or dysregulated diabetes (DANBLOCK only)",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Canadian Cardiovascular Society (CCS) grading of angina pectoris.",
+          "measure": "Angina symptoms",
+          "timeFrame": "E-questionnaires will be administered at inclusion, 3, 12 and 24 months"
+        },
+        {
+          "description": "Data on exercise capacity (VO2peak) will measured before and after rehabilitation and recorded in the Danish Cardiac Rehabilitation database.",
+          "measure": "Exercise capacity (DANBLOCK only)",
+          "timeFrame": "At the beginning of cardiac rehabilitation (within approximately 4 weeks after randomization) and at the end of cardiac rehabilitation (approximately 6-12 weeks after beginning of rehabilitation)"
+        },
+        {
+          "description": "Data on blood pressure (systolic and diastolic) will measured before and after cardiac rehabilitation and recorded in the Danish Cardiac Rehabilitation database",
+          "measure": "Blood pressure control (DANBLOCK only)",
+          "timeFrame": "At the beginning of cardiac rehabilitation (within approximately 4 weeks after randomization) and at the end of cardiac rehabilitation (approximately 6-12 weeks after beginning of rehabilitation)"
+        },
+        {
+          "description": "EQ5D (a measure of health-related quality of life that can be used in a wide range of health conditions and treatments)",
+          "measure": "Quality of life measure",
+          "timeFrame": "E-questionnaires will be administered at inclusion, 3, 12 and 24 months"
+        },
+        {
+          "description": "HADS (Hospital Anxiety and Depression Scale)",
+          "measure": "Measures of depression and anxiety",
+          "timeFrame": "E-questionnaires will be administered at inclusion, 3, 12 and 24 months"
+        },
+        {
+          "description": "The International Index of Erectile Function (IIEF) and Female Sexual Function Index (FSFI)",
+          "measure": "Measures of sexual dysfunction",
+          "timeFrame": "E-questionnaires will be administered at inclusion, 3, 12 and 24 months"
+        },
+        {
+          "description": "Bergen insomnia Scale",
+          "measure": "Measures of sleeping disorder",
+          "timeFrame": "E-questionnaires will be administered at inclusion, 3, 12 and 24 months"
+        },
+        {
+          "description": "Assessed through nationwide registries.",
+          "measure": "Adherence to the prescribed dosage of beta-blocker",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        },
+        {
+          "description": "Assessed through nationwide registries and study database",
+          "measure": "Cost-utility analysis in relation to quality of life and a health economic evaluation including drug use, health care utilization, employment, income, and benefit take-up",
+          "timeFrame": "Estimated follow-up min 6 months - max 6.25 years"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDevice": false,
+      "isFdaRegulatedDrug": false,
+      "oversightHasDmc": true
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "citation": "Munkhaugen J, Kristensen AMD, Halvorsen S, Holmager T, Olsen MH, Bakken A, Sehested TSG, Ruddox V, Maeng M, Vikenes K, Jensen SE, Steigen T, Lambrechtsen J, Jortveit J, Bovin A, Schirmer H, Christiansen MK, Wiseth R, Mikkelsen D, Larsen AI, Lyngby Kjaergaard C, Andresen K, Gustafsson I, Tuseth V, Larsen ML, Deeg PS, Veien K, Bohmer E, Botker HE, Brattrud AO, Bronnum-Schou J, Pettersen AR, Bang LE, Oie E, Engstrom T, Borg EB, Kristensen K, Nymo SH, Gislason G, Vethe NT, Abdulla JAM, Dammen T, Mouridsen MR, Bendz B, Bertelsen MLN, Hove JD, Schierbeck L, Snoer M, Davidsen C, Egholm G, Thomsen KK, Jadou G, Poenaru M, Krarup NT, Bottcher M, Staehr PB, Zwisler AD, Edvardsen T, Torp-Pedersen C, Otterstad JE, Lange T, Fagerland MW, Atar D, Prescott E; BETAMI-DANBLOCK Investigators. Beta-Blockers after Myocardial Infarction in Patients without Heart Failure. N Engl J Med. 2025 Nov 13;393(19):1901-1911. doi: 10.1056/NEJMoa2505985. Epub 2025 Aug 30.",
+          "pmid": "40888716",
+          "type": "DERIVED"
+        },
+        {
+          "citation": "Kristensen AMD, Bovin A, Zwisler AD, Cerquira C, Torp-Pedersen C, Botker HE, Gustafsson I, Veien KT, Thomsen KK, Olsen MH, Larsen ML, Nielsen OW, Hildebrandt P, Foghmar S, Jensen SE, Lange T, Sehested T, Jernberg T, Atar D, Ibanez B, Prescott E. Design and rationale of the Danish trial of beta-blocker treatment after myocardial infarction without reduced ejection fraction: study protocol for a randomized controlled trial. Trials. 2020 May 23;21(1):415. doi: 10.1186/s13063-020-4214-6.",
+          "pmid": "32446298",
+          "type": "DERIVED"
+        }
+      ]
+    },
+    "sponsorCollaboratorsModule": {
+      "collaborators": [
+        {
+          "class": "OTHER",
+          "name": "Amager Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "University Hospital Bispebjerg and Frederiksberg"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Bornholm Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Gentofte Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Glostrup University Hospital, Copenhagen"
+        },
+        {
+          "class": "OTHER",
+          "name": "Herlev Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Hvidovre University Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Nordsjaellands Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Holbaek Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Nykoebing Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Naestved Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Zealand University Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Slagelse Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Odense University Hospital"
+        },
+        {
+          "class": "OTHER",
+          "name": "Svendborg Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Sydvestjysk Sygehus"
+        },
+        {
+          "class": "OTHER",
+          "name": "Hospital of Southern Jutland"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Sygehus Lillebaelt (Vejle and Kolding)"
+        },
+        {
+          "class": "OTHER",
+          "name": "Aarhus University Hospital"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Hospitalsenheden Midt"
+        },
+        {
+          "class": "OTHER",
+          "name": "Hospitalsenheden Vest"
+        },
+        {
+          "class": "OTHER",
+          "name": "Regionshospitalet Horsens"
+        },
+        {
+          "class": "UNKNOWN",
+          "name": "Silkeborg Sygehus"
+        },
+        {
+          "class": "OTHER",
+          "name": "Aalborg University Hospital"
+        }
+      ],
+      "leadSponsor": {
+        "class": "OTHER",
+        "name": "Bispebjerg Hospital"
+      },
+      "responsibleParty": {
+        "investigatorAffiliation": "Bispebjerg Hospital",
+        "investigatorFullName": "Eva Prescott",
+        "investigatorTitle": "Professor, MD, PhD",
+        "type": "PRINCIPAL_INVESTIGATOR"
+      }
+    },
+    "statusModule": {
+      "completionDateStruct": {
+        "date": "2035-12-10",
+        "type": "ESTIMATED"
+      },
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-05",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "primaryCompletionDateStruct": {
+        "date": "2025-04-01",
+        "type": "ACTUAL"
+      },
+      "startDateStruct": {
+        "date": "2018-12-17",
+        "type": "ACTUAL"
+      },
+      "statusVerifiedDate": "2025-06",
+      "studyFirstPostDateStruct": {
+        "date": "2018-12-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-12-10",
+      "studyFirstSubmitQcDate": "2018-12-16"
+    }
+  }
+}

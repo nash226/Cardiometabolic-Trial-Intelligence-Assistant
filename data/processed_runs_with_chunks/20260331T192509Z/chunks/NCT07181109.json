@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT07181109:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT07181109\nBrief title: Zilebesiran in Patients With Hypertension Not Adequately Controlled and With Either Established Cardiovascular Disease or High Risk for Cardiovascular Disease\nOfficial title: ZENITH: A Phase 3 Global, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Zilebesiran in Addition to Standard of Care in Reducing Major Adverse Cardiovascular Events in Adult Patients With Hypertension Not Adequately Controlled and With Either Established Cardiovascular Disease or High Risk for Cardiovascular Disease\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE3",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 84,
+      "trial_nct_id": "NCT07181109"
+    },
+    {
+      "chunk_id": "NCT07181109:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: High Risk Cardiovascular Disease; Hypertension; High Cardiovascular Risk\nIntervention labels: Zilebesiran; Placebo\nDrug class labels: \nArms: Zilebesiran 300 mg; Placebo\nKeywords: High blood pressure; siRNA; Angiotensinogen; AGT; Cardiovascular disease; Uncontrolled hypertension; RNAi",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 36,
+      "trial_nct_id": "NCT07181109"
+    },
+    {
+      "chunk_id": "NCT07181109:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The purpose of this study is to evaluate whether zilebesiran versus placebo reduces the risk of cardiovascular (CV) death, nonfatal myocardial infarction (MI), nonfatal stroke, or heart failure (HF) events. This is an event-driven study that will continue until the targeted number of positively adjudicated primary endpoint clinical outcome events (COEs) have been reached.\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 59,
+      "trial_nct_id": "NCT07181109"
+    },
+    {
+      "chunk_id": "NCT07181109:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Is 18 years or older for patients with established cardiovascular disease (CVD)\n* Is 55 years or older for patients with high risk for CVD\n* Has established CVD (defined as coronary, cerebrovascular, or peripheral artery disease) or high risk for CVD\n* Has treated hypertension on stable therapy with at least 2 standard of care antihypertensive medications, one of which must be a thiazide, thiazide-like, or loop diuretic\n\nExclusion Criteria:\n\n* Has known history of secondary hypertension\n* Has symptomatic orthostatic hypotension\n* Has alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\>3\u00d7upper limit of normal (ULN)\n* Has total serum bilirubin \\>1.5\u00d7ULN\n* Has international normalized ratio (INR) \\>1.5\n* Has serum potassium \\>4.8 mEq/L\n* Has estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73m\\^2",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 145,
+      "trial_nct_id": "NCT07181109"
+    },
+    {
+      "chunk_id": "NCT07181109:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Time to First Occurrence of a Composite Endpoint of Cardiovascular (CV) Death, Nonfatal Myocardial Infarction (MI), Nonfatal Stroke, or Heart Failure (HF) Event (Hospitalization for HF or Urgent HF Visit) | time_frame=Up to approximately 5 years\ntype=secondary | measure=Change from Baseline in Mean Seated Office Systolic Blood Pressure (SBP) at Month 6 | time_frame=Baseline and Month 6\ntype=secondary | measure=Time to First Occurrence of a Composite Endpoint of CV Death, Nonfatal MI, or Nonfatal Stroke | time_frame=Up to approximately 5 years\ntype=secondary | measure=Composite Endpoint of CV Death and Total (First and Subsequent) HF Events (Hospitalization for HF or Urgent HF Visit) | time_frame=Up to approximately 5 years\ntype=secondary | measure=Time to First Occurrence of Composite Endpoint of CV death, Nonfatal MI, Nonfatal Stroke, or Coronary Revascularization | time_frame=Up to approximately 5 years\ntype=secondary | measure=Time to All-cause Death | time_frame=Up to approximately 5 years",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 147,
+      "trial_nct_id": "NCT07181109"
+    },
+    {
+      "chunk_id": "NCT07181109:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-09-22\nPrimary completion date: 2030-09-30\nCompletion date: 2030-09-30\nStudy first posted: 2025-09-18\nResults first posted: None\nLast update posted: 2026-03-31\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT07181109"
+    },
+    {
+      "chunk_id": "NCT07181109:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Alnylam Pharmaceuticals\nLead sponsor class: INDUSTRY\nCollaborators: Hoffmann-La Roche\nCountries: \nHas US sites: False\nLocation sample: NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; NOT_YET_RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING; RECRUITING; RECRUITING; NOT_YET_RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 43,
+      "trial_nct_id": "NCT07181109"
+    }
+  ],
+  "trial_nct_id": "NCT07181109"
+}

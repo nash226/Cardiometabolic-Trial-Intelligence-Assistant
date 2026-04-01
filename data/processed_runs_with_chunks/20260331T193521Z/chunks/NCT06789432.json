@@ -1,0 +1,114 @@
+{
+  "chunk_count": 7,
+  "chunks": [
+    {
+      "chunk_id": "NCT06789432:status_identity:1",
+      "chunk_type": "status_identity",
+      "content": "NCT ID: NCT06789432\nBrief title: Efficacy and Safety of Atorvastatin and Ezetimibe (10/10mg) Fixed Dose Combination Versus Atorvastatin (20mg) Monotherapy in Bangladeshi Population\nOfficial title: Efficacy and Safety of Atorvastatin and Ezetimibe (10/10mg) Fixed Dose Combination Versus Atorvastatin (20mg) Monotherapy in Bangladeshi Population\nStudy type: INTERVENTIONAL\nOverall status: RECRUITING\nPhases: PHASE4",
+      "source_field_paths": [
+        "trial.nct_id",
+        "trial.brief_title",
+        "trial.official_title",
+        "trial.study_type",
+        "trial.overall_status",
+        "trial.phases"
+      ],
+      "title": "Status and Identity",
+      "token_count_estimate": 51,
+      "trial_nct_id": "NCT06789432"
+    },
+    {
+      "chunk_id": "NCT06789432:conditions_interventions:2",
+      "chunk_type": "conditions_interventions",
+      "content": "Condition labels: \nRaw conditions: Hyperlipidemia (E.G., Hypercholesterolemia)\nIntervention labels: Atorvastatin 10 mg and ezetimibe 10 mg; Atorvastatin 20 mg\nDrug class labels: \nArms: Arm 1; Arm 2\nKeywords: increased LDL-C level; Hyperlipidemia; Atorvastatin (10 mg) and Ezetimibe (10 mg)",
+      "source_field_paths": [
+        "trial.condition_labels",
+        "conditions[].name",
+        "trial.intervention_labels",
+        "trial.drug_class_labels",
+        "arms[].label",
+        "trial.keyword_labels"
+      ],
+      "title": "Conditions and Interventions",
+      "token_count_estimate": 39,
+      "trial_nct_id": "NCT06789432"
+    },
+    {
+      "chunk_id": "NCT06789432:summary_description:3",
+      "chunk_type": "summary_description",
+      "content": "Brief summary: The goal of this clinical trial is to evaluate the efficacy and safety of a fixed-dose combination of atorvastatin (10 mg) and ezetimibe (10 mg) compared to atorvastatin (20 mg) monotherapy in the Bangladeshi population.\n\nResearchers will compare atorvastatin (10 mg) and ezetimibe (10 mg) to atorvastatin (20 mg) monotherapy to see if atorvastatin (10 mg) and ezetimibe (10 mg) FDC works to treat dyslipidemia.\n\nParticipants will:\n\n* Take a fixed-dose combination of atorvastatin (10 mg) and ezetimibe (10 mg) compared to atorvastatin (20 mg) monotherapy for 3 months\n* Follow-up visits at 6 weeks and 12 weeks for checkups and tests\nDetailed description: None",
+      "source_field_paths": [
+        "trial.brief_summary",
+        "trial.detailed_description"
+      ],
+      "title": "Summary and Description",
+      "token_count_estimate": 107,
+      "trial_nct_id": "NCT06789432"
+    },
+    {
+      "chunk_id": "NCT06789432:eligibility:4",
+      "chunk_type": "eligibility",
+      "content": "Sex: ALL\nMinimum age: 18 Years\nMaximum age: None\nAge groups: ADULT; OLDER_ADULT\nHealthy volunteers: False\nCriteria: Inclusion Criteria:\n\n* Men and women aged \\>18 years.\n* Patients with a confirmed diagnosis of elevated LDL-C levels necessitating medical management.\n* Patients in the low to moderate cardiovascular disease (CVD) risk category according to ESC guidelines (2019)\n\n  * Low-risk: Increased LDL-C level without any co-morbidities\n  * Moderate-risk: Young patients (T1DM \\<35 years; T2DM \\<50 years) with DM duration \\<10 years, without other risk factors.\n\nExclusion Criteria:\n\n* History of hypersensitivity to any study drugs.\n* Clinically significant hepatic impairment (ALT, AST level \\> 2xULN) and/or renal impairment (Serum creatinine level \u22652xULN).\n* Patients with hepatitis B virus (HBV) or hepatitis C virus (HCV) with cirrhosis, end-stage liver disease, cancer, psychiatric instability, HIV + status, intestinal malabsorption.\n* Pregnant or lactating females.\n* The presence of a condition that, in the opinion of the investigator, would place the subject at increased risk from study participation.",
+      "source_field_paths": [
+        "trial.sex",
+        "trial.minimum_age_text",
+        "trial.maximum_age_text",
+        "trial.age_groups",
+        "trial.healthy_volunteers",
+        "eligibility.criteria_text"
+      ],
+      "title": "Eligibility",
+      "token_count_estimate": 163,
+      "trial_nct_id": "NCT06789432"
+    },
+    {
+      "chunk_id": "NCT06789432:outcomes:5",
+      "chunk_type": "outcomes",
+      "content": "type=primary | measure=Mean change in LDL-C from baseline | time_frame=Baseline to Week 12 | description=Compare the mean change in LDL-C (mg/dL) from baseline to week 12 in both groups.\ntype=primary | measure=Percentage of patients withdrawn from the study | time_frame=Baseline to Week 12 | description=Compare the percentage of patients withdrawn from the study due to adverse events in two groups.\ntype=secondary | measure=Achievement of target levels of LDL-C | time_frame=Baseline to Week 12 | description=Compare the frequency of achieving the target levels of LDL-C in both groups after 12 weeks\ntype=secondary | measure=Mean changes in total cholesterol (TC), HDL-C and TG | time_frame=Baseline to Week 12 | description=Compare the mean changes in total cholesterol (TC), HDL-C and TG from baseline to week 12 in both arms.\ntype=secondary | measure=Frequency of myopathy | time_frame=Baseline to Week 12 | description=Compare the frequency of myopathy after 12 weeks between two arms\ntype=secondary | measure=Frequency of AEs & SAEs | time_frame=Baseline to Week 12 | description=Compare the frequency of AEs \\& SAEs between two arms\ntype=secondary | measure=Changes in SGPT Levels in Both Arms | time_frame=Baseline to Week 12 | description=Compare the change in SGPT (U/L) levels in both arms.\ntype=secondary | measure=Changes in Serum Creatinine Levels in Both Arms | time_frame=Baseline to Week 12 | description=Compare the changes in SGPT (U/L) levels in both arms.\ntype=secondary | measure=Changes in creatine phosphokinase (CPK) level in Both Arms | time_frame=Baseline to Week 12 | description=Compare the changes in creatine phosphokinase (CPK) level in Both Arms",
+      "source_field_paths": [
+        "outcomes[].outcome_type",
+        "outcomes[].measure",
+        "outcomes[].time_frame",
+        "outcomes[].description"
+      ],
+      "title": "Outcomes",
+      "token_count_estimate": 250,
+      "trial_nct_id": "NCT06789432"
+    },
+    {
+      "chunk_id": "NCT06789432:timeline:6",
+      "chunk_type": "timeline",
+      "content": "Start date: 2025-02-01\nPrimary completion date: 2025-10\nCompletion date: 2025-12\nStudy first posted: 2025-01-23\nResults first posted: None\nLast update posted: 2025-07-29\n2026 relevant: True\nRelevance reasons: active_or_recruiting_status",
+      "source_field_paths": [
+        "trial.start_date",
+        "trial.primary_completion_date",
+        "trial.completion_date",
+        "trial.study_first_posted_at",
+        "trial.results_first_posted_at",
+        "trial.last_update_posted_at",
+        "trial.is_2026_relevant",
+        "trial.relevance_reasons"
+      ],
+      "title": "Timeline",
+      "token_count_estimate": 28,
+      "trial_nct_id": "NCT06789432"
+    },
+    {
+      "chunk_id": "NCT06789432:sponsor_locations:7",
+      "chunk_type": "sponsor_locations",
+      "content": "Lead sponsor: Dr. Md. Alimur Reza\nLead sponsor class: INDUSTRY\nCollaborators: \nCountries: \nHas US sites: False\nLocation sample: RECRUITING",
+      "source_field_paths": [
+        "trial.lead_sponsor_name",
+        "trial.lead_sponsor_class",
+        "trial.collaborator_names",
+        "trial.country_codes",
+        "trial.has_us_sites",
+        "locations[]"
+      ],
+      "title": "Sponsor and Locations",
+      "token_count_estimate": 19,
+      "trial_nct_id": "NCT06789432"
+    }
+  ],
+  "trial_nct_id": "NCT06789432"
+}
