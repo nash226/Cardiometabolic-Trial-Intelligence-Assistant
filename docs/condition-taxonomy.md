@@ -19,8 +19,8 @@ These should map into a smaller set of stable labels for the MVP.
 
 ## Current files
 
-- [scripts/lib/condition_taxonomy.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/condition_taxonomy.py)
-- [scripts/lib/condition_taxonomy.json](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/condition_taxonomy.json)
+- [scripts/lib/condition_taxonomy.py](../scripts/lib/condition_taxonomy.py)
+- [scripts/lib/condition_taxonomy.json](../scripts/lib/condition_taxonomy.json)
 
 ## Current normalized labels
 

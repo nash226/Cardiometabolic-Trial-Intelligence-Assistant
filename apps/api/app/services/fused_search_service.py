@@ -6,7 +6,7 @@ from ..schemas.fused_search import (
     FusedSearchResponse,
     FusedSearchResult,
 )
-from .search_service import _build_where_clause
+from .search_service import _build_where_clause, _fallback_tsquery
 from scripts.lib.embedding_utils import embed_text
 
 
@@ -82,8 +82,12 @@ def _query_aware_chunk_type_weights(query: str) -> dict[str, float]:
 
 def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
     where_sql, where_params = _build_where_clause(request)
-    query_embedding = embed_text(request.query, provider=request.provider, model=request.model)
-    query_vector = _vector_literal(query_embedding)
+    query_vector: str | None = None
+    try:
+        query_embedding = embed_text(request.query, provider=request.provider, model=request.model)
+        query_vector = _vector_literal(query_embedding)
+    except (RuntimeError, ValueError):
+        query_vector = None
 
     lexical_sql = f"""
         SELECT
@@ -101,7 +105,8 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
         WHERE {where_sql}
           AND tc.content_tsv @@ websearch_to_tsquery('english', %s)
     """
-    semantic_sql = f"""
+    fallback_query = _fallback_tsquery(request.query)
+    fallback_lexical_sql = f"""
         SELECT
             tc.chunk_id,
             tc.trial_nct_id,
@@ -110,13 +115,31 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
             tc.title,
             tc.content,
             tc.source_field_paths,
-            1 - (tc.embedding <=> %s::vector) AS score
+            ts_rank_cd(tc.content_tsv, to_tsquery('english', %s)) AS score
         FROM trial_chunks tc
         JOIN trials t ON t.id = tc.trial_id
         JOIN trial_validation tv ON tv.trial_id = t.id
         WHERE {where_sql}
-          AND tc.embedding IS NOT NULL
+          AND tc.content_tsv @@ to_tsquery('english', %s)
     """
+    semantic_sql = None
+    if query_vector is not None:
+        semantic_sql = f"""
+            SELECT
+                tc.chunk_id,
+                tc.trial_nct_id,
+                t.brief_title,
+                tc.chunk_type,
+                tc.title,
+                tc.content,
+                tc.source_field_paths,
+                1 - (tc.embedding <=> %s::vector) AS score
+            FROM trial_chunks tc
+            JOIN trials t ON t.id = tc.trial_id
+            JOIN trial_validation tv ON tv.trial_id = t.id
+            WHERE {where_sql}
+              AND tc.embedding IS NOT NULL
+        """
     count_sql = f"""
         SELECT COUNT(*)
         FROM trials t
@@ -131,7 +154,12 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
     with get_connection() as conn:
         with conn.cursor() as cur:
             cur.execute(lexical_sql, [*where_params, request.query, request.query])
-            for row in cur.fetchall():
+            lexical_rows = cur.fetchall()
+            if not lexical_rows and fallback_query:
+                cur.execute(fallback_lexical_sql, [*where_params, fallback_query, fallback_query])
+                lexical_rows = cur.fetchall()
+
+            for row in lexical_rows:
                 chunk_id, trial_nct_id, brief_title, chunk_type, title, content, source_field_paths, score = row
                 lexical_scores[chunk_id] = float(score)
                 chunk_meta[chunk_id] = {
@@ -143,21 +171,22 @@ def fused_search_trials(request: FusedSearchRequest) -> FusedSearchResponse:
                     "source_field_paths": source_field_paths,
                 }
 
-            cur.execute(semantic_sql, [query_vector, *where_params])
-            for row in cur.fetchall():
-                chunk_id, trial_nct_id, brief_title, chunk_type, title, content, source_field_paths, score = row
-                semantic_scores[chunk_id] = float(score)
-                chunk_meta.setdefault(
-                    chunk_id,
-                    {
-                        "trial_nct_id": trial_nct_id,
-                        "trial_title": brief_title,
-                        "chunk_type": chunk_type,
-                        "title": title,
-                        "content": content,
-                        "source_field_paths": source_field_paths,
-                    },
-                )
+            if semantic_sql is not None and query_vector is not None:
+                cur.execute(semantic_sql, [query_vector, *where_params])
+                for row in cur.fetchall():
+                    chunk_id, trial_nct_id, brief_title, chunk_type, title, content, source_field_paths, score = row
+                    semantic_scores[chunk_id] = float(score)
+                    chunk_meta.setdefault(
+                        chunk_id,
+                        {
+                            "trial_nct_id": trial_nct_id,
+                            "trial_title": brief_title,
+                            "chunk_type": chunk_type,
+                            "title": title,
+                            "content": content,
+                            "source_field_paths": source_field_paths,
+                        },
+                    )
 
             cur.execute(count_sql, where_params)
             eligible_trial_count = int(cur.fetchone()[0])

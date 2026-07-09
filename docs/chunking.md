@@ -4,7 +4,7 @@ Chunking is the ingestion layer that converts a normalized trial record into ret
 
 ## Script
 
-- [scripts/generate_chunks.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/generate_chunks.py)
+- [scripts/generate_chunks.py](../scripts/generate_chunks.py)
 
 ## Why this exists
 
@@ -28,7 +28,7 @@ Instead, we want field-aware chunks that preserve the meaning of each trial sect
 - `timeline`
 - `sponsor_locations`
 
-These follow the chunking strategy defined in [docs/architecture.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/architecture.md).
+These follow the chunking strategy defined in [docs/architecture.md](../docs/architecture.md).
 
 ## Output shape
 
@@ -53,11 +53,11 @@ python3 scripts/generate_chunks.py \
 
 This writes a chunk file to:
 
-- [data/chunks](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/chunks)
+- [data/chunks](../data/chunks)
 
 When used through the batch pipeline, chunk files are written under each processed run:
 
-- [data/processed_runs](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/processed_runs)
+- [data/processed_runs](../data/processed_runs)
 
 ## Design notes
 

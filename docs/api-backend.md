@@ -4,7 +4,7 @@ This is the first backend service layer over the stored trial corpus.
 
 ## App entrypoint
 
-- [apps/api/app/main.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/app/main.py)
+- [apps/api/app/main.py](../apps/api/app/main.py)
 
 ## Current endpoint
 
@@ -199,4 +199,4 @@ Endpoints:
 - `GET /api/v1/ingestion/jobs`
 - `GET /api/v1/ingestion/jobs/{job_id}`
 
-See [ingestion-jobs.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/ingestion-jobs.md) for setup and usage.
+See [ingestion-jobs.md](../docs/ingestion-jobs.md) for setup and usage.

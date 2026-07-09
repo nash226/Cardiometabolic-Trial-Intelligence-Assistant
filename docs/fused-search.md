@@ -10,7 +10,7 @@ into one ranked result set.
 
 ## Script
 
-- [scripts/fused_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fused_search.py)
+- [scripts/fused_search.py](../scripts/fused_search.py)
 
 ## Why this matters
 

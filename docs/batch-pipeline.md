@@ -4,7 +4,7 @@ The batch pipeline is the first step where we treat the ingestion scripts as one
 
 ## Script
 
-- [scripts/process_raw_run.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/process_raw_run.py)
+- [scripts/process_raw_run.py](../scripts/process_raw_run.py)
 
 ## What it does
 

@@ -3,440 +3,390 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trial Intelligence Assistant</title>
+  <title>MTIA Trial Review</title>
   <style>
     :root {
-      --bg: #f3ecdf;
-      --paper: #fff8ee;
-      --card: #fffdf7;
-      --ink: #1c2428;
-      --muted: #607076;
-      --line: #d7cab4;
-      --accent: #0f766e;
-      --accent-soft: #d9f0ec;
-      --accent-deep: #0a5953;
-      --warm: #f7ecd6;
-      --shadow: 0 12px 40px rgba(99, 73, 20, 0.08);
+      --bg: #f7f8fa;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f4;
+      --ink: #172126;
+      --muted: #5d6b74;
+      --line: #d8e0e5;
+      --accent: #12736a;
+      --accent-dark: #0b564f;
+      --accent-soft: #dff1ee;
+      --warn: #8a4b12;
+      --warn-bg: #fff6e8;
+      --warn-line: #edc98f;
+      --shadow: 0 16px 36px rgba(32, 51, 63, 0.08);
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
+      background: var(--bg);
       color: var(--ink);
-      font-family: Georgia, "Times New Roman", serif;
-      background:
-        radial-gradient(circle at top left, #fff4d8 0, transparent 26%),
-        radial-gradient(circle at top right, #e6f6f1 0, transparent 20%),
-        linear-gradient(180deg, #f6efe4 0%, var(--bg) 50%, #efe7d9 100%);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-    .shell {
-      max-width: 1260px;
-      margin: 0 auto;
-      padding: 28px 20px 40px;
-    }
-    .hero {
-      display: grid;
-      gap: 14px;
-      margin-bottom: 22px;
-    }
-    .eyebrow {
-      width: fit-content;
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: rgba(255, 250, 240, 0.75);
-      color: var(--muted);
-      font-size: 20px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-    h1 {
-      margin: 0;
-      max-width: 11ch;
-      font-size: clamp(2.8rem, 6vw, 5.2rem);
-      line-height: 0.92;
-      letter-spacing: -0.05em;
-    }
-    .lead {
-      margin: 0;
-      max-width: 64ch;
-      color: var(--muted);
-      font-size: 1.04rem;
-      line-height: 1.6;
-    }
-    .layout {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 18px;
-    }
-    .panel,
-    .workspace,
-    .column-card {
-      background: rgba(255, 249, 239, 0.92);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      box-shadow: var(--shadow);
-    }
-    .panel h2,
-    .column-card h2 {
-      margin: 0;
-      font-size: 1.08rem;
-    }
-    .panel-note {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-      line-height: 1.55;
-    }
-    select,
-    input,
-    textarea {
-      width: 100%;
-      padding: 11px 12px;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: var(--paper);
-      color: var(--ink);
-      font: inherit;
-    }
-    textarea {
-      min-height: 118px;
-      resize: vertical;
-      line-height: 1.5;
-    }
-    button {
-      border: 0;
-      border-radius: 14px;
-      background: var(--accent);
-      color: white;
-      padding: 12px 16px;
-      font: inherit;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    button:disabled {
-      opacity: 0.6;
-      cursor: wait;
-    }
-    .ghost {
-      background: transparent;
+
+    a {
       color: var(--accent);
-      border: 1px solid var(--line);
     }
-    .workspace {
-      padding: 18px;
-      display: grid;
-      gap: 18px;
+
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 40px;
     }
-    .chat-head {
+
+    .topbar {
       display: flex;
+      align-items: center;
       justify-content: space-between;
       gap: 16px;
-      align-items: end;
-      padding-bottom: 14px;
-      border-bottom: 1px solid var(--line);
+      margin-bottom: 20px;
     }
-    .chat-head p {
-      margin: 6px 0 0;
+
+    .brand {
+      display: grid;
+      gap: 4px;
+    }
+
+    .brand span {
       color: var(--muted);
-    }
-    .status {
-      padding: 7px 10px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      color: var(--accent-deep);
-      font-size: 0.83rem;
-    }
-    .chat-composer {
-      display: grid;
-      gap: 12px;
-      padding: 16px;
-      border: 1px solid rgba(215, 202, 180, 0.95);
-      border-radius: 20px;
-      background: linear-gradient(180deg, rgba(255,255,255,0.75), rgba(255,249,239,0.9));
-    }
-    .composer-actions {
-      display: flex;
-      gap: 10px;
-      justify-content: flex-end;
-      flex-wrap: wrap;
-    }
-    .chat-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 18px;
-    }
-    .column-card {
-      padding: 18px;
-      display: grid;
-      gap: 14px;
-      min-height: 480px;
-      align-content: start;
-    }
-    .context-stack {
-      display: grid;
-      gap: 18px;
-      padding-top: 6px;
-      border-top: 1px solid rgba(215, 202, 180, 0.85);
-    }
-    .column-sub {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-      line-height: 1.5;
-    }
-    .thread {
-      display: grid;
-      gap: 14px;
-      align-content: start;
-    }
-    .bubble {
-      padding: 16px;
-      border-radius: 22px;
-      background: white;
-      border: 1px solid rgba(215, 202, 180, 0.95);
-      display: grid;
-      gap: 10px;
-    }
-    .bubble.user {
-      background: var(--accent);
-      color: white;
-      margin-left: 48px;
-    }
-    .bubble.assistant {
-      background: var(--card);
-      margin-right: 28px;
-    }
-    .bubble small {
-      color: inherit;
-      opacity: 0.72;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-    }
-    .bubble.assistant small {
-      color: var(--muted);
-      opacity: 1;
-    }
-    .bubble-text {
-      white-space: pre-wrap;
-      line-height: 1.62;
-    }
-    .bubble-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .warning {
-      color: #8a4b12;
-      background: #fff1dd;
-      border: 1px solid #efcf9a;
-      border-radius: 14px;
-      padding: 10px 12px;
-      line-height: 1.45;
-    }
-    .tag-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .pill {
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      color: var(--accent-deep);
-      font-size: 0.82rem;
-    }
-    .card-list {
-      display: grid;
-      gap: 12px;
-    }
-    .context-section {
-      display: grid;
-      gap: 10px;
-    }
-    .trial-card,
-    .citation-card {
-      padding: 14px;
-      border-radius: 18px;
-      border: 1px solid rgba(215, 202, 180, 0.95);
-      background: white;
-      display: grid;
-      gap: 8px;
-    }
-    .card-top {
-      display: flex;
-      gap: 12px;
-      align-items: baseline;
-    }
-    .nct {
-      font-size: 0.82rem;
-      color: var(--accent);
+      font-size: 0.84rem;
+      font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
     }
-    .title {
-      margin: 0;
-      font-size: 1.06rem;
-      line-height: 1.22;
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
     }
-    .snippet,
-    .meta-text {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.5;
+
+    h1 {
+      margin-bottom: 0;
+      font-size: clamp(1.85rem, 4vw, 3.2rem);
+      line-height: 1;
+      letter-spacing: 0;
     }
-    .trial-card a,
-    .citation-card a {
-      width: fit-content;
-      text-decoration: none;
-      color: var(--accent);
-      font-weight: 600;
-    }
-    .trial-card a:hover,
-    .citation-card a:hover {
-      text-decoration: underline;
-    }
-    .empty {
-      padding: 22px;
-      border-radius: 18px;
-      border: 1px dashed var(--line);
-      color: var(--muted);
-      background: rgba(255,255,255,0.45);
+
+    .status {
+      min-width: 108px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      font-size: 0.9rem;
+      font-weight: 700;
       text-align: center;
+    }
+
+    .query-panel {
+      display: grid;
+      gap: 14px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    label {
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 800;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 108px;
+      padding: 13px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfd;
+      color: var(--ink);
+      font: inherit;
+      line-height: 1.5;
+      resize: vertical;
+    }
+
+    textarea:focus {
+      border-color: var(--accent);
+      outline: 3px solid rgba(18, 115, 106, 0.14);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    button {
+      min-height: 42px;
+      border: 0;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #ffffff;
+      padding: 10px 14px;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--accent-dark);
+    }
+
+    button:disabled {
+      cursor: wait;
+      opacity: 0.62;
+    }
+
+    .secondary {
+      border: 1px solid var(--line);
+      background: #ffffff;
+      color: var(--accent-dark);
+    }
+
+    .secondary:hover {
+      background: var(--surface-alt);
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, 0.78fr);
+      gap: 18px;
+      margin-top: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      display: grid;
+      gap: 14px;
+      min-height: 260px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: baseline;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-header h2 {
+      margin-bottom: 0;
+      font-size: 1.05rem;
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 0.9rem;
+      white-space: nowrap;
+    }
+
+    .list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .result-card,
+    .evidence-card {
+      display: grid;
+      gap: 9px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    .card-top {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .nct {
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 850;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .score {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .title {
+      margin-bottom: 0;
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+
+    .snippet,
+    .answer-text {
+      margin-bottom: 0;
+      color: var(--muted);
       line-height: 1.55;
     }
-    @media (max-width: 1080px) {
-      .chat-grid {
+
+    .answer-text {
+      color: var(--ink);
+      white-space: pre-wrap;
+    }
+
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .text-link {
+      width: fit-content;
+      color: var(--accent);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .text-link:hover {
+      text-decoration: underline;
+    }
+
+    .empty,
+    .warning {
+      padding: 14px;
+      border-radius: 8px;
+      line-height: 1.5;
+    }
+
+    .empty {
+      border: 1px dashed var(--line);
+      background: #fbfcfd;
+      color: var(--muted);
+    }
+
+    .warning {
+      border: 1px solid var(--warn-line);
+      background: var(--warn-bg);
+      color: var(--warn);
+    }
+
+    .answer-panel {
+      position: sticky;
+      top: 16px;
+    }
+
+    @media (max-width: 900px) {
+      .content-grid {
         grid-template-columns: 1fr;
       }
+
+      .answer-panel {
+        position: static;
+      }
     }
-    @media (max-width: 920px) {
-      h1 {
-        max-width: none;
+
+    @media (max-width: 620px) {
+      .shell {
+        width: min(100% - 24px, 1180px);
+        padding-top: 18px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .status {
+        text-align: left;
+      }
+
+      .query-panel,
+      .panel {
+        padding: 14px;
+      }
+
+      button {
+        width: 100%;
       }
     }
   </style>
 </head>
 <body>
-  <div class="shell">
-    <section class="hero">
-      <span class="eyebrow">Cardiometabolic trial intelligence assistant</span>
-      <p class="lead">
-      </p>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <span>Metabolic Trial Intelligence Assistant</span>
+        <h1>Trial review</h1>
+      </div>
+      <div class="status" id="workspace-status">Ready</div>
+    </header>
+
+    <form class="query-panel" id="query-form">
+      <label for="query">Question or search terms</label>
+      <textarea id="query" name="query" required>Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
+      <div class="actions">
+        <button type="submit" id="search-button">Search trials</button>
+        <button class="secondary" type="button" id="ask-button">Ask with evidence</button>
+      </div>
+    </form>
+
+    <section class="content-grid">
+      <section class="panel" aria-labelledby="results-title">
+        <div class="panel-header">
+          <h2 id="results-title">Matched trials</h2>
+          <span class="count" id="results-count">No query run</span>
+        </div>
+        <div class="list" id="results-list">
+          <div class="empty">Run a search to review matching trials.</div>
+        </div>
+      </section>
+
+      <aside class="panel answer-panel" aria-labelledby="answer-title">
+        <div class="panel-header">
+          <h2 id="answer-title">Answer</h2>
+          <span class="count" id="answer-method">Idle</span>
+        </div>
+        <div class="answer-text" id="answer-text">Ask with evidence to generate a cited response from the current corpus.</div>
+        <div class="list" id="evidence-list"></div>
+      </aside>
     </section>
-
-    <section class="layout">
-      <main class="workspace">
-        <section class="chat-head">
-          <div>
-            <h2 style="margin:0;">Chat</h2>
-          </div>
-          <span class="status" id="workspace-status">Ready</span>
-        </section>
-
-        <section class="chat-composer">
-          <label for="chat-question">Question</label>
-          <textarea id="chat-question" placeholder="Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?">Which phase 3 obesity trials in 2026 involve GLP-1 related therapy?</textarea>
-          <div class="composer-actions">
-            <button class="ghost" type="button" id="search-only-button">Refresh matched trials</button>
-            <button type="button" id="chat-submit">Ask the assistant</button>
-          </div>
-        </section>
-
-        <section class="chat-grid">
-          <section class="column-card">
-            <div>
-              <h2></h2>
-              <p class="column-sub">Grounded responses.</p>
-            </div>
-            <div class="thread" id="thread">
-              <div class="empty">No question submitted yet. Start with a natural-language query.</div>
-            </div>
-            <div class="context-stack">
-              <div class="context-section">
-                <h2 style="font-size:0.98rem; margin-bottom:10px;">Filters</h2>
-                <div class="tag-row" id="filter-tags">
-                  <div class="empty" style="padding:14px;">No query run yet.</div>
-                </div>
-              </div>
-
-              <div class="context-section">
-                <h2 style="font-size:0.98rem; margin-bottom:10px;">Trials</h2>
-                <div class="card-list" id="matched-trials">
-                  <div class="empty">No matched trials yet.</div>
-                </div>
-              </div>
-
-              <div class="context-section">
-                <h2 style="font-size:0.98rem; margin-bottom:10px;">Evidence</h2>
-                <div class="card-list" id="evidence-list">
-                  <div class="empty">No evidence snippets yet.</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </section>
-      </main>
-    </section>
-  </div>
+  </main>
 
   <script>
-    const questionInput = document.getElementById("chat-question");
-    const chatSubmit = document.getElementById("chat-submit");
-    const searchOnlyButton = document.getElementById("search-only-button");
-    const thread = document.getElementById("thread");
-    const filterTags = document.getElementById("filter-tags");
-    const matchedTrials = document.getElementById("matched-trials");
-    const evidenceList = document.getElementById("evidence-list");
+    const queryForm = document.getElementById("query-form");
+    const queryInput = document.getElementById("query");
+    const searchButton = document.getElementById("search-button");
+    const askButton = document.getElementById("ask-button");
     const workspaceStatus = document.getElementById("workspace-status");
-    const conversation = [];
-
-    function currentFilters() {
-      return {
-        condition: null,
-        phase: null,
-        study_type: null,
-        accepted_only: false,
-        year_2026_only: false
-      };
-    }
-
-    function inferFilterTags(question, filters) {
-      const tags = [];
-      const normalized = question.toLowerCase();
-
-      if (filters.condition) tags.push(filters.condition);
-      if (filters.phase) tags.push(filters.phase);
-      if (filters.study_type) tags.push(filters.study_type);
-      if (filters.year_2026_only) tags.push("2026 relevant");
-      if (filters.accepted_only) tags.push("accepted corpus");
-
-      if (!filters.condition) {
-        if (normalized.includes("obesity")) tags.push("obesity");
-        if (normalized.includes("type 2 diabetes") || normalized.includes("t2d")) tags.push("type_2_diabetes");
-        if (normalized.includes("mash")) tags.push("mash");
-      }
-      if (!filters.phase) {
-        if (normalized.includes("phase 2")) tags.push("PHASE2");
-        if (normalized.includes("phase 3")) tags.push("PHASE3");
-        if (normalized.includes("phase 4")) tags.push("PHASE4");
-      }
-      if (normalized.includes("glp-1") || normalized.includes("glp1")) tags.push("GLP-1 intent");
-      if (normalized.includes("incretin")) tags.push("incretin intent");
-
-      return [...new Set(tags)];
-    }
-
-    function setFilterTags(question, filters) {
-      const tags = inferFilterTags(question, filters);
-      if (!tags.length) {
-        filterTags.innerHTML = '<div class="empty" style="padding:14px;">No inferred filters.</div>';
-        return;
-      }
-      filterTags.innerHTML = tags.map((tag) => `<span class="pill">${tag}</span>`).join("");
-    }
+    const resultsCount = document.getElementById("results-count");
+    const resultsList = document.getElementById("results-list");
+    const answerText = document.getElementById("answer-text");
+    const answerMethod = document.getElementById("answer-method");
+    const evidenceList = document.getElementById("evidence-list");
 
     function escapeHtml(value) {
-      return String(value)
+      return String(value ?? "")
         .replaceAll("&", "&amp;")
         .replaceAll("<", "&lt;")
         .replaceAll(">", "&gt;")
@@ -444,212 +394,193 @@
         .replaceAll("'", "&#39;");
     }
 
-    function renderThread() {
-      if (!conversation.length) {
-        thread.innerHTML = '<div class="empty">No question submitted yet. Start with a natural-language query.</div>';
-        return;
-      }
-
-      thread.innerHTML = conversation.map((turn) => {
-        const warnings = (turn.warnings || [])
-          .map((warning) => `<div class="warning">${escapeHtml(warning)}</div>`)
-          .join("");
-        const filterPills = (turn.tags || [])
-          .map((tag) => `<span class="pill">${escapeHtml(tag)}</span>`)
-          .join("");
-
-        return `
-          <article class="bubble user">
-            <small>User</small>
-            <div class="bubble-text">${escapeHtml(turn.question)}</div>
-          </article>
-          <article class="bubble assistant">
-            <small>Assistant</small>
-            <div class="bubble-text">${escapeHtml(turn.answer)}</div>
-            ${filterPills ? `<div class="bubble-meta">${filterPills}</div>` : ""}
-            ${warnings}
-          </article>
-        `;
-      }).join("");
+    function trialUrl(nctId) {
+      return `/trials/${encodeURIComponent(nctId)}`;
     }
 
-    function renderMatchedTrials(searchPayload) {
-      const results = searchPayload.results || [];
+    function baseFilters() {
+      return {
+        condition: null,
+        phase: null,
+        study_type: null,
+        accepted_only: true,
+        year_2026_only: true
+      };
+    }
+
+    function setBusy(isBusy, label) {
+      workspaceStatus.textContent = label;
+      searchButton.disabled = isBusy;
+      askButton.disabled = isBusy;
+    }
+
+    function payloadForSearch(limit = 8) {
+      return {
+        query: queryInput.value.trim(),
+        ...baseFilters(),
+        limit
+      };
+    }
+
+    function renderResults(payload) {
+      const results = payload.results || [];
+      resultsCount.textContent = `${results.length} shown / ${payload.eligible_trial_count ?? 0} eligible`;
+
       if (!results.length) {
-        matchedTrials.innerHTML = '<div class="empty">No matched trials for the current question and filters.</div>';
+        resultsList.innerHTML = '<div class="empty">No matching trials found for this query.</div>';
         return;
       }
 
-      matchedTrials.innerHTML = results.map((result) => `
-        <article class="trial-card">
+      resultsList.innerHTML = results.map((result) => `
+        <article class="result-card">
           <div class="card-top">
-            <span class="nct">${result.trial_nct_id}</span>
-            <h3 class="title">${result.trial_title || result.title || result.chunk_type}</h3>
+            <span class="nct">${escapeHtml(result.trial_nct_id)}</span>
+            <span class="score">${escapeHtml(result.chunk_type || "evidence")}</span>
           </div>
-          <p class="snippet">${result.snippet}</p>
-          <a href="/trials/${result.trial_nct_id}">Open trial detail</a>
+          <h3 class="title">${escapeHtml(result.trial_title || result.title || result.chunk_type || "Trial evidence")}</h3>
+          <p class="snippet">${escapeHtml(result.snippet)}</p>
+          <div class="card-actions">
+            <a class="text-link" href="${trialUrl(result.trial_nct_id)}">Open trial detail</a>
+          </div>
         </article>
       `).join("");
     }
 
-    function renderEvidence(answerPayload) {
-      const citations = answerPayload.citations || [];
-      if (!citations.length) {
+    function renderEvidence(citations) {
+      if (!citations || !citations.length) {
         evidenceList.innerHTML = '<div class="empty">No evidence snippets returned.</div>';
         return;
       }
 
-      evidenceList.innerHTML = citations.map((citation) => `
-        <article class="citation-card">
+      evidenceList.innerHTML = citations.slice(0, 4).map((citation) => `
+        <article class="evidence-card">
           <div class="card-top">
-            <span class="nct">${citation.trial_nct_id}</span>
-            <span class="score">${citation.chunk_id}</span>
+            <span class="nct">${escapeHtml(citation.trial_nct_id)}</span>
+            <span class="score">${escapeHtml(citation.chunk_id)}</span>
           </div>
-          <h3 class="title">
-            <a href="/trials/${citation.trial_nct_id}">
-              ${citation.title || citation.chunk_type}
-            </a>
-          </h3>
-          <p class="meta-text">${citation.snippet}</p>
+          <h3 class="title">${escapeHtml(citation.title || citation.chunk_type || "Evidence")}</h3>
+          <p class="snippet">${escapeHtml(citation.snippet)}</p>
+          <a class="text-link" href="${trialUrl(citation.trial_nct_id)}">Review source trial</a>
         </article>
       `).join("");
     }
 
-    async function askAssistant() {
-      const question = questionInput.value.trim();
-      if (!question) return;
+    function answerFromSearch(searchPayload, reason) {
+      const results = searchPayload.results || [];
+      if (!results.length) {
+        answerText.textContent = "No evidence was retrieved from the lexical search path.";
+        answerMethod.textContent = "No evidence";
+        evidenceList.innerHTML = "";
+        return;
+      }
 
-      const filters = currentFilters();
-      const tags = inferFilterTags(question, filters);
-      workspaceStatus.textContent = "Thinking";
-      chatSubmit.disabled = true;
-      searchOnlyButton.disabled = true;
-      renderThread();
-      matchedTrials.innerHTML = '<div class="empty">Refreshing matched trials...</div>';
-      evidenceList.innerHTML = '<div class="empty">Collecting evidence snippets...</div>';
-      setFilterTags(question, filters);
+      const trialIds = [...new Set(results.map((result) => result.trial_nct_id))].slice(0, 4);
+      answerText.textContent = [
+        reason,
+        "",
+        `Most relevant trials: ${trialIds.join(", ")}.`,
+        "Review the evidence cards and trial detail pages before drawing a final conclusion."
+      ].join("\n");
+      answerMethod.textContent = "Lexical fallback";
+      renderEvidence(results.map((result) => ({
+        chunk_id: result.chunk_id,
+        trial_nct_id: result.trial_nct_id,
+        chunk_type: result.chunk_type,
+        title: result.title,
+        snippet: result.snippet
+      })));
+    }
 
-      const askPayload = {
-        question,
-        ...filters,
-        provider: "openai",
-        embedding_model: "text-embedding-3-small",
-        answer_model: "gpt-4o-mini",
-        lexical_weight: 0.4,
-        semantic_weight: 0.6,
-        retrieval_limit: 5
-      };
-      const fusedPayload = {
-        query: question,
-        ...filters,
-        provider: "openai",
-        model: "text-embedding-3-small",
-        lexical_weight: 0.4,
-        semantic_weight: 0.6,
-        limit: 6
-      };
+    async function postJson(url, body) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body)
+      });
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(errorText || `${url} failed`);
+      }
+      return response.json();
+    }
+
+    async function runSearch(event) {
+      if (event) event.preventDefault();
+      const query = queryInput.value.trim();
+      if (!query) return;
+
+      const payload = payloadForSearch();
+      setBusy(true, "Searching");
+      resultsList.innerHTML = '<div class="empty">Searching the accepted 2026 corpus...</div>';
 
       try {
-        const [askResponse, fusedResponse] = await Promise.all([
-          fetch("/api/v1/ask", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(askPayload)
-          }),
-          fetch("/api/v1/search/fused", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(fusedPayload)
-          })
-        ]);
-
-        if (!askResponse.ok) {
-          const errorText = await askResponse.text();
-          throw new Error(errorText || "Ask request failed");
-        }
-        if (!fusedResponse.ok) {
-          const errorText = await fusedResponse.text();
-          throw new Error(errorText || "Fused retrieval request failed");
-        }
-
-        const askData = await askResponse.json();
-        const fusedData = await fusedResponse.json();
-        conversation.push({
-          question,
-          answer: askData.answer,
-          warnings: askData.warnings || [],
-          method: askData.method,
-          tags
-        });
-        renderThread();
-        renderMatchedTrials(fusedData);
-        renderEvidence(askData);
-        workspaceStatus.textContent = "Answer ready";
+        const data = await postJson("/api/v1/search", payload);
+        renderResults(data);
+        answerMethod.textContent = "Search ready";
+        workspaceStatus.textContent = "Ready";
       } catch (error) {
-        thread.innerHTML = `
-          <article class="bubble assistant">
-            <small>Assistant · failed</small>
-            <div class="warning">${error.message}</div>
-          </article>
-        `;
-        matchedTrials.innerHTML = '<div class="empty">No matched trials available.</div>';
-        evidenceList.innerHTML = '<div class="empty">No evidence snippets available.</div>';
+        resultsCount.textContent = "Search failed";
+        resultsList.innerHTML = `<div class="warning">${escapeHtml(error.message)}</div>`;
         workspaceStatus.textContent = "Error";
       } finally {
-        chatSubmit.disabled = false;
-        searchOnlyButton.disabled = false;
+        searchButton.disabled = false;
+        askButton.disabled = false;
       }
     }
 
-    async function refreshMatchedTrialsOnly() {
-      const question = questionInput.value.trim();
-      if (!question) return;
+    async function runAsk() {
+      const query = queryInput.value.trim();
+      if (!query) return;
 
-      const filters = currentFilters();
-      workspaceStatus.textContent = "Refreshing matches";
-      searchOnlyButton.disabled = true;
-      matchedTrials.innerHTML = '<div class="empty">Refreshing matched trials...</div>';
-      setFilterTags(question, filters);
-
-      const fusedPayload = {
-        query: question,
-        ...filters,
-        provider: "openai",
-        model: "text-embedding-3-small",
-        lexical_weight: 0.4,
-        semantic_weight: 0.6,
-        limit: 6
-      };
+      const searchPayload = payloadForSearch();
+      setBusy(true, "Asking");
+      answerMethod.textContent = "Retrieving";
+      answerText.textContent = "Retrieving evidence and generating a grounded response...";
+      evidenceList.innerHTML = "";
 
       try {
-        const response = await fetch("/api/v1/search/fused", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(fusedPayload)
-        });
-        if (!response.ok) {
-          const errorText = await response.text();
-          throw new Error(errorText || "Fused retrieval request failed");
+        const askPayload = {
+          question: query,
+          ...baseFilters(),
+          retrieval_limit: 5,
+          provider: "openai",
+          embedding_model: "text-embedding-3-small",
+          answer_model: "gpt-4o-mini",
+          lexical_weight: 0.45,
+          semantic_weight: 0.55
+        };
+        const data = await postJson("/api/v1/ask", askPayload);
+        answerText.textContent = data.answer;
+        answerMethod.textContent = data.method === "grounded_llm" ? "Grounded answer" : "Fallback answer";
+        renderEvidence(data.citations || []);
+        if (data.warnings && data.warnings.length) {
+          evidenceList.insertAdjacentHTML(
+            "afterbegin",
+            data.warnings.map((warning) => `<div class="warning">${escapeHtml(warning)}</div>`).join("")
+          );
         }
-        const data = await response.json();
-        renderMatchedTrials(data);
-        workspaceStatus.textContent = "Matches refreshed";
+        workspaceStatus.textContent = "Ready";
       } catch (error) {
-        matchedTrials.innerHTML = `<div class="warning">${error.message}</div>`;
-        workspaceStatus.textContent = "Error";
+        try {
+          const searchData = await postJson("/api/v1/search", searchPayload);
+          renderResults(searchData);
+          answerFromSearch(searchData, "Model-backed answering is unavailable in this environment.");
+          evidenceList.insertAdjacentHTML("afterbegin", `<div class="warning">${escapeHtml(error.message)}</div>`);
+          workspaceStatus.textContent = "Fallback ready";
+        } catch (searchError) {
+          answerText.textContent = "The ask request failed, and lexical fallback could not be retrieved.";
+          answerMethod.textContent = "Error";
+          evidenceList.innerHTML = `<div class="warning">${escapeHtml(searchError.message)}</div>`;
+          workspaceStatus.textContent = "Error";
+        }
       } finally {
-        searchOnlyButton.disabled = false;
+        searchButton.disabled = false;
+        askButton.disabled = false;
       }
     }
 
-    chatSubmit.addEventListener("click", askAssistant);
-    searchOnlyButton.addEventListener("click", refreshMatchedTrialsOnly);
-    questionInput.addEventListener("keydown", (event) => {
-      if ((event.metaKey || event.ctrlKey) && event.key === "Enter") {
-        askAssistant();
-      }
-    });
-    setFilterTags(questionInput.value, currentFilters());
+    queryForm.addEventListener("submit", runSearch);
+    askButton.addEventListener("click", runAsk);
   </script>
 </body>
 </html>

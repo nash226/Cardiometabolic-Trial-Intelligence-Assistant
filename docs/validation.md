@@ -4,7 +4,7 @@ Validation is the ingestion stage that decides whether a normalized record belon
 
 ## Script
 
-- [scripts/validate_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/validate_trial.py)
+- [scripts/validate_trial.py](../scripts/validate_trial.py)
 
 ## Why this exists
 
@@ -59,7 +59,7 @@ python3 scripts/validate_trial.py \
 
 This writes a validation result to:
 
-- [data/normalized/validation](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized/validation)
+- [data/normalized/validation](../data/normalized/validation)
 
 ## Validation output
 

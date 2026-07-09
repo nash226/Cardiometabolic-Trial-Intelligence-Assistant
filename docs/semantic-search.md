@@ -4,9 +4,9 @@ Semantic search is the retrieval layer that ranks chunks by embedding similarity
 
 ## Scripts
 
-- [scripts/build_chunk_embeddings.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/build_chunk_embeddings.py)
-- [scripts/semantic_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/semantic_search.py)
-- [scripts/lib/embedding_utils.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/lib/embedding_utils.py)
+- [scripts/build_chunk_embeddings.py](../scripts/build_chunk_embeddings.py)
+- [scripts/semantic_search.py](../scripts/semantic_search.py)
+- [scripts/lib/embedding_utils.py](../scripts/lib/embedding_utils.py)
 
 ## Provider strategy
 

@@ -7,7 +7,7 @@ Hybrid search combines:
 
 ## Script
 
-- [scripts/hybrid_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/hybrid_search.py)
+- [scripts/hybrid_search.py](../scripts/hybrid_search.py)
 
 ## Why this matters
 

@@ -4,7 +4,7 @@ This is the database-backed version of fused retrieval.
 
 ## Script
 
-- [scripts/db_fused_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/db_fused_search.py)
+- [scripts/db_fused_search.py](../scripts/db_fused_search.py)
 
 ## What it does
 

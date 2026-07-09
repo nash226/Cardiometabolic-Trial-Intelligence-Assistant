@@ -1,6 +1,6 @@
 # Architecture
 
-See the current system diagram at [current-architecture-diagram.md](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/docs/current-architecture-diagram.md).
+See the current system diagram at [current-architecture-diagram.md](../docs/current-architecture-diagram.md).
 
 ## System shape
 

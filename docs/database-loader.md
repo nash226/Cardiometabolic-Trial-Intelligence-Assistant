@@ -4,7 +4,7 @@ This step moves the processed corpus from file artifacts into Postgres + pgvecto
 
 ## Script
 
-- [scripts/load_processed_run_to_db.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/load_processed_run_to_db.py)
+- [scripts/load_processed_run_to_db.py](../scripts/load_processed_run_to_db.py)
 
 ## What it does
 

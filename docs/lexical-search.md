@@ -4,8 +4,8 @@ This is the first retrieval layer over the chunked corpus.
 
 ## Scripts
 
-- [scripts/build_chunk_index.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/build_chunk_index.py)
-- [scripts/search_chunks.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/search_chunks.py)
+- [scripts/build_chunk_index.py](../scripts/build_chunk_index.py)
+- [scripts/search_chunks.py](../scripts/search_chunks.py)
 
 ## What it does
 

@@ -3,304 +3,597 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ trial.nct_id }} - Trial Detail</title>
+  <title>{{ trial.nct_id }} - MTIA Trial Detail</title>
   <style>
     :root {
-      --bg: #f5f0e6;
-      --paper: #fffaf2;
-      --ink: #1c2329;
-      --muted: #5d6a70;
-      --line: #d8ccb8;
-      --accent: #0f766e;
-      --accent-soft: #d8f0ed;
+      --bg: #f7f8fa;
+      --surface: #ffffff;
+      --surface-alt: #f1f5f4;
+      --ink: #172126;
+      --muted: #5d6b74;
+      --line: #d8e0e5;
+      --accent: #12736a;
+      --accent-dark: #0b564f;
+      --accent-soft: #dff1ee;
+      --warn: #8a4b12;
+      --warn-bg: #fff6e8;
+      --warn-line: #edc98f;
+      --shadow: 0 16px 36px rgba(32, 51, 63, 0.08);
     }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: linear-gradient(180deg, #f3eadc 0%, var(--bg) 100%);
-      color: var(--ink);
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
       scroll-behavior: smooth;
     }
-    .shell {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 28px 20px 44px;
-      display: grid;
-      gap: 18px;
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
+
+    a {
+      color: var(--accent);
+    }
+
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 44px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
     .back {
       color: var(--accent);
+      font-weight: 800;
       text-decoration: none;
-      font-weight: 600;
-      width: fit-content;
     }
-    .hero, .section {
-      background: rgba(255, 250, 242, 0.92);
+
+    .back:hover,
+    .text-link:hover,
+    .citation-link:hover {
+      text-decoration: underline;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    .hero {
+      display: grid;
+      gap: 14px;
+      padding: 22px;
       border: 1px solid var(--line);
-      border-radius: 22px;
-      padding: 20px;
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
     }
-    .hero h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 4vw, 3rem);
-      line-height: 1.03;
-      letter-spacing: -0.03em;
+
+    h1 {
+      max-width: 920px;
+      margin-bottom: 0;
+      font-size: clamp(1.85rem, 4vw, 3.1rem);
+      line-height: 1.06;
+      letter-spacing: 0;
     }
+
     .sub {
+      margin-bottom: 0;
       color: var(--muted);
-      margin: 0;
       line-height: 1.55;
     }
-    .meta, .label-row {
+
+    .meta {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-top: 14px;
     }
+
     .pill {
-      padding: 6px 10px;
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 5px 9px;
       border-radius: 999px;
       background: var(--accent-soft);
-      color: #12534c;
-      font-size: 0.84rem;
+      color: var(--accent-dark);
+      font-size: 0.82rem;
+      font-weight: 800;
     }
-    .grid {
+
+    .pill.neutral {
+      background: var(--surface-alt);
+      color: var(--muted);
+    }
+
+    .layout {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: minmax(0, 1fr) minmax(330px, 0.48fr);
+      gap: 18px;
+      margin-top: 18px;
+      align-items: start;
+    }
+
+    .main-stack,
+    .side-stack {
+      display: grid;
       gap: 18px;
     }
-    .section h2 {
-      margin: 0 0 14px;
-      font-size: 1.1rem;
+
+    .side-stack {
+      position: sticky;
+      top: 16px;
     }
+
+    .section {
+      display: grid;
+      gap: 14px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .section h2 {
+      margin-bottom: 0;
+      font-size: 1.05rem;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 0.88rem;
+      white-space: nowrap;
+    }
+
     .kv {
       display: grid;
       gap: 10px;
     }
-    .kv div {
+
+    .kv-row {
       display: grid;
       gap: 4px;
       padding-bottom: 10px;
-      border-bottom: 1px solid rgba(216, 204, 184, 0.7);
+      border-bottom: 1px solid var(--line);
     }
+
+    .kv-row:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
     .k {
       color: var(--muted);
-      font-size: 0.85rem;
+      font-size: 0.78rem;
+      font-weight: 850;
+      letter-spacing: 0.07em;
       text-transform: uppercase;
-      letter-spacing: 0.04em;
     }
+
     .v {
+      color: var(--ink);
       line-height: 1.45;
+      overflow-wrap: anywhere;
     }
+
+    .copy {
+      margin-bottom: 0;
+      color: var(--ink);
+      line-height: 1.62;
+      white-space: pre-wrap;
+    }
+
     .list {
       display: grid;
       gap: 12px;
     }
+
+    .item,
+    .citation-card {
+      display: grid;
+      gap: 8px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #ffffff;
+    }
+
+    .item h3,
+    .citation-card h3 {
+      margin-bottom: 0;
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+
+    .item-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
     .ask-form {
       display: grid;
       gap: 12px;
     }
+
+    label {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 850;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
     textarea {
       width: 100%;
-      min-height: 130px;
-      padding: 12px 14px;
-      border-radius: 14px;
+      min-height: 112px;
+      padding: 12px 13px;
       border: 1px solid var(--line);
-      background: white;
+      border-radius: 8px;
+      background: #fbfcfd;
       color: var(--ink);
       font: inherit;
+      line-height: 1.5;
       resize: vertical;
     }
+
+    textarea:focus {
+      border-color: var(--accent);
+      outline: 3px solid rgba(18, 115, 106, 0.14);
+    }
+
     button {
-      width: fit-content;
+      min-height: 42px;
       border: 0;
-      border-radius: 14px;
+      border-radius: 8px;
       background: var(--accent);
-      color: white;
-      padding: 12px 16px;
+      color: #ffffff;
+      padding: 10px 14px;
       font: inherit;
-      font-weight: 600;
+      font-weight: 850;
       cursor: pointer;
     }
+
+    button:hover {
+      background: var(--accent-dark);
+    }
+
     button:disabled {
-      opacity: 0.6;
       cursor: wait;
+      opacity: 0.62;
     }
-    .item {
-      border: 1px solid rgba(216, 204, 184, 0.9);
-      border-radius: 16px;
-      padding: 14px;
-      background: white;
+
+    .answer-box {
+      display: none;
+      gap: 12px;
     }
-    .item h3 {
-      margin: 0 0 8px;
-      font-size: 1rem;
-    }
-    pre {
+
+    .answer-text {
+      color: var(--ink);
+      line-height: 1.62;
       white-space: pre-wrap;
-      margin: 0;
-      font: inherit;
+    }
+
+    .warning {
+      padding: 12px;
+      border: 1px solid var(--warn-line);
+      border-radius: 8px;
+      background: var(--warn-bg);
+      color: var(--warn);
       line-height: 1.5;
     }
-    .answer-box {
-      display: grid;
-      gap: 14px;
-    }
-    .answer-text {
-      padding: 14px;
-      border-radius: 16px;
-      background: white;
-      border: 1px solid rgba(216, 204, 184, 0.9);
-      line-height: 1.6;
-      white-space: pre-wrap;
-    }
-    .warning {
-      color: #8a4b12;
-      background: #fff1dd;
-      border: 1px solid #efcf9a;
-      border-radius: 14px;
-      padding: 10px 12px;
-    }
-    .citation-link {
+
+    .citation-link,
+    .text-link {
       color: var(--accent);
+      font-weight: 800;
       text-decoration: none;
-      font-weight: 600;
     }
-    .citation-link:hover {
-      text-decoration: underline;
+
+    .empty {
+      padding: 14px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: #fbfcfd;
+      color: var(--muted);
+      line-height: 1.5;
     }
-    @media (max-width: 860px) {
-      .grid { grid-template-columns: 1fr; }
+
+    @media (max-width: 960px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .side-stack {
+        position: static;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .shell {
+        width: min(100% - 24px, 1180px);
+        padding-top: 18px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .hero,
+      .section {
+        padding: 14px;
+      }
+
+      button {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="shell">
-    <a class="back" href="/">← Back to finder</a>
+  <main class="shell">
+    <nav class="topbar" aria-label="Trial navigation">
+      <a class="back" href="/">&larr; Back to review</a>
+      {% if trial.source_url %}
+        <a class="text-link" href="{{ trial.source_url }}" target="_blank" rel="noreferrer">ClinicalTrials.gov source</a>
+      {% endif %}
+    </nav>
 
-    <section class="hero">
-      <div class="pill">{{ trial.nct_id }}</div>
-      <h1>{{ trial.brief_title }}</h1>
-      <p class="sub">{{ trial.official_title or "No official title available." }}</p>
+    <header class="hero">
       <div class="meta">
-        <span class="pill">{{ trial.study_type or "Unknown type" }}</span>
+        <span class="pill">{{ trial.nct_id }}</span>
+        <span class="pill neutral">{{ trial.overall_status or "Unknown status" }}</span>
+        <span class="pill neutral">{{ trial.study_type or "Unknown type" }}</span>
         {% for phase in trial.phases %}
-          <span class="pill">{{ phase }}</span>
+          <span class="pill neutral">{{ phase }}</span>
         {% endfor %}
-        <span class="pill">{{ trial.overall_status or "Unknown status" }}</span>
         {% if trial.validation %}
           <span class="pill">{{ "Accepted corpus" if trial.validation.accepted else "Rejected corpus" }}</span>
         {% endif %}
       </div>
-    </section>
+      <h1>{{ trial.brief_title }}</h1>
+      {% if trial.official_title %}
+        <p class="sub">{{ trial.official_title }}</p>
+      {% endif %}
+    </header>
 
-    <section class="grid">
-      <div class="section" id="ask-panel">
-        <h2>Ask About This Trial</h2>
-        <form class="ask-form" id="ask-form">
-          <textarea id="question" name="question" placeholder="Ask a grounded question about this trial...">Does this trial appear to involve incretin-related therapy?</textarea>
-          <button type="submit" id="ask-button">Ask with citations</button>
-        </form>
-        <div class="answer-box" id="answer-box" style="display:none;">
-          <div class="item">
-            <h3>Answer</h3>
-            <div class="answer-text" id="answer-text"></div>
+    <section class="layout">
+      <div class="main-stack">
+        <section class="section" id="summary-description">
+          <div class="section-head">
+            <h2>Summary</h2>
+            <span class="count">{{ "2026 relevant" if trial.is_2026_relevant else "Not flagged for 2026" }}</span>
           </div>
-          <div id="warning-box"></div>
-          <div class="item">
-            <h3>Citations</h3>
+          <p class="copy">{{ trial.brief_summary or "No summary available." }}</p>
+        </section>
+
+        <section class="section" id="conditions-interventions">
+          <div class="section-head">
+            <h2>Conditions and interventions</h2>
+            <span class="count">{{ trial.interventions|length }} interventions</span>
+          </div>
+          <div class="kv">
+            <div class="kv-row">
+              <span class="k">Conditions</span>
+              <span class="v">{{ trial.condition_labels|join(", ") if trial.condition_labels else "None listed" }}</span>
+            </div>
+            <div class="kv-row">
+              <span class="k">Intervention labels</span>
+              <span class="v">{{ trial.intervention_labels|join(", ") if trial.intervention_labels else "None listed" }}</span>
+            </div>
+            <div class="kv-row">
+              <span class="k">Drug classes</span>
+              <span class="v">{{ trial.drug_class_labels|join(", ") if trial.drug_class_labels else "None listed" }}</span>
+            </div>
+          </div>
+
+          <div class="list">
+            {% for intervention in trial.interventions %}
+              <article class="item">
+                <h3>{{ intervention.name }}</h3>
+                <div class="item-meta">
+                  {% if intervention.intervention_type %}<span class="pill neutral">{{ intervention.intervention_type }}</span>{% endif %}
+                  {% if intervention.drug_class %}<span class="pill">{{ intervention.drug_class }}</span>{% endif %}
+                </div>
+                <p class="sub">{{ intervention.description or "No description available." }}</p>
+              </article>
+            {% else %}
+              <div class="empty">No intervention records available.</div>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="section" id="outcomes">
+          <div class="section-head">
+            <h2>Outcomes</h2>
+            <span class="count">{{ trial.outcomes|length }} listed</span>
+          </div>
+          <div class="list">
+            {% for outcome in trial.outcomes %}
+              <article class="item">
+                <h3>{{ outcome.measure or "Unnamed outcome" }}</h3>
+                <p class="sub">
+                  {{ outcome.outcome_type or "Unknown type" }}{% if outcome.time_frame %} - {{ outcome.time_frame }}{% endif %}
+                </p>
+                {% if outcome.description %}
+                  <p class="sub">{{ outcome.description }}</p>
+                {% endif %}
+              </article>
+            {% else %}
+              <div class="empty">No outcome records available.</div>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="section" id="eligibility">
+          <div class="section-head">
+            <h2>Eligibility</h2>
+            {% if trial.eligibility %}
+              <span class="count">
+                {{ trial.eligibility.minimum_age_text or "Age not listed" }}{% if trial.eligibility.maximum_age_text %} to {{ trial.eligibility.maximum_age_text }}{% endif %}
+              </span>
+            {% endif %}
+          </div>
+          {% if trial.eligibility %}
+            <div class="kv">
+              <div class="kv-row">
+                <span class="k">Sex</span>
+                <span class="v">{{ trial.eligibility.sex or trial.sex or "Not listed" }}</span>
+              </div>
+              <div class="kv-row">
+                <span class="k">Age groups</span>
+                <span class="v">{{ trial.eligibility.age_groups|join(", ") if trial.eligibility.age_groups else "Not listed" }}</span>
+              </div>
+              <div class="kv-row">
+                <span class="k">Healthy volunteers</span>
+                <span class="v">
+                  {% if trial.eligibility.healthy_volunteers is none %}
+                    Not listed
+                  {% else %}
+                    {{ "Yes" if trial.eligibility.healthy_volunteers else "No" }}
+                  {% endif %}
+                </span>
+              </div>
+            </div>
+            <p class="copy">{{ trial.eligibility.criteria_text or "No criteria text available." }}</p>
+          {% else %}
+            <div class="empty">No eligibility data available.</div>
+          {% endif %}
+        </section>
+
+        <section class="section" id="timeline">
+          <div class="section-head">
+            <h2>Timeline</h2>
+            <span class="count">{{ trial.last_update_posted_at_text or "No update date" }}</span>
+          </div>
+          <div class="kv">
+            <div class="kv-row"><span class="k">Start date</span><span class="v">{{ trial.start_date_text or "Unknown" }}</span></div>
+            <div class="kv-row"><span class="k">Primary completion</span><span class="v">{{ trial.primary_completion_date_text or "Unknown" }}</span></div>
+            <div class="kv-row"><span class="k">Completion</span><span class="v">{{ trial.completion_date_text or "Unknown" }}</span></div>
+            <div class="kv-row"><span class="k">First posted</span><span class="v">{{ trial.study_first_posted_at_text or "Unknown" }}</span></div>
+            <div class="kv-row"><span class="k">Results posted</span><span class="v">{{ trial.results_first_posted_at_text or "Not posted" }}</span></div>
+          </div>
+        </section>
+
+        <section class="section" id="sites">
+          <div class="section-head">
+            <h2>Sponsor and sites</h2>
+            <span class="count">{{ "US sites" if trial.has_us_sites else "No US site flag" }}</span>
+          </div>
+          <div class="kv">
+            <div class="kv-row">
+              <span class="k">Lead sponsor</span>
+              <span class="v">{{ trial.lead_sponsor_name or "Unknown" }}{% if trial.lead_sponsor_class %} ({{ trial.lead_sponsor_class }}){% endif %}</span>
+            </div>
+            <div class="kv-row">
+              <span class="k">Collaborators</span>
+              <span class="v">{{ trial.collaborator_names|join(", ") if trial.collaborator_names else "None listed" }}</span>
+            </div>
+            <div class="kv-row">
+              <span class="k">Countries</span>
+              <span class="v">{{ trial.country_codes|join(", ") if trial.country_codes else "None listed" }}</span>
+            </div>
+          </div>
+          <div class="list">
+            {% for location in trial.locations[:5] %}
+              <article class="item">
+                <h3>{{ location.facility_name or "Unnamed site" }}</h3>
+                <p class="sub">
+                  {{ location.city or "Unknown city" }}{% if location.state %}, {{ location.state }}{% endif %}{% if location.country %}, {{ location.country }}{% endif %}
+                </p>
+                {% if location.status %}<span class="pill neutral">{{ location.status }}</span>{% endif %}
+              </article>
+            {% else %}
+              <div class="empty">No site records available.</div>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="section" id="chunk-previews">
+          <div class="section-head">
+            <h2>Evidence index</h2>
+            <span class="count">{{ trial.chunks|length }} chunks</span>
+          </div>
+          <div class="list">
+            {% for chunk in trial.chunks[:5] %}
+              <article class="item">
+                <h3>{{ chunk.title or chunk.chunk_type }}</h3>
+                <p class="sub">{{ chunk.snippet }}</p>
+              </article>
+            {% else %}
+              <div class="empty">No evidence chunks available.</div>
+            {% endfor %}
+          </div>
+        </section>
+      </div>
+
+      <aside class="side-stack">
+        <section class="section" id="trial-snapshot">
+          <div class="section-head">
+            <h2>Snapshot</h2>
+            <span class="count">{{ trial.enrollment_count or "Unknown" }} enrollment</span>
+          </div>
+          <div class="kv">
+            <div class="kv-row"><span class="k">NCT ID</span><span class="v">{{ trial.nct_id }}</span></div>
+            <div class="kv-row"><span class="k">Status</span><span class="v">{{ trial.overall_status or "Unknown" }}</span></div>
+            <div class="kv-row"><span class="k">Study type</span><span class="v">{{ trial.study_type or "Unknown" }}</span></div>
+            <div class="kv-row"><span class="k">Phase</span><span class="v">{{ trial.phases|join(", ") if trial.phases else "Unknown" }}</span></div>
+            <div class="kv-row"><span class="k">Allocation</span><span class="v">{{ trial.allocation or "Not listed" }}</span></div>
+            <div class="kv-row"><span class="k">Primary purpose</span><span class="v">{{ trial.primary_purpose or "Not listed" }}</span></div>
+            <div class="kv-row"><span class="k">Relevance reasons</span><span class="v">{{ trial.relevance_reasons|join(", ") if trial.relevance_reasons else "None listed" }}</span></div>
+          </div>
+        </section>
+
+        <section class="section" id="ask-panel">
+          <div class="section-head">
+            <h2>Ask this trial</h2>
+            <span class="count" id="answer-method">Idle</span>
+          </div>
+          <form class="ask-form" id="ask-form">
+            <label for="question">Question</label>
+            <textarea id="question" name="question" required>Does this trial appear to involve incretin-related therapy?</textarea>
+            <button type="submit" id="ask-button">Ask with citations</button>
+          </form>
+          <div class="answer-box" id="answer-box">
+            <div class="answer-text" id="answer-text"></div>
+            <div id="warning-box"></div>
             <div class="list" id="citation-list"></div>
           </div>
-        </div>
-      </div>
-
-      <div class="section" id="trial-snapshot">
-        <h2>Trial Snapshot</h2>
-        <div class="kv">
-          <div><span class="k">Source</span><span class="v"><a href="{{ trial.source_url }}">{{ trial.source_url }}</a></span></div>
-          <div><span class="k">Sponsor</span><span class="v">{{ trial.lead_sponsor_name or "Unknown" }}{% if trial.lead_sponsor_class %} ({{ trial.lead_sponsor_class }}){% endif %}</span></div>
-          <div><span class="k">Enrollment</span><span class="v">{{ trial.enrollment_count or "Unknown" }}{% if trial.enrollment_type %} {{ trial.enrollment_type|lower }}{% endif %}</span></div>
-          <div><span class="k">2026 Relevance</span><span class="v">{{ "Yes" if trial.is_2026_relevant else "No" }}{% if trial.relevance_reasons %} — {{ ", ".join(trial.relevance_reasons) }}{% endif %}</span></div>
-          <div><span class="k">Interventions</span><span class="v">{{ ", ".join(trial.intervention_labels) if trial.intervention_labels else "None" }}</span></div>
-          <div><span class="k">Conditions</span><span class="v">{{ ", ".join(trial.condition_labels) if trial.condition_labels else "None" }}</span></div>
-        </div>
-      </div>
-
-      <div class="section" id="timeline">
-        <h2>Timeline</h2>
-        <div class="kv">
-          <div><span class="k">Start date</span><span class="v">{{ trial.start_date_text or "Unknown" }}</span></div>
-          <div><span class="k">Primary completion</span><span class="v">{{ trial.primary_completion_date_text or "Unknown" }}</span></div>
-          <div><span class="k">Completion</span><span class="v">{{ trial.completion_date_text or "Unknown" }}</span></div>
-          <div><span class="k">First posted</span><span class="v">{{ trial.study_first_posted_at_text or "Unknown" }}</span></div>
-          <div><span class="k">Last update</span><span class="v">{{ trial.last_update_posted_at_text or "Unknown" }}</span></div>
-          <div><span class="k">Results posted</span><span class="v">{{ trial.results_first_posted_at_text or "Not posted" }}</span></div>
-        </div>
-      </div>
+        </section>
+      </aside>
     </section>
+  </main>
 
-    <section class="grid">
-      <div class="section" id="summary-description">
-        <h2>Summary</h2>
-        <pre>{{ trial.brief_summary or "No summary available." }}</pre>
-      </div>
-      <div class="section" id="eligibility">
-        <h2>Eligibility</h2>
-        {% if trial.eligibility %}
-          <pre>{{ trial.eligibility.criteria_text or "No criteria text available." }}</pre>
-        {% else %}
-          <pre>No eligibility data available.</pre>
-        {% endif %}
-      </div>
-    </section>
-
-    <section class="section" id="interventions">
-      <h2>Interventions</h2>
-      <div class="list">
-        {% for intervention in trial.interventions %}
-          <div class="item">
-            <h3>{{ intervention.name }}</h3>
-            <div class="label-row">
-              {% if intervention.intervention_type %}<span class="pill">{{ intervention.intervention_type }}</span>{% endif %}
-              {% if intervention.drug_class %}<span class="pill">{{ intervention.drug_class }}</span>{% endif %}
-            </div>
-            <p class="sub">{{ intervention.description or "No description available." }}</p>
-          </div>
-        {% endfor %}
-      </div>
-    </section>
-
-    <section class="grid">
-      <div class="section" id="outcomes">
-        <h2>Outcomes</h2>
-        <div class="list">
-          {% for outcome in trial.outcomes %}
-            <div class="item">
-              <h3>{{ outcome.measure or "Unnamed outcome" }}</h3>
-              <p class="sub">{{ outcome.outcome_type or "unknown type" }}{% if outcome.time_frame %} — {{ outcome.time_frame }}{% endif %}</p>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="section" id="chunk-previews">
-        <h2>Chunk Previews</h2>
-        <div class="list">
-          {% for chunk in trial.chunks %}
-            <div class="item">
-              <h3>{{ chunk.title or chunk.chunk_type }}</h3>
-              <p class="sub">{{ chunk.snippet }}</p>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-  </div>
   <script>
     const askForm = document.getElementById("ask-form");
     const askButton = document.getElementById("ask-button");
     const answerBox = document.getElementById("answer-box");
     const answerText = document.getElementById("answer-text");
+    const answerMethod = document.getElementById("answer-method");
     const warningBox = document.getElementById("warning-box");
     const citationList = document.getElementById("citation-list");
     const trialMeta = {{ {
@@ -314,91 +607,148 @@
 
     const chunkSectionMap = {
       status_identity: "trial-snapshot",
-      conditions_interventions: "interventions",
+      conditions_interventions: "conditions-interventions",
       summary_description: "summary-description",
       eligibility: "eligibility",
       outcomes: "outcomes",
       timeline: "timeline",
-      sponsor_locations: "trial-snapshot"
+      sponsor_locations: "sites"
     };
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
 
     function citationHref(citation) {
       const sectionId = chunkSectionMap[citation.chunk_type] || "chunk-previews";
       if (citation.trial_nct_id === trialMeta.nct_id) {
         return `#${sectionId}`;
       }
-      return `/trials/${citation.trial_nct_id}#${sectionId}`;
+      return `/trials/${encodeURIComponent(citation.trial_nct_id)}#${sectionId}`;
+    }
+
+    function baseFilters() {
+      return {
+        condition: trialMeta.condition_labels[0] || null,
+        phase: trialMeta.phases[0] || null,
+        study_type: trialMeta.study_type || null,
+        accepted_only: !!trialMeta.accepted,
+        year_2026_only: !!trialMeta.is_2026_relevant
+      };
+    }
+
+    function renderCitations(citations) {
+      if (!citations || !citations.length) {
+        citationList.innerHTML = '<div class="empty">No citations returned.</div>';
+        return;
+      }
+
+      citationList.innerHTML = citations.slice(0, 4).map((citation) => `
+        <article class="citation-card">
+          <h3>
+            <a class="citation-link" href="${citationHref(citation)}">
+              ${escapeHtml(citation.trial_nct_id)} - ${escapeHtml(citation.title || citation.chunk_type || "Evidence")}
+            </a>
+          </h3>
+          <p class="sub">${escapeHtml(citation.chunk_id)}</p>
+          <p class="sub">${escapeHtml(citation.snippet)}</p>
+        </article>
+      `).join("");
     }
 
     function renderAnswer(payload) {
       answerBox.style.display = "grid";
       answerText.textContent = payload.answer;
+      answerMethod.textContent = payload.method === "grounded_llm" ? "Grounded" : "Fallback";
+      warningBox.innerHTML = (payload.warnings || [])
+        .map((warning) => `<div class="warning">${escapeHtml(warning)}</div>`)
+        .join("");
+      renderCitations(payload.citations || []);
+    }
 
-      if (payload.warnings && payload.warnings.length) {
-        warningBox.innerHTML = payload.warnings
-          .map((warning) => `<div class="warning">${warning}</div>`)
-          .join("");
-      } else {
-        warningBox.innerHTML = "";
-      }
+    function renderSearchFallback(payload, originalError) {
+      const results = payload.results || [];
+      answerBox.style.display = "grid";
+      answerMethod.textContent = "Lexical";
+      warningBox.innerHTML = `<div class="warning">${escapeHtml(originalError.message)}</div>`;
 
-      if (!payload.citations || !payload.citations.length) {
-        citationList.innerHTML = '<div class="item"><p class="sub">No citations returned.</p></div>';
+      if (!results.length) {
+        answerText.textContent = "Model-backed answering is unavailable, and lexical search did not return supporting evidence.";
+        citationList.innerHTML = "";
         return;
       }
 
-      citationList.innerHTML = payload.citations.map((citation) => `
-        <div class="item">
-          <h3>
-            <a class="citation-link" href="${citationHref(citation)}">
-              ${citation.trial_nct_id} · ${citation.title || citation.chunk_type}
-            </a>
-          </h3>
-          <p class="sub">${citation.chunk_id}</p>
-          <p class="sub">${citation.snippet}</p>
-        </div>
-      `).join("");
+      answerText.textContent = [
+        "Model-backed answering is unavailable in this environment.",
+        "",
+        "The lexical evidence below is the best available reviewer context for this question."
+      ].join("\n");
+      renderCitations(results.map((result) => ({
+        chunk_id: result.chunk_id,
+        trial_nct_id: result.trial_nct_id,
+        chunk_type: result.chunk_type,
+        title: result.title,
+        snippet: result.snippet
+      })));
+    }
+
+    async function postJson(url, body) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body)
+      });
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(errorText || `${url} failed`);
+      }
+      return response.json();
     }
 
     async function askTrial(event) {
       event.preventDefault();
+      const question = document.getElementById("question").value.trim();
+      if (!question) return;
+
       askButton.disabled = true;
-      askButton.textContent = "Generating...";
+      askButton.textContent = "Asking...";
       answerBox.style.display = "grid";
-      answerText.textContent = "Running grounded retrieval and answer generation...";
+      answerMethod.textContent = "Retrieving";
+      answerText.textContent = "Retrieving evidence and generating a grounded response...";
       warningBox.innerHTML = "";
       citationList.innerHTML = "";
 
-      const payload = {
-        question: document.getElementById("question").value,
-        condition: trialMeta.condition_labels[0] || null,
-        phase: trialMeta.phases[0] || null,
-        study_type: trialMeta.study_type || null,
-        accepted_only: !!trialMeta.accepted,
-        year_2026_only: !!trialMeta.is_2026_relevant,
-        provider: "openai",
-        embedding_model: "text-embedding-3-small",
-        answer_model: "gpt-4o-mini",
-        lexical_weight: 0.4,
-        semantic_weight: 0.6,
-        retrieval_limit: 5
-      };
-
       try {
-        const response = await fetch("/api/v1/ask", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload)
-        });
-        if (!response.ok) {
-          const errorText = await response.text();
-          throw new Error(errorText || "Ask request failed");
-        }
-        const data = await response.json();
+        const payload = {
+          question,
+          ...baseFilters(),
+          retrieval_limit: 5,
+          provider: "openai",
+          embedding_model: "text-embedding-3-small",
+          answer_model: "gpt-4o-mini",
+          lexical_weight: 0.45,
+          semantic_weight: 0.55
+        };
+        const data = await postJson("/api/v1/ask", payload);
         renderAnswer(data);
       } catch (error) {
-        answerText.textContent = "The ask request failed.";
-        warningBox.innerHTML = `<div class="warning">${error.message}</div>`;
+        try {
+          const fallback = await postJson("/api/v1/search", {
+            query: question,
+            ...baseFilters(),
+            limit: 5
+          });
+          renderSearchFallback(fallback, error);
+        } catch (fallbackError) {
+          answerMethod.textContent = "Error";
+          answerText.textContent = "The ask request failed, and lexical fallback could not be retrieved.";
+          warningBox.innerHTML = `<div class="warning">${escapeHtml(fallbackError.message)}</div>`;
+        }
       } finally {
         askButton.disabled = false;
         askButton.textContent = "Ask with citations";

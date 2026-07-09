@@ -13,10 +13,10 @@ The queued ingestion path runs the full corpus expansion flow:
 
 ## Backend pieces
 
-- API endpoints in [main.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/app/main.py)
-- job service in [ingestion_job_service.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/app/services/ingestion_job_service.py)
-- worker entrypoint in [worker.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/app/worker.py)
-- job table migration in [002_ingestion_jobs.sql](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/apps/api/db/migrations/002_ingestion_jobs.sql)
+- API endpoints in [main.py](../apps/api/app/main.py)
+- job service in [ingestion_job_service.py](../apps/api/app/services/ingestion_job_service.py)
+- worker entrypoint in [worker.py](../apps/api/app/worker.py)
+- job table migration in [002_ingestion_jobs.sql](../apps/api/db/migrations/002_ingestion_jobs.sql)
 
 ## API endpoints
 

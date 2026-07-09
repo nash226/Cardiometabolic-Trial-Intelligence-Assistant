@@ -4,7 +4,7 @@ This is the first retrieval layer that queries the stored Postgres corpus direct
 
 ## Script
 
-- [scripts/db_hybrid_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/db_hybrid_search.py)
+- [scripts/db_hybrid_search.py](../scripts/db_hybrid_search.py)
 
 ## What it does
 
@@ -55,4 +55,4 @@ and then:
 
 That next semantic layer is now implemented in:
 
-- [scripts/db_semantic_search.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/db_semantic_search.py)
+- [scripts/db_semantic_search.py](../scripts/db_semantic_search.py)

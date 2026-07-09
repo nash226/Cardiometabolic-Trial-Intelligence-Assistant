@@ -18,7 +18,7 @@ That separation is deliberate. We want the first script to be easy to inspect an
 
 ## Script
 
-- [scripts/fetch_trials_raw.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/fetch_trials_raw.py)
+- [scripts/fetch_trials_raw.py](../scripts/fetch_trials_raw.py)
 
 ## Why this comes first
 
@@ -35,7 +35,7 @@ If we combine these too early, it becomes hard to learn what each layer is actua
 
 ## Output layout
 
-Each run creates a timestamped directory under [data/raw](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw):
+Each run creates a timestamped directory under [data/raw](../data/raw):
 
 ```text
 data/raw/

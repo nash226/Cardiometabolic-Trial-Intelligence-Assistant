@@ -6,17 +6,17 @@ The normalizer takes one raw ClinicalTrials.gov study record and maps it into a 
 
 ## Script
 
-- [scripts/normalize_trial.py](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/scripts/normalize_trial.py)
+- [scripts/normalize_trial.py](../scripts/normalize_trial.py)
 
 ## What it does
 
 Input:
 
-- one raw study JSON file from [data/raw](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/raw)
+- one raw study JSON file from [data/raw](../data/raw)
 
 Output:
 
-- one normalized JSON file in [data/normalized](/Users/nazeershaikh/Capstone/ai_week/Rag%20Project/data/normalized)
+- one normalized JSON file in [data/normalized](../data/normalized)
 
 The normalized payload currently contains:
 

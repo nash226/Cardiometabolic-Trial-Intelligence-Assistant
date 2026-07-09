@@ -1,7 +1,12 @@
 from __future__ import annotations
 
+import re
+
 from ..db.connection import get_connection
 from ..schemas.search import SearchRequest, SearchResponse, SearchResult
+
+
+TOKEN_PATTERN = re.compile(r"[a-zA-Z0-9][a-zA-Z0-9_-]*")
 
 
 def _build_where_clause(request: SearchRequest) -> tuple[str, list[object]]:
@@ -25,6 +30,17 @@ def _build_where_clause(request: SearchRequest) -> tuple[str, list[object]]:
     if not clauses:
         return "TRUE", params
     return " AND ".join(clauses), params
+
+
+def _fallback_tsquery(query: str) -> str | None:
+    terms = []
+    for token in TOKEN_PATTERN.findall(query.lower()):
+        if len(token) < 3:
+            continue
+        terms.append(token.replace("-", ""))
+    if not terms:
+        return None
+    return " | ".join(sorted(set(terms)))
 
 
 def search_trials(request: SearchRequest) -> SearchResponse:
@@ -62,6 +78,39 @@ def search_trials(request: SearchRequest) -> SearchResponse:
         LIMIT %s
     """
     params = [*where_params, request.query, request.query, request.limit]
+    fallback_query = _fallback_tsquery(request.query)
+    fallback_sql = f"""
+        WITH eligible_trials AS (
+            SELECT t.id, t.nct_id
+            FROM trials t
+            JOIN trial_validation tv ON tv.trial_id = t.id
+            WHERE {where_sql}
+        ),
+        ranked_chunks AS (
+            SELECT
+                tc.chunk_id,
+                tc.trial_nct_id,
+                tc.chunk_type,
+                tc.title,
+                tc.content,
+                tc.source_field_paths,
+                ts_rank_cd(tc.content_tsv, to_tsquery('english', %s)) AS score
+            FROM trial_chunks tc
+            JOIN eligible_trials et ON et.id = tc.trial_id
+            WHERE tc.content_tsv @@ to_tsquery('english', %s)
+        )
+        SELECT
+            chunk_id,
+            trial_nct_id,
+            chunk_type,
+            title,
+            content,
+            source_field_paths,
+            score
+        FROM ranked_chunks
+        ORDER BY score DESC, chunk_id ASC
+        LIMIT %s
+    """
 
     count_sql = f"""
         SELECT COUNT(*)
@@ -74,6 +123,9 @@ def search_trials(request: SearchRequest) -> SearchResponse:
         with conn.cursor() as cur:
             cur.execute(sql, params)
             rows = cur.fetchall()
+            if not rows and fallback_query:
+                cur.execute(fallback_sql, [*where_params, fallback_query, fallback_query, request.limit])
+                rows = cur.fetchall()
             cur.execute(count_sql, where_params)
             eligible_trial_count = int(cur.fetchone()[0])
 
